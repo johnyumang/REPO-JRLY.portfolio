@@ -3,6 +3,11 @@
   "entries": [
     {
       "date": "2026-10-31",
+      "what": "Hard rule added: John is never the bottleneck. Oracle deploy is now automatic via GitHub Actions (provision.sh + oracle-medusa.yml) once 3 secrets exist.",
+      "where": "main: ops/README.md, ops/deploy/oracle/, .github/workflows/oracle-medusa.yml"
+    },
+    {
+      "date": "2026-10-31",
       "what": "Oracle Always Free deploy kit for Medusa (one-command installer, Docker, auto-HTTPS). Fixed a production build bug (seed script outside rootDir) and Postgres SSL. Tested in Docker: build, migrate, seed, admin login, restart.",
       "where": "main: ops/deploy/oracle/"
     },

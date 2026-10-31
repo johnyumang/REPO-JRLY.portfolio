@@ -32,8 +32,8 @@
     },
     {
       "id": "K-003",
-      "title": "Create Oracle Always Free VM and run the Medusa installer (ops/deploy/oracle/README.md)",
-      "column": "doing",
+      "title": "Oracle one-time steps: signup + API key + 3 GitHub secrets (then auto-deploy)",
+      "column": "backlog",
       "priority": "high",
       "area": "Medusa",
       "owner": "John"
@@ -155,6 +155,15 @@
       "priority": "low",
       "area": "Ops",
       "owner": "John"
+    },
+    {
+      "id": "K-019",
+      "title": "Auto-deploy workflow: provisions Oracle VM + Medusa, retries capacity, updates status board",
+      "column": "done",
+      "priority": "high",
+      "area": "Medusa",
+      "owner": "Claude",
+      "done": "2026-10-31"
     }
   ]
 }

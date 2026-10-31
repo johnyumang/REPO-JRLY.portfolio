@@ -1,0 +1,97 @@
+name: Deploy Medusa (Oracle Always Free)
+
+# Fully automatic after the one-time secrets are added:
+#   OCI_CONFIG  — the "Configuration file preview" text from Oracle → My profile → API keys
+#   OCI_KEY     — the private key (.pem) downloaded in the same step
+#   MEDUSA_ADMIN_PASSWORD — admin login password (12+ chars, letters/numbers/-)
+#   MEDUSA_ADMIN_EMAIL    — optional, defaults to admin@jrly.local
+# Runs every 30 minutes until the VM exists (retries Oracle capacity), then just verifies it.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+  push:
+    branches: [main]
+    paths: [".github/workflows/oracle-medusa.yml", "ops/deploy/oracle/provision.sh"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oracle-medusa
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      HAS_OCI: ${{ secrets.OCI_CONFIG != '' && secrets.OCI_KEY != '' && secrets.MEDUSA_ADMIN_PASSWORD != '' }}
+    steps:
+      - name: Waiting for Oracle secrets
+        if: env.HAS_OCI != 'true'
+        run: echo "::notice::Add OCI_CONFIG, OCI_KEY and MEDUSA_ADMIN_PASSWORD in Settings → Secrets → Actions. Nothing to do yet."
+
+      - uses: actions/checkout@v4
+        if: env.HAS_OCI == 'true'
+
+      - name: Set up OCI CLI
+        if: env.HAS_OCI == 'true'
+        env:
+          OCI_CONFIG: ${{ secrets.OCI_CONFIG }}
+          OCI_KEY: ${{ secrets.OCI_KEY }}
+        run: |
+          pipx install oci-cli >/dev/null
+          mkdir -p ~/.oci
+          printf '%s\n' "$OCI_KEY" > ~/.oci/key.pem
+          chmod 600 ~/.oci/key.pem
+          printf '%s\n' "$OCI_CONFIG" | grep -v '^key_file' > ~/.oci/config
+          echo "key_file=$HOME/.oci/key.pem" >> ~/.oci/config
+          chmod 600 ~/.oci/config
+          oci setup repair-file-permissions --file ~/.oci/config >/dev/null 2>&1 || true
+
+      - name: Provision VM (idempotent)
+        id: vm
+        if: env.HAS_OCI == 'true'
+        env:
+          ADMIN_EMAIL: ${{ secrets.MEDUSA_ADMIN_EMAIL || 'admin@jrly.local' }}
+          ADMIN_PASSWORD: ${{ secrets.MEDUSA_ADMIN_PASSWORD }}
+        run: |
+          export USER_DATA=$RUNNER_TEMP/cloud-init.sh
+          {
+            echo '#!/bin/bash'
+            echo "export ADMIN_EMAIL='$ADMIN_EMAIL'"
+            echo "export ADMIN_PASSWORD='$ADMIN_PASSWORD'"
+            echo 'curl -fsSL https://raw.githubusercontent.com/johnyumang/REPO-JRLY.portfolio/main/ops/deploy/oracle/install.sh | bash'
+          } > "$USER_DATA"
+          bash ops/deploy/oracle/provision.sh
+
+      - name: Wait for Medusa health
+        if: env.HAS_OCI == 'true' && steps.vm.outputs.ip != ''
+        id: health
+        run: |
+          HOST="${{ steps.vm.outputs.ip }}"; HOST="${HOST//./-}.sslip.io"
+          echo "host=$HOST" >> "$GITHUB_OUTPUT"
+          for i in $(seq 1 60); do
+            if curl -fsS "https://$HOST/health" >/dev/null 2>&1; then echo "LIVE: https://$HOST/app"; echo "up=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+            sleep 20
+          done
+          echo "::warning::VM is up but Medusa is not healthy yet (first build can take 10–15 min). Next run re-checks."
+          echo "up=false" >> "$GITHUB_OUTPUT"
+
+      - name: Record live address on the status board
+        if: env.HAS_OCI == 'true' && steps.health.outputs.host != ''
+        run: |
+          HOST="${{ steps.health.outputs.host }}"
+          node -e '
+            const fs=require("fs"); const p="ops/systems.json"; const d=JSON.parse(fs.readFileSync(p,"utf8"));
+            const s=d.systems.find(x=>x.id==="medusa"); const host=process.argv[1];
+            s.link="https://"+host+"/app";
+            s.where="Oracle Cloud Always Free VM → https://"+host;
+            s.checks=[{type:"http",label:"API health",url:"https://"+host+"/health"},{type:"http",label:"Admin dashboard",url:"https://"+host+"/app"}];
+            s.fix="If down: Actions → Deploy Medusa (Oracle Always Free) → Run workflow. It re-checks the VM and reports.";
+            fs.writeFileSync(p,JSON.stringify(d,null,2)+"\n");
+          ' "$HOST"
+          if git diff --quiet; then exit 0; fi
+          git config user.name "jrly-deploy-bot"; git config user.email "jrly-deploy-bot@users.noreply.github.com"
+          git commit -am "Medusa live at https://$HOST (status board check added)" && git push

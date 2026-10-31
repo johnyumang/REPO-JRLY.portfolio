@@ -1,5 +1,20 @@
 # Medusa on Oracle Cloud Always Free — phone-only setup
 
+## Automatic route (recommended): 3 one-time steps, then Claude/GitHub do everything
+Only the steps that legally need you remain: your identity/card at Oracle and your GitHub secrets.
+1. **Oracle signup** (<https://signup.cloud.oracle.com>), home region **Singapore** or **Japan East**.
+2. **API key:** Oracle console → profile icon → **My profile → API keys → Add API key → Generate → Download private key → Add**. Copy the **Configuration file preview** text shown.
+3. **GitHub secrets:** repo → **Settings → Secrets and variables → Actions → New repository secret**, three times:
+   - `OCI_CONFIG` = the configuration preview text
+   - `OCI_KEY` = the full contents of the downloaded `.pem` file
+   - `MEDUSA_ADMIN_PASSWORD` = your admin password (12+ characters; letters, numbers, `-`; no `$`, quotes or spaces)
+
+The **Deploy Medusa (Oracle Always Free)** workflow then runs every 30 minutes. It creates the network, opens ports 80/443/22, launches the ARM VM (retrying until Oracle has capacity), installs Medusa and puts the live URL on the status board by itself. Admin login: `admin@jrly.local` (or the `MEDUSA_ADMIN_EMAIL` secret) plus your password.
+
+---
+
+## Manual route (fallback)
+
 **Cost:** ₱0. Oracle asks for a card to verify identity and puts a small temporary hold on it. Always Free resources are not charged.
 **Result:** Medusa admin and API live at `https://<your-ip>.sslip.io` with free HTTPS, always on, and 48 products already loaded.
 **Time:** about 20 minutes of tapping, then about 10 minutes of waiting.

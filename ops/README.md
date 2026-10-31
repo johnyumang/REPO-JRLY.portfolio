@@ -24,6 +24,8 @@ Everything here is free: public repo, GitHub Actions minutes and GitHub Pages.
 
 ## Rules that keep it recallable
 
+0. **John is never the bottleneck (hard rule).** Claude does every step it can. John only gets what physically needs him: identity, card or payment checks, account approvals and secrets. Those are batched into as few one-time steps as possible.
+
 1. Every change gets a line in `ops/log.json`. Bigger work also gets notes in `ops/log/<date>.md`.
 2. Every new system gets an entry in `ops/systems.json`, with a check if it has a URL, branch or PR.
 3. Every to-do becomes a Kaizen card. Nothing lives only in chat.
