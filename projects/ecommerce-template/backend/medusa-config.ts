@@ -26,6 +26,9 @@ const redisModules = redisUrl
 module.exports = defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
+    // Hosted Postgres (Neon, Supabase…) needs TLS. Set DATABASE_SSL=true there; leave unset for local Postgres.
+    databaseDriverOptions:
+      process.env.DATABASE_SSL === 'true' ? { connection: { ssl: { rejectUnauthorized: false } } } : {},
     redisUrl,
     workerMode: (process.env.MEDUSA_WORKER_MODE as 'shared' | 'worker' | 'server') || 'shared',
     http: {
@@ -38,7 +41,8 @@ module.exports = defineConfig({
   },
   admin: {
     disable: process.env.DISABLE_MEDUSA_ADMIN === 'true',
-    backendUrl: process.env.MEDUSA_BACKEND_URL,
+    // '/' = the admin talks to the server it is served from, so one image works on any domain.
+    backendUrl: process.env.MEDUSA_BACKEND_URL || '/',
   },
   modules: redisModules,
 })

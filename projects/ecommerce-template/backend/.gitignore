@@ -24,3 +24,5 @@ build
 !.yarn/versions
 
 .medusa
+# bundled at build time by scripts/sync-catalog.mjs
+/static
