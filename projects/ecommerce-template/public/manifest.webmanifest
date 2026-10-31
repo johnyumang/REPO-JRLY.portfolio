@@ -1,0 +1,9 @@
+{
+  "name": "[BRAND] Store",
+  "short_name": "[BRAND]",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F1A",
+  "theme_color": "#0B0F1A",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
