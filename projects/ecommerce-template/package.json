@@ -7,24 +7,32 @@
     "build": "next build && node scripts/gen-sw.mjs",
     "start": "npx serve out -l 3000",
     "check:contrast": "node scripts/contrast.mjs",
-    "test:visual": "node scripts/screenshots.mjs"
+    "test:visual": "node scripts/screenshots.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@fontsource-variable/inter-tight": "^5.3.0",
     "@fontsource/bodoni-moda": "^5.3.0",
+    "dexie": "^4.4.7",
     "gsap": "^3.13.0",
+    "msw": "^2.15.0",
     "next": "^15.5.28",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "autoprefixer": "^10.6.2",
+    "fake-indexeddb": "^6.2.7",
     "postcss": "^8.5.32",
     "serve": "^14.2.6",
     "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^5.0.5"
   }
 }

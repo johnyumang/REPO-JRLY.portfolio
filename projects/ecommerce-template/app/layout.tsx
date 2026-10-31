@@ -7,6 +7,7 @@ import { BagProvider } from '@/components/Bag';
 import { themeScript } from '@/components/ThemeToggle';
 import { BRAND } from '@/content/catalog';
 import SW from '@/components/SW';
+import DataBoot from '@/components/DataBoot';
 
 export const metadata: Metadata = {
   title: { default: `${BRAND} — New Collection`, template: `%s · ${BRAND}` },
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </BagProvider>
         <Motion />
         <SW />
+        <DataBoot />
       </body>
     </html>
   );
