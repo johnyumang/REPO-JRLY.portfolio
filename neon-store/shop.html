@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta:start (managed by tools/apply-meta.mjs) -->
+  <title>Shop compression sleeves, tops &amp; leggings — [BRAND NAME]</title>
+  <meta name="description" content="Shop arm compression sleeves, compression tops and leggings in Circuit, Glitch, Grid and Stealth designs. Filter by size, colour and design.">
+  <link rel="canonical" href="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shop.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="[BRAND NAME]">
+  <meta property="og:title" content="Shop compression sleeves, tops &amp; leggings — [BRAND NAME]">
+  <meta property="og:description" content="Shop arm compression sleeves, compression tops and leggings in Circuit, Glitch, Grid and Stealth designs. Filter by size, colour and design.">
+  <meta property="og:url" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shop.html">
+  <meta property="og:image" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/images/social/social_sq_products_activewear_flatlay_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta:end -->
+  <meta name="theme-color" content="#F5EFE6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-header></div>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero scanlines" aria-labelledby="shop-title">
+      <div class="bg"><img src="images/hero/gym_red_neon_interior_01.jpg" alt="" decoding="async"></div>
+      <div class="container">
+        <p class="eyebrow">Drop 01</p>
+        <h1 id="shop-title" class="h-display h-lg" data-c="copy.shop.title">Shop all</h1>
+        <p class="lead" data-c="copy.shop.text"></p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:24px" aria-label="Products">
+      <div class="container shop-layout">
+        <div>
+          <button class="btn btn-ghost btn-block filters-toggle" type="button" aria-expanded="false" aria-controls="filters" style="margin-bottom:12px">Filters</button>
+          <form id="filters" class="filters" aria-label="Filter products" hidden>
+            <fieldset><legend>Category</legend><div data-f="category"></div></fieldset>
+            <fieldset><legend>Size</legend><div class="chips" data-f="size"></div></fieldset>
+            <fieldset><legend>Colour</legend><div data-f="colour"></div></fieldset>
+            <fieldset><legend>Design</legend><div data-f="design"></div></fieldset>
+            <button class="btn btn-ghost btn-block" type="reset">Clear filters</button>
+          </form>
+        </div>
+
+        <div>
+          <div class="shop-toolbar">
+            <p class="result-count" role="status" aria-live="polite" data-count></p>
+            <div class="field" style="grid-auto-flow:column;align-items:center;gap:10px">
+              <label for="sort">Sort</label>
+              <select id="sort" class="select">
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="name">Name A–Z</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid-products" data-grid></div>
+          <p class="lead" data-empty hidden data-c="copy.shop.empty"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+  (function () {
+    var St = window.Store, S = St.S, esc = St.esc;
+    var form = document.getElementById('filters');
+    var allSizes = S.sizes.apparel;
+
+    function checks(name, items) {
+      return items.map(function (it, i) {
+        var id = 'f-' + name + '-' + i;
+        return '<label class="check" for="' + id + '"><input type="checkbox" id="' + id + '" name="' + name + '" value="' + esc(it.value) + '">' +
+          (it.swatch ? '<span class="swatch-dot" style="background:' + it.swatch + '" aria-hidden="true"></span>' : '') + '<span>' + esc(it.label) + '</span></label>';
+      }).join('');
+    }
+    form.querySelector('[data-f="category"]').innerHTML = checks('category', S.categories.map(function (c) { return { value: c.id, label: c.label }; }));
+    form.querySelector('[data-f="size"]').innerHTML = allSizes.map(function (s, i) {
+      return '<label class="chip" for="f-size-' + i + '"><input type="checkbox" id="f-size-' + i + '" name="size" value="' + s + '"><span>' + s + '</span></label>';
+    }).join('');
+    form.querySelector('[data-f="colour"]').innerHTML = checks('colour', Object.keys(S.colours).map(function (k) { return { value: k, label: S.colours[k].label, swatch: S.colours[k].accent }; }));
+    form.querySelector('[data-f="design"]').innerHTML = checks('design', Object.keys(S.designs).map(function (k) { return { value: k, label: S.designs[k] }; }));
+
+    /* Pre-select from URL (?category=leggings&design=glitch) */
+    var params = new URLSearchParams(location.search);
+    ['category', 'size', 'colour', 'design'].forEach(function (name) {
+      params.getAll(name).forEach(function (v) {
+        v.split(',').forEach(function (val) {
+          var box = form.querySelector('input[name="' + name + '"][value="' + CSS.escape(val) + '"]');
+          if (box) box.checked = true;
+        });
+      });
+    });
+    var sort = document.getElementById('sort');
+    if (params.get('sort')) sort.value = params.get('sort');
+
+    function selected(name) {
+      return Array.prototype.map.call(form.querySelectorAll('input[name="' + name + '"]:checked'), function (i) { return i.value; });
+    }
+    function render() {
+      var f = { category: selected('category'), size: selected('size'), colour: selected('colour'), design: selected('design') };
+      var list = St.products.filter(function (p) {
+        return (!f.category.length || f.category.indexOf(p.category) > -1) &&
+               (!f.design.length || f.design.indexOf(p.design) > -1) &&
+               (!f.size.length || f.size.some(function (s) { return p.sizes.indexOf(s) > -1; })) &&
+               (!f.colour.length || f.colour.some(function (c) { return p.colours.indexOf(c) > -1; }));
+      });
+      var by = sort.value;
+      if (by === 'price-asc') list = list.slice().sort(function (a, b) { return a.price - b.price; });
+      if (by === 'price-desc') list = list.slice().sort(function (a, b) { return b.price - a.price; });
+      if (by === 'name') list = list.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+      document.querySelector('[data-grid]').innerHTML = list.map(St.cardHTML).join('');
+      document.querySelector('[data-empty]').hidden = list.length > 0;
+      document.querySelector('[data-count]').textContent = list.length + ' product' + (list.length === 1 ? '' : 's');
+
+      var q = new URLSearchParams();
+      Object.keys(f).forEach(function (k) { if (f[k].length) q.set(k, f[k].join(',')); });
+      if (by !== 'featured') q.set('sort', by);
+      history.replaceState(null, '', location.pathname + (q.toString() ? '?' + q : ''));
+    }
+    form.addEventListener('change', render);
+    form.addEventListener('reset', function () { setTimeout(render, 0); });
+    sort.addEventListener('change', render);
+
+    var toggle = document.querySelector('.filters-toggle');
+    toggle.addEventListener('click', function () {
+      var open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      form.hidden = open;
+    });
+    render();
+  })();
+  </script>
+</body>
+</html>

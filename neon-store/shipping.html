@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta:start (managed by tools/apply-meta.mjs) -->
+  <title>Shipping, returns &amp; FAQ — [BRAND NAME]</title>
+  <meta name="description" content="Shipping times, free-shipping threshold, returns and exchanges, and answers to common questions about compression wear.">
+  <link rel="canonical" href="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shipping.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="[BRAND NAME]">
+  <meta property="og:title" content="Shipping, returns &amp; FAQ — [BRAND NAME]">
+  <meta property="og:description" content="Shipping times, free-shipping threshold, returns and exchanges, and answers to common questions about compression wear.">
+  <meta property="og:url" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shipping.html">
+  <meta property="og:image" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/images/packaging/packaging_unboxing_clothing_box_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta:end -->
+  <meta name="theme-color" content="#F5EFE6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-header></div>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero scanlines" aria-labelledby="ship-title">
+      <div class="bg"><img src="images/backgrounds/hero_neon_tube_lines_wide_01.jpg" alt="" decoding="async"></div>
+      <div class="container">
+        <p class="eyebrow">Help</p>
+        <h1 id="ship-title" class="h-display h-lg" data-c="copy.shippingPage.title">Shipping, returns & FAQ</h1>
+      </div>
+    </section>
+
+    <section id="shipping" class="section" style="padding-top:24px" aria-labelledby="s-title">
+      <div class="container split">
+        <div class="photo-grid">
+          <img class="tall" src="images/packaging/packaging_packing_garment_box_01.jpg" alt="Garment being packed into a box with tissue" loading="lazy" decoding="async">
+          <img src="images/packaging/packaging_taping_clothes_box_01.jpg" alt="Taping a box of clothes shut" loading="lazy" decoding="async">
+          <img src="images/packaging/packaging_wrapping_order_closeup_01.jpg" alt="Close-up of an order wrapped in paper" loading="lazy" decoding="async">
+        </div>
+        <div style="display:grid;gap:16px">
+          <h2 id="s-title" class="h-lg" data-c="copy.shippingPage.shippingTitle">Shipping</h2>
+          <ul class="tick-list" data-c-list="copy.shippingPage.shipping"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="returns" class="section tech" aria-labelledby="r-title">
+      <div class="container split reverse">
+        <div class="photo-grid">
+          <img src="images/packaging/packaging_unboxing_clothing_box_01.jpg" alt="Opening a box of folded clothing" loading="lazy" decoding="async">
+          <img src="images/packaging/packaging_hang_tag_labels_01.jpg" alt="Clothing hang tag with a string" loading="lazy" decoding="async">
+        </div>
+        <div style="display:grid;gap:16px">
+          <h2 id="r-title" class="h-lg" data-c="copy.shippingPage.returnsTitle">Returns & exchanges</h2>
+          <ul class="tick-list" data-c-list="copy.shippingPage.returns"></ul>
+          <a class="btn btn-ghost" href="contact.html" style="justify-self:start">Start a return</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="container" style="max-width:880px">
+        <h2 id="faq-title" class="h-lg" style="margin-bottom:24px" data-c="copy.shippingPage.faqTitle">FAQ</h2>
+        <div class="accordion" data-faq></div>
+        <p class="muted" style="margin-top:24px">Still stuck? <a href="contact.html">Contact us</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    (function () {
+      var St = window.Store;
+      document.querySelector('[data-faq]').innerHTML = St.S.faq.map(function (f) {
+        return '<details><summary>' + St.esc(St.fill(f.q)) + '</summary><div class="answer"><p>' + St.esc(St.fill(f.a)) + '</p></div></details>';
+      }).join('');
+      var ld = document.createElement('script');
+      ld.type = 'application/ld+json';
+      ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: St.S.faq.map(function (f) {
+        return { '@type': 'Question', name: St.fill(f.q), acceptedAnswer: { '@type': 'Answer', text: St.fill(f.a) } };
+      }) });
+      document.head.appendChild(ld);
+    })();
+  </script>
+</body>
+</html>

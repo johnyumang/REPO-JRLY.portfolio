@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta:start (managed by tools/apply-meta.mjs) -->
+  <title>Contact — [BRAND NAME]</title>
+  <meta name="description" content="Questions about sizing, orders or wholesale? Get in touch with [BRAND NAME].">
+  <link rel="canonical" href="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="[BRAND NAME]">
+  <meta property="og:title" content="Contact — [BRAND NAME]">
+  <meta property="og:description" content="Questions about sizing, orders or wholesale? Get in touch with [BRAND NAME].">
+  <meta property="og:url" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/contact.html">
+  <meta property="og:image" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/images/social/social_sq_athlete_man_compression_top_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta:end -->
+  <meta name="theme-color" content="#F5EFE6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-header></div>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero scanlines" aria-labelledby="contact-title">
+      <div class="bg"><img src="images/hero/city_neon_car_berlin_01.jpg" alt="" decoding="async"></div>
+      <div class="container">
+        <p class="eyebrow">Support</p>
+        <h1 id="contact-title" class="h-display h-xl" data-c="copy.contact.title">Contact</h1>
+        <p class="lead" data-c="copy.contact.text"></p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:24px">
+      <div class="container contact-grid">
+        <form class="contact-form" novalidate data-contact aria-labelledby="form-title">
+          <h2 id="form-title" class="h-md">Send a message</h2>
+          <div class="field">
+            <label for="c-name">Name</label>
+            <input class="input" id="c-name" name="name" type="text" autocomplete="name" required aria-describedby="c-name-err">
+            <p class="field-error" id="c-name-err" hidden>Enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="c-email">Email</label>
+            <input class="input" id="c-email" name="email" type="email" autocomplete="email" required aria-describedby="c-email-err">
+            <p class="field-error" id="c-email-err" hidden>Enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="c-topic">Topic</label>
+            <select class="select" id="c-topic" name="topic">
+              <option>Sizing help</option>
+              <option>Order status</option>
+              <option>Returns & exchanges</option>
+              <option>Wholesale</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="c-order">Order number (optional)</label>
+            <input class="input" id="c-order" name="order" type="text" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="c-msg">Message</label>
+            <textarea class="textarea" id="c-msg" name="message" required aria-describedby="c-msg-err"></textarea>
+            <p class="field-error" id="c-msg-err" hidden>Write a short message.</p>
+          </div>
+          <button class="btn btn-neon" type="submit" style="justify-self:start">Send message</button>
+          <p class="form-status" role="status" data-contact-status></p>
+        </form>
+
+        <aside aria-labelledby="social-title" style="display:grid;gap:20px;align-content:start">
+          <img src="images/on_model/model_futuristic_neon_portrait_01.jpg" alt="Futuristic neon portrait with visor" loading="lazy" decoding="async" style="border-radius:4px;border:1px solid var(--line);aspect-ratio:3/2;object-fit:cover;width:100%">
+          <div>
+            <h2 class="h-md" style="margin-bottom:8px">Email</h2>
+            <p><a data-email href="#"></a></p>
+          </div>
+          <div>
+            <h2 id="social-title" class="h-md" style="margin-bottom:12px">Follow the signal</h2>
+            <ul class="social-list" data-social></ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    (function () {
+      var St = window.Store, S = St.S;
+      var mail = document.querySelector('[data-email]');
+      mail.textContent = S.brand.email; mail.href = 'mailto:' + S.brand.email;
+      document.querySelector('[data-social]').innerHTML = S.social.map(function (s) {
+        return '<li><a href="' + St.esc(s.url) + '" rel="noopener" target="_blank">' + St.esc(s.label) + '<span class="sr-only"> (opens in a new tab)</span>' + St.icon.arrow + '</a></li>';
+      }).join('');
+
+      var form = document.querySelector('[data-contact]');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var checks = [
+          ['c-name', function (v) { return v.trim().length > 1; }],
+          ['c-email', function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); }],
+          ['c-msg', function (v) { return v.trim().length > 4; }]
+        ];
+        var firstBad = null;
+        checks.forEach(function (c) {
+          var el = document.getElementById(c[0]), ok = c[1](el.value);
+          el.setAttribute('aria-invalid', ok ? 'false' : 'true');
+          document.getElementById(c[0] + '-err').hidden = ok;
+          if (!ok && !firstBad) firstBad = el;
+        });
+        var status = document.querySelector('[data-contact-status]');
+        if (firstBad) { status.textContent = ''; firstBad.focus(); return; }
+        status.textContent = St.fill(S.copy.contact.success);
+        form.reset();
+      });
+    })();
+  </script>
+</body>
+</html>

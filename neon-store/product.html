@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta:start (managed by tools/apply-meta.mjs) -->
+  <title>Product — [BRAND NAME]</title>
+  <meta name="description" content="Cyberpunk compression wear with graduated compression, 4-way stretch and sweat-wicking fabric. Choose your size and colour.">
+  <link rel="canonical" href="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/product.html">
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="[BRAND NAME]">
+  <meta property="og:title" content="Product — [BRAND NAME]">
+  <meta property="og:description" content="Cyberpunk compression wear with graduated compression, 4-way stretch and sweat-wicking fabric. Choose your size and colour.">
+  <meta property="og:url" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/product.html">
+  <meta property="og:image" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/images/social/social_sq_products_activewear_flatlay_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta:end -->
+  <meta name="theme-color" content="#F5EFE6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-header></div>
+
+  <main id="main" tabindex="-1">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb" style="padding-top:20px">
+        <ol><li><a href="index.html">Home</a></li><li><a href="shop.html" data-crumb-cat>Shop</a></li><li aria-current="page" data-crumb-name></li></ol>
+      </nav>
+
+      <div class="pdp">
+        <!-- Gallery -->
+        <section aria-label="Product images">
+          <div class="gallery-main" data-gallery-main></div>
+          <ul class="thumbs" data-thumbs></ul>
+          <p class="muted" style="font-size:.85rem;margin-top:10px">Artwork placeholders — add real photos to this product's <code>images</code> list in config.js.</p>
+        </section>
+
+        <!-- Info -->
+        <div class="pdp-info">
+          <div style="display:grid;gap:10px">
+            <p class="eyebrow" data-p-cat></p>
+            <h1 class="h-display h-lg" data-p-name></h1>
+            <p class="pdp-price price" data-p-price></p>
+            <p class="lead" data-p-short></p>
+          </div>
+
+          <div>
+            <div class="opt-head"><span class="label" id="colour-label">Colour: <strong data-colour-name></strong></span></div>
+            <div class="radio-row" role="radiogroup" aria-labelledby="colour-label" data-colours></div>
+          </div>
+
+          <div>
+            <div class="opt-head">
+              <span class="label" id="size-label">Size: <strong data-size-name>Select</strong></span>
+              <button class="text-link" type="button" data-open-guide style="background:none;border:0;cursor:pointer;padding:0">Size guide</button>
+            </div>
+            <div class="radio-row" role="radiogroup" aria-labelledby="size-label" aria-required="true" aria-describedby="size-error" data-sizes></div>
+            <p id="size-error" class="size-error" role="alert" hidden>Choose a size first.</p>
+          </div>
+
+          <div class="buy-row">
+            <div class="qty" role="group" aria-label="Quantity">
+              <button type="button" data-q="-1" aria-label="Decrease quantity">−</button><output data-qty>1</output><button type="button" data-q="1" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn btn-neon" type="button" data-add>Add to cart</button>
+          </div>
+
+          <ul class="perks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg><span data-perk-ship></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12a8 8 0 1 0 3-6.2M4 4v4h4"/></svg><span data-perk-return></span></li>
+          </ul>
+
+          <div class="tabs">
+            <div role="tablist" aria-label="Product information">
+              <button role="tab" id="tab-details" aria-controls="panel-details" aria-selected="true" tabindex="0">Details</button>
+              <button role="tab" id="tab-fabric" aria-controls="panel-fabric" aria-selected="false" tabindex="-1">Fabric</button>
+              <button role="tab" id="tab-care" aria-controls="panel-care" aria-selected="false" tabindex="-1">Care</button>
+            </div>
+            <div role="tabpanel" id="panel-details" aria-labelledby="tab-details" tabindex="0"><ul class="tick-list" data-c-list="productInfo.details"></ul></div>
+            <div role="tabpanel" id="panel-fabric" aria-labelledby="tab-fabric" tabindex="0" hidden><ul class="tick-list" data-c-list="productInfo.fabric"></ul></div>
+            <div role="tabpanel" id="panel-care" aria-labelledby="tab-care" tabindex="0" hidden><ul class="tick-list" data-c-list="productInfo.care"></ul></div>
+          </div>
+
+          <div class="accordion">
+            <details>
+              <summary>Shipping</summary>
+              <div class="answer"><ul class="tick-list" data-c-list="copy.shippingPage.shipping"></ul></div>
+            </details>
+            <details>
+              <summary>Returns & exchanges</summary>
+              <div class="answer"><ul class="tick-list" data-c-list="copy.shippingPage.returns"></ul><p style="margin-top:12px"><a href="shipping.html#returns">Full returns policy</a></p></div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="related-title">
+      <div class="container">
+        <div class="section-head"><h2 id="related-title" class="h-lg">Complete the look</h2><a class="text-link" href="shop.html">Shop all</a></div>
+        <div class="grid-products" data-related></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="modal" id="size-guide" aria-labelledby="guide-title">
+    <div class="modal-head">
+      <h2 id="guide-title" class="h-md">Size guide</h2>
+      <button class="icon-btn" type="button" data-close-guide aria-label="Close size guide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="modal-body">
+      <p class="muted" data-c="sizeGuide.note"></p>
+      <div class="table-wrap" data-guide-table></div>
+    </div>
+  </dialog>
+
+  <div data-footer></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+  (function () {
+    var St = window.Store, S = St.S, esc = St.esc;
+    var id = new URLSearchParams(location.search).get('id');
+    var p = St.byId[id] || St.products[0];
+    var state = { colour: p.colours[0], size: null, qty: 1, view: 0 };
+    var $ = function (s) { return document.querySelector(s); };
+
+    document.title = p.name + ' — ' + S.brand.name;
+    var md = document.querySelector('meta[name="description"]'); if (md) md.setAttribute('content', p.short);
+    $('[data-crumb-cat]').textContent = St.categoryLabel(p.category);
+    $('[data-crumb-cat]').href = 'shop.html?category=' + p.category;
+    $('[data-crumb-name]').textContent = p.name;
+    $('[data-p-cat]').textContent = St.categoryLabel(p.category) + ' · ' + S.designs[p.design];
+    $('[data-p-name]').textContent = p.name;
+    $('[data-p-price]').innerHTML = St.priceHTML(p);
+    $('[data-p-short]').textContent = p.short;
+    $('[data-perk-ship]').textContent = St.fill('Free shipping over {freeShipping} · ships in {processingDays} business days');
+    $('[data-perk-return]').textContent = St.fill('{returnDays}-day returns on unworn items');
+
+    /* Gallery */
+    var views = [0, 1, 2];
+    function renderGallery() {
+      $('[data-gallery-main]').innerHTML = St.productMedia(p, state.colour, state.view);
+      $('[data-thumbs]').innerHTML = views.map(function (v) {
+        return '<li><button type="button" data-view="' + v + '" aria-label="Show image ' + (v + 1) + ' of ' + views.length + '"' + (v === state.view ? ' aria-current="true"' : '') + '>' + St.productMedia(p, state.colour, v) + '</button></li>';
+      }).join('');
+      Array.prototype.forEach.call($('[data-thumbs]').querySelectorAll('svg, img'), function (n) { n.setAttribute('aria-hidden', 'true'); });
+    }
+    $('[data-thumbs]').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-view]'); if (!b) return;
+      state.view = +b.getAttribute('data-view'); renderGallery();
+      $('[data-thumbs] [data-view="' + state.view + '"]').focus();
+    });
+
+    /* Radio groups with roving tabindex */
+    function radioGroup(container, items, current, onPick) {
+      container.innerHTML = items.map(function (it) {
+        return '<button type="button" role="radio" class="radio-btn" data-v="' + esc(it.value) + '" aria-checked="' + (it.value === current) + '" aria-label="' + esc(it.aria || it.label) + '">' +
+          (it.swatch ? '<span class="swatch-dot" style="background:' + it.swatch + '" aria-hidden="true"></span>' : '') + (it.hideText ? '' : '<span aria-hidden="' + (it.aria ? 'true' : 'false') + '">' + esc(it.label) + '</span>') + '</button>';
+      }).join('');
+      var btns = Array.prototype.slice.call(container.querySelectorAll('[role="radio"]'));
+      function sync() {
+        var on = btns.filter(function (b) { return b.getAttribute('aria-checked') === 'true'; })[0] || btns[0];
+        btns.forEach(function (b) { b.tabIndex = b === on ? 0 : -1; });
+      }
+      function pick(b, focus) {
+        btns.forEach(function (x) { x.setAttribute('aria-checked', String(x === b)); });
+        sync(); if (focus) b.focus(); onPick(b.getAttribute('data-v'));
+      }
+      container.addEventListener('click', function (e) { var b = e.target.closest('[role="radio"]'); if (b) pick(b, false); });
+      container.addEventListener('keydown', function (e) {
+        var i = btns.indexOf(document.activeElement); if (i < 0) return;
+        var n = { ArrowRight: i + 1, ArrowDown: i + 1, ArrowLeft: i - 1, ArrowUp: i - 1, Home: 0, End: btns.length - 1 }[e.key];
+        if (e.key === ' ' || e.key === 'Enter') n = i;
+        if (n === undefined) return;
+        e.preventDefault(); pick(btns[(n + btns.length) % btns.length], true);
+      });
+      sync();
+    }
+    radioGroup($('[data-colours]'), p.colours.map(function (k) { return { value: k, label: S.colours[k].label, swatch: S.colours[k].accent, hideText: true }; }), state.colour, function (v) {
+      state.colour = v; $('[data-colour-name]').textContent = S.colours[v].label; renderGallery();
+    });
+    radioGroup($('[data-sizes]'), p.sizes.map(function (s) { return { value: s, label: s, aria: 'Size ' + s }; }), null, function (v) {
+      state.size = v; $('[data-size-name]').textContent = v; $('#size-error').hidden = true;
+    });
+    $('[data-colour-name]').textContent = S.colours[state.colour].label;
+
+    /* Quantity */
+    function renderQty() {
+      $('[data-qty]').textContent = state.qty;
+      $('[data-q="-1"]').disabled = state.qty <= 1;
+      $('[data-q="1"]').disabled = state.qty >= 10;
+    }
+    document.querySelectorAll('[data-q]').forEach(function (b) {
+      b.addEventListener('click', function () { state.qty = Math.max(1, Math.min(10, state.qty + +b.getAttribute('data-q'))); renderQty(); });
+    });
+    renderQty();
+
+    /* Add to cart */
+    $('[data-add]').addEventListener('click', function () {
+      if (!state.size) {
+        $('#size-error').hidden = false;
+        var first = $('[data-sizes] [role="radio"]'); if (first) first.focus();
+        return;
+      }
+      St.add(p.id, state.colour, state.size, state.qty, { quiet: true });
+      St.openCart();
+    });
+
+    /* Tabs */
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+    function selectTab(t) {
+      tabs.forEach(function (x) {
+        var on = x === t;
+        x.setAttribute('aria-selected', String(on)); x.tabIndex = on ? 0 : -1;
+        document.getElementById(x.getAttribute('aria-controls')).hidden = !on;
+      });
+      t.focus();
+    }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function () { selectTab(t); });
+      t.addEventListener('keydown', function (e) {
+        var n = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+        if (n === undefined) return; e.preventDefault(); selectTab(tabs[(n + tabs.length) % tabs.length]);
+      });
+    });
+
+    /* Size guide modal (native dialog: focus trap + Esc built in) */
+    var g = S.sizeGuide, table = p.category === 'sleeves' ? g.sleeves : g.apparel;
+    $('[data-guide-table]').innerHTML = '<table class="size-table"><caption>' + esc(p.category === 'sleeves' ? 'Arm sleeves (cm)' : 'Tops & leggings (cm)') + '</caption><thead><tr>' +
+      table.headers.map(function (h) { return '<th scope="col">' + esc(h) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+      table.rows.map(function (r) { return '<tr>' + r.map(function (c, i) { return i === 0 ? '<th scope="row">' + esc(c) + '</th>' : '<td>' + esc(c) + '</td>'; }).join('') + '</tr>'; }).join('') +
+      '</tbody></table>';
+    var dlg = document.getElementById('size-guide'), opener = $('[data-open-guide]');
+    opener.addEventListener('click', function () { dlg.showModal(); });
+    $('[data-close-guide]').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', function () { opener.focus(); });
+    if (location.hash === '#size-guide') dlg.showModal();
+
+    /* Related */
+    var related = St.products.filter(function (x) { return x.id !== p.id && (x.design === p.design || x.category !== p.category); }).slice(0, 3);
+    $('[data-related]').innerHTML = related.map(St.cardHTML).join('');
+
+    /* Structured data for search engines */
+    var ld = document.createElement('script');
+    ld.type = 'application/ld+json';
+    ld.textContent = JSON.stringify({
+      '@context': 'https://schema.org', '@type': 'Product', name: p.name, description: p.short,
+      brand: { '@type': 'Brand', name: S.brand.name }, sku: p.id,
+      offers: { '@type': 'Offer', priceCurrency: S.currency.code, price: p.price, availability: 'https://schema.org/InStock' }
+    });
+    document.head.appendChild(ld);
+
+    renderGallery();
+  })();
+  </script>
+</body>
+</html>

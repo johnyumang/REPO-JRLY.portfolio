@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta:start (managed by tools/apply-meta.mjs) -->
+  <title>Lookbook — [BRAND NAME]</title>
+  <meta name="description" content="Drop 01 lookbook: compression sleeves, tops and leggings shot under neon after dark.">
+  <link rel="canonical" href="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/lookbook.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="[BRAND NAME]">
+  <meta property="og:title" content="Lookbook — [BRAND NAME]">
+  <meta property="og:description" content="Drop 01 lookbook: compression sleeves, tops and leggings shot under neon after dark.">
+  <meta property="og:url" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/lookbook.html">
+  <meta property="og:image" content="https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/images/social/social_4x5_model_black_bodysuit_neon_01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- meta:end -->
+  <meta name="theme-color" content="#F5EFE6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&family=Rajdhani:wght@600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-header></div>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero scanlines" aria-labelledby="lb-title">
+      <div class="bg"><img src="images/hero/city_neon_signs_alley_01.jpg" alt="" decoding="async"></div>
+      <div class="container">
+        <p class="eyebrow">Drop 01 — Night Circuit</p>
+        <h1 id="lb-title" class="h-display h-xl glitch" data-c="copy.lookbook.title" data-text="Lookbook">Lookbook</h1>
+        <p class="lead" data-c="copy.lookbook.text"></p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:16px" aria-label="Lookbook gallery">
+      <div class="container">
+        <div class="masonry" data-masonry></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    (function () {
+      var St = window.Store;
+      document.querySelector('[data-masonry]').innerHTML = St.S.lookbook.map(function (l, i) {
+        var label = St.categoryLabel(l.shop);
+        return '<figure><a href="shop.html?category=' + encodeURIComponent(l.shop) + '"><img src="' + St.esc(l.src) + '" alt="' + St.esc(l.alt) + '"' + (i > 3 ? ' loading="lazy"' : '') + ' decoding="async"><figcaption>Shop ' + St.esc(label) + '</figcaption></a></figure>';
+      }).join('');
+    })();
+  </script>
+</body>
+</html>
