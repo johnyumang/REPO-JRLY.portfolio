@@ -1,0 +1,143 @@
+{
+  "_readme": "Kaizen board. Move a card by changing its column: backlog | doing | done. Priority: high | med | low. The status page shows this board; edit on GitHub (pencil icon) and it updates within the hour or on the next push.",
+  "columns": [
+    "backlog",
+    "doing",
+    "done"
+  ],
+  "cards": [
+    {
+      "id": "K-001",
+      "title": "Revoke the NVIDIA API key shared in chat",
+      "column": "backlog",
+      "priority": "high",
+      "area": "Security",
+      "owner": "John"
+    },
+    {
+      "id": "K-016",
+      "title": "Store Nemotron API key in GitHub Secrets / .env (never in git or chat)",
+      "column": "backlog",
+      "priority": "high",
+      "area": "Security",
+      "owner": "John"
+    },
+    {
+      "id": "K-002",
+      "title": "Review and merge PR #1 (Phase 1 design), then PR #2",
+      "column": "backlog",
+      "priority": "high",
+      "area": "E-commerce template",
+      "owner": "John"
+    },
+    {
+      "id": "K-003",
+      "title": "Choose permanent free hosting for Medusa (own PC or free tier)",
+      "column": "backlog",
+      "priority": "high",
+      "area": "Medusa",
+      "owner": "John"
+    },
+    {
+      "id": "K-004",
+      "title": "Neon store: pick checkout mode (A waitlist / B Messenger + GCash)",
+      "column": "backlog",
+      "priority": "high",
+      "area": "Neon store",
+      "owner": "John"
+    },
+    {
+      "id": "K-005",
+      "title": "Neon store: set brand name, PHP prices, email, socials in config.js",
+      "column": "backlog",
+      "priority": "med",
+      "area": "Neon store",
+      "owner": "John"
+    },
+    {
+      "id": "K-006",
+      "title": "Neon store: replace stock photos that show other brands' logos",
+      "column": "backlog",
+      "priority": "med",
+      "area": "Neon store",
+      "owner": "John"
+    },
+    {
+      "id": "K-007",
+      "title": "Portfolio: send LinkedIn + Upwork URLs, then publish",
+      "column": "backlog",
+      "priority": "med",
+      "area": "Portfolio",
+      "owner": "John"
+    },
+    {
+      "id": "K-008",
+      "title": "Define Kaizen, Neo Cortex, Musk and Hermes agents (roles + Nemotron API, free)",
+      "column": "backlog",
+      "priority": "high",
+      "area": "Ops",
+      "owner": "John + Claude"
+    },
+    {
+      "id": "K-009",
+      "title": "Phase 3: build auth screens from the Design canvas",
+      "column": "backlog",
+      "priority": "med",
+      "area": "E-commerce template",
+      "owner": "Claude"
+    },
+    {
+      "id": "K-010",
+      "title": "Fix the invalid GitHub token in cloud sessions (gh CLI)",
+      "column": "backlog",
+      "priority": "low",
+      "area": "Ops",
+      "owner": "John"
+    },
+    {
+      "id": "K-011",
+      "title": "Medusa backend running in session with admin login (48 products)",
+      "column": "done",
+      "priority": "high",
+      "area": "Medusa",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    },
+    {
+      "id": "K-012",
+      "title": "Neon store live on GitHub Pages",
+      "column": "done",
+      "priority": "high",
+      "area": "Neon store",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    },
+    {
+      "id": "K-013",
+      "title": "Phase 3 auth designs (6 screens, 2 widths, 2 themes)",
+      "column": "done",
+      "priority": "med",
+      "area": "E-commerce template",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    },
+    {
+      "id": "K-014",
+      "title": "Status board + Kaizen board + ops docs",
+      "column": "done",
+      "priority": "high",
+      "area": "Ops",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    },
+    {
+      "id": "K-015",
+      "title": "Kinetic Lab page saved to repo",
+      "column": "done",
+      "priority": "low",
+      "area": "Kinetic Lab",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    }
+  ]
+}

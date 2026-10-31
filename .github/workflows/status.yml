@@ -1,0 +1,54 @@
+name: Status board
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # every hour
+  push:
+    branches: [main]
+    paths: ["ops/**", ".github/workflows/status.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: status-board
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Check out gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run health checks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p site/status
+          cp main/ops/status-page/index.html site/status/index.html
+          node main/ops/check.mjs site/status/status.json
+
+      - name: Publish to gh-pages
+        working-directory: site
+        run: |
+          git config user.name "jrly-status-bot"
+          git config user.email "jrly-status-bot@users.noreply.github.com"
+          git add status
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git commit -m "Status board update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

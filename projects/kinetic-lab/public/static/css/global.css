@@ -1,0 +1,538 @@
+/* ==========================================================================
+   KINETIC LAB — Extended Design Manifest
+   Tokens, component primitives, container queries, motion.
+   Loaded after the Tailwind Play CDN so these rules win on conflicts.
+   ========================================================================== */
+
+:root {
+  /* Core surfaces */
+  --kl-bg: #0A0A0A;            /* Pure Dark Obsidian */
+  --kl-surface: #121212;       /* Obsidian Enclosure */
+  --kl-surface-2: #1A1A1A;     /* Dark Charcoal Slate */
+  --kl-line: #2A2A2A;          /* hairlines, decorative only */
+  --kl-line-strong: #6B6B6B;   /* control edges, 3.6:1 on bg (WCAG 1.4.11) */
+
+  /* Type */
+  --kl-text: #FFFFFF;          /* 19.8:1 on bg */
+  --kl-muted: #A3A3A3;         /* 7.8:1 on bg, 6.9:1 on surface-2 */
+
+  /* High-signal accent — active, interactive, hover, validation only */
+  --kl-volt: #D4FF00;          /* 17.1:1 on bg; text on volt is always bg */
+  --kl-on-volt: #0A0A0A;
+
+  /* Shoe colorway fills (product data, not UI accents) */
+  --kl-shoe-volt: #D4FF00;
+  --kl-shoe-white: #F2F2F2;
+
+  /* Geometry */
+  --kl-radius: 14px;
+  --kl-radius-pill: 999px;
+  --kl-focus: 3px;
+  --kl-header-h: 72px;
+
+  /* Motion */
+  --kl-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --kl-fast: 160ms;
+  --kl-med: 320ms;
+
+  color-scheme: dark;
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-padding-top: calc(var(--kl-header-h) + 16px); }
+
+body {
+  margin: 0;
+  background: var(--kl-bg);
+  color: var(--kl-text);
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.kl-display {
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+}
+
+.kl-mono {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+}
+
+.kl-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--kl-muted);
+}
+
+/* Visible focus on every interactive control */
+:where(a, button, [role="radio"], [tabindex]):focus { outline: none; }
+:where(a, button, [role="radio"], [tabindex]):focus-visible {
+  outline: var(--kl-focus) solid var(--kl-volt);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.kl-skip {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 100;
+  padding: 14px 20px;
+  background: var(--kl-volt);
+  color: var(--kl-on-volt);
+  font-weight: 700;
+  border-radius: var(--kl-radius-pill);
+  text-decoration: none;
+}
+.kl-skip:focus-visible { top: 12px; }
+
+.kl-sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation — glass header + cart badge
+   -------------------------------------------------------------------------- */
+.kl-glass {
+  background: rgba(10, 10, 10, 0.72);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
+  backdrop-filter: saturate(160%) blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .kl-glass { background: rgba(10, 10, 10, 0.96); }
+}
+
+.kl-navlink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 14px;
+  color: var(--kl-muted);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color var(--kl-fast) var(--kl-ease);
+}
+.kl-navlink:hover,
+.kl-navlink[aria-current="page"] { color: var(--kl-volt); }
+
+.kl-cart-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 0 18px;
+  background: var(--kl-surface-2);
+  color: var(--kl-text);
+  border: 1px solid var(--kl-line-strong);
+  border-radius: var(--kl-radius-pill);
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color var(--kl-fast) var(--kl-ease), color var(--kl-fast) var(--kl-ease);
+}
+.kl-cart-btn:hover { border-color: var(--kl-volt); color: var(--kl-volt); }
+
+.kl-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--kl-volt);
+  color: var(--kl-on-volt);
+  border-radius: var(--kl-radius-pill);
+  font-size: 0.75rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  transform: scale(0);
+  transition: transform var(--kl-med) var(--kl-ease);
+}
+.kl-badge[data-visible="true"] { transform: scale(1); }
+.kl-badge.is-bumping { animation: kl-badge-pop var(--kl-med) var(--kl-ease); }
+
+@keyframes kl-badge-pop {
+  0%   { transform: scale(0.4); }
+  60%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+
+/* --------------------------------------------------------------------------
+   Configurator — HUD frame
+   -------------------------------------------------------------------------- */
+.kl-hud {
+  position: relative;
+  background:
+    linear-gradient(var(--kl-line) 1px, transparent 1px) 0 0 / 40px 40px,
+    linear-gradient(90deg, var(--kl-line) 1px, transparent 1px) 0 0 / 40px 40px,
+    var(--kl-surface);
+  border: 1px solid var(--kl-line);
+  border-radius: var(--kl-radius);
+  overflow: hidden;
+}
+.kl-hud::before,
+.kl-hud::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-color: var(--kl-text);
+  border-style: solid;
+  pointer-events: none;
+}
+.kl-hud::before { top: 14px; left: 14px; border-width: 2px 0 0 2px; }
+.kl-hud::after  { bottom: 14px; right: 14px; border-width: 0 2px 2px 0; }
+
+.kl-hud-readout {
+  background: rgba(10, 10, 10, 0.86);
+  border: 1px solid var(--kl-line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.kl-shoe { width: 100%; height: auto; display: block; }
+.kl-shoe-upper { transition: fill var(--kl-med) var(--kl-ease); }
+
+/* --------------------------------------------------------------------------
+   Custom radio groups (role="radio" buttons with aria-checked)
+   -------------------------------------------------------------------------- */
+.kl-radio {
+  min-height: 48px;
+  min-width: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 14px;
+  background: var(--kl-surface-2);
+  color: var(--kl-text);
+  border: 1px solid var(--kl-line-strong);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  transition: border-color var(--kl-fast) var(--kl-ease), background-color var(--kl-fast) var(--kl-ease), color var(--kl-fast) var(--kl-ease);
+}
+.kl-radio:hover:not([aria-disabled="true"]) { border-color: var(--kl-volt); }
+.kl-radio[aria-checked="true"] {
+  background: var(--kl-volt);
+  border-color: var(--kl-volt);
+  color: var(--kl-on-volt);
+}
+.kl-radio[aria-disabled="true"] {
+  cursor: not-allowed;
+  color: var(--kl-muted);
+  background: var(--kl-surface);
+  text-decoration: line-through;
+}
+
+.kl-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--kl-bg);
+  box-shadow: 0 0 0 1px var(--kl-line-strong);
+  flex-shrink: 0;
+}
+
+.kl-group[data-invalid="true"] .kl-radio:not([aria-disabled="true"]) { border-color: var(--kl-text); border-style: dashed; }
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.kl-cta {
+  min-height: 56px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 28px;
+  background: var(--kl-text);
+  color: var(--kl-bg);
+  border: 2px solid var(--kl-text);
+  border-radius: var(--kl-radius-pill);
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0ms, color 0ms, border-color 0ms;
+}
+.kl-cta:hover:not(:disabled) { background: var(--kl-volt); border-color: var(--kl-volt); color: var(--kl-on-volt); }
+.kl-cta:disabled {
+  background: var(--kl-surface-2);
+  border-color: var(--kl-line-strong);
+  color: var(--kl-muted);
+  cursor: not-allowed;
+}
+
+.kl-ghost {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  background: transparent;
+  color: var(--kl-text);
+  border: 1px solid var(--kl-line-strong);
+  border-radius: var(--kl-radius-pill);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.kl-ghost:hover { border-color: var(--kl-volt); color: var(--kl-volt); }
+
+.kl-icon-btn {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--kl-text);
+  border: 1px solid var(--kl-line-strong);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.kl-icon-btn:hover { border-color: var(--kl-volt); color: var(--kl-volt); }
+
+.kl-validate {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--kl-volt);
+  border-radius: var(--kl-radius-pill);
+  color: var(--kl-volt);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------
+   Telemetry bento — native container queries
+   -------------------------------------------------------------------------- */
+.kl-bento-wrap {
+  container-type: inline-size;
+  container-name: telemetry;
+}
+
+.kl-bento {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "mass"
+    "elastic"
+    "foam"
+    "plate";
+}
+
+.kl-panel {
+  container-type: inline-size;
+  container-name: panel;
+  position: relative;
+  background: var(--kl-surface);
+  border: 1px solid var(--kl-line);
+  border-radius: var(--kl-radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+.kl-panel--mass    { grid-area: mass; }
+.kl-panel--elastic { grid-area: elastic; }
+.kl-panel--foam    { grid-area: foam; background: var(--kl-surface-2); }
+.kl-panel--plate   { grid-area: plate; }
+
+.kl-metric {
+  font-size: clamp(2.75rem, 14cqi, 5.5rem);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+  font-variant-numeric: tabular-nums;
+}
+.kl-metric small {
+  font-size: 0.35em;
+  font-style: normal;
+  letter-spacing: 0;
+  color: var(--kl-muted);
+  margin-left: 4px;
+}
+
+@container telemetry (min-width: 640px) {
+  .kl-bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "mass elastic"
+      "foam foam"
+      "plate plate";
+  }
+}
+
+@container telemetry (min-width: 1024px) {
+  .kl-bento {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas:
+      "mass mass foam foam"
+      "elastic elastic foam foam"
+      "plate plate plate plate";
+  }
+}
+
+/* Panel-level container query: plate profile switches from stacked to row */
+.kl-plate-layout { display: flex; flex-direction: column; gap: 20px; }
+@container panel (min-width: 720px) {
+  .kl-plate-layout { flex-direction: row; align-items: center; }
+  .kl-plate-layout > svg { flex: 1 1 60%; }
+  .kl-plate-layout > .kl-plate-meter { flex: 1 1 40%; }
+}
+
+.kl-meter-track {
+  position: relative;
+  height: 14px;
+  background: var(--kl-surface-2);
+  border: 1px solid var(--kl-line-strong);
+  border-radius: var(--kl-radius-pill);
+  overflow: hidden;
+}
+.kl-meter-fill {
+  height: 100%;
+  width: 0;
+  background: var(--kl-volt);
+  border-radius: var(--kl-radius-pill);
+  transition: width 900ms var(--kl-ease);
+}
+
+/* --------------------------------------------------------------------------
+   Cart drawer
+   -------------------------------------------------------------------------- */
+.kl-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(0, 0, 0, 0.64);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--kl-med) var(--kl-ease);
+}
+.kl-scrim[data-open="true"] { opacity: 1; pointer-events: auto; }
+
+.kl-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 70;
+  width: min(440px, 100vw);
+  display: flex;
+  flex-direction: column;
+  background: var(--kl-surface);
+  border-left: 1px solid var(--kl-line);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform var(--kl-med) var(--kl-ease), visibility 0s linear var(--kl-med);
+}
+.kl-drawer[data-open="true"] {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform var(--kl-med) var(--kl-ease), visibility 0s;
+}
+
+.kl-line-item {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--kl-line);
+}
+.kl-thumb {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: var(--kl-surface-2);
+  border: 1px solid var(--kl-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kl-stepper {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--kl-line-strong);
+  border-radius: var(--kl-radius-pill);
+}
+.kl-stepper button {
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: 0;
+  color: var(--kl-text);
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.kl-stepper button:hover:not(:disabled) { color: var(--kl-volt); }
+.kl-stepper button:disabled { color: var(--kl-line-strong); cursor: not-allowed; }
+.kl-stepper output { min-width: 28px; text-align: center; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* --------------------------------------------------------------------------
+   Reduced motion
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Forced colors (Windows High Contrast) — keep states perceivable */
+@media (forced-colors: active) {
+  .kl-radio[aria-checked="true"] { outline: 3px solid CanvasText; }
+  .kl-badge { border: 1px solid CanvasText; }
+}

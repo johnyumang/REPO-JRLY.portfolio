@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JRLY Status Board</title>
+  <meta name="description" content="One-look status of every JRLY system, the Kaizen board and the work log.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232A2420'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%233FA35A'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #F5EFE6; --surface: #FFFFFF; --line: #E2D8C8; --text: #2A2420; --muted: #6B6052;
+      --ok: #1F7A3E; --ok-bg: #E3F2E7; --warn: #8A5A00; --warn-bg: #FBEFD5; --down: #A33A24; --down-bg: #F8E1DB;
+      --accent: #7A5C38;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #17140F; --surface: #221E18; --line: #3A332A; --text: #F3ECE2; --muted: #BDB2A2;
+        --ok: #6FD08F; --ok-bg: #18301F; --warn: #F2C063; --warn-bg: #362A12; --down: #FF8F78; --down-bg: #3A1D17; --accent: #D9B887;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    a { color: var(--accent); }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 56px; }
+    header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; margin-bottom: 18px; }
+    h1 { margin: 0; font-size: 1.6rem; letter-spacing: -.01em; }
+    h2 { margin: 0 0 12px; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    .meta { color: var(--muted); font-size: .88rem; }
+    .banner { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 18px 20px; border-radius: 12px; margin-bottom: 20px; border: 1px solid var(--line); background: var(--surface); }
+    .banner strong { font-size: 1.35rem; }
+    .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-weight: 700; font-size: .82rem; white-space: nowrap; }
+    .pill.ok { color: var(--ok); background: var(--ok-bg); } .pill.warn { color: var(--warn); background: var(--warn-bg); } .pill.down { color: var(--down); background: var(--down-bg); }
+    .pill::before { font-size: .9em; } .pill.ok::before { content: "●"; } .pill.warn::before { content: "▲"; } .pill.down::before { content: "■"; }
+    .counts { display: flex; gap: 8px; flex-wrap: wrap; margin-left: auto; }
+    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); margin-bottom: 28px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 10px; align-content: start; border-top: 4px solid var(--line); }
+    .card.ok { border-top-color: var(--ok); } .card.warn { border-top-color: var(--warn); } .card.down { border-top-color: var(--down); }
+    .card h3 { margin: 0; font-size: 1.02rem; }
+    .card .kind { color: var(--muted); font-size: .82rem; }
+    .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+    .checks li { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: start; font-size: .9rem; }
+    .checks .note { grid-column: 2; color: var(--muted); font-size: .82rem; }
+    .fix { font-size: .85rem; background: var(--bg); border-radius: 8px; padding: 8px 10px; }
+    .fix b { color: var(--text); }
+    .where { font-size: .8rem; color: var(--muted); }
+    .board { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); margin-bottom: 28px; }
+    .col { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+    .col h3 { margin: 0 0 10px; font-size: .9rem; text-transform: uppercase; letter-spacing: .08em; display: flex; justify-content: space-between; }
+    .k { border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin-bottom: 8px; display: grid; gap: 4px; background: var(--bg); }
+    .k .t { font-weight: 600; font-size: .92rem; }
+    .k .m { font-size: .78rem; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+    .pri-high { color: var(--down); font-weight: 700; } .pri-med { color: var(--warn); font-weight: 700; } .pri-low { color: var(--muted); font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: .88rem; }
+    th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; }
+    .scroll { overflow-x: auto; margin-bottom: 28px; }
+    .links { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+    .links a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); text-decoration: none; font-weight: 600; }
+    .err { padding: 16px; border-radius: 12px; background: var(--down-bg); color: var(--down); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>JRLY Status Board</h1>
+        <p class="meta" id="updated">Loading…</p>
+      </div>
+      <p class="meta">Auto-checked every hour · <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/actions">Re-run check</a></p>
+    </header>
+
+    <section class="banner" id="banner" aria-live="polite"></section>
+
+    <section aria-labelledby="sys-h">
+      <h2 id="sys-h">Systems</h2>
+      <div class="grid" id="systems"></div>
+    </section>
+
+    <section aria-labelledby="kz-h">
+      <h2 id="kz-h">Kaizen board</h2>
+      <div class="board" id="kaizen"></div>
+    </section>
+
+    <section aria-labelledby="log-h">
+      <h2 id="log-h">Work log</h2>
+      <div class="scroll"><table><thead><tr><th scope="col">Date</th><th scope="col">What changed</th><th scope="col">Where</th></tr></thead><tbody id="log"></tbody></table></div>
+    </section>
+
+    <section aria-labelledby="docs-h">
+      <h2 id="docs-h">Docs</h2>
+      <nav class="links" aria-label="Documentation">
+        <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/blob/main/ops/README.md">Ops README</a>
+        <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/blob/main/ops/HANDOVER.md">Handover</a>
+        <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/tree/main/ops/log">Session logs</a>
+        <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/blob/main/ops/kaizen.json">Edit Kaizen board</a>
+        <a href="https://github.com/johnyumang/REPO-JRLY.portfolio/blob/main/ops/systems.json">Edit systems</a>
+      </nav>
+    </section>
+  </div>
+
+  <script>
+  (function () {
+    var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+    var label = { ok: 'OK', warn: 'Needs attention', down: 'Problem' };
+    var pill = function (s, text) { return '<span class="pill ' + s + '">' + esc(text || label[s]) + '</span>'; };
+
+    fetch('status.json', { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(render).catch(function (e) {
+      document.getElementById('banner').innerHTML = '<p class="err">Could not load status.json (' + esc(e.message) + '). Run the "Status board" action once.</p>';
+    });
+
+    function render(d) {
+      var when = new Date(d.generatedAt);
+      var ageMin = Math.round((Date.now() - when) / 60000);
+      document.getElementById('updated').textContent = 'Last check: ' + when.toLocaleString() + ' (' + ageMin + ' min ago)';
+
+      var c = { ok: 0, warn: 0, down: 0 };
+      d.systems.forEach(function (s) { c[s.state]++; });
+      var worst = c.down ? 'down' : c.warn ? 'warn' : 'ok';
+      var headline = worst === 'ok' ? 'All systems OK' : (c.down ? c.down + ' problem' + (c.down > 1 ? 's' : '') : '') + (c.down && c.warn ? ' · ' : '') + (c.warn ? c.warn + ' need' + (c.warn > 1 ? '' : 's') + ' attention' : '');
+      document.getElementById('banner').innerHTML = pill(worst, worst === 'ok' ? 'All clear' : 'Action needed') + '<strong>' + esc(headline) + '</strong>' +
+        '<span class="counts">' + pill('ok', c.ok + ' OK') + pill('warn', c.warn + ' attention') + pill('down', c.down + ' problem') + '</span>';
+
+      var order = { down: 0, warn: 1, ok: 2 };
+      document.getElementById('systems').innerHTML = d.systems.slice().sort(function (a, b) { return order[a.state] - order[b.state]; }).map(function (s) {
+        return '<article class="card ' + s.state + '"><div style="display:flex;justify-content:space-between;gap:8px;align-items:start"><div><h3>' +
+          (s.link ? '<a href="' + esc(s.link) + '">' + esc(s.name) + '</a>' : esc(s.name)) + '</h3><div class="kind">' + esc(s.kind) + '</div></div>' + pill(s.state) + '</div>' +
+          '<ul class="checks">' + s.checks.map(function (k) {
+            return '<li>' + pill(k.state, k.state === 'ok' ? '✓' : k.state === 'warn' ? '!' : '✕') + '<span>' + esc(k.label) + (k.detail ? ' — ' + esc(k.detail) : '') + '</span>' + (k.note ? '<span class="note">' + esc(k.note) + '</span>' : '') + '</li>';
+          }).join('') + '</ul>' +
+          (s.state !== 'ok' && s.fix ? '<div class="fix"><b>Fix:</b> ' + esc(s.fix) + '</div>' : '') +
+          '<div class="where">' + esc(s.where) + '</div></article>';
+      }).join('');
+
+      var cols = { backlog: 'Backlog', doing: 'Doing', done: 'Done' };
+      document.getElementById('kaizen').innerHTML = Object.keys(cols).map(function (col) {
+        var cards = d.kaizen.cards.filter(function (k) { return k.column === col; });
+        var rank = { high: 0, med: 1, low: 2 };
+        cards.sort(function (a, b) { return rank[a.priority] - rank[b.priority]; });
+        return '<div class="col"><h3><span>' + cols[col] + '</span><span>' + cards.length + '</span></h3>' + cards.map(function (k) {
+          return '<div class="k"><span class="t">' + esc(k.title) + '</span><span class="m"><span>' + esc(k.id) + '</span><span class="pri-' + esc(k.priority) + '">' + esc(k.priority.toUpperCase()) + '</span><span>' + esc(k.area) + '</span><span>' + esc(k.owner) + '</span>' + (k.done ? '<span>' + esc(k.done) + '</span>' : '') + '</span></div>';
+        }).join('') + '</div>';
+      }).join('');
+
+      document.getElementById('log').innerHTML = (d.log || []).map(function (l) {
+        return '<tr><td>' + esc(l.date) + '</td><td>' + esc(l.what) + '</td><td>' + esc(l.where) + '</td></tr>';
+      }).join('');
+    }
+  })();
+  </script>
+</body>
+</html>

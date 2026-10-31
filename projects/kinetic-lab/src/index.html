@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0A0A0A">
+  <title>KINETIC LAB — Vector Racer 01 Configurator</title>
+  <meta name="description" content="Configure the Vector Racer 01 carbon-plated racing shoe. Choose size and colorway, review material telemetry and check out.">
+
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0A0A0A',
+            enclosure: '#121212',
+            slate: '#1A1A1A',
+            line: '#2A2A2A',
+            muted: '#A3A3A3',
+            volt: '#D4FF00'
+          },
+          maxWidth: { shell: '1440px' }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="../public/static/css/global.css">
+</head>
+<body class="min-h-screen bg-obsidian text-white">
+  <a class="kl-skip" href="#main">Skip to content</a>
+
+  <!-- =====================================================================
+       1. Navigation
+       ===================================================================== -->
+  <header class="kl-glass sticky top-0 z-50">
+    <div class="mx-auto grid h-[72px] max-w-shell grid-cols-[auto_1fr_auto] items-center gap-4 px-4 sm:px-8">
+      <a href="#main" class="flex min-h-[48px] items-center gap-3 no-underline" aria-label="KINETIC LAB home">
+        <svg aria-hidden="true" width="34" height="34" viewBox="0 0 34 34" fill="none">
+          <path d="M4 26 L16 6 L20 6 L10 26 Z" fill="#FFFFFF"></path>
+          <path d="M14 26 L24 10 L30 10 L22 26 Z" fill="#FFFFFF" opacity="0.55"></path>
+        </svg>
+        <span class="kl-display text-[1.375rem] text-white">Kinetic<span class="font-light not-italic text-muted">/</span>Lab</span>
+      </a>
+
+      <nav aria-label="Primary" class="hidden justify-self-end md:block">
+        <ul class="flex items-center gap-1">
+          <li><a class="kl-navlink" href="#configurator" aria-current="page">Racer 01</a></li>
+          <li><a class="kl-navlink" href="#telemetry">Telemetry</a></li>
+          <li><a class="kl-navlink" href="#footer">Support</a></li>
+        </ul>
+      </nav>
+
+      <button id="cart-open" type="button" class="kl-cart-btn justify-self-end" aria-haspopup="dialog" aria-controls="cart-drawer" aria-expanded="false" aria-label="Open bag, 0 items">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8z"></path>
+          <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+        </svg>
+        <span class="hidden sm:inline">Bag</span>
+        <span id="cart-badge" class="kl-badge" data-visible="false" aria-hidden="true">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- ===================================================================
+         2. Product configurator
+         =================================================================== -->
+    <section id="configurator" aria-labelledby="product-title" class="mx-auto max-w-shell px-4 pb-16 pt-8 sm:px-8 lg:pt-14">
+      <div class="grid gap-8 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] lg:gap-12">
+
+        <!-- Left: HUD -->
+        <figure class="kl-hud m-0 flex min-h-[360px] flex-col justify-between p-5 sm:min-h-[520px] sm:p-8">
+          <div class="flex flex-wrap items-start justify-between gap-3">
+            <div class="kl-hud-readout">
+              <p class="kl-label m-0">Model</p>
+              <p class="kl-mono m-0 mt-1 text-sm text-white">VR-01 / CARBON</p>
+            </div>
+            <div class="kl-hud-readout text-right">
+              <p class="kl-label m-0">Config</p>
+              <p class="kl-mono m-0 mt-1 text-sm text-white"><span id="hud-color">VOLT</span> · <span id="hud-size">SIZE —</span></p>
+            </div>
+          </div>
+
+          <svg class="kl-shoe my-6" viewBox="0 0 640 320" role="img" aria-labelledby="shoe-title shoe-desc">
+            <title id="shoe-title">Vector Racer 01 side profile</title>
+            <desc id="shoe-desc">Geometric silhouette of a low-profile racing shoe with a tall foam midsole and an embedded carbon plate. The upper is shown in the selected colorway.</desc>
+            <g fill="none" stroke="#2A2A2A" stroke-width="1">
+              <line x1="20" y1="282" x2="620" y2="282"></line>
+              <line x1="40" y1="40" x2="40" y2="282" stroke-dasharray="4 6"></line>
+              <line x1="600" y1="40" x2="600" y2="282" stroke-dasharray="4 6"></line>
+            </g>
+            <!-- Outsole -->
+            <path d="M58 262 L556 262 Q596 262 600 248 L602 240 L50 240 Q44 258 58 262 Z" fill="#121212" stroke="#6B6B6B" stroke-width="1.5"></path>
+            <!-- Midsole foam stack -->
+            <path d="M50 240 L602 240 Q612 222 590 206 L540 196 L84 190 Q54 192 50 214 Z" fill="#1A1A1A" stroke="#6B6B6B" stroke-width="1.5"></path>
+            <!-- Carbon plate -->
+            <path d="M78 214 Q300 200 470 210 Q540 214 584 226" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="10 6"></path>
+            <!-- Upper -->
+            <path id="shoe-upper" class="kl-shoe-upper" d="M84 190 L96 138 Q104 96 150 88 L238 80 Q270 78 296 96 L380 150 Q452 160 520 176 Q560 186 540 196 Z" fill="#D4FF00" stroke="#0A0A0A" stroke-width="2"></path>
+            <!-- Heel counter -->
+            <path d="M84 190 L96 138 Q100 118 116 106 L130 190 Z" fill="#0A0A0A" opacity="0.35"></path>
+            <!-- Speed lines -->
+            <path d="M170 172 L300 112 L330 112 L200 172 Z" fill="#0A0A0A" opacity="0.85"></path>
+            <path d="M222 178 L352 120 L372 130 L252 182 Z" fill="#0A0A0A" opacity="0.6"></path>
+            <!-- Laces -->
+            <g stroke="#0A0A0A" stroke-width="3" stroke-linecap="round">
+              <line x1="252" y1="92" x2="270" y2="110"></line>
+              <line x1="276" y1="104" x2="294" y2="122"></line>
+              <line x1="300" y1="116" x2="318" y2="134"></line>
+              <line x1="324" y1="128" x2="342" y2="146"></line>
+            </g>
+            <!-- Callouts -->
+            <g font-family="ui-monospace, monospace" font-size="12" fill="#A3A3A3">
+              <line x1="470" y1="208" x2="500" y2="290" stroke="#6B6B6B"></line>
+              <text x="506" y="300">CARBON PLATE</text>
+              <line x1="140" y1="228" x2="110" y2="300" stroke="#6B6B6B"></line>
+              <text x="40" y="314">PEBA FOAM · 39MM</text>
+            </g>
+          </svg>
+
+          <figcaption class="flex flex-wrap items-end justify-between gap-3">
+            <div class="kl-hud-readout">
+              <p class="kl-label m-0">Stack / Drop</p>
+              <p class="kl-mono m-0 mt-1 text-sm text-white">39MM / 8MM</p>
+            </div>
+            <div class="kl-hud-readout text-right">
+              <p class="kl-label m-0">Mass · US 9</p>
+              <p class="kl-mono m-0 mt-1 text-sm text-white">174G</p>
+            </div>
+          </figcaption>
+        </figure>
+
+        <!-- Right: configurator -->
+        <div class="flex flex-col gap-8">
+          <div class="flex flex-col gap-4">
+            <p class="kl-label m-0">Road racing · Carbon plated</p>
+            <h1 id="product-title" class="kl-display m-0 text-5xl sm:text-6xl">Vector<br>Racer 01</h1>
+            <p class="m-0 max-w-prose text-base leading-relaxed text-muted">A race-day shoe built around a full-length carbon stabilization plate and a 39&nbsp;mm supercritical PEBA foam stack. Engineered mesh upper with zonal stretch for a locked midfoot.</p>
+            <div class="flex flex-wrap items-center gap-4">
+              <p class="m-0 text-3xl font-black tabular-nums" aria-live="polite" aria-atomic="true"><span class="kl-sr-only">Price: </span><span id="price">₱14,495.00</span></p>
+              <span id="price-note" class="text-sm text-muted">Base colorway</span>
+            </div>
+          </div>
+
+          <!-- Color matrix -->
+          <div class="kl-group flex flex-col gap-3">
+            <p id="color-label" class="kl-label m-0">System color · <span id="color-name" class="text-white">Volt</span></p>
+            <div id="color-group" role="radiogroup" aria-labelledby="color-label" class="flex flex-wrap gap-3">
+              <button type="button" role="radio" class="kl-radio" data-value="volt" aria-checked="true" tabindex="0" aria-label="Volt, included in base price">
+                <span class="kl-swatch" style="background:#D4FF00" aria-hidden="true"></span>
+                <span aria-hidden="true">Volt</span>
+              </button>
+              <button type="button" role="radio" class="kl-radio" data-value="white" aria-checked="false" tabindex="-1" aria-label="White, adds ₱500.00">
+                <span class="kl-swatch" style="background:#F2F2F2" aria-hidden="true"></span>
+                <span aria-hidden="true">White</span>
+                <span class="text-xs font-semibold opacity-80" aria-hidden="true">+₱500</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Size index -->
+          <div id="size-wrap" class="kl-group flex flex-col gap-3" data-invalid="false">
+            <div class="flex items-center justify-between gap-3">
+              <p id="size-label" class="kl-label m-0">Size index · US men's</p>
+              <span class="text-sm text-muted">US 12+ adds ₱300</span>
+            </div>
+            <div id="size-group" role="radiogroup" aria-labelledby="size-label" aria-describedby="size-error" aria-required="true" class="grid grid-cols-4 gap-2 sm:grid-cols-6"></div>
+            <p id="size-error" class="m-0 hidden text-sm font-semibold text-white" role="alert">Select a size to add this shoe to your bag.</p>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <button id="add-to-bag" type="button" class="kl-cta">
+              <span>Add to bag</span>
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+            </button>
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="kl-validate">
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"></path></svg>
+                In stock
+              </span>
+              <span class="text-sm text-muted">Free shipping nationwide · 30-day returns</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         3. Telemetry bento grid (container queries)
+         =================================================================== -->
+    <section id="telemetry" aria-labelledby="telemetry-title" class="mx-auto max-w-shell px-4 pb-24 sm:px-8">
+      <div class="mb-8 flex flex-wrap items-end justify-between gap-4 border-t border-line pt-10">
+        <h2 id="telemetry-title" class="kl-display m-0 text-4xl sm:text-5xl">Material telemetry</h2>
+        <p class="kl-mono m-0 text-sm text-muted">LAB SPEC · VR-01 · US 9</p>
+      </div>
+
+      <div class="kl-bento-wrap">
+        <div class="kl-bento">
+          <article class="kl-panel kl-panel--mass" aria-labelledby="mass-title">
+            <h3 id="mass-title" class="kl-label m-0">Base mass</h3>
+            <p class="kl-metric m-0">174<small>g</small></p>
+            <p class="m-0 text-sm leading-relaxed text-muted">Single shoe, US men's 9. Measured with insole and laces.</p>
+          </article>
+
+          <article class="kl-panel kl-panel--elastic" aria-labelledby="elastic-title">
+            <h3 id="elastic-title" class="kl-label m-0">Zonal elasticity</h3>
+            <p class="kl-metric m-0">84.2<small>%</small></p>
+            <p class="m-0 text-sm leading-relaxed text-muted">Energy returned by the forefoot stretch zones of the engineered mesh upper under cyclic load.</p>
+          </article>
+
+          <article class="kl-panel kl-panel--foam" aria-labelledby="foam-title">
+            <h3 id="foam-title" class="kl-label m-0">Supercritical PEBA foam</h3>
+            <p class="kl-display m-0 text-3xl">Soft landing.<br>Fast toe-off.</p>
+            <p class="m-0 text-base leading-relaxed text-muted">A nitrogen-infused polyether block amide compound, expanded under supercritical conditions into a closed-cell structure. The result is a low-density midsole that compresses deeply on landing and rebounds quickly, holding its feel across a full marathon.</p>
+            <dl class="m-0 grid grid-cols-2 gap-4 border-t border-line pt-4">
+              <div><dt class="kl-label">Heel stack</dt><dd class="kl-mono m-0 mt-1 text-lg text-white">39 mm</dd></div>
+              <div><dt class="kl-label">Forefoot stack</dt><dd class="kl-mono m-0 mt-1 text-lg text-white">31 mm</dd></div>
+            </dl>
+          </article>
+
+          <article class="kl-panel kl-panel--plate" aria-labelledby="plate-title">
+            <h3 id="plate-title" class="kl-label m-0">Carbon stabilization plate · profile</h3>
+            <div class="kl-plate-layout">
+              <svg viewBox="0 0 600 120" role="img" aria-label="Plate profile: flat through the heel, rising into a curved rocker under the forefoot" class="h-auto w-full">
+                <line x1="20" y1="100" x2="580" y2="100" stroke="#2A2A2A" stroke-width="1"></line>
+                <path d="M20 84 Q200 80 340 78 Q470 76 580 30" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+                <g font-family="ui-monospace, monospace" font-size="12" fill="#A3A3A3">
+                  <text x="20" y="116">HEEL</text>
+                  <text x="290" y="116">MIDFOOT</text>
+                  <text x="520" y="116">TOE</text>
+                </g>
+              </svg>
+              <div class="kl-plate-meter flex flex-col gap-3">
+                <div class="flex items-baseline justify-between gap-3">
+                  <span id="plate-meter-label" class="text-sm font-semibold text-white">Plate length coverage</span>
+                  <span class="kl-mono text-2xl font-bold text-white"><span id="plate-meter-value">0</span>%</span>
+                </div>
+                <div class="kl-meter-track" role="progressbar" aria-labelledby="plate-meter-label" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="0 percent" id="plate-meter">
+                  <div class="kl-meter-fill" id="plate-meter-fill"></div>
+                </div>
+                <p class="m-0 text-sm text-muted">Full-length carbon fibre plate, spanning 92% of the footbed from heel cup to toe spring.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="border-t border-line">
+    <div class="mx-auto flex max-w-shell flex-wrap items-center justify-between gap-4 px-4 py-10 sm:px-8">
+      <p class="kl-display m-0 text-xl">Kinetic/Lab</p>
+      <p class="m-0 text-sm text-muted">Concept store. Orders are summarised in your bag; no payment is collected on this site.</p>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       4. Cart drawer
+       ===================================================================== -->
+  <div id="cart-scrim" class="kl-scrim" data-open="false" aria-hidden="true"></div>
+  <aside id="cart-drawer" class="kl-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" data-open="false">
+    <div class="flex items-center justify-between gap-4 border-b border-line px-6 py-5">
+      <h2 id="cart-title" class="kl-display m-0 text-3xl">Your bag</h2>
+      <button id="cart-close" type="button" class="kl-icon-btn" aria-label="Close bag">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+
+    <div class="flex-1 overflow-y-auto px-6">
+      <p id="cart-empty" class="m-0 py-12 text-center text-muted">Your bag is empty.</p>
+      <ul id="cart-items" class="m-0 list-none p-0" aria-label="Items in bag"></ul>
+    </div>
+
+    <div class="flex flex-col gap-4 border-t border-line px-6 py-6">
+      <dl class="m-0 flex flex-col gap-2 text-sm">
+        <div class="flex justify-between"><dt class="text-muted">Subtotal</dt><dd id="cart-subtotal" class="m-0 tabular-nums">₱0.00</dd></div>
+        <div class="flex justify-between"><dt class="text-muted">Shipping</dt><dd class="m-0">Free</dd></div>
+        <div class="flex justify-between border-t border-line pt-3 text-lg font-black"><dt>Total</dt><dd id="cart-total" class="m-0 tabular-nums">₱0.00</dd></div>
+      </dl>
+      <button id="checkout" type="button" class="kl-cta" disabled aria-disabled="true">Review order</button>
+      <p id="checkout-msg" class="m-0 hidden text-sm text-muted" role="status"></p>
+    </div>
+  </aside>
+
+  <div id="live" class="kl-sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* ---------------------------------------------------------------
+       Catalogue data (amounts in centavos to avoid float drift)
+       --------------------------------------------------------------- */
+    var PRODUCT = {
+      id: 'vr-01',
+      name: 'Vector Racer 01',
+      basePrice: 1449500,
+      colors: {
+        volt:  { label: 'Volt',  fill: '#D4FF00', surcharge: 0 },
+        white: { label: 'White', fill: '#F2F2F2', surcharge: 50000 }
+      },
+      sizes: [
+        { value: '7',    stock: 4 },
+        { value: '7.5',  stock: 6 },
+        { value: '8',    stock: 9 },
+        { value: '8.5',  stock: 0 },
+        { value: '9',    stock: 12 },
+        { value: '9.5',  stock: 7 },
+        { value: '10',   stock: 10 },
+        { value: '10.5', stock: 5 },
+        { value: '11',   stock: 3 },
+        { value: '11.5', stock: 2 },
+        { value: '12',   stock: 4, surcharge: 30000 },
+        { value: '13',   stock: 1, surcharge: 30000 }
+      ],
+      maxQty: 5
+    };
+    var STORAGE_KEY = 'kl.bag.v1';
+    var money = new Intl.NumberFormat('en-PH', { style: 'currency', currency: 'PHP', minimumFractionDigits: 2 });
+    var fmt = function (centavos) { return money.format(centavos / 100); };
+
+    var $ = function (id) { return document.getElementById(id); };
+    var live = $('live');
+    var announce = function (msg) { live.textContent = ''; window.setTimeout(function () { live.textContent = msg; }, 30); };
+
+    /* ---------------------------------------------------------------
+       Configurator state
+       --------------------------------------------------------------- */
+    var config = { color: 'volt', size: null };
+
+    function sizeMeta(v) {
+      for (var i = 0; i < PRODUCT.sizes.length; i++) if (PRODUCT.sizes[i].value === v) return PRODUCT.sizes[i];
+      return null;
+    }
+    function unitPrice(color, size) {
+      var s = size ? sizeMeta(size) : null;
+      return PRODUCT.basePrice + PRODUCT.colors[color].surcharge + (s && s.surcharge ? s.surcharge : 0);
+    }
+
+    function renderConfig() {
+      var c = PRODUCT.colors[config.color];
+      $('price').textContent = fmt(unitPrice(config.color, config.size));
+      var notes = [];
+      if (c.surcharge) notes.push(c.label + ' +' + fmt(c.surcharge));
+      var s = config.size ? sizeMeta(config.size) : null;
+      if (s && s.surcharge) notes.push('US ' + s.value + ' +' + fmt(s.surcharge));
+      $('price-note').textContent = notes.length ? notes.join(' · ') : 'Base colorway';
+      $('color-name').textContent = c.label;
+      $('hud-color').textContent = c.label.toUpperCase();
+      $('hud-size').textContent = config.size ? 'US ' + config.size : 'SIZE —';
+      $('shoe-upper').setAttribute('fill', c.fill);
+    }
+
+    /* Build size radios */
+    var sizeGroup = $('size-group');
+    PRODUCT.sizes.forEach(function (s) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'kl-radio';
+      b.setAttribute('role', 'radio');
+      b.setAttribute('aria-checked', 'false');
+      b.dataset.value = s.value;
+      b.textContent = s.value;
+      var label = 'US ' + s.value;
+      if (s.stock === 0) { b.setAttribute('aria-disabled', 'true'); label += ', sold out'; }
+      else if (s.surcharge) { label += ', adds ' + fmt(s.surcharge); }
+      b.setAttribute('aria-label', label);
+      sizeGroup.appendChild(b);
+    });
+
+    /* Accessible radiogroup: click, Space/Enter, arrow keys, roving tabindex */
+    function initRadioGroup(group, onSelect) {
+      var radios = function () { return Array.prototype.slice.call(group.querySelectorAll('[role="radio"]')); };
+      var enabled = function () { return radios().filter(function (r) { return r.getAttribute('aria-disabled') !== 'true'; }); };
+
+      function syncTabStops() {
+        var list = radios();
+        var checked = list.filter(function (r) { return r.getAttribute('aria-checked') === 'true'; })[0] || enabled()[0];
+        list.forEach(function (r) { r.tabIndex = r === checked ? 0 : -1; });
+      }
+      function select(radio, focus) {
+        if (!radio || radio.getAttribute('aria-disabled') === 'true') return;
+        radios().forEach(function (r) { r.setAttribute('aria-checked', r === radio ? 'true' : 'false'); });
+        syncTabStops();
+        if (focus) radio.focus();
+        onSelect(radio.dataset.value);
+      }
+      group.addEventListener('click', function (e) {
+        var r = e.target.closest('[role="radio"]');
+        if (r && group.contains(r)) select(r, false);
+      });
+      group.addEventListener('keydown', function (e) {
+        var r = e.target.closest('[role="radio"]');
+        if (!r) return;
+        var list = enabled();
+        var i = list.indexOf(r);
+        var next = null;
+        switch (e.key) {
+          case 'ArrowRight': case 'ArrowDown': next = list[(i + 1) % list.length]; break;
+          case 'ArrowLeft': case 'ArrowUp': next = list[(i - 1 + list.length) % list.length]; break;
+          case 'Home': next = list[0]; break;
+          case 'End': next = list[list.length - 1]; break;
+          case ' ': case 'Enter': next = r; break;
+          default: return;
+        }
+        e.preventDefault();
+        select(next, true);
+      });
+      syncTabStops();
+    }
+
+    initRadioGroup($('color-group'), function (v) {
+      config.color = v;
+      renderConfig();
+    });
+    initRadioGroup(sizeGroup, function (v) {
+      config.size = v;
+      $('size-wrap').dataset.invalid = 'false';
+      $('size-error').classList.add('hidden');
+      renderConfig();
+    });
+
+    /* ---------------------------------------------------------------
+       Bag store — serialized action queue over immutable state.
+       Every mutation goes through dispatch(); actions are applied one
+       at a time in arrival order, so rapid clicks (or events fired
+       while a render is in progress) can never interleave or act on
+       a stale item list. Removal targets a stable line key, never an
+       array index.
+       --------------------------------------------------------------- */
+    var state = { items: [] };
+    var queue = [];
+    var draining = false;
+
+    function lineKey(id, color, size) { return id + '|' + color + '|' + size; }
+
+    function reducer(s, action) {
+      var items = s.items;
+      switch (action.type) {
+        case 'ADD': {
+          var k = lineKey(action.id, action.color, action.size);
+          var found = items.some(function (it) { return it.key === k; });
+          if (found) {
+            return { items: items.map(function (it) {
+              return it.key === k ? Object.assign({}, it, { qty: Math.min(it.qty + 1, PRODUCT.maxQty) }) : it;
+            }) };
+          }
+          return { items: items.concat([{
+            key: k, id: action.id, name: PRODUCT.name, color: action.color, size: action.size,
+            unit: unitPrice(action.color, action.size), qty: 1
+          }]) };
+        }
+        case 'SET_QTY':
+          return { items: items.map(function (it) {
+            return it.key === action.key ? Object.assign({}, it, { qty: Math.max(1, Math.min(action.qty, PRODUCT.maxQty)) }) : it;
+          }) };
+        case 'REMOVE':
+          return { items: items.filter(function (it) { return it.key !== action.key; }) };
+        case 'HYDRATE':
+          return { items: action.items };
+        default:
+          return s;
+      }
+    }
+
+    function dispatch(action) {
+      queue.push(action);
+      if (draining) return;
+      draining = true;
+      try {
+        while (queue.length) {
+          var a = queue.shift();
+          var prev = state;
+          state = Object.freeze(reducer(state, a));
+          if (state !== prev) afterChange(a, prev);
+        }
+      } finally {
+        draining = false;
+      }
+      renderBag();
+    }
+
+    function totals(s) {
+      var count = 0, sum = 0;
+      s.items.forEach(function (it) { count += it.qty; sum += it.unit * it.qty; });
+      return { count: count, sum: sum };
+    }
+
+    function afterChange(action, prev) {
+      try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state.items)); } catch (err) { /* storage unavailable: bag lives in memory */ }
+      var before = totals(prev).count, after = totals(state).count;
+      if (action.type === 'ADD') announce('Added ' + PRODUCT.name + ', ' + PRODUCT.colors[action.color].label + ', US ' + action.size + '. Bag has ' + after + ' item' + (after === 1 ? '' : 's') + '.');
+      if (action.type === 'REMOVE') announce('Item removed. Bag has ' + after + ' item' + (after === 1 ? '' : 's') + '.');
+      if (action.type === 'SET_QTY' && before !== after) announce('Quantity updated. Bag has ' + after + ' item' + (after === 1 ? '' : 's') + '.');
+      if (after > before) bumpBadge();
+      $('checkout-msg').classList.add('hidden');
+    }
+
+    function hydrate() {
+      try {
+        var raw = window.localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        var parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed)) return;
+        var clean = parsed.filter(function (it) {
+          return it && typeof it.key === 'string' && PRODUCT.colors[it.color] && sizeMeta(it.size) && Number.isInteger(it.qty) && it.qty > 0;
+        }).map(function (it) {
+          return { key: lineKey(PRODUCT.id, it.color, it.size), id: PRODUCT.id, name: PRODUCT.name, color: it.color, size: it.size,
+                   unit: unitPrice(it.color, it.size), qty: Math.min(it.qty, PRODUCT.maxQty) };
+        });
+        dispatch({ type: 'HYDRATE', items: clean });
+      } catch (err) { /* corrupted or blocked storage: start empty */ }
+    }
+
+    /* ---------------------------------------------------------------
+       Bag rendering (DOM built with textContent only, no innerHTML)
+       --------------------------------------------------------------- */
+    var badge = $('cart-badge');
+    function bumpBadge() {
+      badge.classList.remove('is-bumping');
+      void badge.offsetWidth;
+      badge.classList.add('is-bumping');
+    }
+
+    function svgThumb(fill) {
+      var ns = 'http://www.w3.org/2000/svg';
+      var svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('viewBox', '0 0 64 32');
+      svg.setAttribute('width', '56');
+      svg.setAttribute('height', '28');
+      svg.setAttribute('aria-hidden', 'true');
+      var sole = document.createElementNS(ns, 'path');
+      sole.setAttribute('d', 'M4 26 L60 26 L58 20 L6 19 Z');
+      sole.setAttribute('fill', '#6B6B6B');
+      var upper = document.createElementNS(ns, 'path');
+      upper.setAttribute('d', 'M6 19 L8 12 Q10 6 16 6 L26 5 Q30 5 33 8 L40 13 Q50 14 56 17 L58 20 Z');
+      upper.setAttribute('fill', fill);
+      svg.appendChild(sole);
+      svg.appendChild(upper);
+      return svg;
+    }
+
+    function el(tag, cls, text) {
+      var n = document.createElement(tag);
+      if (cls) n.className = cls;
+      if (text != null) n.textContent = text;
+      return n;
+    }
+
+    function renderBag() {
+      var t = totals(state);
+      var list = $('cart-items');
+      while (list.firstChild) list.removeChild(list.firstChild);
+
+      state.items.forEach(function (it) {
+        var color = PRODUCT.colors[it.color];
+        var li = el('li', 'kl-line-item');
+        li.dataset.key = it.key;
+
+        var thumb = el('div', 'kl-thumb');
+        thumb.appendChild(svgThumb(color.fill));
+
+        var info = el('div', 'flex min-w-0 flex-col gap-2');
+        info.appendChild(el('p', 'm-0 truncate font-bold', it.name));
+        info.appendChild(el('p', 'm-0 text-sm text-muted', color.label + ' · US ' + it.size + ' · ' + fmt(it.unit)));
+
+        var stepper = el('div', 'kl-stepper');
+        stepper.setAttribute('role', 'group');
+        stepper.setAttribute('aria-label', 'Quantity for ' + it.name + ', ' + color.label + ', US ' + it.size);
+        var dec = el('button', null, '−');
+        dec.type = 'button';
+        dec.setAttribute('aria-label', 'Decrease quantity');
+        dec.disabled = it.qty <= 1;
+        dec.dataset.action = 'dec';
+        var out = el('output', null, String(it.qty));
+        out.setAttribute('aria-live', 'off');
+        var inc = el('button', null, '+');
+        inc.type = 'button';
+        inc.setAttribute('aria-label', 'Increase quantity');
+        inc.disabled = it.qty >= PRODUCT.maxQty;
+        inc.dataset.action = 'inc';
+        stepper.appendChild(dec); stepper.appendChild(out); stepper.appendChild(inc);
+        info.appendChild(stepper);
+
+        var right = el('div', 'flex flex-col items-end gap-2');
+        right.appendChild(el('p', 'm-0 font-bold tabular-nums', fmt(it.unit * it.qty)));
+        var rm = el('button', 'kl-icon-btn');
+        rm.type = 'button';
+        rm.dataset.action = 'remove';
+        rm.setAttribute('aria-label', 'Remove ' + it.name + ', ' + color.label + ', US ' + it.size);
+        var ns = 'http://www.w3.org/2000/svg';
+        var x = document.createElementNS(ns, 'svg');
+        x.setAttribute('viewBox', '0 0 24 24'); x.setAttribute('width', '18'); x.setAttribute('height', '18');
+        x.setAttribute('fill', 'none'); x.setAttribute('stroke', 'currentColor'); x.setAttribute('stroke-width', '2');
+        x.setAttribute('aria-hidden', 'true');
+        var p = document.createElementNS(ns, 'path');
+        p.setAttribute('d', 'M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13');
+        x.appendChild(p); rm.appendChild(x);
+        right.appendChild(rm);
+
+        li.appendChild(thumb); li.appendChild(info); li.appendChild(right);
+        list.appendChild(li);
+      });
+
+      $('cart-empty').classList.toggle('hidden', state.items.length > 0);
+      $('cart-subtotal').textContent = fmt(t.sum);
+      $('cart-total').textContent = fmt(t.sum);
+      badge.textContent = String(t.count);
+      badge.dataset.visible = t.count > 0 ? 'true' : 'false';
+      $('cart-open').setAttribute('aria-label', 'Open bag, ' + t.count + ' item' + (t.count === 1 ? '' : 's'));
+      var co = $('checkout');
+      co.disabled = t.count === 0;
+      co.setAttribute('aria-disabled', t.count === 0 ? 'true' : 'false');
+    }
+
+    /* Event delegation on the list: one listener, keyed by data-key */
+    $('cart-items').addEventListener('click', function (e) {
+      var btn = e.target.closest('button[data-action]');
+      if (!btn || btn.disabled) return;
+      var li = btn.closest('li[data-key]');
+      if (!li) return;
+      var key = li.dataset.key;
+      var current = state.items.filter(function (it) { return it.key === key; })[0];
+      if (!current) return;
+      var action = btn.dataset.action;
+      if (action === 'remove') {
+        var items = Array.prototype.slice.call($('cart-items').children);
+        var idx = items.indexOf(li);
+        dispatch({ type: 'REMOVE', key: key });
+        var remaining = $('cart-items').querySelectorAll('button[data-action="remove"]');
+        if (remaining.length) remaining[Math.min(idx, remaining.length - 1)].focus();
+        else $('cart-close').focus();
+      } else {
+        dispatch({ type: 'SET_QTY', key: key, qty: current.qty + (action === 'inc' ? 1 : -1) });
+        var again = $('cart-items').querySelector('li[data-key="' + CSS.escape(key) + '"] button[data-action="' + action + '"]');
+        if (again && !again.disabled) again.focus();
+        else {
+          var other = $('cart-items').querySelector('li[data-key="' + CSS.escape(key) + '"] button[data-action="' + (action === 'inc' ? 'dec' : 'inc') + '"]');
+          if (other) other.focus();
+        }
+      }
+    });
+
+    /* Add to bag */
+    $('add-to-bag').addEventListener('click', function () {
+      if (!config.size) {
+        $('size-wrap').dataset.invalid = 'true';
+        $('size-error').classList.remove('hidden');
+        var first = sizeGroup.querySelector('[role="radio"]:not([aria-disabled="true"])');
+        if (first) first.focus();
+        return;
+      }
+      dispatch({ type: 'ADD', id: PRODUCT.id, color: config.color, size: config.size });
+      openDrawer();
+    });
+
+    /* Checkout summary (no payment is taken on this site) */
+    $('checkout').addEventListener('click', function () {
+      var t = totals(state);
+      if (!t.count) return;
+      var msg = $('checkout-msg');
+      msg.textContent = t.count + ' item' + (t.count === 1 ? '' : 's') + ' · ' + fmt(t.sum) + '. Order summary ready — this concept store does not collect payment.';
+      msg.classList.remove('hidden');
+    });
+
+    /* ---------------------------------------------------------------
+       Drawer: focus trap, Escape, scrim, inert background
+       --------------------------------------------------------------- */
+    var drawer = $('cart-drawer');
+    var scrim = $('cart-scrim');
+    var opener = $('cart-open');
+    var lastFocus = null;
+    var background = [document.querySelector('header'), $('main'), $('footer')];
+
+    function focusables() {
+      return Array.prototype.slice.call(drawer.querySelectorAll('button:not([disabled]), a[href], [tabindex]:not([tabindex="-1"])'));
+    }
+    function openDrawer() {
+      if (drawer.dataset.open === 'true') return;
+      lastFocus = document.activeElement;
+      drawer.dataset.open = 'true';
+      scrim.dataset.open = 'true';
+      opener.setAttribute('aria-expanded', 'true');
+      background.forEach(function (n) { n.setAttribute('inert', ''); });
+      document.body.style.overflow = 'hidden';
+      window.setTimeout(function () { $('cart-close').focus(); }, 20);
+    }
+    function closeDrawer() {
+      if (drawer.dataset.open !== 'true') return;
+      drawer.dataset.open = 'false';
+      scrim.dataset.open = 'false';
+      opener.setAttribute('aria-expanded', 'false');
+      background.forEach(function (n) { n.removeAttribute('inert'); });
+      document.body.style.overflow = '';
+      (lastFocus && document.contains(lastFocus) ? lastFocus : opener).focus();
+    }
+    opener.addEventListener('click', openDrawer);
+    $('cart-close').addEventListener('click', closeDrawer);
+    scrim.addEventListener('click', closeDrawer);
+    document.addEventListener('keydown', function (e) {
+      if (drawer.dataset.open !== 'true') return;
+      if (e.key === 'Escape') { e.preventDefault(); closeDrawer(); return; }
+      if (e.key !== 'Tab') return;
+      var f = focusables();
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (!drawer.contains(document.activeElement)) { e.preventDefault(); (e.shiftKey ? last : first).focus(); }
+      else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
+
+    /* ---------------------------------------------------------------
+       Telemetry meter: animate once when visible
+       --------------------------------------------------------------- */
+    var PLATE = 92;
+    var meter = $('plate-meter');
+    function fillMeter() {
+      $('plate-meter-fill').style.width = PLATE + '%';
+      meter.setAttribute('aria-valuenow', String(PLATE));
+      meter.setAttribute('aria-valuetext', PLATE + ' percent');
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var out = $('plate-meter-value');
+      if (reduce) { out.textContent = String(PLATE); return; }
+      var start = null;
+      function step(ts) {
+        if (start === null) start = ts;
+        var p = Math.min((ts - start) / 900, 1);
+        out.textContent = String(Math.round(PLATE * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) window.requestAnimationFrame(step);
+      }
+      window.requestAnimationFrame(step);
+    }
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { fillMeter(); io.disconnect(); } });
+      }, { threshold: 0.4 });
+      io.observe(meter);
+    } else {
+      fillMeter();
+    }
+
+    /* Boot */
+    renderConfig();
+    hydrate();
+    renderBag();
+  })();
+  </script>
+</body>
+</html>
