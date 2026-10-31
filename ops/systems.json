@@ -11,9 +11,21 @@
       "where": "gh-pages branch → /neon-store/",
       "link": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/",
       "checks": [
-        { "type": "http", "label": "Home page", "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/" },
-        { "type": "http", "label": "Shop page", "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shop.html" },
-        { "type": "http", "label": "Product page", "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/product.html" }
+        {
+          "type": "http",
+          "label": "Home page",
+          "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/"
+        },
+        {
+          "type": "http",
+          "label": "Shop page",
+          "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/shop.html"
+        },
+        {
+          "type": "http",
+          "label": "Product page",
+          "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/product.html"
+        }
       ],
       "fix": "If down: check Settings → Pages is set to branch gh-pages, then re-run the 'Status board' action."
     },
@@ -24,7 +36,11 @@
       "where": "main: ops/ → published to gh-pages /status/ by GitHub Actions",
       "link": "https://johnyumang.github.io/REPO-JRLY.portfolio/status/",
       "checks": [
-        { "type": "http", "label": "Status page", "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/status/" }
+        {
+          "type": "http",
+          "label": "Status page",
+          "url": "https://johnyumang.github.io/REPO-JRLY.portfolio/status/"
+        }
       ],
       "fix": "If stale: open Actions → 'Status board' → Run workflow."
     },
@@ -35,10 +51,19 @@
       "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/ecommerce-template-phase3/projects/ecommerce-template/backend",
       "checks": [
-        { "type": "branch", "label": "Backend code on branch", "branch": "claude/ecommerce-template-phase3" },
-        { "type": "none", "label": "Live server", "state": "warn", "note": "Runs only inside a Claude session (local Postgres). Not reachable from the internet and wiped when the session ends." }
+        {
+          "type": "branch",
+          "label": "Backend code on branch",
+          "branch": "claude/ecommerce-template-phase3"
+        },
+        {
+          "type": "none",
+          "label": "Live server",
+          "state": "warn",
+          "note": "Runs only inside a Claude session (local Postgres). Not reachable from the internet and wiped when the session ends."
+        }
       ],
-      "fix": "Pick permanent free hosting (own PC, or free web tier + free Postgres) and add its /health URL here as an http check."
+      "fix": "Follow ops/deploy/oracle/README.md on your phone, then replace the 'Live server' check with an http check on https://<ip>.sslip.io/health."
     },
     {
       "id": "ecommerce-template",
@@ -47,9 +72,21 @@
       "where": "projects/ecommerce-template on stacked branches",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/pulls",
       "checks": [
-        { "type": "pr", "label": "PR #1 Phase 1 design", "number": 1 },
-        { "type": "pr", "label": "PR #2 Phase 2 data layer", "number": 2 },
-        { "type": "branch", "label": "Phase 3 branch", "branch": "claude/ecommerce-template-phase3" }
+        {
+          "type": "pr",
+          "label": "PR #1 Phase 1 design",
+          "number": 1
+        },
+        {
+          "type": "pr",
+          "label": "PR #2 Phase 2 data layer",
+          "number": 2
+        },
+        {
+          "type": "branch",
+          "label": "Phase 3 branch",
+          "branch": "claude/ecommerce-template-phase3"
+        }
       ],
       "fix": "Merge #1, retarget #2 to main, merge #2, then open the Phase 3 PR."
     },
@@ -60,8 +97,17 @@
       "where": "branch claude/practical-knuth-is7590 (not merged)",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/practical-knuth-is7590",
       "checks": [
-        { "type": "branch", "label": "Portfolio branch", "branch": "claude/practical-knuth-is7590" },
-        { "type": "none", "label": "Live site", "state": "warn", "note": "Not live yet. Needs LinkedIn + Upwork URLs, merge to main, and a Pages decision (shares this repo's Pages with the neon store)." }
+        {
+          "type": "branch",
+          "label": "Portfolio branch",
+          "branch": "claude/practical-knuth-is7590"
+        },
+        {
+          "type": "none",
+          "label": "Live site",
+          "state": "warn",
+          "note": "Not live yet. Needs LinkedIn + Upwork URLs, merge to main, and a Pages decision (shares this repo's Pages with the neon store)."
+        }
       ],
       "fix": "Send LinkedIn/Upwork URLs, then merge and publish under /portfolio/ on gh-pages so it does not replace the store."
     },
@@ -72,7 +118,11 @@
       "where": "branch claude/sportswear-showcase",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/sportswear-showcase",
       "checks": [
-        { "type": "branch", "label": "Showcase branch", "branch": "claude/sportswear-showcase" }
+        {
+          "type": "branch",
+          "label": "Showcase branch",
+          "branch": "claude/sportswear-showcase"
+        }
       ],
       "fix": "Branch missing = never pushed. Rebuild from the handover or drop it from this list."
     },
@@ -83,7 +133,11 @@
       "where": "main: projects/kinetic-lab",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/main/projects/kinetic-lab",
       "checks": [
-        { "type": "branch", "label": "Saved on main", "branch": "main" }
+        {
+          "type": "branch",
+          "label": "Saved on main",
+          "branch": "main"
+        }
       ],
       "fix": "None needed."
     },
@@ -94,7 +148,12 @@
       "where": "Claude account artifact",
       "link": "https://claude.ai/artifact/JwwedP9mRdkbQWoNDWwTnW",
       "checks": [
-        { "type": "none", "label": "Canvas", "state": "ok", "note": "6 screens × 390/1440 × dark/light + spec board. Private to your Claude account." }
+        {
+          "type": "none",
+          "label": "Canvas",
+          "state": "ok",
+          "note": "6 screens × 390/1440 × dark/light + spec board. Private to your Claude account."
+        }
       ],
       "fix": "Bring the canvas link to a Claude Code session to implement Phase 3 screens."
     },
@@ -105,7 +164,12 @@
       "where": "Owner action",
       "link": "https://build.nvidia.com/",
       "checks": [
-        { "type": "none", "label": "NVIDIA API key shared in chat", "state": "down", "note": "Revoke it at build.nvidia.com → API Keys, then mark this done in ops/systems.json." }
+        {
+          "type": "none",
+          "label": "NVIDIA API key shared in chat",
+          "state": "down",
+          "note": "Revoke it at build.nvidia.com → API Keys, then mark this done in ops/systems.json."
+        }
       ],
       "fix": "Revoke the key. Never paste keys in chat; use environment secrets."
     }

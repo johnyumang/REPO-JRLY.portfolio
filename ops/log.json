@@ -1,12 +1,45 @@
 {
   "_readme": "Work log, newest first. One line per meaningful change so anything can be recalled later. Detailed notes live in ops/log/<date>.md.",
   "entries": [
-    { "date": "2026-10-31", "what": "Medusa backend started in Claude session: 48 products / 8 categories seeded, new admin user (credentials sent as a file, never committed)", "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend" },
-    { "date": "2026-10-31", "what": "Status board, Kaizen board, system registry and hourly health check added", "where": "main: ops/, .github/workflows/status.yml → gh-pages /status/" },
-    { "date": "2026-10-31", "what": "Kinetic Lab concept page saved to the repo (was only in chat)", "where": "main: projects/kinetic-lab" },
-    { "date": "2026-10-31", "what": "Neon store published to GitHub Pages (beige + white palette)", "where": "gh-pages: /neon-store/" },
-    { "date": "2026-10-31", "what": "Neon store built: 7 pages + product page, cart drawer, config.js, SEO/OG, image kit merged with credits", "where": "gh-pages: /neon-store/ (source in the same folder)" },
-    { "date": "2026-10-31", "what": "Phase 3 auth screens designed: log in, sign up, forgot, reset, verify, /dev/inbox × 390/1440 × dark/light", "where": "Claude Design canvas (private)" },
-    { "date": "2026-10-31", "what": "Handover document saved", "where": "main: ops/HANDOVER.md" }
+    {
+      "date": "2026-10-31",
+      "what": "Oracle Always Free deploy kit for Medusa (one-command installer, Docker, auto-HTTPS). Fixed a production build bug (seed script outside rootDir) and Postgres SSL. Tested in Docker: build, migrate, seed, admin login, restart.",
+      "where": "main: ops/deploy/oracle/"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Medusa backend started in Claude session: 48 products / 8 categories seeded, new admin user (credentials sent as a file, never committed)",
+      "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Status board, Kaizen board, system registry and hourly health check added",
+      "where": "main: ops/, .github/workflows/status.yml → gh-pages /status/"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Kinetic Lab concept page saved to the repo (was only in chat)",
+      "where": "main: projects/kinetic-lab"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Neon store published to GitHub Pages (beige + white palette)",
+      "where": "gh-pages: /neon-store/"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Neon store built: 7 pages + product page, cart drawer, config.js, SEO/OG, image kit merged with credits",
+      "where": "gh-pages: /neon-store/ (source in the same folder)"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Phase 3 auth screens designed: log in, sign up, forgot, reset, verify, /dev/inbox × 390/1440 × dark/light",
+      "where": "Claude Design canvas (private)"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Handover document saved",
+      "where": "main: ops/HANDOVER.md"
+    }
   ]
 }

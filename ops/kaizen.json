@@ -32,8 +32,8 @@
     },
     {
       "id": "K-003",
-      "title": "Choose permanent free hosting for Medusa (own PC or free tier)",
-      "column": "backlog",
+      "title": "Create Oracle Always Free VM and run the Medusa installer (ops/deploy/oracle/README.md)",
+      "column": "doing",
       "priority": "high",
       "area": "Medusa",
       "owner": "John"
@@ -138,6 +138,23 @@
       "area": "Kinetic Lab",
       "owner": "Claude",
       "done": "2026-10-31"
+    },
+    {
+      "id": "K-017",
+      "title": "Oracle one-command Medusa installer, tested in Docker",
+      "column": "done",
+      "priority": "high",
+      "area": "Medusa",
+      "owner": "Claude",
+      "done": "2026-10-31"
+    },
+    {
+      "id": "K-018",
+      "title": "Free domain email: Cloudflare Routing + Gmail + Brevo (after domain is bought)",
+      "column": "backlog",
+      "priority": "low",
+      "area": "Ops",
+      "owner": "John"
     }
   ]
 }

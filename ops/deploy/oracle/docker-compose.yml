@@ -1,0 +1,59 @@
+# JRLY Medusa stack: Postgres + Redis + Medusa + Caddy (automatic HTTPS).
+# Values come from /opt/jrly/.env, written by install.sh. Never commit that file.
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: medusa
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: medusa
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medusa"]
+      interval: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+
+  medusa:
+    build:
+      context: ${APP_SRC}
+      dockerfile: Dockerfile
+      args:
+        MEDUSA_BACKEND_URL: https://${PUBLIC_HOST}
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgres://medusa:${POSTGRES_PASSWORD}@postgres:5432/medusa?sslmode=disable
+      REDIS_URL: redis://redis:6379
+      MEDUSA_WORKER_MODE: shared
+    volumes:
+      - medusa-data:/data
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    command: ["caddy", "reverse-proxy", "--from", "${PUBLIC_HOST}", "--to", "medusa:9000"]
+    volumes:
+      - caddy-data:/data
+    depends_on:
+      - medusa
+
+volumes:
+  pgdata:
+  medusa-data:
+  caddy-data:
