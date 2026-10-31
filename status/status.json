@@ -1,0 +1,360 @@
+{
+  "generatedAt": "2026-10-31T08:49:07.453Z",
+  "repo": "johnyumang/REPO-JRLY.portfolio",
+  "systems": [
+    {
+      "id": "neon-store",
+      "name": "Neon store (compression wear)",
+      "kind": "Static store template",
+      "where": "gh-pages branch → /neon-store/",
+      "link": "https://johnyumang.github.io/REPO-JRLY.portfolio/neon-store/",
+      "fix": "If down: check Settings → Pages is set to branch gh-pages, then re-run the 'Status board' action.",
+      "state": "ok",
+      "checks": [
+        {
+          "label": "Home page",
+          "state": "ok",
+          "detail": "HTTP 200 · 207 ms"
+        },
+        {
+          "label": "Shop page",
+          "state": "ok",
+          "detail": "HTTP 200 · 98 ms"
+        },
+        {
+          "label": "Product page",
+          "state": "ok",
+          "detail": "HTTP 200 · 111 ms"
+        }
+      ]
+    },
+    {
+      "id": "status-page",
+      "name": "Status board (this page)",
+      "kind": "Ops dashboard",
+      "where": "main: ops/ → published to gh-pages /status/ by GitHub Actions",
+      "link": "https://johnyumang.github.io/REPO-JRLY.portfolio/status/",
+      "fix": "If stale: open Actions → 'Status board' → Run workflow.",
+      "state": "down",
+      "checks": [
+        {
+          "label": "Status page",
+          "state": "down",
+          "detail": "HTTP 404 · 275 ms"
+        }
+      ]
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa backend (JRLY store)",
+      "kind": "Self-hosted commerce API + admin",
+      "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend",
+      "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/ecommerce-template-phase3/projects/ecommerce-template/backend",
+      "fix": "Pick permanent free hosting (own PC, or free web tier + free Postgres) and add its /health URL here as an http check.",
+      "state": "warn",
+      "checks": [
+        {
+          "label": "Backend code on branch",
+          "state": "ok",
+          "detail": "last commit 2026-10-31"
+        },
+        {
+          "label": "Live server",
+          "state": "warn",
+          "note": "Runs only inside a Claude session (local Postgres). Not reachable from the internet and wiped when the session ends."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-template",
+      "name": "E-commerce template (Zara-style)",
+      "kind": "Next.js 16 storefront",
+      "where": "projects/ecommerce-template on stacked branches",
+      "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/pulls",
+      "fix": "Merge #1, retarget #2 to main, merge #2, then open the Phase 3 PR.",
+      "state": "warn",
+      "checks": [
+        {
+          "label": "PR #1 Phase 1 design",
+          "state": "warn",
+          "detail": "open since 2026-10-31 · waiting for your review"
+        },
+        {
+          "label": "PR #2 Phase 2 data layer",
+          "state": "warn",
+          "detail": "open since 2026-10-31 · waiting for your review"
+        },
+        {
+          "label": "Phase 3 branch",
+          "state": "ok",
+          "detail": "last commit 2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "name": "Personal portfolio site",
+      "kind": "Static site",
+      "where": "branch claude/practical-knuth-is7590 (not merged)",
+      "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/practical-knuth-is7590",
+      "fix": "Send LinkedIn/Upwork URLs, then merge and publish under /portfolio/ on gh-pages so it does not replace the store.",
+      "state": "warn",
+      "checks": [
+        {
+          "label": "Portfolio branch",
+          "state": "ok",
+          "detail": "last commit 2026-10-31"
+        },
+        {
+          "label": "Live site",
+          "state": "warn",
+          "note": "Not live yet. Needs LinkedIn + Upwork URLs, merge to main, and a Pages decision (shares this repo's Pages with the neon store)."
+        }
+      ]
+    },
+    {
+      "id": "sportswear-showcase",
+      "name": "Sportswear compression showcase",
+      "kind": "Single HTML page",
+      "where": "branch claude/sportswear-showcase",
+      "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/sportswear-showcase",
+      "fix": "Branch missing = never pushed. Rebuild from the handover or drop it from this list.",
+      "state": "ok",
+      "checks": [
+        {
+          "label": "Showcase branch",
+          "state": "ok",
+          "detail": "last commit 2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "kinetic-lab",
+      "name": "Kinetic Lab concept page",
+      "kind": "Single HTML page + design manifest",
+      "where": "main: projects/kinetic-lab",
+      "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/main/projects/kinetic-lab",
+      "fix": "None needed.",
+      "state": "ok",
+      "checks": [
+        {
+          "label": "Saved on main",
+          "state": "ok",
+          "detail": "last commit 2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "auth-designs",
+      "name": "Phase 3 auth designs",
+      "kind": "Claude Design canvas (private)",
+      "where": "Claude account artifact",
+      "link": "https://claude.ai/artifact/JwwedP9mRdkbQWoNDWwTnW",
+      "fix": "Bring the canvas link to a Claude Code session to implement Phase 3 screens.",
+      "state": "ok",
+      "checks": [
+        {
+          "label": "Canvas",
+          "state": "ok",
+          "note": "6 screens × 390/1440 × dark/light + spec board. Private to your Claude account."
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security to-dos",
+      "kind": "Manual",
+      "where": "Owner action",
+      "link": "https://build.nvidia.com/",
+      "fix": "Revoke the key. Never paste keys in chat; use environment secrets.",
+      "state": "down",
+      "checks": [
+        {
+          "label": "NVIDIA API key shared in chat",
+          "state": "down",
+          "note": "Revoke it at build.nvidia.com → API Keys, then mark this done in ops/systems.json."
+        }
+      ]
+    }
+  ],
+  "kaizen": {
+    "_readme": "Kaizen board. Move a card by changing its column: backlog | doing | done. Priority: high | med | low. The status page shows this board; edit on GitHub (pencil icon) and it updates within the hour or on the next push.",
+    "columns": [
+      "backlog",
+      "doing",
+      "done"
+    ],
+    "cards": [
+      {
+        "id": "K-001",
+        "title": "Revoke the NVIDIA API key shared in chat",
+        "column": "backlog",
+        "priority": "high",
+        "area": "Security",
+        "owner": "John"
+      },
+      {
+        "id": "K-016",
+        "title": "Store Nemotron API key in GitHub Secrets / .env (never in git or chat)",
+        "column": "backlog",
+        "priority": "high",
+        "area": "Security",
+        "owner": "John"
+      },
+      {
+        "id": "K-002",
+        "title": "Review and merge PR #1 (Phase 1 design), then PR #2",
+        "column": "backlog",
+        "priority": "high",
+        "area": "E-commerce template",
+        "owner": "John"
+      },
+      {
+        "id": "K-003",
+        "title": "Choose permanent free hosting for Medusa (own PC or free tier)",
+        "column": "backlog",
+        "priority": "high",
+        "area": "Medusa",
+        "owner": "John"
+      },
+      {
+        "id": "K-004",
+        "title": "Neon store: pick checkout mode (A waitlist / B Messenger + GCash)",
+        "column": "backlog",
+        "priority": "high",
+        "area": "Neon store",
+        "owner": "John"
+      },
+      {
+        "id": "K-005",
+        "title": "Neon store: set brand name, PHP prices, email, socials in config.js",
+        "column": "backlog",
+        "priority": "med",
+        "area": "Neon store",
+        "owner": "John"
+      },
+      {
+        "id": "K-006",
+        "title": "Neon store: replace stock photos that show other brands' logos",
+        "column": "backlog",
+        "priority": "med",
+        "area": "Neon store",
+        "owner": "John"
+      },
+      {
+        "id": "K-007",
+        "title": "Portfolio: send LinkedIn + Upwork URLs, then publish",
+        "column": "backlog",
+        "priority": "med",
+        "area": "Portfolio",
+        "owner": "John"
+      },
+      {
+        "id": "K-008",
+        "title": "Define Kaizen, Neo Cortex, Musk and Hermes agents (roles + Nemotron API, free)",
+        "column": "backlog",
+        "priority": "high",
+        "area": "Ops",
+        "owner": "John + Claude"
+      },
+      {
+        "id": "K-009",
+        "title": "Phase 3: build auth screens from the Design canvas",
+        "column": "backlog",
+        "priority": "med",
+        "area": "E-commerce template",
+        "owner": "Claude"
+      },
+      {
+        "id": "K-010",
+        "title": "Fix the invalid GitHub token in cloud sessions (gh CLI)",
+        "column": "backlog",
+        "priority": "low",
+        "area": "Ops",
+        "owner": "John"
+      },
+      {
+        "id": "K-011",
+        "title": "Medusa backend running in session with admin login (48 products)",
+        "column": "done",
+        "priority": "high",
+        "area": "Medusa",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      },
+      {
+        "id": "K-012",
+        "title": "Neon store live on GitHub Pages",
+        "column": "done",
+        "priority": "high",
+        "area": "Neon store",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      },
+      {
+        "id": "K-013",
+        "title": "Phase 3 auth designs (6 screens, 2 widths, 2 themes)",
+        "column": "done",
+        "priority": "med",
+        "area": "E-commerce template",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      },
+      {
+        "id": "K-014",
+        "title": "Status board + Kaizen board + ops docs",
+        "column": "done",
+        "priority": "high",
+        "area": "Ops",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      },
+      {
+        "id": "K-015",
+        "title": "Kinetic Lab page saved to repo",
+        "column": "done",
+        "priority": "low",
+        "area": "Kinetic Lab",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      }
+    ]
+  },
+  "log": [
+    {
+      "date": "2026-10-31",
+      "what": "Medusa backend started in Claude session: 48 products / 8 categories seeded, new admin user (credentials sent as a file, never committed)",
+      "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Status board, Kaizen board, system registry and hourly health check added",
+      "where": "main: ops/, .github/workflows/status.yml → gh-pages /status/"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Kinetic Lab concept page saved to the repo (was only in chat)",
+      "where": "main: projects/kinetic-lab"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Neon store published to GitHub Pages (beige + white palette)",
+      "where": "gh-pages: /neon-store/"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Neon store built: 7 pages + product page, cart drawer, config.js, SEO/OG, image kit merged with credits",
+      "where": "gh-pages: /neon-store/ (source in the same folder)"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Phase 3 auth screens designed: log in, sign up, forgot, reset, verify, /dev/inbox × 390/1440 × dark/light",
+      "where": "Claude Design canvas (private)"
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Handover document saved",
+      "where": "main: ops/HANDOVER.md"
+    }
+  ]
+}
