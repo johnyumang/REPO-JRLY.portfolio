@@ -22,3 +22,6 @@
 17. **Working principles: question every requirement, delete parts, simplify, speed up, then automate.** First applications: Medusa instead of a hand-built backend; the `serve` dev dependency (4 audit advisories) replaced by a 30-line zero-dependency `scripts/serve.mjs`. `npm audit` is now at 0.
 18. **Upgraded to Next 16.4.3** before Phase 3 as planned; it clears the postcss advisory from Phase 1.
 19. **No references to any other company** in the template; it is a standalone product. Removed one from MASTER-PROMPT §4.7.
+20. **Medusa seed imports the storefront's own catalogue** (`backend/src/scripts/seed.ts` reads `content/catalog.ts`), replacing the starter's demo products. Same SKUs, prices and deterministic stock in both places; product images are served by the storefront.
+21. **Free-shipping threshold lives in Medusa as a price rule** (`item_total >= 50` → €0 on Standard), mirroring `content/seed.ts`. One rule, two implementations, both tested.
+22. **EUR + one Europe region** to match the template's € prices. More regions (e.g. PHP for the Philippines) are a seed change, not a code change.
