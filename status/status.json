@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T08:49:07.453Z",
+  "generatedAt": "2026-10-31T09:17:43.565Z",
   "repo": "johnyumang/REPO-JRLY.portfolio",
   "systems": [
     {
@@ -14,17 +14,17 @@
         {
           "label": "Home page",
           "state": "ok",
-          "detail": "HTTP 200 · 207 ms"
+          "detail": "HTTP 200 · 236 ms"
         },
         {
           "label": "Shop page",
           "state": "ok",
-          "detail": "HTTP 200 · 98 ms"
+          "detail": "HTTP 200 · 115 ms"
         },
         {
           "label": "Product page",
           "state": "ok",
-          "detail": "HTTP 200 · 111 ms"
+          "detail": "HTTP 200 · 77 ms"
         }
       ]
     },
@@ -35,12 +35,12 @@
       "where": "main: ops/ → published to gh-pages /status/ by GitHub Actions",
       "link": "https://johnyumang.github.io/REPO-JRLY.portfolio/status/",
       "fix": "If stale: open Actions → 'Status board' → Run workflow.",
-      "state": "down",
+      "state": "ok",
       "checks": [
         {
           "label": "Status page",
-          "state": "down",
-          "detail": "HTTP 404 · 275 ms"
+          "state": "ok",
+          "detail": "HTTP 200 · 84 ms"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "kind": "Self-hosted commerce API + admin",
       "where": "branch claude/ecommerce-template-phase3 → projects/ecommerce-template/backend",
       "link": "https://github.com/johnyumang/REPO-JRLY.portfolio/tree/claude/ecommerce-template-phase3/projects/ecommerce-template/backend",
-      "fix": "Pick permanent free hosting (own PC, or free web tier + free Postgres) and add its /health URL here as an http check.",
+      "fix": "Follow ops/deploy/oracle/README.md on your phone, then replace the 'Live server' check with an http check on https://<ip>.sslip.io/health.",
       "state": "warn",
       "checks": [
         {
@@ -211,8 +211,8 @@
       },
       {
         "id": "K-003",
-        "title": "Choose permanent free hosting for Medusa (own PC or free tier)",
-        "column": "backlog",
+        "title": "Create Oracle Always Free VM and run the Medusa installer (ops/deploy/oracle/README.md)",
+        "column": "doing",
         "priority": "high",
         "area": "Medusa",
         "owner": "John"
@@ -317,10 +317,32 @@
         "area": "Kinetic Lab",
         "owner": "Claude",
         "done": "2026-10-31"
+      },
+      {
+        "id": "K-017",
+        "title": "Oracle one-command Medusa installer, tested in Docker",
+        "column": "done",
+        "priority": "high",
+        "area": "Medusa",
+        "owner": "Claude",
+        "done": "2026-10-31"
+      },
+      {
+        "id": "K-018",
+        "title": "Free domain email: Cloudflare Routing + Gmail + Brevo (after domain is bought)",
+        "column": "backlog",
+        "priority": "low",
+        "area": "Ops",
+        "owner": "John"
       }
     ]
   },
   "log": [
+    {
+      "date": "2026-10-31",
+      "what": "Oracle Always Free deploy kit for Medusa (one-command installer, Docker, auto-HTTPS). Fixed a production build bug (seed script outside rootDir) and Postgres SSL. Tested in Docker: build, migrate, seed, admin login, restart.",
+      "where": "main: ops/deploy/oracle/"
+    },
     {
       "date": "2026-10-31",
       "what": "Medusa backend started in Claude session: 48 products / 8 categories seeded, new admin user (credentials sent as a file, never committed)",
