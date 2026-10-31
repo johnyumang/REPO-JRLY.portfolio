@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Rainier Yumang · Portfolio</title>
+<meta name="description" content="AI Automation Expert, Executive & Virtual Assistant and E-Commerce Growth Partner. Amazon, Walmart, Etsy, Shopify and more, run end to end by one person.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0e1a33;
+    --navy-2: #13244a;
+    --gold: #d4a94f;
+    --ink: #1b2236;
+    --muted: #5d6478;
+    --paper: #faf6ee;
+    --card: #ffffff;
+    --line: #e6dfcf;
+    --bar: #a3adc2;
+    --serif: "Cormorant Garamond", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: var(--sans); color: var(--ink); background: var(--paper); line-height: 1.6; font-size: 16px; }
+  a { color: inherit; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  .eyebrow { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; font-weight: 600; color: var(--gold); }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.1; margin: 0; }
+  h2 { font-size: clamp(32px, 5vw, 46px); margin: 8px 0 12px; }
+  h2 em, h1 em { color: var(--gold); }
+  .lede { color: var(--muted); max-width: 640px; margin: 0 0 32px; }
+
+  /* nav */
+  nav { position: sticky; top: 0; z-index: 10; background: rgba(14,26,51,.92); backdrop-filter: blur(8px); }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .mono { width: 38px; height: 38px; border: 1px solid var(--gold); border-radius: 50%; display: grid; place-items: center; font-family: var(--serif); color: var(--gold); text-decoration: none; }
+  nav ul { display: flex; gap: 22px; list-style: none; margin: 0; padding: 0; }
+  nav ul a { color: #c9cfdd; text-decoration: none; font-size: 14px; }
+  nav ul a:hover { color: var(--gold); }
+
+  /* hero */
+  .hero { background: radial-gradient(ellipse at 80% 0%, var(--navy-2), var(--navy) 70%); color: #fff; padding: 72px 0 64px; }
+  .hero h1 { font-size: clamp(48px, 9vw, 92px); margin: 14px 0 18px; }
+  .roles { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: #aab3c7; max-width: 780px; }
+  .roles b { color: var(--gold); font-weight: 600; }
+  .tagline { font-family: var(--serif); font-style: italic; font-size: clamp(22px, 3vw, 28px); max-width: 720px; margin: 28px 0 40px; color: #e9ecf3; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid rgba(255,255,255,.18); border-bottom: 1px solid rgba(255,255,255,.18); }
+  .stat { padding: 20px 18px; border-left: 1px solid rgba(255,255,255,.18); }
+  .stat:first-child { border-left: 0; padding-left: 0; }
+  .stat .n { font-family: var(--serif); font-size: 42px; color: var(--gold); }
+  .stat .l { font-size: 13px; color: #aab3c7; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip { border: 1px solid rgba(212,169,79,.6); border-radius: 999px; padding: 4px 12px; font-size: 13px; color: #e9ecf3; }
+  .hero-foot { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-top: 40px; }
+  .hero-foot .meta { font-size: 12px; letter-spacing: .18em; color: #aab3c7; text-transform: uppercase; }
+  .btn { display: inline-block; padding: 11px 20px; border-radius: 999px; font-weight: 600; font-size: 14px; text-decoration: none; border: 1px solid var(--gold); }
+  .btn.solid { background: var(--gold); color: var(--navy); }
+  .btn.ghost { color: var(--gold); }
+  .btns { display: flex; flex-wrap: wrap; gap: 10px; }
+
+  section { padding: 80px 0; }
+  section + section { border-top: 1px solid var(--line); }
+
+  /* channels */
+  .grid2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .channel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; display: flex; gap: 16px; }
+  .tag { flex: none; width: 44px; height: 44px; border-radius: 8px; background: var(--navy); color: var(--gold); display: grid; place-items: center; font-size: 12px; font-weight: 600; letter-spacing: .05em; }
+  .channel h3 { font-family: var(--sans); font-size: 16px; font-weight: 600; }
+  .channel h3 small { font-size: 11px; letter-spacing: .14em; color: var(--muted); font-weight: 500; margin-left: 6px; text-transform: uppercase; }
+  .channel p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+
+  /* automations */
+  .auto { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; position: relative; }
+  .auto .num { position: absolute; top: 20px; right: 22px; font-family: var(--serif); color: var(--gold); font-size: 22px; }
+  .auto h3 { font-size: 26px; margin-bottom: 8px; padding-right: 40px; }
+  .auto p { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+  .auto .where { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink); font-weight: 600; }
+  .auto.wide { grid-column: 1 / -1; }
+
+  /* case study */
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 14px 20px; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .panel-head b { font-weight: 600; }
+  .panel-head span { color: var(--muted); }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .kpi { padding: 18px 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .kpi:last-child { border-right: 0; }
+  .kpi .k { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .kpi .v { font-family: var(--serif); font-size: 38px; }
+  .kpi .s { font-size: 12px; color: #2f7a4a; }
+  .chart { padding: 20px; }
+  .chart .k { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 14px; }
+  .bars { display: grid; grid-template-columns: repeat(14, 1fr); gap: 6px; align-items: end; height: 220px; }
+  .bar { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+  .bar i { display: block; width: 100%; background: var(--bar); border-radius: 3px 3px 0 0; }
+  .bar.base i { background: var(--gold); }
+  .bar.peak i { background: var(--navy); }
+  .bar b { font-size: 11px; font-weight: 600; margin-bottom: 4px; }
+  .bar span { font-size: 10px; color: var(--muted); margin-top: 6px; text-align: center; line-height: 1.2; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 36px; }
+  .cols h3 { font-size: 28px; margin-bottom: 10px; }
+  .cols ul { margin: 0; padding: 0; list-style: none; }
+  .cols li { padding: 10px 0 10px 18px; border-bottom: 1px solid var(--line); position: relative; font-size: 15px; }
+  .cols li::before { content: ""; position: absolute; left: 0; top: 20px; width: 8px; height: 1px; background: var(--gold); }
+  .source { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 18px; }
+
+  /* timeline */
+  .timeline { border-left: 1px solid var(--gold); margin-left: 6px; }
+  .tl { position: relative; padding: 0 0 32px 28px; }
+  .tl::before { content: ""; position: absolute; left: -6px; top: 6px; width: 11px; height: 11px; border-radius: 50%; background: var(--paper); border: 2px solid var(--gold); }
+  .tl .when { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .tl h3 { font-size: 26px; margin: 4px 0 6px; }
+  .tl p { margin: 0; color: var(--muted); max-width: 760px; }
+  .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 24px; }
+  .skills h4 { margin: 0 0 8px; font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+  .skills p { margin: 0; font-size: 15px; }
+
+  /* contact */
+  .contact { background: var(--navy); color: #fff; }
+  .contact h2 { color: #fff; }
+  .contact .lede { color: #aab3c7; }
+  footer { background: var(--navy); color: #7d869c; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; padding: 24px 0; border-top: 1px solid rgba(255,255,255,.1); }
+
+  @media (max-width: 760px) {
+    nav ul { display: none; }
+    .stats, .kpis { grid-template-columns: 1fr 1fr; }
+    .stat:nth-child(3) { border-left: 0; padding-left: 0; }
+    .stat { border-top: 1px solid rgba(255,255,255,.18); }
+    .stat:nth-child(-n+2) { border-top: 0; }
+    .kpi:nth-child(2) { border-right: 0; }
+    .grid2, .cols, .skills { grid-template-columns: 1fr; }
+    .bars { gap: 3px; height: 180px; }
+    .bar b { font-size: 9px; }
+    .bar span { font-size: 8px; }
+    section { padding: 56px 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="mono" href="#top" aria-label="Home">JR</a>
+    <ul>
+      <li><a href="#scope">Channels</a></li>
+      <li><a href="#systems">Automations</a></li>
+      <li><a href="#case">Case study</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Portfolio · 2026</div>
+    <h1>John Rainier<br><em>Yumang</em></h1>
+    <p class="roles"><b>AI Automation Expert · Executive &amp; Virtual Assistant · E-Commerce Growth Partner · Amazon PPC · Jr. Developer</b><br>
+      Amazon Seller Support · Customer Experience &amp; Technical Support · B2C Sales &amp; Mortgage · Telecom Support</p>
+    <p class="tagline">A one-man department. I run the inbox, the listings, the ads, the stock and the reports, and I build the AI automations that keep it all running.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n">+57%</div><div class="l">Units sold YoY,<br>Dec → Dec</div></div>
+      <div class="stat"><div class="n">4.7%</div><div class="l">Units per page view<br>(from 3.4%)</div></div>
+      <div class="stat"><div class="n">98.5%</div><div class="l">Peak Buy Box<br>share</div></div>
+      <div class="stat"><div class="n">14</div><div class="l">Channels run<br>by one person</div></div>
+    </div>
+
+    <div class="eyebrow" style="margin-top:32px">Full ownership on every channel</div>
+    <div class="chips">
+      <span class="chip">Inbox &amp; buyer care</span><span class="chip">Listing updates &amp; SEO</span><span class="chip">Inventory &amp; stock sync</span><span class="chip">FBA / 3PL fulfilment</span><span class="chip">Promotions &amp; coupons</span><span class="chip">PPC / ads</span><span class="chip">Account audits &amp; health</span><span class="chip">Growth opportunities</span><span class="chip">Localization &amp; translation</span><span class="chip">Reporting</span>
+    </div>
+
+    <div class="hero-foot">
+      <div class="meta">Philippines · Remote (UTC+8) · Part-time · Per project</div>
+      <div class="btns">
+        <a class="btn solid" href="assets/John_Rainier_Yumang_Resume.pdf" download>Download résumé</a>
+        <a class="btn ghost" href="assets/John_Rainier_Yumang_Portfolio.pdf" download>Portfolio PDF</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="scope">
+  <div class="wrap">
+    <div class="eyebrow">01 — Scope</div>
+    <h2>Where I've run <em>operations</em></h2>
+    <p class="lede">For a health-products brand I ran every channel myself, end to end. I didn't handle one task per channel. I ran the whole operation.</p>
+    <div class="grid2">
+      <div class="channel"><div class="tag">US</div><div><h3>Amazon US<small>North America</small></h3><p>Buyer care, listings &amp; SEO, FBA inventory, PPC, coupons, audits, rank tracking, growth</p></div></div>
+      <div class="channel"><div class="tag">UK</div><div><h3>Amazon UK<small>United Kingdom</small></h3><p>Buyer care, listings, stock, FBA inbound &amp; customs, PPC, promotions, audits</p></div></div>
+      <div class="channel"><div class="tag">EU</div><div><h3>Amazon EU<small>DE · FR · ES · IT</small></h3><p>Localized listings, buyer care in 4 languages, pan-EU stock, FBA, PPC, promos, audits</p></div></div>
+      <div class="channel"><div class="tag">JP</div><div><h3>Amazon Japan<small>Japan</small></h3><p>Buyer care, Japanese listings, stock, fulfilment, promotions, audits</p></div></div>
+      <div class="channel"><div class="tag">US</div><div><h3>Walmart US<small>Seller Center</small></h3><p>Buyer care, catalog &amp; GTINs, galleries, stock sync, promotions, audits</p></div></div>
+      <div class="channel"><div class="tag">ET</div><div><h3>Etsy<small>Global</small></h3><p>Buyer messages, listings &amp; photos, stock, shipping, promotions, shop audits</p></div></div>
+      <div class="channel"><div class="tag">PL</div><div><h3>Allegro<small>Poland</small></h3><p>Polish localization, buyer care, listings, stock sync, shipping, promotions</p></div></div>
+      <div class="channel"><div class="tag">LA</div><div><h3>Mercado Libre<small>Latin America</small></h3><p>Spanish listings, buyer care, catalog, stock, fulfilment, promotions</p></div></div>
+      <div class="channel"><div class="tag">DTC</div><div><h3>Shopify store<small>Direct-to-consumer</small></h3><p>Orders &amp; buyer care, product pages, stock sync, discounts, CRO audits</p></div></div>
+      <div class="channel"><div class="tag">DTC</div><div><h3>WooCommerce store<small>Direct-to-consumer</small></h3><p>Orders, returns, catalog, stock sync, coupons, conversion audits</p></div></div>
+      <div class="channel"><div class="tag">ADS</div><div><h3>Meta ads<small>Facebook · Instagram</small></h3><p>Campaigns, UGC scripts &amp; AI video, inbox replies, reporting</p></div></div>
+      <div class="channel"><div class="tag">SEO</div><div><h3>Google SEO / AI search<small>Search</small></h3><p>On-page SEO, AI Overviews &amp; AI Mode presence, audits, opportunities</p></div></div>
+      <div class="channel"><div class="tag">FBA</div><div><h3>FBA + 3PLs<small>US · UK · ES</small></h3><p>Shipment creation, carton &amp; label prep, stock planning, reconciliation</p></div></div>
+      <div class="channel"><div class="tag">INT</div><div><h3>International shipping<small>Cross-border</small></h3><p>Courier booking, customs paperwork, duties, delivery issues</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="systems">
+  <div class="wrap">
+    <div class="eyebrow">02 — Systems</div>
+    <h2>Automations <em>I built</em></h2>
+    <p class="lede">AI agents that do the owner's daily checks across WooCommerce, Shopify and every marketplace. At peak the brand held #1 on 9–11 of 14 Amazon US money terms, tracked hour by hour.</p>
+    <div class="grid2">
+      <div class="auto"><span class="num">01</span><h3>Rank Tracker</h3><p>Hourly Amazon organic rank ticker for the US and five European markets, tracking about 14 money keywords plus hero products. Captures top-10 results screenshots, flags up / down / flat moves and raises RED alerts, then sends the owner a daily rank card. A sister ticker tracks sponsored (ads) placement.</p><div class="where">Amazon US · UK · DE · FR · ES · IT</div></div>
+      <div class="auto"><span class="num">02</span><h3>Daily Sales Report</h3><p>One card a day with every channel's sales: Amazon, Walmart, Etsy, Allegro, Mercado Libre, Shopify and WooCommerce. Auto-posted to the owner's group chat daily, so nobody has to open seven dashboards.</p><div class="where">All 7 sales channels</div></div>
+      <div class="auto"><span class="num">03</span><h3>Promos &amp; Coupon Alarm</h3><p>Daily promotions and coupons report across marketplaces, with an expiry alarm that flags coupons nearing expiry.</p><div class="where">Amazon · Walmart · Shopify · WooCommerce</div></div>
+      <div class="auto"><span class="num">04</span><h3>Stock Sync</h3><p>Keeps inventory aligned across channels from one source, so a sale on one storefront updates the others and nothing oversells. A pixel watchdog also checks that the WooCommerce store's tracking stays live.</p><div class="where">Shopify · WooCommerce · Marketplaces</div></div>
+      <div class="auto wide"><span class="num">05</span><h3>Google AI Search Desk</h3><p>Checks whether the brand appears in Google AI Mode and AI Overviews for “best …” buying searches, marks each term present or absent, and lists what to fix to get cited.</p><div class="where">Google AI Mode · AI Overviews</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="case">
+  <div class="wrap">
+    <div class="eyebrow">03 — Case study</div>
+    <h2>Scaling an Amazon US account, <em>in numbers</em></h2>
+    <p class="lede">A health-products brand, from its Oct 2024 launch through Dec 2025. The brand, products and revenue are confidential, so every figure is an index or a percentage.</p>
+
+    <div class="panel">
+      <div class="panel-head"><b>Amazon US performance (anonymized)</b><span>Business report · Nov 2024 – Dec 2025</span></div>
+      <div class="kpis">
+        <div class="kpi"><div class="k">Units sold · YoY Nov</div><div class="v">+45%</div><div class="s">Nov '24 → Nov '25</div></div>
+        <div class="kpi"><div class="k">Units sold · YoY Dec</div><div class="v">+57%</div><div class="s">Dec '24 → Dec '25</div></div>
+        <div class="kpi"><div class="k">Units / page view</div><div class="v">4.7%</div><div class="s">from 3.4%</div></div>
+        <div class="kpi"><div class="k">Featured offer (Buy Box)</div><div class="v">91–98.5%</div><div class="s">6 months ≥ 97%</div></div>
+      </div>
+      <div class="chart">
+        <div class="k">Monthly units sold · index, Nov '24 = 100</div>
+        <div class="bars" id="bars" role="img" aria-label="Monthly units sold index from 100 in Nov 2024 to 141 in Dec 2025, peaking at 157 in Oct 2025"></div>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h3>Results</h3>
+        <ul>
+          <li><b>About 16,600 units</b> sold over 15 months on <b>about 430K page views</b></li>
+          <li><b>Growth came from conversion:</b> page views rose only 7–10% YoY while units rose 45–57%</li>
+          <li><b>High-five-figure</b> peak monthly sales</li>
+          <li><b>#1 on 9–11</b> of 14 core US search terms (2026)</li>
+        </ul>
+      </div>
+      <div>
+        <h3>What I did</h3>
+        <ul>
+          <li><b>Listings &amp; SEO:</b> titles, bullets, backend keywords, images, variations</li>
+          <li><b>PPC &amp; coupons:</b> Sponsored Products and Brands, promos timed with ad pushes</li>
+          <li><b>Buy Box &amp; health:</b> compliance, appeals, pricing guardrails</li>
+          <li><b>FBA restocks</b> and 3PL prep to avoid stock-outs; hourly rank tracking</li>
+        </ul>
+      </div>
+    </div>
+    <p class="source">Source: Seller Central Business Reports. Index and conversion figures come from units and page views. No revenue is shown.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="eyebrow">04 — Experience</div>
+    <h2>Career <em>timeline</em></h2>
+    <div class="timeline" style="margin-top:28px">
+      <div class="tl"><div class="when">Oct 2023 — Present · Remote</div><h3>Executive Assistant / Growth Partner / Jr. Developer</h3><p>AI automation &amp; e-commerce for a multi-marketplace medical products brand. A one-person department: every channel end to end, executive support for the owner, and the automations above.</p></div>
+      <div class="tl"><div class="when">Jan 2022 — Sep 2023 · Pasay City</div><h3>Seller Partner Support Associate, Amazon</h3><p>Supported sellers by email, chat and phone on listings, pricing, promotions, orders, payments, returns, policy and FBA shipments.</p></div>
+      <div class="tl"><div class="when">Nov 2021 — Jan 2022</div><h3>Freelance Community Manager &amp; Virtual Assistant</h3><p>Community engagement, content scheduling, chat moderation and monthly analytics reporting.</p></div>
+      <div class="tl"><div class="when">Sep 2017 — Sep 2021</div><h3>Customer &amp; Technical Support · Telecom · Mortgage</h3><p>Operations Technical Support Specialist II at Telus, telecom technical &amp; billing specialist, and mortgage delinquency consultant. Front-line roles that built the communication skills behind the work above.</p></div>
+    </div>
+
+    <div class="skills">
+      <div><h4>Marketplaces</h4><p>Seller Central · FBA · Amazon PPC · Brand Registry · Helium 10 · Walmart · Shopify · WooCommerce · Etsy · Allegro · Mercado Libre</p></div>
+      <div><h4>AI &amp; automation</h4><p>Claude · Grok · Gemini · AI agents · rank &amp; sales reporting · UI design · AI video &amp; UGC scripting</p></div>
+      <div><h4>Operations</h4><p>Buyer care · Zendesk · Excel flat files · GTIN / GS1 · account health &amp; appeals · customs &amp; 3PL · English, Filipino</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="eyebrow">Work with me</div>
+    <h2>Start with a <em>free listing teardown.</em></h2>
+    <p class="lede">Send me one listing link. I'll reply with practical fixes and how I can help, part-time or per project.</p>
+    <div class="btns">
+      <span class="btn solid">Contact via LinkedIn / Upwork</span>
+      <a class="btn ghost" href="assets/John_Rainier_Yumang_Resume.pdf" download>Download résumé</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">John Rainier Yumang · Philippines · Remote (UTC+8)</div></footer>
+
+<script>
+  const months = ["Nov '24","Dec '24","Jan '25","Feb '25","Mar '25","Apr '25","May '25","Jun '25","Jul '25","Aug '25","Sep '25","Oct '25","Nov '25","Dec '25"];
+  const index = [100, 90, 86, 83, 109, 114, 123, 136, 139, 114, 138, 157, 145, 141];
+  const max = 170;
+  document.getElementById("bars").innerHTML = index.map((v, i) => {
+    const cls = i < 2 ? "base" : i >= 11 ? "peak" : "";
+    const [m, y] = months[i].split(" ");
+    return `<div class="bar ${cls}"><b>${v}</b><i style="height:${(v / max) * 100}%"></i><span>${m}<br>${y}</span></div>`;
+  }).join("");
+</script>
+</body>
+</html>
