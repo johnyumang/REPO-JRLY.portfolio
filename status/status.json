@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T09:17:43.565Z",
+  "generatedAt": "2026-10-31T09:19:56.776Z",
   "repo": "johnyumang/REPO-JRLY.portfolio",
   "systems": [
     {
@@ -14,17 +14,17 @@
         {
           "label": "Home page",
           "state": "ok",
-          "detail": "HTTP 200 · 236 ms"
+          "detail": "HTTP 200 · 132 ms"
         },
         {
           "label": "Shop page",
           "state": "ok",
-          "detail": "HTTP 200 · 115 ms"
+          "detail": "HTTP 200 · 55 ms"
         },
         {
           "label": "Product page",
           "state": "ok",
-          "detail": "HTTP 200 · 77 ms"
+          "detail": "HTTP 200 · 16 ms"
         }
       ]
     },
@@ -40,7 +40,7 @@
         {
           "label": "Status page",
           "state": "ok",
-          "detail": "HTTP 200 · 84 ms"
+          "detail": "HTTP 200 · 30 ms"
         }
       ]
     },
@@ -211,8 +211,8 @@
       },
       {
         "id": "K-003",
-        "title": "Create Oracle Always Free VM and run the Medusa installer (ops/deploy/oracle/README.md)",
-        "column": "doing",
+        "title": "Oracle one-time steps: signup + API key + 3 GitHub secrets (then auto-deploy)",
+        "column": "backlog",
         "priority": "high",
         "area": "Medusa",
         "owner": "John"
@@ -334,10 +334,24 @@
         "priority": "low",
         "area": "Ops",
         "owner": "John"
+      },
+      {
+        "id": "K-019",
+        "title": "Auto-deploy workflow: provisions Oracle VM + Medusa, retries capacity, updates status board",
+        "column": "done",
+        "priority": "high",
+        "area": "Medusa",
+        "owner": "Claude",
+        "done": "2026-10-31"
       }
     ]
   },
   "log": [
+    {
+      "date": "2026-10-31",
+      "what": "Hard rule added: John is never the bottleneck. Oracle deploy is now automatic via GitHub Actions (provision.sh + oracle-medusa.yml) once 3 secrets exist.",
+      "where": "main: ops/README.md, ops/deploy/oracle/, .github/workflows/oracle-medusa.yml"
+    },
     {
       "date": "2026-10-31",
       "what": "Oracle Always Free deploy kit for Medusa (one-command installer, Docker, auto-HTTPS). Fixed a production build bug (seed script outside rootDir) and Postgres SSL. Tested in Docker: build, migrate, seed, admin login, restart.",
