@@ -17,3 +17,8 @@
 12. **Idempotency-Key = outbox item id**, sent on every replay, so a request whose response was lost can be retried without duplicates.
 13. **UI wiring deferred to Phase 4.** Phase 2's gate is unit tests; moving the bag and pages onto the API is part of Phase 4 (catalog + cart), keeping each PR reviewable.
 14. **Upgraded to vitest 5 and zod 4** because the 3.x lines had critical/high audit advisories.
+15. **Medusa v2 (2.22.2) is the live backend**, replacing the custom Hono/Express + SQLite server in §2 (owner decision, 2026-10-31). It brings customer auth, cart, checkout, orders and an admin dashboard, so Phases 3, 5 and 9 configure Medusa instead of hand-building those parts. The Phase 2 offline layer (IndexedDB + MSW) stays as the offline cache and outbox and syncs to Medusa's Store API in live mode. Lives in `backend/` (official `medusa-starter-default`, npm instead of yarn).
+16. **Always free.** Only open-source or free-tier tools. Medusa is self-hosted (no Medusa Cloud). Dev and tests run against local Postgres 16 + Redis. Production hosting must use free tiers or the owner's own server.
+17. **Working principles: question every requirement, delete parts, simplify, speed up, then automate.** First applications: Medusa instead of a hand-built backend; the `serve` dev dependency (4 audit advisories) replaced by a 30-line zero-dependency `scripts/serve.mjs`. `npm audit` is now at 0.
+18. **Upgraded to Next 16.4.3** before Phase 3 as planned; it clears the postcss advisory from Phase 1.
+19. **No references to any other company** in the template; it is a standalone product. Removed one from MASTER-PROMPT §4.7.

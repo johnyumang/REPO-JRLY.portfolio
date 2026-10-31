@@ -138,7 +138,7 @@ Include a funnel analytics page in admin: visits, step conversion %, drop-off pe
 - Returns request flow (select items → reason → label placeholder).
 - Cookie consent banner (decline non-essential by default).
 
-### 4.7 AI chatbot and automation (like SIIL's CS auto loop)
+### 4.7 AI chatbot and automation (customer-service auto loop)
 - Floating chat widget, matches theme, keyboard accessible.
 - **Offline mode:** local retrieval over FAQ, policies, product catalog, and order lookup (MiniSearch + intent rules). Must answer common questions with zero network.
 - **Live mode:** LLM API adapter (provider-agnostic, key in env) with the same retrieval as context; guardrails (no medical/legal advice beyond policy text, no invented order data).

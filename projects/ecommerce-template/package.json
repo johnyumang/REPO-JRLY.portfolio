@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && node scripts/gen-sw.mjs",
-    "start": "npx serve out -l 3000",
+    "start": "node scripts/serve.mjs 3000",
     "check:contrast": "node scripts/contrast.mjs",
     "test:visual": "node scripts/screenshots.mjs",
     "test": "vitest run",
@@ -18,7 +18,7 @@
     "dexie": "^4.4.7",
     "gsap": "^3.13.0",
     "msw": "^2.15.0",
-    "next": "^15.5.28",
+    "next": "^16.4.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "zod": "^4.6.7"
@@ -29,7 +29,6 @@
     "autoprefixer": "^10.6.2",
     "fake-indexeddb": "^6.2.7",
     "postcss": "^8.5.32",
-    "serve": "^14.2.6",
     "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
