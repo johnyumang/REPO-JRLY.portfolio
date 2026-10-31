@@ -1,0 +1,32 @@
+# Render Blueprint — JRLY Medusa backend on the FREE plan.
+# Database: Neon free Postgres (Render's own free Postgres is deleted after 30 days, so it isn't used).
+services:
+  - type: web
+    name: jrly-medusa
+    runtime: image
+    plan: free
+    region: frankfurt
+    image:
+      url: ghcr.io/johnyumang/jrly-medusa:preview   # switch to :latest after the branch is merged
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL          # Neon "direct" connection string (not the -pooler one)
+        sync: false
+      - key: DATABASE_SSL
+        value: "true"
+      - key: ADMIN_EMAIL           # your admin login for /app
+        sync: false
+      - key: ADMIN_PASSWORD        # 12+ characters
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: COOKIE_SECRET
+        generateValue: true
+      - key: STORE_NAME
+        value: JRLY
+      - key: STORE_CORS
+        value: https://johnyumang.github.io,http://localhost:3000
+      - key: ADMIN_CORS
+        value: https://jrly-medusa.onrender.com
+      - key: AUTH_CORS
+        value: https://johnyumang.github.io,https://jrly-medusa.onrender.com,http://localhost:3000

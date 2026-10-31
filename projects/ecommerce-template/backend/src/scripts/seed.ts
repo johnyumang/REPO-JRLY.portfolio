@@ -1,5 +1,5 @@
 // JRLY store seed: store settings, region, shipping, publishable key, and the storefront's own
-// 48-product catalogue (content/catalog.ts), so the offline storefront and Medusa never disagree.
+// 48-product catalogue (content/catalog.ts, mirrored to src/data/catalog.ts), so the offline storefront and Medusa never disagree.
 // Run once on an empty, migrated database: npm run seed
 import { CreateInventoryLevelInput, ExecArgs } from "@medusajs/framework/types";
 import { ContainerRegistrationKeys, Modules, ProductStatus } from "@medusajs/framework/utils";
@@ -18,10 +18,16 @@ import {
   linkSalesChannelsToStockLocationWorkflow,
   updateStoresWorkflow,
 } from "@medusajs/medusa/core-flows";
-import { collections, products, variantsOf } from "../../../content/catalog";
+import { collections, products, variantsOf } from "../data/catalog";
 
 const STORE_NAME = process.env.STORE_NAME || "JRLY";
 const STOREFRONT_URL = (process.env.STOREFRONT_URL || "http://localhost:3000").replace(/\/$/, "");
+// Where product photos live. In the Docker image they are bundled and served by Medusa at /static/stock,
+// so on Render (which sets RENDER_EXTERNAL_URL) images work without the storefront being online.
+const IMAGE_BASE = (
+  process.env.IMAGE_BASE_URL ||
+  (process.env.RENDER_EXTERNAL_URL ? `${process.env.RENDER_EXTERNAL_URL}/static/stock` : `${STOREFRONT_URL}/stock`)
+).replace(/\/$/, "");
 const COUNTRIES = ["de", "fr", "es", "it", "nl", "be", "at", "ie", "pt"];
 const CURRENCY = "eur"; // matches the storefront's € prices
 const SHIPPING = { standard: 4.95, express: 9.95, freeOver: 50 }; // same rule as content/seed.ts
@@ -156,8 +162,8 @@ export default async function seedJrly({ container }: ExecArgs) {
           status: ProductStatus.PUBLISHED,
           shipping_profile_id: profile.id,
           category_ids: p.collections.map((c) => categoryId[c]).filter(Boolean),
-          thumbnail: `${STOREFRONT_URL}/stock/${p.images[0]}-800.webp`,
-          images: p.images.map((img) => ({ url: `${STOREFRONT_URL}/stock/${img}-1400.webp` })),
+          thumbnail: `${IMAGE_BASE}/${p.images[0]}-800.webp`,
+          images: p.images.map((img) => ({ url: `${IMAGE_BASE}/${img}-1400.webp` })),
           metadata: { badge: p.badge ?? null, compare_at: p.compareAt ?? null, colors: p.colors, created_at: p.createdAt },
           options: [
             { title: "Color", values: p.colors.map((c) => c.name) },
