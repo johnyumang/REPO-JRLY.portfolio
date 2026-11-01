@@ -84,3 +84,43 @@ Research basis: the opening seconds decide the hook rate (3 s on Meta, 2 s on Ti
 - Barbershop promo and prompt structure: [Fluxnote, barbershop promo videos](https://fluxnote.io/guides/how-to-make-promo-videos-for-barbershop) · [Renderforest, AI video editor prompts](https://www.renderforest.com/blog/ai-video-editor-prompts) · [Invideo, salon/barbershop promo](https://info.invideo.io/best-ai-create-salon-barbershop-promo-video-invideo)
 
 Most of these are vendor blogs, so treat their benchmark numbers as directional, not as Meta or TikTok documentation.
+
+---
+
+## 5. Variant: `HerrkutzPunk15.mp4` (15 s, punk, bright and vivid)
+**Look:** saturation ×1.65, lifted exposure, no vignette, no dark frames. BEFORE is bright black-and-white xerox at a choppy 8 fps. The end card is a pink-to-yellow duotone.
+
+**Techniques:**
+- an RGB split and camera-shake hit on every cut
+- a stop-motion before shot
+- a zoom punch with motion blur
+- a slow-motion reveal with a 2-frame pink/yellow stamp; that's the only flash, kept under 3 per second for photosensitivity safety
+- a torn-paper split screen
+- ransom-note text that slams in
+- a 180 BPM original punk-rock track (E-C-G-D) with stop-time breaks on the reveal and end card
+
+**AI-generated B-roll:** four stills made with Canva AI. They show objects and graphics only, with no people and nothing from the real shop. Each appears for 0.33 s as a posterized, xerox-style insert:
+| Time | Image | Canva media id |
+|---|---|---|
+| 1.00–1.33 | Clippers in a paint explosion | MAHZrskRHck |
+| 2.33–2.67 | Razor and scissors on hot pink | MAHZri9sRH8 |
+| 4.00–4.33 | Flying hair clippings on blue | MAHZrl-BG4w |
+| 11.33–11.67 | Graffiti barber pole | MAHZrh02OQE |
+
+These are 112×199 previews (`punk/ai/`), because this environment's network policy blocks `media.canva.com`. Allow that domain and re-render to use the full 944×1680 images.
+
+| Time | Shot | Text |
+|---|---|---|
+| 0.00–1.00 | BEFORE (stop-motion) | BAD / HAIR / DAY? |
+| 1.00–1.33 | AI clippers | — |
+| 1.33–2.33 | Barber pole | HERRKUTZ / BARBERSHOP |
+| 2.33–2.67 | AI razor | — |
+| 2.67–4.00 | Scissors, comb | SNIP. / SHAPE. |
+| 4.00–4.33 | AI hair | — |
+| 4.33–5.33 | Clipper, zoom punch | BUZZ. |
+| 5.33–8.33 | AFTER reveal (0.28× slow motion) | AFTER / FRESH. |
+| 8.33–11.33 | Torn split BEFORE/AFTER | WALK IN. / WALK OUT SHARPER. |
+| 11.33–11.67 | AI graffiti pole | — |
+| 11.67–15.00 | Duotone storefront | HERRKUTZ · BARBERSHOP · 1170 P. JACINTO ST., BRGY. 165 · BAGBAGUIN, CALOOCAN CITY · WE'RE OPEN · PULL UP. |
+
+QA: 450 frames; the only brightness jump is the planned reveal stamp at 5.4 s; cut similarity 0.40–0.73; −15.5 LUFS, peak −2.6 dBFS. The reveal stays inside the source take (32.62–33.46 s).
