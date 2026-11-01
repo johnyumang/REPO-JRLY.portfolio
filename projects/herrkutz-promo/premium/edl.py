@@ -1,0 +1,21 @@
+# (out_start, out_dur, src_in, speed, grade, note)
+EDL=[
+ (0.00,3.00, 0.00,0.60,"before","BEFORE: long shaggy hair, client caped"),
+ (3.00,1.50, 1.80,0.50,"before","Neck strip fastened, barber's watch"),
+ (4.50,1.00, 3.00,1.00,"warm","Barber pole spins - grade turns warm"),
+ (5.50,1.00, 4.40,1.00,"warm","Scissors up, HERRKUTZ chair"),
+ (6.50,1.00, 6.20,1.00,"warm","Comb + shears at the crown"),
+ (7.50,1.00, 8.00,1.00,"warm","Barber shaping, side profile"),
+ (8.50,1.00, 9.00,1.00,"warm","Over-the-shoulder detail"),
+ (9.50,1.00,13.00,1.00,"warm","Wide: the cut, wall clock"),
+ (10.50,1.25,14.00,1.00,"warm","Tight: clipper at the nape"),
+ (11.75,0.50,10.60,1.00,"warm","Whip-pan to ceiling (transition)"),
+ (12.25,1.50,30.20,1.00,"warm","The floor: barbers at work"),
+ (13.75,1.00,31.20,1.00,"warm","Barber smiles to camera"),
+ (14.75,0.50,32.00,1.00,"warm","Push toward the client"),
+ (15.25,2.50,32.55,0.30,"hero","AFTER: the reveal, slow motion"),
+ (17.75,4.25, None, None,"split","Split screen: BEFORE (0.30s) / AFTER (32.80s)"),
+ (22.00,1.25,15.00,0.60,"warm","Night sign 'Herr kutz Barber Shop'"),
+ (23.25,2.00,25.30,0.50,"warm","Storefront, SERVICE OFFERED"),
+ (25.25,4.70,18.00,0.50,"end","End card: storefront + logo"),
+]

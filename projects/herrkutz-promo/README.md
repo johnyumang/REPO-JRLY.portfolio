@@ -9,3 +9,14 @@ Structure: hook → prep → the cut → arrival → the shop → reveal → log
 - `scripts/synth.py` — original synthesized beat and SFX (clipper hum, razor scrape, whoosh, boom, riser).
 
 Audio: original 120 BPM beat + synthesized SFX + the clip's real room audio. No voice cloning.
+
+## Premium cut — `HerrkutzPremium30.mp4`
+
+A 30s before/after spot. Scripts are in `premium/`: `edl.py` (shots), `render.py` (grade + split screen), `score.py` (original score + SFX), `titles.py` (script supers + mix).
+
+Script (on screen, can also be read as a voiceover):
+1. BEFORE: *Some days, the hair wears you.* / *Today, that changes.*
+2. MEASURED. / SHAPED. / DETAILED. / *Every line, by hand.*
+3. AFTER: *Now you wear it.*
+4. Split screen BEFORE/AFTER: *Walk in. Walk out sharper.*
+5. *The door is open.* → HERRKUTZ BARBERSHOP: *Wear it well.*
