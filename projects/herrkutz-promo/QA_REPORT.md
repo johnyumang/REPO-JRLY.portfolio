@@ -149,3 +149,23 @@ Viral formula: the result first with a price hook, then a rewind, then the befor
 
 There's also a yellow progress bar along the bottom, a common retention cue. Music: an original 120 BPM bounce track (Am–F–C–G); 1 beat = 15 frames, so every cut lands on a beat.
 QA: 450 frames; the only brightness jump is the planned 2-frame white pop on the reveal at 7.07 s; cut similarity 0.58–0.75; about −14 LUFS.
+
+---
+
+## 8. Variant: `HerrkutzSunset15.mp4` (15 s, open-world game-trailer style, GTA 6-inspired)
+Style only: no game names, logos, fonts or trademarked phrases.
+**Look:** a sunset/neon grade (purple shadows, orange highlights) with bloom; freeze frames in a painted comic look (smoothing, posterize, ink edges); game-style on-screen display; a retro striped-sun gradient end card; an original 120 BPM 80s synthwave score with gated snare, 16th-note arpeggio bass and a lead from the reveal.
+
+| Time | Shot | Overlay |
+|---|---|---|
+| 0.0–1.5 | Storefront, sunset grade | Location card: **BAGBAGUIN** / CALOOCAN CITY |
+| 1.5–2.2 | BEFORE live | — |
+| 2.2–3.5 | BEFORE painted freeze | Name card **THE CLIENT**: "Status: overdue for a cut" |
+| 3.5–6.0 | 5 process shots, 0.5 s each | OBJECTIVE: GET FRESH · FRESHNESS meter filling |
+| 6.0–6.5 | Barber live | — |
+| 6.5–8.0 | Barber painted freeze | Name card **THE BARBER**: "Herrkutz Barbershop" |
+| 8.0–10.5 | AFTER reveal, slow motion | ★★★★★ · **+ FRESH** · meter full |
+| 10.5–12.0 | Loading-screen panels: painted BEFORE / AFTER (full haircut visible) | BEFORE · AFTER |
+| 12.0–15.0 | Sunset gradient and retro sun | **HERRKUTZ** · BARBERSHOP · PREMIUM HAIRCUT · STARTS @ ₱130 · 1170 P. Jacinto St., Brgy. 165 · Bagbaguin, Caloocan City · **NOW OPEN** |
+
+QA: 450 frames; no flash frames. The high similarity at 2.2 s and 6.5 s is intended: live action freezing into the painted still. −14.2 LUFS, peak −4.4 dBFS.
