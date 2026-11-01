@@ -131,3 +131,21 @@ QA: 450 frames; the only brightness jump is the planned reveal stamp at 5.4 s; c
 **Where:** the split screens in all three cuts (premium 30s at 17.8–22.0s, classical 15s at 8.5–12.0s, punk 15s at 8.3–11.3s, so around the 11s mark in both 15s cuts).
 **Cause:** the AFTER half was cut from source rows 520–1160. The new haircut starts at about row 410, so the top of the cut, the most important part, was missing.
 **Fix:** the AFTER crop now starts at row 300, giving about 110 px of headroom above the hair even after the slow zoom-in. BEFORE moved to row 240. All three cuts were re-rendered.
+
+---
+
+## 7. Variant: `HerrkutzModern15.mp4` (15 s, modern, viral, "Premium haircut, starts @ ₱130")
+Viral formula: the result first with a price hook, then a rewind, then the before, fast process cuts, the reveal, the before/after, and the price card.
+
+| Time | Shot | Captions (word pop, white with a yellow keyword) | Audio |
+|---|---|---|---|
+| 0.0–1.0 | AFTER, tight on the haircut | ₱130 FOR / **THIS?** | Drop playing |
+| 1.0–1.5 | Rewind (walk-through reversed at 2×, RGB smear) | ◀◀ REWIND | Tape-rewind sweep |
+| 1.5–3.0 | BEFORE (desaturated) | WALKED IN / **LIKE THIS…** | Beat rebuilds |
+| 3.0–7.0 | 8 process shots, 0.5 s each on the beat, zoom settle on each cut | **CUT. SHAPE. DETAIL. FINISH.** | Pops and whooshes |
+| 7.0–9.0 | AFTER reveal (0.28× slow motion) | WALKED OUT / **LIKE THIS.** | Riser, then boom and drop |
+| 9.0–11.5 | Split: BEFORE on top, AFTER slides in (full haircut visible) | BEFORE · AFTER · **STARTS @ ₱130** | |
+| 11.5–15.0 | Bright card over a blurred storefront | PREMIUM HAIRCUT · STARTS @ **₱130** · HERRKUTZ BARBERSHOP · 1170 P. Jacinto St., Brgy. 165 · Bagbaguin, Caloocan City · WE'RE OPEN | Cash-register "ching" on the price |
+
+There's also a yellow progress bar along the bottom, a common retention cue. Music: an original 120 BPM bounce track (Am–F–C–G); 1 beat = 15 frames, so every cut lands on a beat.
+QA: 450 frames; the only brightness jump is the planned 2-frame white pop on the reveal at 7.07 s; cut similarity 0.58–0.75; about −14 LUFS.
