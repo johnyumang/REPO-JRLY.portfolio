@@ -124,3 +124,10 @@ These are 112×199 previews (`punk/ai/`), because this environment's network pol
 | 11.67–15.00 | Duotone storefront | HERRKUTZ · BARBERSHOP · 1170 P. JACINTO ST., BRGY. 165 · BAGBAGUIN, CALOOCAN CITY · WE'RE OPEN · PULL UP. |
 
 QA: 450 frames; the only brightness jump is the planned reveal stamp at 5.4 s; cut similarity 0.40–0.73; −15.5 LUFS, peak −2.6 dBFS. The reveal stays inside the source take (32.62–33.46 s).
+
+---
+
+## 6. Fix: AFTER haircut cropped in the split screens
+**Where:** the split screens in all three cuts (premium 30s at 17.8–22.0s, classical 15s at 8.5–12.0s, punk 15s at 8.3–11.3s, so around the 11s mark in both 15s cuts).
+**Cause:** the AFTER half was cut from source rows 520–1160. The new haircut starts at about row 410, so the top of the cut, the most important part, was missing.
+**Fix:** the AFTER crop now starts at row 300, giving about 110 px of headroom above the hair even after the slow zoom-in. BEFORE moved to row 240. All three cuts were re-rendered.

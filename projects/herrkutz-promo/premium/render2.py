@@ -17,8 +17,8 @@ for i,(n,src,sp,g,_) in enumerate(EDL):
     afx=f"aresample=44100,apad,atrim=0:{d},afade=t=in:d=0.012,afade=t=out:st={d-0.015}:d=0.015"
     if g=="split":
         run(["-ss","0.30","-i",SRC,"-ss","32.80","-i",SRC,"-ss","20.0","-t",str(d+0.1),"-i",SRC,"-filter_complex",
-          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:200,{G['before']},loop={n}:1:0,setpts=N/30/TB,{push(720,640,n,0.0008)}[a];"
-          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:520,{G['hero']},loop={n}:1:0,setpts=N/30/TB,{push(720,640,n,0.0008)}[b];"
+          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:240,{G['before']},loop={n}:1:0,setpts=N/30/TB,{push(720,640,n,0.0008)}[a];"
+          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:300,{G['hero']},loop={n}:1:0,setpts=N/30/TB,{push(720,640,n,0.0008)}[b];"
           f"[a][b]vstack,drawbox=x=0:y=637:w=720:h=6:color=0xC9A45C:t=fill,{LOOK}[v];[2:a]{afx}[a2]",
           "-map","[v]","-map","[a2]","-frames:v",str(n),"-ac","1","-c:v","libx264","-preset","fast","-crf","14","-c:a","pcm_s16le",out])
     else:

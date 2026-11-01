@@ -35,8 +35,8 @@ for i,(n,src,sp,g,rate,zo,punch,note) in enumerate(EDL):
     bl=f",avgblur=sizeX=9:sizeY=9:enable='{'+'.join(blur)}'" if blur else ""
     if g=="split":
         run(["-ss","0.30","-i",SRC,"-ss","32.80","-i",SRC,"-filter_complex",
-          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:200,{G['before']},loop={n}:1:0,setpts=N/30/TB,{zp(720,640,'1+0.001*on')}[a];"
-          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:520,{G['hero']},loop={n}:1:0,setpts=N/30/TB,{zp(720,640,'1+0.001*on')}[b];"
+          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:240,{G['before']},loop={n}:1:0,setpts=N/30/TB,{zp(720,640,'1+0.001*on')}[a];"
+          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:300,{G['hero']},loop={n}:1:0,setpts=N/30/TB,{zp(720,640,'1+0.001*on')}[b];"
           f"[a][b]vstack,drawbox=x=0:y=637:w=720:h=6:color=0xC9A45C:t=fill,{LOOK}[v]",
           "-map","[v]","-frames:v",str(n),"-an","-c:v","libx264","-preset","fast","-crf","14",out])
     else:

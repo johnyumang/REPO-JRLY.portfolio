@@ -35,8 +35,8 @@ for i,(n,kind,src,sp,extra,note) in enumerate(EDL):
         run(["-i",f"ai/{src}.png","-vf",vf,"-frames:v",str(n)]+ENC+[out])
     elif kind=="split":
         run(["-ss","0.30","-i",SRC,"-ss","32.80","-i",SRC,"-filter_complex",
-          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:200,{BEFORE},loop={n}:1:0,setpts=N/30/TB[a];"
-          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:520,{VIVID},loop={n}:1:0,setpts=N/30/TB[b];"
+          f"[0:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:240,{BEFORE},loop={n}:1:0,setpts=N/30/TB[a];"
+          f"[1:v]trim=end_frame=1,scale=720:1280,crop=720:640:0:300,{VIVID},loop={n}:1:0,setpts=N/30/TB[b];"
           f"[a][b]vstack,"
           # torn-paper divider: white band + jagged yellow edge made of small offset boxes
           + ",".join(f"drawbox=x={k*40}:y={622+((k*37)%13)}:w=40:h={22+((k*23)%11)}:color=white:t=fill" for k in range(18))
