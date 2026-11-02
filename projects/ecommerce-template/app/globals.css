@@ -1,0 +1,72 @@
+@import '@fontsource-variable/inter-tight';
+@import '@fontsource/bodoni-moda/400.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens — Dark + Royal Blue + White. Dark is the default. */
+:root,
+[data-theme='dark'] {
+  --bg: #0b0f1a;
+  --surface: #121829;
+  --text: #ffffff;
+  --text-muted: #a7b0c5;
+  --primary: #4169e1;
+  --primary-hover: #2f54c9; /* darker hover keeps white label AA */
+  --primary-text: #8aa4ff; /* Royal Blue tint for small text on dark (AA) */
+  --border: #232b40;
+  --success: #3cc47a;
+  --danger: #f06363;
+  --overlay: rgba(11, 15, 26, 0.55);
+  color-scheme: dark;
+}
+[data-theme='light'] {
+  --bg: #ffffff;
+  --surface: #f5f7fc;
+  --text: #0b0f1a;
+  --text-muted: #5a6378;
+  --primary: #4169e1;
+  --primary-hover: #2f54c9;
+  --primary-text: #2f54c9;
+  --border: #e3e7f0;
+  --success: #157a41;
+  --danger: #c42b2b;
+  --overlay: rgba(11, 15, 26, 0.35);
+  color-scheme: light;
+}
+
+html { background: var(--bg); }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter Tight Variable', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@layer components {
+  .label { @apply text-[11px] uppercase tracking-label font-medium; }
+  .display { @apply font-extralight uppercase leading-[0.9] tracking-[-0.02em]; }
+  /* Button spec: primary CTA 56px min, all tappables 48px min, 3px focus ring */
+  .btn-primary {
+    @apply inline-flex min-h-cta w-full items-center justify-center bg-primary px-8 text-[12px] font-semibold uppercase tracking-label text-white transition-colors hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50 md:w-auto;
+  }
+  .btn-secondary {
+    @apply inline-flex min-h-tap items-center justify-center border border-ink px-6 text-[12px] font-medium uppercase tracking-label transition-colors hover:bg-ink hover:text-bg;
+  }
+  .icon-btn { @apply inline-flex min-h-tap min-w-[48px] items-center justify-center; }
+  .link-u { @apply underline decoration-1 underline-offset-4 hover:text-primary-text; }
+}
+
+:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+
+.reveal { opacity: 0; transform: translateY(24px); }
+.no-js .reveal, .reduced .reveal { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+.img-swap .img-b { opacity: 0; transition: opacity 0.5s ease; }
+@media (hover: hover) { .img-swap:hover .img-b { opacity: 1; } }
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; }

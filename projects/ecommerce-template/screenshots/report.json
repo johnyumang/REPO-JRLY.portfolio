@@ -1,0 +1,139 @@
+{
+  "results": [
+    {
+      "theme": "dark",
+      "vw": "mobile",
+      "name": "home",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "dark",
+      "vw": "mobile",
+      "name": "collection",
+      "ctas": 0,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "dark",
+      "vw": "mobile",
+      "name": "product",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "dark",
+      "vw": "desktop",
+      "name": "home",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "dark",
+      "vw": "desktop",
+      "name": "collection",
+      "ctas": 0,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "dark",
+      "vw": "desktop",
+      "name": "product",
+      "ctas": 1,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "mobile",
+      "name": "home",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "mobile",
+      "name": "collection",
+      "ctas": 0,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "mobile",
+      "name": "product",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "desktop",
+      "name": "home",
+      "ctas": 2,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "desktop",
+      "name": "collection",
+      "ctas": 0,
+      "badCta": [],
+      "badTap": []
+    },
+    {
+      "theme": "light",
+      "vw": "desktop",
+      "name": "product",
+      "ctas": 1,
+      "badCta": [],
+      "badTap": []
+    }
+  ],
+  "offline": [
+    {
+      "p": "/",
+      "ok": true,
+      "h1": "NewCollection",
+      "brokenImgs": 0
+    },
+    {
+      "p": "/collections/new-in/",
+      "ok": true,
+      "h1": "New In",
+      "brokenImgs": 0
+    },
+    {
+      "p": "/products/leather-biker-jacket/",
+      "ok": true,
+      "h1": "Leather Biker Jacket",
+      "brokenImgs": 0
+    },
+    {
+      "p": "/collections/outerwear/",
+      "ok": true,
+      "h1": "Outerwear",
+      "brokenImgs": 0
+    },
+    {
+      "p": "/products/wool-check-coat/",
+      "ok": true,
+      "h1": "Wool Check Coat",
+      "brokenImgs": 0
+    },
+    {
+      "p": "/account/",
+      "ok": true,
+      "h1": "Log in",
+      "brokenImgs": 0
+    }
+  ],
+  "offlineAddToBag": true
+}
