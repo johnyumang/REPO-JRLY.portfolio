@@ -8,7 +8,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', 'skills', 'cinematic-explainer-short', 'scripts')); sys.path.insert(0, HERE)
 import komiks_filter as kf, soundtrack
 
-vdir, sdir, voice, out = sys.argv[1:5]
+vdir, sdir, voice, out = [os.path.abspath(x) for x in sys.argv[1:5]]
 tim = json.load(open(os.path.join(vdir, 'timings.json'))); meta = json.load(open(os.path.join(sdir, 'shots_meta.json')))
 def t_at(a):
     i = int(a); fr = a - i; s = tim[i]; return s['start'] + fr * (s['end'] - s['start'])
@@ -24,5 +24,7 @@ lens = [s['end'] - s['start'] for s in shots]
 print('shots', len(shots), 'min %.1f max %.1f avg %.1f s' % (min(lens), max(lens), sum(lens) / len(lens)))
 mix = os.path.join(work, 'mix.wav')
 print(soundtrack.make(voice, [s['start'] for s in shots[1:]], [s['start'] for s in shots if s['flash']], mix))
-subprocess.run([sys.executable, os.path.join(HERE, '..', 'skills', 'cinematic-explainer-short', 'scripts', 'motion_comic.py'), os.path.join(work, 'shots.json'), mix, out], check=True)
+import subtitles
+ass = os.path.join(work, 'subs.ass'); print(subtitles.make(tim, ass), 'subtitle lines')
+subprocess.run([sys.executable, os.path.join(HERE, '..', 'skills', 'cinematic-explainer-short', 'scripts', 'motion_comic.py'), os.path.join(work, 'shots.json'), mix, out, '--subs', 'subs.ass'], check=True, cwd=work)
 json.dump(shots, open(os.path.join(vdir, 'shots_timed.json'), 'w'), indent=1)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Motion comic: animate still keyframes with eased camera moves, cut to the voice.
 
-usage: motion_comic.py shots.json voice.(mp3|wav) out.mp4 [--fps 30]
+usage: motion_comic.py shots.json voice.(mp3|wav) out.mp4 [--fps 30] [--subs subtitles.ass]
 shots.json: [{"image": "k01.png", "start": 0.0, "end": 4.2, "camera": "push_in"}, ...]
 camera: push_in | pull_out | pan_left | pan_right | tilt_up | tilt_down | hold
 optional per shot: "overlay": "cap01.png" (RGBA, drawn on top and not moved — captions, panel border),
@@ -46,11 +46,12 @@ def window(cam, t, iw, ih):
 def main():
     a = sys.argv[1:]
     fps = int(a[a.index('--fps') + 1]) if '--fps' in a else 30
+    subs = a[a.index('--subs') + 1] if '--subs' in a else None      # .ass file to burn in
     shots_path, audio, out = a[0], a[1], a[2]
     shots = json.load(open(shots_path))
     base = os.path.dirname(os.path.abspath(shots_path))
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}',
-                           '-r', str(fps), '-i', '-', '-i', audio, '-c:v', 'libx264', '-crf', '24', '-maxrate', '3500k', '-bufsize', '7000k', '-pix_fmt', 'yuv420p',
+                           '-r', str(fps), '-i', '-', '-i', audio] + (['-vf', 'subtitles=' + subs] if subs else []) + ['-c:v', 'libx264', '-crf', '24', '-maxrate', '3500k', '-bufsize', '7000k', '-pix_fmt', 'yuv420p',
                            '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
     f = 0
     for s in shots:

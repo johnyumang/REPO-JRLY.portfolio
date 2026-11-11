@@ -12,6 +12,7 @@ Tagalog/Taglish komiks-style explainers about Philippine history, myths and lege
    (`CAST`, `POSE`, `PROPS`). Add new cast entries there when a story needs them.
 5. **Build**: `bash pipeline/setup.sh` once, then `bash pipeline/make_video.sh <slug>`.
    Output: `/opt/work/<slug>/final.mp4` and `qa_sheet.jpg`. Look at the sheet before sending.
+   Subtitles are burned in automatically from the script timings.
 6. **Deliver** the MP4 with what could not be verified. MP4s and voice files are not committed (this repo is public).
 
 ## Pieces
