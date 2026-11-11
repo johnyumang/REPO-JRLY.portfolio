@@ -16,7 +16,8 @@ work = os.path.join(sdir, 'komiks'); os.makedirs(work, exist_ok=True)
 total = tim[-1]['end'] + 0.8; shots = []
 for k, m in enumerate(meta):
     start = 0.0 if k == 0 else t_at(m['at']); end = t_at(meta[k + 1]['at']) if k + 1 < len(meta) else total
-    kf.komiks(Image.open(os.path.join(sdir, m['id'] + '.png')), border=False).save(os.path.join(work, m['id'] + '.png'))
+    im = Image.open(os.path.join(sdir, m['id'] + '.png'))
+    (im.convert('RGB') if os.environ.get('HI_LOOK') == 'brick' else kf.komiks(im, border=False)).save(os.path.join(work, m['id'] + '.png'))   # brick look keeps the clean plastic render
     kf.overlay((1080, 1920), m.get('caption'), m.get('bottom')).save(os.path.join(work, m['id'] + '_ov.png'))
     shots.append({'id': m['id'], 'image': m['id'] + '.png', 'overlay': m['id'] + '_ov.png', 'start': round(start, 3), 'end': round(end, 3), 'camera': m.get('camera', 'hold'), 'flash': m['id'] in ('s31',)})
 json.dump(shots, open(os.path.join(work, 'shots.json'), 'w'), indent=1)
