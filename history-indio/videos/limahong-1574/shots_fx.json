@@ -3,7 +3,8 @@
 "fx": [
 "shake",
 "punch",
-"embers"
+"embers",
+"aura_red"
 ],
 "move": "push_in",
 "keys": [
@@ -21,13 +22,15 @@
 "2": {
 "fx": [
 "embers",
-"sparkle"
+"sparkle",
+"aura_gold"
 ]
 },
 "3": {
 "fx": [
 "spray",
-"water"
+"water",
+"aura_red"
 ],
 "move": "push_in"
 },
@@ -78,7 +81,8 @@
 },
 "11": {
 "fx": [
-"sparkle"
+"sparkle",
+"aura_blue"
 ],
 "move": "push_in"
 },
@@ -134,7 +138,8 @@
 },
 "20": {
 "fx": [
-"punch"
+"punch",
+"aura_blue"
 ],
 "move": "push_in"
 },
@@ -148,7 +153,8 @@
 "fx": [
 "shake",
 "punch",
-"embers"
+"embers",
+"aura_red"
 ],
 "move": "push_in"
 },
@@ -173,7 +179,8 @@
 },
 "26": {
 "fx": [
-"water"
+"water",
+"aura_red"
 ]
 },
 "27": {
@@ -201,7 +208,8 @@
 "31": {
 "fx": [
 "flash",
-"punch"
+"punch",
+"aura_gold"
 ],
 "move": "push_in"
 },
@@ -256,7 +264,8 @@
 "39": {
 "fx": [
 "embers",
-"punch"
+"punch",
+"aura_gold"
 ],
 "move": "push_in",
 "key": 2
@@ -275,7 +284,8 @@
 "41": {
 "fx": [
 "punch",
-"sparkle"
+"sparkle",
+"aura_gold"
 ],
 "key": 31,
 "move": "push_in"
