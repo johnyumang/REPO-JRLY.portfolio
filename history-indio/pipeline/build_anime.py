@@ -88,11 +88,12 @@ def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0)
     vig = 1 - 0.28 * (((XX - W / 2) / (W / 2)) ** 2 + ((YY - H / 2) / (H / 2)) ** 2) ** 1.2 ; fr *= vig[..., None]
     return np.clip(fr, 0, 255).astype(np.uint8)
 
-paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(len(tim))]; deps = depth_maps(paths if not only else [paths[i] for i in only])
+paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 100))]
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
     cfg = FX.get(str(i), {}); mv = cfg.get('move', MOVES[i % len(MOVES)]); fx = cfg.get('fx', [])
+    i = cfg.get('key', i)                                                                    # reuse another line's keyframe
     if cfg.get('keys'):                                                                      # montage: several keyframes inside one line (cold open)
         ks = cfg['keys']; step = (end - start) / len(ks)
         for j, kk in enumerate(ks): shots.append((kk, start + j * step, start + (j + 1) * step, ['push_in', 'pull_out'][j % 2], fx, 1.0, (0.5, 0.5)))
@@ -102,6 +103,7 @@ for i, s in enumerate(tim):
         shots.append((i, start, mid, mv, fx, 1.0, (0.5, 0.5))); shots.append((i, mid, end, 'push_in' if mv != 'push_in' else 'pan_right', [f for f in fx if f not in ('punch', 'shake', 'flash')] + ['punch'], 1.42, tuple(cfg.get('focus', (0.5, 0.36)))))
     else: shots.append((i, start, end, mv, fx, 1.0, (0.5, 0.5)))
 if only: shots = [s for s in shots if s[0] in only]; t0 = shots[0][1]; shots = [(i, a_ - t0, b - t0, m, f, z, fo) for i, a_, b, m, f, z, fo in shots]
+deps = depth_maps(sorted({paths[s_[0]] for s_ in shots}))
 lens = [b - a_ for _, a_, b, *_ in shots]; print('shots', len(shots), 'min %.1f max %.1f avg %.1f' % (min(lens), max(lens), sum(lens) / len(lens)), flush=True)
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
