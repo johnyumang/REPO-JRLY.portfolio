@@ -23,7 +23,7 @@ def bug(size=(1080, 1920)):
     """Full-frame transparent layer with the logo in the top-left safe area."""
     ov = Image.new('RGBA', size, (0, 0, 0, 0)); lg = logo(300); lg.putalpha(lg.split()[3].point(lambda v: int(v * .92))); ov.alpha_composite(lg, (44, 96)); return ov
 
-def endcard(size=(1080, 1920), line='FOLLOW = DAGDAG LAKAS LABAN SA HALIMAW!'):
+def endcard(size=(1080, 1920), line='FOLLOW = DAGDAG LAKAS LABAN SA PEKENG KASAYSAYAN!'):
     W, H = size; ov = Image.new('RGBA', size, (20, 10, 22, 150)); d = ImageDraw.Draw(ov)
     lg = logo(820); ov.alpha_composite(lg, ((W - lg.width) // 2, int(H * .2)))
     size = 46; f = ImageFont.truetype(FB, size)
