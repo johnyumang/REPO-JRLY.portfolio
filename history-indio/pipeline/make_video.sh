@@ -11,7 +11,7 @@ export HF_HUB_CACHE=/opt/models/hf
 REF="${HI_VOICE_REF:-$HI/voice/default_ref.wav}"     # narrator sample; falls back to a neutral sample made from the TTS voice
 if [ ! -f "$REF" ]; then mkdir -p "$HI/voice"; ffmpeg -v error -y -i "$W/base.wav" -t 20 -ar 24000 "$REF"; fi
 VOICE="$W/voice.wav"
-/opt/cb/bin/python "$HI/skills/indio-voice/scripts/voice.py" "$V/sentences.json" "$REF" "$VOICE" "$V/timings.json"
+/opt/vc/bin/python "$HI/skills/indio-voice/scripts/voice.py" "$V/sentences.json" "$REF" "$VOICE" "$V/timings.json"
 cd "$HI/engine3d"; (python3 -m http.server 8765 >/dev/null 2>&1 &) ; sleep 1
 node render_stills.mjs "$V/shots.mjs" "$W/stills"
 pkill -f "http.server 8765" || true

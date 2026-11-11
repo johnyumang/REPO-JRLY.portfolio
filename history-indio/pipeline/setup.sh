@@ -4,9 +4,6 @@ set -e
 HI="$(cd "$(dirname "$0")/.." && pwd)"
 [ -x /opt/vc/bin/python ] || python3 -m venv /opt/vc
 /opt/vc/bin/pip install -q --upgrade pip
-/opt/vc/bin/pip install -q torch torchaudio "transformers==4.46.3" numpy pillow soundfile librosa scipy
-[ -x /opt/cb/bin/python ] || python3 -m venv /opt/cb
-/opt/cb/bin/pip install -q --upgrade pip
-/opt/cb/bin/pip install -q chatterbox-tts "setuptools<81"
+/opt/vc/bin/pip install -q --no-cache-dir torch torchaudio transformers numpy pillow soundfile librosa scipy omnivoice
 cd "$HI/engine3d" && npm i --silent && ln -sfn "$(npm root -g)/playwright" node_modules/playwright
 echo "setup ok"
