@@ -5,6 +5,7 @@ with: `Vertical 9:16. No text, no logos, no watermarks.`
 
 | Preset | Style block |
 |---|---|
+| komiks (default) | Classic Filipino komiks illustration: bold black ink outlines, flat colours with halftone dot shading, aged newsprint paper texture, dramatic panel composition, hand-lettered feel, 1970s Pinoy comic-book cover energy. |
 | explainer-3d | Semi-realistic 3D CGI render in the style of viral 3D explainer shorts: realistic anatomy with slightly stylised proportions, detailed skin with subsurface scattering, realistic cloth and hair, clean physically based materials, dramatic cinematic studio lighting, shallow depth of field, crisp high-detail render. |
 | anime-modern | Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour, painted skies with light rays, dynamic low-angle composition. |
 | anime-90s | Retro 1990s hand-drawn anime cel: hand-inked outlines, flat cel colours with hard shadows, hand-painted gouache backgrounds, slight film grain, muted nostalgic palette. |

@@ -1,14 +1,30 @@
 ---
 name: cinematic-explainer-short
-description: Produce a vertical explainer short (1080x1920, 30 fps) in a cinematic non-cartoon look — semi-realistic 3D CGI like the viral "Zack D. Films"-type explainers, modern or retro anime, stylised feature-film 3D, or painterly graphic-novel — by running the job as a small studio team (research, script, storyboard, look-dev, keyframes, motion, voice, sound, edit, QA). Use this whenever the user asks for a History Indio video, a "Zack D Films style" or "anime style" short, a realistic 3D explainer, AI-generated shots for a news or history explainer, or says the flat cartoon look is not good enough, even if they do not name this skill.
+description: Produce a vertical History Indio short (1080x1920, 30 fps) about Philippine history, myths and legends in the Pinoy Komiks look (halftone ink, newsprint, caption boxes), run as a small studio team (research, script, storyboard, look-dev, keyframes, motion, voice, sound, edit, QA). Also covers the alternative looks (anime, semi-realistic 3D explainer, feature-film 3D, painterly). Use this whenever the user asks for a History Indio video, a Philippine history or mythology explainer, a "komiks style" short, video ideas for the channel, or says the flat cartoon look is not good enough, even if they do not name this skill.
 ---
 
-# Cinematic explainer short
+# History Indio short (Pinoy Komiks house style)
 
-The look comes from AI-generated keyframes, not from code-drawn cartoons. The work that makes it
-feel like a studio made it is everything around the generator: a tight script, a storyboard, locked
-character references, and an edit timed to the voice. Run the stages below in order and keep a task
+The channel's house look is Pinoy Komiks: halftone ink on newsprint, bold outlines and caption
+boxes, like a page from an old Filipino comic. The default subject is Philippine history, myths and
+legends. What makes it feel like a studio made it is everything around the picture: a tight
+script, a storyboard, locked character sheets, and an edit timed to the voice. Run the stages below in order and keep a task
 list so the user can see where the job is.
+
+## Topics and ideas
+When the user has no topic, offer 10 ideas mixed across pre-colonial, Spanish, American and wartime
+eras plus myths and legends. For each: a title, the hook line, the twist, and whether it is
+documented history, a disputed account, a debunked hoax, or folklore. Label these honestly in the
+video too ("ayon sa alamat" for legends) — presenting a legend as fact is the fastest way to lose
+a history audience. Prefer the dead and the mythical; they need no likeness caution.
+
+## Two ways to make komiks frames
+- **Render + filter (default, free, faces identical):** draw or render the shot with the project's
+  own character engine, then run `python3 scripts/komiks_filter.py in.png out.png`. Because the
+  characters are built from fixed parameters, every face matches its sheet exactly.
+- **Generated keyframes:** use the `komiks` preset in `references/style-presets.md` with the
+  character sheet attached as a reference. Richer drawing, costs credits, faces stay close rather
+  than exact. Running the filter over generated frames as well gives all shots one shared texture.
 
 ## What this can and cannot do (tell the user up front)
 - The real studios behind this look use Blender and a large animation team. This skill reaches a
@@ -52,7 +68,7 @@ payoff line its own shot. Prefer one clear subject per frame — generators and 
 punish clutter.
 
 ## Stage 4 — Look-dev (style lock)
-Read `references/style-presets.md` and pick the preset the user chose. Generate one hero frame in
+Read `references/style-presets.md`. Use `komiks` unless the user asks for another look. Generate one hero frame in
 that style and show it. Do not go further until they approve the look.
 
 Then build a reference sheet per recurring character (front, 3/4, side, a few expressions, plain
