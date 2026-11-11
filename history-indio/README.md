@@ -31,3 +31,27 @@ Set `HI_VOICE_REF=/path/to/narrator.wav` (about 10 s, clean, no music, with `nar
 the narrator's voice. Keep that file out of this repo. Without it the video uses a neutral Tagalog voice.
 Write tone tags (`[excited]`, `[suspense]`…) and reaction tags (`[laughter]`, `[sigh]`) into `script.txt`;
 see the indio-voice skill.
+
+## Anime workflow (current house style)
+The channel now uses an anime look with real movement. Use `videos/limahong-1574/` as the template.
+1. Pick the first unchecked topic in `topics.md`; research; write `facts.md`.
+2. Write `script.txt` (330–380 spoken words, one tone tag at sentence starts, hook in sentence one, a fairness
+   beat, a closing question, and a final in-character follow line such as "At mag-follow na kayo, guys, para sa
+   dagdag lakas ko laban sa ...!"). Run `python3 pipeline/make_sentences.py videos/<slug>/script.txt videos/<slug>/sentences.json`.
+3. Write `script_elevenlabs.txt`: the same sentences in the same order with ElevenLabs v3 tags
+   ([excited] [serious] [dramatic] [suspenseful] [playful] [curious] [warm] [sad] [triumphant] [whispers] [laughs] [sighs]),
+   years written as spoken words. Give it to the user; they record it in ElevenLabs and upload the MP3.
+4. Keyframes: one vertical anime image per sentence with the Figma image tool (file key `MYfJYKGrPOiKVT0En76EEM`,
+   model `gpt-image-2.5-sunburst`, 1152x2048), saved as `videos/<slug>/keys/kNN.png`. Start every prompt with the
+   style block in `videos/limahong-1574/` prompts / the README of the skill, describe recurring characters
+   identically, no text in images. The free Figma plan allows roughly 75 images a day (resets 00:00 UTC);
+   if credits run out, reuse frames with `"key"`/`"keys"` in `shots_fx.json`.
+5. `shots_fx.json`: effects per sentence (water, embers, sparkle, spray, bubbles, shake, punch, flash) and optional
+   `move`. Sentence 0 should be a cold open: `"keys": [a, b, c]` listing the three most dramatic frames.
+6. When the user's MP3 arrives: `python pipeline/align_audio.py voice.mp3 videos/<slug>/sentences.json videos/<slug>/timings.json`
+   then `python pipeline/build_anime.py videos/<slug> videos/<slug>/keys voice.mp3 out.mp4` (use `/opt/vc/bin/python`
+   after `bash pipeline/setup.sh`). It adds depth-parallax motion, effects, the History Indio logo and end card,
+   subtitles, and music/SFX at half the voice level. Set the end-card line per video in `pipeline/branding.py`.
+7. Look at a contact sheet of the result, then deliver the MP4 and END the message with captions
+   (`captions.md`: Facebook, YouTube Shorts title/description/tags, TikTok, Instagram, pinned sources comment).
+Never commit MP4s or voice files: the repo is public.

@@ -4,6 +4,6 @@ set -e
 HI="$(cd "$(dirname "$0")/.." && pwd)"
 [ -x /opt/vc/bin/python ] || python3 -m venv /opt/vc
 /opt/vc/bin/pip install -q --upgrade pip
-/opt/vc/bin/pip install -q --no-cache-dir torch torchaudio transformers numpy pillow soundfile librosa scipy omnivoice
+/opt/vc/bin/pip install -q --no-cache-dir torch torchaudio transformers numpy pillow soundfile librosa scipy omnivoice opencv-python-headless
 cd "$HI/engine3d" && npm i --silent && ln -sfn "$(npm root -g)/playwright" node_modules/playwright
 echo "setup ok"

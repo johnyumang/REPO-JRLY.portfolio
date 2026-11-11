@@ -7,8 +7,8 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 - [ ] Ang Pintor na Bumaril (Juan Luna, Paris 1892)
 - [ ] Nang Sakupin ng British ang Maynila (1762–1764)
-- [ ] Ang Piratang Muntik Nang Maging Hari ng Maynila (Limahong, 1574)
-- [ ] Ang Halimaw na Kumain ng Anim na Buwan (Bakunawa — myth)
+- [x] Ang Piratang Muntik Nang Maging Hari ng Maynila (Limahong, 1574) — `videos/limahong-1574`
+- [x] Ang Halimaw na Kumain ng Anim na Buwan (Bakunawa — myth) — `videos/bakunawa-pitong-buwan`
 - [ ] Ang Higanteng Pumipigil sa Dalawang Bundok (Bernardo Carpio — legend)
 - [ ] Ang Tribong "Stone Age" na Baka Palabas Lang (Tasaday, 1971 — disputed)
 
