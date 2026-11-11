@@ -20,7 +20,7 @@ The user wants frame-by-frame anime motion, not animated stills. Tried so far:
 - Wan 2.2 image-to-video on a free Hugging Face Space (`upsampler-wan-2-2-14b-image-to-video.hf.space`, host allowed): works, but needs a Hugging Face token for quota; the user declined the token form once.
 - ElevenLabs image/edit tools: "free generations busy" on every attempt.
 - Midjourney (via the anime-mj prompt plugin): paid, manual.
-- Blender: not installed; `pip install bpy` (5.3.0, Python 3.13) and `apt-get install blender` (4.0.2, after `apt-get update`) are both available. No GPU, so CPU rendering only. Needs rigged anime character models (e.g. VRM).
+- Blender: WORKS (see `blender/README.md`). `bpy` 5.3.0 on CPU renders a rigged CC0 VRoid character with cel shading at ~5.6 s/frame (720x1280); a 4 s proof shot was delivered 2026-11-11. A full 3-minute video ≈ 6.7 h of rendering and every action is hand-posed in code; the model is a recoloured sample, not a custom host.
 
 ## Other open items
 - Limahong end card should say "LABAN SA MGA PIRATA!"; its last eight shots reuse frames.
