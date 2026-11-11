@@ -26,6 +26,16 @@ a history audience. Prefer the dead and the mythical; they need no likeness caut
   character sheet attached as a reference. Richer drawing, costs credits, faces stay close rather
   than exact. Running the filter over generated frames as well gives all shots one shared texture.
 
+## The fast path in the History Indio repo
+If the working repo has `history-indio/`, the whole build is already scripted — read
+`history-indio/README.md` and follow it: pick from `topics.md`, write `facts.md`, `script.txt` and
+`shots.mjs` under `videos/<slug>/` (copy `videos/kanyon-na-banig/` as the template), then run
+`bash pipeline/setup.sh` once and `bash pipeline/make_video.sh <slug>`. That renders the 3D stills,
+applies the komiks filter and captions, voices the script, adds music and effects at half the
+voice level, and writes `final.mp4` plus a QA contact sheet. Look at the sheet, fix any shot that
+is cropped or unclear, rebuild, then deliver. The repo is public, so never commit the narrator's
+voice sample or the MP4s.
+
 ## What this can and cannot do (tell the user up front)
 - The real studios behind this look use Blender and a large animation team. This skill reaches a
   similar look with generated keyframes. It is not frame-perfect 3D animation.
