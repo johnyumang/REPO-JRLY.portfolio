@@ -14,7 +14,7 @@ def chunks(words, max_chars=20, max_words=4):
         if cur and (len(' '.join(cur + [w])) > max_chars or len(cur) >= max_words): out.append(cur); cur = []
         cur.append(w)
     if cur:
-        if out and len(cur) == 1 and len(' '.join(out[-1] + cur)) <= max_chars + 8: out[-1] += cur     # no orphan word
+        if out and len(cur) == 1 and len(' '.join(out[-1] + cur)) <= max_chars + 2: out[-1] += cur     # no orphan word, but never wider than the frame
         else: out.append(cur)
     return out
 
