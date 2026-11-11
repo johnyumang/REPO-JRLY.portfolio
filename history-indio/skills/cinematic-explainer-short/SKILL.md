@@ -131,5 +131,7 @@ where the character drifted.
 
 Always end the delivery message with ready-to-paste captions for Facebook, YouTube Shorts (title,
 description, tags), TikTok and Instagram, plus a short sources comment to pin. Put the main search
-keyword in the first line and repeat only claims the script makes. The user posts straight from
+keyword in the first line and repeat only claims the script makes. Choose hashtags and tags by
+judgement (topic name, place, year, the channel tag, a few broad discovery tags); real search-volume
+numbers need a keyword tool, so use one when it is connected and say when the picks are unmeasured. The user posts straight from
 that message, so leaving the captions out costs them a round trip.
