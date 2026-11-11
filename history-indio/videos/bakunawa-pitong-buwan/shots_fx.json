@@ -1,12 +1,12 @@
 {
-"0": {
+"1": {
 "fx": [
 "water",
 "sparkle"
 ],
 "move": "tilt_up"
 },
-"1": {
+"2": {
 "fx": [
 "shake",
 "punch",
@@ -14,52 +14,52 @@
 ],
 "move": "push_in"
 },
-"2": {
+"3": {
 "fx": [
 "embers"
 ]
 },
-"3": {
-"fx": [
-"sparkle"
-]
-},
 "4": {
 "fx": [
-"water",
 "sparkle"
 ]
 },
 "5": {
 "fx": [
+"water",
 "sparkle"
 ]
 },
 "6": {
 "fx": [
-"water",
 "sparkle"
 ]
 },
 "7": {
 "fx": [
-"embers"
+"water",
+"sparkle"
 ]
 },
 "8": {
+"fx": [
+"embers"
+]
+},
+"9": {
 "fx": [
 "bubbles"
 ],
 "move": "push_in"
 },
-"9": {
+"10": {
 "fx": [
 "bubbles",
 "punch"
 ],
 "move": "tilt_up"
 },
-"10": {
+"11": {
 "fx": [
 "water",
 "shake",
@@ -67,24 +67,24 @@
 ],
 "move": "pull_out"
 },
-"11": {
+"12": {
 "fx": [
 "spray",
 "water"
 ]
 },
-"12": {
+"13": {
 "fx": [
 "bubbles",
 "sparkle"
 ]
 },
-"13": {
+"14": {
 "fx": [
 "sparkle"
 ]
 },
-"14": {
+"15": {
 "fx": [
 "shake",
 "punch",
@@ -93,18 +93,13 @@
 ],
 "move": "tilt_up"
 },
-"15": {
+"16": {
 "fx": [
 "shake",
 "punch",
 "sparkle"
 ],
 "move": "push_in"
-},
-"16": {
-"fx": [
-"sparkle"
-]
 },
 "17": {
 "fx": [
@@ -113,36 +108,41 @@
 },
 "18": {
 "fx": [
-"water"
+"sparkle"
 ]
 },
 "19": {
-"fx": []
+"fx": [
+"water"
+]
 },
 "20": {
+"fx": []
+},
+"21": {
 "fx": [
 "embers",
 "punch"
 ]
 },
-"21": {
+"22": {
 "fx": [
 "embers"
 ]
 },
-"22": {
+"23": {
 "fx": [
 "shake",
 "punch",
 "embers"
 ]
 },
-"23": {
+"24": {
 "fx": [
 "punch"
 ]
 },
-"24": {
+"25": {
 "fx": [
 "shake",
 "punch",
@@ -151,75 +151,96 @@
 ],
 "move": "pull_out"
 },
-"25": {
+"26": {
 "fx": []
 },
-"26": {
+"27": {
 "fx": [
 "water"
 ]
 },
-"27": {
+"28": {
 "fx": [
 "embers"
 ]
 },
-"28": {
+"29": {
 "fx": [
 "water",
 "sparkle"
 ],
 "move": "tilt_down"
 },
-"29": {
+"30": {
 "fx": [
 "shake"
 ]
 },
-"30": {
+"31": {
 "fx": [
 "flash",
 "punch"
 ],
 "move": "push_in"
 },
-"31": {
+"32": {
 "fx": [
 "embers"
 ]
 },
-"32": {
+"33": {
 "fx": [
 "sparkle"
 ]
 },
-"33": {
+"34": {
 "fx": []
 },
-"34": {
+"35": {
 "fx": [
 "embers",
 "sparkle"
 ]
 },
-"35": {
+"36": {
 "fx": []
 },
-"36": {
+"37": {
 "fx": [
 "sparkle"
 ]
 },
-"37": {
+"38": {
 "fx": [
 "punch"
 ],
 "move": "push_in"
 },
-"38": {
+"39": {
 "fx": [
 "water"
 ],
 "move": "pull_out"
+},
+"0": {
+"fx": [
+"shake",
+"punch",
+"spray"
+],
+"keys": [
+15,
+2,
+23,
+25
+]
+},
+"40": {
+"fx": [
+"embers",
+"sparkle",
+"punch"
+],
+"move": "push_in"
 }
 }

@@ -1,9 +1,16 @@
 [
  {
+  "text": "Nilulunok na ng halimaw ang huling buwan, at kaldero lang ang panlaban ng mga tao.",
+  "say": "nilulunok na ng halimaw ang huling buwan, at kaldero lang ang panlaban ng mga tao.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
   "text": "Dati raw, pito ang buwan sa langit.",
   "say": "dati raw, pito ang buwan sa langit.",
   "style": "excited",
-  "pre": 0,
+  "pre": 0.3,
   "pause": 0.3
  },
  {
@@ -269,6 +276,13 @@
   "text": "I-comment mo, at baka kuwento ninyo ang isusunod ko.",
   "say": "i-koment mo, at baka kuwento ninyo ang isusunod ko.",
   "style": "",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "At mag-follow na kayo, guys, para sa dagdag lakas ko, at matalo natin ang Bakunawa!",
+  "say": "at mag palo na kayo, gays, para sa dagdag lakas ko, at matalo natin ang bakunawa!",
+  "style": "excited",
   "pre": 0,
   "pause": 0.62
  }

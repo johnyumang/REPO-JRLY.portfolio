@@ -7,7 +7,8 @@ keys_dir: k00.png ... one keyframe per sentence. Depth comes from Depth-Anything
 import json, os, subprocess, sys
 import numpy as np, cv2
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-import soundtrack, subtitles
+import soundtrack, subtitles, branding
+from PIL import Image as _I
 W, H = 1080, 1920
 a = sys.argv[1:]; vdir, kdir, voice, out = [os.path.abspath(x) for x in a[:4]]
 fps = int(a[a.index('--fps') + 1]) if '--fps' in a else 30
@@ -87,11 +88,15 @@ def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0)
     vig = 1 - 0.28 * (((XX - W / 2) / (W / 2)) ** 2 + ((YY - H / 2) / (H / 2)) ** 2) ** 1.2 ; fr *= vig[..., None]
     return np.clip(fr, 0, 255).astype(np.uint8)
 
-paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(len(tim))]; deps = depth_maps([paths[i] for i in (only or range(len(tim)))])
+paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(len(tim))]; deps = depth_maps(paths if not only else [paths[i] for i in only])
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
     cfg = FX.get(str(i), {}); mv = cfg.get('move', MOVES[i % len(MOVES)]); fx = cfg.get('fx', [])
+    if cfg.get('keys'):                                                                      # montage: several keyframes inside one line (cold open)
+        ks = cfg['keys']; step = (end - start) / len(ks)
+        for j, kk in enumerate(ks): shots.append((kk, start + j * step, start + (j + 1) * step, ['push_in', 'pull_out'][j % 2], fx, 1.0, (0.5, 0.5)))
+        continue
     if end - start > 6.2:                                                                    # cut-in on long lines
         mid = start + (end - start) * 0.52
         shots.append((i, start, mid, mv, fx, 1.0, (0.5, 0.5))); shots.append((i, mid, end, 'push_in' if mv != 'push_in' else 'pan_right', [f for f in fx if f not in ('punch', 'shake', 'flash')] + ['punch'], 1.42, tuple(cfg.get('focus', (0.5, 0.36)))))
@@ -104,11 +109,20 @@ if not only:
     print(subtitles.make(tim, os.path.join(work, 'subs.ass')), 'subtitle lines'); cmd_a = ['-i', mix, '-vf', 'subtitles=subs.ass', '-c:a', 'aac', '-b:a', '192k', '-shortest']
 ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(fps), '-i', '-'] + cmd_a +
                       ['-c:v', 'libx264', '-crf', '21', '-maxrate', '5000k', '-bufsize', '10000k', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out], stdin=subprocess.PIPE, cwd=work)
+def _layer(im): r = np.asarray(im.convert('RGBA')).astype(np.float32); return r[..., [2, 1, 0]], r[..., 3:4] / 255      # BGR + alpha
+BUG_RGB, BUG_A = _layer(branding.bug((W, H))); bb = np.argwhere(BUG_A[..., 0] > 0); by0, bx0 = bb.min(0); by1, bx1 = bb.max(0) + 1
+END_RGB, END_A = _layer(branding.endcard((W, H))); END_T = 2.6; total_f = round(shots[-1][2] * fps)
+def brand(fr, fi):
+    reg = fr[by0:by1, bx0:bx1].astype(np.float32); al = BUG_A[by0:by1, bx0:bx1]; fr[by0:by1, bx0:bx1] = (reg * (1 - al) + BUG_RGB[by0:by1, bx0:bx1] * al).astype(np.uint8)
+    left = (total_f - fi) / fps
+    if left < END_T and not only:                                             # end card fades in over the last seconds
+        k = min(1.0, (END_T - left) / 0.5); fr = (fr.astype(np.float32) * (1 - END_A * k) + END_RGB * END_A * k).astype(np.uint8)
+    return fr
 f = 0; cur = None
 for n, (i, a_, b, mv, fx, zx, fo) in enumerate(shots):
     if cur != i: im, d, glow = prep(cv2.imread(paths[i]), deps[paths[i]]); cur = i
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
-        ff.stdin.write(frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97).tobytes())
+        ff.stdin.write(brand(frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97), f + k).tobytes())
     f = f1; print('shot', n + 1, '/', len(shots), flush=True)
 ff.stdin.close(); sys.exit(ff.wait())
