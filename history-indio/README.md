@@ -13,7 +13,9 @@ Tagalog/Taglish komiks-style explainers about Philippine history, myths and lege
 5. **Build**: `bash pipeline/setup.sh` once, then `bash pipeline/make_video.sh <slug>`.
    Output: `/opt/work/<slug>/final.mp4` and `qa_sheet.jpg`. Look at the sheet before sending.
    Subtitles are burned in automatically from the script timings.
-6. **Deliver** the MP4 with what could not be verified. MP4s and voice files are not committed (this repo is public).
+6. **Captions**: write `videos/<slug>/captions.md` (Facebook, YouTube Shorts title/description/tags, TikTok, Instagram,
+   pinned sources comment; main keyword in the first line; only claims the script makes). Copy an existing one as the template.
+7. **Deliver** the MP4, what could not be verified, and END the message with the captions ready to paste. MP4s and voice files are not committed (this repo is public).
 
 ## Pieces
 - `engine3d/` — cel-shaded 3D stage (three.js) that renders one still per shot.

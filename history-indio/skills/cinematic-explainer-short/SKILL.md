@@ -128,3 +128,8 @@ Check: duration matches the voice, no black or frozen stretches, no garbled text
 spelled right, every on-screen claim matches `facts.md`. Send the MP4 with a short list of what
 could not be verified — sources not read in full, quotes not checked against a recording, shots
 where the character drifted.
+
+Always end the delivery message with ready-to-paste captions for Facebook, YouTube Shorts (title,
+description, tags), TikTok and Instagram, plus a short sources comment to pin. Put the main search
+keyword in the first line and repeat only claims the script makes. The user posts straight from
+that message, so leaving the captions out costs them a round trip.
