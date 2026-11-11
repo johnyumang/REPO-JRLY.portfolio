@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "anime-style": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/anime-style/SKILL.md",
+      "computedHash": "e582f61fdbacd6c7705e4a9b132f0d37189a1daf9a046480767ff76fa4e74a57"
+    }
+  }
+}
