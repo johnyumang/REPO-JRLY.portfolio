@@ -57,8 +57,22 @@ Write narration only, about 2 words per second for Taglish (a 3-minute video is 
 2. Open loop: promise the answer, then delay it.
 3. Escalation in 3–5 beats, each raising the stakes and each one drawable.
 4. A fairness beat: what is proven, what is alleged, what is opinion.
-5. Payoff and a question for the comments.
+5. Payoff, then the closing question (see below). It is the last thing spoken in every video.
 Save `work/script.txt` and a source table. Get the user's approval before generating anything.
+
+### The closing question (every video)
+The channel is called History Indio. Every video ends by asking viewers one thing they can answer
+in a few words, because a comment that is easy to type is the one people actually leave. Pick the
+ending that fits the story, and rotate them so the channel does not sound like a template:
+- **City call-out:** "I-comment ang lungsod o probinsya mo, at baka kuwento ng lugar mo ang susunod."
+- **Pick the next one:** "A o B: alin ang gusto mong isunod?" (name two real upcoming topics)
+- **Take a side:** a two-word choice tied to the story ("Bayani o traydor?").
+- **Did you know:** "Itinuro ba 'to sa school n'yo? Oo o hindi?"
+- **Local version:** "Ano ang bersyon ng alamat na 'to sa inyo?" (best for myths)
+- **Family story:** "May kuwento ba ang lolo't lola mo tungkol dito?"
+- **Guess first:** ask early, answer at the end, then "Tama ba ang hula mo?"
+Only promise a follow-up ("gagawan ko ng kuwento") if the user means to deliver it. Give the
+question its own final shot, with the host and the question in a caption box.
 
 ## Stage 3 — Storyboard
 One shot every 3–6 seconds. Write `work/shots.json` with, per shot: `id`, the narration line it
