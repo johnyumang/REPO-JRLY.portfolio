@@ -1,0 +1,280 @@
+{
+ "_note": "Episode 4 keyframes (same method as Episode 2). Usman exists only inside the jump: never in modern-day shots. The boy is a generic anime child, not a likeness.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose off-white collarless shirt, round bronze medallion necklace",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist": "a lean young Filipino man, brown skin, black hair in a small topknot, orange windbreaker jacket over a white polo shirt, round bronze medallion necklace",
+  "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck": "a black short-haired Philippine street dog with a white chest patch, one folded ear, bright clever eyes, red kerchief on his neck",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ },
+ "plates": {
+  "room": "a small cramped rented room in Manila at night, a thin mattress, an electric fan, a motorcycle helmet on a plastic chair, a window with city lights, lit by the cold glow of a phone.",
+  "shrine": "the Rizal Shrine in Calamba today, a large two-storey Spanish colonial bahay na bato house with white lower stone walls, dark wooden upper floor, capiz shell sliding windows and a red tile roof, green garden, bright morning sun.",
+  "street1869": "a dirt street in a Philippine town in 1869, nipa and bamboo market stalls with baskets of fruit, a stone church tower in the distance, coconut palms, warm afternoon light.",
+  "house1869": "a large two-storey Spanish colonial bahay na bato house in 1869 seen from its garden, stone lower walls, wooden upper floor with capiz shell windows, tile roof, fruit trees, a wooden gate and a dirt road, golden late-afternoon light."
+ },
+ "chars": {
+  "indio_lonely": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, sitting with shoulders dropped, looking down sadly at a smartphone in his hand, face lit by the phone.",
+  "indio_search": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, eyebrows raised, typing on a smartphone with his thumb, curious focused face.",
+  "indio_aha": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, eyes wide and mouth open in a happy gasp, pointing at a smartphone in his other hand.",
+  "indio_read": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, three-quarter profile looking slightly upward, mouth open as he reads aloud, one hand holding the bronze medallion at his chest.",
+  "indio_run": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, running hard toward the viewer, mouth open panting, one arm reaching forward, hair and headband tails flying.",
+  "indio_watch": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, standing still, eyes wide and soft, lips parted in quiet surprise, looking off to the side.",
+  "indio_sadwatch": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, eyes glistening, a hand over his mouth, looking off to the side.",
+  "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, looking up thoughtfully with a hand on his chin, calm serious expression.",
+  "indio_wink": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, a small warm smile, winking, one finger raised.",
+  "indio_alone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, standing alone, looking back over his shoulder with a wistful half smile.",
+  "indio_question": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, frowning in thought, one hand gripping the bronze medallion, looking straight at the viewer.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, pointing straight at the viewer with an excited open smile.",
+  "indio_cheer": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, laughing happily with one fist raised in cheer.",
+  "usman_serious": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, standing alert, ears up, serious intense eyes looking ahead, not smiling.",
+  "usman_run": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, running fast, body stretched, ears back, seen from the side.",
+  "usman_soft": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting, head slightly lowered, sad gentle eyes looking to the side.",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes.",
+  "boy_dog": "a small Filipino boy about eight years old in 1869, neat short black hair, big thoughtful eyes, wearing a white long-sleeved cotton shirt, kneeling in a garden and smiling beside a big black dog that sits close to him.",
+  "boy": "a small Filipino boy about eight years old in 1869, neat short black hair, big thoughtful eyes, wearing a white long-sleeved cotton shirt, holding a small book against his chest, a gentle shy smile.",
+  "pony": "a small brown Philippine pony with a black mane, friendly eyes, simple rope halter, standing calmly.",
+  "mother": "a Filipina mother in 1860s dress with her hair in a bun, seated, pointing at an open book for a small Filipino boy about eight years old in 1869, neat short black hair, big thoughtful eyes, wearing a white long-sleeved cotton shirt, an oil lamp with a small moth flying near the flame between them, warm lamp light.",
+  "brother": "a serious Filipino young man about eighteen in 1869, short black hair, white long-sleeved shirt and dark trousers, holding a small travelling bag, standing straight.",
+  "hug": "a small Filipino boy about eight years old in 1869, neat short black hair, big thoughtful eyes, wearing a white long-sleeved cotton shirt, eyes closed, hugging a big black dog tightly around the neck.",
+  "dog_wait": "a big black dog sitting alone and still, seen from behind and slightly to the side, ears up, looking far away."
+ },
+ "full": {
+  "carromata": "a small two-wheeled horse-drawn carriage driving away down a dirt road lined with coconut palms in 1869, seen from behind, dust rising, golden late-afternoon light, a small boy looking back from the carriage.",
+  "poem": "extreme close-up of an old yellowed sheet of paper on a wooden desk with a feather quill and ink pot, the handwriting only illegible scribbles, a large shadowy question mark shape cast across the page by window light.",
+  "tattoo": "Close-up of a brown-skinned forearm held up in front of a garden, orange jacket sleeve pushed up to the elbow, four small indigo geometric tattoos in a row on the forearm, the last one glowing faint gold. Only the arm is in frame, no face."
+ },
+ "shots": {
+  "0": {
+   "char": "usman_serious",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.8,
+   "s": 0.6
+  },
+  "1": {
+   "char": "boy_dog",
+   "plate": "house1869",
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.7
+  },
+  "2": {
+   "full": "intro"
+  },
+  "4": {
+   "char": "indio_lonely",
+   "plate": "room",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7,
+   "tint": [
+    1.05,
+    0.95,
+    0.9
+   ]
+  },
+  "6": {
+   "char": "indio_search",
+   "plate": "room",
+   "x": 0.2,
+   "y": 0.4,
+   "s": 0.6,
+   "tint": [
+    1.05,
+    0.95,
+    0.9
+   ]
+  },
+  "8": {
+   "char": "indio_aha",
+   "plate": "room",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.6,
+   "tint": [
+    1.05,
+    0.95,
+    0.9
+   ]
+  },
+  "9": {
+   "plate": "shrine"
+  },
+  "10": {
+   "char": "indio_read",
+   "plate": "shrine",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "11": {
+   "full": "medallion"
+  },
+  "12": {
+   "plate": "street1869"
+  },
+  "13": {
+   "char": "usman_serious",
+   "plate": "street1869",
+   "x": 0.5,
+   "y": 0.8,
+   "s": 0.6
+  },
+  "14": {
+   "char": "usman_run",
+   "plate": "street1869",
+   "x": 0.2,
+   "y": 0.7,
+   "s": 0.6,
+   "blur": 9
+  },
+  "15": {
+   "char": "indio_run",
+   "plate": "street1869",
+   "x": 0.8,
+   "y": 0.5,
+   "s": 0.65,
+   "blur": 9
+  },
+  "16": {
+   "plate": "house1869"
+  },
+  "17": {
+   "char": "boy_dog",
+   "plate": "house1869",
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.7
+  },
+  "18": {
+   "char": "usman_soft",
+   "plate": "house1869",
+   "x": 0.7,
+   "y": 0.8,
+   "s": 0.55
+  },
+  "19": {
+   "char": "boy",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "20": {
+   "char": "indio_watch",
+   "plate": "house1869",
+   "x": 0.9,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "21": {
+   "char": "pony",
+   "plate": "house1869",
+   "x": 0.1,
+   "y": 0.6,
+   "s": 0.65
+  },
+  "22": {
+   "char": "mother",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.2,
+   "s": 0.5,
+   "blur": 12,
+   "gain": 0.9
+  },
+  "23": {
+   "char": "indio_sadwatch",
+   "plate": "house1869",
+   "x": 0.9,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "24": {
+   "char": "brother",
+   "plate": "house1869",
+   "x": 0.6,
+   "y": 0.7,
+   "s": 0.65
+  },
+  "25": {
+   "char": "hug",
+   "plate": "house1869",
+   "x": 0.4,
+   "y": 0.7,
+   "s": 0.6
+  },
+  "26": {
+   "full": "carromata"
+  },
+  "27": {
+   "char": "dog_wait",
+   "plate": "house1869",
+   "x": 0.7,
+   "y": 0.9,
+   "s": 0.6
+  },
+  "28": {
+   "char": "usman_growl",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "29": {
+   "char": "indio_think",
+   "plate": "house1869",
+   "x": 0.1,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "30": {
+   "full": "poem"
+  },
+  "32": {
+   "char": "indio_wink",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.6
+  },
+  "35": {
+   "char": "indio_alone",
+   "plate": "shrine",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "36": {
+   "full": "tattoo"
+  },
+  "37": {
+   "char": "indio_question",
+   "plate": "shrine",
+   "x": 0.7,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "39": {
+   "full": "phone"
+  },
+  "41": {
+   "char": "indio_point",
+   "plate": "shrine",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "43": {
+   "char": "indio_cheer",
+   "plate": "shrine",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7
+  }
+ }
+}

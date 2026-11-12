@@ -32,3 +32,15 @@ Build every keyframe prompt from `characters/series_cast.json` (style block, cha
 - Mid-season twist: Indio learns he is descended from José Rizal (fiction; see HANDOFF.md for how to handle it honestly) and that Usman was Rizal's dog.
 - Late season: who the woman is, why their timelines run out of step, and what the Lolo knew.
 - Arc of Indio himself: from "walang trabaho, walang tiwala sa sarili" to someone with a mission.
+
+## Chapter structure (director's plan, 2026-11-12; the user asked Claude to sequence)
+One chapter (season) = 8 episodes of about 3 minutes = about 24 minutes, the length of one TV anime episode. It follows the film "eight sequences" model: each episode is one sequence of the chapter's story.
+1. Ep 1 — ordinary world + the first jump (Pugad Lawin 1896)
+2. Ep 2 — learning the rules; M appears (British sa Maynila 1762)
+3. Ep 3 — Indio's back story from his Lola (Kawit, 12 June 1898)
+4. Ep 4 — midpoint: who Usman is (Calamba 1869)
+5. Ep 5 — things get harder; M closes in (Treaty of Paris, Dec 1898)
+6. Ep 6 — the low point: M steals the medallion; she had been luring him
+7. Ep 7 — Indio without the medallion, chasing M
+8. Ep 8 — climax and a cliffhanger into Chapter 2
+Inside every episode: 8 beats of about 20 seconds and about 6 shots each (roughly 44–48 shots): hook; intro + present-day problem; the push to the marker; the jump and Usman; the event; the twist; the fairness beat; return + cliffhanger + question/follow.

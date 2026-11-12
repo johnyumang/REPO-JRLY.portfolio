@@ -95,3 +95,13 @@ Save tokens and effort: do NOT animate every shot. Most shots stay as painted st
 - Usman is NOT in the real world. He appears only while Indio is time travelling and is gone when Indio returns. No Usman in modern-day lines or frames.
 - Episode 3 is Usman's back story (replaces the Treaty of Paris slot; later topics shift one episode).
 - Episode 2 script and frames were fixed to follow this. Episode 1's SCRIPT was fixed in v2 (commit 6c25672: Indio is alone in QC, the dog comes out of the light at the jump, is gone on return, and is named on return; whether to name him inside 1896 instead is awaiting the user). Episode 1 still needs a new recording and 10 new frames (list in the UPDATE section near the top).
+
+## Season plan from the user (2026-11-12) — overrides the older season arc
+- Ep 3: Usman's back story (`videos/ep03-ang-aso-ni-pepe`: he is the dog young Rizal left in Calamba in June 1869; that link is fiction and is labelled so).
+- Ep 4: Treaty of Paris 1898 (separate session "History Indio – Episode 4").
+- Ep 5: Indio's back story, revealed by his LOLA in the province.
+- Ep 6: the medallion is stolen by the woman who has been watching him (M). Twist: she only lured Indio; the episode explains why she took it.
+- Still open (ask the user when scripting): what Indio's back story is, and the woman's motive.
+
+## Re-sequenced by the user (2026-11-12, later) — overrides the season plan above
+Ep 3 = Indio's back story (`videos/ep03-ang-sabi-ni-lola`: Lola in Kawit; he sees an ancestor wearing the medallion on 12 June 1898; fiction, labelled). Ep 4 = Usman's back story (`videos/ep04-ang-aso-ni-pepe`). Ep 5 = Treaty of Paris (other session). Ep 6 = medallion stolen by M. Ep 7–8 proposed (see SERIES.md "Chapter structure"). Indio's and Usman's back stories are Claude's proposals as director; the user has not yet read them.
