@@ -1,0 +1,22 @@
+# Facts — Episode 49 (Season 5 Episode 8): Ang Ikatlong Hiling (written 2026-11-12 from story version 2, Kabanata 49)
+
+**What is true:** the feeding of the five thousand is told in all four Gospels (Matthew 14:13–21, Mark 6:30–44, Luke 9:10–17, John 6:1–14); twelve baskets of fragments were left over (Episode 9's facts). In Genesis 9:11 God promises that all flesh will never again be cut off by a flood; the flood the dragon pours out is in Revelation 12:15. Independence was proclaimed at Aguinaldo's house in Kawit on 12 June 1898, from a window (the balcony was added in 1919; Episode 3's facts). Rajah Sulayman was a ruler of Maynila who fought the Spanish in 1570 (Episode 8's datu notes). José Rizal was shot at Bagumbayan in 1896 and the Philippines was ceded at Paris in 1898 (Episodes 5 and 6).
+**Fiction, on purpose:** the third wish and its result, the star, the Trinity and the staff and their return, the receding flood, the arks, the Ladrilyo ng Babel, the Agartha clock, the Bakunawa, the Kakampi, the twelve datu and Sulayman's one line (the diwa of a datu, the series' approved and labelled exception), Rico Bulan, Kap Ramil, Inhinyera Vangie, Hukom Dimaculangan and every official named or shown (invented people in invented offices; no real living person), Ma'am Celia and the Lolo's notebook, Totoy, M, Usman, Lola Ising, Papa, Inay, Ate Tala, and Indio.
+**Restraint:** God is given no words; the wish is spoken to the star, not to God, and the answer is shown, not voiced. No real disaster or its victims are used: the receding water is an invented flood, compared only in general to floods in a Malabon street.
+**Speakers:** INDIO, LOLA, M, USMAN, RICO, SULAYMAN (existing designed voices; no new voice).
+**Label for captions (Season 5):** "Ang tagpo ay kathang-isip ng serye; ang mga sanggunian ay ayon sa Bibliya (ang apat na Ebanghelyo; Genesis 9:11; Pahayag 12:15); totoo ang kasaysayang binanggit (Kawit 1898; Rajah Sulayman, 1570)."
+
+## Claims the script speaks
+
+| # | Spoken (sentence no.) | Claim | Status | Sources |
+|---|---|---|---|---|
+| 1 | "Naalala ko ang Galilea: limang tinapay, dalawang isda, at labindalawang bakol na natira." (20) | the feeding: five loaves, two fish, twelve baskets left | certain (text) | Matthew 14:17–20; John 6:9–13 (Ang Dating Biblia 1905); Episode 9 facts.md |
+| 2 | "Tiyak: nasa apat na Ebanghelyo ang pagpapakain sa limang libo: Mateo, Marcos, Lucas at Juan." (58) | told in all four Gospels | certain | Matthew 14:13–21; Mark 6:30–44; Luke 9:10–17; John 6:1–14; https://en.wikipedia.org/wiki/Feeding_the_multitude |
+| 3 | "Nasa Genesis kapitulo siyam, talatang labing-isa, ang pangakong hindi na muling lilipulin ng baha ang lahat ng laman." (59) | God's covenant after the flood | certain (reference; paraphrase, not a quotation) | Genesis 9:11 (Ang Dating Biblia 1905); https://www.biblegateway.com/passage/?search=Genesis+9%3A11 |
+| 4 | "...ang gunaw ay ang bahang ibinuga ng dragon, gaya ng nasa Pahayag kapitulo labindalawa, hindi galing sa Diyos." (60) | Revelation 12:15: the serpent casts water as a flood after the woman | certain (reference); "hindi galing sa Diyos" is the series' reading, said as "sa kuwento namin" | Revelation 12:15 (Ang Dating Biblia 1905) |
+| 5 | "Lumitaw ang bintana ng Aguinaldo Shrine, kung saan iwinagayway ang watawat noong 1898." (34) | the flag was waved from a front window at Kawit on 12 June 1898 | certain | Episode 3 facts.md (window, not balcony; balcony 1919) |
+| 6 | "Totoo si Rajah Sulayman, rajah ng Maynila na lumaban sa mga Espanyol noong 1570." (61) | co-ruler of Maynila; fought Goiti's force, 24 May 1570 | certain | videos/ep08-ang-huling-tala/datu_notes.md; https://en.wikipedia.org/wiki/Rajah_Sulayman |
+| 7 | "Bumalik sa Bagumbayan at iligtas si Rizal." / "Burahin ang Paris." (7–8) | Rizal shot at Bagumbayan, 1896; Treaty of Paris, 1898 | certain (as background; the wishes are hypothetical) | Episode 6 and Episode 5 facts.md |
+| — | "Nakauwi na tayo, apo ng apo." (Sulayman's diwa) and everything listed under Fiction | fiction | fiction (labelled in sentence 62, captions and pinned comment) | — |
+
+Sources: Bible references read from the text by reference; web links checked from search knowledge on 2026-11-12, not re-opened page by page; re-open before posting captions.
