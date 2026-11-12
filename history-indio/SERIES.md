@@ -45,3 +45,9 @@ One chapter (season) = 8 episodes of about 3 minutes = about 24 minutes, the len
 8. Ep 8 — climax and a cliffhanger into Chapter 2
 Inside every episode: 8 beats of about 20 seconds and about 6 shots each (roughly 44–48 shots): hook; intro + present-day problem; the push to the marker; the jump and Usman; the event; the twist; the fairness beat; return + cliffhanger + question/follow.
 Chapter 2 opens with Ep 9: the time of Jesus (user decision 2026-11-12, "maybe 9"; biblically accurate; see HANDOFF.md).
+
+## Episodes 6–8 (Claude's proposal as director, 2026-11-12; NOT yet approved by the user)
+- **Ep 6 (written, `videos/ep06-ang-huling-umaga`):** M finally asks to meet at Rizal Park at 6 am; the marker on the execution spot sends Indio to Bagumbayan, 30 December 1896. M stands beside him for the first time. At the volley she takes the medallion and vanishes, leaving a note: "Hindi sa'yo ang medalyon. Ibabalik ko lang sa pinanggalingan." Indio cannot return: no new tattoo, and for the first time Usman does not vanish. Shape: arrival = a date he dressed up for; connection = the person he trusts; twist = he was watching the wrong thing.
+- **Ep 7 (proposed):** stranded in 1896–97 with Usman, Indio follows M's trail south without the medallion (candidate real site: Dapitan, Rizal's place of exile, which has a shrine). He learns what the medallion is and where it came from.
+- **Ep 8 (proposed finale):** the loop closes. M is the woman who carried the toddler wearing the medallion in Kawit in 1898 (Episode 3): she did not steal the medallion, she delivered it to the child Indio descends from, so that one day it would reach Indio. Fiction, labelled, with the real record of the Rizal–Bracken son stated beside it. Cliffhanger: how Indio gets home leads into Chapter 2.
+- Open with the user: yes/no on this direction; M's true identity; whether the love story survives the betrayal.

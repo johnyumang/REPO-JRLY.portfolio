@@ -141,3 +141,11 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 - 2026-11-12: Episode 5 outputs (script to record, draft keyframe sheet, captions, unverified list) are on a private Artifact page: https://claude.ai/artifact/9VWRWeoNi9bi6pU5aJF2Be (no video yet; waiting for the MP3).
 
 - 2026-11-12: main session outputs page (video status + copyable captions for Limahong and Bakunawa): https://claude.ai/artifact/SmsW31dKNBEDsUGvcC1Xn6 — Limahong is final per the user; do not rebuild it.
+
+## UPDATE 2026-11-12 08:50 UTC — central session
+- **Skill bundle (user request):** `.claude/skills/indio/` is the father skill `/indio` (Neocortex principle + Elon Musk five-step principle + the episode workflow), with Kaizen inside it (`kaizen.md`; log in `history-indio/KAIZEN.md`). Use it instead of re-reading the long notes. Do not make separate History Indio skills; add to the bundle.
+- **Board (user request):** private Artifact page with every episode's stage and the ElevenLabs scripts with copy buttons: https://claude.ai/artifact/QiKdeQGV7tMTt2DJTVwPVC . Source file is rebuilt in the session scratchpad; update it whenever something finishes. The user wants each session to publish its outputs as Artifacts (message sent to the Ep 1, Ep 5, movement and producer sessions) and wants to be told, with the file shown, whenever something is finished. Later wish: connect the board to their social pages to schedule posts one by one (not set up).
+- **Episode 6 written:** `videos/ep06-ang-huling-umaga` (Bagumbayan, 30 Dec 1896): full file set and NVIDIA draft frames. The free generator refuses prompts with rifles; they were reworded (men standing at attention, smoke and birds). Story is a proposal (see SERIES.md "Episodes 6–8"); assumes Episode 5 leaves Indio with five tattoos and only messages from M.
+- Episode 6 frames to redo with Figma: k00 (firing line), k46 (five tattoos), Usman frames k16/k33/k37/k54, Indio faces.
+- Ep 2–4 `keys/` were rebuilt on this machine. Still no MP3 for any episode.
+- Episode 4's facts.md still describes the older "wider Mercado-Rizal family" handling; the newer bloodline premise (son of Rizal and Bracken, fiction) is in Episode 3 and 6 facts and overrides it.

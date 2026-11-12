@@ -1,0 +1,29 @@
+# Facts — Episode 6: Ang Huling Umaga (Bagumbayan, 30 December 1896) (checked 2026-11-12)
+
+**Fiction, on purpose:** Indio, Usman (the talking dog), "M", her messages, her note, the medallion and its theft, the time jump, the tattoos, and Indio being stranded in 1896. Also fiction (series premise from the user): that Indio carries Rizal's blood through the son of José Rizal and Josephine Bracken. Real record: that son (usually called Francisco) was born prematurely in Dapitan and died within hours or was stillborn; Rizal has no known surviving descendants. This episode does not state the bloodline; it only calls Rizal "Pepe, ang batang nakita namin sa Calamba". Indio, Usman and M only watch from the crowd. No words are put in a real person's mouth; the only quoted lines are M's (fiction). Rizal is drawn only from behind and far away, with no blood and no body shown.
+
+**M's motive and the stranding are Claude's proposal as director** (the user has not approved them): her note says the medallion is not Indio's and that she is "returning it to where it came from". The full reason is left for Episodes 7–8.
+
+**How this was checked:** pages could not be opened directly from this session; rows rest on web-search summaries of the listed pages, cross-checked.
+
+| Claim in the script | Status | Sources |
+|---|---|---|
+| Rizal was executed by firing squad on 30 December 1896 at Bagumbayan, now Rizal Park (Luneta), Manila | confirmed | https://en.wikipedia.org/wiki/Trial_and_execution_of_Jos%C3%A9_Rizal , https://usa.inquirer.net/186502/dec-30-1896-dr-jose-rizal-executed-in-bagumbayan |
+| The shots were fired at about 7:03 in the morning ("alas-siyete y tres"); the hook rounds it to "alas-siyete" | confirmed as the commonly given time (one source says the execution was set for 7:00) | https://www.joserizal.com/death-jose-rizal , https://sites.google.com/view/historic-hours/details/execution-of-rizal |
+| There is a marker in Rizal Park on the spot where he was shot | confirmed: Vera Files reports an NHCP marker placed on the exact spot in 1991 (and that it is poorly kept); a 1973 Ayala Museum photo shows an earlier marker on the spot. The marker's wording was not read, so the script never quotes it | https://verafiles.org/articles/markers-of-the-countrys-significant-past-relegated-to-insignificance , https://www.filipinaslibrary.org.ph/biblio/23679 |
+| He was 35 ("tatlumpu't limang taong gulang") | arithmetic: born 19 June 1861 | https://www.joserizal.com/life/rizal-timeline/ , https://en.wikipedia.org/wiki/Trial_and_execution_of_Jos%C3%A9_Rizal |
+| He was dressed in black ("isang lalaking nakaitim") | commonly described (black suit and hat) and seen in the widely reproduced photograph attributed to Manuel Arias Rodríguez; not separately confirmed in the pages searched | https://sugbo.ph/?p=120967 , https://positivelyfilipino.squarespace.com/magazine/some-not-very-well-known-facts-about-rizals-trial-and-execution |
+| A military doctor felt his pulse and found it normal | confirmed in secondary sources, usually naming Dr. Felipe Ruiz Castillo; one memoir-based account describes the officer differently, so the script says "ayon sa mga tala" and gives no name | https://myrizal150.com/2014/12/how-to-face-a-firing-squad-execution-with-a-normal-heart-beat-rizal-30-december-1896-2/ , https://sugbo.ph/?p=120960 |
+| He asked to face the firing squad and was refused | confirmed | https://examiner.org.hk/2021/01/08/only-a-firing-squad-could-silence-jose-rizal/features/ , https://en.wikipedia.org/wiki/Trial_and_execution_of_Jos%C3%A9_Rizal |
+| The firing squad were Filipino soldiers of the colonial army, with Spanish soldiers standing behind them | confirmed in secondary sources (one says eight native soldiers). The regiment was not confirmed, so none is named | https://examiner.org.hk/2021/01/08/only-a-firing-squad-could-silence-jose-rizal/features/ , https://www.joserizal.com/legacy/rizal-trial-and-execution/ |
+| A dog circled and whimpered beside him after the shots | weak: repeated on several sites (often "the squad's mascot"), resting mainly on one later memoir excerpt (Hilarion Martinez) with no full citation. Script: "kuwentong paulit-ulit pero mahina ang pinagmulan". That it was Usman is fiction | https://sugbo.ph/?p=120967 , https://leon-gallery.com/auctions/lot/The-Kingly-Treasures-Auction-2019/144/40 |
+| His last poem was untitled and unsigned, and is said to have been hidden in an alcohol stove; how exactly is disputed | confirmed as a dispute: the manuscript is undated, untitled and unsigned; the family account says it was in the stove; Ambeth Ocampo reports a test suggesting the paper was not in the fuel tank | https://lifestyle.inquirer.net/?p=218103 , https://schreibermagazin.blogspot.com/2005/01/there-is-something-in-it.html |
+
+## Could not verify (kept out of the script or hedged)
+- His last words ("Consummatum est" appears only in a weak source) and that he twisted to fall facing the sky: both left out.
+- The regiment of the firing squad, the number of rifles, the size of the crowd, the weather ("malamig ang umaga" is scenery only).
+- Whether the dog is visible in the execution photograph.
+- Who received the stove and the words said when handing it over: left out.
+- The wording of the Rizal Park marker (never quoted).
+- Uniform details in the drawings (striped rayadillo, straw hats) are generic.
+- Episode 5 is being made in another session; its ending was not available here. Episode 6 assumes Indio has five tattoos and has only ever had messages from M.

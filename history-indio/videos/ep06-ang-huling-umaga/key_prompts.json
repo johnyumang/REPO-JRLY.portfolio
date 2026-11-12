@@ -1,0 +1,274 @@
+{
+ "_note": "Episode 6 keyframes (same method as Episodes 2-4). Rizal is shown only from behind and far away, never his face: not a likeness. No blood, no bodies. From shot 35 on Indio has NO medallion. Usman is only in the 1896 shots. intro.jpg, medallion.jpg and plates/room.jpg are copies from Episode 4.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, ": "a lean young Filipino man, brown skin, black hair in a small topknot, white short-sleeved polo shirt, round bronze medallion necklace, ",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, round bronze medallion necklace, ",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, ": "a black short-haired Philippine street dog with a white chest patch, one folded ear, bright clever eyes, red kerchief on his neck, ",
+  "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, ": "a young Filipina woman, long black hair, long dark coat, red umbrella over her shoulder, round bronze medallion necklace, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ },
+ "plates": {
+  "room": "a small cramped rented room in Manila at night, a thin mattress, an electric fan, a motorcycle helmet on a plastic chair, a window with city lights, lit by the cold glow of a phone.",
+  "park": "a wide city park in Manila before sunrise, a tall grey granite obelisk monument with a bronze statue group at its base in the distance, empty paved plaza, lamp posts still lit, palm trees, pink and blue dawn sky.",
+  "field": "a wide open grassy field beside Manila Bay in 1896 at cold dawn, low mist on the grass, old stone fortress walls far away on one side, a few bare trees, calm sea and pale gold sunrise sky."
+ },
+ "chars": {
+  "indio_smile_phone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, lying back, holding a smartphone above his face, surprised happy smile, face lit by the phone.",
+  "indio_collar": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, fixing the collar of his polo with both hands, a small proud smile, chin up.",
+  "indio_wait": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, standing, looking around left and right with a puzzled face, a smartphone in one hand.",
+  "indio_read": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, three-quarter profile looking slightly downward, mouth open as he reads aloud, one hand holding the bronze medallion at his chest.",
+  "indio_cold": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, hugging his own arms against the cold, breath visible as mist, wary eyes.",
+  "indio_side": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, head turned sharply to the side, eyes wide, lips parted in surprise.",
+  "indio_watch": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, standing still, serious face, eyes fixed on something far ahead, jaw tight.",
+  "indio_sadwatch": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, eyes glistening, brows drawn together, a hand pressed over his mouth, looking far ahead.",
+  "indio_grief": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm, eyes wide open and wet, one tear on his cheek, teeth clenched, refusing to look away.",
+  "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, looking up thoughtfully with a hand on his chin, calm serious expression.",
+  "indio_palm": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, looking down at his own empty open palm, lost worried face.",
+  "indio_bitter": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, a bitter half smile, eyes lowered, shaking his head slightly.",
+  "indio_resolve": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, calm determined face, small confident smile, looking straight at the viewer, arms crossed.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, pointing straight at the viewer with a serious inviting look.",
+  "indio_fist": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, one fist raised to chest height, determined small smile, wind in his hair and headband tails.",
+  "m_side": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, seen in profile, calm sad face, looking far ahead, morning mist.",
+  "m_look": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, looking straight at the viewer with gentle sad eyes, lips slightly parted as if speaking softly.",
+  "usman_far": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting very still, ears lowered, quiet sad eyes looking far away, not smiling.",
+  "usman_howl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, head thrown back, howling at the sky, eyes shut, mouth open.",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes.",
+  "usman_lean": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, standing close and leaning his head sideways as if against someone's leg, gentle loyal eyes looking up."
+ },
+ "full": {
+  "intro": "(copied from Episode 4)",
+  "medallion": "(copied from Episode 4)",
+  "squad": "seen from behind, a straight row of eight men in blue-and-white striped cotton uniforms and straw hats standing at attention shoulder to shoulder, a second row of men in darker uniforms standing behind them, misty grassy field at cold dawn, pale gold sky, solemn mood, no faces visible.",
+  "rizal_back": "seen from far behind, a slim man in a black suit and black bowler hat standing alone and upright on a misty grassy field, his back to the viewer, facing the sea and a pale gold sunrise, long shadow on the grass, quiet and solemn, face not visible.",
+  "phone_msg": "extreme close-up of a brown hand holding a smartphone in a dark room, the screen showing one glowing chat bubble with a small red umbrella icon and a clock icon and nothing else.",
+  "marker": "close-up of a flat bronze memorial plaque set in the ground of a park at dawn, the plaque covered only in illegible scribbled lines, a few fallen leaves, soft light, a pair of sneakers at the edge of frame.",
+  "soldiers": "a column of 1896 colonial guards in blue-and-white striped uniforms and straw hats walking through morning mist, a drummer in front, and among them, seen from behind, a slim man in a black suit and black bowler hat walking calmly, old stone walls behind.",
+  "pulse": "extreme close-up of two hands only: a hand in a dark military uniform sleeve gently holding the wrist of a man in a black suit sleeve with a white cuff, taking his pulse, misty dawn light, no faces.",
+  "hands": "extreme close-up of two hands only: a woman's hand in a dark coat sleeve tightly holding a young man's brown hand with indigo tattoos on the forearm, misty dawn field blurred behind.",
+  "volley": "a great cloud of white smoke drifting low over a misty field at sunrise, a flock of startled birds bursting up from bare trees into a pale gold sky, no people, solemn and quiet.",
+  "chest_empty": "extreme close-up of the chest of a young man in a loose white collarless shirt, his brown hand clutching at his bare collarbone where a necklace should be, a snapped piece of cord between his fingers, no face in frame.",
+  "m_gone": "a red umbrella lying open and abandoned on wet grass in a misty field at dawn, footprints in the dew leading away into the mist, no people.",
+  "stove": "close-up of a small old brass alcohol burner stove on a wooden table beside a folded sheet of yellowed paper covered in illegible scribbles, candle light, dark prison-cell wall behind.",
+  "tattoo": "Close-up of a brown-skinned forearm held up in front of a misty field, white shirt sleeve rolled to the elbow, five small indigo geometric tattoos in a row on the forearm, none glowing. Only the arm is in frame, no face.",
+  "note": "extreme close-up of a brown hand unfolding a small piece of paper with a few lines of illegible handwritten scribbles and a tiny drawing of an umbrella, misty morning light.",
+  "m_back": "seen from behind and far away, a woman in a long dark coat walking away into thick morning mist on a grassy field, long black hair, one hand holding up a small glowing bronze medallion on a cord, golden light around it, face not visible."
+ },
+ "shots": {
+  "0": {
+   "full": "squad"
+  },
+  "1": {
+   "full": "rizal_back"
+  },
+  "2": {
+   "char": "m_side",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.35,
+   "s": 0.7
+  },
+  "3": {
+   "full": "intro"
+  },
+  "5": {
+   "full": "phone_msg"
+  },
+  "6": {
+   "char": "indio_smile_phone",
+   "plate": "room",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7,
+   "tint": [
+    1.05,
+    0.95,
+    0.9
+   ]
+  },
+  "7": {
+   "plate": "park"
+  },
+  "8": {
+   "char": "indio_collar",
+   "plate": "room",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65,
+   "tint": [
+    1.05,
+    0.95,
+    0.9
+   ]
+  },
+  "10": {
+   "char": "indio_wait",
+   "plate": "park",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "11": {
+   "full": "marker"
+  },
+  "12": {
+   "char": "indio_read",
+   "plate": "park",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "13": {
+   "full": "medallion"
+  },
+  "14": {
+   "plate": "field"
+  },
+  "15": {
+   "char": "indio_cold",
+   "plate": "field",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "16": {
+   "char": "usman_far",
+   "plate": "field",
+   "x": 0.6,
+   "y": 0.8,
+   "s": 0.55
+  },
+  "19": {
+   "char": "m_look",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.7
+  },
+  "20": {
+   "char": "indio_side",
+   "plate": "field",
+   "x": 0.7,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "21": {
+   "full": "soldiers"
+  },
+  "23": {
+   "char": "indio_watch",
+   "plate": "field",
+   "x": 0.2,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "24": {
+   "full": "pulse"
+  },
+  "27": {
+   "char": "indio_sadwatch",
+   "plate": "field",
+   "x": 0.8,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "30": {
+   "full": "hands"
+  },
+  "32": {
+   "full": "volley"
+  },
+  "33": {
+   "char": "usman_howl",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.75,
+   "s": 0.6
+  },
+  "34": {
+   "char": "indio_grief",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.75
+  },
+  "35": {
+   "full": "chest_empty"
+  },
+  "36": {
+   "full": "m_gone"
+  },
+  "37": {
+   "char": "usman_growl",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "38": {
+   "char": "indio_think",
+   "plate": "field",
+   "x": 0.15,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "40": {
+   "full": "stove"
+  },
+  "43": {
+   "char": "indio_palm",
+   "plate": "field",
+   "x": 0.6,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "46": {
+   "full": "tattoo"
+  },
+  "47": {
+   "full": "note"
+  },
+  "50": {
+   "full": "m_back"
+  },
+  "52": {
+   "char": "indio_bitter",
+   "plate": "field",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "54": {
+   "char": "usman_lean",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.8,
+   "s": 0.6
+  },
+  "56": {
+   "char": "indio_resolve",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "58": {
+   "char": "indio_point",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "60": {
+   "char": "indio_fist",
+   "plate": "field",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7
+  }
+ }
+}

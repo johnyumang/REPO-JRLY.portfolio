@@ -18,7 +18,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Episode 3: Ang Sabi ni Lola (Indio's back story; Kawit, 12 June 1898) — in progress: `videos/ep03-ang-sabi-ni-lola` (script, facts, captions, NVIDIA draft frames; voice pending)
 - [ ] Episode 4: Ang Aso ni Pepe (Usman's back story; Calamba, June 1869) — in progress: `videos/ep04-ang-aso-ni-pepe` (script, facts, captions, NVIDIA draft frames; voice pending)
 - [ ] Episode 5: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 10 Dec 1898) — marker: Agoncillo graves, Santuario del Santo Cristo, San Juan — in progress: `videos/ep05-dalawampung-milyon` (script, facts, captions, shots, NVIDIA draft frames; voice pending)
-- [ ] Episode 6: Nanakaw ang medalyon: ang babaeng nagbabantay (M) ang kukuha; nilinlang lang pala niya si Indio (history event to be chosen)
+- [ ] Episode 6: Ang Huling Umaga (Bagumbayan, 30 Dec 1896; M steals the medallion, Indio is stranded in 1896 with Usman) — in progress: `videos/ep06-ang-huling-umaga` (script, facts, captions, NVIDIA draft frames; story awaits the user's yes; voice pending)
 - [ ] Episode 7: Walang medalyon: hinahabol ni Indio si M (history event to be chosen; proposed)
 - [ ] Episode 8: Chapter 1 finale: nabawi o naipasa ang medalyon; cliffhanger papuntang Chapter 2 (proposed)
 - [ ] Episode 9 (Chapter 2 opener; user said "maybe 9"): Panahon ni Hesus (user, 2026-11-12): Indio goes back to the time of Jesus; must be biblically accurate, following a recent Bible translation (which translation and which event: to be confirmed with the user). Not yet written
