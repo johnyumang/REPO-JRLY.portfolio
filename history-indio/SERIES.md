@@ -183,3 +183,19 @@ The user wants intimate scenes between Indio and M, tempting scenes with other w
 - **Indio and M** (the forbidden love of a guardian for the one she guards) in three steps: an almost-kiss when her medallion is named (Season 2 Episode 6); the first kiss when the twelve wake (Season 2 Episode 10) or when Biringan opens (Season 3 Episode 6); the night before the war (Season 4 Episode 4), told by suggestion.
 - **Temptations** are trials, tied to the theme (the lamp that burns only with truth; the paradise "na wala nang tukso"): a woman who offers him an easier life in each of a few stops (for example a merchant's daughter in Malacca, an engkantada of Biringan whose food must not be eaten, a queen in the sunken city). Some are simply people; later ones are the enemy's lures, and the lamp or Usman's nose gives them away. Indio is tempted for real; that is what makes his choice count.
 - **Usman's gags:** he covers his eyes with a paw, turns his back and whistles, pushes between them, barks the visitor away, or drags the "camera" off to look at food. One gag per such scene, never the same twice in a row.
+
+## Season 2, version 3: in the Philippines (user, 2026-11-12: "kahit hindi sa Asia, kahit sa Pilipinas, sa mga historical na lugar"; this REPLACES the places of Episodes 3 to 10 in the table above; Episodes 1 and 2 stay as written)
+The treasure hunt of Season 2 runs through the Philippines' own historical places (the adventure feel of a treasure-hunt series; take only the genre). Each medallion is found at a real heritage site tied to its datu; what happened abroad (the missions to China, the capture off Brunei) is told as that datu's story, seen through the lens, not visited. Every site and date below must be verified in `season2/research.md` before its script is written.
+
+| S2 ep | Overall | Working title | Heritage site | True history | Find |
+|---|---|---|---|---|---|
+| 3 | 11 | Ang Sugo ng Butuan | Butuan: the balangay boats and the river port | The balangay (689–988) and Butuan's missions to the Chinese court, 1001–1011 | Medallion of Rajah Kiling, "Ang Sugo" |
+| 4 | 12 | Ang Haring Tumawid ng Dagat | Simunul (Tawi-Tawi) and Jolo, Sulu | The Sheik Makhdum mosque tradition (1380) and Paduka Pahala's voyage to the emperor in 1417 | Medallion of Paduka Pahala, "Ang Daan Pauwi" |
+| 5 | 13 | Ang Kasulatang Tanso | Laguna de Bay, where the copperplate was found | The Laguna Copperplate Inscription, year 900 | Medallion of Jayadewa, "Ang Kasulatan" |
+| 6 | 14 | Ang Unang Misa | Limasawa, Southern Leyte | Easter 1521, Rajah Kolambu and Rajah Siawi, and the long Limasawa or Butuan question | Medallion of Rajah Kolambu, "Ang Kalakal" (replaces the Luzon lord of Malacca) |
+| 7 | 15 | Ang Kuta sa Bunganga ng Ilog | Intramuros and Fort Santiago, Manila | Rajah Matanda's Maynila, the kuta at the river mouth, 1570–1571; his capture off Brunei in 1521 as his story | Medallion of Rajah Matanda, "Ang Dagat" |
+| 8 | 16 | Ang Sabwatan | Tondo and Manila Bay | The Tondo conspiracy of 1587–1588 and Magat Salamat | Medallion of Magat Salamat, "Ang Lihim" |
+| 9 | 17 | Ang Tinig | Lake Lanao | Sultan Kudarat's speech of 1639 | Medallion of Sultan Kudarat, "Ang Tinig" |
+| 10 | 18 | Ang Sariling Dagat | Mactan and Cebu | 27 April 1521: what Pigafetta wrote and what is legend; Humabon's Cebu | Medallion of Lapulapu, "Ang Kalasag", the two won back from "sila" (Humabon, Lakandula), then the key and the anting |
+
+Famous sites that may serve as clue stops inside these episodes when the facts support it (one per episode at most, each verified first): the Tabon Caves of Palawan, Callao Cave in Cagayan, the Ifugao rice terraces, the Angono petroglyphs, the Kabayan burial caves, Corregidor.
