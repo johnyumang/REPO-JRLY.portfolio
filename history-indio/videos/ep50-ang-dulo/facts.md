@@ -11,7 +11,8 @@
 
 | # | Spoken (sentence no.) | Claim | Status | Sources |
 |---|---|---|---|---|
-| 1 | "Tiyak: pastol ng tupa si Abel, ayon sa Genesis kapitulo apat, talatang dalawa." (14) | Abel was a keeper of sheep | certain (text) | Genesis 4:2 (Ang Dating Biblia 1905); https://www.biblegateway.com/passage/?search=Genesis+4 |
-| 2 | "Walang anak si Abel na binanggit sa Bibliya, at si Set ang ibinigay kapalit niya, sa talatang dalawampu't lima." (15) | no child of Abel named; Seth given in place of Abel | certain (text) | Genesis 4:8, 4:25; https://en.wikipedia.org/wiki/Cain_and_Abel ; SERIES.md "The ending of the whole series" |
+| 1 | "Tiyak: sa Genesis kapitulo apat, talatang dalawa, si Abel ay tagapagalaga ng mga tupa." (14) | QUOTED word for word from Ang Dating Biblia 1905, Genesis 4:2 (part) | certain (text) | Genesis 4:2 (Ang Dating Biblia 1905); https://www.biblegateway.com/passage/?search=Genesis+4 |
+| 2 | "Walang anak si Abel na binanggit sa Bibliya, at sa talatang dalawampu't lima, si Set ang ibang anak na kahalili ni Abel." (15) | no child of Abel named; "ibang anak na kahalili ni Abel" QUOTED from Ang Dating Biblia 1905, Genesis 4:25 | certain (text) | Genesis 4:8, 4:25; https://en.wikipedia.org/wiki/Cain_and_Abel ; SERIES.md "The ending of the whole series" |
 | 3 | "Sa harap ng marker ng Pugad Lawin..." (9) | there is a marker at the Pugad Lawin Shrine | certain | Episode 1 facts.md |
 | — | the restored world, the family, the baby Indio, Abel alive, the dog | fiction | fiction (labelled in sentence 16, captions and pinned comment) | — |
+Bible check: Genesis 4:2, 4:8 and 4:25 compared on 2026-11-12 with the Ang Dating Biblia 1905 text files of github.com/nehemiaharchives/bbl (resources/bbltexts/abtag).
