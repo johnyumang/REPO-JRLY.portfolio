@@ -21,8 +21,8 @@
   "pause": 0.62
  },
  {
-  "text": "Tatlo na ang tattoo ko, at pagod na ako, par.",
-  "say": "tatlo na ang tatu ko, at pagod na ako, par.",
+  "text": "Apat na ang tattoo ko, at pagod na ako, par.",
+  "say": "apat na ang tatu ko, at pagod na ako, par.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -56,16 +56,16 @@
   "pause": 0.3
  },
  {
-  "text": "'Yun ang binasa ko.",
-  "say": "'yun ang binasa ko.",
-  "style": "serious",
+  "text": "Binasa ko.",
+  "say": "binasa ko.",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.3
  },
  {
   "text": "Kopya pala ng marker, at sa dulo, letrang M.",
   "say": "kopya pala ng marker, at sa dulo, letrang em.",
-  "style": "dramatic",
+  "style": "",
   "pre": 0,
   "pause": 0.3
  },
@@ -98,8 +98,8 @@
   "pause": 0.3
  },
  {
-  "text": "Naka-coat na ako, at katabi ko na si Usman, sabay sabing, bonjour, tol.",
-  "say": "naka-coat na ako, at katabi ko na si usman, sabay sabing, bonjour, tol.",
+  "text": "Katabi ko na si Usman, sabay sabing, bonjour, tol.",
+  "say": "katabi ko na si usman, sabay sabing, bonjour, tol.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3
@@ -119,8 +119,8 @@
   "pause": 0.3
  },
  {
-  "text": "Sa mahabang mesa, mga Amerikano sa isang panig, mga Espanyol sa kabila.",
-  "say": "sa mahabang mesa, mga amerikano sa isang panig, mga espanyol sa kabila.",
+  "text": "Mga Amerikano sa isang panig, mga Espanyol sa kabila.",
+  "say": "mga amerikano sa isang panig, mga espanyol sa kabila.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -157,6 +157,13 @@
   "text": "Wala.",
   "say": "wala.",
   "style": "somber",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Anim na buwan pa lang mula nang magdeklara tayo ng kalayaan sa Kawit.",
+  "say": "anim na buwan pa lang mula nang magdeklara tayo ng kalayaan sa kawit.",
+  "style": "",
   "pre": 0,
   "pause": 0.62
  },
@@ -203,16 +210,9 @@
   "pause": 0.3
  },
  {
-  "text": "Plot twist.",
-  "say": "plot twist.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3
- },
- {
   "text": "Ang isinuko ng Espanya, halos hindi na nila hawak.",
   "say": "ang isinuko ng espanya, halos hindi na nila hawak.",
-  "style": "",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.3
  },
@@ -301,8 +301,8 @@
   "pause": 0.3
  },
  {
-  "text": "Apat na ang tattoo ko.",
-  "say": "apat na ang tatu ko.",
+  "text": "Lima na ang tattoo ko.",
+  "say": "lima na ang tatu ko.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3
@@ -329,15 +329,8 @@
   "pause": 0.3
  },
  {
-  "text": "Itinaas niya ang apat na daliri.",
-  "say": "itinaas niya ang apat na daliri.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Pagkurap ko, wala na.",
-  "say": "pagkurap ko, wala na.",
+  "text": "Itinaas niya ang limang daliri, tapos nawala.",
+  "say": "itinaas niya ang limang daliri, tapos nawala.",
   "style": "",
   "pre": 0,
   "pause": 0.62

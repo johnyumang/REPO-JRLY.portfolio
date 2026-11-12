@@ -1,5 +1,5 @@
 {
- "_note": "Episode 4 keyframes (Treaty of Paris, 10 Dec 1898). Shot rules: close-ups, one plate per location, characters on flat green then composited (pipeline/make_keys.py). All NVIDIA FLUX.2 klein drafts; upgrade with Figma by saving the same name as .png. Usman only in the Paris shots, never in San Juan. Real people (commissioners, Agoncillo) are generic figures, not likenesses. Indio's tattoos are hidden under the coat in Paris; the tattoo frame shows four.",
+ "_note": "Episode 5 keyframes (Treaty of Paris, 10 Dec 1898). Shot rules: close-ups, one plate per location, characters on flat green then composited (pipeline/make_keys.py). All NVIDIA FLUX.2 klein drafts; upgrade with Figma by saving the same name as .png. Usman only in the Paris shots, never in San Juan. Real people (commissioners, Agoncillo) are generic figures, not likenesses. Indio's tattoos are hidden under the coat in Paris; the tattoo frame shows five.",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
  "plates": {
@@ -36,7 +36,7 @@
   "us_soldier": "an American soldier of 1898, about twenty-five, khaki campaign hat with a wide brim, dark blue wool shirt, canvas cartridge belt across the chest, stern watchful expression, hazy afternoon light.",
   "fighters": "two Filipino revolutionary soldiers of 1898, brown skin, straw hats, blue and white striped cotton uniforms, determined proud faces looking forward, shoulder to shoulder, warm sunrise rim light.",
   "woman": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, a faint knowing smile, looking straight at the viewer, soft overcast light.",
-  "woman_four": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, raising her free hand to show four fingers, a faint knowing smile, looking straight at the viewer, soft overcast light."
+  "woman_five": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, raising her free hand with the open palm toward the viewer, all five fingers spread, a faint knowing smile, looking straight at the viewer, soft overcast light."
  },
  "full": {
   "intro": "A swirling golden time portal of clock gears and glowing light fills the whole background. In front of it, waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, smiling calmly with arms crossed, and next to him a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Golden rim light.",
@@ -50,7 +50,7 @@
   "war": "a wooden bridge over a river at night in the tropics in 1899, bright orange flashes on both banks, thick smoke drifting, palm tree silhouettes, stars, dramatic. No people visible.",
   "senate": "a large nineteenth-century assembly hall seen from the back, rows of curved wooden desks, many men in dark suits seen from behind with some raising a hand to vote, tall columns, daylight from a glass ceiling.",
   "coins": "extreme close-up of an open brown palm holding exactly two large silver dollar coins, cold blue night light, snowy street blurred behind.",
-  "tattoo": "Close-up of a brown-skinned forearm held up in front of a wet city street after rain, orange jacket sleeve pushed up to the elbow, four small indigo geometric tattoos in a row on the forearm, the last one glowing faint gold. Only the arm is in frame, no face."
+  "tattoo": "Extreme close-up of the inner side of a brown-skinned forearm resting horizontally across the frame, an orange jacket sleeve pushed up at the elbow, a neat row of five small indigo geometric tattoo symbols along the forearm, the fifth symbol glowing gold, wet city street after rain blurred behind. Only the forearm, no face, no hand gestures."
  },
  "shots": {
   "0": {
@@ -206,6 +206,9 @@
    ]
   },
   "23": {
+   "plate": "province"
+  },
+  "24": {
    "char": "usman_look",
    "plate": "paris",
    "x": 0.6,
@@ -217,10 +220,10 @@
     0.9
    ]
   },
-  "25": {
+  "26": {
    "plate": "room"
   },
-  "26": {
+  "27": {
    "char": "agoncillo_write",
    "plate": "room",
    "x": 0.4,
@@ -232,24 +235,12 @@
     1.03
    ]
   },
-  "27": {
+  "28": {
    "char": "agoncillo_stand",
    "plate": "paris",
    "x": 0.6,
    "y": 0.4,
    "s": 0.65,
-   "tint": [
-    1.06,
-    0.98,
-    0.9
-   ]
-  },
-  "29": {
-   "char": "indio_whisper",
-   "plate": "paris",
-   "x": 0.5,
-   "y": 0.3,
-   "s": 0.6,
    "tint": [
     1.06,
     0.98,
@@ -303,6 +294,18 @@
     0.9
    ]
   },
+  "37": {
+   "char": "indio_whisper",
+   "plate": "paris",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.6,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
   "39": {
    "full": "coins"
   },
@@ -324,23 +327,20 @@
    "s": 0.6
   },
   "47": {
-   "char": "woman_four",
+   "char": "woman_five",
    "plate": "street",
    "x": 0.8,
    "y": 0.4,
    "s": 0.55
   },
   "48": {
-   "plate": "street"
-  },
-  "49": {
    "char": "indio_point",
    "plate": "street",
    "x": 0.5,
    "y": 0.5,
    "s": 0.6
   },
-  "51": {
+  "50": {
    "char": "indio_cheer",
    "plate": "street",
    "x": 0.3,

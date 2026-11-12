@@ -145,45 +145,44 @@
 },
 "23": {
 "fx": [
+"sparkle"
+],
+"move": "pull_out"
+},
+"24": {
+"fx": [
 "spray",
 "punch"
 ],
 "move": "push_in"
 },
-"24": {
+"25": {
 "fx": [
 "spray"
 ],
 "move": "pan_left",
-"key": 23
+"key": 24
 },
-"25": {
+"26": {
 "fx": [],
 "move": "push_in"
 },
-"26": {
+"27": {
 "fx": [
 "punch"
 ],
 "move": "push_in"
 },
-"27": {
+"28": {
 "fx": [
 "spray"
 ],
 "move": "tilt_up"
 },
-"28": {
+"29": {
 "fx": [],
 "move": "pull_out",
-"key": 26
-},
-"29": {
-"fx": [
-"spray",
-"flash"
-],
-"move": "push_in"
+"key": 27
 },
 "30": {
 "fx": [
@@ -232,10 +231,10 @@
 },
 "37": {
 "fx": [
-"sparkle"
+"spray",
+"flash"
 ],
-"move": "pull_out",
-"key": 20
+"move": "push_in"
 },
 "38": {
 "fx": [],
@@ -286,7 +285,7 @@
 "spray"
 ],
 "move": "push_in",
-"key": 27
+"key": 28
 },
 "46": {
 "fx": [
@@ -297,31 +296,28 @@
 "47": {
 "fx": [
 "punch",
-"sparkle"
+"sparkle",
+"flash"
 ],
 "move": "push_in"
 },
 "48": {
-"fx": [],
-"move": "pull_out"
-},
-"49": {
 "fx": [
 "punch"
 ],
 "move": "push_in"
 },
-"50": {
+"49": {
 "fx": [
 "punch"
 ],
 "move": "push_in",
 "keys": [
 18,
-27
+28
 ]
 },
-"51": {
+"50": {
 "fx": [
 "sparkle",
 "aura_gold",

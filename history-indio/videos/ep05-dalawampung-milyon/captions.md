@@ -1,8 +1,8 @@
-# Captions — Episode 4: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
+# Captions — Episode 5: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 
 ## Facebook (Reels)
-EPISODE 4: Ayaw na sanang tumalon ni Indio. Pero may nag-ipit ng bente pesos sa tabi ng isang marker sa San Juan, at pagdilat niya, Paris na, Disyembre 1898. ❄️💵
-Noong Disyembre 10, 1898, pumirma ang Espanya at Amerika: isinuko ang Pilipinas, kapalit ng $20 milyon. Walang Pilipino sa mesa. Si Felipe Agoncillo, sugo ni Aguinaldo, hindi pinasali sa kahit isang pulong, at nagprotesta makalipas ang dalawang araw.
+EPISODE 5: Ayaw na sanang tumalon ni Indio. Pero may nag-ipit ng bente pesos sa tabi ng isang marker sa San Juan, at pagdilat niya, Paris na, Disyembre 1898. ❄️💵
+Noong Disyembre 10, 1898, pumirma ang Espanya at Amerika: isinuko ang Pilipinas, kapalit ng $20 milyon. Walang Pilipino sa mesa, anim na buwan pa lang mula nang ideklara ang kalayaan sa Kawit. Si Felipe Agoncillo, sugo ni Aguinaldo, hindi pinasali sa kahit isang pulong, at nagprotesta makalipas ang dalawang araw.
 Binili ba talaga tayo? 'Yan ang pinagtatalunan.
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
@@ -14,12 +14,12 @@ I-follow ang History Indio para sa susunod na talon!
 
 ## YouTube Shorts
 **Title (pick one, under 100 characters):**
-1. EP 4: Binili Tayo sa Halagang $20 Milyon? 💵 | History Indio #shorts
-2. Treaty of Paris 1898: Walang Pilipino sa Mesa | Time-Travel Series EP 4 #shorts
+1. EP 5: Binili Tayo sa Halagang $20 Milyon? 💵 | History Indio #shorts
+2. Treaty of Paris 1898: Walang Pilipino sa Mesa | Time-Travel Series EP 5 #shorts
 3. Ang Pilipinong Hindi Pinapasok sa Usapan (Paris, 1898) #shorts
 
 **Description:**
-Episode 4 ng time-travel series ng History Indio. Si Indio, delivery rider, sumilong lang sa ulan sa Santuario del Santo Cristo sa San Juan, at napunta sa Paris noong Disyembre 1898, sa gabi ng pirmahan ng Treaty of Paris.
+Episode 5 ng time-travel series ng History Indio. Si Indio, delivery rider, sumilong lang sa ulan sa Santuario del Santo Cristo sa San Juan, at napunta sa Paris noong Disyembre 1898, sa araw ng pirmahan ng Treaty of Paris.
 
 Tiyak: pumirma ang Espanya at Estados Unidos noong Disyembre 10, 1898; isinuko ang Pilipinas at magbabayad ang Amerika ng $20 milyon; walang Pilipinong kasali; si Felipe Agoncillo, sugo ni Aguinaldo, ay hindi pinasali sa mga pulong at nagprotesta noong Disyembre 12; sumiklab ang labanan ng Pilipino at Amerikano noong Pebrero 4, 1899, at inaprubahan ng Senado ng Amerika ang kasunduan noong Pebrero 6, lamang ng isang boto.
 Pinagtatalunan: kung "bentahan" nga ba ito. May nagsasabing bayad lang ang $20 milyon sa mga gusali at pagawaing-bayan.
@@ -35,12 +35,12 @@ Mag-subscribe para sa susunod na talon.
 **Tags:** treaty of paris 1898, kasunduan sa paris, 20 milyon dolyar, binili ang pilipinas, felipe agoncillo, aguinaldo, spanish american war, philippine american war, december 10 1898, san juan, santuario del santo cristo, kasaysayan ng pilipinas, philippine history, time travel, history indio, indio at usman, tagalog explainer, pinoy anime, kasaysayan, araling panlipunan
 
 ## TikTok
-EP 4 ❄️ Ayaw na sanang tumalon ni Indio, pero napunta pa rin sa Paris, 1898. $20 milyon ang nasa papel, at walang Pilipino sa mesa. Binili ba tayo, o ipinamigay nang hindi tinatanong?
+EP 5 ❄️ Ayaw na sanang tumalon ni Indio, pero napunta pa rin sa Paris, 1898. $20 milyon ang nasa papel, at walang Pilipino sa mesa. Binili ba tayo, o ipinamigay nang hindi tinatanong?
 
 #historyindio #treatyofparis #felipeagoncillo #kasaysayan #philippinehistory #timetravel #pinoyanime #alaminnatin #aralingpanlipunan #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
-Episode 4: mula sa bente pesos sa San Juan, hanggang sa $20 milyon sa Paris, 1898. ❄️💵 Walang Pilipino sa mesa, at ang sugo natin, hindi pinasali sa usapan.
+Episode 5: mula sa bente pesos sa San Juan, hanggang sa $20 milyon sa Paris, 1898. ❄️💵 Walang Pilipino sa mesa, at ang sugo natin, hindi pinasali sa usapan.
 Binili ba tayo, o ipinamigay nang hindi tinatanong? 👇
 
 #historyindio #treatyofparis1898 #felipeagoncillo #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #filipinohistory #kasaysayan #aralingpanlipunan

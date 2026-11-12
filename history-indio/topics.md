@@ -4,7 +4,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [x] Ang Kanyon na Gawa sa Banig (Cinco de Noviembre, Negros 1898) — `videos/kanyon-na-banig`
 - [ ] Ang Batas na Hindi Naman Totoo (Code of Kalantiaw hoax, exposed by W.H. Scott, 1968) — in progress: `videos/kodigo-ni-kalantiaw` (script and keyframes done; voice pending)
 - [ ] Ang Unang Umikot sa Mundo, Alipin? (Enrique of Malacca — disputed)
-- [ ] Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
+- [ ] Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898) — taken as series Episode 5
 - [ ] Ang Pintor na Bumaril (Juan Luna, Paris 1892)
 - [ ] Nang Sakupin ng British ang Maynila (1762–1764) — taken as series Episode 2
 - [x] Ang Piratang Muntik Nang Maging Hari ng Maynila (Limahong, 1574) — `videos/limahong-1574`
@@ -17,7 +17,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Episode 2: British sa Maynila (1762) — Baluarte de San Diego, Intramuros — in progress: `videos/ep02-british-sa-maynila` (script, facts, captions done; keyframes are NVIDIA drafts; voice pending)
 - [ ] Episode 3: Ang Sabi ni Lola (Indio's back story; Kawit, 12 June 1898) — in progress: `videos/ep03-ang-sabi-ni-lola` (script, facts, captions, NVIDIA draft frames; voice pending)
 - [ ] Episode 4: Ang Aso ni Pepe (Usman's back story; Calamba, June 1869) — in progress: `videos/ep04-ang-aso-ni-pepe` (script, facts, captions, NVIDIA draft frames; voice pending)
-- [ ] Episode 5: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, Dec 1898) — being made in session "History Indio – Episode 4" (`videos/ep05-dalawampung-milyon`)
+- [ ] Episode 5: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 10 Dec 1898) — marker: Agoncillo graves, Santuario del Santo Cristo, San Juan — in progress: `videos/ep05-dalawampung-milyon` (script, facts, captions, shots, NVIDIA draft frames; voice pending)
 - [ ] Episode 6: Nanakaw ang medalyon: ang babaeng nagbabantay (M) ang kukuha; nilinlang lang pala niya si Indio (history event to be chosen)
 - [ ] Episode 7: Walang medalyon: hinahabol ni Indio si M (history event to be chosen; proposed)
 - [ ] Episode 8: Chapter 1 finale: nabawi o naipasa ang medalyon; cliffhanger papuntang Chapter 2 (proposed)
