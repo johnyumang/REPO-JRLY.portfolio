@@ -66,3 +66,8 @@ Save tokens and effort: do NOT animate every shot. Most shots stay as painted st
 - Web pages could not be opened directly from the session (DNS); facts rest on search summaries cross-checked across pages (see `facts.md`).
 - Episode 2 `keys/` is not committed (100 MB of composites): rebuild it any time with `/opt/vc/bin/python pipeline/make_keys.py videos/ep02-british-sa-maynila` (uses the committed `plates/ chars/ full/`; no credits spent). `keyframes_sheet.jpg` shows the current drafts. NVIDIA limits met: prompts over 800 characters are refused; it cannot draw pancit on a bilao or Indio and Usman together reliably; teal clothes clash with the green key (rider jacket is orange).
 - To upgrade with Figma after credits reset: generate the character with the full prompt from `key_prompts.json` (ask for a flat bright green background), save it as `chars/<name>.png`, delete the `.jpg`, re-run make_keys. Priority: indio_shock (needs the bilao of pancit), indio_usman, usman_*, indio_* faces.
+
+## Usman rule (user correction, 2026-11-12) — overrides anything above
+- Usman is NOT in the real world. He appears only while Indio is time travelling and is gone when Indio returns. No Usman in modern-day lines or frames.
+- Episode 3 is Usman's back story (replaces the Treaty of Paris slot; later topics shift one episode).
+- Episode 2 script and frames were fixed to follow this. **Episode 1 still breaks it** (Indio meets him as a street dog in Quezon City, shares bread, and names him back in QC): the Episode 1 session needs to rework those lines and frames, pending the user's say on how.

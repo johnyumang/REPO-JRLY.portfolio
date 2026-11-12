@@ -70,7 +70,9 @@
 },
 "11": {
 "fx": [
-"sparkle"
+"flash",
+"sparkle",
+"aura_gold"
 ],
 "move": "push_in"
 },
@@ -313,7 +315,7 @@
 "move": "pull_out",
 "keys": [
 47,
-6,
+26,
 47
 ]
 }

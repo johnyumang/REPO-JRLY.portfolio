@@ -1,5 +1,5 @@
 {
- "_note": "Episode 2 keyframes. Shot rules: close-ups, one plate per location, characters on white then composited (pipeline/make_keys.py). plates/siege.png is from Figma; the rest are NVIDIA FLUX.2 klein drafts to be upgraded with Figma when credits reset.",
+ "_note": "Episode 2 keyframes. Shot rules: close-ups, one plate per location, characters on white then composited (pipeline/make_keys.py). plates/siege.png is from Figma; the rest are NVIDIA FLUX.2 klein drafts to be upgraded with Figma when credits reset. Usman exists only inside a time jump: never draw him in modern-day shots.",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
  "plates": {
@@ -81,11 +81,7 @@
    "blur": 4
   },
   "6": {
-   "char": "usman_look",
-   "plate": "baluarte",
-   "x": 0.2,
-   "y": 0.8,
-   "s": 0.6
+   "plate": "baluarte"
   },
   "7": {
    "char": "indio_phone",
@@ -113,10 +109,15 @@
   },
   "11": {
    "char": "usman_deadpan",
-   "plate": "baluarte",
+   "plate": "siege",
    "x": 0.5,
    "y": 0.9,
-   "s": 0.55
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
   },
   "12": {
    "char": "indio_duck",
