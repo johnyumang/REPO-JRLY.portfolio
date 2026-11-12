@@ -1,7 +1,7 @@
 {
  "_note": "Episode 2 keyframes. Shot rules: close-ups, one plate per location, characters on white then composited (pipeline/make_keys.py). plates/siege.png is from Figma; the rest are NVIDIA FLUX.2 klein drafts to be upgraded with Figma when credits reset.",
- "style": "Modern Japanese TV anime key frame: crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, detailed. ",
- "white": "Single character only, isolated on a plain pure white background, no scenery, no ground shadow, head-and-shoulders close-up portrait: ",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
  "plates": {
   "street": "a Manila street outside the old stone walls of Intramuros in the afternoon, a parked motorcycle with a square insulated delivery box on the back, acacia trees, a stone gate in the distance, warm afternoon sunlight.",
   "baluarte": "the ruins of an old Spanish colonial stone bastion in Intramuros Manila today, thick weathered grey-brown volcanic stone walls and circular stone ruins, green lawn and tropical garden, a small blank stone plaque on a pedestal, golden late-afternoon light, long shadows.",
@@ -302,5 +302,6 @@
    "y": 0.4,
    "s": 0.7
   }
- }
+ },
+ "bg": "green"
 }
