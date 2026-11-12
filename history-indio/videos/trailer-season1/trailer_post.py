@@ -16,6 +16,9 @@ the file) or given with --hit <seconds from the start of the file>.
 The final mix is mastered to -16 LUFS integrated, true peak under -1 dBTP (4x oversampled limiter), stereo.
 usage (from history-indio/): python videos/trailer-season1/trailer_post.py <built.mp4> <voice.mp3> <out.mp4>
           [--timings voice_timings.json] [--hold 2.5] [--music file] [--hit 40.43] [--credit "text"]
+          [--music-db 6] [--end-lift 0]
+  --music-db: how many dB the music sits under the voice (default 6; the user found 6 far too loud for the brass
+  "Bayan Ko" cut, which uses 16). --end-lift: dB added back after the last spoken line, for the end card.
   --timings: sentence timings of the voice (default timings.json beside this script; keep a cloned voice's timings
   OUT of the repo and pass them here).
 Light: one ffmpeg re-encode of a ~40 s 1080x1920 video (the CPU worker runs it after the build)."""
@@ -27,6 +30,7 @@ LABEL = 'Kathang-isip sina Indio at Usman; totoo ang kasaysayan.'
 a = sys.argv[1:]; built, voice, out = [os.path.abspath(x) for x in a[:3]]
 opt = lambda k, d=None: a[a.index(k) + 1] if k in a else d
 hold = float(opt('--hold', 2.5)); music = opt('--music'); credit = opt('--credit'); hit_arg = opt('--hit')
+MUSIC_DB = float(opt('--music-db', 6.0)); LIFT_DB = float(opt('--end-lift', 0.0))   # music level under the voice (dB); lift after the last line (dB)
 TARGET_LUFS, TP_MAX, DUCK_DB, RAMP = -16.0, -1.0, 8.0, 0.4
 tim = json.load(open(os.path.abspath(opt('--timings', os.path.join(HERE, 'timings.json'))))); FX = json.load(open(os.path.join(HERE, 'shots_fx.json')))
 
@@ -71,13 +75,15 @@ else:
     mu = np.stack([mo, mo], 1); place = 'built-in march (make_march.py) on the real timings'
 cuts = [sh[2] for k, sh in enumerate(shots[1:], 1) if sh[0] not in quiet and shots[k - 1][0] not in quiet]
 fx = soundtrack.sfx(dur, cuts, [])[:n]; fx = np.pad(fx, (0, n - len(fx)))
-rv = soundtrack.gated_rms(v); mu *= 0.5 * rv / soundtrack.gated_rms(mu.mean(1)); fx *= 0.5 * rv / soundtrack.gated_rms(fx)
+rv = soundtrack.gated_rms(v); mu *= 10 ** (-MUSIC_DB / 20) * rv / soundtrack.gated_rms(mu.mean(1)); fx *= 0.5 * rv / soundtrack.gated_rms(fx)
 # duck the music a further 8 dB under the quiet lines (0.4 s ramps, fully down from the first word to the last)
 g = np.zeros(n, np.float32); tt = np.arange(n) / SR
 for i in sorted(quiet):
     s0, s1 = tim[i]['start'], tim[i]['end']
     g = np.maximum(g, np.clip(np.minimum((tt - (s0 - RAMP)) / RAMP, ((s1 + RAMP) - tt) / RAMP), 0, 1).astype(np.float32))
 duck = 10 ** (-DUCK_DB * g / 20); mu *= duck[:, None]
+if LIFT_DB:                                                                # bring the music up for the end card, after the last spoken line
+    ge = np.clip((tt - tim[-1]['end']) / 0.6, 0, 1).astype(np.float32); mu *= (10 ** (LIFT_DB * ge / 20))[:, None]
 pk = 0.7 * np.abs(v).max(); fx = np.clip(fx, -pk, pk)
 mix = v[:, None] + mu + fx[:, None]
 
