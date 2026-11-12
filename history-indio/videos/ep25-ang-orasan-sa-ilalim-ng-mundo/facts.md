@@ -1,4 +1,4 @@
-# Facts — Episode 25 (Season 3 Episode 5): Ang Orasan sa Ilalim ng Mundo (draft from research, 2026-11-12; sentence numbers to be added with the script)
+# Facts — Episode 25 (Season 3 Episode 5): Ang Orasan sa Ilalim ng Mundo (checked 2026-11-12; script version 1 from story version 2)
 
 **What is true here is a history of an idea, not a place.** "Agartha" was invented in France in 1873 and put underground in 1886. It is not from Himalayan tradition. The yeti is Himalayan folklore; the samples tested were bears and a dog.
 
@@ -24,3 +24,9 @@
 - Say "isang ideyang inimbento sa Europa noong 1870s". Do not say only "teorya".
 
 **Fiction (labelled):** the stone door, the yeti's words and the pact, the people in the cave and their sun, the clock and its vision, the stopped breaths, the needle of light, Tala's trail, Bea's role.
+
+## Where each claim is spoken (script version 1, 723 words, 63 sentences)
+- G1: sentences 7 (BEA) and 50. G2: 8 (BEA) and 50. G4: 9 (BEA). Not from Himalayan tradition: 6 (BEA) and 51. G3 and G5 are not spoken.
+- Y1: 15 (M) and 52. Y5: 52. Y4: 53 ("mga oso at isang aso pala"). Y2 and Y3 are not spoken.
+- The fiction label is at sentence 54. "Vril" is not spoken, and the episode uses no Nordic, "Aryan" or black-sun imagery.
+- Usman appears only inside the portal (sentence 11 on) and vanishes on the way out (55). Bea's call is in the present with no dog.
