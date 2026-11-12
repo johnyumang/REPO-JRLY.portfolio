@@ -12,4 +12,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Ang Higanteng Pumipigil sa Dalawang Bundok (Bernardo Carpio — legend)
 - [ ] Ang Tribong "Stone Age" na Baka Palabas Lang (Tasaday, 1971 — disputed)
 
+## Time-travel series (Indio + Usman; see HANDOFF.md series bible)
+- [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (script done; keyframes and voice pending)
+
 When fewer than three are left, research and add ten more (mix eras, regions, myths; no living people).
