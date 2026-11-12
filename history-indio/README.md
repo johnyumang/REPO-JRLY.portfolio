@@ -35,6 +35,10 @@ see the indio-voice skill.
 ## Anime workflow (current house style)
 The channel now uses an anime look with real movement. Use `videos/limahong-1574/` as the template.
 1. Pick the first unchecked topic in `topics.md`; research; write `facts.md`.
+**Format (from the video after Kodigo ni Kalantiaw):** time-travel eyewitness story. The host, Indio, narrates in
+first person as he jumps between eras and witnesses the events himself. Right after the hook he says: "Ako 'to si Indio.
+Samahan mo akong mag-time travel, at tuklasin ang history natin." (this replaces "Mga ka-Indio, tsaa time."). Show Indio
+inside the keyframes as a witness. The fairness beat stays: Indio says what is proven, disputed or legend.
 2. Write `script.txt` (330–380 spoken words, one tone tag at sentence starts, hook in sentence one, a fairness
    beat, a closing question, and a final in-character follow line such as "At mag-follow na kayo, guys, para sa
    dagdag lakas ko laban sa ...!"). Run `python3 pipeline/make_sentences.py videos/<slug>/script.txt videos/<slug>/sentences.json`.
