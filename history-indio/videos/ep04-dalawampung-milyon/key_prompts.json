@@ -1,0 +1,359 @@
+{
+ "_note": "Episode 4 keyframes (Treaty of Paris, 10 Dec 1898). Shot rules: close-ups, one plate per location, characters on flat green then composited (pipeline/make_keys.py). All NVIDIA FLUX.2 klein drafts; upgrade with Figma by saving the same name as .png. Usman only in the Paris shots, never in San Juan. Real people (commissioners, Agoncillo) are generic figures, not likenesses. Indio's tattoos are hidden under the coat in Paris; the tattoo frame shows four.",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "plates": {
+  "street": "a wet city street in Manila today just after rain, the stone gate and facade of a Catholic church on one side, puddles reflecting grey sky, a parked motorcycle with a square insulated delivery box, power lines, acacia tree, soft overcast light.",
+  "church": "the quiet interior side aisle of a Catholic church in Manila today on a rainy afternoon, cream walls, marble floor, wooden pews, a white marble tomb slab set in the wall with a small dark bronze plaque showing only illegible lines, votive candles, grey rain light from tall windows.",
+  "paris": "a Paris street on a freezing December night in 1898, tall cream stone buildings with wrought-iron balconies, glowing gas street lamps, light snow on the cobblestones, one row of tall brightly lit windows on one large ornate building, deep blue night sky.",
+  "salon": "an ornate gilded French salon hall at night in 1898, crystal chandeliers, tall mirrors, red velvet curtains, a very long table covered in green cloth with papers, inkwells and pens, empty carved chairs, warm golden lamp light.",
+  "room": "a small modest Paris hotel room at night in 1898, a plain wooden desk with an oil lamp, stacks of papers and an inkwell, a narrow bed, a window showing snow falling over rooftops, warm lamp glow against cold blue shadows.",
+  "manila": "the old stone walls and gate of Manila by the bay in 1898, grey steel warships with funnels anchored offshore, palm trees, hazy tropical afternoon light.",
+  "province": "a Philippine provincial town in 1898 at sunrise, nipa and bamboo houses, coconut palms, green rice fields, a dirt road, distant blue mountain, golden morning light."
+ },
+ "chars": {
+  "indio_shock": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, eyes wide in shock, mouth open, leaning forward, one hand gripping a small crumpled orange paper bill, warm golden light on his face.",
+  "indio_cold": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, shivering, hugging himself with both arms, shoulders raised, teeth clenched, a puff of white breath, snowflakes on his hair, cold blue light.",
+  "indio_listen": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, leaning sideways with one hand cupped behind his ear, listening hard, one eyebrow raised, curious eyes, warm light from one side.",
+  "indio_count": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, counting on the fingers of one raised hand, frowning in concentration, lips moving, warm light from one side.",
+  "indio_sad": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, shoulders dropped, looking down with a quiet hurt expression, snowflakes falling, cold blue light.",
+  "indio_whisper": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, leaning toward the viewer with one finger raised and a sly knowing half-smile, one eyebrow raised, cold blue rim light.",
+  "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, looking up thoughtfully with a hand on his chin, calm serious expression, cold blue rim light.",
+  "indio_tired": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, wet hair, tired half-closed eyes, sighing with shoulders slumped, a motorcycle helmet under one arm, rain drops on his jacket, he is alone, no dog, no animals.",
+  "indio_refuse": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, arms crossed, lips pressed tightly shut, giving a wary side glance, stubborn expression, he is alone, no dog, no animals.",
+  "indio_bill": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, holding a small orange paper bill close to his face with both hands, squinting as he reads it, mouth slightly open, he is alone, no dog, no animals.",
+  "indio_fooled": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, deadpan annoyed face, one palm pressed to his forehead, golden glow rising from the medallion on his chest, he is alone, no dog, no animals.",
+  "indio_stare": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, standing still, staring straight ahead with surprised wide eyes, mouth slightly open, he is alone, no dog, no animals.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, pointing straight at the viewer with an excited open smile, he is alone, no dog, no animals.",
+  "indio_cheer": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, grinning and holding up a small orange paper bill between two fingers, a motorcycle helmet under the other arm, he is alone, no dog, no animals.",
+  "usman_bonjour": "Close-up portrait of a real dog: a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, a little snow on his head, looking up at the viewer with a smug relaxed face, tongue slightly out, cold blue light.",
+  "usman_look": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, standing alert, head turned sharply to one side, ears up, staring at something far away, a little snow on his back, close-up, cold blue light.",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes, close-up of his face, cold blue rim light.",
+  "americans": "two American diplomats of 1898, men about sixty, one with a grey moustache and one with a grey beard, black frock coats, white wing collars, sitting upright side by side, confident stern expressions, one holding a steel pen, warm golden lamp light.",
+  "spaniards": "two Spanish diplomats of 1898, men about sixty-five, one with a full white beard, black frock coats with a small red ribbon on the lapel, sitting side by side with tired defeated expressions, eyes lowered, warm golden lamp light.",
+  "agoncillo_write": "a Filipino lawyer of 1898, about forty, brown skin, neatly combed black hair, black moustache, black wool suit with a high white collar and dark necktie, sitting and writing a letter with a pen, head slightly bowed, determined sorrowful eyes, warm oil lamp light from below.",
+  "agoncillo_stand": "a Filipino lawyer of 1898, about forty, brown skin, neatly combed black hair, black moustache, black wool suit with a high white collar and dark necktie, wearing a dark overcoat, standing outdoors holding a leather folder of papers against his chest, dignified, jaw set, looking up, snowflakes falling, cold blue light.",
+  "us_soldier": "an American soldier of 1898, about twenty-five, khaki campaign hat with a wide brim, dark blue wool shirt, canvas cartridge belt across the chest, stern watchful expression, hazy afternoon light.",
+  "fighters": "two Filipino revolutionary soldiers of 1898, brown skin, straw hats, blue and white striped cotton uniforms, determined proud faces looking forward, shoulder to shoulder, warm sunrise rim light.",
+  "woman": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, a faint knowing smile, looking straight at the viewer, soft overcast light.",
+  "woman_four": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, raising her free hand to show four fingers, a faint knowing smile, looking straight at the viewer, soft overcast light."
+ },
+ "full": {
+  "intro": "A swirling golden time portal of clock gears and glowing light fills the whole background. In front of it, waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck, smiling calmly with arms crossed, and next to him a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Golden rim light.",
+  "medallion": "extreme close-up of a brown hand holding an old round bronze medallion engraved with a sun and a triangle on a worn cord, the medallion glowing bright gold with sparks and light rays, dark background.",
+  "marker": "close-up of a small dark bronze memorial plaque on a white marble church wall, the plaque showing only rows of illegible scribbled lines, two lit votive candles and white flowers below it, grey rain light. No people.",
+  "bill": "extreme close-up of a brown hand in an orange jacket sleeve holding a small folded orange paper bill with blue handwritten scribbles on it, a blurred church interior behind.",
+  "skyline": "the rooftops of Paris on a snowy December night in 1898, the iron Eiffel Tower in the distance, chimneys with smoke, glowing gas lamps, falling snow, deep blue sky with a pale moon. No people.",
+  "treaty": "extreme close-up of an elderly hand in a black sleeve and white cuff signing a large parchment with a steel pen on a green cloth table, red wax seals and ribbons, the writing only illegible scribbles, golden lamp light, gilded room blurred behind.",
+  "money": "extreme close-up of tall stacks of gold coins and a leather money satchel on a green cloth table, a hand in a black sleeve pushing the coins across the table toward another waiting hand, golden lamp light.",
+  "map": "extreme close-up of an antique paper map of a tropical island archipelago lying on a green cloth table, one hand in a black sleeve sliding the map across to another hand, golden lamp light, the map labels only illegible scribbles.",
+  "war": "a wooden bridge over a river at night in the tropics in 1899, bright orange flashes on both banks, thick smoke drifting, palm tree silhouettes, stars, dramatic. No people visible.",
+  "senate": "a large nineteenth-century assembly hall seen from the back, rows of curved wooden desks, many men in dark suits seen from behind with some raising a hand to vote, tall columns, daylight from a glass ceiling.",
+  "coins": "extreme close-up of an open brown palm holding exactly two large silver dollar coins, cold blue night light, snowy street blurred behind.",
+  "tattoo": "Close-up of a brown-skinned forearm held up in front of a wet city street after rain, orange jacket sleeve pushed up to the elbow, four small indigo geometric tattoos in a row on the forearm, the last one glowing faint gold. Only the arm is in frame, no face."
+ },
+ "shots": {
+  "0": {
+   "char": "indio_shock",
+   "plate": "salon",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.7,
+   "blur": 5,
+   "tint": [
+    0.93,
+    0.98,
+    1.03
+   ]
+  },
+  "1": {
+   "full": "intro"
+  },
+  "3": {
+   "char": "indio_tired",
+   "plate": "street",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "4": {
+   "plate": "church"
+  },
+  "5": {
+   "full": "marker"
+  },
+  "6": {
+   "char": "indio_refuse",
+   "plate": "church",
+   "x": 0.6,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "7": {
+   "full": "bill"
+  },
+  "8": {
+   "char": "indio_bill",
+   "plate": "church",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "10": {
+   "full": "medallion"
+  },
+  "11": {
+   "char": "indio_fooled",
+   "plate": "church",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "12": {
+   "char": "indio_cold",
+   "plate": "paris",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.7,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "13": {
+   "full": "skyline"
+  },
+  "14": {
+   "char": "usman_bonjour",
+   "plate": "paris",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "15": {
+   "char": "indio_listen",
+   "plate": "paris",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.6,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "16": {
+   "plate": "salon"
+  },
+  "17": {
+   "char": "americans",
+   "plate": "salon",
+   "x": 0.2,
+   "y": 0.4,
+   "s": 0.65,
+   "tint": [
+    0.93,
+    0.98,
+    1.03
+   ]
+  },
+  "18": {
+   "full": "treaty"
+  },
+  "19": {
+   "char": "spaniards",
+   "plate": "salon",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.65,
+   "tint": [
+    0.93,
+    0.98,
+    1.03
+   ]
+  },
+  "20": {
+   "full": "money"
+  },
+  "21": {
+   "char": "indio_count",
+   "plate": "paris",
+   "x": 0.7,
+   "y": 0.5,
+   "s": 0.6,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "22": {
+   "char": "indio_sad",
+   "plate": "paris",
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.65,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "23": {
+   "char": "usman_look",
+   "plate": "paris",
+   "x": 0.6,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "25": {
+   "plate": "room"
+  },
+  "26": {
+   "char": "agoncillo_write",
+   "plate": "room",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7,
+   "tint": [
+    0.93,
+    0.98,
+    1.03
+   ]
+  },
+  "27": {
+   "char": "agoncillo_stand",
+   "plate": "paris",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "29": {
+   "char": "indio_whisper",
+   "plate": "paris",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.6,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "30": {
+   "full": "map"
+  },
+  "31": {
+   "char": "us_soldier",
+   "plate": "manila",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "32": {
+   "char": "fighters",
+   "plate": "province",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "33": {
+   "full": "war"
+  },
+  "34": {
+   "full": "senate"
+  },
+  "35": {
+   "char": "usman_growl",
+   "plate": "paris",
+   "x": 0.4,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "36": {
+   "char": "indio_think",
+   "plate": "paris",
+   "x": 0.2,
+   "y": 0.4,
+   "s": 0.65,
+   "tint": [
+    1.06,
+    0.98,
+    0.9
+   ]
+  },
+  "39": {
+   "full": "coins"
+  },
+  "42": {
+   "char": "indio_stare",
+   "plate": "street",
+   "x": 0.2,
+   "y": 0.5,
+   "s": 0.65
+  },
+  "43": {
+   "full": "tattoo"
+  },
+  "46": {
+   "char": "woman",
+   "plate": "street",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "47": {
+   "char": "woman_four",
+   "plate": "street",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.55
+  },
+  "48": {
+   "plate": "street"
+  },
+  "49": {
+   "char": "indio_point",
+   "plate": "street",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "51": {
+   "char": "indio_cheer",
+   "plate": "street",
+   "x": 0.3,
+   "y": 0.4,
+   "s": 0.7
+  }
+ },
+ "bg": "green",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a long dark grey wool overcoat with the collar turned up and a cream knitted scarf, a round bronze medallion on a cord around his neck": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, long dark grey wool overcoat with collar up, cream scarf, round bronze medallion necklace",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist": "a lean young Filipino man, brown skin, black hair in a small topknot, orange windbreaker jacket over a white polo shirt, round bronze medallion necklace",
+  "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck": "a black short-haired Philippine street dog with a white chest patch, one folded ear, bright clever eyes, red kerchief on his neck",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ }
+}

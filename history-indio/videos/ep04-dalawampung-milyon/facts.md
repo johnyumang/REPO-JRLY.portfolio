@@ -1,0 +1,33 @@
+# Facts — Episode 4: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 10 December 1898) (checked 2026-11-12)
+
+**Fiction, on purpose:** Indio, his delivery job, the ₱20 bill with "M"'s handwriting, the medallion, the time jump, the talking dog, the fourth tattoo and the woman with the red umbrella are invented. Indio "overhearing" the number and looking through a window is invented; nobody in the episode speaks to, touches or is influenced by him, and no real person is given a quoted line. Usman's "bonjour, tol" is a joke line by a fictional dog. Captions say so.
+
+**How this was checked:** pages could not be opened directly from this session, so every row rests on web-search summaries of the listed pages, cross-checked between at least two of them. Re-open the links before quoting anything word for word.
+
+**Shape (must differ from Episodes 1–3):** arrival = he refuses to jump and is tricked into it (reads M's handwriting on a ₱20 bill, which is a copy of the marker); connection = a number he overhears ("bente milyones", matching the bente in his hand); twist = he was looking at the wrong window: the person who matters was never in the room (Agoncillo), and Spain signed away what it barely held.
+
+| Claim in the script | Status | Sources |
+|---|---|---|
+| Treaty of Paris signed by Spain and the United States in Paris on 10 December 1898 | confirmed | https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) , https://www.britannica.com/event/Treaty-of-Paris-1898 , https://history.state.gov/historicaldocuments/frus1898/d712a |
+| Spain ceded the Philippines (Article III); the US was to pay Spain $20,000,000 within three months of the exchange of ratifications | confirmed (treaty text) | https://www.chanrobles.com/treatyofparis.htm , https://www.govinfo.gov/link/statute/30/1754 , https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) |
+| Americans on one side of the table, Spaniards on the other | confirmed in substance: two commissions (William R. Day led the US side, Eugenio Montero Ríos the Spanish side). The room, the table and the seating are drawn generically | https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) , https://usa.inquirer.net/140586/december-1898-spanish-american-war-formally-over |
+| No Filipino took part or signed | confirmed | https://en.wikipedia.org/wiki/Felipe_Agoncillo , https://www.batangashistory.date/2018/03/felipe.html |
+| Felipe Agoncillo was a lawyer sent by Aguinaldo as envoy; he went to Paris and was not admitted to any session | confirmed (one page says "barred", another "never invited"; script says "hindi pinasali") | https://en.wikipedia.org/wiki/Felipe_Agoncillo , https://www.batangashistory.date/2018/03/felipe.html , https://usa.inquirer.net/159158/felipe-agoncillos-diplomatic-mission-in-the-us |
+| Two days after the signing (12 December 1898) Agoncillo filed a protest | confirmed; addressed to both commissions. How they responded was not found, so the script says nothing about it | https://www.batangashistory.date/2018/06/protest.html , https://en.wikipedia.org/wiki/Felipe_Agoncillo |
+| By then the Americans held Manila and Filipino forces held a large part of the country; Spain held very little ("halos hindi na nila hawak") | confirmed for Manila (US) and the country around it (Filipino forces). How much Spain still held was NOT found in the pages searched; from general knowledge some Spanish garrisons remained (e.g. Iloilo, Baler), which is why the script says "halos" and "malaking bahagi", not "lahat" | https://history.state.gov/milestones/1899-1913/war , https://www.britannica.com/event/Philippine-American-War |
+| Fighting between Filipinos and Americans broke out on 4 February 1899 ("Pebrero 1899") | confirmed | https://www.britannica.com/event/Philippine-American-War , https://en.wikipedia.org/wiki/Timeline_of_the_Philippine%E2%80%93American_War |
+| Two days later (6 February 1899) the US Senate approved the treaty, one vote more than the two-thirds needed | confirmed: 57–27, needed 56. One page prints 52–27 (treated as a typo) | https://share.constitutioncenter.org/blog/the-day-when-america-moved-toward-becoming-a-global-power , https://www.pbs.org/crucible/tl17.html , https://en.wikipedia.org/wiki/Treaty_of_Paris_(1898) |
+| "Bentahan ba talaga?" is argued | disputed, and said so: the treaty says Spain "cedes" and the US "will pay"; Britannica says the $20 million was nominally for public buildings and public works; other writers call it a sale/purchase | https://www.britannica.com/event/Treaty-of-Paris-1898 , https://opinion.inquirer.net/137553/sold-like-slaves-2-per-head |
+| "Dalawang dolyar kada ulo" is only arithmetic on an estimated population | popular line; it assumes about 10 million people. No reliable 1898 count was found (a claimed 1898 census of 7.8 million is itself disputed), so the script calls it "kuwenta lang" | https://opinion.inquirer.net/137553/sold-like-slaves-2-per-head , https://en.wikipedia.org/wiki/Felipe_Agoncillo (search summaries) |
+| A marker for the resting place of Felipe and Marcela Agoncillo is inside the Santuario del Santo Cristo, San Juan, Metro Manila | thin: two Wikimedia Commons photo descriptions (National Historical Institute marker, 1982; a 2024 photo of the graves) and a list entry. Not checked against the NHCP registry. The script never quotes the marker | https://commons.wikimedia.org/wiki/File:Felipe_Agoncillo_at_Marcela_Mari%C3%B1o_Agoncillo_NHI_historical_marker.jpg , https://en.wikipedia.org/wiki/Historical_markers_of_the_Philippines |
+
+## Could not verify (kept out of the script or hedged)
+- The marker's exact wording and where exactly it stands inside the church; whether the public can walk up to it. If the user knows the place, the two church lines can be adjusted.
+- The building and room of the signing (commonly given as the French foreign ministry on the Quai d'Orsay: not confirmed in the pages searched), and the hour (one period newspaper headline says about 8 in the evening). The script names neither; the pictures show night, which is a guess.
+- The full list of the ten commissioners.
+- Whether anyone actually said "veinte millones" aloud at the signing: Indio overhearing it is fiction.
+- Where Agoncillo stayed in Paris and what he was doing on the night of 10 December. The shot of him writing alone stands for his protest of 12 December.
+- How much territory Spain still held in December 1898 (see table).
+- The 1898 population, and the "ten million Malays at $2 a head" remark often attributed to US Speaker Thomas B. Reed: no source found, so it is not in the script.
+- Winter weather in Paris that day (snow in the drawings is decoration).
+- Looks: all real people are generic anime figures, not likenesses; uniforms are approximate.
