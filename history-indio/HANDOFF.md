@@ -41,7 +41,7 @@ The user wants frame-by-frame anime motion, not animated stills. Tried so far:
 
 ## Other open items
 - Limahong end card should say "LABAN SA MGA PIRATA!"; its last eight shots reuse frames.
-- Daily routine `History Indio daily episode` (trig_013S2RKFoJnajV9psukW9qQZ, 00:20 UTC, fresh session, model claude-opus-5-5) prepares the next series episode from `SERIES.md`. Created without the Figma connector or a repo source attached (the tool could not pass them); the user has to add both in the claude.ai routines UI or runs will do text work only.
+- PAUSED by the user on 2026-11-12 ("manual muna"): daily routine `History Indio daily episode` (trig_013S2RKFoJnajV9psukW9qQZ, 00:20 UTC, fresh session, model claude-opus-5-5) prepares the next series episode from `SERIES.md`. Created without the Figma connector or a repo source attached (the tool could not pass them); the user has to add both in the claude.ai routines UI or runs will do text work only.
 - Hourly routine `History Indio hourly video` (trig_017Q375Zo6SavwfxqnvaybYB) is paused.
 - YouTube auto-upload needs the Claude desktop app's built-in browser; not connected to cloud sessions.
 
