@@ -46,7 +46,7 @@ def prep3d(im, dep, blur_px):
     wd = 0.04; a = np.clip((d - th + wd) / (2 * wd), 0, 1); a = a * a * (3 - 2 * a)          # soft on depth ramps, crisp at depth jumps
     a = np.clip((_guided(gray, a, 7, 1e-4) - 0.35) / 0.3, 0, 1); a = a * a * (3 - 2 * a)     # matte snapped to colour edges, then made crisp
     a[a < 0.03] = 0                                                                          # (half-transparent edges would double when the layers separate)
-    kc = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (w // 40) + 1,) * 2)              # close gaps between arm and body etc.: they move with the figure
+    kc = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (w // 28) + 1,) * 2)              # close gaps between arm and body etc.: they move with the figure
     a = np.maximum(a, cv2.GaussianBlur(cv2.morphologyEx(a, cv2.MORPH_CLOSE, kc), (0, 0), 2))
     frac = float(a.mean())
     if frac < 0.015 or frac > 0.9: return None                                               # nothing separates from the rest
@@ -66,8 +66,8 @@ def prep3d(im, dep, blur_px):
     my_ = np.clip(2 * by - YY, 0, h - 1); mx_ = np.clip(2 * bx - XX, 0, w - 1)
     bad = hole[my_, mx_]; my_ = np.where(bad, by, my_); mx_ = np.where(bad, bx, mx_)
     fill = im[my_, mx_].astype(np.float32)
-    deep = np.clip(bd / (w / 25), 0, 1)[..., None]                                          # crisp near the edge, calmer deeper in
-    fill = cv2.GaussianBlur(fill, (0, 0), 1.2 + w / 700) * (1 - deep) + cv2.GaussianBlur(fill, (0, 0), w / 160) * deep
+    deep = np.clip(bd / (w / 12), 0, 1)[..., None]                                          # crisp near the edge, calmer deeper in
+    fill = cv2.GaussianBlur(fill, (0, 0), 0.8) * (1 - deep) + cv2.GaussianBlur(fill, (0, 0), w / 160) * deep
     bg = np.where(hole[..., None], fill, im.astype(np.float32))
     # displacement depth per layer: smooth inside each layer so faces, text and props move rigidly (no rubber warping)
     dfg = _normconv(d, a, w / 22); dfg = dfg[ny, nx] * (1 - a) + dfg * a                     # constant outside the figure: silhouette stays intact
@@ -94,10 +94,10 @@ def camera(move, e):
         c.update(z=1.07 + 0.05 * p, k=0.30 * p, fov=-0.035 * p, piv='far')                   # near grows faster than far; field of view widens a touch
     elif move in ('orbit_left', 'orbit_right'):
         sgn = 1 if move == 'orbit_left' else -1
-        c.update(z=1.10, tx=0.075 * sgn * u, key=0.022 * sgn * u)                              # near and far slide in opposite directions around the subject
+        c.update(z=1.10, tx=0.062 * sgn * u, key=0.02 * sgn * u)                              # near and far slide in opposite directions around the subject
     elif move in ('crane_up', 'crane_down'):
         sgn = 1 if move == 'crane_up' else -1
-        c.update(z=1.10 + 0.02 * e, ty=0.060 * sgn * u, py=-0.22 * sgn * u, key=0.0)           # vertical arc: near drops, far rises, the frame tilts
+        c.update(z=1.10 + 0.02 * e, ty=0.046 * sgn * u, py=-0.22 * sgn * u, key=0.0)           # vertical arc: near drops, far rises, the frame tilts
         c['tilt'] = 0.025 * sgn * u
     elif move == 'rack_focus':
         c.update(z=1.07 + 0.03 * e, tx=0.012 * u)
