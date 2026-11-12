@@ -22,7 +22,7 @@ Episode 4 ng time-travel series ng History Indio. Sinundan ni Indio si Usman sa 
 
 Totoo (ayon sa mga talambuhay niya): may aso si Rizal na Usman at maliit na kabayong si Alipato; tinuruan siyang bumasa ng nanay niya at ikinuwento ang gamu-gamo; umalis siya papuntang Biñan noong Hunyo 1869 kasama si Paciano.
 Pinagdududahan: na siya ang sumulat ng "Sa Aking Mga Kabata" sa edad na walo (walang orihinal na manuskrito; 1906 unang nalathala).
-Kathang-isip: sina Indio at ang nagsasalitang Usman, na iisa ang dalawang Usman, at ang paalam sa tarangkahan.
+Kathang-isip: sina Indio at ang nagsasalitang Usman, na iisa ang dalawang Usman, ang paalam sa tarangkahan, at na kadugo ni Indio ang pamilya Rizal.
 
 Ano'ng pangalan ng alaga mong laging naghihintay sa'yo? I-comment sa baba.
 Mag-subscribe para sa susunod na talon.
@@ -43,4 +43,4 @@ Ano'ng pangalan ng alaga mong naghihintay sa'yo? 👇
 #historyindio #joserizal #calamba #usman #aspin #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #kasaysayan
 
 ## Pinned comment (any platform)
-Totoo: may aso ang batang Rizal na Usman ang pangalan (ayon sa mga talambuhay niya), at umalis siya papuntang Biñan noong Hunyo 1869. Kathang-isip: sina Indio, ang nagsasalitang Usman, na iisa ang dalawang Usman, at ang paalam sa tarangkahan. Pinagdududahan ng mga historyador kung si Rizal nga ang sumulat ng "Sa Aking Mga Kabata" (Wikipedia; Inquirer, 2011). Ano'ng pangalan ng alaga mo?
+Totoo: may aso ang batang Rizal na Usman ang pangalan (ayon sa mga talambuhay niya), at umalis siya papuntang Biñan noong Hunyo 1869. Kathang-isip: sina Indio, ang nagsasalitang Usman, na iisa ang dalawang Usman, ang paalam sa tarangkahan, at na kadugo ni Indio ang pamilya Rizal. Pinagdududahan ng mga historyador kung si Rizal nga ang sumulat ng "Sa Aking Mga Kabata" (Wikipedia; Inquirer, 2011). Ano'ng pangalan ng alaga mo?

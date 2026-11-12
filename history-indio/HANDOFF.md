@@ -110,3 +110,6 @@ Ep 3 = Indio's back story (`videos/ep03-ang-sabi-ni-lola`: Lola in Kawit; he see
 - The user wants Episode 7 set in Jesus' era and biblically correct "based on the newest Bible". Open with the user: which translation, and which single event Indio witnesses.
 - Rules to keep: only events and words that are in the Gospels, each with chapter and verse in facts.md; say where the four Gospels differ; no invented dialogue for Jesus or any biblical person; Indio and Usman only watch from the crowd; modern translations are copyrighted, so paraphrase and cite verses instead of quoting long passages; label Indio, Usman and M as fiction as usual.
 - As Episode 9 it comes after the Chapter 1 finale, so how Indio travels depends on how Episode 8 ends.
+
+## Indio and Rizal (user reminder, 2026-11-12)
+Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's text: "apo, kadugo natin ang batang 'yan." Handling (Claude's recommendation, to keep it honest): Indio descends from the wider Mercado-Rizal family (Rizal had many siblings with descendants), NOT from a secret child of Rizal, and never through a named real woman. Always labelled fiction in captions and the pinned comment. Episode 3's ancestor in Kawit (the medallion keeper) can be from that same family.
