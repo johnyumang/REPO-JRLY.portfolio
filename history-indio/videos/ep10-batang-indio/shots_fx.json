@@ -1,0 +1,219 @@
+{
+"0": {
+"fx": [
+"punch",
+"flash"
+],
+"move": "push_in",
+"keys": [
+0,
+24,
+19
+]
+},
+"1": {
+"fx": [],
+"move": "push_in"
+},
+"2": {
+"fx": [],
+"move": "push_in"
+},
+"3": {
+"fx": [],
+"move": "pull_out",
+"key": 2
+},
+"4": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"5": {
+"fx": [],
+"move": "pan_right"
+},
+"6": {
+"fx": [
+"aura_gold"
+],
+"move": "push_in"
+},
+"7": {
+"fx": [],
+"move": "push_in"
+},
+"8": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"9": {
+"fx": [],
+"move": "push_in"
+},
+"10": {
+"fx": [],
+"move": "tilt_up"
+},
+"11": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"12": {
+"fx": [],
+"move": "push_in"
+},
+"13": {
+"fx": [],
+"move": "push_in"
+},
+"14": {
+"fx": [],
+"move": "push_in",
+"keys": [
+14,
+50
+]
+},
+"15": {
+"fx": [
+"punch"
+],
+"move": "push_in",
+"key": 0
+},
+"16": {
+"fx": [],
+"move": "push_in"
+},
+"17": {
+"fx": [],
+"move": "push_in"
+},
+"18": {
+"fx": [],
+"move": "push_in",
+"keys": [
+51,
+18
+]
+},
+"19": {
+"fx": [
+"shake"
+],
+"move": "push_in",
+"keys": [
+19,
+52,
+54
+]
+},
+"20": {
+"fx": [],
+"move": "pan_right"
+},
+"21": {
+"fx": [],
+"move": "push_in"
+},
+"22": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"23": {
+"fx": [],
+"move": "push_in"
+},
+"24": {
+"fx": [
+"aura_red"
+],
+"move": "push_in"
+},
+"25": {
+"fx": [],
+"move": "push_in"
+},
+"26": {
+"fx": [],
+"move": "push_in"
+},
+"27": {
+"fx": [],
+"move": "push_in"
+},
+"28": {
+"fx": [],
+"move": "push_in",
+"keys": [
+17,
+28
+]
+},
+"29": {
+"fx": [],
+"move": "push_in",
+"keys": [
+10,
+13,
+25
+]
+},
+"30": {
+"fx": [],
+"move": "pull_out"
+},
+"31": {
+"fx": [
+"aura_gold"
+],
+"move": "push_in"
+},
+"32": {
+"fx": [
+"aura_gold",
+"flash",
+"shake"
+],
+"move": "push_in",
+"keys": [
+32,
+53
+]
+},
+"33": {
+"fx": [
+"sparkle"
+],
+"move": "pull_out"
+},
+"34": {
+"fx": [],
+"move": "push_in"
+},
+"35": {
+"fx": [],
+"move": "push_in",
+"key": 9
+},
+"36": {
+"fx": [
+"sparkle",
+"aura_gold",
+"punch"
+],
+"move": "push_in",
+"keys": [
+36,
+6
+]
+}
+}
