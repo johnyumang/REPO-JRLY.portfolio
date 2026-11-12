@@ -35,6 +35,11 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 ## Look decision (user, 2026-11-12)
 The user saw the Blender cel-shaded renders and did not like them. They want to STAY with the painted Figma anime still quality (videos/limahong-1574/keys/). Do not use the Blender host clips in videos; the four Limahong clips were cancelled mid-render. Blender on this machine cannot reach that painted quality. Real movement at that quality needs image-to-video on the stills (Wan 2.2 Space, needs a free Hugging Face token the user has not given).
 
+## Movement on the painted stills (2026-11-12)
+- `pipeline/puppet_demo_k02.py`: local CPU "puppet warp" of one painted still (head tilt, arm lift, breathing, hair/cloth wind, fire, steam, painted blinks, push-in). 10 s renders in about 1 minute and keeps the Figma quality. Limits: small motions only (no walking, turning or new poses), and regions are hand-placed per still. A 10 s sample of k02 was sent to the user; awaiting their verdict.
+- Wan 2.2 image-to-video Space: anonymous quota is exhausted ("exceeded your ZeroGPU runs limit"); needs the user's Hugging Face token saved as a network secret for `upsampler-wan-2-2-14b-image-to-video.hf.space`. The Hugging Face connector (account connected) cannot invoke Spaces in this session.
+- Video-producing sessions (producer, Episode 1, Episode 2) were asked to hold final builds until the movement method is settled.
+
 ## Companion (confirmed by the user, 2026-11-12)
 Usman is an aspin (the name, after Rizal's first dog, still needs verifying). He talks, but only Indio and animals understand him. He can smell when a story is not true AND when there is danger.
 
