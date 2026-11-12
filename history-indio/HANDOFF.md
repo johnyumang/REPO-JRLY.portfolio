@@ -2,6 +2,14 @@
 
 Read this first in a new session. Then read `history-indio/README.md` ("Anime workflow").
 
+## STATE AT HANDOVER (2026-11-12, session stopped by the user to continue in a new session)
+- **Episode 1 `videos/ep01-ang-unang-talon`**: everything is in the repo except the voice and the MP4. `script.txt` / `script_elevenlabs.txt` / `script_plain.txt` are the version the user actually recorded (cool, calm, no slang); `timings.json` is aligned to that recording (140 s, 42 sentences). The render was started and then stopped on the user's request, so NO MP4 exists. To finish: the user re-uploads the Episode 1 MP3 (voice files are never committed), then `bash pipeline/setup.sh` and `/opt/vc/bin/python pipeline/build_anime.py videos/ep01-ang-unang-talon videos/ep01-ang-unang-talon/keys <voice.mp3> <out.mp4>`; timings need no re-alignment if it is the same recording. Then contact sheet check, tick the episode in topics.md, send the MP4, end with captions (`captions.md` is a draft).
+- Episode 1 frames still wrong: 15 (missing; sentences 15, 17, 34 temporarily use key 8), 25 (photo on an 1890s cedula, modern flag), 27 (church and modern flag). Prompts for 15 are in `key_prompts.json`; 25 and 27 need "no photograph, no flag, no church" added. The scheduled redo was cancelled at handover.
+- A "young stunna" slang version of the Episode 1 script exists in git history (commit 78e9dee) if the user records it later; the user wants Indio cool and calm with that slang used sparingly (see SERIES.md).
+- **Kodigo ni Kalantiaw `videos/kodigo-ni-kalantiaw`**: script, 36 keyframes, shots, end card and draft captions done; waiting for the user's MP3; no timings yet.
+- Voice: the ElevenLabs connector refused twice ("Free Tier access has been disabled", unusual activity); the user declined the Fish Audio key form; the Hugging Face connector lists Spaces but invoke is disabled ("gradio=none"). The user generates the voice themselves and uploads it.
+- Figma: about 75 images used on 2026-11-12 (resets 00:00 UTC).
+
 ## What exists
 - Channel: History Indio (Tagalog/Taglish history and myth explainers, vertical, ~3 min). Branch: `claude/eager-davinci-9qu2gg`. Repo is PUBLIC: never commit MP4s or voice files.
 - Finished videos: `kanyon-na-banig` (komiks look), `bakunawa-pitong-buwan` and `limahong-1574` (anime look, user's ElevenLabs voice). Captions are in each folder's `captions.md`.
