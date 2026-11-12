@@ -1,0 +1,19 @@
+{
+  "note": "Musketeers firing from the palisade: front soldier breathing + helmet nod, pirates' heads, royal flag and jolly roger in wind, gun smoke, sea shimmer, ship and boat bob",
+  "camera": {"zoom": [1.0, 1.06], "focus": [420, 620]},
+  "effects": [
+    {"fx": "breath", "ellipse": [200, 1060, 220, 150]},
+    {"fx": "turn", "mask": {"ellipse": [225, 745, 165, 135], "soft": 40}, "pivot": [250, 905], "sway": 0.6, "speed": 1.3, "gesture": 2, "at": [0.3, 0.4, 0.55, 0.7]},
+    {"fx": "turn", "mask": {"ellipse": [625, 558, 42, 38], "soft": 20}, "pivot": [610, 600], "sway": 1.5, "speed": 2.2},
+    {"fx": "turn", "mask": {"ellipse": [690, 730, 40, 45], "soft": 20}, "pivot": [680, 780], "sway": 1.3, "speed": 2.0, "phase": 0.4},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [150, 0], [125, 270], [0, 245]], "soft": 22}, "amp": 4, "wave": 170, "speed": 3.5},
+    {"fx": "wind", "mask": {"ellipse": [650, 88, 26, 24], "soft": 10}, "amp": 2.5, "wave": 60, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [330, 300, 105, 85], "soft": 40}, {"ellipse": [470, 525, 55, 50], "soft": 25}], "amp": 3, "wave": 200, "speed": 1.8, "axis": "y"},
+    {"fx": "steam", "from": [450, 520], "rise": 150, "spread": 70, "size": 60, "strength": 0.4},
+    {"fx": "steam", "from": [350, 370], "rise": 150, "spread": 80, "size": 65, "strength": 0.35},
+    {"fx": "glow", "mask": {"ellipse": [445, 525, 35, 28], "soft": 20}, "amount": 0.08},
+    {"fx": "shimmer", "mask": {"poly": [[435, 288], [630, 282], [720, 300], [720, 345], [440, 330]], "soft": 15}},
+    {"fx": "bob", "mask": {"ellipse": [592, 322, 50, 22], "soft": 14}, "dx": 0, "dy": 2, "speed": 1.6},
+    {"fx": "bob", "mask": {"ellipse": [685, 215, 50, 90], "soft": 25}, "dx": 0, "dy": 1.5, "speed": 1.1}
+  ]
+}

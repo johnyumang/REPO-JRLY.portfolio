@@ -1,0 +1,15 @@
+{
+  "note": "Goiti at the doorway vs charging pirates: head turn, breathing, raised daggers shake, lead pirate head, dust, sunset water, ship bob",
+  "camera": {"zoom": [1.0, 1.07], "focus": [330, 330]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [305, 215, 112, 125], "soft": 35}, "pivot": [300, 325], "sway": 0.9, "speed": 1.2, "gesture": 3, "at": [0.2, 0.32, 0.55, 0.7]},
+    {"fx": "breath", "ellipse": [290, 470, 105, 115]},
+    {"fx": "turn", "mask": {"poly": [[450, 185], [565, 185], [560, 350], [440, 360]], "soft": 22}, "pivot": [480, 365], "sway": 1.3, "speed": 2.6},
+    {"fx": "turn", "mask": {"ellipse": [628, 470, 48, 48], "soft": 22}, "pivot": [640, 535], "sway": 1.4, "speed": 2.1, "phase": 0.3},
+    {"fx": "shimmer", "mask": {"poly": [[395, 250], [695, 250], [695, 298], [395, 298]], "soft": 15}},
+    {"fx": "bob", "mask": {"ellipse": [640, 240, 45, 50], "soft": 20}, "dx": 0, "dy": 1.5, "speed": 1.3},
+    {"fx": "steam", "from": [560, 900], "rise": 220, "spread": 110, "size": 70, "color": [150, 185, 215], "strength": 0.35},
+    {"fx": "steam", "from": [470, 780], "rise": 180, "spread": 80, "size": 60, "color": [150, 185, 215], "strength": 0.3},
+    {"fx": "glow", "mask": {"ellipse": [590, 200, 150, 100], "soft": 70}, "amount": 0.04}
+  ]
+}

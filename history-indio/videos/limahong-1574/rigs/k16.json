@@ -1,0 +1,14 @@
+{
+  "note": "Soldiers on the palisade under storm sky: lead soldier head turn + breathing, second soldier head, burgundy cross flag, drifting clouds, palms, ship bob, water shimmer",
+  "camera": {"zoom": [1.0, 1.06], "focus": [200, 450]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [105, 355, 92, 88], "soft": 32}, "pivot": [120, 440], "sway": 1.0, "speed": 1.2, "gesture": 3, "at": [0.2, 0.32, 0.55, 0.7]},
+    {"fx": "breath", "ellipse": [100, 560, 90, 90]},
+    {"fx": "turn", "mask": {"ellipse": [335, 535, 42, 45], "soft": 20}, "pivot": [330, 590], "sway": 1.1, "speed": 1.7, "phase": 0.4},
+    {"fx": "wind", "mask": {"poly": [[535, 330], [612, 385], [612, 500], [535, 445]], "soft": 15}, "amp": 4, "wave": 110, "speed": 4.5},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [720, 0], [720, 160], [0, 140]], "soft": 50}, "amp": 2.5, "wave": 320, "speed": 1.0},
+    {"fx": "wind", "mask": [{"ellipse": [28, 280, 32, 42], "soft": 15}, {"ellipse": [375, 345, 24, 30], "soft": 12}], "amp": 2.5, "wave": 100, "speed": 3.5},
+    {"fx": "bob", "mask": {"ellipse": [682, 335, 38, 62], "soft": 18}, "dx": 0, "dy": 1.5, "speed": 1.2},
+    {"fx": "shimmer", "mask": {"poly": [[612, 395], [720, 392], [720, 425], [640, 432]], "soft": 10}}
+  ]
+}

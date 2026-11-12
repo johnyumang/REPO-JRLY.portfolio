@@ -1,0 +1,18 @@
+{
+  "note": "Burning house, fallen morion and rapier: flames, drifting smoke, sparks, banner and palms in wind, fire reflections, glow on helmet (no living figure in frame)",
+  "camera": {"zoom": [1.0, 1.06], "focus": [300, 760]},
+  "effects": [
+    {"fx": "flame", "mask": [{"ellipse": [570, 185, 150, 85], "soft": 35}, {"ellipse": [250, 290, 60, 45], "soft": 25}], "amp": 6},
+    {"fx": "flame", "mask": [{"ellipse": [390, 385, 32, 35], "soft": 14}, {"ellipse": [275, 410, 22, 28], "soft": 12}, {"ellipse": [190, 430, 18, 24], "soft": 10},
+                             {"ellipse": [600, 360, 24, 32], "soft": 12}, {"ellipse": [375, 585, 28, 48], "soft": 14}, {"ellipse": [520, 550, 28, 38], "soft": 14},
+                             {"ellipse": [595, 565, 38, 45], "soft": 16}, {"ellipse": [285, 560, 18, 28], "soft": 10}], "amp": 4},
+    {"fx": "wind", "mask": {"ellipse": [320, 130, 120, 85], "soft": 45}, "amp": 3, "wave": 240, "speed": 1.5, "axis": "y"},
+    {"fx": "wind", "mask": {"ellipse": [640, 345, 24, 105], "soft": 14}, "amp": 3, "wave": 120, "speed": 4},
+    {"fx": "wind", "mask": [{"ellipse": [692, 150, 35, 60], "soft": 18}, {"ellipse": [25, 350, 38, 50], "soft": 18}], "amp": 3, "wave": 130, "speed": 3.5},
+    {"fx": "shimmer", "mask": [{"poly": [[250, 745], [720, 745], [720, 835], [250, 835]], "soft": 25}, {"poly": [[300, 1140], [520, 1140], [520, 1205], [300, 1205]], "soft": 20}]},
+    {"fx": "glow", "mask": {"ellipse": [190, 870, 200, 170], "soft": 80}, "amount": 0.06},
+    {"fx": "glow", "mask": {"poly": [[0, 650], [720, 650], [720, 1280], [0, 1280]], "soft": 120}, "amount": 0.035},
+    {"fx": "sparks", "box": [250, 720, 420, 0], "n": 34},
+    {"fx": "steam", "from": [520, 150], "rise": 170, "spread": 120, "size": 90, "color": [40, 40, 45], "strength": 0.3}
+  ]
+}

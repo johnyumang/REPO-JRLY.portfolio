@@ -1,0 +1,15 @@
+{
+  "note": "Sioco close-up: head turn, breathing, blink, headband tail and hair in wind, pirate flags, torches, moonlit sea",
+  "camera": {"zoom": [1.0, 1.07], "focus": [430, 310]},
+  "blink": {"skin": [428, 338], "eyes": [{"c": [408, 292], "r": [20, 9], "tilt": 15}, {"c": [493, 313], "r": [16, 8], "tilt": 15}]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [410, 265, 165, 185], "soft": 45}, "pivot": [400, 445], "sway": 0.9, "speed": 1.2, "gesture": 3, "at": [0.2, 0.32, 0.55, 0.7]},
+    {"fx": "breath", "ellipse": [360, 720, 200, 180]},
+    {"fx": "wind", "mask": {"poly": [[160, 235], [285, 200], [290, 255], [185, 335]], "soft": 18}, "amp": 4, "wave": 110, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [400, 60, 130, 50], "soft": 25}, {"ellipse": [545, 330, 22, 75], "soft": 15}], "amp": 2.2, "wave": 120, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [90, 135, 85, 85], "soft": 30}, {"ellipse": [702, 365, 25, 80], "soft": 15}], "amp": 3, "wave": 180, "speed": 3},
+    {"fx": "shimmer", "mask": {"poly": [[575, 340], [690, 340], [680, 440], [575, 440]], "soft": 20}},
+    {"fx": "flame", "mask": [{"ellipse": [158, 298, 10, 13], "soft": 6}, {"ellipse": [10, 250, 12, 15], "soft": 6}, {"ellipse": [688, 508, 10, 13], "soft": 6}], "amp": 2},
+    {"fx": "glow", "mask": {"ellipse": [60, 290, 130, 90], "soft": 60}, "amount": 0.05}
+  ]
+}

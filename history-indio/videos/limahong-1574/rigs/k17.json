@@ -1,0 +1,23 @@
+{
+  "note": "Hourglass on a dock post, pirate fleet at red sunset: ships bob, flags and sails wind, lanterns flicker, water shimmers, sand trickles, slow push",
+  "camera": {"zoom": [1.0, 1.05], "focus": [330, 560]},
+  "effects": [
+    {"fx": "bob", "mask": {"poly": [[500, 100], [720, 60], [720, 650], [500, 650], [490, 520]], "soft": 40}, "dx": 0, "dy": 2.2, "speed": 1.1},
+    {"fx": "bob", "mask": {"ellipse": [300, 570, 45, 85], "soft": 22}, "dx": 0.6, "dy": 2, "speed": 1.4, "phase": 1.0},
+    {"fx": "bob", "mask": {"ellipse": [440, 550, 48, 100], "soft": 22}, "dx": -0.6, "dy": 2, "speed": 1.25, "phase": 2.2},
+    {"fx": "bob", "mask": {"ellipse": [355, 590, 22, 50], "soft": 14}, "dy": 1.5, "speed": 1.6, "phase": 0.5},
+    {"fx": "wind", "mask": {"poly": [[425, 215], [520, 160], [575, 170], [575, 250], [470, 300], [425, 310]], "soft": 22}, "amp": 4, "wave": 110, "speed": 4},
+    {"fx": "wind", "mask": {"poly": [[505, 60], [600, 25], [680, 20], [680, 70], [560, 110], [505, 110]], "soft": 20}, "amp": 3.5, "wave": 120, "speed": 4, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[0, 180], [62, 170], [62, 235], [0, 245]], "soft": 15}, "amp": 3, "wave": 90, "speed": 4, "phase": 2},
+    {"fx": "wind", "mask": {"poly": [[610, 100], [720, 95], [720, 400], [610, 400]], "soft": 35}, "amp": 1.6, "wave": 260, "speed": 2},
+    {"fx": "wind", "mask": {"poly": [[110, 0], [520, 0], [470, 130], [330, 250], [130, 170]], "soft": 60}, "amp": 1.5, "wave": 320, "speed": 0.8},
+    {"fx": "flame", "mask": [{"ellipse": [690, 50, 16, 26], "soft": 8}, {"ellipse": [575, 195, 12, 22], "soft": 8}, {"ellipse": [72, 208, 9, 18], "soft": 6},
+                             {"ellipse": [621, 446, 11, 20], "soft": 7}, {"ellipse": [710, 420, 11, 20], "soft": 7}, {"ellipse": [512, 468, 9, 16], "soft": 6},
+                             {"ellipse": [497, 490, 8, 15], "soft": 6}, {"ellipse": [10, 296, 9, 16], "soft": 6}, {"ellipse": [125, 298, 8, 14], "soft": 6}], "amp": 2.5},
+    {"fx": "glow", "mask": [{"ellipse": [690, 50, 45, 55], "soft": 30}, {"ellipse": [575, 195, 40, 50], "soft": 30}, {"ellipse": [621, 446, 40, 45], "soft": 28},
+                            {"ellipse": [505, 480, 40, 40], "soft": 28}, {"ellipse": [72, 208, 30, 35], "soft": 22}], "amount": 0.07},
+    {"fx": "glow", "mask": {"ellipse": [400, 430, 120, 90], "soft": 90}, "amount": 0.03},
+    {"fx": "shimmer", "mask": {"poly": [[240, 650], [720, 665], [720, 1000], [540, 960], [330, 930], [300, 800], [240, 780]], "soft": 30}, "amp": 2.5, "speed": 3.5},
+    {"fx": "shimmer", "mask": [{"poly": [[122, 555], [136, 555], [134, 715], [124, 715]], "soft": 5}, {"ellipse": [128, 545, 30, 10], "soft": 8}], "amp": 1.2, "speed": 9}
+  ]
+}

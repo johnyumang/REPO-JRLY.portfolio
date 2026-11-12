@@ -41,6 +41,7 @@ fractions of the shot (0 to 1), so a gesture fits any line length.
 - Small moves only: head turn 3 to 5 degrees, arm gesture 5 to 8 degrees, sway 1 to 2 degrees. Bigger tears the paint.
 - Pivot = the joint (neck base, elbow, shoulder), not the middle of the part.
 - Feather generously (soft 25 to 45) and keep masks off high-contrast background edges.
+- `shimmer` is a sideways ripple, not a glint: it shreds anything solid inside its mask. Subtract hulls, posts and rocks from water masks (`"minus": true`) and keep `amp` about 1.5 to 2.
 - `skin` for blinks = a clean patch of cheek right under an eye. Skip `blink` if eyes are tiny, closed or hidden.
 - Every shot gets at least: one character motion, one ambient motion (wind, water, fire, clouds), and the camera.
 - It cannot do walking, turning around or a new pose. For those, generate a second still and cut.

@@ -1,0 +1,19 @@
+{
+  "note": "Limahong grinning with a bundle on his shoulder while crew load crates: head tilt, breathing, sash, sails, sea",
+  "camera": {"zoom": [1.0, 1.07], "focus": [430, 200]},
+  "blink": {"skin": [418, 142], "eyes": [{"c": [425, 118], "r": [14, 6], "tilt": 15}, {"c": [468, 133], "r": [12, 5], "tilt": 15}]},
+  "effects": [
+    {"fx": "turn", "mask": [{"ellipse": [425, 120, 78, 100], "soft": 30}, {"ellipse": [410, 225, 50, 30], "soft": 22}],
+     "pivot": [410, 235], "sway": 1.2, "speed": 1.3, "gesture": 3.5, "at": [0.2, 0.32, 0.55, 0.7]},
+    {"fx": "breath", "ellipse": [420, 400, 150, 130]},
+    {"fx": "wind", "mask": {"ellipse": [320, 160, 45, 40], "soft": 18}, "amp": 4, "wave": 100, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[470, 540], [540, 560], [590, 740], [520, 760], [480, 640]], "soft": 22}, "amp": 3, "wave": 130, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[190, 0], [345, 0], [330, 60], [190, 130]], "soft": 22}, "amp": 2, "wave": 210, "speed": 2.5},
+    {"fx": "wind", "mask": {"poly": [[500, 0], [590, 0], [590, 110], [510, 100]], "soft": 20}, "amp": 2, "wave": 210, "speed": 2.5},
+    {"fx": "wind", "mask": {"poly": [[250, 830], [330, 800], [300, 1000], [200, 1000]], "soft": 25}, "amp": 2, "wave": 150, "speed": 3},
+    {"fx": "bob", "mask": {"ellipse": [70, 740, 85, 170], "soft": 30}, "dx": 0, "dy": 3, "speed": 2.4},
+    {"fx": "bob", "mask": {"ellipse": [28, 270, 34, 75], "soft": 14}, "dx": 0, "dy": 2, "speed": 1.5},
+    {"fx": "shimmer", "mask": {"poly": [[0, 345], [105, 345], [100, 440], [0, 470]], "soft": 18}, "amp": 2.5},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [160, 0], [160, 110], [0, 110]], "soft": 40}, "amp": 1.5, "wave": 260, "speed": 1.2}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "note": "Limahong on the prow slipping out by moonlight: head, breathing, headband and sash wind, lanterns, moonlit water, fleet bob",
+  "camera": {"zoom": [1.0, 1.06], "focus": [310, 330]},
+  "effects": [
+    {"fx": "turn", "mask": [{"ellipse": [300, 205, 45, 50], "soft": 18}, {"ellipse": [295, 255, 30, 15], "soft": 12}],
+     "pivot": [297, 258], "sway": 1.2, "speed": 1.2, "gesture": 3, "at": [0.3, 0.42, 0.62, 0.78]},
+    {"fx": "breath", "ellipse": [285, 370, 95, 90]},
+    {"fx": "wind", "mask": {"ellipse": [212, 212, 45, 25], "soft": 14}, "amp": 4, "wave": 80, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[270, 440], [320, 440], [330, 600], [290, 610]], "soft": 15}, "amp": 2.5, "wave": 110, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[400, 420], [450, 440], [480, 640], [420, 650]], "soft": 20}, "amp": 2, "wave": 140, "speed": 3},
+    {"fx": "wind", "mask": {"poly": [[140, 0], [310, 0], [330, 130], [150, 140]], "soft": 25}, "amp": 1.8, "wave": 220, "speed": 2.2},
+    {"fx": "wind", "mask": {"ellipse": [512, 487, 30, 15], "soft": 8}, "amp": 3, "wave": 60, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [685, 300, 50, 290], "soft": 28}, {"ellipse": [60, 60, 85, 70], "soft": 28}, {"ellipse": [90, 900, 80, 70], "soft": 25}], "amp": 2.5, "wave": 110, "speed": 3},
+    {"fx": "flame", "mask": [{"ellipse": [320, 670, 20, 28], "soft": 8}, {"ellipse": [525, 775, 10, 14], "soft": 5}, {"ellipse": [565, 828, 7, 9], "soft": 4}], "amp": 2.5},
+    {"fx": "glow", "mask": [{"ellipse": [320, 670, 110, 110], "soft": 60}, {"ellipse": [525, 775, 50, 50], "soft": 30}], "amount": 0.07},
+    {"fx": "bob", "mask": {"ellipse": [520, 810, 75, 115], "soft": 25}, "dx": 0, "dy": 2, "speed": 1.5},
+    {"fx": "shimmer", "mask": {"poly": [[190, 1045], [430, 1005], [455, 945], [615, 905], [640, 1020], [720, 1100], [720, 1280], [0, 1280], [0, 1160]], "soft": 30}, "amp": 3},
+    {"fx": "shimmer", "mask": {"poly": [[545, 650], [655, 650], [640, 740], [575, 700]], "soft": 12}},
+    {"fx": "glow", "mask": {"ellipse": [552, 140, 70, 70], "soft": 40}, "amount": 0.04}
+  ]
+}

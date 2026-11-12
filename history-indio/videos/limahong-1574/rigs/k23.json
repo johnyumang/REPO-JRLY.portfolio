@@ -1,0 +1,23 @@
+{
+  "note": "Native warriors and Spanish soldiers behind the palisade: front warrior head turn, spear steadies, breathing, soldier head sway, flag and hair wind, smoke drift, distant fire, water, ship bob",
+  "camera": {"zoom": [1.0, 1.06], "focus": [250, 430]},
+  "blink": {"skin": [213, 432], "eyes": [{"c": [229, 406], "r": [11, 8], "tilt": 0}]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [165, 410, 125, 115], "soft": 35}, "pivot": [150, 525], "sway": 0.9, "speed": 1.1, "gesture": 2.5, "at": [0.25, 0.4, 0.65, 0.8]},
+    {"fx": "turn", "mask": {"poly": [[30, 685], [300, 790], [480, 862], [690, 985], [682, 1005], [470, 900], [290, 830], [30, 725]], "soft": 10},
+     "pivot": [40, 705], "sway": 0.35, "speed": 1.5, "gesture": 0.9, "at": [0.2, 0.35, 0.6, 0.75]},
+    {"fx": "breath", "ellipse": [120, 640, 110, 90], "amp": 2.2},
+    {"fx": "turn", "mask": {"ellipse": [365, 300, 75, 70], "soft": 25}, "pivot": [365, 375], "sway": 1.1, "speed": 1.4, "phase": 1.5},
+    {"fx": "turn", "mask": {"ellipse": [130, 80, 70, 65], "soft": 25}, "pivot": [120, 150], "sway": 1.0, "speed": 1.2, "phase": 2.6},
+    {"fx": "turn", "mask": {"ellipse": [510, 505, 35, 35], "soft": 14}, "pivot": [510, 540], "sway": 1.2, "speed": 1.6, "phase": 0.6},
+    {"fx": "wind", "mask": {"poly": [[308, 20], [412, 55], [412, 180], [308, 150]], "soft": 15}, "amp": 4, "wave": 110, "speed": 4.5},
+    {"fx": "wind", "mask": {"poly": [[20, 400], [100, 400], [110, 500], [30, 520]], "soft": 22}, "amp": 2, "wave": 80, "speed": 4, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[0, 340], [90, 340], [90, 400], [0, 410]], "soft": 15}, "amp": 2.5, "wave": 70, "speed": 4.5, "phase": 2},
+    {"fx": "wind", "mask": {"poly": [[500, 0], [720, 0], [720, 290], [600, 280], [520, 170]], "soft": 50}, "amp": 2.5, "wave": 300, "speed": 1.0},
+    {"fx": "flame", "mask": {"ellipse": [693, 662, 22, 22], "soft": 10}, "amp": 3},
+    {"fx": "glow", "mask": {"ellipse": [690, 660, 50, 45], "soft": 35}, "amount": 0.07},
+    {"fx": "shimmer", "mask": {"poly": [[612, 700], [720, 695], [720, 790], [612, 790]], "soft": 12}, "amp": 1.5, "speed": 4},
+    {"fx": "bob", "mask": {"ellipse": [672, 738, 42, 35], "soft": 12}, "dy": 1.5, "speed": 1.4},
+    {"fx": "steam", "from": [693, 640], "rise": 130, "spread": 14, "size": 0.5, "color": [45, 42, 48], "strength": 0.45}
+  ]
+}

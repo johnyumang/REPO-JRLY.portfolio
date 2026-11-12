@@ -1,0 +1,20 @@
+{
+  "note": "Conquistador storming the beach, rapier raised: sword arm thrust, head turn, breathing, flag and sash in wind, surf shimmer, soldiers sway, ship bobs",
+  "camera": {"zoom": [1.0, 1.07], "focus": [400, 280]},
+  "effects": [
+    {"fx": "turn", "mask": {"poly": [[10, 170], [140, 20], [185, 0], [225, 0], [160, 190], [250, 250], [330, 290], [335, 390], [220, 370], [50, 345], [10, 300]], "soft": 28},
+     "pivot": [320, 340], "sway": 0.6, "speed": 1.5, "gesture": 5, "at": [0.15, 0.3, 0.55, 0.7]},
+    {"fx": "turn", "mask": [{"ellipse": [420, 215, 120, 120], "soft": 40}, {"ellipse": [415, 320, 60, 40], "soft": 30}],
+     "pivot": [415, 335], "sway": 1.1, "speed": 1.2, "gesture": 3, "at": [0.2, 0.35, 0.6, 0.75]},
+    {"fx": "breath", "ellipse": [385, 460, 130, 110]},
+    {"fx": "wind", "mask": {"poly": [[620, 110], [720, 100], [720, 430], [610, 360]], "soft": 22}, "amp": 4, "wave": 130, "speed": 4},
+    {"fx": "wind", "mask": {"poly": [[130, 600], [250, 550], [330, 560], [300, 640], [200, 760], [120, 740]], "soft": 25}, "amp": 3.5, "wave": 110, "speed": 4.5, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[340, 250], [370, 240], [375, 300], [345, 300]], "soft": 10}, "amp": 2, "wave": 60, "speed": 5},
+    {"fx": "turn", "mask": {"ellipse": [135, 570, 50, 55], "soft": 20}, "pivot": [135, 625], "sway": 1.3, "speed": 1.7, "phase": 1.2},
+    {"fx": "turn", "mask": {"ellipse": [672, 590, 45, 55], "soft": 20}, "pivot": [672, 650], "sway": 1.3, "speed": 1.5, "phase": 2.5},
+    {"fx": "bob", "mask": {"ellipse": [45, 460, 50, 85], "soft": 20}, "dy": 1.8, "speed": 1.4},
+    {"fx": "shimmer", "mask": [{"poly": [[0, 520], [240, 500], [240, 560], [0, 580]], "soft": 15}, {"poly": [[0, 950], [200, 960], [200, 1090], [0, 1080]], "soft": 25},
+                               {"poly": [[330, 930], [720, 840], [720, 980], [470, 1050], [330, 1060]], "soft": 25}], "amp": 2.5, "speed": 5},
+    {"fx": "glow", "mask": {"ellipse": [115, 450, 90, 80], "soft": 70}, "amount": 0.05}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "note": "Spanish Manila at dusk: sentry breathes and shifts, galleons and outrigger bob, flag and palms in wind, bay shimmer, lantern glow",
+  "camera": {"zoom": [1.0, 1.06], "focus": [420, 470]},
+  "effects": [
+    {"fx": "shimmer", "mask": {"poly": [[70, 338], [400, 338], [330, 410], [70, 400]], "soft": 18}, "amp": 2},
+    {"fx": "shimmer", "mask": {"poly": [[200, 770], [470, 780], [520, 900], [640, 960], [640, 1040], [300, 960], [200, 900]], "soft": 30}, "amp": 2},
+    {"fx": "bob", "mask": [{"ellipse": [142, 295, 42, 45], "soft": 20}, {"ellipse": [285, 295, 42, 48], "soft": 20}], "dx": 0, "dy": 3, "speed": 1.2},
+    {"fx": "bob", "mask": {"ellipse": [625, 880, 105, 65], "soft": 30}, "dx": 2, "dy": 3, "speed": 1.5},
+    {"fx": "wind", "mask": {"ellipse": [683, 385, 32, 38], "soft": 12}, "amp": 3, "wave": 60, "speed": 5},
+    {"fx": "wind", "mask": {"ellipse": [625, 870, 35, 40], "soft": 15}, "amp": 2, "wave": 70, "speed": 4},
+    {"fx": "wind", "mask": [{"ellipse": [395, 375, 65, 40], "soft": 22}, {"ellipse": [650, 285, 65, 50], "soft": 22}, {"ellipse": [280, 400, 50, 30], "soft": 20}, {"ellipse": [110, 425, 40, 28], "soft": 18}], "amp": 2.5, "wave": 90, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[230, 1000], [600, 980], [640, 1280], [230, 1280]], "soft": 40}, "amp": 2.5, "wave": 140, "speed": 3},
+    {"fx": "glow", "mask": [{"ellipse": [520, 515, 70, 50], "soft": 35}, {"ellipse": [320, 505, 60, 40], "soft": 30}, {"ellipse": [90, 550, 40, 30], "soft": 25}, {"ellipse": [610, 560, 50, 40], "soft": 25}], "amount": 0.08},
+    {"fx": "turn", "mask": {"ellipse": [105, 690, 62, 48], "soft": 20}, "pivot": [100, 735], "sway": 1.2, "speed": 1.1, "gesture": 3, "at": [0.3, 0.45, 0.7, 0.85]},
+    {"fx": "breath", "ellipse": [85, 830, 85, 100]}
+  ]
+}

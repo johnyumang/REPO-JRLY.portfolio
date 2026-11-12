@@ -1,0 +1,19 @@
+{
+  "note": "Settler family on deck: mother, child, old man and carpenter heads turn, mother blinks, breathing, sail and hair in wind, sea shimmer, hen pecks",
+  "camera": {"zoom": [1.0, 1.07], "focus": [300, 430]},
+  "blink": {"skin": [112, 336], "eyes": [{"c": [94, 314], "r": [8, 7], "tilt": 0}, {"c": [128, 313], "r": [11, 8], "tilt": 0}]},
+  "effects": [
+    {"fx": "shimmer", "mask": [{"poly": [[0, 270], [70, 265], [60, 400], [0, 420]], "soft": 15}, {"poly": [[525, 295], [612, 295], [612, 345], [525, 345]], "soft": 12}], "amp": 1.8},
+    {"fx": "wind", "mask": {"poly": [[340, 0], [640, 0], [625, 260], [335, 275]], "soft": 28}, "amp": 2.5, "wave": 210, "speed": 2.8},
+    {"fx": "turn", "mask": {"ellipse": [135, 320, 85, 85], "soft": 28}, "pivot": [140, 400], "sway": 1.1, "speed": 1.2, "gesture": 3, "at": [0.2, 0.35, 0.65, 0.8]},
+    {"fx": "wind", "mask": [{"ellipse": [88, 285, 28, 30], "soft": 14}, {"ellipse": [200, 275, 25, 28], "soft": 12}], "amp": 2, "wave": 60, "speed": 5},
+    {"fx": "turn", "mask": {"ellipse": [195, 425, 48, 48], "soft": 18}, "pivot": [190, 475], "sway": 1.4, "speed": 1.6, "phase": 1.0},
+    {"fx": "turn", "mask": {"ellipse": [370, 405, 110, 72], "soft": 28}, "pivot": [380, 480], "sway": 1.0, "speed": 1.0, "phase": 2.0},
+    {"fx": "turn", "mask": {"ellipse": [628, 555, 75, 88], "soft": 28}, "pivot": [615, 640], "sway": 1.0, "speed": 1.3, "gesture": -3, "at": [0.4, 0.55, 0.8, 0.92]},
+    {"fx": "breath", "ellipse": [120, 570, 105, 100]},
+    {"fx": "breath", "ellipse": [370, 570, 105, 85], "period": 4.6},
+    {"fx": "breath", "ellipse": [600, 730, 110, 85], "period": 3.6},
+    {"fx": "turn", "mask": {"ellipse": [75, 875, 30, 38], "soft": 10}, "pivot": [65, 925], "sway": 3.5, "speed": 3.2},
+    {"fx": "turn", "mask": {"ellipse": [60, 1135, 32, 40], "soft": 10}, "pivot": [50, 1180], "sway": 3, "speed": 2.6, "phase": 1.5}
+  ]
+}
