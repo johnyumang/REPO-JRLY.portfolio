@@ -1,0 +1,343 @@
+{
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "_note": "Episode 41 (Season 4 finale) keyframes (from Kabanata 41, story version 2). 1935: the Commonwealth inauguration seen from the edge of a huge crowd before a neoclassical building; Quezon only a tiny far figure, no likeness, no words. The new bronze marker and all text are unreadable. The dragon is a mythic red serpent-dragon in storm clouds spewing water; God is never shown; the other light is only light. No real seals, flags of office or logos. Indio is 42. Copied from Episode 13: full intro. Shots follow sentences.json; k90+ are montage extras.",
+ "plates": {},
+ "chars": {},
+ "full": {
+  "arks_line": "wide high-angle shot of a long coastline with rows of giant wooden plank boats moored side by side, numbered boards on each, crowds on the shore, sunny, no readable text.",
+  "dark_noon": "wide shot: the sky over a crowded seaside park turning black at noon, people looking up, a small stage with a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong on it. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "manila_bay41": "aerial shot of Manila Bay on a bright day, a seaside park packed with people, giant wooden arks moored along the shore.",
+  "indio42": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong on a shipyard deck at dawn, calm, a few grey hairs, looking at the finished arks.",
+  "list_board": "close-up of a passenger list posted on a board beside a giant wooden ark's ramp, people checking it, no readable text.",
+  "sea_wait": "wide shot of calm grey sea under a heavy sky, arks waiting at anchor, stillness.",
+  "people_wait": "medium shot of families sitting on bundles beside an ark ramp, waiting quietly, a child holding a number card, no readable text.",
+  "luneta_crowd": "wide shot of a huge crowd gathered in a seaside park, ark captains in simple uniforms in front rows, a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong walking to the stage. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "palm_marker": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong pressing his palm on a bronze marker on the wall of a grand neoclassical building, no readable text.",
+  "leg_1935": "wide high-angle shot of a grand neoclassical building with tall columns in Manila in 1935, a massive crowd filling the plaza and avenue, flags of the era blurred and small, sunny morning.",
+  "crowd_hope": "medium shot of hopeful faces in a 1935 crowd, men in straw hats and white suits, women with parasols, looking toward the steps. Detailed full background, a huge 1935 crowd in hats and white suits before a grand neoclassical building with columns in Manila, sunny morning, no readable text, not a character sheet.",
+  "indio_edge": "seen from behind: a Filipino man with a black topknot and a red headband in 1930s white suit at the far edge of a huge crowd, watching quietly. Detailed full background, a huge 1935 crowd in hats and white suits before a grand neoclassical building with columns in Manila, sunny morning, no readable text, not a character sheet.",
+  "faces_1935": "close-up of the faces of an old farmer and a young girl in a 1935 crowd, eyes shining with hope. Detailed full background, a huge 1935 crowd in hats and white suits before a grand neoclassical building with columns in Manila, sunny morning, no readable text, not a character sheet.",
+  "hope_echo": "wide shot split by light: a 1935 crowd before a columned building on one side, a modern crowd in a seaside park on the other, the same hopeful faces.",
+  "far_oath": "long shot over a sea of hats: on the distant steps of a columned building, a tiny figure in a dark suit raising his right hand, too far to see clearly. Detailed full background, a huge 1935 crowd in hats and white suits before a grand neoclassical building with columns in Manila, sunny morning, no readable text, not a character sheet.",
+  "too_far": "close-up of a Filipino man with a black topknot and a red headband in 1930s clothes cupping his ear, then lowering his hand, the crowd noise around him. Detailed full background, a huge 1935 crowd in hats and white suits before a grand neoclassical building with columns in Manila, sunny morning, no readable text, not a character sheet.",
+  "unveil": "medium shot: shipyard workers pulling a cloth off a new bronze marker at the foot of a stage, a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong surprised, no readable text. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "workers_proud": "medium shot of shipyard workers in sawdust-covered shirts grinning proudly beside a covered marker, arms crossed. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "marker_new": "extreme close-up of a new bronze marker with engraved lines catching the sun, no readable letters.",
+  "judge_bible": "medium shot: an elderly judge in a black robe holding a closed Bible as a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong faces the crowd, no seals.",
+  "read_marker": "low shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong reading aloud from the bronze marker with one hand raised, voice strong. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "holo_reveal": "wide shot: a huge translucent blue-gold hologram rising in the air above the stage in front of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong, the crowd gasping, no readable text. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "twelve": "close-up of twelve small bronze medallions glowing in a ring inside a blue hologram.",
+  "weapons_holo": "medium shot of glowing outlines of a dagger, a bow, a forked-tip sword and a three-part star weapon floating in a hologram, no text.",
+  "trinity_parts": "close-up: a glowing blade and a star in a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong's hands, and the handle in the red umbrella of a woman beside him.",
+  "knowledge_full": "extreme close-up of a glowing bar filling completely to the end, bright gold, no numbers.",
+  "curve_open": "extreme close-up of a curved glowing question-mark shape at the end of a hologram bar unfurling.",
+  "staff_shape": "close-up of the glowing curve becoming the hooked top of a shepherd's staff in the air.",
+  "staff_hand": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong's hands holding an old smooth wooden shepherd's staff, warm light on the wood.",
+  "usman_tears": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief crying softly, looking up at the staff. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "usman_sniff41": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief sniffing the wooden staff and then a man's hand. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "usman_says": "low shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief looking up into a man's eyes, saying something, tears on his fur. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "indio_tear": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong with wet eyes, remembering, holding the staff. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "sky_black": "wide shot of a black sky at noon over a seaside city, birds fleeing, crowds pointing.",
+  "water_wall": "wide deep shot from a seaside park: a wall of water rising on the western horizon higher than any building, the sea pulling back from the shore.",
+  "red_dragon": "low-angle wide shot of a colossal long red scaled dragon in black storm clouds above a wall of water, too big to see whole, mythic, no rider.",
+  "spew_river": "wide shot of a colossal red dragon in storm clouds spewing a torrent of water like a river from its mouth toward the sea.",
+  "m_whisper41": "close-up of a young woman with long straight black hair in a long dark coat, a red umbrella whispering, eyes on the sky, steady. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "hands_hold": "extreme close-up of a woman's hand gripping a man's hand tightly, the hilt of a red umbrella between them.",
+  "sinag_stage": "medium shot: a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely appearing on the stage beside the podium, the crowd seeing him, smiling. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "sinag_kneel": "close-up of a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely pointing down at the stage floor, offering, smiling. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "sinag_kneel2": "over-the-shoulder shot from behind a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong: a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely spreading his hands toward the crowd, persuasive. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "crowd_silent": "high shot of a vast silent crowd looking up at a stage under a black sky, no one moving.",
+  "indio_looks": "wide shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong on the stage turning to look at the crowd, the arks, the staff in his hand. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "no_kneel": "low shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong standing straight with the staff, refusing, wind in his hair. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "saksi41": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong with calm certain eyes. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "usman_howl": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief barking long and loud on the stage, and the smiling man in the pale suit shivering into smoke. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "tubal_back": "medium shot at the back of the crowd: a tall cold man in a dark suit with a bronze ring staring at the staff, not smiling for once. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "to_arks": "low-angle shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong raising the staff and shouting, rings of golden sound spreading over the crowd. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "voice_coasts": "aerial shot of many coasts with giant wooden arks, golden rings of sound reaching each shore, people turning.",
+  "queues": "wide shot of orderly lines of families walking up ramps into giant wooden arks, holding number cards, no pushing, no readable text.",
+  "totoy_ramp": "low-angle shot of a young man of nineteen in a cap lowering the wooden ramp of a giant ark in Butuan, waving people in.",
+  "lola_lead": "medium shot of an old Filipina grandmother with grey hair in a bun leading neighbours up the ramp of an ark, holding a child's hand.",
+  "family_board": "medium shot of a Filipino man in his fifties, a gentle woman and a young woman with snow-white hair in a long black coat boarding an ark, the white-haired one last, looking at the sky.",
+  "other_light": "wide shot of black storm clouds with a red dragon shape, and behind it a growing pure white light breaking through, many small lights with it, no figures.",
+  "indio_clarify41": "medium shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong on the deck of an ark at dusk, speaking calmly to the camera, the staff beside him.",
+  "leg_today": "wide shot of a grand neoclassical building with columns in Manila today, a museum, people on the steps, no readable text.",
+  "crowd_1935_far": "high shot of a vast 1935 crowd filling an avenue before a columned building, sepia-tinted colours.",
+  "bible41": "top-down shot of an old leather-bound Bible open on a wooden table by lamplight, no readable text, reverent.",
+  "shepherd": "wide shot like an old engraving: a young shepherd with a staff watching sheep on a hill at dawn, peaceful, no text.",
+  "indio_label41": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong with honest eyes, the staff in his hand. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "faith_note": "medium shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong placing a hand on his heart, respectful, a closed Bible on a table beside him.",
+  "ark_rise": "wide deep shot of the first giant wooden ark lifting on the first huge wave, people on deck holding on, lanterns swinging.",
+  "flood_begins": "wide shot of a great flood pouring over a seaside city under a black sky, arks rising on the water, the red dragon far above.",
+  "indio_point41": "medium shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong pointing at the viewer from the deck of an ark in the storm. Detailed full background, a huge crowd in a seaside park in Manila under a bright sky, a simple wooden stage, no flags of office, no seals, no readable text, not a character sheet.",
+  "indio_ask41": "close-up of a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong asking the viewer, rain on his face, the staff in his hand.",
+  "indio_follow41": "low shot: a Filipino man of forty-two with a black topknot, a red headband and a few grey hairs, a simple white barong and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief standing at the bow of an ark facing the storm, M beside them.",
+  "bronze_glint": "extreme close-up of sunlight on a bronze marker edge.",
+  "hat_crowd": "close-up of straw hats in a 1935 crowd, sunlight.",
+  "columns": "low-angle shot of tall stone columns of a neoclassical building against a blue sky.",
+  "staff_wood": "extreme close-up of the smooth worn grain of an old wooden staff.",
+  "rain_start": "close-up of the first heavy raindrops hitting a stage floor.",
+  "wave_wall": "low-angle shot of a towering wave about to break, dark green water.",
+  "dragon_eye": "extreme close-up of a huge red reptile eye in storm clouds.",
+  "ramp_feet": "close-up of many feet walking up a wooden ramp, children's sandals.",
+  "lantern_storm": "close-up of a lantern swinging on an ark deck in wind and rain.",
+  "light_break": "wide shot of white light breaking through black clouds.",
+  "umbrella_red": "close-up of a red umbrella held up in the wind.",
+  "arks_rise": "aerial shot of dozens of arks lifting on rising water along a coast.",
+  "holo_gold": "close-up of golden hologram light reflecting in many faces in a crowd.",
+  "intro": "(copied from Episode 13)"
+ },
+ "shots": {
+  "0": {
+   "full": "arks_line"
+  },
+  "1": {
+   "full": "dark_noon"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "manila_bay41"
+  },
+  "4": {
+   "full": "indio42"
+  },
+  "5": {
+   "full": "list_board"
+  },
+  "6": {
+   "full": "sea_wait"
+  },
+  "7": {
+   "full": "people_wait"
+  },
+  "8": {
+   "full": "luneta_crowd"
+  },
+  "9": {
+   "full": "palm_marker"
+  },
+  "10": {
+   "full": "leg_1935"
+  },
+  "11": {
+   "full": "crowd_hope"
+  },
+  "12": {
+   "full": "indio_edge"
+  },
+  "13": {
+   "full": "faces_1935"
+  },
+  "14": {
+   "full": "hope_echo"
+  },
+  "15": {
+   "full": "far_oath"
+  },
+  "16": {
+   "full": "too_far"
+  },
+  "17": {
+   "full": "unveil"
+  },
+  "18": {
+   "full": "workers_proud"
+  },
+  "19": {
+   "full": "marker_new"
+  },
+  "20": {
+   "full": "judge_bible"
+  },
+  "21": {
+   "full": "read_marker"
+  },
+  "22": {
+   "full": "holo_reveal"
+  },
+  "23": {
+   "full": "twelve"
+  },
+  "24": {
+   "full": "weapons_holo"
+  },
+  "25": {
+   "full": "trinity_parts"
+  },
+  "26": {
+   "full": "knowledge_full"
+  },
+  "27": {
+   "full": "curve_open"
+  },
+  "28": {
+   "full": "staff_shape"
+  },
+  "29": {
+   "full": "staff_hand"
+  },
+  "30": {
+   "full": "indio_tear"
+  },
+  "31": {
+   "full": "usman_tears"
+  },
+  "32": {
+   "full": "usman_sniff41"
+  },
+  "33": {
+   "full": "usman_says"
+  },
+  "35": {
+   "full": "sky_black"
+  },
+  "36": {
+   "full": "water_wall"
+  },
+  "37": {
+   "full": "red_dragon"
+  },
+  "38": {
+   "full": "spew_river"
+  },
+  "39": {
+   "full": "m_whisper41"
+  },
+  "40": {
+   "full": "hands_hold"
+  },
+  "41": {
+   "full": "sinag_stage"
+  },
+  "42": {
+   "full": "sinag_kneel"
+  },
+  "43": {
+   "full": "sinag_kneel2"
+  },
+  "44": {
+   "full": "crowd_silent"
+  },
+  "45": {
+   "full": "indio_looks"
+  },
+  "46": {
+   "full": "no_kneel"
+  },
+  "47": {
+   "full": "saksi41"
+  },
+  "48": {
+   "full": "usman_howl"
+  },
+  "49": {
+   "full": "tubal_back"
+  },
+  "50": {
+   "full": "to_arks"
+  },
+  "51": {
+   "full": "voice_coasts"
+  },
+  "52": {
+   "full": "queues"
+  },
+  "53": {
+   "full": "totoy_ramp"
+  },
+  "54": {
+   "full": "lola_lead"
+  },
+  "55": {
+   "full": "family_board"
+  },
+  "56": {
+   "full": "other_light"
+  },
+  "57": {
+   "full": "indio_clarify41"
+  },
+  "58": {
+   "full": "leg_today"
+  },
+  "59": {
+   "full": "crowd_1935_far"
+  },
+  "60": {
+   "full": "bible41"
+  },
+  "61": {
+   "full": "shepherd"
+  },
+  "62": {
+   "full": "indio_label41"
+  },
+  "63": {
+   "full": "faith_note"
+  },
+  "64": {
+   "full": "ark_rise"
+  },
+  "65": {
+   "full": "flood_begins"
+  },
+  "66": {
+   "full": "indio_point41"
+  },
+  "67": {
+   "full": "indio_ask41"
+  },
+  "68": {
+   "full": "indio_follow41"
+  },
+  "90": {
+   "full": "bronze_glint"
+  },
+  "91": {
+   "full": "hat_crowd"
+  },
+  "92": {
+   "full": "columns"
+  },
+  "93": {
+   "full": "staff_wood"
+  },
+  "94": {
+   "full": "rain_start"
+  },
+  "95": {
+   "full": "wave_wall"
+  },
+  "96": {
+   "full": "dragon_eye"
+  },
+  "97": {
+   "full": "ramp_feet"
+  },
+  "98": {
+   "full": "lantern_storm"
+  },
+  "99": {
+   "full": "light_break"
+  },
+  "100": {
+   "full": "umbrella_red"
+  },
+  "101": {
+   "full": "arks_rise"
+  },
+  "102": {
+   "full": "holo_gold"
+  }
+ }
+}
