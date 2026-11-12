@@ -48,8 +48,8 @@
   "speaker": "M"
  },
  {
-  "text": "Ang una kong sakay, ang lumang bisikleta ni Lolo; ngayon, segunda-manong motor na may sidecar.",
-  "say": "ang una kong sakay, ang lumang bisikleta ni lolo; ngayon, segunda-manong motor na may saydkar.",
+  "text": "Ang sakay ko: segunda-manong motor na may sidecar, hulugan pa.",
+  "say": "ang sakay ko: segunda-manong motor na may saydkar, hulugan pa.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3,
@@ -112,9 +112,17 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa Butuan, bumili ako ng bagong pickup, tapos jet ski, tapos isa pang motor.",
-  "say": "sa butuan, bumili ako ng bagong pikap, tapos jet ski, tapos isa pang motor.",
+  "text": "Sa Butuan, bumili ako ng pickup at jet ski.",
+  "say": "sa butuan, bumili ako ng pikap at jet ski.",
   "style": "excited",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pati relong mas malaki pa sa pulso ko, bagong damit, at tig-isang phone sa bawat kamay.",
+  "say": "pati relong mas malaki pa sa pulso ko, bagong damit, at tig-isang pon sa bawat kamay.",
+  "style": "playful",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"

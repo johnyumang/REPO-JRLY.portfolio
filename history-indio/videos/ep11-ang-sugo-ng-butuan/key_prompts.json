@@ -91,7 +91,6 @@
   "notebook_laguna": "close-up of a small worn notebook open, golden ink drawing itself: a thin copper plate and the mouth of a river opening into a wide lake, no readable text.",
   "indio_question_phone": "medium shot of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist leaning toward the viewer with his phone in one hand and an open palm in the other, asking a question, city night. Present-day Philippines, detailed background, no dog, no animals.",
   "pool_moon": "low shot across a calm deep pool at night reflecting a full moon, long strands of moss drifting on the surface, mangrove roots framing the view, deep perspective, nothing modern.",
-  "lolo_bike": "low close shot of an old rusty black bicycle with a worn leather seat leaning on a wooden house wall, morning light, nostalgic. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
   "moto_sidecar": "wide shot on a coastal highway: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist riding an old second-hand motorcycle with a small sidecar, the sidecar empty with a red kerchief tied to its rail, a young woman in a long dark coat riding behind him, long road to the horizon. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
   "surigao_push": "high-angle wide shot at a busy ferry port: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pushing an old motorcycle with an empty sidecar, sweating, a big roll-on roll-off ferry behind, sea. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
   "pickup_buy": "wide comic shot in front of a car dealership: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist grinning beside a shiny new pickup truck, a jet ski on a trailer behind it and another new motorcycle, a salesman bowing. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
@@ -100,7 +99,9 @@
   "lamp_mangrove": "among tall mangrove roots at night, low-angle shot: a young Filipino man with a red headband and a plain beige tunic with a red sash raising a small burning clay lamp, startled birds frozen on the branches, warm light. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
   "shadow_water": "high-angle shot of dark river water under moonlight with the shadow of a tall man in a wide hat moving across it, and nobody standing above it, eerie. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
   "usman_ears": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, ears flat back, eyes wide, frightened, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "usman_leap": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, leaping out of a swirling burst of golden light, barking happily, ears flying, motion."
+  "usman_leap": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, leaping out of a swirling burst of golden light, barking happily, ears flying, motion.",
+  "moto_old": "low shot in a small second-hand motorcycle shop: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist patting the seat of an old dented motorcycle with a small sidecar, a red kerchief tied to the sidecar rail, the seller counting a thin stack of instalment papers. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
+  "bling": "inside a busy shopping mall in Butuan, detailed full background with shops and lights: a lean young Filipino man with a black topknot in flashy new clothes, a huge gold watch sliding down his thin wrist, a new phone in each hand, shopping bags at his feet, comic grin. Not a character sheet, no dog."
  },
  "shots": {
   "0": {
@@ -122,7 +123,7 @@
    "full": "m_cafe"
   },
   "6": {
-   "full": "lolo_bike"
+   "full": "moto_old"
   },
   "7": {
    "full": "moto_sidecar"
@@ -149,158 +150,161 @@
    "full": "pickup_buy"
   },
   "15": {
-   "full": "stranger_photo"
+   "full": "bling"
   },
   "16": {
-   "full": "museum_boat"
+   "full": "stranger_photo"
   },
   "17": {
-   "full": "shrine_portal"
+   "full": "museum_boat"
   },
   "18": {
-   "full": "usman_leap"
+   "full": "shrine_portal"
   },
   "19": {
-   "full": "m_points_port"
+   "full": "usman_leap"
   },
   "20": {
-   "full": "balangay_close"
+   "full": "m_points_port"
   },
   "21": {
-   "full": "boats_row"
+   "full": "balangay_close"
   },
   "22": {
-   "full": "ships_ready"
+   "full": "boats_row"
   },
   "23": {
-   "full": "envoy_court"
+   "full": "ships_ready"
   },
   "24": {
-   "full": "gold_tablet"
+   "full": "envoy_court"
   },
   "25": {
-   "full": "indio_watch_dock"
+   "full": "gold_tablet"
   },
   "26": {
-   "full": "lens_trail"
+   "full": "indio_watch_dock"
   },
   "27": {
-   "full": "usman_sniff_mud"
+   "full": "lens_trail"
   },
   "28": {
-   "full": "m_slip_catch"
+   "full": "usman_sniff_mud"
   },
   "29": {
-   "full": "usman_paw_eyes"
+   "full": "m_slip_catch"
   },
   "30": {
-   "full": "deep_pool"
+   "full": "usman_paw_eyes"
   },
   "31": {
-   "full": "medallion_reveal"
+   "full": "deep_pool"
   },
   "32": {
-   "full": "finger_touch"
+   "full": "medallion_reveal"
   },
   "33": {
-   "full": "kiling_light"
+   "full": "finger_touch"
   },
   "34": {
-   "full": "yumud_emerge"
+   "full": "kiling_light"
   },
   "35": {
+   "full": "yumud_emerge"
+  },
+  "36": {
    "char": "usman_growl",
    "plate": "mangrove_night",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "36": {
+  "37": {
    "full": "indio_eyes_glyphs"
   },
-  "37": {
+  "38": {
    "full": "yumud_eyes"
   },
-  "38": {
+  "39": {
    "full": "yumud_still"
   },
-  "39": {
+  "40": {
    "full": "nakita_kita"
   },
-  "40": {
+  "41": {
    "full": "yumud_bow"
   },
-  "41": {
+  "42": {
    "full": "sandugo_seal"
   },
-  "42": {
+  "43": {
    "full": "m_finger"
   },
-  "43": {
+  "44": {
    "full": "hide_boat"
   },
-  "44": {
+  "45": {
    "full": "kiling_palm"
   },
-  "45": {
+  "46": {
    "full": "indio_realize"
   },
-  "46": {
+  "47": {
    "full": "lamp_mangrove"
   },
-  "47": {
+  "48": {
    "full": "shadow_water"
   },
-  "48": {
+  "49": {
    "full": "usman_ears"
   },
-  "49": {
+  "50": {
    "full": "hologram_open"
   },
-  "50": {
+  "51": {
    "full": "holo_marks"
   },
-  "51": {
+  "52": {
    "full": "holo_gear"
   },
-  "52": {
+  "53": {
    "full": "holo_kakampi"
   },
-  "53": {
+  "54": {
    "full": "holo_sign"
   },
-  "54": {
+  "55": {
    "full": "usman_tilt"
   },
-  "55": {
+  "56": {
    "full": "indio_unsure"
   },
-  "56": {
+  "57": {
    "full": "m_holo"
   },
-  "62": {
+  "63": {
    "full": "dawn_three"
   },
-  "63": {
+  "64": {
    "full": "return_light"
   },
-  "64": {
+  "65": {
    "full": "notebook_laguna"
   },
-  "65": {
+  "66": {
    "full": "m_ominous"
   },
-  "66": {
+  "67": {
    "char": "indio_point_modern",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.45,
    "s": 0.65
   },
-  "67": {
+  "68": {
    "full": "indio_question_phone"
   },
-  "68": {
+  "69": {
    "full": "walk_city"
   },
   "90": {
