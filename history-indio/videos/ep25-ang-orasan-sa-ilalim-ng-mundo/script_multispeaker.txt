@@ -1,5 +1,5 @@
 # MASTER script (Season 3 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording), BEA (Indio's Grade 5 classmate of Episode 10, now a news writer: quick, exact; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), MATANDA (an old woman of the cave people: slow, pale-voiced; designed voice; fiction). The yeti's words are reported by Indio. Real people (Jacolliot, Saint-Yves) are only spoken about.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), BEA (Indio's Grade 5 classmate of Episode 10, now a news writer: quick, exact; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), LOLA_AGARTHA (NEW VOICE NEEDED: an old woman of the cave people: slow, pale-voiced; designed voice; fiction). The yeti's words are reported by Indio. Real people (Jacolliot, Saint-Yves) are only spoken about.
 
 INDIO: [dramatic] Sa kuweba sa ilalim ng niyebe, hinawakan ko ang isang orasan, at nakita ko ang Kawit na lubog sa baha.
 INDIO: [warm] Ako 'to si Indio.
@@ -30,11 +30,11 @@ INDIO: [curious] Sa hologram: Mga Kakampi, ang yeti, hindi nilalamig, at kayang 
 
 INDIO: [suspense] Sa loob, hindi lungsod ng ginto, kundi malawak na kuweba, may maliit na araw na hindi naman araw.
 INDIO: [somber] Mga taong maputla, matagal nang hindi lumalabas.
-MATANDA: [somber] Nagtago kami rito noong unang gunaw, at hindi na kami lumabas.
+LOLA_AGARTHA: [somber] Nagtago kami rito noong unang gunaw, at hindi na kami lumabas.
 INDIO: [sad] Walang batang tumatakbo, walang tumatawa.
 INDIO: [serious] Ang aral: ang nagtatago sa baha ay ligtas, pero hindi na nabubuhay.
 INDIO: [curious] Sa gitna, isang orasan: bilog na batong may labindalawang marka, at karayom na gawa sa liwanag.
-MATANDA: [whisper] Ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.
+LOLA_AGARTHA: [whisper] Ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.
 INDIO: [suspense] Hinawakan ko ito.
 INDIO: [sad] Ang bahay ni Lola Ising sa Kawit, hanggang bintana ang tubig, at si Lola sa bubong.
 INDIO: [somber] Isang karatula ng proyektong laban sa baha, may pirma, may halaga, at walang pader.

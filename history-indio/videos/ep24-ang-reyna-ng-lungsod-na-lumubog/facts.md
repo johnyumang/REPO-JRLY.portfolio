@@ -24,6 +24,6 @@
 **Fiction (labelled):** the portal, the queen, Sinag, the cup and the bed, the net on the kraken, the pact, Ma'am Celia's video call, and everything Indio, M and Usman do there.
 
 ## Where each claim is spoken (script version 1, 760 words, 65 sentences)
-- A1: sentences 6 (CELIA) and 52. A2: 7 (CELIA, "Sabi sa kuwento ... daw"). A4: 12–14 (the rings, walls of brass, tin and orichalcum, the temple). A5: 32–33. A6: 34. A7: 35. A8: 8 (CELIA) and 53. A9: 55 ("Ignatius Donnelly"). Inspiration debated (Thera): 54. A10 (kraken): 39 (M) and 56.
+- A1: sentences 6 (GURO) and 52. A2: 7 (GURO, "Sabi sa kuwento ... daw"). A4: 12–14 (the rings, walls of brass, tin and orichalcum, the temple). A5: 32–33. A6: 34. A7: 35. A8: 8 (GURO) and 53. A9: 55 ("Ignatius Donnelly"). Inspiration debated (Thera): 54. A10 (kraken): 39 (M) and 56.
 - The fiction label is at sentence 57 (the queen, Sinag, the armour, the portal). Fiction from version 2 of the story: "Ang Binti ng Atlantis", a greave of bronze and orichalcum (44, 46). The metal is named in the *Critias* (A4); the greave itself is fiction.
 - Usman appears only inside the portal (sentence 11 on) and vanishes on the way out (58). The present-day call with Ma'am Celia has no dog.

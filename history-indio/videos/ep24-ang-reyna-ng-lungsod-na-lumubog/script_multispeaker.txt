@@ -1,5 +1,5 @@
 # MASTER script (Season 3 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording), CELIA (Ma'am Celia, Indio's Grade 5 teacher of Episode 10, now his adviser, on a video call: kind, precise; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), SINAG (the fallen one disguised as the queen of the sunken city: warm, honeyed, then cold; designed voice). The kraken has no line. Real people (Plato, Solon) are only spoken about.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), GURO (Ma'am Celia, Indio's Grade 5 teacher of Episode 10, now his adviser, on a video call: kind, precise; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), SINAG (the fallen one disguised as the queen of the sunken city: warm, honeyed, then cold; designed voice). The kraken has no line. Real people (Plato, Solon) are only spoken about.
 
 INDIO: [dramatic] Sa gitna ng isang lungsod na lulubog, inalok ako ng reyna ng tasang ginto, at hinawakan ko ito.
 INDIO: [warm] Ako 'to si Indio.
@@ -7,10 +7,10 @@ INDIO: [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
 
 INDIO: [serious] Mga singsing ng lupa at tubig ang bagong guhit sa kuwaderno ni Lolo.
 INDIO: [curious] Kaya tinawagan ko si Ma'am Celia, ang guro ko noong Grade 5.
-CELIA: [warm] Atlantis 'yan, Indio, pero hindi ito kasaysayan.
-CELIA: [serious] Kuwento ito sa dalawang akda ni Plato, ang Timaeus at ang Critias, mga 360 bago si Kristo.
-CELIA: [serious] Sabi sa kuwento, narinig daw ito ni Solon sa mga pari ng Ehipto.
-CELIA: [curious] Walang nahanap na lungsod, aral ito, hindi mapa.
+GURO: [warm] Atlantis 'yan, Indio, pero hindi ito kasaysayan.
+GURO: [serious] Kuwento ito sa dalawang akda ni Plato, ang Timaeus at ang Critias, mga 360 bago si Kristo.
+GURO: [serious] Sabi sa kuwento, narinig daw ito ni Solon sa mga pari ng Ehipto.
+GURO: [curious] Walang nahanap na lungsod, aral ito, hindi mapa.
 INDIO: [warm] Kaya nga ako pupunta, Ma'am, para sa aral.
 
 INDIO: [dramatic] Sa unahan ng balangay, ipinasok ko ang susi sa hangin, at bumukas ang lagusan sa dagat.
