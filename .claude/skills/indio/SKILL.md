@@ -56,9 +56,10 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
 - Every claim in a script has a row in `facts.md` (two sources, status), and a "could not verify" list.
 - Frames: do NOT wait for the user (user, 2026-11-12). Generate as soon as a script exists; proposed frames count as approved. Spend Figma credits without asking (about 75 images a day, shared, resets 00:00 UTC) and report afterwards how many were used. Stories and voice still need the user.
 - Tell the user when something is finished and send the file so it plays (SendUserFile, display render).
+- Every new script gets an independent worker review before it goes to voice: facts (re-checked with web sources), continuity with ALL earlier episodes, including ones written in other sessions (read their script.txt in the repo), and Tagalog naturalness.
 
 ## Episode file set (`history-indio/videos/epNN-slug/`)
-`script.txt` (330-390 words, tone tag per sentence, 8 beats) -> `sentences.json` (`pipeline/make_sentences.py`) ->
+`script.txt` (330-380 words, tone tag per sentence, 8 beats) -> `sentences.json` (`pipeline/make_sentences.py`) ->
 `script_elevenlabs.txt` (same sentences, v3 tags, years as spoken words) -> `facts.md` -> `captions.md` ->
 `endcard.txt` -> `key_prompts.json` -> `shots_fx.json` -> `plates/ chars/ full/` -> `keyframes_sheet.jpg`.
 `keys/` is git-ignored.

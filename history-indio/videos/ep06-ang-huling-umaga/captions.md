@@ -1,7 +1,7 @@
 # Captions — Episode 6: Ang Huling Umaga (Bagumbayan, 1896)
 
 ## Facebook (Reels)
-EPISODE 6: Sa wakas, nag-aya si M na magkita. Alas-sais ng umaga, sa Rizal Park. Pero ang inabutan ni Indio: Bagumbayan, Disyembre 30, 1896. 🌅
+EPISODE 6: Sa wakas, nag-aya si M na magkita. Alas-sais ng umaga, sa Rizal Park. Pero ang inabutan ni Indio: Bagumbayan, Disyembre 30, 1896. 🕯️
 Hindi pinayagang humarap si Rizal sa mga babaril. At pagputok ng mga riple, wala na ang medalyon ni Indio. Wala na rin si M.
 
 Kathang-isip sina Indio, Usman, si M at ang medalyon; totoo ang kasaysayan.
@@ -13,8 +13,8 @@ I-follow ang History Indio para makauwi pa si Indio!
 
 ## YouTube Shorts
 **Title (pick one, under 100 characters):**
-1. EP 6: Ninakaw ang Medalyon sa Umagang Binaril si Rizal | History Indio #shorts
-2. Disyembre 30, 1896: Hindi Siya Pinayagang Humarap #shorts
+1. Disyembre 30, 1896: Hindi Siya Pinayagang Humarap #shorts
+2. EP 6: Ninakaw ang Medalyon sa Umagang Binaril si Rizal | History Indio #shorts
 3. Naiwan si Indio sa 1896 | Time-Travel Series EP 6 #shorts
 
 **Description:**
@@ -34,15 +34,17 @@ Mag-subscribe para sa susunod na talon.
 **Tags:** jose rizal, rizal day, december 30 1896, bagumbayan, luneta, rizal park, pagbaril kay rizal, mi ultimo adios, huling paalam, kasaysayan ng pilipinas, philippine history, time travel, history indio, indio at usman, aspin, tagalog explainer, pinoy anime
 
 ## TikTok
-EP 6 🌅 Unang beses nakita ni Indio si M, sa umagang binaril si Rizal. Tapos nawala ang medalyon. Kung ikaw ang naiwan sa 1896, saan ka pupunta?
+EP 6 🕯️ Unang beses nakatabi ni Indio si M, sa umagang binaril si Rizal. Tapos nawala ang medalyon. Kung ikaw ang naiwan sa 1896, saan ka pupunta?
+Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #kasaysayan #philippinehistory #timetravel #pinoyanime #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
-Episode 6: ang huling umaga. 🌅 Bagumbayan, 1896. Isang pulang payong, isang medalyong nawala, at isang asong hindi na naglaho.
+Episode 6: ang huling umaga. 🕯️ Bagumbayan, 1896. Isang pulang payong, isang medalyong nawala, at isang asong hindi na naglaho.
 Kung ikaw ang naiwan sa 1896, saan ka unang pupunta? 👇
+Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #kasaysayan
 
 ## Pinned comment (any platform)
-Totoo: binaril si José Rizal sa Bagumbayan noong Disyembre 30, 1896, bandang 7:03 n.u.; hindi siya pinayagang humarap sa mga babaril (Wikipedia; Inquirer). Mahina ang pinagmulan ng kuwento ng asong umiyak sa tabi niya. Pinagtatalunan kung paano naitago ang huling tula niya sa lutuang de-alkohol (Inquirer, Ambeth Ocampo). Kathang-isip: sina Indio, Usman, si M, ang medalyon, at na kadugo ni Indio si Rizal. Sa totoong tala, ang anak nina Rizal at Josephine Bracken ay namatay ilang oras matapos ipanganak sa Dapitan. Kung ikaw ang naiwan sa 1896, saan ka pupunta?
+Totoo: binaril si José Rizal sa Bagumbayan noong Disyembre 30, 1896, bandang 7:03 n.u.; hindi siya pinayagang humarap sa mga babaril (Wikipedia; Inquirer). Mahina ang pinagmulan ng kuwento ng asong umiyak sa tabi niya. Pinagtatalunan kung paano naitago ang huling tula niya sa lutuang de-alkohol (Inquirer, Ambeth Ocampo). Kathang-isip: sina Indio, Usman, si M, ang medalyon, at na nagmula si Indio sa anak nina Rizal at Josephine Bracken. Sa totoong tala, isinilang ang batang iyon nang kulang sa buwan sa Dapitan at patay na o namatay ilang oras lang; walang kilalang nabubuhay na inapo si Rizal. Kung ikaw ang naiwan sa 1896, saan ka pupunta?

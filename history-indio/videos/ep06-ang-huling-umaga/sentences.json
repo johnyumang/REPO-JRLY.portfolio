@@ -1,5 +1,12 @@
 [
  {
+  "text": "Sa harap ko, nakatalikod si José Rizal sa mga riple.",
+  "say": "sa harap ko, nakatalikod si hose risal sa mga riple.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
   "text": "Alas-siyete ng umaga, ikatatlumpu ng Disyembre, 1896.",
   "say": "alas-siyete ng umaga, ikatatlumpu ng disyembre, mil otsosyentos nobentay sais.",
   "style": "whisper",
@@ -7,15 +14,8 @@
   "pause": 0.3
  },
  {
-  "text": "Sa harap ko, nakatayo si José Rizal, nakatalikod sa mga riple.",
-  "say": "sa harap ko, nakatayo si hose risal, nakatalikod sa mga riple.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "At sa tabi ko, sa unang pagkakataon, ang babaeng matagal ko nang hinahanap.",
-  "say": "at sa tabi ko, sa unang pagkakataon, ang babaeng matagal ko nang hinahanap.",
+  "text": "At sa unang pagkakataon, katabi ko ang babaeng matagal ko nang hinahanap.",
+  "say": "at sa unang pagkakataon, katabi ko ang babaeng matagal ko nang hinahanap.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.3
@@ -56,8 +56,8 @@
   "pause": 0.3
  },
  {
-  "text": "Kaya nag-polo ako, par.",
-  "say": "kaya nag-polo ako, par.",
+  "text": "Kaya nagplantsa ako ng polo, par.",
+  "say": "kaya nagplantsa ako ng polo, par.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3
@@ -70,15 +70,15 @@
   "pause": 0.3
  },
  {
-  "text": "Pagdating ko, walang tao sa usapan namin.",
-  "say": "pagdating ko, walang tao sa usapan namin.",
+  "text": "Pagdating ko, wala siya sa tagpuan namin.",
+  "say": "pagdating ko, wala siya sa tagpuan namin.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "May marker lang, sa lugar kung saan binaril si Rizal.",
-  "say": "may marker lang, sa lugar kung saan binaril si risal.",
+  "text": "May marker lang, kung saan binaril si Rizal.",
+  "say": "may marker lang, kung saan binaril si risal.",
   "style": "",
   "pre": 0,
   "pause": 0.3
@@ -112,8 +112,8 @@
   "pause": 0.3
  },
  {
-  "text": "Lumitaw si Usman, pero hindi siya bumati.",
-  "say": "lumitaw si usman, pero hindi siya bumati.",
+  "text": "Lumitaw si Usman, pero hindi bumati.",
+  "say": "lumitaw si usman, pero hindi bumati.",
   "style": "somber",
   "pre": 0,
   "pause": 0.3
@@ -140,15 +140,15 @@
   "pause": 0.3
  },
  {
-  "text": "Totoo pala siya.",
-  "say": "totoo pala siya.",
+  "text": "Abot-kamay ko na siya.",
+  "say": "abot-kamay ko na siya.",
   "style": "",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Dumating ang mga sundalo, at sa gitna nila, isang lalaking nakaitim.",
-  "say": "dumating ang mga sundalo, at sa gitna nila, isang lalaking nakaitim.",
+  "text": "Sa gitna ng mga sundalo, isang lalaking nakaitim.",
+  "say": "sa gitna ng mga sundalo, isang lalaking nakaitim.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -238,8 +238,8 @@
   "pause": 0.3
  },
  {
-  "text": "Ngayon ko lang siya narinig na ganoon.",
-  "say": "ngayon ko lang siya narinig na ganoon.",
+  "text": "Ngayon ko lang siya narinig nang ganoon.",
+  "say": "ngayon ko lang siya narinig nang ganoon.",
   "style": "",
   "pre": 0,
   "pause": 0.3
@@ -266,22 +266,22 @@
   "pause": 0.3
  },
  {
-  "text": "Ang tiyak: ang petsa, ang lugar, at na hindi siya pinayagang humarap.",
-  "say": "ang tiyak: ang petsa, ang lugar, at na hindi siya pinayagang humarap.",
+  "text": "Ang tiyak: ang petsa, ang lugar, at ang hiling niyang humarap na hindi pinagbigyan.",
+  "say": "ang tiyak: ang petsa, ang lugar, at ang hiling niyang humarap na hindi pinagbigyan.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Ang kuwentong paulit-ulit pero mahina ang pinagmulan: na may asong umikot at umiyak sa tabi niya.",
-  "say": "ang kuwentong paulit-ulit pero mahina ang pinagmulan: na may asong umikot at umiyak sa tabi niya.",
+  "text": "Ang kuwentong mahina ang pinagmulan: may asong umikot at umiyak sa tabi niya.",
+  "say": "ang kuwentong mahina ang pinagmulan: may asong umikot at umiyak sa tabi niya.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Ang pinagtatalunan pa: kung paano talaga naitago ang huling tula niya sa isang lutuang de-alkohol.",
-  "say": "ang pinagtatalunan pa: kung paano talaga naitago ang huling tula niya sa isang lutuang de-alkohol.",
+  "text": "Ang pinagtatalunan: kung paano naitago ang huling tula niya sa lutuang de-alkohol.",
+  "say": "ang pinagtatalunan: kung paano naitago ang huling tula niya sa lutuang de-alkohol.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -308,8 +308,8 @@
   "pause": 0.3
  },
  {
-  "text": "Pero wala nang lalamig.",
-  "say": "pero wala nang lalamig.",
+  "text": "Pero wala na akong medalyon.",
+  "say": "pero wala na akong medalyon.",
   "style": "",
   "pre": 0,
   "pause": 0.3
@@ -420,8 +420,8 @@
   "pause": 0.42
  },
  {
-  "text": "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman, at makauwi pa ako!",
-  "say": "at mag palo na kayo, gays, para sa dagdag lakas namin ni usman, at makauwi pa ako!",
+  "text": "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman, at para makauwi pa ako!",
+  "say": "at mag palo na kayo, gays, para sa dagdag lakas namin ni usman, at para makauwi pa ako!",
   "style": "excited",
   "pre": 0,
   "pause": 0.62
