@@ -121,6 +121,240 @@
     180,
     380
    ]
+  },
+  "JAYADEWA": {
+   "descriptions": [
+    "A man in his fifties, precise, measured and stern voice, like a judge weighing every word, crisp diction, medium-low pitch, slow and deliberate, Filipino accent",
+    "An older man with a dry, exact, authoritative voice, calm and strict, clipped consonants, unhurried, Filipino accent",
+    "A grave, formal male voice in his sixties, careful and exacting, even and cool, medium pitch, deliberate, Filipino accent"
+   ],
+   "ref_text": "Ang nakasulat ay hindi nagsisinungaling, pero ang sumulat ay maaaring magsinungaling. Kaya babasahin ko ang bawat titik, isa-isa. Kung ano ang totoo, iyon lamang ang sasabihin ko. Walang dagdag, walang bawas.",
+   "sample": "Ako ang Kasulatan. Ipakita mo sa akin ang nakasulat, at sasabihin ko kung alin ang totoo.",
+   "f0_hz": [
+    75,
+    170
+   ]
+  },
+  "KOLAMBU": {
+   "descriptions": [
+    "A big, warm, hearty man in his forties, a generous host, booming friendly voice with laughter in it, medium pitch, lively pace, Filipino accent",
+    "A jolly, open-handed man around forty-five, rich warm voice, welcoming and cheerful, a shrewd bargainer, lively, Filipino accent",
+    "A cheerful chieftain with a full, round, laughing voice, loud and friendly, medium-high pitch, Filipino accent"
+   ],
+   "ref_text": "Halika, kaibigan, maupo ka! Kumain ka muna, marami pang kanin at isda. Sa bahay ko, walang umuuwing gutom. Pero tandaan mo, sa bawat tanggap, may kapalit. Iyan ang patas na palitan, hindi ba?",
+   "sample": "Ako ang Kalakal. Sabihin mo, ano ba talaga ang gusto mo, at ano ang kaya mong ibigay?",
+   "f0_hz": [
+    85,
+    210
+   ]
+  },
+  "MATANDA": {
+   "descriptions": [
+    "A very old man around eighty, calm, slow and wise voice, soft and weathered, low pitch, peaceful and far-sighted, Filipino accent",
+    "An ancient, serene elder, deep and gravelly but gentle voice, very slow, patient, speaks of peace, Filipino accent",
+    "A frail old chieftain, thin, airy and calm voice, slow and kind, wise, Filipino accent"
+   ],
+   "ref_text": "Marami na akong nakitang dagat, anak, at marami na ring bagyo. Hindi lahat ng laban ay kailangang ipanalo sa espada. Minsan, ang pinakamatapang na hakbang ay ang pumili ng kapayapaan. Maghintay ka, at makikita mo.",
+   "sample": "Ako ang Dagat. Ibigay mo sa akin ang tamang tanda, at tatawirin natin ang karagatan.",
+   "f0_hz": [
+    65,
+    165
+   ]
+  },
+  "PADUKA": {
+   "descriptions": [
+    "A gentle man in his forties, soft, warm and sorrowful voice, tender and quiet, a little hoarse with longing, medium pitch, slow, Filipino accent",
+    "A sad, kind king, mellow and gentle voice, heavy with homesickness, soft and slow, Filipino accent",
+    "A tender, melancholy male voice around forty, quiet and warm, breathy, slow, Filipino accent"
+   ],
+   "ref_text": "Malayo ang tahanan ko, at hindi na ako nakabalik. Araw-araw, tinatanaw ko ang dagat, umaasang may bangkang susundo sa akin. Kaya ngayon, ako ang maghahatid sa iyo pauwi. Walang dapat maligaw nang mag-isa.",
+   "sample": "Ako ang Daan Pauwi. Hawakan mo ang kamay ko. Iuuwi kita sa naghihintay sa iyo.",
+   "f0_hz": [
+    80,
+    190
+   ]
+  },
+  "MAGAT": {
+   "descriptions": [
+    "A man in his thirties, quiet, low and hushed voice, intimate and secretive but clearly spoken, calm and slow, Filipino accent",
+    "A low, soft, guarded male voice, a man of secrets, murmuring calmly, deep and controlled, Filipino accent",
+    "A quiet conspirator, dark low voice, measured and careful, almost a whisper but clear, Filipino accent"
+   ],
+   "ref_text": "Huwag kang maingay. Ang lihim, buhay lang habang walang nagsasalita. Nakikita mo ba sila? Hindi nila tayo makikita, basta tahimik tayo. Isang salita lang, at mawawala ang lahat. Kaya makinig ka, at huwag kang sasagot.",
+   "sample": "Ako ang Lihim. Tumahimik ka, at walang makakakita sa iyo.",
+   "f0_hz": [
+    65,
+    160
+   ]
+  },
+  "LAKANDULA": {
+   "descriptions": [
+    "A composed man in his forties, smooth, polished and diplomatic voice, polite and restrained, a hint of steel underneath, medium pitch, even pace, Filipino accent",
+    "A courteous, refined male voice, calm and careful, a statesman choosing every word, smooth, Filipino accent",
+    "A dignified diplomat, cool, gracious and controlled voice, medium-high pitch, flowing, Filipino accent"
+   ],
+   "ref_text": "Sumasabay ako sa agos, pero hindi ako nalulunod. Nakikipag-usap ako nang mahinahon, at ngumingiti kahit sa kaaway. Pero may hangganan ako. Kapag lumampas ka roon, makikita mo kung gaano kabilis ang ilog.",
+   "sample": "Ako ang Agos. Sumabay ka sa daloy, at walang makahahabol sa atin.",
+   "f0_hz": [
+    85,
+    200
+   ]
+  },
+  "TUPAS": {
+   "descriptions": [
+    "A tired man in his sixties, generous and kind voice, weary and a little hoarse, warm but heavy, slow sighing delivery, Filipino accent",
+    "A worn, gentle older man, soft husky voice, generous and humble, tired, slow, Filipino accent",
+    "A weary chieftain, low warm raspy voice, kind and sad, slow, Filipino accent"
+   ],
+   "ref_text": "Kunin mo ito, kaibigan. Hatiin natin, para may matira pa sa iba. Marami na akong nawala, kaya natutunan ko na ang ibinabahagi lang ang hindi nauubos. Pagod na ako, pero hindi pa rin ako marunong magdamot.",
+   "sample": "Ako ang Piging. Ang ibinabahagi mo, dadami. Ang itinatago mo, mawawala.",
+   "f0_hz": [
+    70,
+    175
+   ]
+  },
+  "KUDARAT": {
+   "descriptions": [
+    "A strong man in his forties, firm, resonant orator's voice, commanding and steady, projects clearly, medium-low pitch, deliberate pace, Filipino accent",
+    "A powerful public speaker, ringing, confident and unbending voice, proud, strong and clear, Filipino accent",
+    "A stern, noble sultan, big clear voice, firm and fearless, measured, Filipino accent"
+   ],
+   "ref_text": "Ang tinig ko ay umaabot sa lahat ng kailangang makarinig. Pero kapag kasinungalingan ang sasabihin, katahimikan lamang ang lalabas. Kaya katotohanan lamang ang bibigkasin ko. At hindi ako mabibili, kahit ng isang kaban ng ginto.",
+   "sample": "Ako ang Tinig. Ang totoo, maririnig ng lahat. Tumayo kayo.",
+   "f0_hz": [
+    80,
+    190
+   ]
+  },
+  "LAPULAPU": {
+   "descriptions": [
+    "A hard, rugged man in his forties, terse and blunt, low gravelly voice, few words, short clipped sentences, unshakable, Filipino accent",
+    "A stern warrior, rough, deep and curt voice, cold and steady, speaks in short hard bursts, Filipino accent",
+    "A fierce, quiet fighter, low husky voice, blunt and firm, no wasted words, Filipino accent"
+   ],
+   "ref_text": "Hindi ako yuyuko. Tumayo ka sa likod ko. Walang lalampas. Hindi ako umaatake, nagtatanggol lang ako. Pero hangga't nakatayo ako rito, walang dadaan. Isa lang ang tanong ko sa iyo. Handa ka ba?",
+   "sample": "Ako ang Kalasag. Tumayo ka sa likod ko. Walang dadaan.",
+   "f0_hz": [
+    65,
+    160
+   ]
+  },
+  "SULAYMAN": {
+   "descriptions": [
+    "A young man in his twenties, fiery, passionate and brave voice, fast and intense, bright and strong, a little rough, Filipino accent",
+    "A hot-blooded young prince, proud, loud and defiant voice, energetic and fearless, Filipino accent",
+    "A bold young warrior, clear ringing tenor voice, eager and impatient, quick, Filipino accent"
+   ],
+   "ref_text": "Hindi ako susuko! Kahit ilang beses pa tayong bumagsak, babangon tayo ulit. Bata pa ako, oo, pero hindi ako takot. Basahin mo nang malakas ang tanda, at bubuksan ko ang pintuan ng panahon. Bilisan mo!",
+   "sample": "Ako ang Pintuan! Basahin mo ang tanda, at tumalon na tayo!",
+   "f0_hz": [
+    95,
+    240
+   ]
+  },
+  "TOTOY": {
+   "descriptions": [
+    "A thin street boy about nine years old, hoarse and raspy child's voice, polite and shy, soft-spoken, Filipino accent",
+    "A poor young boy around nine, husky little voice, humble and polite, quiet, Filipino accent",
+    "A small boy with a scratchy, tired child voice, gentle and respectful, Filipino accent"
+   ],
+   "ref_text": "Kuya, pasensya na po. Wala pa po akong kain mula kahapon. Hindi po ako nanghihingi ng pera. Kahit tinapay lang po, hahatiin ko pa po sa kapatid ko. Salamat po, Kuya. Ang bait po ninyo.",
+   "sample": "Kuya, sa inyo po itong kalahati. Sabay po tayong kumain.",
+   "f0_hz": [
+    180,
+    380
+   ]
+  },
+  "TUBAL": {
+   "descriptions": [
+    "A man in his fifties, smooth, silky and smiling voice, charming but menacing, a slick dealmaker, relaxed, medium-low pitch, Filipino accent",
+    "A wealthy contractor around fifty-five, oily, friendly-sounding voice with a smile, persuasive and cold underneath, Filipino accent",
+    "A suave older businessman, velvety low voice, amused and confident, slow, Filipino accent"
+   ],
+   "ref_text": "Relaks ka lang, hijo. Lahat ng tao, may presyo. Sabihin mo lang kung magkano, at aayusin natin. Walang masasaktan, walang makakaalam. Negosyo lang ito. At sa negosyo, ang matalino ay laging kumikita.",
+   "sample": "Ngumiti ka naman, Indio. Magkaibigan na tayo mula ngayon.",
+   "f0_hz": [
+    75,
+    180
+   ]
+  },
+  "INAY": {
+   "descriptions": [
+    "A gentle woman in her thirties, soft, warm and tender mother's voice, loving and calm, medium pitch, unhurried, Filipino accent",
+    "A young mother around thirty-five, sweet, soothing and caring voice, soft and slow, Filipino accent",
+    "A kind mother, light and warm voice, gentle and reassuring, slightly breathy, Filipino accent"
+   ],
+   "ref_text": "Anak, nandito lang si Nanay. Huwag kang matakot. Kahit saan ka man mapunta, kahit gaano ka kalayo, hihintayin kita. Kumain ka nang maayos, ha? At lagi mong tatandaan, mahal na mahal kita.",
+   "sample": "Anak, umuwi ka na. Naghihintay pa rin ako sa iyo.",
+   "f0_hz": [
+    150,
+    300
+   ]
+  },
+  "SORO": {
+   "descriptions": [
+    "A woman in her thirties, low, smooth and sultry alluring voice, slow and teasing, velvety, with a hint of sadness, Filipino accent",
+    "A mysterious seductive woman, husky low voice, honeyed and slow, then quietly ashamed, Filipino accent",
+    "An enchanting fox spirit woman, deep smooth purring voice, playful and slow, Filipino accent"
+   ],
+   "ref_text": "Bakit ka nagmamadali, ginoo? Umupo ka muna rito sa tabi ko. Napakatagal ko nang naghihintay ng bisita. Pero huwag mo akong tingnan nang ganyan. Alam ko kung ano ako. At nahihiya ako.",
+   "sample": "Patawarin mo ako. Hindi ko sinasadyang linlangin ka.",
+   "f0_hz": [
+    120,
+    250
+   ]
+  },
+  "MAKILING": {
+   "descriptions": [
+    "An ageless woman, a forest spirit, calm, clear and serene voice, bright and pure, slow and unhurried, gentle, slightly high pitch, Filipino accent",
+    "A diwata of the mountain, airy, crystal-clear and peaceful voice, soft and slow, ethereal, Filipino accent",
+    "A graceful spirit woman, light, clear, tranquil voice, unhurried and kind, Filipino accent"
+   ],
+   "ref_text": "Tahimik ang bundok, at nakikinig ito. Huwag kang kukuha nang higit sa kailangan mo. Ang gubat ay nagbibigay sa marunong magpasalamat. Lumapit ka, bata, at huwag kang matakot. Hindi kita sasaktan.",
+   "sample": "Ako ang nagbabantay sa bundok na ito. Ingatan mo ang anumang ibinigay ko.",
+   "f0_hz": [
+    160,
+    330
+   ]
+  },
+  "TIKBALANG": {
+   "descriptions": [
+    "A boastful, proud creature with a loud, nasal, comic voice, a braggart, over-the-top and funny, fast, medium-high pitch, Filipino accent",
+    "A vain, cocky horse-headed trickster, brassy and goofy voice, full of himself, energetic, Filipino accent",
+    "A proud, silly creature, loud showy voice, comic and fast, Filipino accent"
+   ],
+   "ref_text": "Ha! Ako ang pinakamabilis na nilalang sa buong kagubatan! Walang nakahuhuli sa akin, wala! Ano? Natalo mo ako? Hindi puwede iyan! Sige na nga, ikaw na ang amo ko. Pero ako pa rin ang pinakaguwapo!",
+   "sample": "Sumakay ka na, amo! Pero huwag mong hihilahin ang buhok ko, ha!",
+   "f0_hz": [
+    90,
+    280
+   ]
+  },
+  "KAPRE": {
+   "descriptions": [
+    "A huge giant with a very deep, slow, booming bass voice, lazy and amused, chuckling, relaxed, Filipino accent",
+    "An enormous tree giant, rumbling low voice, slow and good-humored, sleepy, Filipino accent",
+    "A massive, gentle giant, deep resonant voice, very slow, amused, Filipino accent"
+   ],
+   "ref_text": "Matagal na akong nakaupo sa punong ito. Daan-daang taon na. Ikaw lang ang naglakas-loob na tumingala at bumati sa akin. Nakakatuwa ka, bata. Sige, sasamahan kita. Pero dahan-dahan lang tayo.",
+   "sample": "Huwag kang matakot sa akin, bata. Malaki lang ako, pero mabait.",
+   "f0_hz": [
+    50,
+    130
+   ]
+  },
+  "KAPPA": {
+   "descriptions": [
+    "A small creature with a croaky, raspy, froggy little voice, very formal and polite, precise, medium-high pitch, Filipino accent",
+    "A tiny river creature, gravelly squeaky voice, stiffly formal and courteous, Filipino accent",
+    "A small, ceremonious water creature, scratchy nasal voice, polite and proper, Filipino accent"
+   ],
+   "ref_text": "Magandang gabi po, ginoo. Ako po ay isang hamak na nilalang ng ilog. Ipagpaumanhin ninyo ang aking pagdating. Ayon sa kaugalian, yuyuko po ako, at yuyuko rin kayo. Iyan po ang tamang paggalang.",
+   "sample": "Salamat po sa pipino. Hindi ko po kalilimutan ang kabutihan ninyo.",
+   "f0_hz": [
+    100,
+    330
+   ]
   }
  }
 }
