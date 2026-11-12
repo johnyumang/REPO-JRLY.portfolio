@@ -18,12 +18,19 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 - MID-SEASON TWIST (user, 2026-11-12): Indio turns out to be a descendant ("apo") of José Rizal through one of Rizal's sweethearts. This is FICTION and must be labelled so in the episode's captions and pinned comment: history records no surviving descendants of Rizal (to be verified before scripting: his son with Josephine Bracken died shortly after birth). Proposed handling: never state as fact that a named real woman secretly bore Rizal's child; reveal it through the Lolo's medallion and Usman (proposed: Usman is Rizal's own childhood dog, which is why he knew Indio's name in Episode 1). Foreshadowing already planted in Episode 1: the dog's name and "Kumapit ka, Indio!".
 - Every delivery ends with ready-to-paste captions (Facebook, YouTube Shorts, TikTok, Instagram, pinned sources comment).
 
+## Story format (user direction, 2026-11-12)
+Every episode is a journey: Indio travels and ends up witnessing one significant event in history.
+- He arrives not knowing what is going on and is puzzled at first.
+- Small everyday moments pull him in: he walks around, sees a vendor (ale), hears sudden shouting, or notices a detail that later turns out to be the event itself.
+- He meets someone there, and that person is what connects him to the story and the event.
+Write the script as this little story with small things that link up, not as a lecture. (The exact beats are the user's examples; the wording of this summary is mine.)
+
 ## Open problem: real character movement
 The user wants frame-by-frame anime motion, not animated stills. Tried so far:
 - Wan 2.2 image-to-video on a free Hugging Face Space (`upsampler-wan-2-2-14b-image-to-video.hf.space`, host allowed): works, but needs a Hugging Face token for quota; the user declined the token form once.
 - ElevenLabs image/edit tools: "free generations busy" on every attempt.
 - Midjourney (via the anime-mj prompt plugin): paid, manual.
-- Blender: WORKS (see `blender/README.md`). `bpy` 5.3.0 on CPU renders a rigged CC0 VRoid character with cel shading at ~5.6 s/frame (720x1280); a 4 s proof shot was delivered 2026-11-11. A full 3-minute video ≈ 6.7 h of rendering and every action is hand-posed in code; the model is a recoloured sample, not a custom host.
+- Blender: WORKS (see `blender/README.md`). `bpy` 5.3.0 on CPU renders a rigged CC0 VRoid character with cel shading at ~5.6 s/frame (720x1280). `blender/host_shot.py --shot greet|twist|point|powerup` makes host action clips on a night beach set; `blender/render_limahong_clips.sh` renders the four used in limahong-1574 (hybrid: Figma stills + a few Blender host clips). Every action is hand-posed in code; the model is a recoloured sample, not a custom host.
 
 ## Other open items
 - Limahong end card should say "LABAN SA MGA PIRATA!"; its last eight shots reuse frames.
