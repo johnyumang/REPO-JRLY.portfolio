@@ -17,6 +17,7 @@ HISTORY INDIO: SEASON 1 🔥
 Saang taon ka gustong tumalon? 👇
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Musika: "Bayan Ko", himig ni Constancio de Guzman, titik ni José Corazón de Jesús; instrumental na areglo para sa History Indio.
 
 #HistoryIndio #KasaysayanNgPilipinas #PhilippineHistory #TimeTravel #PinoyAnime
 
@@ -32,6 +33,7 @@ HISTORY INDIO: SEASON 1 🔥
 Saang taon ka gustong tumalon? 👇
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Musika: "Bayan Ko", himig ni Constancio de Guzman, titik ni José Corazón de Jesús; instrumental na areglo para sa History Indio.
 
 #historyindio #kasaysayan #philippinehistory #timetravel #pinoyanime
 
@@ -41,6 +43,7 @@ paano kung ang asong sumusunod sa'yo, sa nakaraan lang lumilitaw.
 si Indio, binasa lang ang marker. ibang siglo na. 🔥
 SEASON 1. Saang taon ka gustong tumalon?
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Musika: "Bayan Ko", himig ni Constancio de Guzman, titik ni José Corazón de Jesús; instrumental na areglo para sa History Indio.
 
 #historyindio #kasaysayan #pinoyanime #timetravel #fyp
 
@@ -60,6 +63,7 @@ Season 1 ng History Indio: anim na talon sa totoong araw ng kasaysayan natin. Ag
 Original na martsa ang musika, ginawa para sa History Indio.
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Musika: "Bayan Ko", himig ni Constancio de Guzman, titik ni José Corazón de Jesús; instrumental na areglo para sa History Indio.
 
 Saang taon ka gustong tumalon? I-comment sa baba.
 
@@ -69,7 +73,8 @@ Saang taon ka gustong tumalon? I-comment sa baba.
 
 ## Pinned comment
 paano kung ang medalyon ng Lolo mo, susi pala. 🔥
-Totoo ang mga petsa: Sigaw ng Katipunan (Agosto 1896; pinagtatalunan pa ang eksaktong araw at lugar), pagbagsak ng Maynila sa British (6 Oktubre 1762), proklamasyon sa Kawit (12 Hunyo 1898), pag-alis ng batang Rizal sa Calamba papuntang Biñan (Hunyo 1869), Tratado ng Paris (10 Disyembre 1898), pagbaril kay Rizal sa Bagumbayan (30 Disyembre 1896). Sources: tingnan ang pinned comment ng bawat episode. Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Saang taon ka gustong tumalon?
+Totoo ang mga petsa: Sigaw ng Katipunan (Agosto 1896; pinagtatalunan pa ang eksaktong araw at lugar), pagbagsak ng Maynila sa British (6 Oktubre 1762), proklamasyon sa Kawit (12 Hunyo 1898), pag-alis ng batang Rizal sa Calamba papuntang Biñan (Hunyo 1869), Tratado ng Paris (10 Disyembre 1898), pagbaril kay Rizal sa Bagumbayan (30 Disyembre 1896). Sources: tingnan ang pinned comment ng bawat episode. Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Musika: "Bayan Ko", himig ni Constancio de Guzman, titik ni José Corazón de Jesús; instrumental na areglo para sa History Indio. Saang taon ka gustong tumalon?
 
 ## On-screen opener (optional)
 First three seconds, one line at a time:
@@ -82,3 +87,6 @@ isang lumang medalyon.
 isang marker na binasa nang malakas.
 isang asong nagsasalita.
 (then the same payoff)
+
+## Music credit (Bayan Ko version of the trailer)
+Use the credit line above only on the trailer cut that plays "Bayan Ko". On the cut with the original march ("banda"), delete that line: that music is our own and needs no credit. The Bayan Ko tune is protected in the Philippines until 31 December 2032; the channel owner states that permission exists and keeps it on file.
