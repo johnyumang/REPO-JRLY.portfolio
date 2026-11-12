@@ -11,7 +11,7 @@ tiyak: bayad na ang pader-baha ng Kawit, pero walang pader.
 
 dalawang salita lang ang dala ko: saksi ako. ⚖️
 S4 EP 37: Saksi Ako
-Totoo ang Kasulatang Tanso ng Laguna; kathang-isip ang pagdinig at ang mga tauhan.
+Totoo ang Kasulatang Tanso ng Laguna; kathang-isip ang pagdinig, ang pader-baha sa Kawit at ang mga tauhan. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 ## Instagram (at most 5 hashtags)
 tiyak: akin ang mga sasakyan.
@@ -30,7 +30,7 @@ tiyak, pinagtatalunan, kathang-isip: saksi ako | History Indio EP 37 #shorts
 Totoo ang Kasulatang Tanso ng Laguna; kathang-isip ang pagdinig at ang mga tauhan.
 
 ## Pinned comment
-Totoo: ang Kasulatang Tanso ng Laguna (Saka 822, mga taong 900) ang pinakamatandang dokumentong may petsa sa Pilipinas; kailangang magsumite ng SALN ang bawat opisyal (Saligang Batas Art. XI sek. 17; RA 6713). Kathang-isip: ang pagdinig, ang komite, ang Dalisdis, sina Lorna Malinis, Senador Gorio, Hukom Anselmo, Tubal, Rico, Mang Nesto, Indio, Usman at M. Mga pinagmulan: Wikipedia, Inquirer (A. Ocampo), PCIJ.
+Totoo: ang Kasulatang Tanso ng Laguna (Saka 822, mga taong 900) ang pinakamatandang dokumentong may petsa sa Pilipinas; kailangang magsumite ng SALN ang bawat opisyal (Saligang Batas Art. XI sek. 17; RA 6713). Kathang-isip: ang pagdinig, ang komite, ang pader-baha sa Kawit, ang Dalisdis, sina Lorna Malinis, Senador Gorio, Hukom Anselmo, Tubal, Rico, Mang Nesto, Indio, Usman at M. Walang tinutukoy na totoong proyekto, opisyal o kontratista. Mga pinagmulan: Wikipedia, Inquirer (A. Ocampo), PCIJ.
 
 ## On-screen opener
 dalawang salita lang ang dala ko.
