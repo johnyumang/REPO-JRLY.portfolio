@@ -1,5 +1,5 @@
 # MASTER script (Season 5 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording; Indio is now President, past forty), USMAN (a dog's voice: quick, warm, a little gravelly; designed voice; in the present since Episode 30), M (Mikaela: calm, low, unhurried; designed voice), SINAG (the fallen one, the tempter: smooth, friendly, too close; designed voice). No real person speaks. Scripture is summarised with its reference, not quoted (the exact 1905 wording could not be fetched here; see facts.md). God is given no words.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording; Indio is now President, past forty), USMAN (a dog's voice: quick, warm, a little gravelly; designed voice; in the present since Episode 30), M (Mikaela: calm, low, unhurried; designed voice), SINAG (the fallen one, the tempter: smooth, friendly, too close; designed voice). No real person speaks. Scripture is quoted exactly from Ang Dating Biblia (1905) in fragments, with the reference (text from nehemiaharchives/bbl abtag, checked 2026-11-12); Genesis 9:11 is read by Indio as written ("nakasulat:"), never voiced as God. God is given no words.
 
 INDIO: [whisper] Tatlong araw nang umuulan, at ngayong gabi, naging pula ang buwan.
 INDIO: [dramatic] At may pumupulupot dito na kasinlaki ng langit.
@@ -27,7 +27,7 @@ INDIO: [serious] Tuwing lumilindol, siya raw ang nagpupumiglas.
 INDIO: [dramatic] At nagbago ang buwan.
 INDIO: [suspense] Mula puti, naging kahel, naging pula, naging parang dugo.
 M: [whisper] Pahayag 6:12.
-INDIO: [serious] Hindi niya binigkas ang talata, sinabi lang niya ang buod: lumindol nang malakas, umitim ang araw, at ang buwan ay naging gaya ng dugo.
+INDIO: [serious] Lumindol, umitim ang araw, at gaya ng nakasulat sa Ang Dating Biblia: at ang buong buwan ay naging gaya ng dugo.
 INDIO: [suspense] Pero hindi lang anino ng mundo ang tumatakip sa buwan.
 INDIO: [dramatic] May gumagalaw sa paligid nito, kaliskis, isang katawang pumupulupot.
 INDIO: [whisper] Ang Bakunawa.
@@ -74,8 +74,8 @@ USMAN: [serious] Grrr, linawin muna natin, par.
 INDIO: [serious] Tiyak: sa kuwentong-bayan ng mga Bisaya, ang Bakunawa ang ahas-dagat na lumalamon sa buwan, kaya may eklipse.
 INDIO: [serious] Tiyak din: noong 1731, isinulat ng paring si Tomas Ortiz na tuwing eklipse, lumalabas ang mga tao na may kampana at kalampag, para ipagtanggol ang buwang nilalamon daw ng dragon.
 INDIO: [curious] Alamat ng mga Tagalog si Bernardo Carpio, ang dahilan daw ng lindol.
-INDIO: [serious] Nasa Pahayag 6:12 ang buwan na parang dugo, at nasa Pahayag 12:15 ang tubig mula sa bibig ng dragon.
-INDIO: [serious] Sa Genesis 9:11, ipinangakong hindi na lilipulin ng baha ang lahat ng laman, kaya hindi Diyos ang nagpadala ng gunaw ng kuwentong ito.
+INDIO: [serious] Nasa Pahayag 6:12 ang buwan na naging gaya ng dugo, at sa Pahayag 12:15, nagbuga ang ahas ng tubig na gaya ng isang ilog.
+INDIO: [serious] Sa Genesis 9:11, nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha; kaya hindi Diyos ang nagpadala ng gunaw ng kuwentong ito.
 INDIO: [somber] Kathang-isip: ang gunaw at ang digmaan, na hinango lang sa mga tekstong ito, ang Bakunawa bilang bantay, si Sinag, si Nong Doming, at kami nina M at Usman.
 
 INDIO: [suspense] Sa likod ng buwan, naghihintay pa rin ang libu-libong mata.

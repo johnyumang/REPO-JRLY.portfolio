@@ -28,7 +28,7 @@ ang kinatatakutan mo, baka nagbabantay lang. 🌕 S5 EP 42 · kuwento ng serye a
 **Description:** ang kinatatakutan mo, baka nagbabantay lang. Season 5, Episode 1. Kuwento ng serye ang gunaw at ang digmaan (hinango sa Pahayag 6:12 at 12:15; Genesis 9:11). Kuwentong-bayan ng mga Bisaya ang Bakunawa; alamat ng mga Tagalog si Bernardo Carpio. Kathang-isip sina Indio, Usman, M at Sinag. #HistoryIndio #Shorts
 
 ## Pinned comment
-Ang totoo: kuwentong-bayan ng mga Bisaya ang Bakunawa na lumalamon sa buwan; noong 1731, isinulat ni Padre Tomás Ortiz na kumakalampag ang mga tao tuwing eklipse para ipagtanggol ang buwan (Blair & Robertson vol. 43). Alamat si Bernardo Carpio. Pahayag 6:12 at 12:15, Genesis 9:11 (Ang Dating Biblia, 1905; binuod). Kuwento ng serye ang gunaw at ang digmaan; kathang-isip ang mga tauhan.
+Ang totoo: kuwentong-bayan ng mga Bisaya ang Bakunawa na lumalamon sa buwan; noong 1731, isinulat ni Padre Tomás Ortiz na kumakalampag ang mga tao tuwing eklipse para ipagtanggol ang buwan (Blair & Robertson vol. 43). Alamat si Bernardo Carpio. Pahayag 6:12 at 12:15, Genesis 9:11 (Ang Dating Biblia, 1905). Kuwento ng serye ang gunaw at ang digmaan; kathang-isip ang mga tauhan.
 
 ## On-screen opener (first 2 seconds)
 ANG KINATATAKUTAN MO, BAKA NAGBABANTAY LANG.

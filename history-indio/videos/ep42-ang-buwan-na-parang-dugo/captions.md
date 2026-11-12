@@ -33,4 +33,4 @@ Hindi kinakain ng Bakunawa ang buwan. Binabantayan niya. 🌕 Kuwento ng serye a
 Ang buwan na parang dugo, at ang ahas na bantay pala. 🌕 Kuwento ng serye ang gunaw; kuwentong-bayan ang Bakunawa at si Bernardo Carpio; kathang-isip ang mga tauhan. #HistoryIndio #Bakunawa #PinoyAnime #DigmaanSaLangit #AlaminNatin
 
 ## Pinned comment (sources)
-Mga pinagmulan: Bakunawa, kuwentong-bayan ng mga Bisaya · Tomás Ortiz, Práctica del Ministerio (1731), sa Blair & Robertson vol. 43 (mga kampana at kalampag tuwing eklipse) · Bernardo Carpio, alamat ng mga Tagalog (Montalban) · Pahayag 6:12 at 12:15, Genesis 9:11 (Ang Dating Biblia, 1905; binuod, hindi sinipi). Kuwento ng serye ang gunaw at ang digmaan. Kathang-isip sina Indio, Usman, M, Sinag at Nong Doming.
+Mga pinagmulan: Bakunawa, kuwentong-bayan ng mga Bisaya · Tomás Ortiz, Práctica del Ministerio (1731), sa Blair & Robertson vol. 43 (mga kampana at kalampag tuwing eklipse) · Bernardo Carpio, alamat ng mga Tagalog (Montalban) · Pahayag 6:12 at 12:15, Genesis 9:11 (Ang Dating Biblia, 1905). Kuwento ng serye ang gunaw at ang digmaan. Kathang-isip sina Indio, Usman, M, Sinag at Nong Doming.
