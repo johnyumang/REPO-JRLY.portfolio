@@ -1,0 +1,153 @@
+{
+ "_note": "Episode 50 (Season 5 closing, about 2 minutes), story version 2 'Ang Dulo': the rebuilt Philippines, Indio (now in his fifties) and M and their child at Pugad Lawin, families everywhere, then the other world at the very beginning: Abel alive, a shepherd seen from the side or behind (never a devotional likeness), with the baby; the dog; the unmarked arm. Everyone clothed. God shown as nothing. Nobody but the narrator speaks. Prompts setting-first; filtered words avoided. Shots follow sentences.json; k90-k95 are extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. ",
+ "white": "Anime character illustration, medium shot from the waist up, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {},
+ "plates": {},
+ "chars": {},
+ "full": {
+  "time_lapse": "Time-lapse style wide view of Manila over years: cranes, new green parks, clean river, morning light. Detailed background, no text, no letters.",
+  "rebuild": "A Manila street being rebuilt by neighbours, new houses, clean gutters, trees planted, warm morning light. Detailed background, no text, no letters.",
+  "clear_river": "A clear river through Manila, so clean the stones show at the bottom, a new floodwall of stone along the bank, children on a footbridge. Detailed background, no text, no letters.",
+  "kids_marker": "A clean plaza with a historical marker on a stone post, schoolchildren gathered reading it aloud, morning light. Detailed background, no text, no letters.",
+  "marker_small": "Close-up of the bottom of a bronze historical marker plate with three small engraved lines of illegible tiny marks. Detailed background, no text, no letters.",
+  "pugad_lawin": "The Pugad Lawin shrine park in Quezon City at morning, very green trees like freshly painted, a bronze statue of revolutionaries, a calm path. Detailed background, no text, no letters.",
+  "family_walk": "A green park path at morning, from behind: a Filipino man in his fifties with a black topknot going grey, a simple white shirt and a young Filipina woman with long black hair in a simple long dark dress walking hand in hand, a small Filipino child of about six in simple clothes running ahead. Detailed background, no text, no letters.",
+  "dog_child": "A green park path at morning, low angle: a medium black dog with a white chest patch and one folded ear trotting beside a small Filipino child of about six in simple clothes, both happy. Detailed background, no text, no letters.",
+  "families": "A wide view of a green city at morning: families walking on many streets, in many parks, the view pulling back toward the islands and the sea. Detailed background, no text, no letters.",
+  "child_reads": "The Pugad Lawin shrine at morning, medium shot: a small Filipino child of about six in simple clothes stands before a bronze marker on a stone post and reads it aloud, hands behind back. Detailed background, no text, no letters.",
+  "nothing": "The Pugad Lawin shrine at morning, wide: the child, the marker, birds, sunlight, perfectly still and ordinary. Detailed background, no text, no letters.",
+  "walk_on": "A green park path at morning, high angle: the family and the dog walking on together, small in the frame. Detailed background, no text, no letters.",
+  "bench_tala": "A park bench in green shade at morning: a young woman with pure white hair and a cup of coffee smiling, behind her on the grass a man in his fifties and a woman in her sixties laughing. Detailed background, no text, no letters.",
+  "sunbeam": "Close-up of sunlight through green leaves, dust motes, quiet. Detailed background, no text, no letters.",
+  "old_page": "An old Tagalog Bible open on a wooden table by a window, the page only faint lines, a small sprig of grass on it. Detailed background, no text, no letters.",
+  "seth_page": "An old fresco style painting of a mother holding a newborn in a simple tent at dawn, calm. Detailed background, no text, no letters.",
+  "garden_far": "A green valley seen from a hill at dawn, a stream, no people, gentle mist. Detailed background, no text, no letters.",
+  "ask_marker": "A clean plaza at morning, medium close-up: a Filipino man in his fifties with a black topknot going grey, a simple white shirt smiling at the camera beside a marker. Detailed background, no text, no letters.",
+  "other_world": "A primeval meadow at the beginning of the world with no walls, soft golden mist, a clear stream, very still. Detailed background, no text, no letters.",
+  "sheep": "A primeval meadow at morning: sheep grazing by a clear stream, wildflowers. Detailed background, no text, no letters.",
+  "shepherd": "A primeval meadow at morning: a young shepherd in simple undyed robes sits on a rock seen from the side, holding a wooden staff with a curved top. Detailed background, no text, no letters.",
+  "brother_peace": "A primeval meadow at morning, far wide: two young brothers in simple robes, one a farmer by a field, one a shepherd by his flock, waving to each other. Detailed background, no text, no letters.",
+  "baby_lap": "A primeval meadow, close-up: a baby wrapped in a simple cloth asleep on a shepherd's lap, his hand on the baby. Detailed background, no text, no letters.",
+  "shepherd_back": "A primeval meadow at morning, from behind: the young shepherd on his rock with the baby and the sheep, the stream ahead. Detailed background, no text, no letters.",
+  "dog_runs": "A primeval meadow, low angle: a medium black dog with a white chest patch and one folded ear running through the tall grass toward the camera, ears flying. Detailed background, no text, no letters.",
+  "dog_sniff": "A primeval meadow, close-up: the black dog sniffing a curved wooden staff, then a baby's small hand, then lying down beside the baby. Detailed background, no text, no letters.",
+  "baby_arm": "A primeval meadow, extreme close-up: a baby's small raised arm, clean skin with no marks, morning light. Detailed background, no text, no letters.",
+  "baby_smile": "A primeval meadow, close-up: the baby smiles, eyes bright, the dog's nose beside him. Detailed background, no text, no letters.",
+  "last_light": "A primeval meadow at morning, high wide: the shepherd, the baby and the dog small by the stream, sunlight spreading over the world. Detailed background, no text, no letters.",
+  "x_leaves": "Sunlight through fresh green leaves in a city park. Detailed background, no text, no letters.",
+  "x_river": "Clear river water over smooth stones, small fish. Detailed background, no text, no letters.",
+  "x_marker": "A bronze historical marker on a stone post in morning light, illegible plate. Detailed background, no text, no letters.",
+  "x_stream": "A clear stream in a primeval meadow at dawn, wildflowers. Detailed background, no text, no letters.",
+  "x_staff": "Close-up of a curved wooden shepherd's staff leaning on a rock. Detailed background, no text, no letters.",
+  "x_sheep": "Sheep grazing on a green hill at sunrise. Detailed background, no text, no letters."
+ },
+ "shots": {
+  "0": {
+   "full": "time_lapse"
+  },
+  "1": {
+   "full": "rebuild"
+  },
+  "2": {
+   "full": "clear_river"
+  },
+  "3": {
+   "full": "kids_marker"
+  },
+  "4": {
+   "full": "marker_small"
+  },
+  "5": {
+   "full": "pugad_lawin"
+  },
+  "6": {
+   "full": "family_walk"
+  },
+  "7": {
+   "full": "dog_child"
+  },
+  "8": {
+   "full": "families"
+  },
+  "9": {
+   "full": "child_reads"
+  },
+  "10": {
+   "full": "nothing"
+  },
+  "11": {
+   "full": "walk_on"
+  },
+  "12": {
+   "full": "bench_tala"
+  },
+  "13": {
+   "full": "sunbeam"
+  },
+  "14": {
+   "full": "old_page"
+  },
+  "15": {
+   "full": "seth_page"
+  },
+  "16": {
+   "full": "garden_far"
+  },
+  "17": {
+   "full": "ask_marker"
+  },
+  "18": {
+   "full": "other_world"
+  },
+  "19": {
+   "full": "sheep"
+  },
+  "20": {
+   "full": "shepherd"
+  },
+  "21": {
+   "full": "brother_peace"
+  },
+  "22": {
+   "full": "baby_lap"
+  },
+  "23": {
+   "full": "shepherd_back"
+  },
+  "24": {
+   "full": "dog_runs"
+  },
+  "25": {
+   "full": "dog_sniff"
+  },
+  "26": {
+   "full": "baby_arm"
+  },
+  "27": {
+   "full": "baby_smile"
+  },
+  "28": {
+   "full": "last_light"
+  },
+  "90": {
+   "full": "x_leaves"
+  },
+  "91": {
+   "full": "x_river"
+  },
+  "92": {
+   "full": "x_marker"
+  },
+  "93": {
+   "full": "x_stream"
+  },
+  "94": {
+   "full": "x_staff"
+  },
+  "95": {
+   "full": "x_sheep"
+  }
+ }
+}

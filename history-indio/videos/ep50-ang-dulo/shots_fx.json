@@ -1,0 +1,174 @@
+{
+ "0": {
+  "fx": [],
+  "framing": "aerial",
+  "move": "crane_down",
+  "depth": "strong",
+  "keys": [
+   27,
+   24,
+   9
+  ]
+ },
+ "1": {
+  "fx": [],
+  "framing": "wide",
+  "move": "pan_right"
+ },
+ "2": {
+  "fx": [],
+  "framing": "low",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "3": {
+  "fx": [],
+  "framing": "M",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "4": {
+  "fx": [],
+  "framing": "insert",
+  "move": "push_in"
+ },
+ "5": {
+  "fx": [],
+  "framing": "wide",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "6": {
+  "fx": [],
+  "framing": "OTS",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "7": {
+  "fx": [],
+  "framing": "low",
+  "move": "pan_right"
+ },
+ "8": {
+  "fx": [],
+  "framing": "aerial",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "9": {
+  "fx": [],
+  "framing": "M",
+  "move": "push_in"
+ },
+ "10": {
+  "fx": [],
+  "framing": "wide",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "11": {
+  "fx": [],
+  "framing": "high",
+  "move": "crane_up",
+  "depth": "strong"
+ },
+ "12": {
+  "fx": [],
+  "framing": "two-shot",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "13": {
+  "fx": [],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "14": {
+  "fx": [],
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "15": {
+  "fx": [],
+  "framing": "wide",
+  "move": "tilt_up"
+ },
+ "16": {
+  "fx": [],
+  "framing": "aerial",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "17": {
+  "fx": [],
+  "framing": "MCU",
+  "move": "push_in"
+ },
+ "18": {
+  "fx": [],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "19": {
+  "fx": [],
+  "framing": "low",
+  "move": "pan_left"
+ },
+ "20": {
+  "fx": [],
+  "framing": "M",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "21": {
+  "fx": [],
+  "framing": "wide",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "22": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "23": {
+  "fx": [],
+  "framing": "OTS",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "24": {
+  "fx": [],
+  "framing": "low",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "25": {
+  "fx": [],
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "26": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "27": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "28": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "aerial",
+  "move": "crane_up",
+  "depth": "strong"
+ }
+}
