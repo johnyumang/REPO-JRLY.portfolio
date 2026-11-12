@@ -19,8 +19,9 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Episode 4: Ang Aso ni Pepe (Usman's back story; Calamba, June 1869) — in progress: `videos/ep04-ang-aso-ni-pepe` (script, facts, captions, NVIDIA draft frames; voice pending)
 - [ ] Episode 5: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, Dec 1898) — being made in session "History Indio – Episode 4" (`videos/ep05-dalawampung-milyon`)
 - [ ] Episode 6: Nanakaw ang medalyon: ang babaeng nagbabantay (M) ang kukuha; nilinlang lang pala niya si Indio (history event to be chosen)
-- [ ] Episode 7: Panahon ni Hesus (user, 2026-11-12): Indio goes back to the time of Jesus; must be biblically accurate, following a recent Bible translation (which translation and which event: to be confirmed with the user). Not yet written
+- [ ] Episode 7: Walang medalyon: hinahabol ni Indio si M (history event to be chosen; proposed)
 - [ ] Episode 8: Chapter 1 finale: nabawi o naipasa ang medalyon; cliffhanger papuntang Chapter 2 (proposed)
+- [ ] Episode 9 (Chapter 2 opener; user said "maybe 9"): Panahon ni Hesus (user, 2026-11-12): Indio goes back to the time of Jesus; must be biblically accurate, following a recent Bible translation (which translation and which event: to be confirmed with the user). Not yet written
 - Unassigned history topics for later episodes (each still needs a real marker or site): Enrique of Malacca (1521, disputed); Juan Luna, Paris 1892; Dapitan 1890s (Rizal in exile; Indio's bloodline, fiction, labelled); Bernardo Carpio (legend); Tasaday (1971, disputed)
 Series episodes take priority over the backlog above; topics used as episodes get ticked in both lists. When fewer than three episodes are left, research and add six more jumps (mix eras and regions; each needs a real marker or site Indio can visit; no living people).
 

@@ -41,6 +41,7 @@ One chapter (season) = 8 episodes of about 3 minutes = about 24 minutes, the len
 4. Ep 4 — midpoint: who Usman is (Calamba 1869)
 5. Ep 5 — things get harder; M closes in (Treaty of Paris, Dec 1898)
 6. Ep 6 — the low point: M steals the medallion; she had been luring him
-7. Ep 7 — the time of Jesus (user decision 2026-11-12; biblically accurate; how Indio gets there after the theft is still open)
+7. Ep 7 — Indio without the medallion, chasing M
 8. Ep 8 — climax and a cliffhanger into Chapter 2
 Inside every episode: 8 beats of about 20 seconds and about 6 shots each (roughly 44–48 shots): hook; intro + present-day problem; the push to the marker; the jump and Usman; the event; the twist; the fairness beat; return + cliffhanger + question/follow.
+Chapter 2 opens with Ep 9: the time of Jesus (user decision 2026-11-12, "maybe 9"; biblically accurate; see HANDOFF.md).
