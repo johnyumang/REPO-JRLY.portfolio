@@ -58,4 +58,6 @@ inside the keyframes as a witness. The fairness beat stays: Indio says what is p
    subtitles, and music/SFX at half the voice level. Set the end-card line per video in `pipeline/branding.py`.
 7. Look at a contact sheet of the result, then deliver the MP4 and END the message with captions
    (`captions.md`: Facebook, YouTube Shorts title/description/tags, TikTok, Instagram, pinned sources comment).
+8. Movement: write a puppet rig for each keyframe (`videos/<slug>/rigs/kNN.json`, see `pipeline/PUPPET.md`). `build_anime.py` picks rigs up
+   automatically, so the painted still itself moves (head, arms, breathing, hair, cloth, fire, water, blinks). This is the approved way to get movement.
 Never commit MP4s or voice files: the repo is public.

@@ -7,7 +7,7 @@ keys_dir: k00.png ... one keyframe per sentence. Depth comes from Depth-Anything
 import json, os, subprocess, sys
 import numpy as np, cv2
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-import soundtrack, subtitles, branding
+import soundtrack, subtitles, branding, puppet_still
 from PIL import Image as _I
 W, H = 1080, 1920
 if '--size' in sys.argv: W = int(sys.argv[sys.argv.index('--size') + 1]); H = W * 16 // 9          # e.g. --size 720 renders 720x1280, about twice as fast
@@ -132,7 +132,8 @@ for i, s in enumerate(tim):
     else: shots.append((i, start, end, mv, fx, 1.0, (0.5, 0.5)))
 if only: shots = [s for s in shots if s[0] in only]; t0 = shots[0][1]; shots = [(s_[0], s_[1] - t0, s_[2] - t0) + tuple(s_[3:]) for s_ in shots]
 if until: shots = [s_ for s_ in shots if s_[1] < until]
-deps = depth_maps(sorted({paths[s_[0]] for s_ in shots if len(s_) < 8}))
+def rig_for(i): p = os.path.join(vdir, 'rigs', f'k{i:02d}.json'); return p if os.path.exists(p) else None      # a puppet rig makes the still itself move (see PUPPET.md)
+deps = depth_maps(sorted({paths[s_[0]] for s_ in shots if len(s_) < 8 and not rig_for(s_[0])}))
 lens = [b - a_ for _, a_, b, *_ in shots]; print('shots', len(shots), 'min %.1f max %.1f avg %.1f' % (min(lens), max(lens), sum(lens) / len(lens)), flush=True)
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
@@ -163,15 +164,19 @@ def transition(a_, b_, p, kind):
     if kind == 'zoom': return cv2.addWeighted(_zoom(a_, 1 + 0.55 * pe), 1 - pe, _zoom(b_, 1.5 - 0.5 * pe), pe, 0)      # zoom-through
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
-f = 0; cur = None; last = None
+f = 0; cur = None; last = None; pup = None
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
-    if cur != i and not clip: im, d, glow, ring = prep(cv2.imread(paths[i]), deps[paths[i]]); cur = i
+    if cur != i and not clip:
+        rp = rig_for(i); cur = i
+        if rp: pup = puppet_still.Puppet(json.load(open(rp)), cv2.imread(paths[i]), W, H, fps, seed=n)
+        else: pup = None; im, d, glow, ring = prep(cv2.imread(paths[i]), deps[paths[i]])
     kind = FX.get('trans', {}).get(str(n), TRANS[n % len(TRANS)])
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
         if cap is not None:
             ok, cf = cap.read(); held = cv2.resize(cf, (W, H), interpolation=cv2.INTER_LANCZOS4) if ok else held; fr = held.copy()      # hold the last frame if the clip is short
+        elif pup is not None: fr = pup.frame(k / fps, cnt / fps, zx, fo)
         else: fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring)
         raw = fr
         if last is not None and k < TN and cnt > TN * 2: fr = transition(last, fr, (k + 1) / (TN + 1), kind)

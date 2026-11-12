@@ -1,0 +1,25 @@
+{
+  "note": "Indio by the fire with a cup: toast, head tilt, breathing, wind, fire, steam, blinks",
+  "camera": {"zoom": [1.0, 1.07], "focus": [385, 410]},
+  "blink": {"skin": [378, 256], "eyes": [{"c": [362, 222], "r": [25, 11], "tilt": 20}, {"c": [432, 258], "r": [22, 11], "tilt": 22}]},
+  "effects": [
+    {"fx": "turn", "mask": [{"ellipse": [385, 215, 185, 175], "soft": 45}, {"ellipse": [350, 380, 110, 70], "soft": 35}],
+     "pivot": [350, 380], "sway": 1.4, "speed": 1.25, "gesture": 4.2, "at": [0.2, 0.3, 0.5, 0.62], "lift": [0, 3]},
+    {"fx": "turn", "mask": [{"poly": [[60, 300], [270, 300], [275, 420], [215, 470], [170, 560], [120, 700], [0, 760], [0, 420]], "soft": 30},
+                            {"ellipse": [200, 240, 70, 90], "soft": 30}],
+     "pivot": [-40, 700], "sway": 0.5, "speed": 1.9, "gesture": 6.5, "at": [0.2, 0.3, 0.5, 0.62]},
+    {"fx": "breath", "ellipse": [345, 600, 190, 200]},
+    {"fx": "wind", "mask": [{"ellipse": [380, 150, 190, 85], "soft": 30}, {"ellipse": [385, 265, 95, 95], "soft": 25, "minus": true}], "amp": 2.2, "wave": 125, "speed": 6},
+    {"fx": "wind", "mask": [{"ellipse": [250, 285, 40, 60], "soft": 20}, {"ellipse": [455, 395, 35, 55], "soft": 18}], "amp": 5, "wave": 105, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[60, 0], [190, 0], [150, 250], [60, 300]], "soft": 30}, "amp": 2.5, "wave": 210, "speed": 2.6},
+    {"fx": "turn", "mask": {"ellipse": [280, 300, 26, 30], "soft": 8}, "pivot": [280, 272], "sway": 7, "speed": 3.1, "phase": 0.4},
+    {"fx": "turn", "mask": {"ellipse": [428, 350, 24, 28], "soft": 8}, "pivot": [428, 324], "sway": 7, "speed": 3.1},
+    {"fx": "flame", "mask": {"poly": [[0, 830], [120, 820], [300, 950], [340, 1080], [300, 1280], [0, 1280]], "soft": 40}, "amp": 7},
+    {"fx": "flame", "mask": [{"ellipse": [20, 275, 26, 40], "soft": 12}, {"ellipse": [708, 470, 20, 32], "soft": 10}], "amp": 3},
+    {"fx": "wind", "mask": {"ellipse": [200, 240, 70, 90], "soft": 30}, "amp": 4, "wave": 125, "speed": 3},
+    {"fx": "shimmer", "mask": {"poly": [[470, 365], [620, 365], [640, 480], [470, 470]], "soft": 18}},
+    {"fx": "glow", "mask": {"poly": [[0, 560], [720, 700], [720, 1280], [0, 1280]], "soft": 120}, "amount": 0.035},
+    {"fx": "sparks", "box": [20, 300, 1150, 530], "n": 26},
+    {"fx": "steam", "from": [200, 290], "rise": 190}
+  ]
+}
