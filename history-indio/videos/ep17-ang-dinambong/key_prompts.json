@@ -1,0 +1,343 @@
+{
+ "_note": "Episode 17 (S2E9), Season 2 version 4 rules: London today (no dog: Usman exists only in the jump light and in the past) and one jump with M on her medallion to Victorian London, 1888, where Usman appears. 1762 Manila is seen only through the lens. José Rizal appears ONLY as a small far figure from behind in the reading room, no face, no likeness, no words. The 1762 loot is shown going to libraries (never 'the British Museum'), and the medallion is found in an uncatalogued crate of a country house's effects, outside any collection. Creature: Spring-heeled Jack (London legend, first reported 1837), drawn eerie not gory, pinned by an arrow of light and recorded, never killed. Lakandula's diwa appears only as calm river-blue light, no face. Rico Bulan and Tubal's men are invented. Copied from Episode 11: full intro. Shots follow sentences.json (71 sentences); k90-k99 are montage extras. VERSION 1: check against story version 2 before generating frames.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "rooftop_chase": "night rooftops of Victorian London in rain, a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory leaping from one chimney to the next above a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace running along a wet ridge below. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "bow_light": "low angle on a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace drawing a glowing bow made of golden light on a rooftop, rain streaking past, fog behind. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "intro": "(copied from Episode 11)",
+  "london_vista": "very high aerial view of present-day London at dusk in drizzle, the river Thames curving through, old brick riverside warehouses in the foreground. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "two_doors": "hotel corridor at night: two closed doors side by side, a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck standing at one door, a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist at the other, neither looking at the other. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "notebook_writes": "close-up of hands holding an old leather notebook in lamplight, faint golden handwriting appearing by itself on a blank page, illegible scribbled lines only, a red handkerchief on the wrist. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "rain_city_sketch": "close-up of an open old notebook page with a sketched rainy city skyline and a small sketched wooden crate, rain drops on the paper, illegible scribbles only. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "clue_map": "over-the-shoulder of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist pinning paper clues and photos on a hotel wall, red string converging on a drawing of a riverside warehouse. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "crossing_wave": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist gripping a bronze medallion in a raised fist, a burst of sea-blue light like a wave swallowing him on a rainy London riverside street. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "ukay_jacket": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist pulling up the hood of his cheap jacket in heavy London rain, wry half-smile, a red double-decker blur behind. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "lens_raise": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist raising a round gold-rimmed lens to his eye in front of an old brick warehouse door in the rain. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "lens_manila_1762": "through a round gold-rimmed lens: Manila burning at night, redcoat soldiers in the streets, smoke over old stone walls. Seen as a vision inside a round gold-rimmed lens, Manila 1762, detailed background, no readable text.",
+  "ransom_table": "through a round gold-rimmed lens: generic British officers in red coats at a table with papers and heaps of silver coins, an elderly cleric in black seen from behind, illegible papers. Seen as a vision inside a round gold-rimmed lens, Manila 1762, detailed background, no readable text.",
+  "galleon_taken": "through a round gold-rimmed lens: a large Spanish galleon at sea with British warships closing in, cannon smoke, stormy sky. Seen as a vision inside a round gold-rimmed lens, Manila 1762, detailed background, no readable text.",
+  "manuscripts_carried": "through a round gold-rimmed lens: soldiers in red coats carrying armfuls of old bound manuscripts and copper printing plates out of a stone monastery cloister, no cross, no religious statue. Seen as a vision inside a round gold-rimmed lens, Manila 1762, detailed background, no readable text.",
+  "library_now": "a modern research library reading room with old manuscripts in glass cases and archival boxes, soft light, no readable text, no people's faces. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "crate_dust": "a single old wooden crate under a dusty tarpaulin in a dim riverside warehouse, a faint bronze glow leaking through a crack, no labels readable. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "shadow_in_lens": "through a round gold-rimmed lens: a foggy 1888 London rooftop with a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory crouching and staring straight back into the lens. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "m_hand_out": "two-shot in the warehouse: a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck holding out her hand to a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist, her medallion starting to glow. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "jump_light": "a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck and a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist holding hands as a swirling golden time portal of clock gears and light lifts them out of the warehouse. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "gaslight_street": "a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace stepping out of fog onto a cobbled gaslit street, horse cabs passing. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "usman_light": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck bursting out of a ball of golden light onto wet cobbles, nose up, sniffing happily. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "usman_window": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck with his nose pressed against the steamed window of a little fried-fish shop, drooling, warm light inside. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "m_stern": "close-up of a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck raising one finger in warning, half a smile. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "usman_beg": "low close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck with huge pleading eyes, ears down, rain on his fur. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "museum_steps": "a grand columned museum facade at dusk in fog, a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace and a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck climbing the wide steps, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck trotting ahead, no readable inscriptions. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "rizal_far": "over the shoulder of a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace peering between tall bookshelves of a great domed reading room, far away a small neatly dressed man in a dark 1880s suit seen only from far behind, bent over an old book at a long reading desk, no face visible. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "reading_room_dome": "very high wide shot of a great round domed reading room with radiating desks, tiny readers bent over books, warm lamps, a small neatly dressed man in a dark 1880s suit seen only from far behind, bent over an old book at a long reading desk, no face visible as one tiny figure. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "book_pages": "close-up of an old printed book from 1609 open on a desk beside a small notebook with handwritten notes, illegible scribbles only, an inkpot and pen. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "lola_memory": "soft sepia memory: a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, telling a story to a small boy at a kitchen table at night.",
+  "walk_away": "from behind: a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace, a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck walking away down a long aisle of bookshelves, leaving the reader in the distance undisturbed. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "laugh_roof": "extreme low angle from the street: a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory laughing on a rooftop edge against a fog-white sky. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "jack_leap": "a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory leaping over the street in a huge arc above a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace, a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, who duck back. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "usman_growl": "close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck growling, hackles up, teeth showing, glaring upward. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "jack_reveal": "a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory crouched on a gas lamp post, eyes burning red, fog curling around. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "draw_bow": "over-the-shoulder of a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace pulling a bow of golden light into existence from his glowing forearm marks, aiming upward. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "arrow_pin": "an arrow of golden light pinning the long shadow of a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory to a slate rooftop, the figure frozen mid-leap. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "seen_point": "close-up of a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace pointing up calmly, eyes steady, rain on his face. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "jack_into_holo": "a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck raising her glowing medallion while a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory dissolves into blue-gold light streaming into a hologram above a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace's forearm. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "usman_sniff": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck with nose to the ground pointing toward a dark riverside warehouse by the Thames, fog and gas lamps. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "crate_1888": "inside an 1888 riverside warehouse lit by one lantern: stacks of wooden crates, one crate set apart with a faint bronze glow, no readable labels. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "usman_wave": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck sitting and lifting one paw in a wave as he fades into golden light, a lean young Filipino man with a black topknot, a red cloth headband with long tails, a plain dark 1880s wool coat and flat cap, indigo geometric tattoos on his forearm, bare neck without any necklace reaching toward him. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "return_now": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck reappearing in a flash of light in the same dim warehouse before the same crate, now modern and dusty. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "medallion_porcelain": "close-up of hands lifting broken old porcelain from straw in an opened crate, revealing a round bronze medallion engraved with flowing water lines, a red handkerchief on the wrist. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "medallion_glow": "a round bronze medallion engraved with flowing water lines glowing river-blue in a palm, light rising like a current. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "lakandula_light": "a tall column of calm river-blue light rising from a small bronze medallion in a dark warehouse, only faintly suggesting the outline of a standing man, no face, no features, no clothing. Detailed full background, nothing readable, not a character sheet.",
+  "light_line": "the river-blue light flowing along the warehouse floor like a stream and stopping at a sharp line of light it does not cross. Detailed background, nothing readable.",
+  "holo_agos": "over-the-shoulder of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist looking at a hologram over his forearm where a slot lights up with a flowing-water symbol. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "ambush_door": "warehouse doorway in the rain: men in dark raincoats blocking the way, a phone light glaring, a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck backlit, shielding their eyes. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "rico_live": "close-up of a Filipino vlogger in his thirties with styled hair and a bright yellow windbreaker, holding a phone on a gimbal toward the viewer, grinning into the phone, rain on his windbreaker, men in dark raincoats behind him. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "rico_phone": "close-up of a phone screen showing a livestream interface with floating heart icons and a crowd of tiny avatars, no readable text, no numbers. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "rain_gutter": "very low angle on rainwater rushing down a cobbled London street toward the river, reflections of lamps. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "hands_current": "close-up of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist's hand gripping a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck's hand, both feet splashing into the rushing street water, blue light streaking around them. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "speed_streak": "motion-blurred streak of blue light racing along the rain-filled street and across the Thames embankment, a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck inside it, a vlogger far behind turning his phone too late. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "mud_stop": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck skidding into a muddy riverbank, splattered, a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist laughing, a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck wiping mud from her cheek. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "indio_growl": "close-up of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist on a riverside bench at night, mock-growling with a raised lip, wry. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "galleons_card": "two Spanish galleons in full sail at sunset, painted like an old engraving brought to life, calm sea. Detailed background, no readable text.",
+  "london_1888_card": "Victorian London rooftops and chimneys in morning fog, a domed building in the distance. Detailed background, no readable text.",
+  "scattered_boxes": "many archival boxes and old books scattered across different shelves in different rooms, like a map of things separated, soft light. Detailed background, no readable text.",
+  "tondo_1571": "Tondo by the Manila Bay shore in 1571: nipa houses on stilts, outrigger boats, a generic Filipino lakan in fine local dress seen from far behind at the waterline facing Spanish ships offshore. Detailed background, no readable text.",
+  "jack_card": "a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory silhouetted against a full moon on a London rooftop, like an old penny-dreadful illustration. Detailed background, no readable text.",
+  "cast_silhouettes": "silhouettes in a row against warm light: a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist, a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck, a ghostly black dog with a red kerchief, a blue column of light, a vlogger holding a phone. Detailed background, no readable text.",
+  "heater_laugh": "two-shot in a small hotel room in front of an orange glowing heater: a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck in dry clothes laughing together, wet coats hanging behind. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "almost_kiss": "extreme close-up of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck leaning toward each other, faces almost touching, warm orange light. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "jack_popout": "a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory springing comically out of a blue-gold hologram in the hotel room, cackling, while a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck jerk apart in shock. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "m_smile": "close-up of a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck smiling softly, looking away, cheeks warm. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "phone_mark": "close-up of a phone screen showing a livestream in the rain, the streamer's phone case visible with a mark of three small triangles, no readable text, no numbers. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "holo_nine": "over-the-shoulder of a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist with a hologram over his forearm: a ring of twelve slots, nine of them glowing, a long bar partly filled. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "indio_point": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist pointing at the viewer with a small smile, rainy window behind. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "loot_question": "an old wooden crate opened in warm light with porcelain, a copper map plate and an old book inside, a question hanging in the air as glowing dust, no readable text. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "follow_rooftop": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck on a London rooftop at dawn after the rain, the city glowing gold, a faint golden dog-shaped glimmer beside them. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "thames_rain": "the river Thames in heavy rain at night, a riverside warehouse with one lit window. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "hotel_window": "a lean young Filipino man with a black topknot, a cheap grey hooded jacket over a white t-shirt, jeans and a red handkerchief on his wrist alone at a hotel window looking at the rain, a closed door across the corridor reflected in the glass. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "copper_plate": "through a round gold-rimmed lens: a large engraved copper map plate being wrapped in sackcloth by soldiers' hands, illegible engraving. Seen as a vision inside a round gold-rimmed lens, Manila 1762, detailed background, no readable text.",
+  "fog_cab": "a horse-drawn cab emerging from thick fog under a gas lamp. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "reading_lamp": "a green-shaded reading lamp over an old book in a domed reading room, warm pool of light, nobody's face. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "chimney_shadow": "the long shadow of a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory sliding across chimney pots in moonlight. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "arrow_close": "close-up of an arrow made of golden light quivering in a slate roof tile, sparks around it. Victorian London 1888, gaslight and fog, detailed background, no readable text, no signs with letters.",
+  "crate_lid": "close-up of a crowbar easing up the lid of an old wooden crate, straw spilling out, dust in a beam of torchlight. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "blue_water_hand": "close-up of a hand trailing glowing blue light through rainwater on a street. Present-day London, detailed background, no dog, no animals, no readable text.",
+  "umbrella_open": "a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck opening the red umbrella over both of them on a rainy London bridge at night, city lights behind. Present-day London, detailed background, no dog, no animals, no readable text."
+ },
+ "shots": {
+  "0": {
+   "full": "rooftop_chase"
+  },
+  "1": {
+   "full": "bow_light"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "london_vista"
+  },
+  "4": {
+   "full": "two_doors"
+  },
+  "5": {
+   "full": "notebook_writes"
+  },
+  "6": {
+   "full": "rain_city_sketch"
+  },
+  "7": {
+   "full": "clue_map"
+  },
+  "8": {
+   "full": "crossing_wave"
+  },
+  "9": {
+   "full": "ukay_jacket"
+  },
+  "10": {
+   "full": "lens_raise"
+  },
+  "11": {
+   "full": "lens_manila_1762"
+  },
+  "12": {
+   "full": "ransom_table"
+  },
+  "13": {
+   "full": "galleon_taken"
+  },
+  "14": {
+   "full": "manuscripts_carried"
+  },
+  "15": {
+   "full": "library_now"
+  },
+  "16": {
+   "full": "crate_dust"
+  },
+  "17": {
+   "full": "shadow_in_lens"
+  },
+  "18": {
+   "full": "m_hand_out"
+  },
+  "19": {
+   "full": "jump_light"
+  },
+  "20": {
+   "full": "gaslight_street"
+  },
+  "21": {
+   "full": "usman_light"
+  },
+  "22": {
+   "full": "usman_window"
+  },
+  "23": {
+   "full": "m_stern"
+  },
+  "24": {
+   "full": "usman_beg"
+  },
+  "25": {
+   "full": "museum_steps"
+  },
+  "26": {
+   "full": "rizal_far"
+  },
+  "27": {
+   "full": "reading_room_dome"
+  },
+  "28": {
+   "full": "book_pages"
+  },
+  "29": {
+   "full": "lola_memory"
+  },
+  "30": {
+   "full": "walk_away"
+  },
+  "31": {
+   "full": "laugh_roof"
+  },
+  "32": {
+   "full": "jack_leap"
+  },
+  "33": {
+   "full": "usman_growl"
+  },
+  "34": {
+   "full": "jack_reveal"
+  },
+  "35": {
+   "full": "draw_bow"
+  },
+  "36": {
+   "full": "arrow_pin"
+  },
+  "37": {
+   "full": "seen_point"
+  },
+  "38": {
+   "full": "jack_into_holo"
+  },
+  "39": {
+   "full": "usman_sniff"
+  },
+  "40": {
+   "full": "crate_1888"
+  },
+  "41": {
+   "full": "usman_wave"
+  },
+  "42": {
+   "full": "return_now"
+  },
+  "43": {
+   "full": "medallion_porcelain"
+  },
+  "44": {
+   "full": "medallion_glow"
+  },
+  "45": {
+   "full": "lakandula_light"
+  },
+  "46": {
+   "full": "light_line"
+  },
+  "47": {
+   "full": "holo_agos"
+  },
+  "48": {
+   "full": "ambush_door"
+  },
+  "49": {
+   "full": "rico_live"
+  },
+  "50": {
+   "full": "rico_phone"
+  },
+  "51": {
+   "full": "rain_gutter"
+  },
+  "52": {
+   "full": "hands_current"
+  },
+  "53": {
+   "full": "speed_streak"
+  },
+  "54": {
+   "full": "mud_stop"
+  },
+  "55": {
+   "full": "indio_growl"
+  },
+  "56": {
+   "full": "galleons_card"
+  },
+  "57": {
+   "full": "london_1888_card"
+  },
+  "58": {
+   "full": "scattered_boxes"
+  },
+  "59": {
+   "full": "tondo_1571"
+  },
+  "60": {
+   "full": "jack_card"
+  },
+  "61": {
+   "full": "cast_silhouettes"
+  },
+  "62": {
+   "full": "heater_laugh"
+  },
+  "63": {
+   "full": "almost_kiss"
+  },
+  "64": {
+   "full": "jack_popout"
+  },
+  "65": {
+   "full": "m_smile"
+  },
+  "66": {
+   "full": "phone_mark"
+  },
+  "67": {
+   "full": "holo_nine"
+  },
+  "68": {
+   "full": "indio_point"
+  },
+  "69": {
+   "full": "loot_question"
+  },
+  "70": {
+   "full": "follow_rooftop"
+  },
+  "90": {
+   "full": "thames_rain"
+  },
+  "91": {
+   "full": "hotel_window"
+  },
+  "92": {
+   "full": "copper_plate"
+  },
+  "93": {
+   "full": "fog_cab"
+  },
+  "94": {
+   "full": "reading_lamp"
+  },
+  "95": {
+   "full": "chimney_shadow"
+  },
+  "96": {
+   "full": "arrow_close"
+  },
+  "97": {
+   "full": "crate_lid"
+  },
+  "98": {
+   "full": "blue_water_hand"
+  },
+  "99": {
+   "full": "umbrella_open"
+  }
+ }
+}
