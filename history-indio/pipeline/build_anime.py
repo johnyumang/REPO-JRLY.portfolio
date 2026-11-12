@@ -120,6 +120,8 @@ for i, s in enumerate(tim):
     cfg = FX.get(str(i), {}); mv = cfg.get('move', MOVES[i % len(MOVES)]); fx = list(cfg.get('fx', []))
     if 'punch' in fx or 'shake' in fx: fx += [f for f in ('speedlines', 'impact') if f not in fx]      # action beats get the full anime treatment
     i = cfg.get('key', i)                                                                    # reuse another line's keyframe
+    if cfg.get('clip'):                                                                      # a ready-made moving clip (e.g. a Blender action shot) plays for this line
+        shots.append((i, start, end, 'hold', fx, 1.0, (0.5, 0.5), os.path.join(vdir, cfg['clip']))); continue
     if cfg.get('keys'):                                                                      # montage: several keyframes inside one line (cold open)
         ks = cfg['keys']; step = (end - start) / len(ks)
         for j, kk in enumerate(ks): shots.append((kk, start + j * step, start + (j + 1) * step, ['push_in', 'pull_out'][j % 2], fx, 1.0, (0.5, 0.5)))
@@ -128,9 +130,9 @@ for i, s in enumerate(tim):
         mid = start + (end - start) * 0.52
         shots.append((i, start, mid, mv, fx, 1.0, (0.5, 0.5))); shots.append((i, mid, end, 'push_in' if mv != 'push_in' else 'pan_right', [f for f in fx if f not in ('punch', 'shake', 'flash')] + ['punch'], 1.42, tuple(cfg.get('focus', (0.5, 0.36)))))
     else: shots.append((i, start, end, mv, fx, 1.0, (0.5, 0.5)))
-if only: shots = [s for s in shots if s[0] in only]; t0 = shots[0][1]; shots = [(i, a_ - t0, b - t0, m, f, z, fo) for i, a_, b, m, f, z, fo in shots]
+if only: shots = [s for s in shots if s[0] in only]; t0 = shots[0][1]; shots = [(s_[0], s_[1] - t0, s_[2] - t0) + tuple(s_[3:]) for s_ in shots]
 if until: shots = [s_ for s_ in shots if s_[1] < until]
-deps = depth_maps(sorted({paths[s_[0]] for s_ in shots}))
+deps = depth_maps(sorted({paths[s_[0]] for s_ in shots if len(s_) < 8}))
 lens = [b - a_ for _, a_, b, *_ in shots]; print('shots', len(shots), 'min %.1f max %.1f avg %.1f' % (min(lens), max(lens), sum(lens) / len(lens)), flush=True)
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
@@ -162,12 +164,15 @@ def transition(a_, b_, p, kind):
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
 f = 0; cur = None; last = None
-for n, (i, a_, b, mv, fx, zx, fo) in enumerate(shots):
-    if cur != i: im, d, glow, ring = prep(cv2.imread(paths[i]), deps[paths[i]]); cur = i
+for n, sh in enumerate(shots):
+    i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
+    if cur != i and not clip: im, d, glow, ring = prep(cv2.imread(paths[i]), deps[paths[i]]); cur = i
     kind = FX.get('trans', {}).get(str(n), TRANS[n % len(TRANS)])
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
-        fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring)
+        if cap is not None:
+            ok, cf = cap.read(); held = cv2.resize(cf, (W, H), interpolation=cv2.INTER_LANCZOS4) if ok else held; fr = held.copy()      # hold the last frame if the clip is short
+        else: fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring)
         raw = fr
         if last is not None and k < TN and cnt > TN * 2: fr = transition(last, fr, (k + 1) / (TN + 1), kind)
         ff.stdin.write(brand(fr, f + k).tobytes())
