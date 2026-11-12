@@ -1,0 +1,31 @@
+# Facts — Episode 44 (Season 5 Episode 3): Ang Look ng Maynila (written 2026-11-12 from story version 2, Kabanata 44)
+
+**What is true:** On 24 May 1570 the forces of Maynila under Rajah Sulayman fought the Spanish expedition of Field Marshal Martín de Goiti, sent north from Cebu by Legazpi; Goiti's men took and destroyed the fortified settlement at the mouth of the Pasig, whose palisaded fort stood where Fort Santiago is now. Rajah Matanda (Maynila) and Lakandula (Tondo) were the leaders of their polities in 1570–1571; Goiti negotiated with Matanda and ignored Lakandula at first. Magat Salamat was a son of Lakandula (not of Matanda or Sulayman); he joined the Tondo Conspiracy of 1587–1588, led by his cousin Agustín de Legazpi, and the plot was given away when he spoke of it to Antonio Surabao of Cuyo, who was posing as a supporter. The Baluarte de San Diego is a bastion of the walls of Intramuros (Episode 2), built in its present form under Governor Gómez Pérez Dasmariñas from 1591–1594 around an older fort.
+**Label for captions (Season 5 rule):** "Totoo ang Labanan sa Maynila noong 24 Mayo 1570 at ang mga datu; kuwento ng serye ang gunaw, ang labanan sa look at ang mga diwa, hinango sa Pahayag 12:15."
+**Fiction, on purpose:** Indio as President, Usman, M, the diwa of Sulayman, Matanda, Lakandula and Magat Salamat and their powers (Ang Pintuan, Ang Dagat, Ang Agos, Ang Lihim), the window onto 1570, the shadows and their lies, the wave, Tubal Alcaín and Rico Bulan (invented; no real person or company), Bea and Pipay, the nets on the old flood walls, the time stop, the Punyal, the lamp of Galilee, the Kraken. The "faces from billboards" are generic: no real person, party or brand is drawn or named.
+**Usman:** present. **Power used:** Ang Punyal (cuts what binds), the lamp of Galilee (lit by a true word), the time stop of a few breaths (Episode 25). **Knowledge:** 100%.
+
+## Claims the script speaks (sentence numbers from sentences.json, counting from 0)
+
+| # | Spoken (sentence no.) | Claim | Status | Sources |
+|---|---|---|---|---|
+| 1 | "Dumating sila mula sa dagat, gaya ng lahat ng mananakop ng Maynila." (0) | the invaders of Manila came by sea (Goiti 1570, Limahong 1574, the British 1762) | certain as a general statement | https://en.wikipedia.org/wiki/Battle_of_Manila_(1570) [opened, raw 2026-11-12]; videos/limahong-1574, videos/ep02-british-sa-maynila facts |
+| 2 | "Sa bunganga ng Pasig, kung saan dating nakatayo ang kuta ni Rajah Sulayman" (7) | Sulayman's Maynila had a fort at the Pasig mouth | certain | WP "Battle of Manila (1570)" [opened]; https://en.wikipedia.org/wiki/Rajah_Sulayman [opened]; season2/research.md row 7 (15) |
+| 3 | "ang bunganga ng Pasig noong 1570" / "Ang kuta, ang mga barko ni Goiti, at ang mga taong lumaban kahit alam nilang mas malakas ang kaharap." (11–12) | the 1570 battle; the people of Maynila fought | certain (battle); "alam nilang mas malakas" is the narrator's reading, no words given to anyone | WP "Battle of Manila (1570)" [opened] |
+| 4 | "noong 24 Mayo 1570, lumaban ang Maynila ni Rajah Sulayman sa puwersa ni Martín de Goiti, at nawasak ang kuta sa bunganga ng Pasig" (55) | date, leaders, outcome | certain | WP "Battle of Manila (1570)" [opened]; Scott, *Barangay* (1994), cited there [not opened] |
+| 5 | "sina Rajah Matanda ng Maynila at Lakandula ng Tondo ay mga pinuno noong 1570 at 1571" (56) | | certain | https://en.wikipedia.org/wiki/Rajah_Matanda and https://en.wikipedia.org/wiki/Lakandula [opened, raw 2026-11-12] |
+| 6 | "Anak ni Lakandula si Magat Salamat, at nabigo ang sabwatan ng Tondo noong 1587 hanggang 1588 nang may masabi siya sa maling tao." (57) | son of Lakandula; the plot exposed after he revealed it to Antonio Surabao | certain (WP, citing Dery 2001 and Santiago 1990) | https://en.wikipedia.org/wiki/Magat_Salamat [opened]; season2/research.md "Tondo Conspiracy" |
+| 7 | "Totoong balwarte sa Intramuros ang Baluarte de San Diego." (58), "kung saan ako dating naghatid ng pancit" (51) | real bastion of Intramuros; the pancit delivery is Episode 2's fiction | certain / fiction | https://en.wikipedia.org/wiki/Baluarte_de_San_Diego [opened]; videos/ep02-british-sa-maynila |
+| 8 | "ang tubig mula sa bibig ng dragon" (6), "na hinango lang sa Pahayag 12:15" (59) | Rev 12:15 | certain (reference only, not quoted) | SERIES.md "Whose flood"; ADB 1905 wording to check |
+| 9 | "Lakandula, ang Agos, mabilis lang kung may umaagos na" (42), "Magat Salamat, ang Lihim, hindi nakikita habang tahimik" (34), "Rajah Matanda ... ang Dagat ... isang tawid, pahinga" (38–39), "Ang Pintuan" (9) | each power and limit as in the SERIES.md datu table | fiction (labelled 59) | SERIES.md, "The twelve datu" |
+| — | everything else | shadows, wave, Tubal, Rico, nets, time stop, lamp, Kraken | fiction, labelled (59) | — |
+
+## Changes from the story chapter, and why
+- The story says Sulayman "did not retreat in 1570"; the record is that Goiti took and destroyed Maynila. The script says only that the people fought ("lumaban") and that the fort was destroyed, and the diwa's courage is shown, not claimed as a victory.
+- The lies of the shadows and the ka-Indio's answers are told in Indio's narration, not voiced, so no new voice is needed and no shadow is given a real person's manner.
+- The time stop is named only as "pinatigil ko ang oras" (the power gained in Episode 25), not tied to the Orasan, whose power in Episode 25 is to show one possible future once a season.
+- "Isang anino na walang laman" stands in for the story's "faces from billboards" in pictures: the frames show smiling masks that fall away to empty shadows, never a recognisable face.
+
+## Could not verify (open before voice)
+- Scott, *Barangay* (1994), and the Spanish accounts of the 1570 battle are cited only through Wikipedia.
+- Whether the walls of 1591–1594 stood on the exact site of the Baluarte (it is said to integrate an older fort): not spoken.
