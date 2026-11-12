@@ -1,0 +1,346 @@
+{
+ "_note": "Episode 13 (S2E5) keyframes (from Kabanata 13, story version 1). The Mass of 1521 is shown only from afar and with respect: no close-up of the priest, no mockery in the picture. Kolambu and Siagu are generic figures from the side or behind; Kolambu's diwa is light only. The Bakunawa is the folklore sea serpent; it is NOT recorded. Present-day yacht scenes have no dog; drink and strangers are shown by suggestion only, never explicit. Copied from Episode 11: full intro; char usman_growl. Shots follow sentences.json; k90+ are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {
+  "beach1521": "a palm-lined beach on a small island in 1521 at morning, calm sea, nothing modern."
+ },
+ "chars": {
+  "usman_growl": "(copied from Episode 11)"
+ },
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "bakunawa_moon": "low wide shot from a yacht deck at night: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings, rising from the sea rising out of the dark sea and swallowing a full moon, its eye glowing, tiny people on a far shore with torches. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "drunk_deck": "medium shot: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist sprawled laughing on a yacht deck lounge chair holding a phone up to film the sky, empty bottles at his feet, coloured party lights. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "yacht_arrive": "wide high-angle shot: a big white luxury yacht with a helicopter on its rear deck anchored off a small green island with a white cross on a hill, turquoise water, noon. Present-day Philippines, detailed background, no dog, no animals.",
+  "garage_22": "wide shot of a huge garage with rows of cars and motorcycles and two small private planes visible through an open hangar door beyond, gleaming, empty of people. Present-day Philippines, detailed background, no dog, no animals.",
+  "three_watches": "close-up of a young man's wrist wearing three heavy gold watches at once, a red handkerchief knotted beside them, a champagne glass in the hand.",
+  "guests_deck": "wide shot of strangers in party clothes on a sunny yacht deck at noon, laughing, glasses raised, music speakers, the island behind. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "tired_eyes": "close-up of a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist pushing up his sunglasses, red tired eyes, dark circles, forced grin, harsh noon sun. Present-day Philippines, detailed background, no dog, no animals.",
+  "bottles_noon": "close-up of many empty and half-empty bottles on a yacht table in harsh noon sunlight, a woman's hand in a long dark coat sleeve not touching them, no readable labels.",
+  "m_noon": "close-up of a young woman with long black hair in a long dark coat on a sunny yacht deck, sad, saying something quietly. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_chill": "medium shot: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist waving a hand dismissively and laughing, a glass in the other hand. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_strangers": "over-the-shoulder shot from behind a young woman with long black hair in a long dark coat looking across a crowded yacht deck full of strangers she does not know. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_toast": "low shot: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist raising a glass to a cheering crowd on deck, arms wide. Present-day Philippines, detailed background, no dog, no animals.",
+  "notebook_mass2": "close-up of a small worn notebook open, golden ink drawing itself: a cross on a hill above the sea and two crowned figures holding out food, no readable text.",
+  "cross_hill": "low-angle shot up a grassy hill at noon: a tall white cross and a historical marker plaque on a stone base at the top, a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist climbing toward it holding a bottle, no readable text. Present-day Philippines, detailed background, no dog, no animals.",
+  "jump_slow": "wide shot: a slow faint swirl of golden light, flickering and weak, around a young man and a woman on a hilltop by a white cross, the sea behind.",
+  "mazaua_shore": "very wide high view of a small green island bay at dawn in 1521: two old Spanish sailing ships at anchor, small boats on the beach, palm trees, a crowd gathering on the sand, deep perspective. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "mass_far": "wide shot from behind trees: far away on a beach, a priest in vestments at a simple wooden altar under palms, sailors in 16th-century clothes kneeling, local people standing apart, respectful, faces small, no close-ups. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "sailors_kneel": "medium shot from behind of 16th-century European sailors kneeling on sand, helmets on the ground beside them, the sea beyond, faces not visible. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "two_rajahs": "medium shot from the side and slightly behind: two local rulers in fine cloth with gold ornaments and head cloths standing together watching a ceremony on a beach, faces generic and turned away. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "butuan_link": "view through a round golden-rimmed lens: river boats of Butuan and long plank boats, a memory image; darkness outside the circle.",
+  "compact_cup": "close-up of two hands, one European and one brown with gold bracelets, holding a small cup with a drop of blood mixing in drink, a pact, no gore.",
+  "limasawa_map": "top-down view of an old hand-drawn chart showing two places with a dotted line between them and a small flame of doubt, no readable text.",
+  "gifts": "close-up of hands exchanging gifts on a beach: a woven basket of rice and a bolt of red cloth, a small mirror, warm light. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "indio_watch_trees": "seen from behind, a young Filipino man with a red headband and a plain beige tunic with a red sash and a young woman with long black hair in a long dark coat and a black dog crouching among palm trees, watching a ceremony far away on a beach. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "indio_yawn": "medium shot: a young Filipino man with a red headband and a plain beige tunic with a red sash yawning and smirking among palm trees, half lying in the grass, disrespectful and drowsy. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "usman_angry": "low close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief glaring up, ears back, scolding. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "usman_pull": "comic medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief tugging a young man by the sleeve with his teeth, dragging him away behind the trees. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "jar_house": "medium shot behind a stilt house: a big old clay jar half buried in sand under the house, a glint of bronze under it. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "fisherman_old": "medium shot: an old island fisherman with a grey beard holding up a fresh fish on a string, offering it with a sly smile, a small canoe behind him. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "watch_trade": "close-up of a young man's hand handing over an expensive gold watch to an old fisherman's weathered hand that gives back a fish.",
+  "kolambu_glow": "close-up of a round bronze medallion engraved with a fish and a balance, glowing faintly, half pulled from under a clay jar in sand.",
+  "lens_jar": "view through a round golden-rimmed lens: people burying a bronze medallion under a clay jar as tall ships appear on the horizon; darkness outside the circle.",
+  "kolambu_light": "low shot: a warm soft column of golden light rising from a small bronze medallion beside a clay jar, faintly suggesting a broad smiling man with open arms, no face, no features.",
+  "m_explain13": "medium shot: a young woman with long black hair in a long dark coat explaining calmly on a beach in 1521 light, one hand raised like weighing something. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "m_limit13": "close-up of a young woman with long black hair in a long dark coat with a firm expression, holding up a small fish as if weighing it against a coin. Detailed full background, a small green island shore in Southern Leyte in 1521, nothing modern, no weapons, not a character sheet.",
+  "yacht_values": "medium shot on a night yacht deck: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist looking around in shock as faint glowing price tags made of light float over the bottles and the guests, all showing nearly nothing, no readable numbers. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "guests_hollow": "wide shot of strangers on a yacht deck at night seen as faint grey silhouettes, hollow and pale, party lights, eerie. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "drink_again": "close-up of a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist turning away and drinking from a bottle, eyes closed, night. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "eclipse_start": "wide low shot from a yacht at night: a full moon over the sea starting to darken at one edge, the island dark, stillness. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "serpent_rise": "wide dramatic shot: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings, rising from the sea coiling up out of the sea toward the darkening moon, water pouring off its scales. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "m_whisper13": "close-up of a young woman with long black hair in a long dark coat on a yacht deck at night, eyes wide, whispering urgently, moonlight fading. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "shore_pots": "wide shot of a dark island shore at night: villagers on the beach banging pots, pans and bells, torches raised toward the eclipsed moon. Present-day Philippines, detailed background, no dog, no animals.",
+  "phone_film": "close-up of a phone screen filming a giant serpent swallowing the moon, a thumb pressing record, a laughing reflection, no readable text.",
+  "serpent_eye": "extreme close-up of a giant glowing serpent eye as big as a boat reflecting a tiny yacht.",
+  "m_wait": "two-shot: a young woman with long black hair in a long dark coat holding up a glowing crescent-moon medallion toward the sea, waiting, beside a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist who is laughing at his phone. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "sandugo_wait": "close-up of a woman's hand raising a small crescent-moon medallion glowing gold toward a huge dark shape at sea, the light fading unanswered.",
+  "indio_blind": "close-up of a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist drunk and smiling vacantly at a phone screen, the light of an eclipse on his face. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "moon_return": "wide shot: the full moon shining again over the sea, a huge tail sinking into dark water, ripples. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "m_lost": "close-up of a young woman with long black hair in a long dark coat lowering the medallion, eyes wet, moonlight. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "holo13": "medium shot at morning on a yacht: a translucent blue-gold hologram over a young man's arm, one slot glowing very dimly like a blown-out candle, no readable text.",
+  "dim_slot": "extreme close-up of a holographic circular slot with a fish symbol glowing very faintly, smoke-like, no readable text.",
+  "indio_ask13": "close-up of a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist hungover at morning, asking a question, squinting. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_silent": "medium shot: a young woman with long black hair in a long dark coat standing at the rail of a yacht at morning, looking away at the sea, silent. Present-day Philippines, detailed background, no dog, no animals.",
+  "empty_allies": "close-up of an empty holographic list panel with blank rows, no readable text, morning light behind.",
+  "limasawa_today": "wide high view of Limasawa island today: a white cross and shrine on a green hill above the sea, small houses, boats, noon.",
+  "bakunawa_old": "an old folk painting style image of a great sea serpent swallowing the moon, villagers beating gongs below, sepia, no readable text.",
+  "bells_pots": "close-up of hands beating an old bronze bell and a cooking pot under a dark eclipsed moon, motion.",
+  "notebook_fort": "close-up of a small worn notebook open, golden ink drawing itself shakily: a fort at the mouth of a river, the ink faint, no readable text.",
+  "indio_point13": "close-up: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist pointing at the viewer, tired, serious. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_ask_cam13": "medium shot: a lean young Filipino man with a black topknot in an open silk shirt, sunglasses, three gold watches, a red handkerchief on his wrist holding a gold watch up to the camera, asking a question with a bitter smile. Present-day Philippines, detailed background, no dog, no animals.",
+  "yacht_dawn": "seen from far behind: a lone young man sitting at the stern of a big yacht at dawn, bottles around him, a small island far away, long sight line. Present-day Philippines, detailed background, no dog, no animals.",
+  "heli_deck": "low shot of a helicopter on a yacht's rear deck, rotor still, sunset, a young man in sunglasses leaning on it.",
+  "plane_hangar": "wide shot of two small private jets in a hangar, shiny, untouched, plastic still on the seats.",
+  "party_lights13": "close-up of coloured party lights reflecting in spilled drink on a deck, blurred dancing feet.",
+  "priest_hands": "close-up from far behind of a priest's raised hands holding a chalice against the morning sky, very small and distant, respectful.",
+  "ship_ancient": "low shot of a 16th-century sailing ship's bow at anchor, ropes and carved wood, morning light.",
+  "waves_dark": "close-up of dark waves at night with a glitter of huge scales passing under the surface.",
+  "moon_bite": "wide shot of a moon with a dark bite taken out of it over a black sea, eerie red tint.",
+  "m_rail_night": "low shot of a young woman with long black hair in a long dark coat alone at the rail of a yacht at night, her coat blowing, the eclipsed moon behind. Detailed full background, a luxury yacht off a small green island at night, present day, no dog, nothing fantastic unless stated.",
+  "fish_coin": "close-up of a fish and a gold watch side by side on an old wooden table, sunlight.",
+  "cross_marker_cu": "close-up of a weathered stone marker plaque beside a white cross on a hill, sunlight, no readable text.",
+  "island_noon": "low wide shot from the water: a small green island with a white cross on its hill, a big white yacht anchored, glare, noon.",
+  "palm_canopy": "low shot looking up through palm fronds at a bright morning sky in 1521, birds, nothing modern.",
+  "sand_feet": "close-up of bare brown feet and leather sailor boots on wet sand at the shore, waves, 1521, nothing modern.",
+  "jar_close": "close-up of an old dark clay jar with a cracked lip half buried in sand, a crab beside it.",
+  "phone_post": "close-up of a phone screen showing a posted video with many likes and laughing emoji, no readable text.",
+  "serpent_scales": "extreme close-up of glittering silver-blue serpent scales sliding past in moonlight.",
+  "empty_glass": "close-up of a toppled empty glass on a yacht deck at dawn, a red handkerchief beside it."
+ },
+ "shots": {
+  "0": {
+   "full": "bakunawa_moon"
+  },
+  "1": {
+   "full": "drunk_deck"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "limasawa_today"
+  },
+  "4": {
+   "full": "yacht_arrive"
+  },
+  "5": {
+   "full": "garage_22"
+  },
+  "6": {
+   "full": "three_watches"
+  },
+  "7": {
+   "full": "guests_deck"
+  },
+  "8": {
+   "full": "tired_eyes"
+  },
+  "9": {
+   "full": "bottles_noon"
+  },
+  "10": {
+   "full": "m_noon"
+  },
+  "11": {
+   "full": "indio_chill"
+  },
+  "12": {
+   "full": "m_strangers"
+  },
+  "13": {
+   "full": "indio_toast"
+  },
+  "14": {
+   "full": "notebook_mass2"
+  },
+  "15": {
+   "full": "cross_hill"
+  },
+  "16": {
+   "full": "jump_slow"
+  },
+  "17": {
+   "full": "mazaua_shore"
+  },
+  "18": {
+   "full": "mass_far"
+  },
+  "19": {
+   "full": "sailors_kneel"
+  },
+  "20": {
+   "full": "two_rajahs"
+  },
+  "21": {
+   "full": "butuan_link"
+  },
+  "22": {
+   "full": "compact_cup"
+  },
+  "23": {
+   "full": "limasawa_map"
+  },
+  "24": {
+   "full": "gifts"
+  },
+  "25": {
+   "full": "indio_watch_trees"
+  },
+  "26": {
+   "full": "indio_yawn"
+  },
+  "27": {
+   "full": "usman_angry"
+  },
+  "28": {
+   "full": "usman_pull"
+  },
+  "29": {
+   "full": "jar_house"
+  },
+  "30": {
+   "full": "fisherman_old"
+  },
+  "31": {
+   "full": "watch_trade"
+  },
+  "32": {
+   "full": "kolambu_glow"
+  },
+  "33": {
+   "full": "lens_jar"
+  },
+  "34": {
+   "full": "kolambu_light"
+  },
+  "35": {
+   "full": "fish_coin"
+  },
+  "36": {
+   "full": "m_explain13"
+  },
+  "37": {
+   "full": "m_limit13"
+  },
+  "38": {
+   "full": "yacht_values"
+  },
+  "39": {
+   "full": "guests_hollow"
+  },
+  "40": {
+   "full": "drink_again"
+  },
+  "41": {
+   "full": "eclipse_start"
+  },
+  "42": {
+   "full": "serpent_rise"
+  },
+  "43": {
+   "full": "m_whisper13"
+  },
+  "44": {
+   "full": "shore_pots"
+  },
+  "45": {
+   "full": "phone_film"
+  },
+  "46": {
+   "full": "serpent_eye"
+  },
+  "47": {
+   "full": "m_wait"
+  },
+  "48": {
+   "full": "sandugo_wait"
+  },
+  "49": {
+   "full": "indio_blind"
+  },
+  "50": {
+   "full": "moon_return"
+  },
+  "51": {
+   "full": "m_lost"
+  },
+  "52": {
+   "full": "holo13"
+  },
+  "53": {
+   "full": "dim_slot"
+  },
+  "54": {
+   "full": "indio_ask13"
+  },
+  "55": {
+   "full": "m_silent"
+  },
+  "56": {
+   "full": "empty_allies"
+  },
+  "57": {
+   "char": "usman_growl",
+   "plate": "beach1521",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.55
+  },
+  "61": {
+   "full": "bakunawa_old"
+  },
+  "62": {
+   "full": "bells_pots"
+  },
+  "64": {
+   "full": "notebook_fort"
+  },
+  "65": {
+   "full": "indio_point13"
+  },
+  "66": {
+   "full": "indio_ask_cam13"
+  },
+  "67": {
+   "full": "yacht_dawn"
+  },
+  "90": {
+   "full": "heli_deck"
+  },
+  "91": {
+   "full": "plane_hangar"
+  },
+  "92": {
+   "full": "party_lights13"
+  },
+  "93": {
+   "full": "priest_hands"
+  },
+  "94": {
+   "full": "ship_ancient"
+  },
+  "95": {
+   "full": "waves_dark"
+  },
+  "96": {
+   "full": "moon_bite"
+  },
+  "97": {
+   "full": "m_rail_night"
+  },
+  "98": {
+   "full": "cross_marker_cu"
+  },
+  "99": {
+   "full": "island_noon"
+  },
+  "100": {
+   "full": "palm_canopy"
+  },
+  "101": {
+   "full": "sand_feet"
+  },
+  "102": {
+   "full": "jar_close"
+  },
+  "103": {
+   "full": "phone_post"
+  },
+  "104": {
+   "full": "serpent_scales"
+  },
+  "105": {
+   "full": "empty_glass"
+  }
+ }
+}
