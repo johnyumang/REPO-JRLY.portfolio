@@ -1,6 +1,6 @@
 # Facts — Episode 1: Ang Unang Talon (Sigaw ng Pugad Lawin, 1896) (checked 2026-11-12)
 
-**Fiction, on purpose:** Indio, his Lolo's medallion, the time jump, the talking dog, the new tattoo and the woman across the street are invented story elements. Captions say so. Indio only witnesses; nothing he does changes the events.
+**Fiction, on purpose:** Indio, his Lolo's medallion, the time jump, the talking dog, the new tattoo and the woman across the street are invented story elements. Captions say so. Indio only witnesses; nothing he does changes the events. Usman exists only during the jump and in the past; he is not in the present-day scenes.
 
 | Claim | Status | Sources |
 |---|---|---|

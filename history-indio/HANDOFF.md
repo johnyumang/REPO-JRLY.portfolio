@@ -16,6 +16,10 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 - Frames to generate from `key_prompts.json` once Figma credits reset: 10, 12, 13, 14, 15, 16, 25, 27, 35, 37 (the old k10–k14, k16, k35, k37 show the dog in the present day and must be replaced; delete old k11). After frame 15 exists, remove the `"key": 8` fallbacks in shots_fx.json (15 uses its own frame; 17 and 34 use key 15).
 - A 720p preview of the OLD version was rendered for the user to judge the look only.
 
+## UPDATE 2026-11-12 07:45 UTC — Episode 1 built from the new recording
+- The user recorded script v2; `timings.json` is aligned to it (141.6 s). Built at 1080p with DRAFT frames: k10, k12, k13, k14, k16, k37 are NVIDIA FLUX.2 klein scenery (no characters); sentences 15/17/34 reuse k08, 25 reuses k24, 27 reuses k20, 35 reuses k12, 11 reuses k07. Old k11, k25, k27, k35 were deleted.
+- To upgrade when Figma credits reset: generate 10, 12, 13, 14, 15, 16, 25, 27, 35, 37 from `key_prompts.json`, drop the matching "key" fallbacks in shots_fx.json, rebuild (same recording, no re-alignment). Voice file is not in the repo.
+
 ## What exists
 - Channel: History Indio (Tagalog/Taglish history and myth explainers, vertical, ~3 min). Branch: `claude/eager-davinci-9qu2gg`. Repo is PUBLIC: never commit MP4s or voice files.
 - Finished videos: `kanyon-na-banig` (komiks look), `bakunawa-pitong-buwan` and `limahong-1574` (anime look, user's ElevenLabs voice). Captions are in each folder's `captions.md`.

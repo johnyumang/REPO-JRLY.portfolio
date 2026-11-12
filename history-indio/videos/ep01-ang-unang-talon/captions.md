@@ -2,7 +2,7 @@
 
 ## Facebook (Reels)
 EPISODE 1: Kaninang umaga, naghahanap lang ng trabaho si Indio. Ngayong gabi, nasa 1896 na siya. ⏳🔥
-Isang lumang medalyon, isang historical marker, at isang asong-kalye na biglang nagsalita. Pagdilat niya, nasa harap na niya si Bonifacio at ang mga Katipunerong pinupunit ang kanilang cedula.
+Isang lumang medalyon, isang historical marker, at isang asong lumabas mula sa liwanag at nagsalita. Pagdilat niya, nasa harap na niya si Bonifacio at ang mga Katipunerong pinupunit ang kanilang cedula.
 
 Ito ang simula ng time-travel series ng History Indio. Kathang-isip si Indio at si Usman; totoo ang kasaysayang sinasaksihan nila.
 
@@ -37,7 +37,7 @@ EP 1 ⏳ Naghanap lang ng trabaho si Indio, napunta sa 1896. Pinunit ng mga Kati
 #historyindio #katipunan #bonifacio #sigawngpugadlawin #kasaysayan #philippinehistory #timetravel #pinoyanime #alaminnatin #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
-Episode 1: mula sa pila ng job application sa QC, hanggang sa Sigaw ng 1896. ⏳🔥 Kasama si Usman, ang asong marunong magsalita.
+Episode 1: mula sa pila ng job application sa QC, hanggang sa Sigaw ng 1896. ⏳🔥 Kasama si Usman, ang asong lumilitaw lang sa bawat talon.
 Pupunitin mo rin ba ang cedula mo? 👇
 
 #historyindio #katipunan #bonifacio #sigawngpugadlawin #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #filipinohistory #kasaysayan

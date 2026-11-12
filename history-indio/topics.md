@@ -13,7 +13,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Ang Tribong "Stone Age" na Baka Palabas Lang (Tasaday, 1971 — disputed)
 
 ## Time-travel series (Indio + Usman; see HANDOFF.md series bible)
-- [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (script v2 written: Usman only in the jump; needs a NEW recording and 10 new frames: 10, 12, 13, 14, 15, 16, 25, 27, 35, 37)
+- [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (built from the v2 recording with draft frames; upgrade frames 10, 12, 13, 14, 15, 16, 25, 27, 35, 37 with Figma, then final)
 - [ ] Episode 2: Nang Sakupin ng British ang Maynila (1762) — marker in Intramuros
 - [ ] Episode 3: Ang Kuwento ni Usman (Usman's backstory) — RESERVED: the user's team is preparing this one; do not write it, ask the user for their material
 - [ ] Episode 4: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)

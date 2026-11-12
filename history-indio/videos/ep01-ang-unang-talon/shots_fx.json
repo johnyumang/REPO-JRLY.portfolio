@@ -76,10 +76,9 @@
 },
 "13": {
 "fx": [
-"water",
-"spray"
+"water"
 ],
-"move": "pull_out"
+"move": "push_in"
 },
 "14": {
 "fx": [
@@ -160,7 +159,10 @@
 "move": "pull_out"
 },
 "25": {
-"fx": [],
+"fx": [
+"embers"
+],
+"key": 24,
 "move": "push_in"
 },
 "26": {
@@ -176,6 +178,7 @@
 "embers",
 "sparkle"
 ],
+"key": 20,
 "move": "push_in"
 },
 "28": {
@@ -223,6 +226,7 @@
 "fx": [
 "water"
 ],
+"key": 12,
 "move": "pull_out"
 },
 "36": {
