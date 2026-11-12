@@ -199,3 +199,38 @@ The treasure hunt of Season 2 runs through the Philippines' own historical place
 | 10 | 18 | Ang Sariling Dagat | Mactan and Cebu | 27 April 1521: what Pigafetta wrote and what is legend; Humabon's Cebu | Medallion of Lapulapu, "Ang Kalasag", the two won back from "sila" (Humabon, Lakandula), then the key and the anting |
 
 Famous sites that may serve as clue stops inside these episodes when the facts support it (one per episode at most, each verified first): the Tabon Caves of Palawan, Callao Cave in Cagayan, the Ifugao rice terraces, the Angono petroglyphs, the Kabayan burial caves, Corregidor.
+
+## Season 2, version 4: the medallions are scattered; Season 2 has 12 episodes (user, 2026-11-12; REPLACES version 3 and the ten-episode table)
+The user: "8 medalyon sa Pilipinas, 2 sa Asia, 1 sa Europa, 1 sa Amerika... meron din sa China dapat. Basta scattered mo." Twelve medallions: eight in the Philippines (two of them already held: the family's, Sulayman; and M's, Sikatuna), two in Asia (one of them in China), one in Europe, one in America. One find per episode, so Season 2 runs twelve episodes: two gamit and ten medallions. Every site and date must be verified in `season2/research.md` before its script is written.
+
+| S2 ep | Overall | Working title | Where the find is | True history | Find |
+|---|---|---|---|---|---|
+| 1 | 9 | Limang Tinapay | Galilee, about AD 30 | The feeding of the five thousand (four Gospels) | Gamit: ang ilawan |
+| 2 | 10 | Batang Indio | Quezon City, 2012 | The Code of Kalantiaw hoax | Gamit: ang kuwaderno ni Lolo |
+| 3 | 11 | Ang Sugo ng Butuan | Butuan (Philippines) | The balangay boats; Butuan's missions to China, 1001–1011 | Medallion of Rajah Kiling, "Ang Sugo". The first wish is spent here (see below). First hologram |
+| 4 | 12 | Ang Kasulatang Tanso | Laguna de Bay (Philippines) | The Laguna Copperplate Inscription, year 900 | Medallion of Jayadewa, "Ang Kasulatan" |
+| 5 | 13 | Ang Unang Misa | Limasawa (Philippines) | Easter 1521, Rajah Kolambu, and the Limasawa or Butuan question | Medallion of Rajah Kolambu, "Ang Kalakal" |
+| 6 | 14 | Ang Kuta sa Bunganga ng Ilog | Intramuros and Fort Santiago (Philippines) | Rajah Matanda's Maynila, 1570–1571 | Medallion of Rajah Matanda, "Ang Dagat". "Sila" strike |
+| 7 | 15 | Ang Haring Inilibing sa Tsina | Dezhou, Shandong (China) | Paduka Pahala of Sulu, his meeting with the Yongle Emperor in 1417, his tomb | Medallion of Paduka Pahala, "Ang Daan Pauwi" |
+| 8 | 16 | Ang Tapayan ng Luzon | Sakai (Japan) | Luzon jars sold to Hideyoshi in 1593/94; the Tondo conspiracy of 1587–1588 as Magat Salamat's story | Medallion of Magat Salamat, "Ang Lihim", in a jar (fiction, labelled) |
+| 9 | 17 | Ang Dinambong | London (Europe) | The British sack of Manila in 1762 and what was carried off (ties to Episode 2); Rizal's research in the British Museum in 1888–1889 | Medallion of Lakandula, "Ang Agos" |
+| 10 | 18 | Ang Unang Galeon | Acapulco, Mexico (America) | The first return voyage from Cebu to Acapulco in 1565 and the galleon trade; Rajah Tupas of Cebu | Medallion of Rajah Tupas, "Ang Piging" (Tupas replaces Humabon: his is the Cebu of 1565) |
+| 11 | 19 | Ang Tinig | Lake Lanao (Philippines) | Sultan Kudarat's speech of 1639 | Medallion of Sultan Kudarat, "Ang Tinig" |
+| 12 | 20 | Ang Sariling Dagat | Mactan (Philippines) | 27 April 1521: Pigafetta's account and the legend | Medallion of Lapulapu, "Ang Kalasag"; all twelve awake; the key and the anting |
+
+In the Philippines: Sulayman, Sikatuna, Kiling, Jayadewa, Kolambu, Matanda, Kudarat, Lapulapu (8). Asia: Paduka Pahala in China, Magat Salamat in Japan (2). Europe: Lakandula in London (1). America: Tupas in Mexico (1). The trips abroad are made in the present day, to the place where the medallion lies now; what happened there long ago is seen through the lens. Nothing is stolen from a museum or a grave: a medallion is always found outside the collection (in a crate never opened, under a floor, in a wall), and the episode says so.
+
+## How Indio's powers grow (user, 2026-11-12)
+The user: in time Indio no longer needs the medallion to travel; he can stop time when he wants, above all when he is solving a puzzle; problems that look impossible are solved by going back in time to find the answer; he can move from place to place; and he can bring Usman into the present and the future. As a ladder shown on the hologram:
+1. Season 1: jumps only with the family medallion, by reading a marker aloud.
+2. Season 2: jumps with M on her medallion; each medallion found adds one power, each used on screen.
+3. End of Season 2 (the seventh mark, the anting): jumps without reading a marker.
+4. Middle of Season 3: he can hold time still for a few breaths while he solves a puzzle.
+5. After the marks bleed (Season 3 Episode 9): he needs no medallion at all; he moves through time and place at will, and he can bring Usman into the present and the future.
+Use the "go back and find the answer" device from Season 2 on: set a puzzle the viewer cannot see a way through, then let Indio fetch the answer from the past.
+
+## The three wishes, final (user, 2026-11-12; replaces the earlier proposal)
+1. **Wealth.** In Season 2 Episode 3, with no fare for the trip, Indio spends the first wish on being rich, so that he can travel anywhere (the user: people must not be left asking where a jobless man gets the money to travel). Play it for humour and for his arc (the man who asked followers for "pang-gas, kahit bente lang").
+2. One night in which everyone is safe (final season).
+3. The first paradise (the ending).
+Usman's crossing into the present is no longer a wish: it comes from Indio's own power (ladder step 5). The star no longer has to wait for the twelve before granting a wish.
