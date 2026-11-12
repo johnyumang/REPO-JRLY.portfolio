@@ -1,3 +1,36 @@
+# Facts — Episode 8: Ang Huling Tala (Kawit, 12 June 1898, seen from the back) (script checked 2026-11-12)
+
+**Fiction, on purpose:** Indio (José Indalecio Bracken, proposed name), Usman, the earlier Indio and the second Usman at the front of the crowd, the 529-day wait and Indio's bakery job, M, her five fingers as a count, her own medallion, the toddler and his family, the family medallion and the diwa in it, the one Sulayman line, the red umbrella and what is inside it, "ang Huling Tala" (star medallion, three wishes, the kasulatan/map with twelve points), the lens, the watcher in the crowd ("sila"), the sixth mark, the first point lighting far to the west. Also fiction (series premise): that Indio descends from the son of José Rizal and Josephine Bracken; real record: that son was born prematurely in Dapitan and did not survive, and Rizal has no known descendants (sources in `../ep07-ang-sulat-ni-lolo/facts.md`).
+
+**The one invented line for a real person (approved exception, Canon v2 rule 5):** "Mahigit tatlong daang taon akong naghintay sa araw na ito." spoken by the diwa of Rajah Sulayman of Maynila. Label: "Kathang-isip ang diwa sa medalyon at ang linyang sinabi niya; walang ganoong salitang naitala mula kay Rajah Sulayman." Arithmetic behind it: Spanish Manila set up 24 June 1571 to 12 June 1898 = more than 300 years (`datu_notes.md` §1, §6).
+
+**Witness rule:** Indio only watches from the back of the crowd; no real person speaks; the Acta is paraphrased as "Nakasulat sa Akta". The order of the reading, the flag and the march is never implied (unresolved; see "Could not verify" below), and the script does not say who waved the flag except in the fairness beat, as disputed.
+
+**Status key:** sources marked [summary] were seen only as search-result summaries, not opened; "WP: X (raw, 2026-11-12)" means the Wikipedia article was opened in full that day. The row numbers (A1, B6 ...) refer to the research base below.
+
+## Claims the script actually speaks
+
+| # | Spoken (sentence no. in sentences.json) | Claim | Status (from the research base) | Sources |
+|---|---|---|---|---|
+| 1 | "529 na araw akong walang medalyon." (4) | 30 Dec 1896 to 12 Jun 1898 = 529 days | arithmetic (Python datetime) | "The count" below |
+| 2 | "Linggo, Hunyo 12, 1898, sa pagitan ng alas-kuwatro at alas-singko ng hapon." (7) | Sunday; proclaimed between 4 and 5 pm | A2 certain (calendar); A1 certain (secondary; no primary seen) | WP: Philippine Declaration of Independence (raw, 2026-11-12); independenceday.ph [summary]; philippinereporter.com/?p=35596 [summary]; calendar arithmetic |
+| 3 | "Nakasulat sa Akta: lalaya tayo sa ilalim ng proteksyon ng makapangyarihang Amerika." (8) | The Acta proclaims independence under the protection of the "Mighty and Humane North American Nation"; protection, not cession | A5 certain that the clause exists (exact Spanish not checked against the facsimile; no Spanish on screen) | Ocampo, opinion.inquirer.net/75493 [summary]; Ocampo, opinion.inquirer.net/54467 [summary]; es.wikisource transcription [summary]; Rafael, CSSH abstract [summary]; WP: Philippine Declaration of Independence (raw, 2026-11-12) |
+| 4 | "Anim na buwan lang, isusuko tayo ng Espanya sa Paris." (9) | 181 days later, 10 Dec 1898, Spain ceded the Philippines in the Treaty of Paris (Episode 5 says "anim na buwan") | B6 certain (181 is arithmetic) | WP: Treaty of Paris (1898) (raw, 2026-11-12); WP: Hong Kong Junta (raw, 2026-11-12); `../ep05-dalawampung-milyon/facts.md` |
+| 5 | "Iisang Amerikano ang pumirma, si Johnson, hindi sugo ng Amerika." (10) | One foreign signer, "Mr. L. M. Johnson", with no official US role | A8 certain that he signed and had no official role; his background is weak and is not spoken | WP: Philippine Declaration of Independence (raw, 2026-11-12; quotes Worcester 1914); Ocampo, "The mysterious Colonel Johnson", opinion.inquirer.net/121922 (12 Jun 2019) [summary] |
+| 6 | "Wala si Dewey o ang mga opisyal niya." (11) | Dewey and his officers were not present | A9 certain that he was absent ("invited and declined", "mail day" are weak and NOT spoken) | WP: Philippine Declaration of Independence (raw, 2026-11-12; Worcester 1914 note); philstar.com 2023/02/12/2244366 [summary]; history.navy.mil Dewey Senate testimony [summary] |
+| 7 | "Isa sa tatlong nanahi ng watawat si Delfina Herbosa, labingwalong taon, pamangkin ni Rizal." (12) | Three sewed the flag in Hong Kong (Marcela, Lorenza, Delfina); Delfina born 20 Dec 1879, so 18; Rizal's niece through his sister Lucía | A14 certain; A15 certain | WP: Marcela Agoncillo; WP: Delfina Herbosa de Natividad; WP: Lorenza Agoncillo; WP: Flag of the Philippines (all raw, 2026-11-12); dfa.gov.ph news 34831 [summary] |
+| 8 | "Tiyak: ang petsa't oras, ang Akta, si Johnson, si Delfina." (27) | Summary of rows 2, 3, 5, 7 | as above | as above |
+| 9 | "Pinagtatalunan: kung sino ang nagwagayway ng watawat." (28) | NHCP (via Inquirer) and GMA say Bautista; other accounts say Aguinaldo | A4 disputed | newsinfo.inquirer.net/1289583 (2020) [summary]; gmanetwork.com 834627 (2022) [summary]; WP: Ambrosio Rianzares Bautista; WP: Flag of the Philippines; WP: Lorenza Agoncillo (raw, 2026-11-12) |
+| 10 | "Totoo si Rajah Sulayman ng Maynila: lumaban sa Espanyol noong 1570, hindi namatay sa Bangkusay." (30) | Real co-ruler of Maynila; fought Goiti's force on 24 May 1570; the Bangkusay leader (1571) was an unnamed Macabebe youth (NHCP marker, 2016); Sulayman is recorded alive in 1572 | certain (`datu_notes.md` §1). The 1574 revolt is NOT spoken: not yet checked in a primary source | WP: Rajah Sulayman; WP: Battle of Manila (1570); WP: Maynila (historical polity); WP: Rajah Matanda; WP: Tarik Sulayman; WP: Battle of Bangkusay (all raw, 2026-11-12, citing the 1572 Relación in B&R vol. 3, Scott 1994, Dery 2001); Inquirer "NHCP corrects error over true hero of Battle of Bangkusay" (2016) [summary]; BusinessMirror (4 Jun 2016) [summary] |
+| 11 | "Mahigit tatlong daang taon akong naghintay sa araw na ito." (17) | FICTION (labelled). Only the arithmetic is real: 1571 to 1898 is more than 300 years | fiction / arithmetic | `datu_notes.md` §6 |
+| — | "Ito pala ang pinanggalingan", the loop, M, the umbrella, the map (13–25, 31–33) | fiction | fiction (labelled in sentence 29, captions and pinned comment) | — |
+
+Not spoken (kept out on purpose): the order of reading, flag and march; who waved the flag as fact; Johnson's past; Dewey's invitation; Mabini's arrival; Lorenza's age; the 1574 revolt; the march having no words (A19) and Independence Day on 4 July until 1962 (B9) were drafted and cut for length (both certain; free for captions).
+
+---
+
+## Research base (fact researcher, 2026-11-12; unchanged below)
+
 This is the research base for Episode 8, written BEFORE the script (fact researcher, 2026-11-12). The writers may only use history that is in this file.
 
 # Facts — Episode 8: Ang Huling Tala (Kawit, 12 June 1898, seen "from the other side"; the 529 days before it; what became of it)

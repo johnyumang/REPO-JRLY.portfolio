@@ -1,0 +1,228 @@
+{
+"0": {
+"fx": [
+"punch",
+"flash"
+],
+"move": "push_in",
+"keys": [
+0,
+16,
+32
+]
+},
+"1": {
+"fx": [],
+"move": "push_in"
+},
+"2": {
+"fx": [],
+"move": "push_in"
+},
+"3": {
+"fx": [],
+"move": "pull_out",
+"key": 2
+},
+"4": {
+"fx": [],
+"move": "push_in"
+},
+"5": {
+"fx": [],
+"move": "push_in"
+},
+"6": {
+"fx": [],
+"move": "pan_right"
+},
+"7": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"8": {
+"fx": [],
+"move": "push_in"
+},
+"9": {
+"fx": [
+"aura_red"
+],
+"move": "push_in"
+},
+"10": {
+"fx": [],
+"move": "push_in"
+},
+"11": {
+"fx": [],
+"move": "pan_right"
+},
+"12": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"13": {
+"fx": [],
+"move": "push_in",
+"keys": [
+13,
+52
+]
+},
+"14": {
+"fx": [],
+"move": "push_in"
+},
+"15": {
+"fx": [],
+"move": "push_in"
+},
+"16": {
+"fx": [
+"aura_gold",
+"sparkle"
+],
+"move": "push_in"
+},
+"17": {
+"fx": [
+"aura_gold",
+"sparkle",
+"flash"
+],
+"move": "tilt_up"
+},
+"18": {
+"fx": [],
+"move": "push_in",
+"keys": [
+18,
+50
+]
+},
+"19": {
+"fx": [],
+"move": "push_in"
+},
+"20": {
+"fx": [],
+"move": "push_in"
+},
+"21": {
+"fx": [
+"aura_red"
+],
+"move": "push_in"
+},
+"22": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"23": {
+"fx": [
+"aura_gold",
+"sparkle"
+],
+"move": "push_in"
+},
+"24": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"25": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"26": {
+"fx": [],
+"move": "push_in"
+},
+"27": {
+"fx": [],
+"move": "push_in",
+"keys": [
+8,
+10,
+12
+]
+},
+"28": {
+"fx": [],
+"move": "tilt_up"
+},
+"29": {
+"fx": [],
+"move": "push_in",
+"keys": [
+13,
+14,
+17
+]
+},
+"30": {
+"fx": [],
+"move": "pull_out",
+"key": 53
+},
+"31": {
+"fx": [],
+"move": "push_in"
+},
+"32": {
+"fx": [
+"aura_gold",
+"flash",
+"shake"
+],
+"move": "push_in",
+"keys": [
+32,
+51
+]
+},
+"33": {
+"fx": [
+"aura_gold",
+"sparkle",
+"punch"
+],
+"move": "push_in"
+},
+"34": {
+"fx": [],
+"move": "push_in"
+},
+"35": {
+"fx": [],
+"move": "push_in"
+},
+"36": {
+"fx": [],
+"move": "pull_out",
+"key": 24
+},
+"37": {
+"fx": [
+"sparkle",
+"aura_gold",
+"punch"
+],
+"move": "push_in",
+"keys": [
+35,
+33,
+51
+]
+}
+}
