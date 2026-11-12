@@ -16,6 +16,7 @@
 | A8 | No archaeological city has been found; present-day classicists treat it as fiction (the inspiration, such as the Thera eruption, is debated) | confirmed | WP "Atlantis" ("present-day philologists and classicists agree on the story's fictional nature"); season3/research.md §4 |
 | A9 | The idea of Atlantis as real history became popular in the 19th century, chiefly through Ignatius Donnelly, *Atlantis: The Antediluvian World* (1882). Donnelly popularised it but did not start it: earlier writers already treated it as real (López de Gómara linked it to the Americas in the 1500s; Athanasius Kircher mapped it as a real Atlantic island in *Mundus Subterraneus*, 1665; Olof Rudbeck's *Atlantica*, 1679–1702, argued Sweden was Atlantis). Sentence 55 says "sumikat" (became popular), not "lang" (only then) | confirmed (corrected after the independent check) | WP "Atlantis" § Early modern; WP "Olaus Rudbeck"; Kircher, *Mundus Subterraneus* (1665); Rudbeck, *Atlantica* (Uppsala, 1679–1702); WP "Ignatius L. Donnelly" (read 2026-11-12); season3/research.md §4 |
 | A10 | The kraken is a sea monster of Scandinavian (Norwegian) sailors' lore, first described in a Norwegian glossary in 1646, made famous by Pontoppidan (1752–53) | confirmed as folklore, labelled; not from Plato | WP "Kraken" (read 2026-11-12) |
+| A11 | Biringan is an invisible city of Samar folklore; it is labelled as folklore at sentence 56 ("alamat ng Samar ang Biringan") and in the caption fairness lines (added after the independent check) | folklore, labelled | history-indio/SERIES.md (lines 116, 145, 336: Biringan from Samar folklore, must be labelled) |
 
 **Corrections to the story chapter (version 1):**
 - The chapter's "mga apat na raan at animnapung taon bago si Kristo" is wrong: Plato wrote about **360 BC**.
@@ -24,6 +25,6 @@
 **Fiction (labelled):** the portal, the queen, Sinag, the cup and the bed, the net on the kraken, the pact, Ma'am Celia's video call, and everything Indio, M and Usman do there.
 
 ## Where each claim is spoken (script version 1, 760 words, 65 sentences)
-- A1: sentences 6 (GURO) and 52. A2: 7 (GURO, "Sabi sa kuwento ... daw"). A4: 12–14 (the rings, walls of brass, tin and orichalcum, the temple). A5: 32–33. A6: 34. A7: 35. A8: 8 (GURO) and 53. A9: 55 ("Ignatius Donnelly"). Inspiration debated (Thera): 54. A10 (kraken): 39 (M) and 56.
+- A1: sentences 6 (GURO) and 52. A2: 7 (GURO, "Sabi sa kuwento ... daw"). A4: 12–14 (the rings, walls of brass, tin and orichalcum, the temple). A5: 32–33. A6: 34. A7: 35. A8: 8 (GURO) and 53. A9: 55 ("Ignatius Donnelly"). Inspiration debated (Thera): 54. A10 (kraken): 39 (M) and 56. A11 (Biringan, Samar folklore): labelled at 56, named at 59.
 - The fiction label is at sentence 57 (the queen, Sinag, the armour, the portal). Fiction from version 2 of the story: "Ang Binti ng Atlantis", a greave of bronze and orichalcum (44, 46). The metal is named in the *Critias* (A4); the greave itself is fiction.
 - Usman appears only inside the portal (sentence 11 on) and vanishes on the way out (58). The present-day call with Ma'am Celia has no dog.
