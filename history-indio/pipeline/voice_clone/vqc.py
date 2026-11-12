@@ -93,6 +93,16 @@ def first_ok(want, heard):
     """First word heard right: same-length prefix of phon(text) and phon(heard) (phon merges across word boundaries, so compare both in context)."""
     ws = [w for w in norm_words(want) if phon(w)]; n = len(phon(ws[0])) if ws else 0; return n > 0 and phon(want)[:n] == phon(heard)[:n]
 def rms_db(y): return float(20 * np.log10(np.sqrt(np.mean(np.square(y))) + 1e-9)) if len(y) else -99.0
+def speech_edges(y, sr, st, en, back=0.5, fwd=0.6, rel=-35.0):
+    """Where the sound really starts and ends around the aligned words [st, en] (s): walk out from them while 10 ms frames stay
+    within `rel` dB of the speech level (the aligner often starts an exclamation like 'Uy!' late)."""
+    h = int(0.01 * sr); f = np.array([np.sqrt(np.mean(y[i:i + h] ** 2)) + 1e-9 for i in range(0, len(y) - h, h)]); db = 20 * np.log10(f)
+    lvl = np.percentile(db[int(st / 0.01):max(int(st / 0.01) + 1, int(en / 0.01))], 75); thr = lvl + rel
+    a = int(st / 0.01); lo = max(0, a - int(back / 0.01))
+    while a > lo and db[a - 1] > thr: a -= 1
+    b = min(len(db) - 1, int(en / 0.01)); hi = min(len(db) - 1, int(en / 0.01) + int(fwd / 0.01))
+    while b < hi and db[b + 1] > thr: b += 1
+    return a * 0.01, (b + 1) * 0.01
 def take_metrics(wav, text, emb=True):
     """All checks of one generated take (used by the Season 2 cast and multi-speaker path; qcsel.py keeps its own).
     words, clarity, speed, pitch, clipping, longest pause between words, noise before/after, speaker embedding."""
@@ -103,8 +113,10 @@ def take_metrics(wav, text, emb=True):
     r = lambda x: float(np.sqrt(np.mean(x ** 2)) / b) if len(x) > 160 else 0.0
     gaps = [W[i + 1]['start'] - W[i]['end'] for i in range(len(W) - 1) if W[i + 1]['start'] is not None and W[i]['end'] is not None]
     h = asr(y); f0, f0sd = f0_stats(body)
+    e0, e1 = speech_edges(y, 16000, st, en); conf2 = [w['conf'] for w in W if len(w['w']) > 1] or conf   # one-letter interjections ('E', said 'Eh') align to 2-3 frames: no usable confidence
     m = dict(dur=round(len(y) / 16000, 2), rate=round(syllables(text) / max(.2, en - st), 2), edits=edits(text, h), first_ok=first_ok(text, h),
-             cmatch=round(cmatch(text, h), 3), match=round(match(text, h), 3), conf=round(float(np.mean(conf)), 3), minconf=round(float(min(conf)), 3),
+             cmatch=round(cmatch(text, h), 3), match=round(match(text, h), 3), conf=round(float(np.mean(conf)), 3), minconf=round(float(min(conf2)), 3),
+             onset=round(e0, 3), offset=round(e1, 3), pre_s=round(st - e0, 3), post_s=round(e1 - en, 3),
              low=[(w['w'], round(w['conf'], 2)) for w in W if w['conf'] < 0.4], clip=round(float(np.mean(np.abs(yo) >= 0.99)), 5), peak=round(float(np.abs(yo).max()), 3),
              maxgap=round(max(gaps) if gaps else 0.0, 2), lead=round(r(y[:max(0, int((st - 0.04) * 16000))]), 3), trail=round(r(y[int((en + 0.10) * 16000):]), 3),
              f0=f0, f0sd=f0sd, rms=round(rms_db(body), 1), heard=h, first=round(st, 3), last_end=round(en, 3),

@@ -77,7 +77,8 @@ def checks(m, c, rf0):
         if m['conf'] < 0.82 or m['minconf'] < 0.30: p.append('unclear')
         if m['spk'] < SPK_CAST: p.append('speaker')
     if not (4.3 <= m['rate'] <= 7.4): p.append('speed')
-    if m['lead'] > 0.12 or m['trail'] > 0.12: p.append('edge noise')
+    if c['speaker'] == VP.NARRATOR and (m['lead'] > 0.12 or m['trail'] > 0.12): p.append('edge noise')
+    if c['speaker'] != VP.NARRATOR and (m['pre_s'] > 0.35 or m['post_s'] > 0.45): p.append('sound outside the words')
     if m['clip'] > 1e-4: p.append('clipping')
     if m['maxgap'] > 0.8: p.append('long silence')
     return p
@@ -120,7 +121,7 @@ def assemble(work, outp):
         ch = CH.get(str(c['id']))
         if not ch: sys.exit('chunk %d has no take: run gen_ms.py and ms.py qc first' % c['id'])
         m = json.load(open(ch['wav'][:-4] + '.json')); y, sr = sf.read(ch['wav'], dtype='float32'); assert sr == SR
-        W = m['words']; st = max(0.0, W[0][1] - 0.04); en = min(len(y) / sr, W[-1][2] + 0.12); seg = y[int(st * sr):int(en * sr)].copy(); k = 1.0
+        W = m['words']; st = max(0.0, min(W[0][1] - 0.04, m.get('onset', 9) - 0.03)); en = min(len(y) / sr, max(W[-1][2] + 0.12, m.get('offset', 0) + 0.08))   # energy edges: the aligner starts exclamations late; seg = y[int(st * sr):int(en * sr)].copy(); k = 1.0
         if m['rate'] > 6.9:
             k = 6.3 / m['rate']; seg = ff(seg, sr, f'rubberband=tempo={k:.4f}:pitchq=quality:formant=preserved')
         body = seg[int(0.04 * sr):len(seg) - int(0.12 * sr)]; g = float(np.clip(LEVEL.get(c['style'], LDEF) - vqc.rms_db(body), -12, 12)); seg *= 10 ** (g / 20)
