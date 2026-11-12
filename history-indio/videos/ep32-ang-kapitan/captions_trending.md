@@ -14,7 +14,7 @@ Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kan
 S4 EP 32: Ang Kapitan
 Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder? 🏚️
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 #HistoryIndio #Barangay #Kawit #Season4 #PinoyAnime
 
@@ -28,7 +28,7 @@ Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kan
 EP 32: Ang Kapitan
 Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder?
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 #HistoryIndio #Barangay #Kawit #Season4 #PinoyAnime
 
@@ -37,7 +37,7 @@ kung saan napunta ang bawat piso.
 kung saan napunta ang talatang binura.
 Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kanal sa harap ng lahat. 🏚️
 EP 32. Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder?
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 #historyindio #kasaysayan #fyp
 
@@ -51,11 +51,11 @@ kung saan napunta ang talatang binura.
 
 Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kanal sa harap ng lahat.
 Totoo: Ayon sa Local Government Code (R.A. 7160, sek. 39), labingwalong taon ang pinakamababang edad ng punong barangay sa araw ng halalan. Galing ang salitang barangay sa balangay, isang uri ng bangka. Isinulat ni Juan de Plasencia ang ulat sa mga kaugalian ng mga Tagalog noong 1589, at ginamit ito ng mga Espanyol sa paglilitis. Pinagtatalunan: sabi ng historyador na si Damon Woods (2017), baka hindi "barangay" ang tawag ng mga Tagalog sa sarili nilang pamayanan (Wikipedia: Barangay, Juan de Plasencia).
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder? I-comment sa baba.
 
 #HistoryIndio #Shorts
 
 ## Pinned comment
-Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kanal sa harap ng lahat. Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder? Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin.
+Kawit: sa ilalim ng pader-baha, mga lumang sako lang. kaya hinukay namin ang kanal sa harap ng lahat. Kung ikaw ang kapitan bukas, ano ang una mong bubuksan na folder? Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip sina Kap Ramil Samonte, ang Alcaín Builders, ang pader-baha at ang mga papel nito, sina Ma'am Celia, Bea, JM, Rico Bulan, Sinag at Tala, at ang eksena sa baybayin. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
