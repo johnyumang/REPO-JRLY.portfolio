@@ -7,8 +7,8 @@
   "pause": 0.3
  },
  {
-  "text": "Isang batang lalaki sa Calamba, na ang palayaw, Pepe.",
-  "say": "isang batang lalaki sa kalamba, na ang palayaw, pepe.",
+  "text": "Isang batang lalaki sa Calamba, Pepe ang palayaw.",
+  "say": "isang batang lalaki sa kalamba, pepe ang palayaw.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3
@@ -28,8 +28,8 @@
   "pause": 0.62
  },
  {
-  "text": "Pag-uwi ko sa totoong mundo, wala si Usman.",
-  "say": "pag-uwi ko sa totoong mundo, wala si usman.",
+  "text": "Pagbalik ko sa panahon ko, wala si Usman.",
+  "say": "pagbalik ko sa panahon ko, wala si usman.",
   "style": "somber",
   "pre": 0,
   "pause": 0.3
@@ -63,8 +63,8 @@
   "pause": 0.3
  },
  {
-  "text": "Kaya ngayong day off ko, sinadya ko ang Rizal Shrine.",
-  "say": "kaya ngayong dey op ko, sinadya ko ang risal shrayn.",
+  "text": "Kaya ngayong day off ko, sinadya ko ang Rizal Shrine, par.",
+  "say": "kaya ngayong dey op ko, sinadya ko ang risal shrayn, par.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -105,8 +105,8 @@
   "pause": 0.3
  },
  {
-  "text": "Hinabol ko siya, lampas ng palengke, lampas ng simbahan.",
-  "say": "hinabol ko siya, lampas ng palengke, lampas ng simbahan.",
+  "text": "Hinabol ko siya, lampas sa palengke, lampas sa simbahan.",
+  "say": "hinabol ko siya, lampas sa palengke, lampas sa simbahan.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3
@@ -140,8 +140,8 @@
   "pause": 0.3
  },
  {
-  "text": "Ayon sa mga talambuhay niya, may aso siyang ang pangalan, Usman.",
-  "say": "ayon sa mga talambuhay niya, may aso siyang ang pangalan, usman.",
+  "text": "Ayon sa mga talambuhay niya, may aso siyang Usman ang pangalan.",
+  "say": "ayon sa mga talambuhay niya, may aso siyang usman ang pangalan.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
@@ -154,8 +154,8 @@
   "pause": 0.3
  },
  {
-  "text": "Dito rin siya tinuruang bumasa ng nanay niya, at ikinuwento sa kanya ang gamu-gamong lumapit sa apoy.",
-  "say": "dito rin siya tinuruang bumasa ng nanay niya, at ikinuwento sa kanya ang gamu-gamong lumapit sa apoy.",
+  "text": "Dito rin siya tinuruang bumasa ng nanay niya, na nagkuwento sa kanya ng gamu-gamong lumapit sa apoy.",
+  "say": "dito rin siya tinuruang bumasa ng nanay niya, na nagkuwento sa kanya ng gamu-gamong lumapit sa apoy.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
@@ -203,8 +203,8 @@
   "pause": 0.3
  },
  {
-  "text": "Ang totoo: may aso si Rizal na Usman, at umalis siya papuntang Biñan noong 1869.",
-  "say": "ang totoo: may aso si risal na usman, at umalis siya papuntang binyan noong mil otso syentos sisentay nuwebe.",
+  "text": "Ang tiyak, ayon sa mga talambuhay: may asong Usman si Rizal, at umalis siya papuntang Biñan noong 1869.",
+  "say": "ang tiyak, ayon sa mga talambuhay: may asong usman si risal, at umalis siya papuntang binyan noong mil otso syentos sisentay nuwebe.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -217,15 +217,15 @@
   "pause": 0.3
  },
  {
-  "text": "Walang orihinal na manuskrito, at 1906 lang ito unang nalathala.",
-  "say": "walang orihinal na manuskrito, at mil nuwebe syentos sais lang ito unang nalathala.",
+  "text": "Walang orihinal na sulat-kamay niya, at 1906 lang ito unang nalathala.",
+  "say": "walang orihinal na sulat-kamay niya, at mil nuwebe syentos sais lang ito unang nalathala.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "At ang kathang-isip: ang paalam sa tarangkahan, at na ang Usman ko at ang Usman niya ay iisa.",
-  "say": "at ang kathang-isip: ang paalam sa tarangkahan, at na ang usman ko at ang usman niya ay iisa.",
+  "text": "At ang kathang-isip: ang yakap at paalam sa tarangkahan, at ang pagiging iisa ng Usman ko at ng Usman niya.",
+  "say": "at ang kathang-isip: ang yakap at paalam sa tarangkahan, at ang pagiging iisa ng usman ko at ng usman niya.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3
@@ -273,15 +273,15 @@
   "pause": 0.3
  },
  {
-  "text": "May pang-apat na akong tattoo.",
-  "say": "may pang-apat na akong tatu.",
+  "text": "May pang-apat na akong tattoo, angas.",
+  "say": "may pang-apat na akong tatu, angas.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Tapos nag-text si Lola: apo, kadugo natin ang batang 'yan.",
-  "say": "tapos nag-text si lola: apo, kadugo natin ang batang yan.",
+  "text": "Tapos nag-text si Lola: apo, nabasa ko na ang lumang sulat ni Lolo, kadugo natin si Pepe.",
+  "say": "tapos nag-text si lola: apo, nabasa ko na ang lumang sulat ni lolo, kadugo natin si pepe.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.62

@@ -112,15 +112,15 @@
   "pause": 0.3
  },
  {
-  "text": "Ang gulat ng Maynila?",
-  "say": "ang gulat ng maynila?",
+  "text": "Ang nakakagulat?",
+  "say": "ang nakakagulat?",
   "style": "curious",
   "pre": 0,
   "pause": 0.42
  },
  {
-  "text": "Hindi pa nila alam na may giyera na pala ang Espanya at Britanya.",
-  "say": "hindi pa nila alam na may giyera na pala ang espanya at britanya.",
+  "text": "Hindi pa alam ng Maynila na may giyera na pala ang Espanya at Britanya.",
+  "say": "hindi pa alam ng maynila na may giyera na pala ang espanya at britanya.",
   "style": "",
   "pre": 0,
   "pause": 0.3
@@ -245,8 +245,8 @@
   "pause": 0.3
  },
  {
-  "text": "Ang hindi malinaw: magkano talaga ang nabayaran sa hinihingi nila.",
-  "say": "ang hindi malinaw: magkano talaga ang nabayaran sa hinihingi nila.",
+  "text": "Ang hindi malinaw: magkano talaga ang nabayaran sa hiningi nila.",
+  "say": "ang hindi malinaw: magkano talaga ang nabayaran sa hiningi nila.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3
