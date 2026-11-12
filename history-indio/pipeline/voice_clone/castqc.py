@@ -6,9 +6,22 @@ clipping, long silences, speed outside about 5 to 6.5 syllables/s, pitch outside
 import os, sys, json, glob, numpy as np, soundfile as sf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import vqc, vprofile as VP
 D = json.load(open(os.path.join(VP.HERE, 'cast_design.json'))); a = sys.argv[1:]
-MAXSIM = 0.88            # a kept voice must be below this speaker similarity to Indio and to every other kept voice
+MAXSIM = 0.90            # a kept voice must be below this speaker similarity to Indio and to every other kept voice
+                         # (WavLM x-vector; the real Indio recording scores 0.917-0.99 against itself, Indio clone takes must reach 0.915)
+GAP_MAX, GAP_TO = 0.55, 0.45   # pauses between words longer than GAP_MAX are shortened to GAP_TO in the kept reference
 REF_LEVEL_DB = -20.0     # speech RMS of a kept reference clip
 def measure(wav, text): return vqc.take_metrics(wav, text)
+def build_ref(wav, text, out):
+    """The clip a character keeps: trimmed to its words (0.06 s before, 0.25 s after), long pauses shortened, speech level set, faded."""
+    y, sr = sf.read(wav, dtype='float32'); W = vqc.words(vqc.load16(wav), text); keep = []; t0 = max(0.0, W[0]['start'] - 0.06)
+    for a, b in zip(W[:-1], W[1:]):
+        if b['start'] - a['end'] > GAP_MAX:
+            keep.append((t0, a['end'] + GAP_TO / 2)); t0 = b['start'] - GAP_TO / 2
+    keep.append((t0, min(len(y) / sr, W[-1]['end'] + 0.25))); parts = []
+    for a, b in keep:
+        z = y[int(a * sr):int(b * sr)].copy(); n = int(0.012 * sr); z[:n] *= np.linspace(0, 1, n); z[-n:] *= np.linspace(1, 0, n); parts.append(z)
+    y = np.concatenate(parts); body = y[int(0.06 * sr):len(y) - int(0.25 * sr)]; y *= 10 ** ((REF_LEVEL_DB - vqc.rms_db(body)) / 20); y = np.clip(y, -0.97, 0.97)
+    sf.write(out, y, sr, subtype='PCM_16'); return len(keep) - 1
 def problems(m, c, ref=True):
     p = []
     if m['edits'] > VP.PROFILE['max_edits'] or not m['first_ok'] or m['cmatch'] < 0.88: p.append('words')
@@ -41,7 +54,9 @@ if '--samples' in a:
     json.dump(out, open(os.path.join(VP.CASTWORK, 'samples_qc.json'), 'w'), ensure_ascii=False, indent=1); sys.exit()
 allm = {}
 for name, c in D['cast'].items():
-    for w in sorted(glob.glob(os.path.join(VP.CASTWORK, VP.fname(name), 'd*s*.wav'))):
+    for w0 in sorted(glob.glob(os.path.join(VP.CASTWORK, VP.fname(name), 'd[0-9]s[0-9].wav'))):
+        w = w0[:-4] + '.ref.wav'
+        if not os.path.exists(w) or os.path.getmtime(w) < os.path.getmtime(w0): build_ref(w0, c['ref_text'], w)
         m = cached(w, c['ref_text']); m['problems'] = problems(m, c); m['score'] = round(score(m), 4); m['wav'] = w; allm.setdefault(name, []).append(m); row(name, m, os.path.basename(w)[:-4])
 # keep: best passing candidate per character that is clearly different from Indio and from the voices already kept
 chosen = {}; missing = []
@@ -52,10 +67,7 @@ for name in sorted(allm, key=lambda n: sum(not m['problems'] for m in allm[n])):
     else: missing.append(name)
 os.makedirs(VP.CAST, exist_ok=True); emb = {}
 for name, m in chosen.items():
-    y, sr = sf.read(m['wav'], dtype='float32'); s0, s1 = max(0, int((m['first'] - 0.06) * sr)), min(len(y), int((m['last_end'] + 0.25) * sr)); y = y[s0:s1].copy()
-    body = y[int(0.06 * sr):len(y) - int(0.25 * sr)]; y *= 10 ** ((REF_LEVEL_DB - vqc.rms_db(body)) / 20); y = np.clip(y, -0.97, 0.97)
-    n1, n2 = int(0.01 * sr), int(0.05 * sr); y[:n1] *= np.linspace(0, 1, n1); y[-n2:] *= np.linspace(1, 0, n2)
-    p = os.path.join(VP.CAST, VP.fname(name)); sf.write(p + '.wav', y, sr, subtype='PCM_16'); open(p + '.txt', 'w').write(D['cast'][name]['ref_text'] + '\n')
+    p = os.path.join(VP.CAST, VP.fname(name)); y, sr = sf.read(m['wav'], dtype='float32'); sf.write(p + '.wav', y, sr, subtype='PCM_16'); open(p + '.txt', 'w').write(D['cast'][name]['ref_text'] + '\n')
     e = vqc.spk(vqc.load16(p + '.wav')); emb[name] = dict(emb=e.tolist(), f0=m['f0'], rate=m['rate'], source=os.path.basename(m['wav']),
                                                          description=D['cast'][name]['descriptions'][int(os.path.basename(m['wav'])[1])])
 json.dump(emb, open(os.path.join(VP.CAST, 'emb.json'), 'w'), indent=1)
