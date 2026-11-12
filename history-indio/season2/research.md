@@ -179,3 +179,81 @@ Checks the eight rows of "Season 2, version 3: in the Philippines" (SERIES.md). 
 | 10 (18) Mactan and Cebu | 27 April 1521; Humabon's Cebu | Humabon was baptized Carlos on 14 April 1521, his wife Juana (WP "Rajah Humabon"). Mactan: see the timeline v1 block. There is no record of Humabon before Pigafetta. | Lapulapu killing Magellan himself is legend. Humabon's men killed many of the Spaniards at a banquet on 1 May 1521 (Pigafetta, from memory: open WP "Battle of Mactan" or Pigafetta before use). | none | **keep** |
 
 **Callao Cave, the Ifugao rice terraces and the Kabayan mummies have no true tie to any of the eight rows.** They could appear only as a separate side-quest with their own fairness lines, not as clues inside these episodes.
+
+---
+
+# Version 4 (worker, 2026-11-12)
+"WP" means the Wikipedia article was read in full (raw wikitext, 2026-11-12). [summary only] means only a search summary was seen. Earlier blocks of this file stay valid; this block adds what version 4 needs.
+
+## Dezhou: Paduka Pahala's tomb and the 1417 visit (see also the timeline v1 block)
+- **Certain (WP "Paduka Pahala"; Philstar Starweek 2017-09-23 [summary only]; PNA 2024 [summary only]):**
+  - In 1417 he sailed from Sulu with more than 340 people and two other Sulu kings.
+  - He was received by the Yongle Emperor in **Beijing**, where he stayed 27 days.
+  - On the way home along the Grand Canal he died at Dezhou; the *Ming Veritable Records* give 23 October.
+  - The emperor built his tomb at Dezhou, with an epitaph of 1418. The tomb is a national priority protected site (1988), and its museum is a national second-class museum (2024).
+  - His eldest son Tumahan went home; his widow, concubines, two sons (Antulu and Wenhala) and attendants stayed. Their descendants (surnames An and Wen, about 3,700) still live in Dezhou. They visited Sulu in 2005, and the 600th anniversary was marked in 2017.
+- **Traps:**
+  - The date of death: 23 October, 22 October, or 13 September (the date Dezhou marks).
+  - The meeting was in Beijing, not Dezhou.
+  - The Forbidden City was still being built in 1417.
+- **For the episode:** the find must be outside the tomb (the rule in SERIES.md). Never inside the grave or the museum.
+
+## Sakai: the Luzon jars, 1593–94 (see also the treasures addendum)
+- **Record:**
+  - Naya Sukezaemon of Sakai renamed himself "Luzon Sukezaemon" in 1593 or 1594 after a trip to Luzon. He grew rich selling Luzon wares ("Rusun" jars) to Toyotomi Hideyoshi and other lords. In 1598 Hideyoshi seized his property and he fled to Cambodia; he is buried at the Daian-ji, Sakai, which has his statue (WP "Luzon Sukezaemon").
+  - Rusun jars were prized for the tea ceremony; Antonio de Morga described them in 1609 (WP "Tapayan").
+- **Legend, or unsourced:**
+  - "Very little is known about him from original sources": WP says so outright.
+  - That Sen no Rikyū prized his wares ("it is said").
+  - That he was the pirate Tay Fusa of the 1582 Cagayan battles ("some historians have proposed").
+  - The fortunes paid for single jars.
+  - Say "ayon sa kuwento" for all of these.
+- **Magat Salamat:** executed in 1588 and never in Japan; his medallion in a Sakai jar is fiction, labelled.
+
+## London: what the British took from Manila in 1762, and Rizal at the British Museum
+- **The sack and the ransom (WP "British occupation of Manila"; WP "Battle of Manila (1762)"; Tracy, *Manila Ransomed*, 1995 [cited]):**
+  - The city was taken in October 1762.
+  - Archbishop-governor Rojo agreed a ransom of four million pesos to stop the plunder; only about a quarter was ever paid.
+  - The galleons *Filipina* (American silver from Acapulco) and *Santísima Trinidad* (China goods) were taken as prizes. The prize money let Admiral Cornish and General Draper retire rich.
+- **What went to Britain and where it is now [all summary only, from the 1762 Archive project, Princeton, and philippinestudies.uk]:**
+  - Augustinian manuscripts looted by the troops, among them a *Libro de Consultas* of the San Agustín monastery, now in the **British Library**, annotated by Captain Hyde Parker.
+  - The **eight copper plates** of Murillo Velarde's 1734 map.
+  - The **Roxas map**, in King George III's topographical collection at the British Library.
+  - **Seven grammars and dictionaries of Philippine languages** that Alexander Dalrymple acquired in Manila, at King's College London (Foyle Special Collections).
+  - Holdings also at SOAS and, the largest share, the Lilly Library, Indiana.
+  - An ivory Christ Child taken home by General Draper, and porcelain, jars and ivories said (by family history) to come from the *Santísima Trinidad*, at Melford Hall.
+- **Ties to Ep 10:** that episode already covered 1762.
+- **Traps:**
+  - No source was found for church bells taken to England; do not say it.
+  - "In the British Museum" is not supported for the 1762 loot. Say British Library or King's College.
+  - The episode's find must lie outside any collection, for example in a crate never opened.
+- **Rizal (see the Lolo Pepe block):** London from May 1888 to March 1889. At the British Museum (Reinhold Rost) he worked on Morga's *Sucesos*; the edition came out in Paris in 1890. This is a natural link: in the same city sit the books taken in 1762.
+
+## Acapulco: the first return voyage, 1565, and Rajah Tupas
+- **The voyage:**
+  - The *San Pedro* with Andrés de Urdaneta found the return route (the tornaviaje) by sailing north into the Kuroshio Current. It sighted California near Santa Catalina Island and reached Acapulco on **8 October 1565**; most of the crew died on the way.
+  - Alonso de Arellano, on a more southerly route, arrived earlier.
+  - This opened the Manila–Acapulco galleon trade (1565–1815).
+  - Sources: WP "Manila galleon"; WP "Andrés de Urdaneta".
+  - Trap: "left Cebu on 1 June 1565" is from memory and not checked here.
+- **Rajah Tupas:**
+  - The last rajah of Sugbu, after Humabon.
+  - Legazpi's three ships reached Cebu on 27 April 1565 and attacked.
+  - The Treaty of Cebu (Treaty of Sugbu) was signed on **4 June 1565**; some sources give 3 July. Tupas accepted the Spanish king as sovereign and tribute, in return for protection and trade. W. H. Scott calls it "actually the terms of an unconditional surrender".
+  - Tupas was **baptized as Felipe on 21 March 1568**, "under duress" according to WP, at about 70, and died in 1568.
+  - Sources: WP "Rajah Tupas"; WP "Treaty of Cebu (1565)" [summary only]; Cebuano Studies Center calendar [summary only].
+- **Trap:** Tupas never went to Acapulco. His tie to the episode is that the first return voyage sailed from his Cebu in 1565, the year of his treaty. His medallion in Acapulco is fiction, labelled.
+
+## One creature per place (kuwentong-bayan, labelled; checked as real folklore of the place)
+| Ep | Place | Creature | What the folklore says | Source | Fit |
+|---|---|---|---|---|---|
+| 11 | Butuan / Agusan | **Yúmud** | Agusan Manobo water wraith, harmless, living in deep rocky pools | Garvan, *The Manóbos of Mindanáo* (1931) [quoted from two summaries; Gutenberg 18607 blocked here] | used in Ep 11 |
+| 12 | Laguna de Bay | **Mariang Makiling** (a diwata, not a beast) | guardian spirit of Mount Makiling in Laguna; some legends give her Laguna de Bay and its fish | WP "Maria Makiling" | strong; also used by Rizal in "Mariang Makiling" (1890) [from memory, check] |
+| 13 | Limasawa (Southern Leyte) | **Bakunawa** | Visayan moon-eating sea serpent that causes eclipses; a 17th–18th-century Spanish account of people beating bells and pans during eclipses | WP "Bakunawa" | strong (Visayan) |
+| 14 | Intramuros / Manila | **Tikbalang** | tall, bony being of Tagalog and wider Philippine folklore that leads travellers astray; its horse form came only after horses arrived | WP "Tikbalang" | fair (Tagalog region, not Intramuros itself) |
+| 15 | Dezhou (Shandong) | **Húli jīng** (fox spirit) | shapeshifting fox spirits of Chinese folklore | WP "Huli jing" | strong: the classic fox tales are by Pu Songling of Zibo, Shandong (*Liaozhai*, 1740 posthumous) [from memory, check] |
+| 16 | Sakai / Osaka | **Kappa** | river and pond water yōkai of Japan; once man-drowners, later mischievous, and when caught they repay with labour or a secret | WP "Kappa (folklore)" | strong (Japan-wide; not Sakai-specific) |
+| 17 | London | **Spring-heeled Jack** | Victorian figure; first reported 1837, chiefly in suburban London | WP "Spring-heeled Jack" | strong |
+| 18 | Acapulco (Guerrero) | **Nahual** | Mesoamerican person who shapeshifts into an animal counterpart | WP "Nagual" | strong (Mexico-wide). La Llorona is an alternative (not checked) |
+| 19 | Lake Lanao | **Sarimanok** | legendary bird of the Maranao, symbol of good fortune, from the totem bird Itotoro | WP "Sarimanok" | strong (Maranao, Lanao) |
+| 20 | Mactan / Cebu | **Siyokoy** | sea humanoid with scales and fins, said to drown people; the name comes from Hokkien *shui gui* | WP "Siyokoy" | fair (pan-Philippine); the Bakunawa is already used in Ep 13 |
