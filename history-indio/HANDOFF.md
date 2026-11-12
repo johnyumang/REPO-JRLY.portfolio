@@ -136,3 +136,5 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 - NVIDIA content filter: a blocked prompt returns `finishReason: CONTENT_FILTERED` with an empty image (make_keys prints "argument should be a bytes-like object"). Words that tripped it here: "grand" with a building or room, "government building", "state room", "legislative chamber", "San Juan Metro Manila", "rifle muzzle flashes", "banknote". Reword (ornate / large / paper bill / orange flashes).
 - Weak spots (facts.md): the San Juan marker rests on Wikimedia Commons photo captions only; room and hour of the signing unconfirmed (the script names neither).
 - 2026-11-12: Episode 5 outputs (script to record, draft keyframe sheet, captions, unverified list) are on a private Artifact page: https://claude.ai/artifact/9VWRWeoNi9bi6pU5aJF2Be (no video yet; waiting for the MP3).
+
+- 2026-11-12: main session outputs page (video status + copyable captions for Limahong and Bakunawa): https://claude.ai/artifact/SmsW31dKNBEDsUGvcC1Xn6 — Limahong is final per the user; do not rebuild it.
