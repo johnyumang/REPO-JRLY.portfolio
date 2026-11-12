@@ -59,13 +59,32 @@ def gated_rms(x, win=0.4):
     r = r[r > r.max() * 0.1]; return float(np.sqrt(np.mean(r ** 2)))
 
 
+LUFS, TP = -16.0, -1.5                     # final mix target: integrated loudness, true-peak ceiling (dBTP)
+
+
+def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le')):
+    """Two-pass EBU R128 normalisation of src's audio to LUFS / TP (linear gain when possible). Returns (before, after) LUFS."""
+    import json, re
+    af = f'loudnorm=I={LUFS}:TP={TP - 0.5}:LRA=11'           # 0.5 dB margin: loudnorm and the AAC encode overshoot slightly
+    def meas(p, f):
+        e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', p, '-vn', '-af', f + ':print_format=json', '-f', 'null', '-'],
+                           capture_output=True, text=True).stderr
+        return json.loads(re.findall(r'\{[^{}]*\}', e)[-1])
+    m = meas(src, af)
+    lin = (f"{af}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+           f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', lin + ',aresample=' + str(SR)] + list(extra) + [dst], check=True)
+    return float(m['input_i']), float(meas(dst, af)['input_i'])
+
+
 def make(voice_path, cuts, hits, out_path):
     tmp = tempfile.mktemp(suffix='.wav'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', voice_path, '-ac', '1', '-ar', str(SR), tmp], check=True)
     v, _ = sf.read(tmp, dtype='float32'); os.remove(tmp); dur = len(v) / SR + 0.8
     v = np.pad(v, (0, int(dur * SR) - len(v))); mu = music(dur)[:len(v)]; fx = sfx(dur, cuts, hits)[:len(v)]
     rv = gated_rms(v); mu *= 0.5 * rv / gated_rms(mu); fx *= 0.5 * rv / gated_rms(fx)
     pk = 0.7 * np.abs(v).max(); fx = np.clip(fx, -pk, pk)
-    mix = v + mu + fx; mix *= 0.89 / np.abs(mix).max()
-    sf.write(out_path, mix, SR)
+    mix = v + mu + fx                       # no peak normalisation here: scaling to a fixed peak dropped the mix to about -21 LUFS
+    raw = tempfile.mktemp(suffix='.wav'); sf.write(raw, mix, SR, subtype='FLOAT')
+    loudnorm2(raw, out_path); os.remove(raw)
     db = lambda a: 20 * np.log10(a)
     return {'voice_rms_db': round(db(rv), 1), 'music_vs_voice_db': round(db(gated_rms(mu) / rv), 1), 'sfx_vs_voice_db': round(db(gated_rms(fx) / rv), 1), 'duration': round(dur, 2)}
