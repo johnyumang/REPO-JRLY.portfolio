@@ -1,0 +1,351 @@
+{
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "_note": "Episode 21 (S3E1) keyframes (from Kabanata 21, story version 2). Biringan is a legend of Samar, shown as a dreamlike city behind fog, never as a real map or a real place. Tala: a young Filipina woman with snow-white hair and pale silver eyes, long black coat, wide-brimmed hat; never drawn as 'Nordic' or with any racial-ideology imagery. Usman appears only in the light of the open lagusan on the beach (Kabanata 21); present-day scenes elsewhere have the empty sidecar with his red kerchief. No real person is shown speaking. Copied from Episode 13: full intro. Shots follow sentences.json; k90+ are montage extras.",
+ "plates": {},
+ "chars": {},
+ "full": {
+  "bed_awake": "top-down shot of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm lying awake in bed at three in the morning, eyes open, a small bronze key glowing faintly on the nightstand. Present-day Philippines, detailed background, no dog, no animals.",
+  "tala_fog_hook": "low wide shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat standing before a wall of white fog, a city of glass and gold glowing behind her, turning her head toward the viewer. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "samar_aerial": "aerial shot at dusk over the green coast of Samar, jungle hills, a winding river, and faint golden lights deep in the forest like a hidden city, nothing written.",
+  "lens_review": "point-of-view through a round brass lens with a glowing rim: an 1896 crowd of revolutionaries tearing papers, and in the corner a hand passing a small bronze disc to another hand.",
+  "s1_montage": "wide shot of overlapping translucent scenes floating in golden light: an old stone wall, a stone house, a firing square at dawn, a flag at a window, each with a tiny bronze glint.",
+  "bronze_hands": "extreme close-up of two old-fashioned hands in an 1890s crowd quietly passing a small round bronze medallion from one palm to another.",
+  "indio_smile21": "close-up of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm at a kitchen table at night, lowering a brass lens, a slow amazed smile. Present-day Philippines, detailed background, no dog, no animals.",
+  "sign_papers": "top-down close-up of a young man's hand signing a stack of deed papers on a table, a box of gold watches pushed aside, no readable text.",
+  "kids_house": "wide shot of a small concrete house in a city alley at morning, a skinny boy of twelve opening the door, street children running in with smiles. Present-day Philippines, detailed background, no dog, no animals.",
+  "jm_lock": "medium shot: a friendly stocky Filipino mechanic in his twenties in grease-stained blue coveralls pulling a big padlock shut on a garage gate full of cars, nodding seriously. Present-day Philippines, detailed background, no dog, no animals.",
+  "notebook_count": "extreme close-up of the back page of a small worn notebook full of neat tally marks counted by day, a pencil resting on it, no readable words.",
+  "ride_sea": "wide deep shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm riding an old motorcycle with an empty sidecar across the open sea on a glowing path of calm water, spray behind, the coast of Samar ahead at sunset.",
+  "sidecar_empty21": "close-up of an empty motorcycle sidecar seat, a red kerchief fluttering in the sea wind, salt spray, golden light.",
+  "village_fishers": "wide shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm sitting on the sand with three old fishermen mending nets, listening. Detailed full background, a small fishing village on the coast of Samar at dusk, nipa houses, outrigger boats on the sand, present day, no dog.",
+  "fisher_tell": "over-the-shoulder shot from behind a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm: an old fisherman with a straw hat gesturing toward the dark jungle, telling a story with wide eyes. Detailed full background, a small fishing village on the coast of Samar at dusk, nipa houses, outrigger boats on the sand, present day, no dog.",
+  "legend_city": "aerial dreamlike shot: a shining city of glass towers and rivers of light glimpsed through jungle mist like a vision, half transparent, at night, folklore mood, not a character sheet.",
+  "pacing_warn": "close-up of an old Filipina fisherwoman with a deeply weathered kind face and a faded cloth on her head leaning forward, serious, one finger raised in warning, lamplight on her face. Detailed full background, a small fishing village on the coast of Samar at dusk, nipa houses, outrigger boats on the sand, present day, no dog.",
+  "pacing_hand": "extreme close-up of an old weathered woman's hand gripping a young man's wrist firmly beside a plate of strange glowing fruit she pushes away.",
+  "indio_listen21": "medium shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm sitting on an upturned boat, listening carefully, hands clasped. Detailed full background, a small fishing village on the coast of Samar at dusk, nipa houses, outrigger boats on the sand, present day, no dog.",
+  "key_air": "low-angle shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm on a dark beach at midnight holding up a small bronze key toward the empty air, it begins to glow. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "lagusan_open": "wide night shot: a tall oval doorway of golden light tearing open in the air above a dark beach, sand swirling, sparks rising, stars above.",
+  "usman_leap": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief leaping joyfully out of a doorway of golden light onto the sand, ears flying. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "usman_hug": "two-shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm kneeling on the sand hugging a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, both laughing, golden light around them. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "indio_laugh21": "close-up of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm laughing with wet eyes, golden light on his face. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "usman_glow": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief sitting proudly at the glowing edge of a doorway of light, tail wagging. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "holo21": "close-up of the forearm of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm with a translucent blue-gold hologram rising from it, a new line of light appearing, no readable text. Detailed full background, a dark rocky beach on the coast of Samar at midnight, calm sea, stars, present day, not a character sheet.",
+  "counter21": "extreme close-up of a tiny glowing counter of dots and bars at the edge of a blue hologram, ticking upward, no readable numbers.",
+  "biringan_view": "wide high-angle shot from rocks: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief looking down at a city of glass and gold towers and streets like rivers of light. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "no_shadow": "low wide shot of a glowing street of light lined with glass towers under a full moon, silent cars gliding, and no shadows anywhere, eerie. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "fog_wall": "wide shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief walking toward a towering wall of white fog at the city gate, tiny before it. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "key_push": "close-up of a hand pushing a glowing bronze key into a wall of white fog, nothing happening, the glow fading.",
+  "indio_call": "low-angle shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm shouting into the fog, faint bronze armour of light flickering on his chest and dying. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "indio_down": "high shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm kneeling in the sand before the fog wall, head down, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief beside him. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_emerge": "wide deep shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat stepping out of the white fog toward the viewer, coat moving, the glowing city behind her. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "kawit_memory": "point-of-view through a brass lens: a crowd in Kawit in 1898 under a flag, and at the back a figure in a long black coat and wide-brimmed hat watching a red umbrella.",
+  "tala_turn": "close-up of a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat turning her head, white hair moving, pale silver eyes catching the moonlight. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_warn": "medium shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat raising one hand calmly to stop him, serious. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_city": "over-the-shoulder shot from behind a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat: she looks back at the glowing city of glass towers behind the fog. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "indio_ask21": "close-up of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm staring, confused and shaken, asking a question. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_name": "two-shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat and a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm face to face in the fog, her hat in her hand. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_ate": "close-up of a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat with a small sad warm smile, eyes glistening. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "usman_growl21": "low shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief with ears back and a low growl, not angry but afraid. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "usman_sniff21": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief sniffing the air toward a white-haired woman, eyes wide. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "usman_nod": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief looking up at a young man and nodding seriously. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "tala_tell": "two-shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat speaking quietly to a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm who listens, frozen, fog drifting between them. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "liwayway_memory": "wide shot of a warm memory: a young Filipina mother dancing at a night fiesta in a Samar village, and at the edge of the light a tall figure made of soft white light with white hair watching her, gentle, paper lanterns.",
+  "child_taken": "wide night shot: a young mother holding the hand of a small white-haired girl walking into white fog beside a tall figure of soft white light, while on a far porch a grandmother holds a baby.",
+  "teddy_search": "seen from behind: a Filipino man in his thirties with a flashlight and a backpack walking up a misty mountain trail into the dark forest, alone.",
+  "tala_star": "close-up of a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat touching her own chest, serious, saying who she is. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "umbrella_star": "extreme close-up of a small star-shaped bronze medallion set in the handle of a red umbrella, glowing.",
+  "school_gate": "wide shot of a public school gate in Quezon City in 2012, a small boy walking in, and across the street a figure in a long black coat and wide-brimmed hat watching.",
+  "tala_wait": "low shot: a young Filipina woman with long snow-white hair and pale silver eyes, a long black coat, a wide-brimmed black hat looking toward the glowing city, longing, her coat blowing. Detailed full background, a dreamlike city of glass and gold towers glowing behind a wall of white fog in a Samar jungle at night, no shadows anywhere, not a character sheet.",
+  "fog_close": "wide deep shot: the wall of white fog rolling shut over the spot where a woman stood, the city lights fading behind it.",
+  "tower_sand": "top-down shot of a drawing of a tall stepped tower traced in wet sand, a wave about to touch it, moonlight.",
+  "notebook_tower": "top-down close-up of a small worn notebook open, ink writing itself in a thin line under a sketch of a tower, rain drops on the page, no readable text.",
+  "indio_clarify21": "medium shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm sitting on a log on the beach at dawn, speaking calmly to the camera. Present-day Philippines, detailed background, no dog, no animals.",
+  "folk_city": "aerial shot like an old folk illustration: an invisible city drawn in faint golden lines over the dark jungles of Samar, folklore style, not a map, no writing.",
+  "samar_gates": "top-down shot of an old hand-painted folk drawing of the island of Samar with seven tiny glowing doorways scattered across it, no writing, no letters.",
+  "village_old": "wide shot of old villagers in a Samar fishing village telling stories by a kerosene lamp at night, children listening.",
+  "indio_respect": "close-up of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm with a hand on his chest, respectful, a small nod. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_label21": "low shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm holding the bronze key up to the camera, honest expression. Present-day Philippines, detailed background, no dog, no animals.",
+  "return_light": "wide night shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief fading into golden sparkles as a doorway of light closes over a beach, a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm reaching toward him.",
+  "kitchen_lola": "wide shot: an old Filipina grandmother with grey hair in a bun and a flowered house dress sitting at the kitchen table, not looking up as a young man enters the door. Detailed full background, an old provincial kitchen in Kawit at night, wooden table, a single bulb, present day, no dog.",
+  "lola_cu": "close-up of an old Filipina grandmother with grey hair in a bun and a flowered house dress staring at her cup, eyes tired, speaking quietly. Detailed full background, an old provincial kitchen in Kawit at night, wooden table, a single bulb, present day, no dog.",
+  "indio_door": "medium shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm standing still in the kitchen doorway, hand on the frame, stunned. Detailed full background, an old provincial kitchen in Kawit at night, wooden table, a single bulb, present day, no dog.",
+  "lola_tears": "close-up of an old Filipina grandmother with grey hair in a bun and a flowered house dress with tears in her eyes finally looking up. Detailed full background, an old provincial kitchen in Kawit at night, wooden table, a single bulb, present day, no dog.",
+  "lola_hands": "extreme close-up of an old woman's trembling hands around a cup of coffee on a wooden table.",
+  "indio_point21": "medium shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm pointing at the viewer, serious, a bronze key hanging at his neck. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_ask21b": "close-up of a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm asking the viewer softly, an old family photo in his hand. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_follow21": "low shot: a lean young Filipino man with a black topknot and a red headband, a plain dark jacket and jeans, faint glowing marks tattooed on his forearm getting on an old motorcycle with an empty sidecar, a red kerchief tied to it, a hopeful smile at sunrise. Present-day Philippines, detailed background, no dog, no animals.",
+  "fog_swirl": "close-up of white fog swirling with tiny golden lights inside it, mysterious.",
+  "white_hair_wind": "extreme close-up of long snow-white hair blowing in the night wind against a black coat collar.",
+  "glass_tower": "low-angle shot of a slender tower of glass and gold glowing against the night sky in a jungle, dreamlike, no people.",
+  "light_street": "wide shot of a street made of flowing light like a river between glass buildings, empty and silent.",
+  "moon_noshadow": "wide shot of a full moon over a glowing glass plaza, a lone lamp post that casts no shadow, eerie.",
+  "sea_road": "wide shot of a path of calm glowing water opening across a dark blue sea toward a green island.",
+  "kerchief_wind": "extreme close-up of a red kerchief tied to a motorcycle sidecar, snapping in the wind.",
+  "key_glow": "extreme close-up of a small bronze key engraved with a star, glowing gold in a palm.",
+  "firefly_shore": "wide shot of fireflies rising over a dark Samar beach at midnight, a glow on the horizon.",
+  "lens_glint": "close-up of a brass lens with a golden rim catching candlelight on a table.",
+  "wide_hat": "close-up of a wide-brimmed black hat held in a pale hand, fog behind.",
+  "sinigang_pot": "close-up of a pot of sinigang soup gone cold on a kitchen table at night, a single bulb above.",
+  "intro": "(copied from Episode 13)"
+ },
+ "shots": {
+  "0": {
+   "full": "bed_awake"
+  },
+  "1": {
+   "full": "tala_fog_hook"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "samar_aerial"
+  },
+  "4": {
+   "full": "lens_review"
+  },
+  "5": {
+   "full": "s1_montage"
+  },
+  "6": {
+   "full": "bronze_hands"
+  },
+  "7": {
+   "full": "indio_smile21"
+  },
+  "8": {
+   "full": "sign_papers"
+  },
+  "9": {
+   "full": "kids_house"
+  },
+  "10": {
+   "full": "jm_lock"
+  },
+  "11": {
+   "full": "notebook_count"
+  },
+  "12": {
+   "full": "ride_sea"
+  },
+  "13": {
+   "full": "sidecar_empty21"
+  },
+  "14": {
+   "full": "village_fishers"
+  },
+  "15": {
+   "full": "fisher_tell"
+  },
+  "16": {
+   "full": "legend_city"
+  },
+  "17": {
+   "full": "pacing_warn"
+  },
+  "18": {
+   "full": "pacing_hand"
+  },
+  "19": {
+   "full": "indio_listen21"
+  },
+  "20": {
+   "full": "key_air"
+  },
+  "21": {
+   "full": "lagusan_open"
+  },
+  "22": {
+   "full": "usman_leap"
+  },
+  "23": {
+   "full": "usman_hug"
+  },
+  "24": {
+   "full": "indio_laugh21"
+  },
+  "25": {
+   "full": "usman_glow"
+  },
+  "26": {
+   "full": "holo21"
+  },
+  "27": {
+   "full": "counter21"
+  },
+  "28": {
+   "full": "biringan_view"
+  },
+  "29": {
+   "full": "no_shadow"
+  },
+  "30": {
+   "full": "fog_wall"
+  },
+  "31": {
+   "full": "key_push"
+  },
+  "32": {
+   "full": "indio_call"
+  },
+  "33": {
+   "full": "indio_down"
+  },
+  "34": {
+   "full": "tala_emerge"
+  },
+  "35": {
+   "full": "kawit_memory"
+  },
+  "36": {
+   "full": "tala_turn"
+  },
+  "37": {
+   "full": "tala_warn"
+  },
+  "38": {
+   "full": "tala_city"
+  },
+  "39": {
+   "full": "indio_ask21"
+  },
+  "40": {
+   "full": "tala_name"
+  },
+  "41": {
+   "full": "tala_ate"
+  },
+  "42": {
+   "full": "usman_growl21"
+  },
+  "43": {
+   "full": "usman_sniff21"
+  },
+  "44": {
+   "full": "usman_nod"
+  },
+  "45": {
+   "full": "tala_tell"
+  },
+  "46": {
+   "full": "liwayway_memory"
+  },
+  "47": {
+   "full": "child_taken"
+  },
+  "48": {
+   "full": "teddy_search"
+  },
+  "49": {
+   "full": "tala_star"
+  },
+  "50": {
+   "full": "umbrella_star"
+  },
+  "51": {
+   "full": "school_gate"
+  },
+  "52": {
+   "full": "tala_wait"
+  },
+  "53": {
+   "full": "fog_close"
+  },
+  "54": {
+   "full": "tower_sand"
+  },
+  "55": {
+   "full": "notebook_tower"
+  },
+  "56": {
+   "full": "indio_clarify21"
+  },
+  "57": {
+   "full": "folk_city"
+  },
+  "58": {
+   "full": "samar_gates"
+  },
+  "59": {
+   "full": "village_old"
+  },
+  "60": {
+   "full": "indio_respect"
+  },
+  "61": {
+   "full": "indio_label21"
+  },
+  "62": {
+   "full": "return_light"
+  },
+  "63": {
+   "full": "kitchen_lola"
+  },
+  "64": {
+   "full": "lola_cu"
+  },
+  "65": {
+   "full": "indio_door"
+  },
+  "66": {
+   "full": "lola_tears"
+  },
+  "67": {
+   "full": "lola_hands"
+  },
+  "68": {
+   "full": "indio_point21"
+  },
+  "69": {
+   "full": "indio_ask21b"
+  },
+  "70": {
+   "full": "indio_follow21"
+  },
+  "90": {
+   "full": "fog_swirl"
+  },
+  "91": {
+   "full": "white_hair_wind"
+  },
+  "92": {
+   "full": "glass_tower"
+  },
+  "93": {
+   "full": "light_street"
+  },
+  "94": {
+   "full": "moon_noshadow"
+  },
+  "95": {
+   "full": "sea_road"
+  },
+  "96": {
+   "full": "kerchief_wind"
+  },
+  "97": {
+   "full": "key_glow"
+  },
+  "98": {
+   "full": "firefly_shore"
+  },
+  "99": {
+   "full": "lens_glint"
+  },
+  "100": {
+   "full": "wide_hat"
+  },
+  "101": {
+   "full": "sinigang_pot"
+  }
+ }
+}
