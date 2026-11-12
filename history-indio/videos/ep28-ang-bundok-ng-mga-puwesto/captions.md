@@ -19,7 +19,7 @@ I-follow ang History Indio para sa susunod na talon!
 
 **Description:**
 Season 3, Episode 8 ng time-travel series ng History Indio.
-Totoo: si Apolinario de la Cruz (Hermano Pule), taga-Lucban, ang nagtatag ng Cofradía de San José noong Disyembre 1832, isang kapatiran ng mga indio sa panahong hindi sila pantay sa simbahan ng kolonya. Noong Oktubre 1840, 243 kasapi ang hinuli; tinanggihan ang petisyon nila noong 1841. Noong 23 Oktubre 1841, sa paanan ng Banahaw, natalo nila ang unang lumusob; noong 1 Nobyembre, nawasak ang kampo ng mas malaking hukbo; binaril si Hermano Pule noong 4 Nobyembre 1841 (Wikipedia: Hermano Pule; Inquirer). Pinagtatalunan pa ang kuwentong tinanggihan siya ng isang orden dahil indio siya.
+Totoo: si Apolinario de la Cruz (Hermano Pule), taga-Lucban, ang nagtatag ng Cofradía de San José noong Disyembre 1832, isang kapatiran ng mga indio sa panahong hindi sila pantay sa simbahan ng kolonya. Noong Oktubre 1840, 243 kasapi ang hinuli; tinanggihan ang petisyon nila noong 1841. Noong 23 Oktubre 1841, sa paanan ng Banahaw, natalo nila ang unang lumusob; noong 1 Nobyembre, nawasak ang kampo ng mas malaking hukbo; binaril si Hermano Pule noong 4 Nobyembre 1841 (Wikipedia: Hermano Pule; Inquirer). Pinagtatalunan pa ang kuwentong tinanggihan siya ng mga Dominiko dahil indio siya; marami ang nagsasabi, pero hindi pa nakikita ang orihinal na tala.
 Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din si Lolo Isidro bilang gabay, si Giliw, ang kweba, ang sulat, ang tambuli at ang pitong lalim.
 
 Kung may tambuli ka, sino ang unang tatawagin mo? I-comment sa baba.
@@ -38,4 +38,4 @@ Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Sa totoong tala, itin
 
 ## Pinned comment (sources)
 Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din si Lolo Isidro bilang gabay, si Giliw, ang kweba, ang sulat, ang tambuli at ang pitong lalim.
-Mga pinagmulan: Wikipedia, "Hermano Pule" at "Mount Banahaw"; Inquirer, "Quezon folk mark death anniversary of 'Hermano Puli'" at "Malacañang declares Nov. 4 holiday in Quezon". Pinagtatalunan: kung tinanggihan siya ng isang orden dahil indio siya (wala pang matibay na pinagmulan).
+Mga pinagmulan: Wikipedia, "Hermano Pule" at "Mount Banahaw"; Inquirer, "Quezon folk mark death anniversary of 'Hermano Puli'" at "Malacañang declares Nov. 4 holiday in Quezon". Pinagtatalunan: kung tinanggihan siya ng mga Dominiko noong 1829 dahil indio siya (sinasabi ng Wikipedia at ng Inquirer, pero hindi pa nakikita ang orihinal na tala).
