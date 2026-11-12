@@ -140,7 +140,8 @@ ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fm
                       ['-c:v', 'libx264', '-crf', '21', '-maxrate', '5000k', '-bufsize', '10000k', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out], stdin=subprocess.PIPE, cwd=work)
 def _layer(im): r = np.asarray(im.convert('RGBA')).astype(np.float32); return r[..., [2, 1, 0]], r[..., 3:4] / 255      # BGR + alpha
 BUG_RGB, BUG_A = _layer(branding.bug((1080, 1920)).resize((W, H))); bb = np.argwhere(BUG_A[..., 0] > 0); by0, bx0 = bb.min(0); by1, bx1 = bb.max(0) + 1
-END_RGB, END_A = _layer(branding.endcard((1080, 1920)).resize((W, H))); END_T = 2.6; total_f = round(shots[-1][2] * fps)
+_ec = os.path.join(vdir, 'endcard.txt'); _kw = {'line': open(_ec).read().strip()} if os.path.exists(_ec) else {}      # per-video end-card line
+END_RGB, END_A = _layer(branding.endcard((1080, 1920), **_kw).resize((W, H))); END_T = 2.6; total_f = round(shots[-1][2] * fps)
 def brand(fr, fi):
     reg = fr[by0:by1, bx0:bx1].astype(np.float32); al = BUG_A[by0:by1, bx0:bx1]; fr[by0:by1, bx0:bx1] = (reg * (1 - al) + BUG_RGB[by0:by1, bx0:bx1] * al).astype(np.uint8)
     left = (total_f - fi) / fps

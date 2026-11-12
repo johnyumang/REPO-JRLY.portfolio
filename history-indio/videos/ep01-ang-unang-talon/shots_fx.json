@@ -1,0 +1,272 @@
+{
+"0": {
+"fx": [
+"shake",
+"punch",
+"embers"
+],
+"move": "push_in",
+"keys": [
+24,
+16,
+20
+]
+},
+"1": {
+"fx": [
+"sparkle",
+"aura_gold"
+],
+"move": "push_in"
+},
+"2": {
+"fx": [
+"sparkle",
+"punch"
+],
+"key": 41,
+"move": "pull_out"
+},
+"3": {
+"fx": [],
+"move": "tilt_down"
+},
+"4": {
+"fx": [],
+"move": "pan_right"
+},
+"5": {
+"fx": [],
+"move": "push_in"
+},
+"6": {
+"fx": [],
+"move": "push_in"
+},
+"7": {
+"fx": [],
+"move": "push_in"
+},
+"8": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"9": {
+"fx": [],
+"move": "pan_left"
+},
+"10": {
+"fx": [],
+"move": "push_in"
+},
+"11": {
+"fx": [
+"sparkle"
+],
+"move": "pull_out"
+},
+"12": {
+"fx": [
+"water",
+"spray",
+"shake"
+],
+"move": "tilt_down"
+},
+"13": {
+"fx": [
+"water",
+"spray"
+],
+"move": "pull_out"
+},
+"14": {
+"fx": [
+"water",
+"sparkle"
+],
+"move": "push_in"
+},
+"15": {
+"fx": [
+"flash",
+"punch",
+"sparkle"
+],
+"move": "push_in"
+},
+"16": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"17": {
+"fx": [
+"sparkle"
+],
+"key": 15,
+"move": "pull_out"
+},
+"18": {
+"fx": [
+"shake",
+"punch",
+"sparkle"
+],
+"move": "push_in"
+},
+"19": {
+"fx": [
+"sparkle",
+"punch"
+],
+"move": "pull_out"
+},
+"20": {
+"fx": [
+"embers"
+],
+"move": "tilt_up"
+},
+"21": {
+"fx": [
+"embers"
+],
+"move": "pan_right"
+},
+"22": {
+"fx": [
+"embers"
+],
+"move": "pan_left"
+},
+"23": {
+"fx": [
+"embers",
+"punch",
+"aura_red"
+],
+"move": "tilt_up"
+},
+"24": {
+"fx": [
+"shake",
+"punch",
+"embers"
+],
+"move": "pull_out"
+},
+"25": {
+"fx": [],
+"move": "push_in"
+},
+"26": {
+"fx": [
+"shake",
+"punch",
+"embers"
+],
+"move": "tilt_up"
+},
+"27": {
+"fx": [
+"embers",
+"sparkle"
+],
+"move": "push_in"
+},
+"28": {
+"fx": [
+"punch"
+],
+"move": "push_in"
+},
+"29": {
+"fx": [],
+"key": 28,
+"move": "pull_out"
+},
+"30": {
+"fx": [
+"embers"
+],
+"key": 26,
+"move": "push_in"
+},
+"31": {
+"fx": [
+"embers"
+],
+"move": "pan_right"
+},
+"32": {
+"fx": [],
+"move": "tilt_up"
+},
+"33": {
+"fx": [
+"embers"
+],
+"move": "pan_left"
+},
+"34": {
+"fx": [
+"sparkle"
+],
+"key": 15,
+"move": "pull_out"
+},
+"35": {
+"fx": [
+"water"
+],
+"move": "pull_out"
+},
+"36": {
+"fx": [
+"sparkle",
+"punch"
+],
+"move": "push_in"
+},
+"37": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"38": {
+"fx": [
+"water",
+"punch"
+],
+"move": "push_in"
+},
+"39": {
+"fx": [
+"sparkle"
+],
+"key": 1,
+"move": "push_in"
+},
+"40": {
+"fx": [
+"shake",
+"punch",
+"embers"
+],
+"key": 24,
+"move": "push_in"
+},
+"41": {
+"fx": [
+"punch",
+"sparkle",
+"aura_gold"
+],
+"move": "push_in"
+}
+}
