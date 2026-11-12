@@ -56,8 +56,8 @@
   "speaker": "BEA"
  },
  {
-  "text": "Noong 1873, isinulat ni Louis Jacolliot ang Asgartha, isang sinaunang lungsod daw sa India.",
-  "say": "noong mil otsosyentos setentay tres, isinulat ni louis jakolyo ang asgarta, isang sinaunang lungsod daw sa india.",
+  "text": "Noong 1873, isinulat ni Louis Jacolliot ang tungkol sa Asgartha, isang sinaunang lungsod daw sa India.",
+  "say": "noong mil otsosyentos setentay tres, isinulat ni louis jakolyo ang tungkol sa asgarta, isang sinaunang lungsod daw sa india.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -208,12 +208,12 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sabi ng matanda: nagtago sila rito noong unang gunaw, hindi na lumabas.",
-  "say": "sabi ng matanda: nagtago sila rito noong unang gunaw, hindi na lumabas.",
+  "text": "Nagtago kami rito noong unang gunaw, at hindi na kami lumabas.",
+  "say": "nagtago kami rito noong unang gunaw, at hindi na kami lumabas.",
   "style": "somber",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "INDIO"
+  "speaker": "LOLA_AGARTHA"
  },
  {
   "text": "Walang batang tumatakbo, walang tumatawa.",
@@ -240,12 +240,12 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sabi ng matanda: ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.",
-  "say": "sabi ng matanda: ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.",
+  "text": "Ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.",
+  "say": "ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "INDIO"
+  "speaker": "LOLA_AGARTHA"
  },
  {
   "text": "Hinawakan ko ito.",

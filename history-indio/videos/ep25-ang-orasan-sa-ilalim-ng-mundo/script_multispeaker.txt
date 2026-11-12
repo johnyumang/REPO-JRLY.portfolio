@@ -1,5 +1,5 @@
 # MASTER script (Season 3 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording), BEA (Indio's Grade 5 classmate of Episode 10, now a news writer: quick, exact; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), The words of the yeti and of the old woman of the cave people (fiction) are reported by Indio. Real people (Jacolliot, Saint-Yves) are only spoken about.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), BEA (Indio's Grade 5 classmate of Episode 10, now a news writer: quick, exact; designed voice), M (Mikaela: calm, low; designed voice), USMAN (only inside the portal light, never in the present), LOLA_AGARTHA (an old woman of the cave people: slow, pale-voiced; designed voice; fiction). The yeti's words are reported by Indio. Real people (Jacolliot, Saint-Yves) are only spoken about.
 
 INDIO: [dramatic] Sa kuweba sa ilalim ng niyebe, hinawakan ko ang isang orasan, at nakita ko ang Kawit na lubog sa baha.
 INDIO: [warm] Ako 'to si Indio.
@@ -9,7 +9,7 @@ INDIO: [serious] Ang ikatlong guhit sa kuwaderno: isang pinto sa niyebe, at baka
 INDIO: [warm] Si Bea, kaklase ko noong Grade 5, nagsusulat na ngayon sa isang website ng balita.
 BEA: [curious] Agartha 'yan, Indio, ang mundong nasa loob daw ng daigdig.
 BEA: [serious] Pero hindi ito alamat ng mga taga-Himalaya, imbento ito ng mga Europeo.
-BEA: [serious] Noong 1873, isinulat ni Louis Jacolliot ang Asgartha, isang sinaunang lungsod daw sa India.
+BEA: [serious] Noong 1873, isinulat ni Louis Jacolliot ang tungkol sa Asgartha, isang sinaunang lungsod daw sa India.
 BEA: [serious] Noong 1886, ginawa itong lungsod sa ilalim ng lupa ni Saint-Yves d'Alveydre.
 BEA: [curious] Walang gumamit ng pangalang iyan bago ang 1870s, kaya imbento, tandaan mo 'yan.
 INDIO: [playful] Opo, Ma'am Bea.
@@ -30,11 +30,11 @@ INDIO: [curious] Sa hologram: Mga Kakampi, ang yeti, hindi nilalamig, at kayang 
 
 INDIO: [suspense] Sa loob, hindi lungsod ng ginto, kundi malawak na kuweba, may maliit na araw na hindi naman araw.
 INDIO: [somber] Mga taong maputla, matagal nang hindi lumalabas.
-INDIO: [somber] Sabi ng matanda: nagtago sila rito noong unang gunaw, hindi na lumabas.
+LOLA_AGARTHA: [somber] Nagtago kami rito noong unang gunaw, at hindi na kami lumabas.
 INDIO: [sad] Walang batang tumatakbo, walang tumatawa.
 INDIO: [serious] Ang aral: ang nagtatago sa baha ay ligtas, pero hindi na nabubuhay.
 INDIO: [curious] Sa gitna, isang orasan: bilog na batong may labindalawang marka, at karayom na gawa sa liwanag.
-INDIO: [whisper] Sabi ng matanda: ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.
+LOLA_AGARTHA: [whisper] Ang hahawak dito, makakakita ng isang posibleng bukas, hindi ang tiyak.
 INDIO: [suspense] Hinawakan ko ito.
 INDIO: [sad] Ang bahay ni Lola Ising sa Kawit, hanggang bintana ang tubig, at si Lola sa bubong.
 INDIO: [somber] Isang karatula ng proyektong laban sa baha, may pirma, may halaga, at walang pader.
