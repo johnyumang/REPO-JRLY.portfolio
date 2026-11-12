@@ -95,7 +95,8 @@
 "punch",
 "sparkle"
 ],
-"move": "push_in"
+"move": "push_in",
+"key": 8
 },
 "16": {
 "fx": [
@@ -107,7 +108,7 @@
 "fx": [
 "sparkle"
 ],
-"key": 15,
+"key": 8,
 "move": "pull_out"
 },
 "18": {
@@ -216,7 +217,7 @@
 "fx": [
 "sparkle"
 ],
-"key": 15,
+"key": 8,
 "move": "pull_out"
 },
 "35": {

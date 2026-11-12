@@ -13,7 +13,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Ang Tribong "Stone Age" na Baka Palabas Lang (Tasaday, 1971 — disputed)
 
 ## Time-travel series (Indio + Usman; see HANDOFF.md series bible)
-- [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (script done; keyframes and voice pending)
+- [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (script and keyframes done; voice pending; frames 15, 25, 27 to be redone)
 - [ ] Episode 2: Nang Sakupin ng British ang Maynila (1762) — marker in Intramuros
 - [ ] Episode 3: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 - [ ] Episode 4: Ang Unang Umikot sa Mundo, Alipin? (Enrique of Malacca, 1521 — disputed) — marker in Cebu or Mactan
