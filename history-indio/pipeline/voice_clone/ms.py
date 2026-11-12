@@ -145,6 +145,9 @@ def assemble(work, outp):
         if not ch: sys.exit('chunk %d has no take: run gen_ms.py and ms.py qc first' % c['id'])
         m = json.load(open(ch['wav'][:-4] + '.json')); y, sr = sf.read(ch['wav'], dtype='float32'); assert sr == SR
         W = m['words']; st = max(0.0, min(W[0][1] - 0.04, m.get('onset', 9) - 0.03)); en = min(len(y) / sr, max(W[-1][2] + 0.12, m.get('offset', 0) + 0.08))   # energy edges: the aligner starts exclamations late
+        if W[0][1] - st > 0.04:   # stray syllable glued to the first word (continuation prompt): trim to just before the first aligned word, kept only if the recogniser then hears the script's first word
+            st2 = max(0.0, W[0][1] - 0.03); h2 = vqc.asr(vqc.load16(y[int(st2 * sr):int(en * sr)], sr))
+            if vqc.first_ok(c['text'], h2): print('trim lead c%03d %.2f -> %.2f | %s' % (c['id'], st, st2, h2[:40])); st = st2
         seg = y[int(st * sr):int(en * sr)].copy(); k = 1.0
         if m['rate'] > 6.9:
             k = 6.3 / m['rate']; seg = ff(seg, sr, f'rubberband=tempo={k:.4f}:pitchq=quality:formant=preserved')
