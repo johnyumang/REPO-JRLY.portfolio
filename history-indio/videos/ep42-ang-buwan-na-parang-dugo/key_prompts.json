@@ -1,0 +1,302 @@
+{
+ "_note": "Episode 42 (S5E1), story version 2 Kabanata 42. Present day; Usman present (in the present since Episode 30). Indio is President, past forty: new character string indio_s5 (grey at the temples, short beard), Usman, M, Sinag, Bakunawa and sarimanok strings reused from Episodes 13, 19, 29. No real person is drawn. Battle shown as eyes in the dark, scales, light: nothing violent. The words blood, demon and army are avoided (filter). new intro with the older Indio. Shots follow sentences.json.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {},
+ "plates": {},
+ "chars": {},
+ "full": {
+  "red_moon_rain": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: wide shot from behind of a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist and a black street dog with a white chest patch and a red kerchief looking up at a huge deep crimson full moon with the faint coils of a gigantic serpent around it.",
+  "serpent_coil_moon": "High above dark rain clouds at night, a deep crimson full moon: a gigantic sea serpent body with glittering silver-blue scales coiling around the moon, filling the sky, rain clouds below. Epic low angle.",
+  "intro": "A swirling golden time portal of clock gears and light opening over a rainy night city: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist stepping toward the viewer beside a black street dog with a white chest patch and a red kerchief, warm confident smile. Medium wide shot.",
+  "rain_city": "A dense Filipino city of low rooftops at night in heavy straight rain with no wind, streetlights blurred, water rising in the streets, no people. Wide high angle, quiet.",
+  "rain_close": "Night city street: close-up of heavy straight rain hitting deep puddles, reflections of orange streetlights, calm and heavy.",
+  "news_screen": "A dim room at night: an old television showing a distant flooded coastal skyline of tall towers in the rain, its light on an empty sofa, nothing readable on the screen.",
+  "arks_coast": "A low Philippine coast at night in rain: huge wooden plank ships as big as buildings beached in a row, long ramps, families with bags walking up under lanterns. Wide shot.",
+  "pasig_wall": "A wide river in a city at night in rain, the dark water very high against a tall solid concrete flood wall, the street behind it dry and lit. Low angle along the wall.",
+  "butuan_arks": "A river port at night in rain: giant wooden plank boats of the old Butuan kind with tall masts each hung with warm lanterns, people carried aboard on ramps, an old boatbuilder with white hair watching from the pier.",
+  "roof_indio_usman": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: medium shot of a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist soaked, standing beside a black street dog with a white chest patch and a red kerchief, both looking out over the city.",
+  "usman_rain": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, wet fur, ears up, looking up at his master.",
+  "m_umbrella": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: medium shot of a mysterious young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck standing a little behind, rain running off her coat, calm watchful eyes.",
+  "crook_hand": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a man's hand with a red handkerchief on the wrist holding a smooth old wooden shepherd's crook, rain beading on the wood, warm faint glow.",
+  "usman_sniff_crook": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck sniffing a smooth old wooden shepherd's crook held by a man, eyes half closed, remembering.",
+  "usman_close": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck looking up with wise gentle eyes, rain on his nose.",
+  "roof_tremble": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: low close-up of puddles on the roof rippling in rings from a deep tremor, two pairs of feet, one a dog's paws.",
+  "bells_far": "An old stone bell tower far away across wet rooftops at night in rain, its great bronze bells swinging by themselves, no people. Telephoto shot.",
+  "carpio_legend": "Old Filipino folk painting style, warm sepia: a giant man of great strength caught between two huge rocks high in green mountains, pushing them apart, small villagers watching from below. No readable text.",
+  "carpio_quake": "Green mountains at night in rain: dust and small stones sliding down a slope as the ground shakes, two huge rocks leaning together at the summit.",
+  "moon_change": "Above a rainy city at night: a full moon turning from white to deep orange, a curved shadow creeping across it. Telephoto shot.",
+  "moon_red": "Above a rainy city at night: a huge deep crimson full moon, the clouds lit dark red around it. Telephoto shot, ominous.",
+  "m_whisper": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a mysterious young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck looking up at a crimson moon, lips parted, whispering, red light on her face.",
+  "m_looks_up": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: wide shot: a mysterious young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck and a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist side by side looking up at a crimson moon, the sky dark as sackcloth, the roof trembling.",
+  "shadow_moon": "High above dark rain clouds at night, a deep crimson full moon: a long curved dark shape sliding across the face of the moon, too big to see whole. Telephoto shot.",
+  "scales_moon": "High above dark rain clouds at night, a deep crimson full moon: extreme close-up of huge glittering silver-blue serpent scales sliding slowly past the edge of the moon, rain falling.",
+  "bakunawa_full": "High above dark rain clouds at night, a deep crimson full moon: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings circling the moon in a great ring, fins spread like wings, its eye glowing. Epic wide shot.",
+  "limasawa_memory": "A memory-vision with soft edges: a sea serpent swallowing the moon over a dark sea at Limasawa, a luxury yacht below, a drunk young man filming it on a phone.",
+  "ucayali_memory": "A memory-vision with soft glowing edges in a deep Amazon rainforest at night: a giant shimmering snake among the vines, one huge pale eye round like a moon.",
+  "indio_question": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist looking up into the rain at a crimson moon, eyes narrowed, thinking hard.",
+  "holo_open": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a man's forearm with indigo geometric tattoos projecting a glowing blue-gold holographic panel in the rain, his face lit behind it.",
+  "holo_list": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a glowing blue-gold holographic panel showing a long column of small glowing creature icons, a bird, a horse-like shape, a tree giant, a river spirit, abstract shapes, no readable text.",
+  "holo_empty": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: extreme close-up of a glowing blue-gold holographic panel with one empty dark slot at the bottom of a list of icons, no readable text.",
+  "usman_serious": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: medium shot of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck sitting very straight, looking at his master with serious eyes, rain on his fur.",
+  "sarimanok_flight": "Night sky in heavy rain above a city: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist riding on the back of a giant majestic legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers and an ornate crest, rising steeply toward a crimson moon. Dynamic low angle.",
+  "approach_moon": "High above dark rain clouds at night, a deep crimson full moon: seen from behind a rider on a great bird with a long multicoloured tail, flying toward the moon wrapped in a gigantic glittering serpent. Wide shot.",
+  "serpent_wraps_moon": "High above dark rain clouds at night, a deep crimson full moon: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings wrapped protectively around the whole moon like a ring of armour, its head turned outward, watchful.",
+  "serpent_shield": "High above dark rain clouds at night, a deep crimson full moon: close shot of a gigantic silver-blue serpent body pressed around the edge of the moon like a shield wall, light leaking between its coils.",
+  "eyes_dark": "Deep space behind a crimson moon: a vast darkness filled with countless tiny cold glowing eyes, waiting, no bodies visible. Wide shot, ominous.",
+  "eyes_more": "Deep space at night: an endless field of tiny cold glowing eyes in the dark, more and more appearing at the edges, no bodies visible.",
+  "lens_raise": "Night sky above the clouds: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist riding a great bird, raising an old round brass lens to his eye toward a gigantic serpent.",
+  "lens_view": "Seen through an old round brass lens: gigantic silver-blue serpent scales marked with many long pale scratches and old scars, soft glow. Circular vignette.",
+  "bakunawa_eye": "High above dark rain clouds at night, a deep crimson full moon: extreme close-up of one gigantic serpent eye, glowing gold, very tired and sad, rain running past it like tears.",
+  "lonely_guard": "High above dark rain clouds at night, a deep crimson full moon: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings alone in a vast empty sky curled around the moon, very small stars, lonely and quiet. Wide shot.",
+  "indio_witness": "Night sky above the clouds: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist on the back of a great multicoloured bird holding out one open hand toward a gigantic serpent eye, calm and kind.",
+  "indio_calm": "Night sky above the clouds: close-up of a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist, rain on his face, calm steady eyes, speaking softly.",
+  "m_medallion_glow": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a mysterious young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck, the round bronze medallion at her neck glowing warm gold, a thread of golden light rising from it to the sky.",
+  "moon_white_returns": "Above a rainy city at night: the full moon turning white and bright again, the crimson fading from the clouds, a serpent body loosening around it. Telephoto shot.",
+  "serpent_stays": "High above dark rain clouds at night, a deep crimson full moon: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings slowly uncoiling from a white full moon but staying near it, looking down toward a small rider on a bird.",
+  "serpent_bows": "Night above the rain clouds: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings lowering its enormous head beside a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist on a great multicoloured bird, bowing gently. Medium wide shot.",
+  "holo_sakay": "Night above the clouds: close-up of a glowing blue-gold holographic panel with a new glowing serpent icon at the end of a short list, no readable text.",
+  "people_pots": "Wet rooftops of a Filipino city at night in rain: many ordinary people of all ages standing and looking up, banging pots and pans with spoons, faces lit by the moon. Wide shot.",
+  "pots_close": "Night rooftop in rain: close-up of hands banging an old aluminium cooking pot with a ladle, water splashing.",
+  "crowd_light": "Wet rooftops at night: a grandmother and a child looking up and smiling, holding a pot and a spoon, a white moon breaking through the clouds.",
+  "limasawa_fisher": "A small island beach at night in rain: an old Filipino fisherman in a faded shirt and a straw hat banging an old pot beside his outrigger boat, looking up at the moon. Medium shot.",
+  "cloud_shadow": "Night above the rain clouds: at the edge of a cloud bank a tall slim silhouette standing on the cloud, only the outline visible, moon behind. Wide shot.",
+  "sinag_cloud": "Night above the rain clouds: a handsome pale young man in a white suit with a too-friendly smile standing on a cloud edge, one hand raised in a friendly wave, moonlight on him. Medium shot, low angle.",
+  "sinag_close": "Night above the rain clouds: close-up of a handsome pale young man in a white suit with a too-friendly smile, smiling too close to the camera, eyes cold.",
+  "usman_growl": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck growling low and long, lips lifted, eyes fixed on the sky.",
+  "indio_notices": "Night above the clouds: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist on a great bird turning his head, eyes widening in sudden understanding.",
+  "usman_explain": "A cosy simple studio corner with a rain-streaked window: a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck sitting up straight like a teacher, one paw raised.",
+  "bakunawa_folk": "An old folk painting style image of a great sea serpent swallowing the moon, villagers beating gongs and pots on a shore below, sepia, no readable text.",
+  "friar_writing": "Candlelit room of an old Philippine convent in the 1700s: a friar in a plain brown habit writing with a quill in a thick book at a wooden desk, night window, the page shows only scribbled lines.",
+  "bible_closed": "A plain wooden table by a rain-streaked window at night: an old closed leather-bound book with worn edges, crimson moonlight falling across it, a candle.",
+  "rainbow_covenant": "A calm wide sea at dawn after rain, a soft full rainbow arching over the water, a small wooden boat, peaceful. Wide shot.",
+  "fiction_card": "Night sea in rain: a long fleet of giant lantern-lit wooden plank ships in a row, a gigantic serpent silhouette in the clouds above, a great bird far away. Wide shot.",
+  "eyes_wait": "Behind a white full moon in deep space: countless tiny cold glowing eyes waiting in the darkness at its edges. Telephoto shot.",
+  "tambuli_horn": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: close-up of an old curved carabao horn trumpet hanging on a cord at a man's shoulder, rain dripping from its tip.",
+  "comment": "A flat rooftop of a large white old palace by a river at night in heavy straight rain, wet city lights below: medium shot of a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist and a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck facing the viewer, Indio pointing at the viewer with a small smile.",
+  "question": "High above dark rain clouds at night, a deep crimson full moon: a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings gently curled around a white moon, calm, soft glow. Wide shot.",
+  "follow": "Night sky above rain clouds: a lean Filipino man in his early forties with a black topknot greying at the temples, a short trimmed beard, a dark navy jacket over a white shirt and a red handkerchief on his left wrist and a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck riding on the head of a colossal sea serpent of Philippine folklore with glittering silver-blue scales, a huge mouth and fins like wings, wind in their hair, a white moon behind. Epic wide shot."
+ },
+ "shots": {
+  "0": {
+   "full": "red_moon_rain"
+  },
+  "1": {
+   "full": "serpent_coil_moon"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "intro"
+  },
+  "4": {
+   "full": "rain_city"
+  },
+  "5": {
+   "full": "rain_close"
+  },
+  "6": {
+   "full": "news_screen"
+  },
+  "7": {
+   "full": "arks_coast"
+  },
+  "8": {
+   "full": "pasig_wall"
+  },
+  "9": {
+   "full": "butuan_arks"
+  },
+  "10": {
+   "full": "roof_indio_usman"
+  },
+  "11": {
+   "full": "usman_rain"
+  },
+  "12": {
+   "full": "m_umbrella"
+  },
+  "13": {
+   "full": "crook_hand"
+  },
+  "14": {
+   "full": "usman_sniff_crook"
+  },
+  "15": {
+   "full": "usman_close"
+  },
+  "16": {
+   "full": "roof_tremble"
+  },
+  "17": {
+   "full": "bells_far"
+  },
+  "18": {
+   "full": "carpio_legend"
+  },
+  "19": {
+   "full": "carpio_quake"
+  },
+  "20": {
+   "full": "moon_change"
+  },
+  "21": {
+   "full": "moon_red"
+  },
+  "22": {
+   "full": "m_whisper"
+  },
+  "23": {
+   "full": "m_looks_up"
+  },
+  "24": {
+   "full": "shadow_moon"
+  },
+  "25": {
+   "full": "scales_moon"
+  },
+  "26": {
+   "full": "bakunawa_full"
+  },
+  "27": {
+   "full": "limasawa_memory"
+  },
+  "28": {
+   "full": "ucayali_memory"
+  },
+  "29": {
+   "full": "indio_question"
+  },
+  "30": {
+   "full": "holo_open"
+  },
+  "31": {
+   "full": "holo_list"
+  },
+  "32": {
+   "full": "holo_empty"
+  },
+  "33": {
+   "full": "usman_serious"
+  },
+  "34": {
+   "full": "usman_close"
+  },
+  "35": {
+   "full": "sarimanok_flight"
+  },
+  "36": {
+   "full": "approach_moon"
+  },
+  "37": {
+   "full": "serpent_wraps_moon"
+  },
+  "38": {
+   "full": "serpent_shield"
+  },
+  "39": {
+   "full": "eyes_dark"
+  },
+  "40": {
+   "full": "eyes_more"
+  },
+  "41": {
+   "full": "lens_raise"
+  },
+  "42": {
+   "full": "lens_view"
+  },
+  "43": {
+   "full": "bakunawa_eye"
+  },
+  "44": {
+   "full": "lonely_guard"
+  },
+  "45": {
+   "full": "indio_witness"
+  },
+  "46": {
+   "full": "indio_calm"
+  },
+  "47": {
+   "full": "m_medallion_glow"
+  },
+  "48": {
+   "full": "moon_white_returns"
+  },
+  "49": {
+   "full": "serpent_stays"
+  },
+  "50": {
+   "full": "serpent_bows"
+  },
+  "51": {
+   "full": "holo_sakay"
+  },
+  "52": {
+   "full": "people_pots"
+  },
+  "53": {
+   "full": "pots_close"
+  },
+  "54": {
+   "full": "crowd_light"
+  },
+  "55": {
+   "full": "limasawa_fisher"
+  },
+  "56": {
+   "full": "cloud_shadow"
+  },
+  "57": {
+   "full": "sinag_cloud"
+  },
+  "58": {
+   "full": "sinag_close"
+  },
+  "59": {
+   "full": "usman_growl"
+  },
+  "60": {
+   "full": "indio_notices"
+  },
+  "61": {
+   "full": "usman_explain"
+  },
+  "62": {
+   "full": "bakunawa_folk"
+  },
+  "63": {
+   "full": "friar_writing"
+  },
+  "64": {
+   "full": "carpio_legend"
+  },
+  "65": {
+   "full": "bible_closed"
+  },
+  "66": {
+   "full": "rainbow_covenant"
+  },
+  "67": {
+   "full": "fiction_card"
+  },
+  "68": {
+   "full": "eyes_wait"
+  },
+  "69": {
+   "full": "tambuli_horn"
+  },
+  "70": {
+   "full": "comment"
+  },
+  "71": {
+   "full": "question"
+  },
+  "72": {
+   "full": "follow"
+  }
+ }
+}
