@@ -1,0 +1,337 @@
+{
+ "_note": "Episode 30 (S3E10), story version 2, Kabanata 30: the fifth to seventh depths (Poot: a storm of shouting shadows; Linlang: a hall of whispering shadows, Rico Bulan only as a shadow; Palalo: an ice cavern), the blade of the Trinity in the ice, the marks shining with light (no wound, no gore), the awakening, Usman crossing into the present, Lolo staying below, Teddy sent home by the Daan Pauwi (the diwa only as light, no face), Biringan's gate cut open, Liwayway and Tala, the table in Kawit, the rain rising. Palalo is a pale robed figure, never a demon image. Prompts are setting-first with short character strings; the free endpoint filters brick, violet, museum and gore words. Intro copied from Episode 11. Shots follow sentences.json; k90-k97 are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. ",
+ "white": "Anime character illustration, medium shot from the waist up, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {},
+ "plates": {},
+ "chars": {},
+ "full": {
+  "blade_ice_hook": "A vast silent cavern of pale blue ice deep underground, low wide shot: a small blade glowing with golden fire set deep inside a clear block of ice at the centre, the ice around it unmelted, a tiny figure of a young man far away. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "dead_medallions": "A dark underground cavern, close-up: a young man's open palm holding several small dull bronze discs, cold and lifeless, a faint grey mist over them. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "intro": "(copied from Episode 11)",
+  "intro_look": "A vast silent cavern of pale blue ice deep underground, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist looking up into the cold blue light, breath steaming, calm determined eyes. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "tar_edge": "A dark cavern over a glowing sea of black tar, orange light from below: an old Filipino grandfather with white hair, a faded polo shirt and a red handkerchief on his wrist and a thin unshaven Filipino man in his fifties in torn work clothes dusted with grey ash sitting on a stone ledge, seen from a distance as a young man walks away down a slope. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "descend_dog": "A long dark stone slope going down into blue darkness, wide shot from behind: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist and a black street dog with a white chest patch, one folded ear and a red kerchief walking down side by side, a faint warm glow far above them. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "call_powers": "A dark rocky cavern, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist raising a fist with small bronze discs, calling out, nothing happens, his face tense. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "holo_dark": "A dark cavern, close-up of a young man's forearm with indigo geometric marks, a small flat hologram flickering above it, broken and grey, empty slots. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_belly": "A dark cavern, close-up: a black street dog with a white chest patch, one folded ear and a red kerchief lying with his chin on his paws, ears flat, one eye looking up, a small sad comic expression. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "eyes_only": "A dark cavern, extreme close-up of a young Filipino man's eyes, steady, a faint blue light reflected in them. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "storm_depth": "A dark grey underground plain under a howling storm wind, wide shot: crowds of grey shadowy people shouting at each other in the wind, each pointing at another, dust and swirling cloth. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "storm_people": "A dark grey underground plain in a storm, low angle: angry grey shadow figures with open mouths shouting into the wind, hair and cloth whipping. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "bagumbayan_memory": "A soft hazy memory in pale colours: an open field at dawn in old Manila, a young man in a white collarless shirt reaching to his chest where a medallion is gone, a red umbrella vanishing in the mist, dreamlike. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "indio_admit": "A dark grey underground plain in a storm, close-up: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist with eyes closed, head bowed, nodding, calm in the middle of the wind. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "storm_passes": "A dark grey underground plain, wide shot: the storm wind parting around a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist standing still, the shouting grey figures blown past him like leaves. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "liar_hall": "A vast underground hall of whispering shadows, wide shot: hundreds of grey shadow figures leaning together and murmuring, thin pale threads of light between their mouths, a maze of stone. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "voices_twist": "A vast underground hall, close-up of shadowy grey faces whispering into each other's ears, sly smiles, their words drawn as tangled pale ribbons in the air. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "rico_shadow": "A vast underground hall, medium shot: the grey shadow of a slick young man with a selfie stick and a microphone lecturing a row of small grey children on stone benches who cannot leave. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_growl": "A vast underground hall of shadows, low angle close-up: a black street dog with a white chest patch, one folded ear and a red kerchief growling, teeth bared, fur raised, eyes fierce. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_each": "A vast underground hall, wide shot: a black street dog with a white chest patch, one folded ear and a red kerchief walking along a line of whispering grey shadow figures, growling at each one, the figures flinching. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "indio_answers": "A vast underground hall, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist pointing at the whispering shadows and speaking firmly, three soft glowing symbols in the air beside him: a check, a question, a feather. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "voices_fade": "A vast underground hall, wide shot: the grey shadow figures fading one by one into mist, the hall growing quiet and empty, pale light falling. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "rich_double": "A vast underground hall, medium shot: a grey shadow double of a young Filipino man with a black topknot in an expensive suit, sunglasses and gold watch, smirking, standing among cars made of smoke. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "weapon_realise": "A vast underground hall now empty, close-up: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist looking at his own hands, a small surprised smile, soft light on his face. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "ice_depth": "A vast silent cavern of pale blue ice deep underground, extreme wide shot: an endless frozen plain under a ceiling of ice, no colour, utter stillness, a tiny man and dog walking in. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "ice_still": "A vast silent cavern of pale blue ice deep underground, close-up: frost forming on a young man's eyelashes, his breath freezing in the air, absolute silence. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "blade_close": "A vast silent cavern of pale blue ice deep underground, extreme close-up: a small ancient blade glowing with golden fire, sealed deep inside clear ice that does not melt, light rays in the ice. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "call_datu": "A vast silent cavern of pale blue ice deep underground, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist standing with arms open, calling out, his voice drawn as faint rings that vanish into the ice, no answer. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "ask_aloud": "A vast silent cavern of pale blue ice deep underground, low angle: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist looking up into the frozen dark, mouth open asking, small and alone, the ice ceiling far above. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "palalo_appears": "A vast silent cavern of pale blue ice deep underground, wide shot: a tall beautiful pale figure in a long white robe with an icy calm face and cold pale eyes rising from the ice beside the glowing blade, frost crystals swirling around him. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "palalo_close": "A vast silent cavern of pale blue ice deep underground, close-up: a tall beautiful pale figure in a long white robe with an icy calm face and cold pale eyes smiling coldly, tilting his head, frost on his eyelashes, eyes like glass. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "palalo_crown": "A vast silent cavern of pale blue ice deep underground, over-the-shoulder from behind a tall beautiful pale figure in a long white robe with an icy calm face and cold pale eyes toward a young man, a phantom crown of ice forming in the air above the young man's head. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "kneel_ice": "A vast silent cavern of pale blue ice deep underground, wide shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist kneeling on the ice before the glowing blade, hands on his knees, head lowered, looking, not reaching. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "saksi_line": "A vast silent cavern of pale blue ice deep underground, close-up: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist kneeling, looking up, saying something simple and calm, a tear freezing on his cheek. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "ice_cracks": "A vast silent cavern of pale blue ice deep underground, low angle: the ice splitting open in bright cracks, the small glowing blade rising slowly into the air on its own. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "blade_palm": "A vast silent cavern of pale blue ice deep underground, close-up: a small blade of golden fire resting in a young man's open palm without burning it, warm light on his face. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "palalo_melts": "A vast silent cavern of pale blue ice deep underground, wide shot: a tall beautiful pale figure in a long white robe with an icy calm face and cold pale eyes dissolving into clear water that pours down through a crack in the ice, the phantom crown shattering into snow. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "marks_light": "Deep underground in blue darkness, close-up of a young man's forearm: seven indigo geometric marks glowing from within, soft golden light shining through each mark like light through stained glass. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "no_wings": "A vast silent cavern of pale blue ice deep underground, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist standing, glowing faintly, looking at his shoulders where nothing has grown, a small amused breath. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "still_human": "A vast silent cavern of pale blue ice deep underground, close-up: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist with a calm face, light in his eyes, a small sure smile. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "time_open": "An underground ice cavern dissolving into many layered windows of other times and places around a young man, a jeepney street, a galleon, a forest, all softly glowing. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "holo_new": "A dark cavern, close-up of a glowing golden hologram above a young man's forearm with seven glowing marks, a new bright line of light added at the top. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "holo_percent": "A dark cavern, close-up of a glowing golden hologram bar almost full, a small curved shepherd's-crook symbol at its end, softly pulsing. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_excited": "A vast silent cavern of pale blue ice deep underground lit with warm light, medium shot: a black street dog with a white chest patch, one folded ear and a red kerchief jumping up with his tongue out, tail wagging hard, delighted. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_stays": "A vast silent cavern of pale blue ice deep underground, two-shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist kneeling and scratching the ears of a black street dog with a white chest patch, one folded ear and a red kerchief, both smiling. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "climb_up": "A long dark stone slope underground, low wide shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist climbing upward with a black street dog with a white chest patch, one folded ear and a red kerchief beside him, a small golden light in his hand lighting the way. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "lolo_stays": "A dark cavern over a glowing sea of black tar, orange light: an old Filipino grandfather with white hair, a faded polo shirt and a red handkerchief on his wrist standing on a stone ledge, smiling, raising a hand in goodbye. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "lolo_joke": "A dark cavern over a glowing sea of black tar, close-up: an old Filipino grandfather with white hair, a faded polo shirt and a red handkerchief on his wrist winking with a dry smile, warm orange light on his face. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "lolo_back": "A dark cavern over a glowing sea of black tar, wide shot from above: the small figure of an old man left on the ledge as a young man, a dog and a gaunt man climb away up the slope. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "teddy_ask": "A dark rocky slope, close-up: a thin unshaven Filipino man in his fifties in torn work clothes dusted with grey ash looking at his son with wet tired eyes, lips trembling, hopeful. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "pahala_medal": "A dark rocky slope, close-up of a young man's hand holding a small round bronze medallion that begins to glow with a gentle silver-blue light. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "pahala_light": "A dark rocky slope, wide shot: a tall soft column of silver-blue light rising from a small bronze disc, inside it the faint outline of an old standing figure, no face. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "teddy_home": "A dark rocky slope, medium shot: a thin unshaven Filipino man in his fifties in torn work clothes dusted with grey ash wrapped in soft silver-blue light, fading upward, a peaceful smile, his hand slipping from his son's hand. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "biringan_gate": "A great gate of white fog at night in a Samar forest, the faint glow of a city of glass and gold behind it, wide shot, dreamlike. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "blade_fog": "A great gate of white fog at night, low angle: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist holding a small blade of golden fire up to the fog, the fog parting in a clean line of light. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "fog_parts": "A great gate of white fog at night, wide shot: the fog splitting apart, a city of glass and gold beyond, two women standing in the opening. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "hands_family": "A great gate of parted fog at night, two-shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist holding hands with a gentle Filipina woman of about forty-five with long black hair in a plain white dress on one side and a young Filipina woman with long snow-white hair and pale silver eyes in a long black coat on the other, all three facing the light. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "liwayway_face": "A great gate of parted fog at night, close-up: a gentle Filipina woman of about forty-five with long black hair in a plain white dress smiling with tears, touching her son's cheek. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "tala_asks": "A great gate of parted fog at night, close-up: a young Filipina woman with long snow-white hair and pale silver eyes in a long black coat looking uncertain, a small hopeful look. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "indio_answers_tala": "A great gate of parted fog at night, over-the-shoulder from behind a young Filipina woman with long snow-white hair and pale silver eyes in a long black coat toward a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist smiling warmly at her. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "lola_table": "A small old kitchen in Kawit at night, wide shot: an old Filipina grandmother with grey hair in a bun, glasses and a floral house dress at the head of a wooden table set with six plates and a steaming pot of sinigang, waving the family in through the door. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "usman_fair": "A plain warm studio background, close-up: a black street dog with a white chest patch, one folded ear and a red kerchief growling seriously, one ear up, like a strict teacher. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "eden_gate": "A painted illustration in the style of an old manuscript: the eastern gate of a lush garden guarded by winged figures and a turning sword of fire in the air, no text. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "scholars_books": "Close-up of several old open books on a wooden desk, each with a different painting of a flaming sword, a hand turning a page, illegible lines only. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "dante_book": "Close-up of an old leather book open on a desk, an engraving of nine descending rings of a funnel, the lowest one frozen, candlelight, illegible lines only. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "seven_count": "A simple glowing diagram in the air: seven stacked rings of light descending, beside a faded drawing of nine rings, illustration, no text. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "john_book": "Close-up of an old Tagalog Bible open on a wooden table, a finger resting on a page, soft lamplight, illegible lines only. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "fiction_cards": "A wooden table with several cards laid out like a game, each card painted with a small picture: a blade of fire, a crowned pale figure, a glowing forearm, a bronze disc, soft light, no text. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "family_table": "A small old kitchen in Kawit at night, wide shot: a whole Filipino family around a wooden table with six plates and a steaming pot, an old grandmother in glasses, a mother in white, a young woman with snow-white hair, a thin father, a young man with a black topknot, a black dog under the table. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "rain_window": "A small old kitchen window at night in Kawit, close-up: heavy rain on the glass, outside the street flooding, water rising past the doorsteps. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "comment_q": "A plain warm studio background, medium shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist holding a small glowing golden blade up beside his face, asking the viewer with a raised eyebrow. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "comment_think": "A plain warm studio background, close-up: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist holding a small glowing blade, thinking, finger on chin. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "follow_end": "A Kawit street at dawn after rain, wide shot: a lean young Filipino man with a black topknot, grey t-shirt, jeans and a red handkerchief on his wrist on an old motorcycle with a sidecar, a black street dog with a white chest patch, one folded ear and a red kerchief sitting in the sidecar wearing goggles, both grinning. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "ice_vista": "A vast silent cavern of pale blue ice deep underground, extreme wide shot of frozen pillars and arches like a silent cathedral of ice, faint blue light. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "frost_hand": "A vast silent cavern of pale blue ice deep underground, close-up of a young man's hand pressing on clear ice, frost spreading from his fingers. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "storm_cloth": "A dark grey underground plain, close-up of torn cloth whipping in a howling wind, dust streaming. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "shadow_threads": "A vast underground hall, close-up of pale tangled threads of light hanging between grey shadow figures like a web. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "blade_glow": "Extreme close-up of golden flame flickering along a small ancient blade, sparks drifting, dark background. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "fog_city": "A city of glass and gold glowing beyond a wall of white fog at night, seen from a forest, wide shot. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "sinigang_pot": "Close-up of a steaming pot of sinigang on an old gas stove in a small kitchen, warm light. Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "dog_tapsilog": "A small Filipino breakfast stall at dawn, medium shot: a black street dog with a white chest patch, one folded ear and a red kerchief sitting on a stool at the counter staring hungrily at a plate of tapsilog, comic. Detailed background, no text, no letters, no numbers, no signs, no captions."
+ },
+ "shots": {
+  "0": {
+   "full": "blade_ice_hook"
+  },
+  "1": {
+   "full": "dead_medallions"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "intro_look"
+  },
+  "4": {
+   "full": "tar_edge"
+  },
+  "5": {
+   "full": "descend_dog"
+  },
+  "6": {
+   "full": "call_powers"
+  },
+  "7": {
+   "full": "holo_dark"
+  },
+  "8": {
+   "full": "usman_belly"
+  },
+  "9": {
+   "full": "eyes_only"
+  },
+  "10": {
+   "full": "storm_depth"
+  },
+  "11": {
+   "full": "storm_people"
+  },
+  "12": {
+   "full": "bagumbayan_memory"
+  },
+  "13": {
+   "full": "indio_admit"
+  },
+  "14": {
+   "full": "storm_passes"
+  },
+  "15": {
+   "full": "liar_hall"
+  },
+  "16": {
+   "full": "voices_twist"
+  },
+  "17": {
+   "full": "rico_shadow"
+  },
+  "18": {
+   "full": "usman_growl"
+  },
+  "19": {
+   "full": "usman_each"
+  },
+  "20": {
+   "full": "indio_answers"
+  },
+  "21": {
+   "full": "voices_fade"
+  },
+  "22": {
+   "full": "rich_double"
+  },
+  "23": {
+   "full": "weapon_realise"
+  },
+  "24": {
+   "full": "ice_depth"
+  },
+  "25": {
+   "full": "ice_still"
+  },
+  "26": {
+   "full": "blade_close"
+  },
+  "27": {
+   "full": "call_datu"
+  },
+  "28": {
+   "full": "ask_aloud"
+  },
+  "29": {
+   "full": "palalo_appears"
+  },
+  "30": {
+   "full": "palalo_close"
+  },
+  "31": {
+   "full": "palalo_crown"
+  },
+  "32": {
+   "full": "kneel_ice"
+  },
+  "33": {
+   "full": "saksi_line"
+  },
+  "34": {
+   "full": "ice_cracks"
+  },
+  "35": {
+   "full": "blade_palm"
+  },
+  "36": {
+   "full": "palalo_melts"
+  },
+  "37": {
+   "full": "marks_light"
+  },
+  "38": {
+   "full": "no_wings"
+  },
+  "39": {
+   "full": "still_human"
+  },
+  "40": {
+   "full": "time_open"
+  },
+  "41": {
+   "full": "holo_new"
+  },
+  "42": {
+   "full": "holo_percent"
+  },
+  "43": {
+   "full": "usman_excited"
+  },
+  "44": {
+   "full": "usman_stays"
+  },
+  "45": {
+   "full": "climb_up"
+  },
+  "46": {
+   "full": "lolo_stays"
+  },
+  "47": {
+   "full": "lolo_joke"
+  },
+  "48": {
+   "full": "lolo_back"
+  },
+  "49": {
+   "full": "teddy_ask"
+  },
+  "50": {
+   "full": "pahala_medal"
+  },
+  "51": {
+   "full": "pahala_light"
+  },
+  "52": {
+   "full": "teddy_home"
+  },
+  "53": {
+   "full": "biringan_gate"
+  },
+  "54": {
+   "full": "blade_fog"
+  },
+  "55": {
+   "full": "fog_parts"
+  },
+  "56": {
+   "full": "hands_family"
+  },
+  "57": {
+   "full": "liwayway_face"
+  },
+  "58": {
+   "full": "tala_asks"
+  },
+  "59": {
+   "full": "indio_answers_tala"
+  },
+  "60": {
+   "full": "lola_table"
+  },
+  "61": {
+   "full": "usman_fair"
+  },
+  "62": {
+   "full": "eden_gate"
+  },
+  "63": {
+   "full": "scholars_books"
+  },
+  "64": {
+   "full": "dante_book"
+  },
+  "65": {
+   "full": "seven_count"
+  },
+  "66": {
+   "full": "john_book"
+  },
+  "67": {
+   "full": "fiction_cards"
+  },
+  "68": {
+   "full": "family_table"
+  },
+  "69": {
+   "full": "rain_window"
+  },
+  "70": {
+   "full": "comment_q"
+  },
+  "71": {
+   "full": "comment_think"
+  },
+  "72": {
+   "full": "follow_end"
+  },
+  "90": {
+   "full": "ice_vista"
+  },
+  "91": {
+   "full": "frost_hand"
+  },
+  "92": {
+   "full": "storm_cloth"
+  },
+  "93": {
+   "full": "shadow_threads"
+  },
+  "94": {
+   "full": "blade_glow"
+  },
+  "95": {
+   "full": "fog_city"
+  },
+  "96": {
+   "full": "sinigang_pot"
+  },
+  "97": {
+   "full": "dog_tapsilog"
+  }
+ }
+}
