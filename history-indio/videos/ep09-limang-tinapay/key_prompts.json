@@ -1,0 +1,173 @@
+{
+ "_note": "Episode 9 (S2E1) keyframes, same method as Episodes 2-8. The Gospel scene (sentences 10-21): Jesus is only a far figure seen from behind (plain off-white tunic, simple brown mantle), never a face, never a close-up, no halo. Disciples, the boy and the crowd are generic figures, faces small or turned away. Indio has no medallion of his own (six marks); M wears her crescent-moon medallion. Indio, M and Usman stand only at the edge, touching nothing. No weapons. Copied, not generated (from Episode 8): plate kawit1898; chars m_explain, usman_growl; full intro, star_medallion, m_medallion_hot, walk_away. Shot keys follow sentences.json; k50+ are extra keys used only inside montages.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {
+  "kawit1898": "(copied from Episode 8)",
+  "galilee_hill": "a wide green grassy hillside sloping down to a calm blue lake, the Sea of Galilee, low brown hills on the far shore, a few small wooden fishing boats on the water, scattered rocks and wildflowers, warm afternoon light, nothing modern, no buildings.",
+  "galilee_dusk": "a green grassy hillside above a calm blue lake at sunset, warm orange sky, long soft shadows on the grass, a few empty woven baskets, peaceful, nothing modern, no buildings."
+ },
+ "chars": {
+  "m_explain": "(copied from Episode 8)",
+  "usman_growl": "(copied from Episode 8)",
+  "indio_cloak": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, looking down at his own new clothes, holding the edge of the cloak, calm surprised face, soft afternoon light.",
+  "usman_galilee": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting very still on green grass, ears up, looking ahead quietly, calm attentive face, afternoon light.",
+  "m_galilee": "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, the red umbrella closed on her arm, a small round medallion engraved with a crescent moon at her neck, standing still, looking ahead at something far away, eyes wet, quiet face, dusk light.",
+  "indio_pocket": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, holding in his open palm a small round golden medallion engraved with a single five-pointed star, looking at it with a thoughtful quiet face, dusk light."
+ },
+ "full": {
+  "intro": "(copied from Episode 8)",
+  "star_medallion": "(copied from Episode 8)",
+  "m_medallion_hot": "(copied from Episode 8)",
+  "walk_away": "(copied from Episode 8)",
+  "loaves_crowd": "close-up of a small woven basket on the grass holding five round flat brown barley loaves and two small dried fish, nobody in the foreground, far behind it out of focus a huge crowd sitting on a green hillside by a lake, warm late-afternoon light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "map_bread": "view through a round golden-rimmed lens filling the frame: inside the circle an old yellowed paper map of Asia with eleven tiny gold dots, and at the far left edge, instead of a dot, a tiny ink drawing of five round loaves and two small fish, glowing softly; outside the circle darkness.",
+  "edge_three": "seen from behind at the edge of a huge crowd on a green hillside by a lake: a young man in a brown wool cloak and red headband with long tails, a young woman in a long dark coat with a closed red umbrella, and a black dog with a red kerchief, standing still apart from the crowd, afternoon light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "boat_crowd": "a wide calm lake at afternoon, far away one small wooden fishing boat with a plain sail heading to a lonely green shore, and along the shore long lines of tiny people walking on foot from distant villages, dust in golden light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "healing_far": "from far behind a seated crowd on a green hillside: in the distance a small figure of a man in a plain off-white tunic and simple brown mantle, seen only from behind, bending toward people lying on woven mats, others bringing them, gentle golden light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "dusk_disciples": "seen from far away on a hillside at dusk, a small group of twelve men in plain tunics and mantles standing around a man in an off-white tunic and brown mantle whose back is to the viewer, one man pointing at the huge crowd and the distant villages, orange sky. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "boy_basket": "a Galilean boy of about ten in a plain tunic, seen from the side, holding up a small woven basket with five round barley loaves and two small fish, a bearded man in a mantle kneeling beside him, both faces in soft shadow, crowd behind, warm light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "groups_grass": "high wide view of a green hillside by a lake with thousands of people sitting on the grass in neat separate groups and rows, like a patchwork of colours, long afternoon shadows. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "blessing_back": "from far behind, a man in a plain off-white tunic and simple brown mantle stands on a slope with his back to the viewer, lifting round loaves toward a glowing sunset sky, a huge seated crowd below him, no halo, solemn and quiet. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "baskets_pass": "men in plain tunics carrying woven baskets of bread and fish along rows of people seated on grass, hands reaching to receive the food, warm golden dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "eating": "seen from behind and a little above, families seated on green grass at dusk, mothers and small children breaking round bread and eating small fish, faces turned away or tiny, warm light, a lake ahead, nobody facing the viewer. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "gathering": "men in plain tunics bending down on the grass to pick up broken pieces of bread into woven baskets, a seated crowd around them, dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "twelve_baskets": "a row of exactly twelve woven baskets standing on the grass, each full to the top with broken pieces of bread, a lake and an orange dusk sky behind, quiet and still. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "crowd_families": "a vast crowd on a green hillside at dusk, men, women and small children sitting together, mothers holding babies, stretching up to the horizon, warm light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "mountain_alone": "sunset on a rocky hill path above a lake, one small figure in a brown mantle seen from far behind walking up the path alone, far below on the green shore many tiny seated people, warm orange sky, peaceful. People in simple tunics and mantles, no halo, faces small and far.",
+  "map_ph": "view through a round golden-rimmed lens filling the frame: inside the circle an old yellowed paper map of Asia with tiny dim gold dots, and one new bright gold dot glowing on the Philippine islands, light rays; outside the circle darkness.",
+  "four_scrolls": "four old rolled parchment scrolls lying side by side on a rough wooden table, each slightly open showing only illegible scribbled lines, beside them five round loaves and two small fish on a cloth, soft lamplight, no readable letters.",
+  "qc_school": "view through a round golden-rimmed lens filling the frame: inside the circle a Philippine public elementary school building in a city, two storeys, cream and green paint, a small flag pole, a covered walkway, schoolchildren in white shirts, bright morning; outside the circle darkness. No readable text."
+ },
+ "shots": {
+  "0": {
+   "full": "loaves_crowd"
+  },
+  "1": {
+   "full": "intro"
+  },
+  "3": {
+   "char": "m_explain",
+   "plate": "kawit1898",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "4": {
+   "full": "map_bread"
+  },
+  "5": {
+   "full": "star_medallion"
+  },
+  "6": {
+   "full": "m_medallion_hot"
+  },
+  "7": {
+   "char": "indio_cloak",
+   "plate": "galilee_hill",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "8": {
+   "char": "usman_galilee",
+   "plate": "galilee_hill",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.55
+  },
+  "9": {
+   "full": "edge_three"
+  },
+  "10": {
+   "full": "boat_crowd"
+  },
+  "11": {
+   "full": "healing_far"
+  },
+  "12": {
+   "full": "dusk_disciples"
+  },
+  "14": {
+   "full": "boy_basket"
+  },
+  "15": {
+   "full": "groups_grass"
+  },
+  "16": {
+   "full": "blessing_back"
+  },
+  "17": {
+   "full": "baskets_pass"
+  },
+  "18": {
+   "full": "eating"
+  },
+  "19": {
+   "full": "gathering"
+  },
+  "20": {
+   "full": "twelve_baskets"
+  },
+  "21": {
+   "full": "crowd_families"
+  },
+  "22": {
+   "full": "mountain_alone"
+  },
+  "23": {
+   "char": "m_galilee",
+   "plate": "galilee_dusk",
+   "x": 0.55,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "24": {
+   "full": "map_ph"
+  },
+  "25": {
+   "char": "usman_growl",
+   "plate": "galilee_dusk",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "26": {
+   "full": "four_scrolls"
+  },
+  "30": {
+   "char": "indio_pocket",
+   "plate": "galilee_dusk",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "31": {
+   "full": "qc_school"
+  },
+  "32": {
+   "char": "indio_cloak",
+   "plate": "galilee_dusk",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "33": {
+   "full": "walk_away"
+  },
+  "50": {
+   "plate": "galilee_hill"
+  },
+  "51": {
+   "plate": "galilee_dusk"
+  }
+ }
+}
