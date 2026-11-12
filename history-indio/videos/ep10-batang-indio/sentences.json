@@ -28,15 +28,8 @@
   "pause": 0.62
  },
  {
-  "text": "Pagkatapos ng Galilea, sumindi ang susunod na tuldok, sa sarili kong lungsod.",
-  "say": "pagkatapos ng galilea, sumindi ang susunod na tuldok, sa sarili kong lungsod.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Taong 2012 ito, par.",
-  "say": "taong dos mil dose ito, par.",
+  "text": "Ang tuldok mula sa Galilea: ang dati kong paaralan, taong 2012, par.",
+  "say": "ang tuldok mula sa galilea: ang dati kong paaralan, taong dos mil dose, par.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.3
@@ -56,8 +49,8 @@
   "pause": 0.62
  },
  {
-  "text": "Sa gate ng dati kong paaralan, sumilip ako sa lente, bawal kasi akong lumapit.",
-  "say": "sa geyt ng dati kong paaralan, sumilip ako sa lente, bawal kasi akong lumapit.",
+  "text": "Sa gate, sumilip ako sa lente, bawal kasi akong lumapit.",
+  "say": "sa geyt, sumilip ako sa lente, bawal kasi akong lumapit.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -91,8 +84,8 @@
   "pause": 0.62
  },
  {
-  "text": "Sa recitation, tanong ni Ma'am, ano ang unang batas ng ating mga ninuno?",
-  "say": "sa resiteysyon, tanong ni mam, ano ang unang batas ng ating mga ninuno?",
+  "text": "Sa recitation, tanong ni Ma'am, ano ang unang batas natin?",
+  "say": "sa resiteysyon, tanong ni mam, ano ang unang batas natin?",
   "style": "serious",
   "pre": 0,
   "pause": 0.42
@@ -140,8 +133,8 @@
   "pause": 0.3
  },
  {
-  "text": "Pero ilang dekada pa rin itong itinuro sa eskwela.",
-  "say": "pero ilang dekada pa rin itong itinuro sa eskwela.",
+  "text": "Pero ilang dekada pa itong itinuro sa eskwela.",
+  "say": "pero ilang dekada pa itong itinuro sa eskwela.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62
@@ -196,15 +189,15 @@
   "pause": 0.3
  },
  {
-  "text": "Pinagtatalunan pa kung si Marco lang ang gumawa at bakit, at may mga taga-Aklan na tumutol.",
-  "say": "pinagtatalunan pa kung si marco lang ang gumawa at bakit, at may mga taga-aklan na tumutol.",
+  "text": "Pinagtatalunan pa kung bakit ito ginawa, at may mga taga-Aklan na tumutol.",
+  "say": "pinagtatalunan pa kung bakit ito ginawa, at may mga taga-aklan na tumutol.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Kathang-isip ang pamilya ko, ang paaralan, si Ma'am, si M, si Usman at ang lente.",
-  "say": "kathang-isip ang pamilya ko, ang paaralan, si mam, si em, si usman at ang lente.",
+  "text": "Kathang-isip ang pamilya ko, ang paaralan, si Ma'am, si M, si Usman, ang lente at kuwaderno.",
+  "say": "kathang-isip ang pamilya ko, ang paaralan, si mam, si em, si usman, ang lente at kuwaderno.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62
@@ -217,23 +210,30 @@
   "pause": 0.3
  },
  {
-  "text": "Tumahimik ang batang ako, pero bitbit ko na ulit ang tapang niyang magtanong.",
-  "say": "tumahimik ang batang ako, pero bitbit ko na ulit ang tapang niyang magtanong.",
+  "text": "Bitbit ko na ulit ang tapang ng batang ako.",
+  "say": "bitbit ko na ulit ang tapang ng batang ako.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Uminit ang medalyon ni M, sumindi ang susunod na tuldok, pahilaga, lampas ng dagat.",
-  "say": "uminit ang medalyon ni em, sumindi ang susunod na tuldok, pahilaga, lampas ng dagat.",
-  "style": "dramatic",
+  "text": "Sa lente, nakita kong may itinago si Lolo sa library, kuwaderno para sa akin.",
+  "say": "sa lente, nakita kong may itinago si lolo sa laybrari, kuwaderno para sa akin.",
+  "style": "whisper",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Mahigit isang libong taon pabalik, may mga barkong papunta sa emperador.",
-  "say": "mahigit isang libong taon pabalik, may mga barkong papunta sa emperador.",
-  "style": "suspense",
+  "text": "Kinuha ito ni Usman, at binasa ko nang malakas ang marker ng paaralan.",
+  "say": "kinuha ito ni usman, at binasa ko nang malakas ang marker ng paaralan.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Uminit ang medalyon ni M, at may kusang sumulat sa kuwaderno: mga barko, pahilaga, papunta sa emperador.",
+  "say": "uminit ang medalyon ni em, at may kusang sumulat sa kuwaderno: mga barko, pahilaga, papunta sa emperador.",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.62
  },

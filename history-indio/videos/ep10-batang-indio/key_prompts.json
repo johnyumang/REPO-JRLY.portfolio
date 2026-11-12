@@ -1,5 +1,5 @@
 {
- "_note": "Episode 10 keyframes (same method as Episode 8). 2012 Quezon City through the lens. Grown-up Indio: grey t-shirt, jeans, NO medallion, red handkerchief on wrist, arm tattoos (count not drawn). The boy (Indio at ten) has NO tattoos and NO medallion; the Lolo wears the family bronze medallion (sun and triangle). M wears her own crescent-moon medallion and holds the red umbrella only in the 2012 view (umbrella_gate). Teacher and classmates are fictional and shown kindly. Real people (Marco, Scott, the panel, Aklan officials) appear only in frames copied from videos/kodigo-ni-kalantiaw (k04 chieftain, k10 textbooks, k17 marco, k20 archive, k21 scott_walk, k22 scott_glass, k23 crack, k28 panel, k30 class80s, k31 stamp, k34 aklan), resized to 768x1344. Copied from Episode 8: full intro, full m_medallion_hot, chars usman_growl. Character strings for new people (boy, Lolo, teacher, 2012 Indio) are written once here and pasted verbatim; they are not yet in characters/series_cast.json (the conductor may add them). Shot keys follow sentences.json; k50-k55 are extra keys used only in montages. No weapons.",
+ "_note": "Episode 10 keyframes (same method as Episode 8). 2012 Quezon City through the lens. Grown-up Indio: grey t-shirt, jeans, NO medallion, red handkerchief on wrist, arm tattoos (count not drawn). The boy (Indio at ten) has NO tattoos and NO medallion; the Lolo wears the family bronze medallion (sun and triangle). M wears her own crescent-moon medallion and holds the red umbrella only in the 2012 view (umbrella_gate). Teacher and classmates are fictional and shown kindly. Real people (Marco, Scott, the panel, Aklan officials) appear only in frames copied from videos/kodigo-ni-kalantiaw (k04 chieftain, k10 textbooks, k17 marco, k20 archive, k21 scott_walk, k22 scott_glass, k23 crack, k28 panel, k30 class80s, k31 stamp, k34 aklan), resized to 768x1344. Copied from Episode 8: full intro, full m_medallion_hot, chars usman_growl. Character strings for new people (boy, Lolo, teacher, 2012 Indio) are written once here and pasted verbatim; they are not yet in characters/series_cast.json (the conductor may add them). Gamit of this episode (SERIES.md S2 row 2): the Lolo's notebook (lolo_hide, notebook_glow). Shot keys follow sentences.json; k50-k57 are extra keys used only in montages. No weapons.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -38,7 +38,9 @@
   "empty_chair": "warm sad sepia scene, a small old Filipino living room at dusk, an empty wooden rocking chair, on it a pair of folded reading glasses resting on an old worn book, rain on the window, a cold empty cup on a side table.",
   "map_north": "an old hand-drawn ink map on yellowed paper, small tropical islands at the bottom, open sea in the middle, a long coastline at the top, one gold dot shining brightly on the top coastline with golden rays, no writing, no letters.",
   "ships_north": "at night under many stars, three ancient Southeast Asian wooden plank boats with outriggers and tall square woven-mat sails crossing a calm dark sea, small lanterns, seen from far away, mysterious and ancient, no European ships, nothing modern.",
-  "pair_gate": "seen from behind at sunset, a lean young man in a grey t-shirt and jeans with a red handkerchief on his wrist and a black dog with one folded ear and a red kerchief, standing side by side outside the green gate of a Philippine public elementary school, long shadows, warm orange light."
+  "pair_gate": "seen from behind at sunset, a lean young man in a grey t-shirt and jeans with a red handkerchief on his wrist and a black dog with one folded ear and a red kerchief, standing side by side outside the green gate of a Philippine public elementary school, long shadows, warm orange light.",
+  "lolo_hide": "view through a round golden-rimmed lens: inside the circle, seen from the side, a thin grey-haired old Filipino grandfather in a faded white polo shirt, a round bronze medallion on a cord at his neck, reaching up and pushing a small brown notebook into a gap between old books on a high wooden library shelf; outside the circle dark.",
+  "notebook_glow": "close-up of a small worn brown notebook lying open in a young man's tattooed hands, on the blank page fresh ink lines are writing themselves with a soft golden glow, only illegible scribbled lines, a tiny drawn sailing boat, sparkles, dusk light."
  },
  "shots": {
   "0": {
@@ -54,102 +56,99 @@
    "full": "map_qc"
   },
   "5": {
-   "plate": "school_gate"
-  },
-  "6": {
    "char": "usman_happy",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "7": {
+  "6": {
    "char": "indio_smirk",
    "plate": "school_gate",
    "x": 0.4,
    "y": 0.4,
    "s": 0.65
   },
-  "8": {
+  "7": {
    "char": "indio_lens_modern",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.4,
    "s": 0.65
   },
-  "9": {
+  "8": {
    "full": "boy_reading"
   },
-  "10": {
+  "9": {
    "full": "lolo_marker"
   },
-  "11": {
+  "10": {
    "full": "lolo_whisper"
   },
-  "12": {
+  "11": {
    "char": "indio_soft",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.4,
    "s": 0.65
   },
-  "13": {
+  "12": {
    "full": "teacher_question"
   },
-  "14": {
+  "13": {
    "full": "textbooks"
   },
-  "16": {
+  "15": {
    "full": "scott_book"
   },
-  "17": {
+  "16": {
    "full": "marco"
   },
-  "18": {
+  "17": {
    "full": "scott_glass"
   },
-  "19": {
+  "18": {
    "full": "crack"
   },
-  "20": {
+  "19": {
    "full": "class80s"
   },
-  "21": {
+  "20": {
    "full": "teacher_library"
   },
-  "22": {
+  "21": {
    "full": "blackboard"
   },
-  "23": {
+  "22": {
    "full": "teacher_smile_boy"
   },
-  "24": {
+  "23": {
    "full": "umbrella_gate"
   },
-  "25": {
+  "24": {
    "char": "m_silent",
    "plate": "school_gate",
    "x": 0.6,
    "y": 0.4,
    "s": 0.65
   },
-  "26": {
+  "25": {
    "char": "usman_growl",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.9,
    "s": 0.55
   },
-  "27": {
+  "26": {
    "full": "stamp"
   },
-  "28": {
+  "27": {
    "full": "aklan"
   },
-  "30": {
+  "29": {
    "full": "empty_chair"
   },
-  "31": {
+  "30": {
    "char": "indio_resolve",
    "plate": "school_gate",
    "x": 0.4,
@@ -161,11 +160,14 @@
     0.85
    ]
   },
+  "31": {
+   "full": "lolo_hide"
+  },
   "32": {
-   "full": "m_medallion_hot"
+   "full": "pair_gate"
   },
   "33": {
-   "full": "ships_north"
+   "full": "notebook_glow"
   },
   "34": {
    "char": "indio_point_modern",
@@ -173,9 +175,6 @@
    "x": 0.5,
    "y": 0.4,
    "s": 0.65
-  },
-  "36": {
-   "full": "pair_gate"
   },
   "50": {
    "full": "chieftain"
@@ -191,6 +190,15 @@
   },
   "54": {
    "full": "panel"
+  },
+  "55": {
+   "full": "ships_north"
+  },
+  "56": {
+   "full": "m_medallion_hot"
+  },
+  "57": {
+   "plate": "school_gate"
   }
  }
 }

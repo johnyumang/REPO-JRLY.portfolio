@@ -1,7 +1,7 @@
 # Trending captions — Episode 10 (S2E2): Batang Indio (Quezon City, about 2012)
 
 Format (user, 2026-11-12): three to five repeated lines with the same opening words, then a payoff from the episode. The older `captions.md` stays as it is.
-Stem this episode: "salamat sa batang ako na" (Ep 1–8 and the trailer used: stop telling yourself, akala mo, hindi lahat ng, para sa lahat ng asong, kapag, minsan, may mga sulat na, paano kung, darating din ang araw na; Episode 9's stem was not in the repo when this was written: the conductor checks it is different).
+Stem this episode: "salamat sa batang ako na" (Ep 1–9 and the trailer used: stop telling yourself, akala mo, hindi lahat ng, para sa lahat ng asong, kapag, minsan, may mga sulat na, paano kung, darating din ang araw na, sa gilid lang ako, pero).
 Tone: warm, a little sad, then proud. Book emoji only. The repeated lines are about Indio as a boy, never about a real person.
 
 ## Facebook Reels
@@ -16,7 +16,7 @@ EP 10: Batang Indio 📖
 May itinuro ba sa'yo sa eskwela na hindi pala totoo?
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
-Kathang-isip din ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase, si M at ang lente.
+Kathang-isip din ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase, si M, ang lente at ang kuwaderno ni Lolo.
 
 #HistoryIndio #Kalantiaw #KasaysayanNgPilipinas #PinoyAnime #Shorts
 
@@ -30,7 +30,7 @@ Kodigo ni Kalantiaw: walang batayan, ayon kay William Henry Scott (1968) at sa N
 EP 10: Batang Indio
 May itinuro ba sa'yo sa eskwela na hindi pala totoo?
 
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip ang pamilya ni Indio, ang paaralan, ang guro, si M at ang lente.
+Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip ang pamilya ni Indio, ang paaralan, ang guro, si M, ang lente at ang kuwaderno ni Lolo.
 
 #historyindio #kalantiaw #philippinehistory #kasaysayan #pinoyanime
 
@@ -57,7 +57,7 @@ salamat sa batang ako na may dalang patunay.
 Sa lente, nakita ni Indio ang sarili niya noong 2012, Grade 5, at ang Lolo na nagturo sa kanyang basahin nang malakas ang mga marker.
 Tiyak: lumitaw lang ang Kodigo ni Kalantiaw sa mga papeles ni José E. Marco (bandang 1913–1914). Sinuri ito ni William Henry Scott sa dissertation niya sa UST, 16 Hunyo 1968, at walang kumontra sa panel ng mga historyador. NHI Resolution No. 12, 2004, inaprubahan noong 2005: walang batayang pangkasaysayan. Pero nanatili ito sa ilang textbook nang ilang dekada.
 Pinagtatalunan: kung si Marco lang ang gumawa at bakit; tumutol ang ilang opisyal sa Aklan.
-Kathang-isip: sina Indio at Usman, si M, ang lente, ang medalyon, ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase.
+Kathang-isip: sina Indio at Usman, si M, ang lente, ang kuwaderno, ang medalyon, ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase.
 
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 
@@ -69,7 +69,7 @@ May itinuro ba sa'yo sa eskwela na hindi pala totoo? I-comment sa baba.
 
 ## Pinned comment
 salamat sa batang ako na may dalang patunay. 📖
-Totoo: lumitaw lang ang Kodigo ni Kalantiaw ("1433") sa mga papeles ni José E. Marco (bandang 1913–1914); pinatunayan ni William Henry Scott sa UST dissertation niya (16 Hunyo 1968) na walang batayan ito; NHI Resolution No. 12 (2004), inaprubahan ng Opisina ng Pangulo noong 2005; nanatili ito sa ilang textbook nang ilang dekada (Wikipedia; Inquirer, Ocampo 2013 at 2023; Britannica). Pinagtatalunan kung si Marco lang ang gumawa at bakit; tumutol ang ilang opisyal sa Aklan. Kathang-isip: sina Indio (José Indalecio Bracken) at Usman, si M, ang lente, ang mga medalyon, ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase. Kathang-isip sina Indio at Usman; totoo ang kasaysayan. May itinuro ba sa'yo sa eskwela na hindi pala totoo?
+Totoo: lumitaw lang ang Kodigo ni Kalantiaw ("1433") sa mga papeles ni José E. Marco (bandang 1913–1914); pinatunayan ni William Henry Scott sa UST dissertation niya (16 Hunyo 1968) na walang batayan ito; NHI Resolution No. 12 (2004), inaprubahan ng Opisina ng Pangulo noong 2005; nanatili ito sa ilang textbook nang ilang dekada (Wikipedia; Inquirer, Ocampo 2013 at 2023; Britannica). Pinagtatalunan kung si Marco lang ang gumawa at bakit; tumutol ang ilang opisyal sa Aklan. Kathang-isip: sina Indio (José Indalecio Bracken) at Usman, si M, ang lente, ang kuwaderno ni Lolo, ang mga medalyon, ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase. Kathang-isip sina Indio at Usman; totoo ang kasaysayan. May itinuro ba sa'yo sa eskwela na hindi pala totoo?
 
 ## On-screen opener (optional)
 salamat sa batang ako na nagbasa ng history para sa saya.

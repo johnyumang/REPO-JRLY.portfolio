@@ -7,8 +7,8 @@
 "move": "push_in",
 "keys": [
 0,
-24,
-19
+23,
+18
 ]
 },
 "1": {
@@ -28,40 +28,44 @@
 "fx": [
 "sparkle"
 ],
-"move": "push_in"
+"move": "push_in",
+"keys": [
+4,
+57
+]
 },
 "5": {
-"fx": [],
-"move": "pan_right"
-},
-"6": {
 "fx": [
 "aura_gold"
 ],
 "move": "push_in"
 },
-"7": {
+"6": {
 "fx": [],
 "move": "push_in"
 },
-"8": {
+"7": {
 "fx": [
 "sparkle"
 ],
+"move": "push_in"
+},
+"8": {
+"fx": [],
 "move": "push_in"
 },
 "9": {
 "fx": [],
-"move": "push_in"
-},
-"10": {
-"fx": [],
 "move": "tilt_up"
 },
-"11": {
+"10": {
 "fx": [
 "sparkle"
 ],
+"move": "push_in"
+},
+"11": {
+"fx": [],
 "move": "push_in"
 },
 "12": {
@@ -70,22 +74,22 @@
 },
 "13": {
 "fx": [],
-"move": "push_in"
-},
-"14": {
-"fx": [],
 "move": "push_in",
 "keys": [
-14,
+13,
 50
 ]
 },
-"15": {
+"14": {
 "fx": [
 "punch"
 ],
 "move": "push_in",
 "key": 0
+},
+"15": {
+"fx": [],
+"move": "push_in"
 },
 "16": {
 "fx": [],
@@ -93,49 +97,49 @@
 },
 "17": {
 "fx": [],
-"move": "push_in"
-},
-"18": {
-"fx": [],
 "move": "push_in",
 "keys": [
 51,
-18
+17
 ]
 },
-"19": {
+"18": {
 "fx": [
 "shake"
 ],
 "move": "push_in",
 "keys": [
-19,
+18,
 52,
 54
 ]
 },
-"20": {
+"19": {
 "fx": [],
 "move": "pan_right"
 },
-"21": {
+"20": {
 "fx": [],
 "move": "push_in"
 },
-"22": {
+"21": {
 "fx": [
 "sparkle"
 ],
 "move": "tilt_up"
 },
-"23": {
+"22": {
 "fx": [],
 "move": "push_in"
 },
-"24": {
+"23": {
 "fx": [
 "aura_red"
 ],
+"move": "push_in"
+},
+"24": {
+"fx": [],
 "move": "push_in"
 },
 "25": {
@@ -148,36 +152,42 @@
 },
 "27": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"keys": [
+16,
+27
+]
 },
 "28": {
 "fx": [],
 "move": "push_in",
 "keys": [
-17,
-28
+9,
+12,
+24
 ]
 },
 "29": {
 "fx": [],
-"move": "push_in",
-"keys": [
-10,
-13,
-25
-]
-},
-"30": {
-"fx": [],
 "move": "pull_out"
 },
-"31": {
+"30": {
 "fx": [
 "aura_gold"
 ],
 "move": "push_in"
 },
+"31": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
 "32": {
+"fx": [],
+"move": "tilt_up"
+},
+"33": {
 "fx": [
 "aura_gold",
 "flash",
@@ -185,15 +195,11 @@
 ],
 "move": "push_in",
 "keys": [
-32,
+56,
+33,
+55,
 53
 ]
-},
-"33": {
-"fx": [
-"sparkle"
-],
-"move": "pull_out"
 },
 "34": {
 "fx": [],
@@ -202,7 +208,7 @@
 "35": {
 "fx": [],
 "move": "push_in",
-"key": 9
+"key": 8
 },
 "36": {
 "fx": [
@@ -212,8 +218,8 @@
 ],
 "move": "push_in",
 "keys": [
-36,
-6
+32,
+5
 ]
 }
 }
