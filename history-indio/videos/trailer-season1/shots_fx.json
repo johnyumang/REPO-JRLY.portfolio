@@ -10,8 +10,9 @@
 "8": {"fx": [], "move": "pan_left", "key": 14},
 "9": {"fx": [], "move": "push_in", "key": 15},
 "10": {"fx": ["shake"], "move": "pull_out", "key": 16},
-"11": {"fx": ["aura_gold", "sparkle"], "move": "push_in", "key": 17},
-"12": {"fx": ["sparkle"], "move": "push_in", "key": 18},
-"13": {"fx": [], "move": "pull_out", "key": 19},
-"trans": {"12": "dissolve", "13": "dissolve"}
+"11": {"fx": [], "move": "push_in", "key": 20, "quiet": true},
+"12": {"fx": ["aura_gold", "sparkle"], "move": "push_in", "key": 17},
+"13": {"fx": ["sparkle"], "move": "push_in", "key": 18},
+"14": {"fx": [], "move": "pull_out", "key": 19},
+"trans": {"12": "dissolve", "13": "dissolve", "17": "dissolve", "18": "dissolve"}
 }

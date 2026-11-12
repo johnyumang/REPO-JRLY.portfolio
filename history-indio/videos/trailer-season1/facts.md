@@ -2,7 +2,7 @@
 
 The trailer makes no new historical claim. Every dated statement (spoken or on screen) is already a confirmed row in an episode's facts.md.
 
-**Fiction, on purpose:** Indio, Usman (the talking dog), M and her signature, the medallion and its theft, the family secret, the time jumps. Label on the end card and in every caption: "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
+**Fiction, on purpose:** Indio, Usman (the talking dog), M and her signature, the medallion and its theft, the family secret, Ang Huling Tala, the time jumps. Label on the end card and in every caption: "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
 
 | Trailer statement (line or on-screen card) | Supported by | Status |
 |---|---|---|
@@ -15,6 +15,7 @@ The trailer makes no new historical claim. Every dated statement (spoken or on s
 | "Anim na talon sa totoong kasaysayan" | the six rows above | confirmed |
 | "Saksi lang ako" | SERIES.md honesty rule (Indio only witnesses) | fiction framing |
 | "Doon lumilitaw si Usman" (only in the past) | HANDOFF.md Usman rule | series rule |
+| "At may hinahanap silang lahat: ang Huling Tala." (over Ep 1 k31: old map, papers, a candle) | user-confirmed series mystery, 2026-11-12 | FICTION: Ang Huling Tala is invented; it is not a real document or star, and nobody says what it is |
 
 ## Ep 6 images
 Rule from the conductor: at most one quiet Episode 6 image, never the firing line, never on a drum hit. Used: Ep 6 k01 (Rizal from behind at sunrise), on a dissolve, with the march's drums stopped (a soft held chord starts after the cut). Not used: k00 (squad), k32 (volley smoke), k36 (umbrella). `make_trailer_keys.py --theft-ep6` would swap the theft frame for Ep 6 k35 (his chest, medallion gone; not an execution image), only if the conductor reads the rule as "execution images".

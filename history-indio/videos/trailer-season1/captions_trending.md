@@ -1,13 +1,14 @@
 # Trending captions — Season 1 trailer
 
 Format (user, 2026-11-12): repeated lines with the same opening words, then a payoff that turns to the trailer and its comment question. Stem for the trailer: "paano kung" (not used by Ep 1–6: stop telling yourself / akala mo / hindi lahat ng / para sa lahat ng asong / kapag / minsan).
-No endings: the lines tease the medallion, the dog, the woman and the family secret only.
+No endings: the lines tease the medallion, the dog, the woman, the family secret and the Huling Tala (the series' secret; never say what it is) only.
 Hashtags: Instagram allows 5 per post (Dec 2025), so the IG block has 5.
 
 ## Facebook Reels
 paano kung ang lumang medalyon ng Lolo mo, susi pala.
 paano kung ang asong sumusunod sa'yo, sa nakaraan lang lumilitaw.
 paano kung ang babaeng may pulang payong, alam ang hindi mo alam.
+paano kung lahat sila, may hinahanap: ang Huling Tala.
 
 si Indio, binasa lang ang marker. ibang siglo na.
 anim na talon, anim na totoong araw: 1896, 1762, 1898, 1869, Paris 1898, Bagumbayan 1896.
@@ -23,6 +24,7 @@ Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 paano kung ang lumang medalyon ng Lolo mo, susi pala.
 paano kung ang asong sumusunod sa'yo, sa nakaraan lang lumilitaw.
 paano kung ang babaeng may pulang payong, alam ang hindi mo alam.
+paano kung lahat sila, may hinahanap: ang Huling Tala.
 
 anim na talon sa totoong kasaysayan. saksi lang si Indio.
 
@@ -52,6 +54,7 @@ Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 paano kung ang lumang medalyon ng Lolo mo, susi pala.
 paano kung ang asong sumusunod sa'yo, sa nakaraan lang lumilitaw.
 paano kung ang babaeng may pulang payong, alam ang hindi mo alam.
+paano kung lahat sila, may hinahanap: ang Huling Tala.
 
 Season 1 ng History Indio: anim na talon sa totoong araw ng kasaysayan natin. Agosto 1896 (ang Sigaw), Oktubre 1762 (bumagsak ang Maynila sa British), 12 Hunyo 1898 (Kawit), Hunyo 1869 (Calamba), 10 Disyembre 1898 (Tratado ng Paris), 30 Disyembre 1896 (Bagumbayan). Saksi lang si Indio; hindi niya binabago ang kasaysayan.
 Original na martsa ang musika, ginawa para sa History Indio.

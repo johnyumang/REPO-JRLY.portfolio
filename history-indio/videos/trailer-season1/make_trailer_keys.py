@@ -20,7 +20,8 @@ MAP = {0: (1, 14, 'marker in the rain (Pugad Lawin shrine)'), 1: (1, 16, 'rain s
        11: (5, 13, '1898: Paris in December'), 12: (6, 1, '1896: Rizal seen from behind at sunrise (the one quiet Ep 6 image)'),
        13: (3, 38, 'Lola: shh'), 14: (5, 46, 'the woman with the red umbrella'), 15: (5, 7, 'the twenty-peso note signed M'),
        16: (4, 11, 'a hand closes on the medallion'), 17: (1, 1, 'Indio and Usman before the portal'),
-       18: (1, 41, 'Indio and Usman jump'), 19: (1, 20, 'Indio and Usman in 1896')}
+       18: (1, 41, 'Indio and Usman jump'), 19: (1, 20, 'Indio and Usman in 1896'),
+       20: (1, 31, 'old map, papers and a candle (Ang Huling Tala)')}
 if '--theft-ep6' in sys.argv: MAP[16] = (6, 35, 'his chest, the medallion gone')
 
 def green_cutout(im):                                           # copied from make_keys.py (importing it would run it)
