@@ -93,3 +93,21 @@ def first_ok(want, heard):
     """First word heard right: same-length prefix of phon(text) and phon(heard) (phon merges across word boundaries, so compare both in context)."""
     ws = [w for w in norm_words(want) if phon(w)]; n = len(phon(ws[0])) if ws else 0; return n > 0 and phon(want)[:n] == phon(heard)[:n]
 def rms_db(y): return float(20 * np.log10(np.sqrt(np.mean(np.square(y))) + 1e-9)) if len(y) else -99.0
+def take_metrics(wav, text, emb=True):
+    """All checks of one generated take (used by the Season 2 cast and multi-speaker path; qcsel.py keeps its own).
+    words, clarity, speed, pitch, clipping, longest pause between words, noise before/after, speaker embedding."""
+    import soundfile as sf
+    yo, _ = sf.read(wav, dtype='float32'); yo = yo if yo.ndim == 1 else yo.mean(1)
+    y = load16(wav); W = words(y, text); conf = [w['conf'] for w in W]; st, en = W[0]['start'], W[-1]['end']
+    body = y[int(st * 16000):int(en * 16000)]; b = np.sqrt(np.mean(body ** 2)) + 1e-9
+    r = lambda x: float(np.sqrt(np.mean(x ** 2)) / b) if len(x) > 160 else 0.0
+    gaps = [W[i + 1]['start'] - W[i]['end'] for i in range(len(W) - 1) if W[i + 1]['start'] is not None and W[i]['end'] is not None]
+    h = asr(y); f0, f0sd = f0_stats(body)
+    m = dict(dur=round(len(y) / 16000, 2), rate=round(syllables(text) / max(.2, en - st), 2), edits=edits(text, h), first_ok=first_ok(text, h),
+             cmatch=round(cmatch(text, h), 3), match=round(match(text, h), 3), conf=round(float(np.mean(conf)), 3), minconf=round(float(min(conf)), 3),
+             low=[(w['w'], round(w['conf'], 2)) for w in W if w['conf'] < 0.4], clip=round(float(np.mean(np.abs(yo) >= 0.99)), 5), peak=round(float(np.abs(yo).max()), 3),
+             maxgap=round(max(gaps) if gaps else 0.0, 2), lead=round(r(y[:max(0, int((st - 0.04) * 16000))]), 3), trail=round(r(y[int((en + 0.10) * 16000):]), 3),
+             f0=f0, f0sd=f0sd, rms=round(rms_db(body), 1), heard=h, first=round(st, 3), last_end=round(en, 3),
+             words=[(w['w'], round(w['start'], 3), round(w['end'], 3), round(w['conf'], 3)) for w in W])
+    if emb: m['emb'] = spk(y).tolist()
+    return m

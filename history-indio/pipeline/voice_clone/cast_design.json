@@ -1,0 +1,100 @@
+{
+ "_about": "Season 2 designed voices (never a clone of a real person). VoxCPM2 voice design: the description goes in parentheses before the text, '(description)text'. Each description x seed gives one candidate reading 'ref_text' (about 10-15 s); castqc.py checks every candidate and keeps the chosen one as $HI_VOICE_WORK/cast/<NAME>.wav + <NAME>.txt, which all later lines continue from (prompt + reference, like Indio's recording). 'sample' is one extra line generated FROM the kept reference, to check that the voice holds. 'f0_hz' is the plausible pitch range for the character (sanity check only). File name: NAME with spaces as underscores.",
+ "seeds": [
+  1,
+  2
+ ],
+ "cast": {
+  "USMAN": {
+   "descriptions": [
+    "A young man's quick, bright, slightly raspy voice, friendly and cheeky, playful energy, speaking Filipino",
+    "A lively, scrappy young male voice with a little rasp, fast and cheerful, mischievous and warm, Filipino accent",
+    "A teenage boy's energetic, slightly husky voice, cheeky and good-natured, quick talker, Filipino accent"
+   ],
+   "ref_text": "Uy, ako si Usman! Aso lang ako, pero ang ilong ko, hindi nagkakamali. Kapag may naamoy akong kakaiba, tatahol ako, tapos sabay tayong tatakbo. Ayos ba? Kahit gutom pa ako, hindi kita iiwan, kaibigan.",
+   "sample": "Teka, teka, may naamoy ako. Hindi iyan pagkain, kaya siguradong delikado iyan!",
+   "f0_hz": [
+    110,
+    260
+   ]
+  },
+  "M": {
+   "descriptions": [
+    "A woman in her twenties, calm, low-pitched and confident, slightly guarded, speaking Filipino",
+    "A young woman with a low, cool, steady voice, self-assured and reserved, Filipino accent",
+    "A woman around twenty-five, deep and smooth alto voice, quiet confidence, measured and a little distant, Filipino accent"
+   ],
+   "ref_text": "Hindi ko kailangang ipaliwanag ang lahat. Basta tandaan mo, may dahilan ang bawat hakbang ko. Kapag sinabi kong tumigil ka, tumigil ka muna, at makinig. Hindi ako galit sa iyo. Nag-iingat lang ako, kasi alam ko kung sino ang humahabol sa atin.",
+   "sample": "Huwag kang lilingon. May sumusunod sa atin mula pa kanina.",
+   "f0_hz": [
+    140,
+    260
+   ]
+  },
+  "LOLA": {
+   "descriptions": [
+    "An elderly Filipino grandmother, warm, slow and amused, a gentle smile in her voice",
+    "An old woman around seventy-five, soft, warm and unhurried, lightly teasing, Filipino accent",
+    "A grandmother in her seventies, kind and slightly creaky voice, slow and affectionate, amused, Filipino accent"
+   ],
+   "ref_text": "Naku, apo, umupo ka muna dito. Mainit pa ang kanin, at may sabaw pa sa kaldero. Kumain ka muna bago ka na naman umalis, ha? Ikaw talagang bata ka. Halika nga rito, yayakapin muna kita bago ka umalis.",
+   "sample": "Ay, ang apo ko, lumalaki na talaga. Parang kahapon lang, ang liit mo pa.",
+   "f0_hz": [
+    140,
+    280
+   ]
+  },
+  "LOLO": {
+   "descriptions": [
+    "An elderly Filipino grandfather, gentle, dry humor, slow and unhurried",
+    "An old man around seventy, soft-spoken, calm and wry, slightly husky, Filipino accent",
+    "A grandfather in his seventies, mellow and a little gravelly voice, patient, quietly amused, Filipino accent"
+   ],
+   "ref_text": "Alam mo, apo, hindi nagmamadali ang kasaysayan. Naghihintay lang iyan sa taong marunong makinig. Kaya huwag kang mainip. Darating din ang sagot, sa tamang oras. Ganyan din ako noong bata pa ako, laging nagmamadali, at laging naliligaw.",
+   "sample": "Ang marker, hindi lang bato. Boses iyan ng mga taong nauna sa atin.",
+   "f0_hz": [
+    75,
+    170
+   ]
+  },
+  "DIWA": {
+   "descriptions": [
+    "A deep, steady, older male voice, dignified and calm, resonant but not theatrical, speaking Filipino",
+    "A mature man in his fifties with a deep, grounded, measured voice, noble and serene, Filipino accent",
+    "A deep baritone voice of a wise older man, slow and composed, warm authority, Filipino accent"
+   ],
+   "ref_text": "Matagal akong naghintay sa loob ng medalyong ito. Hindi ako multo, at hindi rin ako diyos. Isa lamang akong bantay. At ngayon, ikaw na ang binabantayan ko. Makinig ka nang mabuti, dahil hindi ko na uulitin ang sasabihin ko.",
+   "sample": "Isa sa labindalawa ang nagising. Ihanda mo ang iyong sarili.",
+   "f0_hz": [
+    65,
+    140
+   ]
+  },
+  "BATANG INDIO": {
+   "descriptions": [
+    "A ten-year-old Filipino boy, clear bright voice, eager and excited",
+    "A young boy around ten, high clear child's voice, curious and enthusiastic, Filipino accent",
+    "A small schoolboy, bright and lively child voice, eager to share what he learned, Filipino accent"
+   ],
+   "ref_text": "Lolo, tingnan mo po! Nabasa ko na po ang buong kabanata tungkol sa mga bayani! Puwede po ba tayong pumunta sa museo bukas? Sige na po, Lolo! Gusto ko pong makita ang mga lumang mapa at ang mga espada nila!",
+   "sample": "Ma'am, mali po yata ang nakasulat sa libro natin!",
+   "f0_hz": [
+    200,
+    380
+   ]
+  },
+  "GURO": {
+   "descriptions": [
+    "A Filipina schoolteacher in her forties, crisp, clear and kind, articulate",
+    "A woman around forty-five, clear and precise diction, warm but firm, a teacher's voice, Filipino accent",
+    "A middle-aged woman teacher, bright and crisp mid-range voice, patient and kind, Filipino accent"
+   ],
+   "ref_text": "Magandang umaga, mga bata. Buksan ninyo ang aklat sa pahina dalawampu. Ngayong araw, pag-uusapan natin kung paano natin malalaman kung totoo ang isang kuwento. Hindi sapat na nakasulat lang ito sa libro. Kailangan natin ng ebidensya.",
+   "sample": "Magaling, Indio. Pero saan mo nakuha ang sagot na iyan? Ipakita mo sa klase.",
+   "f0_hz": [
+    150,
+    290
+   ]
+  }
+ }
+}

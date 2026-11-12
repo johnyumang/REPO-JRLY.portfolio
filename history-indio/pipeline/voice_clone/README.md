@@ -56,6 +56,34 @@ minus penalties for rate and artifacts).
 per-tone level and pitch window, target rate, loudness, centroid sentences) with a note on how each was measured.
 A different reference recording needs a new baseline and a new profile.
 
+## Season 2: several voices (`script_multispeaker.txt`)
+Indio stays the clone of the user's own recording, exactly as above. Every other character is a **designed** voice
+(VoxCPM2 voice design: a text description, never a clone of or an imitation of a real person), kept from one private
+reference clip per character: `$HI_VOICE_WORK/cast/<NAME>.wav` + `<NAME>.txt` (its exact words; NAME in capitals,
+spaces as underscores, e.g. `BATANG_INDIO`). Never in the repo.
+```
+# once: design the cast (descriptions, reference texts, sample lines in cast_design.json)
+/opt/vx/bin/python pipeline/voice_clone/castdesign.py            # candidates: description x seed -> castwork/<NAME>/d<k>s<seed>.wav
+/opt/vc/bin/python pipeline/voice_clone/castqc.py                # checks every candidate, keeps one per character in cast/, similarity table
+/opt/vx/bin/python pipeline/voice_clone/castdesign.py --samples  # one extra line per character FROM the kept reference
+/opt/vc/bin/python pipeline/voice_clone/castqc.py --samples      # does the voice hold (words, own-reference similarity, pitch drift)
+# per episode (speed mode: one take per chunk, a second only where the words are wrong; --full retries every failed check)
+bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.txt <slug> [--full]
+```
+- Script: one line per speaker turn, `NAME: [tone] text`; a blank line starts a new scene. Chunks never cross a turn.
+- Generation (`gen_ms.py`): INDIO lines = mode U of `gen.py` (tone prompt from the real recording + timbre reference);
+  other lines = continuation from the character's reference clip with its transcript (same clip as timbre reference).
+- Checks (`ms.py qc`, via `vqc.take_metrics`): the word check is the same for every line (edits <= 1, first word right,
+  cmatch >= 0.88). Speaker: INDIO against the real-recording centroid (>= 0.915, as `qcsel.py`); anyone else against
+  ITS OWN reference clip (>= 0.85), pitch within 4 semitones of that clip. Speed, edge noise, clipping, pauses as above.
+- Assembly (`ms.py assemble`): same per-tone level, slow-down of rushed takes, -17.4 LUFS master and true-peak limit as
+  `assemble.py`; the match EQ to the real recording is applied to Indio's lines only. Pauses 0.38 s in a turn, 0.45 s
+  between turns, 0.65 s between scenes. `voice_timings.json` = one entry per sentence in script order, the same format
+  as `timings.json` plus a `speaker` field. `ms.py verify` re-hears every line of the finished file (`voice_verify.json`).
+- Cast candidates are kept only if the words are right and nothing measurable is wrong (clipping, a pause > 0.8 s,
+  speed outside 4.8-6.8 syl/s, pitch outside the character's range) and the voice is below 0.88 speaker similarity to
+  Indio and to every voice already kept. The numbers measure clarity and consistency, not naturalness: the user's ear decides.
+
 ## Limits
 - It measures clarity and similarity, NOT naturalness: a take can pass every check and still sound flat, oddly
   stressed or not like Indio's attitude. **The user's ear is the final check**; send the user a short test before a full
