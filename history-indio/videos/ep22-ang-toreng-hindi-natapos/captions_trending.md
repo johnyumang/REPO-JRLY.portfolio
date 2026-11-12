@@ -15,7 +15,7 @@ Babel, ayon sa Genesis 11. ang toreng naiwang hindi tapos.
 S3 EP 22: Ang Toreng Hindi Natapos
 Ano ang tore na itinatayo mo para sa sarili mong pangalan? 🧱
 
-Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
+Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Totoo: si Rajah Kiling ng Butuan ay nagpadala ng sugo sa korte ng Song noong 1007, humihingi ng ranggong kapantay ng Champa. Kuwentong-bayan ang kapre, ang yeren at ang Bigfoot; walang patunay na may ganitong nilalang. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
 
 #HistoryIndio #ToreNgBabel #TowerOfBabel #Genesis #Babylon #Etemenanki #TimeTravel #PinoyAnime
 
@@ -29,7 +29,7 @@ Babel, Genesis 11. 🧱
 S3 EP 22: Ang Toreng Hindi Natapos
 Ano ang tore na itinatayo mo para sa sarili mong pangalan?
 
-Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
+Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Totoo: si Rajah Kiling ng Butuan ay nagpadala ng sugo sa korte ng Song noong 1007, humihingi ng ranggong kapantay ng Champa. Kuwentong-bayan ang kapre, ang yeren at ang Bigfoot; walang patunay na may ganitong nilalang. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
 
 #historyindio #philippinehistory #pinoyanime
 
@@ -37,7 +37,7 @@ Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo
 nagtayo ako ng tore para hindi ko na kailangang makinig.
 Babel, Genesis 11. 🧱
 S3 EP 22. Ano ang tore na itinatayo mo para sa sarili mong pangalan?
-Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
+Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Totoo: si Rajah Kiling ng Butuan ay nagpadala ng sugo sa korte ng Song noong 1007, humihingi ng ranggong kapantay ng Champa. Kuwentong-bayan ang kapre, ang yeren at ang Bigfoot; walang patunay na may ganitong nilalang. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
 
 #historyindio #fyp
 
@@ -53,7 +53,7 @@ nagtayo ako ng tore para hindi ko na kailangang makinig.
 
 Totoo: ang kuwento ng Tore ng Babel ay nasa Genesis 11:1–9. Iniuugnay ito ng maraming iskolar sa Etemenanki, ang ziggurat ni Marduk sa Babilonya, na muling itinayo sa ilalim ni Nabucodonosor II noong ikaanim na siglo bago si Kristo; hindi natagpuan ng arkeolohiya ang mismong toreng nasa Genesis. Ang ideyang itinayo ang tore laban sa bagong baha ay galing kay Josephus (Antiquities 1.4.2, mga taong 94), wala sa Genesis (Wikipedia: Tower of Babel; Etemenanki).
 
-Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
+Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Totoo: si Rajah Kiling ng Butuan ay nagpadala ng sugo sa korte ng Song noong 1007, humihingi ng ranggong kapantay ng Champa. Kuwentong-bayan ang kapre, ang yeren at ang Bigfoot; walang patunay na may ganitong nilalang. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan.
 
 Ano ang tore na itinatayo mo para sa sarili mong pangalan?
 
@@ -61,7 +61,7 @@ Ano ang tore na itinatayo mo para sa sarili mong pangalan?
 
 ## Pinned comment
 nagtayo ako ng tore para hindi ko na kailangang makinig. 🧱
-Totoo: ang kuwento ng Tore ng Babel ay nasa Genesis 11:1–9. Iniuugnay ito ng maraming iskolar sa Etemenanki, ang ziggurat ni Marduk sa Babilonya, na muling itinayo sa ilalim ni Nabucodonosor II noong ikaanim na siglo bago si Kristo; hindi natagpuan ng arkeolohiya ang mismong toreng nasa Genesis. Ang ideyang itinayo ang tore laban sa bagong baha ay galing kay Josephus (Antiquities 1.4.2, mga taong 94), wala sa Genesis (Wikipedia: Tower of Babel; Etemenanki). Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan. Ano ang tore na itinatayo mo para sa sarili mong pangalan?
+Totoo: ang kuwento ng Tore ng Babel ay nasa Genesis 11:1–9. Iniuugnay ito ng maraming iskolar sa Etemenanki, ang ziggurat ni Marduk sa Babilonya, na muling itinayo sa ilalim ni Nabucodonosor II noong ikaanim na siglo bago si Kristo; hindi natagpuan ng arkeolohiya ang mismong toreng nasa Genesis. Ang ideyang itinayo ang tore laban sa bagong baha ay galing kay Josephus (Antiquities 1.4.2, mga taong 94), wala sa Genesis (Wikipedia: Tower of Babel; Etemenanki). Kathang-isip sina Indio, M, Usman, Tay Sebyo at ang mga higanteng tagabuo; totoo ang kasaysayan. Kathang-isip ang balangay ng liwanag, ang ladrilyo, ang lalaking may selyong tatlong tatsulok, at ang boses ng diwa ni Rajah Kiling. Totoo: si Rajah Kiling ng Butuan ay nagpadala ng sugo sa korte ng Song noong 1007, humihingi ng ranggong kapantay ng Champa. Kuwentong-bayan ang kapre, ang yeren at ang Bigfoot; walang patunay na may ganitong nilalang. Ang kuwento ng tore ay mula sa Genesis 11, sinipi nang eksakto mula sa Ang Dating Biblia, at iginagalang bilang kasulatan. Ano ang tore na itinatayo mo para sa sarili mong pangalan?
 
 ## On-screen opener (optional)
 nagtayo ako ng tore para hindi na ako abutin ng baha.
