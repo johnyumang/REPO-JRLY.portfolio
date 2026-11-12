@@ -1,6 +1,6 @@
 ---
 name: indio
-description: History Indio episode workflow in one page, run with the five-step "Musk algorithm" (question, delete, simplify, accelerate, automate) to save time and tokens. Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. Invoke as /indio [episode or task].
+description: History Indio episode workflow in one page, run on two principles to save time and tokens - the Neocortex principle (one repeating unit, hierarchy, remember and predict) and the Elon Musk principle (the five-step algorithm - question, delete, simplify, accelerate, automate). Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. Invoke as /indio [episode or task].
 ---
 
 # Indio: the History Indio workflow, the short way
@@ -8,7 +8,21 @@ description: History Indio episode workflow in one page, run with the five-step 
 Channel: History Indio. Tagalog/Taglish vertical shorts (1080x1920, 30 fps, about 3 minutes), anime look, time-travel
 series with Indio and Usman. Work in `history-indio/` on branch `claude/eager-davinci-9qu2gg`. Repo is PUBLIC.
 
-## The five principles, applied in this order on every task
+## Principle 1: Neocortex (how the work is organised)
+From Mountcastle's idea, popularised by Jeff Hawkins: the neocortex repeats ONE unit (the cortical column) everywhere,
+stacks units in a hierarchy, and works by remembering patterns and predicting from them instead of computing from zero.
+- **One repeating unit.** Every episode is the same unit: same ten files, same 8 beats, same commands. A new episode
+  is a copy of the last one with the content changed. Never invent a new structure.
+- **Hierarchy.** Series -> chapter (8 episodes) -> episode (8 beats) -> beat (about 6 shots) -> shot (plate +
+  character). Decide at the highest level that settles the question; do not reopen a higher level from a lower one.
+- **Memory before thinking.** The answer is usually already stored: `HANDOFF.md` (newest section wins), `SERIES.md`,
+  `facts.md`, `characters/series_cast.json`, the previous episode. Read, reuse, then predict the next step from the
+  pattern. Only what is surprising (a new decision, a failed step) needs fresh thought.
+- **Learn from the error.** When the result differs from what was expected (user correction, bad frame, failed
+  build), write the correction into memory at once (HANDOFF.md or this skill) so it is never paid for twice.
+  The `/kaizen` skill does this.
+
+## Principle 2: Elon Musk (the five-step algorithm, in this order on every task)
 1. **Question the requirement.** Read only what the task needs: the last sections of `history-indio/HANDOFF.md`
    (newest wins), the "Chapter structure" in `SERIES.md`, and the previous episode's folder. Never re-derive what is
    written there. Ask the user only for decisions that are theirs (story approvals, voice, credits).
