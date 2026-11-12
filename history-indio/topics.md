@@ -2,7 +2,7 @@
 Pick the first unchecked topic that still looks strongest, verify it with dated sources, then tick it here.
 
 - [x] Ang Kanyon na Gawa sa Banig (Cinco de Noviembre, Negros 1898) — `videos/kanyon-na-banig`
-- [ ] Ang Batas na Hindi Naman Totoo (Code of Kalantiaw hoax, exposed by W.H. Scott, 1968) — in progress: `videos/kodigo-ni-kalantiaw` (script done; keyframes and voice pending)
+- [ ] Ang Batas na Hindi Naman Totoo (Code of Kalantiaw hoax, exposed by W.H. Scott, 1968) — in progress: `videos/kodigo-ni-kalantiaw` (script and keyframes done; voice pending)
 - [ ] Ang Unang Umikot sa Mundo, Alipin? (Enrique of Malacca — disputed)
 - [ ] Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 - [ ] Ang Pintor na Bumaril (Juan Luna, Paris 1892)
