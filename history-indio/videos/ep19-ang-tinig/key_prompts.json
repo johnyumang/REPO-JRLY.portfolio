@@ -1,0 +1,325 @@
+{
+ "_note": "Episode 19 (S2E11) keyframes. Present-day shore of Lake Lanao (no dog) and 1639 reached by the jump; the 1637 events and the 1639 gathering are seen far away or through the lens, faces never visible. Sultan Kudarat appears only as light. The sarimanok is drawn from Maranao art (okir), never as a monster. The fall is shown only by suggestion (bottles, a messy room, a woman walking away); no drugs, no nudity. Rico Bulan and 'Alcain Builders' are fiction. Copied: full intro, sandugo_seal, holo_bar, notebook_glow (Episode 11); usman_return (Episode 10). Shots follow sentences.json; k80-k89 are montage extras. No weapons drawn.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "sandugo_seal": "(copied from Episode 11)",
+  "holo_bar": "(copied from Episode 11)",
+  "notebook_glow": "(copied from Episode 11)",
+  "usman_return": "(copied from Episode 10)",
+  "sarimanok_descend": "low wide shot over a misty mountain lake: a giant majestic legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, a fish in its beak descending out of the clouds toward a small wooded island, wings spread, light rays. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "lake_vista": "very high aerial view of Lake Lanao at dawn, a huge mountain lake ringed by green hills and low clouds, fishing boats like dots, long sight line, present day, nothing readable.",
+  "garage_dark": "a dark big garage full of covered luxury cars under dusty sheets, one shaft of light, empty and silent, present day.",
+  "notebook_line": "close-up of a young man's tattooed hands holding a small worn brown notebook, a fresh line of golden ink writing itself as illegible wavy scribbles, mist.",
+  "m_mountain": "close-up of a young Filipina woman with long black hair in a long dark coat looking up at misty mountains, her breath visible in the cold air, slight smile. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "phone_video": "close-up over a young man's shoulder of a phone screen showing a vlogger with slick hair shouting at the camera, abstract comment bubbles, no readable text, misty lake behind.",
+  "rico_vlog": "medium shot of a slick young Filipino vlogger in a bright jacket shouting dramatically into his phone camera on a ring light, a wall with posters behind, abstract shapes only, no readable text, present day.",
+  "comments_flood": "close-up of a phone screen flooded with angry red emoji and abstract comment bubbles scrolling fast, no readable text, cold blue light.",
+  "indio_ashamed": "close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist lowering his eyes in shame, jaw tight, mist behind. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "bottles_memory": "warm dim memory scene: empty bottles on a glass table at noon in a luxurious room, a crumpled shirt, curtains half closed, nobody, sad, no logos.",
+  "indio_resolve_lake": "medium shot of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist looking out over the lake with a calm resolved face, wind in his hair. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "fisherman_coffee": "two-shot on a jetty: an old Maranao fisherman in a white skullcap and a checked malong over his shoulder pouring hot coffee into a tin cup for a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist, a young Filipina woman with long black hair in a long dark coat beside him, steam. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "prow_carving": "close-up of the carved and painted prow of a wooden fishing boat: a colourful stylised bird with scroll-like feathers and a fish in its beak, Maranao okir style, lake water behind, morning mist.",
+  "fisherman_smile": "close-up of an old Maranao fisherman with a white skullcap and a kind weathered face smiling, a carved bird prow blurred behind him, misty lake.",
+  "read_marker_lake": "a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist reading aloud from a dark metal marker plaque on a stone stand by the lake, a young Filipina woman with long black hair in a long dark coat holding a glowing small medallion with a crescent moon, golden light swirling around them. The plaque shows only illegible lines. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background,",
+  "usman_quiet": "medium shot of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief sitting quietly at the water's edge, looking out at the misty lake, ears soft, thoughtful. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "usman_lean": "on a misty lake shore in 1639, two-shot: a young man with a red headband and a beige tunic crouching to scratch the ear of a black street dog with a white chest patch and a red kerchief who leans his head on his knee, misty water and mountains behind, nothing modern, no text.",
+  "hill_1639": "seen from behind on a grassy hilltop: a young man with a red headband and beige tunic, a young woman in a long dark coat and a black dog with a red kerchief looking down at a vast misty lake with small plain boats and thatched stilt houses at the shore, mountains, 1639, nothing modern.",
+  "spanish_boats": "high wide shot: a column of foot soldiers in morion helmets and local allied warriors marching along a lakeshore trail, faces far and unseen, banners, misty mountains, 1639, no guns visible, no weapons drawn.",
+  "fort_burning_far": "far wide shot at dusk: smoke rising from a wooden palisade fort on a river plain in Mindanao in 1637, tiny figures, nothing close, sombre.",
+  "mountain_escape": "seen from far behind, a small group of men in head cloths and dark clothes climbing a steep forest mountain path in the rain, 1637, faces unseen.",
+  "kudarat_walk": "seen from far behind, a man in a dark robe and turban walking with a few companions along a lakeside path toward a gathering of houses, misty mountains, 1639, no face visible.",
+  "lens_gathering": "view through a round golden-rimmed lens: inside the circle, far away under a large ornate roofed house, men sitting on mats in a circle and one standing man speaking with an open hand, faces too far to see; outside the circle dark.",
+  "indio_listen_far": "close-up of a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash straining to listen, one hand cupped behind his ear, frowning, wind and mist. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "spanish_paper": "close-up of an old Spanish chronicle book page with dense handwriting rendered as illegible scribbles, a quill and inkwell, candle light, 1600s.",
+  "harvest_field": "wide golden rice field at harvest in a mountain valley by a lake, sheaves of rice, wind, warm light, 1639, no people close.",
+  "soldiers_leave": "high wide shot: a line of soldiers and porters with bundles leaving a lakeshore down a mountain trail in the rain, seen from far behind, 1639.",
+  "lake_calm_centuries": "timelapse feeling: the same misty lake shore seen from a hill, clouds streaking across the sky, sun and moon arcs, peaceful, no people.",
+  "usman_wow": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief with ears straight up and mouth open in amazement, misty lake behind. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "indio_explain": "on a misty hilltop above a lake, two-shot: a young man with a red headband and beige tunic kneeling beside a black dog with a red kerchief, pointing down at the lake while talking, the dog looking where he points, nothing modern.",
+  "lens_island": "view through a round golden-rimmed lens: inside the circle a small wooded island in the middle of a misty lake, a bronze glint high in a tall tree; outside the circle dark.",
+  "nest_tree": "low angle up a tall old tree on a lake island: a huge woven nest high in the branches, a bronze glint inside it, light rays through mist. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "boat_row": "wide shot: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash rowing an old wooden boat across a misty lake toward a wooded island, a young Filipina woman with long black hair in a long dark coat at the bow, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief standing at the front with ears flying. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "bird_land": "low wide shot on the island shore: a giant majestic legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, a fish in its beak landing with wings spread wide in front of a small wooden boat, mist swirling. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "m_awe": "close-up of a young Filipina woman with long black hair in a long dark coat whispering in awe, coloured feather light reflected on her face. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "bird_stare": "extreme close-up of the intense golden eye of a legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, a fish in its beak, reflecting a small figure of a man.",
+  "nest_glow": "close-up of a huge woven nest with a small round bronze medallion inside glowing bright gold, engraved with an open mouth and sound waves, feathers drifting.",
+  "kudarat_light": "a calm column of warm golden light rising from a nest high in a tree, faintly suggesting the outline of a standing man with a turban, no face, no features, solemn.",
+  "indio_speak": "on a small island shore of a misty lake, low angle: a young man with a red headband and beige tunic stands with one hand on his chest, speaking openly toward a giant colourful legendary bird with a long rainbow tail standing before him, a woman in a dark coat and a black dog behind him, mist.",
+  "fifty_cars": "wide shot of a long row of shiny luxury cars, motorcycles and a helicopter parked in a huge empty showroom, cold light, nobody, present day, no logos.",
+  "party_memory": "dim blurred memory scene: a messy room after a party at noon, empty bottles, strangers asleep on sofas seen from far, curtains half closed, sad, no faces in focus, no logos.",
+  "m_leaving_memory": "warm sepia memory scene: seen from behind, a young woman in a long dark coat walking away down a hotel corridor without looking back.",
+  "indio_firm": "close-up of a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash speaking firmly, eyes wet but steady, mist and feather light. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "crates_outside": "montage feeling: old crates in an attic, a jar in a wall niche, a river pool, never a museum case, warm light, no readable labels.",
+  "truth_waves": "a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash speaking, with clear rings of golden light spreading out from his voice across the misty lake water. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "m_moved": "close-up of a young Filipina woman with long black hair in a long dark coat with tears in her eyes and a small proud smile. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "bird_bow": "wide shot: a giant majestic legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, a fish in its beak bowing its head low before a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash, who raises an open hand, a young Filipina woman with long black hair in a long dark coat and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief behind. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "flight": "dynamic aerial action shot over a misty lake: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash riding on the back of a giant majestic legendary bird with a rooster-like body, a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, a fish in its beak, a young Filipina woman with long black hair in a long dark coat behind him holding on, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief clinging between them. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "usman_scream": "comic close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief clinging to colourful feathers with wide eyes and an open mouth, half scared half laughing, wind blowing his ears. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "holo_sarimanok": "low angle: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash holding out his tattooed forearm, a large translucent blue-gold holographic panel above it with a glowing bird icon and abstract shapes, no readable text. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "usman_growl_lake": "a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on a misty lake shore, low growl, ears back, serious eyes at the viewer. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "okir_art": "close-up of a carved wooden Maranao panel with colourful scroll and leaf okir patterns and a stylised bird holding a fish, warm light, no writing.",
+  "live_shore": "a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist speaking calmly into a phone held up on a small tripod at the edge of the lake, a young Filipina woman with long black hair in a long dark coat beside him, morning mist. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "live_spread": "many phones in many hands in different places, buses, kitchens, jeepneys, all showing the same man speaking by a lake, abstract screens, no readable text.",
+  "rico_new": "medium shot of a slick vlogger in a dark room smirking into his phone camera, behind him on the wall a framed logo of a stylised building crane, no readable text.",
+  "logo_wall": "extreme close-up of a framed corporate logo on a dark wall: a stylised tower crane and a black umbrella shape, no readable letters, ominous.",
+  "indio_point_lake": "a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pointing straight at the viewer with a cool friendly half-smile, misty lake behind. Present-day shore of Lake Lanao, Philippines, cool misty morning, detailed background, no dog, no animals.",
+  "trio_fly_sunset": "wide silhouette at sunset: a giant bird with a long sweeping tail carrying three small riders over a shining mountain lake. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "usman_fade_lake": "a black Philippine street dog with a white chest patch, one folded ear and a red kerchief dissolving into golden sparks from the tail up, looking up calmly, misty lake behind. Detailed full background, Lake Lanao in 1639, misty mountains, nothing modern, no weapons, not a character sheet.",
+  "m_hand_coffee": "close-up of a woman's hand and a young man's tattooed hand both holding one hot tin coffee cup, steam, misty morning.",
+  "jetty_mist": "a long wooden pier reaching into a calm misty mountain lake at sunrise, small wooden boats, green hills in low clouds, deep perspective."
+ },
+ "shots": {
+  "0": {
+   "full": "sarimanok_descend"
+  },
+  "1": {
+   "full": "intro"
+  },
+  "2": {
+   "full": "lake_vista"
+  },
+  "3": {
+   "full": "garage_dark"
+  },
+  "4": {
+   "full": "jetty_mist"
+  },
+  "5": {
+   "full": "notebook_line"
+  },
+  "6": {
+   "full": "m_mountain"
+  },
+  "7": {
+   "full": "rico_vlog"
+  },
+  "8": {
+   "full": "comments_flood"
+  },
+  "9": {
+   "full": "indio_ashamed"
+  },
+  "10": {
+   "full": "bottles_memory"
+  },
+  "11": {
+   "full": "indio_resolve_lake"
+  },
+  "12": {
+   "full": "fisherman_coffee"
+  },
+  "13": {
+   "full": "prow_carving"
+  },
+  "14": {
+   "full": "fisherman_smile"
+  },
+  "15": {
+   "full": "read_marker_lake"
+  },
+  "16": {
+   "full": "usman_return"
+  },
+  "17": {
+   "full": "usman_lean"
+  },
+  "18": {
+   "full": "hill_1639"
+  },
+  "19": {
+   "full": "spanish_boats"
+  },
+  "20": {
+   "full": "fort_burning_far"
+  },
+  "21": {
+   "full": "mountain_escape"
+  },
+  "22": {
+   "full": "kudarat_walk"
+  },
+  "23": {
+   "full": "lens_gathering"
+  },
+  "24": {
+   "full": "indio_listen_far"
+  },
+  "25": {
+   "full": "spanish_paper"
+  },
+  "26": {
+   "full": "harvest_field"
+  },
+  "27": {
+   "full": "soldiers_leave"
+  },
+  "28": {
+   "full": "lake_calm_centuries"
+  },
+  "29": {
+   "full": "usman_wow"
+  },
+  "30": {
+   "full": "indio_explain"
+  },
+  "31": {
+   "full": "lens_island"
+  },
+  "32": {
+   "full": "nest_tree"
+  },
+  "33": {
+   "full": "boat_row"
+  },
+  "34": {
+   "full": "bird_land"
+  },
+  "35": {
+   "full": "m_awe"
+  },
+  "36": {
+   "full": "bird_stare"
+  },
+  "37": {
+   "full": "nest_glow"
+  },
+  "38": {
+   "full": "kudarat_light"
+  },
+  "39": {
+   "full": "indio_speak"
+  },
+  "40": {
+   "full": "fifty_cars"
+  },
+  "41": {
+   "full": "party_memory"
+  },
+  "42": {
+   "full": "m_leaving_memory"
+  },
+  "43": {
+   "full": "indio_firm"
+  },
+  "44": {
+   "full": "crates_outside"
+  },
+  "45": {
+   "full": "truth_waves"
+  },
+  "46": {
+   "full": "m_moved"
+  },
+  "47": {
+   "full": "kudarat_light"
+  },
+  "48": {
+   "full": "bird_bow"
+  },
+  "49": {
+   "full": "sandugo_seal"
+  },
+  "50": {
+   "full": "flight"
+  },
+  "51": {
+   "full": "usman_scream"
+  },
+  "52": {
+   "full": "holo_sarimanok"
+  },
+  "53": {
+   "full": "holo_bar"
+  },
+  "54": {
+   "full": "usman_growl_lake"
+  },
+  "55": {
+   "full": "fort_burning_far"
+  },
+  "56": {
+   "full": "soldiers_leave"
+  },
+  "57": {
+   "full": "spanish_paper"
+  },
+  "58": {
+   "full": "lens_gathering"
+  },
+  "59": {
+   "full": "okir_art"
+  },
+  "60": {
+   "full": "m_hand_coffee"
+  },
+  "61": {
+   "full": "usman_fade_lake"
+  },
+  "62": {
+   "full": "live_shore"
+  },
+  "63": {
+   "full": "rico_new"
+  },
+  "64": {
+   "full": "logo_wall"
+  },
+  "65": {
+   "full": "indio_point_lake"
+  },
+  "66": {
+   "full": "live_spread"
+  },
+  "67": {
+   "full": "trio_fly_sunset"
+  },
+  "80": {
+   "full": "phone_video"
+  },
+  "81": {
+   "full": "usman_quiet"
+  },
+  "82": {
+   "full": "notebook_glow"
+  },
+  "83": {
+   "full": "lake_vista"
+  },
+  "84": {
+   "full": "bird_land"
+  },
+  "85": {
+   "full": "flight"
+  },
+  "86": {
+   "full": "prow_carving"
+  },
+  "87": {
+   "full": "nest_tree"
+  },
+  "88": {
+   "full": "harvest_field"
+  },
+  "89": {
+   "full": "live_spread"
+  },
+  "90": {
+   "full": "m_awe"
+  },
+  "91": {
+   "full": "lake_calm_centuries"
+  }
+ }
+}

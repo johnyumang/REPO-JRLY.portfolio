@@ -1,5 +1,5 @@
 # MASTER script (Season 2 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (quick, warm, a little gravelly; designed voice; only inside the jump light and in the past), TUBAL (Tobías Alcaín, fictional leader of "sila": smooth, quiet, amused; designed voice), LAPULAPU (the diwa of Lapulapu, one invented line under the approved datu exception, labelled: few words, low, unbending; designed voice; never comic), INA (a woman's voice from far away, three words; designed voice; fiction). Rico Bulan appears but does not speak. Real people (Lapulapu himself in 1521, Magellan, Humabon, the warriors, Pigafetta) never speak.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (quick, warm, a little gravelly; designed voice; only inside the jump light and in the past), TUBAL (Tobías Alcaín, fictional leader of "sila": smooth, quiet, amused; designed voice), LAPULAPU (the diwa of Lapulapu, one invented line under the approved datu exception, labelled: few words, low, unbending; designed voice; never comic), INAY (a woman's voice from far away, three words; designed voice; fiction). Rico Bulan appears but does not speak. Real people (Lapulapu himself in 1521, Magellan, Humabon, the warriors, Pigafetta) never speak.
 
 INDIO: [dramatic] Sa dalampasigan ng Mactan, labindalawang medalyon ang umikot sa akin, at may tumawag sa akin ng anak.
 INDIO: [warm] Ako 'to si Indio.
@@ -66,7 +66,7 @@ INDIO: [somber] Kathang-isip: kami nina M at Usman, sina Tubal at Rico, ang mga 
 INDIO: [warm] Nakaupo kami ni M sa dalampasigan nang lumubog ang araw, napakalapit ng mukha namin.
 INDIO: [whisper] Walang Usman, walang pinto, walang tawag, at pumikit si M.
 INDIO: [suspense] Tumunog ang susi sa kamay ko, at may boses ng babae, malayo.
-INA: [whisper] Indio, anak ko.
+INAY: [whisper] Indio, anak ko.
 INDIO: [dramatic] Napatayo ako, at mula sa direksyon ng Samar, may ilaw na nag-apoy sa ibabaw ng dagat, at naglaho.
 
 INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo.
