@@ -53,7 +53,7 @@ def make_cover(path, W=1600, H=2560):
     d.text(((W - sw) / 2, 120 + int(360 * s) + 40), sub, font=f2, fill=cream)
     f3 = font('InterDisplay-SemiBold', 64); st = B.get('subtitle', ''); w3 = d.textlength(st, font=f3)
     d.text(((W - w3) / 2, H - 330), st, font=f3, fill=cream)
-    f4 = font('Inter-Medium', 44); tag = 'Kathang-isip sina Indio at Usman; totoo ang kasaysayan.'; w4 = d.textlength(tag, font=f4)
+    f4 = font('Inter-Medium', 44); tag = B.get('tagline', 'Kathang-isip sina Indio at Usman; totoo ang kasaysayan.'); w4 = d.textlength(tag, font=f4)
     d.text(((W - w4) / 2, H - 230), tag, font=f4, fill=(215, 200, 175))
     logo = os.path.join(HI, 'branding', 'history_indio_logo.png')
     if os.path.exists(logo):
@@ -81,7 +81,7 @@ for i, ch in enumerate(B['chapters'], 1):
     parts.append(t)
 if B.get('map_frame'):
     m = art(B['map_frame'], 'map.jpg')
-    parts.append(f"# Ang Kasulatan {{.unnumbered}}\n\n![]({m}){{.chapter-art}}\n\n*Labindalawang tuldok. Labindalawang medalyon. Sa Ikalawang Aklat: Ang Labindalawa.*\n")
+    parts.append(f"# {B.get('map_title', 'Ang Kasulatan')} {{.unnumbered}}\n\n![]({m}){{.chapter-art}}\n\n*{B.get('map_caption', 'Labindalawang tuldok. Labindalawang medalyon. Sa Ikalawang Aklat: Ang Labindalawa.')}*\n")
 for f in B.get('back', []):
     parts.append(open(os.path.join(src, f), encoding='utf-8').read())
 md = os.path.join(out, 'book.md'); open(md, 'w', encoding='utf-8').write('\n\n'.join(parts))
@@ -104,7 +104,7 @@ if '--epubcheck' in args:
 if '--no-pdf' not in args:
     shutil.copy(os.path.join(HERE, 'print.css'), out)
     subprocess.run(['pandoc', meta, md, '-s', '-o', base + '_print.html', '--toc', '--toc-depth=1',
-                    '--css', 'print.css', '--metadata', 'toc-title=Nilalaman',
+                    '--css', 'print.css', '--metadata', 'toc-title=' + B.get('toc_title', 'Nilalaman'),
                     '-V', f"header-includes=<div class='cover'><img src='img/cover_print.jpg'></div>"], check=True, cwd=out)
     subprocess.run(['node', os.path.join(HERE, 'pdf.cjs'), base + '_print.html', base + '_6x9.pdf'], check=True)
     print('PDF', base + '_6x9.pdf', os.path.getsize(base + '_6x9.pdf') // 1024, 'KB')
