@@ -84,4 +84,4 @@ Save tokens and effort: do NOT animate every shot. Most shots stay as painted st
 ## Usman rule (user correction, 2026-11-12) — overrides anything above
 - Usman is NOT in the real world. He appears only while Indio is time travelling and is gone when Indio returns. No Usman in modern-day lines or frames.
 - Episode 3 is Usman's back story (replaces the Treaty of Paris slot; later topics shift one episode).
-- Episode 2 script and frames were fixed to follow this. **Episode 1 still breaks it** (Indio meets him as a street dog in Quezon City, shares bread, and names him back in QC): the Episode 1 session needs to rework those lines and frames, pending the user's say on how.
+- Episode 2 script and frames were fixed to follow this. Episode 1's SCRIPT was fixed in v2 (commit 6c25672: Indio is alone in QC, the dog comes out of the light at the jump, is gone on return, and is named on return; whether to name him inside 1896 instead is awaiting the user). Episode 1 still needs a new recording and 10 new frames (list in the UPDATE section near the top).
