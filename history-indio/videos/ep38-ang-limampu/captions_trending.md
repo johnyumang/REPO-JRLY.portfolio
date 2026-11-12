@@ -15,7 +15,7 @@ at limampung sasakyang naging rescue fleet. 🚤
 S4 EP 38: Ang Limampu
 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan? 🚤
 
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
 
 #HistoryIndio #Bayanihan #LagunaDeBay #BotongFrancisco #TimeTravel #PinoyAnime
 
@@ -29,7 +29,7 @@ Laguna de Bay. 🚤
 S4 EP 38: Ang Limampu
 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
 
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
 
 #historyindio #philippinehistory #pinoyanime
 
@@ -37,7 +37,7 @@ Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal
 wala nang akin dito, sa inyo na ang lahat.
 Laguna de Bay. 🚤
 S4 EP 38. Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
 
 #historyindio #fyp
 
@@ -53,7 +53,7 @@ wala nang akin dito, sa inyo na ang lahat.
 
 Totoo: ang Laguna de Bay ang pinakamalaking lawa sa Pilipinas. Ang bayanihan ay kaugaliang Pilipino ng pagtutulungan, at ang simbolo nito ay ang pagbubuhat ng magkakapitbahay sa isang buong bahay-kubo, na hindi na karaniwan ngayon. Isa sa mga ipininta ni Carlos "Botong" Francisco, Pambansang Alagad ng Sining, ang "Bayanihan" (Wikipedia: Laguna de Bay; Communal work; Botong Francisco).
 
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
 
 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
 
@@ -61,7 +61,7 @@ Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
 
 ## Pinned comment
 wala nang akin dito, sa inyo na ang lahat. 🚤
-Totoo: ang Laguna de Bay ang pinakamalaking lawa sa Pilipinas. Ang bayanihan ay kaugaliang Pilipino ng pagtutulungan, at ang simbolo nito ay ang pagbubuhat ng magkakapitbahay sa isang buong bahay-kubo, na hindi na karaniwan ngayon. Isa sa mga ipininta ni Carlos "Botong" Francisco, Pambansang Alagad ng Sining, ang "Bayanihan" (Wikipedia: Laguna de Bay; Communal work; Botong Francisco). Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan. Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
+Totoo: ang Laguna de Bay ang pinakamalaking lawa sa Pilipinas. Ang bayanihan ay kaugaliang Pilipino ng pagtutulungan, at ang simbolo nito ay ang pagbubuhat ng magkakapitbahay sa isang buong bahay-kubo, na hindi na karaniwan ngayon. Isa sa mga ipininta ni Carlos "Botong" Francisco, Pambansang Alagad ng Sining, ang "Bayanihan" (Wikipedia: Laguna de Bay; Communal work; Botong Francisco). Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan. Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
 
 ## On-screen opener (optional)
 wala nang akin dito, sa inyo na ang mga trak.
