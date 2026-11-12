@@ -1,5 +1,5 @@
 {
- "_note": "Episode 9 (S2E1), 5-minute multi-voice version: 83 sentences, one new picture per sentence (80 keys from generated or copied frames; sentences 70, 71 and 74 reuse an earlier key, never the one before). Same method as Episodes 2-8. The Gospel scene (sentences 22-43): Jesus is only a far figure seen from behind (plain off-white tunic, simple brown mantle), never a face, never a close-up, no halo; disciples, the boy and the crowd are generic figures. Indio, M and Usman are only at the edge and touch nothing. The lamp (ilawan) appears only after the crowd has gone (sentence 44 on), in a crack of rock below the hillside, never in the Gospel scene. The watcher ('sila') is the dark-coat, wide-hat figure of Episode 8. Indio has no medallion of his own (six marks); M wears her crescent-moon medallion. No weapons. Copied from Episode 8: char usman_growl; full intro, star_medallion, m_medallion_hot. Unused spares from the first draft: plate galilee_hill, char usman_galilee. shots_fx.json carries 'framing' and, for shots that should get the new 3D moves, 'depth': 'strong'.",
+ "_note": "Episode 9 (S2E1) version 3: 82 sentences, one picture per sentence (78 distinct frames on the sentences plus 4 montage extras k90-k93 = 82 key images; sentences 65, 66, 69 reuse an earlier key, never the one before). Gospel scene (sentences 25-46): Jesus only far or from behind, no face, no halo; disciples, the boy and the crowd generic. Indio, M and Usman at the edge, touching nothing. Lolo Pepe beat (sentences 9-17, Kawit prologue; and 71-75 in the fairness beat): family lore, fiction; Rizal never shown in close-up or face-on, only from behind (library, ship) or as hands; the datu in sentence 10 is a generic fictional figure seen from behind. The lamp appears only after the crowd has gone (sentence 47 on). The watcher is the Episode 8 dark-coat, wide-hat figure. No weapons. Unused spares in full/: m_unroll, usman_jump, star_medallion, m_eyes, map_lamp_dot, indio_lens_eye, indio_question, m_whisper_night, indio_ask, descend_rocks; chars indio_pocket, usman_galilee; plate galilee_hill.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -99,7 +99,21 @@
   "lamp_hero": "night sky full of stars, low-angle hero shot of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, holding a small burning clay lamp high above his head, a woman in a dark coat and a black dog behind him, wind in the cloak. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
   "indio_wave": "night by a lake: close-up of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, grinning and pointing straight at the viewer, a small burning clay lamp in his other hand. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
   "walk_shore": "seen from behind, a young man in a brown cloak with a small lamp, a woman in a dark coat and a black dog walking along a moonlit lake shore into the distance, long sight line, footprints in the sand. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
-  "indio_lens_eye": "extreme close-up of a young man's eye behind a round golden-rimmed lens, golden sparks reflected in his pupil, darkness around."
+  "indio_lens_eye": "extreme close-up of a young man's eye behind a round golden-rimmed lens, golden sparks reflected in his pupil, darkness around.",
+  "lore_ask": "night scene under a huge acacia tree with a lantern: two-shot of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, loose white collarless shirt, turning to a young Filipina woman with long black hair in a long dark coat, with a curious questioning face, she holds an old yellowed map on her lap and answers. Detailed night scene under a huge acacia tree in Kawit, Philippines, 1898, lantern light, full background, nothing modern.",
+  "datu_anito": "wide shot at dusk in a pre-colonial Filipino village of nipa houses by the sea: a chieftain in gold ornaments and a red cloth, seen from behind, lifting a small round bronze medallion before kneeling villagers, warm firelight, deep perspective. Pre-colonial Philippines, fiction illustration, no weapons, nothing modern.",
+  "bronze_diwa": "close-up of a small round bronze medallion resting in a carved wooden shrine box, a faint golden glow rising from it like breath, offerings of rice and flowers around it, warm lamplight. Pre-colonial Philippines, fiction illustration, no weapons, nothing modern.",
+  "village_empty": "wide high-angle shot: an empty pre-colonial Filipino village by the sea at dusk, smoke drifting, an abandoned carved wooden seat in the foreground, far on the horizon tall-masted sailing ships. Pre-colonial Philippines, fiction illustration, no weapons, nothing modern.",
+  "conquerors_ship": "wide high-angle shot of a 16th-century wooden galleon at anchor at sunset, sailors lowering wooden crates into the hold by rope, one open crate glinting with bronze, deep perspective, nothing modern, no weapons.",
+  "burial_jar": "night, seen from a distance: mourners lowering a large clay burial jar into the earth by torchlight, a small bronze medallion on the jar's lid, a hillside by the sea. Pre-colonial Philippines, fiction illustration, no weapons, nothing modern.",
+  "medallion_earth": "close-up of a plain round bronze medallion engraved only with a simple sun and a triangle, no face, half-buried in dark earth among roots and pebbles, a thin ray of light falling on it, dust in the air.",
+  "library_back": "a young Filipino man in a dark 19th-century suit seen from behind, seated at a long desk piled with old books and maps under the great round domed reading room of a 19th-century library, rows of lamps, deep perspective. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "hands_map": "close-up of a man's hands in dark 19th-century sleeves tracing a dotted route with a pen across an old hand-drawn map of Asia, a magnifying glass and an inkwell beside it. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "kasulatan_drawn": "top-down shot: a hand with a quill drawing an ink map of Asia on yellowed paper, twelve small ink dots across it, an inkwell and a candle, no readable letters. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "steamship_1888": "a 19th-century steamship with tall funnels and sails leaving a busy harbour, a young man in a dark suit standing at the rail seen from behind, gulls, long sight line to the open sea. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "morga_book": "close-up of an old leather-bound book open on a library desk, pages of illegible old print, a man's hand copying from it into a notebook with a pen, lamplight. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "paris_press": "a 19th-century printing workshop, an iron hand press in the foreground, stacks of freshly printed pages, a printer in an apron lifting a sheet, gaslight, deep perspective. 1880s Europe, nothing modern, no weapons, no face visible.",
+  "language_books": "high-angle shot of a crowded desk of open dictionaries and grammar books in many different scripts, letters and notes, a lamp, a 19th-century study. 1880s Europe, nothing modern, no weapons, no face visible."
  },
  "shots": {
   "0": {
@@ -118,245 +132,250 @@
    "full": "kawit_night"
   },
   "5": {
-   "full": "m_unroll"
-  },
-  "6": {
    "full": "m_talk_ots"
   },
-  "7": {
+  "6": {
    "full": "map_bread"
   },
-  "8": {
+  "7": {
    "full": "m_closeup_night"
   },
-  "9": {
-   "full": "two_tree"
-  },
-  "10": {
-   "full": "usman_jump"
-  },
-  "11": {
-   "full": "pocket_hand"
-  },
-  "12": {
-   "full": "star_medallion"
-  },
-  "13": {
+  "8": {
    "full": "m_stars"
   },
+  "9": {
+   "full": "lore_ask"
+  },
+  "10": {
+   "full": "datu_anito"
+  },
+  "11": {
+   "full": "bronze_diwa"
+  },
+  "12": {
+   "full": "village_empty"
+  },
+  "13": {
+   "full": "conquerors_ship"
+  },
   "14": {
-   "full": "m_medallion_hot"
+   "full": "two_tree"
   },
   "15": {
-   "full": "jump_vortex"
+   "full": "library_back"
   },
   "16": {
-   "full": "cloak_reveal"
+   "full": "hands_map"
   },
   "17": {
-   "full": "m_points_lake"
+   "full": "kasulatan_drawn"
   },
   "18": {
-   "full": "m_rules"
+   "full": "m_medallion_hot"
   },
   "19": {
-   "full": "usman_sniff"
+   "full": "cloak_reveal"
   },
   "20": {
-   "full": "m_hush"
+   "full": "m_points_lake"
   },
   "21": {
-   "full": "sit_rocks"
+   "full": "m_rules"
   },
   "22": {
-   "full": "edge_three"
+   "full": "usman_sniff"
   },
   "23": {
-   "full": "boat_crowd"
+   "full": "m_hush"
   },
   "24": {
-   "full": "running_crowd"
+   "full": "sit_rocks"
   },
   "25": {
-   "full": "healing_far"
+   "full": "edge_three"
   },
   "26": {
-   "full": "dusk_disciples"
+   "full": "boat_crowd"
   },
   "27": {
-   "full": "disciples_close"
+   "full": "running_crowd"
   },
   "28": {
-   "full": "philip_coins"
+   "full": "healing_far"
   },
   "29": {
-   "full": "disciples_search"
+   "full": "dusk_disciples"
   },
   "30": {
-   "full": "boy_basket"
+   "full": "disciples_close"
   },
   "31": {
-   "full": "basket_closeup"
+   "full": "philip_coins"
   },
   "32": {
-   "full": "basket_handed"
+   "full": "disciples_search"
   },
   "33": {
-   "full": "crowd_sitting_down"
+   "full": "boy_basket"
   },
   "34": {
-   "full": "groups_grass"
+   "full": "basket_closeup"
   },
   "35": {
-   "full": "blessing_back"
+   "full": "basket_handed"
   },
   "36": {
-   "full": "disciples_receive"
+   "full": "crowd_sitting_down"
   },
   "37": {
-   "full": "baskets_pass"
+   "full": "groups_grass"
   },
   "38": {
-   "full": "eating"
+   "full": "blessing_back"
   },
   "39": {
-   "full": "gathering"
+   "full": "disciples_receive"
   },
   "40": {
-   "full": "twelve_baskets"
+   "full": "baskets_pass"
   },
   "41": {
-   "full": "crowd_families"
+   "full": "eating"
   },
   "42": {
-   "full": "crowd_rising"
+   "full": "gathering"
   },
   "43": {
-   "full": "mountain_alone"
+   "full": "twelve_baskets"
   },
   "44": {
-   "full": "crowd_leaving"
+   "full": "crowd_families"
   },
   "45": {
-   "full": "m_whisper_night"
+   "full": "crowd_rising"
   },
   "46": {
-   "full": "indio_ask"
+   "full": "mountain_alone"
   },
   "47": {
-   "full": "m_eyes"
+   "full": "crowd_leaving"
   },
   "48": {
    "full": "usman_nose_rocks"
   },
   "49": {
-   "full": "descend_rocks"
-  },
-  "50": {
    "full": "lamp_crevice"
   },
-  "51": {
+  "50": {
    "full": "m_kneel"
   },
-  "52": {
-   "full": "map_lamp_dot"
-  },
-  "53": {
+  "51": {
    "full": "lamp_lights"
   },
-  "54": {
+  "52": {
    "full": "lamp_raised"
   },
-  "55": {
+  "53": {
    "full": "watcher_rocks"
   },
-  "56": {
+  "54": {
    "char": "usman_growl",
    "plate": "rocks_night",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "57": {
+  "55": {
    "full": "m_ots_watcher"
   },
-  "58": {
+  "56": {
    "full": "indio_brave"
   },
-  "59": {
+  "57": {
    "full": "lamp_out"
   },
-  "60": {
+  "58": {
    "full": "m_dark_twoshot"
   },
-  "61": {
+  "59": {
    "full": "indio_admit"
   },
-  "62": {
+  "60": {
    "full": "lamp_relight"
   },
-  "63": {
+  "61": {
    "full": "usman_grin"
   },
-  "64": {
-   "full": "map_under_lamp"
-  },
-  "65": {
-   "full": "indio_lens_eye"
-  },
-  "66": {
+  "62": {
    "full": "map_ph"
   },
-  "67": {
+  "63": {
    "char": "usman_growl",
    "plate": "galilee_dusk",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "68": {
+  "64": {
    "full": "four_scrolls"
   },
-  "71": {
+  "67": {
    "full": "bethsaida_town"
   },
-  "72": {
+  "68": {
    "plate": "lake_dawn"
   },
-  "74": {
+  "70": {
    "full": "lamp_still"
   },
+  "71": {
+   "full": "steamship_1888"
+  },
+  "72": {
+   "full": "morga_book"
+  },
+  "73": {
+   "full": "paris_press"
+  },
+  "74": {
+   "full": "language_books"
+  },
   "75": {
-   "char": "indio_pocket",
-   "plate": "galilee_dusk",
-   "x": 0.5,
-   "y": 0.45,
-   "s": 0.65
+   "full": "medallion_earth"
   },
   "76": {
-   "full": "m_profile"
+   "full": "pocket_hand"
   },
   "77": {
-   "full": "indio_question"
-  },
-  "78": {
    "full": "qc_school"
   },
-  "79": {
+  "78": {
    "full": "lamp_hero"
   },
-  "80": {
+  "79": {
    "char": "indio_cloak",
    "plate": "galilee_dusk",
    "x": 0.5,
    "y": 0.45,
    "s": 0.65
   },
+  "80": {
+   "full": "m_profile"
+  },
   "81": {
    "full": "indio_wave"
   },
-  "82": {
+  "90": {
+   "full": "burial_jar"
+  },
+  "91": {
+   "full": "jump_vortex"
+  },
+  "92": {
    "full": "walk_shore"
+  },
+  "93": {
+   "full": "map_under_lamp"
   }
  }
 }

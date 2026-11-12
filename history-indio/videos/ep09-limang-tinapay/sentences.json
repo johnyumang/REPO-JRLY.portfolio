@@ -32,17 +32,9 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kawit, Hunyo 1898, gabi na.",
-  "say": "kawit, hunyo mil otsosyentos nobentay otso, gabi na.",
+  "text": "Kawit, Hunyo 1898: sa ilalim ng puno, binuksan ni M ang kasulatan.",
+  "say": "kawit, hunyo mil otsosyentos nobentay otso: sa ilalim ng puno, binuksan ni em ang kasulatan.",
   "style": "serious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Sa ilalim ng puno, binuksan ni M ang kasulatan.",
-  "say": "sa ilalim ng puno, binuksan ni em ang kasulatan.",
-  "style": "curious",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
@@ -80,33 +72,73 @@
   "speaker": "M"
  },
  {
-  "text": "Basta may tinapay, sasama ako, tol.",
-  "say": "basta may tinapay, sasama ako, tol.",
-  "style": "playful",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "USMAN"
- },
- {
-  "text": "Kinapa ko ang medalyong may bituin sa bulsa.",
-  "say": "kinapa ko ang medalyong may bituin sa bulsa.",
+  "text": "Bakit nakakalat sa buong Asya ang mga medalyon?",
+  "say": "bakit nakakalat sa buong asya ang mga medalyon?",
   "style": "curious",
   "pre": 0,
-  "pause": 0.3,
+  "pause": 0.42,
   "speaker": "INDIO"
  },
  {
-  "text": "Tatlong hiling, pero malamig pa rin, tulog.",
-  "say": "tatlong hiling, pero malamig pa rin, tulog.",
-  "style": "whisper",
+  "text": "Sa kuwento ng pamilya n'yo, bawat medalyon ay dating anito ng isang datu.",
+  "say": "sa kuwento ng pamilya nyo, bawat medalyon ay dating anito ng isang datu.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "INDIO"
+  "speaker": "M"
  },
  {
-  "text": "Hindi iyan gigising hangga't hindi gising ang labindalawa.",
-  "say": "hindi iyan gigising hangga't hindi gising ang labindalawa.",
+  "text": "Doon naiwan ang diwa niya, kasama ng bayan.",
+  "say": "doon naiwan ang diwa niya, kasama ng bayan.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Nang dumating ang mga mananakop, natalo, ipinatapon o pinatay ang mga datu.",
+  "say": "nang dumating ang mga mananakop, natalo, ipinatapon o pinatay ang mga datu.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Ang mga medalyon, inagaw, isinakay sa barko, ibinaon, o nawala.",
+  "say": "ang mga medalyon, inagaw, isinakay sa barko, ibinaon, o nawala.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Ang sabi ng Lolo mo, si Lolo Pepe, si José Rizal, ang naghanap.",
+  "say": "ang sabi ng lolo mo, si lolo pepe, si hose risal, ang naghanap.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Kaya raw siya naglibot sa mundo at nag-aral ng wika pagkatapos ng wika.",
+  "say": "kaya raw siya naglibot sa mundo at nag-aral ng wika pagkatapos ng wika.",
   "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Para mabasa ang mga lumang tala at masundan ang mga medalyon.",
+  "say": "para mabasa ang mga lumang tala at masundan ang mga medalyon.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Nahanap niya ang una, ang medalyon n'yo, at iginuhit ang kasulatang ito.",
+  "say": "nahanap niya ang una, ang medalyon nyo, at iginuhit ang kasulatang ito.",
+  "style": "warm",
   "pre": 0,
   "pause": 0.62,
   "speaker": "M"
@@ -114,14 +146,6 @@
  {
   "text": "Ikaanim kong talon, sa medalyon ni M.",
   "say": "ikaanim kong talon, sa medalyon ni em.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Uminit ang tanso, umikot ang liwanag, at nawala ang Kawit.",
-  "say": "uminit ang tanso, umikot ang liwanag, at nawala ang kawit.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
@@ -176,8 +200,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Mula rito, tahimik kami, at ang nakasulat lang ang susundan ko.",
-  "say": "mula rito, tahimik kami, at ang nakasulat lang ang susundan ko.",
+  "text": "Mula rito, ang nakasulat lang ang susundan ko.",
+  "say": "mula rito, ang nakasulat lang ang susundan ko.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -360,44 +384,12 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Puwede na tayong magsalita, malayo na tayo.",
-  "say": "puwede na tayong magsalita, malayo na tayo.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "M"
- },
- {
-  "text": "Nakita mo rin ba ang mga bakol, M?",
-  "say": "nakita mo rin ba ang mga bakol, em?",
-  "style": "warm",
-  "pre": 0,
-  "pause": 0.42,
-  "speaker": "INDIO"
- },
- {
-  "text": "Oo, at hindi ko iyon malilimutan.",
-  "say": "oo, at hindi ko iyon malilimutan.",
-  "style": "warm",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "M"
- },
- {
   "text": "May naaamoy ako sa batuhan, hindi tinapay, langis.",
   "say": "may naaamoy ako sa batuhan, hindi tinapay, langis.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3,
   "speaker": "USMAN"
- },
- {
-  "text": "Bumaba kami sa batuhan, malayo sa pinag-upuan nila.",
-  "say": "bumaba kami sa batuhan, malayo sa pinag-upuan nila.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
  },
  {
   "text": "Sa siwang ng bato, may lumang ilawang luwad, may tuyong mitsa.",
@@ -410,14 +402,6 @@
  {
   "text": "Matagal nang nakabaon iyan, hindi galing sa kanila.",
   "say": "matagal nang nakabaon iyan, hindi galing sa kanila.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "M"
- },
- {
-  "text": "Iyan ang tinuturo ng unang tuldok.",
-  "say": "iyan ang tinuturo ng unang tuldok.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -472,8 +456,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Biglang namatay ang apoy, at dilim na naman.",
-  "say": "biglang namatay ang apoy, at dilim na naman.",
+  "text": "Namatay ang apoy, at dumilim.",
+  "say": "namatay ang apoy, at dumilim.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
@@ -512,25 +496,9 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Sa liwanag ng ilawan, sinilip ko ang mapa sa lente.",
-  "say": "sa liwanag ng ilawan, sinilip ko ang mapa sa lente.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Nawala ang guhit ng tinapay sa unang tuldok.",
-  "say": "nawala ang guhit ng tinapay sa unang tuldok.",
+  "text": "Sa lente, nawala ang guhit ng tinapay, at may bagong tuldok sa Pilipinas mismo.",
+  "say": "sa lente, nawala ang guhit ng tinapay, at may bagong tuldok sa pilipinas mismo.",
   "style": "suspense",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "May bagong tuldok, sa Pilipinas mismo.",
-  "say": "may bagong tuldok, sa pilipinas mismo.",
-  "style": "dramatic",
   "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
@@ -584,48 +552,72 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang lente, ang mapa at ang bituin.",
-  "say": "kathang-isip: kami nina em at usman, ang medalyon, ang lente, ang mapa at ang bituin.",
+  "text": "Kathang-isip: kami nina M at Usman, ang mga medalyon, lente, mapa, bituin at ilawan.",
+  "say": "kathang-isip: kami nina em at usman, ang mga medalyon, lente, mapa, bituin at ilawan.",
   "style": "somber",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Kathang-isip din ang ilawan, at hindi ito bahagi ng salaysay ng Biblia.",
-  "say": "kathang-isip din ang ilawan, at hindi ito bahagi ng salaysay ng biblia.",
+  "text": "Wala ang ilawan sa salaysay ng Biblia.",
+  "say": "wala ang ilawan sa salaysay ng biblia.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Totoo: nag-aral si Rizal sa Espanya, Pransiya at Alemanya, at dumaan sa Hapon, Amerika at Inglatera.",
+  "say": "totoo: nag-aral si risal sa espanya, pransya at alemanya, at dumaan sa hapon, amerika at inglatera.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa London, pinag-aralan niya ang aklat ni Morga tungkol sa sinaunang Pilipinas.",
+  "say": "sa london, pinag-aralan niya ang aklat ni morga tungkol sa sinaunang pilipinas.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Inilathala niya ito sa Paris noong 1890, may mga tala niya.",
+  "say": "inilathala niya ito sa paris noong mil otsosyentos nobenta, may mga tala niya.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Marami siyang wika, pero ang bilang na dalawampu't dalawa ay sikat, hindi tiyak.",
+  "say": "marami siyang wika, pero ang bilang na dalawampu't dalawa ay sikat, hindi tiyak.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kathang-isip ang kuwento ng pamilya: ang mga anito sa tanso, ang kapalaran nila, at ang paghahanap ni Lolo Pepe.",
+  "say": "kathang-isip ang kuwento ng pamilya: ang mga anito sa tanso, ang kapalaran nila, at ang paghahanap ni lolo pepe.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
  },
  {
-  "text": "Tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino.",
-  "say": "tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino.",
+  "text": "Tatlong hiling sa bulsa ko; ngayon ko lang naisip kung para kanino.",
+  "say": "tatlong hiling sa bulsa ko; ngayon ko lang naisip kung para kanino.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Babalik tayo sa panahon mo, pero hindi pa sa Lola mo.",
-  "say": "babalik tayo sa panahon mo, pero hindi pa sa lola mo.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "M"
- },
- {
-  "text": "Saan, kung gayon?",
-  "say": "saan, kung gayon?",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.42,
-  "speaker": "INDIO"
- },
- {
-  "text": "Sa bagong tuldok: ang dati mong paaralan sa Quezon City.",
-  "say": "sa bagong tuldok: ang dati mong paaralan sa keson siti.",
+  "text": "Babalik tayo sa panahon mo: sa dati mong paaralan sa Quezon City.",
+  "say": "babalik tayo sa panahon mo: sa dati mong paaralan sa keson siti.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.3,

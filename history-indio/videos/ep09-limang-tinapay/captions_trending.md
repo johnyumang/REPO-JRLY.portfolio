@@ -16,7 +16,7 @@ pagkaalis ng lahat, may sumindi sa batuhan: ang ilawan.
 S2 EP 9: Limang Tinapay
 Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman? 🍞
 
-Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
+Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Kathang-isip din ang kuwento ng pamilya: na dating anito ng mga datu ang mga medalyon, at na hinanap ito ni José Rizal ("Lolo Pepe"). Totoo: nag-aral at naglakbay si Rizal sa Espanya, Pransiya, Alemanya, Hapon, Amerika at Inglatera; sa London pinag-aralan niya ang Sucesos ni Morga (1609) at inilathala ito sa Paris noong 1890 na may mga tala niya; marami siyang wika, pero hindi tiyak ang sikat na bilang na 22. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
 
 #HistoryIndio #LimangTinapay #Biblia #Ebanghelyo #Season2 #PinoyAnime
 
@@ -30,7 +30,7 @@ Galilea, ayon sa apat na Ebanghelyo. 🍞🐟
 S2 EP 9: Limang Tinapay
 Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman?
 
-Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
+Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Kathang-isip din ang kuwento ng pamilya: na dating anito ng mga datu ang mga medalyon, at na hinanap ito ni José Rizal ("Lolo Pepe"). Totoo: nag-aral at naglakbay si Rizal sa Espanya, Pransiya, Alemanya, Hapon, Amerika at Inglatera; sa London pinag-aralan niya ang Sucesos ni Morga (1609) at inilathala ito sa Paris noong 1890 na may mga tala niya; marami siyang wika, pero hindi tiyak ang sikat na bilang na 22. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
 
 #historyindio #limangtinapay #biblia #ebanghelyo #pinoyanime
 
@@ -39,7 +39,7 @@ sa gilid lang ako, pero nakita ko ang limang tinapay at dalawang isda.
 sa gilid lang ako, pero nabilang ko ang labindalawang bakol.
 Galilea, ayon sa apat na Ebanghelyo. 🍞🐟
 S2 EP 9. Aling detalye ang bago sa'yo?
-Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
+Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Kathang-isip din ang kuwento ng pamilya: na dating anito ng mga datu ang mga medalyon, at na hinanap ito ni José Rizal ("Lolo Pepe"). Totoo: nag-aral at naglakbay si Rizal sa Espanya, Pransiya, Alemanya, Hapon, Amerika at Inglatera; sa London pinag-aralan niya ang Sucesos ni Morga (1609) at inilathala ito sa Paris noong 1890 na may mga tala niya; marami siyang wika, pero hindi tiyak ang sikat na bilang na 22. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
 
 #historyindio #limangtinapay #biblia #ebanghelyo #fyp
 
@@ -57,7 +57,7 @@ sa gilid lang ako, pero nabilang ko ang labindalawang bakol.
 Season 2 premiere. Sa unang tuldok ng mapa, walang medalyon: isang aral mula sa Galilea. Pagkaalis ng lahat, ang unang gamit: ang ilawan (kathang-isip).
 Nasa apat na Ebanghelyo: limang tinapay, dalawang isda, mga limang libong lalake, labindalawang bakol. Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat. Sa Juan lang ang bata at ang tinapay na sebada; sa Mateo lang ang "bukod pa ang mga babae at ang mga bata"; sa Lucas lang ang Betsaida. Walang taon sa teksto; ang "mga AD 30" ay tantiya.
 
-Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
+Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi bahagi ng salaysay ng Biblia ang ilawan. Kathang-isip din ang kuwento ng pamilya: na dating anito ng mga datu ang mga medalyon, at na hinanap ito ni José Rizal ("Lolo Pepe"). Totoo: nag-aral at naglakbay si Rizal sa Espanya, Pransiya, Alemanya, Hapon, Amerika at Inglatera; sa London pinag-aralan niya ang Sucesos ni Morga (1609) at inilathala ito sa Paris noong 1890 na may mga tala niya; marami siyang wika, pero hindi tiyak ang sikat na bilang na 22. Ang tagpo ay ayon sa nakasulat sa apat na Ebanghelyo: Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15. Mga sipi mula sa Ang Dating Biblia (1905).
 
 Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman? I-comment sa baba.
 
@@ -67,7 +67,7 @@ Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman? I-comment sa baba
 
 ## Pinned comment
 sa gilid lang ako, pero nabilang ko ang labindalawang bakol. 🍞
-Ayon sa teksto: nasa apat na Ebanghelyo ang limang tinapay at dalawang isda, mga limang libong lalake, at labindalawang bakol ng tira (Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15). Sa Juan lang ang batang may limang tinapay na sebada at si Andres; sa Mateo lang ang "bukod pa ang mga babae at ang mga bata"; sa Lucas lang ang Betsaida. Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat. Walang taon sa teksto; ang "mga AD 30" ay tantiya. Mga sipi mula sa Ang Dating Biblia (1905, public domain). Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi sila bahagi ng salaysay ng Biblia. Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman?
+Ayon sa teksto: nasa apat na Ebanghelyo ang limang tinapay at dalawang isda, mga limang libong lalake, at labindalawang bakol ng tira (Mateo 14:13-21, Marcos 6:30-44, Lucas 9:10-17, Juan 6:1-15). Sa Juan lang ang batang may limang tinapay na sebada at si Andres; sa Mateo lang ang "bukod pa ang mga babae at ang mga bata"; sa Lucas lang ang Betsaida. Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat. Walang taon sa teksto; ang "mga AD 30" ay tantiya. Mga sipi mula sa Ang Dating Biblia (1905, public domain). Kathang-isip sina Indio, M at Usman, ang medalyon, ang lente, ang mapa, ang bituin at ang ilawan; hindi sila bahagi ng salaysay ng Biblia. Kathang-isip din ang kuwento ng pamilya na dating anito ng mga datu ang mga medalyon at na hinanap ito ni Rizal ("Lolo Pepe"); totoo ang kanyang mga paglalakbay (Espanya, Pransiya, Alemanya, Hapon, Amerika, Inglatera) at ang edisyon niya ng Morga (Paris, 1890); hindi tiyak ang sikat na "22 wika". Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman?
 
 ## On-screen opener (optional)
 First three seconds, one line at a time:

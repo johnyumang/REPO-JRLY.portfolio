@@ -127,3 +127,29 @@ Same method as above (Wikipedia raw wikitext read in full on 2026-11-12, marked 
     - Magat Salamat died in 1588, six years before. His medallion hidden in a 1594 jar is fiction, and the fairness beat must say he was executed in 1588 and never went to Japan.
   - **Keep, verified enough.** A second source (Morga 1609 in Blair & Robertson vol. 16) is still to open.
 - **The clove islands:** not in the v2 table. If used, from memory and **unverified**: the *Trinidad* and *Victoria* reached Tidore in November 1521 (Pigafetta). WP "Tidore" did not cover this. **Verify before use.**
+
+---
+
+# Addendum: "ang kuwento ni Lolo Pepe" (Ep 9 version 3, worker, 2026-11-12)
+- **Travels (certain):**
+  - Spain: left Manila 1 to 3 May 1882; enrolled at the Universidad Central de Madrid in November 1882.
+  - France: Paris, June–August 1883, again later, and 1889–90.
+  - Germany: Heidelberg, eye specialisation under Otto Becker, 1887; also Berlin.
+  - Return trip to Europe in 1888, by Hong Kong (left 22 February 1888) and Japan (Yokohama and Tokyo, February–April 1888), then the United States (San Francisco 28 April 1888, across to New York, mid-May), then England (London, May 1888 to March 1889).
+  - Brussels 1890; Hong Kong, December 1891 to June 1892.
+  - Sources: WP "José Rizal" (raw, read 2026-11-12); Philstar Cebu "Rizal sesquicentennial" (2011-07-02) [summary only]; travel chronologies [summary only]. The day-by-day dates are from summaries; the script names only countries.
+- **Languages (hedged):**
+  - WP repeats "conversant in twenty-two languages" without a source.
+  - Piers Kelly (History and Philosophy of the Language Sciences, 2014-04-23) [summary only] calls the figure part of a mythology and the extent debatable; Rizal himself acknowledged his limits.
+  - Documented: Tagalog (mother tongue), Spanish (wrote mostly in it), lessons in French, German and English in Madrid, German practised in Heidelberg, and switching languages in his letters.
+  - **Say "marami siyang wika" and that 22 is popular, not established.**
+- **Morga (certain):**
+  - Rizal worked in London from 1888, using the British Museum; WP names Reinhold Rost of the British Museum.
+  - He annotated Antonio de Morga's *Sucesos de las Islas Filipinas* (Mexico, 1609) and finished it in Paris in 1890 (WP "Sucesos de las Islas Filipinas"; WP "José Rizal").
+  - The printer was Garnier, Paris (several sources [summary only]). One auction listing gives 1889.
+  - Blumentritt wrote the introduction [summary only].
+- **Anito (certain):** spirits of ancestors and of nature in pre-colonial belief, and also carved figures (taotao) of wood, stone or ivory representing them (WP "Anito", raw). The term is mainly Luzon's; the Visayan counterpart is diwata. Second source: Scott, *Barangay* (1994) [not opened].
+- **Missionaries destroying or taking images: NOT verified enough.**
+  - Blair & Robertson's editorial summaries of Chirino's *Relación* (1604) say converts gave up their idols and missionaries destroyed them [summary only].
+  - Not opened; not used in the script. Open B&R vol. 12 or 13 (Gutenberg 15022 / 15184) before any episode states it.
+- **Fiction (labelled):** that the medallions were datus' anito, their fates, and that Rizal travelled to trace them and drew the kasulatan.
