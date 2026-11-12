@@ -29,7 +29,7 @@
 **Fiction (labelled):** Senador Gorio Madlangbayan, the Dalisdis Diking Corporation, the 100-million line, the province with no dike, the notary, the forged documents, the committee offer, Sinag, Tubal, Rico Bulan, Ma'am Celia, Bea, Totoy, Tay Sebyo, the Lolo Isidro scholarship, the medallions Ang Kasulatan and Ang Tinig, and the kappa and sarimanok as helpers. No real living senator, party or company appears.
 
 ## Where each claim is spoken (script version 1, 742 words, 70 sentences)
-- Age and time passing: 7 (two terms as mayor, more grey hair) and 8 (35 when he wins). L1: 9 and 61. L2: 10. L3: 61.
+- Age and time passing: 7 (two terms as mayor, more grey hair) and 8 (35 when he wins). L1: 9 and 61. L2: 10. L3: 61. Fairness beat 61 (sentence index 60) now says "tatlumpu't lima ang pinakamababang edad ng senador": 35 and 40 are minimums, not fixed ages (Art. VI sec. 3 "at least thirty-five years of age on the day of the election"; Art. VII sec. 2 "at least forty years of age on the day of the election"), matching sentence 9. Corrected after the independent check.
 - H1: 22, 23, 24 and 62. H2: 25. H3: 26. H4: 27. H5: 63. Witness only: 28.
 - F1: 48 and 49. F2: 51. Folklore label: 64.
 - Fiction: 65; the series label is at 66.
