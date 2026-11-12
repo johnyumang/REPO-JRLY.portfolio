@@ -1,18 +1,94 @@
-# Multi-speaker version (ElevenLabs v3 Text to Dialogue). Same words and order as script_elevenlabs.txt, so timings align the same way.
-# Speakers: INDIO only (one narrator). Every quotation from the Gospels is read by Indio as narration, in a calm, low voice: no character voice for Jesus, Andres or anyone in the text. Usman's one line is reported by Indio. Export ONE MP3 of the whole dialogue.
+# MASTER script (Season 2 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
+# Speakers: INDIO (narration and his spoken lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (a dog's voice: quick, warm, a little gravelly; designed voice). Inside the Gospel scene only INDIO speaks, as narration; every quotation from the text is read by INDIO in a calm, low voice, with no character voice for Jesus or anyone in the Gospel.
 
-INDIO: [dramatic] Limang tinapay at dalawang isda lang ang nakita ko, para sa libu-libong tao sa damuhan. [warm] Ako 'to si Indio. [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
+INDIO: [dramatic] Limang tinapay at dalawang isda, para sa libu-libong tao sa damuhan.
+INDIO: [suspense] Pagkaalis nila, may sumindi sa dilim.
+INDIO: [warm] Ako 'to si Indio.
+INDIO: [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
 
-INDIO: [serious] Mula Kawit, eighteen ninety-eight, kasama ko pa rin si M at si Usman. [curious] Sa lente, walang datu ang unang tuldok sa mapa, guhit lang ng limang tinapay at dalawang isda. [playful] Tulog pa rin ang bituin ng tatlong hiling, tol.
+INDIO: [serious] Kawit, Hunyo 1898, gabi na.
+INDIO: [curious] Sa ilalim ng puno, binuksan ni M ang kasulatan.
+M: [serious] Silipin mo sa lente ang unang tuldok.
+INDIO: [curious] Walang datu, guhit lang ng limang tinapay at dalawang isda.
+M: [warm] Hindi lahat ng tuldok ay medalyon, Indio.
+M: [serious] Ang una ay aral.
+USMAN: [playful] Basta may tinapay, sasama ako, tol.
+INDIO: [curious] Kinapa ko ang medalyong may bituin sa bulsa.
+INDIO: [whisper] Tatlong hiling, pero malamig pa rin, tulog.
+M: [serious] Hindi iyan gigising hangga't hindi gising ang labindalawa.
 
-INDIO: [dramatic] Ikaanim na talon: uminit ang medalyon ni M, at nilamon kami ng liwanag. [curious] Balabal na ang suot ko, gawa ng agimat. [warm] Bulong ni Usman: makikinig lang tayo, par. [serious] Sa Galilea, nasa gilid kami ng karamihan, walang hinahawakan.
+INDIO: [dramatic] Ikaanim kong talon, sa medalyon ni M.
+INDIO: [dramatic] Uminit ang tanso, umikot ang liwanag, at nawala ang Kawit.
+INDIO: [curious] Gawa ng agimat, balabal na ang suot ko.
+M: [serious] Dagat ng Galilea ito, mahigit dalawang libong taon pabalik.
+M: [serious] Walang hahawakan, walang kakausapin, manonood lang tayo.
+USMAN: [whisper] Kahit mabango ang tinapay?
+M: [warm] Lalo na kapag mabango.
+INDIO: [serious] Tumayo kami sa gilid ng karamihan, sa batuhan.
 
-INDIO: [serious] Sumakay si Jesus ng daong, pero nauna pa ang mga taong naglakad. [sad] Mula sa malayo, nakatalikod Siya sa amin, at pinagagaling Niya ang mga maysakit. [serious] Nang magtakipsilim, paalisin na raw ang mga tao, sabi ng mga alagad. [serious] Sagot Niya: Bigyan ninyo sila ng makakain. [whispers] Sabi ni Andres: May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda. [serious] Pinaupo ang lahat sa damuhan, tigsasandaan at tiglilimampu. [serious] Tumingala Siya sa langit, pinagpala at pinagputul-putol ang tinapay, at ipinamahagi ng mga alagad. [triumphant] Nagsikain silang lahat, at nangabusog. [serious] Sabi Niya: Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang. [dramatic] Labindalawang bakol ang napuno ng mga tira. [sad] Limang libong lalake ang kumain, bukod pa ang mga babae at ang mga bata. [suspense] Nang gusto Siyang gawing hari ng mga tao, umahon Siyang mag-isa sa bundok.
+INDIO: [serious] Mula rito, tahimik kami, at ang nakasulat lang ang susundan ko.
+INDIO: [serious] Sumakay si Jesus ng daong papunta sa ilang na dako.
+INDIO: [curious] Pero tumakbo ang mga tao mula sa mga bayan, at nauna pa.
+INDIO: [somber] Mula sa malayo, nakatalikod Siya sa amin, pinagagaling ang mga maysakit.
+INDIO: [serious] Nang magtakipsilim, paalisin na raw ang mga tao, sabi ng mga alagad.
+INDIO: [serious] Sagot Niya: Bigyan ninyo sila ng makakain.
+INDIO: [curious] Sabi ni Felipe sa Juan: Hindi magkakasiya sa kanila ang dalawang daang denariong tinapay.
+INDIO: [serious] Tanong Niya sa Marcos: Ilang tinapay mayroon kayo?
+INDIO: [whisper] Sabi ni Andres: May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda.
+INDIO: [whisper] Dagdag niya: datapuwa't gaano na ang mga ito sa ganyang karamihan?
+INDIO: [serious] Sabi Niya sa Mateo: Dalhin ninyo rito sa akin.
+INDIO: [serious] At sa Juan: Inyong paupuin ang mga tao.
+INDIO: [warm] Naupo ang lahat sa sariwang damuhan, tigsasandaan at tiglilimampu.
+INDIO: [serious] Kinuha Niya ang limang tinapay at ang dalawang isda, at tumingala sa langit.
+INDIO: [serious] Pinagpala Niya, pinagputul-putol, at ibinigay sa mga alagad.
+INDIO: [warm] Ang mga alagad ang namahagi, hanay-hanay.
+INDIO: [triumphant] Nagsikain silang lahat, at nangabusog.
+INDIO: [serious] Sabi Niya sa Juan: Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang.
+INDIO: [dramatic] Labindalawang bakol na puno ang naipon.
+INDIO: [somber] Limang libong lalake ang kumain, bukod pa ang mga babae at ang mga bata.
+INDIO: [curious] Sabi ng mga tao sa Juan: Totoong ito nga ang propeta na paririto sa sanglibutan.
+INDIO: [suspense] Pero nang gusto Siyang gawing hari, umahon Siyang mag-isa sa bundok.
 
-INDIO: [whispers] Paglingon ko, nakatingin pa rin si M sa mga bakol. [suspense] Sa lente, nawala ang guhit ng tinapay, at may bagong tuldok sa Pilipinas mismo.
+INDIO: [somber] Dumilim, at nag-uwian ang mga tao.
+M: [whisper] Puwede na tayong magsalita, malayo na tayo.
+INDIO: [warm] Nakita mo rin ba ang mga bakol, M?
+M: [warm] Oo, at hindi ko iyon malilimutan.
+USMAN: [curious] May naaamoy ako sa batuhan, hindi tinapay, langis.
+INDIO: [curious] Bumaba kami sa batuhan, malayo sa pinag-upuan nila.
+INDIO: [suspense] Sa siwang ng bato, may lumang ilawang luwad, may tuyong mitsa.
+M: [serious] Matagal nang nakabaon iyan, hindi galing sa kanila.
+M: [serious] Iyan ang tinuturo ng unang tuldok.
+INDIO: [curious] Hinawakan ko, at kusang sumindi ang maliit na apoy.
+INDIO: [dramatic] Pagtaas ko ng ilawan, may anino sa itaas ng batuhan.
+INDIO: [suspense] Naka-itim na abrigo at malapad na sombrero, gaya sa Kawit.
+USMAN: [suspense] Kanina pa siya nakasunod, hindi ko lang naamoy.
+M: [whisper] Ipinapakita ng ilawan ang mga palihim na nagbabantay.
+INDIO: [serious] Hindi ako natatakot.
+INDIO: [dramatic] Biglang namatay ang apoy, at dilim na naman.
+M: [serious] Hindi ka nagsasabi ng totoo, kaya ayaw sumindi.
+INDIO: [whisper] Sige na nga, natatakot ako, sobra.
+INDIO: [dramatic] Sumindi ulit ang apoy, pero wala na ang anino.
+USMAN: [playful] Sheesh, ilawan pala na hindi mo malulusutan, par.
 
-INDIO: [curious] Umungol si Usman, linawin natin. [serious] Sa apat na Ebanghelyo: limang tinapay, dalawang isda, limang libong lalake, labindalawang bakol. [serious] Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat. [curious] Sa Juan lang ang bata at ang sebada; sa Mateo lang ang mga babae at bata. [sad] Kathang-isip: kami nina M at Usman, ang medalyon, ang lente, ang mapa at ang bituin.
+INDIO: [curious] Sa liwanag ng ilawan, sinilip ko ang mapa sa lente.
+INDIO: [suspense] Nawala ang guhit ng tinapay sa unang tuldok.
+INDIO: [dramatic] May bagong tuldok, sa Pilipinas mismo.
 
-INDIO: [warm] Tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino. [dramatic] Ang bagong tuldok: ang dati kong paaralan sa Quezon City.
+USMAN: [curious] Umungol ako, kaya linawin natin.
+INDIO: [serious] Nasa apat na Ebanghelyo: limang tinapay, dalawang isda, limang libong lalake, labindalawang bakol.
+INDIO: [serious] Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat.
+INDIO: [curious] Sa Juan lang ang bata, ang tinapay na sebada, si Felipe at si Andres.
+INDIO: [curious] Sa Mateo lang ang mga babae at mga bata, at sa Lucas lang ang Betsaida.
+INDIO: [serious] Walang taon sa teksto, at tantiya lang ang taong tatlumpu.
+INDIO: [somber] Kathang-isip: kami nina M at Usman, ang medalyon, ang lente, ang mapa at ang bituin.
+INDIO: [somber] Kathang-isip din ang ilawan, at hindi ito bahagi ng salaysay ng Biblia.
 
-INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo. [curious] Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman? [excited] At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!
+INDIO: [warm] Tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino.
+M: [serious] Babalik tayo sa panahon mo, pero hindi pa sa Lola mo.
+INDIO: [curious] Saan, kung gayon?
+M: [suspense] Sa bagong tuldok: ang dati mong paaralan sa Quezon City.
+INDIO: [dramatic] At hawak ko na ang unang gamit ng Season 2: ang ilawan.
+
+INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo.
+INDIO: [curious] Sa apat na salaysay, aling detalye ang ngayon mo lang nalaman?
+INDIO: [excited] At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!

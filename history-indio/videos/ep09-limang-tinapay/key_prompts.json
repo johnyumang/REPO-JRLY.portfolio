@@ -1,5 +1,5 @@
 {
- "_note": "Episode 9 (S2E1) keyframes, same method as Episodes 2-8. The Gospel scene (sentences 10-21): Jesus is only a far figure seen from behind (plain off-white tunic, simple brown mantle), never a face, never a close-up, no halo. Disciples, the boy and the crowd are generic figures, faces small or turned away. Indio has no medallion of his own (six marks); M wears her crescent-moon medallion. Indio, M and Usman stand only at the edge, touching nothing. No weapons. Copied, not generated (from Episode 8): plate kawit1898; chars m_explain, usman_growl; full intro, star_medallion, m_medallion_hot, walk_away. Shot keys follow sentences.json; k50+ are extra keys used only inside montages.",
+ "_note": "Episode 9 (S2E1), 5-minute multi-voice version: 83 sentences, one new picture per sentence (80 keys from generated or copied frames; sentences 70, 71 and 74 reuse an earlier key, never the one before). Same method as Episodes 2-8. The Gospel scene (sentences 22-43): Jesus is only a far figure seen from behind (plain off-white tunic, simple brown mantle), never a face, never a close-up, no halo; disciples, the boy and the crowd are generic figures. Indio, M and Usman are only at the edge and touch nothing. The lamp (ilawan) appears only after the crowd has gone (sentence 44 on), in a crack of rock below the hillside, never in the Gospel scene. The watcher ('sila') is the dark-coat, wide-hat figure of Episode 8. Indio has no medallion of his own (six marks); M wears her crescent-moon medallion. No weapons. Copied from Episode 8: char usman_growl; full intro, star_medallion, m_medallion_hot. Unused spares from the first draft: plate galilee_hill, char usman_galilee. shots_fx.json carries 'framing' and, for shots that should get the new 3D moves, 'depth': 'strong'.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -11,12 +11,12 @@
   "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
  },
  "plates": {
-  "kawit1898": "(copied from Episode 8)",
   "galilee_hill": "a wide green grassy hillside sloping down to a calm blue lake, the Sea of Galilee, low brown hills on the far shore, a few small wooden fishing boats on the water, scattered rocks and wildflowers, warm afternoon light, nothing modern, no buildings.",
-  "galilee_dusk": "a green grassy hillside above a calm blue lake at sunset, warm orange sky, long soft shadows on the grass, a few empty woven baskets, peaceful, nothing modern, no buildings."
+  "galilee_dusk": "a green grassy hillside above a calm blue lake at sunset, warm orange sky, long soft shadows on the grass, a few empty woven baskets, peaceful, nothing modern, no buildings.",
+  "rocks_night": "dark rocky slope above a lake at night, big boulders, a narrow path, moonlight and stars, nothing modern, no buildings.",
+  "lake_dawn": "low view from among tall reeds in the foreground, a calm empty lake at dawn with mist on the water, soft hills, pink sky, nothing modern, no buildings."
  },
  "chars": {
-  "m_explain": "(copied from Episode 8)",
   "usman_growl": "(copied from Episode 8)",
   "indio_cloak": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, looking down at his own new clothes, holding the edge of the cloak, calm surprised face, soft afternoon light.",
   "usman_galilee": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting very still on green grass, ears up, looking ahead quietly, calm attentive face, afternoon light.",
@@ -27,7 +27,6 @@
   "intro": "(copied from Episode 8)",
   "star_medallion": "(copied from Episode 8)",
   "m_medallion_hot": "(copied from Episode 8)",
-  "walk_away": "(copied from Episode 8)",
   "loaves_crowd": "close-up of a small woven basket on the grass holding five round flat brown barley loaves and two small dried fish, nobody in the foreground, far behind it out of focus a huge crowd sitting on a green hillside by a lake, warm late-afternoon light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
   "map_bread": "view through a round golden-rimmed lens filling the frame: inside the circle an old yellowed paper map of Asia with eleven tiny gold dots, and at the far left edge, instead of a dot, a tiny ink drawing of five round loaves and two small fish, glowing softly; outside the circle darkness.",
   "edge_three": "seen from behind at the edge of a huge crowd on a green hillside by a lake: a young man in a brown wool cloak and red headband with long tails, a young woman in a long dark coat with a closed red umbrella, and a black dog with a red kerchief, standing still apart from the crowd, afternoon light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
@@ -40,134 +39,324 @@
   "baskets_pass": "men in plain tunics carrying woven baskets of bread and fish along rows of people seated on grass, hands reaching to receive the food, warm golden dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
   "eating": "seen from behind and a little above, families seated on green grass at dusk, mothers and small children breaking round bread and eating small fish, faces turned away or tiny, warm light, a lake ahead, nobody facing the viewer. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
   "gathering": "men in plain tunics bending down on the grass to pick up broken pieces of bread into woven baskets, a seated crowd around them, dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
-  "twelve_baskets": "a row of exactly twelve woven baskets standing on the grass, each full to the top with broken pieces of bread, a lake and an orange dusk sky behind, quiet and still. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "twelve_baskets": "ground-level shot: a row of exactly twelve woven baskets standing on the grass, each full to the top with broken pieces of bread, no people, an empty slope, a lake and an orange dusk sky behind, quiet and still.",
   "crowd_families": "a vast crowd on a green hillside at dusk, men, women and small children sitting together, mothers holding babies, stretching up to the horizon, warm light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
   "mountain_alone": "sunset on a rocky hill path above a lake, one small figure in a brown mantle seen from far behind walking up the path alone, far below on the green shore many tiny seated people, warm orange sky, peaceful. People in simple tunics and mantles, no halo, faces small and far.",
   "map_ph": "view through a round golden-rimmed lens filling the frame: inside the circle an old yellowed paper map of Asia with tiny dim gold dots, and one new bright gold dot glowing on the Philippine islands, light rays; outside the circle darkness.",
   "four_scrolls": "four old rolled parchment scrolls lying side by side on a rough wooden table, each slightly open showing only illegible scribbled lines, beside them five round loaves and two small fish on a cloth, soft lamplight, no readable letters.",
-  "qc_school": "view through a round golden-rimmed lens filling the frame: inside the circle a Philippine public elementary school building in a city, two storeys, cream and green paint, a small flag pole, a covered walkway, schoolchildren in white shirts, bright morning; outside the circle darkness. No readable text."
+  "qc_school": "view through a round golden-rimmed lens filling the frame: inside the circle a Philippine public elementary school building in a city, two storeys, cream and green paint, a small flag pole, a covered walkway, schoolchildren in white shirts, bright morning; outside the circle darkness. No readable text.",
+  "lamp_hands": "extreme close-up of two cupped hands around a small clay oil lamp, its tiny flame flaring up in darkness, dark rocks behind, warm orange glow on the fingers, sparks. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "galilee_vista": "very high wide view from a hilltop: in the foreground dry grass and a rock, below a vast green slope with a huge crowd like tiny dots, a blue lake stretching to far hills, afternoon light, long sight line. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "kawit_night": "wide shot, a huge acacia tree in the foreground, under it a lantern and two small sitting figures, far behind a two-storey wooden and stone house with lit open windows, no balcony, palm trees, starry sky. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "m_unroll": "close-up of a young woman's hands in dark coat sleeves unrolling an old yellowed blank paper on her knees under lantern light, a round golden-rimmed lens beside it. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "m_talk_ots": "over-the-shoulder shot from behind a young man with a red headband, looking at a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, sitting under a tree, holding up a golden-rimmed lens toward him and speaking, lantern light. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "m_closeup_night": "close-up of a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, her face lit warm by a lantern, speaking softly with a calm knowing look, dark leaves behind. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "two_tree": "night scene under a huge acacia tree with a lantern, low-angle two-shot: a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, loose white collarless shirt, and a young Filipina woman with long black hair in a long dark coat, sitting side by side on a big tree root, looking down at an old paper map between them. Detailed night scene under a huge acacia tree in Kawit, Philippines, 1898, lantern light, full background, nothing modern.",
+  "usman_jump": "night under a big acacia tree, a lantern on the ground: a black Philippine street dog with a white chest patch and a red kerchief leaping up happily with tongue out, low angle, motion blur, no people. Detailed night scene under a huge acacia tree in Kawit, Philippines, 1898, lantern light, full background, nothing modern.",
+  "pocket_hand": "close-up of a young man's hand pulling a small round golden medallion engraved with a single star out of a trouser pocket, lantern light, dark background.",
+  "m_stars": "low-angle shot of a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, standing and looking up at a sky full of stars through tree branches, her coat moving in the wind, serious face. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "jump_vortex": "high-angle wide shot: a swirling column of golden light and spinning clock gears rising around a young man, a young woman and a black dog under a big tree at night, the house in the distance fading into light. Kawit, Philippines, night in 1898, nothing modern, no weapons.",
+  "cloak_reveal": "low-angle shot: a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, landing on one knee on green grass, catching his balance, looking down in surprise at his new cloak, golden sparks fading, a lake and hills behind. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "m_points_lake": "over-the-shoulder shot from behind a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, pointing down a long green slope toward a calm blue lake and a huge gathering crowd, deep vista, afternoon light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "m_rules": "close-up of a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, in afternoon sun on a hillside, holding up three fingers and speaking firmly, hills and a lake blurred behind. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "usman_sniff": "low close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, nose raised high, sniffing the air on a grassy hillside, eyes half closed, a crowd far behind out of focus. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "m_hush": "two-shot on a grassy hillside: a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, crouching beside a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, holding a finger to her lips, the dog tilting his head, the crowd far below. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "sit_rocks": "from behind three figures sitting on a big boulder in the foreground, a young man with a red headband and brown cloak, a woman in a dark coat, a black dog, beyond them a vast seated crowd on a slope and a lake, deep perspective. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "running_crowd": "low-angle shot along a dusty lakeshore path, sandaled feet running past the lens in the foreground, long lines of people hurrying from distant villages, dust in golden light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "disciples_close": "medium shot of two men with short hair and short beards in plain tunics, seen in three-quarter view, turning to each other with worried faces at dusk, a huge crowd and orange sky behind, generic faces. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "philip_coins": "close-up of a man's open hand in a plain sleeve holding a few small silver coins, a crowd on grass blurred behind, dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "disciples_search": "medium wide shot: men in plain tunics moving between seated people, opening cloth bags and baskets and finding them empty, dusk light. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "basket_closeup": "high-angle close-up looking down into a small woven basket held by a child's hands: five round flat barley loaves and two small dried fish, grass below. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "basket_handed": "low-angle close-up: a child's small hands lifting a woven basket of five round loaves and two small fish up toward a man's open hands, sky behind. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "crowd_sitting_down": "wide high-angle shot: a huge crowd sitting down on green grass in waves, groups forming, dust and golden light, a lake behind, long sight line. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "disciples_receive": "medium low-angle shot: men in plain tunics receiving woven baskets full of broken bread and fish and turning toward the crowd, in the far background a small figure in a brown mantle seen from behind. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "crowd_rising": "low-angle wide shot: many people in a crowd rising to their feet on a hillside at dusk, arms lifted, excited, dust, orange sky. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "crowd_leaving": "high-angle wide shot at nightfall: long lines of people with small torches walking away along the lake shore toward distant villages, a dark empty hillside in the foreground. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "m_whisper_night": "close-up of a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, in moonlight, leaning in and whispering, her eyes alert, dark rocks behind. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "indio_ask": "moonlit night, over-the-shoulder shot from behind a woman with long black hair toward a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, sitting on a dark rock, turning to her and asking a question. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "m_eyes": "extreme close-up of a young woman's dark eyes, wet with tears, the moon reflected in them, soft blue light.",
+  "usman_nose_rocks": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, nose to the ground, sniffing his way between dark rocks in moonlight, tail up, focused. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "descend_rocks": "high-angle wide shot: a young man in a brown cloak, a woman in a dark coat and a black dog climbing down a steep rocky slope at night toward the lake shore, moonlight, deep perspective. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "lamp_crevice": "close-up of one small flat palm-sized clay oil lamp with a spout, unlit, half-buried in a narrow crack between dark rocks, dust and pebbles, cold moonlight. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "m_kneel": "side view of a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, kneeling between rocks, studying a small clay lamp in the crack without touching it, moonlight. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "map_lamp_dot": "close-up of a woman's hands holding open an old yellowed map, one tiny ink drawing of loaves glowing gold on its far left edge, moonlit rocks behind.",
+  "lamp_lights": "close-up of a young man's tattooed hand lifting a small clay oil lamp from the rocks, a flame springing alight by itself, golden sparks, his surprised face blurred behind. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "lamp_raised": "low-angle shot from behind a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, raising a small burning clay lamp high, warm light spreading across the rocks, above on a rock ledge a dark silhouette of a watcher. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "watcher_rocks": "low-angle shot up at a figure in a long black coat and a wide black hat, face hidden in shadow, standing on a high rock ledge, lit from below by warm lamplight, stars behind, sinister, nothing modern. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "m_ots_watcher": "over-the-shoulder shot from behind a young Filipina woman with long black hair in a long dark coat, a small crescent-moon medallion at her neck, looking up at a dark figure in a wide hat on a rock ledge, warm lamplight between them, deep perspective. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "indio_brave": "close-up of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, face lit from below by a small lamp flame, jaw set, trying to look brave, sweat on his brow. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "lamp_out": "close-up of a small clay oil lamp as its flame suddenly dies, a thin curl of smoke rising, everything falling into darkness. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "m_dark_twoshot": "moonlit night among dark rocks: two-shot of a young Filipina woman with long black hair in a long dark coat, turning to look sideways at a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, who holds a small dark smoking clay lamp, both faces half in shadow. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "indio_admit": "moonlit night among dark rocks by a lake: a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, sitting down on a rock, head lowered, holding a small unlit clay lamp in both hands, an honest embarrassed half smile. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "lamp_relight": "moonlit night among dark rocks: wide shot of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, holding a small clay lamp that flares bright again, golden light filling the rocks, the high rock ledge above now empty, a black dog beside him. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "usman_grin": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, grinning with tongue out in warm lamplight, one ear up, cheeky. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "map_under_lamp": "top-down high-angle shot: an old yellowed map spread on a flat rock, a burning clay lamp at one corner, a young man's hand holding a golden-rimmed lens over it. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "map_fade": "view through a round golden-rimmed lens: on an old yellowed map, a tiny ink drawing of five loaves and two fish dissolving into golden sparks, darkness outside the circle.",
+  "bethsaida_town": "wide shot of a small ancient stone fishing town on a lake shore in morning light, flat roofs, nets drying, small wooden boats, hills behind, nothing modern. First-century Galilee, people in simple tunics and mantles, no halo, no cross, no church, no weapons, faces small and far.",
+  "lamp_still": "still life: a small clay oil lamp burning on a flat rock in the foreground, the dark lake and the far hills under the moon behind, deep perspective. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "m_profile": "night among dark rocks by a lake: two-shot of a young Filipina woman with long black hair in a long dark coat, in profile speaking to a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, across a small burning clay lamp on a rock between them, warm light on both faces. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "indio_question": "close-up of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, raising his eyebrows in surprise, lamp light on his face, night background. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "lamp_hero": "night sky full of stars, low-angle hero shot of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, holding a small burning clay lamp high above his head, a woman in a dark coat and a black dog behind him, wind in the cloak. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "indio_wave": "night by a lake: close-up of a lean young Filipino man, brown skin, black hair in a small topknot, red headband with long tails, rough brown wool cloak over a plain tunic, sandals, grinning and pointing straight at the viewer, a small burning clay lamp in his other hand. Detailed moonlit night scene of dark rocks by a lake in ancient Galilee, full background, nothing modern, no weapons.",
+  "walk_shore": "seen from behind, a young man in a brown cloak with a small lamp, a woman in a dark coat and a black dog walking along a moonlit lake shore into the distance, long sight line, footprints in the sand. Moonlit night by a lake in ancient Galilee, nothing modern, no weapons.",
+  "indio_lens_eye": "extreme close-up of a young man's eye behind a round golden-rimmed lens, golden sparks reflected in his pupil, darkness around."
  },
  "shots": {
   "0": {
    "full": "loaves_crowd"
   },
   "1": {
+   "full": "lamp_hands"
+  },
+  "2": {
    "full": "intro"
   },
   "3": {
-   "char": "m_explain",
-   "plate": "kawit1898",
-   "x": 0.6,
-   "y": 0.4,
-   "s": 0.65
+   "full": "galilee_vista"
   },
   "4": {
-   "full": "map_bread"
+   "full": "kawit_night"
   },
   "5": {
-   "full": "star_medallion"
+   "full": "m_unroll"
   },
   "6": {
-   "full": "m_medallion_hot"
+   "full": "m_talk_ots"
   },
   "7": {
-   "char": "indio_cloak",
-   "plate": "galilee_hill",
-   "x": 0.5,
-   "y": 0.45,
-   "s": 0.65
+   "full": "map_bread"
   },
   "8": {
-   "char": "usman_galilee",
-   "plate": "galilee_hill",
+   "full": "m_closeup_night"
+  },
+  "9": {
+   "full": "two_tree"
+  },
+  "10": {
+   "full": "usman_jump"
+  },
+  "11": {
+   "full": "pocket_hand"
+  },
+  "12": {
+   "full": "star_medallion"
+  },
+  "13": {
+   "full": "m_stars"
+  },
+  "14": {
+   "full": "m_medallion_hot"
+  },
+  "15": {
+   "full": "jump_vortex"
+  },
+  "16": {
+   "full": "cloak_reveal"
+  },
+  "17": {
+   "full": "m_points_lake"
+  },
+  "18": {
+   "full": "m_rules"
+  },
+  "19": {
+   "full": "usman_sniff"
+  },
+  "20": {
+   "full": "m_hush"
+  },
+  "21": {
+   "full": "sit_rocks"
+  },
+  "22": {
+   "full": "edge_three"
+  },
+  "23": {
+   "full": "boat_crowd"
+  },
+  "24": {
+   "full": "running_crowd"
+  },
+  "25": {
+   "full": "healing_far"
+  },
+  "26": {
+   "full": "dusk_disciples"
+  },
+  "27": {
+   "full": "disciples_close"
+  },
+  "28": {
+   "full": "philip_coins"
+  },
+  "29": {
+   "full": "disciples_search"
+  },
+  "30": {
+   "full": "boy_basket"
+  },
+  "31": {
+   "full": "basket_closeup"
+  },
+  "32": {
+   "full": "basket_handed"
+  },
+  "33": {
+   "full": "crowd_sitting_down"
+  },
+  "34": {
+   "full": "groups_grass"
+  },
+  "35": {
+   "full": "blessing_back"
+  },
+  "36": {
+   "full": "disciples_receive"
+  },
+  "37": {
+   "full": "baskets_pass"
+  },
+  "38": {
+   "full": "eating"
+  },
+  "39": {
+   "full": "gathering"
+  },
+  "40": {
+   "full": "twelve_baskets"
+  },
+  "41": {
+   "full": "crowd_families"
+  },
+  "42": {
+   "full": "crowd_rising"
+  },
+  "43": {
+   "full": "mountain_alone"
+  },
+  "44": {
+   "full": "crowd_leaving"
+  },
+  "45": {
+   "full": "m_whisper_night"
+  },
+  "46": {
+   "full": "indio_ask"
+  },
+  "47": {
+   "full": "m_eyes"
+  },
+  "48": {
+   "full": "usman_nose_rocks"
+  },
+  "49": {
+   "full": "descend_rocks"
+  },
+  "50": {
+   "full": "lamp_crevice"
+  },
+  "51": {
+   "full": "m_kneel"
+  },
+  "52": {
+   "full": "map_lamp_dot"
+  },
+  "53": {
+   "full": "lamp_lights"
+  },
+  "54": {
+   "full": "lamp_raised"
+  },
+  "55": {
+   "full": "watcher_rocks"
+  },
+  "56": {
+   "char": "usman_growl",
+   "plate": "rocks_night",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "9": {
-   "full": "edge_three"
+  "57": {
+   "full": "m_ots_watcher"
   },
-  "10": {
-   "full": "boat_crowd"
+  "58": {
+   "full": "indio_brave"
   },
-  "11": {
-   "full": "healing_far"
+  "59": {
+   "full": "lamp_out"
   },
-  "12": {
-   "full": "dusk_disciples"
+  "60": {
+   "full": "m_dark_twoshot"
   },
-  "14": {
-   "full": "boy_basket"
+  "61": {
+   "full": "indio_admit"
   },
-  "15": {
-   "full": "groups_grass"
+  "62": {
+   "full": "lamp_relight"
   },
-  "16": {
-   "full": "blessing_back"
+  "63": {
+   "full": "usman_grin"
   },
-  "17": {
-   "full": "baskets_pass"
+  "64": {
+   "full": "map_under_lamp"
   },
-  "18": {
-   "full": "eating"
+  "65": {
+   "full": "indio_lens_eye"
   },
-  "19": {
-   "full": "gathering"
-  },
-  "20": {
-   "full": "twelve_baskets"
-  },
-  "21": {
-   "full": "crowd_families"
-  },
-  "22": {
-   "full": "mountain_alone"
-  },
-  "23": {
-   "char": "m_galilee",
-   "plate": "galilee_dusk",
-   "x": 0.55,
-   "y": 0.45,
-   "s": 0.65
-  },
-  "24": {
+  "66": {
    "full": "map_ph"
   },
-  "25": {
+  "67": {
    "char": "usman_growl",
    "plate": "galilee_dusk",
    "x": 0.5,
-   "y": 0.9,
+   "y": 0.85,
    "s": 0.55
   },
-  "26": {
+  "68": {
    "full": "four_scrolls"
   },
-  "30": {
+  "71": {
+   "full": "bethsaida_town"
+  },
+  "72": {
+   "plate": "lake_dawn"
+  },
+  "74": {
+   "full": "lamp_still"
+  },
+  "75": {
    "char": "indio_pocket",
    "plate": "galilee_dusk",
    "x": 0.5,
    "y": 0.45,
    "s": 0.65
   },
-  "31": {
+  "76": {
+   "full": "m_profile"
+  },
+  "77": {
+   "full": "indio_question"
+  },
+  "78": {
    "full": "qc_school"
   },
-  "32": {
+  "79": {
+   "full": "lamp_hero"
+  },
+  "80": {
    "char": "indio_cloak",
    "plate": "galilee_dusk",
    "x": 0.5,
    "y": 0.45,
    "s": 0.65
   },
-  "33": {
-   "full": "walk_away"
+  "81": {
+   "full": "indio_wave"
   },
-  "50": {
-   "plate": "galilee_hill"
-  },
-  "51": {
-   "plate": "galilee_dusk"
+  "82": {
+   "full": "walk_shore"
   }
  }
 }

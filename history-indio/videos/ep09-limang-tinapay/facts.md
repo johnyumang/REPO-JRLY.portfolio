@@ -1,59 +1,70 @@
-# Facts — Episode 9 (Season 2 Episode 1): Limang Tinapay (Galilee, the feeding of the five thousand) (script checked 2026-11-12)
+# Facts — Episode 9 (Season 2 Episode 1): Limang Tinapay (Galilee, the feeding of the five thousand) (5-minute multi-voice version, checked 2026-11-12)
 
-**What this episode reports:** what the four Gospel texts say. It does not argue for or against the miracle, and it adds nothing to the text: no invented words or acts for Jesus, the disciples or anyone in the crowd. Jesus is seen only from afar or from behind.
-**Fiction, on purpose (labelled in sentence 28, the captions and the pinned comment):** Indio, M, Usman, the jump, the agimat clothes, M's medallion, the lens, the star medallion and its three wishes, the map and its points.
-**Witness rule:** Indio, M and Usman stand at the edge of the crowd, touch nothing, eat nothing and speak to no one from the Gospel. Usman's one line is before the scene; there are no jokes or slang inside the scene (sentences 10–21) or in the fairness beat.
+**What this episode reports:** what the four Gospel texts say. It takes no side on how the miracle happened (the text does not say "sharing"; that reading is not used) and adds nothing to the text: no invented words or acts for Jesus, the disciples, the boy or the crowd. Jesus is seen only from afar or from behind.
+**Who speaks:** INDIO, M and USMAN only (fiction). Inside the Gospel scene (sentences 22–43) only Indio speaks, as narration, and the only words of real people are exact quotations from the 1905 text. Dialogue happens before the scene (Kawit, the arrival) and after it (night on the hillside).
+**The find (fiction):** ang ilawan, a plain clay oil lamp half-buried in a crack of rock below the hillside, found after the crowd has gone. M says in the script that it was buried there long before and is not from them. Power: its light shows who is watching in secret. Limit: it burns only while its holder tells the truth (shown in sentences 58–62). It is never part of the Gospel scene, never belongs to anyone in it, and is labelled in sentence 74, the captions and the pinned comment.
 
 ## How the Bible text was sourced
-- **Ang Dating Biblia (1905)**, Philippine Bible Society, public domain. Text read in full for the four passages from two independent digital copies:
-  1. GitHub `firedynasty/bible_cross_reference`, folder `bible_filipino_1905/` (Matthew/matthew_14.txt, Mark/mark_6.txt, Luke/luke_9.txt, John/john_6.txt), branch main, fetched 2026-11-12.
-  2. GitHub `nehemiaharchives/bbl`, `resources/bbltexts/abtag/` ("Ang Biblia" Tagalog), fetched 2026-11-12: Mateo 14, Marcos 6 and Juan 6 are word for word the same as copy 1 (one stray space in Mt 14:15). Lucas 9 was read in copy 1 only.
-  The getbible.net metadata (`getbible/v2` `translations.json`) names the same text: "Ang Dating Biblia (1905), Philippine Bible Society ... This Bible is now Public Domain", typed by Richard and Dolores Long (CrossWire distribution 1.2, 2008).
-- **Exact quotations in the script (4):** "Bigyan ninyo sila ng makakain" (Mc 6:37; Lc 9:13; Mt 14:16), "May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda" (Jn 6:9), "Nagsikain silang lahat, at nangabusog" (Mt 14:20; Mc 6:42), "Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang" (Jn 6:12). All other scene lines are Indio's own Tagalog paraphrase in modern spelling, each tied to its verse below.
-- Book names follow the 1905 Tagalog Bible: Mateo, Marcos, Lucas, Juan.
+- **Ang Dating Biblia (1905)**, Philippine Bible Society, public domain. Read in full for the four passages from two independent digital copies:
+  1. GitHub `firedynasty/bible_cross_reference`, `bible_filipino_1905/` (Matthew/matthew_14.txt, Mark/mark_6.txt, Luke/luke_9.txt, John/john_6.txt), branch main, fetched 2026-11-12.
+  2. GitHub `nehemiaharchives/bbl`, `resources/bbltexts/abtag/`, fetched 2026-11-12: Mateo 14, Marcos 6 and Juan 6 are word for word the same as copy 1 (one stray space in Mt 14:15). Lucas 9 was read in copy 1 only.
+  getbible.net metadata (`getbible/v2` `translations.json`) names the text "Ang Dating Biblia (1905), Philippine Bible Society ... This Bible is now Public Domain".
+- **Exact quotations (11):** Mc 6:37, Jn 6:7, Mc 6:38, Jn 6:9 (two parts), Mt 14:18, Jn 6:10, Mt 14:20, Jn 6:12, Jn 6:14, and "bukod pa ang mga babae at ang mga bata" (Mt 14:21). All other scene lines are paraphrase in modern spelling, each tied to its verse below. Book names follow the 1905 Bible: Mateo, Marcos, Lucas, Juan.
 
 ## Claims the script speaks
 
 | # | Spoken (sentence no. in sentences.json) | Claim | Status | Source |
 |---|---|---|---|---|
-| 1 | "Limang tinapay at dalawang isda lang ang nakita ko, para sa libu-libong tao sa damuhan." (0) | five loaves and two fish for a great crowd on grass | certain (text) | Mt 14:17,19; Mk 6:38-39; Lk 9:13; Jn 6:9-10 |
-| 2 | "Mula Kawit, 1898, kasama ko pa rin si M at si Usman." (3) | Continuity: Ep 8 ends at Kawit, 12 June 1898 | fiction (story) | videos/ep08-ang-huling-tala/script.txt |
-| 3 | "Sa lente, walang datu ang unang tuldok sa mapa, guhit lang ng limang tinapay at dalawang isda." (4) | the map's first point has no datu, only a drawing | fiction | SERIES.md S2 timeline row 1 |
-| 4 | "Tulog pa rin ang bituin ng tatlong hiling, tol." (5) | star medallion of three wishes asleep | fiction | SERIES.md Canon v2 3; Ep 8 |
-| 5 | "Ikaanim na talon: uminit ang medalyon ni M, at nilamon kami ng liwanag." (6) | the sixth jump, made on M's medallion | fiction | Ep 8 ending |
-| 6 | "Balabal na ang suot ko, gawa ng agimat." (7) | the agimat changes his clothes | fiction | SERIES.md skeleton beat 4 |
-| 7 | "Bulong ni Usman: makikinig lang tayo, par." (8) | Usman's one line | fiction | — |
-| 8 | "Sa Galilea, nasa gilid kami ng karamihan, walang hinahawakan." (9) | Galilee; the far side of the Sea of Galilee (Tiberias); near Bethsaida (Luke). Indio, M and Usman at the edge = fiction | certain (place, text) / fiction (the three) | Jn 6:1; Lk 9:10; Mt 14:13 |
-| 9 | "Sumakay si Jesus ng daong, pero nauna pa ang mga taong naglakad." (10) | He went by boat to a lonely place; the people ran on foot from the towns and got there first | certain (text) | Mk 6:32-33; Mt 14:13 |
-| 10 | "Mula sa malayo, nakatalikod Siya sa amin, at pinagagaling Niya ang mga maysakit." (11) | He healed their sick (Indio sees Him from behind: staging) | certain (text) / staging | Mt 14:14; Lk 9:11 |
-| 11 | "Nang magtakipsilim, paalisin na raw ang mga tao, sabi ng mga alagad." (12) | at evening the disciples asked Him to send the crowds away to buy food | certain (text) | Mt 14:15; Mk 6:35-36; Lk 9:12 |
-| 12 | "Sagot Niya: Bigyan ninyo sila ng makakain." (13) | QUOTE, 1905 text: "Bigyan ninyo sila ng makakain" | quote, exact | Mk 6:37; Lk 9:13; also Mt 14:16 ("bigyan ninyo sila ng makakain") |
-| 13 | "Sabi ni Andres: May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda." (14) | QUOTE, 1905 text: "May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda" | quote, exact (the verse goes on with "datapuwa't gaano na ...", cut at the colon) | Jn 6:8-9 |
-| 14 | "Pinaupo ang lahat sa damuhan, tigsasandaan at tiglilimampu." (15) | they sat on the grass in groups of a hundred and of fifty | certain (text) | Mk 6:39-40; Lk 9:14 (fifties); Mt 14:19; Jn 6:10 |
-| 15 | "Tumingala Siya sa langit, pinagpala at pinagputul-putol ang tinapay, at ipinamahagi ng mga alagad." (16) | looked up to heaven, blessed, broke, gave to the disciples, who gave to the crowd | certain (text) | Mt 14:19; Mk 6:41; Lk 9:16; Jn 6:11 ("nang makapagpasalamat") |
-| 16 | "Nagsikain silang lahat, at nangabusog." (17) | QUOTE, 1905 text: "nagsikain silang lahat, at nangabusog" | quote, exact | Mt 14:20; Mk 6:42 |
-| 17 | "Sabi Niya: Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang." (18) | QUOTE, 1905 text: "Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang" | quote, exact | Jn 6:12 |
-| 18 | "Labindalawang bakol ang napuno ng mga tira." (19) | twelve baskets of leftovers | certain (text, all four) | Mt 14:20; Mk 6:43; Lk 9:17; Jn 6:13 |
-| 19 | "Limang libong lalake ang kumain, bukod pa ang mga babae at ang mga bata." (20) | about five thousand men, besides women and children | certain (text); "bukod pa ang mga babae at ang mga bata" is quoted from Mt | Mt 14:21; Mk 6:44; Lk 9:14; Jn 6:10 |
-| 20 | "Nang gusto Siyang gawing hari ng mga tao, umahon Siyang mag-isa sa bundok." (21) | they would take Him by force to make Him king; He went back to the mountain alone | certain (text) | Jn 6:15 |
-| 21 | "Paglingon ko, nakatingin pa rin si M sa mga bakol." (22) | M | fiction | — |
-| 22 | "Sa lente, nawala ang guhit ng tinapay, at may bagong tuldok sa Pilipinas mismo." (23) | the map changes; next point in the Philippines | fiction (door to Ep 10) | SERIES.md S2 row 2 |
-| 23 | "Umungol si Usman, linawin natin." (24) | fairness beat opener | fiction | — |
-| 24 | "Sa apat na Ebanghelyo: limang tinapay, dalawang isda, limang libong lalake, labindalawang bakol." (25) | shared by all four: five loaves, two fish, five thousand men, twelve baskets | certain (text) | rows above; Wikipedia "Feeding the multitude" |
-| 25 | "Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat." (26) | the only miracle besides the Resurrection told in all four Gospels | certain (scholarly consensus; a description, not doctrine) | Wikipedia "Feeding the multitude" (raw, read 2026-11-12); Anglican Communion study guide [summary]; Interesting Literature 2021 [summary] |
-| 26 | "Sa Juan lang ang bata at ang sebada; sa Mateo lang ang mga babae at bata." (27) | only John has the boy and the barley; only Matthew adds the women and children | certain (text: checked in all four passages) | Jn 6:9,13; Mt 14:21 vs Mk 6:44, Lk 9:14, Jn 6:10 |
-| 27 | "Kathang-isip: kami nina M at Usman, ang medalyon, ang lente, ang mapa at ang bituin." (28) | fiction label | — | — |
-| 28 | "Tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino." (29) | Indio's arc | fiction | Ep 8 closing question |
-| 29 | "Ang bagong tuldok: ang dati kong paaralan sa Quezon City." (30) | door to Ep 10 (Batang Indio, QC about 2012) | fiction | SERIES.md S2 row 2 |
+| 1 | "Limang tinapay at dalawang isda, para sa libu-libong tao sa damuhan." (0) | five loaves and two fish for a great crowd on grass | certain (text) | Mt 14:17,19; Mc 6:38-39; Lc 9:13; Jn 6:9-10 |
+| 2 | "Pagkaalis nila, may sumindi sa dilim." (1) | the lamp lights after the crowd has gone | fiction | — |
+| 3 | "Kawit, Hunyo 1898, gabi na." (4) | continuity with Ep 8 (Kawit, 12 June 1898) | fiction (story) | videos/ep08-ang-huling-tala/script.txt |
+| 4 | "Sa ilalim ng puno, binuksan ni M ang kasulatan." (5) | M, the kasulatan, the lens, the map, the star medallion, the twelve (sentences 5–13) | fiction | SERIES.md Canon v2; S2 timeline row 1 |
+| 5 | "Ikaanim kong talon, sa medalyon ni M." (14) | the sixth jump, made on M's medallion; the agimat changes his clothes (to 16) | fiction | Ep 8 ending; SERIES.md skeleton |
+| 6 | "Dagat ng Galilea ito, mahigit dalawang libong taon pabalik." (17) | the Sea of Galilee (Tiberias); "more than two thousand years" back from 1898 or today is true for any date around AD 30 | certain (text: Jn 6:1) / arithmetic | Jn 6:1; Mt 14:13 |
+| 7 | "Walang hahawakan, walang kakausapin, manonood lang tayo." (18) | M's three rules; Usman's lines; they stand at the edge (to 21) | fiction | S2E1 rules in SERIES.md |
+| 8 | "Sumakay si Jesus ng daong papunta sa ilang na dako." (23) | He went by boat to a lonely place | certain (text) | Mc 6:32; Mt 14:13; Lc 9:10 |
+| 9 | "Pero tumakbo ang mga tao mula sa mga bayan, at nauna pa." (24) | the people ran on foot from the towns and arrived before them | certain (text) | Mc 6:33; Mt 14:13 |
+| 10 | "Mula sa malayo, nakatalikod Siya sa amin, pinagagaling ang mga maysakit." (25) | He healed their sick (seen from behind: staging) | certain (text) / staging | Mt 14:14; Lc 9:11 |
+| 11 | "Nang magtakipsilim, paalisin na raw ang mga tao, sabi ng mga alagad." (26) | at evening the disciples asked Him to send the crowds away | certain (text) | Mt 14:15; Mc 6:35-36; Lc 9:12 |
+| 12 | "Sagot Niya: Bigyan ninyo sila ng makakain." (27) | QUOTE "Bigyan ninyo sila ng makakain" | quote, exact | Mc 6:37; Lc 9:13; Mt 14:16 |
+| 13 | "Sabi ni Felipe sa Juan: Hindi magkakasiya sa kanila ang dalawang daang denariong tinapay." (28) | QUOTE "Hindi magkakasiya sa kanila ang dalawang daang denariong tinapay" (verse continues "upang makakain ng kaunti ang bawa't isa") | quote, exact (first part of the verse) | Jn 6:7 |
+| 14 | "Tanong Niya sa Marcos: Ilang tinapay mayroon kayo?" (29) | QUOTE "Ilang tinapay mayroon kayo?" | quote, exact (first part of the verse) | Mc 6:38 |
+| 15 | "Sabi ni Andres: May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda." (30) | QUOTE "May isang batang lalake rito, na mayroong limang tinapay na sebada, at dalawang isda" | quote, exact | Jn 6:8-9 |
+| 16 | "Dagdag niya: datapuwa't gaano na ang mga ito sa ganyang karamihan?" (31) | QUOTE "datapuwa't gaano na ang mga ito sa ganyang karamihan?" | quote, exact (end of the same verse) | Jn 6:9 |
+| 17 | "Sabi Niya sa Mateo: Dalhin ninyo rito sa akin." (32) | QUOTE "Dalhin ninyo rito sa akin" | quote, exact | Mt 14:18 |
+| 18 | "At sa Juan: Inyong paupuin ang mga tao." (33) | QUOTE "Inyong paupuin ang mga tao" | quote, exact (first part of the verse) | Jn 6:10 |
+| 19 | "Naupo ang lahat sa sariwang damuhan, tigsasandaan at tiglilimampu." (34) | they sat on the green grass in ranks of a hundred and of fifty | certain (text; modern spelling of "tigsasangdaan, at tiglilimangpu") | Mc 6:39-40; Lc 9:14-15 |
+| 20 | "Kinuha Niya ang limang tinapay at ang dalawang isda, at tumingala sa langit." (35) | took the five loaves and two fish and looked up to heaven | certain (text) | Mt 14:19; Mc 6:41; Lc 9:16 |
+| 21 | "Pinagpala Niya, pinagputul-putol, at ibinigay sa mga alagad." (36) | blessed, broke, gave to the disciples | certain (text) | Mt 14:19; Mc 6:41; Lc 9:16; Jn 6:11 ("nang makapagpasalamat") |
+| 22 | "Ang mga alagad ang namahagi, hanay-hanay." (37) | the disciples gave the food to the crowd | certain (text) | Mt 14:19; Mc 6:41; Lc 9:16 |
+| 23 | "Nagsikain silang lahat, at nangabusog." (38) | QUOTE "nagsikain silang lahat, at nangabusog" | quote, exact | Mt 14:20; Mc 6:42 |
+| 24 | "Sabi Niya sa Juan: Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang." (39) | QUOTE "Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang" | quote, exact | Jn 6:12 |
+| 25 | "Labindalawang bakol na puno ang naipon." (40) | twelve baskets full | certain (text, all four) | Mt 14:20; Mc 6:43; Lc 9:17; Jn 6:13 |
+| 26 | "Limang libong lalake ang kumain, bukod pa ang mga babae at ang mga bata." (41) | about five thousand men, besides women and children | certain (text); the women-and-children phrase is quoted from Mt | Mt 14:21; Mc 6:44; Lc 9:14; Jn 6:10 |
+| 27 | "Sabi ng mga tao sa Juan: Totoong ito nga ang propeta na paririto sa sanglibutan." (42) | QUOTE "Totoong ito nga ang propeta na paririto sa sanglibutan" | quote, exact | Jn 6:14 |
+| 28 | "Pero nang gusto Siyang gawing hari, umahon Siyang mag-isa sa bundok." (43) | they would make Him king; He went back to the mountain alone | certain (text) | Jn 6:15 |
+| 29 | "Dumilim, at nag-uwian ang mga tao." (44) | night falls and the crowd leaves; from here on everything is the story layer, away from the scene | fiction (staging) | — |
+| 30 | "Puwede na tayong magsalita, malayo na tayo." (45) | dialogue, the lamp in a crack of rock, its power and limit, the watcher in a dark coat (to 63) | fiction (labelled in 74) | S2 timeline row 1 |
+| 31 | "Sa liwanag ng ilawan, sinilip ko ang mapa sa lente." (64) | the map changes; next point in the Philippines (to 66) | fiction | S2 timeline row 2 |
+| 32 | "Nasa apat na Ebanghelyo: limang tinapay, dalawang isda, limang libong lalake, labindalawang bakol." (68) | shared by all four | certain (text) | rows above |
+| 33 | "Bukod sa Muling Pagkabuhay, ito lang ang himalang nasa lahat ng apat." (69) | the only miracle besides the Resurrection told in all four Gospels | certain (as reference works describe it) | WP "Feeding the multitude" (raw, 2026-11-12); Anglican Communion study guide [summary]; Interesting Literature 2021 [summary] |
+| 34 | "Sa Juan lang ang bata, ang tinapay na sebada, si Felipe at si Andres." (70) | only John has the boy, the barley, Philip and Andrew in this story | certain (text, all four checked) | Jn 6:5-9 vs Mt 14, Mc 6, Lc 9 |
+| 35 | "Sa Mateo lang ang mga babae at mga bata, at sa Lucas lang ang Betsaida." (71) | only Matthew adds women and children; only Luke names Bethsaida | certain (text) | Mt 14:21; Lc 9:10 |
+| 36 | "Walang taon sa teksto, at tantiya lang ang taong tatlumpu." (72) | no year in the text; AD 30 is an estimate | certain | texts above; WP "Feeding the multitude" |
+| 37 | "Kathang-isip: kami nina M at Usman, ang medalyon, ang lente, ang mapa at ang bituin." (73) | fiction label | — | — |
+| 38 | "Kathang-isip din ang ilawan, at hindi ito bahagi ng salaysay ng Biblia." (74) | lamp label: fiction, not part of the Bible's account | — | — |
+| 39 | "Tatlong hiling sa bulsa ko, at ngayon ko lang naisip kung para kanino." (75) | Indio's arc; the door to Ep 10 (to 79) | fiction | S2 timeline rows 1–2 |
 
-Sentences not listed: the intro, the comment question and the follow line (no claims).
+Sentences not listed: the intro, the dialogue lines grouped in the fiction rows, the comment question and the follow line.
 
 ## Could not verify / kept out on purpose
-- **The year.** "About AD 30" is a scholarly estimate (the texts give no year; John 6:4 says Passover was near). Not spoken; the captions say "mga AD 30 (tantiya)".
-- **The exact place.** Luke says near a town called Bethsaida; John says across the Sea of Galilee. Tabgha (Church of the Multiplication) is a later Christian tradition. Not spoken as fact.
-- **How it happened.** Readings that explain the feeding as people sharing their own food are modern interpretations, not the text. The episode reports the text only and takes no side.
-- "The only miracle besides the Resurrection in all four" is how reference works describe it; it counts the Resurrection as a miracle. Sources: Wikipedia (read in full) and two [summary only] pages.
-- The four references in the conductor's brief are kept (Mt 14:13-21, Mc 6:30-44, Lc 9:10-17, Jn 6:1-14). Some lists start Mark at 6:31 or 6:34 and Luke at 9:12; the episode uses the brief's ranges. Jn 6:15 (the crowd wanting to make Him king) is quoted in sentence 21, so the captions cite Juan 6:1-15.
+- **The year.** "About AD 30" is a scholarly estimate; John 6:4 says Passover was near. Spoken only as an estimate (sentence 72).
+- **The exact place.** Luke: near a town called Bethsaida; John: across the Sea of Galilee. Tabgha (Church of the Multiplication) is a later tradition; not spoken.
+- **How it happened.** Explanations that the crowd shared its own food are interpretations, not the text; not used.
+- "The only miracle besides the Resurrection in all four" is how reference works describe it (Wikipedia read in full; two pages [summary only]).
+- "More than two thousand years back" (M, sentence 17): true from 1898 or today for any date near AD 30.
+- Clay oil lamps: common household objects of the period (general knowledge, not spoken as history; the lamp itself is fiction).
+- Reference ranges: the episode cites Mt 14:13-21, Mc 6:30-44, Lc 9:10-17 and Jn 6:1-15 (verse 15 is used in sentence 43).
 
 ## The four passages (Ang Dating Biblia, 1905, public domain; copy 1)
 
