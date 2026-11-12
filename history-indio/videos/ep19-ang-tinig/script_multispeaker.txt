@@ -1,0 +1,78 @@
+# MASTER script (Season 2 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (quick, warm, a little gravelly; designed voice; only inside the jump light and in the past), RICO (Rico Bulan, the fictional history vlogger of "Ang Totoong Kasaysayan", heard only from a phone video: loud, slick; designed voice), MANGINGISDA (a fictional old Maranao fisherman, one short line: warm, unhurried; designed voice), KUDARAT (the diwa of Sultan Kudarat, two invented lines under the approved datu exception, labelled: steady, unhurried, a voice that cannot be bought; designed voice; never comic). The sarimanok has no line. Real people (Kudarat himself in 1639, Corcuera, the Maranao datus) never speak; the 1639 speech is only reported as a Spanish record.
+
+INDIO: [dramatic] Sa gitna ng Lawa ng Lanao, bumaba mula sa ulap ang isang ibong may buntot na parang bahaghari.
+INDIO: [warm] Ako 'to si Indio.
+INDIO: [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
+
+INDIO: [warm] Umuwi na ako sa Pilipinas, pero hindi sa garahe ng limampung sasakyan.
+INDIO: [serious] Sa gilid ng Lawa ng Lanao kami, malamig at maulap ang umaga.
+INDIO: [serious] Ang clue ng kuwaderno: ang salitang hindi nabili, sa lawang mataas.
+M: [curious] Mataas nga, Indio, mga pitong daang metro ang lawang ito mula sa dagat.
+RICO: [dramatic] Ang lalaking may limampung sasakyan, ninanakaw ang ating mga relikya sa ibang bansa!
+INDIO: [somber] Video iyon ni Rico Bulan ng Ang Totoong Kasaysayan, milyon na ang views.
+INDIO: [sad] Sa comments: kapal ng mukha, ikulong 'yan.
+INDIO: [serious] Ang masakit, may totoo roon: ang limampung sasakyan, ang mga gabing hindi ko maalala.
+INDIO: [serious] Ang kasinungalingan lang ay ang pagnanakaw.
+INDIO: [warm] Isang matandang mangingisdang Maranao ang nag-abot sa amin ng kape, walang tanong.
+INDIO: [curious] Sa unahan ng bangka niya, may inukit na ibong makulay, may isda sa tuka.
+MANGINGISDA: [warm] Sarimanok iyan, swerte.
+INDIO: [serious] Binasa ko nang malakas ang marker sa tabi ng lawa, at uminit ang medalyon ni M.
+INDIO: [somber] Sa liwanag, lumitaw si Usman, tahimik ngayon, nakatingin sa tubig.
+USMAN: [warm] Narinig ko ang ingay nila, par, pero kilala kita.
+
+INDIO: [serious] Bumagsak kami sa burol sa tabi ng lawa, taong 1639.
+INDIO: [serious] Pumasok sa Lanao ang mga Espanyol, ipinadala ni Gobernador-Heneral Corcuera.
+INDIO: [serious] Dalawang taon bago nito, nakuha nila ang kuta ni Sultan Kudarat ng Maguindanao sa Lamitan.
+INDIO: [dramatic] Pero nakatakas si Kudarat sa kabundukan.
+INDIO: [serious] Ngayon, nagmadali siyang pumunta sa mga datu ng Lanao.
+INDIO: [suspense] Sa lente, mula sa malayo: mga lalaking nakaupo, at isang lalaking nakatayo, nagsasalita.
+INDIO: [serious] Hindi ko marinig ang mga salita, at hindi ako mag-iimbento.
+INDIO: [serious] Pero may naitala ang isang Espanyol: isang talumpati ni Kudarat sa mga tao ng lawa.
+INDIO: [serious] Ayon sa talang iyon, tinanong niya: masyado bang mahal ang ani ng isang taon, kapalit ng kalayaan?
+INDIO: [triumphant] Sa loob ng ilang buwan, umatras ang mga Espanyol mula sa Lanao.
+INDIO: [serious] At halos dalawa't kalahating siglo, hindi na sila nakabalik sa loob ng lawa.
+USMAN: [excited] Isang talumpati lang, par, tapos ganoon?
+INDIO: [serious] Hindi lang talumpati, kundi mga taong naniwala at tumayo.
+
+INDIO: [suspense] Sa lente, sinundan ko ang kislap ng tanso hanggang sa isang pulo sa gitna ng lawa.
+INDIO: [curious] May pugad sa mataas na puno, at doon nakapatong ang medalyon.
+INDIO: [warm] Sumakay kami sa lumang bangkang naiwan sa pampang.
+INDIO: [dramatic] Pagdating namin, bumaba mula sa ulap ang ibon mismo, malaki, maraming kulay ang buntot.
+M: [whisper] Ang sarimanok, Indio.
+INDIO: [suspense] Hindi ito umatake, tumitig lang ito sa akin, na parang tinitimbang ako.
+INDIO: [dramatic] Uminit ang medalyon sa pugad, at may boses, matatag, hindi mabibili.
+KUDARAT: [serious] Ang tinig ko, gigising lang sa totoo, at ang kasinungalingan, lalabas na katahimikan.
+INDIO: [serious] Kaya sa harap ng ibon, ni M at ni Usman, nagsalita ako.
+INDIO: [serious] Totoo na bumili ako ng limampung sasakyan.
+INDIO: [sad] Totoo na nalunod ako sa alak at sa mga gabing hindi ko maalala.
+INDIO: [sad] Totoo na iniwan ko ang mga taong nagmamahal sa akin.
+INDIO: [dramatic] Hindi totoo na nagnakaw ako ng kahit isang relikya.
+INDIO: [serious] Lahat ng nahanap ko, nasa labas ng koleksiyon, at walang kinuha sa libingan.
+INDIO: [warm] Bawat pangungusap, malinaw, at walang naging katahimikan.
+M: [warm] Narinig ko lahat, Indio.
+KUDARAT: [serious] Huwag mong ibenta ang tinig mo, iyan lang ang hindi nila kayang bilhin.
+INDIO: [warm] Yumuko ang sarimanok, at sinabi ko nang malakas: Nakita na kita.
+INDIO: [dramatic] Itinaas ni M ang Sandugo, at tinatakan ng liwanag ang kasunduan.
+INDIO: [excited] Sumakay kami sa likod nito, si M sa likod ko, at si Usman na nakakapit sa gitna!
+USMAN: [excited] Takot ako sa taas, par, pero ang saya!
+
+INDIO: [curious] Sa hologram: sa Sakay, sarimanok, lumilipad, at sa Mga Kakampi, ang sarimanok.
+INDIO: [serious] Anim na marka, at kaalaman, limampu't apat na porsiyento.
+
+USMAN: [serious] Grrr, linawin muna natin, par.
+INDIO: [serious] Tiyak: noong 1637, nakuha ng mga Espanyol ang kuta ni Kudarat, at nakatakas siya.
+INDIO: [serious] Tiyak din na noong 1639, pumasok sila sa Lanao, at kalaunan, umatras.
+INDIO: [curious] Pinagtatalunan kung sino ang nagtala ng talumpati, at kung 1638 o 1639 ito.
+INDIO: [curious] Salin ito ng talang Espanyol, kaya hindi ito eksaktong sariling salita ni Kudarat.
+INDIO: [curious] Simbolo ng mga Maranao ang sarimanok, mula sa ibong totem na Itotoro.
+INDIO: [somber] Kathang-isip: kami nina M at Usman, ang medalyon, ang pugad, ang diwa, si Rico at ang mangingisda.
+
+INDIO: [serious] Pagbalik namin sa kasalukuyan, naglaho si Usman, at nag-live ako sa tabi ng lawa.
+INDIO: [serious] Inulit ko ang bawat totoo, at kumalat ito, dahil walang nakapagpatahimik.
+INDIO: [suspense] Kinagabihan, nag-post si Rico ng bagong video: may mas malaking kuwento raw, abangan.
+INDIO: [whisper] Sa pader sa likod niya, may logo na halos walang nakapansin: Alcaín Builders.
+
+INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo.
+INDIO: [curious] Kung gagana lang ang tinig mo sa totoo, ano ang una mong aaminin?
+INDIO: [excited] At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!
