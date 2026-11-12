@@ -149,3 +149,7 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 - Episode 6 frames to redo with Figma: k00 (firing line), k46 (five tattoos), Usman frames k16/k33/k37/k54, Indio faces.
 - Ep 2–4 `keys/` were rebuilt on this machine. Still no MP3 for any episode.
 - Episode 4's facts.md still describes the older "wider Mercado-Rizal family" handling; the newer bloodline premise (son of Rizal and Bracken, fiction) is in Episode 3 and 6 facts and overrides it.
+
+## UPDATE 2026-11-12 09:40 UTC — multi-speaker voice (user: "we can have multi speaker okay?")
+- Each of Ep 2, 3, 4, 6 now also has `script_multispeaker.txt` (speakers INDIO, USMAN, LOLA, M) for ElevenLabs v3 Text to Dialogue. Same words in the same order as `script_elevenlabs.txt`, so `sentences.json` and alignment are unchanged; the user exports ONE MP3. Only fictional characters get a voice; real people still never speak. Both versions are on the board.
+- The user approved Episode 1 ("approved ep 1"); relayed to the Episode 1 session.
