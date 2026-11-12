@@ -33,3 +33,6 @@
 - The exact number of copper plates (eight) and grammars (seven): summary-only sources.
 - Rizal's guide at the British Museum (Reinhold Rost): true per WP but not needed; no scene of him.
 - The ivory Christ Child at Melford Hall: family history only.
+
+## Second sources added (ebook worker, 2026-11-12; search summaries only, pages not opened)
+- Spring-heeled Jack: first reports from London in 1837 (newspapers of December 1837 place the first reports in September 1837); The Times reported sightings on 9 January 1838; details of named victims rest mostly on popular sources. Folklore, labelled "kuwentong-bayan". https://en.wikipedia.org/wiki/Spring-heeled_Jack ; https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/springheeled-jack ; https://www.thecollector.com/spring-heeled-jack-victorian-england/
