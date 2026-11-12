@@ -94,3 +94,36 @@ Verdicts: **keep** / **fix this detail** / **swap**.
 7. Row 8: "Japan and Tondo" -> Tondo and Cuyo; leader Agustín de Legazpi; Magat Salamat the envoy whose words gave it away; a second source (B&R vol. 7) still to open.
 8. Row 9: "Maguindanao and Ternate" -> Lanao 1639; the speech is as reported by a Spanish chronicler; drop Ternate.
 9. No row needs a swap.
+
+---
+
+# Addendum for timeline version 2: the treasures (worker, 2026-11-12)
+Same method as above (Wikipedia raw wikitext read in full on 2026-11-12, marked "WP"; anything else is [summary only] or from memory, marked as such).
+
+- **Ep 9, the lamp (ilawan):** fiction. No source is needed, but it must not be tied to the Gospel scene. Clay oil lamps were common household objects in the period. That is general knowledge, not a verified claim, so it is not spoken as history. **Keep.**
+- **Ep 11, the gold of Butuan:**
+  - **Balangay:** eleven Butuan boats, carbon-dated individually to 689–988 CE, found at several sites in Butuan with trade goods from as far as Persia (WP "Balangay"). They are older than the Song missions, so "the boats of Butuan" fit the 1001–1011 scene.
+  - **"Golden Tara" (WP "Agusan image"):**
+    - It is a 21-karat gold statuette dated to the 9th–10th century, found in 1917 on the Wawa River near Esperanza, **Agusan del Sur**, not in Butuan city. It is now in the **Field Museum, Chicago**.
+    - Trap: it may not be a Tara at all. Proposed identities include a Shaivite goddess and the Buddhist offering goddess Vajralāsyā. Call it "ang tinatawag na Golden Tara" and do not say it was made in Butuan.
+  - Second source still to open: Field Museum catalogue or NCCA [not opened].
+  - **Keep, with the trap.**
+- **Ep 12, Beijing 1417:**
+  - **Forbidden City:** built 1406–1420 (WP "Forbidden City"). In 1417 it was **still being built**: say "itinatayo pa", never show it finished.
+  - **Treasure fleets:** Zheng He's seven voyages ran 1405–1433 (WP "Ming treasure voyages"); 1417 falls in the fifth. That Paduka Pahala's party saw the fleet is not in the sources: show the fleet only as "the years of the treasure fleets", not as something he met.
+  - **Keep.**
+- **Ep 13, year 900:**
+  - The v2 row no longer says Borobudur; your message does. Borobudur is 8th–9th century, Sailendra dynasty, Central Java (WP "Borobudur"; the Karangtengah inscription of 824 may refer to it).
+  - Trap: the link from the copperplate to Java ("Medang") is disputed, so Borobudur can only be "the Java of that age", never "where Medang is". Better left out of the spoken history.
+  - **Fix: keep Borobudur out, or label it a comparison only.**
+- **Ep 14, Malacca 1511:** Luzonians are named among Malacca's merchant communities. After the Portuguese took the city (cleared from 24 August 1511), the Luzonian community got its own magistrate (WP "Capture of Malacca (1511)", citing Pires and Correia). Pires puts 84 dialects in the city. "Richest port in Asia" is a common phrase, not a sourced fact: say "isa sa pinakamayamang daungan". **Keep.**
+- **Ep 16, the Luzon jars:**
+  - Certain:
+    - "Rusun" jars from Luzon were prized in Japan for the tea ceremony, and Antonio de Morga described them in 1609 (WP "Tapayan").
+    - Naya Sukezaemon of Sakai renamed himself "Luzon Sukezaemon" in 1593 or 1594 after a trip to Luzon, and grew rich selling Luzon wares to Hideyoshi and other lords. In 1598 Hideyoshi took his property, and he fled to Cambodia (WP "Luzon Sukezaemon").
+  - Traps:
+    - "Very little is known about him from original sources"; the legends are many.
+    - "Worth fortunes" is popular telling; say "napakamahal".
+    - Magat Salamat died in 1588, six years before. His medallion hidden in a 1594 jar is fiction, and the fairness beat must say he was executed in 1588 and never went to Japan.
+  - **Keep, verified enough.** A second source (Morga 1609 in Blair & Robertson vol. 16) is still to open.
+- **The clove islands:** not in the v2 table. If used, from memory and **unverified**: the *Trinidad* and *Victoria* reached Tidore in November 1521 (Pigafetta). WP "Tidore" did not cover this. **Verify before use.**
