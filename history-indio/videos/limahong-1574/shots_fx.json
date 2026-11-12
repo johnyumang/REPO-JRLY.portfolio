@@ -24,8 +24,7 @@
 "embers",
 "sparkle",
 "aura_gold"
-],
-"clip": "clips/c02.mp4"
+]
 },
 "3": {
 "fx": [
@@ -212,8 +211,7 @@
 "punch",
 "aura_gold"
 ],
-"move": "push_in",
-"clip": "clips/c31.mp4"
+"move": "push_in"
 },
 "32": {
 "fx": [
@@ -270,7 +268,7 @@
 "aura_gold"
 ],
 "move": "push_in",
-"clip": "clips/c39.mp4"
+"key": 2
 },
 "40": {
 "fx": [
@@ -290,6 +288,6 @@
 "aura_gold"
 ],
 "move": "push_in",
-"clip": "clips/c41.mp4"
+"key": 31
 }
 }
