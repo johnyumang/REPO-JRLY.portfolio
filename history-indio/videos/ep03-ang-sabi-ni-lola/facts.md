@@ -1,6 +1,6 @@
 # Facts — Episode 3: Ang Sabi ni Lola (Indio's back story; Kawit, 12 June 1898) (checked 2026-11-12)
 
-**Fiction, on purpose:** Indio, his Lola and Lolo, the medallion and its box, the time jump, the talking dog, the tattoos, **and the young man in the crowd wearing the medallion (Indio's ancestor)**. The script labels the young man as fiction in its fairness beat; captions repeat it. Indio only watches; no words are put in a real person's mouth.
+**Fiction, on purpose:** Indio, his Lola and Lolo, the medallion and its box, the time jump, the talking dog, the tattoos, **and the toddler in the crowd wearing the medallion, carried by a woman (Indio's ancestor, "ang lolo ng Lolo ko")**. Series premise from the user (2026-11-12), FICTION: the son of José Rizal and Josephine Bracken did not die and Indio descends from him. Real record: the couple's son (usually called Francisco) was born prematurely in Dapitan and died within hours, or was stillborn; sources give late 1895 or 1896 (https://en.wikipedia.org/wiki/Josephine_Bracken , https://opinion.inquirer.net/153926/rizal-the-father). This episode does NOT name the child's parents; that reveal is for a later episode. The script labels the child as fiction in its fairness beat; captions repeat it. Indio only watches; no words are put in a real person's mouth.
 
 **How this was checked:** pages could not be opened directly from this session; rows rest on web-search summaries of the listed pages, cross-checked.
 

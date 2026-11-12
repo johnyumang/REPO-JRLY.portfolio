@@ -27,7 +27,7 @@
   "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, looking up thoughtfully with a hand on his chin, calm serious expression.",
   "indio_wink": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, a small warm smile, winking, one finger raised.",
   "indio_alone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, standing alone, looking back over his shoulder with a wistful half smile.",
-  "indio_question": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, frowning in thought, one hand gripping the bronze medallion, looking straight at the viewer.",
+  "indio_question": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, crouching slightly, looking down with a searching serious face, one hand gripping the bronze medallion.",
   "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, pointing straight at the viewer with an excited open smile.",
   "indio_cheer": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing an orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, laughing happily with one fist raised in cheer.",
   "usman_serious": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, standing alert, ears up, serious intense eyes looking ahead, not smiling.",
@@ -242,26 +242,6 @@
    "y": 0.3,
    "s": 0.6
   },
-  "35": {
-   "char": "indio_alone",
-   "plate": "shrine",
-   "x": 0.3,
-   "y": 0.5,
-   "s": 0.6
-  },
-  "36": {
-   "full": "tattoo"
-  },
-  "37": {
-   "char": "indio_question",
-   "plate": "shrine",
-   "x": 0.7,
-   "y": 0.5,
-   "s": 0.6
-  },
-  "39": {
-   "full": "phone"
-  },
   "41": {
    "char": "indio_point",
    "plate": "shrine",
@@ -275,6 +255,40 @@
    "x": 0.4,
    "y": 0.4,
    "s": 0.7
+  },
+  "35": {
+   "char": "usman_soft",
+   "plate": "house1869",
+   "x": 0.3,
+   "y": 0.8,
+   "s": 0.55
+  },
+  "36": {
+   "char": "indio_question",
+   "plate": "house1869",
+   "x": 0.7,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "37": {
+   "char": "usman_serious",
+   "plate": "house1869",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.5
+  },
+  "38": {
+   "char": "indio_alone",
+   "plate": "shrine",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "39": {
+   "full": "tattoo"
+  },
+  "40": {
+   "full": "phone"
   }
  }
 }

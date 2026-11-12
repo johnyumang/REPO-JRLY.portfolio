@@ -211,34 +211,32 @@
 "key": 11
 },
 "35": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"36": {
+"fx": [],
+"move": "push_in"
+},
+"37": {
+"fx": [
+"sparkle",
+"aura_gold",
+"flash"
+],
+"move": "push_in"
+},
+"38": {
 "fx": [],
 "move": "pan_left"
 },
-"36": {
+"39": {
 "fx": [
 "sparkle",
 "aura_gold",
 "punch"
-],
-"move": "push_in"
-},
-"37": {
-"fx": [],
-"move": "push_in"
-},
-"38": {
-"fx": [
-"punch"
-],
-"move": "pull_out",
-"keys": [
-37,
-27
-]
-},
-"39": {
-"fx": [
-"sparkle"
 ],
 "move": "push_in"
 },
@@ -247,8 +245,7 @@
 "sparkle",
 "flash"
 ],
-"move": "pull_out",
-"key": 39
+"move": "push_in"
 },
 "41": {
 "fx": [

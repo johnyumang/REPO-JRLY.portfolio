@@ -245,6 +245,27 @@
   "pause": 0.3
  },
  {
+  "text": "Bago siya naglaho, tinanong ko si Usman.",
+  "say": "bago siya naglaho, tinanong ko si usman.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Kung aso ka ni Pepe, bakit ako ang kilala mo?",
+  "say": "kung aso ka ni pepe, bakit ako ang kilala mo?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.42
+ },
+ {
+  "text": "Sabi niya, kaamoy mo kasi siya.",
+  "say": "sabi niya, kaamoy mo kasi siya.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
   "text": "Balik ako sa Calamba ngayon, mag-isa ulit.",
   "say": "balik ako sa kalamba ngayon, mag-isa ulit.",
   "style": "somber",
@@ -259,30 +280,9 @@
   "pause": 0.3
  },
  {
-  "text": "Pero may tanong pa rin ako.",
-  "say": "pero may tanong pa rin ako.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Kung aso siya ni Pepe, bakit ako ang kilala niya?",
-  "say": "kung aso siya ni pepe, bakit ako ang kilala niya?",
-  "style": "",
-  "pre": 0,
-  "pause": 0.42
- },
- {
-  "text": "Tumunog ang phone ko.",
-  "say": "tumunog ang pon ko.",
+  "text": "Tapos nag-text si Lola: apo, kadugo natin ang batang 'yan.",
+  "say": "tapos nag-text si lola: apo, kadugo natin ang batang yan.",
   "style": "suspense",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Si Lola ang nag-text: apo, kadugo natin ang batang 'yan.",
-  "say": "si lola ang nag-text: apo, kadugo natin ang batang yan.",
-  "style": "",
   "pre": 0,
   "pause": 0.62
  },

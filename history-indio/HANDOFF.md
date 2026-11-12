@@ -113,3 +113,16 @@ Ep 3 = Indio's back story (`videos/ep03-ang-sabi-ni-lola`: Lola in Kawit; he see
 
 ## Indio and Rizal (user reminder, 2026-11-12)
 Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's text: "apo, kadugo natin ang batang 'yan." Handling (Claude's recommendation, to keep it honest): Indio descends from the wider Mercado-Rizal family (Rizal had many siblings with descendants), NOT from a secret child of Rizal, and never through a named real woman. Always labelled fiction in captions and the pinned comment. Episode 3's ancestor in Kawit (the medallion keeper) can be from that same family.
+
+## Bloodline and the Usman link (user, 2026-11-12) — the core of the series
+- FICTION premise from the user: Indio descends from the son of José Rizal and Josephine Bracken. Real record: that son (usually called Francisco) was born prematurely in Dapitan and died within hours or was stillborn (sources say late 1895 or 1896). In the series he secretly lived. Always label this as fiction in captions and the pinned comment, and state the real record next to it.
+- Why Usman knows Indio: Usman was the boy Pepe's dog, and Indio carries Pepe's blood ("kaamoy mo kasi siya", end of Episode 4).
+- Episode 3 plants it: in Kawit, June 1898, a woman carries a two-year-old boy who wears the medallion: "ang lolo ng Lolo ko" (the generations fit a child born about 1896). Episode 3 does not say whose child he is. Episode 4 ends with the Lola's text "kadugo natin ang batang 'yan". The full Dapitan reveal (who saved the baby, where the medallion came from) is still unwritten: a later episode.
+
+## State at hand-over to the central session (2026-11-12, about 08:00 UTC)
+- Ep 2, 3, 4 each have: script.txt, script_elevenlabs.txt, sentences.json, facts.md, captions.md, endcard.txt, key_prompts.json, shots_fx.json, plates/ chars/ full/ (NVIDIA drafts) and keyframes_sheet.jpg. `keys/` is git-ignored: rebuild with `pipeline/make_keys.py videos/<slug>` (needs `bash pipeline/setup.sh` first on a new machine; about 15 minutes).
+- No video exists for Ep 2–4: all three wait for the user's ElevenLabs MP3 (their voice there is called "Young Stunna"). Do not clone or imitate that or any other voice with other tools; the user rejected the open-model voices tried (a female sample voice and five designed male voices).
+- Known bad draft frames to redo with Figma when credits reset (00:00 UTC, about 75/day shared by all sessions): Ep 2 k00 (should hold a bilao of pancit), all Usman and Indio faces (they drift between shots); Ep 3 k18 (the flag is drawn wrong: must be blue over red with a white triangle, sun and three stars), k22; Ep 4 k21 (pony), k24.
+- A one-time reminder is scheduled in the old Episode 2 session for 00:03 UTC 13 Nov to do the Figma upgrade; the central session should do it instead.
+- Another session ("History Indio – real movement") relayed that the user wants real character movement solved before more videos are finished and asked video sessions to pause builds. The user did not confirm this in the Episode 2 session; ask them.
+- Sessions: "History Indio – next video" = Episode 1; "History Indio – Episode 4" = Treaty of Paris, now Episode 5.
