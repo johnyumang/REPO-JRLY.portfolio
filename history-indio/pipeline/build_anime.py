@@ -7,7 +7,7 @@ keys_dir: k00.png ... one keyframe per sentence. Depth comes from Depth-Anything
 import json, os, subprocess, sys
 import numpy as np, cv2
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-import soundtrack, subtitles, branding, puppet_still
+import soundtrack, subtitles, branding, puppet_still, depth3d
 from PIL import Image as _I
 W, H = 1080, 1920
 if '--size' in sys.argv: W = int(sys.argv[sys.argv.index('--size') + 1]); H = W * 16 // 9          # e.g. --size 720 renders 720x1280, about twice as fast
@@ -49,7 +49,14 @@ YY, XX = np.mgrid[0:H, 0:W].astype(np.float32)
 _n = cv2.GaussianBlur(np.random.default_rng(4).random((256, 256)).astype(np.float32), (0, 0), 5); NOISE = np.clip((_n - _n.min()) / (_n.max() - _n.min()) * 2.2 - 0.6, 0, 1)
 AURA = {'aura_gold': (40, 190, 255), 'aura_blue': (255, 180, 70), 'aura_red': (60, 70, 255), 'aura_green': (110, 255, 120)}          # BGR
 
-def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0, aura=None):
+def glow3d(fr):
+    """bloom of the bright parts, computed on the finished 3D frame at quarter size (cheap, follows both layers)."""
+    sm = cv2.resize(fr, (W // 4, H // 4), interpolation=cv2.INTER_AREA); hl = sm.mean(2, keepdims=True) / 255
+    return cv2.resize(cv2.GaussianBlur(np.clip(hl - 0.72, 0, 1) * sm, (0, 0), 6.0 * W / 1080), (W, H), interpolation=cv2.INTER_LINEAR)
+
+def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0, aura=None, L3=None):
+    if L3 is not None: return frame_tail(*frame_3d(L3, e, t, move, fx, zoom_extra, focus, seed), t, fx, seed, aura)
+    if '3d' in fx: move = depth3d.FALLBACK.get(move, move)                                  # flat depth map: the normal parallax
     ih, iw = im.shape[:2]; fit = min(iw / W, ih / H)
     z0, z1, px, py, sx, sy = 1.06, 1.06, 0.0, 0.0, 1.0, 0.0
     if move == 'push_in': z0, z1 = 1.0, 1.16
@@ -80,6 +87,17 @@ def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0,
     fr = cv2.remap(im, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32)
     g = cv2.remap(glow, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
     fr += g * (0.30 + 0.22 * np.sin(t * 2.3))                                                # moons and fires pulse
+    return frame_tail(fr, mx, my, s, t, fx, seed, aura)
+
+def frame_3d(L3, e, t, move, fx, zoom_extra, focus, seed):
+    sh = (0.0, 0.0)
+    if 'shake' in fx and t < 0.6: rng = np.random.default_rng(seed + int(t * fps)); k = (1 - t / 0.6) ** 2 * 16; sh = (rng.normal() * k, rng.normal() * k)
+    dof = next((f[4:] for f in fx if f.startswith('dof:')), None); to = 'far' if 'rack:far' in fx else 'near'
+    fr, mx, my, s = depth3d.frame3d(L3, e, t, move, fx, W, H, XX, YY, zoom_extra, focus, dof, to, sh)
+    fr += glow3d(fr) * (0.30 + 0.22 * np.sin(t * 2.3))
+    return fr, mx, my, s
+
+def frame_tail(fr, mx, my, s, t, fx, seed, aura):
     ak = next((f for f in fx if f in AURA), None)
     if ak and aura is not None:                                                              # flame-like energy aura rising around the figure
         am = cv2.remap(aura, mx, (my + 26 * s).astype(np.float32), cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
@@ -119,6 +137,8 @@ for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
     cfg = FX.get(str(i), {}); mv = cfg.get('move', MOVES[i % len(MOVES)]); fx = list(cfg.get('fx', []))
     if 'punch' in fx or 'shake' in fx: fx += [f for f in ('speedlines', 'impact') if f not in fx]      # action beats get the full anime treatment
+    if cfg.get('depth') == 'strong' or mv in depth3d.MOVES3D:                                # 3D perspective (opt-in): layered depth camera, see depth3d.py
+        fx += ['3d'] + (['dof:' + cfg['dof']] if cfg.get('dof') in ('far', 'near') else []) + (['rack:far'] if cfg.get('focus_to') == 'far' else [])
     i = cfg.get('key', i)                                                                    # reuse another line's keyframe
     if cfg.get('clip'):                                                                      # a ready-made moving clip (e.g. a Blender action shot) plays for this line
         shots.append((i, start, end, 'hold', fx, 1.0, (0.5, 0.5), os.path.join(vdir, cfg['clip']))); continue
@@ -164,20 +184,24 @@ def transition(a_, b_, p, kind):
     if kind == 'zoom': return cv2.addWeighted(_zoom(a_, 1 + 0.55 * pe), 1 - pe, _zoom(b_, 1.5 - 0.5 * pe), pe, 0)      # zoom-through
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
-f = 0; cur = None; last = None; pup = None
+f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
     if cur != i and not clip:
         rp = rig_for(i); cur = i
         if rp: pup = puppet_still.Puppet(json.load(open(rp)), cv2.imread(paths[i]), W, H, fps, seed=n)
         else: pup = None; im, d, glow, ring = prep(cv2.imread(paths[i]), deps[paths[i]])
+    L3 = None
+    if '3d' in fx and not clip and pup is None:                                              # layers are made once per keyframe; None = flat depth
+        if i not in L3s: L3s[i] = depth3d.prep3d(im, deps[paths[i]], im.shape[1] * 0.008); print('3d layers k%02d:' % i, 'flat, normal parallax' if L3s[i] is None else 'ok', flush=True)
+        L3 = L3s[i]
     kind = FX.get('trans', {}).get(str(n), TRANS[n % len(TRANS)])
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
         if cap is not None:
             ok, cf = cap.read(); held = cv2.resize(cf, (W, H), interpolation=cv2.INTER_LANCZOS4) if ok else held; fr = held.copy()      # hold the last frame if the clip is short
         elif pup is not None: fr = pup.frame(k / fps, cnt / fps, zx, fo)
-        else: fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring)
+        else: fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring, L3=L3)
         raw = fr
         if last is not None and k < TN and cnt > TN * 2: fr = transition(last, fr, (k + 1) / (TN + 1), kind)
         ff.stdin.write(brand(fr, f + k).tobytes())
