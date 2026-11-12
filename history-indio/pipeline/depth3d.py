@@ -46,6 +46,8 @@ def prep3d(im, dep, blur_px):
     wd = 0.04; a = np.clip((d - th + wd) / (2 * wd), 0, 1); a = a * a * (3 - 2 * a)          # soft on depth ramps, crisp at depth jumps
     a = np.clip((_guided(gray, a, 7, 1e-4) - 0.2) / 0.6, 0, 1); a = a * a * (3 - 2 * a)      # matte snapped to colour edges, then made crisp
     a[a < 0.03] = 0                                                                          # (half-transparent edges would double when the layers separate)
+    kc = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (w // 40) + 1,) * 2)              # close gaps between arm and body etc.: they move with the figure
+    a = np.maximum(a, cv2.GaussianBlur(cv2.morphologyEx(a, cv2.MORPH_CLOSE, kc), (0, 0), 2))
     frac = float(a.mean())
     if frac < 0.015 or frac > 0.9: return None                                               # nothing separates from the rest
     core = a > 0.5
