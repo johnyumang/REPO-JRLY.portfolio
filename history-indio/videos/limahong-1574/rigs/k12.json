@@ -8,8 +8,8 @@
     {"fx": "turn", "mask": {"ellipse": [628, 470, 48, 48], "soft": 22}, "pivot": [640, 535], "sway": 1.4, "speed": 2.1, "phase": 0.3},
     {"fx": "shimmer", "mask": {"poly": [[395, 250], [695, 250], [695, 298], [395, 298]], "soft": 15}},
     {"fx": "bob", "mask": {"ellipse": [640, 240, 45, 50], "soft": 20}, "dx": 0, "dy": 1.5, "speed": 1.3},
-    {"fx": "steam", "from": [560, 900], "rise": 220, "spread": 110, "size": 70, "color": [150, 185, 215], "strength": 0.35},
-    {"fx": "steam", "from": [470, 780], "rise": 180, "spread": 80, "size": 60, "color": [150, 185, 215], "strength": 0.3},
+    {"fx": "steam", "from": [560, 900], "rise": 220, "spread": 60, "size": 1.8, "color": [110, 140, 165], "strength": 0.3},
+    {"fx": "steam", "from": [470, 780], "rise": 180, "spread": 45, "size": 1.5, "color": [110, 140, 165], "strength": 0.25},
     {"fx": "glow", "mask": {"ellipse": [590, 200, 150, 100], "soft": 70}, "amount": 0.04}
   ]
 }
