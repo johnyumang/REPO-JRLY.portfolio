@@ -1,7 +1,7 @@
 # Captions — Episode 38 (Season 4): Ang Limampu
 
 ## Facebook (Reels)
-SEASON 3, EPISODE 38: Limampung sasakyan na minsang simbolo ng pagkahulog ni Indio. Sa gabing umapaw ang lawa, naging rescue fleet ang lahat. 🚤
+SEASON 4, EPISODE 38: Limampung sasakyan na minsang simbolo ng pagkahulog ni Indio. Sa gabing umapaw ang lawa, naging rescue fleet ang lahat. 🚤
 Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Totoo ang Laguna de Bay at ang bayanihan.
 
 👉 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan? Comment mo.
