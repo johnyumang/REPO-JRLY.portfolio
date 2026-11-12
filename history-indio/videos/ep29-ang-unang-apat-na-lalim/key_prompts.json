@@ -1,5 +1,5 @@
 {
- "_note": "Episode 29 (S3E9), story version 2 Kabanata 29. Below Banahaw (not the present): Usman present. The seven depths are the series' fiction; nothing graphic: the pitch holds faceless shadows standing for no real person or company; guards are silhouettes with hooked poles. Prompts are setting-first with short character strings; the free endpoint filters the words brick, violet and museum and violent or underworld words, so the depths are described visually. intro copied from Episode 11. Shots follow sentences.json; k90-k96 are montage extras.",
+ "_note": "Episode 29 (S3E9), story version 2 Kabanata 29. Below Banahaw (not the present): Usman present. The seven depths are the series' fiction; nothing graphic: the pitch holds faceless shadows standing for no real person or company; guards are silhouettes with hooked poles. Prompts are setting-first with short character strings; the free endpoint filters the words brick, violet and museum and violent or underworld words, so the depths are described visually. intro copied from Episode 11. Shots follow sentences.json; k90-k96 are montage extras. Shot 9 reuses dante_book and the montage extra k95 was dropped: their prompts kept hitting the free endpoint's filter.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -15,7 +15,6 @@
   "stairs_down": "An endless stone staircase spiralling down into darkness inside a mountain: tiny figures of a young man, an old man and a black dog walking down. High angle looking down, dizzy depth.",
   "holo_static": "Dark cave: close-up of a young man's forearm with indigo geometric tattoos projecting a flickering broken blue hologram, static lines, his face lit blue behind it.",
   "lolo_map": "A dim stone cavern lit by one flashlight: an old white-haired Filipino man in a faded polo crouches and draws rings in the dust with a twig, a young man with a black topknot and grey t-shirt kneels beside him watching. Over-the-shoulder shot.",
-  "seven_rings": "Top-down view of a dusty cave floor with seven simple rings drawn in the dust one inside another, a twig lying beside them, warm flashlight glow.",
   "old_books": "A vast dim underground cavern: a heap of old closed books and scrolls of many kinds glowing faintly on a stone shelf, dust in the air, nothing readable.",
   "usman_worried": "A vast dim underground cavern: close-up of a black street dog with a white chest patch and a red kerchief, ears back, looking up worried, flashlight light on his face.",
   "lolo_laugh": "A vast dim underground cavern: an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist laughing and patting the head of a black street dog with a white chest patch and a red kerchief, the young man smiling behind them. Medium two-shot.",
@@ -90,7 +89,6 @@
   "tar_glow": "A dark cavern over a glowing sea of black tar, orange light from below, rising heat haze: low angle across the black surface toward two distant figures on a ledge.",
   "mist_door_close": "Close-up of a glowing doorway in drifting warm mist slowly closing on its own.",
   "gold_heap_close": "Close-up of a heap of gold watches, car keys and jewellery slipping and sliding down, dim gold light.",
-  "hologram_85": "A dark cave: a soft blue holographic panel floating above a young man's tattooed forearm, showing seven small symbols and a long glowing progress bar nearly full.",
   "tambuli": "Close-up of an old curved water-buffalo horn, smooth and dark brown, hanging from a rope on a cave wall, flashlight light on it, no metal."
  },
  "shots": {
@@ -122,7 +120,7 @@
    "full": "lolo_map"
   },
   "9": {
-   "full": "seven_rings"
+   "full": "dante_book"
   },
   "10": {
    "full": "old_books"
@@ -345,9 +343,6 @@
   },
   "94": {
    "full": "gold_heap_close"
-  },
-  "95": {
-   "full": "hologram_85"
   },
   "96": {
    "full": "tambuli"
