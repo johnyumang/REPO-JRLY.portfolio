@@ -1,5 +1,5 @@
 {
- "_note": "Episode 11 (S2E3) keyframes, same method as Episode 9. Butuan river port, 1011. Real people (traders, crews, the envoy at the Song court) are generic figures, far or from behind, never likenesses; Rajah Kiling appears only as light (no face, no body). The court in China is shown only through the lens (the diwa's telling). The 1976 gold seekers are generic. The Golden Tara is a generic seated gold figurine in a case, not a copy of the real object. No weapons. Copied from Episode 10: full intro, indio_read_marker, notebook_glow, portal_gate, usman_return, ships_north; chars indio_point_modern, usman_growl; plate school_gate. Shots follow sentences.json; k90+ are montage extras.",
+ "_note": "Episode 11 (S2E3), Season 2 version 4 rules: the first wish (present day, no dog), the first hologram with Mga Kakampi, the first creature (the Yúmud, Agusan Manobo kuwentong-bayan: a water wraith of deep pools, drawn as a calm figure of water and moss, never a monster that is killed). Butuan river port, 1011. Real people (traders, crews, the envoy at the Song court) are generic figures, far or from behind; Rajah Kiling appears only as light. The Song court is shown only through the lens. The Golden Tara is a generic seated gold figurine, not a copy. No weapons. Copied from Episode 10: full intro, notebook_glow, ships_north; chars indio_point_modern, usman_growl; plate school_gate. Shots follow sentences.json; k90-k104 are montage extras.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -20,17 +20,11 @@
  },
  "full": {
   "intro": "(copied from Episode 10)",
-  "indio_read_marker": "(copied from Episode 10)",
   "notebook_glow": "(copied from Episode 10)",
-  "portal_gate": "(copied from Episode 10)",
-  "usman_return": "(copied from Episode 10)",
   "ships_north": "(copied from Episode 10)",
   "mud_bronze": "close-up of a plain round bronze medallion engraved only with a small boat and a sun, no face, glinting half-buried in dark river mud; in the background on the water a dark shadow of a man with nobody standing there, dusk, eerie. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
-  "hologram_burst": "low-angle close-up of a young man's forearm with indigo diamond tattoos, one diamond bursting into a beam of translucent blue-gold light rising into the dark air, mangrove night behind. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
   "butuan_vista": "very high wide aerial view of a wide brown river winding to the sea, a village of stilt houses over the water, many long plank boats with outriggers moored along the banks, green hills, morning haze, long sight line. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "usman_leap": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, leaping out of a swirling burst of golden light, barking happily, ears flying, motion.",
-  "indio_catch_dog": "riverbank with stilt houses in morning light: a young Filipino man with a red headband and a plain beige tunic with a red sash laughing as a black dog with a red kerchief jumps into his arms. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
-  "landing_river": "wide shot: a young man in a red headband, a woman in a dark coat and a black dog tumbling onto a muddy river bank from fading golden light, stilt houses over the water behind, deep perspective. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "m_points_port": "over-the-shoulder shot from behind a young Filipina woman with long black hair in a long dark coat, pointing down at a busy river port of stilt houses and long plank boats, people loading jars, deep vista. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "balangay_close": "close-up of the hull of an ancient wooden plank boat: planks joined edge to edge with wooden pegs and fibre lashings through carved lugs, water reflections. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "boats_row": "low wide shot along a row of long wooden plank boats with double outriggers moored at a river bank, crews at work, deep perspective to the river mouth. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
@@ -38,15 +32,11 @@
   "gold_seekers_1976": "1970s, wide shot: local men in shorts and t-shirts digging in wet mud near a river with shovels and pans, one lifting an old blackened wooden plank, overcast, no readable text.",
   "ships_ready": "low-angle shot: men in loincloths and head cloths loading jars and bundles into a large outrigger boat with a woven sail, the boat pointing out to sea. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "m_whisper_port": "close-up of a young Filipina woman with long black hair in a long dark coat, whispering, eyes on the boats, river port behind softly blurred. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
-  "song_scroll": "top-down close-up of an old Chinese paper scroll on a lacquered desk, columns of brush strokes that are not readable, a brush and ink stone, warm light, no readable characters.",
   "envoy_court": "view through a round golden-rimmed lens filling the frame: inside the circle a vast Song dynasty palace courtyard with red halls and white stone steps, far away a small kneeling envoy offering a gift, rows of officials, no faces visible; darkness outside the circle.",
   "gold_tablet": "close-up of a thin gold tablet engraved with fine illegible marks lying on a folded silk cloth, warm candlelight, no readable text.",
   "indio_watch_dock": "on a wooden dock among house posts, seen from behind: a young Filipino man with a red headband and a plain beige tunic with a red sash crouching and watching outrigger boats with sails leave down the river toward the sea. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
-  "m_lens_hand": "on a muddy riverbank by stilt houses: a young woman with long black hair in a long dark coat handing a round golden-rimmed lens to a young Filipino man with a red headband and a plain beige tunic with a red sash, two-shot. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
   "lens_trail": "view through a round golden-rimmed lens: a glowing golden trail winding across a dry mudflat channel toward rotten wooden planks; darkness outside the circle.",
   "usman_sniff_mud": "low close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, nose down sniffing wet mud, eyes bright, a muddy channel behind.",
-  "usman_dig": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, digging furiously in mud beside a rotten wooden plank, mud flying from his paws. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
-  "m_warn": "medium shot: a young Filipina woman with long black hair in a long dark coat, stepping carefully into soft mud, one hand raised in warning, her coat hem muddy. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "m_slip_catch": "in a muddy river channel at dusk: a young Filipino man with a red headband and a plain beige tunic with a red sash catching a young woman with long black hair in a long dark coat as she slips, their faces very close, surprised, two-shot close. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
   "usman_paw_eyes": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, sitting and covering his eyes with one paw, peeking, comic.",
   "two_dig": "in a muddy river channel, low two-shot: a young Filipino man with a red headband and a plain beige tunic with a red sash and a young woman with long black hair in a long dark coat kneeling side by side digging with their hands under a rotten wooden plank. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
@@ -63,16 +53,9 @@
   "lamp_mangrove": "among tall mangrove roots at night, low-angle shot: a young Filipino man with a red headband and a plain beige tunic with a red sash raising a small burning clay lamp, startled birds frozen on the branches, warm light. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
   "shadow_water": "high-angle shot of dark river water under moonlight with the shadow of a tall man in a wide hat moving across it, and nobody standing above it, eerie. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
   "usman_ears": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, ears flat back, eyes wide, frightened, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "fisherman_shout": "medium shot: an old Filipino fisherman with a white beard in a small dugout canoe, shouting and pointing urgently toward mangrove roots, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "indio_ots_fisher": "over-the-shoulder shot from behind a young man in a red headband toward an old fisherman in a dugout canoe pointing, golden symbols floating between them. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "m_realize": "close-up of a young Filipina woman with long black hair in a long dark coat, in profile, eyes narrowing, understanding, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "run_roots": "low wide action shot: a young man with a lamp, a woman in a dark coat and a black dog running across tall mangrove roots over dark water, splashes, motion. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
   "m_finger": "among mangroves at night, two-shot: a young woman with long black hair in a long dark coat raising one finger and explaining to a young Filipino man with a red headband and a plain beige tunic with a red sash, both catching their breath. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
-  "indio_nod": "among mangroves at night, medium shot: a young Filipino man with a red headband and a plain beige tunic with a red sash nodding awkwardly with an embarrassed half smile toward someone out of frame. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
-  "mark_glow": "extreme close-up of a forearm with six indigo diamond tattoos, one diamond glowing bright gold. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
   "hologram_open": "among mangroves at night, low-angle wide shot: a young Filipino man with a red headband and a plain beige tunic with a red sash holding out his tattooed forearm, a large translucent blue-gold holographic panel floating in the air above it, a young woman with long black hair in a long dark coat and a black dog staring. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
   "holo_marks": "a floating translucent holographic panel: six glowing diamond icons in a row and below them twelve circular slots, three of them lit gold. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
-  "holo_slots": "close-up of three lit circular slots on a holographic panel: one with a gate symbol, one with a crescent moon, one with a boat and a sun. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
   "holo_gear": "holographic icons floating in a row: a round lens, a clay lamp, a small notebook, a star and a rolled map. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
   "holo_bar": "a long holographic progress bar filled only a little at the left, glowing gold. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
   "holo_sign": "extreme close-up of the end of a holographic progress bar finishing in a single glowing hooked symbol shaped like a question mark. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
@@ -83,10 +66,7 @@
   "wawa_river": "wide shot of a quiet river bank among farmland and coconut palms in the early 20th century, a farmer kneeling at the water's edge, Agusan, Mindanao, nothing modern.",
   "dawn_three": "seen from behind at dawn: a young man with a red headband, a woman in a dark coat and a black dog sitting on a river bank, stilt houses and boats in the mist ahead, long sight line. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "return_light": "on a riverbank with stilt houses: swirling golden light rising around a young Filipino man with a red headband and a plain beige tunic with a red sash and a young woman with long black hair in a long dark coat, a black dog fading into sparkles. Detailed full background, Butuan river port in 1011, nothing modern, no weapons, not a character sheet.",
-  "notebook_boat": "close-up of a small worn notebook open, golden ink drawing itself: a boat crossing a sea toward a far coast, no readable text.",
-  "simunul_mosque": "wide shot of an old wooden mosque with a tiered pagoda-like roof on a small island shore with coconut palms and clear water, morning, deep perspective, nothing modern, no readable text.",
   "m_ominous": "over-the-shoulder shot from behind a young Filipina woman with long black hair in a long dark coat, looking back toward a far dark figure in a long coat and wide hat at the end of a city street at night, streetlights, present day.",
-  "indio_ear": "on a city street at night, medium shot: a young Filipino man with a black topknot, a grey t-shirt and a red handkerchief on his wrist, cupping his ear to listen, faint symbols of unknown scripts floating around him, present day.",
   "walk_city": "seen from behind at night, a lean young man in a grey t-shirt and a woman in a dark coat walking down a lit Quezon City street toward a far jeepney stop, long sight line.",
   "balangay_sail": "wide shot of a large outrigger plank boat with a woven sail cutting through blue sea waves, rowers in a line, spray, deep perspective. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "song_palace": "wide high view of a Song dynasty capital city with red palace halls, canals and bridges in morning mist, no readable text, nothing modern.",
@@ -95,15 +75,35 @@
   "shadow_rise": "low shot of mangrove roots at night with a dark shadow sliding across the water and up the roots, no one there, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
   "jars_cargo": "close-up of large glazed trade jars and bundles of cloth stacked inside the hull of a wooden plank boat, hands tying ropes, warm light. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
   "stilt_night": "wide shot of a village of stilt houses over a river at night, warm lamplight in the windows, reflections on the water, a few boats. Butuan river port in the year 1011, Philippines, nothing modern, no weapons.",
-  "fisher_paddle": "low shot of an old fisherman's weathered hands paddling a small dugout canoe fast through dark water, splashes. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
-  "simunul_sea": "wide shot of a turquoise sea with small green islands and a long outrigger boat crossing toward them, bright morning, deep perspective, nothing modern."
+  "yumud_rise": "low wide shot: a tall dark figure made of water and shadow with long hair like river moss and two glowing ember eyes, calm and ancient, not a monster rising out of a deep dark river pool, water streaming off it, a young man with a red headband standing at the edge holding a lamp. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "m_cafe": "night in a small Quezon City eatery: medium shot of a young woman with long black hair in a long dark coat across a table, speaking seriously, an old map and a small notebook between them. Present-day Philippines, detailed background, no dog, no animals.",
+  "wallet_coins": "close-up of a young man's hands opening a thin worn wallet showing one crumpled banknote and a few coins on a plastic table. Present-day Philippines, detailed background, no dog, no animals.",
+  "star_hold": "extreme close-up of a small round golden medallion engraved with a single star held near a young man's lips, he whispers to it, soft light.",
+  "indio_wish": "medium shot of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist with eyes closed, half grinning, whispering to a small gold star medallion in his fist, a small rented room at night. Present-day Philippines, detailed background, no dog, no animals.",
+  "star_wish_flash": "extreme close-up of a small golden star medallion flaring with a burst of white-gold light and sparks, dark background.",
+  "phone_zeros": "close-up of a glowing smartphone held in a young man's hand, a shower of cartoon gold coins bursting out of the bright screen, his amazed face blurred behind, night room.",
+  "m_frown_present": "two-shot in a small eatery at night: a young woman with long black hair in a long dark coat with arms crossed and a stern face, beside a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist grinning and holding up his phone. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_grin_cam": "close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist winking at the viewer, holding up a phone, cheeky grin. Present-day Philippines, detailed background, no dog, no animals.",
+  "plane_window": "over-the-shoulder shot from behind a young man at an airplane window: far below, a wide brown river winding through green Mindanao plains to the sea, clouds, long sight line.",
+  "shrine_portal": "wide high-angle shot inside a museum shed: an old excavated wooden boat in a pit under lights, swirling golden light and clock gears bursting around a young man and a woman in a dark coat beside it.",
+  "deep_pool": "high-angle shot of a deep dark round pool in an old dry river channel, rotten boat planks at its edge, slow ripples, mist, dusk. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "yumud_emerge": "over-the-shoulder shot from behind a young man with a red headband: a tall dark figure made of water and shadow with long hair like river moss and two glowing ember eyes, calm and ancient, not a monster rising from a deep pool in front of him, mist, ripples. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "yumud_eyes": "extreme close-up of two glowing ember eyes inside a face of dark water veiled by long strands of river moss, droplets.",
+  "yumud_still": "medium shot: a tall dark figure made of water and shadow with long hair like river moss and two glowing ember eyes, calm and ancient, not a monster standing half in the water of a deep pool, calm, one hand resting on the sunken rotten planks of an old boat behind it, guarding. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "nakita_kita": "low-angle hero shot: a young Filipino man with a red headband and a plain beige tunic with a red sash standing at the edge of a deep pool, one hand raised open, speaking firmly to a tall dark watery figure with moss hair, lamp light on both. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "yumud_bow": "wide shot: a tall dark figure made of water and shadow with long hair like river moss and two glowing ember eyes, calm and ancient, not a monster bowing its head low over the pool, the water turning calm and silver, a young man, a woman and a black dog watching from the bank. Detailed full background of a deep river pool among mangroves at dusk, ancient Philippines, nothing modern, no weapons, not a character sheet.",
+  "sandugo_seal": "close-up of a woman's hand raising a small round medallion engraved with a crescent moon, glowing, a thread of golden light reaching out over dark water.",
+  "holo_kakampi": "a floating translucent holographic panel showing a new list entry with a small glowing silhouette icon of a tall figure with long hair, no readable text. Against a dark night background of mangroves, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
+  "notebook_laguna": "close-up of a small worn notebook open, golden ink drawing itself: a thin copper plate and the mouth of a river opening into a wide lake, no readable text.",
+  "indio_question_phone": "medium shot of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist leaning toward the viewer with his phone in one hand and an open palm in the other, asking a question, city night. Present-day Philippines, detailed background, no dog, no animals.",
+  "pool_moon": "low shot across a calm deep pool at night reflecting a full moon, long strands of moss drifting on the surface, mangrove roots framing the view, deep perspective, nothing modern."
  },
  "shots": {
   "0": {
-   "full": "mud_bronze"
+   "full": "yumud_rise"
   },
   "1": {
-   "full": "hologram_burst"
+   "full": "phone_zeros"
   },
   "2": {
    "full": "intro"
@@ -112,206 +112,191 @@
    "full": "butuan_vista"
   },
   "4": {
-   "full": "indio_read_marker"
-  },
-  "5": {
    "full": "notebook_glow"
   },
+  "5": {
+   "full": "m_cafe"
+  },
   "6": {
-   "full": "portal_gate"
+   "full": "wallet_coins"
   },
   "7": {
-   "full": "usman_leap"
+   "full": "star_hold"
   },
   "8": {
-   "full": "indio_catch_dog"
+   "full": "indio_wish"
   },
   "9": {
-   "full": "landing_river"
-  },
-  "10": {
-   "full": "m_points_port"
+   "full": "star_wish_flash"
   },
   "11": {
-   "full": "balangay_close"
+   "full": "m_frown_present"
   },
   "12": {
-   "full": "boats_row"
+   "full": "indio_grin_cam"
   },
   "13": {
-   "full": "museum_boat"
+   "full": "plane_window"
   },
   "14": {
-   "full": "gold_seekers_1976"
+   "full": "museum_boat"
   },
   "15": {
-   "full": "ships_ready"
+   "full": "shrine_portal"
   },
   "16": {
-   "full": "m_whisper_port"
+   "full": "usman_leap"
   },
   "17": {
-   "full": "song_scroll"
+   "full": "m_points_port"
   },
   "18": {
-   "full": "envoy_court"
+   "full": "balangay_close"
   },
   "19": {
-   "full": "gold_tablet"
+   "full": "boats_row"
   },
   "20": {
-   "full": "indio_watch_dock"
+   "full": "gold_seekers_1976"
   },
   "21": {
-   "full": "m_lens_hand"
+   "full": "ships_ready"
   },
   "22": {
-   "full": "lens_trail"
+   "full": "envoy_court"
   },
   "23": {
-   "full": "usman_sniff_mud"
+   "full": "gold_tablet"
   },
   "24": {
-   "full": "usman_dig"
+   "full": "indio_watch_dock"
   },
   "25": {
-   "full": "m_warn"
+   "full": "lens_trail"
   },
   "26": {
-   "full": "m_slip_catch"
+   "full": "usman_sniff_mud"
   },
   "27": {
-   "full": "usman_paw_eyes"
+   "full": "m_slip_catch"
   },
   "28": {
-   "full": "two_dig"
+   "full": "usman_paw_eyes"
   },
   "29": {
-   "full": "medallion_reveal"
+   "full": "deep_pool"
   },
   "30": {
-   "full": "finger_touch"
+   "full": "medallion_reveal"
   },
   "31": {
-   "full": "indio_eyes_glyphs"
+   "full": "finger_touch"
   },
   "32": {
    "full": "kiling_light"
   },
   "33": {
-   "full": "lens_story"
+   "full": "yumud_emerge"
   },
   "34": {
-   "full": "anito_shrine"
-  },
-  "35": {
-   "full": "hide_boat"
-  },
-  "36": {
-   "full": "flood"
-  },
-  "37": {
-   "full": "indio_kneel_light"
-  },
-  "38": {
-   "full": "indio_realize"
-  },
-  "39": {
-   "full": "lamp_mangrove"
-  },
-  "40": {
-   "full": "shadow_water"
-  },
-  "41": {
-   "full": "usman_ears"
-  },
-  "42": {
-   "full": "fisherman_shout"
-  },
-  "43": {
-   "full": "indio_ots_fisher"
-  },
-  "44": {
-   "full": "m_realize"
-  },
-  "45": {
-   "full": "run_roots"
-  },
-  "46": {
-   "full": "m_finger"
-  },
-  "47": {
-   "full": "indio_nod"
-  },
-  "48": {
-   "full": "mark_glow"
-  },
-  "49": {
-   "full": "hologram_open"
-  },
-  "50": {
-   "full": "holo_marks"
-  },
-  "51": {
-   "full": "holo_slots"
-  },
-  "52": {
-   "full": "holo_gear"
-  },
-  "53": {
-   "full": "holo_bar"
-  },
-  "54": {
-   "full": "holo_sign"
-  },
-  "55": {
-   "full": "usman_tilt"
-  },
-  "56": {
-   "full": "indio_unsure"
-  },
-  "57": {
-   "full": "m_holo"
-  },
-  "58": {
    "char": "usman_growl",
    "plate": "mangrove_night",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "61": {
+  "35": {
+   "full": "indio_eyes_glyphs"
+  },
+  "36": {
+   "full": "yumud_eyes"
+  },
+  "37": {
+   "full": "yumud_still"
+  },
+  "38": {
+   "full": "nakita_kita"
+  },
+  "39": {
+   "full": "yumud_bow"
+  },
+  "40": {
+   "full": "sandugo_seal"
+  },
+  "41": {
+   "full": "m_finger"
+  },
+  "42": {
+   "full": "hide_boat"
+  },
+  "43": {
+   "full": "kiling_palm"
+  },
+  "44": {
+   "full": "indio_realize"
+  },
+  "45": {
+   "full": "lamp_mangrove"
+  },
+  "46": {
+   "full": "shadow_water"
+  },
+  "47": {
+   "full": "usman_ears"
+  },
+  "48": {
+   "full": "hologram_open"
+  },
+  "49": {
+   "full": "holo_marks"
+  },
+  "50": {
+   "full": "holo_gear"
+  },
+  "51": {
+   "full": "holo_kakampi"
+  },
+  "52": {
+   "full": "holo_sign"
+  },
+  "53": {
+   "full": "usman_tilt"
+  },
+  "54": {
+   "full": "indio_unsure"
+  },
+  "55": {
+   "full": "m_holo"
+  },
+  "59": {
    "full": "golden_tara"
   },
-  "62": {
+  "60": {
    "full": "wawa_river"
   },
-  "64": {
+  "63": {
    "full": "dawn_three"
   },
-  "66": {
+  "64": {
    "full": "return_light"
   },
-  "67": {
-   "full": "notebook_boat"
+  "65": {
+   "full": "notebook_laguna"
   },
-  "68": {
-   "full": "simunul_mosque"
-  },
-  "69": {
+  "66": {
    "full": "m_ominous"
   },
-  "70": {
+  "67": {
    "char": "indio_point_modern",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.45,
    "s": 0.65
   },
-  "71": {
-   "full": "indio_ear"
+  "68": {
+   "full": "indio_question_phone"
   },
-  "72": {
+  "69": {
    "full": "walk_city"
   },
   "90": {
@@ -324,16 +309,16 @@
    "full": "holo_full"
   },
   "93": {
-   "full": "kiling_palm"
-  },
-  "94": {
    "full": "shadow_rise"
   },
-  "95": {
+  "94": {
    "full": "ships_north"
   },
+  "95": {
+   "full": "flood"
+  },
   "96": {
-   "full": "usman_return"
+   "full": "holo_bar"
   },
   "97": {
    "full": "jars_cargo"
@@ -342,10 +327,25 @@
    "full": "stilt_night"
   },
   "99": {
-   "full": "fisher_paddle"
+   "full": "mud_bronze"
   },
   "100": {
-   "full": "simunul_sea"
+   "full": "anito_shrine"
+  },
+  "101": {
+   "full": "lens_story"
+  },
+  "102": {
+   "full": "two_dig"
+  },
+  "103": {
+   "full": "indio_kneel_light"
+  },
+  "104": {
+   "full": "m_whisper_port"
+  },
+  "105": {
+   "full": "pool_moon"
   }
  }
 }

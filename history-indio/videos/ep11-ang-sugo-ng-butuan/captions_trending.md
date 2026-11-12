@@ -13,9 +13,9 @@ Butuan, 1011. mga balangay sa lumang daungan, at mga sugong papunta sa emperador
 sa putik ng lumang ilog, ang medalyon ni Rajah Kiling: Ang Sugo. 🛶
 
 S2 EP 11: Ang Sugo ng Butuan
-Kung maiintindihan mo ang lahat ng wika, sino ang una mong pakikinggan? 🛶
+Kung may isang hiling ka, gagastusin mo ba sa pera? 🛶
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino, ang hiling ni Indio at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng malalalim na tubig (naitala ni Garvan, 1931); kathang-isip ang mga salita niya at ang kasunduan. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
 
 #HistoryIndio #Butuan #Balangay #KasaysayanNgPilipinas #PinoyAnime
 
@@ -27,9 +27,9 @@ makinig ka muna sa katahimikan bago ka matakot.
 Butuan, 1011: ang mga balangay at ang mga sugo sa Song. 🛶
 
 S2 EP 11: Ang Sugo ng Butuan
-Kung maiintindihan mo ang lahat ng wika, sino ang una mong pakikinggan?
+Kung may isang hiling ka, gagastusin mo ba sa pera?
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino, ang hiling ni Indio at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng malalalim na tubig (naitala ni Garvan, 1931); kathang-isip ang mga salita niya at ang kasunduan. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
 
 #historyindio #butuan #balangay #philippinehistory #pinoyanime
 
@@ -37,8 +37,8 @@ Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa
 makinig ka muna sa ilog bago ka maghukay.
 makinig ka muna sa matanda bago ka tumakbo.
 Butuan, 1011. ang medalyon ni Rajah Kiling. 🛶
-S2 EP 11. Sino ang una mong pakikinggan?
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
+S2 EP 11. Gagastusin mo ba sa pera ang hiling mo?
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino, ang hiling ni Indio at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng malalalim na tubig (naitala ni Garvan, 1931); kathang-isip ang mga salita niya at ang kasunduan. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
 
 #historyindio #butuan #balangay #fyp
 
@@ -55,9 +55,9 @@ makinig ka muna sa katahimikan bago ka matakot.
 
 Totoo: labing-isang balangay ang nahukay sa Butuan, mula 689 hanggang 988 ayon sa carbon dating, at siyam ang unang natagpuan noong 1976 malapit sa ilog ng Masao; nagpadala ang Butuan ng mga sugo sa korte ng Song mula 1001 hanggang 1011 (noong 1007, ang hiling na kapantay ng Champa; noong 1011, ang sulat sa gintong tableta). Pinagtatalunan kung pinagbigyan ang hiling noong 1007. Ang tinatawag na Golden Tara ay natagpuan noong 1917 sa Esperanza, Agusan del Sur, at nasa Chicago na; pinagtatalunan kung Tara nga ito (Wikipedia: Balangay, Butuan (historical polity), Agusan image).
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino, ang hiling ni Indio at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng malalalim na tubig (naitala ni Garvan, 1931); kathang-isip ang mga salita niya at ang kasunduan. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa.
 
-Kung maiintindihan mo ang lahat ng wika, sino ang una mong pakikinggan? I-comment sa baba.
+Kung may isang hiling ka, gagastusin mo ba sa pera? I-comment sa baba.
 
 #Butuan #Balangay #Shorts
 
@@ -65,7 +65,7 @@ Kung maiintindihan mo ang lahat ng wika, sino ang una mong pakikinggan? I-commen
 
 ## Pinned comment
 makinig ka muna sa ilog bago ka maghukay. 🛶
-Totoo: labing-isang balangay ang nahukay sa Butuan, mula 689 hanggang 988 ayon sa carbon dating, at siyam ang unang natagpuan noong 1976 malapit sa ilog ng Masao; nagpadala ang Butuan ng mga sugo sa korte ng Song mula 1001 hanggang 1011 (noong 1007, ang hiling na kapantay ng Champa; noong 1011, ang sulat sa gintong tableta). Pinagtatalunan kung pinagbigyan ang hiling noong 1007. Ang tinatawag na Golden Tara ay natagpuan noong 1917 sa Esperanza, Agusan del Sur, at nasa Chicago na; pinagtatalunan kung Tara nga ito (Wikipedia: Balangay, Butuan (historical polity), Agusan image). Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa. Kung maiintindihan mo ang lahat ng wika, sino ang una mong pakikinggan?
+Totoo: labing-isang balangay ang nahukay sa Butuan, mula 689 hanggang 988 ayon sa carbon dating, at siyam ang unang natagpuan noong 1976 malapit sa ilog ng Masao; nagpadala ang Butuan ng mga sugo sa korte ng Song mula 1001 hanggang 1011 (noong 1007, ang hiling na kapantay ng Champa; noong 1011, ang sulat sa gintong tableta). Pinagtatalunan kung pinagbigyan ang hiling noong 1007. Ang tinatawag na Golden Tara ay natagpuan noong 1917 sa Esperanza, Agusan del Sur, at nasa Chicago na; pinagtatalunan kung Tara nga ito (Wikipedia: Balangay, Butuan (historical polity), Agusan image). Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang mga salitang sinabi niya, ang medalyon at ang kapalaran nito, ang anino, ang hiling ni Indio at ang hologram; walang ganoong salitang naitala mula kay Rajah Kiling. Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng malalalim na tubig (naitala ni Garvan, 1931); kathang-isip ang mga salita niya at ang kasunduan. Sa totoong tala ng Song, si Kiling ang hari ng Butuan na nagpadala ng sugo noong 1007 at humingi ng ranggong kapantay ng Champa. Kung may isang hiling ka, gagastusin mo ba sa pera?
 
 ## On-screen opener (optional)
 makinig ka muna sa ilog bago ka maghukay.
