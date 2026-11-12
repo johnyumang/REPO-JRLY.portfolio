@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # Season 2 multi-voice read: plan -> one take per chunk -> check -> second take only where the words are wrong -> assemble -> verify.
-# usage: HI_VOICE_REC=<real ep1 recording> bash run_multispeaker.sh <script_multispeaker.txt> <work_name> [--full]
+# usage: HI_VOICE_REC=<real ep1 recording> bash run_multispeaker.sh <script_multispeaker.txt or videos/<slug>> <work_name> [--full]
+#   an episode folder: script_multispeaker.txt and/or sentences.json (speaker per sentence; its "say" is what is spoken)
 #   --full: also retry chunks that fail a non-word check (pitch, speaker, speed...), up to seed 3.
 # needs: the Indio baseline (as run_episode.sh) and $HI_VOICE_WORK/cast/<NAME>.wav + <NAME>.txt for every other speaker.
 # Resumable; one heavy run per machine (cpu.lock).
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
-SCRIPT="$(realpath "${1:?usage: run_multispeaker.sh <script_multispeaker.txt> <work_name> [--full]}")"; NAME="${2:?work name}"; FULL="${3:-}"
+SCRIPT="$(realpath "${1:?usage: run_multispeaker.sh <script_multispeaker.txt or episode dir> <work_name> [--full]}")"; NAME="${2:?work name}"; FULL="${3:-}"
 VC=/opt/vc/bin/python; VX=/opt/vx/bin/python
 export HI_VOICE_WORK="${HI_VOICE_WORK:-/opt/work/voice}"
 [ -f "${HI_VOICE_REC:-}" ] || { echo "set HI_VOICE_REC to the real Episode 1 recording"; exit 1; }

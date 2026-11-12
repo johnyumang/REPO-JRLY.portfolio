@@ -1,5 +1,5 @@
 """Season 2 multi-speaker read: plan, check and select, assemble, verify (runs in /opt/vc). The single-voice path is untouched.
-usage: ms.py plan <script_multispeaker.txt> <work_dir>
+usage: ms.py plan <script_multispeaker.txt | episode_dir> <work_dir>
        ms.py qc <work_dir> [--full]        -> choice.json; prints the chunks that need another take
        ms.py assemble <work_dir> <out_prefix>   -> <out_prefix>.mp3/.wav + <out_prefix>_timings.json
        ms.py verify <work_dir> <out_prefix>     -> re-hears every line of the finished file, <out_prefix>_verify.json
@@ -11,23 +11,45 @@ TAGMAP = {'whisper': 'whispers', 'suspense': 'suspenseful', 'somber': 'sad'}
 SPK_CAST = 0.85          # a designed-voice line must be at least this similar (WavLM x-vector) to ITS OWN reference clip
 F0_CAST_ST = 4.0         # ... and its median pitch within this many semitones of the reference clip's
 GAP_SENT, GAP_TURN, GAP_SCENE = 0.38, 0.45, 0.65
-def plan(script, work):
-    S, C = [], []; scene = 0; turn = -1
+def parse_script(script):
+    S = []; scene = 0; turn = -1
     for line in open(script, encoding='utf-8').read().split('\n'):
         line = line.strip()
         if not line: scene += 1 if S else 0; continue
         if line.startswith('#'): continue
-        m = re.match(r'^([A-Za-zÑñ .\'-]+?)\s*:\s*(.+)$', line)
+        m = re.match(r'^([A-Za-z\u00d1\u00f1 .\'-]+?)\s*:\s*(.+)$', line)
         assert m, 'not `NAME: [tone] text`: %r' % line
         spk = m.group(1).strip().upper(); turn += 1; cur = 'narrate'
-        for s in re.findall(r'[^.?!]+[.?!]+["”]?', m.group(2) + ('' if re.search(r'[.?!]["”]?\s*$', m.group(2)) else '.')):
+        for s in re.findall(r'[^.?!]+[.?!]+["\u201d]?', m.group(2) + ('' if re.search(r'[.?!]["\u201d]?\s*$', m.group(2)) else '.')):
             tags = re.findall(r'\[([^\]]+)\]', s); txt = re.sub(r'\[[^\]]+\]\s*', '', s).strip()
             if not txt: continue
             if tags: cur = TAGMAP.get(tags[-1].lower(), tags[-1].lower())
-            S.append(dict(i=len(S), speaker=spk, turn=turn, para=scene, style=cur, tagged=bool(tags), text=txt))
-            c = C[-1] if C else None
-            if c and c['turn'] == turn and not tags and len(c['sent_ids']) < 3 and len(c['text']) + len(txt) + 1 <= 170: c['sent_ids'].append(S[-1]['i']); c['text'] += ' ' + txt
-            else: C.append(dict(id=len(C), speaker=spk, turn=turn, para=scene, style=cur, prompt=cur, sent_ids=[S[-1]['i']], text=txt))
+            S.append(dict(i=len(S), speaker=spk, turn=turn, para=scene, style=cur, tagged=bool(tags), text=txt, say=txt))
+    return S
+def plan(src, work):
+    """src = a script_multispeaker.txt, or an episode folder with script_multispeaker.txt and/or sentences.json (with a speaker per
+    sentence). With both, the script gives turns and scenes, sentences.json the spoken form ('say') and pauses; they must agree."""
+    d = src if os.path.isdir(src) else os.path.dirname(src); script = src if not os.path.isdir(src) else os.path.join(d, 'script_multispeaker.txt')
+    sj = os.path.join(d, 'sentences.json'); J = json.load(open(sj)) if os.path.exists(sj) and 'speaker' in (json.load(open(sj)) or [{}])[0] else None
+    if os.path.exists(script):
+        S = parse_script(script)
+        if J:
+            assert len(J) == len(S), ('script and sentences.json differ in sentence count', len(S), len(J))
+            for s, j in zip(S, J):
+                assert j['speaker'].upper() == s['speaker'], (s['i'], s['speaker'], j['speaker'])
+                s['text'] = j['text']; s['say'] = j.get('say') or j['text']; s['pause'] = j.get('pause')
+    else:
+        assert J, 'need script_multispeaker.txt or sentences.json with a speaker field in ' + d
+        S = []; turn = -1
+        for k, j in enumerate(J):
+            if not S or j['speaker'].upper() != S[-1]['speaker']: turn += 1
+            st = TAGMAP.get((j.get('style') or 'narrate').lower(), (j.get('style') or 'narrate').lower())
+            S.append(dict(i=k, speaker=j['speaker'].upper(), turn=turn, para=turn, style=st, tagged=True, text=j['text'], say=j.get('say') or j['text'], pause=j.get('pause')))
+    C = []
+    for s in S:
+        c = C[-1] if C else None
+        if c and c['turn'] == s['turn'] and not s['tagged'] and len(c['sent_ids']) < 3 and len(c['text']) + len(s['say']) + 1 <= 170: c['sent_ids'].append(s['i']); c['text'] += ' ' + s['say']
+        else: C.append(dict(id=len(C), speaker=s['speaker'], turn=s['turn'], para=s['para'], style=s['style'], prompt=s['style'], sent_ids=[s['i']], text=s['say']))
     for sp in sorted({c['speaker'] for c in C} - {VP.NARRATOR}): VP.cast_ref(sp)      # fail early on a missing reference
     os.makedirs(work, exist_ok=True); json.dump(dict(multispeaker=True, sentences=S, chunks=C), open(work + '/plan.json', 'w'), ensure_ascii=False, indent=1)
     print(len(S), 'sentences ->', len(C), 'chunks, speakers:', sorted({c['speaker'] for c in C}))
@@ -106,9 +128,10 @@ def assemble(work, outp):
         seg = ff(seg, sr, 'alimiter=limit=0.89:attack=5:release=50:level=false:latency=true')[:len(seg)]
         j = 0; offs = []
         for si in c['sent_ids']:
-            n = len(vqc.norm_words(S[si]['text'])); ws = W[j:j + n]; j += n; offs.append((si, (ws[0][1] - st) / k, (ws[-1][2] - st) / k))
+            n = len(vqc.norm_words(S[si]['say'])); ws = W[j:j + n]; j += n; offs.append((si, (ws[0][1] - st) / k, (ws[-1][2] - st) / k))
         nxt = P['chunks'][c['id'] + 1] if c['id'] + 1 < len(P['chunks']) else None
         gap = 0.0 if nxt is None else (GAP_SCENE if nxt['para'] != c['para'] else GAP_TURN if nxt['turn'] != c['turn'] else GAP_SENT) + 0.03 * (((c['id'] * 37) % 5) - 2) / 2
+        if nxt is not None: gap = max(gap, S[c['sent_ids'][-1]].get('pause') or 0)
         segs.append(dict(c=c, y=seg, offs=offs, gap=gap)); rows.append((c['id'], c['speaker'], os.path.basename(ch['wav'])[-6:-4], m['rate'], round(k, 3), round(g, 1)))
     ind = [s['y'] for s in segs if s['c']['speaker'] == VP.NARRATOR]
     if ind:                                                                         # match EQ for Indio's lines (as assemble.py, at 48 kHz)

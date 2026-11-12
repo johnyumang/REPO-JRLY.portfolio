@@ -95,6 +95,32 @@
     150,
     290
    ]
+  },
+  "BEA": {
+   "descriptions": [
+    "A ten-year-old Filipino girl, bright, quick and clear voice, eager to answer in class",
+    "A girl around ten, lively high child's voice, fast and confident, cheerful, Filipino accent",
+    "A young schoolgirl, crisp bright voice, quick-witted and excited, Filipino accent"
+   ],
+   "ref_text": "Ma'am, ako po, ako po! Alam ko po ang sagot! Nabasa ko po kagabi sa aklat ng kuya ko. Puwede po ba akong pumunta sa harap at isulat sa pisara? Mabilis lang po ako, promise!",
+   "sample": "Indio, sabay tayong magbasa mamaya sa silid-aklatan, ha?",
+   "f0_hz": [
+    200,
+    400
+   ]
+  },
+  "JM": {
+   "descriptions": [
+    "A ten-year-old Filipino boy, curious and a little cheeky, playful voice, slightly lower than a typical child",
+    "A boy around ten, mischievous grin in his voice, asks lots of questions, relaxed and casual, Filipino accent",
+    "A young schoolboy, husky child voice, teasing but friendly, curious, Filipino accent"
+   ],
+   "ref_text": "E bakit po ganoon, Ma'am? Kung luma na po ang kuwento, paano po natin malalaman kung totoo? Baka po gawa-gawa lang iyan ng may-akda. Joke lang po, pero gusto ko po talagang malaman.",
+   "sample": "Pare, ikaw na naman ang pinakamaingay sa klase, ha!",
+   "f0_hz": [
+    180,
+    380
+   ]
   }
  }
 }
