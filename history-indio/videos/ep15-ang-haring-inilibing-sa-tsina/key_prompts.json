@@ -1,0 +1,370 @@
+{
+ "_note": "Episode 15 (S2E7), Season 2 version 4 rules: the bottom of the fall and the first step back (present day, no dog: Usman exists only in the jump light and in the past, and this episode has NO jump to the past; the sidecar is empty with his red kerchief). Vice only by suggestion (bottles, unfamiliar sneakers, a stranger's silhouette in a memory), never shown. Dezhou, Shandong, today; 1417 only through the lens, real people (Paduka Pahala, the Yongle Emperor, the court, his family) as generic far figures from behind, no recognisable faces, the emperor not shown. The medallion is found outside the tomb and outside any collection (a crate never opened behind an old wall). Creature: the húli jīng (Chinese folklore fox spirit), drawn as a graceful woman in white whose shadow has nine tails and whose true form is a luminous white fox, never a monster that is killed; not recorded (no M, no pact). Paduka Pahala's diwa appears only as soft silver-blue light, no face. Copied from Episode 11: full intro; char indio_point_modern. Shots follow sentences.json (76 sentences); k90-k99 are montage extras. VERSION 1: check against story version 2 before generating frames.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {
+  "kawit_kitchen": "a small old kitchen in Kawit, Cavite at night, a steaming pot on an old gas stove, a wooden table, a window with rain, nobody in it."
+ },
+ "chars": {
+  "indio_point_modern": "(copied from Episode 11)"
+ },
+ "full": {
+  "garage_floor": "very high wide shot of a huge private garage at 3 a.m. lit by cold fluorescent tubes: rows of shiny luxury cars and new motorcycles, and in the middle of the bare concrete floor a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist sitting alone, small, eating a single bread roll. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_hollow": "close-up of a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist, hollow tired eyes, the cold garage lights reflected in them, bread crumbs on his lip. Present-day Philippines, detailed background, no dog, no animals.",
+  "intro": "(copied from Episode 11)",
+  "dezhou_vista": "very high aerial view at sunrise of a quiet green park with an old Chinese tomb mound, a long stone spirit way lined with stone statues, a wide old canal beyond and a modern city on the horizon, morning haze. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "watch_wrist": "close-up of a limp wrist hanging over a knee, a heavy gold watch too big for it, the red handkerchief tied beside it, concrete floor below, cold light. Present-day Philippines, detailed background, no dog, no animals.",
+  "cars_row": "low tracking shot along a long row of gleaming supercars, a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist dragging his feet past them without looking, reflections on the polished paint, night. Present-day Philippines, detailed background, no dog, no animals.",
+  "helicopter_tarp": "wide night shot outside a garage door: a small helicopter half covered by a flapping tarp on a concrete pad, a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist leaning in the doorway looking at it without interest. Present-day Philippines, detailed background, no dog, no animals.",
+  "bottles_table": "over-the-shoulder from behind a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist looking down at a low glass table crowded with empty bottles and a pair of unfamiliar sneakers, a stale party aftermath suggested, nothing explicit, no people. Present-day Philippines, detailed background, no dog, no animals.",
+  "sofa_temples": "low medium shot of a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist on a leather sofa pressing his temples, a jacket and cushions thrown about, grey pre-dawn light from a high window. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_turns_door": "memory flashback with soft desaturated colour: in a condo doorway a young woman with long black hair in a long dark coat turning away in silence, her face hurt, while behind her a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist stands blurred in the background with a stranger's silhouette at the edge of the frame. Present-day Philippines, detailed background, no dog, no animals.",
+  "holo_garage": "wide shot from behind a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist raising his arm in the empty garage, a translucent blue-gold holographic panel opening in the air among the parked cars. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "holo_bar_red": "a long holographic progress bar filled only a little at the left, a small red arrow pointing downward beside it, against dark garage shadows, no people. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "medallions_cold": "close-up of an open palm holding several old round bronze medallions on worn cords, dull and frosted as if cold, beside a folded blank sheet of old paper; concrete floor. Present-day Philippines, detailed background, no dog, no animals.",
+  "sidecar_empty": "medium shot of an old second-hand motorcycle with a small sidecar in the corner of a luxury garage, the sidecar empty, a red kerchief tied to its rail, shiny supercars blurred behind it. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_slump": "low angle: a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist slumped on the floor with his back against a supercar door, head tipped back, staring at the ceiling lights. Present-day Philippines, detailed background, no dog, no animals.",
+  "gate_out": "wide shot: a lean young Filipino man with a black topknot, a rumpled expensive silk shirt, jeans and a red handkerchief on his wrist pushing open a tall steel gate onto an empty Quezon City street before dawn, a bread roll in his hand, wet asphalt, streetlights. Present-day Philippines, detailed background, no dog, no animals.",
+  "totoy_post": "medium shot of a thin barefoot Filipino street boy about ten in an oversized faded t-shirt leaning on a lamppost at dawn, hugging himself, staring at something offscreen with hungry eyes. Present-day Philippines, detailed background, no dog, no animals.",
+  "crouch_ask": "two-shot on a pre-dawn sidewalk: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist crouching to the eye level of a thin barefoot Filipino street boy about ten in an oversized faded t-shirt, asking him something gently. Present-day Philippines, detailed background, no dog, no animals.",
+  "totoy_cu": "close-up of a thin barefoot Filipino street boy about ten in an oversized faded t-shirt, shy, looking down, answering in a small voice, streetlight on his face. Present-day Philippines, detailed background, no dog, no animals.",
+  "bread_split": "close-up of two hands splitting a soft bread roll and offering the bigger half to two small grubby hands, dawn light. Present-day Philippines, detailed background, no dog, no animals.",
+  "curb_eat": "wide shot of an empty street at dawn: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a thin barefoot Filipino street boy about ten in an oversized faded t-shirt sitting on the curb side by side eating bread, a tall closed gate behind them, the first sunlight. Present-day Philippines, detailed background, no dog, no animals.",
+  "curb_back": "from behind and above: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a thin barefoot Filipino street boy about ten in an oversized faded t-shirt sitting on the curb, small against a waking city, pink sky. Present-day Philippines, detailed background, no dog, no animals.",
+  "totoy_smile": "medium close-up of a thin barefoot Filipino street boy about ten in an oversized faded t-shirt grinning with his mouth full of bread, warm morning light. Present-day Philippines, detailed background, no dog, no animals.",
+  "chest_glow": "extreme close-up of a young man's chest, a round shape glowing gold through his grey t-shirt, light spilling between the threads. Present-day Philippines, detailed background, no dog, no animals.",
+  "holo_slot": "a ring of twelve holographic slots, one dark slot igniting gold. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "notebook_writes": "close-up of an old leather notebook open on a knee, a single line of faint golden ink writing itself across the page, illegible scribbled marks only, dawn light. Present-day Philippines, detailed background, no dog, no animals.",
+  "shutter_down": "low wide shot: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pulling down the rolling steel shutter of the garage on rows of shiny cars, determined face. Present-day Philippines, detailed background, no dog, no animals.",
+  "kerchief_tie": "close-up of two hands tying a red kerchief tight around the rail of an empty motorcycle sidecar, morning light. Present-day Philippines, detailed background, no dog, no animals.",
+  "clue_sketch": "over-the-shoulder of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist sketching on a notebook page: a long canal, a small crown, the outline of a coast, illegible marks only. Present-day Philippines, detailed background, no dog, no animals.",
+  "crossing": "low wide shot: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist astride an old motorcycle with an empty sidecar, gripping a bronze medallion in his raised fist, a burst of sea-blue light like a wave swallowing him and the bike. Present-day Philippines, detailed background, no dog, no animals.",
+  "spirit_way": "wide shot: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist arriving on an old motorcycle with an empty sidecar at the end of a long stone spirit way lined with stone figures of officials and animals, an old tomb mound with trees beyond, early morning mist. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "lens_raise": "over-the-shoulder from behind a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist raising a round golden-rimmed lens toward the tomb mound, the light inside the lens racing like time-lapse. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fleet_1417": "a fleet of large wooden sailing ships with woven sails leaving a tropical shore of palms, many small far figures crowding the decks. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "court_1417": "a vast palace courtyard of red walls and golden roofs with bamboo scaffolding on unfinished halls, rows of tiny far figures bowing toward a distant hall, the emperor not visible. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "canal_barge": "a long barge on a wide canal at dusk, under a canopy a sick man lying covered, attendants kneeling around him, seen from far behind. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "tomb_build": "workers in plain robes raising an earthen tomb mound and setting a tall stone stele with illegible carving. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "son_leave": "a young man in island dress stepping onto a boat and looking back, a small group on the bank lifting their hands, seen from a distance. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "family_stay": "a woman in mourning white with two boys and attendants kneeling before a new tomb mound with offerings, seen from behind. Seen through a round golden-rimmed lens, darkness outside the circle. Ming China in the year 1417, generic far figures with no recognisable faces, nothing modern, no weapons.",
+  "descendants_now": "present day: a family laying flowers at the foot of the old tomb, seen only from behind, lanterns and trees, soft morning light. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "indio_tears": "close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist lowering the golden lens, eyes wet, the tomb blurred behind him. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "lens_trail_wall": "a glowing golden trail winding out of a park, across a lane, to the foot of an old crumbling brick wall. Seen through a round golden-rimmed lens, darkness outside the circle, present-day China, nothing readable.",
+  "crate_open": "low angle: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist kneeling behind a crumbling old brick wall prying the lid off a dusty wooden crate full of broken roof tiles, a bronze glint inside, dusk. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fox_block": "low wide shot at dusk: a beautiful young woman with long black hair in a flowing white long dress with wide sleeves, a sweet slow smile stepping gracefully between a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and the crate, lanterns behind her, wind lifting her sleeves. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fox_offer": "close-up of a beautiful young woman with long black hair in a flowing white long dress with wide sleeves, a sweet slow smile holding up a small cup of wine with both hands, lantern light, inviting, her eyes a little too still. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "indio_tempted": "extreme close-up of the eyes of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist, the small wine cup reflected in them, torn. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "nine_tails": "wide shot of an old brick wall lit by a lantern: the shadow of a slender woman on it, and behind the shadow nine long fox tails sweeping slowly. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fox_amber": "medium shot of a beautiful young woman with long black hair in a flowing white long dress with wide sleeves, a sweet slow smile, her eyes turning amber, the faint shape of fox ears in her hair, smile slipping. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "lamp_out": "close-up of a hand pulling a small plain clay oil lamp from a jacket pocket, the wick catching a warm flame by itself, dusk. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "indio_no": "medium close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist holding the small clay lamp, calm and steady, saying no, warm flame light on his face. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "flame_steady": "extreme close-up of a small clay lamp flame burning tall and steady in the wind, sparks of gold, dark background. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fox_true": "low wide shot: in a pool of warm lamplight a large luminous white fox spirit with nine tails recoiling, ethereal and beautiful, not a monster, a crumbling brick wall behind. Detailed full background, night, nothing readable, not a character sheet.",
+  "seen_point": "over-the-shoulder from behind a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pointing calmly at a white nine-tailed fox spirit crouched in lamplight. Detailed full background, night, nothing readable, not a character sheet.",
+  "fox_bow": "high wide shot: a white nine-tailed fox spirit bowing low to a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist, who looks at his own empty open hand. Detailed full background, night, nothing readable, not a character sheet.",
+  "fox_follow": "from behind: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist walking away down a lantern-lit lane with a small clay lamp and pushing an old motorcycle with an empty sidecar, a small white fox following at a distance. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "medallion_home": "extreme close-up of fingertips touching an old round bronze medallion engraved only with a small boat and a simple house, no face, dust on it, lamplight. Detailed full background, night, nothing readable, not a character sheet.",
+  "pahala_light": "low wide shot behind an old brick wall at night: a tall column of soft silver-blue light rising from a small bronze medallion, the light only faintly suggesting the outline of an old standing man, no face, no features, no clothing. Detailed full background, night, nothing readable, not a character sheet.",
+  "pahala_hand": "medium shot: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist kneeling, a soft silver-blue glow resting on his head like a hand, no figure visible, his eyes closed. Detailed full background, night, nothing readable, not a character sheet.",
+  "road_home": "wide shot: from a glowing bronze medallion in the hand of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist a road of golden light unrolls across the ground toward the horizon. Detailed full background, night, nothing readable, not a character sheet.",
+  "lola_kitchen": "wide shot of a small old kitchen in Kawit, Cavite at night: a pot of sinigang steaming on the stove, a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist appearing in a fading glow, a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, a floral house dress turning from the stove, startled. Present-day Philippines, detailed background, no dog, no animals.",
+  "lola_cry": "close-up of a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, a floral house dress, tears behind her round glasses, holding a young man's hands in hers. Present-day Philippines, detailed background, no dog, no animals.",
+  "lola_confess": "two-shot at a small kitchen table: a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, a floral house dress looking down at her hands, confessing, a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist across from her, frozen. Present-day Philippines, detailed background, no dog, no animals.",
+  "father_photo": "close-up of an old faded photograph in a grandmother's hands: a young man with a backpack walking away, his face turned away from the camera. Present-day Philippines, detailed background, no dog, no animals.",
+  "door_torn": "medium close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist at a kitchen table looking toward the open front door, warm light inside, dark rain outside, torn. Present-day Philippines, detailed background, no dog, no animals.",
+  "forehead_kiss": "close-up: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist kissing the forehead of a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, a floral house dress, her eyes closed. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_growl": "medium shot of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist alone on the kitchen porch, holding up a red kerchief, making a comic dog growl face at the camera. Present-day Philippines, detailed background, no dog, no animals.",
+  "holo_slots4": "a ring of twelve holographic slots with four lit gold, above a dim progress bar. Glowing translucent blue-gold holographic interface, no readable text, no letters, no numbers.",
+  "tomb_day": "wide daylight shot of the old tomb mound and its stone stele among trees, red lanterns, a calm park, no people. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "dates_pages": "close-up of three old pages of different books laid side by side, each with a different date written as illegible brush marks, a finger moving between them. Detailed full background, night, nothing readable, not a character sheet.",
+  "fox_scroll": "an old Chinese ink-and-wash scroll painting of a nine-tailed fox among clouds and pines, painted style, no readable text, no seals with letters.",
+  "cast_silhouettes": "wide stylised shot at dusk: silhouettes of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist, a small boy, a grandmother and a young woman in a long coat standing apart on a road, each lit by a different small light. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_rain_door": "low angle through a kitchen doorway at night: a young woman with long black hair in a long dark coat standing outside in the rain, soaked, a closed red umbrella in her hand, waiting. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_ask": "close-up of a young woman with long black hair in a long dark coat, rain on her face, asking quietly. Present-day Philippines, detailed background, no dog, no animals.",
+  "step_aside": "two-shot in a doorway: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist stepping aside to let a young woman with long black hair in a long dark coat in from the rain, neither smiling yet. Present-day Philippines, detailed background, no dog, no animals.",
+  "fork_road": "wide shot at dawn: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist standing at a fork in a country road, one road leading to a small lit house, the other toward the sea and the sunrise. Present-day Philippines, detailed background, no dog, no animals.",
+  "ride_sunrise": "low wide shot: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist riding an old motorcycle toward the sunrise, the empty sidecar's red kerchief streaming in the wind. Present-day Philippines, detailed background, no dog, no animals.",
+  "garage_aerial": "top-down aerial shot of a garage roof opened like a box: fifty vehicles in neat rows, cars, motorcycles, a yacht on a trailer and a helicopter, one tiny figure in the middle. Present-day Philippines, detailed background, no dog, no animals.",
+  "keys_hook": "close-up of dozens of car and motorcycle keys hanging untouched on a wall of hooks, dust on them. Present-day Philippines, detailed background, no dog, no animals.",
+  "watch_drawer": "close-up of an open drawer full of gold watches and boxes, most still in their plastic. Present-day Philippines, detailed background, no dog, no animals.",
+  "pandesal_hood": "close-up of a single small bread roll on the polished hood of a supercar, cold light. Present-day Philippines, detailed background, no dog, no animals.",
+  "canal_today": "wide shot of an old wide canal at Dezhou in the morning, stone embankment, willows, a few barges. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "stele_close": "close-up of an old stone stele with weathered carving, illegible marks only, moss at its base. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "fox_eyes_dark": "extreme close-up of two amber fox eyes glowing in darkness. Detailed full background, night, nothing readable, not a character sheet.",
+  "lantern_lane": "a narrow old lane hung with red paper lanterns at night, wet stones, no people. Present-day Dezhou, Shandong, China, detailed background, no dog, no readable text, no signs with letters.",
+  "sinigang_pot": "close-up of a steaming pot of sinigang soup on an old gas stove, tamarind broth, vegetables. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_umbrella_rain": "close-up of a closed red umbrella in a woman's hand, rain dripping from its tip, a dark coat sleeve. Present-day Philippines, detailed background, no dog, no animals."
+ },
+ "shots": {
+  "0": {
+   "full": "garage_floor"
+  },
+  "1": {
+   "full": "indio_hollow"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "dezhou_vista"
+  },
+  "4": {
+   "full": "watch_wrist"
+  },
+  "5": {
+   "full": "cars_row"
+  },
+  "6": {
+   "full": "helicopter_tarp"
+  },
+  "7": {
+   "full": "bottles_table"
+  },
+  "8": {
+   "full": "sofa_temples"
+  },
+  "9": {
+   "full": "m_turns_door"
+  },
+  "10": {
+   "full": "holo_garage"
+  },
+  "11": {
+   "full": "holo_bar_red"
+  },
+  "12": {
+   "full": "medallions_cold"
+  },
+  "13": {
+   "full": "sidecar_empty"
+  },
+  "14": {
+   "full": "indio_slump"
+  },
+  "15": {
+   "full": "gate_out"
+  },
+  "16": {
+   "full": "totoy_post"
+  },
+  "17": {
+   "full": "crouch_ask"
+  },
+  "18": {
+   "full": "totoy_cu"
+  },
+  "19": {
+   "full": "bread_split"
+  },
+  "20": {
+   "full": "curb_eat"
+  },
+  "21": {
+   "full": "curb_back"
+  },
+  "22": {
+   "full": "totoy_smile"
+  },
+  "23": {
+   "full": "chest_glow"
+  },
+  "24": {
+   "full": "holo_slot"
+  },
+  "25": {
+   "full": "notebook_writes"
+  },
+  "26": {
+   "full": "shutter_down"
+  },
+  "27": {
+   "full": "kerchief_tie"
+  },
+  "28": {
+   "full": "clue_sketch"
+  },
+  "29": {
+   "full": "crossing"
+  },
+  "30": {
+   "full": "spirit_way"
+  },
+  "31": {
+   "full": "lens_raise"
+  },
+  "32": {
+   "full": "fleet_1417"
+  },
+  "33": {
+   "full": "court_1417"
+  },
+  "34": {
+   "full": "canal_barge"
+  },
+  "35": {
+   "full": "tomb_build"
+  },
+  "36": {
+   "full": "son_leave"
+  },
+  "37": {
+   "full": "family_stay"
+  },
+  "38": {
+   "full": "descendants_now"
+  },
+  "39": {
+   "full": "indio_tears"
+  },
+  "40": {
+   "full": "lens_trail_wall"
+  },
+  "41": {
+   "full": "crate_open"
+  },
+  "42": {
+   "full": "fox_block"
+  },
+  "43": {
+   "full": "fox_offer"
+  },
+  "44": {
+   "full": "indio_tempted"
+  },
+  "45": {
+   "full": "nine_tails"
+  },
+  "46": {
+   "full": "fox_amber"
+  },
+  "47": {
+   "full": "lamp_out"
+  },
+  "48": {
+   "full": "indio_no"
+  },
+  "49": {
+   "full": "flame_steady"
+  },
+  "50": {
+   "full": "fox_true"
+  },
+  "51": {
+   "full": "seen_point"
+  },
+  "52": {
+   "full": "fox_bow"
+  },
+  "53": {
+   "full": "fox_follow"
+  },
+  "54": {
+   "full": "medallion_home"
+  },
+  "55": {
+   "full": "pahala_light"
+  },
+  "56": {
+   "full": "pahala_hand"
+  },
+  "57": {
+   "full": "road_home"
+  },
+  "58": {
+   "full": "lola_kitchen"
+  },
+  "59": {
+   "full": "lola_cry"
+  },
+  "60": {
+   "full": "lola_confess"
+  },
+  "61": {
+   "full": "father_photo"
+  },
+  "62": {
+   "full": "door_torn"
+  },
+  "63": {
+   "full": "forehead_kiss"
+  },
+  "64": {
+   "full": "indio_growl"
+  },
+  "65": {
+   "full": "holo_slots4"
+  },
+  "66": {
+   "full": "tomb_day"
+  },
+  "67": {
+   "full": "dates_pages"
+  },
+  "68": {
+   "full": "fox_scroll"
+  },
+  "69": {
+   "full": "cast_silhouettes"
+  },
+  "70": {
+   "full": "m_rain_door"
+  },
+  "71": {
+   "full": "m_ask"
+  },
+  "72": {
+   "full": "step_aside"
+  },
+  "73": {
+   "char": "indio_point_modern",
+   "plate": "kawit_kitchen",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "74": {
+   "full": "fork_road"
+  },
+  "75": {
+   "full": "ride_sunrise"
+  },
+  "90": {
+   "full": "garage_aerial"
+  },
+  "91": {
+   "full": "keys_hook"
+  },
+  "92": {
+   "full": "watch_drawer"
+  },
+  "93": {
+   "full": "pandesal_hood"
+  },
+  "94": {
+   "full": "canal_today"
+  },
+  "95": {
+   "full": "stele_close"
+  },
+  "96": {
+   "full": "fox_eyes_dark"
+  },
+  "97": {
+   "full": "lantern_lane"
+  },
+  "98": {
+   "full": "sinigang_pot"
+  },
+  "99": {
+   "full": "m_umbrella_rain"
+  }
+ }
+}
