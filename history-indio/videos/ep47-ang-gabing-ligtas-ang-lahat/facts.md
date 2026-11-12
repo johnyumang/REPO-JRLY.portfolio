@@ -17,3 +17,7 @@
 | 4 | "Bukas, haharapin ko na ang ama ng kasinungalingan." (67) | John 8:44 calls the devil a liar and the father of it | certain (text), alluded to, not quoted | Juan 8:44, ADB1905: https://www.biblegateway.com/passage/?search=Juan+8%3A44&version=ADB1905 |
 | 5 | "Sa London, tumalon si Jack mula sa dilim." (44) | Spring-heeled Jack is Victorian London folklore (first reported 1837); here it recalls Episode 17's fiction | folklore | Episode 17 facts.md |
 | — | the wishes, the arks, the family, M and the night, the child (all other sentences) | fiction | fiction (labelled in sentence 66, captions and pinned comment) | — |
+
+**Exact text, Ang Dating Biblia (1905)** (from the abtag files of github.com/nehemiaharchives/bbl, read 2026-11-12). The script quotes no verse; sentences 64 and 67 are SUMMARIES:
+- Genesis 11:9: "Kaya ang pangalang itinawag ay Babel; sapagka't doon ginulo ng Panginoon ang wika ng buong lupa: at mula roon ay pinanabog sila ng Panginoon sa ibabaw ng buong lupa."
+- Juan 8:44 (end): "...sapagka't siya'y isang sinungaling, at ama nito."
