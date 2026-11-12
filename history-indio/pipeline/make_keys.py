@@ -26,6 +26,8 @@ def gen(kind, n):
     os.makedirs(f'{v}/{kind}', exist_ok=True); out = f'{v}/{kind}/{n}.jpg'
     if kind == 'chars': prompt = K['white'] + K[kind][n] + ' ' + K['style'] + END          # subject first: the free model follows the start of the prompt best
     else: prompt = K['style'] + ('Background art only, no people, no animals: ' if kind == 'plates' else '') + K[kind][n] + END
+    for x, y in K.get('nv_replace', {}).items(): prompt = prompt.replace(x, y)             # the free endpoint refuses prompts over 800 characters
+    if len(prompt) > 800: print(n, 'prompt too long:', len(prompt)); prompt = prompt[:800]
     seed = zlib.crc32(n.encode()) % 9999 + (len(redo) and n in redo) * int.from_bytes(os.urandom(2), 'big')
     for t in range(6):                                                    # the free endpoint sometimes answers 504 or with no image
         try:
