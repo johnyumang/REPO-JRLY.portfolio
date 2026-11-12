@@ -19,11 +19,12 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 - Every delivery ends with ready-to-paste captions (Facebook, YouTube Shorts, TikTok, Instagram, pinned sources comment).
 
 ## Story format (user direction, 2026-11-12)
-Every episode is a journey: Indio travels and ends up witnessing one significant event in history.
-- He arrives not knowing what is going on and is puzzled at first.
-- Small everyday moments pull him in: he walks around, sees a vendor (ale), hears sudden shouting, or notices a detail that later turns out to be the event itself.
-- He meets someone there, and that person is what connects him to the story and the event.
-Write the script as this little story with small things that link up, not as a lecture. (The exact beats are the user's examples; the wording of this summary is mine.)
+Every episode is a journey: Indio travels and ends up witnessing one significant event in history. Tell it as a small story with little things that link up, not as a lecture.
+**Vary it every episode. Do not reuse the same shape** (user correction: he must NOT always arrive confused). Change three things each time and check the previous episodes so none repeats back to back:
+- **How he arrives / his state**: puzzled is only one option. Others (my suggestions): he comes on purpose looking for something, is hungry or tired and just wants to eat, is in a hurry, is mistaken for someone else, is already in the middle of trouble, is on an errand for someone.
+- **How he gets connected to the event**: meeting a person is only one option. Others (my suggestions): an object he picks up or is handed, a job he takes, a mistake he makes, something he overhears, someone he helps, someone chasing him.
+- **The twist**: a different kind each episode (who the person really is, what the small detail really was, the event is not what the textbooks say, he was looking at the wrong side, and so on).
+The user's own examples of small beats: he walks around, sees a vendor (ale), hears sudden shouting, notices a detail that turns out to be the event.
 
 ## Open problem: real character movement
 The user wants frame-by-frame anime motion, not animated stills. Tried so far:
