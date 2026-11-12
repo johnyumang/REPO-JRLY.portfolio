@@ -257,3 +257,31 @@ Checks the eight rows of "Season 2, version 3: in the Philippines" (SERIES.md). 
 | 18 | Acapulco (Guerrero) | **Nahual** | Mesoamerican person who shapeshifts into an animal counterpart | WP "Nagual" | strong (Mexico-wide). La Llorona is an alternative (not checked) |
 | 19 | Lake Lanao | **Sarimanok** | legendary bird of the Maranao, symbol of good fortune, from the totem bird Itotoro | WP "Sarimanok" | strong (Maranao, Lanao) |
 | 20 | Mactan / Cebu | **Siyokoy** | sea humanoid with scales and fins, said to drown people; the name comes from Hokkien *shui gui* | WP "Siyokoy" | fair (pan-Philippine); the Bakunawa is already used in Ep 13 |
+
+## Version 4, additions (worker, 2026-11-12)
+
+### The 2025 flood-control investigations (for fairness beats: name them only in general)
+All [summary only]: news summaries from search, no article opened. Use only the general facts below; **never name a person, company, office or place from them in a script.** Every contractor and official in the story is invented.
+- **What was alleged in general:** flood-control works that were paid for but not built, or built far below what was paid ("ghost projects"), across the country; and that documents were tampered with or destroyed (the commission said so in September 2025).
+- **Who investigated:**
+  - The **Independent Commission for Infrastructure (ICI)**, created in **September 2025** by Executive Order No. 94 and chaired by a retired Supreme Court justice. It covered infrastructure irregularities of the past decade, not only flood control (Khaleej Times; The Star, 2025-09-13).
+  - Inquiries by **both houses of Congress** (Gulf News; Intellinews).
+  - The **Ombudsman**, which received charge recommendations and the commission's files (Tribune, 2025-10-13; Philstar, 2026-03-14).
+  - The **NBI**, which made charge recommendations [summary].
+- **Numbers reported:** the public works secretary said 421 of about 8,000 inspected flood-control projects were ghost projects (Asia News Network, 2025). The commission set field validation of the 421 (Philstar, 2025-10-22). The military separately flagged about 250 nonexistent projects (Asia News Network).
+- **How it ended:** the commission lost two of its three members, and it closed on 31 March 2026, turning its files over to the Ombudsman (Philstar, 2026-03-14).
+- **Safe sentence for a script:** "Totoo: noong 2025, inimbestigahan ng isang komisyong itinatag ng Pangulo, ng Kongreso at ng Ombudsman ang mga proyektong flood control na binayaran pero hindi raw naitayo." Add "raw" or "ayon sa imbestigasyon" wherever cases are not yet decided.
+
+### The tikbalang: how it is tamed (for Episode 12, Laguna; Indio's first living mount)
+- **WP "Tikbalang" (read in full):**
+  - "By one account" the tikbalang's mane has sharp spines, and the **three thickest** matter most. Whoever obtains one can use it as an anting-anting to keep the tikbalang as a servant.
+  - It must first be restrained, by **leaping onto it and tying it with a specially prepared cord**. The tamer then holds on while it flies through the air, fighting to throw him off, until it tires.
+  - Its horse form came only after horses arrived; early accounts do not give it a horse shape.
+- **Popular retellings [summary only, blogs and secondary pages]:** "three golden hairs" in place of spines; it serves its tamer for life; the riddle it asks travellers. These are not in the written-folklore account above, so do not present them as the tradition.
+- **For Episode 12:**
+  - Indio does not kill or wound it. The cord and the ride are folklore, and pulling a spine is painful.
+  - Show it as earned rather than taken: it lets him take one of the three spines after the ride.
+  - "Nakita na kita." and the Sandugo seal it as with every creature.
+  - It is recorded under **Sakay** as his first living mount, and also under Mga Kakampi.
+  - Label it "kuwentong-bayan".
+- **Laguna tie:** the tikbalang is Tagalog-region folklore, with no Laguna-specific source found. Mariang Makiling is the strong Laguna creature (see the creature table above); she could be the one who lets him take the spine.
