@@ -1,0 +1,346 @@
+{
+ "_note": "Episode 12 (S2E4) keyframes (written from Kabanata 12, story file version 1). Year 900 at Laguna: generic people, never likenesses; Jayadewa appears only as light. The tikbalang is drawn from the folklore (tall, thin, long horse-like face, spiny mane), never gory. The woman in white is far away, small, never named. Present-day scenes have no dog. The Punyal is shown only cutting the net. Copied from Episode 11: full intro; char usman_growl. Shots follow sentences.json; k90+ are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {
+  "forest_dusk": "an old dark forest by a narrow river in Laguna at dusk, balete trees, mist, nothing modern."
+ },
+ "chars": {
+  "usman_growl": "(copied from Episode 11)"
+ },
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "ride_hook": "low-angle action shot: a young Filipino man with a red headband and a plain beige tunic with a red sash clinging to the neck of a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory as it leaps high above the treetops at dusk, wind, motion, deep view down to a river and lake far below. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "ten_cars": "wide comic shot of a big driveway full of new vehicles: an SUV, a red sports car, two new motorcycles, a lean young Filipino man with a black topknot in expensive new casual clothes, a gold watch, a red handkerchief on his wrist spinning a ring of car keys on his finger, grinning. Present-day Philippines, detailed background, no dog, no animals.",
+  "lumbang_mouth": "wide aerial view of a small river winding into a huge lake, a fishing town on its bank, present day.",
+  "cars_keys": "top-down close-up of dozens of car keys and key fobs on a glass table, a gold watch among them.",
+  "tagaytay_house": "wide high view of a modern hillside house with glass walls overlooking a big blue lake with a volcano island, a lean young Filipino man with a black topknot in expensive new casual clothes, a gold watch, a red handkerchief on his wrist on the balcony talking on a phone. Present-day Philippines, detailed background, no dog, no animals.",
+  "sign_papers": "close-up of a young man's hand with a gold watch signing a thick stack of papers with a fancy pen, laughing, a phone on the table. Present-day Philippines, detailed background, no dog, no animals.",
+  "m_smile_short": "close-up of a young woman with long black hair in a long dark coat with a small tired smile that is fading, looking at someone off-frame, evening light. Present-day Philippines, detailed background, no dog, no animals.",
+  "old_moto_garage": "low shot in a big garage: an old dented motorcycle with a small empty sidecar pushed into a dusty corner, a red kerchief hanging from the sidecar rail, shiny new cars blurred in the foreground, deep perspective. Present-day Philippines, detailed background, no dog, no animals.",
+  "notebook_debt": "close-up of a small worn notebook open, golden ink drawing itself: a thin metal plate and the mouth of a river opening into a wide lake, no readable text.",
+  "m_rivermouth": "over-the-shoulder shot from behind a young woman with long black hair in a long dark coat pointing at the mouth of a narrow river opening into a wide lake, fishing boats, reeds, present day, deep perspective. Present-day Philippines, detailed background, no dog, no animals.",
+  "jump_lumban": "wide high-angle shot: swirling golden light and clock gears bursting at a river mouth by a lake, a young man and a woman in a dark coat inside it, a black dog appearing in the light.",
+  "usman_ride_air": "low comic shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief sitting upright in mid-air inside golden light as if riding in an invisible car, paws forward, tongue out.",
+  "lake900": "wide shot at a lake shore in the year 900: wooden houses on stilts, outrigger boats, people in loincloths and wraps, a gathering under a large tree, deep perspective to the water. Detailed full background, a lake shore in Laguna, Philippines, in the year 900, nothing modern, no weapons, not a character sheet.",
+  "family_kneel": "medium shot from behind a crowd: a family kneeling on a mat before seated chiefs in fine cloth and gold, a scribe bent over a thin metal sheet, faces generic and far. Detailed full background, a lake shore in Laguna, Philippines, in the year 900, nothing modern, no weapons, not a character sheet.",
+  "lens_plate": "view through a round golden-rimmed lens: a thin copper sheet covered with fine incised curling script glowing gold; darkness outside the circle; no readable letters.",
+  "kawi_close": "extreme close-up of ten lines of fine old incised script on copper, catching light, no readable letters, no modern alphabet.",
+  "gold_weigh": "close-up of a small balance scale weighing tiny gold pieces, hands of a chief releasing a cord, a woman's hands pressed together in relief.",
+  "chiefs_seated": "medium low-angle shot of two seated chiefs in fine cloth and gold ornaments, one raising a hand to declare, seen from the side, faces generic.",
+  "receipt_hand": "close-up of a thin copper plate being handed from one pair of hands to another, a sense of a debt ended, warm afternoon light.",
+  "oldest_doc": "present-day museum hall: a thin copper plate with incised script in a lit glass case, visitors far away, no readable text, deep perspective.",
+  "indio_watch_900": "seen from behind, a young Filipino man with a red headband and a plain beige tunic with a red sash and a young woman with long black hair in a long dark coat crouching behind reeds, watching a gathering by the lake, a black dog lying low between them. Detailed full background, a lake shore in Laguna, Philippines, in the year 900, nothing modern, no weapons, not a character sheet.",
+  "forest_path": "low wide shot along a forest path by a river at dusk, an old wooden boat half sunk at the bank in the distance, a young man and a woman walking toward it. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "tikbalang_net": "medium shot: a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory hanging tangled in a heavy steel mesh net strung between two trees, struggling, one leg hurt. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "usman_alarm": "low close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief crouched, ears back, staring up at something huge in the trees. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "net_leg": "close-up of a long thin creature leg caught in a steel net, a scrape on it, the net cutting into bark, not gory.",
+  "tyre_tracks": "close-up of fresh tyre tracks in mud at the foot of a tree and a cigarette end printed with a small mark of three stacked triangles. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "balete_roots": "low shot of the huge twisted roots of a balete tree, an old Filipino dagger with a curved hilt half buried among them, glowing faintly in the dusk.",
+  "dagger_pick": "close-up of a young man's hand lifting an old dagger from tree roots, golden light running along the blade, soil falling.",
+  "cut_net": "action close-up: an old dagger slicing cleanly through a steel net, the cut strands parting with sparks, a creature's eye wide behind it.",
+  "tikbalang_throw": "wide action shot: a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory rearing and flinging a young Filipino man with a red headband and a plain beige tunic with a red sash up into the air, leaves flying. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "leap_back": "low dynamic shot: a young Filipino man with a red headband and a plain beige tunic with a red sash leaping onto the back of a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory, grabbing the spiny mane. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "flight_trees": "high aerial action shot: a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory bounding high over the forest canopy with a young Filipino man with a red headband and a plain beige tunic with a red sash clinging on, a lake and a mountain far off, dusk sky. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "woman_white": "wide shot at the edge of a forest at dusk: a woman in a long flowing white dress standing very still among the trees, far away, only nodding, mist, mysterious, face soft and small.",
+  "spine_given": "close-up: a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory lowering its long neck, and a young man's hand gently taking one long thick spine from its mane, calm light.",
+  "nakita_tb": "low two-shot: a young Filipino man with a red headband and a plain beige tunic with a red sash looking straight into the large wild eye of a tall thin dark creature of Philippine folklore with a long horse-like face, very long legs and a mane of long sharp spines, wild eyes, not gory, the creature calm now, foreheads close. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "sandugo_tb": "close-up of a woman's hand raising a small crescent-moon medallion glowing gold, a thread of light reaching to a tall dark creature's mane. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "usman_ask": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief whispering with one paw raised, eyes wide, looking toward the forest edge. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "empty_edge": "wide shot of an empty forest edge in mist where someone stood a moment ago, white petals drifting. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "boat_dig": "medium shot: a young Filipino man with a red headband and a plain beige tunic with a red sash kneeling and reaching under the rotten keel of an old half-sunk wooden boat at a river bank, mud on his arms. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "jayadewa_light": "low wide shot: a straight column of cold white-gold light rising from a small bronze medallion at a river bank, the light only faintly suggesting a standing man holding a writing stylus, no face, no features.",
+  "medal_kasulatan": "close-up of a palm holding a round bronze medallion engraved with lines of tiny script and a quill, glowing.",
+  "m_explain": "medium shot: a young woman with long black hair in a long dark coat explaining calmly with one finger raised, a riverside forest at dusk behind her. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "m_heart": "close-up of a young woman with long black hair in a long dark coat touching her own chest, serious eyes. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "phone_contract": "close-up of a smartphone screen showing a long contract with one paragraph glowing red as if revealed, a man's hand with a gold watch, no readable text.",
+  "indio_shrug": "medium shot: a young Filipino man with a red headband and a plain beige tunic with a red sash laughing and shrugging carelessly, holding a phone. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "usman_serious": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief with a serious, disappointed face, ears flat. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "m_warn12": "two-shot: a young woman with long black hair in a long dark coat speaking quietly to a young Filipino man with a red headband and a plain beige tunic with a red sash who looks away, dusk forest. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "holo12": "low wide shot: a translucent blue-gold hologram floating above a young man's forearm in a forest at dusk, a dagger icon and a horse-faced creature icon glowing, a woman and a black dog looking up.",
+  "holo_sign12": "extreme close-up of the end of a holographic progress bar finishing in a single glowing hooked symbol like a question mark. Against a dark forest night background, no people, no faces, glowing translucent blue-gold hologram, no readable text, no letters, no numbers.",
+  "usman_list": "low shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief pointing at the floating hologram with his paw, offended and comic. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "indio_pat": "two-shot: a young Filipino man with a red headband and a plain beige tunic with a red sash laughing and rubbing the black dog's head, the dog pretending to be annoyed. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "museum_plate2": "close-up of an old thin copper plate in a museum case under a spotlight, lines of incised script, no readable letters.",
+  "lake_java": "top-down view of an old hand-drawn sea chart with the islands of Luzon and Java, a dotted line between them with a small light like a question, no readable text.",
+  "makiling_mt": "wide shot of a forested mountain shaped like a woman lying down, above a wide lake, mist at dawn, nothing modern.",
+  "ripple_net": "low shot of a broken steel net lying empty on forest roots, moonlight, cut strands, tyre tracks leading away.",
+  "party_house": "wide shot inside a glass-walled hilltop house at night: a loud party, many strangers dancing, bottles, lights, a lean young Filipino man with a black topknot in expensive new casual clothes, a gold watch, a red handkerchief on his wrist in the middle laughing, the lake dark outside.",
+  "m_leave": "medium shot: a young woman with long black hair in a long dark coat walking out through a glass door alone, not looking back, party lights behind her, sad. Present-day Philippines, detailed background, no dog, no animals.",
+  "gate_man": "over-the-shoulder shot from behind a young woman with long black hair in a long dark coat at a gate at night: across the road a man in a dark jacket photographing a row of new cars with a phone, face hidden. Present-day Philippines, detailed background, no dog, no animals.",
+  "notebook_mass": "close-up of a small worn notebook open, golden ink drawing itself: a cross on a hill above the sea and two crowned figures holding out food, no readable text.",
+  "indio_point12": "close-up: a lean young Filipino man with a black topknot in expensive new casual clothes, a gold watch, a red handkerchief on his wrist pointing at the viewer with a serious face, a lake view behind. Present-day Philippines, detailed background, no dog, no animals.",
+  "indio_ask12": "medium shot: a lean young Filipino man with a black topknot in expensive new casual clothes, a gold watch, a red handkerchief on his wrist holding up a thin copper plate replica, asking a question with a raised eyebrow. Present-day Philippines, detailed background, no dog, no animals.",
+  "walk_lake": "seen from behind, a young man and a woman in a dark coat walking apart along a lake shore at sunset, a long gap between them, long sight line. Present-day Philippines, detailed background, no dog, no animals.",
+  "tb_mane": "extreme close-up of a long mane of sharp dark spines blowing in wind, one thicker spine catching the light.",
+  "forest_eye": "extreme close-up of a large wild animal eye with a horizontal pupil reflecting a young man's face, not gory.",
+  "lake_dawn12": "low wide shot across a calm lake at dawn with fishing pens and herons, a distant mountain, mist, nothing modern.",
+  "scribe_hands": "extreme close-up of a scribe's hands incising fine curling script into a thin sheet of copper with a pointed tool, metal shavings, warm light, no readable letters.",
+  "tb_hoof": "close-up of a long dark hoofed foot stamping on forest roots, dust and leaves flying.",
+  "canopy_dusk": "high wide view over a dark forest canopy at dusk with a winding river and a far lake, birds rising, long sight line.",
+  "stilts900": "low shot under wooden stilt houses over shallow lake water in the year 900, canoes tied, nets drying, nothing modern.",
+  "copper_glint": "extreme close-up of copper glinting in shallow riverbank mud, a hand brushing silt away, no readable text.",
+  "m_coat_wind": "low shot of a young woman with long black hair in a long dark coat standing on a riverbank at dusk, her long coat blowing in the wind, looking toward the forest. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "indio_flight_face": "close-up of a young Filipino man with a red headband and a plain beige tunic with a red sash face in the wind, terrified and laughing at once, high above trees. Detailed full background, a dark old forest by a river in Laguna at dusk, nothing modern, no weapons, not a character sheet.",
+  "party_bottles": "close-up of many half-empty bottles and glasses on a glass table under coloured party lights, a phone buzzing, no readable labels.",
+  "phone_flash": "close-up of a phone camera flash going off in the dark across a road, the shape of a man behind it.",
+  "lake_moon12": "wide shot of a big lake at night under a moon, a lit hilltop house far away, quiet water, deep perspective.",
+  "jayadewa_scroll": "close-up of glowing lines of light script floating up from a small bronze medallion into the dusk air, no readable letters.",
+  "kawi_light": "close-up of a thin copper plate on a woven mat with sunlight crossing its incised lines, no readable letters.",
+  "tb_rest": "wide shot of a tall thin spiny-maned creature of folklore lying calm under a balete tree at night, a young man sitting against its side, fireflies, peaceful."
+ },
+ "shots": {
+  "0": {
+   "full": "ride_hook"
+  },
+  "1": {
+   "full": "ten_cars"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "lumbang_mouth"
+  },
+  "4": {
+   "full": "cars_keys"
+  },
+  "5": {
+   "full": "tagaytay_house"
+  },
+  "6": {
+   "full": "sign_papers"
+  },
+  "7": {
+   "full": "m_smile_short"
+  },
+  "8": {
+   "full": "old_moto_garage"
+  },
+  "9": {
+   "full": "notebook_debt"
+  },
+  "10": {
+   "full": "m_rivermouth"
+  },
+  "11": {
+   "full": "jump_lumban"
+  },
+  "12": {
+   "full": "usman_ride_air"
+  },
+  "13": {
+   "full": "lake900"
+  },
+  "14": {
+   "full": "family_kneel"
+  },
+  "15": {
+   "full": "lens_plate"
+  },
+  "16": {
+   "full": "kawi_close"
+  },
+  "17": {
+   "full": "gold_weigh"
+  },
+  "18": {
+   "full": "chiefs_seated"
+  },
+  "19": {
+   "full": "receipt_hand"
+  },
+  "20": {
+   "full": "oldest_doc"
+  },
+  "21": {
+   "full": "indio_watch_900"
+  },
+  "22": {
+   "full": "forest_path"
+  },
+  "23": {
+   "full": "tikbalang_net"
+  },
+  "24": {
+   "full": "usman_alarm"
+  },
+  "25": {
+   "full": "net_leg"
+  },
+  "26": {
+   "full": "tyre_tracks"
+  },
+  "27": {
+   "full": "balete_roots"
+  },
+  "28": {
+   "full": "dagger_pick"
+  },
+  "29": {
+   "full": "cut_net"
+  },
+  "30": {
+   "full": "tikbalang_throw"
+  },
+  "31": {
+   "full": "leap_back"
+  },
+  "32": {
+   "full": "flight_trees"
+  },
+  "33": {
+   "full": "woman_white"
+  },
+  "34": {
+   "full": "spine_given"
+  },
+  "35": {
+   "full": "nakita_tb"
+  },
+  "36": {
+   "full": "sandugo_tb"
+  },
+  "37": {
+   "full": "usman_ask"
+  },
+  "38": {
+   "full": "empty_edge"
+  },
+  "39": {
+   "full": "boat_dig"
+  },
+  "40": {
+   "full": "jayadewa_light"
+  },
+  "41": {
+   "full": "medal_kasulatan"
+  },
+  "42": {
+   "full": "m_explain"
+  },
+  "43": {
+   "full": "m_heart"
+  },
+  "44": {
+   "full": "phone_contract"
+  },
+  "45": {
+   "full": "indio_shrug"
+  },
+  "46": {
+   "full": "usman_serious"
+  },
+  "47": {
+   "full": "m_warn12"
+  },
+  "48": {
+   "full": "holo12"
+  },
+  "49": {
+   "full": "holo_sign12"
+  },
+  "50": {
+   "full": "usman_list"
+  },
+  "51": {
+   "full": "indio_pat"
+  },
+  "52": {
+   "char": "usman_growl",
+   "plate": "forest_dusk",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.55
+  },
+  "53": {
+   "full": "museum_plate2"
+  },
+  "56": {
+   "full": "lake_java"
+  },
+  "57": {
+   "full": "makiling_mt"
+  },
+  "58": {
+   "full": "ripple_net"
+  },
+  "59": {
+   "full": "party_house"
+  },
+  "60": {
+   "full": "m_leave"
+  },
+  "61": {
+   "full": "gate_man"
+  },
+  "62": {
+   "full": "notebook_mass"
+  },
+  "63": {
+   "full": "indio_point12"
+  },
+  "64": {
+   "full": "indio_ask12"
+  },
+  "65": {
+   "full": "walk_lake"
+  },
+  "90": {
+   "full": "tb_mane"
+  },
+  "91": {
+   "full": "forest_eye"
+  },
+  "92": {
+   "full": "lake_dawn12"
+  },
+  "93": {
+   "full": "scribe_hands"
+  },
+  "94": {
+   "full": "tb_hoof"
+  },
+  "95": {
+   "full": "canopy_dusk"
+  },
+  "96": {
+   "full": "stilts900"
+  },
+  "97": {
+   "full": "copper_glint"
+  },
+  "98": {
+   "full": "m_coat_wind"
+  },
+  "99": {
+   "full": "indio_flight_face"
+  },
+  "100": {
+   "full": "party_bottles"
+  },
+  "101": {
+   "full": "phone_flash"
+  },
+  "102": {
+   "full": "lake_moon12"
+  },
+  "103": {
+   "full": "jayadewa_scroll"
+  },
+  "104": {
+   "full": "kawi_light"
+  },
+  "105": {
+   "full": "tb_rest"
+  }
+ }
+}
