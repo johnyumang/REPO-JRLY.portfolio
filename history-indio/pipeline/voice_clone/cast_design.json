@@ -538,6 +538,42 @@
     150,
     340
    ]
+  },
+  "LOLA AGARTHA": {
+   "descriptions": [
+    "A very old woman over eighty, tired, dry and quiet voice, thin and papery, kind, slow and soft, low energy, a little breathy, Filipino accent",
+    "An ancient, frail elder woman, faint, hushed and weary voice, gentle, very slow, Filipino accent"
+   ],
+   "ref_text": "Matagal na kaming nakatira sa ilalim ng lupa, anak. Malayo na ang araw para sa amin. Pagod na ang aking mga mata, pero naaalala ko pa ang liwanag. Umupo ka. Hindi ka namin sasaktan dito.",
+   "sample": "Mag-ingat ka sa itaas. Hindi na kami makakasama sa iyo.",
+   "f0_hz": [
+    100,
+    260
+   ]
+  },
+  "VANGIE": {
+   "descriptions": [
+    "A woman in her thirties, an engineer, quiet and careful voice, a little nervous at first then steady, clear and precise, medium pitch, Filipino accent",
+    "A soft-spoken professional woman, careful, earnest voice, shaky then firm, Filipino accent"
+   ],
+   "ref_text": "Pasensya na po, medyo kinakabahan ako. Pero hindi na ako puwedeng manahimik. Nakita ko po ang mga plano. Hindi ito ang ipinagawa. Kulang ang bakal, at manipis ang semento. May papeles po ako, at handa akong magsalita.",
+   "sample": "Ito po ang orihinal na disenyo. Ikumpara po ninyo.",
+   "f0_hz": [
+    150,
+    300
+   ]
+  },
+  "GORIO": {
+   "descriptions": [
+    "A politician in his sixties, warm, smooth and folksy public voice with a low, patronising purr, confident and practised, medium-low pitch, Filipino accent",
+    "A veteran senator, genial booming voice that drops to a soft condescending murmur, unhurried, Filipino accent"
+   ],
+   "ref_text": "Mga kababayan, kayo ang dahilan kung bakit ako narito. Hindi ko kayo pababayaan. Pero ikaw, hijo, makinig ka sa akin. Bata ka pa. Hindi mo pa naiintindihan kung paano umiikot ang mundo. Huwag kang magmadali.",
+   "sample": "Ngumiti ka sa kamera, hijo. Kaibigan tayo rito.",
+   "f0_hz": [
+    70,
+    180
+   ]
   }
  }
 }
