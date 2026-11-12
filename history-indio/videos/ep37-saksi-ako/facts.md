@@ -11,6 +11,7 @@
 
 | # | Spoken (sentence no.) | Claim | Status | Sources |
 |---|---|---|---|---|
+| 0 | "Trenta'y singko na ako, senador, at bago ang pagdinig, kailangan ko ng tatlong bagay." (4) | Indio's age at the office the episode shows: 35, a sitting senator in his first year (SERIES.md rule: scripts state his age at each office; Ep38 later says 38) | fiction (the character's age), consistent with the Constitution's minimum age of 35 for senators (Art. VI sec. 3) | SERIES.md line 342; this file, "Age" line; ep38 script ("Tatlumpu't walong taon na ako, senador pa rin") |
 | 1 | "Ang Kasulatang Tanso ng Laguna, na ayon sa mga iskolar ay nagsasabing malaya na sa utang na ginto ang mga anak ni Namwaran." (16) | the plate records the release of Namwaran's descendants from a gold debt | certain (as read by scholars) | https://en.wikipedia.org/wiki/Laguna_Copperplate_Inscription ; https://opinion.inquirer.net/98769/a-receipt-in-copper (A. Ocampo) [summary only, 2026-11-12]; season2/research.md |
 | 2 | "...taong 822 ng kalendaryong Saka, o mga taong 900, ang pinakamatandang dokumentong may petsa sa Pilipinas." (57) | dated Saka 822 = about 900 CE; earliest calendar-dated document found in the Philippines | certain | as row 1 |
 | 3 | "Natagpuan ito malapit sa ilog Lumbang sa Laguna, at si Antoon Postma ang unang nakabasa nito." (58) | found near the Lumbang River, Lumban, Laguna; first deciphered by Antoon Postma | certain | as row 1 |
