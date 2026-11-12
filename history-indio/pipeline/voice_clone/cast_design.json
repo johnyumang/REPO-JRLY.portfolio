@@ -393,6 +393,114 @@
     75,
     180
    ]
+  },
+  "PACING": {
+   "descriptions": [
+    "An old fisherwoman around seventy, dry, kind and slow voice, weathered and a little raspy, plain-spoken, low for a woman, Filipino accent",
+    "An elderly woman of the sea, husky, dry humoured, unhurried and gentle, Filipino accent"
+   ],
+   "ref_text": "Naku, iho, huwag kang magmadali sa dagat. Hindi siya nakikinig sa nagmamadali. Apatnapung taon na akong namamalakaya rito sa Samar. Kaya kung sinabi kong uuwi na tayo, uuwi na tayo, ha?",
+   "sample": "Kumain ka muna. Mahaba pa ang gabi, at malakas ang alon.",
+   "f0_hz": [
+    120,
+    260
+   ]
+  },
+  "TALA": {
+   "descriptions": [
+    "A young woman around twenty-five, calm, clear and resonant voice with an otherworldly stillness, slightly airy, few words, slow and even, Filipino accent",
+    "A mysterious young woman, cool, pure and luminous voice, quiet and grave, unhurried, Filipino accent"
+   ],
+   "ref_text": "Hindi ako galing dito, at hindi rin ako ganap na galing doon. Matagal na kitang pinapanood, Indio. Kapatid mo ako. Hindi mo kailangang maniwala ngayon. Pero darating ang araw na kailangan mo ako.",
+   "sample": "Tumingin ka sa langit. Doon ako nagmula.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "SEBYO": {
+   "descriptions": [
+    "An old master boat-builder in his seventies, unhurried, warm and a little gruff male voice, low and grainy, Filipino accent",
+    "An elderly craftsman, rough, kindly and slow male voice, gravelly, Filipino accent"
+   ],
+   "ref_text": "Ang bangka, hindi minamadali, iho. Bawat tabla, kailangang pakinggan bago ipako. Ganito rin ang ginawa ng lolo ko, at ng lolo niya. Kung gusto mong matuto, hawakan mo itong lagari, at huwag kang magreklamo.",
+   "sample": "Tingnan mo ito. Ganito ang tamang dugtong ng tabla.",
+   "f0_hz": [
+    65,
+    170
+   ]
+  },
+  "HIGANTE": {
+   "descriptions": [
+    "A giant with a very deep, slow, heavy male voice, sorrowful and tired more than fierce, resonant but soft, Filipino accent",
+    "An ancient giant, low rumbling mournful voice, very slow, weary, Filipino accent"
+   ],
+   "ref_text": "Mahabang panahon na akong nakatayo sa bundok na ito. Hindi ako humihingi ng awa. Nalulungkot lang ako. Lahat ng kasama ko, wala na. Ikaw lang ang umakyat dito para makinig.",
+   "sample": "Umalis ka na, maliit na tao. Hindi mo kailangang makita ang katapusan namin.",
+   "f0_hz": [
+    45,
+    130
+   ]
+  },
+  "ALBO": {
+   "descriptions": [
+    "An ageless male voice, calm, resonant and gentle, warm and luminous, even and slow, neutral accent with no regional colour",
+    "A serene timeless man's voice, soft, clear and resonant, kind and steady, neutral accent"
+   ],
+   "ref_text": "Huwag kang matakot. Hindi ako narito para saktan ka. Ako ang ama ni Tala. Matagal na akong naghihintay na makausap ka. Makinig ka, at sasabihin ko sa iyo ang lahat ng kaya mong dalhin.",
+   "sample": "Ang liwanag ay hindi nagmamay-ari. Nagbibigay lamang ito.",
+   "f0_hz": [
+    75,
+    190
+   ]
+  },
+  "SINAG": {
+   "descriptions": [
+    "A beautiful woman's voice, persuasive and velvety, warm on the surface but cold underneath, smooth and slow, medium pitch, Filipino accent",
+    "An elegant, seductive woman, sweet and silky voice with an icy edge, calm and controlled, Filipino accent"
+   ],
+   "ref_text": "Bakit ka nahihirapan, Indio? Hindi mo kailangang pasanin ang lahat. Ibigay mo lang sa akin ang medalyon, at ibibigay ko sa iyo ang lahat ng gusto mo. Madali lang. Magtiwala ka sa akin.",
+   "sample": "Alam kong pagod ka na. Hayaan mo akong tulungan ka.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "TEDDY": {
+   "descriptions": [
+    "A man in his fifties, hoarse, tired and tender voice, worn out and emotional, soft, medium-low pitch, slow, Filipino accent",
+    "A weary father, rough breathy voice, gentle and broken, slow, Filipino accent"
+   ],
+   "ref_text": "Anak, ikaw na ba iyan? Ang tagal kong nawala. Hindi ko alam kung mapapatawad mo pa ako. Pagod na pagod na ako, pero ngayong nakita kita, parang gumaan ang lahat. Patawarin mo ako, anak.",
+   "sample": "Umuwi na tayo, anak. Hinihintay na tayo ng nanay mo.",
+   "f0_hz": [
+    70,
+    180
+   ]
+  },
+  "ADELA": {
+   "descriptions": [
+    "A small woman in her sixties, a village healer, brisk and matter-of-fact, with a laugh in her voice, medium-high pitch, Filipino accent",
+    "A spry older woman, quick, practical and cheerful voice, chuckling, Filipino accent"
+   ],
+   "ref_text": "Ano ba ang nangyari sa iyo? Halika, upo ka. Hindi ito masakit, maniwala ka. Konting dahon lang, konting init, at bukas, kaya mo na ulit tumakbo. Ay naku, ang mga batang ito talaga, puro sugat!",
+   "sample": "Inumin mo ito. Mapait, pero gagaling ka.",
+   "f0_hz": [
+    150,
+    320
+   ]
+  },
+  "GILIW": {
+   "descriptions": [
+    "A young woman warrior in her twenties, firm, bright and clear voice, confident and energetic, strong, medium-high pitch, Filipino accent",
+    "A bold young fighter, crisp, determined and lively female voice, Filipino accent"
+   ],
+   "ref_text": "Hindi tayo aatras! Nakatayo pa tayo, at hangga't nakatayo tayo, may pag-asa. M, nandito ako sa likod mo. Sabay tayong lalaban, gaya ng dati. Bilisan mo, Indio, hindi tayo maghihintay nang matagal!",
+   "sample": "Handa na ako. Ikaw, handa ka na ba?",
+   "f0_hz": [
+    160,
+    340
+   ]
   }
  }
 }
