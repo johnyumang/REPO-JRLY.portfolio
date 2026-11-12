@@ -501,6 +501,42 @@
     160,
     340
    ]
+  },
+  "PALALO": {
+   "descriptions": [
+    "A cultured man in his forties, smooth, refined and quiet voice, full of calm contempt, never raising his voice, slow and precise, medium-low pitch, Filipino accent",
+    "An elegant, haughty man, silky low voice, cold and condescending, soft-spoken, Filipino accent"
+   ],
+   "ref_text": "Nakakatawa ka. Akala mo ba, sapat na ang tapang para lumapit sa akin? Tingnan mo ang sarili mo. Maliit, marumi, at pagod. Ako ang dapat mong yukuan. Pero sige, magsalita ka. Pakikinggan kita, sandali lang.",
+   "sample": "Hindi ako sumisigaw. Hindi ko kailangan.",
+   "f0_hz": [
+    70,
+    180
+   ]
+  },
+  "ENGKANTO": {
+   "descriptions": [
+    "A young man with a soft, formal and courteous voice, smooth and a little too perfect, calm and unhurried, gentle, medium pitch, Filipino accent",
+    "An unearthly handsome man, polished, polite and silky voice, eerily calm, Filipino accent"
+   ],
+   "ref_text": "Maligayang pagdating sa aming lungsod, panauhin. Matagal na naming hinihintay ang iyong pagdating. Dito, walang nagugutom at walang tumatanda. Kumain ka, uminom ka, at magpahinga. Wala kang dapat ikabahala rito.",
+   "sample": "Manatili ka na rito. Wala nang kailangang umuwi.",
+   "f0_hz": [
+    80,
+    210
+   ]
+  },
+  "ENGKANTADA": {
+   "descriptions": [
+    "A young woman with a light, courteous and distant voice, polished and airy, calm, gentle but cold, medium-high pitch, Filipino accent",
+    "An otherworldly lady, soft, graceful and aloof voice, polite and serene, Filipino accent"
+   ],
+   "ref_text": "Magandang gabi, ginoo. Ikinagagalak kong makilala ka. Pakiusap, huwag kang hahawak sa anumang hindi iniaalok sa iyo. Ang lungsod na ito ay may sariling batas. Sundin mo lamang ang mga ito, at magiging maayos ang lahat.",
+   "sample": "Pakiusap, sumunod ka sa akin. Huwag kang lilingon.",
+   "f0_hz": [
+    150,
+    340
+   ]
   }
  }
 }
