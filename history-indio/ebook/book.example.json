@@ -1,0 +1,24 @@
+{
+  "_note": "Copy this file into the PRIVATE manuscript folder as book.json. Paths to frames are relative to history-indio/. Chapter files live only in the private folder, never in this repository.",
+  "title": "INDIO: ANG SAKSI",
+  "subtitle": "Unang Aklat: Ang Unang Talon",
+  "author": "History Indio",
+  "lang": "tl",
+  "rights": "© 2026 History Indio. Lahat ng karapatan ay nakalaan.",
+  "edition": "Unang edisyon, bersiyon 1",
+  "cover_frame": "videos/ep01-ang-unang-talon/keys/k01.png",
+  "map_frame": "videos/ep08-ang-huling-tala/full/map_lens.jpg",
+  "front": ["00_front.md"],
+  "part_title": "Unang Aklat: Ang Unang Talon",
+  "chapters": [
+    {"file": "ch01_tl.md", "art": "videos/ep01-ang-unang-talon/keys/k24.png"},
+    {"file": "ch02_tl.md", "art": "videos/ep02-british-sa-maynila/full/wallfall.jpg"},
+    {"file": "ch03_tl.md", "art": "videos/ep03-ang-sabi-ni-lola/full/flag.jpg"},
+    {"file": "ch04_tl.md", "art": "videos/ep04-ang-aso-ni-pepe/full/carromata.jpg"},
+    {"file": "ch05_tl.md", "art": "videos/ep05-dalawampung-milyon/full/skyline.jpg"},
+    {"file": "ch06_tl.md", "art": "videos/ep06-ang-huling-umaga/full/m_back.jpg"},
+    {"file": "ch07_tl.md", "art": "videos/ep07-ang-sulat-ni-lolo/full/lens.jpg"},
+    {"file": "ch08_tl.md", "art": "videos/ep08-ang-huling-tala/full/star_medallion.jpg"}
+  ],
+  "back": []
+}
