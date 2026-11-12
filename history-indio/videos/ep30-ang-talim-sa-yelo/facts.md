@@ -9,7 +9,7 @@
 
 **Restraint:** the marks "bleed" as light through ink, never as wounds; no gore. No real person appears. No scripture is mocked; God is given no words.
 
-**Label for captions (Season 3 rule):** "Ang tagpo ay ayon sa ating kuwento; ang talata ay mula sa Genesis 3:24 (Ang Dating Biblia, 1905); ang mga bilog ay mula sa tula ni Dante."
+**Label for captions (Season 3 rule):** "Ang tagpo ay ayon sa ating kuwento; ang talata ay mula sa Genesis 3:24 (Ang Dating Biblia, 1905); ang mga bilog ay mula sa tula ni Dante." Every caption and the pinned comment also carry: "Imbento ang linya ng diwa ni Paduka Pahala; ang totoo, dumalaw siya sa korte ng Ming noong 1417 at namatay sa Dezhou pauwi." The YouTube description quotes Genesis 3:24 exactly ("...sa silanganan ng halamanan ng Eden ... ang daang patungo..."), checked against three independent copies of Ang Dating Biblia.
 
 **The find:** the blade of the Trinity. **Mga Kakampi:** none. **Hologram:** 7 marks (open), Knowledge 88%, new line "Hindi na kailangan ng medalyon".
 
@@ -20,4 +20,6 @@
 | 3 | "Tiyak: siyam ang bilog sa Inferno ni Dante, isang tula, at yelo ang pinakamababa, para sa mga taksil." | nine circles; ninth = frozen Cocytus for traitors | certain | season3/research.md §8 (WP "Inferno (Dante)", "Malebolge", read in full); WP "Cocytus" [not opened here: second source to open] |
 | 4 | "Hindi ito ang bilang ni Dante; sa amin, pito." | our seven depths are not Dante's count | fiction labelled | season3/research.md §8 rule |
 | 5 | "Sa Juan walo, talatang apatnapu't apat, tinawag ang diyablo na sinungaling, at ama nito." | John 8:44 | certain (text, paraphrased closely) | Ang Dating Biblia 1905, John 8:44 ("...sapagka't siya'y isang sinungaling, at ama nito"); any English Bible |
-| — | the depths, princes, blade, awakening, family scenes | fiction | labelled in sentence 67 and in the captions | — |
+| 6 (sentence 5) | "Bumaba ako, pero sumunod si Usman, at ang boses ni Lolo sa likod ko." | continuity: Episode 29 ends with "Mag-isa akong bababa."; Indio goes down alone and Usman follows him | fiction (continuity) | videos/ep29-ang-unang-apat-na-lalim/script_multispeaker.txt line 88 |
+| 7 (sentence 67) | "Kathang-isip: ang talim bilang piraso ng tabak, ang mga prinsipe, ang paggising ko, at ang linya ng diwa ni Paduka Pahala; kuwentong-bayan ng Samar ang Biringan." | fairness label: the blade as a piece of the sword, the princes, the awakening and the diwa line of Paduka Pahala are fiction; Biringan is Samar folklore, told as folklore | fiction labelled / folklore labelled | SERIES.md line 26 (first approved exception: label the diwa line), line 116 and line 336 (label folklore: Biringan); Paduka Pahala's real record: Wikipedia "Paduka Pahala" and VERA Files (tribute mission to the Yongle court in 1417, died at Dezhou on the way home; they differ only on the exact day) |
+| — | the depths, princes, blade, awakening, family scenes, the diwa line, Biringan | fiction / folklore | labelled in sentence 67 and in the captions and pinned comment ("Imbento ang linya ng diwa ni Paduka Pahala; ang totoo, dumalaw siya sa korte ng Ming noong 1417 at namatay sa Dezhou pauwi."; "Kuwentong-bayan ng Samar ang Biringan.") | — |

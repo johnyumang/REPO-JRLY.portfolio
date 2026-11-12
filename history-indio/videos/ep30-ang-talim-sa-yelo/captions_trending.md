@@ -10,7 +10,7 @@ hindi ako hari. pero nandito ako, at nakita ko.
 hindi ako hari. saksi lang ako.
 
 Sa pinakailalim ng mundo, iyon lang ang pangungusap na gumana. 🧊
-Ang tagpo ay ayon sa ating kuwento. Kathang-isip sina Indio at Usman.
+Ang tagpo ay ayon sa ating kuwento. Kathang-isip sina Indio at Usman. Imbento ang linya ng diwa ni Paduka Pahala; ang totoo, dumalaw siya sa korte ng Ming noong 1417 at namatay sa Dezhou pauwi.
 
 ## TikTok
 hindi ako hari.
