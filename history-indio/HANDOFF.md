@@ -42,7 +42,7 @@ The user saw the Blender cel-shaded renders and did not like them. They want to 
 ## Movement on the painted stills (APPROVED by the user 2026-11-12: "Yan okay na yan, go")
 - Method: puppet rigs. `pipeline/puppet_still.py` + one `videos/<slug>/rigs/kNN.json` per keyframe; `build_anime.py` uses rigs automatically. Full guide: `pipeline/PUPPET.md`. Local, CPU, free, keeps the Figma quality; about 0.25 s/frame at 720p.
 - Limits: small motions only (no walking, turning, new poses); regions are hand-placed per still.
-- Every video from now on should have a rig for every keyframe. Limahong rigs are being made by the movement session.
+- Every video from now on should have a rig for every keyframe. limahong-1574 has rigs for all 33 keyframes (k00 to k32); it only needs a rebuild with the voice.
 - Wan 2.2 image-to-video (for full-body motion) is still blocked: needs the user's Hugging Face token as a network secret for `upsampler-wan-2-2-14b-image-to-video.hf.space`.
 
 ## Companion (confirmed by the user, 2026-11-12)
