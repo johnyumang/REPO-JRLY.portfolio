@@ -54,3 +54,7 @@ Save tokens and effort: do NOT animate every shot. Most shots stay as painted st
 - Quality is below the Figma stills (generic look, weak prompt following, odd props). Use only when Figma's daily credits run out, mainly for backgrounds/filler.
 - Unreliable: `flux-3-image-klein` (worked once, then 502/504). FLUX.1-schnell/dev fail on NVIDIA's side.
 - Not usable: image editing (`flux.1-kontext-dev`, klein `image`) only accepts NVIDIA's own sample images, not ours. No video model answered at ~70 addresses tried (Cosmos, Wan, Hunyuan, LTX, SVD...).
+
+## Shot rules from the user (2026-11-12)
+- Prefer **close-up / zoomed character shots** (head-and-shoulders, detailed ink style). Avoid full-body shots with weapons or bare torsos: the generators get swords and anatomy wrong.
+- **Background must match the scene and be 100% consistent.** Method: draw ONE background plate per location (no people), reuse that same plate in every shot of the scene (different crop + blur), generate the character on a plain white background, cut out by flood-filling white from the image borders, grade for the scene light, and composite. Tested with NVIDIA FLUX.2 klein; works. Known gap: the character's face still drifts between shots (no reference-image input).
