@@ -44,3 +44,6 @@ The user wants frame-by-frame anime motion, not animated stills. Tried so far:
 - Daily routine `History Indio daily episode` (trig_013S2RKFoJnajV9psukW9qQZ, 00:20 UTC, fresh session, model claude-opus-5-5) prepares the next series episode from `SERIES.md`. Created without the Figma connector or a repo source attached (the tool could not pass them); the user has to add both in the claude.ai routines UI or runs will do text work only.
 - Hourly routine `History Indio hourly video` (trig_017Q375Zo6SavwfxqnvaybYB) is paused.
 - YouTube auto-upload needs the Claude desktop app's built-in browser; not connected to cloud sessions.
+
+## Motion plan (user, 2026-11-12)
+Save tokens and effort: do NOT animate every shot. Most shots stay as painted stills with the animator's effects (parallax, transitions, auras, speed lines). Only the key moments (hook, climax, plot twist, final follow line; 3–5 per video) get real AI image-to-video motion. Primary model: Wan 2.2 (HF Space `Upsampler/wan-2-2-14b-image-to-video`). Backup: Tencent HunyuanVideo image-to-video (the user's "10-cent generator"). Both need Hugging Face access that can run Spaces: the connector currently refuses `invoke` ("gradio=none"), and direct use needs a read token for the Space host. `build_anime.py` already plays a clip for a line via `"clip": "clips/cNN.mp4"` in `shots_fx.json`.
