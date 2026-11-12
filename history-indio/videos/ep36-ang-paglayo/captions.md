@@ -4,7 +4,7 @@
 SEASON 4, EPISODE 36: Hindi tumakas si Senador Indio. Pumila siya sa immigration, may tiket pauwi, at lumipad sa Hong Kong para hanapin kung sino ang nasa likod ng pirma niyang peke. 🧵
 Sa Morrison Hill Road, binasa niya ang marker, at nasa Mayo 1898 siya: sa likod ng isang bintana, tatlong babaeng nananahi ng asul, pula at puti.
 
-Totoo: tinahi sa Hong Kong noong Mayo 1898 ang unang watawat ng Pilipinas nina Marcela at Lorenza Agoncillo at Delfina Herbosa de Natividad, sa 535 Morrison Hill Road. Kathang-isip ang Dalisdis, ang direktor na walang mukha, si Mang Nesto, si Sinag, ang leave ni Indio at ang pagiging senador niya; walang totoong tao o kompanya ang ipinapakita.
+Totoo: tinahi sa Hong Kong noong Mayo 1898 ang unang watawat ng Pilipinas nina Marcela at Lorenza Agoncillo at Delfina Herbosa de Natividad, sa 535 Morrison Hill Road. Kathang-isip ang Dalisdis, ang direktor na walang mukha, si Mang Nesto, si Sinag, ang leave ni Indio at ang pagiging senador niya; walang totoong tao o kompanya ang ipinapakita. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 👉 Kung lalayo ka para patunayan ang sarili mo, sino ang iiwan mong nagbabantay sa bahay? Comment mo.
 I-follow ang History Indio para sa susunod na talon!
@@ -20,7 +20,7 @@ I-follow ang History Indio para sa susunod na talon!
 **Description:**
 Season 4, Episode 5 ng time-travel series ng History Indio.
 Totoo: matapos ang Kasunduan sa Biak-na-Bato (Disyembre 1897), nanirahan sa Hong Kong si Aguinaldo at ang ilang lider ng rebolusyon. Noong Mayo 1898, tinahi sa 535 Morrison Hill Road ang unang watawat nina Marcela Agoncillo, ng anak niyang si Lorenza, at ni Delfina Herbosa de Natividad, pamangkin ni Rizal; unang iwinagayway ito sa Kawit noong 12 Hunyo 1898. Pinagtatalunan kung ang watawat na nasa Baguio ngayon ang orihinal.
-Ang tagpo ay ayon sa kuwento ng serye. Kathang-isip ang kumpanya, ang mga tauhan at ang leave ni Indio.
+Ang tagpo ay ayon sa kuwento ng serye. Kathang-isip ang kumpanya, ang mga tauhan at ang leave ni Indio. Walang tinutukoy na totoong proyekto, opisyal o kontratista.
 
 #HistoryIndio #Shorts
 
@@ -33,4 +33,4 @@ Asul, pula, puti, sa isang bintana sa Hong Kong, 1898. 🧵 Totoo ang kasaysayan
 Malayo sa bayan, para sa bayan. 🧵 Totoo ang unang watawat na tinahi sa Hong Kong noong 1898; kathang-isip ang kumpanya at ang mga tauhan. #HistoryIndio #WatawatNgPilipinas #MarcelaAgoncillo #PinoyAnime #TimeTravel
 
 ## Pinned comment (sources)
-Mga pinagmulan: Inquirer ("Little-known facts of Independence Day"; "Original or not, it's still flag of our fathers") · VERA Files ("An unflagging symbol of nationhood") · GMA News at DFA (ang marker sa Morrison Hill Road Playground) · Pact of Biak-na-Bato at Hong Kong Junta (Wikipedia) · Romualdez-Marcos v. COMELEC, G.R. No. 119976 (1995) (tirahan = domicile; susuriin pa). Kathang-isip ang Dalisdis, ang direktor, si Mang Nesto, si Sinag, ang leave ni Indio, at sina Indio, Usman at M.
+Mga pinagmulan: Inquirer ("Little-known facts of Independence Day"; "Original or not, it's still flag of our fathers") · VERA Files ("An unflagging symbol of nationhood") · GMA News at DFA (ang marker sa Morrison Hill Road Playground) · Pact of Biak-na-Bato at Hong Kong Junta (Wikipedia) · Romualdez-Marcos v. COMELEC, G.R. No. 119976 (1995) (tirahan = domicile; susuriin pa). Kathang-isip ang Dalisdis, ang direktor, si Mang Nesto, si Sinag, ang leave ni Indio, at sina Indio, Usman at M. Walang tinutukoy na totoong proyekto, opisyal o kontratista.

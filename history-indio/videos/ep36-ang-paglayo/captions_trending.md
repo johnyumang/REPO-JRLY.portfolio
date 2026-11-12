@@ -30,7 +30,7 @@ lumayo ako hindi para tumakas | History Indio EP 36 #shorts
 Totoo ang kasaysayan ng unang watawat; kathang-isip ang bitag at ang mga tauhan.
 
 ## Pinned comment
-Totoo: tinahi sa Hong Kong noong Mayo 1898 ang unang watawat nina Marcela at Lorenza Agoncillo at Delfina Herbosa de Natividad, sa 535 Morrison Hill Road. Pinagtatalunan kung ang watawat sa Baguio ang orihinal. Kathang-isip: ang Dalisdis, ang direktor, si Mang Nesto, si Sinag, ang leave ni Indio, sina Indio, Usman at M. Mga pinagmulan: Inquirer, VERA Files, GMA News, DFA.
+Totoo: tinahi sa Hong Kong noong Mayo 1898 ang unang watawat nina Marcela at Lorenza Agoncillo at Delfina Herbosa de Natividad, sa 535 Morrison Hill Road. Pinagtatalunan kung ang watawat sa Baguio ang orihinal. Kathang-isip: ang Dalisdis, ang direktor, si Mang Nesto, si Sinag, ang leave ni Indio, sina Indio, Usman at M. Walang tinutukoy na totoong proyekto, opisyal o kontratista. Mga pinagmulan: Inquirer, VERA Files, GMA News, DFA.
 
 ## On-screen opener
 lumayo ako hindi para tumakas.
