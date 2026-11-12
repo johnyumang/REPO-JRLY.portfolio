@@ -6,7 +6,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 - [ ] Ang Unang Umikot sa Mundo, Alipin? (Enrique of Malacca — disputed)
 - [ ] Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 - [ ] Ang Pintor na Bumaril (Juan Luna, Paris 1892)
-- [ ] Nang Sakupin ng British ang Maynila (1762–1764)
+- [ ] Nang Sakupin ng British ang Maynila (1762–1764) — taken as series Episode 2
 - [x] Ang Piratang Muntik Nang Maging Hari ng Maynila (Limahong, 1574) — `videos/limahong-1574`
 - [x] Ang Halimaw na Kumain ng Anim na Buwan (Bakunawa — myth) — `videos/bakunawa-pitong-buwan`
 - [ ] Ang Higanteng Pumipigil sa Dalawang Bundok (Bernardo Carpio — legend)
@@ -14,7 +14,7 @@ Pick the first unchecked topic that still looks strongest, verify it with dated 
 
 ## Time-travel series (Indio + Usman; see HANDOFF.md series bible)
 - [ ] Episode 1: Ang Unang Talon (origin; Sigaw ng Pugad Lawin, 1896) — in progress: `videos/ep01-ang-unang-talon` (script and keyframes done; voice pending; frames 15, 25, 27 to be redone)
-- [ ] Episode 2: Nang Sakupin ng British ang Maynila (1762) — marker in Intramuros
+- [ ] Episode 2: British sa Maynila (1762) — Baluarte de San Diego, Intramuros — in progress: `videos/ep02-british-sa-maynila` (script, facts, captions done; keyframes are NVIDIA drafts; voice pending)
 - [ ] Episode 3: Binili Tayo sa Halagang $20 Milyon (Treaty of Paris, 1898)
 - [ ] Episode 4: Ang Unang Umikot sa Mundo, Alipin? (Enrique of Malacca, 1521 — disputed) — marker in Cebu or Mactan
 - [ ] Episode 5: Ang Pintor na Bumaril (Juan Luna, Paris 1892)

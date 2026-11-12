@@ -1,0 +1,306 @@
+{
+ "_note": "Episode 2 keyframes. Shot rules: close-ups, one plate per location, characters on white then composited (pipeline/make_keys.py). plates/siege.png is from Figma; the rest are NVIDIA FLUX.2 klein drafts to be upgraded with Figma when credits reset.",
+ "style": "Modern Japanese TV anime key frame: crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, detailed. ",
+ "white": "Single character only, isolated on a plain pure white background, no scenery, no ground shadow, head-and-shoulders close-up portrait: ",
+ "plates": {
+  "street": "a Manila street outside the old stone walls of Intramuros in the afternoon, a parked motorcycle with a square insulated delivery box on the back, acacia trees, a stone gate in the distance, warm afternoon sunlight.",
+  "baluarte": "the ruins of an old Spanish colonial stone bastion in Intramuros Manila today, thick weathered grey-brown volcanic stone walls and circular stone ruins, green lawn and tropical garden, a small blank stone plaque on a pedestal, golden late-afternoon light, long shadows.",
+  "siege": "the old Spanish colonial stone bastion wall of Manila in 1762 under bombardment, a ragged breach in the wall, rubble, gunpowder smoke, orange smoky sky.",
+  "hall": "the interior of a dim Spanish colonial stone hall in 1762 at night, thick stone arches, heavy wooden table with candles, tall shuttered windows glowing orange from fires outside, smoke haze.",
+  "bacolor": "a Philippine provincial town in Pampanga in 1762 at sunrise, nipa and bamboo houses on stilts, coconut palms, green rice fields, a dirt road, distant blue mountain, hopeful golden morning light."
+ },
+ "chars": {
+  "indio_shock": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, eyes wide in shock and mouth open, hugging a round woven bamboo tray of pancit noodles against his chest, soot smudge on his cheek, orange rim light.",
+  "indio_duck": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, ducking with both arms raised over his head, eyes squeezed shut, teeth clenched, dust falling around him, orange rim light.",
+  "indio_sad": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, shoulders dropped, looking down with a sad defeated expression, soot on his face, orange rim light.",
+  "indio_whisper": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, leaning toward the viewer with one finger raised to his lips and a sly knowing smile, one eyebrow raised.",
+  "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, looking up thoughtfully with a hand on his chin, calm serious expression, warm morning light.",
+  "indio_rider": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, a motorcycle helmet under one arm, grinning proudly and giving a thumbs up.",
+  "indio_order": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, holding a round woven bamboo tray of pancit noodles wrapped in clear plastic with both hands, looking around searching for someone.",
+  "indio_phone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, holding a smartphone in one hand and staring at its screen with a puzzled frown, head tilted.",
+  "indio_hungry": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, staring down hungrily at a round woven bamboo tray of pancit noodles he is holding, biting his lip, comic sweat drop.",
+  "indio_read": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, three-quarter profile looking slightly upward, mouth open as he reads aloud, one hand holding the bronze medallion at his chest.",
+  "indio_cold": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, deadpan disappointed face, holding up a limp forkful of cold noodles from a round woven bamboo tray.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, pointing straight at the viewer with an excited open smile, sunset rim light.",
+  "indio_usman": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a teal delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, laughing with one fist raised in cheer, and beside his shoulder a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck barking happily, sunset rim light.",
+  "usman_look": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting, head tilted, ears up, looking around curiously, close-up.",
+  "usman_deadpan": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, unimpressed half-closed eyes, flat annoyed expression, close-up of his face.",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes, close-up of his face, orange rim light.",
+  "sepoy": "an eighteenth-century Indian sepoy soldier from Madras, about thirty, brown skin, black moustache, white cloth turban, red military coat with white cross-belts, stern alert expression, orange rim light.",
+  "sepoy_farmer": "an Indian man from Madras, about thirty-five, brown skin, black moustache, white cloth turban, wearing a simple loose farmer's cotton shirt, smiling gently and peacefully, warm morning light.",
+  "spanish": "an eighteenth-century Spanish colonial officer, about forty, black tricorne hat, blue coat with red cuffs, pointed beard, eyes wide and mouth open in shock, sweat on his brow, orange rim light.",
+  "redcoat": "an eighteenth-century British infantry soldier, about twenty-five, black tricorne hat, bright red coat with white cross-belts, shouting a battle cry with mouth wide open, fierce eyes, smoke behind his shoulders, orange rim light.",
+  "officer": "an eighteenth-century British army officer, about forty-five, white powdered wig, black tricorne hat with gold trim, red coat with gold braid, frowning in frustration, jaw clenched.",
+  "archbishop": "an elderly eighteenth-century Catholic archbishop, about sixty, thin grey hair, small purple skullcap, black cassock with purple sash and a plain pectoral cross, head bowed, tired sorrowful eyes, candle light from below.",
+  "anda": "an elderly eighteenth-century Spanish judge, about sixty, grey hair tied back, plain black coat and white neckcloth, dark travelling cloak, determined stern eyes, looking back over his shoulder, warm sunrise rim light.",
+  "fighters": "two Filipino village fighters of 1762, brown skin, wearing conical salakot hats and simple cotton shirts, determined brave faces looking forward, shoulder to shoulder, warm sunrise rim light.",
+  "woman": "a mysterious young Filipina woman, long black hair, wearing a long dark coat, holding a red umbrella over her shoulder, a round bronze medallion at her neck, a faint knowing smile, looking sideways at the viewer, sunset rim light."
+ },
+ "full": {
+  "intro": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, smiling confidently at the viewer with arms crossed, and beside him a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, behind them a swirling golden time portal of clock gears and light. Half-body shot, golden rim light.",
+  "medallion": "extreme close-up of a brown hand holding an old round bronze medallion engraved with a sun and a triangle on a worn cord, the medallion glowing bright gold with sparks and light rays, dark background.",
+  "ships": "a fleet of eighteenth-century wooden sailing warships with tall masts and white sails anchored in a tropical bay, cannons firing with flashes and white smoke, a walled stone city on the distant shore, dramatic orange sky. No people.",
+  "wallfall": "a huge section of an old stone fortress wall exploding and collapsing from a cannon hit, flying stone blocks, fire flash, dust cloud and smoke, dramatic low angle, orange sky. No people.",
+  "city": "a walled Spanish colonial stone city by a tropical bay at dusk in 1762, columns of black smoke rising from inside the walls, church towers in silhouette, red sunset, sailing warships in the bay. No people.",
+  "coins": "extreme close-up of an open wooden treasure chest overflowing with silver Spanish coins on a wooden table, candle light, a white-gloved hand in a red sleeve reaching toward it.",
+  "quill": "extreme close-up of an elegant hand in a lace cuff signing a parchment with a white feather quill on a polished table, candlelight, wax seal and ribbon, the writing only illegible scribbles, luxurious eighteenth-century European room blurred behind.",
+  "leave": "eighteenth-century wooden sailing warships sailing away toward the horizon of a tropical bay at sunrise, seen from behind old stone walls, calm golden sea, birds. No people.",
+  "tattoo": "extreme close-up of a young man's brown forearm in a teal jacket sleeve pushed up, showing two small indigo geometric tribal tattoos side by side, the newer one faintly glowing gold, sunset light.",
+  "phone": "extreme close-up of a brown hand holding a smartphone, the screen showing a big green check mark and a gold coin icon and nothing else, glowing in dusk light, old stone wall blurred behind."
+ },
+ "shots": {
+  "0": {
+   "char": "indio_shock",
+   "plate": "siege",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.75,
+   "blur": 4,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "1": {
+   "full": "intro"
+  },
+  "3": {
+   "char": "indio_rider",
+   "plate": "street",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "5": {
+   "char": "indio_order",
+   "plate": "baluarte",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.8,
+   "blur": 4
+  },
+  "6": {
+   "char": "usman_look",
+   "plate": "baluarte",
+   "x": 0.2,
+   "y": 0.8,
+   "s": 0.6
+  },
+  "7": {
+   "char": "indio_phone",
+   "plate": "baluarte",
+   "x": 0.8,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "8": {
+   "char": "indio_hungry",
+   "plate": "baluarte",
+   "x": 0.1,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "9": {
+   "char": "indio_read",
+   "plate": "baluarte",
+   "x": 0.6,
+   "y": 0.3,
+   "s": 0.65
+  },
+  "10": {
+   "full": "medallion"
+  },
+  "11": {
+   "char": "usman_deadpan",
+   "plate": "baluarte",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "12": {
+   "char": "indio_duck",
+   "plate": "siege",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.7,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "13": {
+   "plate": "siege"
+  },
+  "14": {
+   "full": "ships"
+  },
+  "15": {
+   "char": "sepoy",
+   "plate": "siege",
+   "x": 0.8,
+   "y": 0.3,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "16": {
+   "char": "spanish",
+   "plate": "siege",
+   "x": 0.1,
+   "y": 0.2,
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "18": {
+   "full": "wallfall"
+  },
+  "19": {
+   "char": "redcoat",
+   "plate": "siege",
+   "x": 0.5,
+   "y": 0.6,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "20": {
+   "full": "city"
+  },
+  "21": {
+   "char": "archbishop",
+   "plate": "hall",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "24": {
+   "full": "coins"
+  },
+  "25": {
+   "char": "indio_sad",
+   "plate": "siege",
+   "x": 0.6,
+   "y": 0.7,
+   "s": 0.65,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "26": {
+   "char": "usman_growl",
+   "plate": "siege",
+   "x": 0.4,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "27": {
+   "char": "anda",
+   "plate": "bacolor",
+   "x": 0.7,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "28": {
+   "char": "fighters",
+   "plate": "bacolor",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "29": {
+   "char": "officer",
+   "plate": "siege",
+   "x": 0.9,
+   "y": 0.4,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "30": {
+   "char": "indio_whisper",
+   "plate": "bacolor",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.6
+  },
+  "31": {
+   "full": "quill"
+  },
+  "33": {
+   "full": "leave"
+  },
+  "34": {
+   "char": "indio_think",
+   "plate": "bacolor",
+   "x": 0.1,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "36": {
+   "char": "sepoy_farmer",
+   "plate": "bacolor",
+   "x": 0.6,
+   "y": 0.6,
+   "s": 0.7
+  },
+  "38": {
+   "plate": "baluarte"
+  },
+  "39": {
+   "full": "tattoo"
+  },
+  "40": {
+   "char": "indio_cold",
+   "plate": "baluarte",
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.6
+  },
+  "43": {
+   "full": "phone"
+  },
+  "44": {
+   "char": "woman",
+   "plate": "baluarte",
+   "x": 0.9,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "45": {
+   "char": "indio_point",
+   "plate": "baluarte",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "47": {
+   "char": "indio_usman",
+   "plate": "baluarte",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7
+  }
+ }
+}
