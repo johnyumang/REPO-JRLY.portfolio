@@ -32,6 +32,14 @@ def _normconv(d, w, sig):
     return cv2.GaussianBlur(d * w, (0, 0), sig) / np.maximum(cv2.GaussianBlur(w, (0, 0), sig), 1e-4)
 
 
+def plane_residual(dep):
+    """how far the depth map is from one tilted plane (depth maps are normalised, so their range says nothing).
+    Measured on History Indio keyframes: letters and maps 0.04-0.07, figures, crowds and vistas 0.09-0.28."""
+    d = cv2.resize(dep.astype(np.float32), (64, 112), interpolation=cv2.INTER_AREA); yy, xx = np.mgrid[0:112, 0:64] / 100.0
+    A = np.stack([np.ones(d.size), xx.ravel(), yy.ravel()], 1); c, *_ = np.linalg.lstsq(A, d.ravel(), rcond=None)
+    return float(np.std(d.ravel() - A @ c))
+
+
 def prep3d(im, dep, blur_px):
     """im: the cover-fit keyframe (uint8 BGR); dep: raw depth (1 = near) at any size; blur_px: depth-of-field blur in im px.
     Returns the layer set, or None when the picture has too little depth to separate."""
@@ -40,7 +48,7 @@ def prep3d(im, dep, blur_px):
     d = cv2.resize(dep.astype(np.float32), (w, h), interpolation=cv2.INTER_CUBIC)
     d = np.clip(_guided(gray, d, max(5, w // 90) | 1, 2e-3), 0, 1)                           # depth edges snap to picture edges
     p3, p50, p97 = np.percentile(d, (3, 50, 97))
-    if p97 - p3 < 0.30: return None                                                          # flat picture (a map, a letter, a close-up)
+    if p97 - p3 < 0.30 or plane_residual(dep) < 0.08: return None                            # flat picture (a letter, a map, a wall)
     th, _ = cv2.threshold((d * 255).astype(np.uint8), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU); th /= 255
     th = float(np.clip(th, p3 + 0.25 * (p97 - p3), p3 + 0.80 * (p97 - p3)))
     wd = 0.04; a = np.clip((d - th + wd) / (2 * wd), 0, 1); a = a * a * (3 - 2 * a)          # soft on depth ramps, crisp at depth jumps

@@ -3,6 +3,8 @@
 particles (embers / sparkles / bubbles), impact shake, punch-in, cut-ins on long lines, subtitles, soundtrack.
 usage: build_anime.py <video_dir> <keys_dir> <voice.wav> <out.mp4> [--only 0,1,2] [--fps 30]
 video_dir: timings.json (+ shots_fx.json optional: {"<i>": {"fx": ["water","embers"], "move": "push_in"}})
+3D perspective (opt-in per shot): "move": dolly_in/out, orbit_left/right, crane_up/down, rack_focus, or "depth": "strong";
+optional "dof": "far"|"near", "focus_to": "far" (see depth3d.py and README).
 keys_dir: k00.png ... one keyframe per sentence. Depth comes from Depth-Anything-V2-Small (Hugging Face)."""
 import json, os, subprocess, sys
 import numpy as np, cv2

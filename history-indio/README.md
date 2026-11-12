@@ -61,3 +61,22 @@ inside the keyframes as a witness. The fairness beat stays: Indio says what is p
 8. Movement: write a puppet rig for each keyframe (`videos/<slug>/rigs/kNN.json`, see `pipeline/PUPPET.md`). `build_anime.py` picks rigs up
    automatically, so the painted still itself moves (head, arms, breathing, hair, cloth, fire, water, blinks). This is the approved way to get movement.
 Never commit MP4s or voice files: the repo is public.
+
+## 3D perspective moves
+Opt-in per shot in `shots_fx.json` (Season 2); shots without them build exactly as before. Code: `pipeline/depth3d.py`.
+The keyframe is split into a near layer (figure, near ground) and a far layer; the background hidden behind the near
+layer is filled by mirroring, and each layer moves by its own smoothed depth, so near and far separate without torn edges.
+- `"depth": "strong"` — stronger, layered parallax for the classic moves (`push_in`, `pull_out`, `pan_*`, `tilt_*`).
+- `"move": "dolly_in"` / `"dolly_out"` — the camera travels toward / away: the subject grows faster than the background,
+  which recedes slightly (a light dolly-zoom). Use for a figure against a deep background, reveals and endings.
+- `"orbit_left"` / `"orbit_right"` — the camera arcs around the subject: near and far slide in opposite directions.
+  Use for a standing character, a figure in front of a crowd, objects on a table with a room behind.
+- `"crane_up"` / `"crane_down"` — vertical arc with a slight tilt. Use for crowds in front of a building, ships on the sea, vistas.
+- `"rack_focus"` — the focus pulls from the background to the subject (`"focus_to": "far"` for the reverse). Use for a
+  quiet beat, a figure looking at a landscape, or to switch attention between a near object and the scene.
+- `"dof": "far"` or `"near"` — optional light depth-of-field on the layer the shot is not about (with any 3D move or strong shot).
+Example: `"12": {"move": "orbit_left", "fx": ["embers"], "dof": "far"}`. All effects still work on top.
+Not for: flat pictures (letters, maps, screens, close-ups of a page) — the builder detects them and uses the normal move;
+heavy crowds with many overlaps (keep `crane_*`/`orbit_*` there, they uncover little); thin structures against the sky
+(masts, spears, ropes) and hands at the edge of a figure, which may separate from the body on a big move.
+Cost: about the same as the classic moves at 720 wide (about 1 s per keyframe to make the layers).
