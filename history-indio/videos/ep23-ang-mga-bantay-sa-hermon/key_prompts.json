@@ -1,0 +1,351 @@
+{
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "_note": "Episode 23 (S3E3) keyframes (from Kabanata 23, story version 2). Mount Hermon is shown as a snowy mountain only: no flags, troops, posts or present-day politics. The Watchers of 1 Enoch appear only as distant streaks of light, never as detailed figures. God is never shown. Albo: a tall ageless being of soft white light with long snow-white hair and a plain grey robe; never drawn as 'Nordic' or with any racial-ideology imagery. The giant is gentle and sad. Usman appears only inside the jump. Copied from Episode 13: full intro. Shots follow sentences.json; k90+ are montage extras.",
+ "plates": {},
+ "chars": {},
+ "full": {
+  "giant_hook": "low wide shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair sitting alone in the snow among old stone circles, looking down with sad eyes. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "albo_hook": "seen from behind: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe standing at the edge of a snowy cliff looking down at the world, robe moving in the wind. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "hermon_aerial": "aerial shot of a long snowy mountain massif at dawn, its summit above the clouds, valleys below, no buildings, no flags, nothing modern.",
+  "notebook_peak": "top-down close-up of a small worn notebook open, an ink drawing of a mountain with a snowy peak, no readable text.",
+  "balangay_land": "wide deep shot: a long wooden plank boat gliding out of golden light and landing on a snowy mountain slope, a young woman with long straight black hair in a long dark coat and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief aboard. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "sky_close": "low-angle wide shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash looking up at a dark-blue sky so close it feels like a ceiling, stars visible by day. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "usman_cold": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief shivering with snow on his nose, teeth chattering, comic. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "usman_shiver": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief hopping through deep snow, complaining, ears flat. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "climb": "seen from behind: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash and a young woman with long straight black hair in a long dark coat climbing a snowy slope in single file, footprints behind them. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "m_explain23": "medium shot: a young woman with long straight black hair in a long dark coat speaking carefully while climbing, one hand raised, breath steaming. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "m_recite1": "close-up of a young woman with long straight black hair in a long dark coat with eyes lowered, reciting a verse from memory, reverent, snowflakes. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "m_recite2": "low shot: a young woman with long straight black hair in a long dark coat looking up toward the summit, reciting, her coat blowing. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "enoch_ms": "extreme close-up of an old Ethiopian manuscript on parchment with faded ornament borders, candlelight, no readable text.",
+  "m_whisper23": "close-up of a young woman with long straight black hair in a long dark coat whispering a caution, serious eyes. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "m_walk23": "two-shot: a young woman with long straight black hair in a long dark coat and a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash walking side by side on a snowy ridge, talking. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "watchers_descent": "wide deep shot at night: hundreds of distant streaks of white light falling from the sky onto a snowy mountain summit like slow meteors, no figures visible.",
+  "oath_circle": "high shot from far above: a ring of faint white lights on a snowy summit at night, like a circle of torches, no figures visible, solemn.",
+  "plateau": "wide shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash, a young woman with long straight black hair in a long dark coat and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief stepping onto a snowy plateau below the summit. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "stone_circles": "top-down shot of huge rings of grey stones half buried in snow and the black ashes of long-dead fires.",
+  "giant_sit": "wide high-angle shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair sitting in the middle of the stone circles, three tiny travellers approaching. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "giant_rise": "low-angle shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair rising to its feet, snow sliding off its shoulders, the ground shaking. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "usman_hide": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief hiding behind a young man's legs, eyes huge. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "usman_leg": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief clinging to a young man's ankle in the snow, whispering. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "indio_calm": "close-up of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash breathing slowly, calm, not raising his hands to fight. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "brick_hold": "low shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash holding up a baked brick with a carved star, glowing rings of light spreading toward a giant. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "giant_ask": "close-up of the huge face of a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair, leaning down, asking a question gently. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "indio_answer": "over-the-shoulder shot from behind a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash: the giant listening, enormous and still. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "indio_answer2": "two-shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash looking up at a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair, speaking honestly. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "giant_silence": "close-up of a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair with tears in its sad eyes, silent. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "giant_kneel": "wide shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair kneeling slowly in the snow before a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash, snow puffing up. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "nakita23": "extreme close-up of the steady eyes of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash, calm and kind. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "sandugo23": "low shot: a young woman with long straight black hair in a long dark coat raising a small glowing gold medallion high, a beam of golden light wrapping around a kneeling giant. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "holo23": "medium shot: a translucent blue-gold hologram over a forearm on a snowy slope, a new glowing ally slot, no readable text.",
+  "giant_kin": "wide shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair pointing far out over the clouds toward distant lands, three tiny travellers following its gaze. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "cloak_give": "two-shot: a gentle hairy giant as big as a house with sad eyes, covered in long grey-brown hair draping a great cloak woven of its own long hair over the shoulders of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "cloak_glow": "close-up of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash wrapped in a thick cloak of grey-brown woven hair, snow melting off it, warm. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "usman_cloak": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief burrowing happily under the edge of a thick woven cloak, only his nose and kerchief showing. Detailed full background, a snowy high slope of Mount Hermon under a close dark-blue sky, rocks and snow, no buildings, no flags, ancient times, not a character sheet.",
+  "summit": "low-angle wide shot of the snowy summit at the edge of a cliff, a lone white-haired figure standing there. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_back": "seen from behind: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe at the cliff edge, not turning, looking down at the world. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_speak": "close-up of the profile of a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe, speaking without turning, cold calm eyes. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_ots": "over-the-shoulder shot from behind a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe standing still at the cliff edge, speaking. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "indio_shock23": "close-up of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash with shocked, angry eyes, jaw clenched. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "indio_anger": "low shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash stepping forward, fists clenched, about to shout. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "m_hold": "two-shot: a young woman with long straight black hair in a long dark coat gripping the arm of a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash, holding him back, shaking her head. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_turn": "medium shot: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe finally turning to face them, a soft white glow around him, grave. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_alone": "wide high-angle shot: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe small and alone on the vast snowy summit, the sky huge above him. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "fiesta_memory": "wide shot of a warm memory: a night fiesta in a Samar village, paper lanterns, a young Filipina woman laughing as she dances, and at the edge of the lights a tall figure of soft white light watching her.",
+  "bracken_house": "wide night shot of a small provincial house with a light on, dark cars pulling up outside with men in black suits stepping out, a tall white-glowing figure leading a woman and a small white-haired girl away into fog behind the house.",
+  "albo_grief": "close-up of a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe with grief in his eyes, speaking quietly. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_hands": "extreme close-up of pale hands with a faint inner white glow closing slowly into fists.",
+  "albo_far": "low shot: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe looking away toward the horizon, regret on his face. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "usman_halftruth": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief growling softly, head tilted, unsure, one ear up. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "indio_press": "medium shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash pointing at the white-haired man, demanding the truth. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "albo_many": "close-up of a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe with a bitter faint smile, admitting. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "flood_vision23": "wide deep shot: a dreamlike vision of a great flood covering ancient lands, rain, waves over hills, dark sky.",
+  "weapons_vision": "wide shot of a dreamlike vision: ancient men forging bronze swords at a roaring fire while a tall figure of white light stands behind them pointing, ominous.",
+  "albo_m": "over-the-shoulder shot from behind a young woman with long straight black hair in a long dark coat: a tall ageless man with long snow-white hair and a faint inner glow of soft white light, a plain grey robe looking straight at her, knowing. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "m_pale": "close-up of a young woman with long straight black hair in a long dark coat gone pale, lips parted, shaken. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "m_eyes": "extreme close-up of the eyes of a young woman with long straight black hair in a long dark coat, frightened, a flicker of gold light in them. Detailed full background, the snowy summit of Mount Hermon at the edge of a cliff, the world far below in haze, ancient times, no flags, not a character sheet.",
+  "indio_clarify23": "medium shot: a lean young Filipino man with a black topknot and a red headband in a dark jacket speaking calmly to the camera beside a window at night.",
+  "bible_open23": "top-down shot of an old leather-bound Bible lying open on a wooden table by candlelight, no readable text, reverent mood.",
+  "giants_art": "wide shot in the style of an old engraving: tall figures walking among small villages in an ancient land before a great flood, dark clouds, no text.",
+  "enoch_ms2": "extreme close-up of an old Ge'ez manuscript with a painted border, a hand turning the page carefully, no readable text.",
+  "church_rock": "wide high-angle shot of an ancient church carved into red rock in the Ethiopian highlands, pilgrims in white shawls, morning light, peaceful.",
+  "hermon_today": "aerial shot of the snowy peak of Mount Hermon today in winter sunlight, ridges and valleys, no buildings, no flags.",
+  "indio_label23": "close-up of a lean young Filipino man with a black topknot and a red headband in a dark jacket, a woven cloak over his shoulders, speaking honestly.",
+  "feather": "extreme close-up of a pure white feather held out in a pale glowing hand toward a young man's hand.",
+  "samar_fog23": "wide shot: a young Filipino man with a black topknot and a red headband in a plain beige tunic with a red sash in a thick woven cloak on a Samar beach at night holding a bronze key with a white feather tied to it, facing a wall of white fog.",
+  "balete_float": "low-angle shot of a giant balete tree in fog whose hanging roots do not touch the ground, floating eerily, Samar night.",
+  "notebook_rings": "top-down close-up of a small worn notebook open, ink drawing concentric rings of land and water with a temple at the centre glowing like a little sun, no readable text.",
+  "indio_point23": "medium shot: a lean young Filipino man with a black topknot and a red headband in a dark jacket pointing at the viewer, a white feather tucked behind his ear.",
+  "indio_ask23": "close-up of a lean young Filipino man with a black topknot and a red headband asking the viewer a question softly, holding an old family photo.",
+  "indio_follow23": "low shot: a lean young Filipino man with a black topknot and a red headband stepping into a wooden boat glowing with golden light at dusk, grinning.",
+  "snow_peak": "wide shot of a snowy mountain peak glowing at sunrise above a sea of clouds, nothing modern.",
+  "wind_snow": "close-up of snow blowing off a ridge in the wind, glittering.",
+  "giant_eyes": "extreme close-up of a huge sad brown eye framed by long grey-brown hair, a tear.",
+  "cloak_weave": "extreme close-up of thick cloth woven from long grey-brown hair, snowflakes melting on it.",
+  "white_glow": "close-up of long snow-white hair lifting in the wind with a soft white glow around it.",
+  "ring_snow": "low-angle shot of a single huge standing stone in snow under stars.",
+  "old_ash": "close-up of black ash and charred wood of a fire long dead, half covered by snow.",
+  "feather_key": "extreme close-up of a small bronze key with a white feather tied to it, glowing faintly.",
+  "star_summit": "wide shot of a starry night sky over a snowy summit, a single shooting star.",
+  "intro": "(copied from Episode 13)"
+ },
+ "shots": {
+  "0": {
+   "full": "giant_hook"
+  },
+  "1": {
+   "full": "albo_hook"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "hermon_aerial"
+  },
+  "4": {
+   "full": "notebook_peak"
+  },
+  "5": {
+   "full": "balangay_land"
+  },
+  "6": {
+   "full": "sky_close"
+  },
+  "7": {
+   "full": "usman_cold"
+  },
+  "8": {
+   "full": "usman_shiver"
+  },
+  "9": {
+   "full": "climb"
+  },
+  "10": {
+   "full": "m_explain23"
+  },
+  "11": {
+   "full": "m_recite1"
+  },
+  "12": {
+   "full": "m_recite2"
+  },
+  "13": {
+   "full": "enoch_ms"
+  },
+  "14": {
+   "full": "m_whisper23"
+  },
+  "15": {
+   "full": "m_walk23"
+  },
+  "16": {
+   "full": "watchers_descent"
+  },
+  "17": {
+   "full": "oath_circle"
+  },
+  "18": {
+   "full": "plateau"
+  },
+  "19": {
+   "full": "stone_circles"
+  },
+  "20": {
+   "full": "giant_sit"
+  },
+  "21": {
+   "full": "giant_rise"
+  },
+  "22": {
+   "full": "usman_hide"
+  },
+  "23": {
+   "full": "usman_leg"
+  },
+  "24": {
+   "full": "indio_calm"
+  },
+  "25": {
+   "full": "brick_hold"
+  },
+  "26": {
+   "full": "giant_ask"
+  },
+  "27": {
+   "full": "indio_answer"
+  },
+  "28": {
+   "full": "indio_answer2"
+  },
+  "29": {
+   "full": "giant_silence"
+  },
+  "30": {
+   "full": "giant_kneel"
+  },
+  "31": {
+   "full": "nakita23"
+  },
+  "32": {
+   "full": "sandugo23"
+  },
+  "33": {
+   "full": "holo23"
+  },
+  "34": {
+   "full": "giant_kin"
+  },
+  "35": {
+   "full": "cloak_give"
+  },
+  "36": {
+   "full": "cloak_glow"
+  },
+  "37": {
+   "full": "usman_cloak"
+  },
+  "38": {
+   "full": "summit"
+  },
+  "39": {
+   "full": "albo_back"
+  },
+  "40": {
+   "full": "albo_speak"
+  },
+  "41": {
+   "full": "albo_ots"
+  },
+  "42": {
+   "full": "indio_shock23"
+  },
+  "43": {
+   "full": "indio_anger"
+  },
+  "44": {
+   "full": "m_hold"
+  },
+  "45": {
+   "full": "albo_turn"
+  },
+  "46": {
+   "full": "albo_alone"
+  },
+  "47": {
+   "full": "fiesta_memory"
+  },
+  "48": {
+   "full": "bracken_house"
+  },
+  "49": {
+   "full": "albo_grief"
+  },
+  "50": {
+   "full": "albo_hands"
+  },
+  "51": {
+   "full": "albo_far"
+  },
+  "52": {
+   "full": "usman_halftruth"
+  },
+  "53": {
+   "full": "indio_press"
+  },
+  "54": {
+   "full": "albo_many"
+  },
+  "55": {
+   "full": "flood_vision23"
+  },
+  "56": {
+   "full": "weapons_vision"
+  },
+  "57": {
+   "full": "albo_m"
+  },
+  "58": {
+   "full": "m_pale"
+  },
+  "59": {
+   "full": "m_eyes"
+  },
+  "60": {
+   "full": "indio_clarify23"
+  },
+  "61": {
+   "full": "bible_open23"
+  },
+  "62": {
+   "full": "giants_art"
+  },
+  "63": {
+   "full": "enoch_ms2"
+  },
+  "64": {
+   "full": "church_rock"
+  },
+  "65": {
+   "full": "hermon_today"
+  },
+  "66": {
+   "full": "indio_label23"
+  },
+  "67": {
+   "full": "feather"
+  },
+  "68": {
+   "full": "samar_fog23"
+  },
+  "69": {
+   "full": "balete_float"
+  },
+  "70": {
+   "full": "notebook_rings"
+  },
+  "71": {
+   "full": "indio_point23"
+  },
+  "72": {
+   "full": "indio_ask23"
+  },
+  "73": {
+   "full": "indio_follow23"
+  },
+  "90": {
+   "full": "snow_peak"
+  },
+  "91": {
+   "full": "wind_snow"
+  },
+  "92": {
+   "full": "giant_eyes"
+  },
+  "93": {
+   "full": "cloak_weave"
+  },
+  "94": {
+   "full": "white_glow"
+  },
+  "95": {
+   "full": "ring_snow"
+  },
+  "96": {
+   "full": "old_ash"
+  },
+  "97": {
+   "full": "feather_key"
+  },
+  "98": {
+   "full": "star_summit"
+  }
+ }
+}
