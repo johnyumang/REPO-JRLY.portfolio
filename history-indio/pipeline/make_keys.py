@@ -19,6 +19,10 @@ def green_cutout(im):
 def find(kind, n):
     for e in ('png', 'jpg'):
         if os.path.exists(f'{v}/{kind}/{n}.{e}'): return f'{v}/{kind}/{n}.{e}'
+# two free models of the same family on the same service; when one is down (504 for hours on 2026-11-12) the other usually answers.
+# The look is close enough for drafts (same prompt, same characters); set HI_IMG_MODEL=1 to start with the second one.
+MODELS = (('black-forest-labs/flux.2-klein-4b', {'steps': 4}), ('black-forest-labs/flux-3-image-klein', {}))
+PREF = [int(os.environ.get('HI_IMG_MODEL', '0')) % len(MODELS)]
 def gen(kind, n):
     p = find(kind, n)
     if p and n not in redo: return p
@@ -30,8 +34,10 @@ def gen(kind, n):
     if len(prompt) > 800: print(n, 'prompt too long:', len(prompt)); prompt = prompt[:800]
     seed = zlib.crc32(n.encode()) % 9999 + (len(redo) and n in redo) * int.from_bytes(os.urandom(2), 'big')
     for t in range(6):                                                    # the free endpoint sometimes answers 504 or with no image
+        m, extra = MODELS[(PREF[0] + t) % len(MODELS)]                    # start with the model that answered last; on a failure try the other one
         try:
-            if nvidia_still.call('black-forest-labs/flux.2-klein-4b', {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t, 'steps': 4}, out) and cv2.imread(out) is not None: return out
+            if nvidia_still.call(m, {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t // len(MODELS), **extra}, out) and cv2.imread(out) is not None:
+                PREF[0] = (PREF[0] + t) % len(MODELS); return out
         except Exception as e: print(n, 'failed:', str(e)[:120])
         if os.path.exists(out) and cv2.imread(out) is None: os.remove(out)
         time.sleep(4 * (t + 1))
