@@ -1,12 +1,22 @@
 ---
 name: indio
-description: History Indio episode workflow in one page, run on two principles to save time and tokens - the Neocortex principle (one repeating unit, hierarchy, remember and predict) and the Elon Musk principle (the five-step algorithm - question, delete, simplify, accelerate, automate). Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. Invoke as /indio [episode or task].
+description: History Indio episode workflow in one page, run on two principles to save time and tokens - the Neocortex principle (one repeating unit, hierarchy, remember and predict) and the Elon Musk principle (the five-step algorithm - question, delete, simplify, accelerate, automate). Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. This is the FATHER skill: one bundle holding the principles, the episode workflow and Kaizen. Invoke as /indio [episode or task], or /indio kaizen.
 ---
 
 # Indio: the History Indio workflow, the short way
 
 Channel: History Indio. Tagalog/Taglish vertical shorts (1080x1920, 30 fps, about 3 minutes), anime look, time-travel
 series with Indio and Usman. Work in `history-indio/` on branch `claude/eager-davinci-9qu2gg`. Repo is PUBLIC.
+
+## What is in this bundle (everything lives under this one skill)
+| Part | Where | Use |
+|---|---|---|
+| Neocortex principle | this file | how the work is organised |
+| Elon Musk principle | this file | the order of attack on every task |
+| Indio workflow | this file | rules, file set, commands, story shape |
+| Kaizen | `kaizen.md` beside this file | one small improvement after every finished unit or user correction; log in `history-indio/KAIZEN.md` |
+| Older helper skills | `history-indio/skills/cinematic-explainer-short`, `history-indio/skills/indio-voice`, `.claude/skills/anime-style` | read only when the task needs them (komiks look, fallback voice, Blender look) |
+Do not create a separate skill for History Indio work: add a file or a section here.
 
 ## Principle 1: Neocortex (how the work is organised)
 From Mountcastle's idea, popularised by Jeff Hawkins: the neocortex repeats ONE unit (the cortical column) everywhere,
@@ -20,7 +30,7 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
   pattern. Only what is surprising (a new decision, a failed step) needs fresh thought.
 - **Learn from the error.** When the result differs from what was expected (user correction, bad frame, failed
   build), write the correction into memory at once (HANDOFF.md or this skill) so it is never paid for twice.
-  The `/kaizen` skill does this.
+  Kaizen (below) does this.
 
 ## Principle 2: Elon Musk (the five-step algorithm, in this order on every task)
 1. **Question the requirement.** Read only what the task needs: the last sections of `history-indio/HANDOFF.md`
@@ -69,3 +79,7 @@ hook; intro line + present-day problem; push to a real marker; the jump and Usma
 fairness beat (certain / disputed / legend / fiction); return + cliffhanger + question + follow line.
 Vary arrival, connection and twist from the previous two episodes. Indio's voice: cool, calm, short sentences,
 slang about once per two or three sentences, none in history lines.
+
+## Kaizen (always the last step)
+After every finished unit or user correction, read `kaizen.md` in this folder and do it: name one waste, make one
+small fix, add one line to `history-indio/KAIZEN.md`, tell the user in one sentence.

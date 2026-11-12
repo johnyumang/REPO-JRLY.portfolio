@@ -1,8 +1,4 @@
----
-name: kaizen
-description: Kaizen (continuous small improvement) for History Indio. Run after every finished episode, video build or user correction - find the biggest waste, make one small fix to the workflow, record it. Invoke as /kaizen [what just finished].
----
-
+<!-- Part of the /indio bundle. Run as: /indio kaizen [what just finished] -->
 # Kaizen: one small improvement after every piece of work
 
 Kaizen = change for the better, in small steps, every time, by the people doing the work. Never a big redesign.
@@ -28,6 +24,6 @@ Takes five minutes at most. Skip nothing; if there is no waste to fix, write "no
 ## Rules
 - One improvement per run. Small and finished beats large and planned.
 - Fix the process, never blame. A user correction is the best input: record it the same turn.
-- Never loosen the fixed rules in the `/indio` skill (honesty labels, no paid APIs, no secrets, no committed MP4s or
+- Never loosen the fixed rules in the parent skill (`SKILL.md`) (honesty labels, no paid APIs, no secrets, no committed MP4s or
   voice files, the user's own voice only).
 - Tell the user the improvement in one Taglish sentence.
