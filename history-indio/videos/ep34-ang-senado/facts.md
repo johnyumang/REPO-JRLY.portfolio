@@ -26,7 +26,7 @@
 - No calendar year for Indio's present and no real election date. The 2025 investigations are not named.
 - No "Mister Bracken" is spoken in this episode. The note that the kappa is "from Sakai" is left out, because Sakai is a scholar cited in WP, not a place in the tale.
 
-**Fiction (labelled):** Senador Gorio Madlangbayan, the Hiraya Diking Corporation, the 100-million line, the province with no dike, the notary, the forged documents, the committee offer, Sinag, Tubal, Rico Bulan, Ma'am Celia, Bea, Totoy, Tay Sebyo, the Lolo Isidro scholarship, the medallions Ang Kasulatan and Ang Tinig, and the kappa and sarimanok as helpers. No real living senator, party or company appears.
+**Fiction (labelled):** Senador Gorio Madlangbayan, the Dalisdis Diking Corporation, the 100-million line, the province with no dike, the notary, the forged documents, the committee offer, Sinag, Tubal, Rico Bulan, Ma'am Celia, Bea, Totoy, Tay Sebyo, the Lolo Isidro scholarship, the medallions Ang Kasulatan and Ang Tinig, and the kappa and sarimanok as helpers. No real living senator, party or company appears.
 
 ## Where each claim is spoken (script version 1, 742 words, 70 sentences)
 - Age and time passing: 7 (two terms as mayor, more grey hair) and 8 (35 when he wins). L1: 9 and 61. L2: 10. L3: 61.

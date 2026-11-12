@@ -4,7 +4,7 @@
 SEASON 4, EPISODE 35: Isang video, isang kontrata, at ang pirma ni Senador Indio sa ibaba. Peke ang mga papel, pero totoo ang limampung sasakyan, at iyon lang ang kailangan ng bitag. 🕯️
 Para maintindihan kung paano binubura ang pangalan ng isang tao, bumalik si Indio sa Maynila ng Setyembre 1907, sa labas ng pader ng Bilibid, kung saan binitay si Macario Sakay, ang lumabang tinawag na "bandido."
 
-Totoo ang kasaysayan ni Macario Sakay at ang mga imbestigasyon sa flood control noong 2025 (binabanggit lang nang pangkalahatan). Kathang-isip ang bitag, ang Hiraya Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, at sina Indio at Usman; walang totoong tao, partido o kompanya ang ipinapakita.
+Totoo ang kasaysayan ni Macario Sakay at ang mga imbestigasyon sa flood control noong 2025 (binabanggit lang nang pangkalahatan). Kathang-isip ang bitag, ang Dalisdis Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, at sina Indio at Usman; walang totoong tao, partido o kompanya ang ipinapakita.
 
 👉 Kung may pangalang idinikit sa'yo na hindi totoo, paano mo ito tatanggalin? Comment mo.
 I-follow ang History Indio para sa susunod na talon!
@@ -33,4 +33,4 @@ Isang salita lang ang idinikit kay Sakay: bandido. 🕯️ Totoo ang kasaysayan;
 Peke ang papel. Totoo ang limampung sasakyan. 🕯️ Totoo ang kasaysayan ni Macario Sakay; kathang-isip ang bitag, ang kumpanya at ang mga tauhan. #HistoryIndio #MacarioSakay #PinoyAnime #KasaysayanNgPilipinas #TimeTravel
 
 ## Pinned comment (sources)
-Mga pinagmulan: Kawikaan 22:1 (Ang Dating Biblia, 1905, unang bahagi) · Macario Sakay (Wikipedia; A. Ocampo, "Our long-haired freedom fighter", Inquirer) · Brigandage Act, Act No. 518 (1902) · 1987 Constitution Art. VI sec. 3 (edad ng senador) · Mga imbestigasyon sa flood control noong 2025 (Philstar, SunStar; binabanggit lang nang pangkalahatan). Kathang-isip ang Hiraya Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, at sina Indio, Usman at M.
+Mga pinagmulan: Kawikaan 22:1 (Ang Dating Biblia, 1905, unang bahagi) · Macario Sakay (Wikipedia; A. Ocampo, "Our long-haired freedom fighter", Inquirer) · Brigandage Act, Act No. 518 (1902) · 1987 Constitution Art. VI sec. 3 (edad ng senador) · Mga imbestigasyon sa flood control noong 2025 (Philstar, SunStar; binabanggit lang nang pangkalahatan). Kathang-isip ang Dalisdis Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, at sina Indio, Usman at M.

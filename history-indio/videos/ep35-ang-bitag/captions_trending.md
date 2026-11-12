@@ -30,7 +30,7 @@ idinikit nila ang pangalan ko sa dikeng hindi itinayo | History Indio EP 35 #sho
 Totoo ang kasaysayan ni Macario Sakay; kathang-isip ang bitag at ang mga tauhan.
 
 ## Pinned comment
-Totoo: si Macario Sakay ay hinatulan sa ilalim ng Brigandage Act ng 1902 at binitay sa Bilibid noong 13 Setyembre 1907. Totoo rin ang mga imbestigasyon sa flood control noong 2025 (pangkalahatan lang). Kathang-isip: ang Hiraya Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, sina Indio, Usman at M. Mga pinagmulan: Wikipedia (Macario Sakay), Inquirer (A. Ocampo), 1987 Constitution Art. VI sec. 3.
+Totoo: si Macario Sakay ay hinatulan sa ilalim ng Brigandage Act ng 1902 at binitay sa Bilibid noong 13 Setyembre 1907. Totoo rin ang mga imbestigasyon sa flood control noong 2025 (pangkalahatan lang). Kathang-isip: ang Dalisdis Diking, si Jovy Ladrillo, si Rico Bulan, ang partido, ang pagiging senador ni Indio, sina Indio, Usman at M. Mga pinagmulan: Wikipedia (Macario Sakay), Inquirer (A. Ocampo), 1987 Constitution Art. VI sec. 3.
 
 ## On-screen opener
 idinikit nila ang pirma ko.
