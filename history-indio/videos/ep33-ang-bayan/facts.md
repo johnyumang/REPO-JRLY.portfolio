@@ -21,7 +21,7 @@
 - No ship or troop numbers, and no exact day in November or December, because the sources differ.
 - "Mula sa likod ng isang pader na kahoy" became "bakod na kahoy" to match the palisade; Manila had no stone wall until about 1590.
 - No line is put in Limahong's or Salcedo's mouth. Indio only watches.
-- The real residency rule for candidates is not discussed. Indio moved to San Lorenzo after his barangay term, and the story leaves time before the election.
+- The real residency rule for candidates (sec. 39(a)) is not discussed and no period is stated, because secondary sources disagree on its length. Indio moved to San Lorenzo after his barangay term, and the story leaves time before the election.
 
 **Fiction (labelled):** San Lorenzo, Mayor Tres Lacsamana, Alcaín Builders, the bid, the flood wall of the plot and the cooperatives, the casino contract, Tobías Alcaín (Tubal), Kalawang, Engineer Vangie Dulay, JM, Bea, Rico Bulan, Sinag, M, the medallion Ang Kalakal, and the jobs given to the kapre and the tikbalang. No real living person, party or company appears. The September flood is the story's own, not a real event.
 

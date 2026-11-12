@@ -6,7 +6,7 @@
 
 | # | Claim the script may speak | Status | Sources (dated) |
 |---|---|---|---|
-| L1 | A candidate for punong barangay must be at least 18 years of age on election day (R.A. 7160, the Local Government Code of 1991, sec. 39(c)) | confirmed by two secondary sources; official text not reached | respicio.ph, "Barangay Election Qualifications in the Philippines" [summary only, 2026-11-12]; batasnatin.com, "RA 6644 explained" [summary only, 2026-11-12]; DILG Caraga, "FAQs 2013 Barangay Election" (downloads.caraga.dilg.gov.ph) [summary only, 2026-11-12] |
+| L1 | A candidate for punong barangay must be at least 18 years of age on election day (R.A. 7160, the Local Government Code of 1991, sec. 39(e); paragraph (c) is the 21 for municipal mayors and (b) the 23 for governors and mayors of highly urbanized cities) | confirmed by two secondary sources; official text not reached | respicio.ph, "Barangay Election Qualifications in the Philippines" [summary only, 2026-11-12]; batasnatin.com, "RA 6644 explained" [summary only, 2026-11-12]; DILG Caraga, "FAQs 2013 Barangay Election" (downloads.caraga.dilg.gov.ph) [summary only, 2026-11-12] |
 | B1 | The word *barangay* comes from *balangay*, a kind of boat | confirmed | WP "Barangay" (read 2026-11-12), citing Zaide 1999 and Plasencia 1589; W. H. Scott, *Barangay* (1994), cited there |
 | B2 | Juan de Plasencia wrote an account of the customs of the Tagalogs in 1589 | confirmed | WP "Juan de Plasencia" ("Relacion de las Costumbres de Los Tagalos" (1589)); WP "Barangay" ("Las costumbres de los indios Tagalos de Filipinas", 1589) |
 | B3 | In that account the barangay is a community of families under a datu, with its own customs and law | confirmed as Plasencia's description; spoken as "daw" | WP "Barangay" ("well-organized, independent villages called barangays"; "All citations regarding pre-colonial barangays lead to a single source, Juan de Plascencia's 1589 report"); WP "Juan de Plasencia" |
@@ -18,6 +18,7 @@
 **Not said (removed from the story chapter):**
 - No number of families is given: WP gives "around 50 to 100 families" for the first barangays, and other popular figures (30 to 100) do not agree with it.
 - The scene on the shore is not dated to a year or a place. Plasencia did not meet that datu, and nothing is put in a real person's mouth. The datu speaks no line.
+- No residence period is stated. Sec. 39(a) also requires residence in the barangay before the election, but secondary sources disagree on the length (one year or six months), so the script leaves it out.
 - No calendar year is stated for Indio's present. The real electoral calendar is not shown, under the Season 4 rule.
 
 **Fiction (labelled):** Kap Ramil Samonte, Alcaín Builders, the Kawit flood wall in the plot and all its papers (the certificate, the receipt, the erased paragraph), the engineer and the man who chews nails, Ma'am Celia Abad, Bea Marasigan, JM Robles, Rico Bulan and his vlog, Sinag, Tala, M, Lola Ising, the medallion Ang Kasulatan, the Yúmud, and the scene on the shore. The office of punong barangay and the age rule are real; the barangay of the plot has no name and stands for no real barangay of Kawit. No real living person, party or company appears.
