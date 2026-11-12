@@ -1,0 +1,321 @@
+{
+ "_note": "Episode 24 (S3E4) keyframes. Plato's Atlantis seen through a portal (the story's realm, not a real place); the present is a night video call with Ma'am Celia and a Samar beach (no dog). Usman only inside the portal. Sinag in disguise is a crowned queen; her true shadow has burnt wings. Real people (Plato, Solon, the Egyptian priests) are generic figures from behind, sepia. Prompts written setting-first (KAIZEN tip); no 'brick'. Copied: full intro (Episode 11). Shots follow sentences.json; k80-k90 are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "queen_cup": "inside a vast golden palace hall of an ancient island city, warm lamplight: a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes on a throne holding out a golden cup of wine to a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash who has taken it in his hand, temptation, a black dog watching from the floor. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "notebook_rings": "close-up of a small worn brown notebook on a wooden table, golden ink drawing concentric rings of land and water with a tiny temple in the centre, lamplight, no writing.",
+  "videocall": "in a small present-day apartment at night, over the shoulder of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist: on a laptop screen a kind Filipina teacher in her thirties with her hair in a bun and glasses pushed up, explaining warmly, books behind her, no readable text.",
+  "celia_cu": "close-up on a laptop screen: a kind Filipina teacher in her thirties with her hair in a neat bun, raising her glasses, serious and gentle, bookshelves behind, no readable text.",
+  "plato_scroll": "warm sepia scene: a sunlit marble colonnade of an ancient Greek school, a stone bench with rolled parchments and an olive branch on it, nobody, calm, no readable letters.",
+  "egypt_priests": "warm sepia illustration: seen from behind, an old Greek traveller in a himation listening to two Egyptian priests in white linen inside a temple of tall painted columns, faces not visible, no readable hieroglyphs.",
+  "empty_sea_map": "an antique map of the sea beyond a narrow strait between two rocky headlands, empty blue water where an island should be, a dotted question mark of waves, no writing.",
+  "indio_smile_call": "close-up of a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist smiling at a laptop screen glow at night, determined, a small brown notebook in his hand.",
+  "balangay_portal": "at night on the open sea, low wide shot from the deck of a long wooden outrigger boat with a woven sail: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash at the prow holding up a small glowing bronze key, a huge swirling ring of golden light opening on the water ahead, a young Filipina woman with long black hair in a long dark coat behind him.",
+  "usman_prow": "at sea in golden portal light: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief standing proudly at the very prow of a wooden outrigger boat, ears flying in the wind, tongue out, spray.",
+  "atlantis_rings": "very high aerial view of a legendary island city built in perfect concentric rings of land and water, bridges and canals, harbours full of ships, a temple on the central hill shining like a small sun, deep blue sea. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "atlantis_walls": "low angle wide shot of huge city walls of red, white and black stone, plated with gleaming brass, tin and a red-gold metal, a high bridge over a canal, ships passing below. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "temple_sun": "a magnificent temple on a central hill glowing with golden light as if it had its own sun, long stairs, statues of horses and sea-gods, crowds tiny below. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "indio_smell": "on a crowded golden plaza of an ancient island city, a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash stopping still with a troubled face, sniffing the air, people in jewels passing around him. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "feast_endless": "wide shot of an endless banquet in a golden hall: long tables piled with food and gold cups, guests in jewels drinking, many empty gilded rooms beyond, excess and emptiness. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "memory_cars": "dim memory scene: a long row of shiny luxury cars in a cold empty garage, empty bottles on the floor, nobody, sad, no logos.",
+  "queen_reveal": "in an ancient golden plaza crowd, low angle: a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes turning to look straight at the viewer, cold knowing smile, guards in bronze behind her. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "queen_seat": "inside a golden palace hall: a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes seating a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash beside her on a cushioned golden couch, offering him a golden cup, a black dog uneasy at his feet. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "queen_whisper": "close-up of a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes leaning in to whisper, honeyed smile, candlelight in her pearl crown. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "queen_throne": "low angle of a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes gesturing to an empty golden throne beside her, as if offering a kingdom, light rays. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "cup_hand": "extreme close-up of a young man's tattooed hand closing around a golden goblet of red wine, his reflection in the gold.",
+  "lamp_out": "inside a golden palace hall: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash drawing out a small plain clay oil lamp from his tunic and whispering, the lamp beginning to glow, the queen frozen beside him. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "burnt_shadow": "on a golden palace wall, lit by a small lamp, the shadow of a crowned woman shows instead a winged figure with burnt ragged wings, ominous, smoke.",
+  "usman_sniff_queen": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief with ears back and nose wrinkled, growling softly toward a golden throne room. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "m_door": "in the doorway of a golden palace hall, a young Filipina woman with long black hair in a long dark coat standing pale and stern, holding a small crescent-moon medallion, lamplight on her face. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "m_memory_host": "warm sepia memory scene: two winged figures of light standing side by side in a pale sky, one later shown with dark burnt wings, faces hidden by light, solemn, no religious symbols.",
+  "star_surigao": "memory scene at night on a Philippine seaside road: a small golden star medallion lighting up in a young man's palm while a shadowy winged figure watches from the dark sea.",
+  "usman_bark": "dynamic shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief barking furiously, leaping between a young man and a crowned woman, a golden cup flying, red wine splashing. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "cup_down": "close-up of a hand setting a golden goblet down on a marble table, spilled wine, calm and final.",
+  "sinag_laugh": "low angle: a tall regal woman with a pearl crown, a flowing golden gown and cold beautiful eyes laughing, her shadow behind her spreading into burnt wings, cracks running across the golden palace floor, dust falling. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "kings_virtue": "sepia allegory illustration: ten crowned ancient kings in white robes standing calmly in a temple of light, a sea-god's statue behind them, faces calm and noble, no text.",
+  "kings_greed": "the same ten crowned kings now in heavy gold, grasping at piles of treasure, their faces turned away, shadows growing, dim red light.",
+  "sea_swallow": "high wide shot: a great island city of rings sinking into a dark sea under storm clouds, water pouring into the canals, day turning to night. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "critias_unfinished": "close-up of an old handwritten page on an ancient writing desk where the lines of ink stop halfway and the rest of the sheet is blank, a reed pen lying beside it, lamplight, no readable letters.",
+  "water_canals": "canals of a golden ancient city quietly overflowing, water climbing palace stairs, silent, no people, eerie calm. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "walls_fail": "low angle: gleaming metal-plated city walls standing uselessly as calm sea water rises around them and pours through the gates. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "kraken_rise": "dramatic wide shot: a colossal squid as big as an island rising from a dark sea, tentacles coiling around tall towers of a sinking golden city, lightning. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "m_kraken": "close-up of a young Filipina woman with long black hair in a long dark coat on the deck of a wooden outrigger boat, wind and spray, eyes on a giant tentacle behind her. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "agos_ride": "dynamic action shot: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash streaking across the water like a blue current between giant tentacles, spray flying. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "net_neck": "close-up: a thick net of old ropes and gold chains wrapped around the body of a giant squid, cutting into its skin, sad eye visible.",
+  "dagger_cut": "action close-up: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash slicing through thick ropes of a net with a short glowing dagger, ropes snapping, sea spray.",
+  "kraken_calm": "a giant squid floating calm in the water at dawn, the cut net drifting away, tentacles relaxed, one huge gentle eye, a small boat nearby.",
+  "seal_kraken": "a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash raising one open hand toward a giant calm squid eye, a young Filipina woman with long black hair in a long dark coat lifting a small glowing crescent-moon medallion, a thread of golden light between them. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "greave": "close-up of an ancient leg greave of bronze with a red-gold metal inlay hanging from a cut rope net, dripping sea water, glinting.",
+  "holo_kraken": "on a wooden boat deck at dawn, low angle: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash holding out his tattooed forearm, a translucent blue-gold holographic panel above it with a glowing squid icon, no readable text.",
+  "greave_wave": "a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash wearing a bronze greave on one leg, standing perfectly steady on the deck of a boat tossed by a huge wave, calm face. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "m_prow_back": "seen from behind: a young Filipina woman with long black hair in a long dark coat standing at the prow of a wooden outrigger boat sailing out of a golden portal, not looking back, dawn sea. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "m_cu_quiet": "close-up of a young Filipina woman with long black hair in a long dark coat with her eyes lowered, a faint softening at the corner of her mouth, sea wind. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "indio_hope": "close-up of a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash looking at someone's back with quiet hope, golden dawn light. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "usman_growl_sea": "on a wooden boat deck at dawn, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief with a low growl, ears back, serious eyes at the viewer. Plato's legendary island city in an ancient Mediterranean style, nothing modern, no weapons, not a character sheet.",
+  "ruins_none": "an empty seabed with sand and fish, no ruins at all, sunbeams, a diver's light searching, nothing found.",
+  "thera_eruption": "wide historical illustration: a volcanic island erupting in the Aegean sea, ash column, small ancient ships fleeing, dramatic sky.",
+  "victorian_book": "close-up of an old 1880s book with a marbled cover and an engraved map of an imaginary sunken continent, oil lamp, no readable title.",
+  "kraken_lore": "old Scandinavian-style woodcut-like illustration: a giant squid attacking a sailing ship among waves, sailors pointing, no text.",
+  "portal_exit": "on the open sea at dawn, a wooden outrigger boat sailing out of a closing golden portal, a black dog fading into golden sparks at the prow, a young Filipina woman with long black hair in a long dark coat and a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash aboard.",
+  "samar_feather": "on a dark Samar beach at night: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist holding up a small bronze key with a white feather tied to it toward the air, nothing happening, mist. Present-day Philippines, no animals.",
+  "balete_fog": "at night in thick fog on a Philippine field, a huge balete tree whose roots hang in the air without touching the ground, ghostly, nothing else.",
+  "notebook_snow": "close-up of a small worn brown notebook, golden ink drawing a stone door in snow and one giant footprint, lamplight, no writing.",
+  "indio_point_s3": "on a dark beach at night: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pointing straight at the viewer with a cool friendly half-smile. Present-day Philippines, no animals.",
+  "trio_sea": "wide low silhouette shot at sunrise on the open sea: a young Filipino man with a black topknot, a red headband, a plain beige tunic and a red sash, a young Filipina woman with long black hair in a long dark coat and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on a long wooden outrigger boat sailing toward a glowing horizon.",
+  "ilawan_cu": "extreme close-up of a small plain clay oil lamp glowing warm and bright in a tattooed hand, the light pushing back shadows."
+ },
+ "shots": {
+  "0": {
+   "full": "queen_cup"
+  },
+  "1": {
+   "full": "intro"
+  },
+  "2": {
+   "full": "atlantis_rings"
+  },
+  "3": {
+   "full": "notebook_rings"
+  },
+  "4": {
+   "full": "videocall"
+  },
+  "5": {
+   "full": "celia_cu"
+  },
+  "6": {
+   "full": "plato_scroll"
+  },
+  "7": {
+   "full": "egypt_priests"
+  },
+  "8": {
+   "full": "empty_sea_map"
+  },
+  "9": {
+   "full": "indio_smile_call"
+  },
+  "10": {
+   "full": "balangay_portal"
+  },
+  "11": {
+   "full": "usman_prow"
+  },
+  "12": {
+   "full": "atlantis_rings"
+  },
+  "13": {
+   "full": "atlantis_walls"
+  },
+  "14": {
+   "full": "temple_sun"
+  },
+  "15": {
+   "full": "indio_smell"
+  },
+  "16": {
+   "full": "feast_endless"
+  },
+  "17": {
+   "full": "memory_cars"
+  },
+  "18": {
+   "full": "queen_reveal"
+  },
+  "19": {
+   "full": "queen_seat"
+  },
+  "20": {
+   "full": "queen_whisper"
+  },
+  "21": {
+   "full": "queen_throne"
+  },
+  "22": {
+   "full": "cup_hand"
+  },
+  "23": {
+   "full": "lamp_out"
+  },
+  "24": {
+   "full": "burnt_shadow"
+  },
+  "25": {
+   "full": "usman_sniff_queen"
+  },
+  "26": {
+   "full": "m_door"
+  },
+  "27": {
+   "full": "m_memory_host"
+  },
+  "28": {
+   "full": "star_surigao"
+  },
+  "29": {
+   "full": "usman_bark"
+  },
+  "30": {
+   "full": "cup_down"
+  },
+  "31": {
+   "full": "sinag_laugh"
+  },
+  "32": {
+   "full": "kings_virtue"
+  },
+  "33": {
+   "full": "kings_greed"
+  },
+  "34": {
+   "full": "sea_swallow"
+  },
+  "35": {
+   "full": "critias_unfinished"
+  },
+  "36": {
+   "full": "water_canals"
+  },
+  "37": {
+   "full": "walls_fail"
+  },
+  "38": {
+   "full": "kraken_rise"
+  },
+  "39": {
+   "full": "m_kraken"
+  },
+  "40": {
+   "full": "agos_ride"
+  },
+  "41": {
+   "full": "net_neck"
+  },
+  "42": {
+   "full": "dagger_cut"
+  },
+  "43": {
+   "full": "seal_kraken"
+  },
+  "44": {
+   "full": "greave"
+  },
+  "45": {
+   "full": "holo_kraken"
+  },
+  "46": {
+   "full": "greave_wave"
+  },
+  "47": {
+   "full": "m_prow_back"
+  },
+  "48": {
+   "full": "m_cu_quiet"
+  },
+  "49": {
+   "full": "m_prow_back"
+  },
+  "50": {
+   "full": "indio_hope"
+  },
+  "51": {
+   "full": "usman_growl_sea"
+  },
+  "52": {
+   "full": "plato_scroll"
+  },
+  "53": {
+   "full": "ruins_none"
+  },
+  "54": {
+   "full": "thera_eruption"
+  },
+  "55": {
+   "full": "victorian_book"
+  },
+  "56": {
+   "full": "kraken_lore"
+  },
+  "57": {
+   "full": "trio_sea"
+  },
+  "58": {
+   "full": "portal_exit"
+  },
+  "59": {
+   "full": "samar_feather"
+  },
+  "60": {
+   "full": "balete_fog"
+  },
+  "61": {
+   "full": "notebook_snow"
+  },
+  "62": {
+   "full": "indio_point_s3"
+  },
+  "63": {
+   "full": "ilawan_cu"
+  },
+  "64": {
+   "full": "trio_sea"
+  },
+  "80": {
+   "full": "atlantis_walls"
+  },
+  "81": {
+   "full": "feast_endless"
+  },
+  "82": {
+   "full": "queen_throne"
+  },
+  "83": {
+   "full": "burnt_shadow"
+  },
+  "84": {
+   "full": "kraken_lore"
+  },
+  "85": {
+   "full": "net_neck"
+  },
+  "86": {
+   "full": "greave"
+  },
+  "87": {
+   "full": "sea_swallow"
+  },
+  "88": {
+   "full": "m_memory_host"
+  },
+  "89": {
+   "full": "ilawan_cu"
+  },
+  "90": {
+   "full": "usman_prow"
+  },
+  "91": {
+   "full": "water_canals"
+  },
+  "92": {
+   "full": "kings_greed"
+  },
+  "93": {
+   "full": "cup_hand"
+  },
+  "94": {
+   "full": "egypt_priests"
+  }
+ }
+}
