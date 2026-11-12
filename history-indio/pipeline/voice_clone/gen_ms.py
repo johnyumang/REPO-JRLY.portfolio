@@ -8,7 +8,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import voxgen as
 work = sys.argv[1]; a = sys.argv[2:]; arg = lambda f, d: a[a.index(f) + 1] if f in a else d
 P = json.load(open(work + '/plan.json')); only = [int(x) for x in arg('--only', '').split(',') if x]; seeds = [int(x) for x in arg('--seeds', '1').split(',')]
 PROMPTS, REFS = VP.PROFILE['prompts'], VP.PROFILE['refs']
-def clip(ids, out, gap=0.38, tail=0.30):                                          # same cut as gen.py
+TAIL = 0.80   # silence after the continuation prompt: with 0.30 s the model often voices a stray syllable before the line (Ep 10: 0/8 -> 5/8 takes right)
+def clip(ids, out, gap=0.38, tail=TAIL):                                          # same cut as gen.py, longer tail
     if os.path.exists(out): return out
     parts = []
     for k, i in enumerate(ids):
@@ -20,8 +21,11 @@ os.makedirs(work + '/refs', exist_ok=True)
 def voice(c):
     if c['speaker'] == VP.NARRATOR:
         ids = PROMPTS.get(c['prompt'], PROMPTS['narrate'])
-        return dict(prompt=clip(ids, f"{work}/refs/p_{c['prompt']}.wav"), prompt_text=' '.join(V.REAL[i]['text'] for i in ids), ref=clip(REFS, work + '/refs/ref.wav', tail=0.2))
-    w, t = VP.cast_ref(c['speaker']); return dict(prompt=w, prompt_text=t, ref=w)
+        return dict(prompt=clip(ids, f"{work}/refs/p_{c['prompt']}_t80.wav"), prompt_text=' '.join(V.REAL[i]['text'] for i in ids), ref=clip(REFS, work + '/refs/ref.wav', tail=0.2))
+    w, t = VP.cast_ref(c['speaker']); pw = f"{work}/refs/{VP.fname(c['speaker'])}_t80.wav"
+    if not os.path.exists(pw):                                                  # cast clips end in 0.25 s silence: pad to TAIL
+        y, sr = sf.read(w, dtype='float32'); sf.write(pw, np.r_[y, np.zeros(int((TAIL - 0.25) * sr), np.float32)], sr)
+    return dict(prompt=pw, prompt_text=t, ref=w)
 for c in P['chunks']:
     if only and c['id'] not in only: continue
     for seed in seeds:
