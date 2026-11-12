@@ -1,7 +1,7 @@
 [
  {
-  "text": "Sa malalim na lawa ng lumang ilog, may anyong itim na umaahon, at ako ang tinitingnan nito.",
-  "say": "sa malalim na lawa ng lumang ilog, may anyong itim na umaahon, at ako ang tinitingnan nito.",
+  "text": "Sa lawa ng lumang ilog, may anyong itim na umaahon, nakatingin sa akin.",
+  "say": "sa lawa ng lumang ilog, may anyong itim na umaahon, nakatingin sa akin.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
@@ -48,41 +48,49 @@
   "speaker": "M"
  },
  {
-  "text": "Butuan, pero ang laman ng wallet ko, isang daan at dalawampung piso.",
-  "say": "butuan, pero ang laman ng wolet ko, isang daan at dalawampung piso.",
-  "style": "sad",
+  "text": "Ang una kong sakay, ang lumang bisikleta ni Lolo; ngayon, segunda-manong motor na may sidecar.",
+  "say": "ang una kong sakay, ang lumang bisikleta ni lolo; ngayon, segunda-manong motor na may saydkar.",
+  "style": "warm",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Hinawakan ko ang medalyong may bituin, at pabirong bumulong.",
-  "say": "hinawakan ko ang medalyong may bituin, at pabirong bumulong.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Sana yumaman ako, kahit pamasahe lang.",
-  "say": "sana yumaman ako, kahit pamasahe lang.",
+  "text": "Para kay Usman ang sidecar, kahit alam kong sa nakaraan lang siya nakakasakay.",
+  "say": "para kay usman ang saydkar, kahit alam kong sa nakaraan lang siya nakakasakay.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Kumislap ang bituin, kahit hindi pa gising ang labindalawa.",
-  "say": "kumislap ang bituin, kahit hindi pa gising ang labindalawa.",
-  "style": "dramatic",
+  "text": "Sa Surigao, ubos na ang gas at ang pera ko.",
+  "say": "sa surigao, ubos na ang gas at ang pera ko.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Nag-ring ang phone ko: hindi na kasya sa screen ang mga zero.",
-  "say": "nag-ring ang pon ko: hindi na kasya sa skrin ang mga sero.",
-  "style": "excited",
+  "text": "Wala na akong pamasahe, isang daan at dalawampung piso na lang.",
+  "say": "wala na akong pamasahe, isang daan at dalawampung piso na lang.",
+  "style": "sad",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sana yumaman ako, kahit pang-gas lang.",
+  "say": "sana yumaman ako, kahit pang-gas lang.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kumislap ang bituin, at hindi na kasya sa screen ng phone ko ang mga zero.",
+  "say": "kumislap ang bituin, at hindi na kasya sa skrin ng pon ko ang mga sero.",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
@@ -104,9 +112,33 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kinabukasan, lumipad kami pa-Butuan.",
-  "say": "kinabukasan, lumipad kami pa-butuan.",
+  "text": "Sa Butuan, bumili ako ng bagong pickup, tapos jet ski, tapos isa pang motor.",
+  "say": "sa butuan, bumili ako ng bagong pikap, tapos jet ski, tapos isa pang motor.",
+  "style": "excited",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Indio, may kumuha ng litrato ng bagong pickup mo, tapos umalis.",
+  "say": "indio, may kumuha ng litrato ng bagong pikap mo, tapos umalis.",
   "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "M"
+ },
+ {
+  "text": "Sa tabi ng ilog, may karatula ng proyektong flood control, pero walang itinayo kahit isang bato.",
+  "say": "sa tabi ng ilog, may karatula ng proyektong plad kontrol, pero walang itinayo kahit isang bato.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kumurap ang apoy ng ilawan sa harap ng karatula, kahit walang hangin.",
+  "say": "kumurap ang apoy ng ilawan sa harap ng karatula, kahit walang hangin.",
+  "style": "suspense",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
@@ -120,24 +152,24 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.",
-  "say": "uminit ang medalyon ni em, at may tumahol sa loob ng liwanag.",
+  "text": "Uminit ang medalyon ni M, at sa loob ng liwanag, umungol si Usman, nakatingin sa karatula.",
+  "say": "uminit ang medalyon ni em, at sa loob ng liwanag, umungol si usman, nakatingin sa karatula.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Ako 'yon, par, nandito ulit ako!",
-  "say": "ako 'yon, par, nandito ulit ako!",
+  "text": "Ako 'yon, par, at ayoko ng amoy ng karatulang 'yon!",
+  "say": "ako 'yon, par, at ayoko ng amoy ng karatulang 'yon!",
   "style": "excited",
   "pre": 0,
   "pause": 0.62,
   "speaker": "USMAN"
  },
  {
-  "text": "Butuan ito, taong 1011, ang lumang daungan.",
-  "say": "butuan ito, taong mil onse, ang lumang daungan.",
+  "text": "Butuan, taong 1011, ang daungan.",
+  "say": "butuan, taong mil onse, ang daungan.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -155,14 +187,6 @@
   "text": "Labing-isang ganitong bangka ang nahukay sa Butuan, mula pa sa mga taong 689 hanggang 988.",
   "say": "labing-isang ganitong bangka ang nahukay sa butuan, mula pa sa mga taong anim na raan at walumpu't siyam hanggang siyam na raan at walumpu't walo.",
   "style": "serious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Siyam ang unang natagpuan noong 1976, malapit sa ilog ng Masao.",
-  "say": "siyam ang unang natagpuan noong mil nobesyentos setentay seis, malapit sa ilog ng masao.",
-  "style": "curious",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
@@ -200,8 +224,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa lente, sinundan ko ang kislap ng tanso hanggang sa isang malalim na lawa.",
-  "say": "sa lente, sinundan ko ang kislap ng tanso hanggang sa isang malalim na lawa.",
+  "text": "Sa lente, sinundan ko ang kislap ng tanso hanggang sa isang lawa.",
+  "say": "sa lente, sinundan ko ang kislap ng tanso hanggang sa isang lawa.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3,
@@ -248,8 +272,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Pagdikit ng daliri ko, may boses na sumabay sa bulong ng tubig.",
-  "say": "pagdikit ng daliri ko, may boses na sumabay sa bulong ng tubig.",
+  "text": "Pagdikit ng daliri ko, may boses.",
+  "say": "pagdikit ng daliri ko, may boses.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.3,
@@ -264,8 +288,8 @@
   "speaker": "KILING"
  },
  {
-  "text": "Umahon mula sa lawa ang isang anyong itim, buhok na parang lumot, mga matang parang baga.",
-  "say": "umahon mula sa lawa ang isang anyong itim, buhok na parang lumot, mga matang parang baga.",
+  "text": "Umahon ang anyong itim, buhok na parang lumot, mga matang parang baga.",
+  "say": "umahon ang anyong itim, buhok na parang lumot, mga matang parang baga.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
@@ -296,8 +320,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Hindi siya halimaw, siya ang Yúmud, diwa ng malalalim na lawa, tahimik at hindi nananakit.",
-  "say": "hindi siya halimaw, siya ang yumud, diwa ng malalalim na lawa, tahimik at hindi nananakit.",
+  "text": "Hindi siya halimaw: siya ang Yúmud, tahimik na diwa ng malalalim na lawa.",
+  "say": "hindi siya halimaw: siya ang yumud, tahimik na diwa ng malalalim na lawa.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3,
@@ -360,30 +384,6 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Itinaas ko ang ilawan, at biglang tumahimik ang mga ibon sa bakawan.",
-  "say": "itinaas ko ang ilawan, at biglang tumahimik ang mga ibon sa bakawan.",
-  "style": "suspense",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Sa tubig, may aninong gumagalaw, pero walang taong nakatayo sa ibabaw nito.",
-  "say": "sa tubig, may aninong gumagalaw, pero walang taong nakatayo sa ibabaw nito.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Wala akong maamoy, par, at iyon ang nakakatakot.",
-  "say": "wala akong maamoy, par, at iyon ang nakakatakot.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.62,
-  "speaker": "USMAN"
- },
- {
   "text": "Umilaw ang isa sa mga marka sa braso ko, at lumabas sa hangin ang isang hologram.",
   "say": "umilaw ang isa sa mga marka sa braso ko, at lumabas sa hangin ang isang hologram.",
   "style": "curious",
@@ -408,8 +408,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "May bagong listahan, Mga Kakampi: Yúmud, ng lawa ng Butuan, nakahahanap ng nawala sa ilalim ng tubig.",
-  "say": "may bagong listahan, mga kakampi: yumud, ng lawa ng butuan, nakahahanap ng nawala sa ilalim ng tubig.",
+  "text": "Bagong listahan: Sakay, motor na may sidecar; Mga Kakampi, ang Yúmud, nakahahanap ng nawala sa tubig.",
+  "say": "bagong listahan: sakay, motor na may saydkar; mga kakampi, ang yumud, nakahahanap ng nawala sa tubig.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3,
@@ -472,24 +472,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Ang tinatawag na Golden Tara, natagpuan noong 1917 sa Esperanza, Agusan del Sur, at nasa Chicago na.",
-  "say": "ang tinatawag na goldin tara, natagpuan noong mil nobesyentos disisiyete sa esperanza, agusan del sur, at nasa shikago na.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Pinagtatalunan kung Tara nga ito.",
-  "say": "pinagtatalunan kung tara nga ito.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Totoo si Rajah Kiling: ayon sa tala ng Song, hari siya ng Butuan na nagpadala ng sugo noong 1007.",
-  "say": "totoo si raha kiling: ayon sa tala ng song, hari siya ng butuan na nagpadala ng sugo noong mil siyete.",
+  "text": "Totoo si Rajah Kiling: sa tala ng Song, hari siya ng Butuan na nagpadala ng sugo.",
+  "say": "totoo si raha kiling: sa tala ng song, hari siya ng butuan na nagpadala ng sugo.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -504,16 +488,24 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kathang-isip: kami nina M at Usman, ang medalyon at ang boses nito, ang hiling, ang anino at ang hologram.",
-  "say": "kathang-isip: kami nina em at usman, ang medalyon at ang boses nito, ang hiling, ang anino at ang hologram.",
+  "text": "Totoo rin: noong 2025, inimbestigahan ang mga proyektong flood control na binayaran pero hindi naitayo.",
+  "say": "totoo rin: noong dos mil bente singko, inimbestigahan ang mga proyektong plad kontrol na binayaran pero hindi naitayo.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang hiling, ang hologram at ang karatula.",
+  "say": "kathang-isip: kami nina em at usman, ang medalyon, ang hiling, ang hologram at ang karatula.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
  },
  {
-  "text": "Pag-uwi namin, naglaho ulit si Usman, at nagsulat ang kuwaderno ni Lolo.",
-  "say": "pag-uwi namin, naglaho ulit si usman, at nagsulat ang kuwaderno ni lolo.",
+  "text": "Pag-uwi namin, naglaho si Usman, at nagsulat ang kuwaderno.",
+  "say": "pag-uwi namin, naglaho si usman, at nagsulat ang kuwaderno.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,

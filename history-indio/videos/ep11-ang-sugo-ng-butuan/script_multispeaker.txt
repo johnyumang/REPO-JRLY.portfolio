@@ -1,47 +1,50 @@
 # MASTER script (Season 2 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (quick, warm, a little gravelly; designed voice), KILING (the diwa of Rajah Kiling, two invented lines under the first approved exception, labelled: an old man's voice, slow and grave, with a faint echo of bronze; never comic; designed voice), and the Yúmud (the creature) has no spoken line: Indio reports what it says.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording), M (calm, low, unhurried; designed voice), USMAN (quick, warm, a little gravelly; designed voice; he speaks only inside the jump light and in the past, never in the present-day scenes), KILING (the diwa of Rajah Kiling, two invented lines under the first approved exception, labelled: an old man's voice, slow and grave, with a faint echo of bronze; never comic; designed voice), and the Yúmud (the creature) has no spoken line: Indio reports what it says.
 
-INDIO: [dramatic] Sa malalim na lawa ng lumang ilog, may anyong itim na umaahon, at ako ang tinitingnan nito.
+INDIO: [dramatic] Sa lawa ng lumang ilog, may anyong itim na umaahon, nakatingin sa akin.
 INDIO: [playful] At oo, kahapon lang, naging mayaman ako.
 INDIO: [warm] Ako 'to si Indio.
 INDIO: [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
 
 INDIO: [serious] Ang clue ng kuwaderno ni Lolo: mga barko, pahilaga, papunta sa isang emperador.
 M: [serious] Butuan iyan, at doon mismo ka dapat magbasa nang malakas.
-INDIO: [sad] Butuan, pero ang laman ng wallet ko, isang daan at dalawampung piso.
-INDIO: [curious] Hinawakan ko ang medalyong may bituin, at pabirong bumulong.
-INDIO: [playful] Sana yumaman ako, kahit pamasahe lang.
-INDIO: [dramatic] Kumislap ang bituin, kahit hindi pa gising ang labindalawa.
-INDIO: [excited] Nag-ring ang phone ko: hindi na kasya sa screen ang mga zero.
+INDIO: [warm] Ang una kong sakay, ang lumang bisikleta ni Lolo; ngayon, segunda-manong motor na may sidecar.
+INDIO: [playful] Para kay Usman ang sidecar, kahit alam kong sa nakaraan lang siya nakakasakay.
+INDIO: [serious] Sa Surigao, ubos na ang gas at ang pera ko.
+INDIO: [sad] Wala na akong pamasahe, isang daan at dalawampung piso na lang.
+INDIO: [playful] Sana yumaman ako, kahit pang-gas lang.
+INDIO: [dramatic] Kumislap ang bituin, at hindi na kasya sa screen ng phone ko ang mga zero.
 M: [serious] Indio, iyon ang una mong hiling, at hindi na iyon maibabalik.
 INDIO: [playful] Dati, nanghihingi lang ako sa inyo ng pang-gas, kahit bente lang.
-INDIO: [serious] Kinabukasan, lumipad kami pa-Butuan.
+INDIO: [excited] Sa Butuan, bumili ako ng bagong pickup, tapos jet ski, tapos isa pang motor.
+M: [serious] Indio, may kumuha ng litrato ng bagong pickup mo, tapos umalis.
+INDIO: [curious] Sa tabi ng ilog, may karatula ng proyektong flood control, pero walang itinayo kahit isang bato.
+INDIO: [suspense] Kumurap ang apoy ng ilawan sa harap ng karatula, kahit walang hangin.
 INDIO: [serious] Sa Balangay Shrine, binasa ko nang malakas ang nakasulat sa tabi ng bangka.
-INDIO: [dramatic] Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.
-USMAN: [excited] Ako 'yon, par, nandito ulit ako!
+INDIO: [dramatic] Uminit ang medalyon ni M, at sa loob ng liwanag, umungol si Usman, nakatingin sa karatula.
+USMAN: [excited] Ako 'yon, par, at ayoko ng amoy ng karatulang 'yon!
 
-M: [serious] Butuan ito, taong 1011, ang lumang daungan.
+M: [serious] Butuan, taong 1011, ang daungan.
 INDIO: [serious] Mga balangay ang nakadaong, mga tablang pinagdugtong ng tarugong kahoy at tali.
 INDIO: [serious] Labing-isang ganitong bangka ang nahukay sa Butuan, mula pa sa mga taong 689 hanggang 988.
-INDIO: [curious] Siyam ang unang natagpuan noong 1976, malapit sa ilog ng Masao.
 INDIO: [suspense] Sa daungan, may mga barkong naghahanda pahilaga, sakto sa clue ni Lolo.
 INDIO: [serious] Noong 1007, humingi ang sugo ni Rajah Kiling ng ranggong kapantay ng sa Champa.
 INDIO: [serious] Noong 1011, may sugong nag-alay sa emperador ng sulat na nakaukit sa gintong tableta.
 INDIO: [serious] Saksi lang ako.
 
-INDIO: [curious] Sa lente, sinundan ko ang kislap ng tanso hanggang sa isang malalim na lawa.
+INDIO: [curious] Sa lente, sinundan ko ang kislap ng tanso hanggang sa isang lawa.
 USMAN: [curious] Amoy-putik, amoy-tanso, nasa ilalim, par!
 INDIO: [suspense] Dumulas si M sa gilid, at nasalo ko siya, magkalapit na magkalapit ang mukha namin.
 USMAN: [playful] Ehem, may aso po rito, tinakpan ko na ang mata ko.
 M: [warm] Salamat, pero tingnan mo ang tubig.
 INDIO: [dramatic] Sa ilalim ng tabla, nakapa ko ang medalyong tanso, may ukit na barko at araw.
-INDIO: [suspense] Pagdikit ng daliri ko, may boses na sumabay sa bulong ng tubig.
+INDIO: [suspense] Pagdikit ng daliri ko, may boses.
 KILING: [serious] Matagal akong naghintay ng sugong marunong munang makinig.
-INDIO: [dramatic] Umahon mula sa lawa ang isang anyong itim, buhok na parang lumot, mga matang parang baga.
+INDIO: [dramatic] Umahon ang anyong itim, buhok na parang lumot, mga matang parang baga.
 USMAN: [suspense] Grrr, lumayo ka diyan!
 INDIO: [suspense] Bumulong ito sa wikang hindi ko kailanman narinig, pero naintindihan ko ang bawat salita.
 INDIO: [serious] Ang sabi niya: bantay ako, at magnanakaw lang ang tinatakot ko.
-INDIO: [curious] Hindi siya halimaw, siya ang Yúmud, diwa ng malalalim na lawa, tahimik at hindi nananakit.
+INDIO: [curious] Hindi siya halimaw: siya ang Yúmud, tahimik na diwa ng malalalim na lawa.
 INDIO: [serious] Tumayo ako sa harap niya, at sinabi ko nang malakas: Nakita na kita.
 INDIO: [warm] Yumuko ang Yúmud, at kumalma ang tubig.
 INDIO: [dramatic] Itinaas ni M ang medalyon niya, ang Sandugo, at tinatakan ng liwanag ang kasunduan.
@@ -50,14 +53,10 @@ INDIO: [somber] Sa lente, dating anito ito ng bayan ni Kiling, itinago sa lumang
 KILING: [serious] Ang Galilea ang unang aral: gigising lang ang labindalawa sa saksing hindi nang-aagaw.
 INDIO: [whisper] Kaya pala aral ang unang tuldok.
 
-INDIO: [suspense] Itinaas ko ang ilawan, at biglang tumahimik ang mga ibon sa bakawan.
-INDIO: [dramatic] Sa tubig, may aninong gumagalaw, pero walang taong nakatayo sa ibabaw nito.
-USMAN: [whisper] Wala akong maamoy, par, at iyon ang nakakatakot.
-
 INDIO: [curious] Umilaw ang isa sa mga marka sa braso ko, at lumabas sa hangin ang isang hologram.
 INDIO: [serious] Anim na marka, labindalawang puwang, at tatlo na ang may ilaw.
 INDIO: [curious] Ang mga gamit ko: lente, ilawan, kuwaderno, bituin at kasulatan.
-INDIO: [warm] May bagong listahan, Mga Kakampi: Yúmud, ng lawa ng Butuan, nakahahanap ng nawala sa ilalim ng tubig.
+INDIO: [warm] Bagong listahan: Sakay, motor na may sidecar; Mga Kakampi, ang Yúmud, nakahahanap ng nawala sa tubig.
 INDIO: [suspense] Sa ibaba, kaalaman, labindalawang porsiyento, at sa dulo, isang tandang parang tandang pananong.
 USMAN: [curious] Ano 'yan, par?
 INDIO: [serious] Hindi ko alam.
@@ -66,13 +65,12 @@ M: [whisper] Hindi ko rin alam, Indio.
 USMAN: [serious] Grrr, linawin muna natin, par.
 INDIO: [serious] Tiyak: ang mga balangay ng Butuan at ang mga sugo nito sa korte ng Song.
 INDIO: [curious] Pinagtatalunan: kung pinagbigyan ang hiling na kapantay ng Champa.
-INDIO: [curious] Ang tinatawag na Golden Tara, natagpuan noong 1917 sa Esperanza, Agusan del Sur, at nasa Chicago na.
-INDIO: [curious] Pinagtatalunan kung Tara nga ito.
-INDIO: [serious] Totoo si Rajah Kiling: ayon sa tala ng Song, hari siya ng Butuan na nagpadala ng sugo noong 1007.
+INDIO: [serious] Totoo si Rajah Kiling: sa tala ng Song, hari siya ng Butuan na nagpadala ng sugo.
 INDIO: [curious] Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng tubig.
-INDIO: [somber] Kathang-isip: kami nina M at Usman, ang medalyon at ang boses nito, ang hiling, ang anino at ang hologram.
+INDIO: [serious] Totoo rin: noong 2025, inimbestigahan ang mga proyektong flood control na binayaran pero hindi naitayo.
+INDIO: [somber] Kathang-isip: kami nina M at Usman, ang medalyon, ang hiling, ang hologram at ang karatula.
 
-INDIO: [serious] Pag-uwi namin, naglaho ulit si Usman, at nagsulat ang kuwaderno ni Lolo.
+INDIO: [serious] Pag-uwi namin, naglaho si Usman, at nagsulat ang kuwaderno.
 INDIO: [suspense] Isang utang na ginto, pinatawad, sa bunganga ng isang ilog sa Laguna.
 M: [whisper] At may sumusunod na sa pera mo, Indio, ramdam ko.
 
