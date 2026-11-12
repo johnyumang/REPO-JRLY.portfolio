@@ -18,6 +18,12 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 - MID-SEASON TWIST (user, 2026-11-12): Indio turns out to be a descendant ("apo") of José Rizal through one of Rizal's sweethearts. This is FICTION and must be labelled so in the episode's captions and pinned comment: history records no surviving descendants of Rizal (to be verified before scripting: his son with Josephine Bracken died shortly after birth). Proposed handling: never state as fact that a named real woman secretly bore Rizal's child; reveal it through the Lolo's medallion and Usman (proposed: Usman is Rizal's own childhood dog, which is why he knew Indio's name in Episode 1). Foreshadowing already planted in Episode 1: the dog's name and "Kumapit ka, Indio!".
 - Every delivery ends with ready-to-paste captions (Facebook, YouTube Shorts, TikTok, Instagram, pinned sources comment).
 
+## Look decision (user, 2026-11-12)
+The user saw the Blender cel-shaded renders and did not like them. They want to STAY with the painted Figma anime still quality (videos/limahong-1574/keys/). Do not use the Blender host clips in videos; the four Limahong clips were cancelled mid-render. Blender on this machine cannot reach that painted quality. Real movement at that quality needs image-to-video on the stills (Wan 2.2 Space, needs a free Hugging Face token the user has not given).
+
+## Companion (confirmed by the user, 2026-11-12)
+Usman is an aspin (the name, after Rizal's first dog, still needs verifying). He talks, but only Indio and animals understand him. He can smell when a story is not true AND when there is danger.
+
 ## Story format (user direction, 2026-11-12)
 Every episode is a journey: Indio travels and ends up witnessing one significant event in history. Tell it as a small story with little things that link up, not as a lecture.
 **Vary it every episode. Do not reuse the same shape** (user correction: he must NOT always arrive confused). Change three things each time and check the previous episodes so none repeats back to back:

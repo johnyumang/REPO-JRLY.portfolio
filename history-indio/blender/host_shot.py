@@ -22,6 +22,9 @@ ap.add_argument("--fps", type=int, default=30)
 ap.add_argument("--step", type=int, default=1)
 ap.add_argument("--scale", type=int, default=100)
 ap.add_argument("--save", default="")
+ap.add_argument("--nobg", action="store_true", help="character only, transparent background (for compositing over painted stills)")
+ap.add_argument("--tex", action="store_true", help="keep the model's painted cloth/hair textures, recoloured")
+ap.add_argument("--chibi", action="store_true", help="big-head proportions")
 A = ap.parse_args(sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else sys.argv[1:])
 END = math.ceil(A.seconds * A.fps)
 F0, F1 = [int(x) for x in A.frames.split("-")] if A.frames else (1, END)
@@ -223,6 +226,9 @@ def slot(obj, key):
     return next(i for i, m in enumerate(obj.data.materials) if key in m.name)
 
 
+up = lambda c, k: tuple(x * k for x in c)
+IMG = {k: tex_of(body.data.materials[slot(body, k)]) for k in ("Tops", "Bottoms", "Shoes")}
+IMG["Hair"] = tex_of(hair.data.materials[0])
 skin_img = tex_of(body.data.materials[slot(body, "Body")])
 flat_skin = tuple(a * b for a, b in zip(mean_color(skin_img), SKIN_TINT))
 body.data.materials[slot(body, "Body")] = toon("HI_Skin", image=skin_img, tint=SKIN_TINT)
@@ -237,10 +243,16 @@ bm.free()
 ARMHOLE = abs(bone("J_Bip_R_UpperArm").head.x) + 0.02
 rx = body.data.attributes.new("restx", "FLOAT", "POINT")
 rx.data.foreach_set("value", [v.co.x for v in body.data.vertices])
-body.data.materials[slot(body, "Tops")] = toon("HI_Vest", PAL["indigo"], sleeve=(ARMHOLE, flat_skin))
-body.data.materials[slot(body, "Bottoms")] = toon("HI_Pants", PAL["pants"])
-body.data.materials[slot(body, "Shoes")] = toon("HI_Sandal", PAL["sandal"])
-hair.data.materials[0] = toon("HI_Hair", PAL["hair"], hi=0.80)
+body.data.materials[slot(body, "Tops")] = toon("HI_Vest", image=IMG["Tops"], tint=up(PAL["indigo"], 2.6), mono=True, sleeve=(ARMHOLE, flat_skin)) \
+    if A.tex else toon("HI_Vest", PAL["indigo"], sleeve=(ARMHOLE, flat_skin))
+if A.tex:
+    body.data.materials[slot(body, "Bottoms")] = toon("HI_Pants", image=IMG["Bottoms"], tint=up(PAL["pants"], 3.0), mono=True)
+    body.data.materials[slot(body, "Shoes")] = toon("HI_Sandal", image=IMG["Shoes"], tint=up(PAL["sandal"], 2.5), mono=True)
+    hair.data.materials[0] = toon("HI_Hair", image=IMG["Hair"], tint=(0.10, 0.10, 0.16), mono=True, hi=0.80)
+else:
+    body.data.materials[slot(body, "Bottoms")] = toon("HI_Pants", PAL["pants"])
+    body.data.materials[slot(body, "Shoes")] = toon("HI_Sandal", PAL["sandal"])
+    hair.data.materials[0] = toon("HI_Hair", PAL["hair"], hi=0.80)
 hair.data.materials[0].node_tree.nodes["Color Ramp"].color_ramp.elements[2].color = (3.0, 3.0, 5.0, 1)
 
 for i, m in enumerate(list(face.data.materials)):
@@ -1014,11 +1026,20 @@ if "shake" in SH:  # impact shake rides on a delta so it does not disturb the mo
         tgt.keyframe_insert("delta_location", frame=f)
 
 # ---------------------------------------------------------------- render
+if A.chibi:
+    bone("J_Bip_C_Head").scale = (1.5, 1.5, 1.5)
+    for sd in "RL":
+        bone("J_Bip_%s_Hand" % sd).scale = (1.25, 1.25, 1.25)
+if A.nobg:
+    for o in bpy.data.objects:
+        if o.name.split(".")[0] in ("Sky", "Sea", "Ground", "Ridge", "Blob", "Stilt", "Floor", "Wall", "Roof", "Door", "Win", "Palm", "Pole", "TorchFlame"):
+            o.hide_render = True
+    S.render.film_transparent = True
 S.frame_start, S.frame_end = 1, END
 S.render.fps = A.fps
 S.render.resolution_x, S.render.resolution_y, S.render.resolution_percentage = 720, 1280, A.scale
 S.render.image_settings.file_format = "PNG"
-S.render.image_settings.color_mode = "RGB"
+S.render.image_settings.color_mode = "RGBA" if A.nobg else "RGB"
 S.render.image_settings.compression = 15
 S.view_settings.view_transform = "Standard"
 S.world = bpy.data.worlds.new("W")
