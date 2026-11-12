@@ -357,6 +357,42 @@
     100,
     330
    ]
+  },
+  "RICO": {
+   "descriptions": [
+    "A man in his thirties, a slick online vlogger, fast, confident and smooth-talking, bright persuasive voice, medium pitch, energetic, Filipino accent",
+    "A cocky young male influencer, quick and glib, sure of himself, upbeat salesman voice, Filipino accent"
+   ],
+   "ref_text": "Mga ka-tropa, welcome back sa channel! Ngayong araw, ibubunyag ko ang kuwentong itinago sa inyo ng mga libro. Huwag kayong basta maniwala sa mga eksperto. Ako lang ang nagsasabi ng totoo. I-like, i-share, at mag-subscribe na!",
+   "sample": "Trust me, guys. Hindi ninyo ito mababasa sa kahit anong libro.",
+   "f0_hz": [
+    90,
+    230
+   ]
+  },
+  "MANGINGISDA": {
+   "descriptions": [
+    "An old fisherman around seventy, weathered, warm and slightly hoarse male voice, slow and plain-spoken, kind, low pitch, Filipino accent",
+    "An elderly man of the lake, gentle, rough and sun-worn voice, calm and humble, slow, Filipino accent"
+   ],
+   "ref_text": "Ito ang lawa ng aming mga ninuno. Tuwing umaga, pumapalaot ako bago sumikat ang araw. Hindi ako mayaman, pero hindi rin ako nagugutom. Ang lawa ang nagpapakain sa amin, kaya iginagalang namin ito.",
+   "sample": "Mag-ingat ka, anak. Malalim ang tubig dito, at maraming kuwento ang lawa.",
+   "f0_hz": [
+    65,
+    170
+   ]
+  },
+  "LALAKI": {
+   "descriptions": [
+    "A man in his forties wearing a suit, smooth, polite and cold voice, calm and quiet, controlled, medium-low pitch, Filipino accent",
+    "A well-dressed henchman, soft-spoken, courteous and chilly male voice, even and slow, Filipino accent"
+   ],
+   "ref_text": "Magandang gabi po, sir. Pinapunta po ako ng boss ko. May maliit lang po siyang alok sa inyo. Walang problema, walang pilitan. Pakinggan lang po ninyo, at kayo na ang bahalang magdesisyon.",
+   "sample": "Sir, may naghihintay po sa inyo sa sasakyan.",
+   "f0_hz": [
+    75,
+    180
+   ]
   }
  }
 }
