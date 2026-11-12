@@ -1,0 +1,349 @@
+{
+ "_note": "Episode 33 (S4E2) keyframes. Present-day San Lorenzo, an invented town on Laguna de Bay (no calendar year); Indio about 29 with a few grey hairs. Mayor Tres, Alcaín Builders, Tubal, Kalawang, Engineer Vangie, the casino and every paper are invented (no readable text, blurred logos). The jump is Manila in 1574 behind the log palisade, watched only; fighting kept painterly with no gore; Salcedo shown only from afar. Kapre and tikbalang are folklore helpers. Prompts setting-first; no 'brick', no 'mud'. Copied: full intro (Episode 11). Shots follow sentences.json; k80-k91 are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "bid_glow": "close-up of a bid document on a wooden desk with a glowing bronze medallion beside it, a ghostly price tag floating above the paper showing three stacked coins turning into one, no readable text. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "grey_mirror": "close-up of a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist in a bathroom mirror finding a few grey hairs at his temple, half-smile. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "town_flooded": "wide shot of a low lakeside town with streets under ankle-deep water, people wading with umbrellas, houses on stilts, grey sky. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "town_rain": "high angle over tin roofs in heavy rain at the edge of a wide lake, water rising to the doorsteps. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "indio_run": "in a covered market, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist shaking hands with fish vendors, no posters, no loudspeakers. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "law_page": "close-up of an open law book on a desk, a finger resting on a numbered section, warm light, no readable text.",
+  "tres_stage": "on a stage with balloons and loudspeakers, a loud heavyset Filipino politician in his sixties in a shiny barong with a big grin waving to a crowd, three framed portraits of older men behind him. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "tres_cu": "close-up of a loud heavyset Filipino politician in his sixties in a shiny barong with a big grin slapping his own chest and laughing, confident. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "win_receipts": "night at a town gym used as a counting centre, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist holding up a thin folder of receipts as neighbours cheer softly. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "usman_manager2": "comic shot of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck sitting on an office chair behind a desk, two bones laid on the desk like payment. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "usman_bones": "comic close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck proudly holding two bones crossed in its mouth. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "bidding_room": "a plain conference room with folding tables, sealed envelopes being opened, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist at the head of the table. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "alcain_bid": "close-up of a bid folder with a blurred company logo of an A and a bronze-coloured seal, on a table, no readable text. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "tubal_enter": "low angle: a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring and a salesman's smile walking into a plain conference room, everyone turning, his bronze ring catching the light. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "tubal_ring_cu": "extreme close-up of a heavy bronze ring on a man's finger tapping a table. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "kalawang_back": "behind a smiling man in a charcoal suit, a broad-shouldered man in a dark jacket chewing a long iron nail like a toothpick standing by the door, watchful. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "handshake": "close-up of a handshake between a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring and a salesman's smile and a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist, the older man's eyes fixed on a bronze medallion on the young man's chest. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "tubal_smile": "low close-up of a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring and a salesman's smile, smiling warmly, eyes cold. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "tubal_whisper": "close-up of a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring and a salesman's smile leaning in to whisper, face half in shadow. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "father_memory": "memory image: a man's silhouette with a backpack and a flashlight at the mouth of a dark cave, seen from behind, faded colours, no face.",
+  "usman_sniff_hand": "comic low close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck sniffing a man's hand and wrinkling its nose at a rusty smell. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "kalakal_glow": "close-up: a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist holding a small bronze medallion with a merchant's scale engraved on it, golden light rising from it. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "truth_value": "a glowing golden balance scale floating in the air, one side heavy with a stack of papers, the other with a small pile of real concrete blocks, symbolic, no readable text.",
+  "three_times": "close-up of a construction cost sheet with three bars of light, one short and real, two tall and ghostly, no readable text.",
+  "tubal_desire": "symbolic vision behind a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring and a salesman's smile: a ring of twelve glowing bronze medallions forming a doorway of light, a single far star beyond it. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "door_tala": "wide dreamlike shot of a great circular doorway made of twelve bronze medallions opening onto a starry sky with one brilliant star, golden light.",
+  "reject_bid": "a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist sliding a bid folder back across the table, calm face, Tubal blurred in the background. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "knock_door": "at an office door, a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse standing with an old folder wrapped in plastic held tight against her chest. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "vangie_memory": "memory image: a trembling hand of a young woman engineer writing on a document, a man's hand on her shoulder, dim light.",
+  "kawit_cert": "extreme close-up of a signature in blue ink on a certificate with a round official-looking seal, glowing faintly, a tear drop falling on it, no readable words.",
+  "vangie_cu": "close-up of a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse with tears in her eyes, confessing, holding the plastic-wrapped folder. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "vangie_three": "extreme close-up of a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse raising three trembling fingers, whispering. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "vangie_office": "a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse at a drafting table with flood wall plans, sleeves rolled up, determined. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "coop_meeting": "in a covered court, members of local cooperatives with hard hats and a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse looking at plans spread on a table, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist listening. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "jm_machine": "comic shot: a stocky Filipino mechanic about thirty in a cap and a grease-stained shirt climbing onto a small yellow excavator, giving a thumbs up. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "marker_manila": "in a plaza, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist reading aloud from a bronze historical marker, golden light swirling from the plaque, no readable text. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "palisade_watch": "from behind a tall wooden log palisade, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist peeking through a gap at many Chinese junks with ribbed sails entering the bay at dawn. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "young_manila": "wide shot of the young settlement of Manila in 1574 with a few wooden houses, a small church of wood and nipa, a log palisade along the shore. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "first_assault": "wide shot of armed men landing from boats on a beach toward a log palisade, smoke rising, defenders on the wall, no gore, painterly. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "salcedo_arrive": "a column of Spanish soldiers with helmets and native warriors with shields and spears arriving along a coastal road at dusk, led by a young officer on foot, no faces in close-up. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "together_defend": "behind a log palisade, Spanish soldiers and Filipino native warriors standing side by side, holding the line, smoke in the air, no gore, painterly. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "fleet_leave": "wide shot of a fleet of Chinese junks sailing away north along a coast at sunset, smoke over the shore behind. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "indio_watch": "close-up of a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist watching quietly from behind a log palisade, hands at his sides. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "lesson_wall": "symbolic shot: many hands of different people holding up a long wooden wall together against wind and rain, warm light.",
+  "kapre_balete": "at dusk in a forest at the foot of a mountain, a huge hairy dark giant from Philippine folklore sitting in a great balete tree, a glowing cigar, watching over the trees, gentle. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "kapre_guard": "a huge hairy giant in a balete tree pointing sternly at men with a chainsaw who drop it and run, comic, forest at dusk. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "tikbalang_guide": "in a stormy rice field at night, a tall lanky creature with a horse's head and long limbs from Philippine folklore leading lost farmers with lanterns toward a lit village. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "banquet": "an elegant banquet hall with round tables of businessmen, chandeliers, a strikingly beautiful calm woman in an elegant white suit with a soft glow standing among them with a glass, glowing softly. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "sinag_casino": "close-up of a strikingly beautiful calm woman in an elegant white suit with a soft glow presenting a glossy model of a glittering casino by a lake, smiling. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "sinag_smile": "close-up of a strikingly beautiful calm woman in an elegant white suit with a soft glow speaking softly, a warm smile that does not reach her eyes. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "fine_print": "extreme close-up of a contract's tiny fine print under a magnifying glass, a glowing bronze ring symbol hidden in the letters, no readable words.",
+  "return_paper": "a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist silently laying a contract back on a banquet table in front of a strikingly beautiful calm woman in an elegant white suit with a soft glow. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "garage_photo": "a phone screen showing a large garage filled with dozens of luxury cars, motorcycles and a small helicopter, with a big red question mark graphic, no readable text.",
+  "rico_shout": "close-up of a slick vlogger in a bright shirt in front of a ring light, pointing and shouting at the camera, no readable text.",
+  "shares_count": "close-up of a phone screen with share icons multiplying like a swarm, glowing red, no readable text.",
+  "usman_grr": "comic close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck growling at a phone screen, teeth showing. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "lake_overflow": "wide shot of a lake overflowing in a September storm, waves crashing against a long new concrete flood wall along a town edge. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "wall_holds": "low wide shot: people standing in ankle-deep water on a street, dry houses behind a new concrete flood wall holding back the lake, relief, rain. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "m_umbrella": "at the edge of a flood wall in the rain, a young Filipina woman with long black hair in a long dark coat under a red umbrella, wet hair, looking at the viewer. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "m_good": "close-up of a young Filipina woman with long black hair in a long dark coat under a red umbrella, a small proud smile, rain. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "hand_reach": "close-up of the hand of a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist reaching for a woman's hand under a red umbrella, rain. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "phone_ring": "close-up of a ringing phone in the hand of a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist, a woman's name icon glowing on the screen, rain, no readable text. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "bea_call": "close-up of a sharp young Filipina journalist with a short bob on a phone in a newsroom at night, worried, papers behind her, no readable text.",
+  "limahong_map": "old-style painted map of Luzon with a dotted route of junks from the sea to Manila Bay and then north to Pangasinan, sepia, no readable text.",
+  "junks_count": "misty seascape of many Chinese junks of different sizes fading into fog, uncountable, mysterious. Manila in 1574, a small young Spanish colonial settlement of wooden and nipa buildings behind a log palisade by the bay, nothing modern.",
+  "folk_book": "close-up of an illustrated book of Philippine folklore open to drawings of a hairy giant in a tree and a horse-headed creature, warm lamp light, no readable text.",
+  "fiction_table": "top shot of a table with a blurred company folder, a bronze ring, a casino model and a toy town, labelled by nothing. Inside a modest present-day municipal hall office in a Philippine lakeside town, wooden desk, flag in the corner.",
+  "holo_91": "night on a flood wall, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist holding out his forearm, a translucent blue-gold holographic panel with a bar at ninety-one percent, no readable text. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "indio_point": "on a flood wall at dusk, a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist pointing straight at the viewer with a cool friendly half-smile, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck beside him. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "neighbours_wall": "wide shot of neighbours, a thin Filipina engineer in her thirties with tied-back hair, glasses and a faded office blouse and a stocky Filipino mechanic about thirty in a cap and a grease-stained shirt standing together on top of a flood wall at sunset, the lake calm. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season.",
+  "trio_wall": "wide silhouette at sunset: a lean Filipino man about thirty with a black topknot, a few grey strands, a plain white polo shirt, slacks and a red handkerchief on his wrist, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck and a young Filipina woman with long black hair in a long dark coat walking along the top of a flood wall, the lake glowing orange. A present-day lakeside town on Laguna de Bay, Philippines, low houses, fishpens on the water, rainy season."
+ },
+ "shots": {
+  "0": {
+   "full": "bid_glow"
+  },
+  "1": {
+   "full": "intro"
+  },
+  "2": {
+   "full": "town_flooded"
+  },
+  "3": {
+   "full": "grey_mirror"
+  },
+  "4": {
+   "full": "town_rain"
+  },
+  "5": {
+   "full": "town_flooded"
+  },
+  "6": {
+   "full": "indio_run"
+  },
+  "7": {
+   "full": "law_page"
+  },
+  "8": {
+   "full": "tres_stage"
+  },
+  "9": {
+   "full": "tres_cu"
+  },
+  "10": {
+   "full": "win_receipts"
+  },
+  "11": {
+   "full": "usman_manager2"
+  },
+  "12": {
+   "full": "usman_bones"
+  },
+  "13": {
+   "full": "bidding_room"
+  },
+  "14": {
+   "full": "alcain_bid"
+  },
+  "15": {
+   "full": "tubal_enter"
+  },
+  "16": {
+   "full": "tubal_ring_cu"
+  },
+  "17": {
+   "full": "kalawang_back"
+  },
+  "18": {
+   "full": "handshake"
+  },
+  "19": {
+   "full": "tubal_smile"
+  },
+  "20": {
+   "full": "tubal_whisper"
+  },
+  "21": {
+   "full": "father_memory"
+  },
+  "22": {
+   "full": "usman_sniff_hand"
+  },
+  "23": {
+   "full": "kalakal_glow"
+  },
+  "24": {
+   "full": "truth_value"
+  },
+  "25": {
+   "full": "three_times"
+  },
+  "26": {
+   "full": "tubal_desire"
+  },
+  "27": {
+   "full": "door_tala"
+  },
+  "28": {
+   "full": "reject_bid"
+  },
+  "29": {
+   "full": "knock_door"
+  },
+  "30": {
+   "full": "vangie_memory"
+  },
+  "31": {
+   "full": "vangie_cu"
+  },
+  "32": {
+   "full": "kawit_cert"
+  },
+  "33": {
+   "full": "vangie_three"
+  },
+  "34": {
+   "full": "vangie_office"
+  },
+  "35": {
+   "full": "coop_meeting"
+  },
+  "36": {
+   "full": "jm_machine"
+  },
+  "37": {
+   "full": "marker_manila"
+  },
+  "38": {
+   "full": "palisade_watch"
+  },
+  "39": {
+   "full": "young_manila"
+  },
+  "40": {
+   "full": "first_assault"
+  },
+  "41": {
+   "full": "salcedo_arrive"
+  },
+  "42": {
+   "full": "together_defend"
+  },
+  "43": {
+   "full": "fleet_leave"
+  },
+  "44": {
+   "full": "indio_watch"
+  },
+  "45": {
+   "full": "lesson_wall"
+  },
+  "46": {
+   "full": "kapre_balete"
+  },
+  "47": {
+   "full": "kapre_guard"
+  },
+  "48": {
+   "full": "tikbalang_guide"
+  },
+  "49": {
+   "full": "banquet"
+  },
+  "50": {
+   "full": "sinag_casino"
+  },
+  "51": {
+   "full": "sinag_smile"
+  },
+  "52": {
+   "full": "fine_print"
+  },
+  "53": {
+   "full": "return_paper"
+  },
+  "54": {
+   "full": "garage_photo"
+  },
+  "55": {
+   "full": "rico_shout"
+  },
+  "56": {
+   "full": "shares_count"
+  },
+  "57": {
+   "full": "usman_grr"
+  },
+  "58": {
+   "full": "lake_overflow"
+  },
+  "59": {
+   "full": "wall_holds"
+  },
+  "60": {
+   "full": "m_umbrella"
+  },
+  "61": {
+   "full": "m_good"
+  },
+  "62": {
+   "full": "hand_reach"
+  },
+  "63": {
+   "full": "phone_ring"
+  },
+  "64": {
+   "full": "bea_call"
+  },
+  "65": {
+   "full": "limahong_map"
+  },
+  "66": {
+   "full": "junks_count"
+  },
+  "67": {
+   "full": "folk_book"
+  },
+  "68": {
+   "full": "fiction_table"
+  },
+  "69": {
+   "full": "neighbours_wall"
+  },
+  "70": {
+   "full": "holo_91"
+  },
+  "71": {
+   "full": "indio_point"
+  },
+  "72": {
+   "full": "coop_meeting"
+  },
+  "73": {
+   "full": "trio_wall"
+  },
+  "80": {
+   "full": "town_rain"
+  },
+  "81": {
+   "full": "tubal_enter"
+  },
+  "82": {
+   "full": "door_tala"
+  },
+  "83": {
+   "full": "young_manila"
+  },
+  "84": {
+   "full": "first_assault"
+  },
+  "85": {
+   "full": "kapre_balete"
+  },
+  "86": {
+   "full": "tikbalang_guide"
+  },
+  "87": {
+   "full": "banquet"
+  },
+  "88": {
+   "full": "lake_overflow"
+  },
+  "89": {
+   "full": "wall_holds"
+  },
+  "90": {
+   "full": "m_umbrella"
+  },
+  "91": {
+   "full": "coop_meeting"
+  }
+ }
+}

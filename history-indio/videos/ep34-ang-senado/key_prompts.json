@@ -1,0 +1,333 @@
+{
+ "_note": "Episode 34 (S4E3) keyframes. Present-day Manila, Indio 35 with grey streaks (no calendar year). The session hall is generic: no real seal, no real senator; Senador Gorio, Hiraya Diking Corporation, the budget line, the notary and every paper are invented (no readable text, blurred logos). The jump is Barasoain on 15 September 1898, watched from the crowd; delegates and the presiding officer seen from afar, no faces in close-up and no words. Kappa (Japanese folklore) and sarimanok (Maranao art) as helpers. Prompts setting-first; no 'brick', no 'mud'. Copied: full intro (Episode 11). Shots follow sentences.json; k80-k91 are montage extras.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "intro": "(copied from Episode 11)",
+  "dike_line": "extreme close-up of a thick budget book page with one line of numbers glowing red among hundreds of grey lines, a tiny icon of a dike, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "fake_docs": "under bright studio lights, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket holding up papers to a news camera, a ghostly red stamp of the word-free symbol X fading from them. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "notary_admit": "a nervous middle-aged notary in glasses at a small desk lowering his head before a camera, a stamp and pad in front of him, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "usman_paper": "comic close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck holding a crumpled single sheet of paper in its mouth, smug. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "grey_suit": "close-up of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket in a mirror adjusting a dark suit, more grey streaks in his hair, a thoughtful look. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "senate_win": "night, confetti falling in a modest campaign office, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket raising one hand with a tired smile among volunteers. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "constitution_book": "close-up of an open copy of a constitution on a desk, a finger on an article, warm lamp light, no readable text.",
+  "qual_icons": "symbolic floating icons in golden light: a birth certificate, an open book with a pen, a small house with a calendar of two years, no readable text.",
+  "back_seat": "wide shot from behind, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket sitting at the last desk at the edge of a grand session hall, a window showing a traffic jam outside. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "whispers_hall": "senators in suits at their desks glancing and whispering at a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket across the hall. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "budget_stack": "towers of thick budget books stacked on a long table, a tiny figure of a man reading at the bottom, dramatic scale. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "night_office": "three people reading through stacks of papers at a small table at night: a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket, a kind Filipina teacher in her sixties with short grey hair and glasses and a sharp Filipina journalist in her thirties with a short bob and a press ID lanyard, coffee cups everywhere. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "guro_cup": "close-up of a kind Filipina teacher in her sixties with short grey hair and glasses handing a cup of coffee across a desk with a gentle tired smile. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "bea_point": "close-up of a sharp Filipina journalist in her thirties with a short bob and a press ID lanyard pointing at one line on a page that stands out in a different font, frowning, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "kasulatan_read": "close-up: a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket holding a small glowing bronze medallion over a budget page, golden lines lifting from the ink. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "inserted_line": "extreme close-up of a typed line being slid in between printed rows of numbers by a ghostly hand of shadow, after the stamp of a meeting, no readable text.",
+  "no_dike": "wide aerial shot of a dry inland province with rice fields and low hills, no river, no dike, sunny, peaceful.",
+  "hiraya_logo": "a glossy corporate lobby with a blurred brand-new logo and an empty reception desk, too clean, no readable text.",
+  "tubal_shadow": "a large shadow of a man with a ring, smiling, cast on a wall behind a glossy reception desk, no face shown.",
+  "marker_barasoain": "in front of a stone church in a town plaza, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket reading aloud from a bronze historical marker, golden light swirling from it, no readable text. Present-day Malolos, Bulacan, Philippines.",
+  "jump_1898": "wide shot of a crowd in 1898 clothing gathered in a plaza before an old stone church with an arched facade, flags of the revolution, morning light. Malolos, Bulacan, Philippines, on 15 September 1898, the old stone Barasoain church with its arched facade, a crowd of townspeople in period clothing, nothing modern.",
+  "delegates_enter": "men in white barong and dark coats walking in a line through the arched doorway of an old stone church, townspeople watching, no faces in close-up. Malolos, Bulacan, Philippines, on 15 September 1898, the old stone Barasoain church with its arched facade, a crowd of townspeople in period clothing, nothing modern.",
+  "provinces": "symbolic painterly map of Luzon and the islands in 1898 with small lights rising from many provinces and gathering at Malolos, sepia, no readable text.",
+  "opening_far": "inside an old stone church nave in 1898 seen from the back of a standing crowd, delegates seated in rows facing a table at the altar end where a man presides, far away, no faces in close-up. Malolos, Bulacan, Philippines, on 15 September 1898, the old stone Barasoain church with its arched facade, a crowd of townspeople in period clothing, nothing modern.",
+  "constitution_1899": "close-up of a handwritten old document on a wooden table with a quill and inkwell, candlelight, sepia, no readable text.",
+  "indio_crowd": "a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket wearing a plain period shirt, standing at the edge of a 1898 crowd, quietly watching, not speaking. Malolos, Bulacan, Philippines, on 15 September 1898, the old stone Barasoain church with its arched facade, a crowd of townspeople in period clothing, nothing modern.",
+  "lesson_light": "symbolic shot: a long table in daylight with people seated face to face on both sides, open hands, papers in the open, warm light.",
+  "stand_hall": "a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket standing at his desk in the session hall, a bronze medallion glowing on his chest, microphone in front of him. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "tinig_waves": "symbolic shot of golden sound waves spreading from a session hall over the city and into countless phone screens, night.",
+  "read_line": "close-up of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket reading from a page into a microphone, calm and firm. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "phones_city": "montage of many hands holding phones in jeepneys, markets and homes, each screen showing the same speech, no readable text.",
+  "line_struck": "extreme close-up of a budget line being struck through with a red pen, golden glow fading, no readable text.",
+  "door_gorio": "at night behind a heavy half-open wooden door in a corridor, a silver-haired Filipino senator in his sixties in an expensive barong, a camera-ready smile beckoning to a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "gorio_cu": "close-up of a silver-haired Filipino senator in his sixties in an expensive barong, a camera-ready smile, a fatherly smile, patting a younger man's shoulder. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "gorio_whisper": "extreme close-up of a silver-haired Filipino senator in his sixties in an expensive barong, a camera-ready smile whispering, his smile gone cold, half his face in shadow. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "gorio_shrug": "medium shot of a silver-haired Filipino senator in his sixties in an expensive barong, a camera-ready smile shrugging, palms up, a lazy smile, in a dim corridor. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "flood_memory": "memory image: a house wall with a clear dirty water line at waist height, family photos drying below it, soft faded colours.",
+  "silent_indio": "close-up of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket silent, jaw set, turning away in a dim corridor. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "sinag_adviser": "in an office at night, a kindly old adviser with soft white hair in a cardigan, a faint unnatural glow around him sitting across a desk from a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket, gentle and grandfatherly. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "sinag_offer": "close-up of a kindly old adviser with soft white hair in a cardigan, a faint unnatural glow around him sliding a single sheet of paper and a golden pen across a desk, kind smile. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "paper_cu": "extreme close-up of a single blank-looking sheet of paper with a faint dark glow under it and a golden pen beside it, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "hands_still": "close-up of the hands of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket resting still on a desk, not touching a paper in front of them. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "usman_sit": "comic shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck jumping onto a desk and sitting squarely on a sheet of paper, looking innocent. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "usman_sorry": "comic close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck sitting on a paper on a desk with an innocent sorry face, one paw raised. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "sinag_gone": "an empty chair at a desk at night with a thin curl of smoke from a snuffed candle, the air shimmering. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "kappa_river": "a gentle green turtle-shelled river creature of Japanese folklore with a water dish on its head, standing in a calm river in Central Luzon and pointing at a weak crumbling riverbank, two engineers in hard hats nodding. Present-day rural Central Luzon, Philippines.",
+  "kappa_help": "close-up of the webbed hand of a small green river creature from Japanese folklore pressing a stake into a riverbank beside a worker's hand, morning light. Present-day rural Central Luzon, Philippines.",
+  "kappa_engineers": "wide shot of a river bend with engineers marking a riverbank with flags, a small green turtle-shelled creature on a rock guiding them. Present-day rural Central Luzon, Philippines.",
+  "sarimanok_fly": "high in the clouds, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket riding on the back of a giant legendary bird with a rooster-like body and a long sweeping multicoloured tail of red, gold, green and blue feathers, ornate scroll-like crest, over green provinces.",
+  "aerial_check": "aerial view from above the clouds of a river with one real concrete wall and one empty stretch where only stakes and a signboard stand, no readable text.",
+  "totoy_shop": "in a wooden boatyard by a river, a lanky Filipino teenage boy about seventeen in a work shirt with wood shavings on it shaping a plank with a hand plane, smiling, sawdust in the air. Present-day Butuan, Agusan del Norte, Philippines.",
+  "sebyo_teach": "an old Filipino boatbuilder with white stubble teaching a lanky Filipino teenage boy about seventeen in a work shirt with wood shavings on it how to fit wooden pegs into a plank, a half-built wooden boat behind them. Present-day Butuan, Agusan del Norte, Philippines.",
+  "totoy_boat": "a lanky Filipino teenage boy about seventeen in a work shirt with wood shavings on it proudly holding up a small model wooden plank boat with outriggers toward a phone camera, river behind. Present-day Butuan, Agusan del Norte, Philippines.",
+  "phone_photo": "close-up of a phone in the hand of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket showing a photo of a small model wooden boat, a warm smile reflected on the screen, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "tubal_dark": "in a dark high-rise office at night with city lights behind, a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring reading a printed speech, a slight smile. Present-day Makati, Philippines, no readable text.",
+  "tubal_cu": "close-up of a tall well-groomed Filipino man in his fifties in a charcoal suit with a heavy bronze ring folding a printed speech, eyes cold, city lights behind. Present-day Makati, Philippines.",
+  "rico_setup": "in a dark office, a slick vlogger in a bright shirt setting up a camera and ring light, grinning at the viewer, city lights behind. Present-day Makati, Philippines.",
+  "rico_grin": "close-up of a slick vlogger in a bright shirt grinning under a ring light, a red recording light on. Present-day Makati, Philippines.",
+  "age_scale": "symbolic golden floating numbers thirty-five and forty above two empty seats, a senate chair and a presidential chair, soft light.",
+  "barasoain_now": "wide shot of the old stone Barasoain church with its arched facade at dusk in the present day, a calm plaza. Present-day Malolos, Bulacan, Philippines.",
+  "delegate_books": "close-up of two old history books open side by side on a desk with different handwritten tallies in the margins, warm light, no readable text.",
+  "folk_scroll": "close-up of a colourful Maranao-style carved wooden sarimanok bird statue beside a small Japanese clay figurine of a kappa on a shelf, museum light.",
+  "fiction_table": "top shot of a desk with a blurred corporate folder, a rubber stamp, a budget book with a red line, and a golden pen, nothing readable. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "holo_92": "night on a rooftop over Manila, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket holding out his forearm, a translucent blue-gold holographic panel with a bar at ninety-two percent, no readable text.",
+  "indio_point": "in an empty session hall at dusk, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket pointing straight at the viewer with a cool friendly half-smile, a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck sitting on a desk beside him. Inside a present-day legislative session hall in Manila, Philippines, rows of wooden desks, microphones, no readable text, no real seal.",
+  "indio_ask": "close-up of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket holding up a page with one line circled in red toward the viewer, eyebrow raised, no readable text. Inside a small present-day office in Manila at night, stacks of paper, coffee cups, desk lamp.",
+  "trio_roof": "wide silhouette at sunset: a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief on its neck on a Manila rooftop, a giant ornate bird circling in the orange sky above."
+ },
+ "shots": {
+  "0": {
+   "full": "dike_line"
+  },
+  "1": {
+   "full": "intro"
+  },
+  "2": {
+   "full": "back_seat"
+  },
+  "3": {
+   "full": "fake_docs"
+  },
+  "4": {
+   "full": "notary_admit"
+  },
+  "5": {
+   "full": "usman_paper"
+  },
+  "6": {
+   "full": "grey_suit"
+  },
+  "7": {
+   "full": "senate_win"
+  },
+  "8": {
+   "full": "constitution_book"
+  },
+  "9": {
+   "full": "qual_icons"
+  },
+  "10": {
+   "full": "back_seat"
+  },
+  "11": {
+   "full": "whispers_hall"
+  },
+  "12": {
+   "full": "budget_stack"
+  },
+  "13": {
+   "full": "night_office"
+  },
+  "14": {
+   "full": "guro_cup"
+  },
+  "15": {
+   "full": "bea_point"
+  },
+  "16": {
+   "full": "kasulatan_read"
+  },
+  "17": {
+   "full": "inserted_line"
+  },
+  "18": {
+   "full": "no_dike"
+  },
+  "19": {
+   "full": "hiraya_logo"
+  },
+  "20": {
+   "full": "tubal_shadow"
+  },
+  "21": {
+   "full": "marker_barasoain"
+  },
+  "22": {
+   "full": "jump_1898"
+  },
+  "23": {
+   "full": "delegates_enter"
+  },
+  "24": {
+   "full": "provinces"
+  },
+  "25": {
+   "full": "opening_far"
+  },
+  "26": {
+   "full": "constitution_1899"
+  },
+  "27": {
+   "full": "indio_crowd"
+  },
+  "28": {
+   "full": "lesson_light"
+  },
+  "29": {
+   "full": "stand_hall"
+  },
+  "30": {
+   "full": "tinig_waves"
+  },
+  "31": {
+   "full": "read_line"
+  },
+  "32": {
+   "full": "phones_city"
+  },
+  "33": {
+   "full": "line_struck"
+  },
+  "34": {
+   "full": "door_gorio"
+  },
+  "35": {
+   "full": "gorio_cu"
+  },
+  "36": {
+   "full": "gorio_whisper"
+  },
+  "37": {
+   "full": "gorio_shrug"
+  },
+  "38": {
+   "full": "flood_memory"
+  },
+  "39": {
+   "full": "silent_indio"
+  },
+  "40": {
+   "full": "sinag_adviser"
+  },
+  "41": {
+   "full": "sinag_offer"
+  },
+  "42": {
+   "full": "paper_cu"
+  },
+  "43": {
+   "full": "hands_still"
+  },
+  "44": {
+   "full": "usman_sit"
+  },
+  "45": {
+   "full": "usman_sorry"
+  },
+  "46": {
+   "full": "sinag_gone"
+  },
+  "47": {
+   "full": "kappa_river"
+  },
+  "48": {
+   "full": "kappa_help"
+  },
+  "49": {
+   "full": "kappa_engineers"
+  },
+  "50": {
+   "full": "sarimanok_fly"
+  },
+  "51": {
+   "full": "aerial_check"
+  },
+  "52": {
+   "full": "totoy_shop"
+  },
+  "53": {
+   "full": "sebyo_teach"
+  },
+  "54": {
+   "full": "totoy_boat"
+  },
+  "55": {
+   "full": "phone_photo"
+  },
+  "56": {
+   "full": "tubal_dark"
+  },
+  "57": {
+   "full": "tubal_cu"
+  },
+  "58": {
+   "full": "rico_setup"
+  },
+  "59": {
+   "full": "rico_grin"
+  },
+  "60": {
+   "full": "age_scale"
+  },
+  "61": {
+   "full": "barasoain_now"
+  },
+  "62": {
+   "full": "delegate_books"
+  },
+  "63": {
+   "full": "folk_scroll"
+  },
+  "64": {
+   "full": "fiction_table"
+  },
+  "65": {
+   "full": "night_office"
+  },
+  "66": {
+   "full": "holo_92"
+  },
+  "67": {
+   "full": "indio_point"
+  },
+  "68": {
+   "full": "indio_ask"
+  },
+  "69": {
+   "full": "trio_roof"
+  },
+  "80": {
+   "full": "back_seat"
+  },
+  "81": {
+   "full": "budget_stack"
+  },
+  "82": {
+   "full": "jump_1898"
+  },
+  "83": {
+   "full": "delegates_enter"
+  },
+  "84": {
+   "full": "tinig_waves"
+  },
+  "85": {
+   "full": "phones_city"
+  },
+  "86": {
+   "full": "sarimanok_fly"
+  },
+  "87": {
+   "full": "kappa_river"
+  },
+  "88": {
+   "full": "totoy_boat"
+  },
+  "89": {
+   "full": "tubal_dark"
+  },
+  "90": {
+   "full": "barasoain_now"
+  },
+  "91": {
+   "full": "sinag_adviser"
+  }
+ }
+}
