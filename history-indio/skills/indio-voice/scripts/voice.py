@@ -20,6 +20,7 @@ def params(style):
         if t in STYLES: speed, gain = STYLES[t]
     if 'slow' in (style or ''): speed *= .92
     if 'fast' in (style or ''): speed *= 1.08
+    speed *= float(os.environ.get('HI_VOICE_SPEED', 1))                      # overall pace, e.g. HI_VOICE_SPEED=1.15 when the read feels slow
     return speed, gain
 
 def main():
