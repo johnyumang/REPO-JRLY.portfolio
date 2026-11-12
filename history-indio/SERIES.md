@@ -3,7 +3,7 @@
 Read with `HANDOFF.md` (series bible) and `README.md` (Anime workflow). Episode 1 (`videos/ep01-ang-unang-talon/`) is the worked example; copy its file set.
 
 ## Premise
-Indio, a jobless young man from Quezon City, carries his Lolo's bronze medallion. When he reads a historical marker aloud while holding it, he jumps to that moment in history, and Usman (a talking aspin only Indio and animals understand) appears beside him. **Usman does not exist in the real world: he shows up only while Indio is time travelling and is gone when Indio returns (user, 2026-11-12).** Episode 3 is Usman's back story. They only witness; they never change events. Each jump leaves one new tattoo on Indio.
+Indio, a jobless young man from Quezon City, carries his Lolo's bronze medallion. When he reads a historical marker aloud while holding it, he jumps to that moment in history, and Usman (a talking aspin only Indio and animals understand) appears beside him. **Usman does not exist in the real world: he shows up only while Indio is time travelling and is gone when Indio returns (user, 2026-11-12).** Episode 3 is Usman's back story. They only witness; they never change events. Usman appears only when Indio jumps and stays in the past: he comes out of the light at the moment of the jump and is gone when Indio returns to the present. Why is the mystery answered in Episode 3 (Usman's backstory, prepared by the user's team). Each jump leaves one new tattoo on Indio.
 
 ## Episode skeleton (330–380 spoken words, one narrator voice: Indio, first person)
 1. **Hook (sentence 1):** the most dramatic moment of the jump, stated as something Indio is seeing.

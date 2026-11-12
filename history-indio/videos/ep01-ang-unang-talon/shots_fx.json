@@ -62,9 +62,8 @@
 "move": "push_in"
 },
 "11": {
-"fx": [
-"sparkle"
-],
+"fx": [],
+"key": 7,
 "move": "pull_out"
 },
 "12": {
@@ -241,16 +240,17 @@
 },
 "38": {
 "fx": [
-"water",
-"punch"
+"sparkle"
 ],
-"move": "push_in"
+"key": 28,
+"move": "pull_out"
 },
 "39": {
 "fx": [
-"sparkle"
+"water",
+"punch"
 ],
-"key": 1,
+"key": 38,
 "move": "push_in"
 },
 "40": {

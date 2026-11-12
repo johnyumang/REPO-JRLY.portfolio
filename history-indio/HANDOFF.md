@@ -10,6 +10,12 @@ Read this first in a new session. Then read `history-indio/README.md` ("Anime wo
 - Voice: the ElevenLabs connector refused twice ("Free Tier access has been disabled", unusual activity); the user declined the Fish Audio key form; the Hugging Face connector lists Spaces but invoke is disabled ("gradio=none"). The user generates the voice themselves and uploads it.
 - Figma: about 75 images used on 2026-11-12 (resets 00:00 UTC).
 
+## UPDATE 2026-11-12 06:30 UTC (supersedes the Episode 1 lines above)
+- User correction: **Usman appears only when Indio time-travels and exists only in the past; he is never in the present day.** Episode 3 is Usman's backstory and the user's team is preparing it (reserved in topics.md).
+- Episode 1 script was rewritten for this (v2, cool voice with sparing "young stunna" slang, 42 sentences). The uploaded recording is of the OLD script, so `timings.json` is stale: Episode 1 needs a NEW recording, then align again.
+- Frames to generate from `key_prompts.json` once Figma credits reset: 10, 12, 13, 14, 15, 16, 25, 27, 35, 37 (the old k10–k14, k16, k35, k37 show the dog in the present day and must be replaced; delete old k11). After frame 15 exists, remove the `"key": 8` fallbacks in shots_fx.json (15 uses its own frame; 17 and 34 use key 15).
+- A 720p preview of the OLD version was rendered for the user to judge the look only.
+
 ## What exists
 - Channel: History Indio (Tagalog/Taglish history and myth explainers, vertical, ~3 min). Branch: `claude/eager-davinci-9qu2gg`. Repo is PUBLIC: never commit MP4s or voice files.
 - Finished videos: `kanyon-na-banig` (komiks look), `bakunawa-pitong-buwan` and `limahong-1574` (anime look, user's ElevenLabs voice). Captions are in each folder's `captions.md`.

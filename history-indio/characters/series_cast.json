@@ -12,14 +12,14 @@
   "1896_katipunan": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck"
  },
  "usman": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck",
- "usman_before_ep1_end": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes",
  "mystery_woman": "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck",
  "medallion": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord",
  "time_portal": "a swirling golden time portal of clock gears and light",
  "rules": [
   "Indio's constants in every era: red headband, bronze medallion, tattoos (one more after each jump: episode N starts with N-1 tattoos).",
-  "In modern-day scenes the headband is absent. Usman NEVER appears in modern-day scenes: he exists only inside a time jump (user, 2026-11-12).",
   "Real historical people are drawn as generic anime figures described by clothes and build, never as likenesses.",
-  "No Christian cross/church unless the scene really is one; say 'no cross, no church, no religious statue' for civic monuments."
+  "No Christian cross/church unless the scene really is one; say 'no cross, no church, no religious statue' for civic monuments.",
+  "Usman exists ONLY during a time jump and in the past. He is never in a present-day scene: add 'he is alone, no dog, no animals' to every modern-day prompt. He always wears the red kerchief.",
+  "In modern-day scenes Indio has no headband (red handkerchief on his wrist)."
  ]
 }
