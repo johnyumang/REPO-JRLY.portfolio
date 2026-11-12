@@ -23,10 +23,10 @@
 - No line is put in Limahong's or Salcedo's mouth. Indio only watches.
 - The real residency rule for candidates (sec. 39(a)) is not discussed and no period is stated, because secondary sources disagree on its length. Indio moved to San Lorenzo after his barangay term, and the story leaves time before the election.
 
-**Fiction (labelled):** San Lorenzo, Mayor Tres Lacsamana, Alcaín Builders, the bid, the flood wall of the plot and the cooperatives, the casino contract, Tobías Alcaín (Tubal), Kalawang, Engineer Vangie Dulay, JM, Bea, Rico Bulan, Sinag, M, the medallion Ang Kalakal, and the jobs given to the kapre and the tikbalang. No real living person, party or company appears. The September flood is the story's own, not a real event.
+**Fiction (labelled):** San Lorenzo, Mayor Tres Lacsamana, Alcaín Builders, the bid, the flood wall of the plot at Kawit (sentences 15 and 33: the 'karatula sa Kawit' and the signed 'sertipiko ng Kawit'; it stands for no real project, barangay or contractor of Kawit, Cavite, as Episode 32's facts.md also says) and the cooperatives' wall, the casino contract, Tobías Alcaín (Tubal), Kalawang, Engineer Vangie Dulay, JM, Bea, Rico Bulan, Sinag, M, the medallion Ang Kalakal, and the jobs given to the kapre and the tikbalang. No real living person, party or company appears. The September flood is the story's own, not a real event.
 
 ## Where each claim is spoken (script version 1, 733 words, 74 sentences)
 - Age: sentence 4 shows time passing ("Makalipas ang ilang taon, may ilang puting buhok na ako"); sentence 7 states his age (29), above the minimum. L1: 8.
 - H1: 39 and 66. H2: 40. H3: 41. H4: 42 and 66. H5: 43. H6: 44. H7: 67, in the fairness beat.
 - F1: 47 and 48. F2: 49. Folklore label: 68.
-- Fiction: 69 names the invented town, people, firm and papers; the series label is at 70.
+- Fiction: 69 (index 68) names the invented town, people, firm and papers: "Kathang-isip ang San Lorenzo, si Mayor Tres, si Tubal, ang Alcaín Builders, ang bid, ang kontrata at ang pader sa Kawit." Tubal and the Kawit wall were added after the independent check (Season 4 rule: every town, project and person in the plot is invented and labelled; source: SERIES.md Season 4 rule and ep32-ang-kapitan/facts.md on the Kawit flood wall). The captions carry the same label and add "Walang tinutukoy na totoong proyekto, opisyal o kontratista." The series label is at 70.
