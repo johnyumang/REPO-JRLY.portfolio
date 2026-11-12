@@ -4,7 +4,7 @@
 SEASON 3 FINALE, EPISODE 31: Anim na plato sa mesa ni Lola Ising, at sa unang pagkakataon, walang bakante. 🍲 Tapos tatlong araw na ulan, at isang karatula ng pader-baha na walang pader.
 "Hindi na sapat ang saksi lang."
 
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang baha sa kuwento, ang pader sa papel at ang "Alcaín Builders": walang totoong proyekto, opisyal o kumpanyang tinutukoy. Sa totoong tala: mababa ang lupa ng Kawit, Cavite, at sinasalo nito ang tubig mula sa matataas na bahagi ng probinsya; matagal nang binabaha ang mga bayan sa baybayin ng Cavite.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang baha sa kuwento, ang pader sa papel at ang "Alcaín Builders": walang totoong proyekto, opisyal o kumpanyang tinutukoy. Alamat ang Biringan, at modernong imbento ang Agartha. Sa totoong tala: mababa ang lupa ng Kawit, Cavite, at sinasalo nito ang tubig mula sa matataas na bahagi ng probinsya; matagal nang binabaha ang mga bayan sa baybayin ng Cavite.
 
 👉 Kung ikaw ang kapitan bukas, ano ang una mong ipapatayo? Comment mo.
 I-follow ang History Indio para sa Season 4!
@@ -20,7 +20,7 @@ I-follow ang History Indio para sa Season 4!
 **Description:**
 Season 3 finale ng time-travel series ng History Indio.
 Totoo: ang Kawit, Cavite, ay nasa mababang lupa at sinasalo ang tubig mula sa matataas na bahagi ng Cavite; paulit-ulit nang binabaha ang mga bayan sa baybayin ng probinsya. Pinagtatalunan: kung ang "barangay" ay galing sa "balangay", ang bangka.
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya, ang baha sa kuwento, ang pader sa papel at ang Alcaín Builders; walang totoong proyekto, opisyal o kumpanyang tinutukoy.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya, ang baha sa kuwento, ang pader sa papel at ang Alcaín Builders; walang totoong proyekto, opisyal o kumpanyang tinutukoy. Alamat ang Biringan, at modernong imbento ang Agartha.
 
 Kung ikaw ang kapitan bukas, ano ang una mong ipapatayo? I-comment sa baba.
 
@@ -37,5 +37,5 @@ Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang 
 #HistoryIndio #Kawit #Cavite #PhilippineHistory
 
 ## Pinned comment (sources)
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang baha sa kuwento, ang mga anino, ang pader sa papel at ang Alcaín Builders: walang totoong proyekto, opisyal, kontratista o partido na tinutukoy.
+Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang baha sa kuwento, ang mga anino, ang pader sa papel at ang Alcaín Builders: walang totoong proyekto, opisyal, kontratista o partido na tinutukoy. Alamat ang Biringan, at modernong imbento ang Agartha.
 Pinagmulan: tungkol sa mababang lupa ng Kawit at sa pagbaha sa Cavite: Daily Tribune (Agosto 2026), JICA flood study sa Cavite, Inquirer at Manila Times (mga ulat ng pagbaha); tungkol sa barangay at balangay: Wikipedia "Barangay" at "Precolonial barangay", Merriam-Webster. Ilan sa mga ito ay nabasa lamang bilang buod ng paghahanap; buong listahan sa facts.md ng episode.

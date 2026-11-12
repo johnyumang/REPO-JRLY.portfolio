@@ -16,5 +16,6 @@
 | 3 | "Pinagtatalunan: na ang salitang barangay ay galing sa balangay, ang bangka..." (62) | commonly taught derivation of barangay from balangay; the linguistic path is debated (Spanish-era pronunciation, Tagalogs not using the word for themselves; Merriam-Webster gives separate origins) | disputed, and said so | https://en.wikipedia.org/wiki/Barangay [summary]; https://en.wikipedia.org/wiki/Precolonial_barangay [summary]; https://www.merriam-webster.com/dictionary/balangays [summary] |
 | 4 | "Kawit, Cavite, kasalukuyan." (4) | the setting is real | certain | as row 1 |
 | — | the dinner, the family, the signboard, Alcaín Builders, the shadows, the flood of the story, the lens, the Punyal, the Agos, the Trinity, the candidacy | fiction | fiction (labelled in sentence 63, captions and pinned comment) | — |
+| 5 | "...alamat ang Biringan, at modernong imbento ang Agartha." (63; names in 14 and 25) | Biringan is a place of Philippine folklore (Samar legend); Agartha is a modern invention (a nineteenth-century European occult idea), not a real or ancient place | label (Season rule 1) | SERIES.md fairness-beat rule (line 335); labelled in sentence 63, Facebook and YouTube captions and pinned comment |
 
 **Not spoken, on purpose:** any real flood-control investigation, any real project, official or company, any real flood date or death toll.
