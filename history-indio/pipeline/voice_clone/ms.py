@@ -82,6 +82,23 @@ def checks(m, c, rf0):
     if m['clip'] > 1e-4: p.append('clipping')
     if m['maxgap'] > 0.8: p.append('long silence')
     return p
+def destray(w, m, text):
+    """Take whose words fail only because of extra sound before the first word: cut at the first pause (>= 50 ms, 30 dB under the speech)
+    before the second aligned word, keep it as take <name>t.wav when the cut take passes the word check. -> (wav, metrics) or None."""
+    import vqc, soundfile as sf
+    W = m['words']
+    if len(W) < 2 or w.endswith('t.wav') or vqc.edits(text, m['heard']) == 0: return None
+    y, sr = sf.read(w, dtype='float32'); hop = int(0.01 * sr); n = len(y) // hop
+    db = np.array([vqc.rms_db(y[i * hop:(i + 1) * hop]) for i in range(n)]); lvl = np.percentile(db, 90); lim = int(min(W[1][1], 1.6) / 0.01)
+    lo = np.where(db[:lim] < lvl - 30)[0]; runs = []; i0 = None
+    for a, b in zip(np.r_[-9, lo], np.r_[lo, 10 ** 9]):
+        if b != a + 1:
+            if i0 is not None and a - i0 >= 4 and i0 > int((m.get('onset', 0) + 0.06) / 0.01): runs.append((i0, a))
+            i0 = b
+    if not runs: return None
+    cut = max(0, (runs[0][1] - 2) * hop); out = w[:-4] + 't.wav'
+    sf.write(out, np.r_[np.zeros(int(0.05 * sr), np.float32), y[cut:]], sr)
+    t = vqc.take_metrics(out, text); json.dump(t, open(out[:-4] + '.json', 'w'), ensure_ascii=False); return out, t
 def score(m): return 0.40 * m['cmatch'] + 0.25 * m['conf'] + 0.10 * min(m['minconf'], 0.8) / 0.8 + 0.25 * float(np.clip((m['spk'] - 0.80) / 0.15, 0, 1)) - 0.3 * max(0, abs(m['rate'] - 5.85) / 5.85 - 0.15)
 def qc(work, full=False):
     import vqc
@@ -98,6 +115,12 @@ def qc(work, full=False):
                   m['conf'], m['minconf'], m['spk'], m['rate'], m['f0'] or 0, ','.join(m['fail']) + ' ' if m['fail'] else '', m['heard'][:90]), flush=True)
             key = lambda q: (words_ok(q), not q['fail'], -q['edits'], q['score'])
             if best is None or key(m) > key(best[1]): best = (w, m)
+        if not words_ok(best[1]):   # a stray syllable carried over from the continuation prompt ("But", "Dot"): cut it off at the pause before the line and hear it again
+            t = destray(best[0], best[1], c['text'])
+            if t:
+                m = t[1]; m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = checks(m, c, rf0); m['score'] = round(score(m), 4)
+                print('c%03d %-12s %-4s %s stray start cut | %s' % (c['id'], c['speaker'][:12], t[0][-7:-4], 'OK ' if not m['fail'] else 'BAD', m['heard'][:90]), flush=True)
+                if words_ok(m): best = t
         w, m = best; choice[str(c['id'])] = dict(wav=w, ok=not m['fail'], words_ok=words_ok(m), fail=m['fail'], spk=m['spk'], score=m['score'])
         if not words_ok(m) or (full and m['fail']): redo.append(c['id'])
     json.dump(choice, open(work + '/choice.json', 'w'), indent=1); print('need another take:', ','.join(map(str, redo)))
