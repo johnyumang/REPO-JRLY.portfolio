@@ -30,3 +30,4 @@
 ## Could not verify / kept out on purpose
 - **Whose staff it is:** left open on purpose (the story answers later).
 - **The legal form of a presidential oath:** not stated; the oath in this episode is fiction.
+- **The age rules** (President at least 40 on election day with ten years' residence, Art. VII sec. 2; senator at least 35, Art. VI sec. 3): official text not reached (government sites blocked here); stated from secondary sources and SERIES.md. A House resolution of September 2025 proposes lower minimum ages; it is a proposal only and is not law (no filers named).

@@ -31,3 +31,4 @@
 - **The year and owner of Botong Francisco's "Bayanihan" mural:** not in the WP article read; not spoken.
 - **Invented names checked:** "San Lorenzo" exists as real place names elsewhere (not by Laguna de Bay as far as checked); the story town is labelled fiction. "Engineer Vangie" is a first name only. Rico Bulan, Tubal Alcaín and Rufino "Kalawang" Paredes are series names from the cast list; a namesake search was not done in this session.
 - **The brief's Episode 38 note** (fall into vice, Luke 15) belongs to Kabanata 15; Kabanata 38 has no vice scenes.
+- **The age rules** (President at least 40 on election day with ten years' residence, Art. VII sec. 2; senator at least 35, Art. VI sec. 3): official text not reached (government sites blocked here); stated from secondary sources and SERIES.md. A House resolution of September 2025 proposes lower minimum ages; it is a proposal only and is not law (no filers named).

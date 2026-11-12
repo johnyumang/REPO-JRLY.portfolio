@@ -34,3 +34,4 @@
 - **Whether "barangay" comes from "balangay":** WP gives both words the same meaning in old records; scholars debate how far the link goes. Not spoken.
 - **The legal rule on when a President takes the oath** (the chapter's quiet oath before a judge): not stated as law; it is labelled fiction.
 - **The four foreign guests** of the chapter (Hu Lanxi, Okada Haru, Agnes Thornbury, Don Chuy Tabares) are not named in this episode.
+- **The age rules** (President at least 40 on election day with ten years' residence, Art. VII sec. 2; senator at least 35, Art. VI sec. 3): official text not reached (government sites blocked here); stated from secondary sources and SERIES.md. A House resolution of September 2025 proposes lower minimum ages; it is a proposal only and is not law (no filers named).
