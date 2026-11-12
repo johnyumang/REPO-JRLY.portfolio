@@ -17,7 +17,7 @@ def parse_script(script):
         line = line.strip()
         if not line: scene += 1 if S else 0; continue
         if line.startswith('#'): continue
-        m = re.match(r'^([A-Za-z\u00d1\u00f1 .\'-]+?)\s*:\s*(.+)$', line)
+        m = re.match(r'^([A-Za-z_\u00d1\u00f1 .\'-]+?)\s*:\s*(.+)$', line)
         assert m, 'not `NAME: [tone] text`: %r' % line
         spk = m.group(1).strip().upper(); turn += 1; cur = 'narrate'
         for s in re.findall(r'[^.?!]+[.?!]+["\u201d]?', m.group(2) + ('' if re.search(r'[.?!]["\u201d]?\s*$', m.group(2)) else '.')):
