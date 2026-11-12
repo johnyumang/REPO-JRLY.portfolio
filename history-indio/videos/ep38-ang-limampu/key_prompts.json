@@ -1,0 +1,352 @@
+{
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "_note": "Episode 38 (Season 4) keyframes (from Kabanata 38, story version 2). The flood is fiction; no real disaster, office, party or company is shown; no readable text on any signs, vehicles or logos. Indio is 38, a senator: a few grey hairs. Rescues are hopeful and never gory; the child under the beam is pulled free. Sinag is the smiling man with pale gold eyes. Tubal is a generic man in a suit with a bronze ring. Bayanihan jump: a timeless rural scene, no year shown. Copied from Episode 13: full intro. Shots follow sentences.json; k90+ are montage extras.",
+ "plates": {},
+ "chars": {},
+ "full": {
+  "fleet_hook": "wide shot at night in heavy rain: a long line of high trucks, boats and two helicopters with searchlights moving out into a flooded town, people on rooftops waving white cloths. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "lake_hook": "aerial shot of a vast lake overflowing its shores at night in a storm, water spreading into towns, lightning.",
+  "aerial_lake": "aerial shot of a huge lake under heavy grey rain clouds, towns along its shore, rain curtains.",
+  "senator_window": "medium shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket standing at a rain-streaked office window at night, watching the storm, worried.",
+  "rain_days": "wide shot of a town street in endless heavy rain, gutters overflowing, umbrellas, grey light, no readable signs.",
+  "lake_overflow": "wide shot at night: lake water surging over a low embankment into streets, lights reflecting, rain.",
+  "roofs_flood": "high shot of houses flooded to the rooftops at night, families sitting on the roofs with flashlights. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "jm_door": "low shot: a friendly stocky Filipino mechanic in his thirties in grease-stained blue coveralls hauling open a giant garage door in the rain, light spilling out. Detailed full background, a huge garage at night full of trucks, motorcycles and boats on trailers, rain outside the open door, no readable text.",
+  "garage_fifty": "wide high-angle shot of an enormous garage full of high-wheeled trucks, SUVs, motorcycles, a yacht on a trailer, two helicopters and two small planes beyond, lights on.",
+  "jm_tank": "close-up of a friendly stocky Filipino mechanic in his thirties in grease-stained blue coveralls wiping his hands on a rag, nodding, serious. Detailed full background, a huge garage at night full of trucks, motorcycles and boats on trailers, rain outside the open door, no readable text.",
+  "jm_fuel": "extreme close-up of a mechanic's hand slapping the full fuel tank of a high truck, rain on the metal.",
+  "indio_hold": "medium shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket bracing his feet in rushing water in a school doorway, arms out, not stepping back. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "usman_bark": "close-up: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief barking loudly toward a rooftop, rain flying off his ears. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "sinag_ots": "over-the-shoulder shot from behind a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket: a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely in the pilot seat turning to smile at him, cockpit lights.",
+  "indio_all": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket answering firmly, rain dripping from his headband. Detailed full background, a huge garage at night full of trucks, motorcycles and boats on trailers, rain outside the open door, no readable text.",
+  "indio_nothink": "medium shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket tossing car keys to waiting volunteers, already moving. Detailed full background, a huge garage at night full of trucks, motorcycles and boats on trailers, rain outside the open door, no readable text.",
+  "convoy_night": "wide deep shot of a convoy of high trucks driving through chest-deep floodwater at night, headlights, rain, volunteers in the beds of the trucks.",
+  "boats_street": "wide shot of motorboats moving between flooded houses at night, flashlights sweeping, people being helped aboard. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "heli_roof": "low-angle shot of a rescue helicopter hovering over a roof with a white cloth tied to it, a rope ladder dropping, rain in the searchlight.",
+  "agos_ride": "wide shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket gliding fast on the surface of a flood current like a river, water trailing behind him, glowing faint blue. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "agos_aim": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket squinting ahead through rain, judging the distance to a rooftop, water rushing. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "school_shield": "low-angle shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket standing in the doorway of a school used as an evacuation center, a dome of bronze light in front of him as floating logs slam into it. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "logs_stop": "close-up of floating logs and debris stopped dead against a glowing wall of bronze light, water churning.",
+  "doubles": "high shot at dawn of many identical young men in rain jackets, one on every rooftop with a white cloth, helping families, a faint gold glow around each.",
+  "beam_child": "medium shot inside a collapsing flooded house: a wooden beam falling toward a small child, a man lunging forward, water at waist height, no injury shown.",
+  "time_freeze": "close-up: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket holding a frightened child safely in his arms as rain drops hang frozen in the air around them, a beam stopped mid-fall. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "allies_flood": "wide shot at night: a glowing rooster-like bird with rainbow feathers circling over a flooded city, rescue boats below.",
+  "siyokoy_boat": "close-up of scaly webbed hands with fins pushing an overturned boat upright in dark floodwater at night.",
+  "yumud_child": "medium shot underwater: a dark gentle water spirit with moss-like hair guiding a small child clinging to a floating wooden cabinet up to the surface, bubbles, light above.",
+  "sarimanok_circle": "low-angle shot of a glowing rooster-like bird with rainbow feathers circling above one flooded house where a family waves a flashlight.",
+  "usman_bow": "low shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief standing at the bow of a rescue boat at night, barking at a rooftop, rain on his fur. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "usman_boat": "medium shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief wagging at the bow while volunteers pull a family aboard. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "sinag_pilot": "medium shot inside a helicopter cockpit at night: a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely sitting in the pilot's seat, relaxed, as if he had always been there.",
+  "sinag_whisper": "close-up of a smiling handsome man in a clean pale suit with pale gold eyes, smiling too widely leaning closer, whispering an offer, cockpit lights on his face.",
+  "indio_silent38": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket silent, rain on the window behind him, thinking.",
+  "heli_memory": "wide shot of a memory: a lone helicopter flying over a city at night for no reason, party lights in the cabin, empty and hollow.",
+  "kids_blanket": "medium shot of seven children wrapped in blankets huddled in the back of a helicopter, wet and scared, one smiling a little.",
+  "indio_none": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket turning back to the stranger with calm, clear eyes. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "sinag_vanish": "medium shot of an empty helicopter pilot's seat with a faint golden haze dissolving where someone sat.",
+  "giveaway": "wide shot on a sunny morning after a flood: trucks with bows parked in front of a town hall, boats handed to fishermen at a pier, people clapping, no readable signs.",
+  "heli_hospital": "wide shot of a helicopter landing on a provincial hospital helipad at morning, nurses waving, no readable text.",
+  "bea_notes": "top-down close-up of a young woman's hands writing a careful list in a notebook beside receipts and photos, no readable text.",
+  "rico_vlog": "extreme close-up of a phone screen showing a sneering young man vlogging with a red arrow graphic, no readable text.",
+  "vangie_lock": "close-up of a female engineer in a hard hat and raincoat holding up a broken padlock from a floodgate, angry, a lake behind.",
+  "ring_cement": "extreme close-up of a bronze ring with a mark of three triangles lying on wet cement beside a broken lock.",
+  "drills": "wide shot at dusk: men in dark raincoats with power drills attacking a second floodgate in the rain, sparks flying.",
+  "kampilan_draw": "low-angle shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket drawing a long glowing sword with a forked tip, rain bouncing off the blade.",
+  "drills_break": "close-up of power drills snapping in half in men's hands, sparks, the men stumbling back unhurt, rain.",
+  "men_run": "wide shot of men in dark raincoats running away into the rain along a lakeshore, unhurt, a floodgate behind.",
+  "tubal_ring": "medium shot: a tall cold man in a dark suit with a bronze ring on his finger, face half in shadow slowly placing a small bronze ring on wet cement beside a floodgate at night, looking at a spot on the ground.",
+  "tubal_look": "close-up of a tall cold man in a dark suit with a bronze ring on his finger, face half in shadow staring at an empty spot on the ground, a faint cold smile.",
+  "indio_ponder": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket frowning, wondering, rain on his face.",
+  "marker_old": "low shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket reading aloud from a bronze marker on an old stone wall in a quiet provincial town at morning, no readable text.",
+  "bayanihan": "wide shot of a timeless Filipino village: a dozen men carrying a whole nipa hut on long bamboo poles on their shoulders across a rice field, smiling, sunny.",
+  "women_food": "medium shot of village women waiting in the shade with baskets of rice, fish and fruit for the men carrying a house, laughing.",
+  "indio_field": "seen from behind: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket standing at the edge of a rice field watching villagers carry a house, quiet.",
+  "neighbors": "close-up of the shoulders of men under a bamboo pole, sweat and smiles, a nipa roof above them.",
+  "indio_clarify38": "medium shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket sitting on the steps of a town hall at sunset, speaking calmly to the camera.",
+  "lake_today": "wide high-angle shot of a huge calm lake on a clear day, fishing pens, mountains around, towns on the shore.",
+  "bahay_kubo": "close-up of a small nipa hut on stilts with a thatched roof and bamboo walls, morning light.",
+  "botong_mural": "wide shot of a long colorful mural painting in a folk style showing villagers carrying a nipa hut together, displayed on a gallery wall, no readable text.",
+  "indio_label38": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket with honest eyes, a white cloth tied on his wrist. Detailed full background, a lakeside town flooded to the rooftops at night in heavy rain, present-day Philippines, no readable text, not a character sheet.",
+  "dike_build": "wide shot of workers from a cooperative building a concrete dike along a lake at morning, wooden forms, wheelbarrows.",
+  "post_sign": "close-up of a concrete post on a dike with a blank metal plate, a worker bolting it on, no readable text.",
+  "coop_workers": "medium shot of men and women in matching cooperative shirts laughing as they pour concrete, the lake behind.",
+  "kapre_dike": "wide night shot: the dark silhouette of a huge hairy tree giant with glowing red eyes and a cigar ember sitting on a balete beside a new dike, watching over the lake.",
+  "indio_point38": "medium shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket pointing at the viewer, standing on a new dike, the lake behind.",
+  "indio_ask38": "close-up of a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket asking the viewer, holding a ring of car keys out in his open palm.",
+  "indio_follow38": "low shot: a Filipino man in his late thirties with a black topknot, a red headband and a few grey hairs, a dark rain jacket and a black Philippine street dog with a white chest patch, one folded ear and a red kerchief walking along the top of a new dike at sunrise, Usman's kerchief blowing.",
+  "night_before": "seen from behind: a man in a rain jacket hiding in the dark watching a floodgate at night, before the rain.",
+  "rain_drops": "extreme close-up of heavy rain drops hitting dark floodwater at night.",
+  "white_cloth": "close-up of a white cloth tied to a TV antenna on a flooded roof at night, flapping in the wind.",
+  "searchlight": "low-angle shot of a helicopter searchlight beam cutting through heavy rain at night.",
+  "keys_ring": "close-up of a huge ring of car keys tossed through the air in a garage.",
+  "truck_wheel": "low-angle close-up of a high truck wheel pushing through deep floodwater, spray.",
+  "shield_glow": "close-up of a dome of bronze light glowing in the rain, water streaming down its surface.",
+  "gold_double": "wide shot of golden figures of light fading one by one from rooftops at sunrise.",
+  "blanket_kid": "close-up of a small child wrapped in a blanket, sipping from a cup, safe.",
+  "floodgate_rain": "wide shot of a concrete floodgate on a lakeshore in pouring rain, lights.",
+  "bamboo_poles": "close-up of bamboo poles lashed under a nipa house, ropes tight.",
+  "rice_field": "wide shot of a green rice field at morning with a carried house moving across it in the distance.",
+  "dike_dawn": "wide shot of a long new dike along a calm lake at dawn, birds flying.",
+  "receipt_post": "close-up of receipts pinned under clear plastic on a wooden board, no readable text.",
+  "intro": "(copied from Episode 13)"
+ },
+ "shots": {
+  "0": {
+   "full": "fleet_hook"
+  },
+  "1": {
+   "full": "lake_hook"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "aerial_lake"
+  },
+  "4": {
+   "full": "senator_window"
+  },
+  "5": {
+   "full": "rain_days"
+  },
+  "6": {
+   "full": "lake_overflow"
+  },
+  "7": {
+   "full": "roofs_flood"
+  },
+  "8": {
+   "full": "jm_door"
+  },
+  "9": {
+   "full": "garage_fifty"
+  },
+  "10": {
+   "full": "jm_tank"
+  },
+  "11": {
+   "full": "jm_fuel"
+  },
+  "12": {
+   "full": "indio_all"
+  },
+  "13": {
+   "full": "indio_nothink"
+  },
+  "14": {
+   "full": "convoy_night"
+  },
+  "15": {
+   "full": "boats_street"
+  },
+  "16": {
+   "full": "heli_roof"
+  },
+  "17": {
+   "full": "agos_ride"
+  },
+  "18": {
+   "full": "agos_aim"
+  },
+  "19": {
+   "full": "school_shield"
+  },
+  "20": {
+   "full": "logs_stop"
+  },
+  "21": {
+   "full": "indio_hold"
+  },
+  "22": {
+   "full": "doubles"
+  },
+  "23": {
+   "full": "beam_child"
+  },
+  "24": {
+   "full": "time_freeze"
+  },
+  "25": {
+   "full": "allies_flood"
+  },
+  "26": {
+   "full": "siyokoy_boat"
+  },
+  "27": {
+   "full": "yumud_child"
+  },
+  "28": {
+   "full": "sarimanok_circle"
+  },
+  "29": {
+   "full": "usman_bow"
+  },
+  "30": {
+   "full": "usman_boat"
+  },
+  "31": {
+   "full": "usman_bark"
+  },
+  "32": {
+   "full": "sinag_pilot"
+  },
+  "33": {
+   "full": "sinag_whisper"
+  },
+  "34": {
+   "full": "sinag_ots"
+  },
+  "35": {
+   "full": "indio_silent38"
+  },
+  "36": {
+   "full": "heli_memory"
+  },
+  "37": {
+   "full": "kids_blanket"
+  },
+  "38": {
+   "full": "indio_none"
+  },
+  "39": {
+   "full": "sinag_vanish"
+  },
+  "40": {
+   "full": "giveaway"
+  },
+  "41": {
+   "full": "heli_hospital"
+  },
+  "42": {
+   "full": "bea_notes"
+  },
+  "43": {
+   "full": "rico_vlog"
+  },
+  "44": {
+   "full": "vangie_lock"
+  },
+  "45": {
+   "full": "ring_cement"
+  },
+  "46": {
+   "full": "drills"
+  },
+  "47": {
+   "full": "kampilan_draw"
+  },
+  "48": {
+   "full": "drills_break"
+  },
+  "49": {
+   "full": "tubal_ring"
+  },
+  "50": {
+   "full": "tubal_look"
+  },
+  "51": {
+   "full": "indio_ponder"
+  },
+  "52": {
+   "full": "marker_old"
+  },
+  "53": {
+   "full": "bayanihan"
+  },
+  "54": {
+   "full": "women_food"
+  },
+  "55": {
+   "full": "indio_field"
+  },
+  "56": {
+   "full": "neighbors"
+  },
+  "57": {
+   "full": "indio_clarify38"
+  },
+  "58": {
+   "full": "lake_today"
+  },
+  "59": {
+   "full": "bahay_kubo"
+  },
+  "60": {
+   "full": "botong_mural"
+  },
+  "61": {
+   "full": "indio_label38"
+  },
+  "62": {
+   "full": "dike_build"
+  },
+  "63": {
+   "full": "coop_workers"
+  },
+  "64": {
+   "full": "post_sign"
+  },
+  "65": {
+   "full": "kapre_dike"
+  },
+  "66": {
+   "full": "indio_point38"
+  },
+  "67": {
+   "full": "indio_ask38"
+  },
+  "68": {
+   "full": "indio_follow38"
+  },
+  "90": {
+   "full": "night_before"
+  },
+  "91": {
+   "full": "rain_drops"
+  },
+  "92": {
+   "full": "white_cloth"
+  },
+  "93": {
+   "full": "searchlight"
+  },
+  "94": {
+   "full": "keys_ring"
+  },
+  "95": {
+   "full": "truck_wheel"
+  },
+  "96": {
+   "full": "shield_glow"
+  },
+  "97": {
+   "full": "gold_double"
+  },
+  "98": {
+   "full": "blanket_kid"
+  },
+  "99": {
+   "full": "floodgate_rain"
+  },
+  "100": {
+   "full": "bamboo_poles"
+  },
+  "101": {
+   "full": "rice_field"
+  },
+  "102": {
+   "full": "dike_dawn"
+  },
+  "103": {
+   "full": "receipt_post"
+  }
+ }
+}
