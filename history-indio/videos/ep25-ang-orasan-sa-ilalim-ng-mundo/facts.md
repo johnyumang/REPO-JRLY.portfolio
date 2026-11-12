@@ -30,3 +30,4 @@
 - Y1: 15 (M) and 52. Y5: 52. Y4: 53 ("mga oso at isang aso pala"). Y2 and Y3 are not spoken.
 - The fiction label is at sentence 54. "Vril" is not spoken, and the episode uses no Nordic, "Aryan" or black-sun imagery.
 - Usman appears only inside the portal (sentence 11 on) and vanishes on the way out (55). Bea's call is in the present with no dog.
+- Sentences 26 and 30 (the old woman of the cave people, fiction) are spoken by INDIO as reported speech ("Sabi ng matanda: ..."), like the yeti's words. Reason (correction E25-1/E25-2, 2026-11-12): LOLA_AGARTHA had no entry in cast_design.json, and vprofile.cast_ref exits when a cast reference .wav/.txt is missing (vprofile.py lines 29-31), so the multispeaker plan would stop; MATANDA is a man and LOLA is Lola Ising, so neither can stand in.
