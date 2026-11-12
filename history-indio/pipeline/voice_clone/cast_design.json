@@ -139,9 +139,10 @@
    "descriptions": [
     "A big, warm, hearty man in his forties, a generous host, booming friendly voice with laughter in it, medium pitch, lively pace, Filipino accent",
     "A jolly, open-handed man around forty-five, rich warm voice, welcoming and cheerful, a shrewd bargainer, lively, Filipino accent",
-    "A big, hearty man in his forties, deep warm baritone voice, chuckling and friendly, relaxed, a generous host, low pitch, Filipino accent"
+    "A big, hearty man in his forties, deep warm baritone voice, chuckling and friendly, relaxed, a generous host, low pitch, Filipino accent",
+    "A middle-aged man with a deep, warm, low male voice, a friendly host with a chuckle in it, calm and relaxed, normal speaking volume, Filipino accent"
    ],
-   "ref_text": "Halika, kaibigan, maupo ka! Kumain ka muna, marami pang kanin at isda. Sa bahay ko, walang umuuwing gutom. Pero tandaan mo, sa bawat tanggap, may kapalit. Iyan ang patas na palitan, hindi ba?",
+   "ref_text": "Halika, kaibigan, maupo ka. Kumain ka muna, marami pang kanin at isda. Sa bahay ko, walang umuuwing gutom. Pero tandaan mo, sa bawat tanggap, may kapalit. Iyan ang patas na palitan, hindi ba?",
    "sample": "Ako ang Kalakal. Sabihin mo, ano ba talaga ang gusto mo, at ano ang kaya mong ibigay?",
    "f0_hz": [
     85,
@@ -230,7 +231,8 @@
    "descriptions": [
     "A hard, rugged man in his forties, terse and blunt, low gravelly voice, few words, short clipped sentences, unshakable, Filipino accent",
     "A stern warrior, rough, deep and curt voice, cold and steady, speaks in short hard bursts, Filipino accent",
-    "A grim warrior in his forties, very deep, low bass voice, gravelly and rough, terse, slow and heavy, Filipino accent"
+    "A grim warrior in his forties, very deep, low bass voice, gravelly and rough, terse, slow and heavy, Filipino accent",
+    "A man in his forties with a very deep, low male bass voice, gruff and gravelly, terse and stern, slow, few words, Filipino accent"
    ],
    "ref_text": "Hindi ako yuyuko. Tumayo ka sa likod ko. Walang lalampas. Hindi ako umaatake, nagtatanggol lang ako. Pero hangga't nakatayo ako rito, walang dadaan. Isa lang ang tanong ko sa iyo. Handa ka ba?",
    "sample": "Ako ang Kalasag. Tumayo ka sa likod ko. Walang dadaan.",
