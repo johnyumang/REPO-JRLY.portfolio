@@ -153,3 +153,7 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 ## UPDATE 2026-11-12 09:40 UTC — multi-speaker voice (user: "we can have multi speaker okay?")
 - Each of Ep 2, 3, 4, 6 now also has `script_multispeaker.txt` (speakers INDIO, USMAN, LOLA, M) for ElevenLabs v3 Text to Dialogue. Same words in the same order as `script_elevenlabs.txt`, so `sentences.json` and alignment are unchanged; the user exports ONE MP3. Only fictional characters get a voice; real people still never speak. Both versions are on the board.
 - The user approved Episode 1 ("approved ep 1"); relayed to the Episode 1 session.
+
+## UPDATE 2026-11-12 10:00 UTC — frames need no approval (user)
+- "wag akong hintayin bago mag generate ng frames" and "approve na agad ang frame na minungkahi": generate frames without waiting, proposed frames are approved, and Figma credits may be spent without asking first (report the count afterwards). This overrides "tell the user before spending credits".
+- Figma was tried at about 10:00 UTC: "Insufficient Figma AI credits", resets 2026-11-13 00:00 UTC. The central session has a one-time task at 00:05 UTC to upgrade the worst frames at once (order: Ep 2, Ep 6, Ep 3, Ep 4).

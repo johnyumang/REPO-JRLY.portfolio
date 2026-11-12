@@ -54,7 +54,7 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
   comment, next to the real record. Indio only witnesses. No invented words for real people.
 - Usman exists only while Indio is time travelling.
 - Every claim in a script has a row in `facts.md` (two sources, status), and a "could not verify" list.
-- Tell the user before spending Figma credits (about 75 images a day, shared, resets 00:00 UTC).
+- Frames: do NOT wait for the user (user, 2026-11-12). Generate as soon as a script exists; proposed frames count as approved. Spend Figma credits without asking (about 75 images a day, shared, resets 00:00 UTC) and report afterwards how many were used. Stories and voice still need the user.
 - Tell the user when something is finished and send the file so it plays (SendUserFile, display render).
 
 ## Episode file set (`history-indio/videos/epNN-slug/`)
