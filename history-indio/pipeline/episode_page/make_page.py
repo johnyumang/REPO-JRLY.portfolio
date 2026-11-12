@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a private download page for one History Indio episode.
 
-usage: make_page.py <episode_dir> <full_quality.mp4> <out_dir> [--part-mb 14]
+usage: make_page.py <episode_dir> <full_quality.mp4> <out_dir> [--part-mb 14] [--max-mb 42]
 
 Writes <out_dir>/page.html, <out_dir>/files.json, <out_dir>/media/preview.mp4 and
 <out_dir>/media/<name>_pNN.mp4 (raw byte parts, named .mp4 only because artifacts serve a fixed list of file types; a part is not playable on its own; of the full MP4, each at most 14 MB, because a
@@ -91,6 +91,41 @@ def make_preview(src, dst):
     sys.exit("preview is still over 15 MB after retries")
 
 
+def fit_size(src, dst, max_mb):
+    """Return a copy of src that is at most max_mb, or src itself when it already fits.
+    Two-pass x264 (preset slow) at the bitrate that fits, same picture size, audio copied untouched.
+    Why: an account may publish only a limited number of Artifact files a day (200 on 2026-11-12, shared by
+    every session), and each 14 MB part is one file. A 5-minute 720p episode at about 42 MB is 3 parts instead of 7,
+    and measured against the builder's own output it keeps PSNR about 42 dB (SSIM 0.987): no visible loss."""
+    if max_mb <= 0 or os.path.getsize(src) <= max_mb * MB:
+        return src
+    dur = max(duration(src), 1.0)
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries", "stream=bit_rate",
+                        "-of", "csv=p=0", src], capture_output=True, text=True)
+    try: audio_k = int(float(r.stdout.strip()) / 1000)
+    except ValueError: audio_k = 192
+    budget = 0.97
+    log = dst + ".2pass"
+    for _ in range(4):
+        video_k = int(max_mb * MB * 8 / 1000 / dur * budget - audio_k)
+        if video_k < 300:
+            sys.exit(f"--max-mb {max_mb} leaves only {video_k} kbps for video; raise it")
+        base = ["nice", "-n", "10", "ffmpeg", "-v", "error", "-y", "-i", src, "-c:v", "libx264", "-preset", "slow",
+                "-b:v", f"{video_k}k", "-pix_fmt", "yuv420p", "-passlogfile", log]
+        subprocess.run(base + ["-pass", "1", "-an", "-f", "null", os.devnull], check=True)
+        subprocess.run(base + ["-pass", "2", "-c:a", "copy", "-movflags", "+faststart", dst], check=True)
+        size = os.path.getsize(dst)
+        print(f"fitted: {video_k} kbps video + {audio_k} kbps audio (copied) -> {size / MB:.2f} MB (limit {max_mb} MB)")
+        if size <= max_mb * MB:
+            break
+        budget *= 0.95
+    else:
+        sys.exit("could not fit the video under --max-mb")
+    for f in (log + "-0.log", log + "-0.log.mbtree"):
+        if os.path.exists(f): os.remove(f)
+    return dst
+
+
 def sha256(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -129,6 +164,8 @@ def main():
     ap.add_argument("full_mp4")
     ap.add_argument("out_dir")
     ap.add_argument("--part-mb", type=float, default=14.0, help="part size in MB (max 14; smaller only for tests)")
+    ap.add_argument("--max-mb", type=float, default=42.0,
+                    help="re-encode the MP4 to at most this size before splitting (default 42 = 3 parts; 0 keeps the file as it is)")
     a = ap.parse_args()
     if a.part_mb > 14:
         sys.exit("--part-mb must be 14 or less (15 MB per published file)")
@@ -146,8 +183,9 @@ def main():
 
     prev = os.path.join(media, "preview.mp4")
     make_preview(a.full_mp4, prev)
-    parts = split_file(a.full_mp4, media, base, int(a.part_mb * MB))
-    full_size = os.path.getsize(a.full_mp4)
+    full = fit_size(a.full_mp4, os.path.join(out, base + "_fit.mp4"), a.max_mb)   # fewer parts = fewer uploads
+    parts = split_file(full, media, base, int(a.part_mb * MB))
+    full_size = os.path.getsize(full)
 
     page = {
         "n": n, "title": title, "filename": base + ".mp4", "size": full_size,
