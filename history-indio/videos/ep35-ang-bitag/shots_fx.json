@@ -238,136 +238,149 @@
  },
  "40": {
   "fx": [],
-  "framing": "M",
-  "move": "dolly_in"
+  "framing": "ECU",
+  "move": "pan_right"
  },
  "41": {
-  "fx": [],
-  "framing": "ECU",
-  "move": "rack_focus"
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "crane_up",
+  "depth": "strong"
  },
  "42": {
   "fx": [],
-  "framing": "ECU",
-  "move": "push_in"
+  "framing": "M",
+  "move": "dolly_in"
  },
  "43": {
   "fx": [],
-  "framing": "M",
+  "framing": "ECU",
   "move": "rack_focus"
  },
  "44": {
   "fx": [],
-  "framing": "M",
+  "framing": "ECU",
   "move": "push_in"
  },
  "45": {
   "fx": [],
   "framing": "M",
-  "move": "orbit_right"
+  "move": "rack_focus"
  },
  "46": {
   "fx": [],
-  "framing": "CU-screen",
+  "framing": "M",
   "move": "push_in"
  },
  "47": {
   "fx": [],
-  "framing": "wide",
-  "move": "pull_out"
+  "framing": "M",
+  "move": "orbit_right"
  },
  "48": {
   "fx": [],
-  "framing": "CU-hands",
-  "move": "tilt_down"
+  "framing": "CU-screen",
+  "move": "push_in"
  },
  "49": {
   "fx": [],
   "framing": "wide",
-  "move": "pan_right"
+  "move": "pull_out"
  },
  "50": {
+  "fx": [],
+  "framing": "CU-hands",
+  "move": "tilt_down"
+ },
+ "51": {
+  "fx": [],
+  "framing": "wide",
+  "move": "pan_right"
+ },
+ "52": {
   "fx": [],
   "framing": "M",
   "move": "push_in"
  },
- "51": {
+ "53": {
   "fx": [],
   "framing": "M",
   "move": "dolly_in"
  },
- "52": {
+ "54": {
   "fx": [],
   "framing": "two-shot",
   "move": "orbit_left"
  },
- "53": {
-  "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
- "54": {
-  "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
  "55": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "56": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "57": {
   "fx": [],
   "framing": "wide-sepia",
   "move": "crane_up"
  },
- "56": {
+ "58": {
   "fx": [],
   "framing": "wide-sepia",
   "move": "pan_right"
  },
- "57": {
+ "59": {
   "fx": [],
   "framing": "ECU",
   "move": "pan_left"
  },
- "58": {
+ "60": {
   "fx": [],
   "framing": "wide",
   "move": "dolly_in",
   "depth": "strong"
  },
- "59": {
+ "61": {
   "fx": [
    "sparkle"
   ],
   "framing": "wide",
   "move": "pan_right"
  },
- "60": {
+ "62": {
   "fx": [],
   "framing": "M",
   "move": "push_in"
  },
- "61": {
+ "63": {
   "fx": [],
   "framing": "CU-screen",
   "move": "push_in"
  },
- "62": {
+ "64": {
   "fx": [
    "aura_gold"
   ],
   "framing": "low",
   "move": "tilt_up"
  },
- "63": {
+ "65": {
   "fx": [],
   "framing": "M",
   "move": "push_in"
  },
- "64": {
+ "66": {
   "fx": [],
   "framing": "wide",
   "move": "dolly_out",
   "depth": "strong"
  },
- "65": {
+ "67": {
   "fx": [],
   "framing": "wide",
   "move": "pull_out"

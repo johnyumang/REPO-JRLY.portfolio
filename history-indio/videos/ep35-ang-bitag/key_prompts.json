@@ -47,6 +47,8 @@
   "indio_1907": "Manila in 1907, a dusty street outside a high grey stone wall of an old colonial jail with a round watchtower: over the shoulder from behind a lean Filipino man in his mid-thirties with a black topknot and a red headband, loose white collarless shirt and a medium-sized black street dog with a white chest patch, one folded ear and a red kerchief, both standing still at the edge of the waiting crowd, hats bowed around them Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "stamp_word": "Close-up of a heavy old rubber stamp pressing down onto an old paper record, black ink spreading, a long shadow, sepia tones Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "indio_1907_cu": "Manila in 1907, a dusty street outside a high grey stone wall of an old colonial jail with a round watchtower: close-up of a lean Filipino man in his mid-thirties with a black topknot and a red headband, loose white collarless shirt, eyes wet, jaw set, the grey wall behind him Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "proverb_book": "Close-up of an old Tagalog Bible open on a wooden bench by a grey stone wall in early morning light, the pages as fine unreadable lines, a thumb resting at one verse, sepia warmth Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "name_light": "Manila in 1907, a dusty street outside a high grey stone wall of an old colonial jail with a round watchtower: a lean Filipino man in his mid-thirties with a black topknot and a red headband, loose white collarless shirt looking up as the morning sun breaks over the top of the wall, light on his face, calm Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "bottle_desk": "A small office in Manila at night, a wooden desk piled with papers, a desk lamp, a window with blurred city traffic lights: a single dark glass bottle with a plain label standing in the middle of the desk under the lamp, a folded white note beside it Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "bottle_cu": "Extreme close-up of a dark glass liquor bottle with a plain blank label under a desk lamp, amber light through the glass Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "note_card": "Close-up of a small folded white note card beside a dark bottle on a wooden desk, a few elegant scribbles on it, no readable text Detailed background, no text, no letters, no numbers, no signs, no captions.",
@@ -198,81 +200,87 @@
    "full": "indio_1907_cu"
   },
   "40": {
-   "full": "bottle_desk"
+   "full": "proverb_book"
   },
   "41": {
-   "full": "bottle_cu"
+   "full": "name_light"
   },
   "42": {
-   "full": "note_card"
+   "full": "bottle_desk"
   },
   "43": {
-   "full": "sinag_window"
+   "full": "bottle_cu"
   },
   "44": {
-   "full": "indio_stare"
+   "full": "note_card"
   },
   "45": {
-   "full": "indio_call"
+   "full": "sinag_window"
   },
   "46": {
-   "full": "celia_screen"
+   "full": "indio_stare"
   },
   "47": {
-   "full": "dawn_office"
+   "full": "indio_call"
   },
   "48": {
-   "full": "pour_garden"
+   "full": "celia_screen"
   },
   "49": {
-   "full": "placards"
+   "full": "dawn_office"
   },
   "50": {
-   "full": "usman_door"
+   "full": "pour_garden"
   },
   "51": {
-   "full": "m_arrives"
+   "full": "placards"
   },
   "52": {
-   "full": "m_shoulder"
+   "full": "usman_door"
   },
   "53": {
-   "full": "m_cu"
+   "full": "m_arrives"
   },
   "54": {
-   "full": "usman_growl"
+   "full": "m_shoulder"
   },
   "55": {
-   "full": "sakay_sepia"
+   "full": "m_cu"
   },
   "56": {
-   "full": "records_sepia"
+   "full": "usman_growl"
   },
   "57": {
-   "full": "law_book"
+   "full": "sakay_sepia"
   },
   "58": {
-   "full": "news_stack"
+   "full": "records_sepia"
   },
   "59": {
-   "full": "fiction_cards"
+   "full": "law_book"
   },
   "60": {
-   "full": "subpoena"
+   "full": "news_stack"
   },
   "61": {
-   "full": "phone_msg"
+   "full": "fiction_cards"
   },
   "62": {
-   "full": "holo_92"
+   "full": "subpoena"
   },
   "63": {
-   "full": "comment"
+   "full": "phone_msg"
   },
   "64": {
-   "full": "question"
+   "full": "holo_92"
   },
   "65": {
+   "full": "comment"
+  },
+  "66": {
+   "full": "question"
+  },
+  "67": {
    "full": "follow"
   },
   "90": {

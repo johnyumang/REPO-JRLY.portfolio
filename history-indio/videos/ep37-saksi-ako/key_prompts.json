@@ -1,5 +1,5 @@
 {
- "_note": "Episode 37 (S4E6), story version 2, Kabanata 37 \"Saksi Ako\". Manila and Kawit, present day; Indio 35, strings as in Episode 34 (dark suit with no tie at the hearing). Witness scenes: a parking garage two years earlier (the handover seen from behind a pillar, both faces turned away) and the shore of Laguna de Bay in the year 900 (a reconstruction: the plate handed to a family, small figures far away; the real place of issue is unknown). The hearing, committee, senator, undersecretary, judge, firm and every paper are invented; name plates, screens and forms carry only scribbles; no real seal. Sinag wears Tubal's face. Shots follow sentences.json; sentence 5 reuses list_hand; k90 is a montage extra.",
+ "_note": "Episode 37 (S4E6), story version 2, Kabanata 37 \"Saksi Ako\". Manila and Kawit, present day; Indio 35, strings as in Episode 34 (dark suit with no tie at the hearing). Witness scenes: a parking garage two years earlier (the handover seen from behind a pillar, both faces turned away) and the shore of Laguna de Bay in the year 900 (a reconstruction: the plate handed to a family, small figures far away; the real place of issue is unknown). The hearing, committee, senator, undersecretary, judge, firm and every paper are invented; name plates, screens and forms carry only scribbles; no real seal. Sinag wears Tubal's face. Shots follow sentences.json; the Bible pages carry no readable text; sentence 5 reuses list_hand; k90 is a montage extra.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -40,6 +40,8 @@
   "face_melt": "A quiet carpeted corridor: the smiling man in a black suit dissolving into pale smoke and light, a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket standing firm in front of him Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "gorio_gavel": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: a heavyset Filipino senator in his sixties in a dark suit with a camera-ready smile at the head table tapping a microphone, a stack of papers before him, blurred unreadable name plates Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "rico_tubal_hall": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: in the front row a slick Filipino vlogger with styled hair in a bright yellow shirt holding up a camera, and far behind in the last row a tall silver-haired Filipino man in his fifties in a black suit with a heavy bronze ring on one finger sitting with his arms crossed, smiling Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "proverb_mind": "Close-up of an old Tagalog Bible held open in two hands under a meeting-hall light, the pages as fine unreadable lines, a soft golden glow on one verse Detailed background, no text, no letters, no numbers, no signs, no captions.",
+  "indio_breath": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: close-up of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket with eyes closed for a breath before standing, the noise of the hall blurred around him Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "indio_stand": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket rising slowly from his seat, one hand on a folder, calm Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "tiyak_cars": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: over the shoulder of a lean Filipino man in his mid-thirties with a black topknot streaked with grey, a dark suit with no tie and a red handkerchief in the breast pocket at the microphone, on a big screen behind the head table a photo of a garage full of vehicles, no readable text Detailed background, no text, no letters, no numbers, no signs, no captions.",
   "tiyak_nesto": "A large modern meeting hall with curved rows of wooden desks and blue carpet, packed with people, cameras on tripods: a thin old Filipino man in his seventies in a faded short-sleeved shirt, trembling hands standing up in the second row, holding a sheet of paper with both hands, frightened but steady Detailed background, no text, no letters, no numbers, no signs, no captions.",
@@ -178,99 +180,105 @@
    "full": "rico_tubal_hall"
   },
   "34": {
-   "full": "indio_stand"
+   "full": "proverb_mind"
   },
   "35": {
-   "full": "tiyak_cars"
+   "full": "indio_breath"
   },
   "36": {
-   "full": "tiyak_nesto"
+   "full": "indio_stand"
   },
   "37": {
-   "full": "tiyak_records"
+   "full": "tiyak_cars"
   },
   "38": {
-   "full": "tiyak_kawit"
+   "full": "tiyak_nesto"
   },
   "39": {
-   "full": "tiyak_saln"
+   "full": "tiyak_records"
   },
   "40": {
-   "full": "cannot_prove"
+   "full": "tiyak_kawit"
   },
   "41": {
-   "full": "pinag_director"
+   "full": "tiyak_saln"
   },
   "42": {
-   "full": "cctv_ask"
+   "full": "cannot_prove"
   },
   "43": {
-   "full": "kathang_rico"
+   "full": "pinag_director"
   },
   "44": {
-   "full": "saksi_ako"
+   "full": "cctv_ask"
   },
   "45": {
-   "full": "tinig_phones"
+   "full": "kathang_rico"
   },
   "46": {
-   "full": "tubal_leaves"
+   "full": "saksi_ako"
   },
   "47": {
-   "full": "gorio_withdraw"
+   "full": "tinig_phones"
   },
   "48": {
-   "full": "judge_reads"
+   "full": "tubal_leaves"
   },
   "49": {
-   "full": "garage_return"
+   "full": "gorio_withdraw"
   },
   "50": {
-   "full": "comments_still"
+   "full": "judge_reads"
   },
   "51": {
-   "full": "usman_sinigang"
+   "full": "garage_return"
   },
   "52": {
-   "full": "lola_ladle"
+   "full": "comments_still"
   },
   "53": {
-   "full": "m_heard"
+   "full": "usman_sinigang"
   },
   "54": {
-   "full": "usman_growl"
+   "full": "lola_ladle"
   },
   "55": {
-   "full": "plate_museum"
+   "full": "m_heard"
   },
   "56": {
-   "full": "lumbang_river"
+   "full": "usman_growl"
   },
   "57": {
-   "full": "scholar_desk"
+   "full": "plate_museum"
   },
   "58": {
-   "full": "saln_form"
+   "full": "lumbang_river"
   },
   "59": {
-   "full": "fiction_cards"
+   "full": "scholar_desk"
   },
   "60": {
-   "full": "radio_storm"
+   "full": "saln_form"
   },
   "61": {
-   "full": "red_moon"
+   "full": "fiction_cards"
   },
   "62": {
-   "full": "holo_95"
+   "full": "radio_storm"
   },
   "63": {
-   "full": "comment"
+   "full": "red_moon"
   },
   "64": {
-   "full": "question"
+   "full": "holo_95"
   },
   "65": {
+   "full": "comment"
+  },
+  "66": {
+   "full": "question"
+  },
+  "67": {
    "full": "follow"
   },
   "90": {
