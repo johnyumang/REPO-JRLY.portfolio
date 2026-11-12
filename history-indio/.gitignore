@@ -20,3 +20,5 @@ voice_work/
 videos/ep35-ang-bitag/keys/
 videos/ep36-ang-paglayo/keys/
 videos/ep37-saksi-ako/keys/
+# composited key frames are rebuilt by make_keys.py and are large: never commit them (keys already tracked in older episodes stay as they are)
+videos/*/keys/
