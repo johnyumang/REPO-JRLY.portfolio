@@ -4,7 +4,7 @@ white, composite). Free NVIDIA FLUX.2 klein only. Existing files are kept, so Fi
 into plates/ chars/ full/ win. usage: make_keys.py videos/<slug> [--only name,name] [--redo name,name]
 key_prompts.json: {"style","white","plates":{n:prompt},"chars":{n:prompt},"full":{n:prompt},
  "shots":{"NN":{"char":n,"plate":n,"x":0-1,"y":0-1,"s":crop scale,"blur":px} | {"full":n} | {"plate":n}}}"""
-import json, os, sys, zlib, cv2
+import json, os, sys, time, zlib, cv2
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import nvidia_still, composite_shot
 v = sys.argv[1]; K = json.load(open(f'{v}/key_prompts.json'))
@@ -20,8 +20,12 @@ def gen(kind, n):
     os.makedirs(f'{v}/{kind}', exist_ok=True); out = f'{v}/{kind}/{n}.jpg'
     prompt = K['style'] + (K['white'] if kind == 'chars' else ('Background art only, no people, no animals: ' if kind == 'plates' else '')) + K[kind][n] + END
     seed = zlib.crc32(n.encode()) % 9999 + (len(redo) and n in redo) * int.from_bytes(os.urandom(2), 'big')
-    for t in range(3):
-        if nvidia_still.call('black-forest-labs/flux.2-klein-4b', {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t, 'steps': 4}, out): return out
+    for t in range(6):                                                    # the free endpoint sometimes answers 504 or with no image
+        try:
+            if nvidia_still.call('black-forest-labs/flux.2-klein-4b', {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t, 'steps': 4}, out) and cv2.imread(out) is not None: return out
+        except Exception as e: print(n, 'failed:', str(e)[:120])
+        if os.path.exists(out) and cv2.imread(out) is None: os.remove(out)
+        time.sleep(4 * (t + 1))
 for kind in ('plates', 'chars', 'full'):
     for n in K.get(kind, {}): gen(kind, n)
 os.makedirs(f'{v}/keys', exist_ok=True)
