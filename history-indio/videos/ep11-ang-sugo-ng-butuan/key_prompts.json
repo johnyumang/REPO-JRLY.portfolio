@@ -1,5 +1,5 @@
 {
- "_note": "Episode 11 (S2E3), Season 2 version 4 rules: the first wish (present day, no dog), the first hologram with Mga Kakampi, the first creature (the Yúmud, Agusan Manobo kuwentong-bayan: a water wraith of deep pools, drawn as a calm figure of water and moss, never a monster that is killed). Butuan river port, 1011. Real people (traders, crews, the envoy at the Song court) are generic figures, far or from behind; Rajah Kiling appears only as light. The Song court is shown only through the lens. The Golden Tara is a generic seated gold figurine, not a copy. No weapons. Copied from Episode 10: full intro, notebook_glow, ships_north; chars indio_point_modern, usman_growl; plate school_gate. Present-day scenes have no dog (Usman exists only in the jump light and in the past): the sidecar is empty with his red kerchief tied to it. The flood-control signboard has no readable text, no names and no logos; every contractor in the story is invented. Shots follow sentences.json; k90-k109 are montage extras.",
+ "_note": "Episode 11 (S2E3), Season 2 version 4 rules: the first wish (present day, no dog), the first hologram with Mga Kakampi, the first creature (the Yúmud, Agusan Manobo kuwentong-bayan: a water wraith of deep pools, drawn as a calm figure of water and moss, never a monster that is killed). Butuan river port, 1011. Real people (traders, crews, the envoy at the Song court) are generic figures, far or from behind; Rajah Kiling appears only as light. The Song court is shown only through the lens. The Golden Tara is a generic seated gold figurine, not a copy. No weapons. Copied from Episode 10: full intro, notebook_glow, ships_north; chars indio_point_modern, usman_growl; plate school_gate. Present-day scenes have no dog (Usman exists only in the jump light and in the past): the sidecar is empty with his red kerchief tied to it. Shots follow sentences.json; k90-k109 are montage extras.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -96,10 +96,11 @@
   "surigao_push": "high-angle wide shot at a busy ferry port: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pushing an old motorcycle with an empty sidecar, sweating, a big roll-on roll-off ferry behind, sea. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
   "pickup_buy": "wide comic shot in front of a car dealership: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist grinning beside a shiny new pickup truck, a jet ski on a trailer behind it and another new motorcycle, a salesman bowing. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
   "stranger_photo": "over-the-shoulder shot from behind a man in a cap and sunglasses holding up a phone to photograph a shiny new pickup across the street, his face not visible. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
-  "signboard": "low wide shot of a big faded government project signboard on two posts beside a wide brown river, behind it an empty muddy riverbank with nothing built, weeds, grey sky, no readable text, no names, no logos. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
-  "lamp_flicker_sign": "close-up of a small clay oil lamp held out at arm's length in a tattooed hand, far from the face, its flame bending sideways and flickering, behind it a blurred blank project signboard by a brown river, no readable text.",
-  "usman_light_growl": "low shot: a black dog with a white chest patch and a red kerchief appearing inside a swirling burst of golden light, teeth bared, growling toward something off-frame.",
-  "ferry_night": "wide shot of a large roll-on roll-off ferry crossing a dark sea at night, its deck lights reflected on the water, a motorcycle with a sidecar strapped on the open car deck. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals."
+  "ferry_night": "wide shot of a large roll-on roll-off ferry crossing a dark sea at night, its deck lights reflected on the water, a motorcycle with a sidecar strapped on the open car deck. Present-day Philippines, detailed background, nothing fantastic, no dog, no animals.",
+  "lamp_mangrove": "among tall mangrove roots at night, low-angle shot: a young Filipino man with a red headband and a plain beige tunic with a red sash raising a small burning clay lamp, startled birds frozen on the branches, warm light. Detailed full background of mangroves at night, moonlight, nothing modern, no weapons, not a character sheet.",
+  "shadow_water": "high-angle shot of dark river water under moonlight with the shadow of a tall man in a wide hat moving across it, and nobody standing above it, eerie. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
+  "usman_ears": "close-up of a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, ears flat back, eyes wide, frightened, moonlight. Mangrove river at night, ancient Philippines, moonlight, nothing modern, no weapons.",
+  "usman_leap": "low-angle shot: a black Philippine street dog with a white chest patch, one folded ear and a red kerchief, leaping out of a swirling burst of golden light, barking happily, ears flying, motion."
  },
  "shots": {
   "0": {
@@ -151,127 +152,130 @@
    "full": "stranger_photo"
   },
   "16": {
-   "full": "signboard"
-  },
-  "17": {
-   "full": "lamp_flicker_sign"
-  },
-  "18": {
    "full": "museum_boat"
   },
-  "19": {
+  "17": {
    "full": "shrine_portal"
   },
-  "20": {
-   "full": "usman_light_growl"
+  "18": {
+   "full": "usman_leap"
   },
-  "21": {
+  "19": {
    "full": "m_points_port"
   },
-  "22": {
+  "20": {
    "full": "balangay_close"
   },
-  "23": {
+  "21": {
    "full": "boats_row"
   },
-  "24": {
+  "22": {
    "full": "ships_ready"
   },
-  "25": {
+  "23": {
    "full": "envoy_court"
   },
-  "26": {
+  "24": {
    "full": "gold_tablet"
   },
-  "27": {
+  "25": {
    "full": "indio_watch_dock"
   },
-  "28": {
+  "26": {
    "full": "lens_trail"
   },
-  "29": {
+  "27": {
    "full": "usman_sniff_mud"
   },
-  "30": {
+  "28": {
    "full": "m_slip_catch"
   },
-  "31": {
+  "29": {
    "full": "usman_paw_eyes"
   },
-  "32": {
+  "30": {
    "full": "deep_pool"
   },
-  "33": {
+  "31": {
    "full": "medallion_reveal"
   },
-  "34": {
+  "32": {
    "full": "finger_touch"
   },
-  "35": {
+  "33": {
    "full": "kiling_light"
   },
-  "36": {
+  "34": {
    "full": "yumud_emerge"
   },
-  "37": {
+  "35": {
    "char": "usman_growl",
    "plate": "mangrove_night",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "38": {
+  "36": {
    "full": "indio_eyes_glyphs"
   },
-  "39": {
+  "37": {
    "full": "yumud_eyes"
   },
-  "40": {
+  "38": {
    "full": "yumud_still"
   },
-  "41": {
+  "39": {
    "full": "nakita_kita"
   },
-  "42": {
+  "40": {
    "full": "yumud_bow"
   },
-  "43": {
+  "41": {
    "full": "sandugo_seal"
   },
-  "44": {
+  "42": {
    "full": "m_finger"
   },
-  "45": {
+  "43": {
    "full": "hide_boat"
   },
-  "46": {
+  "44": {
    "full": "kiling_palm"
   },
-  "47": {
+  "45": {
    "full": "indio_realize"
   },
+  "46": {
+   "full": "lamp_mangrove"
+  },
+  "47": {
+   "full": "shadow_water"
+  },
   "48": {
-   "full": "hologram_open"
+   "full": "usman_ears"
   },
   "49": {
-   "full": "holo_marks"
+   "full": "hologram_open"
   },
   "50": {
-   "full": "holo_gear"
+   "full": "holo_marks"
   },
   "51": {
-   "full": "holo_kakampi"
+   "full": "holo_gear"
   },
   "52": {
-   "full": "holo_sign"
+   "full": "holo_kakampi"
   },
   "53": {
-   "full": "usman_tilt"
+   "full": "holo_sign"
   },
   "54": {
-   "full": "indio_unsure"
+   "full": "usman_tilt"
   },
   "55": {
+   "full": "indio_unsure"
+  },
+  "56": {
    "full": "m_holo"
   },
   "62": {

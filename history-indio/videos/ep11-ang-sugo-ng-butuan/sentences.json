@@ -128,22 +128,6 @@
   "speaker": "M"
  },
  {
-  "text": "Sa tabi ng ilog, may karatula ng proyektong flood control, pero walang itinayo kahit isang bato.",
-  "say": "sa tabi ng ilog, may karatula ng proyektong plad kontrol, pero walang itinayo kahit isang bato.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Kumurap ang apoy ng ilawan sa harap ng karatula, kahit walang hangin.",
-  "say": "kumurap ang apoy ng ilawan sa harap ng karatula, kahit walang hangin.",
-  "style": "suspense",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
   "text": "Sa Balangay Shrine, binasa ko nang malakas ang nakasulat sa tabi ng bangka.",
   "say": "sa balangay shrayn, binasa ko nang malakas ang nakasulat sa tabi ng bangka.",
   "style": "serious",
@@ -152,16 +136,16 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Uminit ang medalyon ni M, at sa loob ng liwanag, umungol si Usman, nakatingin sa karatula.",
-  "say": "uminit ang medalyon ni em, at sa loob ng liwanag, umungol si usman, nakatingin sa karatula.",
+  "text": "Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.",
+  "say": "uminit ang medalyon ni em, at may tumahol sa loob ng liwanag.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Ako 'yon, par, at ayoko ng amoy ng karatulang 'yon!",
-  "say": "ako 'yon, par, at ayoko ng amoy ng karatulang 'yon!",
+  "text": "Ako 'yon, par, nandito ulit ako!",
+  "say": "ako 'yon, par, nandito ulit ako!",
   "style": "excited",
   "pre": 0,
   "pause": 0.62,
@@ -384,6 +368,30 @@
   "speaker": "INDIO"
  },
  {
+  "text": "Itinaas ko ang ilawan, at biglang tumahimik ang mga ibon sa bakawan.",
+  "say": "itinaas ko ang ilawan, at biglang tumahimik ang mga ibon sa bakawan.",
+  "style": "suspense",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa tubig, may aninong gumagalaw, pero walang taong nakatayo sa ibabaw nito.",
+  "say": "sa tubig, may aninong gumagalaw, pero walang taong nakatayo sa ibabaw nito.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Wala akong maamoy, par, at iyon ang nakakatakot.",
+  "say": "wala akong maamoy, par, at iyon ang nakakatakot.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
   "text": "Umilaw ang isa sa mga marka sa braso ko, at lumabas sa hangin ang isang hologram.",
   "say": "umilaw ang isa sa mga marka sa braso ko, at lumabas sa hangin ang isang hologram.",
   "style": "curious",
@@ -488,16 +496,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Totoo rin: noong 2025, inimbestigahan ang mga proyektong flood control na binayaran pero hindi naitayo.",
-  "say": "totoo rin: noong dos mil bente singko, inimbestigahan ang mga proyektong plad kontrol na binayaran pero hindi naitayo.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang hiling, ang hologram at ang karatula.",
-  "say": "kathang-isip: kami nina em at usman, ang medalyon, ang hiling, ang hologram at ang karatula.",
+  "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang hiling, ang anino at ang hologram.",
+  "say": "kathang-isip: kami nina em at usman, ang medalyon, ang hiling, ang anino at ang hologram.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62,
