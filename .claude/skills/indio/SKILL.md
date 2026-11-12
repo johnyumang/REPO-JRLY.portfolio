@@ -58,6 +58,11 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
   and gives the next task; stop only for decisions that are the user's.
 - Indio, Usman, M, the medallion and Indio's family are fiction and are labelled so in every caption and pinned
   comment, next to the real record. Indio only witnesses. No invented words for real people.
+- Captions (user, 2026-11-12): use the trending repeated-line format: three to five short lines that start with the
+  same words, taken from THAT episode's story, then a payoff that turns to the episode and its comment question. Vary
+  the stem between episodes. Keep the episode's fiction label in every block and the pinned comment with the real
+  record and sources. Files: `videos/<slug>/captions_trending.md` (FB, IG with at most 5 hashtags, TikTok, YouTube
+  Shorts, pinned comment, on-screen opener, alternative opening) beside the older `captions.md`.
 - Usman exists only while Indio is time travelling.
 - Every claim in a script has a row in `facts.md` (two sources, status), and a "could not verify" list.
 - Frames: do NOT wait for the user (user, 2026-11-12). Generate as soon as a script exists; proposed frames count as approved. Spend Figma credits without asking (about 75 images a day, shared, resets 00:00 UTC) and report afterwards how many were used. Stories and voice still need the user.
