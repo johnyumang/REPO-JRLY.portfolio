@@ -119,8 +119,9 @@
  },
  "17": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
+  "framing": "OTS",
+  "move": "orbit_left",
+  "depth": "strong"
  },
  "18": {
   "fx": [],
@@ -160,8 +161,9 @@
  },
  "23": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
  },
  "24": {
   "fx": [],
@@ -315,8 +317,8 @@
  },
  "43": {
   "fx": [],
-  "framing": "two-shot-alt",
-  "move": "orbit_right",
+  "framing": "low-angle",
+  "move": "crane_up",
   "depth": "strong"
  },
  "44": {
@@ -451,14 +453,15 @@
  },
  "61": {
   "fx": [],
-  "framing": "CU-alt",
-  "move": "pull_out"
+  "framing": "low-wide",
+  "move": "dolly_out",
+  "depth": "strong"
  },
  "62": {
   "fx": [
    "water"
   ],
-  "framing": "low-wide",
+  "framing": "low-wide-alt",
   "move": "dolly_in",
   "depth": "strong"
  },
@@ -483,8 +486,9 @@
  },
  "66": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
+  "framing": "wide-back",
+  "move": "dolly_out",
+  "depth": "strong"
  },
  "67": {
   "fx": [],
