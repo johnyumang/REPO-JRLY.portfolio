@@ -156,7 +156,9 @@ def assemble(work, outp):
         seg = ff(seg, sr, 'alimiter=limit=0.89:attack=5:release=50:level=false:latency=true')[:len(seg)]
         j = 0; offs = []
         for si in c['sent_ids']:
-            n = len(vqc.norm_words(S[si]['say'])); ws = W[j:j + n]; j += n; offs.append((si, (ws[0][1] - st) / k, (ws[-1][2] - st) / k))
+            n = len(vqc.norm_words(S[si]['say'])); ws = W[j:j + n]; j += n; a0, a1 = (ws[0][1] - st) / k, (ws[-1][2] - st) / k
+            a0 = 0.0 if not offs else min(a0, offs[-1][2] + GAP_SENT)   # chunk's first sentence starts with its audio (the aligner places a leading word late); later ones no later than previous end + pause
+            offs.append((si, a0, a1))
         nxt = P['chunks'][c['id'] + 1] if c['id'] + 1 < len(P['chunks']) else None
         gap = 0.0 if nxt is None else (GAP_SCENE if nxt['para'] != c['para'] else GAP_TURN if nxt['turn'] != c['turn'] else GAP_SENT) + 0.03 * (((c['id'] * 37) % 5) - 2) / 2
         if nxt is not None: gap = max(gap, S[c['sent_ids'][-1]].get('pause') or 0)
