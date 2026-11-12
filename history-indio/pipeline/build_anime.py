@@ -133,7 +133,7 @@ def frame_tail(fr, mx, my, s, t, fx, seed, aura):
     vig = 1 - 0.28 * (((XX - W / 2) / (W / 2)) ** 2 + ((YY - H / 2) / (H / 2)) ** 2) ** 1.2 ; fr *= vig[..., None]
     return np.clip(fr, 0, 255).astype(np.uint8)
 
-paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 100))]
+paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 200))]
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
