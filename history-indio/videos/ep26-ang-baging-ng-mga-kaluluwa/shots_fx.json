@@ -1,0 +1,532 @@
+{
+ "0": {
+  "fx": [
+   "punch"
+  ],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "keys": [
+   0,
+   98,
+   93
+  ]
+ },
+ "1": {
+  "fx": [],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "2": {
+  "fx": [],
+  "framing": "M",
+  "move": "push_in"
+ },
+ "3": {
+  "fx": [],
+  "framing": "aerial",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "4": {
+  "fx": [],
+  "framing": "low-wide",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "5": {
+  "fx": [
+   "shake"
+  ],
+  "framing": "wide",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "6": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "CU-hands",
+  "move": "push_in"
+ },
+ "7": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "8": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "OTS",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "9": {
+  "fx": [],
+  "framing": "two-shot",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "10": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "11": {
+  "fx": [],
+  "framing": "high-angle",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "12": {
+  "fx": [
+   "flash",
+   "water"
+  ],
+  "framing": "low-wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "keys": [
+   12,
+   104
+  ]
+ },
+ "13": {
+  "fx": [],
+  "framing": "M",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "14": {
+  "fx": [],
+  "framing": "wide",
+  "move": "pan_right"
+ },
+ "15": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "16": {
+  "fx": [],
+  "framing": "two-shot",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "17": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "18": {
+  "fx": [],
+  "framing": "CU-alt",
+  "move": "pull_out"
+ },
+ "19": {
+  "fx": [
+   "water"
+  ],
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "20": {
+  "fx": [
+   "water"
+  ],
+  "framing": "wide",
+  "move": "pull_out",
+  "keys": [
+   20,
+   102
+  ]
+ },
+ "21": {
+  "fx": [],
+  "framing": "low-wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "22": {
+  "fx": [],
+  "framing": "OTS",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "23": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "24": {
+  "fx": [],
+  "framing": "CU-alt",
+  "move": "pull_out"
+ },
+ "25": {
+  "fx": [
+   "flash",
+   "embers"
+  ],
+  "framing": "low-angle",
+  "move": "crane_up",
+  "depth": "strong"
+ },
+ "26": {
+  "fx": [
+   "embers"
+  ],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "keys": [
+   26,
+   103
+  ]
+ },
+ "27": {
+  "fx": [],
+  "framing": "M",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "28": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "29": {
+  "fx": [
+   "shake"
+  ],
+  "framing": "high-angle",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "30": {
+  "fx": [],
+  "framing": "wide",
+  "move": "pull_out"
+ },
+ "31": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "32": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "keys": [
+   32,
+   98,
+   99
+  ]
+ },
+ "33": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "POV",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "34": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "35": {
+  "fx": [
+   "water"
+  ],
+  "framing": "wide",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "36": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide-alt",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "37": {
+  "fx": [],
+  "framing": "M",
+  "move": "pan_left",
+  "keys": [
+   37,
+   90,
+   91
+  ]
+ },
+ "38": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "39": {
+  "fx": [
+   "shake",
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "40": {
+  "fx": [
+   "shake"
+  ],
+  "framing": "ECU-hands",
+  "move": "push_in",
+  "keys": [
+   40,
+   95
+  ]
+ },
+ "41": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "low-wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "42": {
+  "fx": [],
+  "framing": "two-shot",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "43": {
+  "fx": [],
+  "framing": "two-shot-alt",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "44": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "keys": [
+   44,
+   96
+  ]
+ },
+ "45": {
+  "fx": [],
+  "framing": "low-wide",
+  "move": "crane_up",
+  "depth": "strong"
+ },
+ "46": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "47": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide-alt",
+  "move": "orbit_left",
+  "depth": "strong"
+ },
+ "48": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in",
+  "keys": [
+   48,
+   92
+  ]
+ },
+ "49": {
+  "fx": [
+   "punch"
+  ],
+  "framing": "M",
+  "move": "push_in",
+  "keys": [
+   49,
+   93
+  ]
+ },
+ "50": {
+  "fx": [],
+  "framing": "wide",
+  "move": "crane_down",
+  "depth": "strong",
+  "keys": [
+   50,
+   97
+  ]
+ },
+ "51": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in",
+  "keys": [
+   51,
+   94
+  ]
+ },
+ "52": {
+  "fx": [],
+  "framing": "OTS",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "53": {
+  "fx": [],
+  "framing": "insert",
+  "move": "tilt_down"
+ },
+ "54": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "wide",
+  "move": "orbit_left",
+  "depth": "strong",
+  "keys": [
+   54,
+   100,
+   101
+  ]
+ },
+ "55": {
+  "fx": [],
+  "framing": "insert",
+  "move": "pan_right"
+ },
+ "56": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "57": {
+  "fx": [
+   "water"
+  ],
+  "framing": "wide",
+  "move": "pull_out"
+ },
+ "58": {
+  "fx": [],
+  "framing": "M",
+  "move": "tilt_up"
+ },
+ "59": {
+  "fx": [],
+  "framing": "wide",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "60": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "61": {
+  "fx": [],
+  "framing": "CU-alt",
+  "move": "pull_out"
+ },
+ "62": {
+  "fx": [
+   "water"
+  ],
+  "framing": "low-wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "63": {
+  "fx": [],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "64": {
+  "fx": [
+   "water"
+  ],
+  "framing": "low-wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "65": {
+  "fx": [],
+  "framing": "wide",
+  "move": "orbit_right",
+  "depth": "strong"
+ },
+ "66": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "67": {
+  "fx": [],
+  "framing": "CU-alt",
+  "move": "pull_out"
+ },
+ "68": {
+  "fx": [],
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong"
+ },
+ "69": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "70": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "insert",
+  "move": "rack_focus",
+  "depth": "strong"
+ },
+ "71": {
+  "fx": [],
+  "framing": "M",
+  "move": "push_in"
+ },
+ "72": {
+  "fx": [],
+  "framing": "wide",
+  "move": "crane_up",
+  "depth": "strong"
+ },
+ "73": {
+  "fx": [
+   "sparkle"
+  ],
+  "framing": "low-wide",
+  "move": "crane_up",
+  "depth": "strong"
+ }
+}
