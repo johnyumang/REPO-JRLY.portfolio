@@ -44,17 +44,24 @@ def prep3d(im, dep, blur_px):
     th, _ = cv2.threshold((d * 255).astype(np.uint8), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU); th /= 255
     th = float(np.clip(th, p3 + 0.25 * (p97 - p3), p3 + 0.80 * (p97 - p3)))
     wd = 0.04; a = np.clip((d - th + wd) / (2 * wd), 0, 1); a = a * a * (3 - 2 * a)          # soft on depth ramps, crisp at depth jumps
-    a = np.clip((_guided(gray, a, 7, 1e-4) - 0.2) / 0.6, 0, 1); a = a * a * (3 - 2 * a)      # matte snapped to colour edges, then made crisp
+    a = np.clip((_guided(gray, a, 7, 1e-4) - 0.35) / 0.3, 0, 1); a = a * a * (3 - 2 * a)     # matte snapped to colour edges, then made crisp
     a[a < 0.03] = 0                                                                          # (half-transparent edges would double when the layers separate)
     kc = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (w // 40) + 1,) * 2)              # close gaps between arm and body etc.: they move with the figure
     a = np.maximum(a, cv2.GaussianBlur(cv2.morphologyEx(a, cv2.MORPH_CLOSE, kc), (0, 0), 2))
     frac = float(a.mean())
     if frac < 0.015 or frac > 0.9: return None                                               # nothing separates from the rest
     core = a > 0.5
-    # near layer: colour pushed outward from the figure so its soft edge carries figure colour, not background
-    ny, nx, _ = _nearest(core); fg = np.where(core[..., None], im, im[ny, nx])
+    ny, nx, dist = _nearest(core)
+    # along real depth jumps the near layer also carries a thin ring of the original pixels (opaque, then fading), so any
+    # outline or fringe of the figure travels with it; on smooth depth ramps (crowds, sea, ground) no ring is needed
+    el = lambda r: cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * r + 1,) * 2); kr = el(max(3, w // 70))
+    jump = cv2.GaussianBlur(cv2.dilate(((cv2.dilate(d, kr) - cv2.erode(d, kr)) > 0.15).astype(np.float32), el(w // 50)), (0, 0), 3)
+    r1, r2 = w / 120, w / 70
+    a = np.maximum(a, np.clip((r2 - dist) / (r2 - r1), 0, 1) * jump).astype(np.float32)
+    # near layer: true colour wherever it shows; outside it, colour pushed outward so its edge never samples background
+    fg = np.where((a > 0.02)[..., None], im, im[ny, nx])
     # far layer: the area behind the near layer is filled by mirroring the background across the silhouette
-    hole = cv2.dilate((a > 0.02).astype(np.uint8), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (w // 45) + 1,) * 2)) > 0   # wide margin: no figure outline left behind
+    hole = cv2.dilate((a > 0.02).astype(np.uint8), el(2)) > 0
     by, bx, bd = _nearest(~hole); YY, XX = np.mgrid[0:h, 0:w]
     my_ = np.clip(2 * by - YY, 0, h - 1); mx_ = np.clip(2 * bx - XX, 0, w - 1)
     bad = hole[my_, mx_]; my_ = np.where(bad, by, my_); mx_ = np.where(bad, bx, mx_)
