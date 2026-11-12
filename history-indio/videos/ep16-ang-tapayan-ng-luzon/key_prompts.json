@@ -1,0 +1,358 @@
+{
+ "_note": "Episode 16 (S2E8), Season 2 version 4 rules: Sakai, Japan, present day and a jump to Sakai about 1594 on M's medallion (the Sandugo); Usman appears ONLY inside the jump and fades when it ends; present-day scenes have no dog (the empty sidecar with his red kerchief). Tondo 1587-1588 only through the lens: real people (Agustín de Legazpi, Martín Pangan, Magat Salamat, the Japanese captain, Surabao) as small far figures from behind, no faces, no words; the execution only as a far solemn crowd, nothing graphic. Luzon Sukezaemon and the lords are generic far figures; Hideyoshi is not shown. Creature: the kappa (Japanese folklore), drawn as a small folklore creature, never killed; recorded via the Sandugo. Magat Salamat's diwa appears only as violet light, no face. Tubal (Tobías Alcaín, invented) is a generic man in a suit with a bronze ring and a three-triangle mark. Copied from Episode 11: full intro. Shots follow sentences.json (77 sentences); k90-k97 are montage extras. VERSION 1: check against story version 2 before generating frames.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, ": "a mysterious young Filipina woman in a long dark 1890s coat and long skirt, a closed red umbrella, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "jar_hook": "dramatic low close-up of a large old brown glazed stoneware jar in a dim wooden storeroom, a faint bronze glow leaking from under its base, dust in a beam of light. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "kappa_eyes": "extreme close-up of the eyes of a small green kappa, a Japanese water creature with a turtle shell and a water-filled dish on its head, peering from dark canal water at night. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "sakai_aerial": "aerial view of modern Sakai city by the sea at golden hour, old temple roofs among buildings, the bay beyond. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "teahouse": "wide shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes under her red umbrella outside an old wooden tea shop with noren curtains, light rain, he turns toward her. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "m_condition": "close-up of a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes speaking firmly, rain on the umbrella, Indio blurred in the foreground. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "m_says": "over-the-shoulder shot from behind a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist toward a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes, she holds out her hand for a handshake. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "handshake": "close-up of two hands shaking under a red umbrella in the rain, a red handkerchief on one wrist. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "fox_reflection": "close-up of a rain-wet shop window, reflected in it a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist looking away, and far behind him in the reflection a graceful woman in white whose shadow has nine fox tails. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "indio_guilt": "low medium shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist lowering his eyes, jaw tight, rain dripping from the umbrella edge. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "notebook": "close-up of an old leather notebook in a young man's hands, a line of handwriting glowing gold on the page and a small drawing of a jar. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "daianji": "wide shot of a quiet Japanese Buddhist temple courtyard with a bronze statue of an old merchant on a stone base, a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist walking toward it. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "read_sign": "over-the-shoulder shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist reading aloud a wooden temple signboard with illegible lines, a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes holding his hand, a bronze medallion glowing at her neck. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "jump_light": "a swirling golden time portal of clock gears and light exploding in a temple courtyard, a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes lifted in it, a black dog leaping out of the light.",
+  "usman_leap": "dynamic action shot of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief leaping out of golden light toward the camera, mouth open happily. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_lick": "close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief on the chest of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms, licking his face, the young man laughing with eyes shut. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_sniff": "low close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief wrinkling his nose comically at the young man's shirt. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_hug": "two-shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms kneeling and hugging a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief tightly on a wooden quay, eyes wet, the dog's tail a blur. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "sakai_1594": "very high wide shot of the busy merchant port of Sakai about 1594: wooden warehouses, tiled roofs, junks and small ships at the quay, porters carrying bales, morning haze. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "port_walk": "tracking shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms, a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand and a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief weaving through porters and carts on a crowded wooden quay. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "warehouse_jars": "low wide shot inside a dim wooden warehouse: long rows of brown glazed stoneware jars of different sizes, light through gaps in the planks, generic workers far in the back. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "m_explains": "two-shot of a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand touching the shoulder of a big brown jar while explaining, a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms listening and leaning closer. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "trader_ship": "wide shot of a small trading ship unloading brown jars onto the quay, a far generic merchant in a kimono directing porters from behind, no face visible. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "lords_tea": "wide shot of a tea room with tatami and a brown jar on a stand, generic lords seated in silhouette, seen from behind through a sliding door, no faces. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "m_doubt": "close-up of a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand raising an eyebrow, a jar blurred in the foreground. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "m_story": "medium shot of a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand shrugging with a small smile, hand on a jar lid. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_joke": "low close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief with his head stuck comically inside a small brown jar, tail wagging. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "question": "low medium shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms crouching beside the largest jar, frowning, a faint bronze glow at its base. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "lens_up": "close-up of a hand raising an old round lens with a golden rim toward a brown jar, the scene beyond it rippling. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "tondo_lens": "inside the golden lens rim: Tondo in the 1580s, nipa houses on stilts along a river, boats, palm trees, dusk. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "conspirators": "inside the golden lens rim: a few men in 16th-century native clothes meeting by lamplight inside a nipa house, seen from far behind, no faces. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "japanese_captain": "inside the golden lens rim: a far figure of a Japanese sea captain beside a ship at a Manila river quay at night, two native men talking with him from behind, no faces. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "envoy_boat": "inside the golden lens rim: a small boat sailing south over a wide sea at sunset, a lone envoy at the bow seen from behind. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "cuyo_betrayal": "inside the golden lens rim: on a small island beach at night, two far men talking by a fire, one leaning in to whisper, the other turning away into the dark, no faces. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "execution_far": "inside the golden lens rim: a grey dawn, a distant crowd and soldiers in a plaza, seen from very far, solemn and quiet, nothing graphic, no faces. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "one_word": "extreme close-up of an old lens lowering, a young man's eye behind it wet and serious. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "canal_ripple": "low shot along a dark narrow canal behind the warehouse at dusk, ripples spreading, something moving under the surface. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "kappa_reveal": "medium shot of a small kappa rising from the canal: green scaly skin, a turtle shell, a beak-like mouth, a shallow dish of water on its head, eyes curious, a folklore creature, not a monster. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "m_names": "over-the-shoulder shot from behind a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand toward the kappa in the canal, she raises a hand to stop Indio. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "pulled_under": "dynamic action shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms being yanked underwater by a small green kappa gripping his ankle, splash, bubbles. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "kolambu_glow": "underwater close-up of a hand clutching a bronze medallion that glows warm gold, bubbles rising, light rays through murky water. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "true_want": "underwater shot: in a golden glow the kappa's wish appears as a floating cucumber shape above its head. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_cucumber": "low close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief on the canal bank guarding a cloth bag with a green cucumber sticking out, ears down, betrayed face. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "bow_offer": "low medium shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms standing waist-deep in the canal, bowing politely while holding out a cucumber to the kappa. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "kappa_bows": "close-up of the kappa bowing back, the water spilling from the dish on its head in a silver arc, comic surprised eyes. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "witness": "dramatic low close-up of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms looking straight at the weakened kappa, calm, water dripping, golden light in his eyes. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "sandugo_seal": "wide shot of a young Filipina woman in a long dark hooded travelling cloak, a closed red umbrella in her hand raising a glowing bronze medallion, a red thread of light joining her, Indio and the kappa, the canal shining. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "jar_tilt": "close-up of the kappa's webbed hands and a young man's hands tilting a big jar, under it an old cloth with a woven pattern. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "bow_reveal": "low shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms unfolding an old cloth on the floor to reveal a short bow, a quiver of arrows and a small bronze medallion, golden light rising. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "salamat_light": "close-up of a small bronze medallion glowing with a soft dark-violet light, a faint shape of a man in the glow seen from behind, no face, whisper-like mist. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "finger_lips": "extreme close-up of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms slowly raising a finger to his lips, violet light on his face. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "unseen": "medium shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms holding the violet-glowing medallion, his body fading translucent. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "arrow_light": "dynamic shot of a lean young Filipino man with a black topknot, red cloth headband with long tails, a plain undyed cotton work jacket and loose trousers of a 1590s Japanese port labourer, straw sandals, indigo geometric tattoos on his forearms drawing the short bow, an arrow of pure light nocked, aiming at a shadow on the wall. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "usman_fade": "close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear, bright clever eyes and a red kerchief dissolving into golden motes of light, looking up at Indio, ears soft. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "temple_gate": "wide shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes stepping out of a temple gate at dusk, three men in dark suits waiting by a black car. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "tubal_ring": "close-up of a hand with a heavy bronze ring tapping a car roof, a young man blurred in the background. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "tubal_smile": "low close-up of a tall well-groomed Filipino man in his fifties in a charcoal suit, a heavy bronze ring on one finger, a salesman's smile, smiling warmly, eyes cold. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "tubal_offer": "over-the-shoulder shot from behind a tall well-groomed Filipino man in his fifties in a charcoal suit, a heavy bronze ring on one finger, a salesman's smile toward a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes, Tubal spreading his hands like a salesman. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "tubal_card": "close-up of a black business card held out between two fingers, the card blank except for a small three-triangle mark. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "money_trail": "stylised montage: a glowing trail of receipts and price tags floating from luxury cars and watches to a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist, dark street. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "vanish": "wide shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes fading into translucency side by side, Tubal's men grabbing at empty air. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "fox_far": "telephoto shot across a street at dusk: a graceful woman in white under a streetlamp, her shadow with nine fox tails, a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist translucent in the foreground looking at her. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "m_asks": "close-up of a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes, half translucent, whispering a question, her face falling. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "silent": "extreme close-up of a young man's closed lips, a line of violet light over them. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "fair_growl": "low medium shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist on a night street baring his teeth in a playful dog-like growl, hands like paws. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "fair_tiyak1": "wide shot of old Tondo at dusk by the river, nipa houses, a quiet sad sky, no people close.",
+  "fair_tiyak2": "close-up of a big brown glazed jar on a tea-room stand, warm lamp light, a tea bowl beside it.",
+  "fair_disputed": "medium shot of a scholar's desk with an old book and a jar drawing, a question mark of light above, no readable text.",
+  "fair_kappa": "wide shot of the kappa sitting on a canal bank eating a cucumber, content.",
+  "fair_fiction": "wide shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist and a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes on a night street, faint outlines of medallions and a dog drawn as glowing sketches around them. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "hotel_confess": "two-shot in a small hotel room at night, a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist sitting on the bed edge talking, a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes standing by the window listening, city lights outside. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "m_sad": "close-up of a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes looking down sadly, Indio blurred behind her. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "m_door": "medium shot of a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes at a hotel room door, hand on the handle, looking back once. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "two_doors": "high shot of a hotel corridor with two doors closing at the same time, a red umbrella left leaning by one door. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "question_end": "low medium shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist looking at the camera, holding a violet-glowing medallion up. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "question_card": "close-up of an old brown jar with a bronze glow inside, soft light.",
+  "follow": "wide shot of a lean young Filipino man with a black topknot, a plain white polo shirt, black slacks, worn sneakers and a red handkerchief on his left wrist grinning slightly beside an old motorcycle whose empty sidecar has a red kerchief tied on it, night street. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "jar_rows_drone": "overhead shot of rows of brown jars in a 1590s warehouse. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "sakai_quay_night": "the Sakai quay at night with lanterns and moored junks. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "kappa_splash": "a kappa diving into a canal with a big splash. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "bow_quiver": "close-up of a quiver of short arrows tipped with light. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "tondo_river": "the Tondo river at dawn, boats and nipa houses. Seen inside the round golden rim of an old lens, soft vignette, Tondo in the 1580s with nipa houses and the river, people as small far figures from behind, no faces.",
+  "fox_lantern": "a white fox with nine tails reflected in a puddle under a paper lantern. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters.",
+  "hologram_kappa": "close-up of a glowing blue hologram projected from a tattoo on a forearm, a slot with a small kappa icon lighting up, no readable text. Sakai port about 1594, wooden warehouses and tiled roofs, detailed background, no readable text.",
+  "m_sees": "close-up of a young Filipina woman in a long dark coat holding a red umbrella, calm watchful eyes following someone's gaze across a street, her face falling. Present-day Sakai, Japan, detailed background, no readable text, no signs with letters."
+ },
+ "shots": {
+  "0": {
+   "full": "jar_hook"
+  },
+  "1": {
+   "full": "kappa_eyes"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "sakai_aerial"
+  },
+  "4": {
+   "full": "teahouse"
+  },
+  "5": {
+   "full": "m_condition"
+  },
+  "6": {
+   "full": "m_says"
+  },
+  "7": {
+   "full": "handshake"
+  },
+  "8": {
+   "full": "fox_reflection"
+  },
+  "9": {
+   "full": "indio_guilt"
+  },
+  "10": {
+   "full": "notebook"
+  },
+  "11": {
+   "full": "daianji"
+  },
+  "12": {
+   "full": "read_sign"
+  },
+  "13": {
+   "full": "jump_light"
+  },
+  "14": {
+   "full": "usman_leap"
+  },
+  "15": {
+   "full": "usman_lick"
+  },
+  "16": {
+   "full": "usman_sniff"
+  },
+  "17": {
+   "full": "usman_hug"
+  },
+  "18": {
+   "full": "sakai_1594"
+  },
+  "19": {
+   "full": "port_walk"
+  },
+  "20": {
+   "full": "warehouse_jars"
+  },
+  "21": {
+   "full": "m_explains"
+  },
+  "22": {
+   "full": "trader_ship"
+  },
+  "23": {
+   "full": "lords_tea"
+  },
+  "24": {
+   "full": "m_doubt"
+  },
+  "25": {
+   "full": "m_story"
+  },
+  "26": {
+   "full": "usman_joke"
+  },
+  "27": {
+   "full": "question"
+  },
+  "28": {
+   "full": "lens_up"
+  },
+  "29": {
+   "full": "tondo_lens"
+  },
+  "30": {
+   "full": "conspirators"
+  },
+  "31": {
+   "full": "japanese_captain"
+  },
+  "32": {
+   "full": "envoy_boat"
+  },
+  "33": {
+   "full": "cuyo_betrayal"
+  },
+  "34": {
+   "full": "execution_far"
+  },
+  "35": {
+   "full": "one_word"
+  },
+  "36": {
+   "full": "canal_ripple"
+  },
+  "37": {
+   "full": "kappa_reveal"
+  },
+  "38": {
+   "full": "m_names"
+  },
+  "39": {
+   "full": "pulled_under"
+  },
+  "40": {
+   "full": "kolambu_glow"
+  },
+  "41": {
+   "full": "true_want"
+  },
+  "42": {
+   "full": "usman_cucumber"
+  },
+  "43": {
+   "full": "bow_offer"
+  },
+  "44": {
+   "full": "kappa_bows"
+  },
+  "45": {
+   "full": "witness"
+  },
+  "46": {
+   "full": "sandugo_seal"
+  },
+  "47": {
+   "full": "jar_tilt"
+  },
+  "48": {
+   "full": "bow_reveal"
+  },
+  "49": {
+   "full": "salamat_light"
+  },
+  "50": {
+   "full": "finger_lips"
+  },
+  "51": {
+   "full": "unseen"
+  },
+  "52": {
+   "full": "arrow_light"
+  },
+  "53": {
+   "full": "usman_fade"
+  },
+  "54": {
+   "full": "temple_gate"
+  },
+  "55": {
+   "full": "tubal_ring"
+  },
+  "56": {
+   "full": "tubal_smile"
+  },
+  "57": {
+   "full": "tubal_offer"
+  },
+  "58": {
+   "full": "tubal_card"
+  },
+  "59": {
+   "full": "money_trail"
+  },
+  "60": {
+   "full": "vanish"
+  },
+  "61": {
+   "full": "fox_far"
+  },
+  "62": {
+   "full": "m_asks"
+  },
+  "63": {
+   "full": "silent"
+  },
+  "64": {
+   "full": "fair_growl"
+  },
+  "65": {
+   "full": "fair_tiyak1"
+  },
+  "66": {
+   "full": "fair_tiyak2"
+  },
+  "67": {
+   "full": "fair_disputed"
+  },
+  "68": {
+   "full": "fair_kappa"
+  },
+  "69": {
+   "full": "fair_fiction"
+  },
+  "70": {
+   "full": "hotel_confess"
+  },
+  "71": {
+   "full": "m_sad"
+  },
+  "72": {
+   "full": "m_door"
+  },
+  "73": {
+   "full": "two_doors"
+  },
+  "74": {
+   "full": "question_end"
+  },
+  "75": {
+   "full": "question_card"
+  },
+  "76": {
+   "full": "follow"
+  },
+  "90": {
+   "full": "jar_rows_drone"
+  },
+  "91": {
+   "full": "sakai_quay_night"
+  },
+  "92": {
+   "full": "kappa_splash"
+  },
+  "93": {
+   "full": "bow_quiver"
+  },
+  "94": {
+   "full": "tondo_river"
+  },
+  "95": {
+   "full": "fox_lantern"
+  },
+  "96": {
+   "full": "hologram_kappa"
+  },
+  "97": {
+   "full": "m_sees"
+  }
+ }
+}
