@@ -1,15 +1,15 @@
 [
  {
-  "text": "Pre, hindi ka maniniwala, kaninang umaga, naghahanap lang ako ng trabaho, pero ngayong gabi, nasa taong 1896 na ako.",
-  "say": "pre, hindi ka maniniwala, kaninang umaga, naghahanap lang ako ng trabaho, pero ngayong gabi, nasa taong mil otsosyentos nobentay sais na ako.",
-  "style": "excited",
+  "text": "Kaninang umaga, naghahanap lang ako ng trabaho, pero ngayong gabi, nasa taong 1896 na ako.",
+  "say": "kaninang umaga, naghahanap lang ako ng trabaho, pero ngayong gabi, nasa taong mil otsosyentos nobentay sais na ako.",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.3
  },
  {
   "text": "Ako 'to si Indio.",
   "say": "ako to si indio.",
-  "style": "warm",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
@@ -21,36 +21,36 @@
   "pause": 0.62
  },
  {
-  "text": "Pero wait lang, balik muna tayo sa umaga.",
-  "say": "pero weyt lang, balik muna tayo sa umaga.",
-  "style": "playful",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Quezon City, pang-ilang apply ko na 'to, Gar.",
-  "say": "keson siti, pang-ilang aplay ko na to, gar.",
-  "style": "playful",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Ang sagot, tatawagan na lang daw ako, awit.",
-  "say": "[sigh] Ang sagot, tatawagan na lang daw ako, awit.",
-  "style": "playful",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Kulang pa raw ang requirements ko, wala kasi akong cedula.",
-  "say": "kulang pa raw ang rekwayrments ko, wala kasi akong sedula.",
+  "text": "Balik muna tayo sa umaga.",
+  "say": "balik muna tayo sa umaga.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Pauwi, kulang na ang pamasahe ko, real talk.",
-  "say": "pauwi, kulang na ang pamasahe ko, riyal tok.",
+  "text": "Quezon City, pang-ilang apply ko na 'to.",
+  "say": "keson siti, pang-ilang aplay ko na to.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Tatawagan na lang daw ako, gaya ng dati.",
+  "say": "[sigh] Tatawagan na lang daw ako, gaya ng dati.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Kulang pa raw ang requirements ko, wala akong cedula.",
+  "say": "kulang pa raw ang rekwayrments ko, wala akong sedula.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Pauwi, kulang na ang pamasahe ko.",
+  "say": "pauwi, kulang na ang pamasahe ko.",
   "style": "somber",
   "pre": 0,
   "pause": 0.3
@@ -63,9 +63,9 @@
   "pause": 0.3
  },
  {
-  "text": "Sabi ng sanglaan, tanso lang 'yan, boss, walang halaga.",
-  "say": "sabi ng sanglaan, tanso lang yan, bos, walang halaga.",
-  "style": "playful",
+  "text": "Sabi ng sanglaan, tanso lang, walang halaga.",
+  "say": "sabi ng sanglaan, tanso lang, walang halaga.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.62
  },
@@ -77,15 +77,15 @@
   "pause": 0.3
  },
  {
-  "text": "Hinati ko na lang, dasurv niya.",
-  "say": "hinati ko na lang, dasurb niya.",
+  "text": "Hinati ko, pareho lang naman kaming gutom.",
+  "say": "hinati ko, pareho lang naman kaming gutom.",
   "style": "",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Tapos, ayun na nga, bumuhos ang ulan.",
-  "say": "tapos, ayun na nga, bumuhos ang ulan.",
+  "text": "Tapos bumuhos ang ulan.",
+  "say": "tapos bumuhos ang ulan.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.3
@@ -100,7 +100,7 @@
  {
   "text": "Wala akong magawa, kaya binasa ko nang malakas ang nakasulat sa marker.",
   "say": "wala akong magawa, kaya binasa ko nang malakas ang nakasulat sa marker.",
-  "style": "curious",
+  "style": "",
   "pre": 0,
   "pause": 0.3
  },
@@ -126,22 +126,22 @@
   "pause": 0.3
  },
  {
-  "text": "Kumapit ka, Indio!",
-  "say": "kumapit ka, indio!",
-  "style": "excited",
+  "text": "Kumapit ka, Indio.",
+  "say": "kumapit ka, indio.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Yah, ang aso pala!",
-  "say": "[laughter] Yah, ang aso pala!",
+  "text": "Ang aso pala, siyempre.",
+  "say": "ang aso pala, siyempre.",
   "style": "playful",
   "pre": 0,
   "pause": 0.62
  },
  {
-  "text": "Pagdilat ko, shookt ako, iba na ang suot ko, at iba na ang paligid.",
-  "say": "pagdilat ko, shukt ako, iba na ang suot ko, at iba na ang paligid.",
+  "text": "Pagdilat ko, iba na ang suot ko, at iba na ang paligid.",
+  "say": "pagdilat ko, iba na ang suot ko, at iba na ang paligid.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3
@@ -168,9 +168,9 @@
   "pause": 0.3
  },
  {
-  "text": "Sabay-sabay nilang pinunit ang mga cedula nila!",
-  "say": "sabay sabay nilang pinunit ang mga sedula nila!",
-  "style": "excited",
+  "text": "Sabay-sabay nilang pinunit ang mga cedula nila.",
+  "say": "sabay sabay nilang pinunit ang mga sedula nila.",
+  "style": "",
   "pre": 0,
   "pause": 0.3
  },
@@ -189,8 +189,8 @@
   "pause": 0.3
  },
  {
-  "text": "Grabe, 'yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.",
-  "say": "grabe, yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.",
+  "text": "'Yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.",
+  "say": "'yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.62
@@ -198,14 +198,14 @@
  {
   "text": "Pero umungol ang aso.",
   "say": "pero umungol ang aso.",
-  "style": "curious",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Naaamoy daw niya kapag hindi tiyak ang kuwento, walang eme.",
-  "say": "naaamoy daw niya kapag hindi tiyak ang kuwento, walang eme.",
-  "style": "playful",
+  "text": "Naaamoy daw niya kapag hindi tiyak ang kuwento.",
+  "say": "naaamoy daw niya kapag hindi tiyak ang kuwento.",
+  "style": "",
   "pre": 0,
   "pause": 0.3
  },
@@ -238,8 +238,8 @@
   "pause": 0.62
  },
  {
-  "text": "Biglang lumamig ang medalyon.",
-  "say": "biglang lumamig ang medalyon.",
+  "text": "Lumamig ang medalyon.",
+  "say": "lumamig ang medalyon.",
   "style": "suspense",
   "pre": 0,
   "pause": 0.3
@@ -252,8 +252,8 @@
   "pause": 0.3
  },
  {
-  "text": "Pero teka, may bago na akong tattoo sa braso.",
-  "say": "pero teka, may bago na akong tatu sa braso.",
+  "text": "Pero may bago na akong tattoo sa braso.",
+  "say": "pero may bago na akong tatu sa braso.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.3
@@ -266,8 +266,8 @@
   "pause": 0.3
  },
  {
-  "text": "At eto pa, mga lods, sa kabilang kalye, may babaeng nakatingin sa amin, na parang kilala niya ako.",
-  "say": "at eto pa, mga lods, sa kabilang kalye, may babaeng nakatingin sa amin, na parang kilala niya ako.",
+  "text": "At sa kabilang kalye, may babaeng nakatingin sa amin, na parang kilala niya ako.",
+  "say": "at sa kabilang kalye, may babaeng nakatingin sa amin, na parang kilala niya ako.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.62
@@ -275,21 +275,21 @@
  {
   "text": "Kaya ikaw, ka-Indio, i-comment mo.",
   "say": "kaya ikaw, ka indyo, i koment mo.",
-  "style": "excited",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Kung nandoon ka noong 1896, pupunitin mo rin ba ang cedula mo, o deins?",
-  "say": "kung nandoon ka noong mil otsosyentos nobentay sais, pupunitin mo rin ba ang sedula mo, o deins?",
+  "text": "Kung nandoon ka noong 1896, pupunitin mo rin ba ang cedula mo?",
+  "say": "kung nandoon ka noong mil otsosyentos nobentay sais, pupunitin mo rin ba ang sedula mo?",
   "style": "curious",
   "pre": 0,
   "pause": 0.42
  },
  {
-  "text": "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!",
-  "say": "at mag palo na kayo, gays, para sa dagdag lakas namin ni usman sa susunod na talon!",
-  "style": "excited",
+  "text": "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon.",
+  "say": "at mag palo na kayo, gays, para sa dagdag lakas namin ni usman sa susunod na talon.",
+  "style": "dramatic",
   "pre": 0,
   "pause": 0.62
  }

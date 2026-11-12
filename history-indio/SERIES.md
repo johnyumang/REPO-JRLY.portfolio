@@ -15,6 +15,9 @@ Indio, a jobless young man from Quezon City, carries his Lolo's bronze medallion
 7. **Return + character beat (3–5 sentences):** back to the present; new tattoo; one step in Indio's arc or the love-story mystery; a small cliffhanger.
 8. **Closing question** for the comments, then the follow line: "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!"
 
+## Indio's voice (user direction, 2026-11-12)
+Cool and calm, like a quiet anime lead who starts weak and levels up: short sentences, understatement, dry humour, no shouting, no girl-talk slang ("te", "mhie"), slang only where a calm guy would really say it. He gets visibly more capable each episode (one tattoo per jump is his "level"). Inspiration is the vibe only; never copy another series' character, lines or look.
+
 ## Honesty rules
 - Indio, Usman, the medallion, the woman and Indio's family are fiction. Every episode's captions and pinned comment say: "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
 - Indio never talks to, touches or influences a real historical person. Animals Usman talks to give jokes, never facts.
