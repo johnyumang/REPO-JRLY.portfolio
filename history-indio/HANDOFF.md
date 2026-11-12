@@ -105,3 +105,8 @@ Save tokens and effort: do NOT animate every shot. Most shots stay as painted st
 
 ## Re-sequenced by the user (2026-11-12, later) — overrides the season plan above
 Ep 3 = Indio's back story (`videos/ep03-ang-sabi-ni-lola`: Lola in Kawit; he sees an ancestor wearing the medallion on 12 June 1898; fiction, labelled). Ep 4 = Usman's back story (`videos/ep04-ang-aso-ni-pepe`). Ep 5 = Treaty of Paris (other session). Ep 6 = medallion stolen by M. Ep 7–8 proposed (see SERIES.md "Chapter structure"). Indio's and Usman's back stories are Claude's proposals as director; the user has not yet read them.
+
+## Episode 7 (user, 2026-11-12): the time of Jesus
+- The user wants Episode 7 set in Jesus' era and biblically correct "based on the newest Bible". Open with the user: which translation, and which single event Indio witnesses.
+- Rules to keep: only events and words that are in the Gospels, each with chapter and verse in facts.md; say where the four Gospels differ; no invented dialogue for Jesus or any biblical person; Indio and Usman only watch from the crowd; modern translations are copyrighted, so paraphrase and cite verses instead of quoting long passages; label Indio, Usman and M as fiction as usual.
+- Story problem to solve: the medallion is stolen in Episode 6, so the jump in Episode 7 needs a reason (proposed: M uses the medallion and Indio is pulled along).
