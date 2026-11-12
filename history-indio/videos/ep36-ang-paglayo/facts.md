@@ -23,6 +23,7 @@
 | 6 | "Pinagtatalunan: kung ang watawat na nasa Baguio ngayon ang mismong tinahi noon." (56) | the Baguio flag's claim to be the original is doubted by some scholars | disputed (as stated) | https://newsinfo.inquirer.net/14136/original-or-not-it%E2%80%99s-still-flag-of-our-fathers ; https://newsinfo.inquirer.net/1950643/historical-recognition-eyed-for-first-ph-flag-in-baguio [summary only] |
 | 7 | "Ayon sa pagbasa ko sa Korte Suprema, ang tirahan sa batas ng halalan ay ang tahanang binabalikan mo..." (57) | residence = domicile, not lost by a temporary absence with intent to return | probable; TO BE CHECKED (see above) | Romualdez-Marcos v. COMELEC, G.R. No. 119976 (1995), case summaries only |
 | 8 | "...ang rehistro ng kumpanya na bukas sa publiko." (23) | the Hong Kong companies register is open to public search | probable (director names are searchable; some personal details were restricted from 2023) — not spoken in detail | to be checked: Hong Kong Companies Registry public search pages |
+| 9 | "Trenta'y singko anyos ako nang mag-leave sa Senado..." (4) | Indio's age as senator: 35 (first year in the Senate) | series continuity (fiction, consistent) | SERIES.md line 342 (Season 4: scripts state his age at each office); videos/ep35-ang-bitag/script_multispeaker.txt lines 9–10 (35 after six months in the Senate) |
 | — | everything else | the firm, director, Mang Nesto, the fox as a character, Sinag, the leave, Usman | fiction, labelled (58) | — |
 
 ## Still to check (could not verify)
