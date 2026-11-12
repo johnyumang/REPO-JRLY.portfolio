@@ -2,3 +2,6 @@
 *.wav
 private/
 __pycache__/
+videos/*/keys/build/
+videos/*/keys/depth/
+*.mp3
