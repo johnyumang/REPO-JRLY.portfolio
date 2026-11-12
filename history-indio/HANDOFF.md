@@ -47,3 +47,10 @@ The user wants frame-by-frame anime motion, not animated stills. Tried so far:
 
 ## Motion plan (user, 2026-11-12)
 Save tokens and effort: do NOT animate every shot. Most shots stay as painted stills with the animator's effects (parallax, transitions, auras, speed lines). Only the key moments (hook, climax, plot twist, final follow line; 3–5 per video) get real AI image-to-video motion. Primary model: Wan 2.2 (HF Space `Upsampler/wan-2-2-14b-image-to-video`). Backup: Tencent HunyuanVideo image-to-video (the user's "10-cent generator"). Both need Hugging Face access that can run Spaces: the connector currently refuses `invoke` ("gradio=none"), and direct use needs a read token for the Space host. `build_anime.py` already plays a clip for a line via `"clip": "clips/cNN.mp4"` in `shots_fx.json`.
+
+## NVIDIA free endpoint (backup stills only) — tested 2026-11-12
+- Key is saved as a network secret for `ai.api.nvidia.com` in env JRLY-1; send **no** Authorization header.
+- Works: `POST https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.2-klein-4b` body `{"prompt","width":768,"height":1344,"seed","steps":4}`, header `NVCF-POLL-SECONDS`; image is `artifacts[0].base64` (JPEG, ~3 s). Helper: `pipeline/nvidia_still.py`.
+- Quality is below the Figma stills (generic look, weak prompt following, odd props). Use only when Figma's daily credits run out, mainly for backgrounds/filler.
+- Unreliable: `flux-3-image-klein` (worked once, then 502/504). FLUX.1-schnell/dev fail on NVIDIA's side.
+- Not usable: image editing (`flux.1-kontext-dev`, klein `image`) only accepts NVIDIA's own sample images, not ours. No video model answered at ~70 addresses tried (Cosmos, Wan, Hunyuan, LTX, SVD...).
