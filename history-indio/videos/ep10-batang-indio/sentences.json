@@ -1,261 +1,602 @@
 [
  {
-  "text": "Sa isang classroom sa Quezon City, may batang nagsabing mali ang textbook.",
-  "say": "sa isang klasrum sa keson siti, may batang nagsabing mali ang tekstbuk.",
+  "text": "Labing-apat na taon akong dumaan sa isang kayamanan, at ngayon ko lang nalaman.",
+  "say": "labing-apat na taon akong dumaan sa isang kayamanan, at ngayon ko lang nalaman.",
   "style": "dramatic",
   "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Ako 'yon, sampung taong gulang.",
-  "say": "ako 'yon, sampung taong gulang.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.3
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
   "text": "Ako 'to si Indio.",
   "say": "ako to si indio.",
   "style": "warm",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
   "text": "Samahan mo akong mag-time travel, at tuklasin ang history natin.",
   "say": "samahan mo akong mag-taym trabel, at tuklasin ang histori natin.",
   "style": "warm",
   "pre": 0,
-  "pause": 0.62
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
-  "text": "Ang tuldok mula sa Galilea: ang dati kong paaralan, taong 2012, par.",
-  "say": "ang tuldok mula sa galilea: ang dati kong paaralan, taong dos mil dose, par.",
-  "style": "suspense",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Sumulpot ulit si Usman: pauwi na ba tayo?",
-  "say": "sumulpot ulit si usman: pauwi na ba tayo?",
-  "style": "playful",
-  "pre": 0,
-  "pause": 0.42
- },
- {
-  "text": "Hindi pa, tol, bisita lang tayo.",
-  "say": "hindi pa, tol, bisita lang tayo.",
-  "style": "somber",
-  "pre": 0,
-  "pause": 0.62
- },
- {
-  "text": "Sa gate, sumilip ako sa lente, bawal kasi akong lumapit.",
-  "say": "sa geyt, sumilip ako sa lente, bawal kasi akong lumapit.",
+  "text": "Pagkatapos ng Galilea, sumindi ang susunod na tuldok, hindi sa malayong bansa.",
+  "say": "pagkatapos ng galilea, sumindi ang susunod na tuldok, hindi sa malayong bansa.",
   "style": "serious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
-  "text": "Ayun ako, Grade 5, nagbabasa ng history book para sa saya.",
-  "say": "ayun ako, greyd payb, nagbabasa ng histori buk para sa saya.",
-  "style": "warm",
+  "text": "Teka, par, paaralan ba 'to?",
+  "say": "teka, par, paaralan ba to?",
+  "style": "playful",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.42,
+  "speaker": "USMAN"
  },
  {
-  "text": "Tuwing Sabado, dinadala siya ni Lolo sa mga marker.",
-  "say": "tuwing sabado, dinadala siya ni lolo sa mga marker.",
+  "text": "Akala ko kayamanan ang hahanapin natin.",
+  "say": "akala ko kayamanan ang hahanapin natin.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Minsan, nasa pinakasimula nakabaon ang kayamanan.",
+  "say": "minsan, nasa pinakasimula nakabaon ang kayamanan.",
   "style": "warm",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "M"
+ },
+ {
+  "text": "Uminit ang medalyon ni M, at bumagsak kami sa harap ng dati kong paaralan.",
+  "say": "uminit ang medalyon ni em, at bumagsak kami sa harap ng dati kong paaralan.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Quezon City, taong 2012.",
+  "say": "keson siti, taong dos mil dose.",
+  "style": "suspense",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bawal akong lumapit sa sarili ko, kaya sumilip ako sa lente.",
+  "say": "bawal akong lumapit sa sarili ko, kaya sumilip ako sa lente.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa lente, bumibilis ang mga araw.",
+  "say": "sa lente, bumibilis ang mga araw.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ayun ka, o, Grade 5, nagbabasa ng history book habang recess!",
+  "say": "ayun ka, o, greyd payb, nagbabasa ng histori buk habang risess!",
+  "style": "excited",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Oo na, tol, ako 'yan, ang batang tahimik sa sulok.",
+  "say": "oo na, tol, ako yan, ang batang tahimik sa sulok.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tuwing Sabado, may laro kami ni Lolo, ang hanapin ang marker.",
+  "say": "tuwing sabado, may laro kami ni lolo, ang hanapin ang marker.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Unang clue, apo: saan pinunit ng mga Katipunero ang kanilang mga cedula?",
+  "say": "unang klu, apo: saan pinunit ng mga katipunero ang kanilang mga sedula?",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Alam ko po 'yan, Lolo, sa Pugad Lawin!",
+  "say": "alam ko po yan, lolo, sa pugad lawin!",
+  "style": "excited",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "BATANG INDIO"
+ },
+ {
+  "text": "Tumakbo siya sa marker sa Bahay Toro, hila ang kamay ni Lolo.",
+  "say": "tumakbo siya sa marker sa bahay toro, hila ang kamay ni lolo.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
   "text": "Basahin mo nang malakas, apo, para marinig ka ng nakaraan.",
   "say": "basahin mo nang malakas, apo, para marinig ka ng nakaraan.",
   "style": "whisper",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "LOLO"
  },
  {
-  "text": "Doon pala galing ang ugali ko, no cap.",
-  "say": "doon pala galing ang ugali ko, no kap.",
+  "text": "Kaya pala binabasa ko pa rin nang malakas ang bawat marker.",
+  "say": "kaya pala binabasa ko pa rin nang malakas ang bawat marker.",
   "style": "somber",
   "pre": 0,
-  "pause": 0.62
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
-  "text": "Sa recitation, tanong ni Ma'am, ano ang unang batas natin?",
-  "say": "sa resiteysyon, tanong ni mam, ano ang unang batas natin?",
+  "text": "Alam na pala ni Lolo kung bakit.",
+  "say": "alam na pala ni lolo kung bakit.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Isang Lunes, may recitation sa klase namin.",
+  "say": "isang lunes, may resiteysyon sa klase namin.",
   "style": "serious",
   "pre": 0,
-  "pause": 0.42
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
-  "text": "Sagot ng textbook, ang Kodigo ni Kalantiaw, isinulat daw noong 1433.",
-  "say": "sagot ng tekstbuk, ang kodigo ni kalantyaw, isinulat daw noong mil kuwatro syentos trentay tres.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Nagtaas ng kamay ang batang ako, hindi po totoo 'yon.",
-  "say": "nagtaas ng kamay ang batang ako, hindi po totoo 'yon.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "May dala siyang libro ni Lolo, gawa ni William Henry Scott.",
-  "say": "may dala siyang libro ni lolo, gawa ni wilyam henri skat.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.62
- },
- {
-  "text": "Ang totoo, lumitaw lang ang kodigo sa mga papeles ni José Marco, bandang 1913.",
-  "say": "ang totoo, lumitaw lang ang kodigo sa mga papeles ni hose marco, bandang mil nwebe syentos trese.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Noong 1968, sinuri ito ni Scott sa doctorate niya sa UST.",
-  "say": "noong mil nwebe syentos sisentay otso, sinuri ito ni skat sa doktoreyt niya sa yu es ti.",
-  "style": "serious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Walang mas lumang tala, at may mga mali sa manuskrito.",
-  "say": "walang mas lumang tala, at may mga mali sa manuskrito.",
-  "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Pero ilang dekada pa itong itinuro sa eskwela.",
-  "say": "pero ilang dekada pa itong itinuro sa eskwela.",
-  "style": "somber",
-  "pre": 0,
-  "pause": 0.62
- },
- {
-  "text": "Hindi nagalit si Ma'am, nag-check siya sa library.",
-  "say": "hindi nagalit si mam, nag-tsek siya sa laybrari.",
+  "text": "Class, ano ang pinakamatandang kayamanan ng ating mga batas?",
+  "say": "klas, ano ang pinakamatandang kayamanan ng ating mga batas?",
   "style": "warm",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "GURO"
  },
  {
-  "text": "Kinabukasan, isinulat niya sa pisara ang pangalan ni Scott, sheesh.",
-  "say": "kinabukasan, isinulat niya sa pisara ang pangalan ni skat, shiish.",
-  "style": "triumphant",
+  "text": "Ma'am, ang Kodigo ni Kalantiaw po, isinulat noong 1433!",
+  "say": "mam, ang kodigo ni kalantyaw po, isinulat noong mil kuwatro syentos trentay tres!",
+  "style": "excited",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "BEA"
  },
  {
-  "text": "Ang pinuri niya, ang pagtatanong kung saan galing ang kuwento.",
-  "say": "ang pinuri niya, ang pagtatanong kung saan galing ang kuwento.",
+  "text": "Tama ang nasa libro, Bea, labingwalong batas daw ni Datu Kalantiaw.",
+  "say": "tama ang nasa libro, bea, labingwalong batas daw ni datu kalantyaw.",
   "style": "warm",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "GURO"
  },
  {
-  "text": "Sa gate, may babaeng may pulang payong, nakatingin sa batang ako.",
-  "say": "sa geyt, may babaeng may pulang payong, nakatingin sa batang ako.",
+  "text": "Nagtaas ng kamay ang batang ako, nanginginig pa ang tuhod.",
+  "say": "nagtaas ng kamay ang batang ako, nanginginig pa ang tuhod.",
   "style": "suspense",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
-  "text": "Lumingon ako kay M, pero hindi siya sumagot.",
-  "say": "lumingon ako kay em, pero hindi siya sumagot.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.62
- },
- {
-  "text": "Umungol si Usman, kaya linawin natin.",
-  "say": "umungol si usman, kaya linawin natin.",
-  "style": "curious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Tiyak na walang batayan ang kodigo, ayon sa National Historical Institute noong 2004.",
-  "say": "tiyak na walang batayan ang kodigo, ayon sa nasyonal historikal institut noong dos mil kuwatro.",
+  "text": "Ma'am, pasensya na po, pero hindi po totoo ang kodigo.",
+  "say": "mam, pasensya na po, pero hindi po totoo ang kodigo.",
   "style": "serious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "BATANG INDIO"
  },
  {
-  "text": "Pinagtatalunan pa kung bakit ito ginawa, at may mga taga-Aklan na tumutol.",
-  "say": "pinagtatalunan pa kung bakit ito ginawa, at may mga taga-aklan na tumutol.",
+  "text": "E bakit po nasa textbook natin?",
+  "say": "e bakit po nasa tekstbuk natin?",
   "style": "curious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "JM"
  },
  {
-  "text": "Kathang-isip ang pamilya ko, ang paaralan, si Ma'am, si M, si Usman, ang lente at kuwaderno.",
-  "say": "kathang-isip ang pamilya ko, ang paaralan, si mam, si em, si usman, ang lente at kuwaderno.",
-  "style": "somber",
+  "text": "Nasa libro po ng Lolo ko, gawa ng historyador na si William Henry Scott.",
+  "say": "nasa libro po ng lolo ko, gawa ng historiador na si wilyam henri skat.",
+  "style": "serious",
   "pre": 0,
-  "pause": 0.62
+  "pause": 0.62,
+  "speaker": "BATANG INDIO"
  },
  {
-  "text": "Nawala si Lolo, kinapos kami, at napalitan ng trabaho ang mga libro.",
-  "say": "nawala si lolo, kinapos kami, at napalitan ng trabaho ang mga libro.",
-  "style": "sad",
+  "text": "Patingin nga, Indio, titingnan ko muna bago tayo magpasya.",
+  "say": "patingin nga, indio, titingnan ko muna bago tayo magpasya.",
+  "style": "curious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.62,
+  "speaker": "GURO"
  },
  {
-  "text": "Bitbit ko na ulit ang tapang ng batang ako.",
-  "say": "bitbit ko na ulit ang tapang ng batang ako.",
-  "style": "warm",
+  "text": "Lumitaw ang kodigo sa mga papeles ni José Marco, bandang 1913.",
+  "say": "lumitaw ang kodigo sa mga papeles ni hose marco, bandang mil nwebe syentos trese.",
+  "style": "serious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
-  "text": "Sa lente, nakita kong may itinago si Lolo sa library, kuwaderno para sa akin.",
-  "say": "sa lente, nakita kong may itinago si lolo sa laybrari, kuwaderno para sa akin.",
-  "style": "whisper",
+  "text": "Galing daw ang mga ito sa manuskrito ng isang pari, may petsang 1838.",
+  "say": "galing daw ang mga ito sa manuskrito ng isang pari, may petsang mil otsosyentos trentay otso.",
+  "style": "serious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
-  "text": "Kinuha ito ni Usman, at binasa ko nang malakas ang marker ng paaralan.",
-  "say": "kinuha ito ni usman, at binasa ko nang malakas ang marker ng paaralan.",
-  "style": "warm",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Uminit ang medalyon ni M, at may kusang sumulat sa kuwaderno: mga barko, pahilaga, papunta sa emperador.",
-  "say": "uminit ang medalyon ni em, at may kusang sumulat sa kuwaderno: mga barko, pahilaga, papunta sa emperador.",
+  "text": "Pero walang mas lumang tala na bumabanggit sa kodigo.",
+  "say": "pero walang mas lumang tala na bumabanggit sa kodigo.",
   "style": "dramatic",
   "pre": 0,
-  "pause": 0.62
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Gayunman, pumasok ito sa mga textbook.",
+  "say": "gayunman, pumasok ito sa mga tekstbuk.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Noong 1968, sinuri ni Scott ang mga papeles para sa doctorate niya sa UST.",
+  "say": "noong mil nwebe syentos sisentay otso, sinuri ni skat ang mga papeles para sa doktoreyt niya sa yu es ti.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sabi ng manuskrito, nasa Negros ang pari, pero ayon sa mga tala, nasa Cebu pa siya.",
+  "say": "sabi ng manuskrito, nasa negros ang pari, pero ayon sa mga tala, nasa sebu pa siya.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hinarap ni Scott ang panel ng mga kilalang historyador, at walang kumontra.",
+  "say": "hinarap ni skat ang panel ng mga kilalang historiador, at walang kumontra.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pero noong 1971, may parangal pang ipinangalan kay Kalantiaw.",
+  "say": "pero noong mil nwebe syentos setentay uno, may parangal pang ipinangalan kay kalantyaw.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ilang dekada pa itong itinuro sa mga eskwela.",
+  "say": "ilang dekada pa itong itinuro sa mga eskwela.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Noong 2004 lang idineklara ng National Historical Institute na wala itong batayang pangkasaysayan.",
+  "say": "noong dos mil kuwatro lang idineklara ng nasyonal historikal institut na wala itong batayang pangkasaysayan.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kinabukasan, may dalang lumang libro si Ma'am galing sa library.",
+  "say": "kinabukasan, may dalang lumang libro si mam galing sa laybrari.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Class, tama si Indio.",
+  "say": "klas, tama si indio.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "GURO"
+ },
+ {
+  "text": "Ang tunay na kayamanan, hindi ang sagot sa libro, kundi ang pag-alam kung saan ito galing.",
+  "say": "ang tunay na kayamanan, hindi ang sagot sa libro, kundi ang pag-alam kung saan ito galing.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "GURO"
+ },
+ {
+  "text": "Indio, turuan mo naman kami ng laro n'yo ng Lolo mo!",
+  "say": "indio, turuan mo naman kami ng laro n'yo ng lolo mo!",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "BEA"
+ },
+ {
+  "text": "Sa labas ng gate, may babaeng may pulang payong, nakatingin sa batang ako.",
+  "say": "sa labas ng geyt, may babaeng may pulang payong, nakatingin sa batang ako.",
+  "style": "suspense",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Par, si M 'yan, ha.",
+  "say": "par, si em yan, ha.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Matagal na kitang binabantayan, Indio, at hindi lang ako ang nagbabantay.",
+  "say": "matagal na kitang binabantayan, indio, at hindi lang ako ang nagbabantay.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "M"
+ },
+ {
+  "text": "Isang gabi, may sakit na si Lolo.",
+  "say": "isang gabi, may sakit na si lolo.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Apo, huling clue: ang marker na araw-araw mong dinadaanan, pero hindi mo pa nababasa.",
+  "say": "apo, huling klu: ang marker na araw-araw mong dinadaanan, pero hindi mo pa nababasa.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Bukas na po natin hanapin, Lolo, ha?",
+  "say": "bukas na po natin hanapin, lolo, ha?",
+  "style": "sad",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "BATANG INDIO"
+ },
+ {
+  "text": "Hindi na umabot si Lolo sa bukas na 'yon.",
+  "say": "hindi na umabot si lolo sa bukas na 'yon.",
+  "style": "sad",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Apo, may itinago raw si Lolo para sa'yo.",
+  "say": "apo, may itinago raw si lolo para sa'yo.",
+  "style": "sad",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "LOLA"
+ },
+ {
+  "text": "Kinapos kami, nagtrabaho ako, at nakalimutan ko ang huling clue.",
+  "say": "kinapos kami, nagtrabaho ako, at nakalimutan ko ang huling klu.",
+  "style": "sad",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Grrr, linawin muna natin 'yan, par.",
+  "say": "grrr, linawin muna natin yan, par.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Tiyak na sa mga papeles lang ni Marco lumitaw ang kodigo, at walang mas lumang tala.",
+  "say": "tiyak na sa mga papeles lang ni marco lumitaw ang kodigo, at walang mas lumang tala.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tiyak din ang pagsusuri ni Scott noong 1968 at ang pasya ng institute noong 2004.",
+  "say": "tiyak din ang pagsusuri ni skat noong mil nwebe syentos sisentay otso at ang pasya ng institut noong dos mil kuwatro.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pinagtatalunan pa kung si Marco lang ang gumawa, at bakit.",
+  "say": "pinagtatalunan pa kung si marco lang ang gumawa, at bakit.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kathang-isip ang pamilya ko, ang laro, ang paaralan, si Ma'am, sina Bea at JM.",
+  "say": "kathang-isip ang pamilya ko, ang laro, ang paaralan, si mam, sina bea at jey em.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kathang-isip din kami nina M at Usman, ang lente at ang kuwaderno.",
+  "say": "kathang-isip din kami nina em at usman, ang lente at ang kuwaderno.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Teka, ang marker na araw-araw kong dinadaanan noon?",
+  "say": "teka, ang marker na araw-araw kong dinadaanan noon?",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.42,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ang marker sa gate, anim na taon kong dinaanan, pero hindi ko binasa.",
+  "say": "ang marker sa geyt, anim na taon kong dinaanan, pero hindi ko binasa.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa lente, nakita ko si Lolo na nagtatago ng lata sa ilalim ng batong maluwag.",
+  "say": "sa lente, nakita ko si lolo na nagtatago ng lata sa ilalim ng batong maluwag.",
+  "style": "suspense",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ayun ang kayamanan, tol, hukayin na natin!",
+  "say": "ayun ang kayamanan, tol, hukayin na natin!",
+  "style": "excited",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Hindi puwede, para iyon sa akin sa panahon ko.",
+  "say": "hindi puwede, para iyon sa akin sa panahon ko.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bumalik kami sa taon ko ngayon, at gaya ng dati, naglaho si Usman sa liwanag.",
+  "say": "bumalik kami sa taon ko ngayon, at gaya ng dati, naglaho si usman sa liwanag.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa susunod na talon, par, nandito ulit ako.",
+  "say": "sa susunod na talon, par, nandito ulit ako.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Kinaumagahan, nagpaalam ako sa guard, at lumuhod sa paanan ng marker.",
+  "say": "kinaumagahan, nagpaalam ako sa gard, at lumuhod sa paanan ng marker.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa ilalim ng bato, may lumang lata, at sa loob, ang kuwaderno ni Lolo.",
+  "say": "sa ilalim ng bato, may lumang lata, at sa loob, ang kuwaderno ni lolo.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa unang pahina, sulat-kamay niya: para sa apo kong marunong magtanong.",
+  "say": "sa unang pahina, sulat-kamay niya: para sa apo kong marunong magtanong.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Basahin mo ang marker, Indio, nang malakas.",
+  "say": "basahin mo ang marker, indio, nang malakas.",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "M"
+ },
+ {
+  "text": "Binasa ko, para marinig ako ng nakaraan, at kusang may sumulat sa kuwaderno.",
+  "say": "binasa ko, para marinig ako ng nakaraan, at kusang may sumulat sa kuwaderno.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Mga barko, pahilaga, papunta sa isang emperador.",
+  "say": "mga barko, pahilaga, papunta sa isang emperador.",
+  "style": "suspense",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.",
+  "say": "uminit ang medalyon ni em, at may tumahol sa loob ng liwanag.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.62,
+  "speaker": "INDIO"
  },
  {
   "text": "Kaya ikaw, ka-Indio, i-comment mo.",
   "say": "kaya ikaw, ka indyo, i koment mo.",
   "style": "serious",
   "pre": 0,
-  "pause": 0.3
+  "pause": 0.3,
+  "speaker": "INDIO"
  },
  {
   "text": "May itinuro ba sa'yo sa eskwela na hindi pala totoo?",
   "say": "may itinuro ba sa'yo sa eskwela na hindi pala totoo?",
   "style": "curious",
   "pre": 0,
-  "pause": 0.42
+  "pause": 0.42,
+  "speaker": "INDIO"
  },
  {
   "text": "At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!",
   "say": "at mag palo na kayo, gays, para sa dagdag lakas namin ni usman sa susunod na talon!",
   "style": "excited",
   "pre": 0,
-  "pause": 0.62
+  "pause": 0.62,
+  "speaker": "INDIO"
  }
 ]

@@ -2,7 +2,7 @@
 
 Format (user, 2026-11-12): three to five repeated lines with the same opening words, then a payoff from the episode. The older `captions.md` stays as it is.
 Stem this episode: "salamat sa batang ako na" (Ep 1–9 and the trailer used: stop telling yourself, akala mo, hindi lahat ng, para sa lahat ng asong, kapag, minsan, may mga sulat na, paano kung, darating din ang araw na, sa gilid lang ako, pero).
-Tone: warm, a little sad, then proud. Book emoji only. The repeated lines are about Indio as a boy, never about a real person.
+Tone: warm, a little sad, then proud, with a treasure-hunt lift at the end (version 2: five-minute multi-voice episode; the find is the Lolo's notebook). Book emoji only. The repeated lines are about Indio as a boy, never about a real person.
 
 ## Facebook Reels
 salamat sa batang ako na nagbasa ng history para sa saya.
@@ -10,7 +10,8 @@ salamat sa batang ako na nagbasa nang malakas sa harap ng marker.
 salamat sa batang ako na nagtaas ng kamay kahit kinakabahan.
 salamat sa batang ako na may dalang patunay.
 
-Grade 5, Quezon City. Ang sagot sa textbook: ang Kodigo ni Kalantiaw, "isinulat noong 1433". Pero lumitaw lang ito sa mga papeles ni José E. Marco, bandang 1913. Noong 1968, pinatunayan ni William Henry Scott na walang batayan ito. Noong 2004, ganoon din ang pasya ng National Historical Institute.
+Grade 5, Quezon City. Ang "pinakamatandang kayamanan" ng ating batas sa textbook: ang Kodigo ni Kalantiaw, "isinulat noong 1433". Pero lumitaw lang ito sa mga papeles ni José E. Marco, bandang 1913. Noong 1968, pinatunayan ni William Henry Scott na walang batayan ito. Tatlong taon lang, may parangal pang ipinangalan kay Kalantiaw. Noong 2004, nagpasya ang National Historical Institute.
+Pekeng kayamanan sa libro. At isang totoong kayamanan, nakabaon sa paanan ng marker ng paaralan: ang kuwaderno ni Lolo. 📖
 
 EP 10: Batang Indio 📖
 May itinuro ba sa'yo sa eskwela na hindi pala totoo?

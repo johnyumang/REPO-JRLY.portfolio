@@ -1,20 +1,110 @@
-# Multi-speaker version (ElevenLabs v3 Text to Dialogue). Same words and order as script_elevenlabs.txt, so timings align the same way.
-# Speakers: INDIO only. The brief for this episode is one narrator: Indio also speaks the Lolo's line, Usman's line, the boy's line and Ma'am's question in his own voice (no imitation). Export ONE MP3 of the whole dialogue.
+# MASTER script, Episode 10 "Batang Indio" (Season 2 multi-voice rule, 2026-11-12). One line per speaker turn: NAME: [tone] text.
+# script.txt (same words and order, speaker names dropped) and script_elevenlabs.txt (v3 tags, years as words) are derived from this file; sentences.json from script.txt (each sentence also carries its speaker).
+# All speakers are FICTIONAL. Real people (William Henry Scott, José E. Marco) are only spoken about and never get a line.
+# INDIO: grown Indio, narrator and his own spoken lines (the clone of the user's own recording).
+# BATANG INDIO: Indio at ten, quiet, earnest, a little nervous (designed voice, a child's voice, never a real child's clone).
+# LOLO: Indio's grandfather in his seventies, warm, slow, playful (designed voice).
+# LOLA: Indio's grandmother, the same Lola as Episodes 3 and 7 (designed voice).
+# GURO: the Grade 5 teacher, late twenties, kind and careful (designed voice).
+# BEA and JM: two classmates, about ten (designed child voices). They are curious, never mocked.
+# M: calm, low, unhurried (designed voice, as in Episode 8). USMAN: the dog, cheeky but loyal (designed voice).
 
-INDIO: [dramatic] Sa isang classroom sa Quezon City, may batang nagsabing mali ang textbook. [whispers] Ako 'yon, sampung taong gulang. [warm] Ako 'to si Indio. [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
+INDIO: [dramatic] Labing-apat na taon akong dumaan sa isang kayamanan, at ngayon ko lang nalaman. [warm] Ako 'to si Indio. [warm] Samahan mo akong mag-time travel, at tuklasin ang history natin.
 
-INDIO: [suspense] Ang tuldok mula sa Galilea: ang dati kong paaralan, taong twenty twelve, par. [playful] Sumulpot ulit si Usman: pauwi na ba tayo? [sad] Hindi pa, tol, bisita lang tayo.
+INDIO: [serious] Pagkatapos ng Galilea, sumindi ang susunod na tuldok, hindi sa malayong bansa.
 
-INDIO: [serious] Sa gate, sumilip ako sa lente, bawal kasi akong lumapit. [warm] Ayun ako, Grade five, nagbabasa ng history book para sa saya. [warm] Tuwing Sabado, dinadala siya ni Lolo sa mga marker. [whispers] Basahin mo nang malakas, apo, para marinig ka ng nakaraan. [sad] Doon pala galing ang ugali ko, no cap.
+USMAN: [playful] Teka, par, paaralan ba 'to? [curious] Akala ko kayamanan ang hahanapin natin.
 
-INDIO: [serious] Sa recitation, tanong ni Ma'am, ano ang unang batas natin? [curious] Sagot ng textbook, ang Kodigo ni Kalantiaw, isinulat daw noong fourteen thirty-three. [dramatic] Nagtaas ng kamay ang batang ako, hindi po totoo 'yon. [serious] May dala siyang libro ni Lolo, gawa ni William Henry Scott.
+M: [warm] Minsan, nasa pinakasimula nakabaon ang kayamanan.
 
-INDIO: [serious] Ang totoo, lumitaw lang ang kodigo sa mga papeles ni José Marco, bandang nineteen thirteen. [serious] Noong nineteen sixty-eight, sinuri ito ni Scott sa doctorate niya sa UST. [dramatic] Walang mas lumang tala, at may mga mali sa manuskrito. [sad] Pero ilang dekada pa itong itinuro sa eskwela.
+INDIO: [dramatic] Uminit ang medalyon ni M, at bumagsak kami sa harap ng dati kong paaralan. [suspense] Quezon City, taong 2012.
 
-INDIO: [warm] Hindi nagalit si Ma'am, nag-check siya sa library. [triumphant] Kinabukasan, isinulat niya sa pisara ang pangalan ni Scott, sheesh. [warm] Ang pinuri niya, ang pagtatanong kung saan galing ang kuwento. [suspense] Sa gate, may babaeng may pulang payong, nakatingin sa batang ako. [whispers] Lumingon ako kay M, pero hindi siya sumagot.
+INDIO: [serious] Bawal akong lumapit sa sarili ko, kaya sumilip ako sa lente. [curious] Sa lente, bumibilis ang mga araw.
 
-INDIO: [curious] Umungol si Usman, kaya linawin natin. [serious] Tiyak na walang batayan ang kodigo, ayon sa National Historical Institute noong two thousand four. [curious] Pinagtatalunan pa kung bakit ito ginawa, at may mga taga-Aklan na tumutol. [sad] Kathang-isip ang pamilya ko, ang paaralan, si Ma'am, si M, si Usman, ang lente at kuwaderno.
+USMAN: [excited] Ayun ka, o, Grade 5, nagbabasa ng history book habang recess!
 
-INDIO: [sad] Nawala si Lolo, kinapos kami, at napalitan ng trabaho ang mga libro. [warm] Bitbit ko na ulit ang tapang ng batang ako. [whispers] Sa lente, nakita kong may itinago si Lolo sa library, kuwaderno para sa akin. [warm] Kinuha ito ni Usman, at binasa ko nang malakas ang marker ng paaralan. [dramatic] Uminit ang medalyon ni M, at may kusang sumulat sa kuwaderno: mga barko, pahilaga, papunta sa emperador.
+INDIO: [playful] Oo na, tol, ako 'yan, ang batang tahimik sa sulok.
+
+INDIO: [warm] Tuwing Sabado, may laro kami ni Lolo, ang hanapin ang marker.
+
+LOLO: [curious] Unang clue, apo: saan pinunit ng mga Katipunero ang kanilang mga cedula?
+
+BATANG INDIO: [excited] Alam ko po 'yan, Lolo, sa Pugad Lawin!
+
+INDIO: [warm] Tumakbo siya sa marker sa Bahay Toro, hila ang kamay ni Lolo.
+
+LOLO: [whisper] Basahin mo nang malakas, apo, para marinig ka ng nakaraan.
+
+INDIO: [somber] Kaya pala binabasa ko pa rin nang malakas ang bawat marker. [whisper] Alam na pala ni Lolo kung bakit.
+
+INDIO: [serious] Isang Lunes, may recitation sa klase namin.
+
+GURO: [warm] Class, ano ang pinakamatandang kayamanan ng ating mga batas?
+
+BEA: [excited] Ma'am, ang Kodigo ni Kalantiaw po, isinulat noong 1433!
+
+GURO: [warm] Tama ang nasa libro, Bea, labingwalong batas daw ni Datu Kalantiaw.
+
+INDIO: [suspense] Nagtaas ng kamay ang batang ako, nanginginig pa ang tuhod.
+
+BATANG INDIO: [serious] Ma'am, pasensya na po, pero hindi po totoo ang kodigo.
+
+JM: [curious] E bakit po nasa textbook natin?
+
+BATANG INDIO: [serious] Nasa libro po ng Lolo ko, gawa ng historyador na si William Henry Scott.
+
+GURO: [curious] Patingin nga, Indio, titingnan ko muna bago tayo magpasya.
+
+INDIO: [serious] Lumitaw ang kodigo sa mga papeles ni José Marco, bandang 1913. [serious] Galing daw ang mga ito sa manuskrito ng isang pari, may petsang 1838. [dramatic] Pero walang mas lumang tala na bumabanggit sa kodigo. [serious] Gayunman, pumasok ito sa mga textbook.
+
+INDIO: [serious] Noong 1968, sinuri ni Scott ang mga papeles para sa doctorate niya sa UST. [dramatic] Sabi ng manuskrito, nasa Negros ang pari, pero ayon sa mga tala, nasa Cebu pa siya. [serious] Hinarap ni Scott ang panel ng mga kilalang historyador, at walang kumontra.
+
+INDIO: [somber] Pero noong 1971, may parangal pang ipinangalan kay Kalantiaw. [somber] Ilang dekada pa itong itinuro sa mga eskwela. [serious] Noong 2004 lang idineklara ng National Historical Institute na wala itong batayang pangkasaysayan.
+
+INDIO: [warm] Kinabukasan, may dalang lumang libro si Ma'am galing sa library.
+
+GURO: [warm] Class, tama si Indio. [serious] Ang tunay na kayamanan, hindi ang sagot sa libro, kundi ang pag-alam kung saan ito galing.
+
+BEA: [playful] Indio, turuan mo naman kami ng laro n'yo ng Lolo mo!
+
+INDIO: [suspense] Sa labas ng gate, may babaeng may pulang payong, nakatingin sa batang ako.
+
+USMAN: [whisper] Par, si M 'yan, ha.
+
+M: [somber] Matagal na kitang binabantayan, Indio, at hindi lang ako ang nagbabantay.
+
+INDIO: [somber] Isang gabi, may sakit na si Lolo.
+
+LOLO: [whisper] Apo, huling clue: ang marker na araw-araw mong dinadaanan, pero hindi mo pa nababasa.
+
+BATANG INDIO: [sad] Bukas na po natin hanapin, Lolo, ha?
+
+INDIO: [sad] Hindi na umabot si Lolo sa bukas na 'yon.
+
+LOLA: [sad] Apo, may itinago raw si Lolo para sa'yo.
+
+INDIO: [sad] Kinapos kami, nagtrabaho ako, at nakalimutan ko ang huling clue.
+
+USMAN: [serious] Grrr, linawin muna natin 'yan, par.
+
+INDIO: [serious] Tiyak na sa mga papeles lang ni Marco lumitaw ang kodigo, at walang mas lumang tala. [serious] Tiyak din ang pagsusuri ni Scott noong 1968 at ang pasya ng institute noong 2004. [curious] Pinagtatalunan pa kung si Marco lang ang gumawa, at bakit. [somber] Kathang-isip ang pamilya ko, ang laro, ang paaralan, si Ma'am, sina Bea at JM. [somber] Kathang-isip din kami nina M at Usman, ang lente at ang kuwaderno.
+
+INDIO: [curious] Teka, ang marker na araw-araw kong dinadaanan noon? [dramatic] Ang marker sa gate, anim na taon kong dinaanan, pero hindi ko binasa.
+
+INDIO: [suspense] Sa lente, nakita ko si Lolo na nagtatago ng lata sa ilalim ng batong maluwag.
+
+USMAN: [excited] Ayun ang kayamanan, tol, hukayin na natin!
+
+INDIO: [serious] Hindi puwede, para iyon sa akin sa panahon ko.
+
+INDIO: [somber] Bumalik kami sa taon ko ngayon, at gaya ng dati, naglaho si Usman sa liwanag.
+
+USMAN: [warm] Sa susunod na talon, par, nandito ulit ako.
+
+INDIO: [serious] Kinaumagahan, nagpaalam ako sa guard, at lumuhod sa paanan ng marker. [dramatic] Sa ilalim ng bato, may lumang lata, at sa loob, ang kuwaderno ni Lolo. [warm] Sa unang pahina, sulat-kamay niya: para sa apo kong marunong magtanong.
+
+M: [curious] Basahin mo ang marker, Indio, nang malakas.
+
+INDIO: [whisper] Binasa ko, para marinig ako ng nakaraan, at kusang may sumulat sa kuwaderno. [suspense] Mga barko, pahilaga, papunta sa isang emperador. [dramatic] Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.
 
 INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo. [curious] May itinuro ba sa'yo sa eskwela na hindi pala totoo? [excited] At mag-follow na kayo, guys, para sa dagdag lakas namin ni Usman sa susunod na talon!

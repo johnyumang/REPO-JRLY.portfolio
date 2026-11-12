@@ -1,5 +1,5 @@
 {
- "_note": "Episode 10 keyframes (same method as Episode 8). 2012 Quezon City through the lens. Grown-up Indio: grey t-shirt, jeans, NO medallion, red handkerchief on wrist, arm tattoos (count not drawn). The boy (Indio at ten) has NO tattoos and NO medallion; the Lolo wears the family bronze medallion (sun and triangle). M wears her own crescent-moon medallion and holds the red umbrella only in the 2012 view (umbrella_gate). Teacher and classmates are fictional and shown kindly. Real people (Marco, Scott, the panel, Aklan officials) appear only in frames copied from videos/kodigo-ni-kalantiaw (k04 chieftain, k10 textbooks, k17 marco, k20 archive, k21 scott_walk, k22 scott_glass, k23 crack, k28 panel, k30 class80s, k31 stamp, k34 aklan), resized to 768x1344. Copied from Episode 8: full intro, full m_medallion_hot, chars usman_growl. Character strings for new people (boy, Lolo, teacher, 2012 Indio) are written once here and pasted verbatim; they are not yet in characters/series_cast.json (the conductor may add them). Gamit of this episode (SERIES.md S2 row 2): the Lolo's notebook (lolo_hide, notebook_glow). Shot keys follow sentences.json; k50-k57 are extra keys used only in montages. No weapons.",
+ "_note": "Episode 10 keyframes, version 2 (Season 2 rules, 2026-11-12: about 5 minutes, multi-voice, at least 80 keyframes, action in every shot, varied framing, depth). Grown Indio: grey t-shirt, jeans, NO medallion, red handkerchief on wrist, arm tattoos (count not drawn). The boy (Indio at ten) has NO tattoos and NO medallion; the Lolo wears the family bronze medallion (sun and triangle). M wears her crescent-moon medallion. Teacher (GURO) and classmates (Bea, JM) are fictional and shown kindly. Real people (Marco, Scott, Pavón, the panel) appear only in frames copied from videos/kodigo-ni-kalantiaw (k04 chieftain, k09 teacher50s, k10 textbooks, k13 medal, k17 marco, k18 pavon_write, k19 manuscript, k20 archive, k21 scott_walk, k22 scott_glass, k23 crack, k25 pavon_cebu, k28 panel, k30 class80s, k31 stamp, k32 marco_night, k34 aklan), resized to 768x1344. Copied from Episode 8: full intro, full m_medallion_hot, chars usman_growl. Gamit of this episode: the Lolo's notebook in a tin under a loose stone at the foot of the school's marker (tin_stone, tin_open, notebook_page, notebook_glow). The free endpoint refuses prompts with the phrase 'Philippine public school classroom in 2012' and similar; use 'a bright classroom with wooden desks...'. Shot keys follow sentences.json (0-74); k80-k86 are extra keys used only in montages. Some earlier frames (indio_lens_modern, indio_soft, indio_resolve, m_silent, usman_happy, aklan) stay on disk but are not used in this version. No weapons.",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -40,164 +40,307 @@
   "ships_north": "at night under many stars, three ancient Southeast Asian wooden plank boats with outriggers and tall square woven-mat sails crossing a calm dark sea, small lanterns, seen from far away, mysterious and ancient, no European ships, nothing modern.",
   "pair_gate": "seen from behind at sunset, a lean young man in a grey t-shirt and jeans with a red handkerchief on his wrist and a black dog with one folded ear and a red kerchief, standing side by side outside the green gate of a Philippine public elementary school, long shadows, warm orange light.",
   "lolo_hide": "view through a round golden-rimmed lens: inside the circle, seen from the side, a thin grey-haired old Filipino grandfather in a faded white polo shirt, a round bronze medallion on a cord at his neck, reaching up and pushing a small brown notebook into a gap between old books on a high wooden library shelf; outside the circle dark.",
-  "notebook_glow": "close-up of a small worn brown notebook lying open in a young man's tattooed hands, on the blank page fresh ink lines are writing themselves with a soft golden glow, only illegible scribbled lines, a tiny drawn sailing boat, sparkles, dusk light."
+  "notebook_glow": "close-up of a small worn brown notebook lying open in a young man's tattooed hands, on the blank page fresh ink lines are writing themselves with a soft golden glow, only illegible scribbled lines, a tiny drawn sailing boat, sparkles, dusk light.",
+  "present_dig": "low angle from the ground at dawn, in the foreground a loose grey stone being lifted by two hands, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm kneeling at the foot of a dark metal historical marker on a stone stand inside a school gate, long shadows, the gate and an empty schoolyard behind.",
+  "title_run": "high angle down a long open-air school corridor with pillars and potted plants, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt running away from the camera with a book under his arm, sunlight stripes across the floor, deep perspective.",
+  "usman_tilt": "close-up, low angle, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, head tilted, one ear up, puzzled face, a swirl of golden light blurred behind him.",
+  "usman_dig_air": "medium shot, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck bouncing on his front paws and pawing at the dirt playfully, tail high, a green school gate blurred far behind.",
+  "m_umbrella_turn": "over the shoulder of a young man with a black topknot in the blurred foreground, facing a mysterious young Filipina woman in a long dark coat, a small round medallion engraved with a crescent moon at her neck who is closing a red umbrella and smiling faintly, golden light between them.",
+  "portal_gate": "wide high angle, a burst of golden light like swirling clock gears in front of a green school gate, a young man, a woman in a dark coat and a black dog with a red kerchief stepping out of it, a quiet street and trees behind.",
+  "qc_street": "wide long view down a busy Quezon City street in 2012 at noon, colourful jeepneys and tricycles in the foreground, overhead wires and acacia trees, a school wall in the middle distance, deep perspective, nothing readable.",
+  "indio_lens_ots": "seen from behind over his right shoulder, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, red handkerchief on his left wrist, indigo tattoos on his right forearm holding up a large round golden-rimmed magnifying lens in the foreground, through the glass a sunny schoolyard with a flagpole far away, the rest of the view softly blurred.",
+  "lens_timelapse": "view through a round golden-rimmed lens filling the frame: inside the circle a schoolyard with a flagpole, pupils in white uniforms smeared into motion streaks, clouds and sun racing across the sky; outside the circle dark.",
+  "lolo_boy_jeep": "two-shot inside the back of a jeepney, a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, faded white polo shirt, a round bronze medallion engraved with a sun and a triangle on a cord at his neck and a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt sitting side by side, the boy grinning and holding a hand-drawn map on paper, the old man pointing at it, city street streaming past the open back.",
+  "boy_shout": "low angle, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt jumping with one fist punched into the air, mouth open shouting with joy, bright blue sky and tree branches behind.",
+  "boy_run_park": "wide shot in a green park, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt running ahead along a stone path pulling a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, faded white polo shirt, a round bronze medallion engraved with a sun and a triangle on a cord at his neck by the hand, far away at the end of the path a dark metal historical marker on a stone stand, long sight line.",
+  "indio_marker_rain": "side view in heavy rain at night, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, soaked, reading aloud from a dark metal historical marker plaque under a small roof, streetlight glow. The plaque shows only illegible lines.",
+  "lolo_medallion_glow": "close-up of an old man's hand closing around a round bronze medallion engraved with a sun and a triangle that glows faintly gold, in the blurred background a small boy in a white school shirt reading aloud at a metal marker.",
+  "corridor_wide": "high angle wide shot of a long open-air school corridor on a Monday morning, pupils in white uniforms hurrying into classrooms, a flagpole and a flag in the yard beside it, strong perspective lines, morning sun.",
+  "bea_answer": "low angle from desk level, a Filipina schoolgirl about ten with two pigtails and a white school blouse standing up eagerly at her desk holding an open textbook high, proud smile, a bright classroom with wooden desks, a green chalkboard and open windows behind.",
+  "boy_closeup_eyes": "extreme close-up of the eyes and brows of a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt, determined and a little scared, a drop of sweat at his temple, blurred classroom behind.",
+  "jm_turn": "over the shoulder of a small boy in a white school shirt in the blurred foreground, a chubby Filipino schoolboy about ten with round glasses turning around in his seat with a curious puzzled face, a bright classroom with wooden desks, a green chalkboard and open windows.",
+  "teacher_take_book": "slightly high angle two-shot in a bright classroom with wooden desks, a green chalkboard and open windows, a young Filipina teacher in her late twenties, black hair in a neat bun, kind patient face, light blue blouse bending down to take an old worn book from the small hands of a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt, curious respectful look.",
+  "teacher_closeup": "close-up, low angle, a young Filipina teacher in her late twenties, black hair in a neat bun, kind patient face, light blue blouse, a warm proud smile, chalk dust floating in a beam of sunlight, chalkboard blurred behind.",
+  "kids_run_yard": "high angle wide shot of a sunny schoolyard, a group of pupils in white uniforms running and laughing around the flagpole, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt in the lead pointing toward a dark metal marker by the gate.",
+  "usman_whisper": "close-up, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, ears pricked, eyes sliding sideways, mouth half open as if whispering, in the blurred foreground the edge of a dark coat.",
+  "m_closeup": "extreme close-up of the eyes of a mysterious young Filipina woman in a long dark coat, a small round medallion engraved with a crescent moon at her neck under the rim of a red umbrella, calm and sad, in her eyes the faint reflection of a dark figure in a hat.",
+  "lolo_bed": "high angle at night in a small old house room, a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, faded white polo shirt, a round bronze medallion engraved with a sun and a triangle on a cord at his neck lying in a narrow bed under a thin blanket, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt sitting on a stool at the bedside holding his hand, a lamp glowing, long shadows.",
+  "lolo_bed_close": "tight two-shot close-up at night, a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, faded white polo shirt, a round bronze medallion engraved with a sun and a triangle on a cord at his neck lying on a pillow whispering into the ear of a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt who leans close, lamplight on both faces.",
+  "boy_sleepy": "medium shot at night, a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt resting his head on folded arms on the edge of a bed, eyes half closed, yawning, a lamp behind.",
+  "lola_box": "two-shot in a dim house room on a rainy day, a kind Filipina grandmother about sixty, black and grey hair in a low bun, round glasses, a floral house dress kneeling to hug a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt who is crying quietly, an empty wooden rocking chair behind them.",
+  "teen_work": "side view in the rain at a busy wet market, a lean Filipino teenage boy about sixteen with short black hair carrying a heavy sack on his shoulder, tired face, crowds and tarpaulins behind, nothing readable.",
+  "indio_realize": "in a sunny schoolyard with a flagpole behind, close-up of the face of a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, red handkerchief on his left wrist, indigo tattoos on his right forearm, eyes wide in sudden understanding, one hand lowering an old golden-rimmed lens from his eye, low angle.",
+  "gate_marker": "low angle wide shot just inside a green school gate, a dark metal historical marker plaque on a low stone stand in the foreground, a stream of pupils in white uniforms walking past it without looking, the gate and street behind, long sight line. The plaque shows only illegible lines.",
+  "tin_stone": "close-up of an old man's thin wrinkled hands sliding a small rusty tin box into a gap under a loose grey stone at the foot of a metal marker stand, soil and grass, afternoon light.",
+  "usman_dig": "low angle, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck digging furiously at the foot of a stone stand, soil flying behind him, tongue out, determined.",
+  "indio_stop": "at the foot of a stone marker stand in a schoolyard, two-shot, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, red handkerchief on his left wrist, indigo tattoos on his right forearm crouching and holding back a black dog with a red kerchief by the shoulders, the dog pawing at the dirt, the young man shaking his head with a small smile.",
+  "usman_fade": "high angle, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck dissolving into floating golden sparks from the tail up, looking up calmly, a young man's tattooed hand reaching toward him from the edge of the frame.",
+  "usman_wink": "close-up, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck winking one eye with a cheeky grin, half made of golden sparks, warm light.",
+  "guard_morning": "wide morning shot at a school gate, a friendly middle-aged security guard in a light blue uniform nodding and waving him in, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm walking past toward a metal marker inside, a woman in a dark coat waiting by the wall.",
+  "tin_open": "close-up of a young man's tattooed hands opening a small rusty tin box, inside it a small worn brown notebook tied with string, dust in morning light.",
+  "notebook_page": "close-up of the first page of a small worn brown notebook, faint wavy pencil scribbles that are not letters, a tiny hand-drawn star, a fresh drop of water on the page, morning light, no readable writing.",
+  "m_point": "over the shoulder of a young man in the blurred foreground, a mysterious young Filipina woman in a long dark coat, a small round medallion engraved with a crescent moon at her neck pointing toward a dark metal marker plaque, serious encouraging face, morning light in the schoolyard.",
+  "indio_read_marker": "in a schoolyard at morning, low angle from the ground, a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, red handkerchief on his left wrist, indigo tattoos on his right forearm standing before a dark metal marker plaque on a stone stand, reading it aloud with open mouth, holding a small open brown notebook that glows gold, sparks rising, school building behind. The plaque shows only illegible lines.",
+  "usman_return": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck leaping out of a swirl of golden light toward the viewer, ears flying, joyful, sparks everywhere.",
+  "finale_run": "low angle wide shot at a school gate, a young man in a grey t-shirt, a woman in a dark coat and a black dog with a red kerchief running together into a huge swirling golden portal of clock gears, long shadows, sunrise."
  },
  "shots": {
   "0": {
-   "full": "boy_hand"
+   "full": "present_dig"
   },
   "1": {
-   "full": "boy_portrait"
-  },
-  "2": {
    "full": "intro"
   },
-  "4": {
+  "2": {
+   "full": "title_run"
+  },
+  "3": {
    "full": "map_qc"
   },
+  "4": {
+   "full": "usman_tilt"
+  },
   "5": {
-   "char": "usman_happy",
+   "full": "usman_dig_air"
+  },
+  "6": {
+   "full": "m_umbrella_turn"
+  },
+  "7": {
+   "full": "portal_gate"
+  },
+  "8": {
+   "full": "qc_street"
+  },
+  "9": {
+   "full": "indio_lens_ots"
+  },
+  "10": {
+   "full": "lens_timelapse"
+  },
+  "11": {
+   "full": "boy_reading"
+  },
+  "12": {
+   "char": "indio_smirk",
+   "plate": "school_gate",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "13": {
+   "full": "lolo_boy_jeep"
+  },
+  "14": {
+   "full": "lolo_whisper"
+  },
+  "15": {
+   "full": "boy_shout"
+  },
+  "16": {
+   "full": "boy_run_park"
+  },
+  "17": {
+   "full": "lolo_marker"
+  },
+  "18": {
+   "full": "indio_marker_rain"
+  },
+  "19": {
+   "full": "lolo_medallion_glow"
+  },
+  "20": {
+   "full": "corridor_wide"
+  },
+  "21": {
+   "full": "teacher_question"
+  },
+  "22": {
+   "full": "bea_answer"
+  },
+  "23": {
+   "full": "textbooks"
+  },
+  "24": {
+   "full": "boy_hand"
+  },
+  "25": {
+   "full": "boy_closeup_eyes"
+  },
+  "26": {
+   "full": "jm_turn"
+  },
+  "27": {
+   "full": "scott_book"
+  },
+  "28": {
+   "full": "teacher_take_book"
+  },
+  "29": {
+   "full": "marco"
+  },
+  "30": {
+   "full": "manuscript"
+  },
+  "31": {
+   "full": "archive"
+  },
+  "32": {
+   "full": "class80s"
+  },
+  "33": {
+   "full": "scott_glass"
+  },
+  "34": {
+   "full": "pavon_cebu"
+  },
+  "35": {
+   "full": "panel"
+  },
+  "36": {
+   "full": "medal"
+  },
+  "37": {
+   "full": "teacher50s"
+  },
+  "38": {
+   "full": "stamp"
+  },
+  "39": {
+   "full": "teacher_library"
+  },
+  "40": {
+   "full": "blackboard"
+  },
+  "41": {
+   "full": "teacher_closeup"
+  },
+  "42": {
+   "full": "kids_run_yard"
+  },
+  "43": {
+   "full": "umbrella_gate"
+  },
+  "44": {
+   "full": "usman_whisper"
+  },
+  "45": {
+   "full": "m_closeup"
+  },
+  "46": {
+   "full": "lolo_bed"
+  },
+  "47": {
+   "full": "lolo_bed_close"
+  },
+  "48": {
+   "full": "boy_sleepy"
+  },
+  "49": {
+   "full": "empty_chair"
+  },
+  "50": {
+   "full": "lola_box"
+  },
+  "51": {
+   "full": "teen_work"
+  },
+  "52": {
+   "char": "usman_growl",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.85,
    "s": 0.55
   },
-  "6": {
-   "char": "indio_smirk",
-   "plate": "school_gate",
-   "x": 0.4,
-   "y": 0.4,
-   "s": 0.65
-  },
-  "7": {
-   "char": "indio_lens_modern",
-   "plate": "school_gate",
-   "x": 0.5,
-   "y": 0.4,
-   "s": 0.65
-  },
-  "8": {
-   "full": "boy_reading"
-  },
-  "9": {
-   "full": "lolo_marker"
-  },
-  "10": {
-   "full": "lolo_whisper"
-  },
-  "11": {
-   "char": "indio_soft",
-   "plate": "school_gate",
-   "x": 0.5,
-   "y": 0.4,
-   "s": 0.65
-  },
-  "12": {
-   "full": "teacher_question"
-  },
-  "13": {
-   "full": "textbooks"
-  },
-  "15": {
-   "full": "scott_book"
-  },
-  "16": {
-   "full": "marco"
-  },
-  "17": {
-   "full": "scott_glass"
-  },
-  "18": {
+  "53": {
    "full": "crack"
   },
-  "19": {
-   "full": "class80s"
+  "54": {
+   "full": "scott_walk"
   },
-  "20": {
-   "full": "teacher_library"
+  "55": {
+   "full": "marco_night"
   },
-  "21": {
-   "full": "blackboard"
-  },
-  "22": {
-   "full": "teacher_smile_boy"
-  },
-  "23": {
-   "full": "umbrella_gate"
-  },
-  "24": {
-   "char": "m_silent",
-   "plate": "school_gate",
-   "x": 0.6,
-   "y": 0.4,
-   "s": 0.65
-  },
-  "25": {
-   "char": "usman_growl",
-   "plate": "school_gate",
-   "x": 0.5,
-   "y": 0.9,
-   "s": 0.55
-  },
-  "26": {
-   "full": "stamp"
-  },
-  "27": {
-   "full": "aklan"
-  },
-  "29": {
-   "full": "empty_chair"
-  },
-  "30": {
-   "char": "indio_resolve",
-   "plate": "school_gate",
-   "x": 0.4,
-   "y": 0.4,
-   "s": 0.7,
-   "tint": [
-    1.08,
-    0.95,
-    0.85
-   ]
-  },
-  "31": {
+  "56": {
    "full": "lolo_hide"
   },
-  "32": {
+  "57": {
    "full": "pair_gate"
   },
-  "33": {
+  "58": {
+   "full": "indio_realize"
+  },
+  "59": {
+   "full": "gate_marker"
+  },
+  "60": {
+   "full": "tin_stone"
+  },
+  "61": {
+   "full": "usman_dig"
+  },
+  "62": {
+   "full": "indio_stop"
+  },
+  "63": {
+   "full": "usman_fade"
+  },
+  "64": {
+   "full": "usman_wink"
+  },
+  "65": {
+   "full": "guard_morning"
+  },
+  "66": {
+   "full": "tin_open"
+  },
+  "67": {
+   "full": "notebook_page"
+  },
+  "68": {
+   "full": "m_point"
+  },
+  "69": {
+   "full": "indio_read_marker"
+  },
+  "70": {
    "full": "notebook_glow"
   },
-  "34": {
+  "71": {
+   "full": "m_medallion_hot"
+  },
+  "72": {
    "char": "indio_point_modern",
    "plate": "school_gate",
    "x": 0.5,
    "y": 0.4,
    "s": 0.65
   },
-  "50": {
+  "73": {
+   "full": "boy_portrait"
+  },
+  "74": {
+   "full": "finale_run"
+  },
+  "80": {
    "full": "chieftain"
   },
-  "51": {
-   "full": "scott_walk"
+  "81": {
+   "full": "pavon_write"
   },
-  "52": {
-   "full": "archive"
-  },
-  "53": {
-   "full": "map_north"
-  },
-  "54": {
-   "full": "panel"
-  },
-  "55": {
+  "82": {
    "full": "ships_north"
   },
-  "56": {
-   "full": "m_medallion_hot"
+  "83": {
+   "full": "map_north"
   },
-  "57": {
+  "84": {
+   "full": "usman_return"
+  },
+  "85": {
+   "full": "teacher_smile_boy"
+  },
+  "86": {
    "plate": "school_gate"
   }
  }

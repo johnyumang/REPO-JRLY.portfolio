@@ -1,8 +1,9 @@
-# Captions — Episode 10 (Season 2, Episode 2): Batang Indio (Quezon City, about 2012)
+# Captions — Episode 10 (Season 2, Episode 2): Batang Indio (Quezon City, about 2012) — version 2 (about 5 minutes, multi-voice)
 
 ## Facebook (Reels)
 EPISODE 10: Pagkatapos ng Galilea, sumindi ang tuldok sa sarili niyang lungsod. Sa lente, nakita ni Indio ang sarili niya, Grade 5, nagtaas ng kamay: "Ma'am, hindi po totoo 'yon." 📖
 Ang Kodigo ni Kalantiaw, "isinulat noong 1433", ay lumitaw lang sa mga papeles ni José E. Marco (bandang 1913). Noong 1968, pinatunayan ni William Henry Scott na walang batayan ito. 2004, nagpasya ang National Historical Institute (inaprubahan 2005). Pero ilang dekada pa itong itinuro.
+At sa dulo ng laro nila ni Lolo na "hanapin ang marker", ang totoong kayamanan: ang kuwaderno ni Lolo.
 May itinuro ba sa'yo sa eskwela na hindi pala totoo? I-comment mo.
 Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase, si M, ang lente at ang kuwaderno ni Lolo.
 #HistoryIndio #Kalantiaw #KasaysayanNgPilipinas #PinoyAnime
