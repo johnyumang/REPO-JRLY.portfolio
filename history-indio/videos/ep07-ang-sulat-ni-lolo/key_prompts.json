@@ -1,5 +1,5 @@
 {
- "_note": "Episode 7 keyframes (same method as Episodes 2-6). Indio has NO medallion in every frame. Real people: Rizal is never shown (only a far grave mound); Narcisa and the 1898 group only from behind and far away, inside the lens circle. No body, no blood, no weapons. The lens is always a round golden-edged view. Memory shots of the Lolo are warm sepia. plates/field.jpg, full/intro.jpg and full/tattoo.jpg are copies from Episode 6 (tattoo shows five tattoos, still correct: no new one).",
+ "_note": "Episode 7 keyframes (same method as Episodes 2-6). Indio has NO medallion in every frame. Real people: Rizal is never shown (only a far grave mound); Narcisa and the 1898 group only from behind and far away, inside the lens circle. No body, no blood, no weapons. The lens is always a round golden-edged view. Memory shots of the Lolo are warm sepia. plates/field.jpg and full/intro.jpg are copies from Episode 6; full/tattoo is new and shows exactly five tattoos (no new one in Ep 6 or Ep 7). Shot keys follow the sentence numbers of sentences.json after the 2026-11-12 review; k50 (cart_far) and k51 (indio_calm) are extra keys used only inside montages (shots_fx 'keys').",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -12,7 +12,10 @@
  "plates": {
   "field": "(copied from Episode 6)",
   "paco_wall": "the outside foot of a tall old weathered circular stone cemetery wall in Manila in 1896, rows of small arched niches in the wall, tall grass and loose earth at its base, a few bare trees, overcast pale morning light, quiet and lonely.",
-  "lolo_room": "a small old Filipino house room at night, wooden walls, a capiz shell window, a low wooden bed with a thin blanket, a kerosene lamp glowing warm, soft sepia memory haze."
+  "lolo_room": "a small old Filipino house room at night, wooden walls, a capiz shell window, a low wooden bed with a thin blanket, a kerosene lamp glowing warm, soft sepia memory haze.",
+  "cave_star": "a dark storybook cave seen from inside, rough blue-grey rock walls framing an open space in the middle, one bright white star shining high above through an opening, faint sparkles, deep shadows, dreamy painted look, empty.",
+  "village_road": "a dirt road between nipa houses in an 1890s Philippine village at sunset, palm trees, long warm shadows, golden sky, no poles, no wires, no antennas, nothing modern, empty road.",
+  "sunset_wall": "a wide orange sunset over rice fields and palm trees in the Philippines, a low old stone wall across the bottom of the frame, warm glowing sky, nothing modern."
  },
  "chars": {
   "indio_lost": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, standing in morning mist, looking down at his own bare chest with a lost tired face, shoulders low.",
@@ -26,36 +29,38 @@
   "indio_whisper": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, close-up, whispering, eyes wet and wide, face lit by a dim phone screen at dusk.",
   "indio_calm": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, a calm small smile, arms crossed, looking at the far horizon, at peace.",
   "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, pointing at the viewer with a calm confident smile.",
-  "indio_fist": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, raising his right fist with a confident grin, his left hand holding up an old round golden-rimmed lens beside his face, nothing on his forehead."
+  "indio_fist": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, holding up a big clear round magnifying-glass lens with a thin gold rim in his left hand beside his face, his eye visible through the glass, his empty right fist raised, confident grin, no coin, no medallion, no pendant.",
+  "pair_walk": "seen from behind, full body, walking away side by side: a young man with black hair in a small topknot, a red cloth headband with two long tails hanging down his back, a loose white long-sleeved collarless shirt, dark loose cotton trousers and sandals, and beside his leg a black Philippine street dog with one folded ear and a red kerchief.",
+  "pair_sit": "seen from behind, sitting side by side on the ground: a young man with black hair in a small topknot, a red cloth headband with two long tails hanging down his back, a loose white long-sleeved collarless shirt, and beside him a black Philippine street dog with one folded ear and a red kerchief, sitting upright."
  },
  "full": {
   "intro": "(copied from Episode 6)",
-  "tattoo": "(copied from Episode 6)",
+  "tattoo": "close-up of one raised brown forearm, fist closed, rolled white sleeve, misty morning grass behind. On the forearm, five small indigo diamond tattoos in a single straight vertical column, spaced like the five dots on a domino line: 1, 2, 3, 4, 5. Exactly five diamonds, not three, not four, not six. No glow.",
   "phone_low": "extreme close-up of a brown hand holding a smartphone in misty morning light, the screen showing only a red almost-empty battery icon and a crossed-out signal icon, old stone walls blurred behind.",
   "phone_photo": "extreme close-up of a smartphone screen in a brown hand, showing one blurred photo thumbnail of an old yellowed handwritten letter, a small unread dot beside it, soft glow.",
   "box_lining": "close-up of an old empty wooden keepsake box with a round hollow inside, its faded red cloth lining lifted at one corner by an old woman's wrinkled fingers, a folded yellowed letter hidden underneath, warm lamp light.",
-  "cart_far": "seen from far behind on a misty dirt road at dawn in 1896, a closed dark horse-drawn carriage moving away, a few uniformed guards walking beside it, old stone walls and bare trees, solemn.",
+  "cart_far": "seen from far behind on a misty dirt road at dawn in 1896, a plain horse-drawn wagon pulled by two horses moving away, its load covered with dark cloth, a few Spanish colonial soldiers in pale blue-and-white striped rayadillo uniforms and white-covered caps walking beside it, hands empty, no weapons visible, old stone walls and bare trees, solemn, nothing modern.",
   "paco_far": "seen from far away across tall grass, an old circular stone cemetery wall with an open iron gate, inside a small mound of freshly turned earth with no marker, two uniformed guards standing far off, grey morning, solemn, no other people.",
   "letter": "extreme close-up of a smartphone screen showing a photo of an old yellowed letter written in elegant faded ink, only illegible scribbled lines, the phone held in a brown hand, dim light.",
-  "lolo_arm": "close-up of an old man's wrinkled brown forearm resting on a wooden table, five separate small indigo geometric tattoo marks spaced in a straight line from wrist to elbow, warm sepia memory light, no face in frame.",
-  "lolo_m": "warm sepia memory scene, seen from behind, a man in a loose white collarless shirt facing a young woman in a long dark coat holding a red umbrella, misty field at dawn, she holds out an open hand, faces not visible.",
+  "lolo_arm": "warm sepia close-up of an old man's thin bare forearm lying flat on a wooden table, no face in frame, along the forearm a straight row of 5 small indigo diamond tattoos, counted one two three four five, evenly spaced from wrist to elbow, exactly five and no more, soft lamp light.",
+  "lolo_m": "warm sepia memory scene, seen from behind an old-fashioned man in a loose white collarless shirt, facing a woman in a long dark 1890s coat and long skirt, her face hidden under a red umbrella tilted forward, one hand held out open, misty field at dawn, no tie, nothing modern, faces not visible.",
   "lolo_run": "warm sepia memory scene, a man in a loose white collarless shirt seen from behind running away into a swirl of golden light on a misty field, a red umbrella small and far behind him.",
   "lolo_bury": "warm sepia memory scene, close-up of two hands placing a small bundle wrapped in brown cloth into a hole at the foot of an old stone wall, loose earth, grass, no face in frame.",
   "lens": "close-up of a brown hand holding an old round glass lens with a worn golden rim, crumbs of dark earth on it, a glint of light across the glass, old stone wall blurred behind.",
   "lens_view": "view through a round golden-rimmed lens filling the frame: inside the circle only an empty old circular stone cemetery wall and grass under clouds streaking fast across the sky, no people, no faces, outside the circle dark and blurred.",
   "narcisa_far": "view through a round golden-rimmed lens: inside the circle, far away and seen from behind, a slim woman in a long dark 1890s Filipino skirt and a dark veil walking along old cemetery walls, looking at the ground, outside the circle dark.",
-  "rpj": "view through a round golden-rimmed lens: inside the circle, a small plain white marble slab lying on a mound of fresh earth, three small carved marks on it, wild grass, soft grey light, outside the circle dark.",
+  "rpj": "view through a round golden-rimmed lens: inside the circle, a small plain white marble slab lying on a mound of fresh earth, the three capital letters R P J simply carved on it, wild grass, soft grey light, outside the circle dark.",
   "lens_1898": "view through a round golden-rimmed lens: inside the circle, far away and seen from behind, a small group of people in 1890s clothes standing quietly by the cemetery wall in bright morning light, white flowers, outside the circle dark.",
   "park_today": "a round walled garden park in Manila today, an old circular stone wall with arched niches around a wide green lawn, neat paths, a few visitors far away, modern city towers behind, bright afternoon, no cross, no church, no religious statue.",
-  "memory_lolo": "warm sepia memory scene at night, an old grandfather sitting on a low bed holding a glowing bronze medallion up near his face with both hands, a small boy with empty hands half hidden behind the wooden door frame, watching, kerosene lamp light, soft haze.",
+  "memory_lolo": "warm sepia memory scene at night, an old grandfather sitting on a low bed holding a glowing bronze medallion up near his face with both hands, exactly one small boy, alone, with empty hands, half hidden behind the wooden door frame, watching, kerosene lamp light, soft haze.",
   "medallion_answer": "close-up of old wrinkled hands cupping an old round bronze medallion engraved with a sun and a triangle, a soft golden light rising from it like a breath, dark room, sepia haze.",
-  "datus": "dreamy storybook painting: twelve round bronze medallions floating in a dark cave in a circle, each glowing faintly with the small sleeping figure of a warrior curled inside, and one bright star high above them.",
+  "datus": "dreamy storybook painting, dark cave, one bright star high above. Twelve round bronze medallions floating apart in a big ring, arranged exactly like the twelve hour marks of a clock, twelve, not eight, not ten, no chain. Each medallion holds a tiny sleeping datu, a grown man in a red head cloth and dark vest curled asleep. No babies, no weapons, no clock hands, no numbers.",
   "shoes": "close-up of a pair of old black leather shoes lying on bare earth, a small scrap of yellowed paper crumbling to dust beside them, soft grey light, quiet.",
   "phone_dying": "extreme close-up of a smartphone screen in a brown hand at dusk, a photo of an old handwritten letter with illegible lines, a thin red battery bar at the top, the screen starting to dim.",
   "tala": "one bright golden star shining alone in a deep blue dusk sky above the dark top of an old stone wall, faint rays of light, quiet.",
   "phone_black": "a brown hand holding a smartphone with a completely black dead screen, the glass reflecting a few stars of the dusk sky, old stone wall blurred behind.",
-  "walk_away": "seen from behind, a young man in a loose white shirt with a red headband and a black dog with a red kerchief walking side by side down a long dirt road toward a small town of nipa houses at sunset, long shadows.",
-  "sit_wait": "seen from behind, a young man in a loose white shirt with a red headband and a black dog with a red kerchief sitting side by side on a low stone wall, watching a wide orange sunset over fields and palm trees."
+  "walk_away": "sunset, a dirt road between nipa houses in an 1890s Philippine village, palm trees, long shadows, nothing modern, no poles, no wires. Walking away down the road, seen from behind: a young man and his black dog side by side. The young man wears a loose white long-sleeved collarless shirt, dark loose trousers, sandals, a red headband with two long red tails hanging down his back, black hair in a small topknot. The black dog has one folded ear and a red kerchief.",
+  "sit_wait": "wide orange sunset over rice fields and palm trees, Philippines, warm sky. Seen from behind in the foreground, sitting side by side on a low stone wall: a young man and his black dog. The young man wears a loose white long-sleeved collarless shirt and a red headband with two long red tails, black hair in a small topknot. The black dog has one folded ear and a red kerchief, sitting upright next to him."
  },
  "shots": {
   "0": {
@@ -92,89 +97,86 @@
    "s": 0.6
   },
   "9": {
-   "full": "cart_far"
-  },
-  "10": {
    "full": "paco_far"
   },
-  "11": {
+  "10": {
    "char": "indio_open_phone",
    "plate": "paco_wall",
    "x": 0.4,
    "y": 0.55,
    "s": 0.65
   },
-  "12": {
+  "11": {
    "full": "letter"
   },
-  "13": {
+  "12": {
    "full": "lolo_arm"
   },
-  "14": {
+  "13": {
    "full": "lolo_m"
   },
-  "15": {
+  "14": {
    "full": "lolo_run"
   },
-  "16": {
+  "15": {
    "char": "indio_realize",
    "plate": "paco_wall",
    "x": 0.6,
    "y": 0.45,
    "s": 0.7
   },
-  "17": {
+  "16": {
    "full": "lolo_bury"
   },
-  "18": {
+  "17": {
    "char": "indio_bitter_smile",
    "plate": "paco_wall",
    "x": 0.3,
    "y": 0.45,
    "s": 0.7
   },
-  "20": {
+  "18": {
    "full": "lens"
   },
-  "21": {
+  "19": {
    "full": "lens_view"
   },
-  "22": {
+  "20": {
    "full": "narcisa_far"
   },
-  "23": {
+  "22": {
    "full": "rpj"
   },
-  "24": {
+  "23": {
    "full": "lens_1898"
   },
-  "25": {
+  "24": {
    "full": "park_today"
   },
-  "26": {
+  "25": {
    "char": "indio_lens",
    "plate": "paco_wall",
    "x": 0.5,
    "y": 0.45,
    "s": 0.7
   },
-  "28": {
+  "27": {
    "full": "memory_lolo"
   },
-  "29": {
+  "28": {
    "full": "medallion_answer"
   },
-  "30": {
+  "29": {
    "full": "datus"
   },
-  "31": {
+  "30": {
    "char": "usman_growl",
    "plate": "paco_wall",
    "x": 0.5,
    "y": 0.85,
    "s": 0.6
   },
-  "34": {
+  "33": {
    "full": "shoes"
   },
   "36": {
@@ -205,10 +207,20 @@
    "full": "walk_away"
   },
   "42": {
-   "char": "indio_calm",
-   "plate": "field",
+   "full": "sit_wait"
+  },
+  "43": {
+   "char": "indio_point",
+   "plate": "paco_wall",
    "x": 0.5,
-   "y": 0.45,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "45": {
+   "char": "indio_fist",
+   "plate": "field",
+   "x": 0.4,
+   "y": 0.4,
    "s": 0.7,
    "tint": [
     1.08,
@@ -216,21 +228,14 @@
     0.85
    ]
   },
-  "43": {
-   "full": "sit_wait"
+  "50": {
+   "full": "cart_far"
   },
-  "44": {
-   "char": "indio_point",
-   "plate": "paco_wall",
-   "x": 0.5,
-   "y": 0.5,
-   "s": 0.6
-  },
-  "46": {
-   "char": "indio_fist",
+  "51": {
+   "char": "indio_calm",
    "plate": "field",
-   "x": 0.4,
-   "y": 0.4,
+   "x": 0.5,
+   "y": 0.45,
    "s": 0.7,
    "tint": [
     1.08,

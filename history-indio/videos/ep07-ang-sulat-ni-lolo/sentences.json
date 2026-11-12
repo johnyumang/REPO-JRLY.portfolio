@@ -16,7 +16,7 @@
  {
   "text": "Samahan mo akong mag-time travel, at tuklasin ang history natin.",
   "say": "samahan mo akong mag-taym trabel, at tuklasin ang histori natin.",
-  "style": "",
+  "style": "warm",
   "pre": 0,
   "pause": 0.62
  },
@@ -28,15 +28,15 @@
   "pause": 0.3
  },
  {
-  "text": "Walang medalyon, walang daan pauwi.",
-  "say": "walang medalyon, walang daan pauwi.",
-  "style": "",
+  "text": "Walang medalyon, dehins makauwi.",
+  "say": "walang medalyon, dehins makauwi.",
+  "style": "somber",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Phone ko, walang signal, siyam na porsyento, sheesh.",
-  "say": "pon ko, walang signal, siyam na porsyento, shiish.",
+  "text": "Phone ko, nine percent, sheesh.",
+  "say": "pon ko, nayn persent, shiish.",
   "style": "playful",
   "pre": 0,
   "pause": 0.3
@@ -49,8 +49,8 @@
   "pause": 0.3
  },
  {
-  "text": "Sulat ni Lolo, nakatago sa ilalim ng sapin ng kahong walang laman.",
-  "say": "sulat ni lolo, nakatago sa ilalim ng sapin ng kahong walang laman.",
+  "text": "Caption niya: sulat ni Lolo, nasa sapin ng kahong iniwan ko kay Lola.",
+  "say": "kapsyon niya: sulat ni lolo, nasa sapin ng kahong iniwan ko kay lola.",
   "style": "serious",
   "pre": 0,
   "pause": 0.62
@@ -59,13 +59,6 @@
   "text": "Tumakbo si Usman, sinusundan ang karwahe at mga guwardiya.",
   "say": "tumakbo si usman, sinusundan ang karwahe at mga guwardiya.",
   "style": "curious",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Aso nga pala siya ni Pepe.",
-  "say": "aso nga pala siya ni pepe.",
-  "style": "warm",
   "pre": 0,
   "pause": 0.3
  },
@@ -84,15 +77,15 @@
   "pause": 0.3
  },
  {
-  "text": "Sabi sa sulat: Mahal kong José Indalecio, ang apo kong tinatawag naming Indio.",
-  "say": "sabi sa sulat: mahal kong hose indalesyo, ang apo kong tinatawag naming indio.",
+  "text": "Mahal kong José Indalecio Bracken, ang apo kong tinatawag naming Indio.",
+  "say": "mahal kong hose indalesyo braken, ang apo kong tinatawag naming indio.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Lima rin ang talon ko, lima ang marka.",
-  "say": "lima rin ang talon ko, lima ang marka.",
+  "text": "Lima ang talon ko, lima ang marka.",
+  "say": "lima ang talon ko, lima ang marka.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
@@ -119,23 +112,16 @@
   "pause": 0.3
  },
  {
-  "text": "May ibinaon ako sa paanan ng pader, para sa apong susunod sa akin.",
-  "say": "may ibinaon ako sa paanan ng pader, para sa apong susunod sa akin.",
+  "text": "Bago umuwi, may ibinaon ako sa paanan ng pader, para sa apong susunod sa akin.",
+  "say": "bago umuwi, may ibinaon ako sa paanan ng pader, para sa apong susunod sa akin.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Hindi pala ako basta naloko, tol.",
-  "say": "hindi pala ako basta naloko, tol.",
+  "text": "Minana ko pala ang tinakbuhan ni Lolo.",
+  "say": "minana ko pala ang tinakbuhan ni lolo.",
   "style": "somber",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Minana ko ang tinakbuhan ni Lolo.",
-  "say": "minana ko ang tinakbuhan ni lolo.",
-  "style": "",
   "pre": 0,
   "pause": 0.62
  },
@@ -161,8 +147,15 @@
   "pause": 0.3
  },
  {
-  "text": "Nahanap niya ang bagong hukay, may bantay, at ipinamarka ito ng baligtad na inisyal ni Rizal, RPJ.",
-  "say": "nahanap niya ang bagong hukay, may bantay, at ipinamarka ito ng baligtad na inisyal ni risal, ar pi jey.",
+  "text": "Nahanap niya ang bagong hukay, may bantay.",
+  "say": "nahanap niya ang bagong hukay, may bantay.",
+  "style": "serious",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Kalaunan, may tanda na: RPJ, baligtad na inisyal ni Rizal.",
+  "say": "kalaunan, may tanda na: ar pi jey, baligtad na inisyal ni risal.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3
@@ -175,23 +168,23 @@
   "pause": 0.3
  },
  {
-  "text": "Paco Park na ito ngayon.",
-  "say": "pako park na ito ngayon.",
-  "style": "",
+  "text": "Paco Park na ngayon.",
+  "say": "pako park na ngayon.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Totoo lang ang pinapakita ng lente.",
-  "say": "totoo lang ang pinapakita ng lente.",
+  "text": "Katotohanan lang ang ipinapakita ng lente.",
+  "say": "katotohanan lang ang ipinapakita ng lente.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Malabo ang alamat, at hindi ako makakakilos.",
-  "say": "malabo ang alamat, at hindi ako makakakilos.",
-  "style": "",
+  "text": "Malabo ang alamat, at manonood lang ako.",
+  "say": "malabo ang alamat, at manonood lang ako.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
@@ -205,13 +198,13 @@
  {
   "text": "Akala ko dasal, pero may sumagot.",
   "say": "akala ko dasal, pero may sumagot.",
-  "style": "",
+  "style": "whisper",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Kuwento niya bago matulog: labindalawang datung natutulog sa tanso, at ang Huling Tala.",
-  "say": "kuwento niya bago matulog: labindalawang datung natutulog sa tanso, at ang huling tala.",
+  "text": "Kuwento niya bago matulog: labindalawang datu, natutulog sa tanso, at ang Huling Tala.",
+  "say": "kuwento niya bago matulog: labindalawang datu, natutulog sa tanso, at ang huling tala.",
   "style": "warm",
   "pre": 0,
   "pause": 0.62
@@ -238,22 +231,29 @@
   "pause": 0.3
  },
  {
-  "text": "Mahina: ang papel daw sa sapatos niya.",
-  "say": "mahina: ang papel daw sa sapatos niya.",
+  "text": "Mahina: ang papel sa sapatos ni Rizal.",
+  "say": "mahina: ang papel sa sapatos ni risal.",
   "style": "curious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Kathang-isip: si Lolo, ang sulat, ang lente, si M, ang mga datu.",
-  "say": "kathang-isip: si lolo, ang sulat, ang lente, si m, ang mga datu.",
+  "text": "Kathang-isip: kami ni Usman, si Lolo at ang kuwento niya, ang sulat at lente, si M, ang Huling Tala.",
+  "say": "kathang-isip: kami ni usman, si lolo at ang kuwento niya, ang sulat at lente, si em, ang huling tala.",
   "style": "somber",
+  "pre": 0,
+  "pause": 0.3
+ },
+ {
+  "text": "Sa totoo, walang kilalang inapo si Rizal.",
+  "say": "sa totoo, walang kilalang inapo si risal.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.62
  },
  {
-  "text": "Huling linya: hintayin mo siya sa Kawit, sa araw ng watawat.",
-  "say": "huling linya: hintayin mo siya sa kawit, sa araw ng watawat.",
+  "text": "Huling linya: hintayin mo ang babae sa Kawit, sa araw ng kalayaan.",
+  "say": "huling linya: hintayin mo ang babae sa kawit, sa araw ng kalayaan.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.3
@@ -268,7 +268,7 @@
  {
   "text": "Ang Huling Tala.",
   "say": "ang huling tala.",
-  "style": "",
+  "style": "whisper",
   "pre": 0,
   "pause": 0.3
  },
@@ -287,23 +287,16 @@
   "pause": 0.3
  },
  {
-  "text": "Labingwalong buwan pa ang Hunyo 1898.",
-  "say": "labingwalong buwan pa ang hunyo mil otsosyentos nobentay otso.",
-  "style": "",
+  "text": "Mahigit labimpitong buwan pa ang Hunyo 1898.",
+  "say": "mahigit labimpitong buwan pa ang hunyo mil otsosyentos nobentay otso.",
+  "style": "serious",
   "pre": 0,
   "pause": 0.3
  },
  {
-  "text": "Chill lang.",
-  "say": "tsil lang.",
+  "text": "Chill lang, maghihintay kami ni Usman.",
+  "say": "tsil lang, maghihintay kami ni usman.",
   "style": "warm",
-  "pre": 0,
-  "pause": 0.3
- },
- {
-  "text": "Maghihintay kami ni Usman.",
-  "say": "maghihintay kami ni usman.",
-  "style": "",
   "pre": 0,
   "pause": 0.62
  },
