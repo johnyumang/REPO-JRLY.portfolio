@@ -1,0 +1,443 @@
+{
+"0": {
+"fx": [
+"punch",
+"flash"
+],
+"framing": "M-wide",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+0,
+80
+]
+},
+"1": {
+"fx": [],
+"framing": "M",
+"move": "push_in"
+},
+"2": {
+"fx": [],
+"framing": "very-wide",
+"move": "crane_down",
+"depth": "strong"
+},
+"3": {
+"fx": [],
+"framing": "wide",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+3,
+90
+]
+},
+"4": {
+"fx": [],
+"framing": "M-low",
+"move": "rack_focus",
+"depth": "strong",
+"keys": [
+4,
+95
+]
+},
+"5": {
+"fx": [],
+"framing": "wide-dream",
+"move": "crane_up",
+"depth": "strong"
+},
+"6": {
+"fx": [
+"sparkle"
+],
+"framing": "ECU",
+"move": "push_in"
+},
+"7": {
+"fx": [
+"aura_gold",
+"flash"
+],
+"framing": "low-wide",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+7,
+81
+]
+},
+"8": {
+"fx": [
+"sparkle"
+],
+"framing": "action",
+"move": "push_in"
+},
+"9": {
+"fx": [],
+"framing": "CU-comic",
+"move": "push_in",
+"keys": [
+9,
+91
+]
+},
+"10": {
+"fx": [],
+"framing": "low-CU",
+"move": "push_in"
+},
+"11": {
+"fx": [],
+"framing": "very-wide",
+"move": "crane_down",
+"depth": "strong"
+},
+"12": {
+"fx": [],
+"framing": "M",
+"move": "pan_left"
+},
+"13": {
+"fx": [],
+"framing": "CU",
+"move": "pan_right",
+"keys": [
+13,
+83
+]
+},
+"14": {
+"fx": [],
+"framing": "wide-deep",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+14,
+82
+]
+},
+"15": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"16": {
+"fx": [],
+"framing": "M-warm",
+"move": "pan_right"
+},
+"17": {
+"fx": [],
+"framing": "high",
+"move": "crane_down",
+"depth": "strong"
+},
+"18": {
+"fx": [],
+"framing": "two",
+"move": "orbit_left",
+"depth": "strong"
+},
+"19": {
+"fx": [],
+"framing": "ECU",
+"move": "push_in"
+},
+"20": {
+"fx": [
+"aura_gold"
+],
+"framing": "CU",
+"move": "rack_focus",
+"depth": "strong"
+},
+"21": {
+"fx": [],
+"framing": "ECU",
+"move": "push_in"
+},
+"22": {
+"fx": [],
+"framing": "wide-behind",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+22,
+92
+]
+},
+"23": {
+"fx": [],
+"framing": "wide-memory",
+"move": "dolly_out",
+"depth": "strong"
+},
+"24": {
+"fx": [
+"sparkle"
+],
+"framing": "CU",
+"move": "push_in"
+},
+"25": {
+"fx": [],
+"framing": "ECU",
+"move": "push_in"
+},
+"26": {
+"fx": [],
+"framing": "CU",
+"move": "rack_focus",
+"depth": "strong"
+},
+"27": {
+"fx": [],
+"framing": "wide",
+"move": "orbit_right",
+"depth": "strong"
+},
+"28": {
+"fx": [],
+"framing": "M-gate",
+"move": "push_in"
+},
+"29": {
+"fx": [],
+"framing": "M",
+"move": "push_in",
+"keys": [
+29,
+88
+]
+},
+"30": {
+"fx": [],
+"framing": "CU",
+"move": "pan_left"
+},
+"31": {
+"fx": [],
+"framing": "ECU-tears",
+"move": "push_in"
+},
+"32": {
+"fx": [],
+"framing": "two-close",
+"move": "orbit_left",
+"depth": "strong"
+},
+"33": {
+"fx": [],
+"framing": "ECU",
+"move": "push_in"
+},
+"34": {
+"fx": [],
+"framing": "low",
+"move": "tilt_up",
+"keys": [
+34,
+89
+]
+},
+"35": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"36": {
+"fx": [
+"sparkle"
+],
+"framing": "wide",
+"move": "dolly_out",
+"depth": "strong"
+},
+"37": {
+"fx": [],
+"framing": "wide-memory",
+"move": "pan_right"
+},
+"38": {
+"fx": [],
+"framing": "low-CU",
+"move": "push_in",
+"keys": [
+38,
+86
+]
+},
+"39": {
+"fx": [],
+"framing": "CU-hands",
+"move": "push_in"
+},
+"40": {
+"fx": [],
+"framing": "low",
+"move": "crane_up",
+"depth": "strong"
+},
+"41": {
+"fx": [
+"sparkle"
+],
+"framing": "far-wide",
+"move": "dolly_in",
+"depth": "strong",
+"keys": [
+41,
+84
+]
+},
+"42": {
+"fx": [],
+"framing": "M-deep",
+"move": "dolly_in",
+"depth": "strong"
+},
+"43": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"44": {
+"fx": [],
+"framing": "two",
+"move": "orbit_right",
+"depth": "strong"
+},
+"45": {
+"fx": [],
+"framing": "ECU",
+"move": "rack_focus",
+"depth": "strong"
+},
+"46": {
+"fx": [
+"shake"
+],
+"framing": "wide",
+"move": "crane_up",
+"depth": "strong",
+"keys": [
+46,
+85
+]
+},
+"47": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"48": {
+"fx": [],
+"framing": "two-close",
+"move": "push_in"
+},
+"49": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"50": {
+"fx": [],
+"framing": "M",
+"move": "push_in"
+},
+"51": {
+"fx": [],
+"framing": "M-warm",
+"move": "pan_right"
+},
+"52": {
+"fx": [],
+"framing": "top",
+"move": "pan_right"
+},
+"53": {
+"fx": [],
+"framing": "wide-night",
+"move": "crane_down",
+"depth": "strong",
+"keys": [
+53,
+87
+]
+},
+"54": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"55": {
+"fx": [],
+"framing": "wide",
+"move": "dolly_out",
+"depth": "strong",
+"keys": [
+55,
+93
+]
+},
+"56": {
+"fx": [],
+"framing": "two-close",
+"move": "dolly_in",
+"depth": "strong"
+},
+"57": {
+"fx": [],
+"framing": "two-comic",
+"move": "pan_left"
+},
+"58": {
+"fx": [],
+"framing": "CU",
+"move": "push_in"
+},
+"59": {
+"fx": [
+"sparkle"
+],
+"framing": "wide",
+"move": "dolly_out",
+"depth": "strong",
+"keys": [
+59,
+94
+]
+},
+"60": {
+"fx": [
+"sparkle"
+],
+"framing": "low",
+"move": "crane_up",
+"depth": "strong"
+},
+"61": {
+"fx": [],
+"framing": "M-direct",
+"move": "push_in"
+},
+"62": {
+"fx": [],
+"framing": "two",
+"move": "orbit_left",
+"depth": "strong"
+},
+"63": {
+"fx": [
+"sparkle",
+"punch"
+],
+"framing": "wide-silhouette",
+"move": "dolly_out",
+"depth": "strong"
+}
+}
