@@ -14,6 +14,6 @@ Ucayali, Peru. isang gabi, isang ahas na kasinlaki ng ilog, at isang pinto na na
 S3 EP 26: Ang Baging ng mga Kaluluwa
 Kung may makikita kang isang sagot, pero kapalit ang dating sugat, susubukan mo pa ba? 🌿
 
-Ang mga karanasan ay ayon sa mga pag-aaral. Kathang-isip sina Indio, M, Usman at Maestra Adela. Huwag gayahin: mapanganib, at sa Pilipinas, bawal ang pangunahing sangkap nito (RA 9165).
+Ang mga karanasan ay ayon sa mga pag-aaral. Kathang-isip sina Indio, M, Usman at Maestra Adela; kuwentong-bayan ng Samar ang Biringan. Huwag gayahin: mapanganib, at sa Pilipinas, bawal ang pangunahing sangkap nito (RA 9165).
 
 #HistoryIndio #Biringan #PinoyAnime
