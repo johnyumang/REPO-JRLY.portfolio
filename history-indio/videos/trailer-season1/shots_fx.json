@@ -1,0 +1,17 @@
+{
+"0": {"fx": ["sparkle"], "move": "push_in", "keys": [0, 1]},
+"1": {"fx": [], "move": "push_in", "key": 2},
+"2": {"fx": ["sparkle"], "move": "push_in", "keys": [3, 4]},
+"3": {"fx": [], "move": "push_in", "keys": [5, 6]},
+"4": {"fx": ["punch"], "move": "push_in", "keys": [7, 8, 9], "cards": ["1896 · PUGAD LAWIN", "1762 · MAYNILA", "1898 · KAWIT"]},
+"5": {"fx": [], "move": "push_in", "keys": [10, 11], "cards": ["1869 · CALAMBA", "1898 · PARIS"]},
+"6": {"fx": [], "move": "push_in", "key": 12, "cards": ["1896 · BAGUMBAYAN"], "quiet": true},
+"7": {"fx": [], "move": "push_in", "key": 13},
+"8": {"fx": [], "move": "pan_left", "key": 14},
+"9": {"fx": [], "move": "push_in", "key": 15},
+"10": {"fx": ["shake"], "move": "pull_out", "key": 16},
+"11": {"fx": ["aura_gold", "sparkle"], "move": "push_in", "key": 17},
+"12": {"fx": ["sparkle"], "move": "push_in", "key": 18},
+"13": {"fx": [], "move": "pull_out", "key": 19},
+"trans": {"12": "dissolve", "13": "dissolve"}
+}
