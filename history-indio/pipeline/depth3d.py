@@ -103,41 +103,53 @@ def camera(move, e):
     return c
 
 
-def frame3d(L, e, t, move, fx, W, H, XX, YY, zoom_extra=1.0, focus=(0.5, 0.5), dof=None, focus_to='near', shake=(0.0, 0.0)):
-    """one frame (float32 BGR, before glow/particles/vignette), the near layer's sampling maps, and source px per output px."""
+_GRID = {}
+
+
+def _grid(W, H, f=4):
+    """output pixel coordinates sampled every f px (pixel centres line up with cv2.resize's bilinear upsampling)."""
+    if (W, H) not in _GRID:
+        xs = (np.arange(W // f, dtype=np.float32) + 0.5) * f - 0.5; ys = (np.arange(H // f, dtype=np.float32) + 0.5) * f - 0.5
+        _GRID[W, H] = np.meshgrid(xs, ys)
+    return _GRID[W, H]
+
+
+def frame3d(L, e, t, move, fx, W, H, zoom_extra=1.0, focus=(0.5, 0.5), dof=None, focus_to='near', shake=(0.0, 0.0)):
+    """one frame (float32 BGR, before glow/particles/vignette), the near layer's sampling maps, and source px per output px.
+    The sampling maps are smooth (each layer's depth is smoothed), so they are computed at quarter size and upsampled."""
     ih, iw = L['bg'].shape[:2]; fit = min(iw / W, ih / H); c = camera(move, e)
-    z = c['z'] * zoom_extra; s = fit / z
-    if 'punch' in fx and t < 0.2: z *= 1 + 0.10 * (1 - t / 0.2) ** 2; s = fit / z
-    w, h = W * s, H * s
+    z = c['z'] * zoom_extra
+    if 'punch' in fx and t < 0.2: z *= 1 + 0.10 * (1 - t / 0.2) ** 2
+    s = fit / z; w, h = W * s, H * s
     fxp = focus[0] if focus != (0.5, 0.5) else 0.5 + (L['cx'] - 0.5) * 0.35                  # lean the frame toward the subject
-    x0 = np.clip((iw - w) * (fxp + c['px'] * 0.9), 0, iw - w); y0 = np.clip((ih - h) * (focus[1] + c['py'] * 0.9), 0, ih - h)
-    x0 += shake[0]; y0 += shake[1]
-    cxo = np.clip((L['cx'] * iw - x0) / s, W * 0.25, W * 0.75); cyo = np.clip((L['cy'] * ih - y0) / s, H * 0.3, H * 0.7)   # growth centre = subject on screen
+    x0 = float(np.clip((iw - w) * (fxp + c['px'] * 0.9), 0, iw - w)) + shake[0]
+    y0 = float(np.clip((ih - h) * (focus[1] + c['py'] * 0.9), 0, ih - h)) + shake[1]
+    cxo = float(np.clip((L['cx'] * iw - x0) / s, W * 0.25, W * 0.75)); cyo = float(np.clip((L['cy'] * ih - y0) / s, H * 0.3, H * 0.7))   # growth centre = subject on screen
     q0 = L['q_subj'] if c['piv'] == 'subj' else L['q_far']
-    bx = (x0 + XX * s).astype(np.float32); by = (y0 + YY * s).astype(np.float32)
-    # rack focus / depth of field: blur amount per layer from its distance to the focus depth
-    qf = None
+    XX, YY = _grid(W, H); bx = x0 + XX * s; by = y0 + YY * s
+    qf = None                                                                                # rack focus / depth of field: blur by distance to the focus depth
     if move == 'rack_focus':
         a0, a1 = (L['q_far'], L['q_subj']) if focus_to == 'near' else (L['q_subj'], L['q_far'])
         qf = a0 + (a1 - a0) * min(1.0, max(0.0, (e - 0.15) / 0.7))
     elif dof in ('far', 'near'): qf = L['q_subj'] if dof == 'far' else L['q_far']
+    up = lambda m: cv2.resize(m, (W, H), interpolation=cv2.INTER_LINEAR)
     out = []
     for lay in ('bg', 'fg'):
-        q = cv2.remap(L['d' + lay], bx, by, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
-        r = q - q0
-        g = (1 + c['fov']) * (1 + c['k'] * r)                                               # per-pixel magnification
+        r = cv2.remap(L['d' + lay], bx, by, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE) - q0
+        g = (1 + c['fov']) * (1 + c['k'] * r)                                               # per-pixel magnification: near grows faster
         X = cxo + (XX - cxo) / g - c['tx'] * W * r; Y = cyo + (YY - cyo) / g - c['ty'] * H * r
         if c['key']: Y = Y - (YY - H / 2) * c['key'] * (XX / W - 0.5)                          # slight yaw keystone: the near side of the arc grows taller
         if c.get('tilt'): X = X - (XX - W / 2) * c['tilt'] * (YY / H - 0.5)                    # slight pitch keystone
-        if 'water' in fx and lay == 'bg':
+        if 'water' in fx and lay == 'bg':                                                    # shimmer on the far lower part (the sea)
             wm = np.clip((YY / H - 0.45) * 3, 0, 1) * np.clip(0.3 - r, 0, 1) * 1.6
-            X = X + wm * 3.2 * np.sin(YY * 0.045 * s + t * 2.6); Y = Y + wm * 2.2 * np.sin(XX * 0.02 * s + YY * 0.06 * s + t * 3.1)
-        mx = (x0 + X * s).astype(np.float32); my = (y0 + Y * s).astype(np.float32)
-        img = cv2.remap(L[lay], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32)
+            X = X + wm * 3.2 * np.sin(YY * 0.045 + t * 2.6); Y = Y + wm * 2.2 * np.sin(XX * 0.02 + YY * 0.06 + t * 3.1)
+        mx = up((x0 + X * s).astype(np.float32)); my = up((y0 + Y * s).astype(np.float32))
+        img = cv2.remap(L[lay], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
         if qf is not None:
-            bw = np.clip(np.abs(q - qf) * 2.6 - 0.15, 0, 1 if move == 'rack_focus' else 0.6)[..., None]
-            if bw.max() > 0.01: img = img + (cv2.remap(L[lay + 'b'], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32) - img) * bw
+            bw = np.clip(np.abs(r + q0 - qf) * 2.6 - 0.15, 0, 1 if move == 'rack_focus' else 0.6).astype(np.float32)
+            if bw.max() > 0.01:
+                bw = up(bw); img = cv2.blendLinear(img, cv2.remap(L[lay + 'b'], mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT), 1 - bw, bw)
         out.append((img, mx, my))
     (bg, _, _), (fg, mfx, mfy) = out
-    a = fg[..., 3:4] / 255
-    return bg + (fg[..., :3] - bg) * a, mfx, mfy, s
+    a = fg[..., 3].astype(np.float32) * (1 / 255)
+    return cv2.blendLinear(fg[..., :3], bg, a, 1 - a).astype(np.float32), mfx, mfy, s

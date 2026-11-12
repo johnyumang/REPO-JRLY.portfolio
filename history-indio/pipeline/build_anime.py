@@ -93,7 +93,7 @@ def frame_3d(L3, e, t, move, fx, zoom_extra, focus, seed):
     sh = (0.0, 0.0)
     if 'shake' in fx and t < 0.6: rng = np.random.default_rng(seed + int(t * fps)); k = (1 - t / 0.6) ** 2 * 16; sh = (rng.normal() * k, rng.normal() * k)
     dof = next((f[4:] for f in fx if f.startswith('dof:')), None); to = 'far' if 'rack:far' in fx else 'near'
-    fr, mx, my, s = depth3d.frame3d(L3, e, t, move, fx, W, H, XX, YY, zoom_extra, focus, dof, to, sh)
+    fr, mx, my, s = depth3d.frame3d(L3, e, t, move, fx, W, H, zoom_extra, focus, dof, to, sh)
     fr += glow3d(fr) * (0.30 + 0.22 * np.sin(t * 2.3))
     return fr, mx, my, s
 
