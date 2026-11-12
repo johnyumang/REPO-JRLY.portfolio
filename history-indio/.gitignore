@@ -5,3 +5,15 @@ __pycache__/
 videos/*/keys/build/
 videos/*/keys/depth/
 *.mp3
+# voice clone (pipeline/voice_clone): the user's recording, baseline and every generated take stay out of the repo
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.opus
+*.webm
+*.mov
+*.npy
+real_ep1.json
+voice_timings.json
+voice_work/

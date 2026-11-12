@@ -1,0 +1,25 @@
+{
+ "_about": "Numbers measured on the user's own Episode 1 recording (the real Indio voice, videos/ep01-ang-unang-talon). Sentence ids are indexes into baseline/real_ep1.json, i.e. the sentences of ep01 script_elevenlabs.txt in order (42). A new reference recording needs a new profile: re-measure every field as its note says.",
+ "_notes": {
+  "prompts": "tone -> real sentence ids used as the continuation prompt in mode U (the LAST id sets the tone). Chosen by hand on 2026-11-12 from real sentences read in that tone (baseline rows: clean words, clean end); for a new recording re-pick by tone tag and by ear. 'follow' is the closing follow line.",
+  "refs": "timbre reference ids for both modes: about 12 s of calm narration, joined with 0.38 s pauses.",
+  "level_db": "per-tone speech level of the real recording (dB RMS of the word-aligned speech body, sentences grouped by tone tag), used by assemble.py to set each chunk.",
+  "level_default_db": "level for a tone not in level_db.",
+  "f0_window_hz": "per-tone range of the sentence-median pitch (f0 field of real_ep1.json, grouped by tone). qcsel accepts a take from 15% below to 10% above the window.",
+  "target_rate_syl_s": "mean speaking rate of the real recording (syllables per second over sentences longer than 1.2 s; sd 0.78).",
+  "max_edits": "real-recording p90 of vqc.edits (spelling-insensitive edit distance between script and Whisper): 32 of 37 sentences at 0, 5 at 1.",
+  "target_lufs": "integrated loudness of the real recording (ffmpeg ebur128).",
+  "centroid_sentence_ids": "10 longer sentences whose speaker embeddings (spans from ep01 timings.json) are averaged into real_centroid.npy."
+ },
+ "prompts": {"excited": [23, 26], "triumphant": [25, 26], "warm": [8, 38], "playful": [29, 19], "serious": [24, 25], "curious": [14, 31], "dramatic": [20, 23], "suspenseful": [12, 22],
+             "sad": [7, 10], "whispers": [27, 39], "narrate": [8, 14], "follow": [41]},
+ "refs": [7, 8, 9, 10],
+ "level_db": {"dramatic": -15.4, "serious": -16.5, "narrate": -16.6, "playful": -17.0, "sad": -19.7, "suspenseful": -16.0, "whispers": -22.8, "triumphant": -13.8, "excited": -14.6, "curious": -17.0, "warm": -17.9},
+ "level_default_db": -16.8,
+ "f0_window_hz": {"dramatic": [124, 169], "serious": [102, 136], "narrate": [109, 139], "playful": [110, 181], "sad": [103, 118], "suspenseful": [105, 119], "whispers": [91, 133],
+                  "excited": [134, 199], "triumphant": [134, 199], "curious": [131, 148], "warm": [105, 135]},
+ "target_rate_syl_s": 5.85,
+ "max_edits": 1,
+ "target_lufs": -17.4,
+ "centroid_sentence_ids": [0, 2, 9, 14, 20, 23, 25, 27, 33, 38]
+}

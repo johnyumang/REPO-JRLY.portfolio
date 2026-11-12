@@ -49,7 +49,13 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
 
 ## Fixed rules (do not break)
 - No paid APIs. Never ask for secrets in chat. Never commit MP4s or voice files.
-- The user records the voice in ElevenLabs and uploads the MP3. Never clone or imitate a voice.
+- Voice (user, 2026-11-12, replaces "record in ElevenLabs, never clone"): Indio's voice is cloned locally (VoxCPM2,
+  `pipeline/voice_clone/`) from the user's OWN Episode 1 recording only, so episodes do not wait for the user. Clone no
+  other voice. Every take is checked against the real recording before anyone hears it; the user's ear is the final
+  check. The recording and all generated audio stay out of the repo.
+- Conductor and workers (user, 2026-11-12): the main session conducts (plans, checks results, decides, talks to the
+  user); Opus 5.5 workers execute and report. One worker owns the machine's CPU queue. The conductor checks each report
+  and gives the next task; stop only for decisions that are the user's.
 - Indio, Usman, M, the medallion and Indio's family are fiction and are labelled so in every caption and pinned
   comment, next to the real record. Indio only witnesses. No invented words for real people.
 - Usman exists only while Indio is time travelling.
@@ -71,6 +77,11 @@ P=/opt/vc/bin/python; cd history-indio
 $P pipeline/make_keys.py videos/<slug>                                 # drafts + composites into keys/
 $P pipeline/align_audio.py <voice.mp3> videos/<slug>/sentences.json videos/<slug>/timings.json
 $P pipeline/build_anime.py videos/<slug> videos/<slug>/keys <voice.mp3> <out.mp4>   # add --size 720 --until N to preview
+# cloned voice (pipeline/voice_clone/README.md); heavy, one run per machine
+bash pipeline/voice_clone/setup_vox.sh                                 # once per machine, after setup.sh
+export HI_VOICE_REC=<user's ep1 recording> HI_VOICE_WORK=/opt/work/voice
+$P pipeline/voice_clone/baseline.py videos/ep01-ang-unang-talon        # once per recording
+bash pipeline/voice_clone/run_episode.sh videos/<slug>                 # -> $HI_VOICE_WORK/<slug>/voice.mp3 + voice_timings.json
 ```
 Deliver: contact sheet check, MP4 to the user, captions from `captions.md`, the "could not verify" list, tick
 `topics.md`, add a dated section to `HANDOFF.md`, commit and push.

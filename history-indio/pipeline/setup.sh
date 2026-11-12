@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # One-time setup per machine/session. Safe to re-run. Needs: python3, node 22+, ffmpeg, Playwright with Chromium.
+# Optional, heavy (about 5 GB, 11 GB RAM): the cloned Indio voice needs pipeline/voice_clone/setup_vox.sh after this (see its README).
 set -e
 HI="$(cd "$(dirname "$0")/.." && pwd)"
 [ -x /opt/vc/bin/python ] || python3 -m venv /opt/vc
