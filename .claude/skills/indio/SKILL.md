@@ -1,9 +1,9 @@
 ---
-name: neo-cortex
-description: History Indio episode workflow in one page, run with the five-step "Musk algorithm" (question, delete, simplify, accelerate, automate) to save time and tokens. Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. Invoke as /neo-cortex [episode or task].
+name: indio
+description: History Indio episode workflow in one page, run with the five-step "Musk algorithm" (question, delete, simplify, accelerate, automate) to save time and tokens. Use for any History Indio task - writing an episode, building a video from an uploaded MP3, upgrading frames, or giving status. Invoke as /indio [episode or task].
 ---
 
-# Neo Cortex: History Indio, the short way
+# Indio: the History Indio workflow, the short way
 
 Channel: History Indio. Tagalog/Taglish vertical shorts (1080x1920, 30 fps, about 3 minutes), anime look, time-travel
 series with Indio and Usman. Work in `history-indio/` on branch `claude/eager-davinci-9qu2gg`. Repo is PUBLIC.
