@@ -76,14 +76,6 @@
   "say": "bawal akong lumapit sa sarili ko, kaya sumilip ako sa lente.",
   "style": "serious",
   "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Sa lente, bumibilis ang mga araw.",
-  "say": "sa lente, bumibilis ang mga araw.",
-  "style": "curious",
-  "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
  },
@@ -251,14 +243,6 @@
   "text": "Pero walang mas lumang tala na bumabanggit sa kodigo.",
   "say": "pero walang mas lumang tala na bumabanggit sa kodigo.",
   "style": "dramatic",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Gayunman, pumasok ito sa mga textbook.",
-  "say": "gayunman, pumasok ito sa mga tekstbuk.",
-  "style": "serious",
   "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
@@ -480,9 +464,17 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa lente, nakita ko si Lolo na nagtatago ng lata sa ilalim ng batong maluwag.",
-  "say": "sa lente, nakita ko si lolo na nagtatago ng lata sa ilalim ng batong maluwag.",
+  "text": "Sa lente, sinundan namin si Lolo: flagpole, corridor, library, hanggang sa gate.",
+  "say": "sa lente, sinundan namin si lolo: flagpol, koridor, laybrari, hanggang sa geyt.",
   "style": "suspense",
+  "pre": 0,
+  "pause": 0.3,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Doon, itinago niya ang isang lata sa ilalim ng batong maluwag.",
+  "say": "doon, itinago niya ang isang lata sa ilalim ng batong maluwag.",
+  "style": "whisper",
   "pre": 0,
   "pause": 0.62,
   "speaker": "INDIO"
