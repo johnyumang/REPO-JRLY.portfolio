@@ -77,6 +77,17 @@ def trim(y, sr, st, en, words, text, listen, ok, stray=lambda t, h: True, stray_
                 if ok(text, h2, h0): notes.append('tail %.2f->%.2f' % (en, c + PRE)); en = c + PRE; break
     return st, en, ' '.join(notes)
 
+def cut_leadin(y, sr, words, n_lead):
+    """A take generated with a throwaway lead-in ("Oo. <line>"): words = the alignment of the whole text, the first n_lead are
+    the lead-in. Cut in the pause after the lead-in: the clip starts PRE before the first voiced frame after the lead-in's end
+    (never before that end, never after the first real word's aligned start). -> start time (s), or None if no pause is found."""
+    if len(words) <= n_lead or words[n_lead - 1]['end'] is None or words[n_lead]['start'] is None: return None
+    db, lvl = frames_db(y, sr); e0, s1 = words[n_lead - 1]['end'], words[n_lead]['start']
+    gap = db[int(e0 / HOP):int(max(e0 + HOP, s1) / HOP) + 1]
+    if not len(gap) or gap.min() > lvl - DIP_DB: return None                              # no real pause between the lead-in and the line
+    on = onset_after(db, lvl, e0 + HOP * (int(np.argmin(gap)) + 1))
+    return round(min(max(e0, on - PRE), s1), 3)
+
 def fade_in(seg, sr):
     n = int(FADE * sr); seg[:n] *= np.linspace(0, 1, n); return seg
 
@@ -113,4 +124,11 @@ if __name__ == '__main__':
     W = [['sa', 0.03, 0.53, .9], ['bahay', 0.58, 1.08, .9]]
     st, en, note = trim(y, sr, 0.0, len(y) / sr, W, 'sa bahay', lambda clip: 'sa bahay' if len(clip) < len(y) - int(0.12 * sr) else 'sa bahay o', lambda t, h, h0: h == t)
     check('trim tail accepted (%s)' % note, note.startswith('tail') and 1.08 <= en <= 1.18)
-    print('%d of 8 tests fail' % bad); raise SystemExit(1 if bad else 0)
+    # 9 lead-in: "Oo." + 0.25 s pause + line -> start just before the line, after the lead-in
+    y = np.concatenate([sil(0.05), tone(0.25), sil(0.25), tone(0.6), sil(0.1)])
+    W = [dict(w='oo', start=0.05, end=0.30), dict(w='sa', start=0.52, end=0.8)]
+    c = cut_leadin(y, sr, W, 1); check('lead-in cut in the pause (%s)' % c, c is not None and 0.30 <= c <= 0.56)
+    # 10 lead-in glued to the line (no pause): no cut
+    y = np.concatenate([sil(0.05), tone(0.25), tone(0.6), sil(0.1)]); W = [dict(w='oo', start=0.05, end=0.30), dict(w='sa', start=0.30, end=0.8)]
+    check('lead-in glued: no cut', cut_leadin(y, sr, W, 1) is None)
+    print('%d of 10 tests fail' % bad); raise SystemExit(1 if bad else 0)
