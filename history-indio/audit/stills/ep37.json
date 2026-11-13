@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The copper plate is covered in vertical columns of CJK-like glyphs, not the horizontal Kawi lines of the Laguna Copperplate; it fills the frame."
+   "what": "The copper plate is covered in vertical columns of CJK-like glyphs, not the horizontal Kawi lines of the Laguna Copperplate; it fills the frame.",
+   "fixed": true
   },
   {
    "still": "full/proverb_mind.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Both pages of the open book are dense pseudo-text, with a glyph heading."
+   "what": "Both pages of the open book are dense pseudo-text, with a glyph heading.",
+   "fixed": true
   },
   {
    "still": "full/bank_box.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The bank records in the open box and on the table are forms full of rows of fake text."
+   "what": "The bank records in the open box and on the table are forms full of rows of fake text.",
+   "fixed": true
   },
   {
    "still": "full/tiyak_records.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The thick binder beside Indio shows a form with a glyph header and rows of pseudo-text."
+   "what": "The thick binder beside Indio shows a form with a glyph header and rows of pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/gorio_gavel.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The senators' desk name plates carry CJK-like glyphs, the front one large next to Gorio, in a Philippine Senate hall."
+   "what": "The senators' desk name plates carry CJK-like glyphs, the front one large next to Gorio, in a Philippine Senate hall.",
+   "fixed": true
   },
   {
    "still": "full/three_items.jpg",
@@ -56,7 +61,9 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The card on the desk has a glyph title and coloured rows of fake text, and the ledgers show pseudo-writing."
+   "what": "The card on the desk has a glyph title and coloured rows of fake text, and the ledgers show pseudo-writing.",
+   "fixed": true,
+   "note": "the redraw was refused three times by the image endpoint, so shot 3 now reuses the intro still and three_items is no longer used"
   },
   {
    "still": "full/bea_celia.jpg",
@@ -119,7 +126,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A shop sign in the car park reads like 'YHE3' at the left."
+   "what": "A shop sign in the car park reads like 'YHE3' at the left.",
+   "left": "one redraw tried; still not right (both ears up / a small sign far away), kept the original"
   },
   {
    "still": "full/kalakal_glow.jpg",
@@ -146,7 +154,8 @@
    ],
    "type": "panels",
    "must_fix": false,
-   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame."
+   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame.",
+   "fixed": true
   },
   {
    "still": "full/handover.jpg",
@@ -155,7 +164,8 @@
    ],
    "type": "panels",
    "must_fix": false,
-   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame."
+   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame.",
+   "fixed": true
   },
   {
    "still": "full/lola_ladle.jpg",
@@ -164,7 +174,8 @@
    ],
    "type": "panels",
    "must_fix": false,
-   "what": "A black band at the top: the picture is letterboxed inside the frame."
+   "what": "A black band at the top: the picture is letterboxed inside the frame.",
+   "fixed": true
   },
   {
    "still": "full/usman_growl.jpg",
@@ -173,7 +184,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears pointed up, not one folded ear."
+   "what": "Usman has both ears pointed up, not one folded ear.",
+   "left": "one redraw tried; still not right (both ears up / a small sign far away), kept the original"
   }
  ]
 }
