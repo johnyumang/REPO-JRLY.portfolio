@@ -28,3 +28,12 @@ Episodes: 6, 20, 26, 28, 29, 31, 38, 40, 41, 42, 44, 45, 46, 48.
 
 Report one line per episode: break length, cut time, loudness, peak, level difference, warnings, and what you saw on
 the sheet.
+
+## State on 13 November, 08:20 UTC (what changed after the first rollout)
+- **The quiet look is in** (commit 57525be). Grave episodes get it by themselves: dark blue ground, no sunburst, a fade in and out, a low hum in place of the jingle.
+- **Insert points moved in 19 episodes** after a second reader checked all 48: 3, 10, 11, 14, 15, 20, 21, 26, 29, 31, 33, 35, 38, 40, 41, 42, 44, 46, 50. The tool reads the index from `trivia_break.json`, so a pull and the same episode command are enough. A break spliced before the pull is spliced again; the voice lines stay.
+- **Stickers are final** as of commit 508f20f. These were redrawn after the first versions went out: 4, 5, 6, 10, 11, 15, 18, 19, 20, 22 to 29, 31, 32, 35, 37, 39, 40, 42, 43, 44, 48, 49. A break rendered with an older sticker is rendered again.
+- **Episode 45:** line 1 changed ("…kada dalawang taon."); record that one line again.
+- **The caption check** no longer flags o/u and e/i spellings of one word, and the length warning fires only when a break is outside 12 to 24 s.
+- **Still to come:** fixed recordings of "Teka, patalastas muna!" and "Balik sa kuwento, par!" (after the upload reset), and the older chibi Indio for Season 5.
+

@@ -1378,6 +1378,9 @@ def episode_spec(epdir, voice, override):
                 sprites={k: os.path.join(REPO, 'trivia', 'sprites', k.lower() + '.png') for k in CHIBI},
                 subjects=[dict(image=sticker, label=tb['label_onscreen'], from_line=1)], lines=lines,
                 source=tb.get('source_onscreen', ''), countdown_text='babalik ang kuwento', calm=bool(tb.get('grave')))
+    for k, name in (tb.get('sprites') or {}).items():             # "sprites": {"INDIO": "indio_s5"} in trivia_break.json: another chibi for this episode
+        if k.upper() not in spec['sprites']: die(f'trivia_break.json: unknown sprite key {k!r} (want one of {sorted(spec["sprites"])})', 2)
+        spec['sprites'][k.upper()] = os.path.join(REPO, 'trivia', 'sprites', os.path.basename(str(name)) + '.png')
     for kv in override or []:                                     # --set key=value, dotted keys into lists/dicts (subjects.0.image=...)
         k, _, v = kv.partition('=')
         try: v = json.loads(v)

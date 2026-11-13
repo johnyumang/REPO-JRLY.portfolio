@@ -35,6 +35,13 @@ Every episode from Episode 3 to Episode 50 has one short joke break of about 12 
   - inside or right before the fairness beat ("linawin natin" / "lilinawin ko");
   - inside a scripture quotation or the fiction disclaimer;
   - between two sentences that make one thought.
+- **What a second look taught us (13 Nov: 19 of 48 breaks were moved):**
+  - A cliffhanger about a plan, a mystery or a journey is the right place. A cliffhanger about whether someone lives is not: never at the peak of a rescue or a battle, and never right before a death, a burial, a prayer or an oath.
+  - Read the two sentences on each side of the cut aloud. If the second one finishes the first (a question and its answer, a reveal and the line that proves it, a line and Usman's reply), the cut is in the wrong place: move it to just before the pair, or to after it.
+  - In a grave episode look for a seam the story itself has lightened: the end of a montage, a change of place or time, best of all right after one of Usman's own small jokes.
+  - The silent gap after the chosen sentence must be at least 0.35 s in `timings.json`.
+  - Keep it in the middle: not later than about 55% of the episode's length. A break after the story has resolved holds nobody.
+- `gap` in the file is the pause between the break's own lines. It has nothing to do with the silent gap in the story; leave it alone when you move a break.
 - `insert_after_sentence` is the index in `timings.json`, or in `sentences.json` if the episode has no timings yet.
 - `insert_time` is the middle of the silent gap after that sentence. It is given only when `timings.json` exists.
 
@@ -46,3 +53,9 @@ Every episode from Episode 3 to Episode 50 has one short joke break of about 12 
 ## Adding facts
 - Add an object to `pool.json` with a new `id` and all the fields used by the others.
 - Have it checked by a second reader before use, and keep a used fact out of the spares.
+
+## The chibi sprites
+- `trivia/sprites/indio.png` is the young Indio (about twenty, red headband). `trivia/sprites/usman.png` is Usman. Every break uses these two unless the episode's file says otherwise.
+- An episode can name another sprite: `"sprites": {"INDIO": "indio_s5"}` in its `trivia_break.json` makes the tool use `trivia/sprites/indio_s5.png`.
+- `indio_s5.png` is the older Indio of Season 5 (in his forties, long grey coat). It is a first try and no episode points at it yet; a better one is being drawn. When it is ready the conductor adds the field to the Season 5 episodes and says so.
+
