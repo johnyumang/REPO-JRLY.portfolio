@@ -1,0 +1,89 @@
+{
+ "episode": 44,
+ "audited_by": "Episode 38 render machine",
+ "stills_looked_at": 63,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/evac_line.jpg",
+   "shots": [
+    43
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The flooded evacuation street is lined with Japanese-style shop signs with katakana-like glyphs (large blue sign upper left, vertical sign upper right)."
+  },
+  {
+   "still": "full/lakandula_diwa.jpg",
+   "shots": [
+    42
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The street behind the glowing Lakandula has vertical Japanese-style signs with glyphs and lanterns down both sides, reading as Tokyo rather than Manila."
+  },
+  {
+   "still": "full/rico_close.jpg",
+   "shots": [
+    32
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Black letterbox bars across the top and bottom of the picture (a frame inside the frame)."
+  },
+  {
+   "still": "full/rico_live.jpg",
+   "shots": [
+    31
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A sportswear-style three-stripe logo on the chest of the yellow jacket."
+  },
+  {
+   "still": "full/salamat_unseen.jpg",
+   "shots": [
+    34
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small brand logo with lettering on the chest of the yellow jacket."
+  },
+  {
+   "still": "full/roofs_stay.jpg",
+   "shots": [
+    14
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small lit sign with an arrow and glyph lettering on the building at the lower right."
+  },
+  {
+   "still": "full/sorting_memory.jpg",
+   "shots": [
+    27
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The slips of paper in the boxes carry scribbled pseudo-text, most visible lower right."
+  },
+  {
+   "still": "full/evac_river.jpg",
+   "shots": [
+    44
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small lit shop signs with glyphs along the left side of the street."
+  },
+  {
+   "still": "full/tubal_boat.jpg",
+   "shots": [
+    60
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "Tubal is drawn twice: once in front and again as a small figure standing in the boat behind him."
+  }
+ ]
+}
