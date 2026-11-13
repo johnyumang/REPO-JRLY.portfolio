@@ -64,9 +64,11 @@
    "what": "The young woman taking Albo's hand has dark blue hair and blue eyes, so she is not recognisable as white-haired, grey-eyed Tala.",
    "where": "face and hair, top half",
    "second_reader": "confirmed: dark-blue hair and blue eyes, not white-haired, grey-eyed Tala",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows. Close-up at night in rain on the roof of a wooden ark: a young woman with long pure white hair and calm grey eyes in a long dark coat, seen from the chest up on the right, takes the glowing white hand of her father, a tall gentle figure of soft white light with long white hair and a calm kind face, who stands at the left edge. Their two hands meet in the centre in a simple clasp: her hand, one hand with a thumb and four fingers, seen from the back, rests in his open glowing palm, which also has a thumb and four fingers. Rain drops shine around the hands. Only these two hands in the frame. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
-   "tries": 4
+   "tries": 4,
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model (flux-3, 30 steps), chosen from 15 draws in three rounds (3 of round 1 lost to endpoint 502s); seed 4635. Tala described from the kept stills (tala_defiant, tala_hair_lightning, albo_beside, albo_turns): long straight pure white hair with straight bangs, grey eyes, long black high-collared coat; Albo a tall figure of white light, long white hair, loose white robe. Instead of the hand close-up, a medium shot from behind at three-quarter view of both figures side by side on the ark roof in rain, Tala looking up at him in profile. Rounds 1 and 2 (hands clasped low between them, then a glow over the clasp) gave a single merged fist or loose fingers every time. Round 3 made his hand a smooth shape of light held level, with her pale hand laid flat on top of it, fingers together. Checked at 3x: her hand thumb and four fingers lying on his glowing palm, his glow hand one thumb and no extra fingers, each figure one visible arm with the other at their side, Tala's face clean with grey eyes and white hair, Albo's face clean with eyes closed, two people only."
   },
   {
    "key": "k32",
