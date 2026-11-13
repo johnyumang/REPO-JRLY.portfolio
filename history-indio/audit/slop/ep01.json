@@ -166,11 +166,12 @@
     19
    ],
    "fix_idea": "Redraw with the full Usman cast string word for word, so the kerchief is in the prompt; the Indio half is good.",
-   "fixed": false,
+   "fixed": true,
    "note": "Redrawn (try 3 of 3) with both cast strings: Usman wears the red kerchief, one ear folded; Indio points with a shocked face.",
    "check_note": "Checker 13 Nov: the redraw was rejected and the old key restored. At 3x the new Usman has FIVE legs (three hind legs under the belly plus two front legs), so it was not clean; the old key (no kerchief, stub leg) is back with its old prompt.",
-   "needs_figma": true,
-   "figma_prompt": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour. Scene: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, black slacks and worn sneakers, a small backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no tattoos, shocked face, pointing at a slim medium-sized black short-haired Philippine street dog with a white chest patch, ONE folded ear and one upright ear, bright clever eyes, a red kerchief tied around his neck, seen from the side in a clean leap with exactly four legs: two front legs stretched forward, two hind legs tucked back; both tumble through a golden time tunnel of clock gears. Medium shot. Golden light. Vertical 9:16. No text, no logos, no watermarks."
+   "needs_figma": false,
+   "figma_prompt": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour. Scene: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, black slacks and worn sneakers, a small backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no tattoos, shocked face, pointing at a slim medium-sized black short-haired Philippine street dog with a white chest patch, ONE folded ear and one upright ear, bright clever eyes, a red kerchief tied around his neck, seen from the side in a clean leap with exactly four legs: two front legs stretched forward, two hind legs tucked back; both tumble through a golden time tunnel of clock gears. Medium shot. Golden light. Vertical 9:16. No text, no logos, no watermarks.",
+   "fix_note": "Central, 13 Nov, after the check: redrawn on the full-quality free model with the cast strings and the new Usman ears sentence; chosen from six draws (seed 91). At 3x: one upright and one folded ear, all-black face, white chest patch, red kerchief, one tail, three legs seen and the fourth hidden behind the body (no extra leg); Indio with topknot, medallion, backpack, red handkerchief on the left wrist, shocked face, one hand on the dog."
   },
   {
    "key": "k19",
@@ -183,9 +184,11 @@
     19
    ],
    "fix_idea": "Comes with the k19 kerchief redraw: ask for the dog in a clean leap, 'four legs, two front legs stretched forward', and check the paws at 3x before keeping a try.",
-   "fixed": false,
+   "fixed": true,
    "note": "Open again: comes with the k19 off_model redraw (needs_figma).",
-   "check_note": "Checker 13 Nov: the redraw was rejected and the old key restored. At 3x the new Usman has FIVE legs (three hind legs under the belly plus two front legs), so it was not clean; the old key (no kerchief, stub leg) is back with its old prompt."
+   "check_note": "Checker 13 Nov: the redraw was rejected and the old key restored. At 3x the new Usman has FIVE legs (three hind legs under the belly plus two front legs), so it was not clean; the old key (no kerchief, stub leg) is back with its old prompt.",
+   "needs_figma": false,
+   "fix_note": "Central, 13 Nov, after the check: redrawn on the full-quality free model with the cast strings and the new Usman ears sentence; chosen from six draws (seed 91). At 3x: one upright and one folded ear, all-black face, white chest patch, red kerchief, one tail, three legs seen and the fourth hidden behind the body (no extra leg); Indio with topknot, medallion, backpack, red handkerchief on the left wrist, shocked face, one hand on the dog."
   },
   {
    "key": "k33",
