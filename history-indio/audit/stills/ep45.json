@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Two pictures stacked: a strip of a night beach with outrigger boats across the top quarter, cut by a hard edge above the close-up of the fisherman in the straw hat."
+   "what": "Two pictures stacked: a strip of a night beach with outrigger boats across the top quarter, cut by a hard edge above the close-up of the fisherman in the straw hat.",
+   "fixed": true
   },
   {
    "still": "full/lost_boats.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Two white comic speech bubbles with squiggle glyphs float above the girl standing in the lower boat."
+   "what": "Two white comic speech bubbles with squiggle glyphs float above the girl standing in the lower boat.",
+   "fixed": true
   },
   {
    "still": "full/workers_help.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "A small red seal-like stamp with glyphs sits on a worker's hand at the bottom centre."
+   "what": "A small red seal-like stamp with glyphs sits on a worker's hand at the bottom centre.",
+   "fixed": true
   },
   {
    "still": "full/question.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A framed picture on the back wall inside the doorway carries pseudo-glyphs."
+   "what": "A framed picture on the back wall inside the doorway carries pseudo-glyphs.",
+   "fixed": true
   },
   {
    "still": "full/mactan_1521.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "panels",
    "must_fix": false,
-   "what": "The sepia print has a thin drawn border line around the whole picture, like a framed engraving."
+   "what": "The sepia print has a thin drawn border line around the whole picture, like a framed engraving.",
+   "fixed": true
   },
   {
    "still": "full/cebu_treaty.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The paper on the table carries faint scribbled lines of pseudo-text under the writer's hand."
+   "what": "The paper on the table carries faint scribbled lines of pseudo-text under the writer's hand.",
+   "left": "one try for a minor: the redraw is a better picture, but faint ruled lines remain on the paper under the hands"
   }
  ]
 }
