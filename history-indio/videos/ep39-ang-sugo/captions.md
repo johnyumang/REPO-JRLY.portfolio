@@ -1,7 +1,7 @@
 # Captions — Episode 39 (Season 4): Ang Sugo
 
 ## Facebook (Reels)
-SEASON 3, EPISODE 39: Walang partido, walang billboard, mga resibo lang. Tumakbo si Indio bilang Pangulo sa edad na apatnapu, at bago ang halalan, bumalik siya sa Tondo ng dekada 1950 para makita kung bakit sumusunod ang isang bayan sa takot. 🧾
+SEASON 4, EPISODE 39: Walang partido, walang billboard, mga resibo lang. Tumakbo si Indio bilang Pangulo sa edad na apatnapu, at bago ang halalan, bumalik siya sa Tondo ng dekada 1950 para makita kung bakit sumusunod ang isang bayan sa takot. 🧾
 Kathang-isip sina Indio, M, Usman, Ma'am Celia, Bea, Pipay, Rico Bulan at Tubal, ang kandidatura, ang kampanya, si Senadora Villacorta, ang Alcaín Builders at si Bise Presidente Ilagan; walang totoong partido, kandidato o kumpanya. Totoo si Asiong Salonga ng Tondo, na nakita lang mula sa malayo at walang salitang inimbento para sa kanya.
 
 👉 Sino ang sinusunod mo dahil sa takot, at sino dahil sa totoo? Comment mo.
