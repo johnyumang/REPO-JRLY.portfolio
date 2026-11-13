@@ -17,6 +17,8 @@ export HI_VOICE_WORK=/opt/work/voice                 # default
 cd history-indio
 /opt/vc/bin/python pipeline/voice_clone/baseline.py videos/ep01-ang-unang-talon   # once per recording: baseline/real_ep1.json, real_centroid.npy
 ```
+Slow network: plain pip can take over an hour on torch's CUDA wheels. Instead list the URLs (`pip install --dry-run --report r.json ...`), fetch them with `curl` 12 at a time and `pip install --no-index --find-links <dir>`: about 5 minutes.
+The VoxCPM2 weights (4.6 GB) also come fastest as 16 parallel `curl -r` byte ranges (about 1 minute), then the float32 config copy as in `setup_vox.sh`.
 
 ## The sequence (one episode)
 ```
