@@ -668,7 +668,8 @@ def paginate(words):
 
 class Pages:
     """one spoken line as caption pages on a white speech plate (dark words, emphasis in the accent colour, the word
-    being spoken on a yellow pill). Every page of the break uses one font size (the biggest that fits them all)."""
+    being spoken on a yellow pill, or an emphasis word in the accent colour on an ink pill; words still to come in light
+    grey). Every page of the break uses one font size (the biggest that fits them all)."""
     PAD, SHADOW, PLATE_POP, MIN_W = 9, 6, 1.05, 240
     GREY = (205, 202, 210)                                     # words still to come, emphasis or not
 
@@ -978,13 +979,14 @@ def render_bold(a, spec, P):
             ls = 1.0 if q >= dur_ else (0.55 if pg == 0 else 0.86) + (0.45 if pg == 0 else 0.14) * ease_out(q / dur_)
             lay_ = Image.new('RGBA', (LR[2] - LR[0], LR[3] - LR[1]), (0, 0, 0, 0)); o_ = (LR[0], LR[1])
             loc = lambda r_: (r_[0] - o_[0], r_[1] - o_[1], r_[2] - o_[0], r_[3] - o_[1])
-            tip = draw_plate(lay_, loc(plate), prev_tip - o_[0], cb[3] - 1 - o_[1], Pages.SHADOW)
+            tip = draw_plate(lay_, loc(plate), prev_tip - o_[0], cb[3] - 4 - o_[1], Pages.SHADOW)   # the 4 px tail stroke ends inside the box
             dl = ImageDraw.Draw(lay_); boxes = []
             cur_w = max([i for i in c.pages[pg] if c.t[i] <= t + 1e-6], default=None)
             for i, (im, x_, y_, e_, ink, act_im, grey) in zip(c.pages[pg], place):
                 if t < c.t[i]:                                                  # words still to come: light grey, so the page reads ahead
                     paste(lay_, grey, x_ + im.width / 2 - o_[0], y_ + im.height / 2 - o_[1]); boxes.append(('word', ink, 1.0)); continue
                 s, _ = pop_curve((t - c.t[i]) / (0.18 if e_ else 0.14), B_EPOP if e_ else B_WPOP)   # full colour from its first frame
+                if c.t[i] <= c.pt[pg] + 1e-6: s = 1.0                         # the page's first word comes with the page pop
                 icx, icy = (ink[0] + ink[2]) / 2 - o_[0], (ink[1] + ink[3]) / 2 - o_[1]
                 if i == cur_w:                                                  # the word being spoken sits on a pill (scaled with it)
                     hw_, hh_ = ((ink[2] - ink[0]) / 2 + 6) * s, ((ink[3] - ink[1]) / 2 + 5) * s; pill = (icx - hw_, icy - hh_, icx + hw_, icy + hh_)
@@ -997,7 +999,8 @@ def render_bold(a, spec, P):
             else: ax = ay = 0.0; px0, py0 = o_
             fr.paste(lay_, (px0, py0), lay_); d = ImageDraw.Draw(fr)
             X = lambda v: o_[0] + ax + (v - o_[0] - ax) * ls; Y = lambda v: o_[1] + ay + (v - o_[1] - ay) * ls
-            pr_ = (X(plate[0]), Y(plate[1]), X(plate[2]), Y(plate[3])); track['captions'] = union(track.get('captions'), (px0, py0, px0 + lay_.width, py0 + lay_.height))
+            pr_ = (X(plate[0]), Y(plate[1]), X(plate[2]), Y(plate[3])); vb = lay_.getbbox()
+            if vb: track['captions'] = union(track.get('captions'), (px0 + vb[0], py0 + vb[1], px0 + vb[2], py0 + vb[3]))
             for kind, r_, s in boxes:                                          # every word and the pill stay on the plate, every frame
                 if kind == 'word':
                     cx_, cy_, hw_, hh_ = (r_[0] + r_[2]) / 2, (r_[1] + r_[3]) / 2, (r_[2] - r_[0]) * s / 2, (r_[3] - r_[1]) * s / 2; r_ = (cx_ - hw_, cy_ - hh_, cx_ + hw_, cy_ + hh_)
