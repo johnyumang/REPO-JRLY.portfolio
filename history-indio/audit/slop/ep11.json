@@ -14,7 +14,8 @@
    "must_fix": true,
    "what": "Indio has spiky red-brown hair with no topknot and is shirtless instead of the beige tunic.",
    "where": "lower right figure",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k04",
@@ -26,7 +27,8 @@
    "must_fix": true,
    "what": "The hand holding the notebook on the right is a boneless mitten: one long thumb shape and no separate fingers.",
    "where": "right hand, lower right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k07",
@@ -38,7 +40,8 @@
    "must_fix": false,
    "what": "The motorcycle has two headlamps stacked one above the other on the same fork.",
    "where": "front of the motorcycle, centre left",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k08",
@@ -50,7 +53,8 @@
    "must_fix": false,
    "what": "A red letter-like logo is printed on Indio's t-shirt sleeve and marks sit on the fuel tank.",
    "where": "Indio's left sleeve and the tank",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k09",
@@ -62,7 +66,8 @@
    "must_fix": true,
    "what": "Three hands reach into the wallet for one person (one from the left, two from the right).",
    "where": "centre, both sides of the wallet",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k09",
@@ -74,7 +79,8 @@
    "must_fix": false,
    "what": "A coin is fused onto the banknote being pulled out.",
    "where": "centre of the bill",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k09",
@@ -86,7 +92,8 @@
    "must_fix": false,
    "what": "The banknote in the wallet carries letter-like marks and a big '0010'-style number.",
    "where": "banknote inside the wallet",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k10",
@@ -98,7 +105,8 @@
    "must_fix": false,
    "what": "A poster on the wall shows the letters 'Ar'.",
    "where": "wall poster, right",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k11",
@@ -110,7 +118,8 @@
    "must_fix": false,
    "what": "The face behind the wish star looks like a woman with long hair and lashes, though Indio makes the wish.",
    "where": "whole frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k12",
@@ -122,7 +131,8 @@
    "must_fix": false,
    "what": "The red handkerchief hangs from Indio's jeans pocket instead of being tied on his wrist.",
    "where": "Indio's hip",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k15",
@@ -134,7 +144,8 @@
    "must_fix": false,
    "what": "The mall signs carry gibberish letters.",
    "where": "background signs",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k15",
@@ -146,7 +157,8 @@
    "must_fix": true,
    "what": "Indio has three arms: the arm holding the phone and the arm holding the blue bags both come out of the same left jacket sleeve, plus the right arm with the watch.",
    "where": "left side of Indio, phone hand and blue-bag hand",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k16",
@@ -158,7 +170,8 @@
    "must_fix": true,
    "what": "The stranger 'taking a photo' pinches empty air: there is no phone in his hands. The truck door also carries a letter-like logo.",
    "where": "centre, stranger's hands",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k18",
@@ -170,7 +183,8 @@
    "must_fix": true,
    "what": "Indio has brown hair with no topknot and a dark jacket, and M has shoulder-length purple-brown hair and a scarf; neither matches the rest of the episode.",
    "where": "both figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k19",
@@ -182,7 +196,8 @@
    "must_fix": true,
    "what": "Usman has two upright ears instead of one folded ear.",
    "where": "dog's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k20",
@@ -194,7 +209,8 @@
    "must_fix": false,
    "what": "The 1011 port has corrugated tin roofs, glass screw-top jars and a plastic tub.",
    "where": "roofs, jars bottom right, tub bottom left",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k20",
@@ -206,7 +222,8 @@
    "must_fix": false,
    "what": "The worker bending in the boat has a grey capsule shape where his head should be and a second head beyond it.",
    "where": "boat, lower centre right",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k22",
@@ -218,7 +235,8 @@
    "must_fix": false,
    "what": "The 1011 crew wear hard hats, face masks and modern t-shirts, with plastic tubs on the bank; the foreground worker's face is a white smear.",
    "where": "crew on the bank and in the near boat, left",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k23",
@@ -230,7 +248,8 @@
    "must_fix": false,
    "what": "The trade jars are shiny steel pots like modern milk cans.",
    "where": "jars in the boat, bottom",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k23",
@@ -242,7 +261,8 @@
    "must_fix": false,
    "what": "A hand grips the front man's chest strap but its arm cannot be traced to anyone.",
    "where": "front man's chest, centre left",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k25",
@@ -254,7 +274,8 @@
    "must_fix": false,
    "what": "The gold tablet looks like a modern tablet computer with a side port.",
    "where": "centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k26",
@@ -266,7 +287,8 @@
    "must_fix": true,
    "what": "Indio has reddish-brown hair, no topknot, and a modern t-shirt, shorts and sneakers in the 1011 port.",
    "where": "Indio, full figure",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k29",
@@ -278,7 +300,8 @@
    "must_fix": false,
    "what": "Drawn in a flatter, older cel style than the rest; Indio's hair is spiky with no topknot.",
    "where": "whole frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k29",
@@ -290,7 +313,8 @@
    "must_fix": false,
    "what": "Modern sheds and poles stand in the background of the 1011 channel.",
    "where": "background, top",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k30",
@@ -302,7 +326,8 @@
    "must_fix": true,
    "what": "Usman covers his eyes with a human hand with five fingers and nails instead of a paw.",
    "where": "dog's face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k30",
@@ -314,7 +339,8 @@
    "must_fix": false,
    "what": "Usman has both ears upright.",
    "where": "dog's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k32",
@@ -326,7 +352,8 @@
    "must_fix": true,
    "what": "The face behind the medallion is a girlish face with one brown eye and one blue eye.",
    "where": "upper centre face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k32",
@@ -338,7 +365,8 @@
    "must_fix": false,
    "what": "The muddy hands holding the medallion are lumpy, with fingers that cannot be counted.",
    "where": "centre, both hands",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k33",
@@ -350,7 +378,8 @@
    "must_fix": true,
    "what": "A giant index finger comes in from nowhere across M's face, and a second unattached hand is at bottom left.",
    "where": "left half",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k33",
@@ -362,7 +391,8 @@
    "must_fix": false,
    "what": "The floating symbols include letter- and dollar-like glyphs.",
    "where": "sparks around the medallion",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k34",
@@ -374,7 +404,8 @@
    "must_fix": false,
    "what": "Power lines and modern houses stand along the 1011 channel.",
    "where": "background",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k35",
@@ -386,7 +417,8 @@
    "must_fix": true,
    "what": "Indio, seen from behind, has spiky brown hair with no topknot and a grey-blue collared shirt instead of the beige tunic.",
    "where": "foreground figure",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k36",
@@ -398,7 +430,8 @@
    "must_fix": false,
    "what": "Usman's chest is drawn as a muscular human torso with pecs.",
    "where": "dog's chest",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k37",
@@ -410,7 +443,8 @@
    "must_fix": true,
    "what": "A ring of glowing kanji-like characters circles Indio.",
    "where": "around Indio's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k40",
@@ -422,7 +456,8 @@
    "must_fix": false,
    "what": "Indio is drawn as a young boy in a t-shirt with a letter-marked red shoulder patch.",
    "where": "Indio, left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k41",
@@ -434,7 +469,8 @@
    "must_fix": true,
    "what": "Indio is a brown-haired modern man in a blue shirt and khakis, and M is a brown-haired girl with a bag.",
    "where": "lower figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k41",
@@ -446,7 +482,8 @@
    "must_fix": true,
    "what": "A third, faceless black-haired figure is half grown into the Yumud's leg.",
    "where": "lower right, at the creature's leg",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k42",
@@ -458,7 +495,8 @@
    "must_fix": false,
    "what": "There is a white scribble glitch at the outer corner of the eye.",
    "where": "eye, upper left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k44",
@@ -470,7 +508,8 @@
    "must_fix": false,
    "what": "Power lines run over the 1011 channel.",
    "where": "top of frame",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k45",
@@ -482,7 +521,8 @@
    "must_fix": true,
    "what": "Two forearms come up from the bottom but join into one palm: one hand with two wrists.",
    "where": "bottom centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k47",
@@ -494,7 +534,8 @@
    "must_fix": false,
    "what": "Indio is drawn with child proportions and brown hair; his lowered hand is a fingerless fist blob.",
    "where": "Indio, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k48",
@@ -506,7 +547,8 @@
    "must_fix": true,
    "what": "A stranger in a wide-brimmed hat stands at the water, but the script says no one stands above the shadow.",
    "where": "figure at the water",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k49",
@@ -518,7 +560,8 @@
    "must_fix": false,
    "what": "Usman has two upright ears instead of one folded ear.",
    "where": "dog's head",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k50",
@@ -531,7 +574,8 @@
    "must_fix": true,
    "what": "Indio's raised hand is a mitten: the fingers are fused into one lump.",
    "where": "raised hand, centre right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -544,7 +588,8 @@
    "must_fix": false,
    "what": "The forearm tattoo is a black, realistic, face-like blob, not indigo geometric lines.",
    "where": "forearm",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -557,7 +602,8 @@
    "must_fix": false,
    "what": "A letter-like 'G' glyph shows on the hologram panel.",
    "where": "hologram, upper area",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k53",
@@ -569,7 +615,8 @@
    "must_fix": false,
    "what": "A letter-like 'LL' glyph is on the hologram card.",
    "where": "upper left of the card",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k54",
@@ -581,7 +628,8 @@
    "must_fix": true,
    "what": "The face is see-through: forest and water show through it, the mouth is drawn twice, and the head is bald and grey with no hair or headband.",
    "where": "the face, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k55",
@@ -593,7 +641,8 @@
    "must_fix": false,
    "what": "Usman has both ears upright and a white blaze on his forehead.",
    "where": "dog's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k56",
@@ -605,7 +654,8 @@
    "must_fix": false,
    "what": "Indio has short hair with no topknot.",
    "where": "Indio's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k57",
@@ -617,7 +667,8 @@
    "must_fix": true,
    "what": "M's raised hand has only four digits: one finger is missing.",
    "where": "M's raised hand, left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k63",
@@ -629,7 +680,8 @@
    "must_fix": true,
    "what": "M has light-brown hair, Indio has brown hair and an olive hoodie, and Usman is fluffy with two upright ears and a purple collar, with no red kerchief.",
    "where": "all three figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k64",
@@ -641,7 +693,8 @@
    "must_fix": true,
    "what": "Usman is a fluffy wolf-like dog with two upright ears, a dark collar instead of the red kerchief, no white chest and blank white eyes.",
    "where": "dog, lower right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k64",
@@ -653,7 +706,8 @@
    "must_fix": false,
    "what": "Indio wears a t-shirt, shorts and sneakers in a period scene.",
    "where": "Indio, left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k65",
@@ -665,7 +719,8 @@
    "must_fix": false,
    "what": "An unclear long stick stands in a copper dish on the notebook.",
    "where": "centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k66",
@@ -677,7 +732,8 @@
    "must_fix": false,
    "what": "The shop signs carry letter-like marks.",
    "where": "left and right signs",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k67",
@@ -689,7 +745,8 @@
    "must_fix": false,
    "what": "Letter-like marks are printed on the red handkerchief on Indio's wrist.",
    "where": "Indio's right wrist",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k68",
@@ -701,7 +758,8 @@
    "must_fix": false,
    "what": "Indio has blue-grey eyes, a goatee and paler skin than in the other modern shots.",
    "where": "face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k69",
@@ -713,7 +771,8 @@
    "must_fix": true,
    "what": "M has brown hair instead of long black hair.",
    "where": "M, right figure",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k69",
@@ -725,7 +784,8 @@
    "must_fix": false,
    "what": "The shop signs carry gibberish letters.",
    "where": "shop signs, left and right",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -737,7 +797,8 @@
    "must_fix": true,
    "what": "The rowers' faces are smeared: a blank white eye on the blue-shirt rower, a smudged eye on the yellow-shirt rower, and fuzzy mouths.",
    "where": "rowers, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -749,7 +810,8 @@
    "must_fix": false,
    "what": "The rowers of 1011 wear modern t-shirts and polo shirts.",
    "where": "rowers",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k92",
@@ -761,7 +823,8 @@
    "must_fix": true,
    "what": "A second ghost arm with a pointing hand shows through the hologram beside the hand that holds it.",
    "where": "hologram, upper right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k92",
@@ -773,7 +836,8 @@
    "must_fix": false,
    "what": "Indio wears a blue collared shirt and has no topknot.",
    "where": "Indio, from behind",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k92",
@@ -785,7 +849,8 @@
    "must_fix": false,
    "what": "The hologram panel carries letter-like labels ('EAI', 'bБ', 'ID').",
    "where": "hologram panel, middle",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k95",
@@ -795,7 +860,8 @@
    "must_fix": false,
    "what": "The 1011 channel is lined with corrugated tin roofs, power lines and plastic buckets.",
    "where": "both banks",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k97",
@@ -807,7 +873,8 @@
    "must_fix": true,
    "what": "Three arms reach in from the right edge and the hands tangle: the middle hand's fingers wrap the stick from both sides, and the lowest hand melts into the rope.",
    "where": "lower right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k97",
@@ -819,7 +886,8 @@
    "must_fix": false,
    "what": "The cargo jars have modern steel screw rims.",
    "where": "jars, left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k100",
@@ -831,7 +899,8 @@
    "must_fix": false,
    "what": "A band of letter-like marks runs around the altar top.",
    "where": "altar, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k100",
@@ -843,7 +912,8 @@
    "must_fix": false,
    "what": "The 1011 villagers wear modern t-shirts, a polo shirt and caps.",
    "where": "villagers around the altar",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k101",
@@ -855,7 +925,8 @@
    "must_fix": true,
    "what": "The shrine's big disc shows a headless animal with legs fused to a ball, ringed by letter-like writing.",
    "where": "disc, centre of lens",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k102",
@@ -867,7 +938,8 @@
    "must_fix": false,
    "what": "A printed logo patch is on Indio's tunic.",
    "where": "Indio's chest",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k103",
@@ -879,7 +951,8 @@
    "must_fix": false,
    "what": "Indio wears white sneakers in 1011.",
    "where": "feet, bottom",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k103",
@@ -891,7 +964,8 @@
    "must_fix": false,
    "what": "Power lines and hanging electric bulbs light the 1011 channel houses.",
    "where": "background, both sides",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k106",
@@ -903,7 +977,8 @@
    "must_fix": true,
    "what": "Close-up Indio is a pale, brown-haired boy with grey-violet eyes and no topknot.",
    "where": "whole face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k107",
@@ -915,7 +990,8 @@
    "must_fix": false,
    "what": "The gold statue has a flat white anime face instead of a gold one.",
    "where": "statue face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "key": "k108",
@@ -927,7 +1003,8 @@
    "must_fix": true,
    "what": "The left digger's foot ends in a shovel blade instead of a boot.",
    "where": "lower left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k108",
@@ -939,7 +1016,8 @@
    "must_fix": false,
    "what": "Two near-identical men in yellow shirts and blue shorts.",
    "where": "centre and right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k109",
@@ -949,7 +1027,8 @@
    "must_fix": false,
    "what": "An animal stands on the ferry deck though the scene has no animals, and the gate carries a letter-like word.",
    "where": "ferry deck, right",
-   "second_reader": "new"
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
   }
  ],
  "refuted": [
@@ -963,5 +1042,6 @@
    "what": "M's nearer hand on the plank has curled fingers webbed into a lump.",
    "why": "At 3x both of M's hands on and beside the plank show a thumb and four separate fingers; the curl is a natural grip, nothing is webbed."
   }
- ]
+ ],
+ "fix_note": "28 stills redrawn at full quality, each checked at 3x; a third reader compared old and new and kept all 28"
 }
