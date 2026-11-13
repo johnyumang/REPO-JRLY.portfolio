@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Black letterbox bars fill the top and bottom quarters; the helicopter is a small band in the middle of the frame."
+   "what": "Black letterbox bars fill the top and bottom quarters; the helicopter is a small band in the middle of the frame.",
+   "fixed": true
   },
   {
    "still": "full/giveaway.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "The big white building has a sign of Chinese/Japanese-style glyphs and a red seal on its facade, and the street of tiled houses reads as a Japanese town."
+   "what": "The big white building has a sign of Chinese/Japanese-style glyphs and a red seal on its facade, and the street of tiled houses reads as a Japanese town.",
+   "fixed": true
   },
   {
    "still": "full/keys_ring.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Close-up key fobs carry pseudo-letters and stamped glyphs (one grey fob reads like 'C2L WHC')."
+   "what": "Close-up key fobs carry pseudo-letters and stamped glyphs (one grey fob reads like 'C2L WHC').",
+   "fixed": true
   },
   {
    "still": "full/marker_old.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The plaque Indio holds in the foreground shows lines of fake engraved script."
+   "what": "The plaque Indio holds in the foreground shows lines of fake engraved script.",
+   "fixed": true
   },
   {
    "still": "full/sarimanok_circle.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "The sarimanok's head is a flat human-like face with a mask patch, odd next to the bird body."
+   "what": "The sarimanok's head is a flat human-like face with a mask patch, odd next to the bird body.",
+   "fixed": true
   },
   {
    "still": "full/indio_hold.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A small sign with letters ('WV...') on the wall to the right of the door."
+   "what": "A small sign with letters ('WV...') on the wall to the right of the door.",
+   "fixed": true
   },
   {
    "still": "full/jm_fuel.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Fragments of letters on the yellow tank at the top right."
+   "what": "Fragments of letters on the yellow tank at the top right.",
+   "fixed": true
   },
   {
    "still": "full/drills_break.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Pseudo-letters on the side of the yellow drill."
+   "what": "Pseudo-letters on the side of the yellow drill.",
+   "fixed": true
   },
   {
    "still": "full/ring_cement.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The broken padlock face carries a glyph-like emblem."
+   "what": "The broken padlock face carries a glyph-like emblem.",
+   "fixed": true
   }
  ]
 }
