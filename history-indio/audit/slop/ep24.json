@@ -1,6 +1,6 @@
 {
  "episode": 24,
- "audited_by": "worker-davinci (first reader)",
+ "audited_by": "worker-davinci (first and second reader)",
  "keys_looked_at": 80,
  "defects": [
   {
@@ -12,7 +12,8 @@
    "type": "merge",
    "must_fix": true,
    "what": "The queen's fingers and Indio's fingers knot together on the cup stem so you cannot tell whose hand is whose or count either.",
-   "where": "centre, both hands on the golden cup stem"
+   "where": "centre, both hands on the golden cup stem",
+   "second_reader": "confirmed"
   },
   {
    "key": "k00",
@@ -23,7 +24,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio wears a grey t-shirt and grey slacks with no red headband or sash, while the scene's outfit (k19, k23, k40-k46) is a beige tunic, red sash and red headband; the dog the prompt asks for is also missing.",
-   "where": "right half, Indio"
+   "where": "right half, Indio",
+   "second_reader": "confirmed"
   },
   {
    "key": "k00",
@@ -34,7 +36,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A loose grey shirt-cuff ring floats on Indio's bare forearm above the wrist, with no sleeve attached.",
-   "where": "bottom right, Indio's lowered hand"
+   "where": "bottom right, Indio's lowered hand",
+   "second_reader": "confirmed"
   },
   {
    "key": "k22",
@@ -46,7 +49,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The hand on the cup belongs to a pale man with blue eyes, a black shirt, an earring and coloured floral tattoos on his neck, hand and arm, which looks nothing like Indio's brown skin, topknot and indigo geometric forearm tattoos.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "second_reader": "confirmed"
   },
   {
    "key": "k22",
@@ -58,7 +62,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "The hand around the glass is oversized, and a thumb and a fingertip come out of odd places on the rim and the stem.",
-   "where": "centre, hand around the glass"
+   "where": "centre, hand around the glass",
+   "second_reader": "confirmed: at 3x the fingertips come over the rim while the thumb and two more fingers come from under, on one oversized hand"
   },
   {
    "key": "k29",
@@ -69,7 +74,8 @@
    "type": "limbs",
    "must_fix": true,
    "what": "A pink scaly claw-hand with no owner hangs under the dog's belly.",
-   "where": "centre, below the dog's belly (about x 590, y 1400)"
+   "where": "centre, below the dog's belly (about x 590, y 1400)",
+   "second_reader": "confirmed"
   },
   {
    "key": "k29",
@@ -80,7 +86,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has both ears upright, stands upright like a person and lays a hand-like paw on the queen's chin; the queen is auburn-haired and red-eyed in a red-and-white gown, and Indio wears a modern blue button shirt.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "second_reader": "confirmed"
   },
   {
    "key": "k29",
@@ -91,7 +98,8 @@
    "type": "merge",
    "must_fix": false,
    "what": "Usman's red kerchief runs straight across Indio's mouth and face, as if the two were one piece of cloth.",
-   "where": "left edge, Indio's face"
+   "where": "left edge, Indio's face",
+   "second_reader": "confirmed"
   },
   {
    "key": "k11",
@@ -103,7 +111,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has two fully upright ears (he must have one folded ear) and a scruffy, thin build that does not match the smooth-coated dog in k25 and k51.",
-   "where": "centre, dog at the prow"
+   "where": "centre, dog at the prow",
+   "second_reader": "confirmed"
   },
   {
    "key": "k20",
@@ -114,7 +123,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The queen has black hair and a different face here, while in k00, k18 and k19 she has long silver hair.",
-   "where": "whole frame, queen's face"
+   "where": "whole frame, queen's face",
+   "second_reader": "confirmed"
   },
   {
    "key": "k21",
@@ -126,7 +136,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The queen has brown hair in an updo and a different face, so she does not read as the silver-haired queen from k18 and k19.",
-   "where": "left half, queen"
+   "where": "left half, queen",
+   "second_reader": "confirmed"
   },
   {
    "key": "k31",
@@ -137,7 +148,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The laughing queen has light-blue hair, a fourth hair colour for the same character in this episode.",
-   "where": "centre, queen's head"
+   "where": "centre, queen's head",
+   "second_reader": "confirmed"
   },
   {
    "key": "k50",
@@ -148,7 +160,8 @@
    "type": "duplicate",
    "must_fix": true,
    "what": "Indio looks at a second young man in the same beige tunic with a red collar, who reads as Indio a second time; the script has him watching M's back (long black hair, dark coat).",
-   "where": "right half, the figure seen from behind"
+   "where": "right half, the figure seen from behind",
+   "second_reader": "confirmed"
   },
   {
    "key": "k42",
@@ -159,7 +172,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "The glowing dagger's hilt floats in front of his belly, and the hand that should grip it melts into a shapeless skin blob under the hilt.",
-   "where": "centre, dagger hilt"
+   "where": "centre, dagger hilt",
+   "second_reader": "confirmed: no fingers anywhere on the hilt, only a pale lump"
   },
   {
    "key": "k40",
@@ -168,9 +182,10 @@
    ],
    "still": "full/agos_ride.jpg",
    "type": "hands",
-   "must_fix": false,
+   "must_fix": true,
    "what": "His outstretched left hand shows only three fingers and a stub.",
-   "where": "left side, outstretched hand"
+   "where": "left side, outstretched hand",
+   "second_reader": "changed: must_fix raised to true, the three-fingered hand is the hero gesture of the shot and about a fifth of the frame wide"
   },
   {
    "key": "k63",
@@ -182,7 +197,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The hands holding the lamp are covered in dark tattoos on the fingers, the backs of the hands and a red eye motif, unlike Indio's indigo geometric forearm tattoos.",
-   "where": "whole frame, both hands"
+   "where": "whole frame, both hands",
+   "second_reader": "confirmed"
   },
   {
    "key": "k63",
@@ -194,7 +210,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "The two hands blend into one mass around the lamp, so the fingers of each hand cannot be counted.",
-   "where": "left and bottom of the lamp"
+   "where": "left and bottom of the lamp",
+   "second_reader": "confirmed"
   },
   {
    "key": "k58",
@@ -205,7 +222,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Indio stands in the boat in a long brown coat with no red headband, tunic or sash.",
-   "where": "upper middle, man behind M"
+   "where": "upper middle, man behind M",
+   "second_reader": "confirmed"
   },
   {
    "key": "k04",
@@ -216,7 +234,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "On the video call, Ma'am Celia has loose hair and no glasses, but in her own close-up (k05) she has a bun and glasses.",
-   "where": "laptop screen"
+   "where": "laptop screen",
+   "second_reader": "confirmed: k05 shows a bun and black glasses, the screen shows loose hair and no glasses"
   },
   {
    "key": "k04",
@@ -227,7 +246,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The red handkerchief on Indio's wrist is covered in black letter-like marks.",
-   "where": "Indio's wrist"
+   "where": "Indio's wrist",
+   "second_reader": "confirmed"
   },
   {
    "key": "k09",
@@ -238,7 +258,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The red handkerchief is draped over his shoulder, and a red patterned band sits on his sleeve, instead of a handkerchief tied on his left wrist.",
-   "where": "shoulder and sleeve, left side"
+   "where": "shoulder and sleeve, left side",
+   "second_reader": "confirmed"
   },
   {
    "key": "k59",
@@ -249,7 +270,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The shaft of the key in his fist carries white letter-like marks.",
-   "where": "top left, key above the fist"
+   "where": "top left, key above the fist",
+   "second_reader": "confirmed"
   },
   {
    "key": "k59",
@@ -260,7 +282,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A red handkerchief is tied on both wrists instead of only the left one.",
-   "where": "both wrists"
+   "where": "both wrists",
+   "second_reader": "confirmed"
   },
   {
    "key": "k62",
@@ -271,7 +294,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A red tassel hangs in mid-air in front of his shirt, attached to nothing.",
-   "where": "left, below the pointing arm"
+   "where": "left, below the pointing arm",
+   "second_reader": "confirmed"
   },
   {
    "key": "k19",
@@ -282,7 +306,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "Indio's red headband has a gold letter-like glyph on it.",
-   "where": "Indio's headband, right half"
+   "where": "Indio's headband, right half",
+   "second_reader": "confirmed"
   },
   {
    "key": "k14",
@@ -293,7 +318,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The temple pediment holds faint letter-like marks.",
-   "where": "top centre, pediment"
+   "where": "top centre, pediment",
+   "second_reader": "confirmed"
   },
   {
    "key": "k17",
@@ -304,7 +330,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The car number plates carry faint letter-like marks.",
-   "where": "middle, front plates"
+   "where": "middle, front plates",
+   "second_reader": "confirmed"
   },
   {
    "key": "k35",
@@ -315,7 +342,289 @@
    "type": "object",
    "must_fix": false,
    "what": "The pen on the scroll ends in a curved knife blade instead of a nib or quill.",
-   "where": "bottom right"
+   "where": "bottom right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/cup_down.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand lowering the cup has a huge thumb and then a clump of three fused finger stubs with an extra nub, so no finger can be counted.",
+   "where": "centre, hand over the cup rim",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/holo_kraken.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has a second green-teal bun of hair behind his black topknot, so he reads as two-coloured hair.",
+   "where": "top centre, above the red headband",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/holo_kraken.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "His right forearm and hand carry a coloured picture tattoo full of small human faces instead of indigo geometric marks.",
+   "where": "centre right, outstretched forearm",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56,
+    84
+   ],
+   "still": "full/kraken_lore.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The sailor on the left has three arms, each ending in a pointing hand.",
+   "where": "bottom left, the shouting man",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56,
+    84
+   ],
+   "still": "full/kraken_lore.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The still is drawn as a cross-hatched vintage ink poster, not the episode's clean cel-shaded anime, so the cut to it jolts.",
+   "where": "whole frame",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/usman_sniff_queen.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's head carries a third ear flap: a folded flap and a second pointed flap overlap on the right side beside the upright left ear.",
+   "where": "upper centre, right side of the dog's head",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27,
+    88
+   ],
+   "still": "full/m_memory_host.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The pale winged woman on the left has eyes and a nose but no mouth at all.",
+   "where": "upper left, her face",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33,
+    92
+   ],
+   "still": "full/kings_greed.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hands grabbing the gold merge into one another and two of them are smooth paddles with no fingers.",
+   "where": "centre, over the gold pile",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36,
+    91
+   ],
+   "still": "full/water_canals.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A modern television aerial stands on a roof of the drowning ancient city, and a modern intercom panel sits beside a door on the right wall.",
+   "where": "top centre roof, and right wall beside the door",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/agos_ride.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "His other hand melts into the white spray at the right edge and extra finger shapes grow out of it.",
+   "where": "right edge, trailing hand",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/agos_ride.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "One foot wears a brown boot and the other foot is bare.",
+   "where": "bottom, his feet",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/holo_kraken.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "On the open hand one finger is cut by a notch and the two lower fingers fuse into one lump.",
+   "where": "centre, open palm over the sash",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/seal_kraken.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's raised hand is a flat blade-like shape with no separate fingers.",
+   "where": "centre right, her raised hand",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47,
+    49
+   ],
+   "still": "full/m_prow_back.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The temple frieze inside the portal carries letter-like marks.",
+   "where": "upper right, colonnaded building",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_growl_sea.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright in this close-up, although he must have one folded ear.",
+   "where": "centre, the dog's head",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/ruins_none.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The diver's sleeve ends straight in the torch, with no hand holding it.",
+   "where": "centre right, torch",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57,
+    64
+   ],
+   "still": "full/trio_sea.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "Indio's left sleeve ends in a point at his hip with no hand below it.",
+   "where": "left, his lowered arm",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/portal_exit.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The small boat carries three oars on each side for two people, and the outer pair is held by nobody.",
+   "where": "middle, both sides of the boat",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/samar_feather.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The fingers of his lowered hand run together into a dark tangle under the thumb.",
+   "where": "lower right, lowered hand",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/samar_feather.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The red band on his lowered wrist is covered in dark letter-like marks.",
+   "where": "lower right, wrist band",
+   "found_by": "second reader",
+   "second_reader": "new"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/indio_point_s3.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The fingers of his lowered hand run together into a dark tangle under the thumb.",
+   "where": "lower right, lowered hand",
+   "found_by": "second reader",
+   "second_reader": "new"
   }
- ]
+ ],
+ "second_reader_keys_looked_at": 61
 }

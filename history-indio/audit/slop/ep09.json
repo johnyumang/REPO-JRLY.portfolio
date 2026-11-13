@@ -1,0 +1,330 @@
+{
+ "episode": 9,
+ "audited_by": "render-worker-ep08-09-19-30 (two fresh readers)",
+ "keys_looked_at": 83,
+ "defects": [
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/kawit_night.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The line says M opens the document under the tree, but the only person in the picture is a small brown-haired child sitting by a lantern, not M.",
+   "where": "lower centre, at the foot of the tree"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/m_talk_ots.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The over-the-shoulder figure meant to be Indio has short brown hair, a red beanie and a grey jacket, with no topknot and no headband.",
+   "where": "left half, back of the head in the foreground"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/lore_ask.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In the same Kawit scene M wears a grey V-neck t-shirt instead of her long dark coat.",
+   "where": "right figure"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/two_tree.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The woman next to Indio has long brown hair and a white blouse, so she does not read as M (black hair, dark coat).",
+   "where": "right figure"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/hands_map.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The map has a small letter-like mark that reads like 'Ub'.",
+   "where": "upper-left of the map, beside the ink pot"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/kasulatan_drawn.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A paper on the desk shows large serif letters that look like 'H' and 'E.'",
+   "where": "top-right corner"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/kasulatan_drawn.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The writing tool is a feather quill stuck onto a modern black ballpoint pen body.",
+   "where": "lower right, in the hand"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/m_medallion_hot.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has light-brown hair and a beige cloak instead of long black hair and her dark coat (the tattooed hands are Indio's and are right).",
+   "where": "face top-left, hands centre"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has no white chest patch, and a white label-like strip hangs off the edge of his kerchief.",
+   "where": "bottom centre, kerchief and chest"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/m_hush.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Usman's white chest patch is drawn as a round white tag with M's crescent moon on it.",
+   "where": "right, dog's chest"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/sit_rocks.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Two black dogs and three cloaked people instead of Indio and M, and none looks like Indio or M.",
+   "where": "lower half, the group on the rock"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/edge_three.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman wears a red harness and has two upright ears, and Indio has short brown hair with no topknot and modern jeans and boots under the cloak.",
+   "where": "left figure's head; dog lower right; red shape at Indio's left side"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/running_crowd.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "In the close-up of the viewer's own feet, the right foot is a toeless blob and the left foot's toes are fused together.",
+   "where": "bottom centre and bottom right"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/disciples_close.jpg",
+   "type": "duplicate",
+   "must_fix": false,
+   "what": "The two disciples facing each other have the same face, hair, stubble and tunic, like one man mirrored.",
+   "where": "left and right foreground"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/philip_coins.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The coins in the palm carry letter-like marks.",
+   "where": "centre, on the coins"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/basket_handed.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Two baskets are stacked rim to bottom and grown together like an hourglass, held by four hands, where the story has one basket being handed over.",
+   "where": "centre"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/blessing_back.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small red cross mark is painted on the building wall.",
+   "where": "right edge, on the white building"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/usman_nose_rocks.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright ears and no white chest patch.",
+   "where": "centre, dog's head"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/lamp_lights.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has pale skin, no headband or topknot and a dark zip jacket instead of the fur cloak, and his fingers carry tattoos with letter-like marks.",
+   "where": "whole figure; tattooed hand lower left"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/m_dark_twoshot.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Between the cloak shots before and after, Indio wears a brown jacket and jeans instead of the fur cloak.",
+   "where": "right figure"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/usman_grin.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears instead of one folded ear.",
+   "where": "top, dog's ears"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/morga_book.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Open book pages filled with letter-like script (key read before the central redraw was recomposited).",
+   "where": "centre-left, the open book",
+   "second_reader": "refuted: the recomposited key from the central redraw shows a blank book",
+   "fixed": true
+  },
+  {
+   "key": "k74",
+   "shots": [
+    74
+   ],
+   "still": "full/language_books.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Book covers and pages with letter-like titles (key read before the central redraw was recomposited).",
+   "where": "whole lower two-thirds",
+   "second_reader": "refuted: the recomposited key from the central redraw shows a blank book",
+   "fixed": true
+  },
+  {
+   "key": "k80",
+   "shots": [
+    80
+   ],
+   "still": "full/m_profile.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A modern tablet or monitor screen appears on the rocks in a Galilee night scene.",
+   "where": "bottom-left corner"
+  },
+  {
+   "key": "k80",
+   "shots": [
+    80
+   ],
+   "still": "full/m_profile.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a sleeveless tank top and grey shorts instead of the fur cloak he wears in the rest of the scene.",
+   "where": "right figure"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/jump_vortex.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M has her hair in a bun and wears a long dark dress instead of long loose hair and the dark coat.",
+   "where": "right figure behind Indio"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    92
+   ],
+   "still": "full/walk_shore.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has a short bob haircut, Indio has brown hair with no headband or topknot, and Usman has two upright ears.",
+   "where": "all three figures, seen from behind"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman snarls with two upright pointed ears instead of his single folded ear.",
+   "where": "dog's head, centre"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn with two large upright pointed ears instead of one folded ear.",
+   "where": "dog's head, top centre"
+  }
+ ]
+}

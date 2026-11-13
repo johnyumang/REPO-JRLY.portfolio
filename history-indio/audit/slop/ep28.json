@@ -1,0 +1,504 @@
+{
+ "episode": 28,
+ "readers": 2,
+ "keys_looked_at": 84,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/cave_elder_dark.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A red-and-white logo block and two white letter-shapes sit in the top-left corner of the frame.",
+   "where": "top-left corner, over the dark cave wall"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/lola_firm.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A framed wedding photograph is stuck flat on Lola's chest like a badge instead of hanging on the wall.",
+   "where": "centre of her floral dress, chest height"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears hanging folded and a pale green eye instead of one folded ear and dark clever eyes.",
+   "where": "the dog's head, lower half of frame"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/memory_father.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two grown men's heads sit on one jacketed body, with the arms that lift the child growing out of the shared shoulder.",
+   "where": "centre-right, the adult holding the baby up"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/giliw_block.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The open red umbrella hangs across the woman's chest on its own while both of her hands are open and empty at her sides.",
+   "where": "front figure, chest and both hands"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/giliw_block.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is drawn as a child-sized schoolgirl in a blazer and necktie, not the tall woman in the long dark coat of the two shots before.",
+   "where": "front figure, whole body"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/lolo_hand.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man beside Lolo is not Indio: short brown side-parted hair, no topknot, a dark polo and no red wrist cloth.",
+   "where": "right-hand figure"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/tambuli_give.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The carabao horn is forked, ending in two separate tips growing out of one body.",
+   "where": "the horn in the old hand, left of frame"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall pointed erect ears and a wolf-like muzzle, with no folded ear anywhere.",
+   "where": "the dog's head, filling the frame"
+  },
+  {
+   "key": "k74",
+   "shots": [
+    74
+   ],
+   "still": "full/comment_q.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The horn is blown through a black flashlight head clamped to its mouthpiece and a torch beam shoots out of the horn's tip.",
+   "where": "the horn at his mouth, left of frame"
+  },
+  {
+   "key": "k93",
+   "shots": [
+    93
+   ],
+   "still": "full/cofradia_crowd.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The shot is a grey screentoned manga page, not the episode's coloured cel-shaded look, and the far rows of faces dissolve into blank texture.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/indio_recognise.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The red cloth on each wrist carries small letter-like scratches.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/ride_kawit.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A shop sign over the street reads as the letters 'SAIC', legible on a paused phone.",
+   "where": "upper left, above the shutters"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/letter_desk.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The letter on the desk is covered in rows of letter-like scribble rather than blank ruled lines.",
+   "where": "paper under his pen, lower centre"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/usman_turns.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded instead of one folded ear.",
+   "where": "the dog's head"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/return_light.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears erect instead of one folded ear.",
+   "where": "the dog, centre-left"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/usman_passage.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn puppy-sized with both ears erect.",
+   "where": "the dog in the passage"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/lolo_serious.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lolo wears a red cloth bow on both wrists, which is Indio's one-wrist mark.",
+   "where": "both of the old man's wrists"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/usman_sniffs_lolo.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The hanging hand's fingers run into the tip of Usman's ear so the ear and the hand share an outline.",
+   "where": "right of centre, hand beside the dog's right ear"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/usman_leans.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, and Lolo wears a blue neckerchief in place of his usual red wrist cloth.",
+   "where": "dog's head and the old man's collar"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/tambuli_shoulder.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red kerchief on both wrists instead of only the left.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/pule_bust_fair.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The bust's right shoulder ends in a flat dark slab that belongs to no part of the statue.",
+   "where": "right shoulder of the bust"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/descend_two.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog walking with Indio has no red kerchief and two erect ears.",
+   "where": "dog at lower right"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/flash_beam.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The flashlight is skewered on a thin rod growing out of the cave wall with no hand or fitting holding it.",
+   "where": "upper left of the cave mouth"
+  },
+  {
+   "key": "k75",
+   "shots": [
+    75
+   ],
+   "still": "full/tambuli_hands.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has loose hair with no topknot and a dark collared jacket instead of the grey t-shirt of the shots around it.",
+   "where": "head and shoulder, right of frame"
+  },
+  {
+   "key": "k76",
+   "shots": [
+    76
+   ],
+   "still": "full/follow_end.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The horn on his strap is a bamboo tube with a crescent blade on the end, not the carabao horn shown in the other shots.",
+   "where": "slung across his back"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/flashlight_find.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The recomposited key decodes now, but the rusty flashlight body carries dark kanji-like characters and a boxed glyph.",
+   "where": "flashlight barrel, lower centre",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/climb_behind.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "Indio has three arms: on his left side a second forearm with its own red wrist cloth grows out behind the first one.",
+   "where": "right side of frame, two forearms with red cloths at hip height",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/search_days.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is drawn as a brown-haired girl in a pale t-shirt and jeans, with no long dark coat and no red umbrella.",
+   "where": "woman behind Indio, upper right",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k95",
+   "shots": [
+    95
+   ],
+   "still": "full/flash_beam.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Same still as k73: the flashlight is skewered on a thin rod growing out of the cave wall with nothing holding it.",
+   "where": "upper left of the cave mouth",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/lolo_hand.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Lolo's hand on the young man's shoulder is three lumpy knobs with no readable fingers.",
+   "where": "top right, on the far shoulder",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/lolo_hand.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lolo has a white goatee and a much older, bony face here (and in k61), while in k55, k56 and k64 he is clean-shaven and rounder.",
+   "where": "left-hand figure, face",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/pule_back.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The raised hand is a shapeless knob with no fingers.",
+   "where": "top of the raised arm, centre",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/tambuli_give.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man receiving the horn has loose bangs, no visible topknot and an olive collared shirt, not Indio's grey t-shirt.",
+   "where": "right-hand face and shoulder",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/notebook_new.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "A soft dark painted frame with no ink lines, and an unprompted long-haired, girl-like face that is not recognisably Indio looms over the notebook.",
+   "where": "whole frame, face upper right",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/notebook_line.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "A blurred, textured painting with no ink lines, and the hand holding the notebook melts into a soft mitten.",
+   "where": "whole frame, hand lower right",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/cofradia_fair.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "A brown, grainy painted still with no ink lines, unlike the clean cel look of the shots around it.",
+   "where": "whole frame",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/pule_bust_fair.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The bust is a bare-chested, shiny, different-faced youth, not the shirted green-bronze bust of the same man in k18.",
+   "where": "the bust, centre",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/indio_recognise.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on both wrists instead of only the left.",
+   "where": "both wrists, lower half",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/tell_tala.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on both wrists (one with a watch) instead of only the left.",
+   "where": "both hands behind his back",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/descend_two.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on one wrist and a red band on the other.",
+   "where": "both wrists",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/lolo_close.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A wall notice behind Lolo carries rows of letter-like marks, and his red wrist cloth carries letter-like scratches.",
+   "where": "right edge, behind his ear; wrist cloth lower left",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/usman_passage.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man's legs are in light grey trousers and white shoes, not Indio's jeans and grey sneakers of k53.",
+   "where": "legs on the right",
+   "found_by": "reader2"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k41",
+   "what": "The key file is cut off and renders black below the top quarter.",
+   "why": "k41 was recomposited; it now decodes as a full 1152x2048 frame with no black area (its new writing fault is listed above)."
+  }
+ ]
+}

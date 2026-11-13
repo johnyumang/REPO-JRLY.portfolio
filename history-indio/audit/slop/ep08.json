@@ -1,0 +1,388 @@
+{
+ "episode": 8,
+ "audited_by": "render-worker-ep08-09-19-30 (two fresh readers)",
+ "keys_looked_at": 36,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "chars/indio_back.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Two Indio look-alikes with red headbands stand in the crowd behind him, so his past self appears twice when the script has only one.",
+   "where": "left and right edges, behind his shoulders",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/acta.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand's fingers are tangled: one finger loops into a closed ring with the next, the digits cannot be counted cleanly, and the quill floats beside the hand instead of being held.",
+   "where": "right-hand side, hand on the paper"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/johnson.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The signed sheet is covered in rows of handwriting-like marks.",
+   "where": "paper on the table, lower left"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/johnson.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "Drawn in a Western comic-book style with realistic shaded faces, which jolts against the anime shots around it.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/no_dewey.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small letter-like marks are painted on the bows of both ships.",
+   "where": "ship hulls, middle band"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/delfina.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The right woman's hand is a cluster of splayed digits that fuses with the girl's fingertips.",
+   "where": "centre right, above the ink jars"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/loop_front.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "There is a grey, ghost-like skull face in the crowd.",
+   "where": "top centre, between the hats"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/loop_front.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's hand is a fingerless mitten blob holding a red object.",
+   "where": "bottom right, by his hip"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "chars/m_child.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "M's umbrella hand is a pale, half-erased white blob, and the umbrella's dark shaft runs up into her sleeve as if it were part of her forearm.",
+   "where": "left side, her right hand on the umbrella",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/sulayman_light.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The floating medallion shows a cross-like mark instead of the sun and triangle, and a modern water tower and tower blocks stand behind the 1898 crowd.",
+   "where": "centre medallion; left and right horizon"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "chars/woman_five.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "M's raised hand has only three fingers and a thumb, while the narration counts her five fingers.",
+   "where": "raised hand, upper left",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "chars/indio_listen.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "Indio's eyes are different colours (grey left, yellow right), partly explained by the light band across his face.",
+   "where": "eyes, centre"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/lolo_m.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M is drawn as a different woman (curly hair under a wide black hat, darker skin, Victorian dress, sepia style), and the man meant to be Lolo is a young black-haired man rather than a grey-haired grandfather.",
+   "where": "right figure (M) and left figure (Lolo)",
+   "second_reader": "refuted by the second reader: memory scene, face meant to be shadowed"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/lolo_m.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The closed umbrella has two red handles side by side, and its rib tips stick out at the handle end.",
+   "where": "lower right, umbrella in her hand"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "chars/m_explain.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has a short bob haircut here, against the long hair in k14 and k18.",
+   "where": "head and collar",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "chars/m_explain.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "A second red umbrella with a hooked handle floats in the foreground beside M's own.",
+   "where": "bottom left corner",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/umbrella_handle.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is blonde with a low ponytail in this shot instead of black-haired.",
+   "where": "top right, face and hair",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/umbrella_handle.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The umbrella has two handles (a straight banded shaft and a separate curved hook), and the lower hand's fingers melt into the hooked handle.",
+   "where": "left half, umbrella handles and lower hand"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/map_lens.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the map is a pink mass with a thumb but no separate fingers, and it blends into the map's Europe outline.",
+   "where": "left middle, inside the lens",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has a broad, muscled, human-like chest and shoulders, like a bodybuilder rather than a slim street dog.",
+   "where": "lower half, torso",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/walk_away.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Usman wears a thin red collar instead of the kerchief, and a white ring patch sits on his rump instead of his chest.",
+   "where": "dog, lower right"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "chars/indio_fist.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The magnifying-glass lens shows a blocky, pixelated cut-out of the background instead of a magnified image.",
+   "where": "lens, left middle",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/m_medallion_hot.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has brown hair, a light coat and tattooed hands, so she does not read as the same woman as in k14, k18 and k21.",
+   "where": "face and hands, whole frame",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/m_medallion_hot.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The two hands cupping the medallion are tangled; it is hard to tell which fingers belong to which hand.",
+   "where": "centre, hands around the medallion"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/map_west.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The map has clusters of glyph-like marks that read as text.",
+   "where": "top-left corner and along the coastlines"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "chars/indio_point.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The pointing hand is malformed: only four digits show, and the raised finger and the thumb show nails on what is drawn as the palm side.",
+   "where": "lower left, raised hand",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "chars/usman_crowd.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears are folded, while his design and k26 have one folded ear and one upright.",
+   "where": "ears, top"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/johnson.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The signing arm ends in two hands from one cuff: fingers pinching the top of the quill and a separate fist below holding its tip.",
+   "where": "centre, the writing hand on the paper",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/map_lens.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The map shows only five glowing dots, while the narration says twelve dots across Asia.",
+   "where": "dots inside the lens",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader",
+   "note": "the chosen map shows about 14 dots, not exactly 12"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/treaty.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 1898 treaty is signed with a modern chrome retractable pen.",
+   "where": "pen in the hand, upper right"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/toddler_medallion.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The family medallion shows a sun and a bell instead of a sun and a triangle.",
+   "where": "medallion on the boy's chest"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/kawit_window.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A modern utility pole with wires stands beside the 1898 house, and the house has a side balcony.",
+   "where": "left edge; right side of the house"
+  }
+ ],
+ "third_reader": "kept all 11 redraws; minor notes: umbrella handle shape differs between k14, k18 and k21; k23 about 14 dots"
+}

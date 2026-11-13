@@ -1,7 +1,8 @@
 {
  "episode": 14,
- "audited_by": "worker-davinci (first reader)",
+ "audited_by": "worker-davinci (first and second reader)",
  "keys_looked_at": 81,
+ "second_reader_keys_looked_at": 81,
  "defects": [
   {
    "key": "k00",
@@ -12,7 +13,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The kapre licks a cigar with a long tongue, a metal canister is clamped to the branch, and a second small grinning goblin-like man with his own smoke sits on the branch behind.",
-   "where": "upper half: canister top left, small figure top right"
+   "where": "upper half: canister top left, small figure top right",
+   "second_reader": "confirmed"
   },
   {
    "key": "k01",
@@ -23,7 +25,8 @@
    "type": "object",
    "must_fix": false,
    "what": "M carries a bare open pot of soup in her arms while the plastic bag hangs empty of it below, so the soup and the bag do not go together.",
-   "where": "M's hands and the bag at her hip"
+   "where": "M's hands and the bag at her hip",
+   "second_reader": "confirmed"
   },
   {
    "key": "k07",
@@ -34,7 +37,8 @@
    "type": "object",
    "must_fix": false,
    "what": "Translucent pink cone shapes stand up behind the car's red bow and belong to nothing.",
-   "where": "top centre, behind the bow"
+   "where": "top centre, behind the bow",
+   "second_reader": "confirmed"
   },
   {
    "key": "k08",
@@ -45,7 +49,8 @@
    "type": "merge",
    "must_fix": false,
    "what": "JM's rag is the hem of Indio's white shirt: JM's hand grips Indio's shirt and the cloth runs on unbroken.",
-   "where": "centre, JM's right hand at Indio's waist"
+   "where": "centre, JM's right hand at Indio's waist",
+   "second_reader": "confirmed"
   },
   {
    "key": "k17",
@@ -56,7 +61,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has two hanging folded ears instead of one folded ear.",
-   "where": "dog's head, both ears"
+   "where": "dog's head, both ears",
+   "second_reader": "confirmed"
   },
   {
    "key": "k18",
@@ -67,7 +73,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Indio wears a modern grey sleeveless top in a 1570 scene instead of his beige tunic with red sash.",
-   "where": "right edge, Indio's shoulder and arm"
+   "where": "right edge, Indio's shoulder and arm",
+   "second_reader": "confirmed"
   },
   {
    "key": "k25",
@@ -78,7 +85,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has spiky reddish-brown hair with no topknot and a boyish face, not the black topknot of every other shot.",
-   "where": "Indio's head, centre"
+   "where": "Indio's head, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k30",
@@ -89,7 +97,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio wears a red knit beanie instead of the red headband over his topknot.",
-   "where": "Indio's head, lower foreground"
+   "where": "Indio's head, lower foreground",
+   "second_reader": "confirmed"
   },
   {
    "key": "k31",
@@ -100,7 +109,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The Indio holding the lamp is pale with long side-swept bangs, no headband and a grey modern shirt, unlike the 1570 Indio of the other shots.",
-   "where": "Indio's face and clothes"
+   "where": "Indio's face and clothes",
+   "second_reader": "confirmed"
   },
   {
    "key": "k33",
@@ -111,7 +121,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio again wears a red knit beanie instead of the red headband, so the tearful close-up does not match the scene.",
-   "where": "Indio's head"
+   "where": "Indio's head",
+   "second_reader": "confirmed"
   },
   {
    "key": "k34",
@@ -122,7 +133,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has brown hair, no headband and a white modern polo, not the 1570 tunic Indio of the scene.",
-   "where": "Indio, lower left"
+   "where": "Indio, lower left",
+   "second_reader": "confirmed"
   },
   {
    "key": "k34",
@@ -133,7 +145,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The kapre holds a brass rod with a disc on the end instead of its cigar, and a second pipe floats beside it.",
-   "where": "kapre's hands, centre"
+   "where": "kapre's hands, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k35",
@@ -144,7 +157,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "A letter-like scribbled signature mark sits in the corner.",
-   "where": "bottom right corner"
+   "where": "bottom right corner",
+   "second_reader": "confirmed"
   },
   {
    "key": "k36",
@@ -155,7 +169,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The kapre's cigar becomes a long hose that runs into its chest.",
-   "where": "kapre's mouth and chest, right side"
+   "where": "kapre's mouth and chest, right side",
+   "second_reader": "confirmed"
   },
   {
    "key": "k39",
@@ -166,7 +181,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "The raised hand is a wide mitten whose last fingers are merged together.",
-   "where": "the hand holding the medallion, centre"
+   "where": "the hand holding the medallion, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k41",
@@ -177,7 +193,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The medallion rim carries a ring of letter-like marks.",
-   "where": "medallion rim, centre"
+   "where": "medallion rim, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k42",
@@ -188,7 +205,8 @@
    "type": "merge",
    "must_fix": false,
    "what": "In the crowd, one man's arm reaches across and his phone sits against another man's face, whose own hands also hold a camera, so the arms cannot be told apart.",
-   "where": "centre of the crowd"
+   "where": "centre of the crowd",
+   "second_reader": "confirmed"
   },
   {
    "key": "k45",
@@ -199,7 +217,8 @@
    "type": "merge",
    "must_fix": true,
    "what": "Indio's left arm is missing and a man's hand wearing Indio's gold watch comes out of M's coat sleeve at his thigh.",
-   "where": "between Indio and M, waist height"
+   "where": "between Indio and M, waist height",
+   "second_reader": "confirmed: a gold-watch hand in a dark coat cuff sits where Indio's left arm should be, belonging to neither his white shirt nor M's coat"
   },
   {
    "key": "k47",
@@ -210,7 +229,8 @@
    "type": "duplicate",
    "must_fix": true,
    "what": "The same angry young man is drawn twice on the phone screen, large and small, with an identical face.",
-   "where": "phone screen, centre"
+   "where": "phone screen, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k47",
@@ -221,7 +241,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The phone status bar and overlay carry letter-like glyphs.",
-   "where": "top of the phone screen"
+   "where": "top of the phone screen",
+   "second_reader": "confirmed"
   },
   {
    "key": "k50",
@@ -232,7 +253,8 @@
    "type": "object",
    "must_fix": false,
    "what": "M carries a bare open pot of soup in her arms and a separate bag with another bowl below, so the soup and the bag do not go together.",
-   "where": "M's hands and the bag"
+   "where": "M's hands and the bag",
+   "second_reader": "confirmed"
   },
   {
    "key": "k50",
@@ -243,7 +265,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "A sign on the left wall carries letter-like text.",
-   "where": "left wall"
+   "where": "left wall",
+   "second_reader": "confirmed"
   },
   {
    "key": "k53",
@@ -254,7 +277,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Indio looks about forty, heavy-set with a deeply lined face, older than in his other present-day shots.",
-   "where": "Indio's face"
+   "where": "Indio's face",
+   "second_reader": "confirmed: reads as worn and aged versus the other present-day shots, though the build stays lean"
   },
   {
    "key": "k53",
@@ -265,7 +289,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A strap with two gold buckles hangs loose on his shirt front and is attached to nothing.",
-   "where": "shirt front, centre"
+   "where": "shirt front, centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k55",
@@ -276,7 +301,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "Where the forearms cross, the lower hand has no visible fingers and the two forearms melt together.",
-   "where": "both hands on the lap, bottom centre"
+   "where": "both hands on the lap, bottom centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k59",
@@ -287,7 +313,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A loose gold curved hook juts out of the young rajah's wrist cuff.",
-   "where": "young rajah's right wrist"
+   "where": "young rajah's right wrist",
+   "second_reader": "confirmed"
   },
   {
    "key": "k60",
@@ -298,7 +325,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The kapre's cigar is a burning log fused to its forearm and no hand holds it.",
-   "where": "kapre's right arm, centre right"
+   "where": "kapre's right arm, centre right",
+   "second_reader": "confirmed"
   },
   {
    "key": "k61",
@@ -309,7 +337,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The wave medallion is drawn as a broken grey ring with a stone leaf hanging off it.",
-   "where": "Indio's raised hand, left"
+   "where": "Indio's raised hand, left",
+   "second_reader": "confirmed"
   },
   {
    "key": "k62",
@@ -320,7 +349,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A gold wristwatch is worn on his ankle.",
-   "where": "Indio's right ankle, bottom"
+   "where": "Indio's right ankle, bottom",
+   "second_reader": "confirmed"
   },
   {
    "key": "k64",
@@ -331,7 +361,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Indio is drawn boyish with heavy bangs and blushing cheeks, much younger than in the garage shots around it.",
-   "where": "Indio's face"
+   "where": "Indio's face",
+   "second_reader": "confirmed"
   },
   {
    "key": "k92",
@@ -342,7 +373,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The credit cards and boxes carry letter-like marks.",
-   "where": "cards on the glass table"
+   "where": "cards on the glass table",
+   "second_reader": "confirmed"
   },
   {
    "key": "k96",
@@ -353,7 +385,8 @@
    "type": "object",
    "must_fix": false,
    "what": "A huge curved spar arches from the bow over the sails and is attached to nothing.",
-   "where": "upper right of the ship"
+   "where": "upper right of the ship",
+   "second_reader": "refuted: it is the ship's bowsprit, carved into the beakhead at the bow and carrying its rigging; an exaggerated curve, not a free-floating spar"
   },
   {
    "key": "k100",
@@ -364,7 +397,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "A tangle of disembodied hands: the big front camera is held by no hand and other hands overlap the girl's face.",
-   "where": "bottom centre and around the girl"
+   "where": "bottom centre and around the girl",
+   "second_reader": "confirmed"
   },
   {
    "key": "k100",
@@ -375,7 +409,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "The front camera carries a letter-like label.",
-   "where": "front camera, bottom centre"
+   "where": "front camera, bottom centre",
+   "second_reader": "confirmed"
   },
   {
    "key": "k101",
@@ -386,7 +421,32 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The tie-pin close-up shows a young brown-haired man with one grey and one brown eye, not the tall pale man in the black suit of k43 and k44.",
-   "where": "face, top half"
+   "where": "face, top half",
+   "second_reader": "confirmed: k43 and k44 show a tall silver-haired pale man; this close-up is a young brown-haired man with heterochromia"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/usman_whisper.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's ears are both pricked erect, neither of them the single folded ear that defines him.",
+   "where": "dog's head, both ears",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/watches_shoes.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The price tags and barcode labels on the watch boxes carry letter- and number-like marks.",
+   "where": "tags and labels across the shelves",
+   "found_by": "second reader"
   }
  ]
 }

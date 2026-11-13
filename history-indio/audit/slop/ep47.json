@@ -1,0 +1,399 @@
+{
+ "episode": 47,
+ "audited_by": "render worker 3 (two readers)",
+ "keys_looked_at": 81,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/usman_looks.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has long red-brown hair with a shell braid and a bare-shoulder top, and Indio wears a white shirt instead of the dark grey coat; neither reads as the episode's M or Indio.",
+   "where": "both people, upper half",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/usman_looks.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The woman's legs and feet on the deck are half-sketched, see-through shapes that melt into each other with no readable foot.",
+   "where": "lower left, beside the dog",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/usman_looks.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Indio's hair grows two black pointed ear-like spikes beside the topknot.",
+   "where": "top right, Indio's head",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/family_whole.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man in his forties is a short-haired man in a brown polo with no topknot, grey coat or red handkerchief, and an extra man in a cap leans in behind; Indio cannot be found.",
+   "where": "right side and top centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/pabitin_list.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a round bear-like animal with two upright red-lined ears and a red mask band over his face, not the slim street dog with one folded ear.",
+   "where": "whole dog, centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k98",
+   "shots": [
+    98
+   ],
+   "still": "full/x_family_hands.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "In the pile of hands, blue-nailed fingertips at the centre belong to no clear hand and the stacked hands on the right have more fingers than hands.",
+   "where": "centre and right of the pile",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_turns.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lola wears a white hood and purple robe and has a different face from her floral dress in k27, k28 and k35.",
+   "where": "Lola, top half",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_turns.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two long floppy ears and a white face blaze, reading as a different breed.",
+   "where": "dog's head, centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/usman_talks.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman close-up has blue human-like eyes and both ears folded.",
+   "where": "dog's head",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/eyes_deep.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A faint sketched face with whiskers and a nose is drawn on the white sail, with glyph-like boxes beside it.",
+   "where": "upper centre, the white sail",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/umbrella_open.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The umbrella shaft has its J-hook handle in the middle, with her lower hand holding a second grip below it.",
+   "where": "M's hands, left",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/hologram_calm.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The clasped hands are soft blobs and the fingers fuse together with no readable count.",
+   "where": "lower half",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/star_hand.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A hollow gold square frame floats behind the star guard and attaches to nothing.",
+   "where": "centre right, behind the star",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/usman_firecracker.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio wears a second red cloth at his hip besides the one on his wrist.",
+   "where": "Indio's hip, centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/still_sky.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is drawn as a young man with short tousled hair, no topknot or grey strands, and a brown strap on his wrist instead of the red handkerchief.",
+   "where": "whole figure",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/lugaw.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A full bowl of rice floats in the air above the pot, held by nobody.",
+   "where": "centre, above the pot",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/star_hand.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man holding the star is a young short-haired man with no topknot or grey strands, not Indio in his forties.",
+   "where": "face, upper half",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/lola_usman.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a shaggy retriever-like dog with both ears folded, no white chest patch and bared fangs.",
+   "where": "dog, lower half",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/fiction_list.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up; neither is folded.",
+   "where": "dog's head, lower right",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/question.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up; neither is folded.",
+   "where": "dog's head, left",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/x_kerchief.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The sleeping animal under the red kerchief is a heavy brown-black bear-like beast with no white chest patch, not Usman.",
+   "where": "whole frame",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/bagumbayan_hand.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The joined hands of M and young Indio tangle into a knot of fingers with no clear count for either hand.",
+   "where": "lower centre, the clasped hands",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/regret.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The upper hand gripping the mast is a lumpy shape with fused fingers.",
+   "where": "top left, hand on the mast",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/follow.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's fist holding the kerchief is a smooth lump with no readable fingers.",
+   "where": "centre right, beside the dog",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/indio_whisper.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "A bare upper arm and elbow at the right edge belong to no one, since Indio's arms are in coat sleeves.",
+   "where": "right edge, middle",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/babel_painting.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the foreground crowd, several bodies run into each other with no clear outline, and one boy's face is smeared.",
+   "where": "lower half, centre and bottom right",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k02",
+   "shots": [
+    2
+   ],
+   "still": "full/intro.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing clock rings carry letter-like marks around their rims, and one gear has a face engraved in it.",
+   "where": "top, behind Indio",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/medallions_glow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The medallions carry letter-like and number-like marks.",
+   "where": "lower half, the medallions",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/rescue_fleet.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Signs and a vehicle grille in the street carry letter-like marks.",
+   "where": "right side, street signs",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/x_bowls.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A dark sleeve shows '001' and a wrist carries a scribbled glyph.",
+   "where": "left sleeve and top right wrist",
+   "found_by": "reader 2",
+   "second_reader": "new"
+  }
+ ],
+ "refuted": []
+}

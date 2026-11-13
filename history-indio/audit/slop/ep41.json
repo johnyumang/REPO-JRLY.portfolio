@@ -1,0 +1,286 @@
+{
+ "episode": 41,
+ "readers": [
+  "first",
+  "second"
+ ],
+ "keys_looked_at": 81,
+ "entries": [
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/too_far.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man shading his eyes is a smooth-faced young man with no topknot or grey hair and wears a red necktie, so he does not read as the 42-year-old Indio of the other shots.",
+   "where": "whole face, centre; tie bottom centre",
+   "second": "confirmed"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/usman_howl.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "A brown, human-coloured extra leg grows down from under Usman's belly beside his black legs.",
+   "where": "under the dog's chest, lower left",
+   "second": "confirmed"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/curve_open.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A large hand appears in an objects-only close-up and its fingers are boneless and run together across the glowing curve, with no countable thumb and four fingers.",
+   "where": "fills the frame, centre to top",
+   "second": "confirmed"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/hands_hold.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The two gripping hands tangle into one knot of fingers that cannot be sorted into two hands of a thumb and four fingers each.",
+   "where": "centre of frame on the umbrella handle",
+   "second": "confirmed"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/staff_shape.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The blond youth's face melts into his hair with one smeared eye, and the faces around him are crowded and twisted.",
+   "where": "top left",
+   "second": "confirmed"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/queues.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The number cards show readable digits such as 21, 5, 4 and 91.",
+   "where": "foreground cards, lower right and bottom",
+   "second": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/sinag_kneel.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The pointing hand has over-long splayed fingers that are hard to count as a thumb and four.",
+   "where": "centre, the hand pointing at the floor",
+   "second": "confirmed"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/arks_line.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The boards on the arks carry readable numbers such as 5 and 3.",
+   "where": "lower half, boards on the nearest arks",
+   "second": "confirmed; must_fix corrected to true: the digits 2, 3, 5 and 8 on the nearest boards are large and plainly readable on a paused phone, the same fault that is must-fix in k52"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/people_wait.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The girl holding the card has letter-like marks printed on her shirt.",
+   "where": "bottom centre, yellow shirt",
+   "second": "confirmed"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/totoy_ramp.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A crumpled tangle of body parts lies on the ground at the foot of the ramp, and a loose arm floats beside the woman with the backpack.",
+   "where": "bottom centre, at the foot of the ramp",
+   "second": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/sky_black.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the pointing crowd the middle figures melt into each other with stray arms and birds fused into bodies.",
+   "where": "lower half, centre of the crowd",
+   "second": "confirmed"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/hat_crowd.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "Several background faces under the hats are smeared or slide off their heads.",
+   "where": "upper left and top rows",
+   "second": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/indio_tear.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio looks clearly younger with smoother cheeks and no grey hair than in k29, k45 and k62.",
+   "where": "face, right half",
+   "second": "confirmed"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/no_kneel.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has a younger, narrower face and a loose spiky topknot unlike his other close shots, and wears a short-sleeved shirt.",
+   "where": "centre figure",
+   "second": "confirmed"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/indio_point41.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's face is rounder with no grey hair and a blue hair tie, so he reads as a different man from k62 and k67.",
+   "where": "head, centre",
+   "second": "confirmed"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/usman_tears.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a stocky dog with a white stripe down his face and both ears folded, unlike the slim one-folded-ear dog of k32 and k33.",
+   "where": "dog's head, right",
+   "second": "confirmed"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/indio_follow41.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a heavy, broad-headed dog with a white mark on the forehead and both ears folded, and M is missing from the bow.",
+   "where": "dog, left centre",
+   "second": "confirmed"
+  },
+  {
+   "key": "k02",
+   "shots": [
+    2
+   ],
+   "still": "intro (copied from Episode 13)",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing ring behind Indio carries letter-like marks shaped like E, H and I around its rim.",
+   "where": "golden ring, upper half and right edge",
+   "found_by": "second"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/twelve.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "Faces appear inside the medallions of an objects-only shot, and several of them are smeared or melted with eyes and mouths out of place.",
+   "where": "left and lower medallions of the ring",
+   "found_by": "second"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/usman_says.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man Usman looks up at is a smooth young man with short loose black hair, no topknot, no red headband and no grey, so he does not read as Indio.",
+   "where": "face, top right",
+   "found_by": "second"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/sinag_kneel.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man in the pale suit has long wavy purple-tinted hair and a narrow sharp face, unlike the short tousled black hair and rounder face of the same man in k41 and k43.",
+   "where": "head, top half",
+   "found_by": "second"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/bible41.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The spine of the Bible carries small gold letter-like marks.",
+   "where": "left edge, spine label",
+   "found_by": "second"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/dragon_eye.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dragon's eye sits in olive-green skin, while the dragon is red in k37, k38 and k65.",
+   "where": "skin around the eye, whole frame",
+   "found_by": "second"
+  }
+ ]
+}

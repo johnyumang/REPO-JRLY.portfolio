@@ -1,0 +1,342 @@
+{
+ "episode": 43,
+ "audited_by": "first reader + second reader",
+ "stills_looked_at": 60,
+ "keys_looked_at": 73,
+ "defects": [
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/lolo_memory.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Lolo hands over a shiny brass valve trumpet whose tubing loops do not connect, not a carabao-horn tambuli.",
+   "where": "centre, the instrument between Lolo and the boy",
+   "found_by": "first reader",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/pipay_stream.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the phone is a knot of digits: two fingers on the back, a thumb across the middle and a second thumb-like knuckle under it, with no clear second hand.",
+   "where": "left half, hand on the phone",
+   "found_by": "first reader",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/lights_close.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Close crowd with melting hands: a phone pressed into a girl's eye, a candle growing out of a hand with no holder, large dark hands holding nothing, and a hand fused over a boy's mouth.",
+   "where": "left half and centre-left, lower and middle rows",
+   "found_by": "first reader",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k03",
+   "shots": [
+    2,
+    3
+   ],
+   "still": "full/intro.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright pointed ears and a long shaggy wolf-like head, so he does not read as the round-faced dog with one folded ear seen in k52, k53 and k60.",
+   "where": "lower left, the dog",
+   "found_by": "first reader",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52,
+    53
+   ],
+   "still": "full/usman_literal.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn as a chubby round cartoon puppy with both ears folded, softer than the dog in the other shots.",
+   "where": "left half, the dog",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/usman_explain.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a chubby puppy with both ears folded; the series sheet says one folded ear.",
+   "where": "centre, the dog's head",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/m_rain.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's two hands on the umbrella handle read as a single fist between two sleeves.",
+   "where": "centre, hands on the umbrella handle",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/adela_song.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the heap of lying children some heads float without clear bodies, and legs and torsos run into each other.",
+   "where": "left and right edges around Adela",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/comment.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The horn is blown through a thin pipe-like rod that comes out of the side of Indio's mouth and enters the side of the horn, not its tip.",
+   "where": "upper left, horn and mouth",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4,
+    5
+   ],
+   "still": "full/port_wide.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "The small figures on the ark decks are half-formed (a blank grey figure, a child bent at odd angles).",
+   "where": "lower right decks",
+   "found_by": "first reader",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/diwa_sikatuna.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "M holds the shaft of an open red umbrella and the same shaft continues below her hand as a second, furled red umbrella, so one umbrella is open and closed at once.",
+   "where": "left figure, her hand on the umbrella pole and the red furled shape hanging below it",
+   "found_by": "second reader",
+   "fixed": true
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/diwa_sikatuna.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man Sikatuna turns to (Indio, 'nakatingin sa akin') is a young man with short messy hair, no topknot, in a khaki shirt and boots, not the forties topknot-and-long-dark-coat Indio of k22/k27/k69.",
+   "where": "right figure",
+   "found_by": "second reader",
+   "fixed": true
+  },
+  {
+   "key": "k90",
+   "shots": [
+    22
+   ],
+   "still": "full/diwa_rise.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man in golden armour is a young spiky-haired man in plate armour with no topknot and no medallion armour, not Indio as drawn in the same shot's other key k22.",
+   "where": "centre, the armoured man",
+   "found_by": "second reader",
+   "fixed": true
+  },
+  {
+   "key": "k90",
+   "shots": [
+    22
+   ],
+   "still": "full/diwa_rise.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "One of the faceless glowing spirits behind Indio has a solid black-haired head and face like the armoured man's, so he appears twice.",
+   "where": "centre, the spirit directly behind the armoured man",
+   "found_by": "second reader",
+   "fixed": true
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57,
+    67
+   ],
+   "still": "full/map_five.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The Philippine map is mangled (block-shaped Luzon, an invented orange island in the sea east of Luzon, Samar/Leyte missing) and shows six lights, on Palawan and Mindoro but none on Sulu, while the narration counts five places.",
+   "where": "whole map; the orange blob upper right of centre",
+   "found_by": "second reader",
+   "needs_figma": true,
+   "note": "two full-quality redraws: shape better but 7-8 lights, no Sulu/Mactan/Bohol; old-vs-new reviewer reverted. Suggest an accurate map with the five lights placed in code, or the better engine.",
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels. Nobody in the frame. A glowing gold-line map of the real Philippine archipelago floating in the dark, accurate shape: long Luzon in the north, the Visayas islands in the middle, large Mindanao in the south, long thin Palawan in the west. Exactly five warm points of light: Manila Bay on Luzon, Mactan near Cebu, Bohol, Lake Lanao in Mindanao, the Sulu islands southwest of Mindanao. No text, no labels, no extra islands."
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/song_court.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The palace name boards carry rows of fake Chinese-like glyphs.",
+   "where": "top right, the boards under the roof eaves",
+   "found_by": "second reader",
+   "fixed": true
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7,
+    8,
+    9
+   ],
+   "still": "full/totoy_bow.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Totoy's lowered hand on the gunwale is a mitten-like lump with one crease and no separate fingers.",
+   "where": "lower left of Totoy, hand on the ship's rail",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/diwa_kiling.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A child's hands in the foreground crowd melt into a pale shapeless object they hold.",
+   "where": "lower left, between the purple-robed child and the blond child",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/tikbalang_kapre.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The tikbalang is a horse whose back grows straight into a tall dark legless torso with a red cone hat, a horse and rider fused.",
+   "where": "left edge",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/all_here.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The crowd of allies is a mush of half-formed creature faces with no bodies, melting into each other.",
+   "where": "right half, the crowd on the pier",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/albo_feather.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Albo's hanging hand shows a thumb and only three fingers.",
+   "where": "centre right, hand at the end of his right sleeve",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/fiction_card.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A girl's face is fused inside a lantern cage with feathers on the bow of the front ark.",
+   "where": "bottom centre",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36,
+    37
+   ],
+   "still": "full/bea_camera.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Squiggly letter-like marks on the camera body and lens ring.",
+   "where": "centre, camera body right of the lens and the lens rim",
+   "found_by": "second reader"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/comment.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded (Labrador-like head), the same drift as k52/k60; the sheet says one folded ear.",
+   "where": "centre, the dog's head",
+   "found_by": "second reader"
+  }
+ ],
+ "refuted": [
+  {
+   "still": "full/follow.jpg",
+   "key": "k71",
+   "why": "At 3x Usman has one ear flopped sideways and one upright, which matches the one-folded-ear sheet; white chest patch and red kerchief present, he reads as the same dog."
+  },
+  {
+   "still": "full/intro.jpg",
+   "key": "k03",
+   "why": "Side by side with k22/k69 at 3x Indio has the same grey-streaked topknot, brown skin, long dark coat and wrist handkerchief; the smile softens the face but he is clearly recognisable."
+  },
+  {
+   "still": "full/allies_come.jpg",
+   "key": "k28",
+   "why": "At 3x the children in the lower right are separate, readable figures standing in front of the giant's arm; no merged bodies visible on a paused phone."
+  }
+ ]
+}

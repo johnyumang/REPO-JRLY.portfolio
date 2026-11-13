@@ -6,35 +6,46 @@
   "fact_english": "Each eyeball of a tarsier is about as large as its entire brain.",
   "label_onscreen": "TARSIER",
   "subject_art_prompt": "a cute big-eyed Philippine tarsier clinging to a branch, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "Pinagmulan: Wikipedia",
+  "source_onscreen": "",
   "sources": [
    {
-    "name": "Wikipedia: Tarsier",
-    "url": "https://en.wikipedia.org/wiki/Tarsier",
-    "says": "Each eyeball is about 16 mm across and is as large as, or in some cases larger than, its entire brain (cites Soluri & Agarwal 2016, W.W. Norton lab manual).",
-    "opened": true
+    "name": "Britannica: Tarsier",
+    "url": "https://www.britannica.com/animal/tarsier",
+    "says": "Not read. WebFetch failed with getaddrinfo ENOTFOUND, so this session's network blocks the host.",
+    "opened": false,
+    "reputable_because": "Britannica is on the project's list of reputable sources"
    },
    {
-    "name": "Awake! / JW.org: Tarsier - big eyes, tiny body",
-    "url": "https://www.jw.org/en/library/magazines/g201412/tarsier-big-eyes-tiny-body/",
-    "says": "Search result on tarsier eyes being as big as its brain.",
-    "opened": false
+    "name": "Animal Diversity Web (University of Michigan): Tarsius syrichta",
+    "url": "https://animaldiversity.org/accounts/Tarsius_syrichta/",
+    "says": "Not read. The host was blocked (ENOTFOUND).",
+    "opened": false,
+    "reputable_because": "Species database run by a university"
    },
    {
-    "name": "Wikipedia: Tarsier",
-    "url": "https://en.wikipedia.org/w/index.php?title=Tarsier&action=raw",
-    "says": "each eyeball is approximately 16 mm in diameter and is as large as, or in some cases larger than, its entire brain",
-    "opened": true
+    "name": "Evolution: Education and Outreach (2019), s12052-019-0101-6, Figure 1",
+    "url": "https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-019-0101-6/figures/1",
+    "says": "Not read. The host was blocked (ENOTFOUND). A search summary says the figure caption shows the eye and brain of a Bornean tarsier (T. bancanus) side by side to show their volumes are comparable, citing a 1984 anatomical study. That is a different species from the Philippine tarsier.",
+    "opened": false,
+    "reputable_because": "Peer-reviewed journal"
    },
    {
-    "name": "WorldAtlas: Tarsier",
-    "url": "https://animals.worldatlas.com/animals/tarsier.html",
-    "says": "Each eyeball is about 16 mm across, close to the size of the brain behind it (per search summary)",
-    "opened": false
+    "name": "PMC3619510 (tarsier trichromacy paper)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3619510",
+    "says": "Not read. The host was blocked (ENOTFOUND). The researcher's snippet says only that T. bancanus eyes are enormous. Nothing shown compares them with the brain, so even if opened it does not seem to state the fact.",
+    "opened": false,
+    "reputable_because": "Peer-reviewed paper hosted by NIH/NLM"
+   },
+   {
+    "name": "National Geographic: Animals with the biggest eyes",
+    "url": "https://www.nationalgeographic.com/animals/article/animals-biggest-eyes-crustaceans-squid-oceans",
+    "says": "Not opened. I did not try it after other hosts failed, and the researcher reports nationalgeographic.com does not resolve. A search summary says it gives a tarsier eye width of about 16 mm. The summary does not say whether it compares the eye with the brain.",
+    "opened": false,
+    "reputable_because": "National Geographic is on the project's list of reputable sources"
    }
   ],
-  "checked_by_second_reader": true,
-  "notes": "Second source is popular-level only; no museum or university page came up in the search. The claim is widely repeated and Wikipedia cites a textbook for it. | Second reader: Wikipedia and WorldAtlas both say each roughly 16 mm eyeball is about as large as the brain, sometimes larger. 'About as large' is the safe wording. Do not upgrade it to 'heavier than'."
+  "checked_by_second_reader": false,
+  "notes": "Second source is popular-level only; no museum or university page came up in the search. The claim is widely repeated and Wikipedia cites a textbook for it. | Second reader: Wikipedia and WorldAtlas both say each roughly 16 mm eyeball is about as large as the brain, sometimes larger. 'About as large' is the safe wording. Do not upgrade it to 'heavier than'. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
  },
  {
   "id": "t02",
@@ -302,29 +313,44 @@
   "fact_english": "Young Philippine sailfin lizards can run short distances across the surface of water; adults get too heavy to do it.",
   "label_onscreen": "IBID",
   "subject_art_prompt": "a cute young Philippine sailfin lizard running on water, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "Pinagmulan: Wikipedia",
+  "source_onscreen": "",
   "sources": [
+   {
+    "name": "Smithsonian's National Zoo: Smithsonian's National Zoo Welcomes Two Weber's Sailfin Lizards",
+    "url": "https://nationalzoo.si.edu/news/news/smithsonians-national-zoo-welcomes-two-webers-sailfin-lizards",
+    "says": "Not read: nationalzoo.si.edu is blocked in this session (ENOTFOUND). The researcher's search summary says the page is about Weber's sailfin lizard (Hydrosaurus weberi), a different species, and does not say that only juveniles can run on water. Even if it loaded, it would not support a fact about H. pustulatus.",
+    "opened": false,
+    "reputable_because": "Smithsonian Institution, a national museum and zoo"
+   },
+   {
+    "name": "Virginia Zoo: Hydrosaurus pustulatus species page",
+    "url": "https://virginiazoo.org/?p=1000",
+    "says": "Not read: the host is blocked in this session (ENOTFOUND), as the researcher reported. I did not retry it after two other hosts failed.",
+    "opened": false,
+    "reputable_because": "An accredited zoo, but not one of the source types the README lists"
+   },
    {
     "name": "Wikipedia: Philippine sailfin lizard",
     "url": "https://en.wikipedia.org/wiki/Philippine_sailfin_lizard",
-    "says": "Juveniles have flattened toes and less weight, which lets them run across water like basilisks. Adults lose this ability as they gain weight.",
-    "opened": true
+    "says": "Not opened. Search snippets and mirrors (cavac.at, a kiwix mirror) say juveniles have flattened toes and lower mass, which let them run across water like basilisks, and adults lose this as they gain weight. The mirrors give no primary citation for this. Wikipedia does not count as a source under the project's rule.",
+    "opened": false
    },
    {
     "name": "Animal Scene (Manila Bulletin): Come sail away with the sailfin",
     "url": "https://animalscene.mb.com.ph/come-sail-away-with-the-sailfin/",
-    "says": "Search result: fringed toes act like pontoons so the lizards can run short distances on water; adults are too heavy.",
+    "says": "Search snippet only: lighter juveniles can run across the surface of water. This is a popular magazine, not one of the README's source types, and it may repeat Wikipedia.",
     "opened": false
    },
    {
-    "name": "Wikipedia: Philippine sailfin lizard",
-    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_sailfin_lizard&action=raw",
-    "says": "smaller juvenile lizards can run briefly on the water surface ... As the adult gains weight, it loses the ability to run across water",
-    "opened": true
+    "name": "Hsieh 2003, Journal of Experimental Biology 206:4363 (basilisk water running)",
+    "url": "https://cob.silverchair.com/jeb/article-pdf/206/23/4363/1549442/4363.pdf",
+    "says": "Search snippet only: 3D kinematics of plumed basilisks running on water, from hatchling to adult size. Juveniles run on water more readily than adults. This is about Basiliscus, not Hydrosaurus, so it cannot support t09.",
+    "opened": false,
+    "reputable_because": "Peer-reviewed journal"
    }
   ],
-  "checked_by_second_reader": true,
-  "notes": "Only juveniles can do this, so the fact now says so. The second source is popular-level. | Second reader: Juveniles can run briefly on water using flattened toes and their low mass, like basilisks. Adults lose this ability as they get heavier. | On-screen credit shows Wikipedia only: the second source is a popular site."
+  "checked_by_second_reader": false,
+  "notes": "Only juveniles can do this, so the fact now says so. The second source is popular-level. | Second reader: Juveniles can run briefly on water using flattened toes and their low mass, like basilisks. Adults lose this ability as they get heavier. | On-screen credit shows Wikipedia only: the second source is a popular site. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
  },
  {
   "id": "t10",
@@ -1177,38 +1203,42 @@
   "id": "t35",
   "topic": "Ube",
   "category": "halaman",
-  "fact_english": "Ube is a yam, not a sweet potato or a taro, even though people often mix them up.",
+  "fact_english": "Ube (Dioscorea alata, purple yam) is a true yam, genus Dioscorea, family Dioscoreaceae. It is not kamote (sweet potato, Ipomoea batatas, morning glory family Convolvulaceae) and not gabi (taro, Colocasia esculenta, arum family Araceae).",
   "label_onscreen": "UBE",
   "subject_art_prompt": "a purple ube yam cut in half, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "Pinagmulan: Wikipedia",
+  "source_onscreen": "Pinagmulan: Britannica; DOST-PCAARRD",
   "sources": [
    {
-    "name": "Wikipedia: Dioscorea alata",
-    "url": "https://en.wikipedia.org/w/index.php?title=Dioscorea_alata&action=raw",
-    "says": "D. alata, also called ube, is a species of yam; it is sometimes confused with taro and the Okinawa sweet potato.",
-    "opened": true
+    "name": "Britannica: Yam",
+    "url": "https://www.britannica.com/plant/yam",
+    "says": "NOT VERIFIED BY SECOND READER (page blocked: DNS ENOTFOUND www.britannica.com). Researcher's search-summary claim: true yams are genus Dioscorea, family Dioscoreaceae; D. alata (winged or water yam) is one of the edible species widely grown in the tropics.",
+    "opened": false,
+    "reputable_because": "Encyclopaedia Britannica, on the project's reputable-source list"
    },
    {
-    "name": "Fine Dining Lovers: What is ube",
-    "url": "https://www.finedininglovers.com/explore/articles/what-is-ube",
-    "says": "Search summary: ube (Dioscorea alata) is a true yam in Dioscoreaceae; sweet potato is in the morning glory family, taro is a corm in Araceae.",
-    "opened": false
+    "name": "Britannica: Sweet potato",
+    "url": "https://www.britannica.com/plant/sweet-potato",
+    "says": "NOT VERIFIED (blocked, same DNS error). Researcher's claim: Ipomoea batatas, morning glory family Convolvulaceae, not related to true yams. Same site as the yam page, so it does not count as a separate independent source.",
+    "opened": false,
+    "reputable_because": "Encyclopaedia Britannica"
    },
    {
-    "name": "Wikipedia: Dioscorea alata",
-    "url": "https://en.wikipedia.org/wiki/Dioscorea_alata",
-    "says": "Ube is a species of yam; it is sometimes confused with taro and the Okinawa sweet potato.",
-    "opened": true
+    "name": "Britannica: Taro",
+    "url": "https://www.britannica.com/plant/taro-plant",
+    "says": "NOT VERIFIED (blocked, same DNS error). Researcher's claim: Colocasia esculenta, arum family Araceae. Same site as above, not independent.",
+    "opened": false,
+    "reputable_because": "Encyclopaedia Britannica"
    },
    {
-    "name": "Tasting Table",
-    "url": "https://www.tastingtable.com/1389004/difference-purple-sweet-potato-ube",
-    "says": "Ube and purple sweet potato are different plants that are often mixed up.",
-    "opened": false
+    "name": "DOST-PCAARRD iVeg: Dioscorea alata",
+    "url": "https://iveg.pcaarrd.dost.gov.ph/crop/dioscorea-alata",
+    "says": "NOT VERIFIED (blocked: DNS ENOTFOUND iveg.pcaarrd.dost.gov.ph). Neither the researcher nor I has read this page's text. It is only assumed to identify ube/ubi as Dioscorea alata, a yam. Someone must confirm this before the card can name DOST-PCAARRD.",
+    "opened": false,
+    "reputable_because": "Philippine government science agency (DOST council for agriculture, aquatic and natural resources research)"
    }
   ],
-  "checked_by_second_reader": true,
-  "notes": "Botany is uncontroversial; second source is a food site, not a botanical authority. | Second reader: Ube is Dioscorea alata, a true yam, and is often confused with taro and purple sweet potato."
+  "checked_by_second_reader": false,
+  "notes": "Botany is uncontroversial; second source is a food site, not a botanical authority. | Second reader: Ube is Dioscorea alata, a true yam, and is often confused with taro and purple sweet potato. | Second reader, 13 Nov: botany holds and the wording was tightened (dropped 'people often mix them up'), but none of the sources could be opened (www.britannica.com and iveg.pcaarrd.dost.gov.ph blocked) and the three Britannica pages count as one source. checked_by_second_reader stays false until Britannica's yam page and a second independent source (PCAARRD iVeg or Kew POWO) are opened; the card 'Pinagmulan: Britannica; DOST-PCAARRD' is provisional and must not air before then."
  },
  {
   "id": "t36",
@@ -1470,29 +1500,39 @@
   "fact_english": "Manila paper and manila envelopes are named after Manila hemp, or abaca, the Philippine fibre the paper was originally made from.",
   "label_onscreen": "ABAKA",
   "subject_art_prompt": "a bundle of abaca fibre beside a plain brown envelope, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "Pinagmulan: Wikipedia",
+  "source_onscreen": "",
   "sources": [
    {
-    "name": "Wikipedia: Manila paper",
-    "url": "https://en.wikipedia.org/w/index.php?title=Manila_paper&action=raw",
-    "says": "The 'manila' in the name comes from manila hemp (abacá), named after Manila; from the 1840s recycled abacá rope was the main material; later replaced by wood pulp.",
-    "opened": true
+    "name": "Getty Art & Architecture Thesaurus, 'Manila paper' (AAT 300014134), copy in the Fitzwilliam Museum (University of Cambridge) terminology record",
+    "url": "https://data.fitzmuseum.cam.ac.uk/id/terminology/term-40041",
+    "says": "Not opened. The researcher's search summary gives the scope note as: originally a strong wrapping paper made from Manila hemp; now any strong chemical wood pulp or mixed paper of a slightly buff (Manila) colour. WebFetch failed with getaddrinfo ENOTFOUND data.fitzmuseum.cam.ac.uk.",
+    "opened": false,
+    "reputable_because": "The Getty AAT is a standard museum vocabulary, and the Fitzwilliam is a university museum"
    },
    {
-    "name": "Mental Floss: Why is it called a manila envelope",
-    "url": "https://www.mentalfloss.com/language/why-is-it-called-a-manila-envelope",
-    "says": "Search summary: papermakers turned to old Manila rope from ships; 1843 Hollingsworth patent to make paper from manila fibres.",
-    "opened": false
+    "name": "Te Papa Tongarewa collections vocabulary, 'Manila paper'",
+    "url": "https://collections.tepapa.govt.nz/category/307593",
+    "says": "Not opened (the researcher reports the host failed to resolve). Its reported wording is the same AAT scope note, so it is not independent of the Fitzwilliam/Getty record and counts as the same source.",
+    "opened": false,
+    "reputable_because": "National museum, but it reuses the Getty AAT definition"
    },
    {
-    "name": "Wikipedia: Manila paper",
-    "url": "https://en.wikipedia.org/wiki/Manila_paper",
-    "says": "The manila component of the name originates from manila hemp (a.k.a. abaca leaves) ... Manila paper was originally made out of old Manila hemp ropes",
-    "opened": true
+    "name": "Britannica, 'manila paper' / 'abaca'",
+    "url": "https://www.britannica.com/topic/abaca",
+    "says": "Not opened. WebFetch failed with getaddrinfo ENOTFOUND www.britannica.com, both for /topic/manila-paper and for /topic/abaca.",
+    "opened": false,
+    "reputable_because": "Encyclopaedia named in the project rules"
+   },
+   {
+    "name": "Encyclopaedia Britannica 1911, 'Manila Hemp' (lead only)",
+    "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3AEB1911_-_Volume_17.djvu/597",
+    "says": "Search summary only, not opened: says the old, worn ropes were used to make manila paper. The copy is on an unofficial Wikisource mirror and the text is from 1911.",
+    "opened": false,
+    "reputable_because": "Historical Britannica text, but on a third-party mirror"
    }
   ],
-  "checked_by_second_reader": true,
-  "notes": "Light rewording; today such paper is usually wood pulp. | Second reader: Manila paper is named after Manila hemp (abaca). It was originally made from recycled abaca rope, and modern versions use wood pulp. | On-screen credit shows Wikipedia only: the second source is a popular site."
+  "checked_by_second_reader": false,
+  "notes": "Light rewording; today such paper is usually wood pulp. | Second reader: Manila paper is named after Manila hemp (abaca). It was originally made from recycled abaca rope, and modern versions use wood pulp. | On-screen credit shows Wikipedia only: the second source is a popular site. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
  },
  {
   "id": "t44",
@@ -2112,35 +2152,35 @@
   "fact_english": "The purple colour of puto bumbong traditionally comes from a purple sticky rice called pirurutong.",
   "label_onscreen": "PUTO BUMBONG",
   "subject_art_prompt": "purple puto bumbong with grated coconut, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "Pinagmulan: Wikipedia",
+  "source_onscreen": "",
   "sources": [
    {
-    "name": "Wikipedia: Puto bumbong",
-    "url": "https://en.wikipedia.org/wiki/Puto_bumbong",
-    "says": "Made from the heirloom glutinous rice pirurutong, deep purple to near-black; some modern versions leave it out.",
-    "opened": true
-   },
-   {
-    "name": "Panlasang Pinoy",
-    "url": "https://panlasangpinoy.com/puto-bumbong/",
-    "says": "Search summary: the colour comes from pirurutong; ube or food colouring is used when it is unavailable.",
+    "name": "Wikipedia: Puto bumbong (raw wikitext, used only to find its cited sources)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Puto_bumbong&action=raw",
+    "says": "According to the researcher and a search summary: puto bumbong is made from the heirloom purple glutinous rice pirurutong (tapol in Visayan), mixed with a larger share of white glutinous rice. Some modern versions use purple food colouring or ube flour instead. I could not reopen it (en.wikipedia.org DNS failure for this reader). It is Wikipedia, so it does not count under the rule anyway.",
     "opened": false
    },
    {
-    "name": "Wikipedia: Puto bumbong",
-    "url": "https://en.wikipedia.org/w/index.php?title=Puto_bumbong&action=raw",
-    "says": "Made from an heirloom glutinous rice called pirurutong, deep purple to near-black; some modern versions use purple food coloring or ube instead.",
-    "opened": true
+    "name": "Angelita M. del Mundo, 'Emerging Versions of Some Traditional Philippine Rice Food Products', Disappearing Foods (Oxford Symposium on Food and Cookery 1994), Prospect Books 1995",
+    "url": "https://books.google.com/books?id=XR9YIaG0kIcC&pg=PA65",
+    "says": "Known only as a Wikipedia citation for pirurutong in puto bumbong. Neither the researcher nor I opened it.",
+    "opened": false
    },
    {
     "name": "Market Manila: Pirurutong at Tapol",
     "url": "https://www.marketmanila.com/archives/pirurutong-at-tapol-purple-and-white-glutinous-rice",
-    "says": "Pirurutong is the purple glutinous rice used for puto bumbong (search result).",
+    "says": "Search result only: pirurutong is the purple glutinous rice used in puto bumbong. It is a blog, which the project rule does not accept.",
+    "opened": false
+   },
+   {
+    "name": "Britannica (search for a puto bumbong entry)",
+    "url": "https://www.britannica.com/topic/puto-bumbong",
+    "says": "Not checked: DNS failure.",
     "opened": false
    }
   ],
-  "checked_by_second_reader": true,
-  "notes": "Second source is a recipe site; no better one was found. | Second reader: Traditional puto bumbong is coloured by pirurutong, a purple/near-black heirloom glutinous rice; modern versions may substitute food colouring or ube, which the word 'traditionally' already allows for."
+  "checked_by_second_reader": false,
+  "notes": "Second source is a recipe site; no better one was found. | Second reader: Traditional puto bumbong is coloured by pirurutong, a purple/near-black heirloom glutinous rice; modern versions may substitute food colouring or ube, which the word 'traditionally' already allows for. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
  },
  {
   "id": "t63",

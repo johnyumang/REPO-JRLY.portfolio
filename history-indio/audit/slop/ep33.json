@@ -1,0 +1,345 @@
+{
+ "episode": 33,
+ "audited_by": "first reader + second reader",
+ "keys_looked_at": 86,
+ "clean": [
+  "k00", "k02", "k04", "k05", "k06", "k07", "k08", "k09", "k13", "k14",
+  "k15", "k21", "k22", "k23", "k24", "k25", "k26", "k27", "k28", "k29",
+  "k32", "k33", "k34", "k36", "k37", "k38", "k39", "k40", "k41", "k43",
+  "k44", "k48", "k51", "k52", "k54", "k55", "k56", "k58", "k59", "k60",
+  "k61", "k63", "k64", "k66", "k67", "k68", "k69", "k73", "k80", "k81",
+  "k82", "k83", "k84", "k86", "k88", "k89", "k90"
+ ],
+ "defects": [
+  {
+   "key": "k45",
+   "shots": [45],
+   "still": "full/lesson_wall.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The wall is held by a thicket of arms that belong to nobody: a long pale-orange arm runs the full height of the frame with no shoulder, and at least four more forearms and hands sprout from behind the planks with no body attached.",
+   "where": "lower half, centre and right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k46",
+   "shots": [46],
+   "still": "full/kapre_balete.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The kapre's belly forms a complete second face: brow shadow, a dark triangular nose, a moustache and a mouth/chin above the blue sarong.",
+   "where": "centre, kapre's stomach",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k85",
+   "shots": [85],
+   "still": "full/kapre_balete.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "Same still as k46: the kapre's belly forms a second face.",
+   "where": "centre, kapre's stomach",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k03",
+   "shots": [3],
+   "still": "full/grey_mirror.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The mirror reflection does not match the man: the reflection has a neat bun, no grey streak and a red kerchief tied on the wrist, while the man himself has a spiky topknot with a grey streak and no kerchief.",
+   "where": "whole frame, mirror vs man",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k62",
+   "shots": [62],
+   "still": "full/hand_reach.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The two clasped hands run together into one knot of fingers with two thumbs and no readable wrist on the lower hand; it cannot be told which finger belongs to whom.",
+   "where": "lower centre, the joined hands",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [49],
+   "still": "full/banquet.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Sinag has long silver hair and an open low-cut white suit; in k50, k51 and k53 she has black hair and a closed high-collared white outfit.",
+   "where": "centre figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k87",
+   "shots": [87],
+   "still": "full/banquet.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Same still as k49: Sinag with silver hair and low-cut suit, unlike her other shots.",
+   "where": "centre figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [30],
+   "still": "full/vangie_memory.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Vangie has orange-brown hair, no glasses and a blue blazer with a tie; in k29, k31, k33, k34 she is black-haired, wears glasses and a khaki shirt.",
+   "where": "centre face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k17",
+   "shots": [17],
+   "still": "full/kalawang_back.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man in the suit (Tubal) is a grinning twenty-something with spiky hair and a round face, not the slicked-back fifty-year-old of k15, k19, k20 and k26.",
+   "where": "left figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [42],
+   "still": "full/together_defend.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Two warriors in the front rank are the same man copied: same spiky topknot and ponytail, same bare torso, same face turned the same way, same shield.",
+   "where": "right side, front rank",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k47",
+   "shots": [47],
+   "still": "full/kapre_guard.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The kapre is a bare-skinned, light-brown muscular giant in grey shorts, while one shot earlier (k46) he is covered head to foot in dark brown fur with a blue sarong; the cut reads as two different creatures.",
+   "where": "right, giant",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [49],
+   "still": "full/banquet.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Sinag's hand around the wine glass is a soft pale smear without readable fingers.",
+   "where": "left of centre, raised hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k18",
+   "shots": [18],
+   "still": "full/handshake.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "First reader called the handshake a lump of merged fingers with a floating ring.",
+   "where": "centre right, handshake",
+   "second_reader": "refuted: at 3x it is an ordinary handshake - one thumb and the knuckles of each hand are readable, no extra or fused fingers, and the ring sits on a finger of the lower hand."
+  },
+  {
+   "key": "k16",
+   "shots": [16],
+   "still": "full/tubal_ring_cu.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A small bronze object under the fingers has no readable shape - a lumpy half-melted figurine.",
+   "where": "lower centre, under the fist",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k20",
+   "shots": [20],
+   "still": "full/tubal_whisper.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The bronze ring is drawn as a wide buckled strap sitting across the base of the fingers, like a watch worn on the hand.",
+   "where": "left, raised hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k70",
+   "shots": [70],
+   "still": "full/holo_91.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The palm-up hand has bunched, overlapping fingers that are hard to count.",
+   "where": "lower left hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k62",
+   "shots": [62],
+   "still": "full/hand_reach.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M wears a pale blue top instead of her long dark coat seen in k60, k61, k73.",
+   "where": "right edge",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [50],
+   "still": "full/sinag_casino.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Sinag has loose long hair here but a tight bun in k51 and k53.",
+   "where": "face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k19",
+   "shots": [19],
+   "still": "full/tubal_smile.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "First reader read Tubal's face here as a different man (long jaw, different hairline).",
+   "where": "face",
+   "second_reader": "refuted: at full size the face matches k15, k20 and k26 - same slicked-back hair, heavy brows, lined fifties face and grin; only the necktie pattern changes."
+  },
+  {
+   "key": "k18",
+   "shots": [18],
+   "still": "full/handshake.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Tubal's necktie is mauve-pink here, black in k15 and red in k20, inside the same scene.",
+   "where": "left figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k01",
+   "shots": [1],
+   "still": "full/intro.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "First reader flagged the red headband and missing wrist kerchief.",
+   "where": "head",
+   "second_reader": "refuted: k01 is the series intro card, where the red headband is the intended look."
+  },
+  {
+   "key": "k71",
+   "shots": [71],
+   "still": "full/indio_point.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a stocky pit-bull type with both ears standing straight up; canon is slim with one folded ear.",
+   "where": "lower right dog",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [11],
+   "still": "full/usman_manager2.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, not one.",
+   "where": "dog's ears",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k12",
+   "shots": [12],
+   "still": "full/usman_bones.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, not one.",
+   "where": "dog's ears",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k57",
+   "shots": [57],
+   "still": "full/usman_grr.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing straight up and a white mask over the muzzle and cheeks; canon is one folded ear and a white chest patch only.",
+   "where": "dog's head",
+   "second_reader": "added"
+  },
+  {
+   "key": "k10",
+   "shots": [10],
+   "still": "full/win_receipts.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The receipts are covered in rows of letter-like scribbles.",
+   "where": "receipts in hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k31",
+   "shots": [31],
+   "still": "full/vangie_cu.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The sheet inside the plastic shows pseudo-text lines.",
+   "where": "folder under plastic",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [35],
+   "still": "full/coop_meeting.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Vangie's shirt carries a name badge and a chest patch of fake lettering.",
+   "where": "Vangie's chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k72",
+   "shots": [72],
+   "still": "full/coop_meeting.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Same still as k35: fake lettering on Vangie's shirt badge.",
+   "where": "Vangie's chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k91",
+   "shots": [91],
+   "still": "full/coop_meeting.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Same still as k35: fake lettering on Vangie's shirt badge.",
+   "where": "Vangie's chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k17",
+   "shots": [17],
+   "still": "full/kalawang_back.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The blue banner beside the flag carries letter-like marks.",
+   "where": "upper left banner",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k65",
+   "shots": [65],
+   "still": "full/limahong_map.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small letter-like glyphs are scattered over the sea area of the map.",
+   "where": "lower right of the map and near the compass",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k53",
+   "shots": [53],
+   "still": "full/return_paper.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The contract on the table is filled with pseudo-text paragraphs and a fake stamped line.",
+   "where": "right of centre, papers on the table",
+   "second_reader": "added"
+  }
+ ]
+}

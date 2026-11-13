@@ -1,0 +1,523 @@
+{
+ "episode": 35,
+ "keys_looked_at": 70,
+ "audited_by": "two readers",
+ "defects": [
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/trucks_yard.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "The same child-like driver face is cloned two to a cab across all four dump trucks (eight copies of one face).",
+   "where": "truck cabs, middle band of the frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/indio_answer.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's open palm-up hand has flat, rubbery fingers that partly run together; at full size it still reads as an open hand.",
+   "where": "his right hand held out palm-up, lower middle-right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/crowd_screen.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two crowd faces are fused into one head with a doubled nose and mouth.",
+   "where": "bottom-right corner of the crowd",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/proverb_book.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A lone fingertip with no hand or arm attached sits on the open page.",
+   "where": "on the book page",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/bea_mic.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Bea's press ID shows garbled pseudo-letters in large type under the photo.",
+   "where": "press ID on her lanyard, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/holo_92.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The forearm tattoo the prompt asks for is drawn as a grey floral sleeve, not the series' indigo geometric tattoos.",
+   "where": "his forearm above the palm-up hand, lower left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/pour_garden.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man pouring has loose untidy hair with no clear topknot or grey streak, so he reads less like Indio.",
+   "where": "pourer's head, upper middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has a red kerchief tied on his wrist and another big red cloth hanging from his other hand/hip, doubling the prop.",
+   "where": "his right hip, middle right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two tall, pointed upright ears, not one folded ear.",
+   "where": "dog's head, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/watch_vlog.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's ears are both upright and pointed, not one folded.",
+   "where": "dog's head, bottom left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/usman_door.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, not one.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/usman_chair.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's ears are both half-folded and match each other, so the one-folded-ear mark is lost.",
+   "where": "dog's head, middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/indio_1907.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's ears are both floppy, with no single folded ear.",
+   "where": "dog's head, left middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/jump_office.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's ears are both floppy and blown back, with no single folded ear.",
+   "where": "dog's head by the portal, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/indio_window.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black turtleneck, but his reflection in the window wears a shirt and tie.",
+   "where": "reflection in the window, upper right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/jm_phone.jpg",
+   "type": "duplicate",
+   "must_fix": false,
+   "what": "The court men behind JM are the same face copied about five times.",
+   "where": "background men, middle band",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/crowd_screen.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The big screen shows a blurred, photo-like man with glasses who is not drawn in the episode style and does not look like Indio.",
+   "where": "the big screen, upper half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/crowd_screen.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A small pointing hand in the crowd is malformed, with knotted fingers.",
+   "where": "right side of the crowd, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/jeep_phones.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A passenger's thumb curls into a swirl over the phone.",
+   "where": "tan-shirt passenger's hand, lower right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/dawn_office.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's left hand on his lap has melting fingers with no clear shape.",
+   "where": "his left hand, lower left-middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/m_shoulder.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The two hands in the lap tangle together, so whose fingers are whose cannot be read.",
+   "where": "hands in the lap, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/placards.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A raised protester's fingers melt into the placard edge, and the hands below are mushy.",
+   "where": "raised hand, upper left; hands, lower right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/mont_flash.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the press crush, several arms have no clear owner and run into faces and cameras.",
+   "where": "front rows, lower half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/stamp_word.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A red-eyed man's chin sits on the stamp and the stamp handle grows straight out of it, in a shot meant to have nobody in it.",
+   "where": "face and stamp handle, upper half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/bea_two.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Bea's ID card has pseudo-letters and a smeared face photo.",
+   "where": "press ID, left middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/bea_two.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's left hand at his side melts into the pocket, with the fingers unclear.",
+   "where": "Indio's left hand, lower middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/newspaper_1907.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The newspaper masthead and headline are rows of kanji-like glyphs, large enough to see on a paused phone.",
+   "where": "newspaper top band",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/law_book.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A book spine carries two clear kanji-like characters.",
+   "where": "spine, top right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/fiction_cards.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The coin rim has letter-like marks.",
+   "where": "coin, left edge",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/indio_answer.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black necktie here, while the same hallway moment in k20 and the scene's outfit have no tie.",
+   "where": "his shirt front, middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/office_alone.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's hand hanging over the desk edge has fused, boneless fingers with a squared-off stub.",
+   "where": "his hand at the desk edge, lower middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/placards.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A black-haired protester's head has a second small face grown onto its side.",
+   "where": "crowd, left of centre, middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/m_cu.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "M's closed umbrella has several tips and ferrules bundled together, as if three umbrellas were fused into one.",
+   "where": "umbrella, lower right",
+   "second_reader": "new"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/dealer_back.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both of the dealer's hanging hands are clumps of creased fingers that cannot be counted.",
+   "where": "his two hands, lower left and lower middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/watch_vlog.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The vlogger on the phone screen has a smeared face with no clear eyes or mouth.",
+   "where": "phone screen, middle left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/trucks_yard.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Truck grilles carry letter-like badge marks.",
+   "where": "truck fronts, middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/jm_phone.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The yellow excavator arm has letter-like marks painted on it.",
+   "where": "excavator arm, top right",
+   "second_reader": "new"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/crowd_screen.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop signs at the side of the street show letter-like glyphs.",
+   "where": "signs, right edge, upper half",
+   "second_reader": "new"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/impound.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The police tape is printed with pseudo-letters.",
+   "where": "tape across the trucks, lower half",
+   "second_reader": "new"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/garage_wide.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Motorbike licence plates show pseudo-letters.",
+   "where": "plates, bottom middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/bilibid_wide.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A plaque on the jail wall shows a kanji-like character.",
+   "where": "plaque on the wall, left middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/bilibid_dawn.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A hanging street sign shows kanji-like glyphs.",
+   "where": "sign, left edge, middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop signboards show kanji-like glyphs.",
+   "where": "signboards, upper right",
+   "second_reader": "new"
+  }
+ ]
+}

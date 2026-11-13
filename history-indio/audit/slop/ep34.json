@@ -1,28 +1,348 @@
 {
-  "episode": 34,
-  "audited_by": "ep34-render first reader",
-  "keys_looked_at": 82,
-  "defects": [
-    {"key": "k48", "shots": [48], "still": "full/kappa_help.jpg", "type": "off_model", "must_fix": true, "what": "The river creature is a big-eyed green frog-lizard with no shell and no water dish, so it does not read as the turtle-shelled kappa with the dish on its head from the shot before.", "where": "whole creature, centre right"},
-    {"key": "k67", "shots": [67], "still": "full/indio_point.jpg", "type": "off_model", "must_fix": true, "what": "Usman has two tall upright ears and no folded ear, and his white chest patch is reduced to a small bib under the kerchief.", "where": "dog, left half, ears"},
-    {"key": "k69", "shots": [69], "still": "full/trio_roof.jpg", "type": "off_model", "must_fix": true, "what": "Usman is drawn as a rottweiler-type dog with tan legs and tan muzzle and both ears folded, not the plain black street dog with one folded ear.", "where": "dog, lower right"},
-    {"key": "k55", "shots": [55], "still": "full/phone_photo.jpg", "type": "object", "must_fix": true, "what": "The boat photo sticks out past the phone body like a loose card instead of sitting inside the screen.", "where": "phone in Indio's hand, lower left"},
-    {"key": "k59", "shots": [59], "still": "full/rico_grin.jpg", "type": "off_model", "must_fix": true, "what": "Rico wears a neon-yellow shirt and has a different, older stubbled face, while the next-door shot k58 shows him young and clean-shaven in a white shirt.", "where": "whole figure (compare k58)"},
-    {"key": "k56", "shots": [56, 89], "still": "full/tubal_dark.jpg", "type": "writing", "must_fix": true, "what": "The printed speech Tubal reads is covered in dense letter-like gibberish that is plain to see when paused.", "where": "booklet, lower right"},
-    {"key": "k57", "shots": [57], "still": "full/tubal_cu.jpg", "type": "off_model", "must_fix": false, "what": "Tubal's face, hair and tie change between k56 and k57 (smooth smiling face, purple tie vs heavy scowling face, black tie), so he reads as a different man.", "where": "face and tie (compare k56)"},
-    {"key": "k45", "shots": [45], "still": "full/usman_sorry.jpg", "type": "off_model", "must_fix": false, "what": "Both of Usman's ears hang folded; the series dog has only one folded ear.", "where": "dog's ears, top"},
-    {"key": "k05", "shots": [5], "still": "full/usman_paper.jpg", "type": "off_model", "must_fix": false, "what": "Both of Usman's ears are folded down; the series dog has only one folded ear.", "where": "dog's ears, top"},
-    {"key": "k49", "shots": [49], "still": "full/kappa_engineers.jpg", "type": "off_model", "must_fix": false, "what": "The kappa is a plain real-looking turtle on the rock, without the dish or upright body of k47.", "where": "small turtle on rock, centre left"},
-    {"key": "k06", "shots": [6], "still": "full/grey_suit.jpg", "type": "off_model", "must_fix": false, "what": "Indio wears a black necktie; his look in this episode is a dark suit with no tie.", "where": "Indio's collar, centre"},
-    {"key": "k34", "shots": [34], "still": "full/door_gorio.jpg", "type": "off_model", "must_fix": false, "what": "Indio wears a tie here, unlike his no-tie look elsewhere.", "where": "Indio, right"},
-    {"key": "k11", "shots": [11], "still": "full/whispers_hall.jpg", "type": "off_model", "must_fix": false, "what": "Indio wears a dark tie in the far background.", "where": "standing figure, top centre"},
-    {"key": "k35", "shots": [35], "still": "full/gorio_cu.jpg", "type": "off_model", "must_fix": false, "what": "The younger man whose shoulder Gorio pats has short spiky black hair with no grey topknot, so he does not read as Indio.", "where": "back of head, left"},
-    {"key": "k53", "shots": [53], "still": "full/sebyo_teach.jpg", "type": "off_model", "must_fix": false, "what": "Totoy wears a green shirt here but a tan work shirt in k52 and k54.", "where": "Totoy, right"},
-    {"key": "k48", "shots": [48], "still": "full/kappa_help.jpg", "type": "hands", "must_fix": false, "what": "The worker's hand on the stake is a smooth lump where the fingers cannot be counted.", "where": "human hand, left edge"},
-    {"key": "k60", "shots": [8, 60], "still": "full/age_scale.jpg", "type": "object", "must_fix": false, "what": "The red presidential chair has two stacked backrests, one behind the other.", "where": "red chair, right"},
-    {"key": "k63", "shots": [63], "still": "full/folk_scroll.jpg", "type": "style", "must_fix": false, "what": "The museum shelf is a glossy 3D-render look, unlike the flat anime drawing of the rest of the episode.", "where": "whole frame"},
-    {"key": "k63", "shots": [63], "still": "full/folk_scroll.jpg", "type": "writing", "must_fix": false, "what": "The two museum label cards carry small letter-like scribbles.", "where": "label cards, bottom right"},
-    {"key": "k16", "shots": [16], "still": "full/kasulatan_read.jpg", "type": "writing", "must_fix": false, "what": "The budget sheet under the medallion has small letter-like scribbles in its table.", "where": "paper, bottom"},
-    {"key": "k04", "shots": [4], "still": "full/notary_admit.jpg", "type": "writing", "must_fix": false, "what": "The tan folder on the notary's desk carries small lines of letter-like scribbles.", "where": "folder, bottom left"}
-  ]
+ "episode": 34,
+ "audited_by": "ep34-render first and second reader",
+ "keys_looked_at": 82,
+ "defects": [
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/kappa_help.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The river creature is a big-eyed green frog-lizard with no shell and no water dish, so it does not read as the turtle-shelled kappa with the dish on its head from the shot before.",
+   "where": "whole creature, centre right",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/phone_photo.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The boat photo sticks out past the phone body like a loose card instead of sitting inside the screen.",
+   "where": "phone in Indio's hand, lower left",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56,
+    89
+   ],
+   "still": "full/tubal_dark.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The printed speech Tubal reads is covered in dense letter-like gibberish that is plain to see when paused.",
+   "where": "booklet, lower right",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/rico_grin.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Rico wears a neon-yellow shirt and has a different, older stubbled face, while the next-door shot k58 shows him young and clean-shaven in a white shirt.",
+   "where": "whole figure (compare k58)",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/indio_point.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright ears and no folded ear, and his white chest patch is reduced to a small bib under the kerchief.",
+   "where": "dog, left half, ears",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/trio_roof.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is drawn as a rottweiler-type dog with tan legs and tan muzzle and both ears folded, not the plain black street dog with one folded ear.",
+   "where": "dog, lower right",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/notary_admit.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The tan folder on the notary's desk carries small lines of letter-like scribbles.",
+   "where": "folder, bottom left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/usman_paper.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears are folded down; the series dog has only one folded ear.",
+   "where": "dog's ears, top",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/grey_suit.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black necktie; his look in this episode is a dark suit with no tie.",
+   "where": "Indio's collar, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/whispers_hall.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a dark tie in the far background.",
+   "where": "standing figure, top centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/kasulatan_read.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The budget sheet under the medallion has small letter-like scribbles in its table.",
+   "where": "paper, bottom",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/gorio_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The younger man whose shoulder Gorio pats has short spiky black hair with no grey topknot, so he does not read as Indio.",
+   "where": "back of head, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/gorio_shrug.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Gorio's barong turns into a colourful floral print, while k34-k36 show it cream with gold embroidery.",
+   "where": "Gorio's shirt (compare k36)",
+   "second_reader": "added"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/usman_sorry.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears hang folded; the series dog has only one folded ear.",
+   "where": "dog's ears, top",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/kappa_help.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The worker's hand on the stake is a smooth lump where the fingers cannot be counted.",
+   "where": "human hand, left edge",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/kappa_engineers.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The kappa is a plain real-looking turtle on the rock, without the dish or upright body of k47.",
+   "where": "small turtle on rock, centre left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/kappa_engineers.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The engineer in the light-blue helmet has a smeared face with garbled glasses and mouth.",
+   "where": "blue-helmet worker, lower left",
+   "second_reader": "added"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50,
+    86
+   ],
+   "still": "full/sarimanok_fly.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black necktie, unlike his no-tie look.",
+   "where": "Indio's collar, centre",
+   "second_reader": "added"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/sebyo_teach.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Totoy wears a green shirt here but a tan work shirt in k52 and k54.",
+   "where": "Totoy, right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/tubal_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Tubal's face, hair and tie change between k56 and k57 (smooth smiling face, purple tie vs heavy scowling face, black tie), so he reads as a different man.",
+   "where": "face and tie (compare k56)",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/rico_setup.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Rico's hand behind the tripod is a shapeless lump with a stray purple shape where the fingers should be.",
+   "where": "hand behind tripod legs, lower left",
+   "second_reader": "added"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    8,
+    60
+   ],
+   "still": "full/age_scale.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The red presidential chair has two stacked backrests, one behind the other.",
+   "where": "red chair, right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/folk_scroll.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The museum shelf is a glossy 3D-render look, unlike the flat anime drawing of the rest of the episode.",
+   "where": "whole frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/folk_scroll.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The two museum label cards carry small letter-like scribbles.",
+   "where": "label cards, bottom right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/folk_scroll.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The 'kappa' figurine is a black-and-white panda- or penguin-like doll with no shell, no dish and not green, so it does not read as the kappa of k47.",
+   "where": "small figurine, lower right",
+   "second_reader": "added"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/trio_roof.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "Usman's two eyes are different colours, one pale grey and one amber.",
+   "where": "dog's eyes, lower right",
+   "second_reader": "added"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/trio_roof.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The bird circling above is a plain red-headed hawk with brown wings, not the rooster-bodied sarimanok with the long multicoloured tail from k50.",
+   "where": "bird, top",
+   "second_reader": "added"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k34",
+   "still": "full/door_gorio.jpg",
+   "what": "Indio wears a tie here, unlike his no-tie look elsewhere.",
+   "why": "At 3x Indio's collar is open with no tie; only Gorio wears a thin black cord, so Indio is on model."
+  }
+ ]
 }

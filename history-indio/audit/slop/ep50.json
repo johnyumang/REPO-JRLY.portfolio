@@ -1,6 +1,6 @@
 {
  "episode": 50,
- "audited_by": "voice-cast reader 1",
+ "audited_by": "voice-cast readers 1 and 2",
  "keys_looked_at": 35,
  "faults": [
   {
@@ -12,7 +12,12 @@
    "type": "face",
    "must_fix": true,
    "what": "The running dog has an extra ear flap (two flaps on its left side plus the folded right ear) and pale whitish eyes that do not match each other, one with a brown iris and one without.",
-   "where": "dog's head, centre of frame: left ear pair and both eyes"
+   "where": "dog's head, centre of frame: left ear pair and both eyes",
+   "second_reader": "confirmed: at 3x both eyes are pale grey-white, the left has only a black pupil and the right a brown iris; the left ear reads as a grey flap plus a separate brown-lined flap",
+   "fixed": true,
+   "fix": "Redrawn at full quality as one slim black short-haired dog running toward the camera: two ears only (one folded, one upright), matching natural brown eyes, four legs, white chest patch.",
+   "third_reader": "keep: the extra ear flap and pale mismatched eyes are gone (two ears, one folded and one upright, matching brown eyes, four legs, white chest), and it tells 'a black dog ran out of the grass'; but it is a flat cel drawing between the glossy k22 and k25, and its smooth broad head with one very tall upright ear and slightly human whites of the eyes does not look like the long-muzzled dog with both ears folded of k25 and k27, so redo k24 (or k25/k27/k28) with the better engine to make one dog.",
+   "style_gap": true
   },
   {
    "key": "k23",
@@ -23,7 +28,12 @@
    "type": "face",
    "must_fix": true,
    "what": "The baby in the shepherd's arms is a faceless flesh-coloured lump covered in dark specks, with a second shapeless skin lump below it at his knee.",
-   "where": "left of the shepherd's chest, centre-right of frame"
+   "where": "left of the shepherd's chest, centre-right of frame",
+   "second_reader": null,
+   "fixed": true,
+   "fix": "Redrawn from behind and a little to the side: the baby is now one small sleeping face with dark hair in a cream wrap in the crook of the shepherd's arm, no lumps; his hands are hidden.",
+   "third_reader": "keep: the faceless lump is now one small sleeping baby's head with dark hair in a cream wrap in the crook of his arm, no hands shown, sheep far off with four legs; the flat pastel drawing sits with k20 but jolts against the glossy k22 before it and k25 after it, and the baby is small and a little crude on a paused screen.",
+   "style_gap": true
   },
   {
    "key": "k20",
@@ -34,7 +44,12 @@
    "type": "merge",
    "must_fix": true,
    "what": "A grey rope of wool or smoke grows from the tip of the staff into a flat grey featureless sheep behind it, so staff and sheep are joined.",
-   "where": "top of the staff, left of the shepherd's face"
+   "where": "top of the staff, left of the shepherd's face",
+   "second_reader": "confirmed: the grey rope runs from the crook of the staff into the flat grey sheep",
+   "fixed": true,
+   "fix": "Redrawn: the staff is one clean wooden crook against open sky, and the two sheep graze far off, apart from it.",
+   "third_reader": "keep: the staff is one clean crook against the sky and the two sheep graze far behind, nothing joins them; the picture is flat simple cel work next to the rich k21 and k22, and the shepherd reads as a boy of about fourteen rather than the father of k22, so a later redo with the better engine is worth it.",
+   "style_gap": true
   },
   {
    "key": "k14",
@@ -45,7 +60,11 @@
    "type": "writing",
    "must_fix": true,
    "what": "Both open pages carry bold letter-like glyph clusters at their top corners and rows of faint pseudo-text lines.",
-   "where": "page headers (three dark clusters) and the body of both pages"
+   "where": "page headers (three dark clusters) and the body of both pages",
+   "second_reader": "confirmed: three bold glyph clusters at the page corners and rows of pseudo-text on both pages",
+   "fixed": true,
+   "fix": "Redrawn as an open old leather-bound book with completely blank cream pages and a sprig of grass, no glyphs or text lines anywhere.",
+   "third_reader": "keep: both pages are blank cream paper at 2x, no glyphs or text lines, one sprig on the page, and it sits well between k13 and k15."
   },
   {
    "key": "k07",
@@ -56,7 +75,11 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The dog is a heavy, broad-headed bully-type dog taller than the child with human-like eyes and a loose black hair-like curl above its head, not the slim street dog of k11, k25 and k27, and it has no red kerchief (none of this episode's dog shots k07, k11, k24, k25, k27, k28 has one).",
-   "where": "dog, left half of frame"
+   "where": "dog, left half of frame",
+   "second_reader": "confirmed: broad bully-type head, human-like eyes with whites, a loose curl above the head; by the story this dog is Usman (see usman_note), so the missing red kerchief is part of this fault",
+   "fixed": true,
+   "fix": "Redrawn with the Usman string: a slim knee-high black street dog with white chest, one folded ear, natural dog eyes and the red kerchief.",
+   "third_reader": "keep: a slim knee-high black dog with white chest, one upright and one folded ear, natural dark eyes, four legs and the red kerchief, clearly Usman; the coat is a little fluffier at the neck and tail than 'short-haired'."
   },
   {
    "key": "k07",
@@ -67,7 +90,11 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The boy is drawn as a chubby toddler of about two or three with a round head, not the boy of about six seen in k06, k09, k10 and k11.",
-   "where": "boy, right half of frame"
+   "where": "boy, right half of frame",
+   "second_reader": "confirmed: round-headed toddler proportions, younger than the boy of k06, k09, k10, k11",
+   "fixed": true,
+   "fix": "The boy is now a schoolboy with black hair, beige t-shirt, green shorts and dark sneakers, no longer a toddler.",
+   "third_reader": "keep: no longer a toddler, same black hair, beige t-shirt, green shorts and dark sneakers as k06 and k11, though he now looks nine or ten, older than the small boy of k06."
   },
   {
    "key": "k07",
@@ -78,7 +105,11 @@
    "type": "hands",
    "must_fix": false,
    "what": "Both of the boy's hands are fingerless stumps with a few scratch marks instead of fingers.",
-   "where": "both hands, at the sides of his body"
+   "where": "both hands, at the sides of his body",
+   "second_reader": "confirmed: both hands end in round stumps with scratch lines, no separate fingers",
+   "fixed": true,
+   "fix": "The boy's hands are in the pockets of his shorts in the redraw, so no stumps show.",
+   "third_reader": "keep: both hands are in the pockets, no stumps; face and shoes are clean at 3x."
   },
   {
    "key": "k20",
@@ -89,7 +120,11 @@
    "type": "hands",
    "must_fix": false,
    "what": "The shepherd's hand on his knee is a smooth lump with no fingers and does not grip the staff that passes behind it.",
-   "where": "hand at his knee, left centre"
+   "where": "hand at his knee, left centre",
+   "second_reader": "confirmed: the hand over the knee is a smooth fingerless shape and the staff passes behind it ungripped",
+   "fixed": true,
+   "fix": "In the redraw one hand with separate knuckles grips the staff and the other rests at his hip.",
+   "third_reader": "keep: one fist with four knuckles grips the staff (thumb wrapped behind), the other hand is hidden at the hip apart from a small sliver of skin by the belt that does not read as a fault."
   },
   {
    "key": "k02",
@@ -98,9 +133,13 @@
    ],
    "still": "full/clear_river.jpg",
    "type": "face",
-   "must_fix": false,
+   "must_fix": true,
    "what": "The children on the footbridge are smeared figures with melted faces, the left group fused into one lump and looking unclothed.",
-   "where": "footbridge, upper right"
+   "where": "footbridge, upper right",
+   "second_reader": "confirmed, must_fix raised to true: at 3x the left group is three flesh-coloured fused lumps with no clothes drawn and smeared faces; the series note says everyone clothed, and a paused viewer sees bare-looking melted children on the bridge",
+   "fixed": true,
+   "fix": "Redrawn with nobody in the frame: clear river, stones under the water, stone floodwall and an empty footbridge.",
+   "third_reader": "keep: nobody in the frame, the footbridge is empty at 3x, stones show under clear water beside a stone floodwall, and it matches k01 and k03."
   },
   {
    "key": "k21",
@@ -111,7 +150,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "A third pale fist sits on the shepherd brother's staff below the hand that grips it, attached to no arm.",
-   "where": "staff at hip height, right-hand figure"
+   "where": "staff at hip height, right-hand figure",
+   "second_reader": "confirmed: one hand grips the staff at chest height, the other arm is raised waving, and a third fist sits lower on the staff at hip height"
   },
   {
    "key": "k22",
@@ -122,7 +162,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The shepherd wears a long-sleeved shirt, brown trousers and a buckled leather belt instead of the short-sleeved cream tunic, bare legs and boots of k20, k21 and k28, and the baby is a toddler with a full head of brown hair rather than the infant of k25 to k27.",
-   "where": "shepherd's torso and legs; baby's head, centre"
+   "where": "shepherd's torso and legs; baby's head, centre",
+   "second_reader": "confirmed: long sleeves, buckled belt and brown trousers; the child has a full head of brown hair (the hand itself is sound: four fingers shown, thumb hidden)"
   },
   {
    "key": "k23",
@@ -133,7 +174,11 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The shepherd wears a high-collared long-sleeved jacket, a red sash and olive trousers, unlike the short-sleeved tunic, brown belt and bare legs of k20, k21 and k28.",
-   "where": "shepherd's back, right of frame"
+   "where": "shepherd's back, right of frame",
+   "second_reader": "confirmed: collared long-sleeved jacket, red sash, olive trousers",
+   "fixed": true,
+   "fix": "The redraw puts the shepherd in the short-sleeved cream tunic, brown belt, bare legs and brown boots of k20, k21 and k28.",
+   "third_reader": "keep: short-sleeved cream tunic, brown belt, bare legs and brown boots now match k20, k21 and k28."
   },
   {
    "key": "k23",
@@ -144,7 +189,11 @@
    "type": "face",
    "must_fix": false,
    "what": "The grazing sheep has a human-like eye, an irregular dark blotch across its forehead and a black smear with red flecks fused to its muzzle.",
-   "where": "sheep's head, lower centre"
+   "where": "sheep's head, lower centre",
+   "second_reader": "confirmed: one round human-style eye with iris and lashes, a dark blotch on the forehead and a black smear with red flecks at the muzzle",
+   "fixed": true,
+   "fix": "The redraw has one white sheep far off by the stream, seen from behind, with no human eye or smears.",
+   "third_reader": "keep: the only sheep is far off and seen from behind, no eye or smear."
   },
   {
    "key": "k25",
@@ -155,7 +204,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The dog has both ears folded down and a longer glossy coat, where the script and the other shots give it one folded ear and short hair.",
-   "where": "dog's head, upper left"
+   "where": "dog's head, upper left",
+   "second_reader": "confirmed: both ears hang folded and the coat is glossy and longer"
   },
   {
    "key": "k28",
@@ -166,7 +216,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The dog is a long-haired collie type with a broad white band round its neck instead of a short-haired black dog with a white chest patch.",
-   "where": "dog lying beside the shepherd, lower centre"
+   "where": "dog lying beside the shepherd, lower centre",
+   "second_reader": "confirmed: long coat and a wide white band across neck and shoulders"
   },
   {
    "key": "k11",
@@ -177,7 +228,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Indio has no red handkerchief on the wrist of the hand that holds the woman's, although it is there in k06 and k17.",
-   "where": "Indio's right wrist, centre"
+   "where": "Indio's right wrist, centre",
+   "second_reader": "confirmed: bare wrist on the hand holding the woman's; the red cloth is there in k06 and k17"
   },
   {
    "key": "k09",
@@ -188,7 +240,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The boy wears open black sandals and has dark brown hair and a deeper tan, while k06, k10 and k11 show him in closed dark sneakers with black hair.",
-   "where": "boy's feet and head, left half"
+   "where": "boy's feet and head, left half",
+   "second_reader": "confirmed: open sandals and dark brown hair here, closed dark sneakers and black hair in k06, k10, k11"
   },
   {
    "key": "k12",
@@ -197,9 +250,14 @@
    ],
    "still": "full/bench_tala.jpg",
    "type": "bleed",
-   "must_fix": false,
+   "must_fix": true,
    "what": "A bright green patch of the background foliage shows inside the older man's grey hair above his forehead.",
-   "where": "man's hairline, top centre"
+   "where": "man's hairline, top centre",
+   "second_reader": "confirmed, must_fix raised to true: the bright green patch sits on the hairline of a large laughing face at the top centre of the frame and is plain on a paused screen",
+   "fixed": true,
+   "fix": "Redrawn: Tala alone on the bench in front with clean white hair and her hands clasped in her lap, the cup on the bench, the parents small and laughing far behind; no foliage colour in anyone's hair.",
+   "third_reader": "keep: no foliage colour in anyone's hair, Tala's face is clean, her clasped hands show one hand with a thumb and four knuckles over the other, the far parents have sound faces; the heavy-outline flat colouring is plainer than the painted k11 and k13 (the old still was just as flat).",
+   "style_gap": true
   },
   {
    "key": "k15",
@@ -210,7 +268,48 @@
    "type": "style",
    "must_fix": false,
    "what": "The still is a full-frame woodcut or fresco style painting with heavy ink lines and flat ochre colour, not anime, and it is not framed as a picture inside the scene, so the cut from k14 and to k16 jolts.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "second_reader": "confirmed, not must-fix: heavy-ink fresco picture filling the frame; the prompt asked for an old fresco, so it is a chosen insert, but nothing frames it as a picture in the scene"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/walk_on.png",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog walking beside the boy is Usman by the story (see usman_note) but wears no red kerchief, only a thin pale collar line, and both ears hang down, so he reads as any black dog in the finale's family shot.",
+   "where": "dog, lower right of the group",
+   "found_by": "reader 2",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour, painted skies with light rays. Scene: a long paved park path under lush tropical trees in the Philippines at morning, high angle, the family small in the frame and seen from behind, walking away: a Filipino man in his forties with a black topknot with a few grey strands, a long dark grey coat, a red handkerchief on his wrist, hand in hand with a young Filipina woman with long black hair in a simple long dark blue dress; beside her their son, a small Filipino boy of about six with black hair, a beige t-shirt, green shorts and dark sneakers, arms at his sides; beside the boy trots a slim black short-haired Philippine street dog with a white chest patch, one ear folded down and one upright, a red kerchief tied around his neck, his head turned a little to the side so both ears show. Exactly three people and one dog, nobody else. Single image, no panels, no border, the picture fills the whole vertical frame. Vertical 9:16. No text, no logos, no watermarks.",
+   "fix_note": "Four full-quality redraws tried and thrown away (melted joined hands; both ears folded and a white spot on the rump; dog walking the wrong way; Indio drawn as a stern old man). The old still is restored."
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/last_light.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The baby in the shepherd's lap is bald, while the same baby has dark hair in k25 and k27 (and brown hair in k22).",
+   "where": "baby's head, at the shepherd's chest, lower left centre",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/family_walk.png",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The running boy's left hand is a shapeless blob with a yellow-orange lump on it and no fingers.",
+   "where": "boy's left hand, just right of the woman's shoulder, centre right",
+   "found_by": "reader 2"
   }
- ]
+ ],
+ "usman_note": "Two dogs, two answers. (1) Pugad Lawin, k07 and k11: this dog IS Usman. Episode 49 ends with Usman at Indio's feet 'in the present now, no longer vanishing', episode 50 opens years later with the same three marks (black, white chest, one folded ear) beside Indio's child, and the fact check of this very script lists 'kami ni Usman' among the invented things in the episode, so Usman is on screen. The series cast says he always wears the red kerchief; the prompts left it out. The missing kerchief is therefore an off_model fault on k07 (already inside reader 1's must-fix entry) and on k11 (added). (2) The first meadow, k24, k25, k27, k28: not a fault. The narrator calls it only 'a black dog' in another world at the very beginning, before Indio or anyone could have tied a kerchief on him; the scene works because the three body marks alone tell the viewer who he is, and a kerchief there would contradict 'the very beginning'. Those keys are judged only on the body marks (one folded ear, short coat, chest patch), which is where k24, k25 and k28 fail."
 }

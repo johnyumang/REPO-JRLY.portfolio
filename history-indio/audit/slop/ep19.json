@@ -1,0 +1,324 @@
+{
+ "episode": 19,
+ "audited_by": "render-worker-ep08-09-19-30 (two fresh readers)",
+ "keys_looked_at": 80,
+ "defects": [
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/notebook_line.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is a different person here: a hooded older man with long fringe, whisker-like scars on both cheeks and a golden line running down his face.",
+   "where": "face, top half of frame"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/bottles_memory.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The crumpled shirt sits upright on the chair like a headless invisible man slumped over the table, and a dark hand seems to come out of the sleeve.",
+   "where": "centre, chair behind the bottles"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/fisherman_coffee.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A second tin pot floats in the air pouring into the cup the fisherman holds, and no hand is holding it.",
+   "where": "left middle, the fisherman's cup"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/read_marker_lake.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M wears a purple office blazer with a shirt and tie instead of her long dark coat.",
+   "where": "right figure"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/usman_return.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing straight up instead of one folded ear.",
+   "where": "dog's ears, top"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/indio_listen_far.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand cupped behind Indio's ear is a smooth mitten-like lump with no fingers you can make out.",
+   "where": "Indio's right hand, left middle by his ear"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25,
+    57
+   ],
+   "still": "full/spanish_paper.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "An open book filling the frame with lines of letter-like cursive writing (key not yet recomposited from the central machine's new still).",
+   "where": "whole page, centre",
+   "second_reader": "refuted: the recomposited key from the central redraw shows a closed book and a sealed scroll, no writing",
+   "fixed": true
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/usman_wow.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears straight up, no white chest patch shows, and his kerchief has a white logo-like emblem on it.",
+   "where": "ears at top; emblem on kerchief at bottom"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/indio_explain.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has brown hair with no topknot, and Usman is a long-haired, floppy-eared puppy with no white patch, so neither is recognisable.",
+   "where": "kneeling man right; dog lower left"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/boat_row.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M wears a white peasant dress instead of her long dark coat.",
+   "where": "woman at right in the boat"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/bird_stare.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "A dense, painterly tattoo-poster illustration unlike the episode's cel anime, with a small realistic man pasted onto the fish in the beak.",
+   "where": "whole frame; man on the fish, right middle"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/indio_speak.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "Usman's feet are scaly bird talons instead of dog paws.",
+   "where": "dog's feet, bottom right",
+   "second_reader": "refuted: the talons belong to the sarimanok; Usman's paws are fine"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/sandugo_seal.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M has short dark hair and pink eyes here, unlike her long black hair and dark eyes everywhere else.",
+   "where": "face, top right",
+   "second_reader": "refuted: dark eyes and long dark hair at 3x; M is recognisable"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50,
+    85
+   ],
+   "still": "full/flight.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The sarimanok is a plain brown hen or eagle instead of the multicoloured bird, and Indio's hair sticks up in two horn-like tufts.",
+   "where": "bird across the frame; Indio's hair, top"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_scream.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears straight up instead of one folded ear.",
+   "where": "dog's ears, top"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/holo_sarimanok.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram panel shows a clear letter A inside a circle.",
+   "where": "top left of the hologram panel",
+   "second_reader": "refuted: the mark is a pictogram, not a letter"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/usman_growl_lake.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded instead of one.",
+   "where": "dog's ears, top"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/m_hand_coffee.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has short light-brown hair instead of long black hair.",
+   "where": "woman's head, top left"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/m_hand_coffee.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "M's hand carries the same pink floral sleeve tattoo as the man's hand.",
+   "where": "left hand on the cup"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/usman_fade_lake.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears straight up and no white chest patch.",
+   "where": "dog's ears, top; chest"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/live_shore.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio talks on a phone held to his ear while the tripod holds only a red cloth and no phone.",
+   "where": "tripod, centre"
+  },
+  {
+   "key": "k80",
+   "shots": [
+    80
+   ],
+   "still": "full/phone_video.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Rico on the phone screen is a near-realistic man who looks nothing like the cartoon Rico of k07 and k63.",
+   "where": "phone screen, centre"
+  },
+  {
+   "key": "k81",
+   "shots": [
+    81
+   ],
+   "still": "full/usman_quiet.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded instead of one.",
+   "where": "dog's ears"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/bird_bow.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In this 1639 scene Indio wears a modern short-sleeved polo with no headband.",
+   "where": "man at bottom right"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/trio_fly_sunset.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The bird is all black instead of multicoloured, and its riders are two armed soldier-like figures, not Indio, M and Usman.",
+   "where": "riders top right; bird across the frame"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13,
+    86
+   ],
+   "still": "full/prow_carving.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The prow bird is a glossy candy-coloured cartoon out of place next to the cel anime.",
+   "where": "bird head, centre"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/fifty_cars.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The car number plates carry letter-like marks.",
+   "where": "front plates, lower left"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66,
+    89
+   ],
+   "still": "full/live_spread.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The ad cards along the jeepney ceiling carry small letter-like marks.",
+   "where": "ceiling, top left and right"
+  }
+ ]
+}

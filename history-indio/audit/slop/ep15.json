@@ -1,0 +1,14 @@
+{
+  "episode": 15,
+  "readers": ["first"],
+  "keys_looked_at": 86,
+  "entries": [
+    {"key": "k05", "shots": [5], "still": "full/cars_row.jpg", "type": "object", "must_fix": true, "what": "Bare toes stick out through the front of his right sneaker, so the foot is both bare and shod.", "where": "right foot, bottom-centre"},
+    {"key": "k44", "shots": [44], "still": "full/indio_tempted.jpg", "type": "face", "must_fix": true, "what": "In the eye close-up his two irises are different colours, pink in the left eye and amber in the right, with heavy feminine lashes.", "where": "both eyes, centre"},
+    {"key": "k59", "shots": [59], "still": "full/lola_cry.jpg", "type": "hands", "must_fix": true, "what": "The clasped hands in the centre are a knot of fused, melting fingers that do not resolve into two hands.", "where": "clasped hands, lower centre"},
+    {"key": "k07", "shots": [7], "still": "full/bottles_table.jpg", "type": "hands", "must_fix": false, "what": "The hand holding the red kerchief is a boneless blob with no distinct fingers and an odd lace frill at the wrist.", "where": "right hand, bottom edge"},
+    {"key": "k73", "shots": [73], "still": "chars/indio_point_modern.jpg", "type": "off_model", "must_fix": false, "what": "The pointing Indio cutout has much darker orange skin and a flatter older cel style than Indio in the rest of the episode.", "where": "whole figure"},
+    {"key": "k02", "shots": [2], "still": "full/intro.jpg", "type": "writing", "must_fix": false, "what": "Faint letter-like scribbles sit on the gold ring in the intro frame.", "where": "gold ring, upper right"},
+    {"key": "k98", "shots": [98], "still": "full/sinigang_pot.jpg", "type": "writing", "must_fix": false, "what": "Letter-like marks are printed around the rim of the soup pot.", "where": "pot rim"}
+  ]
+}
