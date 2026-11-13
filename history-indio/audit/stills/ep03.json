@@ -11,7 +11,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "The left medallion's sun has a cartoon smiley face (eyes and smile) drawn in its centre."
+   "what": "The left medallion's sun has a cartoon smiley face (eyes and smile) drawn in its centre.",
+   "fixed": true
   },
   {
    "still": "chars/indio_alone.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Pseudo-text logo patch ('BH RHO'-like glyphs in a box) on the right chest of Indio's orange windbreaker."
+   "what": "Pseudo-text logo patch ('BH RHO'-like glyphs in a box) on the right chest of Indio's orange windbreaker.",
+   "fixed": true
   },
   {
    "still": "chars/indio_cheer.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The word 'DEURE' printed in large dark letters on the right chest of Indio's orange windbreaker."
+   "what": "The word 'DEURE' printed in large dark letters on the right chest of Indio's orange windbreaker.",
+   "fixed": true
   },
   {
    "still": "chars/signer.png",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The whole paper is covered with rows of pseudo-cursive scribbles posing as signatures, filling most of the frame."
+   "what": "The whole paper is covered with rows of pseudo-cursive scribbles posing as signatures, filling most of the frame.",
+   "rejected": "kept: the shot is the signing of the Act by 98 men, so signatures on the page are the subject; this Figma still was redrawn on purpose on 2026-11-13 (b3cedca) and shows no readable or wrong text at phone size"
   },
   {
    "still": "chars/indio_wink.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "A stray disembodied tan finger/thumb pokes up from behind Indio's left shoulder at the left edge of the frame."
+   "what": "A stray disembodied tan finger/thumb pokes up from behind Indio's left shoulder at the left edge of the frame.",
+   "fixed": true
   },
   {
    "still": "chars/indio_choke.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A small curly letter-like glyph is engraved on the face of Indio's medallion."
+   "what": "A small curly letter-like glyph is engraved on the face of Indio's medallion.",
+   "fixed": true
   },
   {
    "still": "chars/usman_crowd.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears folded down instead of one folded ear."
+   "what": "Usman has both ears folded down instead of one folded ear.",
+   "fixed": true
   },
   {
    "still": "chars/seamstress.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "The seamstress (Marcela Agoncillo) wears a Japanese kimono-style wrap robe with an obi-like blue sash and hakama-like skirt."
+   "what": "The seamstress (Marcela Agoncillo) wears a Japanese kimono-style wrap robe with an obi-like blue sash and hakama-like skirt.",
+   "fixed": true
   }
  ]
 }
