@@ -209,4 +209,9 @@ for n, sh in enumerate(shots):
         ff.stdin.write(brand(fr, f + k).tobytes())
     last = raw
     f = f1; print('shot', n + 1, '/', len(shots), flush=True)
-ff.stdin.close(); sys.exit(ff.wait())
+ff.stdin.close(); rc = ff.wait()
+if rc == 0 and not only:                                                                    # final loudness of the finished MP4, as delivered
+    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', out, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('Summary')[-1]
+    val = lambda k: next((l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)), '?')
+    print(f"final MP4: {val('I:')} LUFS (target {soundtrack.LUFS}), true peak {val('Peak:')} dBTP (ceiling {soundtrack.TP})", flush=True)
+sys.exit(rc)
