@@ -1,0 +1,89 @@
+{
+ "episode": 6,
+ "audited_by": "worker-davinci",
+ "stills_looked_at": 40,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/marker.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze marker plaque in the lower half is covered in large scribbled pseudo-handwriting instead of a blank or correct inscription."
+  },
+  {
+   "still": "full/note.jpg",
+   "shots": [
+    47
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "M's handwritten note in the center is filled with garbled pseudo-text lines that do not read as the scripted message."
+  },
+  {
+   "still": "full/stove.jpg",
+   "shots": [
+    40
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper stack in the foreground beside the stove is covered in rows of pseudo-glyph scribbles."
+  },
+  {
+   "still": "full/intro.jpg",
+   "shots": [
+    3
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing clock ring behind Indio carries rows of letter-like glyphs along its outer edge, mostly washed out by the glow."
+  },
+  {
+   "still": "full/pulse.jpg",
+   "shots": [
+    24
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "The doctor's and Rizal's hands at center merge into one tangled clump with ambiguous finger count."
+  },
+  {
+   "still": "chars/indio_point.jpg",
+   "shots": [
+    58
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "Indio's raised hand at lower left is malformed, with the curled fingers and thumb bunched into an unclear shape."
+  },
+  {
+   "still": "chars/usman_howl.jpg",
+   "shots": [
+    33
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears upright and pointed, with no folded ear."
+  },
+  {
+   "still": "chars/usman_far.jpg",
+   "shots": [
+    16
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded down instead of one folded ear."
+  },
+  {
+   "still": "chars/indio_smile_phone.jpg",
+   "shots": [
+    6
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has short spiky hair with no topknot."
+  }
+ ]
+}
