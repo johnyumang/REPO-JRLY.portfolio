@@ -155,6 +155,18 @@ def free_models():
     vqc._m.clear(); gc.collect()
     try: ctypes.CDLL('libc.so.6').malloc_trim(0)
     except OSError: pass
+OPEN_LO, OPEN_HI = -3.5, 7.5   # semitones: normal openings (Episode 35, 61 chosen Indio lines: p10 -2.7, median +0.6, p90 +6.8);
+                               # lead-in openings of Indio came out -4.0 to -5.3 (lower, like a continuation): those get a LISTEN mark
+def opening_pitch(w, c, rf0):
+    """Pitch of the first word of take w in semitones against the speaker's median: a designed voice's reference clip, or for
+    Indio the middle of his pitch window for the line's tone (voice_profile.json). None when the first word has no pitch."""
+    import vqc
+    m = json.load(open(w[:-4] + '.json')); y = vqc.load16(w); w0 = m['words'][0]
+    f0, _ = vqc.f0_stats(y[int(w0[1] * 16000):int(max(w0[2], w0[1] + 0.12) * 16000)])
+    if c['speaker'] == VP.NARRATOR:
+        lo, hi = VP.PROFILE['f0_window_hz'].get(c['style'], VP.PROFILE['f0_window_hz']['narrate']); ref = (lo * hi) ** 0.5
+    else: ref = rf0
+    return None if not f0 or not ref else round(float(12 * np.log2(f0 / ref)), 1)
 def fixstarts(work, maxn=3, leadin=False):
     """For each chosen take heard with an extra token before the script's first word (or after its last) that the assembly
     trim cannot remove (the syllable is glued to the word), generate up to maxn new takes (next seeds, one gen_ms.py run per
@@ -231,7 +243,10 @@ def fixstarts(work, maxn=3, leadin=False):
                 y, sr = sf.read(raw, dtype='float32'); cut = leadtrim.cut_leadin(vqc.load16(raw), 16000, vqc.words(vqc.load16(raw), lt + ' ' + c['text']), len(vqc.norm_words(lt)))
                 if cut is None: print('c%03d %-8s lead-in %r (%.0f s/chunk): no pause after the lead-in' % (i, c['speaker'][:8], lt, dt)); continue
                 w = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_s1{tag}.wav"; sf.write(w, leadtrim.fade_in(y[int(cut * sr):].copy(), sr), sr)
-                judge(i, w, 'lead-in %r cut at %.2f s (%.0f s/chunk)' % (lt, cut, dt))
+                if judge(i, w, 'lead-in %r cut at %.2f s (%.0f s/chunk)' % (lt, cut, dt)):
+                    st_ = opening_pitch(w, c, todo[i]['rf0'])
+                    print('c%03d %-8s first-word pitch %s%s' % (i, c['speaker'][:8], 'unknown' if st_ is None else '%+.1f semitones vs the speaker median' % st_,
+                                                           '  <- LISTEN to the opening' if st_ is None or not OPEN_LO <= st_ <= OPEN_HI else ''), flush=True)
     for i, d in todo.items():
         print('c%03d %-8s %s' % (i, d['c']['speaker'][:8], 'fixed with take %s' % fixed[i] if i in fixed else 'still bad (%s): keep the old take, listen' % d['why'].strip()))
     print('fixstarts: %d of %d fixed' % (len(fixed), len(todo))); return len(todo) - len(fixed)
