@@ -1,0 +1,98 @@
+{
+ "episode": 41,
+ "audited_by": "voice-cast",
+ "stills_looked_at": 78,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/list_board.jpg",
+   "shots": [
+    5
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The big passenger board on the left half is covered in rows of Chinese/Japanese-looking pseudo-characters instead of a blank or Filipino list."
+  },
+  {
+   "still": "full/judge_bible.jpg",
+   "shots": [
+    20
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Indio's topknot-and-red-headband look appears three times: on the robed judge holding the Bible in the centre, on the man at right foreground and on a man in the back row."
+  },
+  {
+   "still": "full/read_marker.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze marker at the right edge carries garbled engraved letters (PIIOCO TIBDA ...) instead of the script's date, name and 'Walang maiiwan', and the open book shows scribbled text lines."
+  },
+  {
+   "still": "full/usman_sniff41.jpg",
+   "shots": [
+    32
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Usman has a second headless black dog body with a white paw lying behind him on the staff in the upper right."
+  },
+  {
+   "still": "full/to_arks.jpg",
+   "shots": [
+    50
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The picture is a wide frame letterboxed inside thick black bars at top and bottom."
+  },
+  {
+   "still": "full/flood_begins.jpg",
+   "shots": [
+    65
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Giant out-of-scale character heads (and a gray creature) are pasted over the city rooftops in the lower half like a collage."
+  },
+  {
+   "still": "full/people_wait.jpg",
+   "shots": [
+    7
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Several waiting passengers have blank faces with no features, notably the girl in the red jacket at centre and the boy in green at left."
+  },
+  {
+   "still": "full/indio42.jpg",
+   "shots": [
+    4
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is split across two men: the left one has the topknot but no headband, the right one the red headband but no topknot, and neither wears the medallion."
+  },
+  {
+   "still": "full/indio_tear.jpg",
+   "shots": [
+    30
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Vertical rows of glyph-like marks run down the front of Indio's shirt as if text were embroidered on it."
+  },
+  {
+   "still": "full/bible41.jpg",
+   "shots": [
+    60
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Both pages of the open Bible are filled with faint rows of scribbled pseudo-text."
+  }
+ ]
+}
