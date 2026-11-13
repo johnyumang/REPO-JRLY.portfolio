@@ -4,7 +4,7 @@ The picture carries the idea (one face, one feeling, one object); this script on
 because image models cannot spell. Fonts are open-licence (pipeline/fonts, SIL OFL).
 
   thumbnail.py make --art art.png --out ep01_thumb.jpg --line "NASA 1896" --line "NA AKO?!" \
-      --accent 1896 --season 1 --episode 1 [--pos top|bottom] [--color yellow|red|cyan|white] [--tilt -4]
+      --accent 1896 --season 1 --episode 1 [--tag SPECIAL alone for a one-off] [--pos top|bottom] [--color yellow|red|cyan|white] [--tilt -4]
       [--zoom 1.0 --dx 0 --dy 0] [--size 1080x1920|1280x720] [--font anton|archivo|bebas] [--box 2] [--guides]
       [--brand-pos bl|br|tl|tr|none] [--badge-pos tl|tr] [--badge-scale 0.8]
       --keep head:0.20,0.24,0.80,0.62 --keep medallion:0.40,0.80,0.62,0.93
@@ -116,10 +116,12 @@ def badge(im, season, episode, tag=None, pos='tl', k=1.0):
     f1 = font('archivo', u * 0.80); f2 = font('anton', u * 1.75); sw = max(3, int(u * 0.10))
     t1 = f'SEASON {season}'; t2 = tag or f'EPISODE {episode}'
     w1 = f1.getlength(t1) + u * 0.9; h1 = u * 1.25; w2 = f2.getlength(t2) + u * 1.0; h2 = u * 2.35
+    if season is None: w1 = 0; h1 = sw                        # --tag alone (a one-off special): only the red block
     x = W * 0.05 if pos == 'tl' else W * 0.95 - max(w1, w2) - u * 0.12
     d.rounded_rectangle((x + u * 0.12, y + u * 0.12, x + max(w1, w2) + u * 0.12, y + h1 + h2 + u * 0.12), radius=int(u * 0.25), fill=(0, 0, 0))
-    d.rounded_rectangle((x, y, x + w1, y + h1), radius=int(u * 0.22), fill=COLORS['yellow'], outline=(0, 0, 0), width=sw)
-    d.text((x + u * 0.45, y + h1 / 2), t1, font=f1, fill=(0, 0, 0), anchor='lm')
+    if season is not None:
+        d.rounded_rectangle((x, y, x + w1, y + h1), radius=int(u * 0.22), fill=COLORS['yellow'], outline=(0, 0, 0), width=sw)
+        d.text((x + u * 0.45, y + h1 / 2), t1, font=f1, fill=(0, 0, 0), anchor='lm')
     d.rounded_rectangle((x, y + h1 - sw, x + w2, y + h1 + h2), radius=int(u * 0.25), fill=(214, 20, 30), outline=(0, 0, 0), width=sw)
     d.text((x + u * 0.5, y + h1 + h2 / 2 - sw / 2), t2, font=f2, fill=(255, 255, 255), anchor='lm')
     return im, (x, y, x + max(w1, w2) + u * 0.12, y + h1 + h2 + u * 0.12)
@@ -151,7 +153,7 @@ def make(a):
         solid = layer.split()[3].point(lambda v: 255 if v > 200 else 0)        # the letters and outline, not the soft shadow
         if solid.getbbox(): rects['words'] = solid.getbbox()
         im = Image.alpha_composite(im.convert('RGBA'), layer).convert('RGB')
-    if a.season: im, rects['badge'] = badge(im, a.season, a.episode, a.tag, a.badge_pos, a.badge_scale)
+    if a.season or a.tag: im, rects['badge'] = badge(im, a.season, a.episode, a.tag, a.badge_pos, a.badge_scale)
     if a.brand_pos != 'none': im, rects['brand tab'] = brand(im, pos=a.brand_pos)
     keeps = []
     for k in a.keep or []:
