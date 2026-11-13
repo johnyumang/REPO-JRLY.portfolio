@@ -213,7 +213,16 @@ ff.stdin.close(); rc = ff.wait()
 if rc == 0 and not only:                                                                    # final loudness of the finished MP4, as delivered
     e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', out, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('Summary')[-1]
     val = lambda k: next((l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)), '?')
+    fi, ftp = float(val('I:')), float(val('Peak:'))
+    if abs(fi - soundtrack.LUFS) > soundtrack.LUFS_TOL or ftp > soundtrack.TP:                # the mux missed: correct the MP4's audio itself (video copied)
+        print(f'final MP4 off ({fi:.1f} LUFS, {ftp:.1f} dBTP): correcting the audio of the MP4', flush=True)
+        fixd = out[:-4] + '.loud.mp4'
+        soundtrack.loudnorm2(out, fixd, ('-map', '0:v:0', '-map', '0:a:0', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart'))
+        os.replace(fixd, out)
+        e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', out, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('Summary')[-1]
     print(f"final MP4: {val('I:')} LUFS (target {soundtrack.LUFS}), true peak {val('Peak:')} dBTP (ceiling {soundtrack.TP})", flush=True)
+    if abs(float(val('I:')) - soundtrack.LUFS) > soundtrack.LUFS_TOL or float(val('Peak:')) > soundtrack.TP:
+        print('LOUDNESS GUARD FAILED: the final MP4 is outside the target; do not publish this file', flush=True); rc = 5
     # decode every video frame once: a file whose picture stream is damaged still passes an audio-only check (seen on Episode 46)
     d = subprocess.run(['ffmpeg', '-v', 'error', '-i', out, '-an', '-f', 'null', '-'], capture_output=True, text=True).stderr.strip().splitlines()
     if d:

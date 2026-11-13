@@ -75,28 +75,43 @@ def true_peak(path, encode=False):
     return float([l.split(':')[1].split()[0] for l in e.split('Summary')[-1].splitlines() if l.strip().startswith('Peak:')][-1])
 
 
+LUFS_TOL = 0.5                               # an output is accepted at LUFS +/- LUFS_TOL and true peak <= TP
+TRIES = 4
+
+
+def ebur(path, encode=False):
+    """(integrated LUFS, true peak dBTP) of path's audio; encode=True measures after an AAC encode like the final MP4's."""
+    src = path
+    if encode:
+        src = tempfile.mktemp(suffix='.m4a'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', path, '-vn'] + list(AAC) + [src], check=True)
+    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', src, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    if encode: os.remove(src)
+    e = e.split('Summary')[-1]; g = lambda k: float([l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)][-1])
+    return g('I:'), g('Peak:')
+
+
 def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
-    """Two-pass EBU R128 normalisation of src's audio to LUFS / TP (linear gain when possible), then a ceiling guard: if the
-    true peak after encoding (dst's own codec, or AAC for a WAV) is above TP, an oversampled limiter (loudness kept) is added
-    0.3 dB under the ceiling (lowered by any remaining overshoot + 0.2 dB), and the file is redone (at most 3 times). Returns (before, after) LUFS."""
-    import json, re
-    af = f'loudnorm=I={LUFS}:TP={TP - 0.5}:LRA=11'           # 0.5 dB margin: loudnorm and the AAC encode overshoot slightly
-    def meas(p, f):
-        e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', p, '-vn', '-af', f + ':print_format=json', '-f', 'null', '-'],
-                           capture_output=True, text=True).stderr
-        return json.loads(re.findall(r'\{[^{}]*\}', e)[-1])
-    m = meas(src, af)
-    lin = (f"{af}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
-           f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
-    lim = None                                # dB; None = no limiter (the normal case)
-    for _ in range(3):
-        post = '' if lim is None else f',aresample=176400:resampler=soxr,alimiter=limit={10 ** (lim / 20):.5f}:attack=2:release=80:level=false'
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', lin + post + ',aresample=' + str(SR)] + list(extra) + [dst], check=True)
-        tp = true_peak(dst, encode=check_encoded and dst.lower().endswith('.wav'))
-        if tp <= TP: break
-        lim = TP - 0.3 if lim is None else lim - (tp - TP) - 0.2                     # oversampled true-peak limiter just under the ceiling; lowered by the overshoot + 0.2 dB if it still leaks
-        print(f'true peak {tp:.1f} dBTP over {TP}: limiter at {lim:.1f} dB', flush=True)
-    return float(m['input_i']), float(meas(dst, af)['input_i'])
+    """Bring src's audio to LUFS (+/- LUFS_TOL) with the true peak at or under TP, measured as delivered (after the AAC encode
+    for a WAV dst). Each round: one linear gain plus an oversampled true-peak limiter (4x, 176.4 kHz), then measure the result
+    and correct both: the gain by the loudness error, the limiter by any true-peak overshoot + 0.5 dB. Up to TRIES rounds;
+    a file that still misses stops the run (SystemExit with a LOUDNESS GUARD FAILED line), so a file that is off is never kept.
+    (The old version used loudnorm's linear mode, which silently turns dynamic when the peaks forbid the gain and could land
+    1 dB low (Episode 11: -17.0 LUFS), and its retries checked only the peak, giving up at -0.5 dBTP (Episode 4).)
+    Returns (before, after) LUFS."""
+    i0, tp0 = ebur(src)
+    gain, lim = LUFS - i0, TP - 1.0          # dB; the limiter starts 1 dB under the ceiling for the AAC encode's overshoot
+    for k in range(TRIES):
+        af = (f'volume={gain:.3f}dB,lowpass=f=16000:poles=2,aresample=176400:resampler=soxr,'          # 16 kHz: the AAC encode drops it anyway, and
+              f'alimiter=limit={10 ** (lim / 20):.5f}:attack=0.5:release=60:level=false:latency=true,aresample={SR}:resampler=soxr')   # full-band hits overshoot after it
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', af] + list(extra) + [dst], check=True)
+        i, _ = ebur(dst); _, tp = ebur(dst, encode=check_encoded and dst.lower().endswith('.wav'))
+        print(f'loudness round {k + 1}: gain {gain:+.2f} dB, limiter {lim:.2f} dBTP -> {i:.2f} LUFS, true peak {tp:.2f} dBTP', flush=True)
+        if abs(i - LUFS) <= LUFS_TOL and tp <= TP and (abs(i - LUFS) <= 0.2 or k == TRIES - 1): return i0, i
+        gain += LUFS - i                                                               # loudness error (limiting the peaks costs a little level)
+        if tp > TP: lim -= (tp - TP) + 0.5                                             # peak leaked through the encode: lower the ceiling with room
+    if abs(i - LUFS) <= LUFS_TOL and tp <= TP: return i0, i
+    raise SystemExit(f'LOUDNESS GUARD FAILED: {dst}: {i:.2f} LUFS (target {LUFS} +/- {LUFS_TOL}), true peak {tp:.2f} dBTP (ceiling {TP}) '
+                     f'after {TRIES} rounds; input was {i0:.2f} LUFS / {tp0:.2f} dBTP. Do not publish this file.')
 
 
 def make(voice_path, cuts, hits, out_path):
