@@ -76,6 +76,13 @@ bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.
 - Checks (`ms.py qc`, via `vqc.take_metrics`): the word check is the same for every line (edits <= 1, first word right,
   cmatch >= 0.88). Speaker: INDIO against the real-recording centroid (>= 0.915, as `qcsel.py`); anyone else against
   ITS OWN reference clip (>= 0.85), pitch within 4 semitones of that clip. Speed, edge noise, clipping, pauses as above.
+- Numbers (`numwords.py`): the word check compares numbers by VALUE, so "mil nuwebe syentos sais", "1906" and "nineteen oh six"
+  are equal (Tagalog, Spanish-derived Tagalog, English, digits), and a different number ("1909" for 1906) counts as a wrong
+  word that forces the second take; among takes, one with every number right ranks first. `qc` re-judges old take files from
+  their stored transcript, so a re-run picks takes by this rule with no new generation. Audit an episode already narrated:
+  `/opt/vc/bin/python pipeline/voice_clone/ms.py numbers $HI_VOICE_WORK/<slug>` lists each chunk with a year, age, date or
+  amount (expected vs heard in the chosen take, `DIFF` where they differ, other takes' numbers); exit 1 if any differ. To fix:
+  `ms.py qc <work>`, then `ms.py assemble <work> <work>/voice`, then rebuild the video.
 - Assembly (`ms.py assemble`): same per-tone level, slow-down of rushed takes, -17.4 LUFS master and true-peak limit as
   `assemble.py`; the match EQ to the real recording is applied to Indio's lines only. Pauses 0.38 s in a turn, 0.45 s
   between turns, 0.65 s between scenes. `voice_timings.json` = one entry per sentence in script order, the same format

@@ -4,6 +4,7 @@
  - spk(): speaker embedding (WavLM x-vector) -> cosine similarity to the real voice
  - rate / f0 helpers"""
 import re, os, json, numpy as np, torch, librosa, difflib
+import numwords
 torch.set_num_threads(os.cpu_count() or 4)
 _m = {}
 def norm_words(t):
@@ -75,6 +76,7 @@ def f0_stats(y16):
 _NUM = set('zero oh one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand'.split())
 def phon(t):
     """Spelling-insensitive, word-boundary-insensitive form: 'kanyon ang' and 'kanyo ng' are the same sounds."""
+    t = numwords.strip(t)                                       # numbers are compared as values in edits(), not as letters
     t = t.lower().replace('ñ', 'ny'); t = re.sub(r'\d+', ' ', t)
     ws = [w for w in norm_words(t) if w not in _NUM]; ws = ['nang' if w == 'ng' else 'manga' if w == 'mga' else w for w in ws]; s = ''.join(ws)
     s = re.sub(r'c(?=[ei])', 's', s).replace('ch', 'ts').replace('c', 'k').replace('qu', 'k').replace('q', 'k').replace('z', 's').replace('x', 'ks').replace('ph', 'p').replace('f', 'p').replace('v', 'b')
@@ -88,9 +90,15 @@ def lev(a, b):
         p, d[0] = d[0], i
         for j, z in enumerate(b, 1): p, d[j] = d[j], min(d[j] + 1, d[j - 1] + 1, p + (x != z))
     return d[-1]
-def edits(want, heard): return lev(phon(want), phon(heard))
+NUM_MISS = 2   # one wrong number (1909 said for 1906, "35" garbled) is more than max_edits: always a wrong word that forces another take
+def edits(want, heard):
+    """letter edits between script and heard with numbers taken out, plus NUM_MISS per number that differs in value
+    ("mil nuwebe syentos sais" = "1906"; "1909" for it is wrong). See numwords.py."""
+    return lev(phon(want), phon(heard)) + NUM_MISS * len(numwords.diff(want, heard))
 def first_ok(want, heard):
     """First word heard right: same-length prefix of phon(text) and phon(heard) (phon merges across word boundaries, so compare both in context)."""
+    if numwords.starts_with_number(want):                       # "Trenta'y singko na ako" / "35 na ako": the first number must match in value
+        a, b = numwords.numbers(want), numwords.numbers(heard); return numwords.starts_with_number(heard) and bool(b) and a[0] == b[0]
     ws = [w for w in norm_words(want) if phon(w)]; n = len(phon(ws[0])) if ws else 0; return n > 0 and phon(want)[:n] == phon(heard)[:n]
 def rms_db(y): return float(20 * np.log10(np.sqrt(np.mean(np.square(y))) + 1e-9)) if len(y) else -99.0
 def speech_edges(y, sr, st, en, back=0.5, fwd=0.6, rel=-35.0):

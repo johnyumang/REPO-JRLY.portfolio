@@ -3,6 +3,8 @@ usage: ms.py plan <script_multispeaker.txt | episode_dir> <work_dir>
        ms.py qc <work_dir> [--full]        -> choice.json; prints the chunks that need another take
        ms.py assemble <work_dir> <out_prefix>   -> <out_prefix>.mp3/.wav + <out_prefix>_timings.json
        ms.py verify <work_dir> <out_prefix>     -> re-hears every line of the finished file, <out_prefix>_verify.json
+       ms.py numbers <work_dir> [--all]   -> audit: every chunk whose script has a number (year, age, date, amount): expected vs heard
+                                             in the chosen take, DIFF where they differ (from the qc files already there; no generation)
 Script: one line per speaker turn, `NAME: [tone] text` (a turn may hold several sentences and tone tags; a blank line = new scene).
 Speed mode (default): a chunk gets a second take only when its WORDS are wrong; --full also retries any other failed check."""
 import os, sys, re, json, glob, subprocess, tempfile, numpy as np
@@ -99,6 +101,37 @@ def destray(w, m, text):
     cut = max(0, (runs[0][1] - 2) * hop); out = w[:-4] + 't.wav'
     sf.write(out, np.r_[np.zeros(int(0.05 * sr), np.float32), y[cut:]], sr)
     t = vqc.take_metrics(out, text); json.dump(t, open(out[:-4] + '.json', 'w'), ensure_ascii=False); return out, t
+def renum(m, text):
+    """Re-judge the words from the stored 'heard' with the current vqc rules (numbers compared as values), no new listening:
+    take files written before the number fix said 'years heard as digits' were wrong, and could pick a take with a wrong year."""
+    import vqc
+    import numwords
+    if 'heard' in m: m['edits'], m['first_ok'], m['cmatch'] = vqc.edits(text, m['heard']), vqc.first_ok(text, m['heard']), round(vqc.cmatch(text, m['heard']), 3)
+    m['num_ok'] = not numwords.diff(text, m.get('heard', ''))                  # every number heard as written: ranks above all else but words_ok
+    return m
+def numbers(work, show_all=False):
+    """Audit an already narrated episode: per chunk with a number in its script, the numbers expected and the numbers heard in
+    the chosen take (choice.json, else the best take by the same rule as qc), DIFF where they differ. Reads the take .json files."""
+    import numwords
+    P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')) if os.path.exists(work + '/choice.json') else {}
+    S = {s['i']: s for s in P['sentences']}; bad = 0; n = 0
+    for c in P['chunks']:
+        want = numwords.numbers(c['text'])
+        if not want and not show_all: continue
+        w = CH.get(str(c['id']), {}).get('wav')
+        if not w or not os.path.exists(w[:-4] + '.json'):
+            cands = [x for x in sorted(glob.glob(f"{work}/c{c['id']:03d}_{VP.fname(c['speaker'])}_s*.json"))]
+            if not cands: print('c%03d no take' % c['id']); continue
+            w = cands[0][:-5] + '.wav'
+        m = json.load(open(w[:-4] + '.json')); h = m.get('heard', ''); d = numwords.diff(c['text'], h); n += 1; bad += bool(d)
+        others = [os.path.basename(x)[-7:-5] + ':' + ','.join(map(str, numwords.numbers(json.load(open(x)).get('heard', ''))))
+                  for x in sorted(glob.glob(f"{work}/c{c['id']:03d}_{VP.fname(c['speaker'])}_s*.json")) if x[:-5] + '.wav' != w]
+        txt = ' / '.join(S[i]['text'] for i in c.get('sent_ids', []) if i in S) or c['text']
+        print('%s sent %-8s c%03d %-6s expected %-16s heard %-16s take %s%s | %s' % ('DIFF' if d else 'ok  ', ','.join(map(str, c.get('sent_ids', []))), c['id'], c['speaker'][:6],
+              ','.join(map(str, want)) or '-', ','.join(map(str, numwords.numbers(h))) or '-', os.path.basename(w)[-7:-4],
+              ('  other takes ' + ' '.join(others)) if d and others else '', txt[:110]))
+    print('%d chunks with numbers, %d differ%s' % (n, bad, ' (re-run: ms.py qc, then assemble, to pick takes by the number rule)' if bad else ''))
+    return bad
 def score(m): return 0.40 * m['cmatch'] + 0.25 * m['conf'] + 0.10 * min(m['minconf'], 0.8) / 0.8 + 0.25 * float(np.clip((m['spk'] - 0.80) / 0.15, 0, 1)) - 0.3 * max(0, abs(m['rate'] - 5.85) / 5.85 - 0.15)
 def qc(work, full=False):
     import vqc
@@ -110,15 +143,15 @@ def qc(work, full=False):
         for w in cands:
             j = w[:-4] + '.json'
             if not os.path.exists(j): json.dump(vqc.take_metrics(w, c['text']), open(j, 'w'), ensure_ascii=False)
-            m = json.load(open(j)); m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = checks(m, c, rf0); m['score'] = round(score(m), 4)
+            m = json.load(open(j)); renum(m, c['text']); m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = checks(m, c, rf0); m['score'] = round(score(m), 4)
             print('c%03d %-12s %-4s %s edits %d cm %.2f conf %.2f min %.2f spk %.3f rate %.2f f0 %3.0f %s| %s' % (c['id'], c['speaker'][:12], w[-6:-4], 'OK ' if not m['fail'] else 'BAD', m['edits'], m['cmatch'],
                   m['conf'], m['minconf'], m['spk'], m['rate'], m['f0'] or 0, ','.join(m['fail']) + ' ' if m['fail'] else '', m['heard'][:90]), flush=True)
-            key = lambda q: (words_ok(q), not q['fail'], -q['edits'], q['score'])
+            key = lambda q: (words_ok(q), q['num_ok'], not q['fail'], -q['edits'], q['score'])
             if best is None or key(m) > key(best[1]): best = (w, m)
         if not words_ok(best[1]):   # a stray syllable carried over from the continuation prompt ("But", "Dot"): cut it off at the pause before the line and hear it again
             t = destray(best[0], best[1], c['text'])
             if t:
-                m = t[1]; m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = checks(m, c, rf0); m['score'] = round(score(m), 4)
+                m = renum(t[1], c['text']); m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = checks(m, c, rf0); m['score'] = round(score(m), 4)
                 print('c%03d %-12s %-4s %s stray start cut | %s' % (c['id'], c['speaker'][:12], t[0][-7:-4], 'OK ' if not m['fail'] else 'BAD', m['heard'][:90]), flush=True)
                 if words_ok(m): best = t
         w, m = best; choice[str(c['id'])] = dict(wav=w, ok=not m['fail'], words_ok=words_ok(m), fail=m['fail'], spk=m['spk'], score=m['score'])
@@ -216,4 +249,5 @@ if __name__ == '__main__':
     elif cmd == 'qc': qc(x[0], '--full' in x)
     elif cmd == 'assemble': assemble(x[0], x[1])
     elif cmd == 'verify': verify(x[0], x[1])
+    elif cmd == 'numbers': sys.exit(1 if numbers(x[0], '--all' in x) else 0)
     else: sys.exit(__doc__)
