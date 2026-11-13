@@ -289,17 +289,15 @@ def envelope(x, fps, n_frames):
 
 
 def ebur(path):
-    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', path, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'],
-                       capture_output=True, text=True).stderr.split('Summary')[-1]
-    val = lambda k: float(next(l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)))
-    return val('I:'), val('Peak:')
+    """(integrated LUFS, true peak dBTP) at full precision: soundtrack.ebur, the guard's own measure (not ebur128's 0.1 dB Summary)."""
+    return soundtrack.ebur(path)
 
 
 def guard(path):
     """the two checks of build_anime.py on the finished file: loudness as delivered, and every video frame decodes."""
     i, tp = ebur(path); ok = abs(i - LUFS) <= 0.5 and tp <= TP
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', path], capture_output=True, text=True).stdout.strip())
-    print(f'final MP4: {dur:.3f} s, {i:.1f} LUFS (target {LUFS}, +-0.5), true peak {tp:.1f} dBTP (ceiling {TP})' + ('' if ok else '  -> LOUDNESS OUT OF RANGE'), flush=True)
+    print(f'final MP4: {dur:.3f} s, {i:.2f} LUFS (target {LUFS}, +-0.5), true peak {tp:.2f} dBTP (ceiling {TP})' + ('' if ok else '  -> LOUDNESS OUT OF RANGE'), flush=True)
     d = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-an', '-f', 'null', '-'], capture_output=True, text=True).stderr.strip().splitlines()
     if d: print(f'VIDEO STREAM DAMAGED: {len(d)} decode errors, first: {d[0][:160]}  -> do not publish this file', flush=True); return False
     print('video stream: every frame decodes', flush=True)
@@ -1467,7 +1465,7 @@ def episode(a):
     bad = [x for x, v in ok.items() if not v]
     print(f'{slug}: break {nb:.2f} s (pause {spec["gap"]:.2f} s{", calm" if spec["calm"] else ""}) cut at {at:.3f} s after sentence {k} ({under:.1f} dB under) | '
           f'{os.path.basename(out)} {odur:.3f} s (episode {dur:.3f} + break {nb:.3f} = {want:.3f}), streams {"+".join(kinds)}, '
-          f'{"every frame decodes" if not dec else f"{len(dec)} DECODE ERRORS"}, {I:.1f} LUFS, true peak {tp:.1f} dBTP, break {L["diff"]:+.1f} LU vs the story around it | {"OK" if not bad else "FAILED: " + ", ".join(bad)}', flush=True)
+          f'{"every frame decodes" if not dec else f"{len(dec)} DECODE ERRORS"}, {I:.2f} LUFS, true peak {tp:.2f} dBTP, break {L["diff"]:+.1f} LU vs the story around it | {"OK" if not bad else "FAILED: " + ", ".join(bad)}', flush=True)
     print('look at:'); print('  sheet         ' + sheet_p); print('  before cut    ' + fb); print('  break start   ' + fs_); print('  break middle  ' + fm); print('  after break   ' + fa)
     sys.exit(0 if not bad else 4)
 
