@@ -1,0 +1,24 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 16,
+   "text": "Kathang-isip: ang mundong walang unang pagpatay, ang sanggol, at kami ni Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 4,
+   "text": "Sa ibaba ng bawat marker, maliit na sulat: tiyak, pinagtatalunan, kathang-isip.",
+   "why": "Plot. The heroes' method is written on every marker in the rebuilt world. The ruling names it as a keep."
+  },
+  {
+   "index": 15,
+   "text": "Walang anak si Abel na binanggit sa Bibliya, at sa talatang dalawampu't lima, si Set ang ibang anak na kahalili ni Abel.",
+   "why": "A fact about scripture as written. It already tells the viewer that Abel's baby is not in the Bible, so no re-voice is needed."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Walang anak si Abel na binanggit sa Bibliya, at sa talatang dalawampu't lima, si Set ang ibang anak na kahalili ni Abel. / Kaya ikaw, ka-Indio, i-comment mo: ano ang unang marker na babasahin mo nang malakas?"
+}

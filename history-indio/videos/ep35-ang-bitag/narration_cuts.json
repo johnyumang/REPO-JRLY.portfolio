@@ -1,0 +1,53 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 60,
+   "text": "At totoo ang mga imbestigasyon sa flood control noong 2025, pero bago at imbento ang bitag sa kuwentong ito."
+  },
+  {
+   "index": 61,
+   "text": "Kathang-isip: ang Dalisdis, si Jovy Ladrillo, si Rico Bulan, ang partido ko, ang pagiging senador ko, kami ni Usman, at ang iba pang tauhan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 13,
+   "text": "At sa kuwentong ito, totoo rin ang kasalanan ng Dalisdis: binayaran ito noon para sa mga dikeng hindi kailanman itinayo.",
+   "why": "Borderline, kept. The sentence is plot: the invented firm really is guilty, and only Indio's name is planted (index 15). 'sa kuwentong ito' is a small hedge, not a statement that the story is fiction. Cutting it would lose plot, and a rewrite is not allowed. Now that the caption calls Dalisdis invented, the hedge is no longer needed for safety, but it does no harm."
+  },
+  {
+   "index": 17,
+   "text": "Kilala ng bayan ang galit na ito, dahil dumaan na tayo sa mga imbestigasyon sa flood control noong 2025.",
+   "why": "Statement about the real record; it keeps the real half of cut sentence 60 in the narration."
+  },
+  {
+   "index": 40,
+   "text": "Naalala ko ang Kawikaan, kabanata dalawampu't dalawa, talata isa, sa Ang Dating Biblia.",
+   "why": "A real scripture citation (Proverbs 22:1; index 41 quotes the 1905 text). Indio only remembers it; the series makes no invented link."
+  },
+  {
+   "index": 56,
+   "text": "Grrr, linawin muna natin, par.",
+   "why": "Beat opener. It still introduces the Tiyak (57), Pinagtatalunan (58) and Tiyak din (59) lines, so it is not left hanging."
+  },
+  {
+   "index": 57,
+   "text": "Tiyak: hinatulan si Sakay sa ilalim ng Brigandage Act ng 1902, at binitay sa Bilibid noong 1907.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 58,
+   "text": "Pinagtatalunan: ang taon ng kapanganakan niya at ang eksaktong petsa ng pagsuko.",
+   "why": "History (Pinagtatalunan)."
+  },
+  {
+   "index": 59,
+   "text": "Tiyak din: sa Saligang Batas ng 1987, trenta'y singko ang pinakamababang edad ng senador sa araw ng halalan.",
+   "why": "History (Tiyak)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Tiyak din: sa Saligang Batas ng 1987, trenta'y singko ang pinakamababang edad ng senador sa araw ng halalan. / Kinabukasan, isang subpoena: pagdinig sa Senado, sa susunod na buwan."
+}

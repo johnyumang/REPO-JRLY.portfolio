@@ -20,17 +20,17 @@ I-follow ang History Indio para sa susunod na talon!
 **Description:**
 Season 5, Episode 1 ng History Indio: "Digmaan sa Langit".
 Totoo: sa kuwentong-bayan ng mga Bisaya, nilalamon ng Bakunawa ang buwan kaya may eklipse. Noong 1731, isinulat ni Padre Tomás Ortiz na tuwing eklipse, lumalabas ang mga tao na may kampana at kalampag para ipagtanggol ang buwan. Alamat ng mga Tagalog si Bernardo Carpio, ang higanteng naipit sa kabundukan ng Montalban at dahilan daw ng lindol. Nasa Pahayag 6:12 ang buwan na parang dugo, at nasa Pahayag 12:15 ang tubig mula sa bibig ng dragon; sa Genesis 9:11, ipinangakong hindi na lilipulin ng baha ang lahat ng laman.
-Kuwento ng serye ang gunaw at ang digmaan, hindi doktrina. Kathang-isip sina Indio, Usman, M, Sinag, Nong Doming, ang mga arko, ang pagkapangulo ni Indio, at ang Bakunawa bilang bantay at sakay.
+Kuwento ng serye ang gunaw at ang digmaan, hinango lang sa Pahayag 6:12 at 12:15, hindi doktrina. Kathang-isip sina Indio, Usman, M, Sinag, Nong Doming, ang mga arko, ang pagkapangulo ni Indio, at ang Bakunawa bilang bantay at sakay; kuwentong-bayan ng mga Bisaya ang Bakunawa at alamat ng mga Tagalog si Bernardo Carpio.
 
 #HistoryIndio #Shorts
 
 **Tags:** bakunawa, eklipse, blood moon, bernardo carpio, pahayag 6 12, digmaan sa langit, history indio, indio at usman, pinoy anime
 
 ## TikTok
-Hindi kinakain ng Bakunawa ang buwan. Binabantayan niya. 🌕 Kuwento ng serye ang gunaw (hinango sa Pahayag 6:12, 12:15); kuwentong-bayan ang Bakunawa; kathang-isip ang mga tauhan. #HistoryIndio #Bakunawa #PinoyAnime
+Hindi kinakain ng Bakunawa ang buwan. Binabantayan niya. 🌕 Kuwento ng serye ang gunaw at ang digmaan, hinango lang sa Pahayag 6:12 at 12:15. Kathang-isip sina Indio, Usman, M, Sinag at Nong Doming, at ang Bakunawa bilang bantay; kuwentong-bayan ng mga Bisaya ang Bakunawa at alamat ng mga Tagalog si Bernardo Carpio. #HistoryIndio #Bakunawa #PinoyAnime
 
 ## Instagram
-Ang buwan na parang dugo, at ang ahas na bantay pala. 🌕 Kuwento ng serye ang gunaw; kuwentong-bayan ang Bakunawa at si Bernardo Carpio; kathang-isip ang mga tauhan. #HistoryIndio #Bakunawa #PinoyAnime #DigmaanSaLangit #AlaminNatin
+Ang buwan na parang dugo, at ang ahas na bantay pala. 🌕 Kuwento ng serye ang gunaw at ang digmaan, hinango lang sa Pahayag 6:12 at 12:15. Kathang-isip sina Indio, Usman, M, Sinag at Nong Doming, at ang Bakunawa bilang bantay; kuwentong-bayan ng mga Bisaya ang Bakunawa at alamat ng mga Tagalog si Bernardo Carpio. #HistoryIndio #Bakunawa #PinoyAnime #DigmaanSaLangit #AlaminNatin
 
 ## Pinned comment (sources)
 Mga pinagmulan: Bakunawa, kuwentong-bayan ng mga Bisaya · Tomás Ortiz, Práctica del Ministerio (1731), sa Blair & Robertson vol. 43 (mga kampana at kalampag tuwing eklipse) · Bernardo Carpio, alamat ng mga Tagalog (Montalban) · Pahayag 6:12 at 12:15, Genesis 9:11 (Ang Dating Biblia, 1905). Kuwento ng serye ang gunaw at ang digmaan. Kathang-isip sina Indio, Usman, M, Sinag at Nong Doming.
