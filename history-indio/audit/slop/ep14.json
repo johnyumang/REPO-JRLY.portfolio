@@ -251,9 +251,9 @@
    "what": "The same angry young man is drawn twice on the phone screen, large and small, with an identical face.",
    "where": "phone screen, centre",
    "second_reader": "confirmed",
-   "needs_figma": true,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical frame. close-up of one smartphone lying flat on a dark wooden table at night, its screen showing a single video of one young man talking angrily to the camera, one person only on the screen, a plain row of small red heart shapes along the bottom edge of the screen, no letters, no numbers, no hands, no other people. Present-day Manila.",
-   "third_reader": "redraw rejected (bare face / unscripted close-up girl); old kept until a better one"
+   "third_reader": "second redraw (phone on a table / distant flashes through the gate) chosen at 3x",
+   "fixed": true
   },
   {
    "key": "k47",
@@ -422,9 +422,9 @@
    "what": "A tangle of disembodied hands: the big front camera is held by no hand and other hands overlap the girl's face.",
    "where": "bottom centre and around the girl",
    "second_reader": "confirmed",
-   "needs_figma": true,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical frame. night at the old stone gate of Fort Santiago, Intramuros, Manila: dozens of bright white camera flashes and lens glare bursting from a crowd far away in the distance, the crowd only small blurred silhouettes, nobody close to the camera, no faces, no hands. Present-day Manila at night, detailed background, no dog, no animals.",
-   "third_reader": "redraw rejected (bare face / unscripted close-up girl); old kept until a better one"
+   "third_reader": "second redraw (phone on a table / distant flashes through the gate) chosen at 3x",
+   "fixed": true
   },
   {
    "key": "k100",

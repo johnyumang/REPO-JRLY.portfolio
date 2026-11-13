@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """Character lint for History Indio key prompts: does every character mention carry the canonical cast string?
 
-usage: cast_lint.py [videos/<slug> ...] [--json] [--all] [--cast characters/series_cast.json] [-v]
+usage: cast_lint.py [videos/<slug> ...] [--json] [-v] [--wear-medallion] [--cast characters/series_cast.json]
   no episode named = every videos/ep*/ ; --json = machine output ; -v = also list EXACT mentions.
 Reports, per prompt: every character mention that is not the cast string from characters/series_cast.json (NEAR = other
 words, MISSING = a constant is absent, WRONG = contradicts the cast), the cases a person must decide (NOCANON = the cast
 file has no string for this age or outfit, UNSURE = cannot tell who it is or which outfit, STORY = the prompt says on purpose
-"no tattoos" / "bare neck" where the cast string has them), the "he is alone, no dog, no animals" clause of modern-day
-prompts, characters in plates, and every prompt over 800 characters as make_keys.py sends it (after nv_replace).
-Exit 0 = clean, 1 = something found (gate a redraw on it). cast_fix.py repairs what can be repaired automatically.
-How it decides (the rules cast_fix uses too): see audit/README.md, "Character lint".
+"no tattoos" / "bare neck", the episode draws Indio with a bare neck elsewhere, or M's shot conflicts with her umbrella or
+coat, DOUBLE = the cast string is there but the old description follows it, SECOND = a second description of the same
+character), the "he is alone, no dog, no animals" clause of modern-day prompts ("no dog" alone when the shot has another
+animal or creature), characters in plates, nv_replace entries that rewrite cast strings (NV_REPLACE; NV_STORY when the
+short form drops the medallion), and every prompt over 800 characters as make_keys.py sends it (after nv_replace).
+REF = a back-reference ("Indio pointing" after his description), not counted.
+Exit 0 = clean, 1 = something found (gate a redraw on it), 2 = could not run (bad arguments, broken cast file, an
+unreadable episode file: the other episodes are still linted and listed). cast_fix.py repairs what can be repaired.
+How it decides (the rules cast_fix uses too): see cast_fix.py and audit/README.md, "Character lint".
 """
 import json, os, re, sys, glob, collections
 
@@ -174,10 +179,11 @@ ACCESS = re.compile(r"helmet|\bhat\b|\bcap\b|sunglasses|goggles|gloves|scarf|\bw
                     r"greave|sword|bolo|spear|shield|kalasag|bow\b|arrows?|lens|phone|umbrella|torch|lantern|book|letter|map", re.I)
 HEADW = set('man woman dog boy schoolboy schoolgirl girl filipino filipina indio usman aspin teacher grandfather '
             'grandmother'.split())
-EARW = set('ears ear up pricked flying perked raised upright both floppy two'.split())
+EARW = set('ears ear up pricked flying perked raised upright both floppy two other standing erect'.split())
 SPLIT_BEFORE = set('with wearing in on at by around over under beside behind near from into onto toward towards across through '
                    'against between among amid before after above below beneath outside inside along past up down to for '
-                   'holding while who which as'.split())
+                   'holding while who which as alone together aboard nearby again still now here there overhead ahead '
+                   'close'.split())
 def words(s): return re.findall(r"[a-z0-9][a-z0-9'-]*", s.lower())
 
 def droppable_word(w, char, cw):
@@ -189,6 +195,14 @@ def droppable_word(w, char, cw):
         if c == 'gen' and CLOTHES_RE.search(w) and not ACCESS.search(w): return True
     return False       # an Indio garment that is not in the cast string stays: the shot may show other clothes (a person decides)
 
+ING_NOUN = ING_OK.replace('riding|', '').replace('running shoes|', '').replace('travelling|traveling|', '')
+VERBISH = re.compile(r"(?!(?:" + ING_NOUN + r")$)[a-z'-]+ing|pressed|perched|seated|crouched|hunched|sprawled|tucked|soaked|drenched|"
+                     r"covered|frozen|caught|lit|framed|seen|shown|silhouetted|stands|sits|holds|looks|walks|runs|kneels|reaches|turns|smiles|raises|"
+                     r"points|leans|watches|steps|carries|faces|grips|grins|nods|waves|hugs|stares|peers|lifts|reads|says|"
+                     r"jumps|rides|bows|crouches|leaps|barks|growls|wags|sniffs|lies|rests|waits|bares|lowers|tilts|glares|"
+                     r"whispers|shouts|laughs|cries|is|are|was|has|who|which|while|"
+                     r"(?!(?:curly|early|family|only|belly|holy|jelly|lily|ugly|fly|butterfly|woolly|wooly|silly|hilly|likely|"
+                     r"oily|frilly|lowly|daily|elderly|friendly|lonely|lovely|ghostly|stately|orderly)$)[a-z]{3,}ly")
 def _phrases(p, i):
     """yield (sep_start, phrase_start, phrase_end, text) from position i; stops at . ; : ! ? ( ) and at the end."""
     while i < len(p):
@@ -199,26 +213,69 @@ def _phrases(p, i):
         for t in re.finditer(r"[^\s,.;:!?()\"]+", p[j:]):
             if p[k:j + t.start()].strip(): break                                    # punctuation in between
             w = t.group(0).lower()
-            if toks and (w == 'and' or w in SPLIT_BEFORE): break
+            if toks and (w == 'and' or w in SPLIT_BEFORE or VERBISH.fullmatch(w)): break
             toks.append(w); k = j + t.end()
         if not toks: return
         yield i, j, k, p[j:k]
         i = k
 
+APPEAR = {   # appearance words the cast string does not cover: such a phrase stays where it is and the scan goes on past it
+    'indio': set('clean-shaven shaven smooth face handsome almond-shaped eyes irises eyebrows build body turned up knitted'.split()),
+    'usman': set('body tail curled paws muzzle snout coat fur short sleek'.split()),
+    'm': set('hair straight wavy loose flowing shoulder-length braided braid ponytail bangs fringe pale face eyes slender tall '
+             'slim skin'.split()),
+    'gen': set(),
+}
+TAIL_NOUNS = set('coat umbrella neck kerchief patch ear eyes topknot headband tails medallion cord wrist forearm tattoos tattoo '
+                 'shirt t-shirt jeans slacks sneakers backpack handkerchief hair skin windbreaker sandals trousers tunic '
+                 'camisa cloak sash barong uniform'.split())
+ANTITEXT = set('no logo logos lettering letters text print prints brand brands badge badges patch patches writing words '
+               'anywhere or'.split())
+OTHER_EAR = re.compile(r"(?:,\s*|\s+)(?:and\s+)?(?:with\s+)?(?:the\s+)?other(?:\s+ear)?\s+(?:standing\s+)?(?:up|upright|pricked|erect|raised)\b", re.I)
+REGION_STOP = re.compile(r"[.;:]|\b(?:woman|women|man|men|dog|dogs|boy|girl|people|crowd|Usman|Indio|M)\b")
+
 def desc_tail(p, pos, char, canon):
-    """-> (del_end, aside): the description after the head noun that the cast string replaces ends at del_end; an aside in
-    brackets right after the head that is not pure description ("(not a bulldog, not muscular)") is kept (its span)."""
-    cw = set(words(canon)); i = del_end = pos; aside = None
+    """-> (dels, aside, stop): spans after the head noun (pos) that the cast string makes redundant, an aside in brackets
+    right after the head that is not pure description (kept in place), and the first phrase that ended the description."""
+    cw = set(words(canon)); i = pos; dels, aside, stop = [], None, ''
     m = re.match(r"\s*\(([^()]{1,200})\)", p[pos:])
     if m:
         ws = [w for w in words(m.group(1)) if w not in FUNC]
-        if ws and all(droppable_word(w, char, cw) for w in ws): del_end = i = pos + m.end()
-        else: aside = (pos + m.start() + len(m.group(0)) - len(m.group(0).lstrip()), pos + m.end()); del_end = i = pos + m.end()
+        if ws and all(droppable_word(w, char, cw) for w in ws): dels.append((pos, pos + m.end()))
+        else: aside = (pos + len(m.group(0)) - len(m.group(0).lstrip()), pos + m.end())
+        i = pos + m.end()
+    app = APPEAR.get(char if char in APPEAR else 'gen', set())
     for s0, a, b, text in _phrases(p, i):
         ws = [w for w in words(text) if w not in FUNC]
-        if not ws or any(w in HEADW for w in ws) or not all(droppable_word(w, char, cw) for w in ws): break
-        del_end = b
-    return del_end, aside
+        if not ws or any(w in HEADW for w in ws): stop = text; break
+        if all(droppable_word(w, char, cw) for w in ws): dels.append((s0, b)); i = b; continue
+        if all(droppable_word(w, char, cw) or w in app or w in ANTITEXT for w in ws): i = b; continue   # kept, scan goes on
+        # "in a long dark coat safe behind him": the description ends on a noun of the cast string, the scene follows
+        toks = list(re.finditer(r"\S+", text)); k = 0
+        for j, tk in enumerate(toks):
+            tw = words(tk.group(0))
+            if not tw or not all(droppable_word(w, char, cw) for w in tw): break
+            if tw[-1] in TAIL_NOUNS and tw[-1] in cw: k = j + 1
+        if k >= 2 and any(w not in FUNC for x in toks[:k] for w in words(x.group(0))):
+            dels.append((s0, a + toks[k - 1].end())); i = a + toks[k - 1].end()
+        stop = p[i:b]; break
+    # further on in the same clause: a whole comma segment that only repeats the constants (", a round bronze medallion at
+    # her neck") is dropped too, since the cast string now carries it
+    mk = AFTER_MARK.get(char)
+    if mk:
+        rs = REGION_STOP.search(p, i); r_end = rs.start() if rs else len(p)
+        for sg in re.finditer(r",\s*([^,]*)", p[i:r_end]):
+            a0, seg = i + sg.start(), sg.group(1).strip()
+            if seg != sg.group(1).rstrip().lstrip() or not seg: continue
+            ws = [w for w in words(seg) if w not in FUNC]
+            if tattoo_count(seg) is not None and tattoo_count(canon) is None: continue     # the count the string lacks stays
+            if ws and mk.search(seg) and all(droppable_word(w, char, cw) for w in ws) and not any(w in HEADW for w in ws):
+                dels.append((a0, a0 + len(sg.group(0).rstrip())))
+    merged = []
+    for a, b in sorted(dels):
+        if merged and a <= merged[-1][1]: merged[-1] = (merged[-1][0], max(b, merged[-1][1]))
+        else: merged.append((a, b))
+    return merged, aside, stop
 
 def dropped_words(old, new, chars, canons):
     """content words of `old` that are gone from `new` and are not description words of an edited character."""
@@ -235,16 +292,25 @@ def dropped_words(old, new, chars, canons):
 
 # after a cast string: words that show the old description is still there (the string was pasted beside it, not instead)
 AFTER_MARK = {'indio': re.compile(r"topknot|headband|tattoo|handkerchief|medallion (?:on a cord|necklace|around his neck|at his neck)", re.I),
-              'usman': re.compile(r"chest patch|kerchief|folded ear|ear folded|ears? (?:folded|upright)", re.I),
+              'usman': re.compile(r"chest patch|kerchief", re.I),     # "his left ear folded down" only says which ear: allowed
               'm': re.compile(r"umbrella|long dark coat|medallion at her neck", re.I)}
 M_BUSY = re.compile(r"\b(?:holding|holds|carrying|carries|clutching|clutches|cradling|cradles|lifting|lifts|raising|raises|"
                     r"offering|offers|hands? (?:him|her|over))\b", re.I)
 M_CLOTHES = re.compile(r"\b(?:coat|cloak|skirt|dress|kimono|robe|gown|blouse|uniform|baro|saya|shawl|veil|hood)\b", re.I)
+def marks_only(reg, canon):
+    """the region with what is not a repeat blanked: negations ("no tattoos") and a tattoo count the cast string lacks."""
+    reg = re.sub(r"\b(?:no|without(?: any)?)\s+(?:[\w-]+\s+)?(?:tattoos?|headband|medallion|topknot|kerchief)\b", ' ', reg, flags=re.I)
+    if tattoo_count(canon) is None:
+        reg = re.sub(r"\b(?:one|two|three|four|five|six|\d+)\s+(?:[\w-]+\s+){0,3}?tattoos?\b", ' ', reg, flags=re.I)
+    return reg
+
 def region_after(p, at):
     """text after position `at` up to the end of the clause about this character (next . ; or another character)."""
     seg = p[at:at + 220]
     m = re.search(r"[.;]|\b(?:woman|women|man|men|dog|dogs|boy|girl|Usman|Indio|M)\b", seg)
-    return seg[:m.start()] if m else seg
+    seg = seg[:m.start()] if m else seg
+    v = next((w for w in re.finditer(r"[A-Za-z'-]+", seg) if VERBISH.fullmatch(w.group(0).lower())), None)
+    return seg[:v.start()] if v else seg                     # after the first action word it is the scene, not the look
 
 PRESENT = re.compile(r'\b(?:present[- ]day|today|modern(?! Japanese| TV| anime)|smartphones?|phones?|laptops?|jeepneys?|motorcycles?|'
                      r'sidecar|cars?|offices?|elevators?|hotel|yacht|billboards?|TV|video call|condo|apartment|parking|senat\w*|campaign|'
@@ -488,6 +554,14 @@ def mention_variant(span, era, p):
     if era == 'present': return 'modern'
     return None
 
+def _clothes_part(s):
+    """the leading part of a segment that names clothes: "loose white collarless shirt with eyes closed" -> the shirt."""
+    out, k = [], 0
+    for s0, a, b, text in _phrases(s, 0):
+        if not (CLOTHES_RE.search(text) and not ACCESS.search(text)): break
+        out.append(s[k:b] if out else text); k = b
+    return ''.join(out).strip()
+
 def clothes_of(span):
     segs = [s.strip() for s in re.split(r",\s*|\s+and\s+", span)]
     keep = []
@@ -495,7 +569,8 @@ def clothes_of(span):
         s = re.sub(r'^(?:wearing|with|in)\s+', '', s)
         s = re.sub(r'^.*?\b(?:man|boy)\s+(?:wearing|with|in)\s+', '', s)
         if CLOTHES_RE.search(s) and not re.search(r'headband|medallion|tattoo|handkerchief|topknot|\bhair\b|\bskin\b|necklace|\bneck\b|forearm', s, re.I):
-            keep.append(s)
+            s = _clothes_part(s)
+            if s: keep.append(s)
     return ', '.join(keep)
 
 def noun_key(clothes):
@@ -552,7 +627,7 @@ class EpisodeCanon:
     def _valid(self, s):
         if not ('headband' in s and 'medallion' in s and 'tattoo' in s): return False
         c = tattoo_count(s)
-        if c is None: return True
+        if c is None: return self.ep > TATTOO_COUNT_UNTIL          # up to ep06 the string must say how many tattoos
         return self.ep <= TATTOO_COUNT_UNTIL and c == self.ep - 1
 
     def _modern(self, sp):
@@ -637,6 +712,9 @@ def classify(mm, p, canon_name, canon, ep, era, ecanon=None):
     """-> (cls, detail). cls: EXACT NEAR MISSING WRONG STORY DOUBLE"""
     sp = p[mm.start:mm.end]; low = sp.lower(); b = body(canon)
     exact = not mm.bare and p.startswith(b, mm.vstart)
+    if not exact and not mm.bare and re.search(r'\ba [aeiou]', b):          # the cast's "a orange" written as "an orange"
+        b2 = re.sub(r'\ba ([aeiou])', r'an \1', b)
+        if p.startswith(b2, mm.vstart): exact, b = True, b2
     consts = {'indio': INDIO_CONST, 'usman': USMAN_CONST, 'm': M_CONST}.get(mm.char, [])
     tail_end = _consume(p, mm.vstart + len(b), INDIO_V if mm.char == 'indio' else USMAN_V if mm.char == 'usman' else M_V, first_with=False) if exact else mm.end
     whole = p[mm.start:tail_end].lower()
@@ -672,7 +750,7 @@ def classify(mm, p, canon_name, canon, ep, era, ecanon=None):
         if era == 'present' and not JUMP.search(p) and ep < NODOG_UNTIL: wrong.append('Usman in a present-day scene (he exists only in a jump and in the past)')
     if exact and not wrong:
         mk = AFTER_MARK.get(mm.char)
-        reg = region_after(p, mm.vstart + len(b))
+        reg = marks_only(region_after(p, mm.vstart + len(b)), canon)
         if mk and mk.search(reg):
             return 'DOUBLE', f'{canon_name} is there, but the old description follows it ("{reg.strip()[:90]}"): the engine gets the character twice; a person merges them'
         return 'EXACT', canon_name
@@ -735,9 +813,13 @@ def nv_status(K, items):
     out = {}
     for k in char_nv_entries(K):
         v = K['nv_replace'][k]
+        # an entry that says "bare neck" (key or value) or changes M's medallion is the episode's record of a story choice:
+        # kept even when no prompt uses it now, so the next run still knows (removing it would let cast_fix add the medallion)
+        if NECK_RX.search(v) or NECK_RX.search(k):
+            out[k] = ('story', 'Indio with a bare neck (no medallion)'); continue
         if not any(k in r for r in raw): out[k] = ('dead', 'no prompt contains it'); continue
-        if (NECK_RX.search(v) and not NECK_RX.search(k)) or 'crescent' in v or ('Filipina woman' in k and 'medallion' in k and 'medallion' not in v):
-            out[k] = ('story', 'the short form drops or changes the medallion'); continue
+        if 'crescent' in v or ('Filipina woman' in k and 'medallion' in k and 'medallion' not in v):
+            out[k] = ('story', "the short form changes M's medallion"); continue
         out[k] = ('plain', 'short form of a cast string')
     return out
 
