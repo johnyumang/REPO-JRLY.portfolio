@@ -80,6 +80,23 @@ PALETTES = {   # a, b: the two sunburst tones; dot: halftone; accent: emphasis w
     'leaf': dict(a=(150, 222, 96), b=(104, 192, 74), dot=(74, 160, 62), accent=(255, 226, 0), sticker=(22, 104, 48),
                  title=(255, 240, 110), bar=(255, 140, 20), ribbon=(22, 104, 48), src=(18, 60, 20)),
 }
+# "calm": true (a grave episode) draws the DUSK look in the bold layout: a night-blue to indigo ground, a soft vignette, one
+# faint warm glow behind the subject, no rays, dots or sparkles; muted gold and cream type; a fade up from black and down to
+# black. The palette key only tints the small accents (emphasis words, the label ribbon). Caption plates stay light with
+# dark words (at least 7:1).
+DUSK = dict(top=(9, 14, 38), bottom=(38, 28, 82), floor=(20, 16, 46), glow=(255, 168, 92), title=(228, 196, 128), sub=(238, 228, 206),
+            sticker=(30, 28, 66), edge=(176, 150, 104), plate=(244, 238, 226), bar=(112, 100, 146), bar_end=(170, 136, 92),
+            card_edge=(176, 150, 104, 200), card_text=(238, 228, 206), shadow=INK)
+DUSK_TINT = {   # accent: emphasis words on the light plate; accent_ink: on the dark pill; ribbon: the label band
+    'sun':  dict(accent=(132, 58, 18), accent_ink=(240, 180, 104), ribbon=(112, 70, 40)),
+    'sea':  dict(accent=(18, 82, 104), accent_ink=(132, 200, 212), ribbon=(30, 78, 98)),
+    'leaf': dict(accent=(40, 92, 46), accent_ink=(164, 208, 144), ribbon=(46, 88, 54)),
+}
+DUSK_FADE = 0.30                                                       # s of fade up from black and down to black (9 frames at 30 fps)
+
+
+def dusk_palette(key):
+    p = dict(PALETTES.get(key, PALETTES['sun'])); p.update(DUSK); p.update(DUSK_TINT.get(key, DUSK_TINT['sun'])); return p
 # animation limits (the extents below are computed from these, so the layout check is exact)
 GROW, SHRINK, BREATH, STRETCH, BOUNCE = 1.08, 0.94, 0.02, 0.05, 0.06   # chibi: speaking size, quiet size, idle, loudness
 POP, WOB = 1.12, 5.0                                                     # subject / title / label pop overshoot, wobble deg
@@ -208,7 +225,8 @@ def whoosh(d=0.55, seed=7):
     return np.stack([m * np.cos(pan * np.pi / 2), m * np.sin(pan * np.pi / 2)], 1)          # sweeps left to right
 
 
-def bed(dur, bpm=104, seed=3):
+def bed(dur, bpm=104, seed=3, soft=False):
+    """soft (calm breaks): no hi-hat (the brightest part) and a lighter kick, so the voices carry the break."""
     n = int(round(dur * SR)); out = np.zeros(n, np.float32); rng = np.random.default_rng(seed); beat = 60 / bpm
     kn = int(0.16 * SR); kt = np.arange(kn) / SR
     kick = np.sin(2 * np.pi * (55 * kt + 60 * (1 - np.exp(-kt / 0.03)) * 0.03)) * np.exp(-kt / 0.07)
@@ -219,10 +237,10 @@ def bed(dur, bpm=104, seed=3):
     while t < dur:
         i = int(t * SR)
         if k % 2 == 0:
-            seg = kick[:max(0, min(kn, n - i))]; out[i:i + len(seg)] += 0.9 * seg
+            seg = kick[:max(0, min(kn, n - i))]; out[i:i + len(seg)] += (0.5 if soft else 0.9) * seg
             f = notes[(k // 2) % 4]; pl = (np.sin(2 * np.pi * f * pt) + 0.3 * np.sin(4 * np.pi * f * pt)) * np.exp(-pt / 0.12)
             seg = pl[:max(0, min(pn, n - i))]; out[i:i + len(seg)] += 0.35 * seg
-        seg = hat[:max(0, min(hn, n - i))]; out[i:i + len(seg)] += (0.30 if k % 2 else 0.16) * seg
+        if not soft: seg = hat[:max(0, min(hn, n - i))]; out[i:i + len(seg)] += (0.30 if k % 2 else 0.16) * seg
         k += 1; t += beat / 2
     f = np.minimum(1, np.minimum(np.arange(n) / (0.3 * SR), (n - np.arange(n)) / (0.4 * SR)))
     return out * f
