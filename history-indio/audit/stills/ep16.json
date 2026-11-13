@@ -11,7 +11,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "Usman is missing entirely; instead a second Indio-like young man with a dark-red topknot stands beside Indio, so the hero reads as drawn twice."
+   "what": "Usman is missing entirely; instead a second Indio-like young man with a dark-red topknot stands beside Indio, so the hero reads as drawn twice.",
+   "fixed": true
   },
   {
    "still": "full/money_trail.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "The left half is split into two stacked comic panels by a hard horizontal border behind Indio."
+   "what": "The left half is split into two stacked comic panels by a hard horizontal border behind Indio.",
+   "fixed": true
   },
   {
    "still": "full/money_trail.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Flying banknotes/receipts down the left and top right carry large pseudo-text glyphs like 'UUI' and '0I0'."
+   "what": "Flying banknotes/receipts down the left and top right carry large pseudo-text glyphs like 'UUI' and '0I0'.",
+   "fixed": true
   },
   {
    "still": "full/one_word.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "A village scene is cut into the lower half of the close-up face as a collage inset, with a camera lens pasted over the mouth."
+   "what": "A village scene is cut into the lower half of the close-up face as a collage inset, with a camera lens pasted over the mouth.",
+   "fixed": true
   },
   {
    "still": "full/notebook.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The notebook cover held in the centre has three lines of glowing scribbled pseudo-handwriting plus glyphs on the jar emblem."
+   "what": "The notebook cover held in the centre has three lines of glowing scribbled pseudo-handwriting plus glyphs on the jar emblem.",
+   "fixed": true
   },
   {
    "still": "full/notebook.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio has no topknot and wears a blue collared shirt with no windbreaker or medallion."
+   "what": "Indio has no topknot and wears a blue collared shirt with no windbreaker or medallion.",
+   "fixed": true
   },
   {
    "still": "full/salamat_light.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The glowing medallion in the centre of the frame is stamped with readable-looking pseudo-characters."
+   "what": "The glowing medallion in the centre of the frame is stamped with readable-looking pseudo-characters.",
+   "fixed": true
   },
   {
    "still": "full/fair_disputed.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "A large glowing question mark floats above the head and the open book on the desk is filled with rows of pseudo-text, with a scribble on the right page."
+   "what": "A large glowing question mark floats above the head and the open book on the desk is filled with rows of pseudo-text, with a scribble on the right page.",
+   "fixed": true
   },
   {
    "still": "full/fair_disputed.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio has no topknot and wears a plain blue shirt, no windbreaker or medallion."
+   "what": "Indio has no topknot and wears a plain blue shirt, no windbreaker or medallion.",
+   "fixed": true
   },
   {
    "still": "full/bow_reveal.jpg",
@@ -92,7 +101,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio is drawn with dark-red hair and a black T-shirt, no headband, shirt or medallion."
+   "what": "Indio is drawn with dark-red hair and a black T-shirt, no headband, shirt or medallion.",
+   "fixed": true
   },
   {
    "still": "full/arrow_light.jpg",
@@ -101,7 +111,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio has dark-red/maroon hair and a grey T-shirt, no headband, shirt or medallion."
+   "what": "Indio has dark-red/maroon hair and a grey T-shirt, no headband, shirt or medallion.",
+   "fixed": true
   },
   {
    "still": "full/usman_lick.jpg",
@@ -110,7 +121,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio has no topknot and wears a plain black T-shirt with no medallion."
+   "what": "Indio has no topknot and wears a plain black T-shirt with no medallion.",
+   "fixed": true
   },
   {
    "still": "full/usman_sniff.jpg",
@@ -119,7 +131,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio at right has no topknot and a grey shirt; Usman has both ears upright instead of one folded."
+   "what": "Indio at right has no topknot and a grey shirt; Usman has both ears upright instead of one folded.",
+   "fixed": true
   },
   {
    "still": "full/question.jpg",
@@ -128,7 +141,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio wears a black headband and black T-shirt instead of either outfit, no medallion."
+   "what": "Indio wears a black headband and black T-shirt instead of either outfit, no medallion.",
+   "fixed": true
   },
   {
    "still": "full/teahouse.jpg",
@@ -390,6 +404,39 @@
    "type": "writing",
    "must_fix": false,
    "what": "The jar M holds at bottom right has a label with small pseudo-text."
+  },
+  {
+   "still": "full/m_names.jpg",
+   "shots": [
+    38
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A bear stands in the canal where the script has the kappa (turtle-like creature with a water dish on its head).",
+   "added": "conductor",
+   "fixed": true
+  },
+  {
+   "still": "full/execution_far.jpg",
+   "shots": [
+    34
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The 1588 execution plaza seen in the lens has modern stadium floodlights and modern uniforms.",
+   "added": "conductor",
+   "fixed": true
+  },
+  {
+   "still": "full/fox_far.jpg",
+   "shots": [
+    61
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Indio walks holding hands with the fox woman, where the script has M only seeing her across the street.",
+   "added": "conductor",
+   "fixed": true
   }
  ]
 }
