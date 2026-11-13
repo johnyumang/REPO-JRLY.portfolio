@@ -139,11 +139,12 @@ paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 200))]
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
-    cfg = FX.get(str(i), {}); mv = cfg.get('move', MOVES[i % len(MOVES)]); fx = list(cfg.get('fx', []))
+    sid = s.get('id', i)                                                                     # the sentence's own index (timings made with a narration cut skip some)
+    cfg = FX.get(str(sid), {}); mv = cfg.get('move', MOVES[sid % len(MOVES)]); fx = list(cfg.get('fx', []))
     if 'punch' in fx or 'shake' in fx: fx += [f for f in ('speedlines', 'impact') if f not in fx]      # action beats get the full anime treatment
     if cfg.get('depth') == 'strong' or mv in depth3d.MOVES3D:                                # 3D perspective (opt-in): layered depth camera, see depth3d.py
         fx += ['3d'] + (['dof:' + cfg['dof']] if cfg.get('dof') in ('far', 'near') else []) + (['rack:far'] if cfg.get('focus_to') == 'far' else [])
-    i = cfg.get('key', i)                                                                    # reuse another line's keyframe
+    i = cfg.get('key', sid)                                                                  # reuse another line's keyframe
     if cfg.get('clip'):                                                                      # a ready-made moving clip (e.g. a Blender action shot) plays for this line
         shots.append((i, start, end, 'hold', fx, 1.0, (0.5, 0.5), os.path.join(vdir, cfg['clip']))); continue
     if cfg.get('keys'):                                                                      # montage: several keyframes inside one line (cold open)

@@ -284,7 +284,7 @@ def ebu(x, sr):
     import soundfile as sf
     sf.write(FI, x, sr, subtype='FLOAT'); o = subprocess.run(['ffmpeg', '-nostats', '-i', FI, '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
     o = o[o.rindex('Summary:'):]; g = lambda k: float(o.split(k)[1].split()[0]); return g('I:'), g('LRA:'), g('Peak:')
-def assemble(work, outp):
+def assemble(work, outp, cuts=None):
     """Same master as assemble.py (per-tone level, slow-down of rushed takes, -17.4 LUFS, true peak under -1.2 dBFS). The match EQ
     to the user's recording is applied to Indio's lines only, so the designed voices keep their own colour."""
     import soundfile as sf, librosa, scipy.signal as sg, vqc
@@ -292,7 +292,18 @@ def assemble(work, outp):
     LEVEL, LDEF = VP.PROFILE['level_db'], VP.PROFILE['level_default_db']; TARGET, TP_MAX = VP.PROFILE['target_lufs'], -1.2; SR = 48000
     import leadtrim
     segs = []; tim = {}; rows = []; ntrim = 0
-    for c in P['chunks']:
+    drop = set()                                                                    # narration_cuts.json (13 Nov ruling): sentences left out of the narration
+    if cuts:
+        nw = lambda t: ' '.join(vqc.norm_words(t))
+        for e in json.load(open(cuts)).get('cut', []):
+            i = e['index']
+            if i >= len(S) or nw(S[i]['text']) != nw(e['text']): sys.exit('cut %d does not match the plan: %r' % (i, e['text'][:60]))
+            drop.add(i)
+        part = [c['id'] for c in P['chunks'] if drop & set(c['sent_ids']) and not set(c['sent_ids']) <= drop]
+        if part: sys.exit('cut splits chunk(s) %s: re-plan them first' % part)
+        print('cut: sentences %s left out' % sorted(drop))
+    keep = [c for c in P['chunks'] if not set(c['sent_ids']) <= drop]
+    for c in keep:
         ch = CH.get(str(c['id']))
         if not ch: sys.exit('chunk %d has no take: run gen_ms.py and ms.py qc first' % c['id'])
         m = json.load(open(ch['wav'][:-4] + '.json')); y, sr = sf.read(ch['wav'], dtype='float32'); assert sr == SR
@@ -317,7 +328,7 @@ def assemble(work, outp):
             n = len(vqc.norm_words(S[si]['say'])); ws = W[j:j + n]; j += n; a0, a1 = (ws[0][1] - st) / k, (ws[-1][2] - st) / k
             a0 = 0.0 if not offs else min(a0, offs[-1][2] + GAP_SENT)   # chunk's first sentence starts with its audio (the aligner places a leading word late); later ones no later than previous end + pause
             offs.append((si, a0, a1))
-        nxt = P['chunks'][c['id'] + 1] if c['id'] + 1 < len(P['chunks']) else None
+        k_ = keep.index(c); nxt = keep[k_ + 1] if k_ + 1 < len(keep) else None      # the next chunk that is spoken (a cut chunk leaves no gap of its own)
         gap = 0.0 if nxt is None else (GAP_SCENE if nxt['para'] != c['para'] else GAP_TURN if nxt['turn'] != c['turn'] else GAP_SENT) + 0.03 * (((c['id'] * 37) % 5) - 2) / 2
         if nxt is not None: gap = max(gap, S[c['sent_ids'][-1]].get('pause') or 0)
         segs.append(dict(c=c, y=seg, offs=offs, gap=gap)); rows.append((c['id'], c['speaker'], os.path.basename(ch['wav'])[-6:-4], m['rate'], round(k, 3), round(g, 1)))
@@ -349,7 +360,7 @@ def assemble(work, outp):
         I, L, TP = ebu(librosa.load(outp + '.mp3', sr=sr, mono=True)[0], sr); print('mp3: %.2f LUFS, LRA %.1f LU, true peak %.2f dBFS' % (I, L, TP))
         if abs(I - TARGET) <= 0.1: break
         gdb += TARGET - I; y = master(y0, gdb)
-    T = [{'text': S[i]['text'], 'start': round(tim[i][0], 3), 'end': round(tim[i][1], 3), 'style': S[i]['style'], 'speaker': S[i]['speaker']} for i in sorted(tim)]
+    T = [{'id': i, 'text': S[i]['text'], 'start': round(tim[i][0], 3), 'end': round(tim[i][1], 3), 'style': S[i]['style'], 'speaker': S[i]['speaker']} for i in sorted(tim)]
     json.dump(T, open(outp + '_timings.json', 'w'), ensure_ascii=False, indent=1)
     print('stray-sound trims: %d of %d chunks' % (ntrim, len(rows)))
     print('chunks:', rows); print('assembled %d chunks, %d sentences, %.1f s -> %s.mp3' % (len(rows), len(T), len(y) / sr, outp))
@@ -373,7 +384,7 @@ if __name__ == '__main__':
     cmd = sys.argv[1]; x = sys.argv[2:]
     if cmd == 'plan': plan(x[0], x[1])
     elif cmd == 'qc': qc(x[0], '--full' in x)
-    elif cmd == 'assemble': assemble(x[0], x[1])
+    elif cmd == 'assemble': assemble(x[0], x[1], x[x.index('--cuts') + 1] if '--cuts' in x else None)
     elif cmd == 'verify': verify(x[0], x[1])
     elif cmd == 'fixstarts': sys.exit(1 if fixstarts(x[0], int(x[x.index('--max') + 1]) if '--max' in x else 3, '--leadin' in x) else 0)
     elif cmd == 'numbers': sys.exit(1 if numbers(x[0], '--all' in x) else 0)
