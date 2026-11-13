@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Chibi trivia break ("PATALASTAS NI USMAN"): a 18-23 s joke-commercial interruption with one true, surprising fact
+"""Chibi trivia break ("PATALASTAS NI USMAN"): an about 12 to 20 s joke-commercial interruption with one true, surprising fact
 about the Philippines, told by chibi Indio and chibi Usman, cut into an episode at its best-retention point.
 numpy + Pillow + soundfile + ffmpeg only; no network.
 
@@ -38,7 +38,7 @@ the cut itself must be (else refused; --force to override): music under the narr
 episode: the whole job for one episode. Spec from videos/<slug>/trivia_break.json (title, subtitle, palette, sprites from
 trivia/sprites, the sticker trivia/stickers/epNN.png with label_onscreen from line 1 on, the lines with the wavs that
 trivia_voice.py wrote into --voice, source_onscreen, countdown "babalik ang kuwento", "calm" when "grave": true); the pause
-between lines starts at 0.22 s (or the file's "gap") and widens up to 0.40 s so the break lasts 18-23 s (audio is never sped
+between lines starts at 0.22 s (or the file's "gap") and widens up to 0.40 s so the break lasts 12-24 s (audio is never sped
 up; it says so when still short). Cut: the silent gap after sentence insert_after_sentence in the CURRENT timings.json, at the
 frame whose 40 ms of the video's own audio is quietest (among frames whose 120 ms, the splice fades, is also 12 dB
 down, when there are any); refused (exit 2) unless that is 12 dB under the episode average.
@@ -435,7 +435,7 @@ def make_sound(spec, P, fps):
     voices = [read_audio(P(l['wav'])) for l in lines]; starts = []; t = LEAD
     for i, v in enumerate(voices): starts.append(t); t += len(v) / SR + (gap if i + 1 < len(voices) else 0)
     T = t + TAIL; N = round(T * fps); T = N / fps; n = int(round(T * SR))
-    print(f'break: {T:.2f} s, {N} frames, {len(lines)} lines' + ('' if 18 <= T <= 23 else '  (WARNING: the format is 18 to 23 s)'), flush=True)
+    print(f'break: {T:.2f} s, {N} frames, {len(lines)} lines' + ('' if 12 <= T <= 24 else '  (WARNING: the format is about 12 to 20 s; outside 12-24 s)'), flush=True)
     vo = np.zeros(n, np.float32)
     for s, v in zip(starts, voices): i = int(s * SR); vo[i:i + len(v)] += v[:n - i]
     rv = gated_rms(vo); db = lambda x: 20 * np.log10(max(x, 1e-9))

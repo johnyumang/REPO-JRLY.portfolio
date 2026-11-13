@@ -1,6 +1,6 @@
 # Trivia breaks: "PATALASTAS NI USMAN"
 
-Every episode from Episode 3 to Episode 50 has one short joke break of 18 to 23 seconds. Chibi Indio and chibi Usman stop the story and tell one surprising, true fact about the Philippines, then go back to the story.
+Every episode from Episode 3 to Episode 50 has one short joke break of about 12 to 20 seconds. Chibi Indio and chibi Usman stop the story and tell one surprising, true fact about the Philippines, then go back to the story.
 
 - On-screen title: **PATALASTAS NI USMAN**, with a small second line, *trivia lang, walang bayad*.
 - `pool.json` holds the facts. Each `videos/<slug>/trivia_break.json` says which fact an episode uses, its lines, and where the break goes.
