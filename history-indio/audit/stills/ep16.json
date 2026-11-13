@@ -1,0 +1,395 @@
+{
+ "episode": 16,
+ "audited_by": "render-worker-ep15",
+ "stills_looked_at": 85,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/usman_hug.jpg",
+   "shots": [
+    17
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Usman is missing entirely; instead a second Indio-like young man with a dark-red topknot stands beside Indio, so the hero reads as drawn twice."
+  },
+  {
+   "still": "full/money_trail.jpg",
+   "shots": [
+    59
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The left half is split into two stacked comic panels by a hard horizontal border behind Indio."
+  },
+  {
+   "still": "full/money_trail.jpg",
+   "shots": [
+    59
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Flying banknotes/receipts down the left and top right carry large pseudo-text glyphs like 'UUI' and '0I0'."
+  },
+  {
+   "still": "full/one_word.jpg",
+   "shots": [
+    35
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "A village scene is cut into the lower half of the close-up face as a collage inset, with a camera lens pasted over the mouth."
+  },
+  {
+   "still": "full/notebook.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The notebook cover held in the centre has three lines of glowing scribbled pseudo-handwriting plus glyphs on the jar emblem."
+  },
+  {
+   "still": "full/notebook.jpg",
+   "shots": [
+    10
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot and wears a blue collared shirt with no windbreaker or medallion."
+  },
+  {
+   "still": "full/salamat_light.jpg",
+   "shots": [
+    49
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The glowing medallion in the centre of the frame is stamped with readable-looking pseudo-characters."
+  },
+  {
+   "still": "full/fair_disputed.jpg",
+   "shots": [
+    67
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "A large glowing question mark floats above the head and the open book on the desk is filled with rows of pseudo-text, with a scribble on the right page."
+  },
+  {
+   "still": "full/fair_disputed.jpg",
+   "shots": [
+    67
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot and wears a plain blue shirt, no windbreaker or medallion."
+  },
+  {
+   "still": "full/bow_reveal.jpg",
+   "shots": [
+    48
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is drawn with dark-red hair and a black T-shirt, no headband, shirt or medallion."
+  },
+  {
+   "still": "full/arrow_light.jpg",
+   "shots": [
+    52
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has dark-red/maroon hair and a grey T-shirt, no headband, shirt or medallion."
+  },
+  {
+   "still": "full/usman_lick.jpg",
+   "shots": [
+    15
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot and wears a plain black T-shirt with no medallion."
+  },
+  {
+   "still": "full/usman_sniff.jpg",
+   "shots": [
+    16
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio at right has no topknot and a grey shirt; Usman has both ears upright instead of one folded."
+  },
+  {
+   "still": "full/question.jpg",
+   "shots": [
+    27
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a black headband and black T-shirt instead of either outfit, no medallion."
+  },
+  {
+   "still": "full/teahouse.jpg",
+   "shots": [
+    4
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/m_says.jpg",
+   "shots": [
+    6
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black jacket with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/fox_reflection.jpg",
+   "shots": [
+    8
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/indio_guilt.jpg",
+   "shots": [
+    9
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/daianji.jpg",
+   "shots": [
+    11
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/read_sign.jpg",
+   "shots": [
+    12
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a navy jacket with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/jump_light.jpg",
+   "shots": [
+    13
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/temple_gate.jpg",
+   "shots": [
+    54
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/tubal_offer.jpg",
+   "shots": [
+    57
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/money_trail.jpg",
+   "shots": [
+    59
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/vanish.jpg",
+   "shots": [
+    60
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/fox_far.jpg",
+   "shots": [
+    61
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo with a red neckerchief with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/fair_growl.jpg",
+   "shots": [
+    64
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo and black trousers with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/fair_fiction.jpg",
+   "shots": [
+    69
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/question_end.jpg",
+   "shots": [
+    74
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/follow.jpg",
+   "shots": [
+    76
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a white polo only with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/bow_offer.jpg",
+   "shots": [
+    43
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a open black jacket with no orange windbreaker and no bronze medallion."
+  },
+  {
+   "still": "full/port_walk.jpg",
+   "shots": [
+    19
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has the red headband but wears a grey Western suit with patterned trim and no medallion instead of the off-white collarless shirt."
+  },
+  {
+   "still": "full/witness.jpg",
+   "shots": [
+    45
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has the red headband but wears a grey Western suit and no medallion instead of the off-white collarless shirt."
+  },
+  {
+   "still": "full/pulled_under.jpg",
+   "shots": [
+    39
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has the red headband but wears a khaki shirt and trousers with tattoos and no medallion instead of the off-white collarless shirt."
+  },
+  {
+   "still": "full/finger_lips.jpg",
+   "shots": [
+    50
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has the red headband but wears a grey modern button shirt and no medallion instead of the off-white collarless shirt."
+  },
+  {
+   "still": "full/unseen.jpg",
+   "shots": [
+    51
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has the red headband but wears a khaki modern button shirt and no medallion instead of the off-white collarless shirt."
+  },
+  {
+   "still": "full/usman_leap.jpg",
+   "shots": [
+    14
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright instead of one folded ear."
+  },
+  {
+   "still": "full/usman_joke.jpg",
+   "shots": [
+    26
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright instead of one folded ear."
+  },
+  {
+   "still": "full/usman_joke.jpg",
+   "shots": [
+    26
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small stamp/signature-like seal sits in the bottom-right corner."
+  },
+  {
+   "still": "full/usman_fade.jpg",
+   "shots": [
+    53
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Carved pseudo-letters are visible on the wooden wall behind Usman's left ear."
+  },
+  {
+   "still": "full/silent.jpg",
+   "shots": [
+    63
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The rim of the glowing coin in the hand carries a ring of pseudo-text."
+  },
+  {
+   "still": "full/question_end.jpg",
+   "shots": [
+    74
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing coin in Indio's hands shows pseudo-text on its face."
+  },
+  {
+   "still": "full/m_story.jpg",
+   "shots": [
+    25
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The jar M holds at bottom right has a label with small pseudo-text."
+  }
+ ]
+}
