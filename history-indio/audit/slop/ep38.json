@@ -1,6 +1,6 @@
 {
  "episode": 38,
- "audited_by": "ep38-render reader 1",
+ "audited_by": "ep38-render readers 1+2",
  "keys_looked_at": 83,
  "defects": [
   {
@@ -175,7 +175,7 @@
    ],
    "still": "full/siyokoy_boat.jpg",
    "type": "hands",
-   "must_fix": false,
+   "must_fix": true,
    "what": "The scaly hands are malformed: the upper one shows only two fingers and a thumb, and on the lower one the little finger grows from the heel of the palm.",
    "where": "both hands on the boat"
   },
@@ -296,9 +296,36 @@
    ],
    "still": "full/indio_follow38.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "Usman has two folded ears and a stocky, pup-like face.",
    "where": "bottom centre, the dog"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/indio_ask38.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Indio's open hand holding the keys has too many digits: fingers fan out up, left and down-left plus a curled finger and a thumb, about six in all, and the palm runs into his chin.",
+   "where": "left half, the hand in front of his face"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/heli_hospital.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A sign on the hospital building carries letter-like marks.",
+   "where": "upper right, on the building wall left of the tail rotor"
   }
- ]
+ ],
+ "second_reader": {
+  "confirmed": 27,
+  "refuted": 0,
+  "added": 2
+ }
 }
