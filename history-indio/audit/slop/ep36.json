@@ -13,7 +13,8 @@
    "must_fix": true,
    "what": "The passport cover and the boarding pass in his hand carry rows of fake Japanese-like letters, large in the foreground.",
    "where": "bottom centre, the passport and ticket in his hand",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k25",
@@ -25,7 +26,8 @@
    "must_fix": true,
    "what": "Indio wears a red handkerchief on BOTH wrists instead of one on the left wrist.",
    "where": "both wrists, lower right",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k27",
@@ -37,7 +39,8 @@
    "must_fix": true,
    "what": "A readable red sign saying 'Central' hangs over the lobby doors.",
    "where": "top centre, above the far glass doors",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k51",
@@ -49,7 +52,8 @@
    "must_fix": true,
    "what": "The woman Indio smiles at has a brown ponytail and a white t-shirt; she is not the fox woman (long black hair, flowing white dress) from k27-k30, k48 and k49.",
    "where": "left third, the woman facing Indio",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k58",
@@ -61,7 +65,8 @@
    "must_fix": true,
    "what": "One floating card holds a melted, smeared face with broken eyes and mouth.",
    "where": "upper left, the blue-framed card under the dog card",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -73,7 +78,8 @@
    "must_fix": true,
    "what": "The young man freeing the fox has short brown hair with no topknot and no red headband, so he does not read as Indio.",
    "where": "right side, the young man",
-   "found_by": "reader 1"
+   "found_by": "reader 1",
+   "fixed": true
   },
   {
    "key": "k52",
@@ -86,7 +92,8 @@
    "what": "The glowing medallion hangs from the crook of the umbrella handle instead of being raised in M's hand, and its rim carries letter-like marks.",
    "where": "centre left, umbrella handle and medallion",
    "found_by": "reader 1",
-   "reader2_note": "Raised to must_fix: at 3x the closed umbrella hangs upside down in mid-air beside M with no hand holding it, and the medallion dangles from its crook; centre of frame, and the script's 'M raises the Sandugo' is not shown."
+   "reader2_note": "Raised to must_fix: at 3x the closed umbrella hangs upside down in mid-air beside M with no hand holding it, and the medallion dangles from its crook; centre of frame, and the script's 'M raises the Sandugo' is not shown.",
+   "fixed": true
   },
   {
    "key": "k45",
@@ -136,7 +143,8 @@
    "what": "His forearm has a realistic full-sleeve tattoo (dragon/waves) instead of Indio's indigo geometric bands, on the same arm as the handkerchief.",
    "where": "centre right, the outstretched forearm",
    "found_by": "reader 1",
-   "reader2_note": "Raised to must_fix: at 3x the realistic full sleeve (faces, waves, dragon) covers the whole forearm and upper arm; it fills the centre of the frame on a paused phone."
+   "reader2_note": "Raised to must_fix: at 3x the realistic full sleeve (faces, waves, dragon) covers the whole forearm and upper arm; it fills the centre of the frame on a paused phone.",
+   "fixed": true
   },
   {
    "key": "k09",
@@ -210,7 +218,8 @@
    "must_fix": true,
    "what": "He has three arms: one hangs at his side with the handkerchief, a bent elbow sticks out behind his back, and a separate hand points at the gate in front of his chest.",
    "where": "centre, his arms and the pointing hand left of his chest",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true
   },
   {
    "key": "k16",
@@ -223,7 +232,10 @@
    "must_fix": true,
    "what": "The flag's sun has about eighteen thin rays instead of the eight rays of the Philippine flag, in the shot that says 'this is the flag'; the same still is k54.",
    "where": "left middle, the sun on the white triangle",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "needs_figma": true,
+   "figma_prompt": "Warm sepia illustration of the first Philippine flag laid flat on a wooden sewing table with thread and a lamp, vertical 9:16: a white equilateral triangle at the hoist holding a golden sun with EXACTLY EIGHT rays (one at each compass point and diagonal) and EXACTLY THREE golden five-pointed stars, one in each corner of the triangle; a royal blue band on top and a red band below, running away from the triangle. No people, no text, no letters, no numbers. Modern anime key-frame style, crisp ink lines, cel shading.",
+   "note": "4 free-model tries: 16-18 rays (tries 1-2), 10 rays (try 3), 8 rays but 4 stars (try 4); interim keeps try 2 (right layout, three stars, ~16 rays)."
   },
   {
    "key": "k28",
