@@ -1,21 +1,185 @@
-{"episode": 8, "audited_by": "render-ep07", "stills_looked_at": 40, "clean": false, "defects": [
-{"still": "full/delfina.jpg", "shots": [12], "type": "flag", "must_fix": true, "what": "The flag being sewn is blue over red with a plain white diamond in the middle and no hoist triangle, sun or stars, so it is not the Philippine flag."},
-{"still": "full/delfina.jpg", "shots": [12], "type": "place", "must_fix": true, "what": "The shop signs seen through the left window and on the right window frame are CJK-style characters, which do not belong in a Philippine scene."},
-{"still": "full/lolo_m.jpg", "shots": [20], "type": "anatomy", "must_fix": true, "what": "The woman under the umbrella has three hands (a raised fist, a hand at her waist and a hand out to the right), and no hand holds the umbrella."},
-{"still": "full/acta.jpg", "shots": [8], "type": "writing", "must_fix": true, "what": "The document fills the frame with large rows of unreadable pseudo-handwriting."},
-{"still": "full/treaty.jpg", "shots": [9], "type": "writing", "must_fix": true, "what": "The paper being signed shows several lines of large pseudo-script in the middle of the frame."},
-{"still": "full/note.jpg", "shots": [15], "type": "writing", "must_fix": true, "what": "The note held in the center of the frame carries lines of gibberish letters."},
-{"still": "full/johnson.jpg", "shots": [10], "type": "writing", "must_fix": false, "what": "The papers on the table under the man's pen carry small rows of pseudo-text."},
-{"still": "plates/street.jpg", "shots": [18], "type": "writing", "must_fix": false, "what": "Small plaques beside the church doors and a decal on the scooter's side panel show tiny glyphs."},
-{"still": "full/intro.jpg", "shots": [2], "type": "writing", "must_fix": false, "what": "The glowing clock rings behind Indio carry rows of letter-like marks around the dial edges."},
-{"still": "full/map_west.jpg", "shots": [33], "type": "writing", "must_fix": false, "what": "A few small letter-like marks sit on the map near the top-left coastline."},
-{"still": "chars/usman_crowd.jpg", "shots": [52], "type": "off_model", "must_fix": false, "what": "Usman has both ears folded instead of one folded ear."},
-{"still": "full/walk_away.jpg", "shots": [6], "type": "off_model", "must_fix": false, "what": "The dog walking beside Indio wears a thin red collar instead of Usman's red kerchief."},
-{"still": "chars/indio_back.jpg", "shots": [0], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."},
-{"still": "chars/indio_hidden.jpg", "shots": [1], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt and has no bronze medallion."},
-{"still": "chars/indio_lost.jpg", "shots": [4], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."},
-{"still": "chars/indio_baker.jpg", "shots": [5], "type": "off_model", "must_fix": false, "what": "Indio wears a collared polo-style shirt and has no bronze medallion."},
-{"still": "chars/indio_listen.jpg", "shots": [19], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt and no bronze medallion is visible."},
-{"still": "chars/indio_fist.jpg", "shots": [31], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."},
-{"still": "chars/indio_point.jpg", "shots": [35], "type": "off_model", "must_fix": false, "what": "Indio wears a collared shirt and has no bronze medallion."}
-]}
+{
+ "episode": 8,
+ "audited_by": "render-ep07",
+ "stills_looked_at": 40,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/delfina.jpg",
+   "shots": [
+    12
+   ],
+   "type": "flag",
+   "must_fix": true,
+   "what": "The flag being sewn is blue over red with a plain white diamond in the middle and no hoist triangle, sun or stars, so it is not the Philippine flag.",
+   "fixed": true
+  },
+  {
+   "still": "full/delfina.jpg",
+   "shots": [
+    12
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The shop signs seen through the left window and on the right window frame are CJK-style characters, which do not belong in a Philippine scene.",
+   "fixed": true
+  },
+  {
+   "still": "full/lolo_m.jpg",
+   "shots": [
+    20
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The woman under the umbrella has three hands (a raised fist, a hand at her waist and a hand out to the right), and no hand holds the umbrella.",
+   "fixed": true
+  },
+  {
+   "still": "full/acta.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The document fills the frame with large rows of unreadable pseudo-handwriting.",
+   "fixed": true
+  },
+  {
+   "still": "full/treaty.jpg",
+   "shots": [
+    9
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper being signed shows several lines of large pseudo-script in the middle of the frame.",
+   "fixed": true
+  },
+  {
+   "still": "full/note.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The note held in the center of the frame carries lines of gibberish letters.",
+   "fixed": true
+  },
+  {
+   "still": "full/johnson.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The papers on the table under the man's pen carry small rows of pseudo-text."
+  },
+  {
+   "still": "plates/street.jpg",
+   "shots": [
+    18
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small plaques beside the church doors and a decal on the scooter's side panel show tiny glyphs."
+  },
+  {
+   "still": "full/intro.jpg",
+   "shots": [
+    2
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing clock rings behind Indio carry rows of letter-like marks around the dial edges."
+  },
+  {
+   "still": "full/map_west.jpg",
+   "shots": [
+    33
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A few small letter-like marks sit on the map near the top-left coastline."
+  },
+  {
+   "still": "chars/usman_crowd.jpg",
+   "shots": [
+    52
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded instead of one folded ear."
+  },
+  {
+   "still": "full/walk_away.jpg",
+   "shots": [
+    6
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog walking beside Indio wears a thin red collar instead of Usman's red kerchief."
+  },
+  {
+   "still": "chars/indio_back.jpg",
+   "shots": [
+    0
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."
+  },
+  {
+   "still": "chars/indio_hidden.jpg",
+   "shots": [
+    1
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt and has no bronze medallion."
+  },
+  {
+   "still": "chars/indio_lost.jpg",
+   "shots": [
+    4
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."
+  },
+  {
+   "still": "chars/indio_baker.jpg",
+   "shots": [
+    5
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared polo-style shirt and has no bronze medallion."
+  },
+  {
+   "still": "chars/indio_listen.jpg",
+   "shots": [
+    19
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt and no bronze medallion is visible."
+  },
+  {
+   "still": "chars/indio_fist.jpg",
+   "shots": [
+    31
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt open at the chest and has no bronze medallion."
+  },
+  {
+   "still": "chars/indio_point.jpg",
+   "shots": [
+    35
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared shirt and has no bronze medallion."
+  }
+ ]
+}
