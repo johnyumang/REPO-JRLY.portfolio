@@ -1,0 +1,152 @@
+{
+ "episode": 15,
+ "audited_by": "voice-cast",
+ "stills_looked_at": 87,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/stele_close.jpg",
+   "shots": [
+    95
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The stele fills the frame and is carved with two large columns of fake Chinese characters."
+  },
+  {
+   "still": "full/tomb_build.jpg",
+   "shots": [
+    35
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The stele the two workers are raising in the centre of the lens view is covered in fake Chinese characters."
+  },
+  {
+   "still": "full/notebook_writes.jpg",
+   "shots": [
+    25
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open notebook page in the centre is filled with lines of fake gold cursive."
+  },
+  {
+   "still": "full/dates_pages.jpg",
+   "shots": [
+    67
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Three book pages show huge brushed pseudo-numbers (\"10\", \"20\", a cut-off \"1?\") across the middle of the frame, and none of them is a date the script needs."
+  },
+  {
+   "still": "full/lola_confess.jpg",
+   "shots": [
+    60
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Indio's head and shoulders sit inside a black-bordered rectangular inset at upper right, a frame inside the frame."
+  },
+  {
+   "still": "full/flame_steady.jpg",
+   "shots": [
+    49
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A small temple building is pasted over the bridge of the nose, between the eyes of the large face behind the lamp."
+  },
+  {
+   "still": "full/holo_slots4.jpg",
+   "shots": [
+    65
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The face inside the ring of hologram slots is a long-haired woman with no topknot and hooks on her cheeks, not Indio."
+  },
+  {
+   "still": "chars/indio_point_modern.jpg",
+   "shots": [
+    73
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has blue floral tattoo sleeves on both forearms in this pointing cutout."
+  },
+  {
+   "still": "full/holo_slot.jpg",
+   "shots": [
+    24
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The face in the centre of the hologram ring is a short-haired, girlish face with no topknot, which does not read as Indio."
+  },
+  {
+   "still": "full/tomb_day.jpg",
+   "shots": [
+    66
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The tomb's face stone has one large fake character at the top and small columns of fake characters below it."
+  },
+  {
+   "still": "full/clue_sketch.jpg",
+   "shots": [
+    28
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Scribbled pseudo-text in the lower right of the notebook page under Indio's hand."
+  },
+  {
+   "still": "full/indio_slump.jpg",
+   "shots": [
+    14
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small signature-like scrawl sits in the bottom-left corner."
+  },
+  {
+   "still": "full/family_stay.jpg",
+   "shots": [
+    37
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small watermark-like icon sits in the bottom-right corner."
+  },
+  {
+   "still": "full/sidecar_empty.jpg",
+   "shots": [
+    13
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Pseudo-lettering on the motorcycle tank badge and side cover, a fake plate on the blue car and a lettered sign outside the right window."
+  },
+  {
+   "still": "full/totoy_post.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The green shop sign at the right edge and the stickers on the lamp post carry pseudo-text."
+  },
+  {
+   "still": "full/bottles_table.jpg",
+   "shots": [
+    7
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The labels on several bottles on the table at left carry small rows of pseudo-text."
+  }
+ ]
+}

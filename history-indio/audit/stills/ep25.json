@@ -1,0 +1,186 @@
+{
+ "episode": 25,
+ "audited_by": "voice-cast",
+ "stills_looked_at": 58,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/sign_nowall.jpg",
+   "shots": [
+    33
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The big project billboard in the centre is covered in several rows of scrawled pseudo-handwriting and fake signatures instead of being a blank sign."
+  },
+  {
+   "still": "full/notebook_line_s3.jpg",
+   "shots": [
+    58
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Three rows of golden pseudo-letter glyphs are written across the left half of the notebook cover."
+  },
+  {
+   "still": "full/puzzle_stones.jpg",
+   "shots": [
+    40
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Three of the round puzzle stones (top left, right, bottom) carry anime children's faces, as if people were inside the stones."
+  },
+  {
+   "still": "full/no_himalaya.jpg",
+   "shots": [
+    51
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The prayer wheels on both sides of the courtyard, most clearly the green and white ones at left, carry Latin-like pseudo-text labels."
+  },
+  {
+   "still": "full/hand_shake.jpg",
+   "shots": [
+    36
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The glowing dial segments at right show letter shapes such as \"NE\" and \"MJII\", and the hand and fingers are tattooed with rows of glyphs."
+  },
+  {
+   "still": "full/trio_snow.jpg",
+   "shots": [
+    62
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog at bottom right has no red kerchief, no white chest patch and two upright ears, so it does not read as Usman."
+  },
+  {
+   "still": "full/hand_clock.jpg",
+   "shots": [
+    31
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The stone dial at the bottom has Latin-like letters (E, B, C, D) around its rim instead of abstract carved marks."
+  },
+  {
+   "still": "full/hand_clock.jpg",
+   "shots": [
+    31
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The large face above the dial has loose spiky hair with no topknot and no red headband, so it does not read as Indio."
+  },
+  {
+   "still": "full/hand_shake.jpg",
+   "shots": [
+    36
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man holding the dial has swept loose hair with no topknot and no headband, so it does not read as Indio."
+  },
+  {
+   "still": "full/needle_palm.jpg",
+   "shots": [
+    47,
+    91
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The close-up face has loose hair with no topknot and no headband, so it does not read as Indio."
+  },
+  {
+   "still": "full/needle_palm.jpg",
+   "shots": [
+    47,
+    91
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The back of the hand and fingers carry tattoo glyphs that look like CJK characters."
+  },
+  {
+   "still": "full/door_closing.jpg",
+   "shots": [
+    39,
+    92
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The carved stones on the floor show letter-like marks, e.g. \"DE\" on the centre stone."
+  },
+  {
+   "still": "full/clock_dial.jpg",
+   "shots": [
+    29,
+    84
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The twelve carved marks on the stone dial look like Latin letters (T, U, N, X)."
+  },
+  {
+   "still": "full/old_book_1886.jpg",
+   "shots": [
+    8,
+    96
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The left page of the open book at the left edge is filled with rows of pseudo-text."
+  },
+  {
+   "still": "full/bea_cu.jpg",
+   "shots": [
+    5,
+    9
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Orange letters \"NA\" stand on the shelf behind Bea's left shoulder, and the background monitors show rows of text-like lines."
+  },
+  {
+   "still": "full/holo_time.jpg",
+   "shots": [
+    45
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "There is a letter-like glyph tattoo on Indio's neck, and pseudo-text sits in the corners of the hologram panel at top right."
+  },
+  {
+   "still": "full/lab_dna.jpg",
+   "shots": [
+    53,
+    95
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small pseudo-text labels appear at the top left of the lab screen and on the microscope base."
+  },
+  {
+   "still": "full/usman_snow.jpg",
+   "shots": [
+    12
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright, not his one folded ear."
+  },
+  {
+   "still": "full/usman_growl_snow.jpg",
+   "shots": [
+    49
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears upright, not his one folded ear."
+  }
+ ]
+}
