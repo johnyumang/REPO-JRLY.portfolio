@@ -36,17 +36,18 @@ SHORTEN = [
     ('END already says it', re.compile(r"(?:,\s*|\s+)\bno (?:readable |visible )?(?:text|letters|logos?|watermarks?)\b(?=\s*[,.;]|\s*$)", re.I), ''),
     ('decorative words', re.compile(r"\b(?:very|really|extremely|incredibly|highly|beautiful|beautifully|stunning|gorgeous|breathtaking|"
                                     r"majestic|epic|magical|lush|vibrant|glorious|delicate|intricate|softly|gently|slightly|subtle|subtly|"
-                                    r"dramatic|dramatically|cinematic|brilliant|dazzling|elegant|lovely|richly|vivid|quiet|calm)\s+(?=[a-z])"), ''),
-    ('detailed background', re.compile(r"(?:,\s*)?\b(?:highly )?detailed background\b", re.I), ''),
-    ('mild adjectives', re.compile(r"\b(?:warm|soft|faint|faintly|gentle|deep|tiny|huge|massive|giant|little)\s+(?=[a-z])"), ''),
+                                    r"dramatic|dramatically|cinematic|brilliant|dazzling|elegant|lovely|richly|vivid)\s+(?=[a-z])"), ''),
+    ('detailed background', re.compile(r"(?:,\s*)?\b(?:highly )?detailed (?:full )?background\b", re.I), ''),
+    ('mild adjectives', re.compile(r"\b(?:warm|soft|faint|faintly|gentle)\s+(?=[a-z])"), ''),
     ('single-image line', re.compile(r"Single image, no panels, no border, no black bars, the picture fills the whole vertical frame\.?"), 'Single image, no panels, no border.'),
 ]
 def _tidy(t):
     t = re.sub(r"\s+,", ',', t); t = re.sub(r",\s*,", ',', t); t = re.sub(r",\s*\.", '.', t); t = re.sub(r":\s*,", ':', t)
     t = re.sub(r"\.\s*\.", '.', t); t = re.sub(r" {2,}", ' ', t); return t.strip()
 
-def shorten(text, protected, fits):
-    """apply the steps one by one outside the protected strings until fits(text); -> (text, steps used) or (None, steps)."""
+def shorten(text, protected, fits, kind='full'):
+    """apply the steps one by one outside the protected strings until fits(text); -> (text, steps used) or (None, steps).
+    The END step is skipped for the flat layout (ep01): make_keys appends no END there, the prompt's own anti-text line is it."""
     keep = sorted({x for x in protected if x}, key=len, reverse=True)
     def mask(t):
         for i, x in enumerate(keep): t = t.replace(x, f'\x00{i}\x00')
@@ -57,17 +58,22 @@ def shorten(text, protected, fits):
     used, t = [], text
     for name, rx, rep in SHORTEN:
         if fits(t): break
+        if kind == 'flat' and name == 'END already says it': continue
         n = _tidy(unmask(rx.sub(rep, mask(t))))
         if n != t: used.append(name); t = n
     return (t, used) if fits(t) else (None, used)
 
 # ------------------------------------------------------------------ one prompt
-def replacement(p, mm, canon):
+def replacement(p, mm, canon, aside=None):
+    """the text that replaces p[mm.start:end]: the cast string, keeping an article/expression word before the head
+    ("a tired ...") and an aside in brackets right after it."""
     cb = L.body(canon); cart = canon[:len(canon) - len(cb)].strip()
+    cw = set(L.words(canon))
+    kept = [w for w in (mm.kept or []) if w.lower() not in cw and not any(c.startswith(w.lower()) for c in cw)]
     if mm.bare:
         new = canon
-    elif mm.kept:
-        new = (mm.art + ' ' if mm.art else '') + ' '.join(mm.kept) + ' ' + cb
+    elif kept:
+        new = (mm.art + ' ' if mm.art else '') + ' '.join(kept) + ' ' + cb
     elif mm.art and mm.art.lower() == 'the':
         new = mm.art + ' ' + cb
     elif mm.art:
@@ -75,82 +81,92 @@ def replacement(p, mm, canon):
     else:
         new = cb
     before = p[:mm.start].rstrip()
-    if (not mm.bare and p[mm.start:mm.start + 1].isupper()) or (mm.bare and (before == '' or before.endswith(('.', '!', '?')))):
+    if (not mm.bare and p[mm.start:mm.start + 1].isupper()) or (mm.bare and (before == '' or before.endswith(('.', '!', '?', ':')))):
         new = new[0].upper() + new[1:]
-    carry = []
-    span = p[mm.start:mm.end]
-    for seg in re.split(r",\s*|\s+and\s+", span):            # props worn for this scene (a helmet, sunglasses) stay beside the string
-        a = ACCESSORY.search(seg)
-        if a and a.group(0).lower() not in canon.lower():
-            seg = seg.strip()
-            seg = re.sub(r'^.*?\b(?:man|boy|dog|woman)\s+(?=wearing|with|in)', '', seg)
-            if not seg.startswith(('wearing', 'with', 'in ')): seg = 'wearing ' + re.sub(r'^(?:with|in)\s+', '', seg)
-            carry.append(seg)
-    for c in L.CARRY_RE.findall(span):
-        c = c.lower()
-        if c not in canon.lower() and c not in carry and not any(c in x for x in carry): carry.append(c)
-    return new + (', ' + ', '.join(carry) if carry else '')
+    if aside: new += ' ' + p[aside[0]:aside[1]]
+    return new
 
-ACCESSORY = re.compile(r"helmet|\bhat\b|\bcap\b|sunglasses|goggles|gloves|scarf|\bwatch(?:es)?\b|salakot|backpack|bag\b|mask", re.I)
-
-def check_candidate(K, kind, key, p, ep, canon, need):
-    era = L.scene_era(p); bad = []
-    for mm in L.find_mentions(p, ep, key):
-        if mm.unsure: bad.append(f'{mm.char}: {mm.unsure}'); continue
-        name, s, why = canon.pick(mm, p, era)
-        if not name: bad.append(f'{mm.char}: {why}'); continue
-        mm['end'] = L.extend(p, mm, s)
-        cls, det = L.classify(mm, p, name, s, ep, era)
-        if cls != 'EXACT': bad.append(f'{mm.char} {cls}: {det}')
-    st, msg = L.clause_state(p, need)
-    if st != 'OK': bad.append(msg)
-    return bad
-
-def fix_prompt(K, kind, key, p, ep, canon, nv):
-    """-> dict(status=changed|clean|left, new, reasons, notes, used)"""
-    era = L.scene_era(p)
-    ms = L.find_mentions(p, ep, key)
-    edits, used, reasons, resolved = [], [], [], []
+def blank_ears(p, ms):
+    """ "ears up / pricked / flying" next to Usman -> (spans to delete, p with them blanked so the tail scanner stops there)"""
+    spans = []
     for mm in ms:
-        if mm.unsure: reasons.append(f'{mm.char}: {mm.unsure} ("{p[mm.start:mm.end][:80]}")'); resolved.append(None); continue
-        name, s, why = canon.pick(mm, p, era)
-        if not name: reasons.append(f'{mm.char}: {why} ("{p[mm.start:mm.end][:80]}")'); resolved.append(None); continue
-        resolved.append((name, s))
-        mm['end'] = L.extend(p, mm, s)
-        cls, det = L.classify(mm, p, name, s, ep, era)
-        if cls == 'STORY': reasons.append(f'{mm.char}: {det}'); continue
-        used.append((name, s))
-        if cls != 'EXACT':
-            if not (cls == 'WRONG' and p.startswith(L.body(s), mm.vstart)):
-                edits.append((mm.start, mm.end, replacement(p, mm, s)))
-        if mm.char == 'usman':                                  # "ears up" etc. next to Usman
-            zone_end = min(len(p), mm.end + 160)
-            for w in L.EARS_WRONG.finditer(p, mm.start, zone_end):
-                if not any(a <= w.start() < b for a, b, _ in edits): edits.append((w.start(), w.end(), ''))
+        if mm.char != 'usman': continue
+        for w in L.EARS_WRONG.finditer(p, mm.start, min(len(p), mm.end + 160)):
+            if (w.start(), w.end()) not in spans: spans.append((w.start(), w.end()))
+    pm = p
+    for a, b in spans: pm = pm[:a] + ' ' * (b - a) + pm[b:]
+    return spans, pm
+
+def clothes_left(reg, canon):
+    cw = set(L.words(canon))
+    return [w for w in L.words(reg) if L.CLOTHES_RE.search(w) and not L.ACCESS.search(w) and w not in cw
+            and w not in ('clothes', 'outfit', 'dressed', 'sleeves', 'sleeve', 'collar', 'barefoot')]
+
+LEAVE = ('UNSURE', 'NOCANON', 'STORY', 'DOUBLE', 'SECOND')
+def fix_prompt(K, kind, key, p, ep, canon, nv, story_nv=()):
+    """-> dict(status=changed|clean|left, new, reasons, notes, used)"""
+    era, ms, recs, need = L.analyse(p, ep, key, canon)
+    reasons, used, edits = [], [], []                      # edits: (start, end, text, char, canon or None)
+    ears, pm = blank_ears(p, ms)
+    for r in recs:
+        mm, cls = r['mm'], r['cls']
+        if cls in LEAVE: reasons.append(f'{mm.char} {cls}: {r["detail"]} ("{p[mm.start:mm.end][:80]}")'); continue
+        if mm.ref: continue                                   # back-reference: as written (its "ears up" goes below)
+        s = r['string']; used.append((r['name'], s))
+        for k in story_nv:
+            if k.rstrip(', ') in s or L.body(s) in k:
+                reasons.append(f'{mm.char}: nv_replace sends {r["name"]} as a short form without the medallion (NV_STORY): a person decides')
+        if cls == 'EXACT' or (cls == 'WRONG' and p.startswith(L.body(s), mm.vstart)): continue
+        de, aside = (mm.end, None) if mm.bare else L.desc_tail(pm, mm.hend, mm.char, s)
+        edits.append((mm.start, de, replacement(p, mm, s, aside), mm.char, s))
     if reasons: return dict(status='left', new=p, reasons=reasons)
-    need = L.clause_need(p, ep, ms, era, resolved, canon.omp)
-    new = p
-    for a, b, r in sorted(edits, reverse=True):
-        new = new[:a] + r + new[b:]
+    for a, b in ears:
+        if not any(x <= a < y for x, y, *_ in edits): edits.append((a, b, '', 'usman', None))
+    edits.sort(key=lambda e: e[0])
+    for (a1, b1, *_), (a2, b2, *_) in zip(edits, edits[1:]):
+        if a2 < b1: return dict(status='left', new=p, reasons=['two character descriptions overlap in this prompt: a person rewrites it'])
+    new, off, placed = p, 0, []
+    for a, b, txt, ch, s in edits:
+        new = new[:a + off] + txt + new[b + off:]
+        if s: placed.append((a + off + len(txt), ch, s))
+        off += len(txt) - (b - a)
+    for at, ch, s in placed:                                  # the old description must not go on after the cast string
+        reg = L.region_after(new, at)
+        mk = L.AFTER_MARK.get(ch)
+        extra = (mk.search(reg).group(0) if mk and mk.search(reg) else None) or (', '.join(clothes_left(reg, s)) if ch == 'indio' else None)
+        if extra:
+            return dict(status='left', new=p, reasons=[f'{ch}: the description goes on after the scene words ("{reg.strip()[:80]}", {extra}): pasting the cast string would leave it twice; a person rewrites it'])
     if need:
         st, _ = L.clause_state(new, need)
-        if st == 'NEAR':
+        if st == 'NEAR' and need == L.NODOG_ONLY:
+            new = L.NOANIMALS_RX.sub('', new, count=1)
+        elif st == 'NEAR':
             m = L.NODOG_RX.search(new); rep = need[0].upper() + need[1:] if new[m.start()].isupper() else need
             new = new[:m.start()] + rep + new[m.end():]
         elif st == 'MISSING':
             s0 = new.rstrip()
             new = (s0 + ' ' + need[0].upper() + need[1:] + '.') if s0.endswith('.') else (s0 + ', ' + need + '.')
+    lost = L.dropped_words(p, new, sorted({e[3] for e in edits}), [e[4] for e in edits if e[4]])
+    if lost:
+        return dict(status='left', new=p, reasons=['the rewrite would drop scene words (' + ', '.join(sorted(set(lost))) + '): a person rewrites it'])
     notes = []
     fits = lambda t: len(L.assemble(K, kind, t, nv)) <= L.LIMIT
     if not fits(new):
         before = len(L.assemble(K, kind, new, nv))
-        short, steps = shorten(new, [s for _, s in used] + [L.body(s) for _, s in used] + [need], fits)
+        short, steps = shorten(new, [s for _, s in used] + [L.body(s) for _, s in used] + [need], fits, kind)
         if short is None:
-            return dict(status='left', new=p, reasons=[f'over {L.LIMIT} even after shortening the scene ({before} sent with the cast strings; tried: {", ".join(steps) or "nothing to drop"}): needs a shorter scene by hand or a short cast form'])
+            return dict(status='left', new=p, reasons=[f'LENGTH: over {L.LIMIT} even after shortening the scene ({before} sent with the cast strings; tried: {", ".join(steps) or "nothing to drop"}): needs a shorter scene by hand or a short cast form'])
         notes.append(f'scene shortened ({before} -> {len(L.assemble(K, kind, short, nv))} sent): ' + ', '.join(steps)); new = short
     bad = check_candidate(K, kind, key, new, ep, canon, need)
     if bad: return dict(status='left', new=p, reasons=['the rewrite did not lint clean: ' + '; '.join(bad)])
     return dict(status='changed' if new != p else 'clean', new=new, reasons=[], notes=notes, used=used)
+
+def check_candidate(K, kind, key, p, ep, canon, need):
+    era, ms, recs, need2 = L.analyse(p, ep, key, canon)
+    bad = [f'{r["mm"].char} {r["cls"]}: {r["detail"]}' for r in recs if r['cls'] not in L.OKCLS]
+    st, msg = L.clause_state(p, need if need is not None else need2)
+    if st != 'OK': bad.append(msg)
+    return bad
 
 # ------------------------------------------------------------------ minimal file edits
 def _dump(x, asc): return json.dumps(x, ensure_ascii=asc)
