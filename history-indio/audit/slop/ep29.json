@@ -244,10 +244,12 @@
    "what": "Indio and Lolo are drawn as chibi children, one with red horns, in a different cartoon style.",
    "where": "bottom left two figures",
    "second_reader": "confirmed",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Vast cave, orange-glowing black tar sea; backs to us, standing on a ledge: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "all four drawn in the normal style (no chibi); try1 lost the cavern and the orange tar (night sea); try2 good scene but red cloths on all four wrists and a white patch on the dog back; try3 a second Indio far off; try4 dog both ears up and his hand overlaps Lolo"
+   "figma_note": "all four drawn in the normal style (no chibi); try1 lost the cavern and the orange tar (night sea); try2 good scene but red cloths on all four wrists and a white patch on the dog back; try3 a second Indio far off; try4 dog both ears up and his hand overlaps Lolo",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model (flux-3, 30 steps), chosen from 6 draws in one round; seed 4314. Changed: same anime style as the episode (no chibi, no horns); Indio (grey t-shirt, blue jeans, black topknot) and Lolo (white hair, pale green polo, brown trousers) seen from behind on a stone ledge with their hands in their pockets, so no wrists or cloths to go wrong; the dog sits apart at the right end of the ledge in side view, described with the series dog string plus the ear/face sentence; vast cavern over a black tar sea with orange cracks and glow kept. Checked at 3x: one Indio, one Lolo, one dog; dog has one tail, its near (right) ear folded and far (left) ear upright, all-black face, white only on the chest, red kerchief; both men's hands hidden in pockets, Indio's topknot visible; sits with heat_haze, tar_sea and the new stairs_down."
   },
   {
    "key": "k54",
