@@ -633,7 +633,7 @@ def splice(a):
         die(f'refused: --at {at:.3f} falls inside speech ({avg - core:.1f} dB under the average at the cut); '
             'pick a pause between sentences (timings.json), or --force', 2)
     nb = round(bdur * fps); bt = nb / fps
-    fade = int(0.20 * SR); A = ep[:c].copy(); Bq = ep[c:].copy()
+    fade = int(0.06 * SR); A = ep[:c].copy(); Bq = ep[c:].copy()     # short fade: a pause can be ~0.35 s; longer dims the words
     A[-fade:] *= np.linspace(1, 0, fade, dtype=np.float32)[:, None]; Bq[:fade] *= np.linspace(0, 1, fade, dtype=np.float32)[:, None]
     br = br[:int(round(bt * SR))]; br = np.pad(br, ((0, int(round(bt * SR)) - len(br)), (0, 0)))
     mix = np.concatenate([A, br, Bq]); n_all = int(round((round(dur * fps) + nb) / fps * SR))      # audio as long as the picture
