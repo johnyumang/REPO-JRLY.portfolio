@@ -9,6 +9,7 @@ kung isa na lang ang hiling mo, huwag mong gamitin sa nakaraan.
 kung isa na lang ang hiling mo, huwag mong gamitin para sa sarili mo.
 kung isa na lang ang hiling mo, hilingin mo ang mundong walang nang-aagaw.
 
+kathang-isip ang tagpo; totoo ang kasaysayang binanggit.
 Look ng Maynila, ang unang umaga pagkatapos ng digmaan.
 at humupa ang tubig. 🌅
 
@@ -18,4 +19,5 @@ S5 EP 49: Ang Ikatlong Hiling
 kung isa na lang ang hiling mo.
 kung isa na lang ang hiling mo.
 kung isa na lang ang hiling mo. 🌅
+kathang-isip ang tagpo; totoo ang kasaysayang binanggit.
 EP 49: Ang Ikatlong Hiling. #HistoryIndio
