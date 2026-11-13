@@ -1,0 +1,392 @@
+{
+ "episode": 14,
+ "audited_by": "worker-davinci (first reader)",
+ "keys_looked_at": 81,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/kapre_hook.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kapre licks a cigar with a long tongue, a metal canister is clamped to the branch, and a second small grinning goblin-like man with his own smoke sits on the branch behind.",
+   "where": "upper half: canister top left, small figure top right"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/m_elevator_hook.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "M carries a bare open pot of soup in her arms while the plastic bag hangs empty of it below, so the soup and the bag do not go together.",
+   "where": "M's hands and the bag at her hip"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/forgot_car.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Translucent pink cone shapes stand up behind the car's red bow and belong to nothing.",
+   "where": "top centre, behind the bow"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/jm_ask.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "JM's rag is the hem of Indio's white shirt: JM's hand grips Indio's shirt and the cloth runs on unbroken.",
+   "where": "centre, JM's right hand at Indio's waist"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/usman_ask.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two hanging folded ears instead of one folded ear.",
+   "where": "dog's head, both ears"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a modern grey sleeveless top in a 1570 scene instead of his beige tunic with red sash.",
+   "where": "right edge, Indio's shoulder and arm"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/indio_witness.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has spiky reddish-brown hair with no topknot and a boyish face, not the black topknot of every other shot.",
+   "where": "Indio's head, centre"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/kapre_whisper.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a red knit beanie instead of the red headband over his topknot.",
+   "where": "Indio's head, lower foreground"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/lamp_dies.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The Indio holding the lamp is pale with long side-swept bangs, no headband and a grey modern shirt, unlike the 1570 Indio of the other shots.",
+   "where": "Indio's face and clothes"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/indio_admit.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio again wears a red knit beanie instead of the red headband, so the tearful close-up does not match the scene.",
+   "where": "Indio's head"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/lamp_relit.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has brown hair, no headband and a white modern polo, not the 1570 tunic Indio of the scene.",
+   "where": "Indio, lower left"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/lamp_relit.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kapre holds a brass rod with a disc on the end instead of its cigar, and a second pipe floats beside it.",
+   "where": "kapre's hands, centre"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/indio_seen.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A letter-like scribbled signature mark sits in the corner.",
+   "where": "bottom right corner"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/sandugo_kapre.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kapre's cigar becomes a long hose that runs into its chest.",
+   "where": "kapre's mouth and chest, right side"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/sandugo_ray.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The raised hand is a wide mitten whose last fingers are merged together.",
+   "where": "the hand holding the medallion, centre"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/lens_anito.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The medallion rim carries a ring of letter-like marks.",
+   "where": "medallion rim, centre"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/men_black.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the crowd, one man's arm reaches across and his phone sits against another man's face, whose own hands also hold a camera, so the arms cannot be told apart.",
+   "where": "centre of the crowd"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/indio_shock14.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Indio's left arm is missing and a man's hand wearing Indio's gold watch comes out of M's coat sleeve at his thigh.",
+   "where": "between Indio and M, waist height"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/vlog_phone.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "The same angry young man is drawn twice on the phone screen, large and small, with an identical face.",
+   "where": "phone screen, centre"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/vlog_phone.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The phone status bar and overlay carry letter-like glyphs.",
+   "where": "top of the phone screen"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/elevator_m.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "M carries a bare open pot of soup in her arms and a separate bag with another bowl below, so the soup and the bag do not go together.",
+   "where": "M's hands and the bag"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/elevator_m.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A sign on the left wall carries letter-like text.",
+   "where": "left wall"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/indio_alone.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio looks about forty, heavy-set with a deeply lined face, older than in his other present-day shots.",
+   "where": "Indio's face"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/indio_alone.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A strap with two gold buckles hangs loose on his shirt front and is attached to nothing.",
+   "where": "shirt front, centre"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/indio_clarify.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Where the forearms cross, the lower hand has no visible fingers and the two forearms melt together.",
+   "where": "both hands on the lap, bottom centre"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/two_rajahs.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A loose gold curved hook juts out of the young rajah's wrist cuff.",
+   "where": "young rajah's right wrist"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/kapre_folk.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The kapre's cigar is a burning log fused to its forearm and no hand holds it.",
+   "where": "kapre's right arm, centre right"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/indio_label.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The wave medallion is drawn as a broken grey ring with a stone leaf hanging off it.",
+   "where": "Indio's raised hand, left"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/garage_3am.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A gold wristwatch is worn on his ankle.",
+   "where": "Indio's right ankle, bottom"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/indio_floor.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn boyish with heavy bangs and blushing cheeks, much younger than in the garage shots around it.",
+   "where": "Indio's face"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    92
+   ],
+   "still": "full/keys_pile.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The credit cards and boxes carry letter-like marks.",
+   "where": "cards on the glass table"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/galleon_bow.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A huge curved spar arches from the bow over the sails and is attached to nothing.",
+   "where": "upper right of the ship"
+  },
+  {
+   "key": "k100",
+   "shots": [
+    100
+   ],
+   "still": "full/flashes.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A tangle of disembodied hands: the big front camera is held by no hand and other hands overlap the girl's face.",
+   "where": "bottom centre and around the girl"
+  },
+  {
+   "key": "k100",
+   "shots": [
+    100
+   ],
+   "still": "full/flashes.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The front camera carries a letter-like label.",
+   "where": "front camera, bottom centre"
+  },
+  {
+   "key": "k101",
+   "shots": [
+    101
+   ],
+   "still": "full/triangle_pin.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The tie-pin close-up shows a young brown-haired man with one grey and one brown eye, not the tall pale man in the black suit of k43 and k44.",
+   "where": "face, top half"
+  }
+ ]
+}
