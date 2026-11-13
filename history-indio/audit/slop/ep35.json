@@ -154,7 +154,8 @@
    "must_fix": false,
    "what": "Usman's ears are both half-folded and match each other, so the one-folded-ear mark is lost.",
    "where": "dog's head, middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k37",
@@ -166,7 +167,8 @@
    "must_fix": false,
    "what": "Usman's ears are both floppy, with no single folded ear.",
    "where": "dog's head, left middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k31",
@@ -548,5 +550,5 @@
    "second_reader": "new"
   }
  ],
- "fix_note": "redrawn with the full-quality model; a third reader compared old and new: usman_chair, indio_1907, watch_vlog, jm_phone, jump_office kept as the originals (redraws not clearly better); left: Usman ears in k06/k07/k31/k37/k67, k23 screen style, small writing marks k10/k24/k25/k32/k36/k61/k67, k24 duplicate faces"
+ "fix_note": "redrawn with the full-quality model; a third reader compared old and new: usman_chair, indio_1907, watch_vlog, jm_phone, jump_office kept as the originals (redraws not clearly better); left: Usman ears in k06/k07/k31/k37/k67, k23 screen style, small writing marks k10/k24/k25/k32/k36/k61/k67, k24 duplicate faces; 13 Nov afternoon: k06 and k37 redrawn with the usman_ears_clause (2 draws each, one kept); k07, k31, k67 kept: in shots with Indio the clause turned his face black (jump_office, follow) or merged dog and man (watch_vlog)"
 }
