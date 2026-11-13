@@ -12,7 +12,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio is a different person here: a hooded older man with long fringe, whisker-like scars on both cheeks and a golden line running down his face.",
-   "where": "face, top half of frame"
+   "where": "face, top half of frame",
+   "fixed": true,
+   "how": "prompt matched to the kept present-day Indio (light tan skin, neat topknot), 4 draws, checked at 3x beside indio_point_lake"
   },
   {
    "key": "k10",
@@ -340,5 +342,5 @@
    "where": "ceiling, top left and right"
   }
  ],
- "third_reader": "kept 7 redraws, rejected notebook_line (Indio off this episode's look; prompt matched to kept stills, redrawing). Minor notes: flight Usman ears both up (drift list); indio_listen_far no longer cups an ear; phone_video Rico's raised fist soft"
+ "third_reader": "kept 7 redraws, rejected notebook_line (Indio off this episode's look; prompt matched to kept stills, redrawn and chosen beside indio_point_lake). Minor notes: flight Usman ears both up (drift list); indio_listen_far no longer cups an ear; phone_video Rico's raised fist soft"
 }
