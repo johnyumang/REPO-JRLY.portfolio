@@ -1,0 +1,98 @@
+{
+ "episode": 40,
+ "audited_by": "Season 4 writer A (Ep 37 render machine)",
+ "stills_looked_at": 79,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/indio_ask40.jpg",
+   "shots": [
+    67
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Indio holds a paper with large readable pseudo-text in the lower right (\"PASSAFEAR LIST\" and lines of fake words)."
+  },
+  {
+   "still": "full/totoy_hurt.jpg",
+   "shots": [
+    41
+   ],
+   "type": "logo",
+   "must_fix": true,
+   "what": "Totoy's cap carries a blue badge logo with pseudo-letters, centred in the frame."
+  },
+  {
+   "still": "full/indio41.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A newspaper along the bottom edge shows rows of fake print and red pseudo-letters."
+  },
+  {
+   "still": "full/rico_phone40.jpg",
+   "shots": [
+    49
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The phone frame shows a small pseudo-word at the top of the screen."
+  },
+  {
+   "still": "full/list.jpg",
+   "shots": [
+    52
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The whole frame is a page of wavy pseudo-handwriting lines (no letters, but reads as text)."
+  },
+  {
+   "still": "full/totoy_shout.jpg",
+   "shots": [
+    63
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The map Totoy holds up has tiny pseudo-labels."
+  },
+  {
+   "still": "full/lanterns.jpg",
+   "shots": [
+    30
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "Rows of Chinese-style red paper lanterns hang from the ark's rigging in a Philippine shipyard."
+  },
+  {
+   "still": "full/lantern_glow.jpg",
+   "shots": [
+    96
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "A single Japanese-style red paper lantern (chochin) fills the frame."
+  },
+  {
+   "still": "full/esteros.jpg",
+   "shots": [
+    54
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The cleaned estero runs through a city whose street and buildings look Japanese rather than Philippine."
+  },
+  {
+   "still": "full/ark_launch.jpg",
+   "shots": [
+    92
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "Many people float in the air above the launching ark, a crowd of fan-art figures with no ground under them."
+  }
+ ]
+}

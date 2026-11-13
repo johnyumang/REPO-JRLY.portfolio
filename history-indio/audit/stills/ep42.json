@@ -1,0 +1,98 @@
+{
+ "episode": 42,
+ "audited_by": "Season 4 writer A (Ep 37 render machine)",
+ "stills_looked_at": 68,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/news_screen.jpg",
+   "shots": [
+    6
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Split screen: a TV with a flooded city on top and a separate empty sofa scene below, divided by a hard line."
+  },
+  {
+   "still": "full/serpent_stays.jpg",
+   "shots": [
+    49
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The Bakunawa is drawn with two heads side by side in front of the red moon."
+  },
+  {
+   "still": "full/holo_open.jpg",
+   "shots": [
+    30
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man opening the hologram has spiky loose hair and no topknot: he does not read as Indio."
+  },
+  {
+   "still": "full/ucayali_memory.jpg",
+   "shots": [
+    28
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The Ucayali memory shows two unknown children (one blond) instead of Indio."
+  },
+  {
+   "still": "full/roof_tremble.jpg",
+   "shots": [
+    16
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "Two bare feet and a stray brown paw at the bottom; Usman is black, so the paw belongs to no one."
+  },
+  {
+   "still": "full/crowd_light.jpg",
+   "shots": [
+    54
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "Japanese-style tiled roofs and paper-screen windows behind the grandmother and child."
+  },
+  {
+   "still": "full/bells_far.jpg",
+   "shots": [
+    17
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The roofs around the bell tower are East Asian curved tile roofs."
+  },
+  {
+   "still": "full/rain_city.jpg",
+   "shots": [
+    4
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The rainy city has narrow streets with small vertical signs that look Japanese."
+  },
+  {
+   "still": "full/bakunawa_folk.jpg",
+   "shots": [
+    62
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "The folk illustration shows two serpents/heads where the tale has one Bakunawa."
+  },
+  {
+   "still": "full/friar_writing.jpg",
+   "shots": [
+    63
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The friar's open book shows lines of pseudo-script."
+  }
+ ]
+}
