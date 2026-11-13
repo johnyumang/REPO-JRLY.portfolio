@@ -80,3 +80,27 @@ Not for: flat pictures (letters, maps, screens, close-ups of a page) — the bui
 heavy crowds with many overlaps (keep `crane_*`/`orbit_*` there, they uncover little); thin structures against the sky
 (masts, spears, ropes) and hands at the edge of a figure, which may separate from the body on a big move.
 Cost: about the same as the classic moves at 720 wide (about 1 s per keyframe to make the layers).
+
+## Chibi trivia break ("PATALASTAS NI USMAN")
+From Episode 3 on, each episode stops once, around its best-retention point (after about one minute, in a pause
+after a cliffhanger line), for an 18–23 s joke "commercial": one true, non-cliché fact about the Philippines (animals
+welcome), told by chibi Indio and chibi Usman. Line 1 is always Usman: "Teka, patalastas muna!"; the last is always
+Indio: "Balik sa kuwento, par!"; 2–4 lines between (at most 40 words). Every fact needs two independent reputable
+sources, shown on screen in the `source` line. No real brand, company, party or living person ever appears.
+`pipeline/trivia_break.py` (numpy + Pillow + soundfile + ffmpeg, run with `/opt/vc/bin/python`):
+```
+python pipeline/trivia_break.py cutout --in art.png --out sprite.png [--bg auto|green|magenta|white] [--outline 14]
+python pipeline/trivia_break.py render --spec spec.json --out break.mp4 [--size 720x1280] [--fps 30] [--sheet sheet.jpg] [--stills 2,9,16] [--guides]
+python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 81.20 --out out.mp4 [--force]
+```
+- `cutout`: one subject on a flat green/magenta/white background → RGBA sticker (flood fill from the borders, so green
+  or white parts inside the subject stay; soft edges, spill removed, white outline, drop shadow).
+- `render`: the spec (title, subtitle, palette `sun`/`sea`/`leaf`, sprites INDIO/USMAN, subjects with label and
+  from_line, lines with speaker/text/wav/emphasis, source, countdown_text; paths relative to the spec) becomes the
+  break: synthesised sting, bed (18 dB under the voice) and whoosh, mastered to −16 LUFS / −1.5 dBTP, 48 kHz stereo.
+  The layout boxes are fixed (`BOXES` in the script, all inside the phone safe area); the drawn extents of every
+  element are computed first and the command exits with code 3 naming any overlap, so nothing ever covers a face or
+  the subject. Look at the `--sheet` before using a break.
+- `splice`: cuts the break in at `--at` (rounded to a frame) with 0.20 s audio fades, one re-encode, then the loudness
+  guard and the full-decode check. It refuses a cut inside speech and warns (with the quietest frame nearby) when the
+  120 ms around the cut is not 12 dB under the episode's average. Voice and video files stay out of this repo.
