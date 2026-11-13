@@ -396,11 +396,11 @@ def title_sticker(title, subtitle, pal, H):
     im = Image.new('RGBA', (pw + 2 * bd + sh + 4, ph + 2 * bd + sh + 4), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     R = round(u * 0.28)
     d.rounded_rectangle((2 + sh, 2 + sh, 2 + pw + 2 * bd + sh, 2 + ph + 2 * bd + sh), radius=R, fill=INK + (255,))
-    d.rounded_rectangle((2, 2, 2 + pw + 2 * bd, 2 + ph + 2 * bd), radius=R, fill=(255, 255, 255, 255), outline=INK + (255,), width=max(2, bd // 3))
+    d.rounded_rectangle((2, 2, 2 + pw + 2 * bd, 2 + ph + 2 * bd), radius=R, fill=tuple(pal.get('edge', (255, 255, 255))) + (255,), outline=INK + (255,), width=max(2, bd // 3))
     d.rounded_rectangle((2 + bd, 2 + bd, 2 + pw + bd, 2 + ph + bd), radius=round(R * 0.7), fill=tuple(pal['sticker']) + (255,))
     cx = 2 + bd + pw / 2
     d.text((cx, 2 + bd + u * 0.74), title, font=f1, anchor='mm', fill=tuple(pal['title']) + (255,), stroke_width=sw, stroke_fill=INK + (255,))
-    if subtitle: d.text((cx, 2 + bd + u * 1.60), subtitle, font=f2, anchor='mm', fill=(255, 255, 255, 255), stroke_width=max(1, sw // 2), stroke_fill=INK + (255,))
+    if subtitle: d.text((cx, 2 + bd + u * 1.60), subtitle, font=f2, anchor='mm', fill=tuple(pal.get('sub', (255, 255, 255))) + (255,), stroke_width=max(1, sw // 2), stroke_fill=INK + (255,))
     return im
 
 
@@ -458,8 +458,8 @@ def make_sound(spec, P, fps):
     for s, v in zip(starts, voices): i = int(s * SR); vo[i:i + len(v)] += v[:n - i]
     rv = gated_rms(vo); db = lambda x: 20 * np.log10(max(x, 1e-9))
     calm = bool(spec.get('calm')); st = sting(calm); st *= rv * 10 ** ((-10 if calm else -3) / 20) / gated_rms(st)
-    wh = whoosh(); wh *= rv * 10 ** (-6 / 20) / gated_rms(wh.mean(1))
-    bd = bed(T); bd *= rv * 10 ** (-18 / 20) / gated_rms(bd)
+    wh = whoosh(); wh *= rv * 10 ** ((-12 if calm else -6) / 20) / gated_rms(wh.mean(1))
+    bd = bed(T, soft=calm); bd *= rv * 10 ** ((-22 if calm else -18) / 20) / gated_rms(bd)    # calm: 4 dB lower, no hi-hat
     mix = np.repeat(vo[:, None], 2, 1) + np.repeat(bd[:, None], 2, 1)
     mix[:len(st)] += st[:, None]; i = n - len(wh); mix[i:] += wh[:n - i]
     print(f'mix vs voice: bed {db(gated_rms(bd)) - db(rv):.1f} dB, sting {db(gated_rms(st)) - db(rv):+.1f} dB, whoosh {db(gated_rms(wh.mean(1))) - db(rv):+.1f} dB', flush=True)
@@ -723,7 +723,7 @@ class Pages:
                 im, base, sw = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal['accent'] if e else INK, stroke_k=0,
                                         shadow=False, plain=INK)
                 # on the pill: emphasis words in the accent colour on an ink pill (quotes in white), others as drawn
-                act = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal['accent'], stroke_k=0, shadow=False,
+                act = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal.get('accent_ink', self.pal['accent']), stroke_k=0, shadow=False,
                                plain=(255, 255, 255))[0] if e else im
                 grey = Image.new('RGBA', im.size, self.GREY + (255,)); grey.putalpha(im.getchannel('A'))
                 bb = im.getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, im.width, im.height); imgs.append((im, base, bb, e, act, grey))
@@ -1115,7 +1115,7 @@ def render_bold(a, spec, P):
     sys.exit(0 if ok and not bad else 4)
 
 
-def draw_plate(fr, r, tip_x, tip_y, shadow):
+def draw_plate(fr, r, tip_x, tip_y, shadow, fill=(255, 255, 255)):
     """the white speech plate r (rounded, dark outline, hard drop shadow) with a tail down towards (tip_x, tip_y): the
     tip leans at most 0.6 x the plate half-width from its centre and the base is 36 px wide, so a short page keeps a
     short, solid tail. Returns the tail tip (the anchor of the page pop)."""
@@ -1124,9 +1124,9 @@ def draw_plate(fr, r, tip_x, tip_y, shadow):
     bx = min(max(cx + (tx - cx) * 0.75, r[0] + R + 20), r[2] - R - 20); tl = [(bx - 18, r[3] - 3), (bx + 18, r[3] - 3), (tx, tip_y)]
     o = shadow; d.rounded_rectangle((r[0] + o, r[1] + o, r[2] + o, r[3] + o), radius=R, fill=INK)
     if tip_y > r[3] + 4: d.polygon([(x + o * 0.6, y) for x, y in tl], fill=INK)
-    d.rounded_rectangle(r, radius=R, fill=(255, 255, 255), outline=INK, width=4)
+    d.rounded_rectangle(r, radius=R, fill=fill, outline=INK, width=4)
     if tip_y > r[3] + 4:
-        d.polygon(tl, fill=(255, 255, 255)); d.line([tl[0], tl[2]], fill=INK, width=4); d.line([tl[1], tl[2]], fill=INK, width=4)
+        d.polygon(tl, fill=fill); d.line([tl[0], tl[2]], fill=INK, width=4); d.line([tl[1], tl[2]], fill=INK, width=4)
     return tx, tip_y
 
 
