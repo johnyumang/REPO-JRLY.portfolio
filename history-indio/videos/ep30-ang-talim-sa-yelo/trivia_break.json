@@ -1,0 +1,42 @@
+{
+ "fact_id": "t57",
+ "fact_english": "The pygmy seahorse, found on reefs in the Philippines, is usually less than 2 cm long. It looks so much like the sea fan it lives on that it is extremely hard to see.",
+ "label_onscreen": "PYGMY SEAHORSE",
+ "source_onscreen": "Pinagmulan: Wikipedia; FlipScience",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang pygmy seahorse sa mga bahura natin, karaniwang mas maliit pa sa dalawang sentimetro!",
+   "emphasis": [
+    "maliit"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "At kamukhang-kamukha ng sea fan na tinitirhan niya. Expert sa taguan.",
+   "emphasis": [
+    "taguan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 23,
+ "after_text": "Doon ko naintindihan: hindi palabas ang ugaling 'yon, sandata ko pala.",
+ "insert_time": 97.04,
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After 'sandata ko pala': the next depth is named right after the break."
+}

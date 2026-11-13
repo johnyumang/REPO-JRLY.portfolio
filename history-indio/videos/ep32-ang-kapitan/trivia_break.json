@@ -1,0 +1,42 @@
+{
+ "fact_id": "t46",
+ "fact_english": "Banana ketchup was invented in the Philippines, and the food scientist María Orosa is credited with creating it.",
+ "label_onscreen": "BANANA KETCHUP",
+ "source_onscreen": "Pinagmulan: Wikipedia; US National Park Service",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang banana ketchup, naimbento sa Pilipinas, at si María Orosa, food scientist, ang kinikilalang lumikha nito!",
+   "emphasis": [
+    "banana"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Saging na naging sawsawan. Diskarte.",
+   "emphasis": [
+    "diskarte"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 25,
+ "after_text": "Dati, sinasabi nitong mananagot ang Alcaín Builders kapag hindi naitayo ang pader.",
+ "insert_time": 102.95,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After what the contract used to say about Alcaín Builders: what it says now is the reveal."
+}

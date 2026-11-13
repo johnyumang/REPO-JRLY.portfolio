@@ -1,0 +1,42 @@
+{
+ "fact_id": "t59",
+ "fact_english": "The fluffy fibre of the kapok tree was once widely used to fill life jackets, because it is light, floats well and resists water.",
+ "label_onscreen": "KAPOK",
+ "source_onscreen": "Pinagmulan: Wikipedia; RNLI",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang bulak ng kapok, dati ipinanpupuno sa mga life jacket, kasi magaan, lumulutang, at hindi agad nababasa!",
+   "emphasis": [
+    "lumulutang"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Unan na nagliligtas ng buhay. Gusto ko 'yan.",
+   "emphasis": [
+    "unan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 13,
+ "after_text": "Mayo 1898, isang makitid na kalye, at isang bintanang may liwanag ng lampara.",
+ "insert_time": 61.55,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After the lamplit window in 1898: who is inside comes next."
+}

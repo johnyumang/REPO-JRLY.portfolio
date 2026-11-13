@@ -1,0 +1,42 @@
+{
+ "fact_id": "t47",
+ "fact_english": "The word pancit most likely comes from Hokkien, a Chinese language spoken by many Chinese Filipinos.",
+ "label_onscreen": "PANCIT",
+ "source_onscreen": "Pinagmulan: Wikipedia; Language Log",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang salitang pancit, malamang galing sa Hokkien, wika ng maraming Tsinoy.",
+   "emphasis": [
+    "Hokkien"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala pang-birthday. May pinanggalingan ang haba ng buhay.",
+   "emphasis": [
+    "birthday"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 15,
+ "after_text": "Teka, bakit iba ang font ng linyang ito?",
+ "insert_time": 74.62,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After Bea's 'bakit iba ang font ng linyang ito?': the answer is read right after."
+}

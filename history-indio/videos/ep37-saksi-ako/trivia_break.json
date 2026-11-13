@@ -1,0 +1,42 @@
+{
+ "fact_id": "t12",
+ "fact_english": "Guinness World Records lists the sinarapan of Lake Buhi as the smallest commercially harvested fish; adults are only about 1 to 2.5 centimetres long.",
+ "label_onscreen": "SINARAPAN",
+ "source_onscreen": "Pinagmulan: Wikipedia; Guinness World Records",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang sinarapan ng Lawa ng Buhi, ayon sa Guinness, pinakamaliit na isdang inaani para ibenta!",
+   "emphasis": [
+    "maliit"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Isang kutsara, isang daang isda. Busog.",
+   "emphasis": [
+    "kutsara"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 18,
+ "after_text": "Sumisid ang Yúmud, ang diwa ng tubig mula sa Butuan, sa ilog Pasig, at iniahon ang isang sakong may mga ledger ng Dalisdis.",
+ "insert_time": 83.2,
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After the Yúmud dives into the Pasig and brings something up: what it is follows."
+}

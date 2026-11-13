@@ -1,0 +1,42 @@
+{
+ "fact_id": "t53",
+ "fact_english": "In 2016 the Oxford English Dictionary added the Filipino word \"kilig\", the giddy, fluttery feeling of romance.",
+ "label_onscreen": "KILIG",
+ "source_onscreen": "Pinagmulan: Wikipedia; Philippine Daily Inquirer",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 2016, idinagdag ng Oxford English Dictionary ang salitang kilig!",
+   "emphasis": [
+    "kilig"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ngayon, opisyal na: kinikilig din ang Ingles.",
+   "emphasis": [
+    "Ingles"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 15,
+ "after_text": "Personal na dumating ang may-ari, si Tobías Alcaín, si Tubal.",
+ "insert_time": 64.85,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After Tubal is named in person: how he looks and what he wants follow."
+}

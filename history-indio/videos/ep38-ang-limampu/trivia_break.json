@@ -1,0 +1,42 @@
+{
+ "fact_id": "t38",
+ "fact_english": "The kamagong or mabolo tree belongs to the same genus as ebony trees, and its fuzzy fruit is called the velvet apple.",
+ "label_onscreen": "MABOLO",
+ "source_onscreen": "Pinagmulan: Wikipedia; StuartXchange",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang mabolo o kamagong, kamag-anak ng ebony, at ang malambot-balbon nitong prutas, tinatawag na velvet apple!",
+   "emphasis": [
+    "velvet"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Mansanas na naka-sweater. Bagay sa tag-ulan.",
+   "emphasis": [
+    "sweater"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 19,
+ "after_text": "Sa isang paaralang ginawang evacuation center, itinayo ko ang Kalasag ni Lapulapu sa pintuan.",
+ "insert_time": 82.03,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the Kalasag is raised at the school doorway, before the logs hit. Grave episode (the flood rescue): gentle plant fact."
+}

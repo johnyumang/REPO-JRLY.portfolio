@@ -1,0 +1,43 @@
+{
+ "fact_id": "t37",
+ "fact_english": "The sampaguita, the national flower of the Philippines, did not start out there: botanists list it as native to Bhutan and India.",
+ "label_onscreen": "SAMPAGUITA",
+ "source_onscreen": "Pinagmulan: Wikipedia; Kew Plants of the World Online",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang sampaguita, pambansang bulaklak natin, hindi pala dito nagsimula: katutubo ito ng Bhutan at India, ayon sa mga botaniko.",
+   "emphasis": [
+    "Bhutan",
+    "India"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Dayo, pero dito umuwi. Welcome, sampaguita.",
+   "emphasis": [
+    "welcome"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 29,
+ "after_text": "Sa ikatlong gabi, umapaw ang ilog.",
+ "insert_time": 116.08,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After 'Sa ikatlong gabi, umapaw ang ilog.': the flood rising is told after the break. Grave episode (the flood): gentle plant fact."
+}
