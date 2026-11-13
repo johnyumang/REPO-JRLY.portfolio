@@ -29,7 +29,7 @@ sumagot ang mga diwa. sumagot ang mga kakampi. sumagot ang milyon. 📯 S5 EP 43
 **Description:** sumagot ang mga diwa, sumagot ang mga kakampi, sumagot ang milyon. Season 5, Episode 2. Totoo ang mga balangay ng Butuan (689–988). Kuwento ng serye ang gunaw, ang mga arko at ang tambuli. Kathang-isip sina Indio, Usman, M at ang barkada. #HistoryIndio #Shorts
 
 ## Pinned comment
-Ang totoo: 11 sinaunang balangay ang nahukay sa Butuan, carbon-dated 689–988; tablang pinagdugtong ng tarugo at tinalian. Noong 1007, may sugo si Rajah Kiling ng Butuan sa korte ng Song. Ang "barangay" mula sa "balangay": karaniwang turo, pinagtatalunan. Kuwento ng serye ang gunaw at ang digmaan; kathang-isip ang mga tauhan at ang mga diwa.
+Ang totoo: 11 sinaunang balangay ang natagpuan sa Butuan; ang mga na-carbon date, 689–988; tablang pinagdugtong ng tarugo at tinalian. Noong 1007, may sugo si Rajah Kiling ng Butuan sa korte ng Song. Ang "barangay" mula sa "balangay": karaniwang turo, pinagtatalunan. Kuwento ng serye ang gunaw at ang digmaan; kathang-isip ang mga tauhan at ang mga diwa.
 
 ## On-screen opener (first 2 seconds)
 HINDI SAPAT ANG MGA BANGKA.
