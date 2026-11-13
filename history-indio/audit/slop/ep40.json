@@ -1,0 +1,239 @@
+{
+ "episode": 40,
+ "audited_by": "two fresh readers (ep40 render machine)",
+ "keys_looked_at": 82,
+ "defects": [
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/m_dragon.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "M's hand over her mouth is a tangle of long fingers with about six fingertips, overlapping her other hand on the cheek.",
+   "where": "front hand over the mouth, centre of frame"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25,
+    102
+   ],
+   "still": "full/crowd_yard.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The person in the brown hat and pink hoodie in the front row has a melted orange smear instead of a face.",
+   "where": "bottom centre, front row of the crowd"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/no_refuse.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "The floral print of the pink-shirt girl's shorts runs down onto her bare legs.",
+   "where": "centre bottom, legs of the girl in the pink shirt"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/totoy_wind.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Tay Sebyo's pointing hand has a second forearm running out of its wrist to the right, merged with Totoy's arm.",
+   "where": "right half, below Sebyo's pointing hand"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/usman_kapitan.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a thin dog with two tall pricked ears and white socks, not the folded-ear dog of the other shots.",
+   "where": "dog, left of centre"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/sebyo_slow.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Tay Sebyo wears a blue vest over a yellow shirt here but a khaki work shirt in shots 22, 24 and 38 either side.",
+   "where": "whole figure"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/no_refuse.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A white stick with letter-like marks stands upright in front of the pink-shirt girl's legs with nobody holding it.",
+   "where": "bottom centre-left, in front of the girl's legs"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/quiet_oath.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's raised right hand shows a thumb and only two long boneless fingers.",
+   "where": "raised hand, upper left of Indio"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/totoy_hurt.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Totoy's clasped hands show three thumb-like tips and the fingers do not sort into two hands.",
+   "where": "clasped hands, centre"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/m_closes.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A white drip hangs from M's lower lip like drool.",
+   "where": "M's mouth, centre"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/usman_quiet.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded down instead of one folded ear.",
+   "where": "dog's ears, top of head"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/usman_cry.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears half-folded instead of one folded ear.",
+   "where": "dog's ears, top of head"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/quiet_oath.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has a goatee here that he has in no other shot of the episode.",
+   "where": "Indio's chin"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/usman_kapitan.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Totoy wears a brown jacket here instead of his sweat-stained T-shirt, and his cap colour changes from shot to shot (khaki, olive, black, tan).",
+   "where": "young man at right edge"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/room_all.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "In the middle bunks, several sleeping families melt into each other and into their blankets.",
+   "where": "middle and lower bunks"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/esteros.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A small figure sitting on a post in the water melts into the post and its reflection.",
+   "where": "bottom right, beside the pier"
+  },
+  {
+   "key": "k98",
+   "shots": [
+    98
+   ],
+   "still": "full/plank_stack.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Many of the stacked timbers are hollow like pipes, with round holes through the middle.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k99",
+   "shots": [
+    99
+   ],
+   "still": "full/map_wind.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The wind map has small scribbled letter-like labels.",
+   "where": "lower centre of the map"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/yard_laugh.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The worker behind the white-shirt man is a hooded lump whose face, hood and hands melt into the sack he is clutching, with one red eye showing.",
+   "where": "left of centre, between the white-shirt man and the man in the red shirt"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/totoy_wind.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Totoy's hanging left hand ends in a dark brown smudge instead of fingers.",
+   "where": "bottom centre, Totoy's left hand at his side"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/indio_follow40.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Indio's fist on Usman's back has no separate fingers and its lower edge runs straight into the dog's black hind leg.",
+   "where": "right half, Indio's hand resting on the dog"
+  }
+ ]
+}
