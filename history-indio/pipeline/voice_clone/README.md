@@ -151,17 +151,22 @@ line's words are not those of its sentence. Check an episode by hand: `pipeline/
 
 The narration, one of two ways (never by hand in an editor):
 - **(a) from the takes** (multi-voice episodes whose takes are on the machine, the cut sentence alone in its chunk or chunks):
-  `ms.py assemble $W $W/voice --cut 61,62` (the numbers under `cut` in the cut file), then `ms.py verify`. Copy
+  `ms.py assemble $W $W/voice --cut 61,62` (the numbers under `cut` in the cut file, WITHOUT a number that a `revoice`
+  line replaces: for Episodes 31 and 49 that leaves nothing to cut), then `ms.py verify`. Copy
   `$W/voice_timings.json` to `videos/<slug>/timings.json`. It stops when a cut sentence shares a chunk with a kept one:
   then use (b).
 - **(b) from the finished file** (Season 1 layout, or a cut sentence that shares a chunk with a kept one):
   `pipeline/cut_narration.py videos/<slug> <full voice.wav> <new voice.wav> --write`. It cuts at the quiet points around
   the sentence, leaves a natural pause, refuses a join that is not quiet (under 8 dB below the speech around it), writes
   the shifted timings (`--write` puts them in `videos/<slug>/timings.json`, the full ones stay as `timings_full.json`) and
-  prints where to listen. `cut_narration.py --self-test` proves the tool on a made voice.
+  prints where to listen. It also refuses timings that do not fit the file (pauses of the timings that hold speech: the
+  timings of another take), and an output path equal to the input. `cut_narration.py --self-test` proves the tool on a
+  made voice.
 - **A `revoice` line REPLACES the cut sentence it follows** (same number, same picture, new words): record the new words
-  as that sentence's chunk and assemble as usual; nothing is cut for it and the count does not change. `timings.json`
-  then carries the new words at that number, which the builder accepts.
+  as that sentence's chunk and assemble as usual; nothing is cut for it and the count does not change. Put `new_text`
+  into `plan.json` first (that sentence's `text`, and its chunk's text) so that the take is made from the new words and
+  `voice_timings.json`, and with it the subtitles, carry them. `timings.json` then has the new words at that number,
+  which the builder accepts; `narration_cuts.py` says `NOT recorded yet` as long as the old words are there.
 
 After either way: `pipeline/narration_cuts.py videos/<slug>` must print `narration cuts applied`, and the build log must
 print the same line. The trivia break finds its place by the words of its sentence (`after_text`), so it needs no change.

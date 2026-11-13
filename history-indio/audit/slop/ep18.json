@@ -12,7 +12,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The man holding the phone is not Indio: short loose hair with no topknot and no headband, a black tee, and big colour floral tattoos over both hands, both forearms and his neck instead of Indio's indigo forearm marks.",
-   "where": "whole frame, the figure behind the phone"
+   "where": "whole frame, the figure behind the phone",
+   "fixed": true
   },
   {
    "key": "k36",
@@ -23,7 +24,8 @@
    "type": "style",
    "must_fix": true,
    "what": "This still is a flat full-body character line-up of Indio and M standing side by side on a plain white page, not a painted night scene like every shot around it, so the cut to it jolts.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "fixed": true
   },
   {
    "key": "k38",
@@ -34,7 +36,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The man tearing the bread is not Indio: dark bangs with no topknot and no red headband, a black shirt, and large colour floral tattoos down both forearms and across the fingers.",
-   "where": "whole frame, face and both hands"
+   "where": "whole frame, face and both hands",
+   "fixed": true
   },
   {
    "key": "k41",
@@ -46,7 +49,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The hands overflowing with bread belong to a brown-haired young woman with earrings and a pale sweater, not to Indio, whose line this moment is.",
-   "where": "whole frame, face above the hands"
+   "where": "whole frame, face above the hands",
+   "fixed": true
   },
   {
    "key": "k44",
@@ -57,7 +61,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The golden double of Indio is drawn as a different man with short side-parted hair, no topknot and no red headband, so the two figures do not read as the same person.",
-   "where": "right half, the glowing figure's head"
+   "where": "right half, the glowing figure's head",
+   "fixed": true
   },
   {
    "key": "k48",
@@ -68,7 +73,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The face above the palm with the coins is a blue-eyed man with straight black bangs, no topknot and no headband, not Indio.",
-   "where": "upper half, face behind the hand"
+   "where": "upper half, face behind the hand",
+   "fixed": true
   },
   {
    "key": "k53",
@@ -79,7 +85,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio is drawn with reddish-brown hair, no topknot and a modern black hooded sweatshirt in a galleon-era harbour scene.",
-   "where": "lower right, the standing figure"
+   "where": "lower right, the standing figure",
+   "fixed": true
   },
   {
    "key": "k58",
@@ -90,7 +97,8 @@
    "type": "object",
    "must_fix": true,
    "what": "A modern blue motor scooter with handlebars and a round headlight stands parked against a drainpipe in the courtyard behind the 1565 signing hands.",
-   "where": "centre left background, behind the quill"
+   "where": "centre left background, behind the quill",
+   "fixed": true
   },
   {
    "key": "k42",
@@ -102,7 +110,8 @@
    "type": "writing",
    "must_fix": true,
    "what": "The boy kneeling in the foreground has rows of letter-like marks printed across the back of his orange shirt.",
-   "where": "lower centre, the back of the orange shirt"
+   "where": "lower centre, the back of the orange shirt",
+   "fixed": true
   },
   {
    "key": "k15",
@@ -257,7 +266,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "Two framed notices on the wall in the background are filled with rows of letter-like text.",
-   "where": "upper left, on the yellow wall"
+   "where": "upper left, on the yellow wall",
+   "fixed": true
   },
   {
    "key": "k64",
@@ -280,7 +290,8 @@
    "must_fix": true,
    "what": "Three hands pinch the medallion: the thumb at lower right rises from the bottom edge and cannot belong to the hand reaching in from the top right, so the picture reads as an extra hand.",
    "where": "lower right thumb against the top right hand",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k05",
@@ -341,7 +352,8 @@
    "must_fix": false,
    "what": "The galleon-era night scene is a sunny modern marina with white motor yachts, a concrete jetty, a café awning and apartment blocks.",
    "where": "whole background",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k46",
