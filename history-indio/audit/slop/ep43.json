@@ -73,7 +73,8 @@
    "what": "Usman is drawn as a chubby round cartoon puppy with both ears folded, softer than the dog in the other shots.",
    "where": "left half, the dog",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k60",
@@ -86,7 +87,8 @@
    "what": "Usman is a chubby puppy with both ears folded; the series sheet says one folded ear.",
    "where": "centre, the dog's head",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k54",
@@ -321,7 +323,8 @@
    "must_fix": false,
    "what": "Usman has both ears folded (Labrador-like head), the same drift as k52/k60; the sheet says one folded ear.",
    "where": "centre, the dog's head",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "rejected": "two redraws with the ears clause: one with both ears up, one with Indio drawn with a black face; original kept"
   }
  ],
  "refuted": [
