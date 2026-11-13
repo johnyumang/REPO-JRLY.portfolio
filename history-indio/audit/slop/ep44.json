@@ -5,27 +5,37 @@
  "defects": [
   {
    "key": "k02",
-   "shots": [2, 3],
+   "shots": [
+    2,
+    3
+   ],
    "still": "full/intro.jpg",
    "type": "hands",
    "must_fix": true,
    "what": "Indio reads as having three hands: his right sleeve ends in a clenched fist wrapped in a dark cuff at his left side, a second hand grips the red cloth at his waist, and a third hand reaches out to the right.",
    "where": "his left side (dangling fist), centre (red-cloth hand) and right (reaching hand)",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k02",
-   "shots": [2, 3],
+   "shots": [
+    2,
+    3
+   ],
    "still": "full/intro.jpg",
    "type": "off_model",
    "must_fix": true,
    "what": "Usman is a heavy broad-headed rottweiler-type dog with tan eyebrow spots and both ears folded, not the slim street dog with one folded ear seen in later shots (he keeps the red kerchief and white chest).",
    "where": "lower left, the dog's head and build",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k17",
-   "shots": [17],
+   "shots": [
+    17
+   ],
    "still": "full/no_horns.jpg",
    "type": "merge",
    "must_fix": false,
@@ -35,7 +45,9 @@
   },
   {
    "key": "k20",
-   "shots": [20],
+   "shots": [
+    20
+   ],
    "still": "full/lamp_raise.jpg",
    "type": "hands",
    "must_fix": false,
@@ -45,27 +57,35 @@
   },
   {
    "key": "k31",
-   "shots": [31],
+   "shots": [
+    31
+   ],
    "still": "full/rico_live.jpg",
    "type": "writing",
    "must_fix": true,
    "what": "Rico's yellow windbreaker carries a clear three-bar sports-brand (Adidas-style) logo on the chest, though the prompt calls for a plain jacket with no logo.",
    "where": "centre, right chest of the jacket",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k32",
-   "shots": [32],
+   "shots": [
+    32
+   ],
    "still": "full/rico_close.jpg",
    "type": "off_model",
    "must_fix": true,
    "what": "Rico has spiky dark brown-black hair in this close-up, while in k31/k34 he is grey-white haired, so the cut makes him look like a different man.",
    "where": "head, top of frame",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k34",
-   "shots": [34],
+   "shots": [
+    34
+   ],
    "still": "full/salamat_unseen.jpg",
    "type": "writing",
    "must_fix": false,
@@ -75,7 +95,9 @@
   },
   {
    "key": "k35",
-   "shots": [35],
+   "shots": [
+    35
+   ],
    "still": "full/salamat_near.jpg",
    "type": "off_model",
    "must_fix": false,
@@ -85,27 +107,35 @@
   },
   {
    "key": "k37",
-   "shots": [37],
+   "shots": [
+    37
+   ],
    "still": "full/rico_silent.jpg",
    "type": "off_model",
    "must_fix": true,
    "what": "Rico has slicked black hair and a jacket with black brand stripes on the sleeve; in k34/k35 just before, he is grey/white-haired.",
    "where": "head and jacket, centre",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k38",
-   "shots": [38],
+   "shots": [
+    38
+   ],
    "still": "full/matanda_diwa.jpg",
    "type": "hands",
    "must_fix": true,
    "what": "Rajah Matanda's raised glowing hand has only two or three long fingers and no clear thumb, the digits fusing at the base.",
    "where": "left, the raised hand",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k41",
-   "shots": [41],
+   "shots": [
+    41
+   ],
    "still": "full/kraken_tow.jpg",
    "type": "merge",
    "must_fix": false,
@@ -115,27 +145,35 @@
   },
   {
    "key": "k52",
-   "shots": [52],
+   "shots": [
+    52
+   ],
    "still": "full/m_shoulder.jpg",
    "type": "off_model",
    "must_fix": true,
    "what": "The man M rests her head on is not Indio (the script's narrator whose shoulder it is): he has short loose hair with no topknot, a light grey trench coat, no red cloth and a younger different face, so he reads as a stranger.",
    "where": "right figure, whole body",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k53",
-   "shots": [53],
+   "shots": [
+    53
+   ],
    "still": "full/usman_whistle.jpg",
    "type": "off_model",
    "must_fix": true,
    "what": "The couple seated behind Usman should be Indio (dark topknot, dark coat) and M (long black hair, dark coat) from the shot before, but are drawn as a brown-haired woman and a blond ponytailed youth in T-shirts.",
    "where": "upper left, the two seated figures",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k53",
-   "shots": [53],
+   "shots": [
+    53
+   ],
    "still": "full/usman_whistle.jpg",
    "type": "off_model",
    "must_fix": false,
@@ -145,7 +183,9 @@
   },
   {
    "key": "k54",
-   "shots": [54],
+   "shots": [
+    54
+   ],
    "still": "full/usman_explain.jpg",
    "type": "off_model",
    "must_fix": false,
@@ -155,27 +195,35 @@
   },
   {
    "key": "k56",
-   "shots": [56],
+   "shots": [
+    56
+   ],
    "still": "full/datus_1570.jpg",
    "type": "face",
    "must_fix": true,
    "what": "The white-haired elder is shown semi-frontally with a broken face: a slit for the eyes and a nose that melts into a beard covering the whole lower face, so it reads as a blank mask (the prompt intended the chieftains seen from behind with no faces).",
    "where": "lower left figure's head",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k60",
-   "shots": [60],
+   "shots": [
+    60
+   ],
    "still": "full/tubal_boat.jpg",
    "type": "duplicate",
    "must_fix": true,
    "what": "Tubal appears twice: large in the foreground boat and again as a small grey-haired man in a dark suit standing in a second boat in the background.",
    "where": "foreground right and the small boat mid-left",
-   "found_by": "first"
+   "found_by": "first",
+   "fixed": true
   },
   {
    "key": "k62",
-   "shots": [62],
+   "shots": [
+    62
+   ],
    "still": "full/comment.jpg",
    "type": "off_model",
    "must_fix": false,
@@ -185,7 +233,9 @@
   },
   {
    "key": "k64",
-   "shots": [64],
+   "shots": [
+    64
+   ],
    "still": "full/follow.jpg",
    "type": "limbs",
    "must_fix": false,
@@ -200,5 +250,6 @@
    "what": "Usman's hindquarters are a shapeless black mass that grows into Indio's hand, the hand coming out of the dog with no arm and a clawed paw curling beside it.",
    "why": "The gesturing hand is clearly Indio's own: its wrist carries his red kerchief and connects up into his grey coat sleeve. The clawed shape at lower right is the dog's normal forepaw. Dark coat and dark dog overlap but nothing is merged or disembodied."
   }
- ]
+ ],
+ "third_reader": "8 kept, 1 reverted (matanda_diwa first redraw: eyeless face, mitten hands); matanda_diwa redrawn again (hands hidden, face whole, matches matanda_tired) and kept"
 }
