@@ -15,5 +15,7 @@ Only tooling lives here. The manuscript, the detailed story, covers, EPUB/PDF fi
 Needs: pandoc, Pillow, numpy, soundfile, ffmpeg, node with Playwright. EPUB validation: `pip install epubcheck`, then
 `python -m epubcheck book.epub` (needs Java).
 
+Set `"text_only": true` in book.json for an edition with no pictures at all: a plain typographic cover drawn by the builder, no chapter art, no map (used while the rights to the generated stills are open).
+
 Rules: no sales claims that are not true; "Kathang-isip sina Indio at Usman; totoo ang kasaysayan" on the cover and in the
 front matter; every chapter ends with its Tala ng Saksi (tiyak, pinagtatalunan, kathang-isip).

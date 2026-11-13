@@ -30,6 +30,7 @@ def cover_fit(im, W, H):
     return im.crop((x, y, x + W, y + H))
 
 def make_cover(path, W=1600, H=2560):
+    if B.get('text_only'): return make_type_cover(path, W, H)
     fr = Image.open(os.path.join(HI, B['cover_frame'])).convert('RGB')
     k = W / fr.width; fr = fr.resize((W, round(fr.height * k)), Image.LANCZOS)
     top = round(H * 0.17)                                     # push the picture down so the title never covers a face
@@ -61,7 +62,24 @@ def make_cover(path, W=1600, H=2560):
         im.paste(L, ((W - L.width) // 2, H - 150), L)
     im.save(path, quality=90)
 
+def make_type_cover(path, W, H):
+    """plain typographic cover: no pictures at all (for editions sold without the generated art)."""
+    im = Image.new('RGB', (W, H), (18, 14, 10)); d = ImageDraw.Draw(im); gold = (232, 186, 96); cream = (245, 236, 218)
+    for y in range(H):
+        t = y / H; c = int(18 + 22 * (1 - abs(t - 0.45) * 2))
+        d.line([(0, y), (W, y)], fill=(c, int(c * 0.8), int(c * 0.55)))
+    d.rectangle([60, 60, W - 60, H - 60], outline=gold, width=6)
+    title, sub = B['title'].split(':')[0].strip(), B['title'].split(':', 1)[1].strip() if ':' in B['title'] else ''
+    f1 = font('InterDisplay-Black', 300); tw = d.textlength(title, font=f1); f1 = font('InterDisplay-Black', int(300 * min(1, W * 0.82 / tw))); tw = d.textlength(title, font=f1)
+    d.text(((W - tw) / 2, H * 0.30), title, font=f1, fill=gold)
+    for txt, f, y, col in ((sub, font('InterDisplay-Bold', 110), 0.30 + 0.14, cream), (B.get('subtitle', ''), font('InterDisplay-SemiBold', 64), 0.62, cream),
+                           (B.get('tagline', 'Kathang-isip sina Indio at Usman; totoo ang kasaysayan.'), font('Inter-Medium', 44), 0.88, (210, 198, 176)),
+                           (B.get('author', ''), font('InterDisplay-SemiBold', 54), 0.92, gold)):
+        if txt: w = d.textlength(txt, font=f); d.text(((W - w) / 2, H * y), txt, font=f, fill=col)
+    im.save(path, quality=92)
+
 def art(rel, name, maxh=1400):
+    if B.get('text_only'): return None
     if not os.path.exists(os.path.join(HI, rel)): print('art missing, skipped:', rel); return None
     im = Image.open(os.path.join(HI, rel)).convert('RGB')
     if im.height > maxh: im = im.resize((round(im.width * maxh / im.height), maxh), Image.LANCZOS)
@@ -82,7 +100,7 @@ for i, ch in enumerate(B['chapters'], 1):
     t = f"{head}\n\n![]({img}){{.chapter-art}}\n{rest}" if img else f"{head}\n{rest}"
     t = re.sub(r'^## (Tala ng Saksi|Witness Notes)', r'## \1 {.tala}', t, flags=re.M)
     parts.append(t)
-if B.get('map_frame'):  # map page after the last chapter
+if B.get('map_frame') and not B.get('text_only'):  # map page after the last chapter
     m = art(B['map_frame'], 'map.jpg')
     parts.append(f"# {B.get('map_title', 'Ang Kasulatan')} {{.unnumbered}}\n\n![]({m}){{.chapter-art}}\n\n*{B.get('map_caption', 'Labindalawang tuldok. Labindalawang medalyon. Sa Ikalawang Aklat: Ang Labindalawa.')}*\n")
 for f in B.get('back', []):
