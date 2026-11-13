@@ -139,6 +139,8 @@ paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 200))]
 import narration_cuts                                                                       # sentences cut from the narration: their shots go too; NOTHING is renumbered
 SRC, _note = narration_cuts.source_index(vdir, tim)                                         # timings index -> original sentence number (its key and shots_fx entry)
 if _note: print(_note, flush=True)
+_rn = narration_cuts.renumbered_shots(FX, SRC)
+if len(_rn) >= 2: sys.exit(f'shots_fx.json was renumbered by hand for this cut (entries {_rn[:6]}... carry "key" of the next sentence): restore the original from git; the map does the rest.')
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total

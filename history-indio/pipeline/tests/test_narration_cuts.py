@@ -46,5 +46,24 @@ class Cuts(unittest.TestCase):
         d, _ = ep(c); t = [dict(x) for i, x in enumerate(T) if i != 2]; t[5]['text'] = 'bagong linya.'; src, note = nc.source_index(d, t)
         self.assertEqual(src, [0, 1, 3, 4, 5, 6, 7, 8, 9])
 
+    def test_renumbered_sentences_stop(self):
+        d, _ = ep({'cut': [{'index': 3, 'text': S[3]['text']}]}); json.dump([s for i, s in enumerate(S) if i != 3], open(d + '/sentences.json', 'w'))
+        with self.assertRaises(SystemExit): nc.source_index(d, [x for i, x in enumerate(T) if i != 3])
+
+    def test_cut_number_out_of_range_stops(self):
+        d, _ = ep({'cut': [{'index': 10, 'text': 'wala.'}]})
+        with self.assertRaises(SystemExit): nc.source_index(d, T)
+
+    def test_quotes_and_spaces_do_not_count(self):
+        d, _ = ep({'cut': [{'index': 3, 'text': S[3]['text']}]}); t = [dict(x) for i, x in enumerate(T) if i != 3]; t[0]['text'] = 'pangungusap  0.'
+        src, note = nc.source_index(d, t); self.assertEqual(src[3], 4)
+
+    def test_renumbered_shots_are_found(self):
+        src = [0, 1, 2, 4, 5, 6, 7, 8, 9]                                   # sentence 3 cut
+        hand = {'0': {'move': 'push_in'}, '3': {'key': 4}, '4': {'key': 5, 'fx': ['embers']}, '5': {'key': 6}}
+        self.assertEqual(nc.renumbered_shots(hand, src), [3, 4, 5])
+        ok = {'0': {'move': 'push_in'}, '4': {'key': 2}, '6': {'fx': ['water']}}   # original numbering; a reused key that is not the shift
+        self.assertEqual(nc.renumbered_shots(ok, src), [])
+
 
 if __name__ == '__main__': unittest.main()
