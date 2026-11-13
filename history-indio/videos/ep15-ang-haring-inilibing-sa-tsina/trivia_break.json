@@ -1,0 +1,42 @@
+{
+ "fact_id": "t21",
+ "fact_english": "The butaan, a large monitor lizard of southern Luzon and nearby islands, eats mostly ripe fruit, which is unusual for a monitor lizard.",
+ "label_onscreen": "BUTAAN",
+ "source_onscreen": "Pinagmulan: Wikipedia; Smithsonian research profile",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang butaan, malaking bayawak sa timog Luzon, prutas ang karaniwang kinakain!",
+   "emphasis": [
+    "prutas"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Bayawak na vegetarian. Kahit ako, hindi ko kinaya.",
+   "emphasis": [
+    "vegetarian"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Anong pangalan mo?",
+ "estimated_time_note": "no timings.json yet; about 61 s by word count",
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After 'Anong pangalan mo?': the boy's answer comes right after the break."
+}

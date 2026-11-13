@@ -1,0 +1,42 @@
+{
+ "fact_id": "t44",
+ "fact_english": "Piña is a fine Philippine cloth woven from the fibres of pineapple leaves.",
+ "label_onscreen": "PIÑA",
+ "source_onscreen": "Pinagmulan: Wikipedia; University of Michigan",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang piña, pinong tela natin, hinahabi mula sa hibla ng dahon ng pinya!",
+   "emphasis": [
+    "pinya"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Prutas na naging barong. Sana ako rin, maging pormal.",
+   "emphasis": [
+    "barong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 24,
+ "after_text": "Dalawandaan at limampung taon ng barko?",
+ "estimated_time_note": "no timings.json yet; about 102 s by word count",
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After Usman's '250 years of ships?': the answer about the ship comes next."
+}

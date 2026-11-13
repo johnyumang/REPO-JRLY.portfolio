@@ -1,0 +1,42 @@
+{
+ "fact_id": "t23",
+ "fact_english": "The binturong, found in Palawan, gives off a scent often compared to buttered popcorn.",
+ "label_onscreen": "BINTURONG",
+ "source_onscreen": "Pinagmulan: Wikipedia; Duke Today",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang binturong ng Palawan, may amoy na madalas ikumpara sa popcorn na may mantikilya!",
+   "emphasis": [
+    "popcorn"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Hayop na amoy-sinehan. Sige, tatabihan ko.",
+   "emphasis": [
+    "sinehan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Uminit ang medalyon ni M, mabagal, parang ayaw.",
+ "insert_time": 69.28,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'Uminit ang medalyon ni M, mabagal, parang ayaw.': the slow jump leaves the viewer waiting for where it lands."
+}

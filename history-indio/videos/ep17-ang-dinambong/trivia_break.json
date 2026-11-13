@@ -1,0 +1,42 @@
+{
+ "fact_id": "t05",
+ "fact_english": "Dugongs, which live in Philippine seas, are not closely related to whales or dolphins; apart from manatees, their closest living relatives are elephants.",
+ "label_onscreen": "DUGONG",
+ "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang dugong, hindi malapit na kamag-anak ng balyena o dolphin. Bukod sa manatee, elepante ang pinakamalapit na kamag-anak nito!",
+   "emphasis": [
+    "elepante"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Elepante ng dagat, walang tuhod, puro damo. Respeto.",
+   "emphasis": [
+    "respeto"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Pero sa lente, may anino sa bubong ng 1888, at nakatingin siya pabalik sa akin.",
+ "estimated_time_note": "no timings.json yet; about 77 s by word count",
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After the shadow on the 1888 rooftop looks back at Indio: a half-made reveal."
+}

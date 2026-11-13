@@ -1,0 +1,42 @@
+{
+ "fact_id": "t60",
+ "fact_english": "Kangkong is a relative of the sweet potato and the morning glory.",
+ "label_onscreen": "KANGKONG",
+ "source_onscreen": "Pinagmulan: Wikipedia; PROTA via Pl@ntNet",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kangkong, par, kamag-anak pala ng kamote at ng morning glory!",
+   "emphasis": [
+    "kamote"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala masarap sa adobo. May dugong maharlika.",
+   "emphasis": [
+    "maharlika"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 18,
+ "after_text": "Ikaanim kong talon, sa medalyon ni M.",
+ "insert_time": 70.64,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'Ikaanim kong talon, sa medalyon ni M.': the jump has started but the place is not yet shown."
+}

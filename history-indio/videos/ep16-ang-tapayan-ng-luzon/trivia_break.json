@@ -1,0 +1,42 @@
+{
+ "fact_id": "t35",
+ "fact_english": "Ube is a yam, not a sweet potato or a taro, even though people often mix them up.",
+ "label_onscreen": "UBE",
+ "source_onscreen": "Pinagmulan: Wikipedia; Tasting Table",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang ube, par, hindi kamote at hindi gabi. Isa itong uri ng yam!",
+   "emphasis": [
+    "yam"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ilang taon ko nang mali ang tawag. Hindi ko na sasabihin kanino.",
+   "emphasis": [
+    "mali"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 27,
+ "after_text": "Pero bakit nasa Japan ang medalyon ng isang taga-Tondo?",
+ "estimated_time_note": "no timings.json yet; about 104 s by word count",
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After the question 'Pero bakit nasa Japan ang medalyon ng isang taga-Tondo?', answered by the lens right after."
+}

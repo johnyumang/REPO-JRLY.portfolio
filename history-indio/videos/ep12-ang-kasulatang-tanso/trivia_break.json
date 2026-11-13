@@ -1,0 +1,42 @@
+{
+ "fact_id": "t02",
+ "fact_english": "Male Visayan warty pigs have spiky hair on their heads, and in the breeding season it grows into a long mane, like a mohawk.",
+ "label_onscreen": "BABOY-DAMO",
+ "source_onscreen": "Pinagmulan: Wikipedia; National Geographic",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang lalaking baboy-damo ng Kabisayaan, may buhok sa ulo na humahaba tuwing panahon ng ligawan.",
+   "emphasis": [
+    "ligawan"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Parang mohawk. Pumoporma rin pala ang baboy.",
+   "emphasis": [
+    "mohawk"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 13,
+ "after_text": "Taong 900, sa pampang ng lawa, hindi tanso ang una kong nakita kundi mga tao.",
+ "insert_time": 65.36,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After 'hindi tanso ang una kong nakita kundi mga tao': who the people are is the next sentence."
+}

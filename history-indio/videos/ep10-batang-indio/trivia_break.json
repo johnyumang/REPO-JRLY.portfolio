@@ -1,0 +1,42 @@
+{
+ "fact_id": "t03",
+ "fact_english": "The Philippine flying lemur, or kagwang, is not a lemur and cannot truly fly; it glides on a wide skin membrane between its limbs.",
+ "label_onscreen": "KAGWANG",
+ "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kagwang, tinatawag na flying lemur, hindi lemur, at hindi talaga lumilipad!",
+   "emphasis": [
+    "hindi"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Dumadausdos lang gamit ang balat sa pagitan ng mga paa. Mali-mali na nga ang pangalan, ang galing pa rin.",
+   "emphasis": [
+    "dumadausdos"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 25,
+ "after_text": "E bakit po nasa textbook natin?",
+ "estimated_time_note": "no timings.json yet; about 92 s by word count",
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After JM's 'E bakit po nasa textbook natin?': the class waits for young Indio's answer."
+}

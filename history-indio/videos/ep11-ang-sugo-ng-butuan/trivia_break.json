@@ -1,0 +1,42 @@
+{
+ "fact_id": "t15",
+ "fact_english": "The Palawan stink badger is not a true badger: it belongs to the skunk family.",
+ "label_onscreen": "PANTOT",
+ "source_onscreen": "Pinagmulan: Wikipedia; Mammal Diversity Database",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang pantot ng Palawan, tinatawag na stink badger, hindi pala badger.",
+   "emphasis": [
+    "pantot"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kamag-anak siya ng skunk. Kaya pala ganoon ang pangalan.",
+   "emphasis": [
+    "skunk"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 18,
+ "after_text": "Uminit ang medalyon ni M, at may tumahol sa loob ng liwanag.",
+ "insert_time": 79.17,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After 'may tumahol sa loob ng liwanag': who barked is answered right after the break."
+}
