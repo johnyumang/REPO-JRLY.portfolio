@@ -1,0 +1,80 @@
+{
+ "episode": 49,
+ "audited_by": "worker-davinci",
+ "stills_looked_at": 73,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/notebook.jpg",
+   "shots": [
+    28
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open notebook in the woman's hands and the glowing lines floating off it are filled with rows of Japanese-like pseudo-script instead of a blank page or the scripted line."
+  },
+  {
+   "still": "full/ask_build.jpg",
+   "shots": [
+    63
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The red shop banner at upper right and the blue signs on the left of the Philippine street carry CJK-style pseudo-characters."
+  },
+  {
+   "still": "full/lens_paris_burn.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The papers spread over the table inside the lens are covered in small rows of pseudo-text and table scribbles."
+  },
+  {
+   "still": "full/indio_enough.jpg",
+   "shots": [
+    13
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "A small torii-like gate stands at the far end of the pier against the sunrise, right of Indio's head."
+  },
+  {
+   "still": "full/usman_breakfast.jpg",
+   "shots": [
+    55
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pointed upright with no folded ear, unlike his model."
+  },
+  {
+   "still": "full/usman_crown.jpg",
+   "shots": [
+    10
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears flopped down and a stray white triangle mark over his left eye."
+  },
+  {
+   "still": "full/eat_together.jpg",
+   "shots": [
+    48
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The topknot man eating bread on the right wears a plain white shirt with no dark grey coat or red wrist handkerchief, so he does not read as this season's Indio."
+  },
+  {
+   "still": "full/three_shore.jpg",
+   "shots": [
+    53
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio, seen from behind on the left, has a long hanging ponytail instead of his small topknot."
+  }
+ ]
+}
