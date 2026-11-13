@@ -1,0 +1,296 @@
+{
+ "episode": 12,
+ "audited_by": "render-ep17",
+ "stills_looked_at": 81,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/kawi_close.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The 'Kawi' copper plate close-up is filled with rows of modern Latin cursive pseudo-words ('Aurgin', 'Chuobitm'), filling the whole frame."
+  },
+  {
+   "still": "full/scribe_hands.jpg",
+   "shots": [
+    93
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The scribe engraves Latin cursive pseudo-words ('cuo... Ikarando') on the copper, with a modern pen in the lower hand."
+  },
+  {
+   "still": "full/museum_plate2.jpg",
+   "shots": [
+    53
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The museum copper plate is a round disc with four lines of large Latin cursive pseudo-words across its centre."
+  },
+  {
+   "still": "full/lens_plate.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The lens shows a girl's face overlaid with glowing Latin cursive pseudo-letters instead of the copper plate."
+  },
+  {
+   "still": "full/medal_kasulatan.jpg",
+   "shots": [
+    41
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The glowing medallion in M's palm is ringed with rows of tiny pseudo-text around a feather emblem."
+  },
+  {
+   "still": "full/jayadewa_scroll.jpg",
+   "shots": [
+    103
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Glowing Latin cursive letters (an 'S' and loops) float over M's face and the coin at her lips bears a large gothic letter 'B'."
+  },
+  {
+   "still": "full/phone_contract.jpg",
+   "shots": [
+    44
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The phone screen shows an app header 'Ntesy' and a full page of gibberish pseudo-text lines with checkbox UI."
+  },
+  {
+   "still": "full/party_bottles.jpg",
+   "shots": [
+    100
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Bottle labels in the foreground carry pseudo-text ('NU...') and barcodes, and the phone screen shows UI text."
+  },
+  {
+   "still": "full/holo12.jpg",
+   "shots": [
+    48
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The left figure has two overlapping heads (one translucent facing right over one facing left), plus an extra pink-haired girl in the background."
+  },
+  {
+   "still": "full/holo12.jpg",
+   "shots": [
+    48
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog at bottom right is a long-haired black retriever with no red kerchief, no white chest patch and no folded ear."
+  },
+  {
+   "still": "full/forest_path.jpg",
+   "shots": [
+    22
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "M is drawn twice: two identical long-black-haired women in black coats walk side by side next to Indio."
+  },
+  {
+   "still": "full/flight_trees.jpg",
+   "shots": [
+    32
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "An extra pair of bare human feet sticks out at the left edge, and Indio's leg merges into the tikbalang's leg."
+  },
+  {
+   "still": "full/indio_pat.jpg",
+   "shots": [
+    51
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is drawn as a shaggy long-haired black dog with no red kerchief and no white chest patch."
+  },
+  {
+   "still": "full/jump_lumban.jpg",
+   "shots": [
+    11
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman appears as a small black cat on M's shoulder; M has pink-blonde hair and Indio wears a brown suit with no topknot."
+  },
+  {
+   "still": "full/walk_lake.jpg",
+   "shots": [
+    65
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio, seen from behind, has waist-long loose black hair like M instead of a short cut with a small topknot."
+  },
+  {
+   "still": "full/oldest_doc.jpg",
+   "shots": [
+    20
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The plate in the case shows rows of blocky, CJK-like pseudo-glyphs, and the left wall panel has pseudo-text."
+  },
+  {
+   "still": "full/sign_papers.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The contract pages carry visible lines of pseudo-text being signed."
+  },
+  {
+   "still": "full/usman_list.jpg",
+   "shots": [
+    50
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The floating hologram panel has small rows of pseudo-text lines; Usman also has both ears upright."
+  },
+  {
+   "still": "full/gold_weigh.jpg",
+   "shots": [
+    17
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "A woman's closed eyes show through the glass of the scale as if the face is part of the object, with four hands crowding the frame."
+  },
+  {
+   "still": "full/cut_net.jpg",
+   "shots": [
+    29
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "A girl's anime face with horse ears peers out behind the dagger, and a second blade crosses the first one."
+  },
+  {
+   "still": "full/makiling_mt.jpg",
+   "shots": [
+    57
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "A giant pale woman's head and bare shoulders lie on the mountainside, reading as a body/face growing out of the slope."
+  },
+  {
+   "still": "full/usman_ride_air.jpg",
+   "shots": [
+    12
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing upright, no folded ear."
+  },
+  {
+   "still": "full/usman_ask.jpg",
+   "shots": [
+    37
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing upright, no folded ear."
+  },
+  {
+   "still": "full/usman_serious.jpg",
+   "shots": [
+    46
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing upright, no folded ear, and a white blaze on his forehead."
+  },
+  {
+   "still": "full/ride_hook.jpg",
+   "shots": [
+    0
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has short brown spiky hair with no topknot and a boyish face."
+  },
+  {
+   "still": "full/indio_watch_900.jpg",
+   "shots": [
+    21
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot, and M wears Indio's red headband."
+  },
+  {
+   "still": "full/tikbalang_throw.jpg",
+   "shots": [
+    30
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot."
+  },
+  {
+   "still": "full/leap_back.jpg",
+   "shots": [
+    31
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot and a boyish face."
+  },
+  {
+   "still": "full/nakita_tb.jpg",
+   "shots": [
+    35
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot."
+  },
+  {
+   "still": "full/indio_shrug.jpg",
+   "shots": [
+    45
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot."
+  },
+  {
+   "still": "full/m_warn12.jpg",
+   "shots": [
+    47
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot and an emblem on his headband."
+  },
+  {
+   "still": "full/tb_rest.jpg",
+   "shots": [
+    105
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair with no topknot."
+  }
+ ]
+}

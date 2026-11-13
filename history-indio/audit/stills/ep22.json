@@ -1,0 +1,143 @@
+{
+ "episode": 22,
+ "audited_by": "render-ep17",
+ "stills_looked_at": 82,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/kin_panels.jpg",
+   "shots": [
+    36
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Three vertical comic panels separated by dark gutters, each with a different hairy giant in a forest."
+  },
+  {
+   "still": "full/indio_lesson.jpg",
+   "shots": [
+    31
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Two small stone towers are pasted onto Indio's cheeks just under his eyes, reading as growths on his face rather than reflections."
+  },
+  {
+   "still": "full/kiling_chest.jpg",
+   "shots": [
+    21
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "Top-left background: a red flag with a white cross (Swiss/Danish-like) waving over the crowd behind Indio."
+  },
+  {
+   "still": "full/confusion_hook.jpg",
+   "shots": [
+    1
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Bottom-right worker has a small label patch on his shirt with pseudo-text marks."
+  },
+  {
+   "still": "full/overseer_face.jpg",
+   "shots": [
+    39
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The overseer's black headband carries a gold glyph-like emblem in the centre."
+  },
+  {
+   "still": "full/dig_site.jpg",
+   "shots": [
+    60
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The archaeologist's notebook (lower right) shows rows of handwritten pseudo-text."
+  },
+  {
+   "still": "full/indio_point22.jpg",
+   "shots": [
+    65
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Papers pinned on the left wall and the note under the shelf show text-like lines."
+  },
+  {
+   "still": "full/indio_clarify22.jpg",
+   "shots": [
+    56
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Modern Indio in a dark jacket and black tee with the red headband, not the orange windbreaker over white polo with medallion."
+  },
+  {
+   "still": "full/indio_label22.jpg",
+   "shots": [
+    62
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Modern Indio in a navy hoodie with the red headband, no orange windbreaker, white polo or medallion."
+  },
+  {
+   "still": "full/indio_point22.jpg",
+   "shots": [
+    65
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Modern Indio in a dark zip jacket with the red headband, no orange windbreaker, white polo or medallion."
+  },
+  {
+   "still": "full/indio_ask22.jpg",
+   "shots": [
+    66
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Modern Indio in a black sweater with the red headband, no orange windbreaker, white polo or medallion."
+  },
+  {
+   "still": "full/indio_follow22.jpg",
+   "shots": [
+    67
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio in a black tee and trousers with the red headband, no orange windbreaker, white polo or medallion."
+  },
+  {
+   "still": "full/m_bow.jpg",
+   "shots": [
+    11
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman beside M is a fluffy long-haired black dog with a collar and tag, no red kerchief visible."
+  },
+  {
+   "still": "full/balangay_back.jpg",
+   "shots": [
+    63
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn as a Labrador with both ears floppy, no single folded ear."
+  },
+  {
+   "still": "full/usman_wind.jpg",
+   "shots": [
+    102
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully erect and no white chest patch."
+  }
+ ]
+}

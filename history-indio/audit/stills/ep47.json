@@ -1,0 +1,134 @@
+{
+ "episode": 47,
+ "audited_by": "render-ep17",
+ "stills_looked_at": 81,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/eve_bay.jpg",
+   "shots": [
+    1
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Three stacked panels of the fleet with gutters between them, plus a man's face inset in the middle panel."
+  },
+  {
+   "still": "full/still_sky.jpg",
+   "shots": [
+    15
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Four stacked horizontal strips (shore, face, hand, star) forming a comic-page collage."
+  },
+  {
+   "still": "full/rain_again.jpg",
+   "shots": [
+    61
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Stacked strips of ships in the rain with a boy's face inset bottom right, a comic-page collage."
+  },
+  {
+   "still": "full/rescue_fleet.jpg",
+   "shots": [
+    11
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "Flooded street of a Japanese-style city lined with vertical red signs and billboards in pseudo-kanji/katakana."
+  },
+  {
+   "still": "full/umbrella_open.jpg",
+   "shots": [
+    49
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Under the red umbrella are two young women; Indio (topknot, grey coat, red wrist handkerchief) is missing and replaced by a girl in a grey coat."
+  },
+  {
+   "still": "full/usman_eyes.jpg",
+   "shots": [
+    43
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "Background behind Usman (a Butuan memory) is a Japanese-style town with tiled roofs and a shop sign bearing glyphs."
+  },
+  {
+   "still": "full/usman_talks.jpg",
+   "shots": [
+    34
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Dark background behind Usman has vertical hanging signs with Japanese-like glyphs."
+  },
+  {
+   "still": "full/comment.jpg",
+   "shots": [
+    68
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Blurred shop signs behind Indio carry katakana-like glyphs."
+  },
+  {
+   "still": "full/x_bowls.jpg",
+   "shots": [
+    91
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Top edge: shop signs with kanji-like glyphs at left and a red vertical sign with marks at right."
+  },
+  {
+   "still": "full/star_hand.jpg",
+   "shots": [
+    8
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has loose purple-tinted hair with no topknot, and the wishing star is drawn as the hilt of a dagger."
+  },
+  {
+   "still": "full/m_chose.jpg",
+   "shots": [
+    58
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is a young man with short hair and no topknot, in a suit, without the grey coat or red wrist handkerchief."
+  },
+  {
+   "still": "full/bagumbayan_hand.jpg",
+   "shots": [
+    40
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Young Indio in the Bagumbayan memory has short messy hair, no topknot, red headband or medallion, in a white zip jacket."
+  },
+  {
+   "still": "full/usman_looks.jpg",
+   "shots": [
+    50
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is a tall Great Dane-like dog with both ears erect, and the two people beside him are two young women instead of Indio and M."
+  },
+  {
+   "still": "full/family_whole.jpg",
+   "shots": [
+    37
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman (lower right) wears a gold collar with no red kerchief and has both ears floppy."
+  }
+ ]
+}
