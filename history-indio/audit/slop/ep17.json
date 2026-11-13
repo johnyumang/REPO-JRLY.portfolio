@@ -1,0 +1,367 @@
+{
+ "episode": 17,
+ "audited_by": "render-ep17 (two readers)",
+ "keys_looked_at": 81,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/rooftop_chase.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The rooftop shadow (Spring-heeled Jack) is drawn as a long-haired young woman in a black coat who reads as M with red eyes, and Indio, who is being chased, is not in the picture.",
+   "where": "whole figure, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/crossing_wave.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The two hands on the brass lens are a knot of knuckles: the fingers cannot be counted per hand, and a ring sits on a finger that seems to point the wrong way.",
+   "where": "both hands on the lens, lower centre",
+   "reader": "both"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/lens_raise.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 'lens' he raises is an opaque solid gold ball, so it cannot be looked through.",
+   "where": "raised hand, top left corner",
+   "reader": "second"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/ransom_table.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A modern smartphone lies on the 1762 table.",
+   "where": "lower left of the lens, table edge",
+   "reader": "both"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/manuscripts_carried.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The copper map plates are drawn as cymbals with centre knobs.",
+   "where": "copper discs held lower left and lower right",
+   "reader": "both"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/shadow_in_lens.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The shadow in the lens is a grinning short-haired girl with hair over one eye, not the tall gaunt cloaked figure with red eyes seen in the other Jack shots.",
+   "where": "figure inside the lens, right half",
+   "reader": "both"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/m_hand_out.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "M holds a closed red umbrella in her left hand while a second, open red umbrella floats over her head with no hand on its shaft.",
+   "where": "open umbrella upper half; closed umbrella lower left",
+   "reader": "second"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/usman_light.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two floppy ears, tan-washed legs and a white tag pendant, and no white chest patch.",
+   "where": "dog, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/usman_beg.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two large upright ears, not one folded ear, so he looks like another dog in this close-up.",
+   "where": "both ears, top of frame",
+   "reader": "both"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/jack_leap.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "A third long thin limb or tail hangs from between Jack's two clawed legs down to the pavement and curls at the bottom right.",
+   "where": "between the legs, lower centre",
+   "reader": "both"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two large upright ears instead of one folded ear, and he is smiling with his mouth open on a growl line.",
+   "where": "ears, top of frame",
+   "reader": "both"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/jack_reveal.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Jack has a shaved head and ordinary trousers and boots, unlike the long-haired, spindly-legged Jack of k31, k32 and k64.",
+   "where": "head and legs, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/arrow_pin.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Jack is a plain short-haired man in a coat holding the light arrow in his hand, so he does not read as the same creature, and nothing is pinned.",
+   "where": "figure and arrow, left half",
+   "reader": "both"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/jack_into_holo.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has a shoulder-length brown bob instead of long black hair, and Jack is a bald old man in a maroon robe.",
+   "where": "M on the left, Jack on the right",
+   "reader": "both"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a bulky Labrador-like dog with both ears hanging and no white chest patch, and his red kerchief has turned into a red-and-white band around his body.",
+   "where": "whole dog; kerchief over the shoulder",
+   "reader": "both"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/usman_wave.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears are folded, where the cast sheet gives him one.",
+   "where": "ears, top centre",
+   "reader": "both"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/return_now.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is a young schoolgirl with short dark-brown hair in a grey hoodie with a red neckerchief, not the woman with long black hair, long dark coat and red umbrella.",
+   "where": "girl, lower right, at the right frame edge (a reframe would lose M, so redraw)",
+   "reader": "both"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/ambush_door.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Three men with the same face and haircut fill the frame, the left man's glowing flashlight ends in the middle man's mouth as if he were biting it, and M is missing.",
+   "where": "all three figures; flashlight at centre left",
+   "reader": "both"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/speed_streak.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's and M's skin are both much darker than in every other London shot, and Indio's face is broader, so the pair look like other people.",
+   "where": "Indio's face, upper middle",
+   "reader": "both"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/mud_stop.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has short brown hair and wears a black hoodie over a plaid shirt, and has no long coat or umbrella; she would not be recognised.",
+   "where": "woman, centre right",
+   "reader": "both"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/heater_laugh.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's hair is dark grey with slicked-back side strands, his face older and harder, and he wears a black shirt and wristband instead of the grey hooded jacket of the other London shots.",
+   "where": "head, upper right",
+   "reader": "both"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/jack_popout.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "As in k32, a third thin limb hangs from between Jack's clawed legs to the road and ends in a white brush-like tip.",
+   "where": "between the legs, lower centre-left",
+   "reader": "second"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/phone_mark.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The livestream shows a ghostly white-haired face floating above a dark-haired man in a black jacket, and neither looks like Rico in the yellow hoodie of k49.",
+   "where": "phone screen, upper and centre",
+   "reader": "both"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/phone_mark.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The livestream overlay carries letter-like labels beside the profile circles.",
+   "where": "left side of the phone screen, centre",
+   "reader": "second"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/follow_rooftop.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The person beside Indio is a small boy with short brown hair in a blue hoodie holding Indio's red kerchief, where the scene has M.",
+   "where": "boy, lower right, against the right frame edge (a reframe would lose the second person, so redraw)",
+   "reader": "both"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    92
+   ],
+   "still": "full/copper_plate.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like labels ('ENNA', 'HEEP') appear on the copper map plate.",
+   "where": "plate, centre right",
+   "reader": "both"
+  },
+  {
+   "key": "k93",
+   "shots": [
+    93
+   ],
+   "still": "full/fog_cab.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The cab passenger is a chibi child with huge eyes, drawn in a cuter style than the rest of the frame.",
+   "where": "cab window, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k94",
+   "shots": [
+    94
+   ],
+   "still": "full/reading_lamp.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Both pages of the open book are covered in dense letter-like script lines.",
+   "where": "book, lower half",
+   "reader": "second"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/crate_lid.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The crowbar has become an axe with two handles, one of them burning like a torch, chopping into the crate.",
+   "where": "tool, upper left to centre",
+   "reader": "both"
+  },
+  {
+   "key": "k99",
+   "shots": [
+    99
+   ],
+   "still": "full/umbrella_open.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The umbrella's shaft and top tip come down into the crown of M's head like a topknot, while her hand holds the handle below her chin, so the shaft would have to pass through her face.",
+   "where": "umbrella centre and top of her head",
+   "reader": "both"
+  }
+ ]
+}
