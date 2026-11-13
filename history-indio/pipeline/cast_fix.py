@@ -1,30 +1,51 @@
 #!/usr/bin/env python3
 """Rewrite drifting character mentions in ONE episode's key_prompts.json to the canonical cast strings.
 
-usage: cast_fix.py --ep videos/<slug> [--dry-run | --write] [--only NAME] [--save-outfit] [--cast PATH] [--json]
+usage: cast_fix.py --ep videos/<slug> [--dry-run | --write] [--only NAME] [--save-outfit] [--wear-medallion] [--cast PATH] [--json]
   --dry-run (default) shows every change and every prompt left for a person; --write changes the file.
-  --only NAME   one prompt (its key in chars/full); nv_replace is then left alone.
-  --save-outfit also saves the era outfits built from indio_era_template into the cast file (indio_outfits.epNN),
-                as the cast file's _how_to_use asks; without it the built string is used and cast_lint reports it unsaved.
-Rules (the same decisions as cast_lint.py):
-  * only the span that describes the character is replaced (article, the cast adjectives, the head noun and the comma /
-    "and" / "with" / "wearing" segments that describe hair, skin, clothes, headband, medallion, tattoos, handkerchief);
-    everything else in the prompt stays as written. Expression words before the head ("a tired young Filipino man") stay.
+  --only NAME   one prompt (its key in chars/full, or the number of an ep01 flat prompt); nv_replace is then left alone.
+  --save-outfit also saves the era outfits built from indio_era_template into characters/series_cast.json
+                (indio_outfits.epNN). That file is shared by every machine: it is written first, atomically, after a fresh
+                re-read; if it changed meanwhile the whole run is redone. Without the flag the built string is used and
+                cast_lint lists it as UNSAVED_OUTFIT, so a person can save it in a separate, reviewed step.
+  --wear-medallion  a person has decided that Indio wears the medallion in this episode's past scenes (see "bare neck").
+Exit: 0 = dry run done or written with nothing left, 1 = written but some prompts were left for a person, 2 = could not run
+(bad arguments, unreadable cast or episode file, the file kept changing).
+Rules (the same decisions as cast_lint.py, through cast_lint.analyse):
+  * the cast string replaces the article, the cast adjectives and the head noun ("a lean young Filipino man"). After the
+    head the tail is cut into small phrases (at commas, "and", prepositions, verbs and adverbs). A phrase is dropped only
+    if EVERY content word in it is a description word the cast string now covers (hair, skin, the episode's clothes,
+    headband, medallion, tattoos, handkerchief, chest patch, ears, kerchief, M's coat). An appearance phrase the string does
+    not cover ("with long black hair", "clean-shaven") stays where it is; the first phrase with any other word (a place,
+    action, expression or prop: "on a yacht deck", "grips his hand", "with eyes closed") ends the description, and it and
+    everything after it stay as written. Later in the same clause a comma segment that only repeats a constant is dropped.
+    A final check compares the words before and after: if any word that is not a description word would be lost, the
+    prompt is left alone. If the old description still goes on after the scene words, the prompt is left alone too.
+  * one string per character per prompt: a later bare name ("Indio pointing") or "the dog" is a back-reference and stays
+    as written; a second "a ..." description of the same character (or another dog) is left for a person.
   * Indio's string: the era outfit of this episode (saved under indio_outfits, or built from the template with the clothes
-    the episode already names and the episode's tattoos), the modern string of the episode for present-day scenes,
-    indio_s5 from ep42, the schoolboy in Episode 10. Undecidable (no cast string for that age or outfit, cannot tell who or
-    which outfit, a deliberate "no tattoos" / "bare neck") -> the whole prompt is left alone and reported.
-  * Usman: the cast string; "ears up / pricked / flying" next to him is removed. M: the cast string.
-  * modern-day prompts without Usman get "he is alone, no dog, no animals" ("no dog, no animals" when other people are
-    in the picture: "he is alone" would erase them).
-  * nv_replace entries that rewrite character strings are removed, unless removing one would push a prompt over 800.
-  * over 800 characters as make_keys sends it -> shorten the SCENE wording only (END duplicates such as "no text", then
-    decorative adjectives, then "detailed background", then the long single-image line); still over -> prompt left alone.
+    the episode already names and N-1 tattoos up to ep06), the modern string of the episode for present-day scenes,
+    indio_s5 from ep42, the schoolboy in Episode 10. Undecidable -> the whole prompt is left alone and reported: no cast
+    string for that age or outfit, cannot tell who or which outfit, a deliberate "no tattoos" / "bare neck", an episode
+    that draws Indio with a bare neck elsewhere (M took the medallion in ep06; nv_replace short forms say "bare neck"),
+    clothes in this shot that the episode outfit does not have.
+  * Usman: the cast string; "ears up / pricked / flying" and "the other ear standing up" next to him are removed.
+    M: the cast string, unless the shot gives her something else in her hands, describes her umbrella separately, or
+    dresses her in era clothes (a person decides).
+  * modern-day prompts without Usman get "he is alone, no dog, no animals"; "no dog, no animals" when other people are in
+    the picture ("he is alone" would erase them); only "no dog" when the shot shows another animal or a creature.
+  * nv_replace: character entries that no prompt uses, or that only shorten a cast string, are removed (unless removing
+    one would push a prompt over 800); entries that send Indio with a bare neck or M with another medallion are kept and
+    reported (NV_STORY).
+  * over 800 characters as make_keys sends it after the cast strings go in -> shorten the SCENE wording only: anti-text
+    words END already says ("no text", "no letters": not for the ep01 flat layout, whose own line is its END), decorative
+    adjectives, "detailed background", mild adjectives, the long single-image line; style lines are never touched. Still
+    over -> prompt left alone (LENGTH).
   * plates are never changed. Every candidate is linted again before it is kept: anything not EXACT -> left alone.
-  * the file is edited by exact replacement of the changed JSON strings only, re-read right before writing; if it changed
-    meanwhile the whole computation is redone.
+  * the file is edited by exact replacement of the changed JSON strings only, re-read right before writing and written
+    atomically (temp file + rename); if it changed meanwhile the whole computation is redone.
 """
-import json, os, re, sys
+import json, os, re, sys, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import cast_lint as L
 
@@ -87,15 +108,18 @@ def replacement(p, mm, canon, aside=None):
     return new
 
 def blank_ears(p, ms):
-    """ "ears up / pricked / flying" next to Usman -> (spans to delete, p with them blanked so the tail scanner stops there)"""
+    """ears words next to Usman that the cast string replaces: "ears up / pricked / flying" (they contradict one folded ear)
+    and "the other (ear) standing up" (the cast says only "one folded ear") -> (spans to delete, p with them blanked so
+    the tail scanner reads past them)"""
     spans = []
     for mm in ms:
         if mm.char != 'usman': continue
-        for w in L.EARS_WRONG.finditer(p, mm.start, min(len(p), mm.end + 160)):
-            if (w.start(), w.end()) not in spans: spans.append((w.start(), w.end()))
+        for rx in (L.EARS_WRONG, L.OTHER_EAR):
+            for w in rx.finditer(p, mm.start, min(len(p), mm.end + 160)):
+                if not any(a <= w.start() < b for a, b in spans): spans.append((w.start(), w.end()))
     pm = p
     for a, b in spans: pm = pm[:a] + ' ' * (b - a) + pm[b:]
-    return spans, pm
+    return sorted(spans), pm
 
 def clothes_left(reg, canon):
     cw = set(L.words(canon))
@@ -116,9 +140,14 @@ def fix_prompt(K, kind, key, p, ep, canon, nv, story_nv=()):
         for k in story_nv:
             if k.rstrip(', ') in s or L.body(s) in k:
                 reasons.append(f'{mm.char}: nv_replace sends {r["name"]} as a short form without the medallion (NV_STORY): a person decides')
-        if cls == 'EXACT' or (cls == 'WRONG' and p.startswith(L.body(s), mm.vstart)): continue
-        de, aside = (mm.end, None) if mm.bare else L.desc_tail(pm, mm.hend, mm.char, s)
-        edits.append((mm.start, de, replacement(p, mm, s, aside), mm.char, s))
+        if cls == 'EXACT' or (cls == 'WRONG' and (p.startswith(L.body(s), mm.vstart) or p.startswith(re.sub(r'\ba ([aeiou])', r'an \1', L.body(s)), mm.vstart))): continue
+        if mm.bare:
+            edits.append((mm.start, mm.end, replacement(p, mm, s), mm.char, s)); continue
+        dels, aside, stop = L.desc_tail(pm, mm.hend, mm.char, s)
+        if mm.char == 'indio' and clothes_left(stop, s):
+            reasons.append(f'indio: this shot names clothes the episode outfit does not have ("{stop.strip()[:60]}"): a person decides'); continue
+        edits.append((mm.start, mm.hend, replacement(p, mm, s), mm.char, s))
+        for a, b in dels: edits.append((a, b, '', mm.char, None))
     if reasons: return dict(status='left', new=p, reasons=reasons)
     for a, b in ears:
         if not any(x <= a < y for x, y, *_ in edits): edits.append((a, b, '', 'usman', None))
@@ -131,11 +160,13 @@ def fix_prompt(K, kind, key, p, ep, canon, nv, story_nv=()):
         if s: placed.append((a + off + len(txt), ch, s))
         off += len(txt) - (b - a)
     for at, ch, s in placed:                                  # the old description must not go on after the cast string
-        reg = L.region_after(new, at)
+        at = new.find(L.body(s)) + len(L.body(s)) if L.body(s) in new else at
+        reg = L.marks_only(L.region_after(new, at), s)
         mk = L.AFTER_MARK.get(ch)
-        extra = (mk.search(reg).group(0) if mk and mk.search(reg) else None) or (', '.join(clothes_left(reg, s)) if ch == 'indio' else None)
-        if extra:
-            return dict(status='left', new=p, reasons=[f'{ch}: the description goes on after the scene words ("{reg.strip()[:80]}", {extra}): pasting the cast string would leave it twice; a person rewrites it'])
+        if mk and mk.search(reg):
+            return dict(status='left', new=p, reasons=[f'{ch}: the description goes on after the scene words ("{reg.strip()[:80]}", {mk.search(reg).group(0)}): pasting the cast string would leave it twice; a person rewrites it'])
+    for at, ch, s in reversed(placed):                        # "...at her neck with long black hair" -> "...at her neck, with ..."
+        if re.match(r" (?:with|wearing)\b", new[at:at + 9]): new = new[:at] + ',' + new[at:]
     if need:
         st, _ = L.clause_state(new, need)
         if st == 'NEAR' and need == L.NODOG_ONLY:
@@ -153,7 +184,8 @@ def fix_prompt(K, kind, key, p, ep, canon, nv, story_nv=()):
     fits = lambda t: len(L.assemble(K, kind, t, nv)) <= L.LIMIT
     if not fits(new):
         before = len(L.assemble(K, kind, new, nv))
-        short, steps = shorten(new, [s for _, s in used] + [L.body(s) for _, s in used] + [need], fits, kind)
+        style = [K.get('style', ''), K.get('white', ''), canon.C['raw'].get('style', ''), canon.C['raw'].get('end', '')]
+        short, steps = shorten(new, [s for _, s in used] + [L.body(s) for _, s in used] + [need] + style, fits, kind)
         if short is None:
             return dict(status='left', new=p, reasons=[f'LENGTH: over {L.LIMIT} even after shortening the scene ({before} sent with the cast strings; tried: {", ".join(steps) or "nothing to drop"}): needs a shorter scene by hand or a short cast form'])
         notes.append(f'scene shortened ({before} -> {len(L.assemble(K, kind, short, nv))} sent): ' + ', '.join(steps)); new = short
@@ -201,19 +233,20 @@ def add_outfits(T, items):
     return T[:m.end(1)] + ins + T[m.end(1):]
 
 # ------------------------------------------------------------------ episode
-def plan(epdir, C, only=None):
+def plan(epdir, C, only=None, wear_medallion=False):
     path = os.path.join(epdir, 'key_prompts.json')
     T = open(path).read(); K = json.loads(T)
     ep = L.ep_num(epdir)
-    items = [(k, n, p) for k, n, p in L.prompts(K) if not p.startswith('(copied')]
-    canon = L.EpisodeCanon(C, ep, items); canon.omp = L.outfit_means_present(canon, items, ep)
+    items, canon = L.setup_canon(C, K, ep, wear_medallion)
     nv_all = dict(K.get('nv_replace', {}))
-    cnv = [] if only else L.char_nv_entries(K)
+    nvs = L.nv_status(K, items)
+    story_nv = [k for k, (st, _) in nvs.items() if st == 'story']
+    cnv = [] if only else [k for k, (st, _) in nvs.items() if st != 'story']
     nv_new = {k: v for k, v in nv_all.items() if k not in cnv}
     results = {}
     for kind, key, p in items:
         if only and key != only: continue
-        results[(kind, key)] = fix_prompt(K, kind, key, p, ep, canon, nv_new)
+        results[(kind, key)] = fix_prompt(K, kind, key, p, ep, canon, nv_new, story_nv)
     kept_nv = []
     if cnv:                                                     # does dropping the character nv entries push any prompt over?
         prot = [s for s in C['str'].values()] + [L.body(s) for s in C['str'].values()] + [L.ALONE, L.NODOG]
@@ -223,7 +256,7 @@ def plan(epdir, C, only=None):
             fits_new = lambda t: len(L.assemble(K, kind, t, nv_new)) <= L.LIMIT
             if fits_new(cur) or len(L.assemble(K, kind, cur, nv_all)) > L.LIMIT: continue
             if r and r['status'] != 'left':
-                short, steps = shorten(cur, prot, fits_new)
+                short, steps = shorten(cur, prot, fits_new, kind)
                 if short is not None and not check_candidate(K, kind, key, short, ep, canon, None):
                     results[(kind, key)] = dict(status='changed' if short != p else 'clean', new=short, reasons=[], used=r.get('used', []),
                                                 notes=r.get('notes', []) + [f'scene shortened so the cast strings fit without nv_replace: {", ".join(steps)}'])
@@ -232,13 +265,11 @@ def plan(epdir, C, only=None):
                 if k in L.assemble(K, kind, cur, {}) and k not in kept_nv: kept_nv.append(k)
             if r and r['status'] != 'left':
                 r.setdefault('notes', []).append('needs the nv_replace short form to fit 800: entry kept')
-        nv_final = {k: v for k, v in nv_all.items() if k not in cnv or k in kept_nv}
-    else:
-        nv_final = nv_all
+    nv_final = {k: v for k, v in nv_all.items() if k not in cnv or k in kept_nv}
     used_names = {n for r in results.values() if r['status'] in ('changed', 'clean') for n, _ in r.get('used', [])}
     new_outfits = [(n.split('.', 1)[1], s) for n, s in canon.unsaved() if n in used_names]
     return dict(path=path, T=T, K=K, ep=ep, results=results, nv_removed=[k for k in cnv if k not in kept_nv], nv_kept=kept_nv,
-                nv_final=nv_final, outfits=new_outfits)
+                nv_story=story_nv, nv_final=nv_final, outfits=new_outfits)
 
 def apply(P, only):
     T, K = P['T'], json.loads(P['T'])
@@ -255,7 +286,7 @@ def apply(P, only):
 
 def report(P, epdir, js=False):
     out = {'episode': os.path.basename(epdir.rstrip('/')), 'changed': [], 'left_for_a_person': [], 'nv_removed': P['nv_removed'],
-           'nv_kept': P['nv_kept'], 'outfits_built': P['outfits']}
+           'nv_kept': P['nv_kept'], 'nv_story': P['nv_story'], 'outfits_built': P['outfits']}
     K = P['K']
     for (kind, key), r in P['results'].items():
         old = K[kind][key] if kind != 'flat' else K[key]
@@ -271,36 +302,80 @@ def report(P, epdir, js=False):
         Lr.append('\nLEFT ALONE (a person decides):')
         for x in out['left_for_a_person']:
             Lr.append(f"  {x['kind']}/{x['key']}: " + ' | '.join(x['reasons']))
-    if out['nv_removed']: Lr.append(f"\nnv_replace: {len(out['nv_removed'])} character entries removed (they rewrote the cast strings before sending)")
+    if out['nv_removed']: Lr.append(f"\nnv_replace: {len(out['nv_removed'])} character entries removed (they rewrote the cast strings before sending, or no prompt used them)")
     if out['nv_kept']: Lr.append(f"nv_replace: {len(out['nv_kept'])} character entries KEPT because a prompt would not fit 800 without them")
+    if out['nv_story']: Lr.append(f"nv_replace: {len(out['nv_story'])} entries KEPT that send Indio without the medallion (bare neck) or M with another medallion: a person decides")
     for n, s in out['outfits_built']: Lr.append(f'era outfit built from the template: indio_outfits.{n} = "{s}"')
     return '\n'.join(Lr)
 
+def atomic_write(path, text):
+    """write to a temp file in the same folder and rename it over the old one: a reader never sees half a file."""
+    fd, tmp = tempfile.mkstemp(dir=os.path.dirname(path), prefix='.' + os.path.basename(path) + '.', suffix='.tmp')
+    try:
+        with os.fdopen(fd, 'w') as f: f.write(text)
+        try: os.chmod(tmp, os.stat(path).st_mode & 0o777)
+        except OSError: pass
+        os.replace(tmp, path)
+    except BaseException:
+        if os.path.exists(tmp): os.unlink(tmp)
+        raise
+
+def save_outfits(C, outfits):
+    """add the built outfits to the cast file (shared by every machine): re-read it, add only missing names, check, atomic."""
+    cp = C['_path']; CT = open(cp).read(); exp = json.loads(CT)
+    add = [(k, v) for k, v in outfits if k not in exp.get('indio_outfits', {})]
+    if not add: return []
+    NT = add_outfits(CT, add)
+    for k, v in add: exp['indio_outfits'][k] = v
+    if json.loads(NT) != exp: raise ValueError('cast file edit does not parse as expected: cast file not written')
+    if open(cp).read() != CT: return None
+    atomic_write(cp, NT); return [k for k, _ in add]
+
+USAGE = 'usage: cast_fix.py --ep videos/<slug> [--dry-run | --write] [--only NAME] [--save-outfit] [--wear-medallion] [--cast PATH] [--json]'
 def main(a):
-    if '--ep' not in a: print(__doc__); return 2
-    epdir = arg(a, '--ep'); epdir = epdir if os.path.isdir(epdir) else os.path.join(L.ROOT, epdir)
-    write, only, js = '--write' in a, arg(a, '--only'), '--json' in a
-    C = L.load_cast(arg(a, '--cast'))
-    for attempt in range(4):
-        P = plan(epdir, C, only)
-        print(report(P, epdir, js))
-        if not write: print('\n(dry run: nothing written; add --write)'); return 0
-        newT = apply(P, only)
-        if open(P['path']).read() != P['T']:                     # changed under us (another machine's commit): redo this file
-            print('key_prompts.json changed while planning; redoing'); continue
-        if newT != P['T']:
-            open(P['path'], 'w').write(newT)
-        if '--save-outfit' in a and P['outfits']:
-            cp = C['_path']; CT = open(cp).read(); exp = json.loads(CT)
-            add = [(k, v) for k, v in P['outfits'] if k not in exp.get('indio_outfits', {})]
-            if add:
-                NT = add_outfits(CT, add)
-                for k, v in add: exp['indio_outfits'][k] = v
-                if json.loads(NT) != exp: raise ValueError('cast file edit does not parse as expected')
-                if open(cp).read() != CT: print('cast file changed meanwhile; outfits NOT saved, run again'); return 1
-                open(cp, 'w').write(NT); print('saved to', cp, ':', ', '.join('indio_outfits.' + k for k, _ in add))
-        print('written', P['path']); return 0
-    print('gave up: the file kept changing'); return 1
+    """exit 0 = done (dry run or written), 1 = written but something was left for a person / not saved, 2 = could not run."""
+    try:
+        flags = {'--write', '--dry-run', '--save-outfit', '--json', '--wear-medallion'}
+        withval = {'--ep', '--only', '--cast'}
+        i, opt = 0, {}
+        while i < len(a):
+            x = a[i]
+            if x in withval:
+                if i + 1 >= len(a) or a[i + 1].startswith('--'): raise L.UsageError(f'{x} needs a value')
+                opt[x] = a[i + 1]; i += 2; continue
+            if x in flags: opt[x] = True; i += 1; continue
+            raise L.UsageError(f'unknown argument {x}')
+        if '--ep' not in opt: raise L.UsageError('--ep is required')
+        epdir = opt['--ep'] if os.path.isdir(opt['--ep']) else os.path.join(L.ROOT, opt['--ep'])
+        if not os.path.isfile(os.path.join(epdir, 'key_prompts.json')): raise L.UsageError(f'{opt["--ep"]}: no key_prompts.json there')
+        write, only, js, wm = '--write' in opt, opt.get('--only'), '--json' in opt, '--wear-medallion' in opt
+        C = L.load_cast(opt.get('--cast'))
+        if only:
+            K0 = json.load(open(os.path.join(epdir, 'key_prompts.json')))
+            if only not in {k for _, k, _ in L.prompts(K0)}: raise L.UsageError(f'--only {only}: no such prompt in chars/full of this episode')
+    except (L.UsageError, L.CastError) as e:
+        print(f'cast_fix: {e}\n{USAGE}', file=sys.stderr); return 2
+    except ValueError as e:
+        print(f'cast_fix: cannot read {opt.get("--ep")}: {e}', file=sys.stderr); return 2
+    try:
+        for attempt in range(4):
+            P = plan(epdir, C, only, wm)
+            print(report(P, epdir, js))
+            left = sum(1 for r in P['results'].values() if r['status'] == 'left')
+            if not write: print('\n(dry run: nothing written; add --write)'); return 0
+            newT = apply(P, only)
+            if '--save-outfit' in opt and P['outfits']:          # the shared cast file first: if it cannot be saved, nothing is written
+                saved = save_outfits(C, P['outfits'])
+                if saved is None: print('cast file changed meanwhile; redoing'); C = L.load_cast(opt.get('--cast')); continue
+                if saved: print('saved to', C['_path'], ':', ', '.join('indio_outfits.' + k for k in saved)); C = L.load_cast(opt.get('--cast'))
+            if open(P['path']).read() != P['T']:                 # changed under us (another machine): redo this file
+                print('key_prompts.json changed while planning; redoing'); continue
+            if newT != P['T']: atomic_write(P['path'], newT); print('written', P['path'])
+            else: print('nothing to change in', P['path'])
+            return 1 if left else 0
+        print('gave up: the file kept changing', file=sys.stderr); return 2
+    except Exception as e:
+        print(f'cast_fix: failed on {epdir}: {type(e).__name__}: {e} (nothing written for this step)', file=sys.stderr); return 2
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
