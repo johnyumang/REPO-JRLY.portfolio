@@ -1,0 +1,183 @@
+{
+ "episode": 10,
+ "audited_by": "voice-cast reader 1",
+ "keys_looked_at": 84,
+ "faults": [
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/crack.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Large gothic-looking pseudo-letters fill the page under the magnifying glass and are crisp enough to read as words.",
+   "where": "centre, inside the magnifier lens and the pages around it"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/finale_run.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man walking out of the portal has no topknot, pale skin, a different face and dark grey trousers instead of jeans, and Usman beside M is a fluffy long-haired dog with both ears up, so neither reads as the same characters.",
+   "where": "left figure (Indio) and the dog at bottom centre-right"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/manuscript.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Both open pages and the loose sheets are covered in rows of cursive pseudo-script with letter-like capitals.",
+   "where": "whole open book, left and right pages, loose sheet at bottom left"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/teacher_library.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The old brown book the teacher holds has a letter-like pseudo-title printed on its cover.",
+   "where": "book cover, lower right of centre"
+  },
+  {
+   "key": "k88",
+   "shots": [
+    88
+   ],
+   "still": "full/class80s.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The big book handed across the desk carries a pseudo-text title along the top of its cover.",
+   "where": "top edge of the book cover, centre"
+  },
+  {
+   "key": "k83",
+   "shots": [
+    83
+   ],
+   "still": "full/map_north.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small hand-written glyph marks are scattered under the glowing sun on the map.",
+   "where": "just below and left of the sun, upper centre"
+  },
+  {
+   "key": "k85",
+   "shots": [
+    85
+   ],
+   "still": "full/teacher_smile_boy.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The old book being handed to the boy has a dark block of pseudo-text on its cover.",
+   "where": "book cover, centre"
+  },
+  {
+   "key": "k85",
+   "shots": [
+    85
+   ],
+   "still": "full/teacher_smile_boy.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Under the book the teacher's hand and the boy's hand run together into one long hand with no clear fingers between them.",
+   "where": "hands under the book, centre"
+  },
+  {
+   "key": "k85",
+   "shots": [
+    85
+   ],
+   "still": "full/teacher_smile_boy.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy wears a purple polo shirt and khaki trousers instead of the white school uniform he wears in every other school shot.",
+   "where": "boy, right half"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/lolo_boy_jeep.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy next to Lolo looks like a teenager, with brown hair and a blue shirt, not the ten-year-old with neat black hair from the other shots.",
+   "where": "boy, right of centre"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/boy_run_park.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lolo is drawn far older and gaunter, with long stringy hair and no moustache, unlike the smiling grandfather in k12, k54 and k90.",
+   "where": "Lolo's face, upper right"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/indio_stop.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has a white muzzle, white paws and both ears flat out to the sides, with the red kerchief tied round his head, not his neck.",
+   "where": "dog, centre"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/m_medallion_hot.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Indio's indigo tattoos appear on M's fingers and the back of her hands.",
+   "where": "both hands around the medallion, lower half"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/m_closeup.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A hand at the corner is just a thumb-like blob with an oversized white nail and no fingers.",
+   "where": "bottom-left corner"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/indio_realize.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Below the red handkerchief the fingers break up into angular shards instead of four fingers.",
+   "where": "Indio's hanging hand, bottom right"
+  },
+  {
+   "key": "k71",
+   "shots": [
+    71
+   ],
+   "still": "chars/indio_point_modern.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The lowered hand's fingers dissolve into broken angular lines with no countable fingers.",
+   "where": "bottom-right corner"
+  }
+ ]
+}
