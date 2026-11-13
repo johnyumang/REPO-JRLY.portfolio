@@ -83,9 +83,10 @@
    "where": "face, centre",
    "reader": "r1",
    "r2": "confirmed: brown hair, green eyes, younger face, not the black-haired grey-eyed Tubal of k56-k57",
-   "fixed": false,
-   "fix": "redrawn (1 try): hand and ring only, no face, so Tubal cannot be off-model; fingers counted at 3x",
-   "reverted": "r3: the redrawn hand is broken at 3x: the ringed finger sits on the far side of the thumb from the other three fingers"
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k97",
@@ -179,9 +180,10 @@
    "where": "arrow, upper centre",
    "reader": "r1",
    "r2": "confirmed: the light arrow's head sits at the drawing hand by his face while the shaft runs to the bow, nocked backwards",
-   "fixed": false,
-   "fix": "redrawn (1 try): seen from behind just after release, the arrow of light flies forward from the bow to the shadow",
-   "reverted": "r3: the redraw adds a new fault: the bow floats unheld beside his raised hand, which clutches the arrow with the bowstring running through the fingers"
+   "fixed": true,
+   "fix": "redrawn as a still with no people: the arrow of light, head in the wall, pins the shadow creature; no bow, no hands (retry, 2 of 4 tries)",
+   "retry": true,
+   "r3": "kept (retry): arrowhead in the wall, fletching behind, shadow creature pinned; no hands or bow, clean at 3x, style matches k51/k53"
   },
   {
    "key": "k93",
@@ -227,9 +229,10 @@
    "where": "medallion in his hands, left centre",
    "reader": "r1",
    "r2": "confirmed: the medallion face carries bold letter-like marks and rim lettering, though it should be blank",
-   "fixed": false,
-   "fix": "redrawn (1 try): blank smooth medallion face, no letters; hand clean at 3x",
-   "reverted": "r3: the redraw makes Indio off-model for this episode: much darker skin and a different face and eyes from the Indio of k75/k76 and the other present-day shots"
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: the blank bronze medallion glowing purple on a bedside table beside the red handkerchief; no letters (retry, 3 of 4 tries; try 2 had a head relief on the medallion)",
+   "retry": true,
+   "r3": "kept (retry): medallion face blank, no letters; purple glow and red handkerchief on the bedside table follow k73's separate rooms (disc drawn rather large, minor)"
   },
   {
    "key": "k53",
@@ -480,9 +483,10 @@
    "where": "background signs, left and right",
    "reader": "r1",
    "r2": "confirmed: background shop signs carry kanji-like characters",
-   "fixed": false,
-   "fix": "redrawn (1 try): hand and ring only, no face, so Tubal cannot be off-model; fingers counted at 3x",
-   "reverted": "r3: the redrawn hand is broken at 3x: the ringed finger sits on the far side of the thumb from the other three fingers"
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k63",
