@@ -276,3 +276,13 @@ The user's rulings today: the trivia break goes ahead (version 2 look); ALL cove
 - **Covers** (kept outside the repository): Season 1: 24 and the trailer; Season 2: 36; Season 3: 33; Season 4: 12 of 30; Season 5: 12 of 27; specials: 6.
 - **Not done:** fixed recordings of the break's opening and closing lines; the older chibi Indio (a first try is in trivia/sprites/indio_s5.png, no episode uses it); the remaining Season 4 and 5 covers; three small cover-tool improvements; the mabolo sticker (Episode 38).
 - **Safe to post:** Episode 1 and Episode 2 only.
+
+
+## Backup picture source: Unsplash (added 13 Nov at the owner's request)
+`pipeline/unsplash_backup.py` searches and downloads real photographs from the Unsplash API (free demo tier, 50 requests an
+hour): for mockups, cover and page backgrounds, and to look at a real place before writing a prompt. It is a backup, not
+a drawing engine: a photograph does not replace a drawn still without the owner's word. The environment allows
+api.unsplash.com, images.unsplash.com and unsplash.com. The Access Key is saved by the owner in the environment's
+settings (network secret for api.unsplash.com, header Authorization, value "Client-ID <key>"; or the variable
+UNSPLASH_ACCESS_KEY); it never goes into a file, a commit or the chat. Every download writes a credit line
+("Photo by <name> on Unsplash") that must be shown with the photograph; photographs stay out of the repository.

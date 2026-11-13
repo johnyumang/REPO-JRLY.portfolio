@@ -1,0 +1,264 @@
+{
+"0": {
+"fx": [
+"shake",
+"punch",
+"spray"
+],
+"keys": [
+25,
+23,
+26,
+20
+]
+},
+"1": {
+"fx": [
+"water",
+"spray"
+],
+"move": "tilt_up"
+},
+"2": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"3": {
+"fx": [
+"water"
+],
+"move": "push_in"
+},
+"4": {
+"fx": [
+"embers"
+]
+},
+"5": {
+"fx": [
+"water",
+"spray"
+],
+"move": "pull_out"
+},
+"6": {
+"fx": [
+"shake",
+"spray"
+],
+"move": "push_in"
+},
+"7": {
+"fx": [
+"embers"
+]
+},
+"8": {
+"fx": [
+"embers"
+]
+},
+"9": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"10": {
+"fx": [
+"punch",
+"sparkle"
+],
+"move": "push_in"
+},
+"11": {
+"fx": [
+"sparkle"
+],
+"move": "pull_out"
+},
+"12": {
+"fx": [
+"sparkle"
+]
+},
+"13": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"14": {
+"fx": [
+"shake",
+"punch"
+]
+},
+"15": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"16": {
+"fx": []
+},
+"17": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"18": {
+"fx": [
+"punch"
+]
+},
+"19": {
+"fx": [
+"embers",
+"shake"
+]
+},
+"20": {
+"fx": [
+"punch",
+"sparkle",
+"shake"
+],
+"move": "push_in"
+},
+"21": {
+"fx": [
+"sparkle"
+],
+"move": "pull_out"
+},
+"22": {
+"fx": [
+"water",
+"sparkle"
+],
+"move": "push_in"
+},
+"23": {
+"fx": [
+"shake",
+"punch",
+"spray"
+],
+"move": "tilt_up"
+},
+"24": {
+"fx": [
+"shake",
+"punch"
+]
+},
+"25": {
+"fx": [
+"shake",
+"spray"
+],
+"move": "pull_out"
+},
+"26": {
+"fx": [
+"shake",
+"punch",
+"sparkle"
+],
+"move": "push_in"
+},
+"27": {
+"fx": [],
+"move": "push_in"
+},
+"28": {
+"fx": [
+"embers"
+]
+},
+"29": {
+"fx": [
+"embers",
+"shake",
+"punch"
+]
+},
+"30": {
+"fx": [
+"punch",
+"shake"
+],
+"move": "pull_out"
+},
+"31": {
+"fx": [
+"punch"
+]
+},
+"32": {
+"fx": [
+"punch"
+],
+"move": "push_in"
+},
+"33": {
+"fx": [
+"water"
+],
+"move": "pull_out"
+},
+"34": {
+"fx": [
+"embers"
+]
+},
+"35": {
+"fx": []
+},
+"36": {
+"fx": [],
+"move": "push_in"
+},
+"37": {
+"fx": [
+"water"
+],
+"move": "pull_out"
+},
+"38": {
+"fx": [
+"sparkle"
+]
+},
+"39": {
+"fx": [
+"embers",
+"sparkle"
+],
+"move": "tilt_up"
+},
+"40": {
+"fx": [
+"punch"
+],
+"move": "push_in"
+},
+"41": {
+"fx": [
+"water"
+]
+},
+"42": {
+"fx": [
+"embers",
+"sparkle",
+"punch"
+],
+"move": "push_in"
+}
+}

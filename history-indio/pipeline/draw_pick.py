@@ -4,7 +4,9 @@ For a still that has failed its redraws: many draws and a strict choice beat one
 usage (from history-indio/):  draw_pick.py <out_dir> <prompt.txt> <seed,seed,...> ["<negative prompt, at most 500 characters>"]
 writes <out_dir>/c<seed>.jpg (768x1344) and <out_dir>/sheet.jpg (all candidates side by side, small).
 The prompt is sent as written (up to 2000 characters; nothing is replaced or cut): start it with the episode's style line,
-end it with "Vertical 9:16. No text, no letters, no logos, no watermarks." flux-3, 30 steps, guidance 4. The service refuses
+end it with "Vertical 9:16. No text, no letters, no logos, no watermarks." flux-3, 30 steps, guidance 4.
+THE BAKUNAWA LOOK (the series' best look: painted, dramatic, full scenes): give a prompt file that is JSON,
+{"subject": "...", "setting": "...", "light": "..."}; flux_hq.py then adds its own style, anatomy rules and negative prompt. The service refuses
 the word "seven" and some clothing words ("faded sage-green"): reword and go on. Keep <out_dir> outside the repository."""
 import sys, os, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import flux_hq
@@ -15,6 +17,8 @@ if __name__ == '__main__':
     if len(sys.argv) < 4: sys.exit(__doc__)
     out_dir, P = sys.argv[1], open(sys.argv[2], encoding='utf-8').read().strip(); seeds = [int(x) for x in sys.argv[3].split(',')]
     neg = sys.argv[4] if len(sys.argv) > 4 else NEG; os.makedirs(out_dir, exist_ok=True)
+    if P.startswith('{'):                                              # the Bakunawa look: {"subject": ..., "setting": ..., "light": ...} -> flux_hq's own style, rules and negative prompt
+        import json; J = json.loads(P); P = flux_hq.prompt(J['subject'], J['setting'], J['light']); neg = sys.argv[4] if len(sys.argv) > 4 else flux_hq.NEG[:500]
     if len(P) > 2000: sys.exit('the prompt has %d characters; the model takes 2000' % len(P))
     if len(neg) > 500: sys.exit('the negative prompt has %d characters; the model takes 500' % len(neg))
     print('prompt', len(P), 'characters; negative', len(neg), flush=True)
