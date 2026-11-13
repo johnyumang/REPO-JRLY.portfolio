@@ -1,0 +1,332 @@
+{
+  "episode": 1,
+  "audited_by": "central",
+  "keys_looked_at": 29,
+  "note": "Second reading of all 29 keys of Episode 1 (older layout: no full/, chars/ or plates/; each still IS the key, and the prompt to edit is key_prompts.json[NN]; shot-to-key mapping from shots_fx.json). Every key opened at full size plus 3x-4x crops of every hand, face, held object, dog and handover. The first reader's list was checked item by item: twelve must_fix faults confirmed, two entries refuted (k22 floating lantern, k36 tube arm), the rest of the small ones confirmed as reported. Six faults were added that the first reading missed, the loudest being the five-toed glowing paw print in k37 and the two unfinished hands of the standing soldier in k22. Story gap (not slop, not listed below): the five draft-size keys k12, k13, k14, k16 and k37 are scenery only, although their prompts all ask for Indio in frame. Usman is drawn with both ears soft and folded in all six of his shots instead of one folded ear; it is the same in every shot, so it is a series-wide cast note rather than an episode fault. Shot numbers for k38 corrected to [38, 39].",
+  "defects": [
+    {
+      "key": "k07",
+      "type": "hands",
+      "must_fix": true,
+      "what": "Confirmed. The open palm holding the three coins is about as wide as his torso and boneless: the fingers are sausages with no knuckles that run into one another, and along the right edge of the palm there are more finger ridges than a hand has, so you cannot count them.",
+      "where": "lower centre-left, his open left hand with the coins",
+      "still": "keys/k07.png (prompt key_prompts.json[\"7\"])",
+      "shots": [7, 11],
+      "fix_idea": "Redraw hiding the hands: the coins lying on the curb or on a bench beside him while he looks down, hands tucked away or out of frame, because a close-up open palm is what this engine gets wrong."
+    },
+    {
+      "key": "k10",
+      "type": "hands",
+      "must_fix": true,
+      "what": "Confirmed. The hand holding the paper bag is a mitten with no separate fingers; its outline melts into the bag and the only break in it is a shadow line.",
+      "where": "centre-left, the hand holding the bread bag",
+      "still": "keys/k10.png (prompt key_prompts.json[\"10\"])",
+      "shots": [10],
+      "fix_idea": "Redraw and choose: Indio on the curb eating, the roll held in both hands at mouth level with the fingers behind the bread, as the prompt already asks; keep only a try where the hands pass at 3x."
+    },
+    {
+      "key": "k10",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "Confirmed. The face cut by the right edge is a stranger drawn in heavy black ink with stubble and a glasses-like outline, and the sleeve under the bag is olive, not Indio's white polo, so the frame does not read as Indio at all.",
+      "where": "right edge face and the lower sleeve",
+      "still": "keys/k10.png (prompt key_prompts.json[\"10\"])",
+      "shots": [10],
+      "fix_idea": "Redraw and choose with the prompt as written (Indio sitting on the curb, cast string word for word), so the sad bread moment has his face and fits shots 9 and 12."
+    },
+    {
+      "key": "k10",
+      "type": "style",
+      "must_fix": true,
+      "what": "Confirmed. Thick black comic-book ink over a near-photographic street, a hard jolt after the cel-anime pawnshop shot before it; the shopfronts and the lit signs also read as a Japanese street rather than Manila.",
+      "where": "whole frame",
+      "still": "keys/k10.png (prompt key_prompts.json[\"10\"])",
+      "shots": [10],
+      "fix_idea": "Same redraw as above, with the episode's anime style prefix, at 864x1536 like the other keys, and 'a Manila street at dusk, jeepneys and sari-sari store' in the scene line."
+    },
+    {
+      "key": "k24",
+      "type": "hands",
+      "must_fix": true,
+      "what": "Confirmed. There is an extra fist with no arm: the man's left fist holds the left half of the torn paper on a visible arm, while the fist gripping the right half hangs in the sky and its wrist fades into a tan strip that belongs to nobody.",
+      "where": "top centre-right, the fist holding the right half of the torn paper",
+      "still": "keys/k24.png (prompt key_prompts.json[\"24\"])",
+      "shots": [0, 24, 25, 40],
+      "fix_idea": "Redraw and choose: one man in front tearing a paper with both hands at chest height and a plain spear held by the man beside him; this key is used four times, opening shot included, so it is worth the tries."
+    },
+    {
+      "key": "k13",
+      "type": "object",
+      "must_fix": true,
+      "what": "Confirmed. The statue's weapons cannot exist: the centre figure's one grip carries two blades in a V, the figure on the left raises a hilt with a cross-guard and no blade at all, and the figure on the right holds an axe and a bolo crossed above his head.",
+      "where": "top centre, the raised weapons of the statue group",
+      "still": "keys/k13.png (prompt key_prompts.json[\"13\"])",
+      "shots": [13],
+      "fix_idea": "Redraw and choose: fewer figures (two or three), each raising ONE plain bolo with one hand, plus Indio sheltering under the tree as the prompt asks, in the episode's anime style."
+    },
+    {
+      "key": "k08",
+      "type": "object",
+      "must_fix": true,
+      "what": "Confirmed. There are two medallions: the sun medallion hangs on its cord on his chest at the top right while an identical one fills the foreground in a hand.",
+      "where": "foreground medallion and the one on his chest, top right",
+      "still": "keys/k08.png (prompt key_prompts.json[\"8\"])",
+      "shots": [8, 15, 17, 34],
+      "fix_idea": "Redraw: Indio holding the medallion still on its cord around his neck, lifted in one hand near his chin, so there is only one; this key is used four times."
+    },
+    {
+      "key": "k08",
+      "type": "hands",
+      "must_fix": false,
+      "what": "Confirmed as unsure. The foreground hand is far too big for the body behind it and its fingers pass both behind and in front of the medallion rim, so the grip does not read and it is not clear whose hand it is.",
+      "where": "left half, the hand holding the medallion",
+      "still": "keys/k08.png (prompt key_prompts.json[\"8\"])",
+      "shots": [8, 15, 17, 34],
+      "fix_idea": "Fixed by the same redraw (medallion on its cord, held near his chin)."
+    },
+    {
+      "key": "k09",
+      "type": "object",
+      "must_fix": true,
+      "what": "Confirmed. The appraiser pushes a medallion on its cord back across the counter while Indio, standing at the right, still wears the same medallion on his chest, so the frame holds two of a thing the story says is one.",
+      "where": "counter centre-left and Indio's chest at the right",
+      "still": "keys/k09.png (prompt key_prompts.json[\"9\"])",
+      "shots": [9],
+      "fix_idea": "Redraw with 'bare neck, no necklace' for Indio in this shot only, or reframe/redraw so the counter medallion is the only one."
+    },
+    {
+      "key": "k18",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "Confirmed. Usman wears no red kerchief in his big first talking close-up, although the cast rules say he always wears one; the white chest patch is bare.",
+      "where": "dog's neck and chest",
+      "still": "keys/k18.png (prompt key_prompts.json[\"18\"])",
+      "shots": [18],
+      "fix_idea": "Redraw with the full Usman cast string word for word (the prompt omits 'a red kerchief around his neck'); the dog itself is good, so only the kerchief needs to come back."
+    },
+    {
+      "key": "k19",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "Confirmed. Usman has no red kerchief while floating in the portal next to Indio; at 4x the neck and chest are plain black and white.",
+      "where": "right, dog's neck",
+      "still": "keys/k19.png (prompt key_prompts.json[\"19\"])",
+      "shots": [19],
+      "fix_idea": "Redraw with the full Usman cast string word for word, so the kerchief is in the prompt; the Indio half is good."
+    },
+    {
+      "key": "k19",
+      "type": "limbs",
+      "must_fix": false,
+      "what": "Found on the second reading. Usman has a third front leg: besides the two forelegs that reach down to the left with white paws, a short stub of a foreleg with a pale paw floats just above his chest, joined to nothing.",
+      "where": "centre, just left of the dog's chest",
+      "still": "keys/k19.png (prompt key_prompts.json[\"19\"])",
+      "shots": [19],
+      "fix_idea": "Comes with the k19 kerchief redraw: ask for the dog in a clean leap, 'four legs, two front legs stretched forward', and check the paws at 3x before keeping a try."
+    },
+    {
+      "key": "k33",
+      "type": "merge",
+      "must_fix": true,
+      "what": "Confirmed. At the rice handover, Lola's two hands under the bowl and the young man's hand run together into one cluster of fingers below the rim, with a third wrist crossing them, and you cannot tell whose fingers are whose.",
+      "where": "centre, under the rice bowl being handed over",
+      "still": "keys/k33.png (prompt key_prompts.json[\"33\"])",
+      "shots": [33],
+      "fix_idea": "Redraw and choose: Lola holding the bowl with both hands, the young man reaching but not yet touching, a clear gap between their hands; or the young man already holding his own bowl."
+    },
+    {
+      "key": "k33",
+      "type": "limbs",
+      "must_fix": false,
+      "what": "Found on the second reading. The young man's arm runs from his shoulder at the lower right corner all the way across the frame to the bowl as one bare tube with no elbow, and his white sleeve ends halfway along it in mid-air.",
+      "where": "centre, the long bare arm crossing the frame to the bowl",
+      "still": "keys/k33.png (prompt key_prompts.json[\"33\"])",
+      "shots": [33],
+      "fix_idea": "Comes with the k33 redraw: keep the giver and the taker side by side at the same distance from the camera so no arm has to cross the frame."
+    },
+    {
+      "key": "k33",
+      "type": "bleed",
+      "must_fix": false,
+      "what": "Found on the second reading. The dark red and gold floral print of Lola's skirt repeats as a faint brown floral pattern on the white lace sleeve and shoulder of her camisa, which should be plain embroidered white.",
+      "where": "upper left, Lola's right sleeve and shoulder",
+      "still": "keys/k33.png (prompt key_prompts.json[\"33\"])",
+      "shots": [33],
+      "fix_idea": "In the same redraw say 'plain cream embroidered camisa blouse, no pattern, with a separate dark floral skirt'."
+    },
+    {
+      "key": "k22",
+      "type": "hands",
+      "must_fix": true,
+      "what": "Found on the second reading. The standing soldier with his back to us has two hands that are not drawn: the raised one on the lantern handle is a scribbled outline with no countable fingers, and his lower hand, by the type case, is a pale blob with no fingers at all.",
+      "where": "centre, the standing soldier's raised hand at the lantern and his lower hand",
+      "still": "keys/k22.png (prompt key_prompts.json[\"22\"])",
+      "shots": [22],
+      "fix_idea": "Reframe the crop lower so the raised arm leaves the frame, or redraw with two soldiers only, one kneeling at the type case and one standing with 'both hands at his sides, out of frame'."
+    },
+    {
+      "key": "k37",
+      "type": "object",
+      "must_fix": true,
+      "what": "Found on the second reading. The big glowing paw print has FIVE toe pads around the main pad (two left, one centre, two right); a dog leaves four, and the fainter print behind it does have four, so the two prints do not match.",
+      "where": "centre, the large glowing paw print in the puddle",
+      "still": "keys/k37.png (prompt key_prompts.json[\"37\"])",
+      "shots": [37],
+      "fix_idea": "Redraw in the anime style with 'a glowing dog paw print, one large pad and exactly four toe pads' and count the toes at 3x; no hands or faces, so one or two tries with the backup engine should do."
+    },
+    {
+      "key": "k37",
+      "type": "style",
+      "must_fix": false,
+      "what": "Confirmed. The glowing paw-print shot is drawn in comic ink with halftone hatching on the pavement, unlike the soft cel-anime shots 36 and 39 on either side of it.",
+      "where": "whole frame",
+      "still": "keys/k37.png (prompt key_prompts.json[\"37\"])",
+      "shots": [37],
+      "fix_idea": "Comes with the five-toe redraw above: use the episode's anime style prefix and draw at 864x1536."
+    },
+    {
+      "key": "k13",
+      "type": "style",
+      "must_fix": false,
+      "what": "Confirmed. Heavy black comic ink and hatching instead of the episode's soft cel anime; the jolt shows on the cut from shot 12.",
+      "where": "whole frame",
+      "still": "keys/k13.png (prompt key_prompts.json[\"13\"])",
+      "shots": [13],
+      "fix_idea": "Comes with the k13 weapon redraw in the episode style, at 864x1536."
+    },
+    {
+      "key": "k12",
+      "type": "style",
+      "must_fix": false,
+      "what": "Confirmed, and worse than reported: a comic-ink draft frame (768x1344) of a boxy city bus on a street whose signs, shopfronts and wires read as Japanese, not a jeepney on a Quezon City street.",
+      "where": "whole frame",
+      "still": "keys/k12.png (prompt key_prompts.json[\"12\"])",
+      "shots": [12, 35],
+      "fix_idea": "Redraw from the prompt (rain on a Quezon City street, Indio included, a painted jeepney rather than a bus) in the anime style at 864x1536; one try is probably enough."
+    },
+    {
+      "key": "k14",
+      "type": "style",
+      "must_fix": false,
+      "what": "Confirmed as unsure. The blank wet plaque is clean and has no faults of its own, but the comic-ink look sits apart from the anime keys.",
+      "where": "whole frame",
+      "still": "keys/k14.png (prompt key_prompts.json[\"14\"])",
+      "shots": [14],
+      "fix_idea": "Leave it unless shots 12-13 are redrawn, then redraw to match."
+    },
+    {
+      "key": "k16",
+      "type": "style",
+      "must_fix": false,
+      "what": "Confirmed as unsure. The frozen golden raindrops are a comic-ink draft frame, flatter than the anime keys, though the drops themselves are clean.",
+      "where": "whole frame",
+      "still": "keys/k16.png (prompt key_prompts.json[\"16\"])",
+      "shots": [0, 16],
+      "fix_idea": "Leave it; redraw only when shots 12-14 are redone, for consistency."
+    },
+    {
+      "key": "k32",
+      "type": "object",
+      "must_fix": false,
+      "what": "Confirmed. The bronze statue holds torn papers that are white paper with printed lines instead of bronze, and a half-hidden extra figure is wedged behind the main man's legs.",
+      "where": "centre, the raised papers and behind the main figure's legs",
+      "still": "keys/k32.png (prompt key_prompts.json[\"32\"])",
+      "shots": [32],
+      "fix_idea": "Redraw with 'the torn papers are cast in bronze like the figures' and three figures only, if one try gets it."
+    },
+    {
+      "key": "k23",
+      "type": "duplicate",
+      "must_fix": false,
+      "what": "Confirmed. The crowd behind the leader repeats the same face, straw hat and red kerchief over and over, like clones.",
+      "where": "lower and right crowd",
+      "still": "keys/k23.png (prompt key_prompts.json[\"23\"])",
+      "shots": [23],
+      "fix_idea": "Leave it; it does not show at phone size."
+    },
+    {
+      "key": "k05",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed. The resume on the desk shows rows of pseudo-text beside a small photo of Indio, and the framed papers on the wall carry scribble letters.",
+      "where": "centre desk paper, top-left and top-right frames",
+      "still": "keys/k05.png (prompt key_prompts.json[\"5\"])",
+      "shots": [5],
+      "fix_idea": "Leave it, or redraw the folder closed with its cover blank."
+    },
+    {
+      "key": "k06",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed. The checklist paper in his raised hand and the plaque on the building both carry letter-like scribble lines.",
+      "where": "paper in his hand, plaque at lower right",
+      "still": "keys/k06.png (prompt key_prompts.json[\"6\"])",
+      "shots": [6],
+      "fix_idea": "Leave it; it reads as a form."
+    },
+    {
+      "key": "k12",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed. The licence plate and the destination sign carry letter-like marks, and the destination sign's marks read as kanji.",
+      "where": "bus front",
+      "still": "keys/k12.png (prompt key_prompts.json[\"12\"])",
+      "shots": [12, 35],
+      "fix_idea": "Comes with the k12 redraw."
+    },
+    {
+      "key": "k24",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed. Both torn certificates show lines of pseudo-handwriting and round stamps.",
+      "where": "the papers held up across the top of the frame",
+      "still": "keys/k24.png (prompt key_prompts.json[\"24\"])",
+      "shots": [0, 24, 25, 40],
+      "fix_idea": "Comes with the k24 redraw; ask for 'blank aged paper with only a round stamp'."
+    },
+    {
+      "key": "k31",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed. The letters lying under the map are covered in cursive pseudo-handwriting.",
+      "where": "top and bottom papers on the table",
+      "still": "keys/k31.png (prompt key_prompts.json[\"31\"])",
+      "shots": [31],
+      "fix_idea": "Leave it; it reads as old letters at phone size."
+    },
+    {
+      "key": "k38",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Confirmed, faint. The background jeepney's top sign carries letter-like marks.",
+      "where": "right, background jeepney sign",
+      "still": "keys/k38.png (prompt key_prompts.json[\"38\"])",
+      "shots": [38, 39],
+      "fix_idea": "Leave it; it is small and out of focus."
+    },
+    {
+      "key": "k03",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Found on the second reading. The shop sign over the awning and the posters strapped to the electric post carry rows of letter-like scribble marks.",
+      "where": "upper left awning sign and the posters on the post",
+      "still": "keys/k03.png (prompt key_prompts.json[\"3\"])",
+      "shots": [3],
+      "fix_idea": "Leave it; the marks are small and the sun glare swallows them."
+    }
+  ],
+  "refuted": [
+    {
+      "key": "k22",
+      "type": "object",
+      "reported": "the lantern beside the right soldier's head hangs in the air with no hand or hook holding it",
+      "actually": "At 4x the bearded soldier's hand is clearly wrapped around the lantern's base and ring just below the glass, with his red cuff above it. The lantern is held. Nothing to fix here (his other hands are reported separately as a hands fault)."
+    },
+    {
+      "key": "k36",
+      "type": "limbs",
+      "reported": "the arm runs from the short sleeve to the wrist as one long tube with no elbow",
+      "actually": "The shot is a raised forearm seen end-on, with the red wrist cloth at the bottom and the white sleeve of the shoulder behind it; the elbow is simply outside the frame. At 3x the wrist, forearm and sleeve all line up and the tattoo sits correctly on the forearm. No fault."
+    }
+  ]
+}
