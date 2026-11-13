@@ -1,0 +1,321 @@
+{
+ "episode": 24,
+ "audited_by": "worker-davinci (first reader)",
+ "keys_looked_at": 80,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/queen_cup.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The queen's fingers and Indio's fingers knot together on the cup stem so you cannot tell whose hand is whose or count either.",
+   "where": "centre, both hands on the golden cup stem"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/queen_cup.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a grey t-shirt and grey slacks with no red headband or sash, while the scene's outfit (k19, k23, k40-k46) is a beige tunic, red sash and red headband; the dog the prompt asks for is also missing.",
+   "where": "right half, Indio"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/queen_cup.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A loose grey shirt-cuff ring floats on Indio's bare forearm above the wrist, with no sleeve attached.",
+   "where": "bottom right, Indio's lowered hand"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22,
+    93
+   ],
+   "still": "full/cup_hand.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The hand on the cup belongs to a pale man with blue eyes, a black shirt, an earring and coloured floral tattoos on his neck, hand and arm, which looks nothing like Indio's brown skin, topknot and indigo geometric forearm tattoos.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22,
+    93
+   ],
+   "still": "full/cup_hand.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand around the glass is oversized, and a thumb and a fingertip come out of odd places on the rim and the stem.",
+   "where": "centre, hand around the glass"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/usman_bark.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "A pink scaly claw-hand with no owner hangs under the dog's belly.",
+   "where": "centre, below the dog's belly (about x 590, y 1400)"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/usman_bark.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears upright, stands upright like a person and lays a hand-like paw on the queen's chin; the queen is auburn-haired and red-eyed in a red-and-white gown, and Indio wears a modern blue button shirt.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/usman_bark.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Usman's red kerchief runs straight across Indio's mouth and face, as if the two were one piece of cloth.",
+   "where": "left edge, Indio's face"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11,
+    90
+   ],
+   "still": "full/usman_prow.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two fully upright ears (he must have one folded ear) and a scruffy, thin build that does not match the smooth-coated dog in k25 and k51.",
+   "where": "centre, dog at the prow"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/queen_whisper.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The queen has black hair and a different face here, while in k00, k18 and k19 she has long silver hair.",
+   "where": "whole frame, queen's face"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21,
+    82
+   ],
+   "still": "full/queen_throne.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The queen has brown hair in an updo and a different face, so she does not read as the silver-haired queen from k18 and k19.",
+   "where": "left half, queen"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/sinag_laugh.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The laughing queen has light-blue hair, a fourth hair colour for the same character in this episode.",
+   "where": "centre, queen's head"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/indio_hope.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Indio looks at a second young man in the same beige tunic with a red collar, who reads as Indio a second time; the script has him watching M's back (long black hair, dark coat).",
+   "where": "right half, the figure seen from behind"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/dagger_cut.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The glowing dagger's hilt floats in front of his belly, and the hand that should grip it melts into a shapeless skin blob under the hilt.",
+   "where": "centre, dagger hilt"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/agos_ride.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "His outstretched left hand shows only three fingers and a stub.",
+   "where": "left side, outstretched hand"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63,
+    89
+   ],
+   "still": "full/ilawan_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The hands holding the lamp are covered in dark tattoos on the fingers, the backs of the hands and a red eye motif, unlike Indio's indigo geometric forearm tattoos.",
+   "where": "whole frame, both hands"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63,
+    89
+   ],
+   "still": "full/ilawan_cu.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The two hands blend into one mass around the lamp, so the fingers of each hand cannot be counted.",
+   "where": "left and bottom of the lamp"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/portal_exit.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio stands in the boat in a long brown coat with no red headband, tunic or sash.",
+   "where": "upper middle, man behind M"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/videocall.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "On the video call, Ma'am Celia has loose hair and no glasses, but in her own close-up (k05) she has a bun and glasses.",
+   "where": "laptop screen"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/videocall.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The red handkerchief on Indio's wrist is covered in black letter-like marks.",
+   "where": "Indio's wrist"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/indio_smile_call.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The red handkerchief is draped over his shoulder, and a red patterned band sits on his sleeve, instead of a handkerchief tied on his left wrist.",
+   "where": "shoulder and sleeve, left side"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/samar_feather.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The shaft of the key in his fist carries white letter-like marks.",
+   "where": "top left, key above the fist"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/samar_feather.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A red handkerchief is tied on both wrists instead of only the left one.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/indio_point_s3.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A red tassel hangs in mid-air in front of his shirt, attached to nothing.",
+   "where": "left, below the pointing arm"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/queen_seat.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Indio's red headband has a gold letter-like glyph on it.",
+   "where": "Indio's headband, right half"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/temple_sun.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The temple pediment holds faint letter-like marks.",
+   "where": "top centre, pediment"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/memory_cars.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The car number plates carry faint letter-like marks.",
+   "where": "middle, front plates"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/critias_unfinished.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The pen on the scroll ends in a curved knife blade instead of a nib or quill.",
+   "where": "bottom right"
+  }
+ ]
+}
