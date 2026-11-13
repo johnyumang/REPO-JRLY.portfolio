@@ -14,7 +14,11 @@
    "must_fix": true,
    "what": "In the extreme close-up the fingers behind the folded bill are a fused, tangled cluster: two loose fingertips and a web of crease lines, with no clear count of four fingers.",
    "where": "the hand's fingers below the bill, lower left of centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "shot 7 now uses chars/indio_bill on the church plate (as shot 8, closer crop); full/bill.jpg no longer used",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Cel-shaded anime illustration with clean ink lines and flat colours, not a photo. Single image, no panels, no border, the picture fills the whole vertical frame. Inside an old church in Manila, Philippines: close-up of a small tightly folded orange paper note tucked into the thin gap between a white marble slab and the cream wall, only its plain blank outside visible, no writing, no letters, no marks, no hands, no people; candlelight, a blurred church aisle behind."
   },
   {
    "key": "k10",
