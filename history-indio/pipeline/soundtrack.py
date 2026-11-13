@@ -77,8 +77,8 @@ def true_peak(path, encode=False):
 
 def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
     """Two-pass EBU R128 normalisation of src's audio to LUFS / TP (linear gain when possible), then a ceiling guard: if the
-    true peak after encoding (dst's own codec, or AAC for a WAV) is above TP, the gain is lowered by the excess + 0.2 dB and
-    the file is redone (at most 3 times). Returns (before, after) LUFS."""
+    true peak after encoding (dst's own codec, or AAC for a WAV) is above TP, an oversampled limiter (loudness kept) is added
+    0.3 dB under the ceiling (lowered by any remaining overshoot + 0.2 dB), and the file is redone (at most 3 times). Returns (before, after) LUFS."""
     import json, re
     af = f'loudnorm=I={LUFS}:TP={TP - 0.5}:LRA=11'           # 0.5 dB margin: loudnorm and the AAC encode overshoot slightly
     def meas(p, f):
@@ -88,13 +88,14 @@ def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
     m = meas(src, af)
     lin = (f"{af}:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
            f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
-    post = 0.0
+    lim = None                                # dB; None = no limiter (the normal case)
     for _ in range(3):
-        vol = f',volume={post:.2f}dB' if post else ''
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', lin + vol + ',aresample=' + str(SR)] + list(extra) + [dst], check=True)
+        post = '' if lim is None else f',aresample=176400:resampler=soxr,alimiter=limit={10 ** (lim / 20):.5f}:attack=2:release=80:level=false'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', lin + post + ',aresample=' + str(SR)] + list(extra) + [dst], check=True)
         tp = true_peak(dst, encode=check_encoded and dst.lower().endswith('.wav'))
         if tp <= TP: break
-        post -= tp - TP + 0.2; print(f'true peak {tp:.1f} dBTP over {TP}: gain {post:.1f} dB', flush=True)
+        lim = TP - 0.3 if lim is None else lim - (tp - TP) - 0.2                     # oversampled true-peak limiter just under the ceiling; lowered by the overshoot + 0.2 dB if it still leaks
+        print(f'true peak {tp:.1f} dBTP over {TP}: limiter at {lim:.1f} dB', flush=True)
     return float(m['input_i']), float(meas(dst, af)['input_i'])
 
 
