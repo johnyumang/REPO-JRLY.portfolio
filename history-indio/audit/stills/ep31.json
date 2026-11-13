@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "The whole picture sits inside a white margin and a black outline, a visible frame around the image."
+   "what": "The whole picture sits inside a white margin and a black outline, a visible frame around the image.",
+   "fixed": true
   },
   {
    "still": "full/m_smile.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Plates of food are superimposed over the woman's face like a double-exposure collage, cutting across her eyes and cheeks."
+   "what": "Plates of food are superimposed over the woman's face like a double-exposure collage, cutting across her eyes and cheeks.",
+   "fixed": true
   },
   {
    "still": "full/usman_table.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "A hanging scroll with large kanji and a wooden sign with Japanese/Chinese characters on the kitchen wall in a Kawit house."
+   "what": "A hanging scroll with large kanji and a wooden sign with Japanese/Chinese characters on the kitchen wall in a Kawit house.",
+   "fixed": true
   },
   {
    "still": "full/dark_voices.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "Two big white hanging shop signs with Chinese/Japanese characters on the left wall of the flooded Kawit alley, also mirrored in the water."
+   "what": "Two big white hanging shop signs with Chinese/Japanese characters on the left wall of the flooded Kawit alley, also mirrored in the water.",
+   "fixed": true
   },
   {
    "still": "full/kapitan_cta.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "A green shop sign with Chinese characters on the building behind Indio at upper left."
+   "what": "A green shop sign with Chinese characters on the building behind Indio at upper left.",
+   "fixed": true
   },
   {
    "still": "full/no_tarp.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Posters on the left wall carry pseudo-Japanese headline glyphs and red pseudo-text blocks, and the poster at right has red lettering."
+   "what": "Posters on the left wall carry pseudo-Japanese headline glyphs and red pseudo-text blocks, and the poster at right has red lettering.",
+   "fixed": true
   },
   {
    "still": "full/m_rope.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "logo",
    "must_fix": true,
-   "what": "A white logo badge with red letters is drawn in the top-left corner, plus pseudo-letters on a sign at upper right."
+   "what": "A white logo badge with red letters is drawn in the top-left corner, plus pseudo-letters on a sign at upper right.",
+   "fixed": true
   },
   {
    "still": "full/usman_happy.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The dog at the table has two tall pointed ears, no red kerchief and no white chest patch, so it does not read as Usman."
+   "what": "The dog at the table has two tall pointed ears, no red kerchief and no white chest patch, so it does not read as Usman.",
+   "fixed": true
   },
   {
    "still": "full/usman_swim.jpg",
