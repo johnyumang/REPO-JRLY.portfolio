@@ -33,14 +33,17 @@ def gen(kind, n):
     for x, y in K.get('nv_replace', {}).items(): prompt = prompt.replace(x, y)             # the free endpoint refuses prompts over 800 characters
     if len(prompt) > 800: print(n, 'prompt too long:', len(prompt)); prompt = prompt[:800]
     seed = zlib.crc32(n.encode()) % 9999 + (len(redo) and n in redo) * int.from_bytes(os.urandom(2), 'big')
+    tmp = out[:-4] + '.new.jpg'                                           # draw beside the old still: a failed draw (504, no image) must never cost the still we have
     for t in range(6):                                                    # the free endpoint sometimes answers 504 or with no image
         m, extra = MODELS[(PREF[0] + t) % len(MODELS)]                    # start with the model that answered last; on a failure try the other one
         try:
-            if nvidia_still.call(m, {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t // len(MODELS), **extra}, out) and cv2.imread(out) is not None:
-                PREF[0] = (PREF[0] + t) % len(MODELS); return out
+            if nvidia_still.call(m, {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t // len(MODELS), **extra}, tmp) and cv2.imread(tmp) is not None:
+                PREF[0] = (PREF[0] + t) % len(MODELS); os.replace(tmp, out); return out
         except Exception as e: print(n, 'failed:', str(e)[:120])
-        if os.path.exists(out) and cv2.imread(out) is None: os.remove(out)
+        if os.path.exists(tmp): os.remove(tmp)
         time.sleep(4 * (t + 1))
+    print(n, 'NOT DRAWN after 6 tries;', 'the old still is kept' if os.path.exists(out) else 'no still')
+    return out if os.path.exists(out) else None
 for kind in ('plates', 'chars', 'full'):
     for n in K.get(kind, {}): gen(kind, n)
 os.makedirs(f'{v}/keys', exist_ok=True)
