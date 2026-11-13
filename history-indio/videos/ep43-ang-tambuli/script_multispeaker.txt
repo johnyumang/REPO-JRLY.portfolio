@@ -1,5 +1,5 @@
 # MASTER script (Season 5 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording; President, past forty), USMAN (a dog's voice: quick, warm, a little gravelly; designed voice), M (Mikaela: calm, low, unhurried; designed voice), TOTOY (Emmanuel "Totoy" Abuyog, now a young ark captain: the designed TOTOY voice, played older, bright, joking; if the kit voice is still a child's, use it a little lower), LOLO (Lolo Isidro, remembered from Episode 28: an old man's voice, warm, dry; designed voice), BEA (Bea Marasigan, now a journalist: quick, sure; designed voice). The diwa of the twelve datu appear as light and say nothing in this episode. No real person speaks.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording; President, past forty), USMAN (a dog's voice: quick, warm, a little gravelly; designed voice), M (Mikaela: calm, low, unhurried; designed voice), TOTOY (Emmanuel "Totoy" Abuyog, now a young ark captain: the designed TOTOY voice, played older, bright, joking; if the kit voice is still a child's, use it a little lower), LOLO (Lolo Isidro, remembered from Episode 28: an old man's voice, warm, dry; designed voice), BEA (Bea Marasigan, now a journalist: quick, sure; designed voice). The diwa of the twelve datu appear as light and say nothing in this episode. No real person speaks. TOTOY_BINATA is the grown Totoy (designed voice on cast kit 3); the child voice TOTOY is not used in this episode.
 
 INDIO: [whisper] Hindi sapat ang mga bangka.
 INDIO: [dramatic] Kaya hinipan ko ang sungay na isang beses lang puwedeng hipan.
@@ -12,8 +12,8 @@ INDIO: [warm] Mas malaki kaysa anumang bangka ng mga ninuno, pero iisa ang paraa
 INDIO: [serious] Sa unahan ng pinakamalaking arko, nakatayo ang kapitan nito.
 INDIO: [warm] Si Totoy, ang batang binigyan ko noon ng kalahating tinapay.
 INDIO: [warm] Malapad na ang balikat niya at siya ang pinakabatang kapitan; ako naman, lampas apatnapu na.
-TOTOY: [playful] Pangulo, kumpleto na po ang tinapay sa bodega.
-TOTOY: [playful] Hindi lang lima.
+TOTOY_BINATA: [playful] Pangulo, kumpleto na po ang tinapay sa bodega.
+TOTOY_BINATA: [playful] Hindi lang lima.
 INDIO: [warm] Sa pantalan, hindi umaalis si Tay Sebyo hangga't may arkong hindi pa lumalayag.
 
 INDIO: [somber] Pero lumulubog ang ibang bansa, at hindi sila maabot ng mga arko.

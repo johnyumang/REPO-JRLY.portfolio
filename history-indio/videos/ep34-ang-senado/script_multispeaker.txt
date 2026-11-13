@@ -1,5 +1,5 @@
 # MASTER script (Season 4 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording; 35 here), USMAN (in the present from Season 4), GURO (Ma'am Celia Abad, his adviser), BEA (Bea Marasigan, journalist), GORIO (NEW VOICE: Senador Gorio Madlangbayan, a veteran senator in his sixties: warm on camera, a low patronising purr off camera; invented person), SINAG (the Fallen, here as an old adviser: soft, kind-sounding), TOTOY (now 17: a teenage boy's voice, bright; if the designed child voice is too young, reuse it pitched down slightly), TUBAL (Tobías Alcaín), RICO (Rico Bulan). One new voice needed: GORIO. Every senator, firm, budget line and office in the plot is invented; the Senate and the age rule are real. Real people of 1898 are only watched and speak no line.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording; 35 here), USMAN (in the present from Season 4), GURO (Ma'am Celia Abad, his adviser), BEA (Bea Marasigan, journalist), GORIO (NEW VOICE: Senador Gorio Madlangbayan, a veteran senator in his sixties: warm on camera, a low patronising purr off camera; invented person), SINAG (the Fallen, here as an old adviser: soft, kind-sounding), TOTOY (now 17: a teenage boy's voice, bright; if the designed child voice is too young, reuse it pitched down slightly), TUBAL (Tobías Alcaín), RICO (Rico Bulan). One new voice needed: GORIO. Every senator, firm, budget line and office in the plot is invented; the Senate and the age rule are real. Real people of 1898 are only watched and speak no line. TOTOY_BINATA is the grown Totoy (designed voice on cast kit 3); the child voice TOTOY is not used in this episode.
 
 INDIO: [dramatic] Isang daang milyon para sa dike, sa probinsiyang walang dike.
 INDIO: [warm] Ako 'to si Indio.
@@ -62,7 +62,7 @@ INDIO: [serious] Mula sa langit, nakikita ko kung may pader ba talaga, o larawan
 
 INDIO: [warm] Si Totoy, ang batang binigyan ko ng tinapay, labimpito na ngayon.
 INDIO: [warm] Nag-aaral siyang gumawa ng bangka sa Butuan, sa ilalim ni Tay Sebyo, sa iskolarsip na ipinangalan kay Lolo Isidro.
-TOTOY: [excited] Kuya, gawa ko 'tong maliit na balangay. [warm] Para sa'yo, pang-baha.
+TOTOY_BINATA: [excited] Kuya, gawa ko 'tong maliit na balangay. [warm] Para sa'yo, pang-baha.
 
 INDIO: [suspense] Sa isang madilim na opisina sa Makati, hawak ni Tubal ang kopya ng talumpati ko.
 TUBAL: [serious] Hindi natin siya matatalo sa badyet. [whisper] Talunin natin siya sa kuwento.
