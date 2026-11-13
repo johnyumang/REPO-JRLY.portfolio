@@ -442,103 +442,95 @@
  },
  "59": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in",
-  "key": 60
+  "framing": "wide",
+  "move": "dolly_out",
+  "depth": "strong"
  },
  "60": {
   "fx": [],
-  "framing": "low-wide",
-  "move": "dolly_out",
-  "depth": "strong",
-  "key": 61
+  "framing": "CU",
+  "move": "push_in"
  },
  "61": {
+  "fx": [],
+  "framing": "low-wide",
+  "move": "dolly_out",
+  "depth": "strong"
+ },
+ "62": {
   "fx": [
    "water"
   ],
   "framing": "low-wide-alt",
   "move": "dolly_in",
-  "depth": "strong",
-  "key": 62
- },
- "62": {
-  "fx": [],
-  "framing": "ECU",
-  "move": "push_in",
-  "key": 63
+  "depth": "strong"
  },
  "63": {
+  "fx": [],
+  "framing": "ECU",
+  "move": "push_in"
+ },
+ "64": {
   "fx": [
    "water"
   ],
   "framing": "low-wide",
   "move": "dolly_in",
-  "depth": "strong",
-  "key": 64
- },
- "64": {
-  "fx": [],
-  "framing": "wide",
-  "move": "orbit_right",
-  "depth": "strong",
-  "key": 65
+  "depth": "strong"
  },
  "65": {
   "fx": [],
-  "framing": "wide-back",
-  "move": "dolly_out",
-  "depth": "strong",
-  "key": 66
+  "framing": "wide",
+  "move": "orbit_right",
+  "depth": "strong"
  },
  "66": {
   "fx": [],
-  "framing": "CU-alt",
-  "move": "pull_out",
-  "key": 67
+  "framing": "wide-back",
+  "move": "dolly_out",
+  "depth": "strong"
  },
  "67": {
   "fx": [],
-  "framing": "wide",
-  "move": "dolly_in",
-  "depth": "strong",
-  "key": 68
+  "framing": "CU-alt",
+  "move": "pull_out"
  },
  "68": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in",
-  "key": 69
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong"
  },
  "69": {
+  "fx": [],
+  "framing": "CU",
+  "move": "push_in"
+ },
+ "70": {
   "fx": [
    "sparkle"
   ],
   "framing": "insert",
   "move": "rack_focus",
-  "depth": "strong",
-  "key": 70
- },
- "70": {
-  "fx": [],
-  "framing": "M",
-  "move": "push_in",
-  "key": 71
+  "depth": "strong"
  },
  "71": {
   "fx": [],
-  "framing": "wide",
-  "move": "crane_up",
-  "depth": "strong",
-  "key": 72
+  "framing": "M",
+  "move": "push_in"
  },
  "72": {
+  "fx": [],
+  "framing": "wide",
+  "move": "crane_up",
+  "depth": "strong"
+ },
+ "73": {
   "fx": [
    "sparkle"
   ],
   "framing": "low-wide",
   "move": "crane_up",
-  "depth": "strong",
-  "key": 73
+  "depth": "strong"
  }
 }

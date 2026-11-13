@@ -448,48 +448,47 @@
  },
  "69": {
   "fx": [],
-  "framing": "two-shot",
-  "move": "dolly_in",
-  "depth": "strong",
-  "key": 70
+  "framing": "wide",
+  "move": "pull_out",
+  "depth": "strong"
  },
  "70": {
   "fx": [],
-  "framing": "CU",
-  "move": "rack_focus",
-  "depth": "strong",
-  "key": 71
+  "framing": "two-shot",
+  "move": "dolly_in",
+  "depth": "strong"
  },
  "71": {
   "fx": [],
-  "framing": "M",
-  "move": "push_in",
-  "key": 72
+  "framing": "CU",
+  "move": "rack_focus",
+  "depth": "strong"
  },
  "72": {
   "fx": [],
-  "framing": "high-wide",
-  "move": "crane_up",
-  "depth": "strong",
-  "key": 73
+  "framing": "M",
+  "move": "push_in"
  },
  "73": {
   "fx": [],
-  "framing": "M-low",
-  "move": "push_in",
-  "key": 74
+  "framing": "high-wide",
+  "move": "crane_up",
+  "depth": "strong"
  },
  "74": {
   "fx": [],
-  "framing": "CU",
-  "move": "pull_out",
-  "key": 75
+  "framing": "M-low",
+  "move": "push_in"
  },
  "75": {
   "fx": [],
+  "framing": "CU",
+  "move": "pull_out"
+ },
+ "76": {
+  "fx": [],
   "framing": "wide",
   "move": "tilt_up",
-  "depth": "strong",
-  "key": 76
+  "depth": "strong"
  }
 }
