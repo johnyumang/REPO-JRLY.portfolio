@@ -10,7 +10,8 @@ a = vqc.load16(f); h = vqc.asr(a); want = ' '.join(t['text'] for t in T)
 print('HEARD:', h); print('cmatch %.3f match %.3f' % (vqc.cmatch(want, h), vqc.match(want, h)))
 print('spk whole clip %.3f' % float(vqc.spk(a) @ cen))
 for t in T:
-    seg = a[int(t['start'] * 16000):int(t['end'] * 16000)]; print('  spk %.3f | %s' % (float(vqc.spk(seg) @ cen), t['text'][:50]))
+    s0, s1 = t['start'], t['end']; pad = max(0.0, 0.6 - (s1 - s0)) / 2          # a one-word line ('Takas!') is shorter than the x-vector's window
+    seg = a[max(0, int((s0 - pad) * 16000)):int((s1 + pad) * 16000)]; print('  spk %.3f | %s' % (float(vqc.spk(seg) @ cen), t['text'][:50]))
 print('whole clip edits %d first_ok %s' % (vqc.edits(want, h), vqc.first_ok(want, h)))
 if len(sys.argv) > 3:                                                              # per chunk, cut from the assembled clip and re-heard
     P = json.load(open(sys.argv[3]))
