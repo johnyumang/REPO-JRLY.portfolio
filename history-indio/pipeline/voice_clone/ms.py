@@ -3,6 +3,8 @@ usage: ms.py plan <script_multispeaker.txt | episode_dir> <work_dir>
        ms.py qc <work_dir> [--full]        -> choice.json; prints the chunks that need another take
        ms.py assemble <work_dir> <out_prefix>   -> <out_prefix>.mp3/.wav + <out_prefix>_timings.json
        ms.py verify <work_dir> <out_prefix>     -> re-hears every line of the finished file, <out_prefix>_verify.json
+       ms.py fixstarts <work_dir> [--max 3]  -> new takes (next seeds) for lines heard with a stray token glued before the first
+                                             word (or after the last) that the trim cannot cut; first clean take wins (choice.json)
        ms.py numbers <work_dir> [--all]   -> audit: every chunk whose script has a number (year, age, date, amount): expected vs heard
                                              in the chosen take, DIFF where they differ (from the qc files already there; no generation)
 Script: one line per speaker turn, `NAME: [tone] text` (a turn may hold several sentences and tone tags; a blank line = new scene).
@@ -141,6 +143,70 @@ def numbers(work, show_all=False):
         if h2: print('     second listen (numbers as words): %s -> %s' % (h2, ','.join(map(str, numwords.numbers(h2))) or '-'))
     print('%d chunks with numbers: %d real DIFF, %d ok on second listen%s' % (n, bad, again, ' (listen to the DIFF lines; ms.py qc then assemble re-picks takes by the number rule)' if bad else ''))
     return bad
+SCRIPTURE = re.compile(r"\b(biblia|bibliya|genesis|henesis|exodo|awit|kawikaan|isaias|daniel|mateo|marcos|markos|lucas|lukas|juan|huwan|"
+                       r"gawa|roma|hebreo|pedro|judas|pahayag)\b.*\b(kabanata|talata)\b|\bang dating biblia\b|\b\d+:\d+\b", re.I)
+def scripture(S, ids):
+    """A chunk that quotes or cites scripture: its sentence, or the one before it, names a book with kabanata/talata, a
+    chapter:verse, or Ang Dating Biblia. Such a line may only be replaced by a take heard word for word (edits 0)."""
+    return any(SCRIPTURE.search(S[i]['text']) or (i > 0 and SCRIPTURE.search(S[i - 1]['text'])) for i in ids)
+def free_models():
+    """Unload the listener models (Whisper, aligner, speaker) and give the memory back, before a generation run in another process."""
+    import gc, ctypes, vqc
+    vqc._m.clear(); gc.collect()
+    try: ctypes.CDLL('libc.so.6').malloc_trim(0)
+    except OSError: pass
+def fixstarts(work, maxn=3):
+    """For each chosen take heard with an extra token before the script's first word (or after its last) that the assembly
+    trim cannot remove (the syllable is glued to the word), generate up to maxn new takes (next seeds, one gen_ms.py run per
+    seed for all such chunks) and take the first CLEAN one: words right, first word right, no extra token at either end,
+    numbers right, no check failing that the old take passed, and for scripture lines heard word for word. Updates
+    choice.json; prints one line per chunk and a total. Never swaps in a take with a wrong number."""
+    import vqc, leadtrim, soundfile as sf, time
+    P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')); S = {s['i']: s for s in P['sentences']}
+    here = os.path.dirname(os.path.abspath(__file__)); todo = {}
+    for c in P['chunks']:
+        ch = CH.get(str(c['id']))
+        if not ch: continue
+        m = renum(json.load(open(ch['wav'][:-4] + '.json')), c['text']); h = m.get('heard', '')
+        lead, trail = vqc.extra_lead(c['text'], h), vqc.extra_trail(c['text'], h)
+        if not (lead or trail): continue
+        y, sr = sf.read(ch['wav'], dtype='float32'); W = m['words']
+        st = max(0.0, min(W[0][1] - 0.04, m.get('onset', 9) - 0.03)); en = min(len(y) / sr, max(W[-1][2] + 0.12, m.get('offset', 0) + 0.08))
+        ok = lambda t, h2, h0: vqc.first_ok(t, h2) and vqc.cmatch(t, h2) >= vqc.cmatch(t, h0) and vqc.edits(t, h2) <= vqc.edits(t, h0)
+        st2, en2, note = leadtrim.trim(y, sr, st, en, W, c['text'], lambda x: vqc.asr(vqc.load16(x, sr)), ok,
+                                       lambda t, hh: bool(vqc.extra_lead(t, hh)), lambda t, hh: bool(vqc.extra_trail(t, hh)))
+        if lead and 'lead' not in note and W[0][1] - st > 0.04:                         # the older aligned-start trim of assemble()
+            s3 = max(0.0, W[0][1] - 0.03)
+            if vqc.first_ok(c['text'], vqc.asr(vqc.load16(y[int(s3 * sr):int(en * sr)], sr))): note = ('lead %.2f->%.2f (aligned start) ' % (st, s3) + note).strip()
+        if (not lead or note.find('lead') >= 0) and (not trail or note.find('tail') >= 0):
+            print('c%03d %-8s trim fixes it (%s): no new take' % (c['id'], c['speaker'][:8], note)); continue
+        e, rf0 = ref_emb(work, c['speaker']); m['spk'] = round(float(np.array(m['emb']) @ e), 3)
+        todo[c['id']] = dict(c=c, old=m, oldfail=set(checks(m, c, rf0)), e=e, rf0=rf0, why=('lead %r' % lead if lead else '') + (' tail %r' % trail if trail else ''))
+    print('%d chunk(s) with an extra token the trim cannot remove: %s' % (len(todo), ','.join(map(str, todo))))
+    fixed = {}
+    for k in range(maxn):
+        left = [i for i in todo if i not in fixed]
+        if not left: break
+        seed = 1 + max(int(re.search(r'_s(\d+)', os.path.basename(w)).group(1)) for i in left
+                       for w in glob.glob(f"{work}/c{i:03d}_{VP.fname(todo[i]['c']['speaker'])}_s*.wav") if re.search(r'_s\d+\.wav$', w))
+        free_models()                                                                    # the voice model needs ~11 GB: drop the listeners first
+        t0 = time.time(); subprocess.run(['/opt/vx/bin/python', '-u', here + '/gen_ms.py', work, '--only', ','.join(map(str, left)), '--seeds', str(seed)], check=True)
+        dt = (time.time() - t0) / len(left)
+        for i in left:
+            d = todo[i]; c = d['c']; w = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_s{seed}.wav"
+            if not os.path.exists(w): continue
+            m = vqc.take_metrics(w, c['text']); json.dump(m, open(w[:-4] + '.json', 'w'), ensure_ascii=False); renum(m, c['text'])
+            m['spk'] = round(float(np.array(m['emb']) @ d['e']), 3); fail = checks(m, c, d['rf0']); h = m['heard']
+            why = [x for x, bad in (('words', not words_ok(m)), ('extra start', vqc.extra_lead(c['text'], h)), ('extra end', vqc.extra_trail(c['text'], h)),
+                                     ('numbers', not m['num_ok']), ('scripture not word for word', scripture(S, c['sent_ids']) and m['edits'] > 0),
+                                     ('worse: ' + ','.join(set(fail) - d['oldfail'] - {'words'}), set(fail) - d['oldfail'] - {'words'})) if bad]
+            print('c%03d %-8s take s%d (%.0f s/chunk) %s | %s' % (i, c['speaker'][:8], seed, dt, 'CLEAN' if not why else 'not clean: ' + '; '.join(why), h[:80]), flush=True)
+            if not why:
+                fixed[i] = seed; CH[str(i)] = dict(wav=w, ok=not fail, words_ok=True, fail=fail, spk=m['spk'], score=round(score(m), 4))
+                json.dump(CH, open(work + '/choice.json', 'w'), indent=1)
+    for i, d in todo.items():
+        print('c%03d %-8s %s' % (i, d['c']['speaker'][:8], 'fixed with take s%d' % fixed[i] if i in fixed else 'still bad (%s): keep the old take, listen' % d['why'].strip()))
+    print('fixstarts: %d of %d fixed' % (len(fixed), len(todo))); return len(todo) - len(fixed)
 def score(m): return 0.40 * m['cmatch'] + 0.25 * m['conf'] + 0.10 * min(m['minconf'], 0.8) / 0.8 + 0.25 * float(np.clip((m['spk'] - 0.80) / 0.15, 0, 1)) - 0.3 * max(0, abs(m['rate'] - 5.85) / 5.85 - 0.15)
 def qc(work, full=False):
     import vqc
@@ -266,5 +332,6 @@ if __name__ == '__main__':
     elif cmd == 'qc': qc(x[0], '--full' in x)
     elif cmd == 'assemble': assemble(x[0], x[1])
     elif cmd == 'verify': verify(x[0], x[1])
+    elif cmd == 'fixstarts': sys.exit(1 if fixstarts(x[0], int(x[x.index('--max') + 1]) if '--max' in x else 3) else 0)
     elif cmd == 'numbers': sys.exit(1 if numbers(x[0], '--all' in x) else 0)
     else: sys.exit(__doc__)

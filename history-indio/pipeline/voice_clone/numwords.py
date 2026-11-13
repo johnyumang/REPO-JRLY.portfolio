@@ -70,6 +70,8 @@ def _split(w):
 def _words(t):
     t = t.lower().replace('ñ', 'n')
     for a, b in (('á', 'a'), ('é', 'e'), ('í', 'i'), ('ó', 'o'), ('ú', 'u')): t = t.replace(a, b)
+    t = re.sub(r'\b(mily[ou]n|lib[ou]|da[ae]n|ra[ae]n)\s*-?\s*(mily[ou]n|lib[ou]|da[ae]n|ra[ae]n)(g|ng)?\b', ' marami ', t)   # "milyun-milyong" = millions of: no number
+    t = re.sub(r"\b([a-z]+)'?y,\s*(?=[a-z])", lambda m: m[1] + 'y ' if m[1] in TENS else m[0], t)              # "Trentay, sinko" = trenta'y singko
     t = re.sub(r'(?<=\d)[,.](?=\d{3}\b)', '', t)                                       # 1,906 -> 1906
     t = t.replace('%', ' porsyento ').replace('-', ' ').replace('’', '').replace("'", '')
     t = re.sub(r'\b(apat|anim|siyam)\s+na\s*p([uo])', r'\1nap\2', t)                  # recogniser splits: "siyam napot" -> siyamnapot
@@ -114,6 +116,7 @@ def _scan(t):
             kind, x = k
             if kind == 'd':
                 if last is None: cur = x
+                elif last in ('x1000', 'x1M') and x < 1000 and cur == 0: cur = x              # heard "Mil-7" = mil siyete = 1007
                 elif last == 'd' and lastd % 100 == 0 and lastd >= 100 and x < 100: cur += x
                 else: break
                 lastd = x
@@ -222,6 +225,12 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("noong dekada sisenta", "noong dekada 60", [60], True), ("noong dekada sitenta", "noong 70s", [70], True),
     ("noong dekada otsenta", "noong dekada '80", [80], True), ("the nineteen sixties", "the 1960s", [1960], True),
     ("noong mil nobesyentos nobentas", "noong 1990s", [1990], True), ("mga setentas", "mga 70s", [70], True),
+    # fifth round (Episodes 37, 38, 43, 48)
+    ("tatlumpu't walong taon", "tatlumputwalong taon", [38], True), ("tatlumputwalo", "38", [38], True),
+    ("milyun-milyong tao", "milyon-milyong tao", [], True), ("milyun-milyong tao", "milyun milyong tao", [], True), ("libu-libong tao", "libo-libong tao", [], True),
+    ("trenta'y singko", "Trentay, sinko", [35], True), ("trenta'y singko", "Trenta, singko", [35], False),
+    ("ar ey anim na libo pitong daan at labintatlo", "R ay 6,713", [6713], True), ("Republic Act 6713", "RA 6713", [6713], True),
+    ("mil siyete", "Mil-7", [1007], True), ("mil siyete", "1007", [1007], True), ("mil siyete", "Mil-9", [1007], False),
     ("mahigit dalawang libong metro ang taas", "mahigit 2000 metro ang taas", [2000], True), ("libu-libo na sila", "libu-libo na sila", [], True),
 ]
 

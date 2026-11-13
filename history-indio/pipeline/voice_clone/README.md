@@ -101,6 +101,27 @@ bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.
   speed outside 4.8-6.8 syl/s, pitch outside the character's range) and the voice is below 0.88 speaker similarity to
   Indio and to every voice already kept. The numbers measure clarity and consistency, not naturalness: the user's ear decides.
 
+## Final pass (a finished episode, before its last publish)
+From `history-indio/`, with `W=$HI_VOICE_WORK/<slug>` (default `/opt/work/voice/<slug>`), `HI_VOICE_REC` set, one heavy job per machine:
+```
+git pull --rebase origin <branch>                                                  # the code below, and the episode's frames
+/opt/vc/bin/python pipeline/voice_clone/ms.py qc $W                                # re-judge every take (numbers by value), re-pick
+/opt/vc/bin/python pipeline/voice_clone/ms.py fixstarts $W --max 3                 # new takes for stray syllables glued to the first word
+/opt/vc/bin/python pipeline/voice_clone/ms.py numbers $W                           # must end "0 real DIFF"; listen to any DIFF line
+/opt/vc/bin/python pipeline/voice_clone/ms.py assemble $W $W/voice                 # with the stray-sound trim; prints the trims
+/opt/vc/bin/python pipeline/voice_clone/ms.py verify $W $W/voice                   # optional: re-hears the finished file line by line
+cp $W/voice_timings.json videos/<slug>/timings.json                                # commit this file only
+/opt/vc/bin/python pipeline/make_keys.py videos/<slug>                             # keys/ from full/ (never committed)
+/opt/vc/bin/python pipeline/build_anime.py videos/<slug> videos/<slug>/keys $W/voice.mp3 <out>.mp4 --size 720
+```
+Then the trivia break (Episode 3 on; see the main README, "Chibi trivia break", and `videos/<slug>/trivia_break.json`):
+`pipeline/trivia_break.py render --spec ... --out break.mp4 --sheet sheet.jpg` (look at the sheet), then
+`pipeline/trivia_break.py splice --video <out>.mp4 --brk break.mp4 --at <t> --out <final>.mp4`, where `<t>` is the end of
+sentence `insert_after_sentence` in the NEW `timings.json` plus its pause (re-assembly moves times; do not reuse an old
+`insert_time`). Check: duration, both streams, loudness about -16 LUFS / true peak under -1.5 dBTP, three frames.
+Last, the page: `pipeline/episode_page/make_page.py videos/<slug> <final>.mp4 <scratchpad>/page` and ONE private publish
+(4 files). Audio, video and keys never go into the repository.
+
 ## Limits
 - It measures clarity and similarity, NOT naturalness: a take can pass every check and still sound flat, oddly
   stressed or not like Indio's attitude. **The user's ear is the final check**; send the user a short test before a full
