@@ -75,8 +75,11 @@ def _words(t):
     t = re.sub(r'(?<=\d)[,.](?=\d{3}\b)', '', t)                                       # 1,906 -> 1906
     t = t.replace('%', ' porsyento ').replace('-', ' ').replace('’', '').replace("'", '')
     TEN = {'dalawa': 'dalawampu', 'tatlo': 'tatlumpu', 'apat': 'apatnapu', 'lima': 'limampu', 'anim': 'animnapu', 'pito': 'pitumpu', 'walo': 'walumpu', 'siyam': 'siyamnapu'}
-    t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam)\s+na\s*p[uo](t|ng|y)?(na)?(?=\W|$)',            # heard "apat na pu", "apat na puna",
-               lambda m: TEN[m[1]] + (m[2] or '') + (' na' if m[3] else ''), t)                            # "siyam napot": the tens (only "pu" right after "na")
+    def _ten(m):                                                                            # heard "apat na pu", "apat na puna", "apat na putsyam",
+        rest = m[3] or ''                                                                   # "siyam napot": the tens, only when "pu" comes right after "na"
+        if rest and rest != 'na' and not _val(rest): return m[0]                            # "apat na puno" stays 4
+        return TEN[m[1]] + (m[2] or '') + (' ' + rest if rest else '')
+    t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam)\s+na\s*p[uo](t|ng|y)?([a-z]*)', _ten, t)
     t = re.sub(r'\b(dalawa|tatlu|tatlo|lima|pitu|pito|walu|walo)m?\s+m?p([uo])', lambda m: {'tatlo': 'tatlu', 'pito': 'pitu', 'walo': 'walu'}.get(m[1], m[1]) + 'mp' + m[2], t)
     t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam|syam)\s+na(raan|daan)\b', r'\1na\2', t)   # heard "siyam naraan" = 900
     out = []
