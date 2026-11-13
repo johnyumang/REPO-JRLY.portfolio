@@ -17,10 +17,12 @@ render: spec.json (paths are relative to the spec file)
    "sprites": {"INDIO": "indio.png", "USMAN": "usman.png"},
    "subjects": [{"image": "subject.png", "label": "KAGWANG", "from_line": 1}],
    "lines": [{"speaker": "USMAN", "text": "Teka, patalastas muna!", "wav": "l0.wav", "emphasis": ["patalastas"]}, ...],
-   "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento"}
+   "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento",
+   optional: "layout": "bold" (default: BOLD) | "classic" (version 1: BOXES), "joke_line": index of the joke (default: the
+   one before the last; the listener cracks up on it), subjects[].pulse: words that make the subject pulse (default: the label)}
   Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
   sting, quiet rhythmic bed (mixed 18 dB under the voice; refused if less than 14 dB), synthesised whoosh at the end; mastered to -16 LUFS,
-  true peak -1.5 dBTP; 48 kHz stereo AAC. Picture layout: see BOXES. THE FIRST RULE: nothing covers a face or the
+  true peak -1.5 dBTP; 48 kHz stereo AAC. Picture layout: see BOLD (or BOXES for classic). THE FIRST RULE: nothing covers a face or the
   subject: the drawn extents of every element are computed before rendering (and tracked while rendering) and the
   command exits with code 3 naming the overlap if any two meet or anything important leaves the phone safe area.
 

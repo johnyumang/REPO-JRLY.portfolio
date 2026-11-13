@@ -98,9 +98,12 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
 - `render`: the spec (title, subtitle, palette `sun`/`sea`/`leaf`, sprites INDIO/USMAN, subjects with label and
   from_line, lines with speaker/text/wav/emphasis, source, countdown_text; paths relative to the spec) becomes the
   break: synthesised sting, bed (18 dB under the voice) and whoosh, mastered to −16 LUFS / −1.5 dBTP, 48 kHz stereo.
-  The layout boxes are fixed (`BOXES` in the script, all inside the phone safe area); the drawn extents of every
-  element are computed first and the command exits with code 3 naming any overlap, so nothing ever covers a face or
-  the subject. Look at the `--sheet` before using a break.
+  The layout boxes are fixed (`BOLD` in the script, all inside the phone safe area; only the chibis' feet may stand in
+  the bottom app margin, their face zone may not); the drawn extents of every element, with the time each is on
+  screen, are computed first and the command exits with code 3 naming any overlap, so nothing ever covers a face or
+  the subject. Look at the `--sheet` before using a break. Optional spec fields: `"layout": "classic"` renders the
+  version-1 frame (`BOXES`); `joke_line` (index; default the line before the last: the listener cracks up on it);
+  `subjects[].pulse` (words that make the subject pulse; default its label).
 - `splice`: cuts the break in at `--at` (rounded to a frame) with 0.20 s audio fades, one re-encode, then the loudness
   guard and the full-decode check. It refuses a cut inside speech and warns (with the quietest frame nearby) when the
   120 ms around the cut is not 12 dB under the episode's average. Voice and video files stay out of this repo.
