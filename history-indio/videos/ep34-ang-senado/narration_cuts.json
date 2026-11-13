@@ -1,0 +1,58 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 64,
+   "text": "Kathang-isip si Senador Gorio, ang Dalisdis Diking Corporation, ang linya sa badyet, at ang notaryo."
+  },
+  {
+   "index": 65,
+   "text": "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 27,
+   "text": "Hindi ako lumapit, at wala akong narinig na salita na maaari kong ulitin.",
+   "why": "Indio's own honesty about the scene he witnessed (rule c): he does not invent words for the real delegates."
+  },
+  {
+   "index": 47,
+   "text": "Sa isang ilog sa Gitnang Luzon, tumutulong ang kappa, ang batang-ilog ng kuwentong-bayan ng Hapon.",
+   "why": "Plot line with a folklore attribution."
+  },
+  {
+   "index": 48,
+   "text": "Sa mga kuwento, kapag naging kaibigan mo ang kappa, gumagawa ito ng trabaho para sa tao.",
+   "why": "A statement about real folklore."
+  },
+  {
+   "index": 50,
+   "text": "At sakay ako ng sarimanok, ang maalamat na ibon ng sining Maranao.",
+   "why": "Plot line; 'maalamat' labels the real legend."
+  },
+  {
+   "index": 60,
+   "text": "Ang tiyak: tatlumpu't lima ang pinakamababang edad ng senador sa Saligang Batas, at apatnapu ang sa pangulo.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 61,
+   "text": "Tiyak din na binuksan ang Kongreso ng Malolos sa Barasoain noong ika-labinlima ng Setyembre, 1898.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 62,
+   "text": "Ang pinagtatalunan: kung ilan talaga ang mga delegado, dahil magkakaiba ang bilang ng mga aklat.",
+   "why": "History (Pinagtatalunan)."
+  },
+  {
+   "index": 63,
+   "text": "Kuwentong-bayan ang kappa at ang sarimanok.",
+   "why": "Folklore attribution standing as its own sentence (rule d)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ang kappa at ang sarimanok. / Sa hologram: kaalaman, siyamnapu't dalawang porsiyento."
+}

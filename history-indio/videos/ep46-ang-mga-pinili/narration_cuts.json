@@ -1,0 +1,29 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 63,
+   "text": "Kathang-isip: sina Albo, Tala, Sinag, Tubal at M, ang boses sa tanso, ang mga dike, kontrata at arko, at ang Trinity."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 21,
+   "text": "Grrr, hindi totoo 'yan, par.",
+   "why": "Plot: Usman calls out Sinag's lie."
+  },
+  {
+   "index": 23,
+   "text": "Ito ang natutunan ko sa mga kalaliman: ang pag-uuri ng totoo ang sandata.",
+   "why": "Plot: sorting claims is the heroes' weapon."
+  },
+  {
+   "index": 62,
+   "text": "Ang mga Bantay ay mula sa aklat ni Enoc, na hindi bahagi ng karamihan sa mga Bibliya.",
+   "why": "A fact about the real texts. It is the only narration line that marks the Watchers as non-canonical."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ang mga Bantay ay mula sa aklat ni Enoc, na hindi bahagi ng karamihan sa mga Bibliya. / Bukas, ang huling labanan."
+}

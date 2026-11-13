@@ -2,7 +2,7 @@
 
 ## Facebook (Reels)
 SEASON 4, EPISODE 38: Limampung sasakyan na minsang simbolo ng pagkahulog ni Indio. Sa gabing umapaw ang lawa, naging rescue fleet ang lahat. 🚤
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan, Tubal, Sinag at Kalawang, ang bayang San Lorenzo, ang baha, ang mga floodgate, ang Yúmud, at lahat ng opisina at tao sa season na ito; walang totoong tao, opisina o kumpanyang inaakusahan. Kuwentong-bayan ang siyokoy, sarimanok at kapre; totoo ang kasaysayan. Totoo ang Laguna de Bay at ang bayanihan.
 
 👉 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan? Comment mo.
 I-follow ang History Indio para sa susunod na talon!
@@ -17,7 +17,7 @@ I-follow ang History Indio para sa susunod na talon!
 **Description:**
 Season 4, Episode 38 ng time-travel series ng History Indio.
 Totoo: ang Laguna de Bay ang pinakamalaking lawa sa Pilipinas. Ang bayanihan ay kaugaliang Pilipino ng pagtutulungan, at ang simbolo nito ay ang pagbubuhat ng magkakapitbahay sa isang buong bahay-kubo, na hindi na karaniwan ngayon. Isa sa mga ipininta ni Carlos "Botong" Francisco, Pambansang Alagad ng Sining, ang "Bayanihan" (Wikipedia: Laguna de Bay; Communal work; Botong Francisco).
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan, Tubal, Sinag at Kalawang, ang bayang San Lorenzo, ang baha, ang mga floodgate, ang Yúmud, at lahat ng opisina at tao sa season na ito; walang totoong tao, opisina o kumpanyang inaakusahan. Kuwentong-bayan ang siyokoy, sarimanok at kapre; totoo ang kasaysayan. Totoo ang Laguna de Bay at ang bayanihan.
 
 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan? I-comment sa baba.
 
@@ -27,14 +27,14 @@ Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan? I-comm
 
 ## TikTok
 S4 EP 38 🚤 Ang limampung sasakyan, naging rescue fleet. At ang bayanihan: ang pagbubuhat ng isang buong bahay.
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan, Tubal, Sinag at Kalawang, ang bayang San Lorenzo, ang baha, ang mga floodgate, ang Yúmud, at lahat ng opisina at tao sa season na ito; walang totoong tao, opisina o kumpanyang inaakusahan. Kuwentong-bayan ang siyokoy, sarimanok at kapre; totoo ang kasaysayan. Totoo ang Laguna de Bay at ang bayanihan.
 
 #historyindio #kasaysayan #fyp #foryou
 
 ## Instagram Reels
 Season 4, Episode 38. 🚤 Laguna de Bay, at limampung sasakyang ibinigay.
 Ano ang kaya mong ibigay, na minsang akala mo ay hindi mo kayang bitawan?
-Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan at Tubal, ang bayang San Lorenzo, ang baha at ang mga floodgate; walang totoong tao, opisina o kumpanyang inaakusahan. Kathang-isip din ang Yúmud; kuwentong-bayan ang siyokoy, sarimanok at kapre. Totoo ang Laguna de Bay at ang bayanihan.
+Kathang-isip sina Indio, M, Usman, JM, Bea, Engineer Vangie, Rico Bulan, Tubal, Sinag at Kalawang, ang bayang San Lorenzo, ang baha, ang mga floodgate, ang Yúmud, at lahat ng opisina at tao sa season na ito; walang totoong tao, opisina o kumpanyang inaakusahan. Kuwentong-bayan ang siyokoy, sarimanok at kapre; totoo ang kasaysayan. Totoo ang Laguna de Bay at ang bayanihan.
 
 #historyindio #philippinehistory #pinoyanime
 

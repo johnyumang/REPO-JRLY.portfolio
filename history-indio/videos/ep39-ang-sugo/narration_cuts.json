@@ -1,0 +1,33 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 51,
+   "text": "Kathang-isip ang kandidatura ko, ang kampanya, si Senadora Villacorta at si Bise Presidente Ilagan."
+  },
+  {
+   "index": 52,
+   "text": "Walang totoong partido, kandidato o kumpanya rito."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 22,
+   "text": "Hindi ako nagalit, nagsimula lang ako sa parehong mga salita: tiyak, pinagtatalunan, kathang-isip.",
+   "why": "Plot: the heroes' method against Rico Bulan's fake videos."
+  },
+  {
+   "index": 6,
+   "text": "Tumakbo ako nang walang partido, sa ilalim ng isang pangalang inimbento ko: Saksi.",
+   "why": "Plot: Indio coins his movement's name inside the story; not a disclaimer."
+  },
+  {
+   "index": 28,
+   "text": "Hindi ako lumapit, at wala akong narinig na salitang maisusulat ko.",
+   "why": "Indio's own honesty about the real Asiong Salonga (no invented words put in a real person's mouth)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ginawang pelikula ang buhay niya noong 1961, at sa iba pang pelikula pagkatapos. / Sa gabi ng bilangan, nasa bubong kami ni M ng bahay ni Lola Ising, nakatingin sa mga paputok sa malayo."
+}
