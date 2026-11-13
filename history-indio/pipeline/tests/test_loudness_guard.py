@@ -100,5 +100,32 @@ class LoudnessGuard(unittest.TestCase):
         self.assertLessEqual(tp2, st.TP, log)
 
 
+    def test_measures_at_full_precision(self):
+        """Every pass/fail decision reads st.ebur. ebur128's Summary prints 0.1 dB, so a delivered file at -1.46 dBTP read -1.5 and passed
+        (review 2026-11-13: reproduced on a 30 s cut of EP1 at -15.860 LUFS / -1.483 dBTP, accepted by build_anime.py's final check).
+        Two files 0.03 dB apart must measure 0.03 apart, and a file scaled to a 4x true peak of -1.47 dBTP (numpy) must read over TP."""
+        from scipy.signal import resample_poly
+        x = speechlike(20, seed=7)[:, None]
+        p4 = lambda y: 20 * np.log10(np.abs(resample_poly(y, 4, 1, axis=0)).max())
+        x = x * 10 ** ((-1.47 - p4(x)) / 20)
+        m = []
+        for k, db in enumerate((0.0, -0.03)):
+            src = os.path.join(self.d, f'prec{k}.wav'); sf.write(src, (x * 10 ** (db / 20)).astype(np.float32), SR, subtype='FLOAT')
+            m.append(st.ebur(src))
+        self.assertAlmostEqual(m[0][0] - m[1][0], 0.03, delta=0.01, msg=f'loudness not at full precision: {m}')
+        self.assertAlmostEqual(m[0][1] - m[1][1], 0.03, delta=0.015, msg=f'true peak not at full precision: {m}')
+        self.assertAlmostEqual(m[0][1], p4(x), delta=0.05, msg=f'ebur128 true peak {m[0][1]:.3f} vs numpy 4x {p4(x):.3f}')
+        self.assertGreater(m[0][1], st.TP, f'a file at a 4x true peak of {p4(x):.3f} dBTP must not pass: read {m[0][1]:.3f}')
+
+    def test_final_checks_use_the_full_precision_measure(self):
+        """build_anime.py's final MP4 check and trivia_break.py's checks must measure with st.ebur, not parse ebur128's rounded Summary."""
+        here = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        for name in ('build_anime.py', 'trivia_break.py'):
+            with self.subTest(name):
+                with open(os.path.join(here, name), encoding='utf-8') as f: src = f.read()
+                self.assertNotIn("split('Summary')", src, f'{name} parses the 0.1 dB Summary of ebur128')
+                self.assertIn('soundtrack.ebur(', src, f'{name} does not measure with soundtrack.ebur')
+
+
 if __name__ == '__main__':
     unittest.main()

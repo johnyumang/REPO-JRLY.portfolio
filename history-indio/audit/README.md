@@ -66,3 +66,17 @@ the white patch is only on the dog's chest." Every part must name THE DOG: the f
 painted Indio's face black when he stood close to the dog (Episode 35), and one draw put the dog's head on his body.
 After any redraw with Usman, look at every human face at 3x. Do not redraw a still only for which ear is folded:
 redraw when both ears are up, both are folded, or the face has white on it.
+
+### The many-draws way (13 Nov): for a still that failed its redraws
+A still marked `needs_figma` after four tries is not hopeless on the free model. On 13 Nov this closed 12 of 15 such stills:
+1. **Describe each character from the episode's KEPT stills**, not from memory or only from the cast file: skin tone, hair,
+   clothes, the drawing style of the face. Open two or three kept stills first.
+2. **Take the risky thing out of the picture** while it still tells its moment: hands in pockets or out of frame, one hand on
+   the sword instead of two, figures seen from the side or from behind, the dog apart from the people, one action only.
+3. **Draw six at a time** with `pipeline/draw_pick.py`, look at the sheet, then at the best two or three at full size and at
+   3x on every hand, face and the dog. A candidate with any countable fault is out. If none is clean, change the WORDS, not
+   only the seeds; at most three rounds.
+4. **Put the clean one beside the kept stills** of the same characters. A clean picture of a different-looking person is not a fix.
+5. **A second reader who did not draw it** compares old and new and may put the old one back (`judge_note` in the audit entry).
+A character drawn for the green key must have no green on it. A map, a flag or a count of lights is drawn in code
+(`pipeline/ph_map.py`; the eight-ray sun of Episode 36), never by the image model.

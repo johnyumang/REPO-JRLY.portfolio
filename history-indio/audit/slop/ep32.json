@@ -15,7 +15,9 @@
    "must_fix": true,
    "what": "Usman has two tall pointed upright ears (no folded ear) and reads as a different, shepherd-like dog.",
    "where": "dog's head, right of Indio",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k05 off_model: redrawn chest-up with the usman cast string + usman_ears_clause; dog now has one upright and one folded ear, all-black face, white chest only. Indio's hands kept out of view (one hand rests on the dog: four fingers visible, thumb hidden). Indio face checked at 3x."
   },
   {
    "key": "k07",
@@ -51,7 +53,9 @@
    "must_fix": true,
    "what": "Indio's left hand below the kerchief is a melted, boneless lump with no countable fingers, fused to a dark spike he seems to hold.",
    "where": "bottom left, hand below the red kerchief",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance."
   },
   {
    "key": "k10",
@@ -63,7 +67,9 @@
    "must_fix": true,
    "what": "Indio has a white striped patch on the side of his hair and a red kerchief on both wrists.",
    "where": "Indio's head and both wrists",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance."
   },
   {
    "key": "k11",
@@ -87,7 +93,9 @@
    "must_fix": true,
    "what": "Indio wears a red kerchief on both wrists instead of one.",
    "where": "right figure, both wrists",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k13 off_model: Bea (white t-shirt, black bob, blank press ID) writes in front; Indio behind talks to an old woman with his hands in his pockets, ONE kerchief on his left wrist. Bea's hands countable at 3x. Try 1 rejected: a neighbour's hand blurred into Indio's kerchief."
   },
   {
    "key": "k14",
@@ -112,7 +120,9 @@
    "must_fix": true,
    "what": "A red street sign reads clearly 'KAWIT CAVITE PHILIPPINES' and JM's cap has a logo.",
    "where": "top left sign; JM's cap",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k15 writing: the KAWIT CAVITE PHILIPPINES sign is gone (plain walls, no signs); JM's cap is plain beige with no logo; motorcycle has no badges; JM in a grease-stained beige t-shirt to match jm_cu; Usman in the sidecar with one folded ear. Indio dropped from this shot (the line is only 'JM drove the old motorcycle'), which also removes the minor double-kerchief fault. Left as is: a small white highlight stroke on the dog's forehead, not a blaze. Rejected tries: (1) both ears up, cap badge, marks on the box; (2) JM in a green shirt; (3) letter-like badge on the tank."
   },
   {
    "key": "k15",
@@ -161,7 +171,9 @@
    "must_fix": true,
    "what": "The certificate under the folder carries a large letter-like cursive line and a red seal with letter-like marks.",
    "where": "bottom left, certificate",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k20 writing: side view of Indio holding the worn folder open with blank pages and no certificate or seal in view; ONE kerchief on his left wrist; both hands pass at 3x; wall boards blank and blurred. Try 1 had the kerchief on his right wrist."
   },
   {
    "key": "k21",
@@ -173,7 +185,9 @@
    "must_fix": true,
    "what": "Readable large letters 'CA' on the wall sign behind Indio.",
    "where": "top left of frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k21 writing: bare walls and filing cabinets with no sign (the 'CA' is gone); Indio's left hand (a thumb and four fingers) holds the medallion by its cord over a blank glowing sheet; kerchief on the left wrist. Left as is: a tiny unreadable engraving texture on the medallion rim. Try 1 had the kerchief on his right wrist."
   },
   {
    "key": "k29",
@@ -221,7 +235,9 @@
    "must_fix": true,
    "what": "The red kerchief is tied in mid-air on his chest with a pale ghost-like hand shape behind it, attached to nothing.",
    "where": "lower centre, his chest",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k34 object: extreme close-up of the face only, eyes narrowing; no hands and no floating kerchief or ghost hand."
   },
   {
    "key": "k35",
@@ -335,7 +351,9 @@
    "must_fix": true,
    "what": "The phone is held by an oversized hand with no arm, its fingers spread across the screen.",
    "where": "left half, hand around the phone",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k52 hands: the phone stands on a stand on the low table; Indio sits on the sofa frowning with his arms crossed and hands tucked; no oversized hand. The vlogger on screen wears a bright green shirt (fixes minor k52: purple vs Rico's green)."
   },
   {
    "key": "k52",
@@ -397,7 +415,9 @@
    "must_fix": true,
    "what": "The hand with the golden pen has no thumb and the pen passes through the fingers instead of being held.",
    "where": "upper centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k57 hands: no hands in frame; the glowing sheet floats with the golden pen lying on it, held out toward the viewer in front of Sinag; night under the mango tree and long black hair (fixes minor k57: daylight + pale hair). The paper shows only faint ruled lines. Rejected: (1) fingerless mitten hands + a doubled sheet; (2) vague hands under the paper."
   },
   {
    "key": "k57",
@@ -421,7 +441,9 @@
    "must_fix": true,
    "what": "Usman has two upright pointed ears and a long-muzzled shepherd look.",
    "where": "dog, bottom left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k58 off_model: Usman barking with one upright and one folded ear (usman string + ears clause), black face; Sinag (long black hair, long-sleeved white dress) vanishing in sparks; Indio behind with ONE kerchief on his left wrist and no loose kerchief in hand (fixes minor k58 object). Faces checked at 3x. Rejected: (1) both ears up, Sinag in short sleeves; (2) Indio without kerchief, weak fade; (3) Sinag with short brown hair."
   },
   {
    "key": "k58",
@@ -445,7 +467,9 @@
    "must_fix": true,
    "what": "The kerchief is wrapped over the dog's eyes like a blindfold and his paw melts into the cloth.",
    "where": "centre, head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k62 merge: Usman covers one eye with a front paw and peeks with the other; the red kerchief is tied on his neck (no blindfold, the paw does not merge into cloth); one upright and one folded ear."
   },
   {
    "key": "k68",
