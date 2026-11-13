@@ -41,7 +41,8 @@
    "where": "left middle, the fisherman's cup",
    "fixed": false,
    "needs_figma": true,
-   "how": "the free image service returned CONTENT_FILTERED on every draw, the simplified prompt too; full prompt in key_prompts.json full.fisherman_coffee"
+   "how": "the free image service returned CONTENT_FILTERED on every draw, the simplified prompt too; full prompt in key_prompts.json full.fisherman_coffee",
+   "free_hq_note": "retried with the many-draws way: round 1 and a reworded round removing the floating pot (the fisherman holds one metal cup, others' hands down, no kettle) both returned CONTENT_FILTERED on every draw; even a trivial control prompt (empty jetty with a steaming cup) filtered after a 10-minute pause, so the free image service refused all output and no candidate could be made; still and needs_figma left as they are"
   },
   {
    "key": "k15",

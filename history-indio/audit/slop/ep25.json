@@ -32,9 +32,12 @@
       "what": "A second bare forearm ending in a hand with a red bow hangs on the same side of his body as the arm holding the phone, so it can belong to neither shoulder.",
       "where": "lower right, below the phone arm",
       "second": "confirmed",
-      "needs_figma": true,
+      "needs_figma": false,
       "figma_prompt": "Modern TV anime key frame, crisp ink lines, hard cel shading, vivid colour. Night, small present-day apartment, seen from behind his shoulder: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, sitting at a small table, his arms below the frame; he is alone, no dog, no animals. A phone stands propped against a mug on the table; the whole screen is only the face and shoulders of a young Filipina journalist about twenty, short brown bob, round black glasses, talking, her hands out of view, no icons, no on-screen text. Single image, no panels, no border. Vertical 9:16. No text, no letters, no logos, no watermarks.",
-      "note": "four tries: a hand fused to the phone, a giant second Bea in a TV instead of a phone, the phone screen showing three hands, a stray hand on the table; original still and prompt kept"
+      "note": "four tries: a hand fused to the phone, a giant second Bea in a TV instead of a phone, the phone screen showing three hands, a stray hand on the table; original still and prompt kept",
+      "fixed": true,
+      "fix_note": "many draws, round 1, seed 41, took out his hands (over-the-shoulder back view, arms below the frame, phone propped against a mug so no hand holds it) and redrew Bea with her brown bob, round glasses and dark blue shirt",
+      "judge_note": "kept: no hands left, Bea matches bea_cu, clean at 3x"
     },
     {
       "key": "k04",
@@ -47,9 +50,12 @@
       "what": "Bea on the phone screen has black hair and no glasses, while the very next shot gives her a brown bob and round glasses.",
       "where": "phone screen, right of frame",
       "second": "confirmed",
-      "needs_figma": true,
+      "needs_figma": false,
       "figma_prompt": "Modern TV anime key frame, crisp ink lines, hard cel shading, vivid colour. Night, small present-day apartment, seen from behind his shoulder: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, sitting at a small table, his arms below the frame; he is alone, no dog, no animals. A phone stands propped against a mug on the table; the whole screen is only the face and shoulders of a young Filipina journalist about twenty, short brown bob, round black glasses, talking, her hands out of view, no icons, no on-screen text. Single image, no panels, no border. Vertical 9:16. No text, no letters, no logos, no watermarks.",
-      "note": "one redraw fixes both k04 entries"
+      "note": "one redraw fixes both k04 entries",
+      "fixed": true,
+      "fix_note": "many draws, round 1, seed 41, took out his hands (over-the-shoulder back view, arms below the frame, phone propped against a mug so no hand holds it) and redrew Bea with her brown bob, round glasses and dark blue shirt",
+      "judge_note": "kept: no hands left, Bea matches bea_cu, clean at 3x"
     },
     {
       "key": "k05",
