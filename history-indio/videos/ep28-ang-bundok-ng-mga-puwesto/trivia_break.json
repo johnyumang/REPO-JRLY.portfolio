@@ -1,0 +1,42 @@
+{
+ "fact_id": "t22",
+ "fact_english": "The dalag can breathe air, and can survive out of water for a time if it stays moist.",
+ "label_onscreen": "DALAG",
+ "source_onscreen": "Pinagmulan: Wikipedia; US Dept. of the Interior",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang dalag, par, kayang huminga ng hangin, at nabubuhay nang ilang panahon sa labas ng tubig basta basa siya.",
+   "emphasis": [
+    "hangin"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Isda na marunong mag-break. Ako rin, gusto ko ng break.",
+   "emphasis": [
+    "break"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "Wala bang pandesal diyan?",
+ "estimated_time_note": "no timings.json yet; about 74 s by word count",
+ "palette": "sea",
+ "grave": true,
+ "why_here": "After Usman's 'Wala bang pandesal diyan?', before the jump to 1841. Grave episode (the 1841 massacre): gentle nature fact."
+}

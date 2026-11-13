@@ -1,0 +1,42 @@
+{
+ "fact_id": "t19",
+ "fact_english": "Giant clams get much of their food from tiny algae living inside their own tissue, which make food from sunlight.",
+ "label_onscreen": "TAKLOBO",
+ "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang taklobo, higanteng kabibe, kumukuha ng malaking bahagi ng pagkain niya sa maliliit na lumot sa loob ng sarili niyang laman!",
+   "emphasis": [
+    "lumot"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "May sariling kusina sa loob. Sana all.",
+   "emphasis": [
+    "kusina"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 19,
+ "after_text": "Sa gitna, isang tore, hindi pa tapos, pero lampas na sa ulap ang mga baitang.",
+ "insert_time": 81.18,
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After the unfinished tower is first seen: the builders are shown next."
+}

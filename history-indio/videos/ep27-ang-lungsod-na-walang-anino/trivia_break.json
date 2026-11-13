@@ -1,0 +1,42 @@
+{
+ "fact_id": "t11",
+ "fact_english": "The tawilis is a sardine that lives in fresh water, and it is found only in Taal Lake.",
+ "label_onscreen": "TAWILIS",
+ "source_onscreen": "Pinagmulan: Wikipedia; FishBase",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tawilis, sardinas na sa tubig-tabang nakatira, at sa Lawa ng Taal lang matatagpuan!",
+   "emphasis": [
+    "Taal"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Sardinas na ayaw sa alat. Pihikan.",
+   "emphasis": [
+    "pihikan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 22,
+ "after_text": "Sa dulo ng lungsod, sa bahay na nakaharap sa dagat ng mortal, may babaeng nakaupo.",
+ "estimated_time_note": "no timings.json yet; about 98 s by word count",
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After the woman by the window facing the mortal sea is first seen: who she is comes next."
+}

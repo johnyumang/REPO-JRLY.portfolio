@@ -1,0 +1,42 @@
+{
+ "fact_id": "t39",
+ "fact_english": "Calamansi is a hybrid fruit, generally thought to be a cross between a kumquat and a mandarin.",
+ "label_onscreen": "KALAMANSI",
+ "source_onscreen": "Pinagmulan: Wikipedia; UC Riverside Citrus Variety Collection",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kalamansi, par, hybrid pala, karaniwang itinuturing na krus ng kumquat at mandarin.",
+   "emphasis": [
+    "hybrid"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala maasim pero cute.",
+   "emphasis": [
+    "cute"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 24,
+ "after_text": "Sumindi ito, at sa pader, nakita ko ang tunay na anino ng reyna, may pakpak na nasunog.",
+ "insert_time": 111.11,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After the queen's true shadow is shown on the wall: Usman names it right after."
+}

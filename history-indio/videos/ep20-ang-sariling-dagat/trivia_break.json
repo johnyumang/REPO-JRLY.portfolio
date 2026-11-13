@@ -1,0 +1,42 @@
+{
+ "fact_id": "t41",
+ "fact_english": "The nipa palm's trunk grows underground in the mud; only its leaves and flower stalks rise above the surface.",
+ "label_onscreen": "NIPA",
+ "source_onscreen": "Pinagmulan: Wikipedia; PROSEA",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang nipa, par, sa ilalim ng putik pala tumutubo ang katawan nito.",
+   "emphasis": [
+    "putik"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Dahon at bulaklak lang ang lumilitaw. Mahiyain na palma.",
+   "emphasis": [
+    "mahiyain"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Sa dalampasigan, mga isang libo't limandaang mandirigma ni Lapulapu, ayon din sa kanya.",
+ "insert_time": 82.02,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the warriors are counted on the shore, before the battle itself is told. Grave episode (a battle): gentle plant fact."
+}

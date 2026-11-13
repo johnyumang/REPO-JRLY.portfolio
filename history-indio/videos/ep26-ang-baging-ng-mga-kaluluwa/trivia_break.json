@@ -1,0 +1,42 @@
+{
+ "fact_id": "t36",
+ "fact_english": "Medinilla magnifica is a flowering plant native to the Philippines, and people in many countries grow it as a houseplant.",
+ "label_onscreen": "KAPA-KAPA",
+ "source_onscreen": "Pinagmulan: Wikipedia; Royal Horticultural Society",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang Medinilla magnifica, katutubong halaman ng Pilipinas, inaalagaan sa loob ng bahay sa maraming bansa!",
+   "emphasis": [
+    "bansa"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Taga-rito, pero sikat sa abroad. Parang mga pinsan ko.",
+   "emphasis": [
+    "pinsan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 24,
+ "after_text": "Bakit ka magtitiis?",
+ "estimated_time_note": "no timings.json yet; about 95 s by word count",
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After Sinag's 'Bakit ka magtitiis?': the lamp exposes his lie right after. Sensitive episode (healing, medicine and temptation): gentle plant fact."
+}

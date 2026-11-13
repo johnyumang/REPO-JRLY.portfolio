@@ -1,0 +1,42 @@
+{
+ "fact_id": "t04",
+ "fact_english": "The giant golden-crowned flying fox, found only in the Philippines, is one of the largest bats in the world, with a wingspan of up to about 1.7 metres.",
+ "label_onscreen": "PANIKING HIGANTE",
+ "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang higanteng paniki natin, ang giant golden-crowned flying fox, isa sa pinakamalalaking paniki sa mundo!",
+   "emphasis": [
+    "paniki"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Hanggang mga isang metro't pitumpu ang lapad ng pakpak. Mas malapad pa sa kama ko.",
+   "emphasis": [
+    "kama"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Doon daw nawawala ang mga tao, at bumabalik na hindi na tulad ng dati.",
+ "estimated_time_note": "no timings.json yet; about 87 s by word count",
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'Doon daw nawawala ang mga tao...': Nanay Pacing's warning comes right after."
+}

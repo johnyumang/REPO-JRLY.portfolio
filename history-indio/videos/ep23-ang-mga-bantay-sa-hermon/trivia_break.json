@@ -1,0 +1,42 @@
+{
+ "fact_id": "t29",
+ "fact_english": "Platymantis forest frogs, found mostly in the Philippines, lay their eggs out of water, and tiny froglets hatch directly, skipping the tadpole stage.",
+ "label_onscreen": "PALAKANG-GUBAT",
+ "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "May mga palakang-gubat sa Pilipinas, ang Platymantis, na hindi na dumadaan sa pagiging butete!",
+   "emphasis": [
+    "butete"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Itlog, tapos maliit na palaka agad. Walang awkward stage.",
+   "emphasis": [
+    "awkward"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 26,
+ "after_text": "Bakit ka nandito, anak ng tao?",
+ "insert_time": 101.52,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After the giant's 'Bakit ka nandito, anak ng tao?': Indio's answer comes after the break."
+}

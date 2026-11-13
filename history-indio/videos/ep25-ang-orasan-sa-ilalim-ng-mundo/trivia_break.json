@@ -1,0 +1,42 @@
+{
+ "fact_id": "t55",
+ "fact_english": "Batanes, the northernmost province of the Philippines, is closer to Taiwan than to Manila.",
+ "label_onscreen": "BATANES",
+ "source_onscreen": "Pinagmulan: Wikipedia; Radio Free Asia",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang Batanes, mas malapit pa sa Taiwan kaysa sa Maynila!",
+   "emphasis": [
+    "Taiwan"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pag nag-text ka mula roon, baka iba ang mag-reply.",
+   "emphasis": [
+    "reply"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "Si Ate Tala pala iyon.",
+ "estimated_time_note": "no timings.json yet; about 97 s by word count",
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After 'Si Ate Tala pala iyon.': the reveal lands, and the sealing follows after the break."
+}

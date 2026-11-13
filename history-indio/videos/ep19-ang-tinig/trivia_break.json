@@ -1,0 +1,42 @@
+{
+ "fact_id": "t20",
+ "fact_english": "Draco lizards, found in the Philippines, glide between trees on skin flaps held open by long ribs.",
+ "label_onscreen": "BUTIKING LUMILIPAD",
+ "source_onscreen": "Pinagmulan: Wikipedia; PLOS ONE",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "May mga butiki sa Pilipinas, ang Draco, na dumadausdos sa pagitan ng mga puno!",
+   "emphasis": [
+    "dumadausdos"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ang pakpak nila, balat na nakaunat sa mahahabang tadyang. Ako, tadyang lang ang meron, sa sinigang.",
+   "emphasis": [
+    "tadyang"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "Pero nakatakas si Kudarat sa kabundukan.",
+ "insert_time": 97.88,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'Pero nakatakas si Kudarat sa kabundukan.': where he went is the next line."
+}
