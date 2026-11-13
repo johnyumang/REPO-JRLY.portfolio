@@ -599,6 +599,32 @@
     70,
     180
    ]
+  },
+  "BEA_ADULT": {
+   "descriptions": [
+    "A Filipina woman in her early thirties, warm mid-range voice, a little tired, quick dry wit, clear and articulate like a reporter, Filipino accent",
+    "A woman about thirty-two, warm and slightly husky voice, brisk and sharp-tongued but kind, speaks fast and precisely, Filipino accent",
+    "An adult Filipina journalist in her thirties, grounded warm alto, a hint of fatigue, confident and wry, Filipino accent"
+   ],
+   "ref_text": "Indio, nandito na ako sa opisina. Tatlong gabi na akong walang tulog, pero tapos ko na ang istorya. Bawat pahina, may resibo. Huwag kang mag-alala, hindi ko ito ilalabas hangga't hindi ko natitiyak ang lahat.",
+   "sample": "Indio, nandito siya sa opisina ko, nanginginig; siya raw ang gumawa, at hindi na niya kaya.",
+   "f0_hz": [
+    150,
+    260
+   ]
+  },
+  "JM_ADULT": {
+   "descriptions": [
+    "A Filipino man in his early thirties, easy-going baritone, a bit hoarse, relaxed and friendly, always the first to joke, Filipino accent",
+    "A man about thirty, slightly raspy friendly voice, laid-back mechanic, warm laugh in the voice, casual Taglish, Filipino accent",
+    "An adult Filipino man in his thirties, husky relaxed tenor, playful and loyal, quick to tease his friends, Filipino accent"
+   ],
+   "ref_text": "Pre, ayos na ang makina. Pinalitan ko na ang langis, nilinis ko pa ang karburador. Huwag mo na akong bayaran, libre na 'yan, basta ikaw ang taya sa kape bukas ng umaga, ha? Sige, alis na ako.",
+   "sample": "Kuya, eto ang log ng gate, ang limang trak, hindi kailanman pumasok!",
+   "f0_hz": [
+    85,
+    175
+   ]
   }
  }
 }
