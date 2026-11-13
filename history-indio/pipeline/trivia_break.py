@@ -7,6 +7,7 @@ numpy + Pillow + soundfile + ffmpeg only; no network.
   trivia_break.py render --spec spec.json --out break.mp4 [--size 720x1280] [--fps 30] [--sheet sheet.jpg]
                          [--stills 2.5,9,16] [--guides]
   trivia_break.py splice --video episode.mp4 --brk break.mp4 --at SECONDS --out out.mp4 [--force]
+  trivia_break.py episode videos/<slug> --voice DIR --video IN.mp4 --out OUT.mp4 [--work DIR] [--set KEY=VALUE ...]
 
 cutout: one subject on a flat green / magenta / white background -> RGBA cut-out (flood fill from the borders, so green
 or white parts INSIDE the subject stay), soft edges, colour spill removed, cropped, thick white sticker outline and a
@@ -18,7 +19,8 @@ render: spec.json (paths are relative to the spec file)
    "subjects": [{"image": "subject.png", "label": "KAGWANG", "from_line": 1}],
    "lines": [{"speaker": "USMAN", "text": "Teka, patalastas muna!", "wav": "l0.wav", "emphasis": ["patalastas"]}, ...],
    "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento",
-   optional: "layout": "bold" (default: BOLD) | "classic" (version 1: BOXES), "joke_line": index of the joke (default: the
+   optional: "calm": true (a grave episode: no frame shake or flash frame, softer lower sting, slower pops with less overshoot),
+   "layout": "bold" (default: BOLD) | "classic" (version 1: BOXES), "joke_line": index of the joke (default: the
    one before the last; the listener cracks up on it), subjects[].pulse: words that make the subject pulse (default: the label)}
   Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
   sting, quiet rhythmic bed (mixed 18 dB under the voice; refused if less than 14 dB), synthesised whoosh at the end; mastered to -16 LUFS,
@@ -29,7 +31,17 @@ render: spec.json (paths are relative to the spec file)
 splice: puts the break into the episode at --at (rounded to a frame), 0.06 s audio fades either side, one re-encode,
 then the loudness guard and the full-decode check. Refuses (exit 2) if --at falls inside speech: the 120 ms around the
 cut should be at least 12 dB under the episode's average level (warning, with the quietest frame nearby) and the 40 ms at
-the cut itself must be (else refused; --force to override): music under the narration keeps whole pauses only ~10 dB down."""
+the cut itself must be (else refused; --force to override): music under the narration keeps whole pauses only ~10 dB down.
+
+episode: the whole job for one episode. Spec from videos/<slug>/trivia_break.json (title, subtitle, palette, sprites from
+trivia/sprites, the sticker trivia/stickers/epNN.png with label_onscreen from line 1 on, the lines with the wavs that
+trivia_voice.py wrote into --voice, source_onscreen, countdown "babalik ang kuwento", "calm" when "grave": true); the pause
+between lines starts at 0.22 s (or the file's "gap") and widens up to 0.40 s so the break lasts 18-23 s (audio is never sped
+up; it says so when still short). Cut: the silent gap after sentence insert_after_sentence in the CURRENT timings.json, at the
+frame whose 40 ms of the video's own audio is quietest; refused (exit 2) unless that is 12 dB under the episode average.
+Then render (with a sheet), splice, the checks (duration = episode + break, video and audio, every frame decodes, -16 LUFS
++-0.5, true peak <= -1.5 dBTP), one summary line and the three files to look at (sheet, a frame before the cut, one after
+the break). --set overrides a spec field (dotted keys, JSON values), e.g. a test sticker: --set subjects.0.image=/tmp/x.png."""
 import argparse, json, math, os, re, subprocess, sys, tempfile
 import numpy as np, soundfile as sf
 from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageFilter
@@ -169,12 +181,13 @@ def gated_rms(x, win=0.4):
     r = r[r > r.max() * 0.1] if r.max() > 0 else r; return float(np.sqrt(np.mean(r ** 2))) if len(r) else 0.0
 
 
-def sting():
+def sting(soft=False):
+    """two-note sting; soft (calm breaks): a lower fifth, slower attack, fewer bright partials."""
     out = np.zeros(int(0.45 * SR), np.float32)
-    for t0, f, d in ((0.0, 1046.5, 0.13), (0.10, 1568.0, 0.32)):
+    for t0, f, d in (((0.0, 523.25, 0.16), (0.12, 784.0, 0.32)) if soft else ((0.0, 1046.5, 0.13), (0.10, 1568.0, 0.32))):
         n = int(d * SR); t = np.arange(n) / SR
-        tone = np.sin(2 * np.pi * f * t) + 0.35 * np.sin(4 * np.pi * f * t) + 0.18 * np.sin(6 * np.pi * f * t) + 0.12 * np.sin(2 * np.pi * f * 2.76 * t)
-        env = np.minimum(1, t / 0.004) * np.exp(-t / (0.06 if d < 0.2 else 0.11))
+        tone = np.sin(2 * np.pi * f * t) + 0.35 * np.sin(4 * np.pi * f * t) + (0 if soft else 0.18 * np.sin(6 * np.pi * f * t) + 0.12 * np.sin(2 * np.pi * f * 2.76 * t))
+        env = np.minimum(1, t / (0.02 if soft else 0.004)) * np.exp(-t / (0.06 if d < 0.2 else 0.11))
         i = int(t0 * SR); out[i:i + n] += (tone * env).astype(np.float32)
     return out
 
@@ -421,7 +434,7 @@ def make_sound(spec, P, fps):
     vo = np.zeros(n, np.float32)
     for s, v in zip(starts, voices): i = int(s * SR); vo[i:i + len(v)] += v[:n - i]
     rv = gated_rms(vo); db = lambda x: 20 * np.log10(max(x, 1e-9))
-    st = sting(); st *= rv * 10 ** (-3 / 20) / gated_rms(st)
+    calm = bool(spec.get('calm')); st = sting(calm); st *= rv * 10 ** ((-10 if calm else -3) / 20) / gated_rms(st)
     wh = whoosh(); wh *= rv * 10 ** (-6 / 20) / gated_rms(wh.mean(1))
     bd = bed(T); bd *= rv * 10 ** (-18 / 20) / gated_rms(bd)
     mix = np.repeat(vo[:, None], 2, 1) + np.repeat(bd[:, None], 2, 1)
@@ -777,6 +790,9 @@ def render_bold(a, spec, P):
     W, H = (int(v) for v in a.size.lower().split('x')); fps = a.fps
     pal = PALETTES[spec.get('palette', 'sun')]; lines = spec['lines']
     voices, starts, T, N, wav, gap = make_sound(spec, P, fps)
+    calm = bool(spec.get('calm'))      # a grave episode: no frame shake or flash, slower pops with less overshoot (softer sting in make_sound)
+    PK, BK = (1.7, 1.0) if calm else (1.0, 2.0)
+    if calm: print('calm: no frame shake, no flash frame, pops x%.1f slower, softer sting' % PK, flush=True)
     BX = {k: px(v, W, H) for k, v in BOLD.items()}; ext, win = {}, {}; allow = set()
     ends = [s + len(v) / SR for s, v in zip(starts, voices)]
 
@@ -951,8 +967,8 @@ def render_bold(a, spec, P):
         # subject, its ribbon and the source card
         cur = [s_ for s_ in subs if s_['t0'] <= t]
         if cur:
-            s_ = cur[-1]; q = t - s_['t0']; p = q / 0.45
-            sc = ease_out_back(p, 2.0) if p < 1 else 1.0 + 0.012 * math.sin(q * 2.2)
+            s_ = cur[-1]; q = t - s_['t0']; p = q / (0.45 * PK)
+            sc = ease_out_back(p, BK) if p < 1 else 1.0 + 0.012 * math.sin(q * 2.2)
             for tp in s_['pulses']:
                 if 0 <= t - tp < 0.3: sc *= 1 + 0.06 * math.sin(math.pi * (t - tp) / 0.3)
             rot = (B_WOB - 0.8) * math.exp(-q * 4.5) * math.sin(q * 16) + 0.8 * math.sin(q * 1.4)
@@ -960,7 +976,7 @@ def render_bold(a, spec, P):
                 by = B_BOB * H * math.sin(2 * math.pi * max(0.0, q - 0.45) / BOBT)
                 sc = min(sc, B_POP); r = paste(fr, s_['im'], s_['cx'], s_['cy'] + by, sc, rot); note(track, 'subject', s_['im'], r, sc, rot, t)
             if s_['rib']:
-                p2 = (q - 0.12) / 0.4; sc2 = 0.0 if p2 <= 0 else (min(POP, ease_out_back(p2, 2.0)) if p2 < 1 else 1.0)
+                p2 = (q - 0.12 * PK) / (0.4 * PK); sc2 = 0.0 if p2 <= 0 else (min(POP, ease_out_back(p2, BK)) if p2 < 1 else 1.0)
                 if sc2 > 0.02: rb, rx, ry = s_['rib']; r = paste(fr, rb, rx, ry, sc2); note(track, 'label', rb, r, sc2, 0, t)
         if card and t >= t_s + 0.2:
             al = min(1.0, (t - t_s - 0.2) / 0.25); im_ = card[0] if al >= 1 else Image.fromarray((np.asarray(card[0]) * np.array([1, 1, 1, al])).astype(np.uint8))
@@ -975,7 +991,7 @@ def render_bold(a, spec, P):
             c = caps[li]; pg = max(k_ for k_, p0 in enumerate(c.pt) if p0 <= t + 1e-6); place, plate, _ = c.lay[pg]
             spk = sprites.get(lines[li]['speaker']); tip_x = spk['cx'] if spk else (cb[0] + cb[2]) / 2
             prev_tip = tip_x if prev_tip is None else prev_tip + (tip_x - prev_tip) * 0.45
-            q = t - c.pt[pg]; dur_ = 0.15 if pg == 0 else 0.10
+            q = t - c.pt[pg]; dur_ = (0.15 if pg == 0 else 0.10) * PK
             ls = 1.0 if q >= dur_ else (0.55 if pg == 0 else 0.86) + (0.45 if pg == 0 else 0.14) * ease_out(q / dur_)
             lay_ = Image.new('RGBA', (LR[2] - LR[0], LR[3] - LR[1]), (0, 0, 0, 0)); o_ = (LR[0], LR[1])
             loc = lambda r_: (r_[0] - o_[0], r_[1] - o_[1], r_[2] - o_[0], r_[3] - o_[1])
@@ -985,7 +1001,7 @@ def render_bold(a, spec, P):
             for i, (im, x_, y_, e_, ink, act_im, grey) in zip(c.pages[pg], place):
                 if t < c.t[i]:                                                  # words still to come: light grey, so the page reads ahead
                     paste(lay_, grey, x_ + im.width / 2 - o_[0], y_ + im.height / 2 - o_[1]); boxes.append(('word', ink, 1.0)); continue
-                s, _ = pop_curve((t - c.t[i]) / (0.18 if e_ else 0.14), B_EPOP if e_ else B_WPOP)   # full colour from its first frame
+                s, _ = pop_curve((t - c.t[i]) / ((0.18 if e_ else 0.14) * PK), 1 + ((B_EPOP if e_ else B_WPOP) - 1) / PK)   # full colour from its first frame
                 if c.t[i] <= c.pt[pg] + 1e-6: s = 1.0                         # the page's first word comes with the page pop
                 icx, icy = (ink[0] + ink[2]) / 2 - o_[0], (ink[1] + ink[3]) / 2 - o_[1]
                 if i == cur_w:                                                  # the word being spoken sits on a pill (scaled with it)
@@ -1048,9 +1064,9 @@ def render_bold(a, spec, P):
             if te >= 1 + 0.1 / sprites[k]['dur'] and r: track[k] = union(track.get(k), r)
         if a.guides: guides(fr, W, H, ext)
         arr = np.asarray(fr)
-        if fi == 0: arr = (arr * 0.65 + np.array(pal['accent']) * 0.35).astype(np.uint8)           # one accent flash frame
+        if fi == 0 and not calm: arr = (arr * 0.65 + np.array(pal['accent']) * 0.35).astype(np.uint8)           # one accent flash frame
         q = t - SLAM_T
-        if 0 <= q < 0.2:                                                                      # the slam shakes the frame
+        if 0 <= q < 0.2 and not calm:                                                                   # the slam shakes the frame
             k_ = 6 * (1 - q / 0.2); arr = np.roll(np.roll(arr, round(k_ * math.sin(q * 95)), 1), round(k_ * math.cos(q * 80)), 0)
         if fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, bg_now, fi)
         fr = Image.fromarray(arr)
@@ -1210,6 +1226,101 @@ def splice(a):
     sys.exit(0 if guard(a.out) else 4)
 
 
+# ---------------------------------------------------------------------------------------------------------- episode
+REPO = os.path.dirname(HERE)
+EP_GAP0, EP_GAP_MAX, EP_GAP_MIN, EP_MIN, EP_MAX = 0.22, 0.40, 0.16, 18.0, 23.0
+
+
+def episode_spec(epdir, voice, override):
+    """videos/<slug>/trivia_break.json + the recorded lines (trivia_voice.py) -> the render spec, with the pause chosen."""
+    tb = json.load(open(os.path.join(epdir, 'trivia_break.json'))); slug = os.path.basename(os.path.abspath(epdir))
+    m = re.match(r'ep(\d+)', slug)
+    if not m: die(f'cannot read the episode number from {slug!r} (want ep<NN>-...)', 2)
+    sticker = os.path.join(REPO, 'trivia', 'stickers', 'ep%02d.png' % int(m.group(1)))
+    lines = []
+    for i, l in enumerate(tb['lines']):
+        w = os.path.join(os.path.abspath(voice), 'l%d_%s.wav' % (i, l['speaker'].upper()))
+        if not os.path.exists(w): die(f'missing {w}: record the lines first (pipeline/trivia_voice.py {epdir} --out {voice})', 2)
+        lines.append(dict(speaker=l['speaker'].upper(), text=l['text'], wav=w, emphasis=l.get('emphasis', [])))
+    spec = dict(title='PATALASTAS NI USMAN', subtitle='trivia lang, walang bayad', palette=tb.get('palette', 'sun'),
+                sprites={k: os.path.join(REPO, 'trivia', 'sprites', k.lower() + '.png') for k in CHIBI},
+                subjects=[dict(image=sticker, label=tb['label_onscreen'], from_line=1)], lines=lines,
+                source=tb.get('source_onscreen', ''), countdown_text='babalik ang kuwento', calm=bool(tb.get('grave')))
+    for kv in override or []:                                     # --set key=value, dotted keys into lists/dicts (subjects.0.image=...)
+        k, _, v = kv.partition('=')
+        try: v = json.loads(v)
+        except ValueError: pass
+        o = spec; ks = k.split('.')
+        for x in ks[:-1]: o = o[int(x)] if isinstance(o, list) else o.setdefault(x, {})
+        if isinstance(o, list): o[int(ks[-1])] = v
+        else: o[ks[-1]] = v
+        print(f'spec override: {k} = {v!r}', flush=True)
+    for s in spec['subjects']:
+        if not os.path.exists(s['image']):
+            die(f'missing the subject sticker {s["image"]}: draw trivia/stickers/ep%02d.png (cutout makes one from art), '
+                'or pass --set subjects.0.image=PATH for a test' % int(m.group(1)), 2)
+    for k, p_ in spec['sprites'].items():
+        if not os.path.exists(p_): die(f'missing the {k} sprite {p_}', 2)
+    speech = sum(sf.info(l['wav']).duration for l in lines); n = len(lines); fixed = LEAD + speech + TAIL
+    gap = float(tb.get('gap', EP_GAP0)); T = fixed + gap * (n - 1)
+    if T < EP_MIN and n > 1: gap = min(EP_GAP_MAX, max(gap, (EP_MIN - fixed) / (n - 1))); T = fixed + gap * (n - 1)
+    if T > EP_MAX and n > 1: gap = max(EP_GAP_MIN, min(gap, (EP_MAX - fixed) / (n - 1))); T = fixed + gap * (n - 1)
+    note = ''
+    if T < EP_MIN: note = f'  NOTE: still short ({T:.2f} s < {EP_MIN:.0f} s) at the widest pause {gap:.2f} s; audio is never sped up: longer lines need a new recording'
+    if T > EP_MAX: note = f'  NOTE: long ({T:.2f} s > {EP_MAX:.0f} s) at the shortest pause {gap:.2f} s: shorten the lines'
+    spec['gap'] = round(gap, 3)
+    print(f'speech {speech:.2f} s in {n} lines, pause {gap:.3f} s -> break about {T:.2f} s' + note, flush=True)
+    return spec, tb, slug, T
+
+
+def quiet_cut(video, timings, k, fps):
+    """the frame in the silent gap after sentence k (timings.json) whose 40 ms of the video's own audio is quietest."""
+    if not 0 <= k < len(timings) - 1: die(f'insert_after_sentence {k} is not followed by a sentence in timings.json ({len(timings)} sentences)', 2)
+    a0, a1 = timings[k]['end'], timings[k + 1]['start']
+    if a1 - a0 < 0.08: die(f'no silent gap after sentence {k}: it ends at {a0:.3f} s, the next starts at {a1:.3f} s', 2)
+    mono = read_audio(video); h = int(0.020 * SR); avg = 20 * np.log10(max(1e-9, gated_rms(mono)))
+    lv = lambda c: 20 * np.log10(max(1e-9, float(np.sqrt(np.mean(mono[max(0, c - h):c + h] ** 2)))))
+    cands = [f / fps for f in range(math.ceil((a0 + 0.02) * fps), math.floor((a1 - 0.02) * fps) + 1)]
+    if not cands: die(f'the gap after sentence {k} ({a0:.3f}-{a1:.3f} s) holds no whole frame', 2)
+    t = min(cands, key=lambda x: lv(int(round(x * SR)))); under = avg - lv(int(round(t * SR)))
+    return t, under, avg, (a0, a1)
+
+
+def frame_at(video, t, out):
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{max(0, t):.3f}', '-i', video, '-frames:v', '1', '-q:v', '3', out], check=True); return out
+
+
+def episode(a):
+    epdir = a.episode.rstrip('/'); out = os.path.abspath(a.out)
+    work = os.path.abspath(a.work or os.path.splitext(out)[0] + '_work'); os.makedirs(work, exist_ok=True)
+    spec, tb, slug, _ = episode_spec(epdir, a.voice, a.set)
+    sp = os.path.join(work, 'spec.json'); json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
+    W_, H_, fps, dur = probe(a.video)
+    tim = json.load(open(os.path.join(epdir, 'timings.json'))); k = int(tb['insert_after_sentence'])
+    at, under, avg, (g0, g1) = quiet_cut(a.video, tim, k, fps)
+    print(f'cut: after sentence {k} ("{tim[k]["text"][:60]}"), gap {g0:.3f}-{g1:.3f} s, quietest 40 ms at {at:.3f} s: {under:.1f} dB under the episode average ({avg:.1f} dBFS)', flush=True)
+    if under < 12: die(f'refused: the quietest 40 ms of the gap after sentence {k} is only {under:.1f} dB under the episode average (want 12): '
+                       'is timings.json the CURRENT one for this video?', 2)
+    me = [sys.executable, os.path.abspath(__file__)]; brk = os.path.join(work, 'break.mp4'); sheet_p = os.path.join(work, 'sheet.jpg')
+    r = subprocess.run(me + ['render', '--spec', sp, '--out', brk, '--sheet', sheet_p, '--size', f'{W_}x{H_}', '--fps', str(round(fps))])
+    if r.returncode: die(f'render failed (exit {r.returncode}): see above; spec {sp}', r.returncode)
+    r = subprocess.run(me + ['splice', '--video', a.video, '--brk', brk, '--at', f'{at:.3f}', '--out', out])
+    if r.returncode not in (0, 4) or not os.path.exists(out): die(f'splice failed (exit {r.returncode})', r.returncode or 1)
+    _, _, _, bdur = probe(brk); nb = round(bdur * fps) / fps; _, _, _, odur = probe(out)
+    j = json.loads(subprocess.run(['ffprobe', '-v', 'error', '-show_streams', '-of', 'json', out], capture_output=True, text=True).stdout)
+    kinds = sorted({s_['codec_type'] for s_ in j['streams']}); I, tp = ebur(out)
+    dec = subprocess.run(['ffmpeg', '-v', 'error', '-i', out, '-f', 'null', '-'], capture_output=True, text=True).stderr.strip().splitlines()
+    want = round(dur * fps) / fps + nb
+    ok = dict(duration=abs(odur - want) <= 1.5 / fps + 0.03, streams=kinds == ['audio', 'video'], decode=not dec, loudness=abs(I - LUFS) <= 0.5, peak=tp <= TP)
+    fb = frame_at(out, at - 0.5, os.path.join(work, 'frame_before_cut.jpg')); fa = frame_at(out, at + nb + 0.5, os.path.join(work, 'frame_after_break.jpg'))
+    bad = [x for x, v in ok.items() if not v]
+    print(f'{slug}: break {nb:.2f} s (pause {spec["gap"]:.2f} s{", calm" if spec["calm"] else ""}) cut at {at:.3f} s after sentence {k} ({under:.1f} dB under) | '
+          f'{os.path.basename(out)} {odur:.3f} s (episode {dur:.3f} + break {nb:.3f} = {want:.3f}), streams {"+".join(kinds)}, '
+          f'{"every frame decodes" if not dec else f"{len(dec)} DECODE ERRORS"}, {I:.1f} LUFS, true peak {tp:.1f} dBTP | {"OK" if not bad else "FAILED: " + ", ".join(bad)}', flush=True)
+    print('look at:'); print('  sheet         ' + sheet_p); print('  before cut    ' + fb); print('  after break   ' + fa)
+    sys.exit(0 if not bad else 4)
+
+
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__.split('\n')[0]); sub = p.add_subparsers(dest='cmd', required=True)
     c = sub.add_parser('cutout'); c.add_argument('--in', dest='inp', required=True); c.add_argument('--out', required=True)
@@ -1220,4 +1331,7 @@ if __name__ == '__main__':
     r.add_argument('--stills', help='comma-separated times: also save these frames as PNG next to --out'); r.add_argument('--guides', action='store_true')
     s = sub.add_parser('splice'); s.add_argument('--video', required=True); s.add_argument('--brk', required=True)
     s.add_argument('--at', type=float, required=True); s.add_argument('--out', required=True); s.add_argument('--force', action='store_true')
-    a = p.parse_args(); {'cutout': cutout, 'render': render, 'splice': splice}[a.cmd](a)
+    e = sub.add_parser('episode'); e.add_argument('episode', help='videos/<slug>'); e.add_argument('--voice', required=True, help='the folder trivia_voice.py wrote')
+    e.add_argument('--video', required=True); e.add_argument('--out', required=True); e.add_argument('--work', help='default: <out>_work')
+    e.add_argument('--set', action='append', metavar='KEY=VALUE', help='spec override (dotted keys, JSON values), e.g. subjects.0.image=/tmp/test.png')
+    a = p.parse_args(); {'cutout': cutout, 'render': render, 'splice': splice, 'episode': episode}[a.cmd](a)

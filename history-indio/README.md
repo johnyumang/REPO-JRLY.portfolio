@@ -107,3 +107,23 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
 - `splice`: cuts the break in at `--at` (rounded to a frame) with 0.20 s audio fades, one re-encode, then the loudness
   guard and the full-decode check. It refuses a cut inside speech and warns (with the quietest frame nearby) when the
   120 ms around the cut is not 12 dB under the episode's average. Voice and video files stay out of this repo.
+- The whole job for one episode, on the render machine that holds its work folder and final MP4 (from `history-indio/`,
+  `HI_VOICE_REC` set, nothing else heavy running):
+  ```
+  /opt/vc/bin/python pipeline/trivia_voice.py videos/<slug> --out $HI_VOICE_WORK/<slug>/trivia [--takes 3] [--cast DIR]
+  /opt/vc/bin/python pipeline/trivia_break.py episode videos/<slug> --voice $HI_VOICE_WORK/<slug>/trivia --video <final>.mp4 --out <final>_trivia.mp4
+  ```
+  `trivia_voice.py` records the lines of `trivia_break.json`: INDIO with the clone of the user's own recording exactly as
+  `gen_ms.py` makes Indio lines (tones: line 1 and the last excited, a question curious, the rest playful; a line's `tone`
+  overrides; `grave` makes Indio warm), USMAN with his designed voice (`USMAN.wav` + `.txt` from `--cast`, else
+  `$HI_VOICE_WORK/cast`, else `/opt/work/voice/cast`). Up to `--takes` takes per line, judged by the voice_clone checks
+  (first word, no stray token at either end, words, speaker similarity, numbers) and the best kept; a line's `say` is what
+  is spoken and judged, `text` stays the caption. Trimmed to 60 ms, 48 kHz mono 16-bit, about −18 LUFS; `l{i}_{SPEAKER}.wav`
+  and `takes.json`. Exit 1 naming the line if no take is acceptable; warns if the speech is outside 12–20 s. It unloads the
+  listeners and waits for 12 GB free before each generation round (the voice model takes about 11 GB).
+  `trivia_break.py episode` builds the spec (sticker `trivia/stickers/epNN.png`, error if missing; `--set
+  subjects.0.image=PATH` for a test), picks the pause (0.22 s, widened up to 0.40 s for 18–23 s; never speeds audio up),
+  `"calm": true` for a grave episode (no shake or flash, softer sting, slower pops), cuts in the gap after
+  `insert_after_sentence` of the CURRENT `timings.json` at the quietest 40 ms of the video's own audio (refused unless
+  12 dB under the episode average), renders with a sheet, splices, checks (duration, both streams, every frame decodes,
+  −16 LUFS, true peak ≤ −1.5 dBTP) and prints one summary line and the sheet and two frames to look at.
