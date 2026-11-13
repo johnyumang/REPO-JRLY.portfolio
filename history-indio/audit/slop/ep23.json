@@ -1,0 +1,431 @@
+{
+ "episode": 23,
+ "audited_by": "render-ep07 (two readers)",
+ "keys_looked_at": 83,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/usman_shiver.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears standing up and a pug-like squashed face; the folded ear is gone.",
+   "where": "dog's head, upper middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/m_recite1.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "M's two hands are boneless: the left hangs with long limp noodle fingers and the right curls with no countable fingers.",
+   "where": "bottom third, both hands at her waist",
+   "second_reader": "new"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/usman_hide.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is drawn without topknot or headband and in a modern jacket, unlike the tunic-and-sash Indio of the surrounding shots.",
+   "where": "the young man behind the dog",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/usman_leg.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot or headband and wears an olive zip jacket, grey jeans and laced boots instead of the beige tunic and red sash of this scene.",
+   "where": "right half, the young man",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/usman_leg.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "Usman's red kerchief is missing from his neck and two red kerchief bows are tied round Indio's boots instead.",
+   "where": "bottom right boots; dog's neck at left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/brick_hold.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The giant is a short-haired grinning man with a human face and purple shorts, not the sad long-grey-haired giant of k00 and k20.",
+   "where": "top half, the giant",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/sandugo23.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The giant is a blond muscular shirtless man with abs and wristbands, unrecognisable as the hairy grey giant.",
+   "where": "bottom right, the kneeling giant",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/giant_kin.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The giant has a four-legged mammoth-like body, and the travellers watching are modern hikers with backpacks.",
+   "where": "the giant body and the small figures",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/cloak_give.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The giant has green orc-like skin, pointed elf ears and a scowl, not the sad brown-furred grey-haired giant of k00, k21 and k29.",
+   "where": "top half, the giant's face",
+   "second_reader": "new"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/usman_cloak.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears up and a white blaze on his forehead that he does not have elsewhere.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/m_hold.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "M's hand gripping Indio's arm is a fingerless block of skin, like a mitten.",
+   "where": "centre, at Indio's forearm",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/albo_hands.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The two glowing hands are melted into one lump with no countable fingers.",
+   "where": "centre, the whole subject",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/usman_halftruth.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Close-up of Usman with both ears erect; no folded ear.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/indio_press.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Albo has short spiky white hair, a boyish face and a plain light shirt, so he does not read as the long-haired ageless man in the grey robe of k49 to k54.",
+   "where": "right side, the white-haired man",
+   "second_reader": "new"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/feather.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man in this close-up has loose short hair, no topknot or headband, and violet eyes, so he does not read as Indio.",
+   "where": "face, upper right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/feather.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Under the feather two hands are fused: fingertips point both ways and about seven fingers show, unreadable as one or two hands, in a close-up where the hand is the subject.",
+   "where": "lower half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/balangay_land.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up; the folded ear is gone.",
+   "where": "dog at lower right, head",
+   "second_reader": "new"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/m_explain23.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's lower hand is a small blob with a spike and no fingers.",
+   "where": "lower right, at her coat cuff",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/m_recite1.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M wears a dark wrap robe like a kimono instead of her long dark coat.",
+   "where": "her clothes",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/m_walk23.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Indio's and M's joined hands are a blurred lump where neither hand can be read.",
+   "where": "centre, between them at hip height",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/plateau.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M wears a brown wrap robe instead of her long dark coat, and Usman has two floppy ears and no visible white chest patch.",
+   "where": "M at left, dog at bottom",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/giant_sit.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Only one tiny modern hiker with a backpack approaches the giant instead of the three travellers.",
+   "where": "bottom centre, small figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/giant_ask.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The giant's face is drawn as an ordinary human profile, different again from k00, k25 and k32.",
+   "where": "face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/indio_answer2.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The giant is a shirtless brown-haired man rather than the grey-haired hairy giant of the other shots.",
+   "where": "the giant",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/giant_kneel.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A timber chalet with glass windows and a balcony stands on the ancient summit.",
+   "where": "top half, behind the giant",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/cloak_give.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The background behind the giant is a snowless grey plain with grass tufts and a house roof, unlike the snowy slope of every shot around it.",
+   "where": "background",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/albo_ots.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Albo is in a beige tunic like Indio's instead of his grey robe, against a plain grey background.",
+   "where": "the white-haired man",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/weapons_vision.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "One man's sword blade ends in the bending man's topknot as if driven through his head, and the left man wears a round wristwatch-like band.",
+   "where": "centre top (sword at the topknot) and left edge (wrist)",
+   "second_reader": "new"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/albo_m.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The cliff summit is replaced by a green village street with houses and trees, so the setting jumps away from the snowy summit of the shots around it.",
+   "where": "background, both sides",
+   "second_reader": "new"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/enoch_ms2.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The painted border along the lower right page edge has a row of curls that read as letters (like e, 6, 6, o, e).",
+   "where": "lower right border of the page",
+   "second_reader": "new"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/indio_ask23.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The photo he holds shows near-photographic children, a different style from the cel-shaded frame.",
+   "where": "the photo, lower half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/indio_follow23.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "One lower leg is dark grey like a stocking while the other is bare skin, and the feet are vague.",
+   "where": "bottom, legs and feet",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/feather_key.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Behind the key a stranger's face shows, with brown hair and a turquoise eye, matching no character in the episode.",
+   "where": "right half behind the key",
+   "second_reader": "new"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k92",
+   "what": "The giant's eye insert is a human anime eye with tan skin and brown fringe, not a furry animal-like eye.",
+   "why": "The eye is the same brown anime eye with grey-brown fringe that the giant has in k00, k20 and k29; it matches the episode's giant."
+  },
+  {
+   "key": "k14",
+   "what": "M wears a grey blazer with shirt and tie instead of her long dark coat.",
+   "why": "Her long dark grey coat over a shirt and tie is the same outfit as in k10 and k58; not a blazer, not off-model."
+  },
+  {
+   "key": "k38",
+   "what": "The lone white-haired figure on the summit has a ponytail and reads as a girl.",
+   "why": "The figure on the cliff is a few pixels tall; hair and sex cannot be read on a paused phone, so nothing off-model shows."
+  },
+  {
+   "key": "k48",
+   "what": "The glowing figure is a faceless woman in a white dress, and no woman and girl are being led away.",
+   "why": "A woman in white and a small white-haired girl are walking away between the men; the rest is a prompt omission at tiny size, not a picture fault."
+  },
+  {
+   "key": "k68",
+   "what": "Indio's free right hand curls into a claw with a hole through it.",
+   "why": "At 3x the hand against the wall is a relaxed curled hand, thumb and fingers forming a loose ring; countable and natural."
+  }
+ ]
+}
