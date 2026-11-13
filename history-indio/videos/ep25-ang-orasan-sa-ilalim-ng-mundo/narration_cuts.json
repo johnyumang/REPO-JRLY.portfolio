@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "sentences.json",
+ "cut": [
+  {
+   "index": 54,
+   "text": "Kathang-isip: ang orasan, ang mga tao sa kuweba, ang pangitain, at kami nina M at Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 6,
+   "text": "Pero hindi ito alamat ng mga taga-Himalaya, imbento ito ng mga Europeo.",
+   "why": "A fact about the world: Agartha is a European invention."
+  },
+  {
+   "index": 9,
+   "text": "Walang gumamit ng pangalang iyan bago ang 1870s, kaya imbento, tandaan mo 'yan.",
+   "why": "Bea's dialogue about the real history of the Agartha idea."
+  },
+  {
+   "index": 50,
+   "text": "Tiyak: imbento ng mga Europeo ang Agartha, mula kay Jacolliot noong 1873 at kay Saint-Yves noong 1886.",
+   "why": "A Tiyak line of history."
+  },
+  {
+   "index": 52,
+   "text": "Kuwentong-bayan ng mga Sherpa at taga-Tibet ang yeti, at walang patunay na may ganitong nilalang.",
+   "why": "Folklore named as folklore, in its own sentence."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Noong 2017, sinuri ang mga sample na sinasabing galing sa yeti: mga oso at isang aso pala. / Paglabas namin sa lagusan, naglaho si Usman sa liwanag."
+}

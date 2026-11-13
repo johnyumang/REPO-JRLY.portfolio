@@ -4,7 +4,7 @@
 SEASON 5, EPISODE 49: Isang hiling na lang ang natitira. Puwede niyang iligtas si Rizal, burahin ang Paris, o gawing hari ang sarili. Pero iba ang hiniling ni Indio: na maging gaya ng una ang mundo, bago may nang-agaw. 🌅
 At humupa ang tubig.
 
-Ang tagpo ay kathang-isip ng serye. Ang mga sanggunian: ang pagpapakain sa limang libo sa apat na Ebanghelyo; ang pangako sa Genesis 9:11 na hindi na muling lilipulin ng baha ang lahat ng laman; ang bahang ibinuga ng dragon sa Pahayag 12:15. Totoo ang kasaysayang binanggit: Kawit, 12 Hunyo 1898; si Rajah Sulayman ng Maynila, na lumaban noong 1570.
+Kathang-isip sina Indio, M, Usman at ang pamilya nila, ang hiling, ang bituin, ang paghupa ng tubig, si Rico Bulan, si Totoy, si Ma'am Celia, si Kap Ramil, si Inhinyera Vangie, si Hukom Dimaculangan at ang lahat ng opisyal sa kuwento; likha ng serye ang boses ng diwa ni Sulayman, na walang naitalang ganoong salita, at ugnay ng serye sa Pahayag 12:15 ang bahang ibinuga ng ahas; kuwentong-bayan ang Bakunawa at ang mga Kakampi; totoo ang kasaysayan. Ang mga sanggunian: ang pagpapakain sa limang libo sa apat na Ebanghelyo; ang pangako sa Genesis 9:11 na hindi na muling lilipulin ng baha ang lahat ng laman; ang bahang ibinuga ng dragon sa Pahayag 12:15. Totoo ang kasaysayang binanggit: Kawit, 12 Hunyo 1898; si Rajah Sulayman ng Maynila, na lumaban noong 1570.
 
 👉 Kung itatayo mo ulit ang bayan, ano ang uunahin mo? Comment mo.
 I-follow ang History Indio para sa huling kabanata: Ang Dulo.
@@ -20,7 +20,7 @@ I-follow ang History Indio para sa huling kabanata: Ang Dulo.
 **Description:**
 Season 5, Episode 8 ng time-travel series ng History Indio.
 Mga sanggunian: Mateo 14, Marcos 6, Lucas 9 at Juan 6 (ang pagpapakain sa limang libo); Genesis 9:11; Pahayag 12:15. Totoo: ipinahayag ang kalayaan sa Kawit noong 12 Hunyo 1898 mula sa bintana ng bahay ni Aguinaldo; si Rajah Sulayman ay rajah ng Maynila na lumaban sa mga Espanyol noong 1570.
-Kathang-isip ang hiling, ang bituin, ang paghupa ng tubig, ang boses ng diwa ni Sulayman, si Rico Bulan at ang lahat ng opisyal sa kuwento, at sina Indio, M at Usman.
+Kathang-isip sina Indio, M, Usman at ang pamilya nila, ang hiling, ang bituin, ang paghupa ng tubig, si Rico Bulan, si Totoy, si Ma'am Celia, si Kap Ramil, si Inhinyera Vangie, si Hukom Dimaculangan at ang lahat ng opisyal sa kuwento; likha ng serye ang boses ng diwa ni Sulayman, na walang naitalang ganoong salita, at ugnay ng serye sa Pahayag 12:15 ang bahang ibinuga ng ahas; kuwentong-bayan ang Bakunawa at ang mga Kakampi; totoo ang kasaysayan.
 
 Kung itatayo mo ulit ang bayan, ano ang uunahin mo? I-comment sa baba.
 
@@ -29,11 +29,11 @@ Kung itatayo mo ulit ang bayan, ano ang uunahin mo? I-comment sa baba.
 **Tags:** history indio, ikatlong hiling, feeding of the five thousand, genesis 9 11, revelation 12 15, kawit 1898, rajah sulayman, kasaysayan ng pilipinas, philippine history, time travel, pinoy anime
 
 ## TikTok
-Isang hiling na lang. Hindi kayamanan, hindi paghihiganti: ang unang hardin, bago may nang-agaw. 🌅 Ang tagpo ay kathang-isip ng serye; totoo ang kasaysayang binanggit. Ano ang uunahin mo? #HistoryIndio #KasaysayanNgPilipinas #fyp
+Isang hiling na lang. Hindi kayamanan, hindi paghihiganti: ang unang hardin, bago may nang-agaw. 🌅 Kathang-isip sina Indio, M, Usman at ang pamilya nila, ang hiling, ang bituin, ang paghupa ng tubig, si Rico Bulan, si Totoy, si Ma'am Celia, si Kap Ramil, si Inhinyera Vangie, si Hukom Dimaculangan at ang lahat ng opisyal sa kuwento; likha ng serye ang boses ng diwa ni Sulayman, na walang naitalang ganoong salita, at ugnay ng serye sa Pahayag 12:15 ang bahang ibinuga ng ahas; kuwentong-bayan ang Bakunawa at ang mga Kakampi; totoo ang kasaysayan. Ano ang uunahin mo? #HistoryIndio #KasaysayanNgPilipinas #fyp
 
 ## Instagram
 Humupa ang tubig, dahan-dahan, may putik, may tawanan, dahil buhay pa ang lahat. 🌅
-Ang tagpo ay kathang-isip ng serye; ang mga sanggunian: ang apat na Ebanghelyo, Genesis 9:11, Pahayag 12:15.
+Kathang-isip sina Indio, M, Usman at ang pamilya nila, ang hiling, ang bituin, ang paghupa ng tubig, si Rico Bulan, si Totoy, si Ma'am Celia, si Kap Ramil, si Inhinyera Vangie, si Hukom Dimaculangan at ang lahat ng opisyal sa kuwento; likha ng serye ang boses ng diwa ni Sulayman, na walang naitalang ganoong salita, at ugnay ng serye sa Pahayag 12:15 ang bahang ibinuga ng ahas; kuwentong-bayan ang Bakunawa at ang mga Kakampi; totoo ang kasaysayan. Ang mga sanggunian: ang apat na Ebanghelyo, Genesis 9:11, Pahayag 12:15.
 #HistoryIndio #PhilippineHistory
 
 ## Pinned comment (sources)

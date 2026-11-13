@@ -1,0 +1,39 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 56,
+   "text": "Kathang-isip: kami nina M at Usman, sina Tubal at Rico, ang mga medalyon, ang diwa, ang Kampilan, ang anting at ang susi."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 13,
+   "text": "Hindi ito ang ungol sa kuwentong hindi tiyak, par, ungol ito sa buong kasinungalingan.",
+   "why": "Plot line: Usman's growl works as a lie detector against Tubal."
+  },
+  {
+   "index": 23,
+   "text": "Hindi si Lapulapu mismo ang pumatay, par, alamat 'yon.",
+   "why": "A statement about the real record."
+  },
+  {
+   "index": 29,
+   "text": "Sa kuwentong-bayan, nanlulunod sila ng tao, Indio.",
+   "why": "Folklore attribution in dialogue, as its own sentence."
+  },
+  {
+   "index": 54,
+   "text": "Alamat na si Lapulapu mismo ang pumatay, at kaunti lang ang tiyak na alam tungkol sa kanya.",
+   "why": "History: what is legend or uncertain in the record."
+  },
+  {
+   "index": 55,
+   "text": "Kuwentong-bayan ang siyokoy, at galing sa Hokkien ang pangalan nito.",
+   "why": "Folklore attribution as its own sentence, plus a fact about where the word comes from."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ang siyokoy, at galing sa Hokkien ang pangalan nito. / Nakaupo kami ni M sa dalampasigan nang lumubog ang araw, napakalapit ng mukha namin."
+}

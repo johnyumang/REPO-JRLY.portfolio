@@ -1,0 +1,29 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 59,
+   "text": "Kathang-isip: ako, si M, si Usman, si Maestra Adela, ang diwa, ang dayuhan at ang daan; kuwentong-bayan ang Biringan at ang Bakunawa."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 60,
+   "text": "Ang pangitain ay hindi patunay.",
+   "why": "A statement about the real experience. It is not a fiction label."
+  },
+  {
+   "index": 51,
+   "text": "Alin dito ang totoo?",
+   "why": "Adela's dialogue that opens the sorting of the record."
+  },
+  {
+   "index": 56,
+   "text": "Mga panganib: mapanganib ito sa may iniinom na gamot sa depresyon, sa may sakit sa puso, at bihira pero totoo ang pagkasira ng isip.",
+   "why": "A safety fact about the real record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Sa Peru, pamana ang tradisyonal na gamit nito; sa Pilipinas, bawal ang pangunahing sangkap nito sa ilalim ng batas sa droga. / Ang pangitain ay hindi patunay."
+}

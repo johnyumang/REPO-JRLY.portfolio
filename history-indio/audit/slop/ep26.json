@@ -2,7 +2,8 @@
   "episode": 26,
   "readers": [
     "r1",
-    "r2"
+    "r2",
+    "r3"
   ],
   "keys_looked_at": 89,
   "defects": [
@@ -17,7 +18,10 @@
       "what": "Instead of a figure of light breaking into points of light, the spiral holds a cute chibi grinning toddler flying with arms out, in a cartoon baby style that breaks the episode's realistic anime look and clashes with the terror/ego-death moment.",
       "where": "centre of the frame",
       "reader": "r1",
-      "r2": "confirmed: chibi grinning toddler at 3x, a hard style jolt in the ego-death beat; must_fix stands"
+      "r2": "confirmed: chibi grinning toddler at 3x, a hard style jolt in the ego-death beat; must_fix stands",
+      "fixed": true,
+      "fix": "redrawn (1 try): a glowing adult silhouette of light dissolving in the spiral, no child",
+      "r3": "kept: chibi toddler gone, adult light-figure dissolving in the spiral, matches k36/k38 style, no hands to fault"
     },
     {
       "key": "k65",
@@ -30,7 +34,10 @@
       "what": "The 'smiling stranger' Indio walks away from is drawn as a black-haired Filipino man with a low ponytail in plain street clothes, nothing like the blond/ash-haired foreigner in pale safari clothes established as the visitor Sinag in the shots just before.",
       "where": "the standing man at right",
       "reader": "r1",
-      "r2": "confirmed: the stranger is a black-haired ponytailed Filipino in a plain shirt and olive trousers, no gold eyes or safari clothes; follows k64 directly and would not be read as Sinag on pause; must_fix stands"
+      "r2": "confirmed: the stranger is a black-haired ponytailed Filipino in a plain shirt and olive trousers, no gold eyes or safari clothes; follows k64 directly and would not be read as Sinag on pause; must_fix stands",
+      "fixed": true,
+      "fix": "redrawn (1 try): Indio walks away, the blond foreign visitor in pale safari clothes stands in the shallows; hands clean at 3x",
+      "r3": "kept: stranger now the blond visitor in pale safari clothes holding a cup (one hand, other hidden), Indio hands clean at 3x; Sinag hair still drifts brown/blond across k62-k65 as already logged in k21 entry"
     },
     {
       "key": "k41",
@@ -148,7 +155,10 @@
       "must_fix": true,
       "what": "Indio's one forearm forks into two hands: one lies flat on the counter and a second hand with the red kerchief grows out of the same arm to hold the bronze disc from below.",
       "where": "Indio's arm across the counter, lower centre",
-      "reader": "r2"
+      "reader": "r2",
+      "fixed": true,
+      "fix": "redrawn (2 tries): one hand palm-up holding a blank bronze disc, clerk with crossed arms, one Indio, no writing",
+      "r3": "kept: one arm, one palm-up hand under a blank disc, clerk arms crossed with countable fingers, no writing"
     },
     {
       "key": "k51",
@@ -160,7 +170,10 @@
       "must_fix": true,
       "what": "Adela's two hands at the bottom are a smeared painterly mass with no countable fingers, melting into the water cup and a white cloth; the frame also has a rough painterly filter unlike the rest of the episode.",
       "where": "bottom third, both hands and the cup",
-      "reader": "r2"
+      "reader": "r2",
+      "fixed": true,
+      "fix": "redrawn (2 tries): head and shoulders, hands out of frame, her embroidered outfit and glasses, crisp line art",
+      "r3": "kept: hands out of frame, cup clean, crisp line art; reads as the same Adela (glasses, long black hair with grey streak)"
     },
     {
       "key": "k47",
@@ -172,7 +185,10 @@
       "must_fix": true,
       "what": "The woman in the gate is a young blonde Western-looking girl, while the very next shot (k48) close-up is a dark-haired Filipina in her forties and k92 a young brown-haired woman; the script says these are the same woman, but on pause they read as three different people.",
       "where": "the woman in the gate, lower right",
-      "reader": "r2"
+      "reader": "r2",
+      "fixed": true,
+      "fix": "redrawn (1 try): a dark-haired Filipina in her forties in a pale dress in the gate, hands folded (clean at 3x)",
+      "r3": "kept: blonde girl replaced by a dark-haired Filipina in a pale dress, hands folded clean at 3x, glowing city gate continues k46; still darker-skinned and older-looking than the k48 close-up (minor)"
     },
     {
       "key": "k92",

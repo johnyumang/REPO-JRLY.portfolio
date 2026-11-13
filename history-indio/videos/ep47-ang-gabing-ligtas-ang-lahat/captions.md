@@ -3,7 +3,7 @@
 ## Facebook (Reels)
 SEASON 5, EPISODE 47: Ang ikalawang hiling ni Indio: isang gabi na ligtas ang lahat. Huminto ang ulan sa buong mundo, lumabas ang puting buwan, at sa unang pagkakataon, buo ang pamilya niya. At ngayong gabi, walang pumigil sa kanila ni M. 🌕
 
-Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Kathang-isip sina Indio, M, Usman, Lola Ising, Inay, Itay, Tala, Kapitan Totoy, ang mga arko at ang tatlong hiling. Totoo: labing-isang balangay ang natagpuan sa Butuan (mga taong 689 hanggang 988). Ayon sa teksto: Genesis 11:1–9 (ang Babel). Pinagtatalunan kung sa "balangay" galing ang "barangay".
+Kathang-isip sina Indio, Usman, M, Lola Ising, Inay, Itay, Tala at Kapitan Totoy, ang bituin at ang tatlong hiling, ang Trinity, ang gabing huminto ang ulan, ang mga arko at ang batang darating; kuwentong-bayan ang Biringan; totoo ang kasaysayan. Totoo: labing-isang balangay ang natagpuan sa Butuan (mga taong 689 hanggang 988). Ayon sa teksto: Genesis 11:1–9 (ang Babel). Pinagtatalunan kung sa "balangay" galing ang "barangay".
 
 👉 Kung may isang gabing ligtas ang lahat, sino ang gusto mong kasama? Comment mo.
 I-follow ang History Indio para sa huling labanan!
@@ -18,7 +18,7 @@ I-follow ang History Indio para sa huling labanan!
 
 **Description:**
 Season 5, Episode 6 ng time-travel series ng History Indio.
-Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Totoo: ang mga balangay ng Butuan, 689–988. Ayon sa teksto: Genesis 11:1–9; Juan 8:44.
+Kathang-isip sina Indio, Usman, M, Lola Ising, Inay, Itay, Tala at Kapitan Totoy, ang bituin at ang tatlong hiling, ang Trinity, ang gabing huminto ang ulan, ang mga arko at ang batang darating; kuwentong-bayan ang Biringan; totoo ang kasaysayan. Totoo: ang mga balangay ng Butuan, 689–988. Ayon sa teksto: Genesis 11:1–9; Juan 8:44.
 Kung may isang gabing ligtas ang lahat, sino ang gusto mong kasama? I-comment sa baba.
 
 #HistoryIndio #Shorts
@@ -26,11 +26,11 @@ Kung may isang gabing ligtas ang lahat, sino ang gusto mong kasama? I-comment sa
 **Tags:** history indio, indio ang saksi, balangay, butuan, barangay, babel, pinoy anime, time travel, kasaysayan ng pilipinas
 
 ## TikTok
-Isang hiling: isang gabi na ligtas ang lahat. 🌕 Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Sino ang kasama mo sa gabing 'yon? #HistoryIndio #IndioAngSaksi #PinoyAnime
+Isang hiling: isang gabi na ligtas ang lahat. 🌕 Kathang-isip sina Indio, Usman, M, Lola Ising, Inay, Itay, Tala at Kapitan Totoy, ang bituin at ang tatlong hiling, ang Trinity, ang gabing huminto ang ulan, ang mga arko at ang batang darating; kuwentong-bayan ang Biringan; totoo ang kasaysayan. Sino ang kasama mo sa gabing 'yon? #HistoryIndio #IndioAngSaksi #PinoyAnime
 
 ## Instagram
 Huminto ang ulan. Lumabas ang buwan. Buo ang pamilya. 🌕
-Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Totoo ang mga balangay ng Butuan (689–988).
+Kathang-isip sina Indio, Usman, M, Lola Ising, Inay, Itay, Tala at Kapitan Totoy, ang bituin at ang tatlong hiling, ang Trinity, ang gabing huminto ang ulan, ang mga arko at ang batang darating; kuwentong-bayan ang Biringan; totoo ang kasaysayan. Totoo ang mga balangay ng Butuan (689–988).
 #HistoryIndio #IndioAngSaksi #Balangay
 
 ## Pinned comment (sources)

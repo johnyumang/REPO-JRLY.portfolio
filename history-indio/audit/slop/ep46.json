@@ -15,7 +15,11 @@
    "must_fix": true,
    "what": "A shot meant to have nobody in it shows an unscripted half-naked red-haired figure crawling out of the water, with a mangled claw-like hand.",
    "where": "centre, figure and right hand above the waterline",
-   "second_reader": "confirmed: the prompt says nobody in the frame, yet a half-naked red-haired figure crawls out of the water at centre, and its right hand on the waterline is a lumpy claw with no countable fingers"
+   "second_reader": "confirmed: the prompt says nobody in the frame, yet a half-naked red-haired figure crawls out of the water at centre, and its right hand on the waterline is a lumpy claw with no countable fingers",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k19",
@@ -27,7 +31,11 @@
    "must_fix": true,
    "what": "Sinag has short black bobbed hair and a different face, where the other shots give her long brown or blonde hair.",
    "where": "whole face, upper half",
-   "second_reader": "confirmed: Sinag has black hair with bangs here, against blonde in k16/k24 and brown in k18/k22, and her face is different"
+   "second_reader": "confirmed: Sinag has black hair with bangs here, against blonde in k16/k24 and brown in k18/k22, and her face is different",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k20",
@@ -39,7 +47,11 @@
    "must_fix": true,
    "what": "Usman is drawn as a heavy pit-bull or panther-like dog with a blue human-like eye, a pointed ear and no visible white chest patch.",
    "where": "dog head, bottom left",
-   "second_reader": "confirmed: a heavy pit-bull head with blue eyes, both ears upright and no white chest patch in view"
+   "second_reader": "confirmed: a heavy pit-bull head with blue eyes, both ears upright and no white chest patch in view",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k31",
@@ -51,7 +63,10 @@
    "must_fix": true,
    "what": "The young woman taking Albo's hand has dark blue hair and blue eyes, so she is not recognisable as white-haired, grey-eyed Tala.",
    "where": "face and hair, top half",
-   "second_reader": "confirmed: dark-blue hair and blue eyes, not white-haired, grey-eyed Tala"
+   "second_reader": "confirmed: dark-blue hair and blue eyes, not white-haired, grey-eyed Tala",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows. Close-up at night in rain on the roof of a wooden ark: a young woman with long pure white hair and calm grey eyes in a long dark coat, seen from the chest up on the right, takes the glowing white hand of her father, a tall gentle figure of soft white light with long white hair and a calm kind face, who stands at the left edge. Their two hands meet in the centre in a simple clasp: her hand, one hand with a thumb and four fingers, seen from the back, rests in his open glowing palm, which also has a thumb and four fingers. Rain drops shine around the hands. Only these two hands in the frame. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4
   },
   {
    "key": "k32",
@@ -63,7 +78,11 @@
    "must_fix": true,
    "what": "Albo and Tala are blurred, painterly white shapes that merge into one mass with no readable faces or limbs.",
    "where": "centre left, both figures",
-   "second_reader": "confirmed: the two white figures are a painterly blur that runs into one mass, with no readable faces or hands"
+   "second_reader": "confirmed: the two white figures are a painterly blur that runs into one mass, with no readable faces or hands",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k37",
@@ -75,7 +94,11 @@
    "must_fix": true,
    "what": "Tubal is a different old man here (bald top, moustache, olive jacket) and not the slick-haired man in a grey suit from k35/k36/k45/k48.",
    "where": "seated old man, right",
-   "second_reader": "confirmed: the script makes the seated man in the warehouse Tubal ('Pagkatapos, si Tubal ... nakaupo siya'), but he is drawn as a moustached man in an olive jacket, not the grey-suited Tubal of k35/k36/k45/k48. The prompt says only 'an old man' and never pastes the Tubal string"
+   "second_reader": "confirmed: the script makes the seated man in the warehouse Tubal ('Pagkatapos, si Tubal ... nakaupo siya'), but he is drawn as a moustached man in an olive jacket, not the grey-suited Tubal of k35/k36/k45/k48. The prompt says only 'an old man' and never pastes the Tubal string",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k40",
@@ -87,7 +110,11 @@
    "must_fix": true,
    "what": "Tubal is a different old man in a brown jacket with a moustache, not the grey-suited Tubal.",
    "where": "old man, left",
-   "second_reader": "confirmed: this is Tubal per the script (Indio reads the contracts to him), but he is drawn in a brown jacket with a moustache and goatee"
+   "second_reader": "confirmed: this is Tubal per the script (Indio reads the contracts to him), but he is drawn in a brown jacket with a moustache and goatee",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k42",
@@ -99,7 +126,11 @@
    "must_fix": true,
    "what": "Tubal is a different scruffy old man with a moustache and wild grey hair, not the grey-suited Tubal.",
    "where": "old man, right",
-   "second_reader": "confirmed: this is Tubal per the script, but he is a moustached man with wild grey hair and a brown shirt"
+   "second_reader": "confirmed: this is Tubal per the script, but he is a moustached man with wild grey hair and a brown shirt",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k42",
@@ -111,7 +142,11 @@
    "must_fix": true,
    "what": "Hanging signboards carry clear Chinese-like characters.",
    "where": "top right corner",
-   "second_reader": "confirmed: two hanging boards top right carry large blocky CJK-like characters, legible at phone size (the stills pass logged this as 'place', must_fix false; it is clear enough to stay true)"
+   "second_reader": "confirmed: two hanging boards top right carry large blocky CJK-like characters, legible at phone size (the stills pass logged this as 'place', must_fix false; it is clear enough to stay true)",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k44",
@@ -123,7 +158,11 @@
    "must_fix": true,
    "what": "Tubal is a different old man with a goatee in a yellow coat, not the grey-suited Tubal.",
    "where": "old man, left",
-   "second_reader": "confirmed: this is Tubal per the script, but he has a goatee and a yellow-tan coat, a fourth different face for him"
+   "second_reader": "confirmed: this is Tubal per the script, but he has a goatee and a yellow-tan coat, a fourth different face for him",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k50",
@@ -135,7 +174,10 @@
    "must_fix": true,
    "what": "M has short dark-blue bobbed hair, green eyes and a white shirt instead of long black hair and a dark coat.",
    "where": "face and body, whole frame",
-   "second_reader": "confirmed: short dark-blue bob, green eyes, white shirt"
+   "second_reader": "confirmed: short dark-blue bob, green eyes, white shirt",
+   "fix": "redraw_hands_hidden",
+   "tries": 2,
+   "third_reader": "reverted: the new still has M on model, but the furled red umbrella stands in mid-air beside her with its tip above the planks and both her hands in her coat pockets, so nothing holds it, and the script's line needs her holding the umbrella"
   },
   {
    "key": "k51",
@@ -147,7 +189,11 @@
    "must_fix": true,
    "what": "M's face has dark scratch-like marks over her cheek and chin, and her teeth are bared in a grimace.",
    "where": "face, upper right of centre",
-   "second_reader": "confirmed: scratch or crack marks across her cheek and chin, and bared clenched teeth"
+   "second_reader": "confirmed: scratch or crack marks across her cheek and chin, and bared clenched teeth",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k53",
@@ -159,7 +205,11 @@
    "must_fix": true,
    "what": "This frame is a blurred, painterly figure with blank white eyes, and the cut to it jolts against the clean cel style around it.",
    "where": "whole frame",
-   "second_reader": "confirmed: soft painterly blur with blank glowing eyes, unlike the hard cel line of k52 and k54"
+   "second_reader": "confirmed: soft painterly blur with blank glowing eyes, unlike the hard cel line of k52 and k54",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k53",
@@ -171,7 +221,11 @@
    "must_fix": true,
    "what": "Both hands on the handle are mushy, with fused and uncountable fingers.",
    "where": "centre and bottom centre",
-   "second_reader": "confirmed: both hands on the handle are soft and mushy, and the fingers of the lower hand fuse into the grip"
+   "second_reader": "confirmed: both hands on the handle are soft and mushy, and the fingers of the lower hand fuse into the grip",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k55",
@@ -183,7 +237,11 @@
    "must_fix": true,
    "what": "A shot meant to have nobody shows a man in a white T-shirt and shorts holding the blade, who matches no one in the episode.",
    "where": "right edge, top to bottom",
-   "second_reader": "confirmed: the prompt says nobody in the frame, yet the right edge shows a man in a white T-shirt and khaki shorts holding the blade, who matches no one in the episode"
+   "second_reader": "confirmed: the prompt says nobody in the frame, yet the right edge shows a man in a white T-shirt and khaki shorts holding the blade, who matches no one in the episode",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k58",
@@ -243,7 +301,11 @@
    "must_fix": false,
    "what": "The two raised hands have overlong fingers that blur into each other.",
    "where": "right of the face",
-   "second_reader": "confirmed: two overlapping hands with long fingers whose outlines run into each other"
+   "second_reader": "confirmed: two overlapping hands with long fingers whose outlines run into each other",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k20",
@@ -303,7 +365,11 @@
    "must_fix": false,
    "what": "The old man's hand on his knee is a mitten with no countable fingers.",
    "where": "centre right",
-   "second_reader": "confirmed: the old man's hand on his knee is a mitten shape with no separate fingers"
+   "second_reader": "confirmed: the old man's hand on his knee is a mitten shape with no separate fingers",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k40",
@@ -315,7 +381,11 @@
    "must_fix": false,
    "what": "The hand holding the papers grows out of Indio's red kerchief, so it is unclear whose hand it is.",
    "where": "centre left, papers",
-   "second_reader": "confirmed: the hand under the papers has no sleeve and its wrist disappears into Indio's red handkerchief, so it is unclear whose hand it is"
+   "second_reader": "confirmed: the hand under the papers has no sleeve and its wrist disappears into Indio's red handkerchief, so it is unclear whose hand it is",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k44",
@@ -327,7 +397,11 @@
    "must_fix": false,
    "what": "Indio's open hand shows a thumb and only about three fingers.",
    "where": "centre, at the red kerchief",
-   "second_reader": "confirmed: Indio's open hand shows a thumb and only about three fingers"
+   "second_reader": "confirmed: Indio's open hand shows a thumb and only about three fingers",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k55",
@@ -339,7 +413,11 @@
    "must_fix": false,
    "what": "The pommel carries a character-like glyph.",
    "where": "top right, pommel",
-   "second_reader": "confirmed: the gold pommel carries a CJK-like glyph"
+   "second_reader": "confirmed: the gold pommel carries a CJK-like glyph",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k63",

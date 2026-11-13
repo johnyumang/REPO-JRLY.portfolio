@@ -5,21 +5,21 @@ EPISODE 10: Pagkatapos ng Galilea, sumindi ang tuldok sa sarili niyang lungsod. 
 Ang Kodigo ni Kalantiaw, "isinulat noong 1433", ay lumitaw lang sa mga papeles ni José E. Marco (bandang 1913). Noong 1968, pinatunayan ni William Henry Scott na walang batayan ito. 2004, nagpasya ang National Historical Institute (inaprubahan 2005). Pero ilang dekada pa itong itinuro.
 At sa dulo ng laro nila ni Lolo na "hanapin ang marker", ang totoong kayamanan: ang kuwaderno ni Lolo.
 May itinuro ba sa'yo sa eskwela na hindi pala totoo? I-comment mo.
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip din ang pamilya ni Indio, ang paaralan, ang guro at mga kaklase, si M, ang lente at ang kuwaderno ni Lolo.
+Kathang-isip sina Indio, M at Usman, ang pamilya ni Indio (si Lolo, si Lola at ang laro nilang hanapin ang marker), ang paaralan, si Ma'am, sina Bea at JM, ang lente at ang kuwaderno ni Lolo; totoo ang kasaysayan.
 #HistoryIndio #Kalantiaw #KasaysayanNgPilipinas #PinoyAnime
 
 ## YouTube Shorts
 **Title:** Mali ang Textbook Ko | History Indio EP 10 #shorts
-**Description:** Si Indio, sampung taong gulang, at ang Kodigo ni Kalantiaw. Tiyak: lumitaw lang ang kodigo sa mga papeles ni José E. Marco; pinatunayan ni William Henry Scott (UST, 1968) na walang batayan ito; NHI Resolution No. 12, 2004 (inaprubahan 2005). Pinagtatalunan: kung si Marco lang ang gumawa at bakit; may mga taga-Aklan na tumutol. Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip ang pamilya ni Indio, ang paaralan, ang guro, si M, ang lente at ang kuwaderno ni Lolo.
+**Description:** Si Indio, sampung taong gulang, at ang Kodigo ni Kalantiaw. Tiyak: lumitaw lang ang kodigo sa mga papeles ni José E. Marco; pinatunayan ni William Henry Scott (UST, 1968) na walang batayan ito; NHI Resolution No. 12, 2004 (inaprubahan 2005). Pinagtatalunan: kung si Marco lang ang gumawa at bakit; may mga taga-Aklan na tumutol. Kathang-isip sina Indio, M at Usman, ang pamilya ni Indio (si Lolo, si Lola at ang laro nilang hanapin ang marker), ang paaralan, si Ma'am, sina Bea at JM, ang lente at ang kuwaderno ni Lolo; totoo ang kasaysayan.
 
 ## TikTok
 Grade 5, nagtaas ng kamay: "hindi po totoo 'yon." 📖 Ang Kodigo ni Kalantiaw: peke, ayon kay William Henry Scott (1968) at sa NHI (2004). May itinuro ba sa'yo na hindi pala totoo?
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, M at Usman, ang pamilya ni Indio (si Lolo, si Lola at ang laro nilang hanapin ang marker), ang paaralan, si Ma'am, sina Bea at JM, ang lente at ang kuwaderno ni Lolo; totoo ang kasaysayan.
 #historyindio #kalantiaw #kasaysayan #fyp
 
 ## Instagram Reels
 Ang batang nagsabing mali ang textbook. 📖 Kodigo ni Kalantiaw: lumitaw lang sa papeles ni José E. Marco; walang batayan, ayon kay Scott (1968) at sa NHI (2004).
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, M at Usman, ang pamilya ni Indio (si Lolo, si Lola at ang laro nilang hanapin ang marker), ang paaralan, si Ma'am, sina Bea at JM, ang lente at ang kuwaderno ni Lolo; totoo ang kasaysayan.
 #historyindio #kalantiaw #philippinehistory #kasaysayan #pinoyanime
 
 ## Pinned comment (any platform)

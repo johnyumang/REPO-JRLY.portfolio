@@ -1,0 +1,967 @@
+{
+ "episode": 11,
+ "audited_by": "render-ep07 (two readers)",
+ "keys_looked_at": 85,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/yumud_rise.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has spiky red-brown hair with no topknot and is shirtless instead of the beige tunic.",
+   "where": "lower right figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/notebook_glow.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the notebook on the right is a boneless mitten: one long thumb shape and no separate fingers.",
+   "where": "right hand, lower right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/moto_sidecar.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The motorcycle has two headlamps stacked one above the other on the same fork.",
+   "where": "front of the motorcycle, centre left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/surigao_push.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A red letter-like logo is printed on Indio's t-shirt sleeve and marks sit on the fuel tank.",
+   "where": "Indio's left sleeve and the tank",
+   "second_reader": "new"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/wallet_coins.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Three hands reach into the wallet for one person (one from the left, two from the right).",
+   "where": "centre, both sides of the wallet",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/wallet_coins.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A coin is fused onto the banknote being pulled out.",
+   "where": "centre of the bill",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/wallet_coins.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The banknote in the wallet carries letter-like marks and a big '0010'-style number.",
+   "where": "banknote inside the wallet",
+   "second_reader": "new"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/indio_wish.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A poster on the wall shows the letters 'Ar'.",
+   "where": "wall poster, right",
+   "second_reader": "new"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/star_wish_flash.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The face behind the wish star looks like a woman with long hair and lashes, though Indio makes the wish.",
+   "where": "whole frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/m_frown_present.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The red handkerchief hangs from Indio's jeans pocket instead of being tied on his wrist.",
+   "where": "Indio's hip",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/bling.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The mall signs carry gibberish letters.",
+   "where": "background signs",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/bling.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "Indio has three arms: the arm holding the phone and the arm holding the blue bags both come out of the same left jacket sleeve, plus the right arm with the watch.",
+   "where": "left side of Indio, phone hand and blue-bag hand",
+   "second_reader": "new"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/stranger_photo.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The stranger 'taking a photo' pinches empty air: there is no phone in his hands. The truck door also carries a letter-like logo.",
+   "where": "centre, stranger's hands",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/shrine_portal.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has brown hair with no topknot and a dark jacket, and M has shoulder-length purple-brown hair and a scarf; neither matches the rest of the episode.",
+   "where": "both figures",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/usman_leap.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two upright ears instead of one folded ear.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/m_points_port.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 1011 port has corrugated tin roofs, glass screw-top jars and a plastic tub.",
+   "where": "roofs, jars bottom right, tub bottom left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/m_points_port.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The worker bending in the boat has a grey capsule shape where his head should be and a second head beyond it.",
+   "where": "boat, lower centre right",
+   "second_reader": "new"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/boats_row.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 1011 crew wear hard hats, face masks and modern t-shirts, with plastic tubs on the bank; the foreground worker's face is a white smear.",
+   "where": "crew on the bank and in the near boat, left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/ships_ready.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The trade jars are shiny steel pots like modern milk cans.",
+   "where": "jars in the boat, bottom",
+   "second_reader": "new"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/ships_ready.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A hand grips the front man's chest strap but its arm cannot be traced to anyone.",
+   "where": "front man's chest, centre left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/gold_tablet.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The gold tablet looks like a modern tablet computer with a side port.",
+   "where": "centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/indio_watch_dock.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has reddish-brown hair, no topknot, and a modern t-shirt, shorts and sneakers in the 1011 port.",
+   "where": "Indio, full figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/m_slip_catch.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "Drawn in a flatter, older cel style than the rest; Indio's hair is spiky with no topknot.",
+   "where": "whole frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/m_slip_catch.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Modern sheds and poles stand in the background of the 1011 channel.",
+   "where": "background, top",
+   "second_reader": "new"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/usman_paw_eyes.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Usman covers his eyes with a human hand with five fingers and nails instead of a paw.",
+   "where": "dog's face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/usman_paw_eyes.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears upright.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/medallion_reveal.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The face behind the medallion is a girlish face with one brown eye and one blue eye.",
+   "where": "upper centre face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/medallion_reveal.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The muddy hands holding the medallion are lumpy, with fingers that cannot be counted.",
+   "where": "centre, both hands",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/finger_touch.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A giant index finger comes in from nowhere across M's face, and a second unattached hand is at bottom left.",
+   "where": "left half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/finger_touch.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The floating symbols include letter- and dollar-like glyphs.",
+   "where": "sparks around the medallion",
+   "second_reader": "new"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/kiling_light.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Power lines and modern houses stand along the 1011 channel.",
+   "where": "background",
+   "second_reader": "new"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/yumud_emerge.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio, seen from behind, has spiky brown hair with no topknot and a grey-blue collared shirt instead of the beige tunic.",
+   "where": "foreground figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "chars/usman_growl on plates/mangrove_night",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "Usman's chest is drawn as a muscular human torso with pecs.",
+   "where": "dog's chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/indio_eyes_glyphs.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A ring of glowing kanji-like characters circles Indio.",
+   "where": "around Indio's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/nakita_kita.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn as a young boy in a t-shirt with a letter-marked red shoulder patch.",
+   "where": "Indio, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/yumud_bow.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is a brown-haired modern man in a blue shirt and khakis, and M is a brown-haired girl with a bag.",
+   "where": "lower figures",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/yumud_bow.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A third, faceless black-haired figure is half grown into the Yumud's leg.",
+   "where": "lower right, at the creature's leg",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/sandugo_seal.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "There is a white scribble glitch at the outer corner of the eye.",
+   "where": "eye, upper left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/hide_boat.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Power lines run over the 1011 channel.",
+   "where": "top of frame",
+   "second_reader": "new"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/kiling_palm.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two forearms come up from the bottom but join into one palm: one hand with two wrists.",
+   "where": "bottom centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/lamp_mangrove.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn with child proportions and brown hair; his lowered hand is a fingerless fist blob.",
+   "where": "Indio, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/shadow_water.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "A stranger in a wide-brimmed hat stands at the water, but the script says no one stands above the shadow.",
+   "where": "figure at the water",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/usman_ears.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright ears instead of one folded ear.",
+   "where": "dog's head",
+   "second_reader": "new"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    0,
+    50
+   ],
+   "still": "full/hologram_open.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Indio's raised hand is a mitten: the fingers are fused into one lump.",
+   "where": "raised hand, centre right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    0,
+    50
+   ],
+   "still": "full/hologram_open.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "The forearm tattoo is a black, realistic, face-like blob, not indigo geometric lines.",
+   "where": "forearm",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    0,
+    50
+   ],
+   "still": "full/hologram_open.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A letter-like 'G' glyph shows on the hologram panel.",
+   "where": "hologram, upper area",
+   "second_reader": "new"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/holo_kakampi.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A letter-like 'LL' glyph is on the hologram card.",
+   "where": "upper left of the card",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/holo_sign.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The face is see-through: forest and water show through it, the mouth is drawn twice, and the head is bald and grey with no hair or headband.",
+   "where": "the face, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/usman_tilt.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears upright and a white blaze on his forehead.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/indio_unsure.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has short hair with no topknot.",
+   "where": "Indio's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/m_holo.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "M's raised hand has only four digits: one finger is missing.",
+   "where": "M's raised hand, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/dawn_three.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has light-brown hair, Indio has brown hair and an olive hoodie, and Usman is fluffy with two upright ears and a purple collar, with no red kerchief.",
+   "where": "all three figures",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/return_light.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a fluffy wolf-like dog with two upright ears, a dark collar instead of the red kerchief, no white chest and blank white eyes.",
+   "where": "dog, lower right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/return_light.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a t-shirt, shorts and sneakers in a period scene.",
+   "where": "Indio, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/notebook_laguna.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "An unclear long stick stands in a copper dish on the notebook.",
+   "where": "centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/m_ominous.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The shop signs carry letter-like marks.",
+   "where": "left and right signs",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "chars/indio_point_modern on plates/school_gate",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks are printed on the red handkerchief on Indio's wrist.",
+   "where": "Indio's right wrist",
+   "second_reader": "new"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/indio_question_phone.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has blue-grey eyes, a goatee and paler skin than in the other modern shots.",
+   "where": "face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/walk_city.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has brown hair instead of long black hair.",
+   "where": "M, right figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/walk_city.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The shop signs carry gibberish letters.",
+   "where": "shop signs, left and right",
+   "second_reader": "new"
+  },
+  {
+   "key": "k90",
+   "shots": [
+    22
+   ],
+   "still": "full/balangay_sail.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The rowers' faces are smeared: a blank white eye on the blue-shirt rower, a smudged eye on the yellow-shirt rower, and fuzzy mouths.",
+   "where": "rowers, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k90",
+   "shots": [
+    22
+   ],
+   "still": "full/balangay_sail.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The rowers of 1011 wear modern t-shirts and polo shirts.",
+   "where": "rowers",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    50
+   ],
+   "still": "full/holo_full.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A second ghost arm with a pointing hand shows through the hologram beside the hand that holds it.",
+   "where": "hologram, upper right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    50
+   ],
+   "still": "full/holo_full.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a blue collared shirt and has no topknot.",
+   "where": "Indio, from behind",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    50
+   ],
+   "still": "full/holo_full.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram panel carries letter-like labels ('EAI', 'bБ', 'ID').",
+   "where": "hologram panel, middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k95",
+   "shots": [],
+   "still": "full/flood.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 1011 channel is lined with corrugated tin roofs, power lines and plastic buckets.",
+   "where": "both banks",
+   "second_reader": "new"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    22
+   ],
+   "still": "full/jars_cargo.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Three arms reach in from the right edge and the hands tangle: the middle hand's fingers wrap the stick from both sides, and the lowest hand melts into the rope.",
+   "where": "lower right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    22
+   ],
+   "still": "full/jars_cargo.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The cargo jars have modern steel screw rims.",
+   "where": "jars, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k100",
+   "shots": [
+    44
+   ],
+   "still": "full/anito_shrine.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A band of letter-like marks runs around the altar top.",
+   "where": "altar, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k100",
+   "shots": [
+    44
+   ],
+   "still": "full/anito_shrine.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The 1011 villagers wear modern t-shirts, a polo shirt and caps.",
+   "where": "villagers around the altar",
+   "second_reader": "new"
+  },
+  {
+   "key": "k101",
+   "shots": [
+    44
+   ],
+   "still": "full/lens_story.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The shrine's big disc shows a headless animal with legs fused to a ball, ringed by letter-like writing.",
+   "where": "disc, centre of lens",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k102",
+   "shots": [
+    29
+   ],
+   "still": "full/two_dig.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A printed logo patch is on Indio's tunic.",
+   "where": "Indio's chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k103",
+   "shots": [
+    45
+   ],
+   "still": "full/indio_kneel_light.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears white sneakers in 1011.",
+   "where": "feet, bottom",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k103",
+   "shots": [
+    45
+   ],
+   "still": "full/indio_kneel_light.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Power lines and hanging electric bulbs light the 1011 channel houses.",
+   "where": "background, both sides",
+   "second_reader": "new"
+  },
+  {
+   "key": "k106",
+   "shots": [
+    10
+   ],
+   "still": "full/star_hold.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Close-up Indio is a pale, brown-haired boy with grey-violet eyes and no topknot.",
+   "where": "whole face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k107",
+   "shots": [
+    61
+   ],
+   "still": "full/golden_tara.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The gold statue has a flat white anime face instead of a gold one.",
+   "where": "statue face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k108",
+   "shots": [
+    59
+   ],
+   "still": "full/gold_seekers_1976.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The left digger's foot ends in a shovel blade instead of a boot.",
+   "where": "lower left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k108",
+   "shots": [
+    59
+   ],
+   "still": "full/gold_seekers_1976.jpg",
+   "type": "duplicate",
+   "must_fix": false,
+   "what": "Two near-identical men in yellow shirts and blue shorts.",
+   "where": "centre and right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k109",
+   "shots": [],
+   "still": "full/ferry_night.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "An animal stands on the ferry deck though the scene has no animals, and the gate carries a letter-like word.",
+   "where": "ferry deck, right",
+   "second_reader": "new"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k42",
+   "what": "The medallion is a small crescent disc, not the bronze sun medallion.",
+   "why": "The shot's prompt asks for a medallion engraved with a crescent moon (M's own medallion), so a small crescent disc is what was ordered, not a fault."
+  },
+  {
+   "key": "k102",
+   "what": "M's nearer hand on the plank has curled fingers webbed into a lump.",
+   "why": "At 3x both of M's hands on and beside the plank show a thumb and four separate fingers; the curl is a natural grip, nothing is webbed."
+  }
+ ]
+}
