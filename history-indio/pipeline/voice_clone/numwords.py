@@ -26,6 +26,9 @@ for v, ws in {20: ('bente', 'beinte', 'veinte', 'twenty', 'dalawampu'), 30: ('tr
               60: ('sesenta', 'sisenta', 'sixty', 'animnapu'), 70: ('setenta', 'sitenta', 'seventy', 'pitumpu'), 80: ('otsenta', 'ochenta', 'eighty', 'walumpu'),
               90: ('nobenta', 'nubenta', 'noventa', 'ninety', 'siyamnapu')}.items():
     for w in ws: TENS[w] = v
+for w, v in list(TENS.items()):                                                         # plural decades: "sesentas" (the sixties), "sixties"
+    if w.endswith('y'): TENS[w[:-1] + 'ies'] = v
+    elif not w.endswith('pu'): TENS[w + 's'] = v
 HUND = {}
 for v, ws in {100: ('siyento', 'syento', 'siento', 'ciento'), 200: ('dosyentos', 'dosientos', 'doscientos'), 300: ('tresyentos', 'tresientos', 'trescientos'),
               400: ('kuwatrosyentos', 'kwatrosyentos', 'cuatrocientos'), 500: ('kinyentos', 'quinientos'),
@@ -214,6 +217,11 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("eighteen ninety-eight at nineteen nineteen", "1898 at 1919", [1898, 1919], True), ("nineteen nineteen", "1990", [1919], False),
     ("talata isa hanggang siyam", "Talata 1-Siam", [1, 9], True), ("talata isa hanggang siyam", "Talata 1-Sham", [1, 9], True),
     ("talata isa hanggang siyam", "Talata 1-8", [1, 9], False),
+    # plural decades (Episode 27)
+    ("noong mil nobesyentos sesentas", "noong 1960s", [1960], True), ("noong mil nobesyentos sesentas", "noong 1900", [1960], False),
+    ("noong dekada sisenta", "noong dekada 60", [60], True), ("noong dekada sitenta", "noong 70s", [70], True),
+    ("noong dekada otsenta", "noong dekada '80", [80], True), ("the nineteen sixties", "the 1960s", [1960], True),
+    ("noong mil nobesyentos nobentas", "noong 1990s", [1990], True), ("mga setentas", "mga 70s", [70], True),
     ("mahigit dalawang libong metro ang taas", "mahigit 2000 metro ang taas", [2000], True), ("libu-libo na sila", "libu-libo na sila", [], True),
 ]
 

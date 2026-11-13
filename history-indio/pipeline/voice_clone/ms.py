@@ -181,16 +181,23 @@ def assemble(work, outp):
     import soundfile as sf, librosa, scipy.signal as sg, vqc
     P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')); S = P['sentences']
     LEVEL, LDEF = VP.PROFILE['level_db'], VP.PROFILE['level_default_db']; TARGET, TP_MAX = VP.PROFILE['target_lufs'], -1.2; SR = 48000
-    segs = []; tim = {}; rows = []
+    import leadtrim
+    segs = []; tim = {}; rows = []; ntrim = 0
     for c in P['chunks']:
         ch = CH.get(str(c['id']))
         if not ch: sys.exit('chunk %d has no take: run gen_ms.py and ms.py qc first' % c['id'])
         m = json.load(open(ch['wav'][:-4] + '.json')); y, sr = sf.read(ch['wav'], dtype='float32'); assert sr == SR
         W = m['words']; st = max(0.0, min(W[0][1] - 0.04, m.get('onset', 9) - 0.03)); en = min(len(y) / sr, max(W[-1][2] + 0.12, m.get('offset', 0) + 0.08))   # energy edges: the aligner starts exclamations late
-        if W[0][1] - st > 0.04:   # stray syllable glued to the first word (continuation prompt): trim to just before the first aligned word, kept only if the recogniser then hears the script's first word
+        st0, en0 = st, en
+        listen = lambda clip: vqc.asr(vqc.load16(clip, sr))
+        heard_ok = lambda t, h, h0: vqc.first_ok(t, h) and vqc.cmatch(t, h) >= vqc.cmatch(t, h0) and vqc.edits(t, h) <= vqc.edits(t, h0)
+        st, en, note = leadtrim.trim(y, sr, st, en, W, c['text'], listen, heard_ok)   # stray syllable / noise before the first or after the last word, cut at the dip
+        if note: ntrim += 1; print('trim c%03d %-8s %s' % (c['id'], c['speaker'][:8], note), flush=True)
+        if st == st0 and W[0][1] - st > 0.04:   # stray syllable glued to the first word (continuation prompt): trim to just before the first aligned word, kept only if the recogniser then hears the script's first word
             st2 = max(0.0, W[0][1] - 0.03); h2 = vqc.asr(vqc.load16(y[int(st2 * sr):int(en * sr)], sr))
             if vqc.first_ok(c['text'], h2): print('trim lead c%03d %.2f -> %.2f | %s' % (c['id'], st, st2, h2[:40])); st = st2
         seg = y[int(st * sr):int(en * sr)].copy(); k = 1.0
+        if st != st0: seg = leadtrim.fade_in(seg, sr)
         if m['rate'] > 6.9:
             k = 6.3 / m['rate']; seg = ff(seg, sr, f'rubberband=tempo={k:.4f}:pitchq=quality:formant=preserved')
         body = seg[int(0.04 * sr):len(seg) - int(0.12 * sr)]; g = float(np.clip(LEVEL.get(c['style'], LDEF) - vqc.rms_db(body), -12, 12)); seg *= 10 ** (g / 20)
@@ -235,6 +242,7 @@ def assemble(work, outp):
         gdb += TARGET - I; y = master(y0, gdb)
     T = [{'text': S[i]['text'], 'start': round(tim[i][0], 3), 'end': round(tim[i][1], 3), 'style': S[i]['style'], 'speaker': S[i]['speaker']} for i in sorted(tim)]
     json.dump(T, open(outp + '_timings.json', 'w'), ensure_ascii=False, indent=1)
+    print('stray-sound trims: %d of %d chunks' % (ntrim, len(rows)))
     print('chunks:', rows); print('assembled %d chunks, %d sentences, %.1f s -> %s.mp3' % (len(rows), len(T), len(y) / sr, outp))
 def verify(work, outp):
     import librosa, vqc
