@@ -1,21 +1,186 @@
-{"episode": 9, "audited_by": "render-ep07", "stills_looked_at": 84, "clean": false, "defects": [
-{"still": "full/bronze_diwa.jpg", "shots": [11], "type": "writing", "must_fix": true, "what": "The glowing bronze medallion at center has rows of pseudo-letters around its rim and on a plaque under the embossed figure."},
-{"still": "full/four_scrolls.jpg", "shots": [64], "type": "writing", "must_fix": true, "what": "Both unrolled scrolls on the left half of the table are covered in large scribbled pseudo-handwriting."},
-{"still": "full/morga_book.jpg", "shots": [72], "type": "writing", "must_fix": true, "what": "The open book filling the lower frame has both pages full of lines of pseudo-script being written with a pen."},
-{"still": "full/language_books.jpg", "shots": [74], "type": "writing", "must_fix": true, "what": "Dozens of open books and covers across the whole desk carry large pseudo-title lettering and rows of glyph text."},
-{"still": "full/map_under_lamp.jpg", "shots": [93], "type": "writing", "must_fix": true, "what": "The map under the lens has pseudo-text labels in its top corner, along the left edge and lower left."},
-{"still": "full/paris_press.jpg", "shots": [73], "type": "anatomy", "must_fix": true, "what": "The printer standing in the middle of the shop has a completely blank face with no eyes, nose or mouth."},
-{"still": "full/paris_press.jpg", "shots": [73], "type": "writing", "must_fix": false, "what": "The pamphlet stack at bottom left and the stacks on the shelves show pseudo-title lettering."},
-{"still": "full/jump_vortex.jpg", "shots": [91], "type": "off_model", "must_fix": true, "what": "The boy jumping into the time vortex at center has a green t-shirt and messy brown hair with no topknot, red headband or medallion, and the dog beside the girl has no red kerchief."},
-{"still": "full/kasulatan_drawn.jpg", "shots": [17], "type": "writing", "must_fix": false, "what": "A paper in the top-right corner shows large letters like 'E' and 'H'."},
-{"still": "full/hands_map.jpg", "shots": [16], "type": "writing", "must_fix": false, "what": "Small pseudo-letters appear on the map at the top left corner and right edge near the second magnifier."},
-{"still": "full/philip_coins.jpg", "shots": [31], "type": "writing", "must_fix": false, "what": "The silver coins in the open palm are stamped with modern-looking glyphs like '0' and 'J'."},
-{"still": "full/m_profile.jpg", "shots": [80], "type": "logo", "must_fix": false, "what": "A rounded screen or UI-frame corner sticks into the bottom-left edge of the picture."},
-{"still": "full/qc_school.jpg", "shots": [77], "type": "flag", "must_fix": false, "what": "The flagpole on the Quezon City school roof flies a plain red pennant instead of the Philippine flag."},
-{"still": "full/m_hush.jpg", "shots": [23], "type": "off_model", "must_fix": false, "what": "The black dog beside M has no red kerchief, both ears flopped, and a white tag-like disc in place of the chest patch."},
-{"still": "full/usman_grin.jpg", "shots": [61], "type": "off_model", "must_fix": false, "what": "Usman's close-up shows both ears standing straight up instead of one folded ear."},
-{"still": "full/sit_rocks.jpg", "shots": [24], "type": "off_model", "must_fix": false, "what": "The boy in the red headband seen from behind has reddish-brown hair with no topknot, and the dog has no red kerchief."},
-{"still": "full/edge_three.jpg", "shots": [25], "type": "off_model", "must_fix": false, "what": "Indio seen from behind has brown hair with no topknot, and the dog wears a red harness instead of a kerchief."},
-{"still": "full/m_dark_twoshot.jpg", "shots": [58], "type": "off_model", "must_fix": false, "what": "Indio wears a brown zip jacket, belt and jeans instead of his cloak or one of his set outfits, and no medallion shows."},
-{"still": "full/walk_shore.jpg", "shots": [92], "type": "off_model", "must_fix": false, "what": "Indio walking away on the shore has loose brown hair with no topknot or red headband."}
-]}
+{
+ "episode": 9,
+ "audited_by": "render-ep07",
+ "stills_looked_at": 84,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/bronze_diwa.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The glowing bronze medallion at center has rows of pseudo-letters around its rim and on a plaque under the embossed figure.",
+   "fixed": true
+  },
+  {
+   "still": "full/four_scrolls.jpg",
+   "shots": [
+    64
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Both unrolled scrolls on the left half of the table are covered in large scribbled pseudo-handwriting.",
+   "fixed": true
+  },
+  {
+   "still": "full/morga_book.jpg",
+   "shots": [
+    72
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open book filling the lower frame has both pages full of lines of pseudo-script being written with a pen.",
+   "rejected": "not redrawn: the image service answered HTTP 504 on every try (8 rounds over 1.5 h); original kept"
+  },
+  {
+   "still": "full/language_books.jpg",
+   "shots": [
+    74
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Dozens of open books and covers across the whole desk carry large pseudo-title lettering and rows of glyph text.",
+   "rejected": "not redrawn: the image service answered HTTP 504 on every try (8 rounds over 1.5 h); original kept"
+  },
+  {
+   "still": "full/map_under_lamp.jpg",
+   "shots": [
+    93
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The map under the lens has pseudo-text labels in its top corner, along the left edge and lower left.",
+   "fixed": true
+  },
+  {
+   "still": "full/paris_press.jpg",
+   "shots": [
+    73
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The printer standing in the middle of the shop has a completely blank face with no eyes, nose or mouth.",
+   "fixed": true
+  },
+  {
+   "still": "full/paris_press.jpg",
+   "shots": [
+    73
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The pamphlet stack at bottom left and the stacks on the shelves show pseudo-title lettering."
+  },
+  {
+   "still": "full/jump_vortex.jpg",
+   "shots": [
+    91
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The boy jumping into the time vortex at center has a green t-shirt and messy brown hair with no topknot, red headband or medallion, and the dog beside the girl has no red kerchief.",
+   "fixed": true
+  },
+  {
+   "still": "full/kasulatan_drawn.jpg",
+   "shots": [
+    17
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A paper in the top-right corner shows large letters like 'E' and 'H'."
+  },
+  {
+   "still": "full/hands_map.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small pseudo-letters appear on the map at the top left corner and right edge near the second magnifier."
+  },
+  {
+   "still": "full/philip_coins.jpg",
+   "shots": [
+    31
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The silver coins in the open palm are stamped with modern-looking glyphs like '0' and 'J'."
+  },
+  {
+   "still": "full/m_profile.jpg",
+   "shots": [
+    80
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A rounded screen or UI-frame corner sticks into the bottom-left edge of the picture."
+  },
+  {
+   "still": "full/qc_school.jpg",
+   "shots": [
+    77
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "The flagpole on the Quezon City school roof flies a plain red pennant instead of the Philippine flag."
+  },
+  {
+   "still": "full/m_hush.jpg",
+   "shots": [
+    23
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The black dog beside M has no red kerchief, both ears flopped, and a white tag-like disc in place of the chest patch."
+  },
+  {
+   "still": "full/usman_grin.jpg",
+   "shots": [
+    61
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's close-up shows both ears standing straight up instead of one folded ear."
+  },
+  {
+   "still": "full/sit_rocks.jpg",
+   "shots": [
+    24
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy in the red headband seen from behind has reddish-brown hair with no topknot, and the dog has no red kerchief."
+  },
+  {
+   "still": "full/edge_three.jpg",
+   "shots": [
+    25
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio seen from behind has brown hair with no topknot, and the dog wears a red harness instead of a kerchief."
+  },
+  {
+   "still": "full/m_dark_twoshot.jpg",
+   "shots": [
+    58
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a brown zip jacket, belt and jeans instead of his cloak or one of his set outfits, and no medallion shows."
+  },
+  {
+   "still": "full/walk_shore.jpg",
+   "shots": [
+    92
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio walking away on the shore has loose brown hair with no topknot or red headband."
+  }
+ ]
+}
