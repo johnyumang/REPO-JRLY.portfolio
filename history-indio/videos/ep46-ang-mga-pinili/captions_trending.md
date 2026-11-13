@@ -13,5 +13,7 @@ at ang hawakan ng isang pulang payong. 🕯️
 
 S5 EP 46: Ang Mga Pinili
 
+Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan, ang mga arko, ang mga dike at ang mga kontrata.
+
 ## TikTok
-may mga pumipili ng liwanag. may mga pumipili ng katotohanan. may mga pumipili ng pag-ibig kahit bawal. 🕯️ #HistoryIndio
+may mga pumipili ng liwanag. may mga pumipili ng katotohanan. may mga pumipili ng pag-ibig kahit bawal. 🕯️ Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan, ang mga arko, ang mga dike at ang mga kontrata. #HistoryIndio
