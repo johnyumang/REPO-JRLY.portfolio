@@ -1,0 +1,170 @@
+{
+ "episode": 36,
+ "audited_by": "ep34-render",
+ "stills_looked_at": 63,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/baguio_flag.jpg",
+   "shots": [
+    56
+   ],
+   "type": "flag",
+   "must_fix": true,
+   "what": "The folded flag under glass is green, red and beige with no white triangle, sun or stars: not a Philippine flag, though the line is about the Baguio flag."
+  },
+  {
+   "still": "full/logbook.jpg",
+   "shots": [
+    90
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The whole open logbook page is filled with rows of fake glyphs and numbers."
+  },
+  {
+   "still": "full/morrison_marker.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The marker plaque beside Indio is covered in rows of fake glyphs, and there is a glyph sign on the street behind."
+  },
+  {
+   "still": "full/read_aloud.jpg",
+   "shots": [
+    12
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The plaque Indio holds in the center of the frame shows a fake glyph title and rows of pseudo-text."
+  },
+  {
+   "still": "full/bea_phone.jpg",
+   "shots": [
+    19
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The schedule sheet on the phone screen has a glyph header and rows of fake text."
+  },
+  {
+   "still": "full/leave_desk.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper in the desk tray and the whiteboard behind Indio both carry rows of fake glyphs."
+  },
+  {
+   "still": "full/biak_sepia.jpg",
+   "shots": [
+    55
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The still is two stacked panels: a ship at sea above, men in white suits on a deck below."
+  },
+  {
+   "still": "full/indio_across.jpg",
+   "shots": [
+    17
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Split into two panels (a lit window above, the man in a red headband below), with '1898' written on the doorframe."
+  },
+  {
+   "still": "full/teashop_room.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The walls of the Hong Kong room are covered in posters and a scroll with fake glyphs."
+  },
+  {
+   "still": "full/wake_alone.jpg",
+   "shots": [
+    45
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A red scroll with glyphs hangs on the wall at the right."
+  },
+  {
+   "still": "full/window_1898.jpg",
+   "shots": [
+    13
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hanging shop sign over the street shows glyphs."
+  },
+  {
+   "still": "full/airport_home.jpg",
+   "shots": [
+    47
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "A small red sign with glyphs at the top left of a Manila arrivals hall."
+  },
+  {
+   "still": "full/indio_line_cu.jpg",
+   "shots": [
+    1
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The passport and boarding pass in Indio's hand carry glyph text."
+  },
+  {
+   "still": "full/calendar_week.jpg",
+   "shots": [
+    60
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The papers on the desk show scribbled pseudo-handwriting."
+  },
+  {
+   "still": "full/jm_garage.jpg",
+   "shots": [
+    46
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open notebook the mechanic points at has scribbled lines, and a number shows on the wall sign."
+  },
+  {
+   "still": "full/law_book.jpg",
+   "shots": [
+    57
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The framed picture on the shelf has a small glyph caption."
+  },
+  {
+   "still": "full/lola_call.jpg",
+   "shots": [
+    40
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "The picture sits inside a black rounded frame (a video-call window); a border inside the frame."
+  },
+  {
+   "still": "full/usman_growl.jpg",
+   "shots": [
+    53
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears up and pointed, not one folded ear."
+  }
+ ]
+}

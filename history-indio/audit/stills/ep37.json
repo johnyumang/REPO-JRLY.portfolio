@@ -1,0 +1,179 @@
+{
+ "episode": 37,
+ "audited_by": "ep34-render",
+ "stills_looked_at": 68,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/copper_cu.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The copper plate is covered in vertical columns of CJK-like glyphs, not the horizontal Kawi lines of the Laguna Copperplate; it fills the frame."
+  },
+  {
+   "still": "full/proverb_mind.jpg",
+   "shots": [
+    34
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Both pages of the open book are dense pseudo-text, with a glyph heading."
+  },
+  {
+   "still": "full/bank_box.jpg",
+   "shots": [
+    20
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bank records in the open box and on the table are forms full of rows of fake text."
+  },
+  {
+   "still": "full/tiyak_records.jpg",
+   "shots": [
+    39
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The thick binder beside Indio shows a form with a glyph header and rows of pseudo-text."
+  },
+  {
+   "still": "full/gorio_gavel.jpg",
+   "shots": [
+    32
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The senators' desk name plates carry CJK-like glyphs, the front one large next to Gorio, in a Philippine Senate hall."
+  },
+  {
+   "still": "full/three_items.jpg",
+   "shots": [
+    3
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The card on the desk has a glyph title and coloured rows of fake text, and the ledgers show pseudo-writing."
+  },
+  {
+   "still": "full/bea_celia.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The papers Bea highlights and the corkboard notes show lines of pseudo-text."
+  },
+  {
+   "still": "full/jm_log.jpg",
+   "shots": [
+    19
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The garage logbook the mechanic holds has a glyph header row."
+  },
+  {
+   "still": "full/tiyak_saln.jpg",
+   "shots": [
+    41
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Red stamp marks with glyphs on the papers in Indio's hand and on the desk."
+  },
+  {
+   "still": "full/tinig_phones.jpg",
+   "shots": [
+    47
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The destination sign at the front of the jeepney/bus shows glyphs."
+  },
+  {
+   "still": "full/nesto_bea.jpg",
+   "shots": [
+    24
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Wall posters and screens behind Nesto and Bea show glyph text."
+  },
+  {
+   "still": "full/marks_glow.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Blurred signs with glyphs in the background at the right."
+  },
+  {
+   "still": "full/pillar_hide.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A shop sign in the car park reads like 'YHE3' at the left."
+  },
+  {
+   "still": "full/kalakal_glow.jpg",
+   "shots": [
+    29
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small glyphs on the base of the scales on the glowing medallion."
+  },
+  {
+   "still": "full/m_heard.jpg",
+   "shots": [
+    55
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small sign on the back wall shows scribbled letters."
+  },
+  {
+   "still": "full/face_melt.jpg",
+   "shots": [
+    31
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame."
+  },
+  {
+   "still": "full/handover.jpg",
+   "shots": [
+    11
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "Black bands at the top and bottom: the picture is letterboxed inside the frame."
+  },
+  {
+   "still": "full/lola_ladle.jpg",
+   "shots": [
+    54
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "A black band at the top: the picture is letterboxed inside the frame."
+  },
+  {
+   "still": "full/usman_growl.jpg",
+   "shots": [
+    56
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pointed up, not one folded ear."
+  }
+ ]
+}
