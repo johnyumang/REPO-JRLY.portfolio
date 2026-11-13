@@ -138,6 +138,36 @@ story either side (splice re-levels the break to the story and prints `level che
 Last, the page: `pipeline/episode_page/make_page.py videos/<slug> <final>.mp4 <scratchpad>/page` and ONE private publish
 (4 files). Audio, video and keys never go into the repository.
 
+## Sentences cut from a narration (`videos/<slug>/narration_cuts.json`): the ONE rule
+Ruling of 13 Nov: the video no longer says the story is fiction; the caption and the pinned comment do. Each episode's
+`narration_cuts.json` names the sentences to leave out (`cut`), the ones to keep (`keep_with_the_word`) and, for
+Episodes 31 and 49, one new line to record (`revoice`).
+
+**Nobody renumbers anything.** `sentences.json`, `key_prompts.json`, `shots_fx.json`, `trivia_break.json` and the key
+files keep the ORIGINAL sentence numbers for ever. Only the narration and `timings.json` lose the cut sentences.
+`build_anime.py` asks `pipeline/narration_cuts.py` which original number each line of `timings.json` has and takes that
+number's key and `shots_fx` entry; it stops when `timings.json` fits neither the full nor the cut narration, or when a
+line's words are not those of its sentence. Check an episode by hand: `pipeline/narration_cuts.py videos/<slug>`.
+
+The narration, one of two ways (never by hand in an editor):
+- **(a) from the takes** (multi-voice episodes whose takes are on the machine, the cut sentence alone in its chunk or chunks):
+  `ms.py assemble $W $W/voice --cut 61,62` (the numbers under `cut` in the cut file), then `ms.py verify`. Copy
+  `$W/voice_timings.json` to `videos/<slug>/timings.json`. It stops when a cut sentence shares a chunk with a kept one:
+  then use (b).
+- **(b) from the finished file** (Season 1 layout, or a cut sentence that shares a chunk with a kept one):
+  `pipeline/cut_narration.py videos/<slug> <full voice.wav> <new voice.wav> --write`. It cuts at the quiet points around
+  the sentence, leaves a natural pause, refuses a join that is not quiet (under 8 dB below the speech around it), writes
+  the shifted timings (`--write` puts them in `videos/<slug>/timings.json`, the full ones stay as `timings_full.json`) and
+  prints where to listen. `cut_narration.py --self-test` proves the tool on a made voice.
+- **A `revoice` line REPLACES the cut sentence it follows** (same number, same picture, new words): record the new words
+  as that sentence's chunk and assemble as usual; nothing is cut for it and the count does not change. `timings.json`
+  then carries the new words at that number, which the builder accepts.
+
+After either way: `pipeline/narration_cuts.py videos/<slug>` must print `narration cuts applied`, and the build log must
+print the same line. The trivia break finds its place by the words of its sentence (`after_text`), so it needs no change.
+`shots_fx_full.json` beside an episode means an old tool (`apply_cuts.py`, removed) renumbered `shots_fx.json`: move
+`shots_fx_full.json` back over `shots_fx.json` before the build.
+
 ## Limits
 - It measures clarity and similarity, NOT naturalness: a take can pass every check and still sound flat, oddly
   stressed or not like Indio's attitude. **The user's ear is the final check**; send the user a short test before a full

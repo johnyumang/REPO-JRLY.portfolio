@@ -136,15 +136,17 @@ def frame_tail(fr, mx, my, s, t, fx, seed, aura):
     return np.clip(fr, 0, 255).astype(np.uint8)
 
 paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 200))]
+import narration_cuts                                                                       # sentences cut from the narration: their shots go too; NOTHING is renumbered
+SRC, _note = narration_cuts.source_index(vdir, tim)                                         # timings index -> original sentence number (its key and shots_fx entry)
+if _note: print(_note, flush=True)
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
-    oi = s.get('idx', i)                                                                     # narration cuts: the sentence's original index keeps its shot and effects
-    cfg = FX.get(str(oi), {}); mv = cfg.get('move', MOVES[oi % len(MOVES)]); fx = list(cfg.get('fx', []))
+    cfg = FX.get(str(SRC[i]), {}); mv = cfg.get('move', MOVES[SRC[i] % len(MOVES)]); fx = list(cfg.get('fx', []))
     if 'punch' in fx or 'shake' in fx: fx += [f for f in ('speedlines', 'impact') if f not in fx]      # action beats get the full anime treatment
     if cfg.get('depth') == 'strong' or mv in depth3d.MOVES3D:                                # 3D perspective (opt-in): layered depth camera, see depth3d.py
         fx += ['3d'] + (['dof:' + cfg['dof']] if cfg.get('dof') in ('far', 'near') else []) + (['rack:far'] if cfg.get('focus_to') == 'far' else [])
-    i = cfg.get('key', oi)                                                                   # reuse another line's keyframe
+    i = cfg.get('key', SRC[i])                                                               # reuse another line's keyframe
     if cfg.get('clip'):                                                                      # a ready-made moving clip (e.g. a Blender action shot) plays for this line
         shots.append((i, start, end, 'hold', fx, 1.0, (0.5, 0.5), os.path.join(vdir, cfg['clip']))); continue
     if cfg.get('keys'):                                                                      # montage: several keyframes inside one line (cold open)
