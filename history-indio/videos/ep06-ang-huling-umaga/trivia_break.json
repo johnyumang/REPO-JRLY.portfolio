@@ -1,8 +1,8 @@
 {
- "fact_id": "t33",
- "fact_english": "The jade vine, native to the Philippines, has turquoise-blue flowers, a colour very rare in plants, and is pollinated by bats.",
- "label_onscreen": "JADE VINE",
- "source_onscreen": "Pinagmulan: Wikipedia; University of Bristol news",
+ "fact_id": "t25",
+ "fact_english": "The Philippine mouse-deer of Balabac is not a true deer; it is a chevrotain, from a separate family of small hoofed animals.",
+ "label_onscreen": "PILANDOK",
+ "source_onscreen": "Pinagmulan: Mammal Diversity Database",
  "lines": [
   {
    "speaker": "USMAN",
@@ -13,16 +13,16 @@
   },
   {
    "speaker": "INDIO",
-   "text": "May baging sa Pilipinas, ang jade vine, na kulay turkesa ang bulaklak. Bihirang kulay iyan sa halaman.",
+   "text": "Ang pilandok ng Balabac, mukhang maliit na usa, pero hindi pala usa!",
    "emphasis": [
-    "turkesa"
+    "pilandok"
    ]
   },
   {
    "speaker": "USMAN",
-   "text": "At paniki ang dumadalaw sa bulaklak niya sa gabi. Tahimik na trabaho.",
+   "text": "Chevrotain siya, ibang pamilya ng maliliit na hayop na may kuko. Maliit, pero may sariling angkan.",
    "emphasis": [
-    "paniki"
+    "chevrotain"
    ]
   },
   {
@@ -38,5 +38,5 @@
  "insert_time": 60.98,
  "palette": "leaf",
  "grave": true,
- "why_here": "After the reveal that Pepe is now thirty-five, before the procedure of the execution begins; never inside it. Grave episode: gentle nature fact and a mild joke."
+ "why_here": "After the reveal that Pepe is now thirty-five, before the procedure of the execution begins; never inside it. Grave episode: gentle nature fact (swapped from the jade vine to the pilandok after the central check) and a mild joke."
 }
