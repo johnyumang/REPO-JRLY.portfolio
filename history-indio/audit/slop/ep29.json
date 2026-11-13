@@ -32,10 +32,12 @@
    "what": "Two black dogs walk down the stairs where there is only Usman.",
    "where": "centre stairs, one dog ahead and one beside Lolo",
    "second_reader": "confirmed",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Backs to us, small, going down endless stone stairs into darkness: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists"
+   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model (flux-3, 30 steps), chosen from 18 draws in three rounds; seed 2934, round 3. Changed: one dog only, described with the series dog string plus the ear/face sentence; Indio in the episode's grey t-shirt, blue jeans and topknot (no brown jacket); Lolo in a pale green polo and brown trousers with hands in his pockets; side view of the three walking down in single file (dog leading, Indio with a flashlight, Lolo behind) so the descent reads clearly. Rounds 1-2 (seen from behind) read as climbing up, and the dog turned its face to camera over a back view or showed white on its back. Checked at 3x: exactly one dog, four legs (three visible, one hidden) and one tail, left ear up and right ear folded, all-black face, white only on the chest, red kerchief; Indio's flashlight hand and pocket hand clean; Lolo's hands in pockets, face clean; no duplicate figures; sits with cave_mouth, usman_proud and lolo_laugh."
   },
   {
    "key": "k06",
@@ -48,10 +50,12 @@
    "what": "Indio wears a brown jacket and has short brown hair with no topknot.",
    "where": "centre-left figure on the stairs",
    "second_reader": "confirmed",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Backs to us, small, going down endless stone stairs into darkness: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists"
+   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists",
+   "fixed": true,
+   "fix_note": "Redrawn on the free full-quality model (flux-3, 30 steps), chosen from 18 draws in three rounds; seed 2934, round 3. Changed: one dog only, described with the series dog string plus the ear/face sentence; Indio in the episode's grey t-shirt, blue jeans and topknot (no brown jacket); Lolo in a pale green polo and brown trousers with hands in his pockets; side view of the three walking down in single file (dog leading, Indio with a flashlight, Lolo behind) so the descent reads clearly. Rounds 1-2 (seen from behind) read as climbing up, and the dog turned its face to camera over a back view or showed white on its back. Checked at 3x: exactly one dog, four legs (three visible, one hidden) and one tail, left ear up and right ear folded, all-black face, white only on the chest, red kerchief; Indio's flashlight hand and pocket hand clean; Lolo's hands in pockets, face clean; no duplicate figures; sits with cave_mouth, usman_proud and lolo_laugh."
   },
   {
    "key": "k12",
