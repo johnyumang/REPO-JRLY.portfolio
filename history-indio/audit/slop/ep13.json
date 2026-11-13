@@ -18,7 +18,8 @@
    "second_reader": "confirmed (at least five arms visible at 3x; extra-limbs defect is real, must_fix correct)",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k45",
@@ -33,7 +34,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k14",
@@ -48,7 +50,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k101",
@@ -63,7 +66,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k28",
@@ -78,7 +82,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 3
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k26",
@@ -93,7 +98,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k23",
@@ -108,7 +114,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k47",
@@ -123,7 +130,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k25",
@@ -296,7 +304,8 @@
    "second_reader": "added",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k05",
