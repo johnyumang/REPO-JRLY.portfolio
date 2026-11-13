@@ -60,6 +60,9 @@ An off-model Indio, Usman or M comes from the prompt, not from bad luck: each ep
 
 ### Usman's ears (13 Nov)
 The cast string's "one folded ear" alone often draws two upright or two folded ears. When a still with Usman is redrawn,
-add the sentence `usman_ears_clause` of `characters/series_cast.json` right after the usman string: left ear upright, only
-the RIGHT ear folded, face all black, the white patch only on the chest. Do not redraw a still only for which ear is
-folded: redraw when both ears are up, both are folded, or the face has white on it.
+add the sentence `usman_ears_clause` of `characters/series_cast.json` right after the usman string: "The dog's left ear
+stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it,
+the white patch is only on the dog's chest." Every part must name THE DOG: the first wording ("his face is all black")
+painted Indio's face black when he stood close to the dog (Episode 35), and one draw put the dog's head on his body.
+After any redraw with Usman, look at every human face at 3x. Do not redraw a still only for which ear is folded:
+redraw when both ears are up, both are folded, or the face has white on it.
