@@ -52,7 +52,6 @@
   "pabitin_list": "A playful collage at night: a black dog covering his eyes with a paw, a shadow leaping out of darkness, an old grandmother arriving with a tray. Detailed background, no text, no letters, no numbers, no signs.",
   "usman_eyes": "a black Philippine street dog with a white chest patch, one folded ear and a red kerchief covering his eyes with one paw, embarrassed, in a riverside town of the year one thousand. Detailed background, no text, no letters, no numbers, no signs.",
   "jack_dark": "A tall shadowy figure with glowing eyes leaping out of the darkness of a Victorian London alley at night, comic surprise. Detailed background, no text, no letters, no numbers, no signs.",
-  "lola_tray": "a very old Filipina grandmother with silver hair in a bun, a floral house dress and reading glasses arriving in a doorway in Kawit carrying a big tray of food, beaming, at the worst possible moment. Detailed background, no text, no letters, no numbers, no signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
   "no_one": "Wide shot at night: the long empty wooden pier under the moon, only a young Filipina woman with long black hair in a long dark coat and a Filipino man in his forties with a black topknot with a few grey strands, a long dark grey coat, a red handkerchief on his wrist on it, nobody else, nothing stopping them. Detailed background, no text, no letters, no numbers, no signs.",
   "safe_all": "High wide shot at night: the whole fleet of giant ships quiet under the full moon, every deck calm, lanterns glowing, the sea still. Detailed background, no text, no letters, no numbers, no signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
   "walk_pier": "Tracking shot at night: a Filipino man in his forties with a black topknot with a few grey strands, a long dark grey coat, a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat walking slowly side by side along the wooden pier under the white moon, not speaking. Detailed background, no text, no letters, no numbers, no signs.",
@@ -87,7 +86,8 @@
   "x_mist": "Morning mist over the bay, a seagull flying low over calm water. Detailed background, no text, no letters, no numbers, no signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
   "x_kerchief": "Close-up of a red kerchief on a sleeping black dog's neck, moonlight. Detailed background, no text, no letters, no numbers, no signs.",
   "x_family_hands": "Close-up of several hands of different ages resting together on a small wooden table at night. Detailed background, no text, no letters, no numbers, no signs.",
-  "x_star": "Close-up of a tiny gold star with one last light burning inside it. Detailed background, no text, no letters, no numbers, no signs. Nobody in the frame: no people, no faces, no characters, objects and places only."
+  "x_star": "Close-up of a tiny gold star with one last light burning inside it. Detailed background, no text, no letters, no numbers, no signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "usman_firecracker": "Night yard of an old house in Kawit, Cavite, with a capiz window and a mango tree, a lantern: a small harmless firecracker pops with a bright yellow spark behind the tail of a medium-sized black street dog with a white chest patch and a red kerchief, the dog leaping up surprised but unhurt, comic; a Filipino man in his forties with a black topknot with a few grey strands, a long dark grey coat, a red handkerchief on his wrist, and a young Filipina woman in a long dark coat step apart startled, laughing."
  },
  "shots": {
   "0": {
@@ -226,7 +226,7 @@
    "full": "jack_dark"
   },
   "45": {
-   "full": "lola_tray"
+   "full": "usman_firecracker"
   },
   "46": {
    "full": "no_one"
