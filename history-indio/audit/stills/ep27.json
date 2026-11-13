@@ -1,0 +1,17 @@
+{"episode": 27, "audited_by": "render-worker-ep15", "stills_looked_at": 64, "clean": false, "defects": [
+{"still": "full/mother_cu.jpg", "shots": [24], "type": "writing", "must_fix": true, "what": "A comic speech bubble reading 'HEXV' sits left of the mother's face, and the shop signs on both sides carry pseudo-text."},
+{"still": "full/rain_night_memory.jpg", "shots": [23], "type": "writing", "must_fix": true, "what": "Glowing shop signs along both sides of the rainy street, and their reflections, are full of pseudo-text glyphs."},
+{"still": "full/mother_name.jpg", "shots": [0], "type": "off_model", "must_fix": true, "what": "The young man facing the mother in the opening shot has no topknot and wears a blue button shirt and dark trousers, so he does not read as Indio."},
+{"still": "full/mother_name.jpg", "shots": [0], "type": "writing", "must_fix": false, "what": "A small handwritten scribble floats in the air beside the woman's head, just above the sea."},
+{"still": "full/holo_80.jpg", "shots": [60], "type": "writing", "must_fix": false, "what": "The top of the hologram panel shows rows of pseudo-text glyphs instead of a clean 80 percent readout."},
+{"still": "full/holo_80.jpg", "shots": [60], "type": "off_model", "must_fix": false, "what": "Indio has full sleeve tattoos on both forearms, which he does not have anywhere else."},
+{"still": "full/holo_pauwi.jpg", "shots": [40], "type": "off_model", "must_fix": false, "what": "Indio's left forearm, the one holding the hologram, is covered in a sleeve tattoo."},
+{"still": "full/samar_folk.jpg", "shots": [16, 51], "type": "writing", "must_fix": false, "what": "The open picture book in the grandmother's lap has a scribbled pseudo-text heading and text lines."},
+{"still": "full/house_sea.jpg", "shots": [22, 87, 92], "type": "anatomy", "must_fix": false, "what": "A second, look-alike woman in white sits in the right window behind the mother, so the one seated woman seems drawn twice."},
+{"still": "full/three_tables.jpg", "shots": [17], "type": "off_model", "must_fix": false, "what": "The black dog at bottom left has no red kerchief, no white chest patch and two folded ears, so it does not read as Usman."},
+{"still": "full/usman_appear.jpg", "shots": [8], "type": "off_model", "must_fix": false, "what": "Usman has both ears standing upright instead of one folded ear."},
+{"still": "full/usman_sniff_white.jpg", "shots": [10], "type": "off_model", "must_fix": false, "what": "In this close-up, Usman has both ears tall and upright instead of one folded ear."},
+{"still": "full/usman_growl_white.jpg", "shots": [50], "type": "off_model", "must_fix": false, "what": "In this front close-up, Usman has both ears upright instead of one folded ear."},
+{"still": "full/law_city.jpg", "shots": [28], "type": "anatomy", "must_fix": false, "what": "The large hand pressed to the glowing barrier in the foreground has only three fingers plus a thumb."},
+{"still": "full/mother_hug.jpg", "shots": [62, 80], "type": "anatomy", "must_fix": false, "what": "The arms in the hug are tangled: two red wrist cuffs and a spare hand on the mother's shoulder make it unclear whose arm is whose."}
+]}
