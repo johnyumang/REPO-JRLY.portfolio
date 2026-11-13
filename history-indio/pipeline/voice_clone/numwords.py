@@ -14,7 +14,7 @@ import re, difflib
 UNIT = {}
 for v, ws in {1: ('isa', 'uno', 'one'), 2: ('dalawa', 'dos', 'two'), 3: ('tatlo', 'tres', 'three'), 4: ('apat', 'kuwatro', 'kwatro', 'kuatro', 'cuatro', 'four'),
               5: ('lima', 'singko', 'sinko', 'cinco', 'five'), 6: ('anim', 'sais', 'seis', 'six'), 7: ('pito', 'siyete', 'syete', 'siete', 'seven'),
-              8: ('walo', 'otso', 'ocho', 'eight'), 9: ('siyam', 'syam', 'nuwebe', 'nueve', 'nwebe', 'nine'),
+              8: ('walo', 'otso', 'ocho', 'eight'), 9: ('siyam', 'syam', 'siam', 'sham', 'nuwebe', 'nueve', 'nwebe', 'nine'),
               10: ('sampu', 'diyes', 'dyes', 'dies', 'ten'), 11: ('onse', 'eleven', 'labingisa'), 12: ('dose', 'doce', 'twelve', 'labindalawa'),
               13: ('trese', 'trece', 'thirteen', 'labintatlo'), 14: ('katorse', 'catorce', 'fourteen', 'labingapat'), 15: ('kinse', 'quince', 'fifteen', 'labinlima'),
               16: ('disisais', 'diesiseis', 'sixteen', 'labinganim'), 17: ('disisiyete', 'disisyete', 'diesisiete', 'seventeen', 'labimpito', 'labinpito'),
@@ -71,6 +71,7 @@ def _words(t):
     t = t.replace('%', ' porsyento ').replace('-', ' ').replace('’', '').replace("'", '')
     t = re.sub(r'\b(apat|anim|siyam)\s+na\s*p([uo])', r'\1nap\2', t)                  # recogniser splits: "siyam napot" -> siyamnapot
     t = re.sub(r'\b(dalawa|tatlu|tatlo|lima|pitu|pito|walu|walo)m?\s+m?p([uo])', lambda m: {'tatlo': 'tatlu', 'pito': 'pitu', 'walo': 'walu'}.get(m[1], m[1]) + 'mp' + m[2], t)
+    t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam|syam)\s+na(raan|daan)\b', r'\1na\2', t)   # heard "siyam naraan" = 900
     out = []
     for w in re.findall(r'\d+|[a-z]+|[^\sa-z\d]', t):                                  # punctuation kept as its own token: it ends a number
         if w.startswith('alas') and len(w) > 4:                                        # clock: "alasais" = alas + sais, "alassiyete"
@@ -113,6 +114,8 @@ def _scan(t):
                 elif last == 'd' and lastd % 100 == 0 and lastd >= 100 and x < 100: cur += x
                 else: break
                 lastd = x
+            elif kind == 'u' and last == 'u' and total == 0 and 11 <= cur <= 19 and 11 <= x <= 19 and not tok[j - 1].startswith('labi'):
+                cur = cur * 100 + x                                                    # English year pair: "nineteen nineteen" -> 1919
             elif kind == 'u':
                 if last == 'd' or (last == 'u' and not (cur % 100 == 10 and tok[j - 1].startswith('labi'))): break   # "isa, dalawa": two numbers
                 cur += x
@@ -204,6 +207,11 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("libo't limandaan", "1500", [1500], True), ("mil kinyentos", "libo't limandaan", [1500], True),
     ("mil onse", "111", [1011], False), ("mil onse", "1011", [1011], True),
     ("mil kuwatrosiyentos disisiyete", "1417", [1417], True), ("mil treynta'y", "1030", [1030], True),
+    # fourth round
+    ("taong siyam na raan", "taong siyam naraan", [900], True), ("siyam na raan", "siyamnaraan", [900], True), ("limang daan", "lima nadaan", [500], True),
+    ("eighteen ninety-eight at nineteen nineteen", "1898 at 1919", [1898, 1919], True), ("nineteen nineteen", "1990", [1919], False),
+    ("talata isa hanggang siyam", "Talata 1-Siam", [1, 9], True), ("talata isa hanggang siyam", "Talata 1-Sham", [1, 9], True),
+    ("talata isa hanggang siyam", "Talata 1-8", [1, 9], False),
     ("mahigit dalawang libong metro ang taas", "mahigit 2000 metro ang taas", [2000], True), ("libu-libo na sila", "libu-libo na sila", [], True),
 ]
 
