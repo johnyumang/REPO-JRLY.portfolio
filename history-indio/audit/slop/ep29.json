@@ -588,10 +588,12 @@
    "what": "The dog on the rim has pale blue eyes, a white muzzle blaze, a white paw and both ears hanging, so it is not Usman.",
    "where": "top of frame, dog on the stone rim",
    "second_reader": "added",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Down a dark shaft: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, climbing down alone into the dark; on the rim at the top edge, one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, plain black muzzle, right ear pricked up, left ear folded over at the tip, peers after him. Single image, no panels. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "the dog kept coming out with a white face blaze, white paws or muzzle and both ears up or both hanging; try4 also a white band across its back; Indio himself on model in all four"
+   "figma_note": "the dog kept coming out with a white face blaze, white paws or muzzle and both ears up or both hanging; try4 also a white band across its back; Indio himself on model in all four",
+   "fixed": true,
+   "fix_note": "Redrawn 13 Nov on the free full-quality model (flux-3, 30 steps), chosen from 18 draws, seed 7513 (round 2). Changed: the camera is now inside the shaft looking up; Usman lies large on the stone rim at the top with his head over the edge, sad, and Indio walks alone down the steps into the dark below him, arms at his sides, head bowed; dog and man far apart. The ear fix is the forced sentence plus 'the folded right ear hangs down like a soft flap'. Round 1 (top-down view from behind the dog) gave white marks on the head/neck and two pointed ears; round 2 four of six had white paws or a white neck mark; round 3 (stairway from the top) put both on stairs that read as going up, so round 2 was kept. Checked at 3x: dog's right ear folded, left ear upright, all-black face, dark eyes (no blue), black paws with no white, white only on the chest, one red kerchief, no extra legs; Indio topknot, grey t-shirt, jeans, two plain hands, face normal. Placed beside follow, usman_worried and usman_tug: same Indio and Usman. Known small drift: Indio's red wrist handkerchief is not drawn (wrists small and in shadow)."
   },
   {
    "key": "k38",
