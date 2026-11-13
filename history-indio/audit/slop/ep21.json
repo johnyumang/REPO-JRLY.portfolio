@@ -721,7 +721,9 @@
    "must_fix": true,
    "what": "In this untouched close-up Lola Ising is pale with grey-blue eyes and silver-blue hair, between two close-ups (k64, k67) where she is brown-skinned with dark eyes and grey hair, so the cut reads as another woman.",
    "where": "her face, centre",
-   "found_by": "reader 3"
+   "found_by": "reader 3",
+   "fixed": true,
+   "fix": "Redrawn (fix round 2, try 1 of 2 kept): Lola Ising with deep brown skin, dark brown eyes, grey hair in a bun and the flowered house dress, tears on her cheeks, no hands in frame; matches k64 and k67."
   },
   {
    "key": "k18",
@@ -734,6 +736,175 @@
    "what": "The face is drawn with dense black crack-like hatching in a heavier graphic-novel hand than the clean cel shading of k17 and the rest of the episode.",
    "where": "her face and shawl, upper half",
    "found_by": "reader 3"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/indio_smile21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: he looks through the brass lens with one clean hand, faint marks on the forearm.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/key_air.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65. k19, the shot before it, is the redrawn Indio.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: key held up in one clean hand, other hand in the pocket.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/usman_hug.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65. The dog had no chest patch and two floppy ears.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 4 of 4 kept: Usman black with white chest patch, one ear folded, red kerchief. Left as is: small white toes on two paws (as in k22 and k25 beside it).",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/indio_laugh21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: shoulders-up laugh with wet eyes on the night beach, no hands.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/indio_ask21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: shoulders-up, shaken, fog and gold towers behind, no hands.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/tala_name.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65. k45 shows the same pair with a deep-brown Indio.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: Tala pale with long white hair, black coat and wide hat, both with hands in pockets.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/indio_clarify21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 1 of 2 kept: sitting on the log at dawn, shoes on, hands in jacket pockets.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/indio_respect.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: one hand (thumb and four fingers) flat on the chest, faint marks on the forearm.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/indio_label21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: bronze key held up in one clean hand, other hand in the pocket.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/indio_point21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65. k65 three shots earlier is the redrawn Indio.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 1 of 2 kept: pointing at the viewer with one clean hand, key on a cord at the neck.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/indio_ask21b.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 3 of 3 kept: holds one old photo with its blank back to the camera (tries 1 and 2 drew a picture on the photo).",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/indio_follow21.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed a light peach-skinned Indio with a different face beside the redrawn deep-brown Indio of k19, k45 and k65.",
+   "fixed": true,
+   "fix": "Redrawn from the cast-string prompt (warm deep brown skin, small topknot, plain red headband, jacket zipped over a dark shirt); try 2 of 2 kept: on the old motorcycle with the empty sidecar and red kerchief, shoes on, both hands on the grips.",
+   "found_by": "fix round 2"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/pacing_warn.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Untouched still showed Nanay Pacing pale grey-skinned in a hooded jacket, while k18, the next shot, shows her deep brown in a cloth and shawl.",
+   "fixed": true,
+   "fix": "Redrawn with the Nanay Pacing wording of k18 (brown skin, dark grey hair under a faded cloth, shawl); try 2 of 2 kept: one raised open hand with a thumb and four fingers, other hand inside the shawl.",
+   "found_by": "fix round 2"
   }
  ]
 }
