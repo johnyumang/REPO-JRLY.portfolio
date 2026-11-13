@@ -18,7 +18,7 @@ render: spec.json (paths are relative to the spec file)
    "subjects": [{"image": "subject.png", "label": "KAGWANG", "from_line": 1}],
    "lines": [{"speaker": "USMAN", "text": "Teka, patalastas muna!", "wav": "l0.wav", "emphasis": ["patalastas"]}, ...],
    "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento"}
-  Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them, 0.35 s tail. Sound: synthesised two-note
+  Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
   sting, quiet rhythmic bed (at least 14 dB under the voice), synthesised whoosh at the end; mastered to -16 LUFS,
   true peak -1.5 dBTP; 48 kHz stereo AAC. Picture layout: see BOXES. THE FIRST RULE: nothing covers a face or the
   subject: the drawn extents of every element are computed before rendering (and tracked while rendering) and the
@@ -187,7 +187,7 @@ def whoosh(d=0.55, seed=7):
 
 
 def bed(dur, bpm=104, seed=3):
-    n = int(dur * SR); out = np.zeros(n, np.float32); rng = np.random.default_rng(seed); beat = 60 / bpm
+    n = int(round(dur * SR)); out = np.zeros(n, np.float32); rng = np.random.default_rng(seed); beat = 60 / bpm
     kn = int(0.16 * SR); kt = np.arange(kn) / SR
     kick = np.sin(2 * np.pi * (55 * kt + 60 * (1 - np.exp(-kt / 0.03)) * 0.03)) * np.exp(-kt / 0.07)
     hn = int(0.035 * SR); hat = np.diff(rng.normal(size=hn + 1)).astype(np.float32) * np.exp(-np.arange(hn) / SR / 0.012)
@@ -396,8 +396,9 @@ def render(a):
     if not spec.get('source'): print('WARNING: no "source" line: every fact needs its sources on screen')
 
     # ---- sound and timeline
+    gap = float(spec.get('gap', GAP))                                                     # optional: pause between lines, s
     voices = [read_audio(P(l['wav'])) for l in lines]; starts = []; t = LEAD
-    for i, v in enumerate(voices): starts.append(t); t += len(v) / SR + (GAP if i + 1 < len(voices) else 0)
+    for i, v in enumerate(voices): starts.append(t); t += len(v) / SR + (gap if i + 1 < len(voices) else 0)
     T = t + TAIL; N = round(T * fps); T = N / fps; n = int(round(T * SR))
     print(f'break: {T:.2f} s, {N} frames, {len(lines)} lines' + ('' if 18 <= T <= 23 else '  (WARNING: the format is 18 to 23 s)'), flush=True)
     vo = np.zeros(n, np.float32)
@@ -471,7 +472,7 @@ def render(a):
         f0, f1 = int(round(c.start * fps)), int(round(c.end * fps))
         for k in sprites:
             tgt = 1.0 if l['speaker'] == k else -1.0
-            act[k][f0:min(N, f1 + int(GAP * fps) + 1)] = tgt
+            act[k][f0:min(N, f1 + int(gap * fps) + 1)] = tgt
             if l['speaker'] == k: e = c.env[:max(0, min(N, f1) - f0)]; loud[k][f0:f0 + len(e)] = e
     for k in sprites:                                                       # smooth the speaking state (no pops)
         v = 0.0; a_ = act[k]
@@ -506,7 +507,7 @@ def render(a):
         d.rounded_rectangle((bx0, by0, bx1, by1), radius=hb / 2, fill=INK, outline=(255, 255, 255), width=max(2, round(hb * 0.10)))
         ins = max(3, round(hb * 0.18))
         if left > 0.01: d.rounded_rectangle((bx0 + ins, by0 + ins, bx0 + ins + (bx1 - bx0 - 2 * ins) * left, by1 - ins), radius=(hb - 2 * ins) / 2, fill=tuple(pal['bar']))
-        d.text((bx0 + hb * 0.7, (by0 + by1) / 2), spec.get('countdown_text', 'babalik ang kuwento'), font=fbar, anchor='lm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
+        d.text((bx0 + hb * 0.7, (by0 + by1) / 2), spec.get('countdown_text', 'babalik ang kuwento').upper(), font=fbar, anchor='lm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
         d.text((bx1 - hb * 0.7, (by0 + by1) / 2), f'{math.ceil(T - t - 1e-6)}s', font=fbar, anchor='rm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
         # subject cut-out and its ribbon
         cur = [s_ for s_ in subs if s_['t0'] <= t]
