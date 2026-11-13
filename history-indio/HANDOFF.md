@@ -232,3 +232,13 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 - Figma image tool (about 100 stills): the user owns the output and the terms carry no ban on commercial use (confirmed in Figma's AI Terms of 30 October 2026); open point: whether the free monthly credits count as "promotional" (evaluation only).
 - Clean route being tested: draw the stills again with FLUX.2 klein 4B run on our own machines (CPU, quantised weights). Voice, scripts, shot plans and the builder stay as they are; only full/ stills and the rebuild would change.
 - Keep a record of which model drew which still: `key_prompts.json` plus the commit dates; .png stills in full/ are Figma or hand-fixed.
+
+## State at 2026-11-13 03:25 UTC (conductor)
+- Videos done (32 after Season 1): Season 2 complete (9 to 20); Season 3: 21, 22, 23, 25, 28, 29, 30, 31; Season 4: 32, 33, 34, 35, 39, 40, 41; Season 5: 45, 46, 47, 49, 50. Still rendering, one machine each: 24, 26, 27, 36, 37, 38, 42, 43, 44, 48.
+- Numbers: the word check compares numbers by value since 9612c6d (parser fixes e4be8d7, a39b148, abf8c36, eecef62; a second listen for doubtful lines in b9cbeeb). `ms.py numbers <work>` audits a narrated episode from its stored takes. Real wrong numbers found and re-voiced: Episodes 11 (1011), 16 (1588), 17 (40 percent), 18 (1565 and two more), 21 (1960), 8 (12 June, to confirm); Episode 40's flagged years were the listener's mistake, not the voice's. A flagged number is a reason to listen, not proof.
+- Builder: after a build, every video frame is decoded once and a damaged file fails loudly (f2ac00b); the true-peak guard is in 83b5c84.
+- Stills: every render machine checks its own episode's sheet for panels and fake writing before the build; about 60 stills were re-drawn that way across Episodes 26 to 45.
+- Rebuilds are built and HELD until the new episodes are published (upload budget), except Season 1, which the user is about to schedule: Episode 3 (flag) is republished; Episode 8 (the 12 June line) is next.
+- Covers: `pipeline/thumbnail.py` (stacked words, SEASON and EPISODE badge, brand tab, `--keep` areas with a hard check that nothing covers a head or a story object). Season 1 has cover A for the trailer and Episodes 1 to 8; plans for B and C are in the conductor's scratchpad. Cover art comes from the Figma tool only.
+- Posting: the user received the Season 1 kit (two zips), a posting plan with the set-up steps and the prompt for a session on their own computer. This cloud session cannot reach their PC.
+- Book: all five books and the one-volume saga exist as illustrated and text-only editions (book session, local, unpublished until uploads allow).
