@@ -1,0 +1,170 @@
+{
+ "episode": 21,
+ "audited_by": "render-worker-ep08-09-19-30",
+ "stills_looked_at": 82,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/lens_review.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper held in the lower left of the lens view is covered in rows of CJK-like pseudo-glyphs."
+  },
+  {
+   "still": "full/s1_montage.jpg",
+   "shots": [
+    5
+   ],
+   "type": "flag",
+   "must_fix": true,
+   "what": "Two wrong flags: a blue-and-red flag with a yellow emblem and no white triangle at the bottom-panel window, and a red flag with a cross on the pole of the stone house at top right."
+  },
+  {
+   "still": "full/s1_montage.jpg",
+   "shots": [
+    5
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The still is a collage of tilted photo cards (houses, a wall, close-ups of eyes) rather than one picture."
+  },
+  {
+   "still": "full/sign_papers.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The deed page shows a large pseudo-text heading, mixed Latin/CJK pseudo-text lines and a glyph signature block."
+  },
+  {
+   "still": "full/notebook_count.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The notebook page shows a column of large numbers instead of tally marks."
+  },
+  {
+   "still": "full/glass_tower.jpg",
+   "shots": [
+    92
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A large anime face with staring eyes is drawn inside the glass tower at mid-height, where the prompt calls for no people."
+  },
+  {
+   "still": "full/kitchen_lola.jpg",
+   "shots": [
+    63
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man is drawn twice (one walking out of the door at left, one standing behind Lola), and neither has Indio's topknot."
+  },
+  {
+   "still": "full/usman_nod.jpg",
+   "shots": [
+    44
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man on the right has loose brown hair, no topknot and a cream short-sleeved shirt, so he does not read as Indio."
+  },
+  {
+   "still": "full/biringan_view.jpg",
+   "shots": [
+    28
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog at lower left has no red kerchief (a white collar instead) and a pug-like face, so it does not read as Usman."
+  },
+  {
+   "still": "full/indio_down.jpg",
+   "shots": [
+    33
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog in the foreground wears a white collar instead of the red kerchief and has two upright ears."
+  },
+  {
+   "still": "full/bronze_hands.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The bronze coin held in the centre has pseudo-text lettering stamped around its rim."
+  },
+  {
+   "still": "full/ride_sea.jpg",
+   "shots": [
+    12
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The motorcycle fuel tank carries a script brand-like word."
+  },
+  {
+   "still": "full/bed_awake.jpg",
+   "shots": [
+    0
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Indio's red headband has white glyph-like symbols printed on the front."
+  },
+  {
+   "still": "full/village_fishers.jpg",
+   "shots": [
+    14
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "Indio's red headband has a white logo-like emblem printed on its front."
+  },
+  {
+   "still": "full/usman_leap.jpg",
+   "shots": [
+    22
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The leaping Usman has two huge upright ears instead of one folded ear."
+  },
+  {
+   "still": "full/return_light.jpg",
+   "shots": [
+    62
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a dark tunic, shorts and slippers instead of his outfit, and the dog has two upright ears."
+  },
+  {
+   "still": "full/lola_cu.jpg",
+   "shots": [
+    64
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A poster with pseudo-text lines hangs on the wall in the top-left corner."
+  },
+  {
+   "still": "full/no_shadow.jpg",
+   "shots": [
+    29
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The storefronts at lower left carry small pseudo-text signs."
+  }
+ ]
+}

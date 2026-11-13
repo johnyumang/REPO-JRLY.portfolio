@@ -1,0 +1,293 @@
+{
+ "episode": 10,
+ "audited_by": "render-worker-ep08-09-19-30",
+ "stills_looked_at": 84,
+ "clean": false,
+ "defects": [
+  {
+   "still": "plates/school_gate.jpg",
+   "shots": [
+    11,
+    50,
+    71,
+    86
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The signs on the right gate pillar carry large readable pseudo-text ('Pinc', 'OUSUAL 2U..', 'QAO-SOR', 'QUEEN S..') and the white sign has a round logo."
+  },
+  {
+   "still": "plates/school_gate.jpg",
+   "shots": [
+    11,
+    50,
+    71,
+    86
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A date-stamp watermark ('2023 02') is printed in the bottom-left corner."
+  },
+  {
+   "still": "full/boy_reading.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open history book the boy holds has a large readable pseudo-title and columns of pseudo-text."
+  },
+  {
+   "still": "full/lolo_marker.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The historical marker plaque in the centre is covered in rows of crisp letter-like pseudo-text plus a small emblem, where the prompt asked for illegible lines."
+  },
+  {
+   "still": "full/gate_marker.jpg",
+   "shots": [
+    57
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze plaque in the foreground shows several rows of glyph-like pseudo-text."
+  },
+  {
+   "still": "full/indio_stop.jpg",
+   "shots": [
+    61
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The stone post in the bottom-left foreground is carved with the readable word 'REVIKE'."
+  },
+  {
+   "still": "full/scott_book.jpg",
+   "shots": [
+    26
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open book that fills the frame is covered in large hand-written pseudo-characters that look Chinese."
+  },
+  {
+   "still": "full/tin_open.jpg",
+   "shots": [
+    65
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man opening the tin is not Indio: spiky hair with no topknot, pale skin, a vest over a teal shirt and coloured floral tattoos all over both hands."
+  },
+  {
+   "still": "full/boy_hand.jpg",
+   "shots": [
+    23
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The chalkboard behind the boy has Chinese-looking chalk characters at the top and right edge."
+  },
+  {
+   "still": "full/blackboard.jpg",
+   "shots": [
+    38
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The teacher writes boxed, kanji-like chalk glyphs on the board, where the prompt asked for illegible scribbles."
+  },
+  {
+   "still": "full/teacher_closeup.jpg",
+   "shots": [
+    39
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Blurred chalk letters are visible on the board behind the teacher's head."
+  },
+  {
+   "still": "full/teacher_question.jpg",
+   "shots": [
+    20
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The textbook cover in the teacher's hands has a pseudo-text title."
+  },
+  {
+   "still": "full/bea_answer.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The chalkboard at left has chalk glyphs and the number '4.09'."
+  },
+  {
+   "still": "full/lolo_medallion_glow.jpg",
+   "shots": [
+    18
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The background boy's shirt has letters printed on the chest."
+  },
+  {
+   "still": "full/portal_gate.jpg",
+   "shots": [
+    7
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The building sign behind the gate and the notices on the left wall carry pseudo-text."
+  },
+  {
+   "still": "full/qc_street.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The jeepneys in the foreground show plate numbers and pseudo-lettering on their sides."
+  },
+  {
+   "still": "full/corridor_wide.jpg",
+   "shots": [
+    19
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "The flag on the schoolyard flagpole is a teal and violet banner, not the Philippine flag."
+  },
+  {
+   "still": "full/kids_run_yard.jpg",
+   "shots": [
+    40
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "The flag on the schoolyard pole is red, white and yellow, not the Philippine flag."
+  },
+  {
+   "still": "full/kids_run_yard.jpg",
+   "shots": [
+    40
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "A stray shoe and leg with no body floats behind the boy's head, left of centre."
+  },
+  {
+   "still": "full/indio_realize.jpg",
+   "shots": [
+    56
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "The two flags at the top edge behind Indio are green-yellow-red and red-white-violet, not Philippine flags."
+  },
+  {
+   "still": "full/medal.jpg",
+   "shots": [
+    34
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The red banner behind the judge carries a gold sixteen-petal chrysanthemum (Japanese imperial crest) in a Philippine courtroom."
+  },
+  {
+   "still": "full/scott_walk.jpg",
+   "shots": [
+    52
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The mountain village behind Scott is drawn with Japanese-style timber houses with tiled roofs and cedar forest."
+  },
+  {
+   "still": "full/m_point.jpg",
+   "shots": [
+    67
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The over-the-shoulder young man in the foreground wears a dark jacket and has no topknot, so he does not read as Indio."
+  },
+  {
+   "still": "full/portal_gate.jpg",
+   "shots": [
+    7
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The small young man stepping out of the portal wears a beige jacket over a blue shirt and has no topknot."
+  },
+  {
+   "still": "full/usman_tilt.jpg",
+   "shots": [
+    4
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_dig_air.jpg",
+   "shots": [
+    5
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_whisper.jpg",
+   "shots": [
+    42
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_dig.jpg",
+   "shots": [
+    60
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_fade.jpg",
+   "shots": [
+    62
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_wink.jpg",
+   "shots": [
+    63
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  },
+  {
+   "still": "full/usman_return.jpg",
+   "shots": [
+    84
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; his folded ear is missing."
+  }
+ ]
+}
