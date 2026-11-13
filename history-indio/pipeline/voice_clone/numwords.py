@@ -18,7 +18,7 @@ for v, ws in {1: ('isa', 'uno', 'one'), 2: ('dalawa', 'dos', 'two'), 3: ('tatlo'
               18: ('disiotso', 'diesiocho', 'eighteen', 'labingwalo'), 19: ('disinuwebe', 'diesinueve', 'nineteen', 'labinsiyam'), 0: ('zero', 'sero')}.items():
     for w in ws: UNIT[w] = v
 TENS = {}
-for v, ws in {20: ('bente', 'beinte', 'veinte', 'twenty', 'dalawampu'), 30: ('trenta', 'treinta', 'thirty', 'tatlumpu'),
+for v, ws in {20: ('bente', 'beinte', 'veinte', 'twenty', 'dalawampu'), 30: ('trenta', 'treinta', 'treynta', 'thirty', 'tatlumpu'),
               40: ('kuwarenta', 'kwarenta', 'cuarenta', 'forty', 'apatnapu'), 50: ('singkuwenta', 'singkwenta', 'sinkuwenta', 'sinkwenta', 'cincuenta', 'fifty', 'limampu'),
               60: ('sesenta', 'sisenta', 'sixty', 'animnapu'), 70: ('setenta', 'sitenta', 'seventy', 'pitumpu'), 80: ('otsenta', 'ochenta', 'eighty', 'walumpu'),
               90: ('nobenta', 'nubenta', 'noventa', 'ninety', 'siyamnapu')}.items():
@@ -29,6 +29,9 @@ for v, ws in {100: ('siyento', 'syento', 'siento', 'ciento'), 200: ('dosyentos',
               700: ('siyetesyentos', 'syetesyentos', 'setecientos'), 800: ('otsosyentos', 'otsosientos', 'ochocientos'),
               900: ('nobesyentos', 'nobesientos', 'novecientos', 'nobyentos')}.items():
     for w in ws: HUND[w] = v
+HUND.update({'isandaan': 100, 'sandaan': 100, 'isanlibo': 1000, 'sanlibo': 1000})                  # one-word "one hundred" / "one thousand"
+for w in list(HUND):                                                                      # script spelling "kuwatrosiyentos", "nobesiyentos"
+    if 'syentos' in w: HUND[w.replace('syentos', 'siyentos')] = HUND[w]
 TIMES100 = {'syentos', 'siyentos', 'sientos', 'cientos', 'hundred', 'daan', 'raan'}      # after a number: x 100 ("nuwebe syentos", "limang daan")
 TIMES1000 = {'mil', 'thousand', 'libo'}                                                    # "mil" alone = 1000; "libo" only after a number
 TIMES1M = {'milyon', 'million'}
@@ -64,15 +67,19 @@ def _scan(t):
     while i < len(tok):
         w = tok[i]
         if w.isdigit():
-            out.append((i, i + 1, int(w))); i += 1; continue
+            v, j = int(w), i + 1
+            while j + 1 < len(tok) and tok[j] in ('at', 'and') and tok[j + 1].isdigit() and v % 100 == 0 and int(tok[j + 1]) < 100 and v >= 100:
+                v += int(tok[j + 1]); j += 2                                         # heard "300 at 40" = 340
+            out.append((i, j, v)); i = j; continue
         v = _val(w) if w.isalpha() else None
         if not v or (w in NEED_BEFORE) or (v[0] == 'x1000' and w.startswith('libo')) or (v[0] == 'x100' and v[1] == 100 and w in ('daan', 'raan', 'daang', 'raang')):
             i += 1; continue
         total, cur, j, last = 0, 0, i, None
         while j < len(tok):
             w = tok[j]; v = _val(w) if w.isalpha() else None
-            if w in ('at', 'y', 'and') and last in ('t', 'h', 'x1000', 'x100') and j + 1 < len(tok) and _val(tok[j + 1]) and _val(tok[j + 1])[0] == 'u':
-                j += 1; continue                                                     # "dalawampu at isa", "treinta y uno"
+            nx = _val(tok[j + 1]) if w in ('at', 'y', 'and') and j + 1 < len(tok) and tok[j + 1].isalpha() else None
+            if nx and ((last == 't' and nx[0] == 'u') or (last in ('h', 'x1000', 'x100') and nx[0] in ('u', 't'))):
+                j += 1; continue                                                     # "dalawampu at isa", "treinta y uno", "tatlong daan at apatnapu"
             if not v: break
             k, x = v
             if k == 'u':
