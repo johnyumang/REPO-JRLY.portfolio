@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Split screen: a TV with a flooded city on top and a separate empty sofa scene below, divided by a hard line."
+   "what": "Split screen: a TV with a flooded city on top and a separate empty sofa scene below, divided by a hard line.",
+   "fixed": true
   },
   {
    "still": "full/serpent_stays.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "The Bakunawa is drawn with two heads side by side in front of the red moon."
+   "what": "The Bakunawa is drawn with two heads side by side in front of the red moon.",
+   "fixed": true
   },
   {
    "still": "full/holo_open.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The man opening the hologram has spiky loose hair and no topknot: he does not read as Indio."
+   "what": "The man opening the hologram has spiky loose hair and no topknot: he does not read as Indio.",
+   "fixed": true
   },
   {
    "still": "full/ucayali_memory.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "The Ucayali memory shows two unknown children (one blond) instead of Indio."
+   "what": "The Ucayali memory shows two unknown children (one blond) instead of Indio.",
+   "fixed": true
   },
   {
    "still": "full/roof_tremble.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "Two bare feet and a stray brown paw at the bottom; Usman is black, so the paw belongs to no one."
+   "what": "Two bare feet and a stray brown paw at the bottom; Usman is black, so the paw belongs to no one.",
+   "fixed": true
   },
   {
    "still": "full/crowd_light.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "Japanese-style tiled roofs and paper-screen windows behind the grandmother and child."
+   "what": "Japanese-style tiled roofs and paper-screen windows behind the grandmother and child.",
+   "fixed": true
   },
   {
    "still": "full/bells_far.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "The roofs around the bell tower are East Asian curved tile roofs."
+   "what": "The roofs around the bell tower are East Asian curved tile roofs.",
+   "fixed": true
   },
   {
    "still": "full/rain_city.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "The rainy city has narrow streets with small vertical signs that look Japanese."
+   "what": "The rainy city has narrow streets with small vertical signs that look Japanese.",
+   "fixed": true
   },
   {
    "still": "full/bakunawa_folk.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "The folk illustration shows two serpents/heads where the tale has one Bakunawa."
+   "what": "The folk illustration shows two serpents/heads where the tale has one Bakunawa.",
+   "fixed": true
   },
   {
    "still": "full/friar_writing.jpg",
@@ -92,7 +101,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The friar's open book shows lines of pseudo-script."
+   "what": "The friar's open book shows lines of pseudo-script.",
+   "fixed": true
   }
  ]
 }
