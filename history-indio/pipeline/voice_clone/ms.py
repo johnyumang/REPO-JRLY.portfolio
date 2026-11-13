@@ -158,8 +158,9 @@ def free_models():
 def fixstarts(work, maxn=3):
     """For each chosen take heard with an extra token before the script's first word (or after its last) that the assembly
     trim cannot remove (the syllable is glued to the word), generate up to maxn new takes (next seeds, one gen_ms.py run per
-    seed for all such chunks) and take the first CLEAN one: words right, first word right, no extra token at either end,
-    numbers right, no check failing that the old take passed, and for scripture lines heard word for word. Updates
+    seed for all such chunks; takes already on disk are judged first) and take the first CLEAN one: first word right, no extra
+    token at either end, numbers right, no more word errors than the old take, no check failing that the old take passed,
+    and for scripture lines heard word for word. Updates
     choice.json; prints one line per chunk and a total. Never swaps in a take with a wrong number."""
     import vqc, leadtrim, soundfile as sf, time
     P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')); S = {s['i']: s for s in P['sentences']}
@@ -184,6 +185,25 @@ def fixstarts(work, maxn=3):
         todo[c['id']] = dict(c=c, old=m, oldfail=set(checks(m, c, rf0)), e=e, rf0=rf0, why=('lead %r' % lead if lead else '') + (' tail %r' % trail if trail else ''))
     print('%d chunk(s) with an extra token the trim cannot remove: %s' % (len(todo), ','.join(map(str, todo))))
     fixed = {}
+    def judge(i, w, label):
+        """Clean = first word right, no extra token at either end, numbers right, no more word errors than the old take (English
+        or rare words fail the word check on every take), no check failing that the old one passed, scripture word for word."""
+        d = todo[i]; c = d['c']; j = w[:-4] + '.json'
+        m = json.load(open(j)) if os.path.exists(j) else vqc.take_metrics(w, c['text'])
+        if not os.path.exists(j): json.dump(m, open(j, 'w'), ensure_ascii=False)
+        renum(m, c['text']); m['spk'] = round(float(np.array(m['emb']) @ d['e']), 3); fail = checks(m, c, d['rf0']); h = m.get('heard', '')
+        new = set(fail) - d['oldfail'] - {'words'}
+        why = [x for x, bad in (('first word', not m['first_ok']), ('extra start', vqc.extra_lead(c['text'], h)), ('extra end', vqc.extra_trail(c['text'], h)),
+                                 ('numbers', not m['num_ok']), ('more word errors (%d > %d)' % (m['edits'], d['old']['edits']), not words_ok(m) and m['edits'] > d['old']['edits']),
+                                 ('scripture not word for word', scripture(S, c['sent_ids']) and m['edits'] > 0), ('worse: ' + ','.join(new), new)) if bad]
+        print('c%03d %-8s %s %s | %s' % (i, c['speaker'][:8], label, 'CLEAN' if not why else 'not clean: ' + '; '.join(why), h[:80]), flush=True)
+        if not why:
+            fixed[i] = os.path.basename(w)[5:-4]; CH[str(i)] = dict(wav=w, ok=not fail, words_ok=words_ok(m), fail=fail, spk=m['spk'], score=round(score(m), 4))
+            json.dump(CH, open(work + '/choice.json', 'w'), indent=1)
+        return not why
+    for i, d in todo.items():                                                             # takes already on disk first: no generation needed
+        for w in sorted(glob.glob(f"{work}/c{i:03d}_{VP.fname(d['c']['speaker'])}_s*.wav")):
+            if w != CH[str(i)]['wav'] and judge(i, w, 'existing ' + os.path.basename(w)[5:-4]): break
     for k in range(maxn):
         left = [i for i in todo if i not in fixed]
         if not left: break
@@ -194,18 +214,9 @@ def fixstarts(work, maxn=3):
         dt = (time.time() - t0) / len(left)
         for i in left:
             d = todo[i]; c = d['c']; w = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_s{seed}.wav"
-            if not os.path.exists(w): continue
-            m = vqc.take_metrics(w, c['text']); json.dump(m, open(w[:-4] + '.json', 'w'), ensure_ascii=False); renum(m, c['text'])
-            m['spk'] = round(float(np.array(m['emb']) @ d['e']), 3); fail = checks(m, c, d['rf0']); h = m['heard']
-            why = [x for x, bad in (('words', not words_ok(m)), ('extra start', vqc.extra_lead(c['text'], h)), ('extra end', vqc.extra_trail(c['text'], h)),
-                                     ('numbers', not m['num_ok']), ('scripture not word for word', scripture(S, c['sent_ids']) and m['edits'] > 0),
-                                     ('worse: ' + ','.join(set(fail) - d['oldfail'] - {'words'}), set(fail) - d['oldfail'] - {'words'})) if bad]
-            print('c%03d %-8s take s%d (%.0f s/chunk) %s | %s' % (i, c['speaker'][:8], seed, dt, 'CLEAN' if not why else 'not clean: ' + '; '.join(why), h[:80]), flush=True)
-            if not why:
-                fixed[i] = seed; CH[str(i)] = dict(wav=w, ok=not fail, words_ok=True, fail=fail, spk=m['spk'], score=round(score(m), 4))
-                json.dump(CH, open(work + '/choice.json', 'w'), indent=1)
+            if os.path.exists(w): judge(i, w, 'take s%d (%.0f s/chunk)' % (seed, dt))
     for i, d in todo.items():
-        print('c%03d %-8s %s' % (i, d['c']['speaker'][:8], 'fixed with take s%d' % fixed[i] if i in fixed else 'still bad (%s): keep the old take, listen' % d['why'].strip()))
+        print('c%03d %-8s %s' % (i, d['c']['speaker'][:8], 'fixed with take %s' % fixed[i] if i in fixed else 'still bad (%s): keep the old take, listen' % d['why'].strip()))
     print('fixstarts: %d of %d fixed' % (len(fixed), len(todo))); return len(todo) - len(fixed)
 def score(m): return 0.40 * m['cmatch'] + 0.25 * m['conf'] + 0.10 * min(m['minconf'], 0.8) / 0.8 + 0.25 * float(np.clip((m['spk'] - 0.80) / 0.15, 0, 1)) - 0.3 * max(0, abs(m['rate'] - 5.85) / 5.85 - 0.15)
 def qc(work, full=False):
