@@ -1,5 +1,5 @@
 {
- "_note": "Episode 27 (S3E7) keyframes. Biringan (Samar folklore) as the story's realm: a white city where nobody casts a shadow; engkanto drawn as beautiful people with no groove above the lip (folklore detail); no real place or university is shown as a gate. The present is a moonless Samar rice field and the balete with upturned roots (no dog); Usman only inside Biringan. Liwayway, Tala (white hair, never a racial type), Albo (light only, no face, never 'Nordic'), Mikaela. The war in heaven (Revelation 12:7) is a reverent painterly image, no mockery. Prompts setting-first; no 'brick'. Copied: full intro (Episode 11). Shots follow sentences.json; k80-k95 are montage extras. Shot 57 reuses usman_tables because usman_whistle drew a stranger instead of M and the endpoint returned 504s on retry; usman_whistle stays on disk unused.",
+ "_note": "Episode 27 (S3E7) keyframes. Biringan (Samar folklore) as the story's realm: a white city where nobody casts a shadow; engkanto drawn as beautiful people with no groove above the lip (folklore detail); no real place or university is shown as a gate. The present is a moonless Samar rice field and the balete with upturned roots (no dog); Usman only inside Biringan. Liwayway, Tala (white hair, never a racial type), Albo (light only, no face, never 'Nordic'), Mikaela. The war in heaven (Revelation 12:7) is a reverent painterly image, no mockery. Prompts setting-first; no 'brick'. Copied: full intro (Episode 11). Shots follow sentences.json; k80-k95 are montage extras. m_letter, m_name, usman_whistle and seven_gates are Figma frames (PNG); shot 57 is back on usman_whistle and shot 53 on seven_gates (earlier they reused usman_tables and rice_lights).",
  "bg": "green",
  "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
  "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
@@ -56,9 +56,9 @@
   "holo_pauwi": "a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist holding out his tattooed forearm, a translucent blue-gold holographic panel with a glowing house icon and a locked path, no readable text. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
   "albo_light": "a tall being made only of soft white light with long white hair, seen far away at the top of a misty mountain, no face, no features, not a human type, solemn.",
   "m_doorway": "a young Filipina woman with long black hair in a long dark coat waiting in a white doorway of light, calm and brave, the white city behind her. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
-  "m_name": "in a white doorway of light in a legendary white city, close-up of a young Filipina woman with long black hair in a plain long dark coat, saying her name for the first time, eyes steady, plain fabric with no print, a faint glow behind her. (text on the coat removed by hand with OpenCV inpainting)",
+  "m_name": "in a white doorway of light in a legendary white city, close-up of a young Filipina woman with long black hair in a plain long dark coat, saying her name for the first time, eyes steady, plain fabric with no print, a faint glow behind her.",
   "mother_bow": "two-shot: a young-looking Filipina mother with long black hair and kind tired eyes in a simple pale blue dress bowing her head gratefully to a young Filipina woman with long black hair in a long dark coat, who looks moved. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
-  "m_letter": "close-up of a single glowing letter-like sigil of light fading in the air, abstract, not a real letter, golden.",
+  "m_letter": "close-up of a single glowing golden sigil of light shaped like the capital M, an abstract mark of light fading into sparks in the night air, no person.",
   "rev_war": "reverent painterly image high in storm clouds: radiant winged figures of light standing firm in a row, facing a great red dragon coiled in the dark sky, light against darkness, majestic and calm.",
   "law_host": "close-up of a young-looking Filipina mother with long black hair and kind tired eyes in a simple pale blue dress looking away sadly from a young Filipina woman with long black hair in a long dark coat and her son, understanding a forbidden love. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
   "banahaw_whisper": "close-up: a young-looking Filipina mother with long black hair and kind tired eyes in a simple pale blue dress whispering into her son's ear, worried, a misty mountain faintly reflected in the window behind. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
@@ -68,13 +68,14 @@
   "no_map": "close-up of an old map of Samar island with only forests and rivers drawn, a blank area between two towns, a magnifying glass, no readable text.",
   "bible_page": "close-up of an old Bible open on a wooden table in warm candlelight, the page shown only as illegible lines, no cross, reverent.",
   "close_faces": "two-shot close: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat standing very close under shadowless white lights, faces almost touching. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
-  "usman_whistle": "comic scene in a white glowing city street: a black street dog with a white chest patch and a red kerchief pushing in between a young Filipino man with a black topknot and a young Filipina woman with long black hair in a dark coat, the dog's back turned, pretending to whistle.",
+  "usman_whistle": "comic scene in a white glowing city street: a black street dog with a white chest patch and a red kerchief pushing in between a young Filipino man with a black topknot, grey t-shirt and a red handkerchief on his wrist and a young Filipina woman with long black hair in a dark coat, the dog's back turned, pretending to whistle.",
   "m_laughs": "close-up of a young Filipina woman with long black hair in a long dark coat laughing and stepping back, a hand over her mouth. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
   "exit_balete": "at night beside a balete tree with upturned roots, a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat stepping out of a closing ring of light, a black dog fading into golden sparks. Present-day Samar, Philippines, at night,",
   "holo_80": "on a dark Samar field: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist holding out his tattooed forearm, a translucent blue-gold holographic panel with a bar filling up and a new crossed-out bowl icon, no readable text. Present-day Samar, Philippines, at night, no animals.",
   "indio_point_rice": "in a dark rice field with distant strange lights: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist pointing straight at the viewer with a cool friendly half-smile. Present-day Samar, Philippines, at night, no animals.",
   "family_window": "wide shot from outside a window of a small house at the edge of a white city: a young-looking Filipina mother with long black hair and kind tired eyes in a simple pale blue dress and a slim young Filipina woman with long pure white hair and dark eyes in a long black coat watching from inside, waving goodbye, a grey sea reflected in the glass. Inside a legendary white city of light where people cast no shadows, Samar folklore, nothing modern, not a character sheet.",
-  "trio_rice": "wide silhouette on a dark rice field at dawn: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat walking away from a strange balete tree, faint city lights behind them fading. Present-day Samar, Philippines, at night, no animals."
+  "trio_rice": "wide silhouette on a dark rice field at dawn: a lean young Filipino man with a black topknot, a grey t-shirt, jeans and a red handkerchief on his wrist and a young Filipina woman with long black hair in a long dark coat walking away from a strange balete tree, faint city lights behind them fading. Present-day Samar, Philippines, at night, no animals.",
+  "seven_gates": "the legend of the seven portals of Samar: a misty moonless night over dark rice fields and a balete tree, exactly seven soft empty doorways of white light scattered across the land, no people, no real place."
  },
  "shots": {
   "0": {
@@ -237,7 +238,7 @@
    "full": "no_map"
   },
   "53": {
-   "full": "rice_lights"
+   "full": "seven_gates"
   },
   "54": {
    "full": "bible_page"
@@ -249,7 +250,7 @@
    "full": "close_faces"
   },
   "57": {
-   "full": "usman_tables"
+   "full": "usman_whistle"
   },
   "58": {
    "full": "m_laughs"
