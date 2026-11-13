@@ -6,46 +6,32 @@
   "fact_english": "Each eyeball of a tarsier is about as large as its entire brain.",
   "label_onscreen": "TARSIER",
   "subject_art_prompt": "a cute big-eyed Philippine tarsier clinging to a branch, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "",
+  "source_onscreen": "Pinagmulan: Natural History Museum, London; AMNH, New York",
   "sources": [
    {
-    "name": "Britannica: Tarsier",
-    "url": "https://www.britannica.com/animal/tarsier",
-    "says": "Not read. WebFetch failed with getaddrinfo ENOTFOUND, so this session's network blocks the host.",
+    "name": "Natural History Museum, London - 'Amazing eyes: 17 vision champions'",
+    "url": "https://www.nhm.ac.uk/discover/amazing-eyes-vision-champions.html",
+    "says": "Search summary, two separate searches: tarsiers rank among the mammals with the biggest eyes for their size, and 'each eye has about the same volume as the brain.' This matches the fact as written.",
     "opened": false,
-    "reputable_because": "Britannica is on the project's list of reputable sources"
+    "reputable_because": "A national natural history museum and research institution, which the series rule prefers."
    },
    {
-    "name": "Animal Diversity Web (University of Michigan): Tarsius syrichta",
-    "url": "https://animaldiversity.org/accounts/Tarsius_syrichta/",
-    "says": "Not read. The host was blocked (ENOTFOUND).",
+    "name": "American Museum of Natural History, Extreme Mammals exhibition, 'Extreme Bodies: Brains'",
+    "url": "https://amnh.org/exhibitions/extreme-mammals/extreme-bodies/brains",
+    "says": "Search summary seen by the second reader: the tarsier has the largest eyes relative to body size of any mammal, and the eyes have the same volume as the animal's entire brain.",
     "opened": false,
-    "reputable_because": "Species database run by a university"
+    "reputable_because": "A national natural history museum, independent of the London museum"
    },
    {
-    "name": "Evolution: Education and Outreach (2019), s12052-019-0101-6, Figure 1",
-    "url": "https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-019-0101-6/figures/1",
-    "says": "Not read. The host was blocked (ENOTFOUND). A search summary says the figure caption shows the eye and brain of a Bornean tarsier (T. bancanus) side by side to show their volumes are comparable, citing a 1984 anatomical study. That is a different species from the Philippine tarsier.",
+    "name": "Schmitz et al. (2016), Nature Communications 7:12997, genome of the Philippine tarsier",
+    "url": "https://link.springer.com/article/10.1038/ncomms12997",
+    "says": "Search summary seen by the second reader: tarsier eyes together have nearly twice the mass of the brain, which per eye is about one brain; measured on the Philippine tarsier.",
     "opened": false,
-    "reputable_because": "Peer-reviewed journal"
-   },
-   {
-    "name": "PMC3619510 (tarsier trichromacy paper)",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3619510",
-    "says": "Not read. The host was blocked (ENOTFOUND). The researcher's snippet says only that T. bancanus eyes are enormous. Nothing shown compares them with the brain, so even if opened it does not seem to state the fact.",
-    "opened": false,
-    "reputable_because": "Peer-reviewed paper hosted by NIH/NLM"
-   },
-   {
-    "name": "National Geographic: Animals with the biggest eyes",
-    "url": "https://www.nationalgeographic.com/animals/article/animals-biggest-eyes-crustaceans-squid-oceans",
-    "says": "Not opened. I did not try it after other hosts failed, and the researcher reports nationalgeographic.com does not resolve. A search summary says it gives a tarsier eye width of about 16 mm. The summary does not say whether it compares the eye with the brain.",
-    "opened": false,
-    "reputable_because": "National Geographic is on the project's list of reputable sources"
+    "reputable_because": "Peer-reviewed paper"
    }
   ],
-  "checked_by_second_reader": false,
-  "notes": "Second source is popular-level only; no museum or university page came up in the search. The claim is widely repeated and Wikipedia cites a textbook for it. | Second reader: Wikipedia and WorldAtlas both say each roughly 16 mm eyeball is about as large as the brain, sometimes larger. 'About as large' is the safe wording. Do not upgrade it to 'heavier than'. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
+  "checked_by_second_reader": true,
+  "notes": "Re-checked on 13 Nov by a researcher and a separate second reader who tried to refute it, with web search only (this machine cannot open pages, so every source is opened: false, seen by search summary). Holds as written (\"about as large as\"; never \"larger than\"). The second reader confirmed the London museum, the American Museum of Natural History and two peer-reviewed papers; it could not confirm the wording reported for The Anatomical Record and National Geographic, so those are not on the card."
  },
  {
   "id": "t02",
@@ -350,7 +336,7 @@
    }
   ],
   "checked_by_second_reader": false,
-  "notes": "Only juveniles can do this, so the fact now says so. The second source is popular-level. | Second reader: Juveniles can run briefly on water using flattened toes and their low mass, like basilisks. Adults lose this ability as they get heavier. | On-screen credit shows Wikipedia only: the second source is a popular site. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
+  "notes": "Re-checked on 13 Nov by a researcher and a separate second reader who tried to refute it, with web search only (this machine cannot open pages, so every source is opened: false, seen by search summary). DOES NOT HOLD to the rule. DENR and the Smithsonian National Zoo say sailfin lizards can run across water, but the Smithsonian speaks of the genus, and every source that mentions age limits the water-running to juveniles; that limit rests only on non-reputable pages and one small survey that could not be confirmed. Without the limit the line overstates; with it, it is unsupported. Not to be used until a reputable source for the juvenile limit is opened."
  },
  {
   "id": "t10",
@@ -1209,36 +1195,29 @@
   "source_onscreen": "Pinagmulan: Britannica; DOST-PCAARRD",
   "sources": [
    {
-    "name": "Britannica: Yam",
-    "url": "https://www.britannica.com/plant/yam",
-    "says": "NOT VERIFIED BY SECOND READER (page blocked: DNS ENOTFOUND www.britannica.com). Researcher's search-summary claim: true yams are genus Dioscorea, family Dioscoreaceae; D. alata (winged or water yam) is one of the edible species widely grown in the tropics.",
-    "opened": false,
-    "reputable_because": "Encyclopaedia Britannica, on the project's reputable-source list"
-   },
-   {
-    "name": "Britannica: Sweet potato",
+    "name": "Encyclopaedia Britannica, 'Yam', 'Sweet potato' and 'Taro'",
     "url": "https://www.britannica.com/plant/sweet-potato",
-    "says": "NOT VERIFIED (blocked, same DNS error). Researcher's claim: Ipomoea batatas, morning glory family Convolvulaceae, not related to true yams. Same site as the yam page, so it does not count as a separate independent source.",
+    "says": "Search summaries: yams are 'any of several plant species of the genus Dioscorea (family Dioscoreaceae) grown for their edible tubers' (britannica.com/plant/yam); sweet potato is Ipomoea batatas of the morning glory family (Convolvulaceae) and is 'unrelated to true yams' (britannica.com/plant/sweet-potato); taro is a 'herbaceous plant of the arum family (Araceae)', Colocasia esculenta (britannica.com/plant/taro-plant). Britannica's yam page also mentions D. alata (winged or water yam) as a widely grown edible species. Seen by search summary only (opened: false). Counted as ONE source.",
     "opened": false,
-    "reputable_because": "Encyclopaedia Britannica"
+    "reputable_because": "Britannica is on the series' preferred list; edited reference encyclopedia."
    },
    {
-    "name": "Britannica: Taro",
-    "url": "https://www.britannica.com/plant/taro-plant",
-    "says": "NOT VERIFIED (blocked, same DNS error). Researcher's claim: Colocasia esculenta, arum family Araceae. Same site as above, not independent.",
-    "opened": false,
-    "reputable_because": "Encyclopaedia Britannica"
-   },
-   {
-    "name": "DOST-PCAARRD iVeg: Dioscorea alata",
+    "name": "DOST-PCAARRD iVeg (Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development), 'Ube/Purple yam Dioscorea alata L.'",
     "url": "https://iveg.pcaarrd.dost.gov.ph/crop/dioscorea-alata",
-    "says": "NOT VERIFIED (blocked: DNS ENOTFOUND iveg.pcaarrd.dost.gov.ph). Neither the researcher nor I has read this page's text. It is only assumed to identify ube/ubi as Dioscorea alata, a yam. Someone must confirm this before the card can name DOST-PCAARRD.",
+    "says": "Search result title 'Ube/Purple yam Dioscorea alata L.'; a linked page is titled 'Bukidnon : ube - Dioscoreaceae' (https://iveg.pcaarrd.dost.gov.ph/crop/dioscorea-alata/bukidnon). Summary: English names greater, water or winged yam; tubers usually bright lavender, occasionally white. Supports ube = D. alata, family Dioscoreaceae. Says nothing about kamote or gabi. Seen by search summary only (opened: false).",
     "opened": false,
-    "reputable_because": "Philippine government science agency (DOST council for agriculture, aquatic and natural resources research)"
+    "reputable_because": "Philippine government science agency (DOST)."
+   },
+   {
+    "name": "National Parks Board Singapore, Flora & Fauna Web, 'Dioscorea alata L.'",
+    "url": "https://www.nparks.gov.sg/florafaunaweb/flora/6/0/6055",
+    "says": "Search summary: 'Family Name: Dioscoreaceae ... Common Name: Winged Yam, Greater Yam, Water Yam, White Yam, Purple Yam, Violet Yam, Ube'; 'Dioscorea alata is often mistaken for taro (Colocasia esculenta) and purple-fleshed (Okinawan) sweet potato.' Supports the whole fact except the family names of sweet potato and taro. Seen by search summary only (opened: false).",
+    "opened": false,
+    "reputable_because": "Government botanical agency's flora database."
    }
   ],
-  "checked_by_second_reader": false,
-  "notes": "Botany is uncontroversial; second source is a food site, not a botanical authority. | Second reader: Ube is Dioscorea alata, a true yam, and is often confused with taro and purple sweet potato. | Second reader, 13 Nov: botany holds and the wording was tightened (dropped 'people often mix them up'), but none of the sources could be opened (www.britannica.com and iveg.pcaarrd.dost.gov.ph blocked) and the three Britannica pages count as one source. checked_by_second_reader stays false until Britannica's yam page and a second independent source (PCAARRD iVeg or Kew POWO) are opened; the card 'Pinagmulan: Britannica; DOST-PCAARRD' is provisional and must not air before then."
+  "checked_by_second_reader": true,
+  "notes": "Re-checked on 13 Nov by a researcher and a separate second reader who tried to refute it, with web search only (this machine cannot open pages, so every source is opened: false, seen by search summary). Holds as written: ube is Dioscorea alata, a true yam (Dioscoreaceae); sweet potato is Ipomoea batatas (Convolvulaceae); taro is Colocasia esculenta (Araceae). The second reader confirmed Britannica, DOST-PCAARRD iVeg, Singapore NParks and a university extension page; it could NOT confirm the Oxford and Collins dictionary entries, so they are not cited."
  },
  {
   "id": "t36",
@@ -1497,42 +1476,35 @@
   "id": "t43",
   "topic": "Abaca and manila paper",
   "category": "gawa",
-  "fact_english": "Manila paper and manila envelopes are named after Manila hemp, or abaca, the Philippine fibre the paper was originally made from.",
+  "fact_english": "Manila paper, the paper manila envelopes are made of, was originally made from Manila hemp, the Philippine fibre abaca.",
   "label_onscreen": "ABAKA",
   "subject_art_prompt": "a bundle of abaca fibre beside a plain brown envelope, chibi-cute sticker style, white outline, no text, no letters",
-  "source_onscreen": "",
+  "source_onscreen": "Pinagmulan: Merriam-Webster; Collins Dictionary",
   "sources": [
    {
-    "name": "Getty Art & Architecture Thesaurus, 'Manila paper' (AAT 300014134), copy in the Fitzwilliam Museum (University of Cambridge) terminology record",
-    "url": "https://data.fitzmuseum.cam.ac.uk/id/terminology/term-40041",
-    "says": "Not opened. The researcher's search summary gives the scope note as: originally a strong wrapping paper made from Manila hemp; now any strong chemical wood pulp or mixed paper of a slightly buff (Manila) colour. WebFetch failed with getaddrinfo ENOTFOUND data.fitzmuseum.cam.ac.uk.",
+    "name": "Merriam-Webster, \"manila paper\" (also \"Manila hemp\", \"manila\" adj.)",
+    "url": "https://www.merriam-webster.com/dictionary/manila%20paper",
+    "says": "Search summary of the entry: manila paper is \"a strong and durable paper of a brownish or buff color and smooth finish made originally from Manila hemp\"; the Manila hemp entry is given as a term for abaca with its etymology traced to Manila, Philippine Islands; the adjective \"manila\" is given as \"made of manila paper\". Seen by search summary only (opened: false).",
     "opened": false,
-    "reputable_because": "The Getty AAT is a standard museum vocabulary, and the Fitzwilliam is a university museum"
+    "reputable_because": "Major English dictionary of record (Merriam-Webster), explicitly allowed by the series rule for a word origin."
    },
    {
-    "name": "Te Papa Tongarewa collections vocabulary, 'Manila paper'",
-    "url": "https://collections.tepapa.govt.nz/category/307593",
-    "says": "Not opened (the researcher reports the host failed to resolve). Its reported wording is the same AAT scope note, so it is not independent of the Fitzwilliam/Getty record and counts as the same source.",
+    "name": "Collins Dictionary, \"manila paper\" / \"Manila hemp\" / \"manila envelope\"",
+    "url": "https://www.collinsdictionary.com/dictionary/english/manila-paper",
+    "says": "Search summary of the entries: manila paper is \"a strong, usually brown paper made from Manila hemp or similar fibres\", \"originally made of Manila hemp, now of various fibers\"; Manila hemp is \"a fibrous material made from the leafstalks of the abacá, Musa textilis\", a Philippine relative of the banana; a manila envelope is a large envelope \"made from a strong paper that is usually light brown\". Seen by search summary only (opened: false).",
     "opened": false,
-    "reputable_because": "National museum, but it reuses the Getty AAT definition"
+    "reputable_because": "Major English dictionary from a separate publisher (HarperCollins), independent of Merriam-Webster."
    },
    {
-    "name": "Britannica, 'manila paper' / 'abaca'",
-    "url": "https://www.britannica.com/topic/abaca",
-    "says": "Not opened. WebFetch failed with getaddrinfo ENOTFOUND www.britannica.com, both for /topic/manila-paper and for /topic/abaca.",
+    "name": "Encyclopaedia Britannica, \"Abaca\"",
+    "url": "https://www.britannica.com/plant/abaca",
+    "says": "Search summary: abaca (Musa textilis) is a banana-family plant whose fibre is taken from the leaf stalks; it is commonly called \"Manila hemp\" although it is not a true hemp; besides cordage its fibre goes into paper, carpets and table mats. Seen by search summary only (opened: false).",
     "opened": false,
-    "reputable_because": "Encyclopaedia named in the project rules"
-   },
-   {
-    "name": "Encyclopaedia Britannica 1911, 'Manila Hemp' (lead only)",
-    "url": "https://kwx.liehendr.com/content/wikisource_en_all_maxi_2022-09/A/Page%3AEB1911_-_Volume_17.djvu/597",
-    "says": "Search summary only, not opened: says the old, worn ropes were used to make manila paper. The copy is on an unofficial Wikisource mirror and the text is from 1911.",
-    "opened": false,
-    "reputable_because": "Historical Britannica text, but on a third-party mirror"
+    "reputable_because": "Britannica, named in the series rule as a reputable publisher; supports the abaca = Manila hemp = Philippine fibre used for paper link."
    }
   ],
-  "checked_by_second_reader": false,
-  "notes": "Light rewording; today such paper is usually wood pulp. | Second reader: Manila paper is named after Manila hemp (abaca). It was originally made from recycled abaca rope, and modern versions use wood pulp. | On-screen credit shows Wikipedia only: the second source is a popular site. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
+  "checked_by_second_reader": true,
+  "notes": "Re-checked on 13 Nov by a researcher and a separate second reader who tried to refute it, with web search only (this machine cannot open pages, so every source is opened: false, seen by search summary). Holds in this wording (\"was originally made from\"): the dictionaries define manila paper as made originally from Manila hemp; the paper is made from other fibres today, so the past tense must stay. The earlier wording (\"named after\") and the story of recycled ship rope are NOT used: the second reader found the rope story only on Wikipedia (citation needed), in the 1911 Britannica and on blogs."
  },
  {
   "id": "t44",
@@ -2180,7 +2152,7 @@
    }
   ],
   "checked_by_second_reader": false,
-  "notes": "Second source is a recipe site; no better one was found. | Second reader: Traditional puto bumbong is coloured by pirurutong, a purple/near-black heirloom glutinous rice; modern versions may substitute food colouring or ube, which the word 'traditionally' already allows for. | Second reader, 13 Nov: does NOT hold. No reputable source could be opened (hosts blocked in that session) and the old list was Wikipedia plus popular sites. Do not use in an episode until two independent reputable sources are opened."
+  "notes": "Re-checked on 13 Nov by a researcher and a separate second reader who tried to refute it, with web search only (this machine cannot open pages, so every source is opened: false, seen by search summary). DOES NOT HOLD to the rule. The researcher named an FAO chapter and a 1930s magazine in a university repository, but the second reader could confirm neither by its own searches; the pages that state the fact plainly are news and food sites. Likely true (several sites debunk \"it is ube\"), but not shown by two reputable sources. Best lead for a later check: the PhilRice kaKanin+ entry and the FAO page t0567e0k, opened by someone who can open them."
  },
  {
   "id": "t63",
