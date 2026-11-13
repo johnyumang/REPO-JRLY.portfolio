@@ -19,12 +19,12 @@ render: spec.json (paths are relative to the spec file)
    "lines": [{"speaker": "USMAN", "text": "Teka, patalastas muna!", "wav": "l0.wav", "emphasis": ["patalastas"]}, ...],
    "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento"}
   Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
-  sting, quiet rhythmic bed (at least 14 dB under the voice), synthesised whoosh at the end; mastered to -16 LUFS,
+  sting, quiet rhythmic bed (mixed 18 dB under the voice; refused if less than 14 dB), synthesised whoosh at the end; mastered to -16 LUFS,
   true peak -1.5 dBTP; 48 kHz stereo AAC. Picture layout: see BOXES. THE FIRST RULE: nothing covers a face or the
   subject: the drawn extents of every element are computed before rendering (and tracked while rendering) and the
   command exits with code 3 naming the overlap if any two meet or anything important leaves the phone safe area.
 
-splice: puts the break into the episode at --at (rounded to a frame), 0.20 s audio fades either side, one re-encode,
+splice: puts the break into the episode at --at (rounded to a frame), 0.06 s audio fades either side, one re-encode,
 then the loudness guard and the full-decode check. Refuses (exit 2) if --at falls inside speech: the 120 ms around the
 cut should be at least 12 dB under the episode's average level (warning, with the quietest frame nearby) and the 40 ms at
 the cut itself must be (else refused; --force to override): music under the narration keeps whole pauses only ~10 dB down."""
@@ -48,10 +48,11 @@ BOXES = {
     'subject':  (0.14, 0.212, 0.78, 0.384),
     'label':    (0.22, 0.389, 0.70, 0.424),
     'captions': (0.04, 0.430, 0.88, 0.534),
-    'INDIO':    (0.02, 0.541, 0.44, 0.790),
-    'USMAN':    (0.46, 0.541, 0.88, 0.790),
-    'source':   (0.04, 0.796, 0.88, 0.818),
+    'INDIO':    (0.02, 0.541, 0.44, 0.774),
+    'USMAN':    (0.46, 0.541, 0.88, 0.774),
+    'source':   (0.04, 0.778, 0.88, 0.8165),
 }
+SRC_X1 = 0.875                                                       # the source line stays left of 87.5 % (x = 630 of 720)
 PALETTES = {   # a, b: the two sunburst tones; dot: halftone; accent: emphasis words; sticker/ribbon/bar fills
     'sun':  dict(a=(255, 208, 58), b=(255, 180, 40), dot=(255, 150, 34), accent=(255, 56, 80), sticker=(214, 20, 30),
                  title=(255, 226, 0), bar=(255, 92, 40), ribbon=(214, 20, 30), src=(70, 34, 8)),
@@ -65,6 +66,7 @@ GROW, SHRINK, BREATH, STRETCH, BOUNCE = 1.08, 0.94, 0.02, 0.05, 0.06   # chibi: 
 POP, WOB = 1.12, 5.0                                                     # subject / title / label pop overshoot, wobble deg
 WPOP = 1.08                                                              # caption word pop overshoot
 TILT = -3.0                                                              # title sticker tilt, deg
+BOB, BOBT = 4 / 1280, 1.5                                                # subject idle bob: +-amplitude (fraction of H), period s
 ENTRY = 0.42                                                             # chibi slide-in time (not checked: off-screen entry)
 
 
@@ -244,17 +246,24 @@ def master(mix, out_wav):
 
 
 # ---------------------------------------------------------------------------------------------------------- text
-def word_img(txt, size, fill, fname='anton', stroke_k=0.10, shadow=True):
-    """one word, thick dark stroke, soft shadow; returns (RGBA image, baseline y inside the image)."""
+def word_img(txt, size, fill, fname='anton', stroke_k=0.10, shadow=True, plain=(255, 255, 255)):
+    """one word, thick dark stroke, soft shadow; returns (RGBA image, baseline y inside the image, stroke px).
+    fill colours the word; leading / trailing punctuation (quotes, comma, period...) is drawn in `plain`."""
     f = font(fname, size); sw = max(2, round(size * stroke_k)); off = max(1, round(size * 0.06)) if shadow else 0
+    m = re.match(r"^(\W*)(.*?)(\W*)$", txt); segs = [(s_, c_) for s_, c_ in ((m.group(1), plain), (m.group(2), fill), (m.group(3), plain)) if s_]
     l, t, r, b = f.getbbox(txt, anchor='ls', stroke_width=sw)
     im = Image.new('RGBA', (r - l + off + 4, b - t + off + 4), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     org = (2 - l, 2 - t)
     if shadow:
         s = Image.new('RGBA', im.size, (0, 0, 0, 0)); ImageDraw.Draw(s).text((org[0] + off, org[1] + off), txt, font=f, anchor='ls', fill=INK + (190,), stroke_width=sw, stroke_fill=INK + (190,))
         im = Image.alpha_composite(im, s.filter(ImageFilter.GaussianBlur(max(1, off * 0.6)))); d = ImageDraw.Draw(im)
-    d.text(org, txt, font=f, anchor='ls', fill=tuple(fill) + (255,), stroke_width=sw, stroke_fill=INK + (255,))
-    return im, org[1]
+    if len(segs) == 1 or tuple(fill) == tuple(plain):
+        d.text(org, txt, font=f, anchor='ls', fill=tuple(fill) + (255,), stroke_width=sw, stroke_fill=INK + (255,))
+    else:                                                       # strokes of every piece first, then the fills on top
+        xs = [org[0] + f.getlength(''.join(s_ for s_, _ in segs[:k])) for k in range(len(segs))]
+        for x, (s_, _) in zip(xs, segs): d.text((x, org[1]), s_, font=f, anchor='ls', fill=INK + (255,), stroke_width=sw, stroke_fill=INK + (255,))
+        for x, (s_, c_) in zip(xs, segs): d.text((x, org[1]), s_, font=f, anchor='ls', fill=tuple(c_) + (255,))
+    return im, org[1], sw
 
 
 def norm(w): return re.sub(r"[^\w']", '', w.lower())
@@ -271,10 +280,13 @@ class Caption:
         self.words = text.upper().split(); emph = {norm(e) for x in emphasis for e in x.split()}
         bw, bh = box[2] - box[0], box[3] - box[1]; self.box = box
         for size in range(int(H * 0.052), int(H * 0.023) - 1, -1):
-            imgs = []
+            imgs = []; ink = []; sw = 2
             for w in self.words:
-                e = norm(w) in emph; im, base = word_img(w, size * (1.18 if e else 1.0), pal['accent'] if e else (255, 255, 255)); imgs.append((im, base, e))
-            space = size * 0.22; widths = [im.width for im, _, _ in imgs]
+                e = norm(w) in emph; im, base, sw = word_img(w, size * (1.18 if e else 1.0), pal['accent'] if e else (255, 255, 255)); imgs.append((im, base, e))
+                bb = im.getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, im.width, im.height); ink.append((bb[0], bb[2]))
+            # fixed word spacing, centred lines, no justification: about 0.3 em between the white letters of two words
+            # (the dark strokes are measured, so the gap between the strokes is 0.3 em less both strokes, at least 0.14 em)
+            space = max(size * 0.30 - 2 * sw, size * 0.14); widths = [x1 - x0 for x0, x1 in ink]
             splits = [[list(range(len(imgs)))]] + [[list(range(k)), list(range(k, len(imgs)))] for k in range(1, len(imgs))]
             best = None
             for sp in splits:
@@ -291,7 +303,7 @@ class Caption:
             for ln, w_, a_, d_ in zip(sp, lw, asc, desc):
                 x = cx - w_ / 2; base = y + a_
                 for i in ln:
-                    im, b_, e = imgs[i]; self.place[i] = (im, round(x), round(base - b_)); x += im.width + space
+                    im, b_, e = imgs[i]; self.place[i] = (im, round(x - ink[i][0]), round(base - b_)); x += widths[i] + space
                 y = base + d_ + gap
             self.lines = len(sp); return
         die(f'LAYOUT: the caption "{text}" does not fit two lines in the caption box even at the smallest size: shorten it or split it into two spoken lines')
@@ -338,9 +350,10 @@ def fit_scale(w, h, box, pop=1.0, deg=0.0):
 
 
 def title_sticker(title, subtitle, pal, H):
-    u = H * 0.05; f1 = font('anton', u); f2 = font('archivo', u * 0.36); sw = max(3, round(u * 0.08))
+    """the title sticker; the subtitle is 0.62 of the title size (about 17 px on a 1280 px frame, readable on a phone)."""
+    u = H * 0.05; f1 = font('anton', u); f2 = font('archivo', u * 0.62); sw = max(3, round(u * 0.08))
     w1 = f1.getlength(title); w2 = f2.getlength(subtitle) if subtitle else 0
-    pw, ph = round(max(w1, w2) + u * 0.9), round(u * (1.42 + (0.5 if subtitle else 0)))
+    pw, ph = round(max(w1, w2) + u * 0.9), round(u * (1.42 + (0.66 if subtitle else 0)))
     bd = max(4, round(u * 0.12)); sh = max(4, round(u * 0.12))
     im = Image.new('RGBA', (pw + 2 * bd + sh + 4, ph + 2 * bd + sh + 4), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     R = round(u * 0.28)
@@ -349,7 +362,7 @@ def title_sticker(title, subtitle, pal, H):
     d.rounded_rectangle((2 + bd, 2 + bd, 2 + pw + bd, 2 + ph + bd), radius=round(R * 0.7), fill=tuple(pal['sticker']) + (255,))
     cx = 2 + bd + pw / 2
     d.text((cx, 2 + bd + u * 0.74), title, font=f1, anchor='mm', fill=tuple(pal['title']) + (255,), stroke_width=sw, stroke_fill=INK + (255,))
-    if subtitle: d.text((cx, 2 + bd + u * 1.52), subtitle, font=f2, anchor='mm', fill=(255, 255, 255, 255), stroke_width=max(1, sw // 2), stroke_fill=INK + (255,))
+    if subtitle: d.text((cx, 2 + bd + u * 1.60), subtitle, font=f2, anchor='mm', fill=(255, 255, 255, 255), stroke_width=max(1, sw // 2), stroke_fill=INK + (255,))
     return im
 
 
@@ -430,11 +443,11 @@ def render(a):
         ext[name] = (cx - hw, bot - im.height * (GROW * (1 + BREATH + STRETCH) + BOUNCE), cx + hw, bot)
     subs = []
     for s in spec.get('subjects', []):
-        im = Image.open(P(s['image'])).convert('RGBA'); im = im.crop(im.getchannel('A').getbbox()); box = BX['subject']
-        k = fit_scale(im.width, im.height, box, POP, WOB); im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
+        im = Image.open(P(s['image'])).convert('RGBA'); im = im.crop(im.getchannel('A').getbbox()); box = BX['subject']; bob = BOB * H
+        k = fit_scale(im.width, im.height, (box[0], box[1] + bob, box[2], box[3] - bob), POP, WOB); im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
         cx, cy = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2; rw, rh = rot_size(im.width, im.height, WOB)
         sub = dict(im=im, cx=cx, cy=cy, t0=starts[min(int(s.get('from_line', 1)), len(starts) - 1)], rib=None)
-        ext['subject'] = union(ext.get('subject'), (cx - rw * POP / 2, cy - rh * POP / 2, cx + rw * POP / 2, cy + rh * POP / 2))
+        ext['subject'] = union(ext.get('subject'), (cx - rw * POP / 2, cy - rh * POP / 2 - bob, cx + rw * POP / 2, cy + rh * POP / 2 + bob))
         if s.get('label'):
             rb = ribbon(s['label'].upper(), pal, H, (255, 255, 255)); lb = BX['label']; k = min(1.0, fit_scale(rb.width, rb.height, lb, POP))
             if k < 1: rb = rb.resize((round(rb.width * k), round(rb.height * k)), Image.LANCZOS)
@@ -454,16 +467,23 @@ def render(a):
         c.times(s, s0, s1); c.env = env; c.start = s; c.end = s + len(voices[li]) / SR; caps.append(c)
         ext[f'captions (line {li + 1})'] = c.extent()
     src = spec.get('source', ''); sb = BX['source']; srcim = None
-    if src:
-        for size in range(int((sb[3] - sb[1]) * 0.95), 11, -1):
-            f = font('archivo', size)
-            if f.getlength(src) + size * 0.3 <= sb[2] - sb[0]: break
-        else: die(f'LAYOUT: the source line is too long for one line even at 12 px: shorten it ("{src}")')
-        sw = max(1, round(size * 0.14)); l_, t_, r_, b_ = f.getbbox(src, stroke_width=sw)
-        srcim = Image.new('RGBA', (r_ - l_ + 2, b_ - t_ + 2), (0, 0, 0, 0))
-        ImageDraw.Draw(srcim).text((1 - l_, 1 - t_), src, font=f, fill=tuple(pal['src']) + (255,), stroke_width=sw, stroke_fill=(255, 255, 255, 235))
+    if src:                                     # light text, dark outline, ~20 px; two centred lines if one would pass x = 87.5 %
+        maxw = min(sb[2] - sb[0], 2 * (SRC_X1 * W - W / 2)); words = src.split()
+        for size in range(round(H * 20 / 1280), 11, -1):
+            f = font('archivo', size); sw = max(2, round(size * 0.1)); lh = size * 1.12
+            opts = [[src]] + [[' '.join(words[:k]), ' '.join(words[k:])] for k in range(1, len(words))]
+            fit = [o for o in opts if max(f.getlength(x) for x in o) + 2 * sw <= maxw and len(o) * lh + 2 * sw <= sb[3] - sb[1]]
+            if fit:                             # one line if it fits, else the most even split (a break after ';' or ':' wins ties)
+                ln = fit[0] if len(fit[0]) == 1 else min(fit, key=lambda o: (max(f.getlength(x) for x in o) - (0.15 * maxw if o[0][-1] in ';:' else 0)))
+                break
+        else: die(f'LAYOUT: the source line does not fit two lines even at 12 px: shorten it ("{src}")')
+        srcim = Image.new('RGBA', (round(max(f.getlength(x) for x in ln) + 2 * sw + 4), round(len(ln) * lh + 2 * sw + 4)), (0, 0, 0, 0)); d_ = ImageDraw.Draw(srcim)
+        for j, x in enumerate(ln):
+            d_.text((srcim.width / 2, 2 + sw + lh * (j + 0.5)), x, font=f, anchor='mm', fill=(255, 255, 255, 255), stroke_width=sw, stroke_fill=INK + (255,))
+        srcim = srcim.crop(srcim.getchannel('A').getbbox())
         sx, sy = (sb[0] + sb[2]) / 2 - srcim.width / 2, (sb[1] + sb[3]) / 2 - srcim.height / 2
         ext['source'] = (sx, sy, sx + srcim.width, sy + srcim.height)
+        print(f'source line: {size} px, {len(ln)} line(s), x {sx:.0f}-{sx + srcim.width:.0f}, y {sy:.0f}-{sy + srcim.height:.0f}', flush=True)
     check_layout(ext, W, H)
 
     # ---- per-frame state of the two chibis: who speaks, how loud
@@ -508,7 +528,7 @@ def render(a):
         ins = max(3, round(hb * 0.18))
         if left > 0.01: d.rounded_rectangle((bx0 + ins, by0 + ins, bx0 + ins + (bx1 - bx0 - 2 * ins) * left, by1 - ins), radius=(hb - 2 * ins) / 2, fill=tuple(pal['bar']))
         d.text((bx0 + hb * 0.7, (by0 + by1) / 2), spec.get('countdown_text', 'babalik ang kuwento').upper(), font=fbar, anchor='lm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
-        d.text((bx1 - hb * 0.7, (by0 + by1) / 2), f'{math.ceil(T - t - 1e-6)}s', font=fbar, anchor='rm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
+        d.text((bx1 - hb * 0.7, (by0 + by1) / 2), f'{max(0, math.floor(T - t + 1e-6))}s', font=fbar, anchor='rm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
         # subject cut-out and its ribbon
         cur = [s_ for s_ in subs if s_['t0'] <= t]
         if cur:
@@ -516,7 +536,8 @@ def render(a):
             sc = ease_out_back(p, 2.0) if p < 1 else 1.0 + 0.012 * math.sin(q * 2.2)
             rot = WOB * math.exp(-q * 4.5) * math.sin(q * 16) + 1.2 * math.sin(q * 1.4)
             if sc > 0.02:
-                sc = min(sc, POP); r = paste(fr, s_['im'], s_['cx'], s_['cy'], sc, rot); note(track, 'subject', s_['im'], r, sc, rot, t)
+                by = BOB * H * math.sin(2 * math.pi * max(0.0, q - 0.45) / BOBT)          # gentle idle bob once it has popped in
+                sc = min(sc, POP); r = paste(fr, s_['im'], s_['cx'], s_['cy'] + by, sc, rot); note(track, 'subject', s_['im'], r, sc, rot, t)
             if s_['rib']:
                 p2 = (q - 0.12) / 0.4; sc2 = 0.0 if p2 <= 0 else (min(POP, ease_out_back(p2, 2.0)) if p2 < 1 else 1.0)
                 if sc2 > 0.02: rb, rx, ry = s_['rib']; r = paste(fr, rb, rx, ry, sc2); note(track, 'label', rb, r, sc2, 0, t)
