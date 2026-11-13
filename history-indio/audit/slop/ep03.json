@@ -85,8 +85,10 @@
    "what": "The flower print of Lola's dress is painted onto the bare skin of her forearm and onto a finger of the hand on her chest.",
    "where": "lower left forearm (about x 150-500, y 1550-1900) and the hand on her chest",
    "fix_idea": "Redraw with her hands folded in her lap out of frame, or reframe tighter on her face.",
-   "fixed": true,
-   "note": "Redrawn (1 try): head and shoulders, hands out of frame, no print on skin; soft sad smile for 'ganyan din daw si Lolo'."
+   "fixed": false,
+   "note": "Checker: the redraw is a different Lola (yellow-green dress, thin glasses, warmer skin than k06, k11, k34 and k38), so the old still is back.",
+   "needs_figma": true,
+   "figma_prompt": "a kind Filipina grandmother about seventy, blue-grey hair in a low bun, thick dark round glasses, a pale lavender-white house dress with pink and yellow flowers, a knowing gentle smile, head and shoulders, face turned slightly to the side, both round lenses on her face, eyes looking away with a soft sad smile, hands in her lap out of frame, no hands visible, the flower print only on the dress, bare skin plain, in a warm wooden kitchen in Kawit, Cavite, Philippines, framed family photos on the wall, sunlit window. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Modern Japanese TV anime key frame, crisp clean ink line art, cel shading. Vertical 9:16. No text, no letters."
   },
   {
    "key": "k10",
@@ -99,8 +101,8 @@
    "what": "In the three-quarter view the far lens of Lola's glasses floats past the edge of her face.",
    "where": "glasses, left side of the face",
    "fix_idea": "Fix with the bleed redraw.",
-   "fixed": true,
-   "note": "Fixed by the same redraw: both lenses sit on the face."
+   "fixed": false,
+   "note": "Checker: old still restored with the k10 bleed entry; fix with the same figma redraw."
   },
   {
    "key": "k07",
@@ -113,8 +115,10 @@
    "what": "Lola's raised hand is a lumpy thumbs-up fist with no fingers drawn and purple shading, and a second thumbs-up hand at the right edge has short stub fingers; neither counts to five.",
    "where": "middle (about x 350-700, y 980-1400) and right edge (about x 950-1152, y 1330-1680)",
    "fix_idea": "Redraw with her hands at her sides out of frame, leaning forward with a raised eyebrow; or reframe to head and shoulders.",
-   "fixed": true,
-   "note": "Redrawn (1 try): Lola leans forward with a sly raised-eyebrow look, hands out of frame (bottom edge)."
+   "fixed": false,
+   "note": "Checker: the redraw is a different Lola (yellow dress, thin wire glasses, lighter hair and a different face from k06, k11, k34 and k38), so the old still is back.",
+   "needs_figma": true,
+   "figma_prompt": "a kind Filipina grandmother about seventy, blue-grey hair in a low bun, thick dark round glasses, a pale lavender-white house dress with pink and yellow flowers, a knowing gentle smile, head and shoulders, leaning toward the viewer, one eyebrow raised in a sly questioning look, both hands down at her sides out of frame, no hands visible, in a warm wooden kitchen in Kawit, Cavite, Philippines, framed family photos on the wall, sunlit window. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Modern Japanese TV anime key frame, crisp clean ink line art, cel shading. Vertical 9:16. No text, no letters."
   },
   {
    "key": "k14",
@@ -211,8 +215,10 @@
    "what": "Usman is jet black with white brow marks and a narrower face, unlike the grey-black broad-muzzled dog of k23 and k27 (his white chest patch does show below the kerchief).",
    "where": "the dog's face",
    "fix_idea": "Redraw with the usman string word for word so the three Usman shots share one look.",
-   "fixed": true,
-   "note": "Redrawn (1 try) with the usman string: one ear up and one folded like k23, broad muzzle, white chest patch, red kerchief."
+   "fixed": false,
+   "note": "Checker: the redraw keeps the fault it was meant to fix (jet black with a white brow mark, unlike k23), so it is not clearly better and the old still is back.",
+   "needs_figma": true,
+   "figma_prompt": "a medium-sized black Philippine street dog, charcoal grey-black short coat like the dog in shot 23, plain black face with no white marks on the brows, a broad muzzle, a white chest patch, one ear up and one folded ear, a red kerchief around his neck, slim lean street-dog build, looking up at the viewer with a cheeky warning look, sitting in front of a blurred crowd in straw hats outside a wood and stone house in Kawit, Cavite, Philippines, 1898. Single image, no panels, the picture fills the whole vertical frame. Modern Japanese TV anime key frame, cel shading. Vertical 9:16. No text."
   },
   {
    "key": "k04",
@@ -289,5 +295,6 @@
    "note": "Reframed by cropping the still above the hands (top 1030 px scaled to full size): smiling face and shoulders only."
   }
  ],
- "fix_note": "All 20 entries fixed on the free engine at full quality (30 steps), 1-2 tries each; every kept picture checked at full size and hands/objects at 3x. Originals in the scratch old/ folder. All 36 keys recomposited with make_keys.py. A background save job had already committed the changed stills and key_prompts.json while I worked."
+ "fix_note": "All 20 entries fixed on the free engine at full quality (30 steps), 1-2 tries each; every kept picture checked at full size and hands/objects at 3x. Originals in the scratch old/ folder. All 36 keys recomposited with make_keys.py. A background save job had already committed the changed stills and key_prompts.json while I worked.",
+ "check_note": "Checked 13 Nov by the checker against the old stills at full size and hands, faces and objects at 3x: 16 of 20 entries kept as fixed (10 of 12 must-fix); k07 hands and k10 bleed (must-fix), the minor k10 face and the minor k16 off_model had their old stills restored, and k07, k10 bleed and k16 went to needs_figma."
 }

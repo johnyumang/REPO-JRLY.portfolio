@@ -384,30 +384,28 @@
  },
  "66": {
   "fx": [],
-  "framing": "tracking",
-  "move": "pan_right",
-  "depth": "strong"
+  "framing": "high",
+  "move": "crane_down",
+  "depth": "strong",
+  "key": 67
  },
  "67": {
   "fx": [],
-  "framing": "high",
-  "move": "crane_down",
-  "depth": "strong"
+  "framing": "CU",
+  "move": "push_in",
+  "key": 68
  },
  "68": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
+  "framing": "M",
+  "move": "orbit_left",
+  "key": 69
  },
  "69": {
   "fx": [],
-  "framing": "M",
-  "move": "orbit_left"
- },
- "70": {
-  "fx": [],
   "framing": "wide",
   "move": "dolly_in",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 70
  }
 }
