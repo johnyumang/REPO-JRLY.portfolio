@@ -1,0 +1,384 @@
+{
+ "episode": 30,
+ "audited_by": "render-worker-ep08-09-19-30 (two fresh readers)",
+ "keys_looked_at": 81,
+ "defects": [
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/dead_medallions.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Each of the four coins in the palm carries blocky letter-like glyphs.",
+   "where": "coins in the centre of the frame"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/dead_medallions.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The cupped hand shows only a thumb and two curled fingertips, and its pale pink skin does not match Indio's warm brown skin.",
+   "where": "centre hand",
+   "second_reader": "refuted: the cupped palm reads fine"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/holo_dark.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The hologram panel shows rows of letter-like characters.",
+   "where": "top-left corner of the hologram"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/weapon_realise.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The clasped hands form a knot of fingers that cannot be counted, with a thumb in the middle of the other hand.",
+   "where": "both hands at the centre of the chest"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/weapon_realise.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red handkerchief on both wrists, but he has only one.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/call_datu.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Each open palm has a thumb and only three fingers.",
+   "where": "both hands, left and right edges at mid-height"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/call_datu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red handkerchief on both wrists, and both carry scribbled marks.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/frost_hand.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The spread hand on the ice has only four digits.",
+   "where": "centre hand"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/holo_new.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A white hand and arm shape melts into the ice and cloth with no clear fingers or body.",
+   "where": "lower half of the frame"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/pahala_light.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two large heads stick out of the rock with no bodies, and neither looks like Indio or Teddy.",
+   "where": "left and right of the light column"
+  },
+  {
+   "key": "k71",
+   "shots": [
+    71
+   ],
+   "still": "full/comment_think.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A knife blade with a letter-like mark grows straight out of the handkerchief knot on his wrist.",
+   "where": "left wrist, lower-left"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/fiction_cards.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Two near-identical young men in red shirts lean side by side, and neither looks like Indio.",
+   "where": "top half of the frame"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/fog_parts.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Tala is blonde and Liwayway has auburn hair and a pink dress, but in k56-k59 Tala has long white hair and a black coat and Liwayway black hair and a white dress.",
+   "where": "the two women at centre-bottom"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/ice_still.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "This close-up of Indio has long bangs, no topknot and a black hoodie instead of the grey t-shirt.",
+   "where": "whole face and shoulders"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/holo_percent.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has short spiky hair, no topknot and an orange-yellow top, in an older anime style.",
+   "where": "face, lower half"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/pahala_medal.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has shaggy hair over his eyes, no topknot and a blue-and-white jacket.",
+   "where": "face and body"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/time_open.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has messy hair, no topknot and a dark navy hoodie.",
+   "where": "figure at lower right"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/teddy_ask.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn as a young teen with no topknot.",
+   "where": "lower-right face"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/eyes_only.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Pale skin, glowing blue eyes, no topknot and a hood: does not read as Indio.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/sinigang_pot.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "A boyish Indio in a black shirt with no topknot.",
+   "where": "face at the top"
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/frost_hand.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a dark navy jacket and has messy hair with no topknot.",
+   "where": "top right"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/lolo_back.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In this wide shot Indio wears a red shirt, and Usman is a brown dog.",
+   "where": "small figures at the centre"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/ice_depth.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The small dog beside Indio is tan, not black.",
+   "where": "tiny figures at the centre"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/usman_belly.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two tall upright pink ears and no folded ear.",
+   "where": "top of the dog's head"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright ears and eyes of two different colours.",
+   "where": "dog's head"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/usman_excited.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright ears and tan markings on his legs and muzzle.",
+   "where": "leaping dog at upper right"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46,
+    47
+   ],
+   "still": "full/lolo_stays.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lolo wears a grey-khaki polo and Indio's red wrist handkerchief, but in k04 a white polo and no handkerchief.",
+   "where": "raised wrist"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/bagumbayan_memory.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The memory still is in a soft painterly film style with a photographic sky, and Indio has no topknot.",
+   "where": "whole frame",
+   "second_reader": "refuted: a memory shot, the softer style is intended"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/no_wings.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "His right hand hangs as a curled claw gripping a small black blob.",
+   "where": "hand at lower right"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/teddy_home.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "In the joined hands of Teddy and Indio the knuckles are lumpy and the fingers cannot be counted.",
+   "where": "held hands at lower centre"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/lola_table.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A hanging sign by the door shows Japanese-like kana.",
+   "where": "upper-left wall beside the door"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/follow_end.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The shop signs along the street carry kanji-like characters.",
+   "where": "top-right shopfronts"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/fog_parts.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "A soft painterly look that jolts against the episode's crisp cel anime.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/time_open.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The time-travel montage is a painterly photo-collage that reads as a different style.",
+   "where": "whole frame"
+  }
+ ]
+}
