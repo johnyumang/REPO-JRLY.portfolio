@@ -23,7 +23,7 @@ Episode 7 ng time-travel series ng History Indio. Naiwan si Indio sa 1896 nang w
 Tiyak: matapos barilin noong Disyembre 30, 1896, palihim na inilibing si José Rizal sa lumang sementeryo ng Paco, walang pangalan; hinanap ni Narcisa, kapatid niya, ang puntod at natagpuan ang bagong hukay na may bantay; kalaunan, minarkahan ito ng baligtad na inisyal ni Rizal, RPJ; hinukay ang mga labi noong Agosto 17, 1898. Paco Park na ito ngayon.
 Pinagtatalunan: kung may kabaong siya, at kung sino mismo ang naglagay ng RPJ.
 Mahina ang pinagmulan: ang papel daw na itinago niya sa sapatos.
-Kathang-isip: sina Indio, Usman, si M, ang Lolo at ang sulat niya, ang lente, ang kuwento ng labindalawang datu at ang Huling Tala.
+Kathang-isip sina Indio, Usman, si M, si Lolo at ang sulat niya, ang lente, ang kuwento ng labindalawang datu na natutulog sa tanso, at ang Huling Tala; totoo ang kasaysayan.
 
 Kung may lente kang nakakakita ng totoo, saan ka unang sisilip? I-comment sa baba.
 Mag-subscribe para sa susunod na talon.
