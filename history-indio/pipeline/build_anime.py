@@ -136,11 +136,9 @@ def frame_tail(fr, mx, my, s, t, fx, seed, aura):
     return np.clip(fr, 0, 255).astype(np.uint8)
 
 paths = [os.path.join(kdir, f'k{i:02d}.png') for i in range(max(len(tim), 200))]
-SRC = list(range(len(tim)))                                                                 # timings index -> original sentence index
-_cp, _sp = os.path.join(vdir, 'narration_cuts.json'), os.path.join(vdir, 'sentences.json')
-if os.path.exists(_cp) and os.path.exists(_sp):                                             # sentences cut from the narration: their shots go too
-    _C = {c['index'] for c in json.load(open(_cp)).get('cut', [])}; _n = len(json.load(open(_sp)))
-    if _C and len(tim) == _n - len(_C): SRC = [k for k in range(_n) if k not in _C]; print('narration cuts: shots', sorted(_C), 'left out', flush=True)
+import narration_cuts                                                                       # sentences cut from the narration: their shots go too; NOTHING is renumbered
+SRC, _note = narration_cuts.source_index(vdir, tim)                                         # timings index -> original sentence number (its key and shots_fx entry)
+if _note: print(_note, flush=True)
 total = tim[-1]['end'] + 0.8; shots = []
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
