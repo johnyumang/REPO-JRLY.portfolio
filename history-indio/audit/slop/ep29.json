@@ -204,10 +204,12 @@
    "what": "Indio's hand disappears into Usman's open jaws, so hand and mouth are fused into one shape.",
    "where": "centre, between the man's hand and the dog's mouth",
    "second_reader": "confirmed; at 3x the forearm also grows a second pale hand beyond the first, and the nearer fingers melt into the strap and the muzzle",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Dim gold-lit cavern, full body: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, hands in his pockets, gazing at a gold heap; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, his left ear folded over, bites his jeans hem at the ankle and pulls him away. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging"
+   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging",
+   "fixed": true,
+   "fix_note": "Redrawn 13 Nov on the free full-quality model (flux-3, 30 steps), chosen from 18 draws, seed 4123. Changed: the bite on the jeans (the fused hand/jaw and the stretched-jeans fault) is gone; the moment is now Usman sitting large in the foreground blocking the way to the gold with a warning look while Indio stands apart behind him, both hands in his pockets, so no hands, no contact and no merge. Indio drawn from the kept stills (topknot, grey crew-neck t-shirt, blue jeans), not the navy jacket. Round 1 (tug at the jeans hem) failed: dogs did not bite, both ears up, a paw sank into the boot; round 2 (dog between them, full body) every dog had both ears up; round 3 big foreground dog with an explicit floppy-flap ear sentence fixed the ears. Checked at 3x: dog's left ear up, right ear folded, all-black face, white only on the chest, one red kerchief, both eyes normal; Indio's face, topknot and both wrists going into the pockets, no extra limbs; coins carry no letters. Placed beside usman_proud, follow and usman_worried: same Indio and same Usman. Known small drift: Indio's red wrist handkerchief is not visible (wrists are in the pockets)."
   },
   {
    "key": "k41",
@@ -220,10 +222,12 @@
    "what": "Indio wears a navy jacket with no topknot, and Usman has both ears up.",
    "where": "left man and right dog",
    "second_reader": "confirmed",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Dim gold-lit cavern, full body: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, hands in his pockets, gazing at a gold heap; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, his left ear folded over, bites his jeans hem at the ankle and pulls him away. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
    "tries": 4,
-   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging"
+   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging",
+   "fixed": true,
+   "fix_note": "Redrawn 13 Nov on the free full-quality model (flux-3, 30 steps), chosen from 18 draws, seed 4123. Changed: the bite on the jeans (the fused hand/jaw and the stretched-jeans fault) is gone; the moment is now Usman sitting large in the foreground blocking the way to the gold with a warning look while Indio stands apart behind him, both hands in his pockets, so no hands, no contact and no merge. Indio drawn from the kept stills (topknot, grey crew-neck t-shirt, blue jeans), not the navy jacket. Round 1 (tug at the jeans hem) failed: dogs did not bite, both ears up, a paw sank into the boot; round 2 (dog between them, full body) every dog had both ears up; round 3 big foreground dog with an explicit floppy-flap ear sentence fixed the ears. Checked at 3x: dog's left ear up, right ear folded, all-black face, white only on the chest, one red kerchief, both eyes normal; Indio's face, topknot and both wrists going into the pockets, no extra limbs; coins carry no letters. Placed beside usman_proud, follow and usman_worried: same Indio and same Usman. Known small drift: Indio's red wrist handkerchief is not visible (wrists are in the pockets)."
   },
   {
    "key": "k43",
