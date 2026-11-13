@@ -669,7 +669,8 @@ def paginate(words):
 class Pages:
     """one spoken line as caption pages on a white speech plate (dark words, emphasis in the accent colour, the word
     being spoken on a yellow pill). Every page of the break uses one font size (the biggest that fits them all)."""
-    PAD, SHADOW, PLATE_POP = 9, 6, 1.05
+    PAD, SHADOW, PLATE_POP, MIN_W = 9, 6, 1.05, 240
+    GREY = (205, 202, 210)                                     # words still to come, emphasis or not
 
     def __init__(self, text, emphasis, pal, H):
         self.words = text.upper().split(); em = {norm(e) for x in emphasis for e in x.split()}
@@ -684,8 +685,12 @@ class Pages:
                 e = self.emph[i]
                 im, base, sw = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal['accent'] if e else INK, stroke_k=0,
                                         shadow=False, plain=INK)
-                bb = im.getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, im.width, im.height); imgs.append((im, base, bb, e))
-            space = size * 0.24; widths = [bb[2] - bb[0] for _, _, bb, _ in imgs]
+                # on the pill: emphasis words in the accent colour on an ink pill (quotes in white), others as drawn
+                act = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal['accent'], stroke_k=0, shadow=False,
+                               plain=(255, 255, 255))[0] if e else im
+                grey = Image.new('RGBA', im.size, self.GREY + (255,)); grey.putalpha(im.getchannel('A'))
+                bb = im.getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, im.width, im.height); imgs.append((im, base, bb, e, act, grey))
+            space = size * 0.24; widths = [x_[2][2] - x_[2][0] for x_ in imgs]
             opts = [[list(range(len(imgs)))]] + [[list(range(k)), list(range(k, len(imgs)))] for k in range(1, len(imgs))]
             done = None
             for rows in opts:
@@ -696,13 +701,16 @@ class Pages:
                 for r, w_, a_, d_ in zip(rows, lw, asc, desc):
                     x = cx - w_ / 2; base = y + a_
                     for j in r:
-                        im, b_, bb, e = imgs[j]; px_, py_ = round(x - bb[0]), round(base - b_)
+                        im, b_, bb, e, act, grey = imgs[j]; px_, py_ = round(x - bb[0]), round(base - b_)
                         ink = (px_ + bb[0], py_ + bb[1], px_ + bb[2], py_ + bb[3]); k = B_EPOP if e else B_WPOP
                         icx, icy = (ink[0] + ink[2]) / 2, (ink[1] + ink[3]) / 2
                         pr = union(pr, (icx - (ink[2] - ink[0]) * k / 2, icy - (ink[3] - ink[1]) * k / 2, icx + (ink[2] - ink[0]) * k / 2, icy + (ink[3] - ink[1]) * k / 2))
-                        place[j] = (im, px_, py_, e, ink); x += widths[j] + space
+                        place[j] = (im, px_, py_, e, ink, act, grey); x += widths[j] + space
                     y = base + d_ + gap
-                plate = (pr[0] - self.PAD, pr[1] - self.PAD, pr[2] + self.PAD, pr[3] + self.PAD)
+                plate = [pr[0] - self.PAD, pr[1] - self.PAD, pr[2] + self.PAD, pr[3] + self.PAD]
+                if plate[2] - plate[0] < self.MIN_W:                    # a short page keeps a plate wide enough for a short tail
+                    m_ = (plate[0] + plate[2]) / 2; plate[0], plate[2] = m_ - self.MIN_W / 2, m_ + self.MIN_W / 2
+                plate = tuple(plate)
                 pcx, pcy = (plate[0] + plate[2]) / 2, (plate[1] + plate[3]) / 2; pw, ph = (plate[2] - plate[0]) * self.PLATE_POP / 2, (plate[3] - plate[1]) * self.PLATE_POP / 2
                 big = (pcx - pw, pcy - ph, pcx + pw + self.SHADOW, pcy + ph + self.SHADOW)
                 if big[0] >= area[0] and big[1] >= area[1] and big[2] <= area[2] and big[3] <= area[3]: done = (place, plate, big); break
@@ -783,7 +791,12 @@ def render_bold(a, spec, P):
         c.lay = l_; env = envelope(voices[li], fps, int(len(voices[li]) / SR * fps) + 2)
         on = np.nonzero(env > 0.15)[0]; s0, s1 = (on[0] / fps, (on[-1] + 1) / fps) if len(on) else (0, len(voices[li]) / SR)
         c.times(starts[li], s0, s1, ends[li]); c.env = env; c.start = starts[li]; c.end = ends[li]
-        for place, plate, big in l_: ext['captions'] = union(ext.get('captions'), big)
+        for place, plate, big in l_:
+            ext['captions'] = union(ext.get('captions'), big)
+            for im, x_, y_, e_, ink, *_ in place:                          # the popped word must stay on its plate
+                k_ = B_EPOP if e_ else B_WPOP; cx_, cy_, hw_, hh_ = (ink[0] + ink[2]) / 2, (ink[1] + ink[3]) / 2, (ink[2] - ink[0]) * k_ / 2 + 6 * k_, (ink[3] - ink[1]) * k_ / 2 + 5 * k_
+                if cx_ - hw_ < plate[0] or cy_ - hh_ < plate[1] or cx_ + hw_ > plate[2] or cy_ + hh_ > plate[3]:
+                    die(f'LAYOUT: a popped caption word or its pill in line {li + 1} leaves its plate')
     ext['captions'] = union(ext['captions'], (cb[0], cb[3] - tail - 2, cb[2], cb[3])); win['captions'] = (starts[0], T)   # the tail's row
 
     # ---- chibis: as big as the box allows with every hop, squash, sway and the loudness lift inside it
@@ -907,7 +920,9 @@ def render_bold(a, spec, P):
     bursts += [(s['t0'], s['cx'], s['cy'], max(s['im'].size) / 2, 12) for s in subs] + [(tp, s['cx'], s['cy'], max(s['im'].size) / 2, 8) for s in subs for tp in s['pulses']]
     rng = np.random.default_rng(11); star_seed = [rng.random((14, 3)) for _ in bursts]
     stills = [float(x) for x in a.stills.split(',')] if a.stills else []
-    track = {}; thumbs = []; spin = 0.0; prev_tip = None; prev_plate = None
+    track = {}; thumbs = []; spin = 0.0; prev_tip = None; spill = []
+    LR = tuple(round(v) for v in (ext['captions'][0] - 4, ext['captions'][1] - 4, ext['captions'][2] + 4, ext['captions'][3] + 4))   # caption layer
+    keep_out = [(r[0] - 8, r[1] - 8, r[2] + 8, r[3] + 8) for k_ in ('label', 'source') if k_ in ext for r in (ext[k_],)]   # no sparkles there
     hb = BX['bar'][3] - BX['bar'][1]; fbar = font('archivo', hb * 0.60); fnum = {}
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(fps), '-i', '-', '-i', wav,
                            '-map', '0:v', '-map', '1:a', '-t', f'{T:.4f}', '-c:v', 'libx264', '-profile:v', 'high', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
@@ -916,7 +931,7 @@ def render_bold(a, spec, P):
         t = fi / fps
         spin += (0.10 + sum(0.9 * (1 - (t - x) / 0.6) for x in emph_t if 0 <= t - x < 0.6)) / fps     # the rays kick on each emphasis word
         stripe = (((ang + spin) * (16 / (2 * np.pi))) % 1.0) < 0.5
-        fr = Image.fromarray(np.where(stripe[..., None], BG_A, BG_B)); d = ImageDraw.Draw(fr)
+        bg_now = np.where(stripe[..., None], BG_A, BG_B); fr = Image.fromarray(bg_now); d = ImageDraw.Draw(fr)
         if t < 0.6:                                                       # cold open: a ray burst behind the title
             ov = Image.new('RGBA', fr.size, (0, 0, 0, 0)); do = ImageDraw.Draw(ov); R = H * 0.30 * ease_out(t / 0.6); al = round(200 * (1 - t / 0.6))
             for j in range(16):
@@ -929,7 +944,8 @@ def render_bold(a, spec, P):
             if 0 <= p < 1:
                 for j in range(cnt):
                     an = j / cnt * 2 * np.pi + sd[j, 0] * 0.5; dist = r0 * 0.7 + (r0 * 0.6 + H * 0.05) * ease_out(p) * (0.7 + 0.6 * sd[j, 1])
-                    rr = H * (0.011 + 0.011 * sd[j, 2]) * (1 - p) ** 0.7
+                    rr = H * (0.011 + 0.011 * sd[j, 2]) * (1 - p) ** 0.7; sx_, sy_ = cx + math.cos(an) * dist, cy + math.sin(an) * dist * 0.8
+                    if any(inter((sx_ - rr, sy_ - rr, sx_ + rr, sy_ + rr), ko) for ko in keep_out): continue
                     if rr > 1: star(d, cx + math.cos(an) * dist, cy + math.sin(an) * dist * 0.8, rr, p * 3 + j, (255, 255, 255) if j % 2 else tuple(pal['title']))
         # subject, its ribbon and the source card
         cur = [s_ for s_ in subs if s_['t0'] <= t]
@@ -952,30 +968,42 @@ def render_bold(a, spec, P):
         x, y, s, r, al, k = title_at(t)
         if s > 0.02: rr = paste(fr, ts, x, y, s, r, al); note(track, k, ts, rr, s, r, t)
         draw_bar(fr, BX['bar'], t, T, fps, pal, fbar, fnum, spec.get('countdown_text', 'babalik ang kuwento').upper())
-        # caption plate and words
+        # caption plate and words: drawn on one layer, and the page pop scales that whole layer about the tail tip
         li = max([i for i, c in enumerate(caps) if c.start <= t + 1e-6], default=None)
         if li is not None:
             c = caps[li]; pg = max(k_ for k_, p0 in enumerate(c.pt) if p0 <= t + 1e-6); place, plate, _ = c.lay[pg]
             spk = sprites.get(lines[li]['speaker']); tip_x = spk['cx'] if spk else (cb[0] + cb[2]) / 2
-            tip_x = min(max(tip_x, cb[0] + 20), cb[2] - 20); prev_tip = tip_x if prev_tip is None else prev_tip + (tip_x - prev_tip) * 0.45
-            if prev_plate is not None and (t - c.pt[pg]) < 3 / fps and pg > 0:
-                w_ = min(1.0, (t - c.pt[pg]) * fps / 3 + 0.34); plate = tuple(pv + (v - pv) * w_ for pv, v in zip(prev_plate, plate))
-            ps = 1.0
-            if pg == 0 and t - c.start < 0.15:
-                q = (t - c.start) / 0.15; ps = 0.6 + 0.45 * q / 0.6 if q < 0.6 else 1.05 - 0.05 * (q - 0.6) / 0.4
-            pr = draw_plate(fr, plate, ps, prev_tip, cb[3] - 1, Pages.SHADOW)
-            if t - c.start >= 0.15 or pg: prev_plate = c.lay[pg][1]
-            track['captions'] = union(track.get('captions'), pr)
+            prev_tip = tip_x if prev_tip is None else prev_tip + (tip_x - prev_tip) * 0.45
+            q = t - c.pt[pg]; dur_ = 0.15 if pg == 0 else 0.10
+            ls = 1.0 if q >= dur_ else (0.55 if pg == 0 else 0.86) + (0.45 if pg == 0 else 0.14) * ease_out(q / dur_)
+            lay_ = Image.new('RGBA', (LR[2] - LR[0], LR[3] - LR[1]), (0, 0, 0, 0)); o_ = (LR[0], LR[1])
+            loc = lambda r_: (r_[0] - o_[0], r_[1] - o_[1], r_[2] - o_[0], r_[3] - o_[1])
+            tip = draw_plate(lay_, loc(plate), prev_tip - o_[0], cb[3] - 1 - o_[1], Pages.SHADOW)
+            dl = ImageDraw.Draw(lay_); boxes = []
             cur_w = max([i for i in c.pages[pg] if c.t[i] <= t + 1e-6], default=None)
-            if cur_w is not None and ps >= 0.99:                              # the word being spoken sits on a yellow pill
-                ink = place[c.pages[pg].index(cur_w)][4]
-                d.rounded_rectangle((ink[0] - 6, ink[1] - 5, ink[2] + 6, ink[3] + 5), radius=8, fill=tuple(pal['title']))
-            for i, (im, x_, y_, e_, ink) in zip(c.pages[pg], place):
-                if t < c.t[i]:                                                  # words still to come: faint, so the page reads ahead
-                    if ps >= 0.99: paste(fr, im, x_ + im.width / 2, y_ + im.height / 2, 1.0, 0, 0.16)
-                    continue
-                s, al = pop_curve((t - c.t[i]) / (0.18 if e_ else 0.14), B_EPOP if e_ else B_WPOP)
-                paste(fr, im, x_ + im.width / 2, y_ + im.height / 2, s, 0, al)
+            for i, (im, x_, y_, e_, ink, act_im, grey) in zip(c.pages[pg], place):
+                if t < c.t[i]:                                                  # words still to come: light grey, so the page reads ahead
+                    paste(lay_, grey, x_ + im.width / 2 - o_[0], y_ + im.height / 2 - o_[1]); boxes.append(('word', ink, 1.0)); continue
+                s, _ = pop_curve((t - c.t[i]) / (0.18 if e_ else 0.14), B_EPOP if e_ else B_WPOP)   # full colour from its first frame
+                icx, icy = (ink[0] + ink[2]) / 2 - o_[0], (ink[1] + ink[3]) / 2 - o_[1]
+                if i == cur_w:                                                  # the word being spoken sits on a pill (scaled with it)
+                    hw_, hh_ = ((ink[2] - ink[0]) / 2 + 6) * s, ((ink[3] - ink[1]) / 2 + 5) * s; pill = (icx - hw_, icy - hh_, icx + hw_, icy + hh_)
+                    dl.rounded_rectangle(pill, radius=8, fill=INK if e_ else tuple(pal['title'])); boxes.append(('pill', tuple(v + o for v, o in zip(pill, o_ * 2)), 1.0))
+                paste(lay_, act_im if i == cur_w else im, x_ + im.width / 2 - o_[0], y_ + im.height / 2 - o_[1], s)
+                boxes.append(('word', ink, s))
+            if ls < 1.0:
+                ax, ay = tip; lay_ = lay_.resize((max(1, round(lay_.width * ls)), max(1, round(lay_.height * ls))), Image.BICUBIC)
+                px0, py0 = round(o_[0] + ax - ax * ls), round(o_[1] + ay - ay * ls)
+            else: ax = ay = 0.0; px0, py0 = o_
+            fr.paste(lay_, (px0, py0), lay_); d = ImageDraw.Draw(fr)
+            X = lambda v: o_[0] + ax + (v - o_[0] - ax) * ls; Y = lambda v: o_[1] + ay + (v - o_[1] - ay) * ls
+            pr_ = (X(plate[0]), Y(plate[1]), X(plate[2]), Y(plate[3])); track['captions'] = union(track.get('captions'), (px0, py0, px0 + lay_.width, py0 + lay_.height))
+            for kind, r_, s in boxes:                                          # every word and the pill stay on the plate, every frame
+                if kind == 'word':
+                    cx_, cy_, hw_, hh_ = (r_[0] + r_[2]) / 2, (r_[1] + r_[3]) / 2, (r_[2] - r_[0]) * s / 2, (r_[3] - r_[1]) * s / 2; r_ = (cx_ - hw_, cy_ - hh_, cx_ + hw_, cy_ + hh_)
+                rr_ = (X(r_[0]), Y(r_[1]), X(r_[2]), Y(r_[3]))
+                if rr_[0] < pr_[0] - 0.5 or rr_[1] < pr_[1] - 0.5 or rr_[2] > pr_[2] + 0.5 or rr_[3] > pr_[3] + 0.5:
+                    spill.append(f'frame {fi}: a caption {kind} at {tuple(round(v) for v in rr_)} leaves its plate {tuple(round(v) for v in pr_)}')
         # chibis: contact shadows first, then the sprites
         draws = []
         for k, sp in sprites.items():
@@ -1021,7 +1049,7 @@ def render_bold(a, spec, P):
         q = t - SLAM_T
         if 0 <= q < 0.2:                                                                      # the slam shakes the frame
             k_ = 6 * (1 - q / 0.2); arr = np.roll(np.roll(arr, round(k_ * math.sin(q * 95)), 1), round(k_ * math.cos(q * 80)), 0)
-        if fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, pal, fi)
+        if fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, bg_now, fi)
         fr = Image.fromarray(arr)
         if fi % fps == fps // 2: thumbs.append((t, fr.resize((W // 4, H // 4), Image.LANCZOS)))
         for st_ in stills:
@@ -1031,31 +1059,34 @@ def render_bold(a, spec, P):
     if rc: die('ffmpeg failed', rc)
     bad = [f'{k}: drawn at {tuple(round(v) for v in r)}, outside its checked area {tuple(round(v) for v in ext[k])}' for k, r in track.items()
            if k in ext and (r[0] < ext[k][0] - 2 or r[1] < ext[k][1] - 2 or r[2] > ext[k][2] + 2 or r[3] > ext[k][3] + 2)]
+    bad += spill[:20] + ([f'... {len(spill) - 20} more caption spills'] if len(spill) > 20 else [])
     if a.sheet: sheet(thumbs, a.sheet, T)
     ok = guard(a.out)
     for b_ in bad: print('LAYOUT DRIFT:', b_)
-    print('layout: nothing covers the faces or the subject' if not bad else 'layout: see LAYOUT DRIFT above')
+    print('layout: nothing covers the faces or the subject; every caption word stays on its plate' if not bad else 'layout: see LAYOUT DRIFT above')
     sys.exit(0 if ok and not bad else 4)
 
 
-def draw_plate(fr, plate, s, tip_x, tip_y, shadow):
-    """the white speech plate (rounded, dark outline, hard drop shadow) with a tail down to (tip_x, tip_y)."""
-    cx, cy = (plate[0] + plate[2]) / 2, (plate[1] + plate[3]) / 2; hw, hh = (plate[2] - plate[0]) * s / 2, (plate[3] - plate[1]) * s / 2
-    r = (cx - hw, cy - hh, cx + hw, cy + hh); d = ImageDraw.Draw(fr); R = min(18, hh * 0.6)
-    bx = min(max(tip_x, r[0] + R + 22), r[2] - R - 22); tl = [(bx - 18, r[3] - 3), (bx + 18, r[3] - 3), (tip_x, tip_y)]
+def draw_plate(fr, r, tip_x, tip_y, shadow):
+    """the white speech plate r (rounded, dark outline, hard drop shadow) with a tail down towards (tip_x, tip_y): the
+    tip leans at most 0.6 x the plate half-width from its centre and the base is 36 px wide, so a short page keeps a
+    short, solid tail. Returns the tail tip (the anchor of the page pop)."""
+    d = ImageDraw.Draw(fr); hw, hh = (r[2] - r[0]) / 2, (r[3] - r[1]) / 2; cx = (r[0] + r[2]) / 2; R = min(18, hh * 0.6)
+    tx = min(max(tip_x, cx - 0.6 * hw), cx + 0.6 * hw)
+    bx = min(max(cx + (tx - cx) * 0.75, r[0] + R + 20), r[2] - R - 20); tl = [(bx - 18, r[3] - 3), (bx + 18, r[3] - 3), (tx, tip_y)]
     o = shadow; d.rounded_rectangle((r[0] + o, r[1] + o, r[2] + o, r[3] + o), radius=R, fill=INK)
     if tip_y > r[3] + 4: d.polygon([(x + o * 0.6, y) for x, y in tl], fill=INK)
     d.rounded_rectangle(r, radius=R, fill=(255, 255, 255), outline=INK, width=4)
     if tip_y > r[3] + 4:
         d.polygon(tl, fill=(255, 255, 255)); d.line([tl[0], tl[2]], fill=INK, width=4); d.line([tl[1], tl[2]], fill=INK, width=4)
-    return (round(r[0]), round(r[1]), round(r[2] + o), round(r[3] + o))
+    return tx, tip_y
 
 
 def draw_bar(fr, box, t, T, fps, pal, fbar, fnum, text):
     """the countdown: the fill runs down and warms to the accent colour; a shine sweeps it; the last 3 seconds pop."""
-    bx0, by0, bx1, by1 = (round(v) for v in box); hb = by1 - by0; left = max(0.0, 1 - t / T); rem = T - t; n = max(0, math.floor(rem + 1e-6))
-    since = (n + 1) - rem; last = n < 3 and since < 0.2
-    d = ImageDraw.Draw(fr); flash = n < 3 and since < 2 / fps
+    bx0, by0, bx1, by1 = (round(v) for v in box); hb = by1 - by0; left = max(0.0, 1 - t / T); rem = T - t; n = max(0, math.ceil(rem - 1e-6))
+    since = n - rem; hot = n <= 3                                        # the number shown changes when rem passes an integer
+    d = ImageDraw.Draw(fr); flash = hot and since < 2 / fps
     d.rounded_rectangle((bx0, by0, bx1, by1), radius=hb / 2, fill=INK, outline=tuple(pal['title']) if flash else (255, 255, 255), width=max(2, round(hb * 0.10)))
     ins = max(3, round(hb * 0.16)); w = (t / T - 0.7) / 0.3
     col = tuple(int(a_ + (b_ - a_) * min(1, max(0, w))) for a_, b_ in zip(pal['bar'], pal['accent']))
@@ -1070,16 +1101,18 @@ def draw_bar(fr, box, t, T, fps, pal, fbar, fnum, text):
             ImageDraw.Draw(sh).polygon([(x + hb * 0.5, 0), (x + hb * 0.5 + sw, 0), (x + sw, mh), (x, mh)], fill=90)
             fr.paste((255, 255, 255), (bx0, by0), ImageChops.multiply(m, sh))
     d.text((bx0 + hb * 0.7, (by0 + by1) / 2), text, font=fbar, anchor='lm', fill=(255, 255, 255), stroke_width=2, stroke_fill=INK)
-    s = 1 + 0.35 * max(0.0, 1 - since / 0.2) if n < 3 else 1.0; fs = round(fbar.size * s)
+    if rem < 0.5: return                                                 # no '0s' while the break still plays
+    s = 1 + 0.35 * max(0.0, 1 - since / 0.2) if hot else 1.0; fs = round(fbar.size * s)
     if fs not in fnum: fnum[fs] = font('archivo', fs)
-    d.text((bx1 - hb * 0.6, (by0 + by1) / 2), f'{n}s', font=fnum[fs], anchor='rm', fill=tuple(pal['title']) if n < 3 else (255, 255, 255), stroke_width=2, stroke_fill=INK)
+    d.text((bx1 - hb * 0.6, (by0 + by1) / 2), f'{n}s', font=fnum[fs], anchor='rm', fill=tuple(pal['title']) if hot else (255, 255, 255), stroke_width=2, stroke_fill=INK)
 
 
-def whip(arr, p, pal, seed):
-    """whip-pan out: the frame slides left, faster and faster, with a horizontal smear and speed lines."""
-    Hh, Ww = arr.shape[:2]; sft = round(Ww * p ** 2); fill = np.array(pal['b'], np.float32); acc = np.zeros(arr.shape, np.float32)
+def whip(arr, p, bg, seed):
+    """whip-pan out: the frame slides left, faster and faster, with a horizontal smear and speed lines; the empty
+    background (rays, halftone, floor) shows where the content has slid away, never a flat fill."""
+    Hh, Ww = arr.shape[:2]; sft = round(Ww * p ** 2); acc = np.zeros(arr.shape, np.float32)
     for j in range(4):
-        s = min(Ww, sft + round(12 * j * p)); o = np.empty(arr.shape, np.float32); o[:] = fill
+        s = min(Ww, sft + round(12 * j * p)); o = bg.astype(np.float32).copy()
         if s < Ww: o[:, :Ww - s] = arr[:, s:]
         acc += o
     im = Image.fromarray((acc / 4).astype(np.uint8)); d = ImageDraw.Draw(im); rng = np.random.default_rng(seed)
