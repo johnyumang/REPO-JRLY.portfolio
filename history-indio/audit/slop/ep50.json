@@ -1,0 +1,216 @@
+{
+ "episode": 50,
+ "audited_by": "voice-cast reader 1",
+ "keys_looked_at": 35,
+ "faults": [
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/dog_runs.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The running dog has an extra ear flap (two flaps on its left side plus the folded right ear) and pale whitish eyes that do not match each other, one with a brown iris and one without.",
+   "where": "dog's head, centre of frame: left ear pair and both eyes"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/shepherd_back.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The baby in the shepherd's arms is a faceless flesh-coloured lump covered in dark specks, with a second shapeless skin lump below it at his knee.",
+   "where": "left of the shepherd's chest, centre-right of frame"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/shepherd.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A grey rope of wool or smoke grows from the tip of the staff into a flat grey featureless sheep behind it, so staff and sheep are joined.",
+   "where": "top of the staff, left of the shepherd's face"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/old_page.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Both open pages carry bold letter-like glyph clusters at their top corners and rows of faint pseudo-text lines.",
+   "where": "page headers (three dark clusters) and the body of both pages"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/dog_child.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog is a heavy, broad-headed bully-type dog taller than the child with human-like eyes and a loose black hair-like curl above its head, not the slim street dog of k11, k25 and k27, and it has no red kerchief (none of this episode's dog shots k07, k11, k24, k25, k27, k28 has one).",
+   "where": "dog, left half of frame"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/dog_child.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy is drawn as a chubby toddler of about two or three with a round head, not the boy of about six seen in k06, k09, k10 and k11.",
+   "where": "boy, right half of frame"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/dog_child.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both of the boy's hands are fingerless stumps with a few scratch marks instead of fingers.",
+   "where": "both hands, at the sides of his body"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/shepherd.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The shepherd's hand on his knee is a smooth lump with no fingers and does not grip the staff that passes behind it.",
+   "where": "hand at his knee, left centre"
+  },
+  {
+   "key": "k02",
+   "shots": [
+    2
+   ],
+   "still": "full/clear_river.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The children on the footbridge are smeared figures with melted faces, the left group fused into one lump and looking unclothed.",
+   "where": "footbridge, upper right"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/brother_peace.png",
+   "type": "hands",
+   "must_fix": false,
+   "what": "A third pale fist sits on the shepherd brother's staff below the hand that grips it, attached to no arm.",
+   "where": "staff at hip height, right-hand figure"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/baby_lap.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The shepherd wears a long-sleeved shirt, brown trousers and a buckled leather belt instead of the short-sleeved cream tunic, bare legs and boots of k20, k21 and k28, and the baby is a toddler with a full head of brown hair rather than the infant of k25 to k27.",
+   "where": "shepherd's torso and legs; baby's head, centre"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/shepherd_back.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The shepherd wears a high-collared long-sleeved jacket, a red sash and olive trousers, unlike the short-sleeved tunic, brown belt and bare legs of k20, k21 and k28.",
+   "where": "shepherd's back, right of frame"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/shepherd_back.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The grazing sheep has a human-like eye, an irregular dark blotch across its forehead and a black smear with red flecks fused to its muzzle.",
+   "where": "sheep's head, lower centre"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/dog_sniff.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog has both ears folded down and a longer glossy coat, where the script and the other shots give it one folded ear and short hair.",
+   "where": "dog's head, upper left"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/last_light.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog is a long-haired collie type with a broad white band round its neck instead of a short-haired black dog with a white chest patch.",
+   "where": "dog lying beside the shepherd, lower centre"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/walk_on.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has no red handkerchief on the wrist of the hand that holds the woman's, although it is there in k06 and k17.",
+   "where": "Indio's right wrist, centre"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/child_reads.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy wears open black sandals and has dark brown hair and a deeper tan, while k06, k10 and k11 show him in closed dark sneakers with black hair.",
+   "where": "boy's feet and head, left half"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/bench_tala.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A bright green patch of the background foliage shows inside the older man's grey hair above his forehead.",
+   "where": "man's hairline, top centre"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/seth_page.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The still is a full-frame woodcut or fresco style painting with heavy ink lines and flat ochre colour, not anime, and it is not framed as a picture inside the scene, so the cut from k14 and to k16 jolts.",
+   "where": "whole frame"
+  }
+ ]
+}
