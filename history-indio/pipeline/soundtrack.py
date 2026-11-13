@@ -76,7 +76,7 @@ def true_peak(path, encode=False):
 
 
 LUFS_TOL = 0.5                               # an output is accepted at LUFS +/- LUFS_TOL and true peak <= TP
-TRIES = 4
+TRIES = 6
 
 
 def ebur(path, encode=False):
@@ -90,28 +90,98 @@ def ebur(path, encode=False):
     return g('I:'), g('Peak:')
 
 
+GUARD = 'loudness guard v3'                 # printed first by loudnorm2, so a log shows which guard ran
+GAIN_CAP = 36.0                              # dB: the most gain the guard applies to reach LUFS (more means the input is broken or silent)
+
+
+def _limit(x, lim_db, sr, attack=0.0015, release=0.06, blk=32):
+    """Look-ahead peak limiter done here at 4x oversampling, so its ceiling holds by construction: returns y (same shape as x,
+    rate sr) whose 4x-oversampled peak is at or under lim_db dBFS however hard x drives it. The gain is the per-block need
+    (min over the block and its neighbour), a look-ahead min over the attack, an exponential release, then a box smoothing over
+    the attack: every step can only lower the gain under what each sample needs, so no sample passes the ceiling. Material under
+    the ceiling comes back untouched. Up to 3 passes catch the small overshoot of the downsampling; a last plain scaling
+    (exact) covers whatever remains."""
+    from scipy.signal import resample_poly
+    L = 10 ** (lim_db / 20); y = x
+    for _ in range(3):
+        u = resample_poly(y, 4, 1, axis=0); a = np.abs(u).max(axis=1)
+        if a.max() <= L: return y
+        q = np.minimum(1.0, L / np.maximum(a, 1e-12)); nb = -(-len(q) // blk)
+        qb = np.pad(q, (0, nb * blk - len(q)), constant_values=1.0).reshape(nb, blk).min(axis=1)
+        pb = np.minimum(qb, np.r_[1.0, qb[:-1]])                                     # block j's gain also bounds the ramp into block j+1
+        na = max(1, int(round(attack * 4 * sr / blk)))
+        m = np.lib.stride_tricks.sliding_window_view(np.r_[pb, np.ones(na - 1)], na).min(axis=1)    # look-ahead: down before the peak
+        c = float(np.exp(-blk / (4 * sr * release))); d = 1.0 - m; r = np.empty(nb); h = 0.0
+        for j, dj in enumerate(d.tolist()):                                          # release: recover towards 1, never above the need
+            h = h * c
+            if dj > h: h = dj
+            r[j] = 1.0 - h
+        cs = np.cumsum(np.r_[np.full(na, r[0]), r]); s = (cs[na:] - cs[:-na]) / na          # attack smoothing (causal box over the look-ahead)
+        g = np.interp(np.arange(len(q)), np.arange(nb) * blk, s).astype(u.dtype)
+        y = resample_poly(u * g[:, None], 1, 4, axis=0)[:len(x)].astype(x.dtype)
+    p = np.abs(resample_poly(y, 4, 1, axis=0)).max()
+    return y * (L / p) if p > L else y
+
+
+def _read(src, af=''):
+    """src's audio as float32 (samples, channels) at SR, through the ffmpeg filter af if given."""
+    tmp = tempfile.mktemp(suffix='.wav')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-vn'] + (['-af', af] if af else []) + ['-ar', str(SR), '-c:a', 'pcm_f32le', tmp], check=True)
+    x, _ = sf.read(tmp, dtype='float32', always_2d=True); os.remove(tmp); return x
+
+
 def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
-    """Bring src's audio to LUFS (+/- LUFS_TOL) with the true peak at or under TP, measured as delivered (after the AAC encode
-    for a WAV dst). Each round: one linear gain plus an oversampled true-peak limiter (4x, 176.4 kHz), then measure the result
-    and correct both: the gain by the loudness error, the limiter by any true-peak overshoot + 0.5 dB. Up to TRIES rounds;
-    a file that still misses stops the run (SystemExit with a LOUDNESS GUARD FAILED line), so a file that is off is never kept.
-    (The old version used loudnorm's linear mode, which silently turns dynamic when the peaks forbid the gain and could land
-    1 dB low (Episode 11: -17.0 LUFS), and its retries checked only the peak, giving up at -0.5 dBTP (Episode 4).)
+    """Bring src's audio to LUFS (+/- LUFS_TOL) with the true peak at or under TP, both measured as delivered (after the AAC
+    encode for a WAV dst; dst's own audio for an MP4). Each round: one linear gain, then the look-ahead limiter of _limit at
+    4x oversampling (its ceiling holds by construction), then dst is written and measured. The control is monotone: the limiter
+    only ever goes down (by the measured encode overshoot + 0.3 dB when the peak is over), the gain is never raised in a round
+    whose peak was over, gain steps use the measured loudness-per-dB slope, and the total gain is capped at GAIN_CAP. Up to
+    TRIES rounds; dst keeps the best round under the ceiling. A file that still misses stops the run (SystemExit with a
+    LOUDNESS GUARD FAILED line). (v1 used loudnorm, which turns dynamic when the peaks forbid the gain (Episode 11: -17.0 LUFS),
+    then ffmpeg's alimiter without delay compensation: its 2 ms shift alone moved the AAC overshoot by up to 1 dB, and lowering
+    it only clipped harder (Episode 22: -1.0 -> +0.1 -> +0.8 dBTP). v2 (24b37df) kept alimiter, whose hard clip at the limit
+    rebounds after the band-limit: set at -2.5 and driven 18 dB it delivered -0.1 dBTP.)
     Returns (before, after) LUFS."""
+    print(GUARD, flush=True)
     i0, tp0 = ebur(src)
-    gain, lim = LUFS - i0, TP - 1.0          # dB; the limiter starts 1 dB under the ceiling for the AAC encode's overshoot
+    if i0 <= -69.0 or LUFS - i0 > GAIN_CAP:
+        raise SystemExit(f'LOUDNESS GUARD FAILED: {dst}: input is {i0:.2f} LUFS, it needs more than the {GAIN_CAP:.0f} dB gain cap to reach '
+                         f'{LUFS} (silent, broken or too short to measure). Do not publish this file.')
+    x = _read(src)                                                                   # no low-pass: v2's 16 kHz IIR one changed the mix by -22 dB (phase)
+    enc = check_encoded and dst.lower().endswith('.wav'); tmp = tempfile.mktemp(suffix='.wav')
+    ex = list(extra); maps = ['1:a:0' if (k and ex[k - 1] == '-map' and e.startswith('0:a')) else e for k, e in enumerate(ex)]
+    if '-map' not in ex: maps = ['-map', '1:a:0'] + maps                             # input 0 = src (video, if any), input 1 = the limited audio
+    gain, lim, over = LUFS - i0, TP - 0.5, 0.0                                       # limiter 0.5 dB under the ceiling, as v1; over: largest encode overshoot (dB)
+    rounds, best = [], None
+    def render(g, l):
+        sf.write(tmp, _limit(x * np.float32(10 ** (g / 20)), l, SR), SR, subtype='FLOAT')
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-i', tmp] + maps + [dst], check=True)
+        return ebur(dst, encode=enc)
     for k in range(TRIES):
-        af = (f'volume={gain:.3f}dB,lowpass=f=16000:poles=2,aresample=176400:resampler=soxr,'          # 16 kHz: the AAC encode drops it anyway, and
-              f'alimiter=limit={10 ** (lim / 20):.5f}:attack=0.5:release=60:level=false:latency=true,aresample={SR}:resampler=soxr')   # full-band hits overshoot after it
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-af', af] + list(extra) + [dst], check=True)
-        i, _ = ebur(dst); _, tp = ebur(dst, encode=check_encoded and dst.lower().endswith('.wav'))
+        i, tp = render(gain, lim); rounds.append((gain, lim, i, tp))
         print(f'loudness round {k + 1}: gain {gain:+.2f} dB, limiter {lim:.2f} dBTP -> {i:.2f} LUFS, true peak {tp:.2f} dBTP', flush=True)
-        if abs(i - LUFS) <= LUFS_TOL and tp <= TP and (abs(i - LUFS) <= 0.2 or k == TRIES - 1): return i0, i
-        gain += LUFS - i                                                               # loudness error (limiting the peaks costs a little level)
-        if tp > TP: lim -= (tp - TP) + 0.5                                             # peak leaked through the encode: lower the ceiling with room
+        ok = abs(i - LUFS) <= LUFS_TOL and tp <= TP
+        if tp <= TP and (best is None or abs(i - LUFS) < abs(best[2] - LUFS)): best = rounds[-1]
+        if ok and abs(i - LUFS) <= 0.2: break
+        over = max(over, tp - lim)
+        if tp > TP:                                                                  # peak over: lower the limiter, never raise the gain
+            lim = min(lim - 0.3, TP - over - 0.3)
+            if i > LUFS: gain -= i - LUFS
+            continue
+        same = [r for r in rounds[:-1] if r[1] == lim and abs(r[0] - gain) > 0.05]
+        slope = 1.0
+        if same: slope = min(1.0, max(0.15, (i - same[-1][2]) / (gain - same[-1][0])))  # loudness per dB of gain: limiting eats some of it
+        step = max(-12.0, min(12.0, (LUFS - i) / slope))
+        if abs(step) < 0.02: break
+        gain = max(-GAIN_CAP, min(GAIN_CAP, gain + step))
+    if best is not None and best is not rounds[-1]:
+        i, tp = render(best[0], best[1])                                             # keep the best round under the ceiling
+    os.remove(tmp)
     if abs(i - LUFS) <= LUFS_TOL and tp <= TP: return i0, i
+    why = (f'loudness cannot reach {LUFS - LUFS_TOL} without the true peak going over the ceiling; kept the peak under it'
+           if tp <= TP and i < LUFS else f'loudness did not settle in {TRIES} rounds' if tp <= TP else 'the true peak stays over the ceiling')
     raise SystemExit(f'LOUDNESS GUARD FAILED: {dst}: {i:.2f} LUFS (target {LUFS} +/- {LUFS_TOL}), true peak {tp:.2f} dBTP (ceiling {TP}) '
-                     f'after {TRIES} rounds; input was {i0:.2f} LUFS / {tp0:.2f} dBTP. Do not publish this file.')
+                     f'after {len(rounds)} rounds; input was {i0:.2f} LUFS / {tp0:.2f} dBTP; {why}. Do not publish this file.')
 
 
 def make(voice_path, cuts, hits, out_path):
