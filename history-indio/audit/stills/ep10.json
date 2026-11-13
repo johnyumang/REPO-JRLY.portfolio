@@ -14,7 +14,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The signs on the right gate pillar carry large readable pseudo-text ('Pinc', 'OUSUAL 2U..', 'QAO-SOR', 'QUEEN S..') and the white sign has a round logo."
+   "what": "The signs on the right gate pillar carry large readable pseudo-text ('Pinc', 'OUSUAL 2U..', 'QAO-SOR', 'QUEEN S..') and the white sign has a round logo.",
+   "fixed": true
   },
   {
    "still": "plates/school_gate.jpg",
@@ -35,7 +36,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The open history book the boy holds has a large readable pseudo-title and columns of pseudo-text."
+   "what": "The open history book the boy holds has a large readable pseudo-title and columns of pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/lolo_marker.jpg",
@@ -44,7 +46,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The historical marker plaque in the centre is covered in rows of crisp letter-like pseudo-text plus a small emblem, where the prompt asked for illegible lines."
+   "what": "The historical marker plaque in the centre is covered in rows of crisp letter-like pseudo-text plus a small emblem, where the prompt asked for illegible lines.",
+   "fixed": true
   },
   {
    "still": "full/gate_marker.jpg",
@@ -53,7 +56,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The bronze plaque in the foreground shows several rows of glyph-like pseudo-text."
+   "what": "The bronze plaque in the foreground shows several rows of glyph-like pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/indio_stop.jpg",
@@ -62,7 +66,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The stone post in the bottom-left foreground is carved with the readable word 'REVIKE'."
+   "what": "The stone post in the bottom-left foreground is carved with the readable word 'REVIKE'.",
+   "fixed": true
   },
   {
    "still": "full/scott_book.jpg",
@@ -71,7 +76,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The open book that fills the frame is covered in large hand-written pseudo-characters that look Chinese."
+   "what": "The open book that fills the frame is covered in large hand-written pseudo-characters that look Chinese.",
+   "fixed": true
   },
   {
    "still": "full/tin_open.jpg",
@@ -80,7 +86,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The young man opening the tin is not Indio: spiky hair with no topknot, pale skin, a vest over a teal shirt and coloured floral tattoos all over both hands."
+   "what": "The young man opening the tin is not Indio: spiky hair with no topknot, pale skin, a vest over a teal shirt and coloured floral tattoos all over both hands.",
+   "fixed": true
   },
   {
    "still": "full/boy_hand.jpg",
