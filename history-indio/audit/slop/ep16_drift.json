@@ -1,0 +1,73 @@
+{
+ "episode": 16,
+ "note": "Character-drift LOOK (central's list): every listed still opened at full size; redraws use the corrected prompt with the episode's own clothes; each kept redraw checked at 3x (hands, paws) and against neighbouring keys. Skin: kept redraws follow the cast string (warm brown skin), darker than some older stills of the episode.",
+ "looked": [
+  "sakai_aerial",
+  "m_condition",
+  "handshake",
+  "usman_leap",
+  "usman_joke",
+  "usman_cucumber",
+  "arrow_light",
+  "tubal_ring",
+  "tubal_smile",
+  "tubal_card",
+  "fox_far",
+  "m_asks",
+  "silent",
+  "m_sad",
+  "m_door",
+  "two_doors",
+  "question_end",
+  "fox_lantern"
+ ],
+ "kept_as_is": [
+  "sakai_aerial",
+  "handshake",
+  "usman_cucumber",
+  "arrow_light",
+  "tubal_smile",
+  "tubal_card",
+  "fox_far",
+  "m_sad",
+  "two_doors",
+  "question_end",
+  "fox_lantern"
+ ],
+ "redrawn": [
+  {
+   "still": "full/usman_leap.jpg",
+   "why": "Usman with both ears upright in a full-frame close-up; now one ear folded",
+   "draws": 2
+  },
+  {
+   "still": "full/usman_joke.jpg",
+   "why": "Usman with both ears upright and a CJK seal mark in the corner; now one ear folded, plain jar, no marks",
+   "draws": 2
+  },
+  {
+   "still": "full/m_asks.jpg",
+   "why": "M with brown hair and a different face; now long straight black hair, dark coat, red umbrella, medallion",
+   "draws": 2
+  },
+  {
+   "still": "full/m_condition.jpg",
+   "why": "M with bob hair and a grey blur blob over the frame; now long black hair, Indio only as a white-polo shoulder at the edge",
+   "draws": 2
+  }
+ ],
+ "left": [
+  {
+   "still": "full/m_door.jpg",
+   "why": "M's hair shoulder-length instead of waist-length; still reads as M (coat, red umbrella)"
+  },
+  {
+   "still": "full/tubal_ring.jpg",
+   "why": "blurred man in a black tee in the background; not a recurring character's close shot"
+  },
+  {
+   "still": "full/silent.jpg",
+   "why": "small letter-like marks on the medallion rim (writing, not character drift)"
+  }
+ ]
+}
