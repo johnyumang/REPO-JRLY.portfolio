@@ -12,7 +12,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "A lit vertical shop sign at the right edge, beside Indio's head, carries rows of Japanese-looking glyphs; it is the intro shot, so it reads at once."
+   "what": "A lit vertical shop sign at the right edge, beside Indio's head, carries rows of Japanese-looking glyphs; it is the intro shot, so it reads at once.",
+   "fixed": true
   },
   {
    "still": "full/song_court.jpg",
@@ -21,7 +22,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The palace eave boards across the top carry pseudo-Chinese glyph rows (fitting for the Song court, but they are made-up characters)."
+   "what": "The palace eave boards across the top carry pseudo-Chinese glyph rows (fitting for the Song court, but they are made-up characters).",
+   "rejected": "redraw was worse (1 try: a green eave board came back with glyph marks in the middle of the picture); minor, original kept"
   }
  ]
 }
