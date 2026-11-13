@@ -1,7 +1,58 @@
-{"episode": 7, "audited_by": "ep06-voice-worker", "stills_looked_at": 41, "clean": false, "defects": [
- {"still": "full/letter.jpg", "shots": [11], "type": "writing", "must_fix": true, "what": "The old letter filling the phone screen is covered in six lines of pseudo-cursive that reads as gibberish."},
- {"still": "full/phone_dying.jpg", "shots": [36], "type": "writing", "must_fix": true, "what": "The letter on the phone screen carries about nine lines of pseudo-cursive gibberish."},
- {"still": "full/phone_photo.jpg", "shots": [6], "type": "writing", "must_fix": false, "what": "The photographed letter on the phone shows blurred rows of pseudo-handwriting."},
- {"still": "full/memory_lolo.jpg", "shots": [27], "type": "logo", "must_fix": false, "what": "A small garbled signature-like line of text sits in the bottom-left corner."},
- {"still": "chars/usman_dig.jpg", "shots": [0], "type": "off_model", "must_fix": false, "what": "Usman digging has no white chest patch and both ears pricked instead of one folded."}
-]}
+{
+ "episode": 7,
+ "audited_by": "ep06-voice-worker",
+ "stills_looked_at": 41,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/letter.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The old letter filling the phone screen is covered in six lines of pseudo-cursive that reads as gibberish.",
+   "fixed": true
+  },
+  {
+   "still": "full/phone_dying.jpg",
+   "shots": [
+    36
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The letter on the phone screen carries about nine lines of pseudo-cursive gibberish.",
+   "fixed": true
+  },
+  {
+   "still": "full/phone_photo.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The photographed letter on the phone shows blurred rows of pseudo-handwriting.",
+   "fixed": true
+  },
+  {
+   "still": "full/memory_lolo.jpg",
+   "shots": [
+    27
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small garbled signature-like line of text sits in the bottom-left corner.",
+   "rejected": "redraw removed the mark but changed Lolo (full beard, different face); the original is kept (1 try, minor)"
+  },
+  {
+   "still": "chars/usman_dig.jpg",
+   "shots": [
+    0
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman digging has no white chest patch and both ears pricked instead of one folded.",
+   "left": "minor; a cutout redraw would need a matching green-screen composite, not tried"
+  }
+ ]
+}
