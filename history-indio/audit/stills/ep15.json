@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The stele fills the frame and is carved with two large columns of fake Chinese characters."
+   "what": "The stele fills the frame and is carved with two large columns of fake Chinese characters.",
+   "fixed": true
   },
   {
    "still": "full/tomb_build.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The stele the two workers are raising in the centre of the lens view is covered in fake Chinese characters."
+   "what": "The stele the two workers are raising in the centre of the lens view is covered in fake Chinese characters.",
+   "fixed": true
   },
   {
    "still": "full/notebook_writes.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The open notebook page in the centre is filled with lines of fake gold cursive."
+   "what": "The open notebook page in the centre is filled with lines of fake gold cursive.",
+   "fixed": true
   },
   {
    "still": "full/dates_pages.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Three book pages show huge brushed pseudo-numbers (\"10\", \"20\", a cut-off \"1?\") across the middle of the frame, and none of them is a date the script needs."
+   "what": "Three book pages show huge brushed pseudo-numbers (\"10\", \"20\", a cut-off \"1?\") across the middle of the frame, and none of them is a date the script needs.",
+   "fixed": true
   },
   {
    "still": "full/lola_confess.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Indio's head and shoulders sit inside a black-bordered rectangular inset at upper right, a frame inside the frame."
+   "what": "Indio's head and shoulders sit inside a black-bordered rectangular inset at upper right, a frame inside the frame.",
+   "fixed": true
   },
   {
    "still": "full/flame_steady.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "A small temple building is pasted over the bridge of the nose, between the eyes of the large face behind the lamp."
+   "what": "A small temple building is pasted over the bridge of the nose, between the eyes of the large face behind the lamp.",
+   "fixed": true
   },
   {
    "still": "full/holo_slots4.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The face inside the ring of hologram slots is a long-haired woman with no topknot and hooks on her cheeks, not Indio."
+   "what": "The face inside the ring of hologram slots is a long-haired woman with no topknot and hooks on her cheeks, not Indio.",
+   "fixed": true
   },
   {
    "still": "chars/indio_point_modern.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Indio has blue floral tattoo sleeves on both forearms in this pointing cutout."
+   "what": "Indio has blue floral tattoo sleeves on both forearms in this pointing cutout.",
+   "fixed": true
   },
   {
    "still": "full/holo_slot.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "The face in the centre of the hologram ring is a short-haired, girlish face with no topknot, which does not read as Indio."
+   "what": "The face in the centre of the hologram ring is a short-haired, girlish face with no topknot, which does not read as Indio.",
+   "fixed": true
   },
   {
    "still": "full/tomb_day.jpg",
@@ -92,7 +101,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The tomb's face stone has one large fake character at the top and small columns of fake characters below it."
+   "what": "The tomb's face stone has one large fake character at the top and small columns of fake characters below it.",
+   "fixed": true
   },
   {
    "still": "full/clue_sketch.jpg",
@@ -101,7 +111,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Scribbled pseudo-text in the lower right of the notebook page under Indio's hand."
+   "what": "Scribbled pseudo-text in the lower right of the notebook page under Indio's hand.",
+   "fixed": true
   },
   {
    "still": "full/indio_slump.jpg",
