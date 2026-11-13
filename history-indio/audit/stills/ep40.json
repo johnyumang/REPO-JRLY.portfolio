@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Indio holds a paper with large readable pseudo-text in the lower right (\"PASSAFEAR LIST\" and lines of fake words)."
+   "what": "Indio holds a paper with large readable pseudo-text in the lower right (\"PASSAFEAR LIST\" and lines of fake words).",
+   "fixed": true
   },
   {
    "still": "full/totoy_hurt.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "logo",
    "must_fix": true,
-   "what": "Totoy's cap carries a blue badge logo with pseudo-letters, centred in the frame."
+   "what": "Totoy's cap carries a blue badge logo with pseudo-letters, centred in the frame.",
+   "fixed": true
   },
   {
    "still": "full/indio41.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A newspaper along the bottom edge shows rows of fake print and red pseudo-letters."
+   "what": "A newspaper along the bottom edge shows rows of fake print and red pseudo-letters.",
+   "fixed": true
   },
   {
    "still": "full/rico_phone40.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The phone frame shows a small pseudo-word at the top of the screen."
+   "what": "The phone frame shows a small pseudo-word at the top of the screen.",
+   "fixed": true
   },
   {
    "still": "full/list.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The whole frame is a page of wavy pseudo-handwriting lines (no letters, but reads as text)."
+   "what": "The whole frame is a page of wavy pseudo-handwriting lines (no letters, but reads as text).",
+   "rejected": "the line is about a passenger list, the strokes are wavy lines with no letters, and it was checked at full size when the episode was built"
   },
   {
    "still": "full/totoy_shout.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The map Totoy holds up has tiny pseudo-labels."
+   "what": "The map Totoy holds up has tiny pseudo-labels.",
+   "fixed": true
   },
   {
    "still": "full/lanterns.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "Rows of Chinese-style red paper lanterns hang from the ark's rigging in a Philippine shipyard."
+   "what": "Rows of Chinese-style red paper lanterns hang from the ark's rigging in a Philippine shipyard.",
+   "fixed": true
   },
   {
    "still": "full/lantern_glow.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "A single Japanese-style red paper lantern (chochin) fills the frame."
+   "what": "A single Japanese-style red paper lantern (chochin) fills the frame.",
+   "fixed": true
   },
   {
    "still": "full/esteros.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "The cleaned estero runs through a city whose street and buildings look Japanese rather than Philippine."
+   "what": "The cleaned estero runs through a city whose street and buildings look Japanese rather than Philippine.",
+   "fixed": true
   },
   {
    "still": "full/ark_launch.jpg",
@@ -92,7 +101,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "Many people float in the air above the launching ark, a crowd of fan-art figures with no ground under them."
+   "what": "Many people float in the air above the launching ark, a crowd of fan-art figures with no ground under them.",
+   "fixed": true
   }
  ]
 }
