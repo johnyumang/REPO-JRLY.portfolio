@@ -3,7 +3,7 @@
 ## Facebook (Reels)
 SEASON 5, EPISODE 47: Ang ikalawang hiling ni Indio: isang gabi na ligtas ang lahat. Huminto ang ulan sa buong mundo, lumabas ang puting buwan, at sa unang pagkakataon, buo ang pamilya niya. At ngayong gabi, walang pumigil sa kanila ni M. 🌕
 
-Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Kathang-isip sina Indio, M, Usman, Lola Ising, Inay, Itay, Tala, Kapitan Totoy, ang mga arko at ang tatlong hiling. Totoo: labing-isang balangay ang nahukay sa Butuan (mga taong 689 hanggang 988). Ayon sa teksto: Genesis 11:1–9 (ang Babel). Pinagtatalunan kung sa "balangay" galing ang "barangay".
+Ang tagpo ay ayon sa salaysay ng serye; kathang-isip ang mga tauhan. Kathang-isip sina Indio, M, Usman, Lola Ising, Inay, Itay, Tala, Kapitan Totoy, ang mga arko at ang tatlong hiling. Totoo: labing-isang balangay ang natagpuan sa Butuan (mga taong 689 hanggang 988). Ayon sa teksto: Genesis 11:1–9 (ang Babel). Pinagtatalunan kung sa "balangay" galing ang "barangay".
 
 👉 Kung may isang gabing ligtas ang lahat, sino ang gusto mong kasama? Comment mo.
 I-follow ang History Indio para sa huling labanan!
