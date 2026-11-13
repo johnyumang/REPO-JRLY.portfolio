@@ -39,10 +39,11 @@
    "must_fix": true,
    "what": "A second tin pot floats in the air pouring into the cup the fisherman holds, and no hand is holding it.",
    "where": "left middle, the fisherman's cup",
-   "fixed": false,
-   "needs_figma": true,
+   "fixed": true,
+   "needs_figma": false,
    "how": "the free image service returned CONTENT_FILTERED on every draw, the simplified prompt too; full prompt in key_prompts.json full.fisherman_coffee",
-   "free_hq_note": "retried with the many-draws way: round 1 and a reworded round removing the floating pot (the fisherman holds one metal cup, others' hands down, no kettle) both returned CONTENT_FILTERED on every draw; even a trivial control prompt (empty jetty with a steaming cup) filtered after a 10-minute pause, so the free image service refused all output and no candidate could be made; still and needs_figma left as they are"
+   "free_hq_note": "retried with the many-draws way: round 1 and a reworded round removing the floating pot (the fisherman holds one metal cup, others' hands down, no kettle) both returned CONTENT_FILTERED on every draw; even a trivial control prompt (empty jetty with a steaming cup) filtered after a 10-minute pause, so the free image service refused all output and no candidate could be made; still and needs_figma left as they are",
+   "fix_note": "Central, 13 Nov (the service answered from the central machine; it had refused every draw on another machine): the picture was made simpler. The fisherman of fisherman_smile (white skullcap, grey stubble, dark V-neck shirt) sits behind the boat bench and smiles; ONE tin cup of coffee steams on the bench in front; his arms leave the frame, so there is no hand and no pot to float; the carved bird prow is behind him. Six draws, seed 33 chosen; looked at full size: one cup, no second vessel, face clean. Indio and M are no longer in this still; the line is said from their side (\"nag-abot sa amin ng kape\")."
   },
   {
    "key": "k15",
