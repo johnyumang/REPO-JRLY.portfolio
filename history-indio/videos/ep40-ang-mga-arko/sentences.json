@@ -88,8 +88,8 @@
   "speaker": "M"
  },
  {
-  "text": "Nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.",
-  "say": "nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.",
+  "text": "Nakasulat sa Genesis siyam, talata labing-isa: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.",
+  "say": "nakasulat sa henesis siyam, talata labing-isa: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
@@ -296,8 +296,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Si Totoy, ang batang binigyan ko noon ng kalahating tinapay, labinsiyam na ngayon.",
-  "say": "si totoy, ang batang binigyan ko noon ng kalahating tinapay, labinsiyam na ngayon.",
+  "text": "Si Totoy, ang batang binigyan ko noon ng kalahating tinapay, dalawampu't tatlo na ngayon.",
+  "say": "si totoy, ang batang binigyan ko noon ng kalahating tinapay, dalawampu't tatlo na ngayon.",
   "style": "warm",
   "pre": 0,
   "pause": 0.3,
@@ -325,7 +325,7 @@
   "style": "sad",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "TOTOY"
+  "speaker": "TOTOY_BINATA"
  },
  {
   "text": "Si Rufino Paredes.",
@@ -333,7 +333,7 @@
   "style": "",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "TOTOY"
+  "speaker": "TOTOY_BINATA"
  },
  {
   "text": "Iniwan niya kami.",
@@ -341,7 +341,7 @@
   "style": "",
   "pre": 0,
   "pause": 0.3,
-  "speaker": "TOTOY"
+  "speaker": "TOTOY_BINATA"
  },
  {
   "text": "Kapitan Totoy, ako ang tagatikim ng ulam mo!",
@@ -472,16 +472,16 @@
   "speaker": "INDIO"
  },
  {
-  "text": "At sa Pahayag labindalawa, talata labinlima, ang ahas na nagbuga ng tubig na gaya ng isang ilog.",
-  "say": "at sa pahayag labindalawa, talata labinlima, ang ahas na nagbuga ng tubig na gaya ng isang ilog.",
+  "text": "At sa Pahayag labindalawa, talata labinlima, sa buod: ang ahas na nagbuga ng tubig na gaya ng isang ilog.",
+  "say": "at sa pahayag labindalawa, talata labinlima, sa buod: ang ahas na nagbuga ng tubig na gaya ng isang ilog.",
   "style": "serious",
   "pre": 0,
   "pause": 0.3,
   "speaker": "INDIO"
  },
  {
-  "text": "Kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito, at lahat ng tauhan.",
-  "say": "kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito, at lahat ng tauhan.",
+  "text": "Kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito at lahat ng tauhan; kuwentong-bayan ang mga nilalang.",
+  "say": "kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito at lahat ng tauhan; kuwentong bayan ang mga nilalang.",
   "style": "somber",
   "pre": 0,
   "pause": 0.62,
@@ -509,7 +509,7 @@
   "style": "curious",
   "pre": 0,
   "pause": 0.42,
-  "speaker": "TOTOY"
+  "speaker": "TOTOY_BINATA"
  },
  {
   "text": "Napapikit si M, natawa ako.",

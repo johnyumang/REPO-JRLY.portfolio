@@ -1,5 +1,5 @@
 # MASTER script (Season 4 format): one line per speaker turn, NAME: [tone] text. script.txt, script_elevenlabs.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: INDIO (narration and his lines; the clone of the user's own recording; here 41, in his first year as President), M (calm, low, unhurried; designed voice; she quotes Genesis 9:11 exactly, in part, from Ang Dating Biblia 1905), SEBYO (Tay Sebyo Lumantas: old, slow, sure, a Visayan lilt; existing designed voice), GURO (Ma'am Celia; existing designed voice), TOTOY (Totoy, now nineteen: existing designed voice, a little older), USMAN (quick, warm, a little gravelly; designed voice), SINAG (the tempter: smooth, friendly, too easy; existing designed voice). God is given no new words: M quotes scripture only. No new voices.
+# Speakers: INDIO (narration and his lines; the clone of the user's own recording; here 41, in his first year as President), M (calm, low, unhurried; designed voice; she quotes Genesis 9:11 exactly, in part, from Ang Dating Biblia 1905), SEBYO (Tay Sebyo Lumantas: old, slow, sure, a Visayan lilt; existing designed voice), GURO (Ma'am Celia; existing designed voice), TOTOY (Totoy, now twenty-three: existing designed voice, a little older), USMAN (quick, warm, a little gravelly; designed voice), SINAG (the tempter: smooth, friendly, too easy; existing designed voice). God is given no new words: M quotes scripture only. No new voices. TOTOY_BINATA is the grown Totoy (designed voice on cast kit 3); the child voice TOTOY is not used in this episode.
 
 INDIO: [dramatic] Isandaang balangay, kasinlaki ng mga gusali, itinatayo sa bawat baybayin, sa harap ng lahat.
 INDIO: [suspense] Dahil darating ang tubig na hindi galing sa langit.
@@ -14,7 +14,7 @@ INDIO: [serious] Ang panunumpa sa harap ng bayan, ipinagpaliban ko hanggang mata
 
 INDIO: [somber] Ipinatawag ko si M, at matagal siyang tumahimik.
 M: [serious] Hindi ito baha ng Diyos, Indio.
-M: [serious] Nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.
+M: [serious] Nakasulat sa Genesis siyam, talata labing-isa: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha.
 M: [whisper] Ang tubig na darating ay ibinubuga ng dragon.
 INDIO: [suspense] Wala na siyang idinagdag, pero nasa mata niya ang takot na hindi ko pa nakikita.
 
@@ -41,10 +41,10 @@ INDIO: [excited] Binuhat ng Higante ng Hermon ang mga biga ng kilya, at hinila n
 INDIO: [playful] Tumalon-talon si Spring-heeled Jack sa mga palo para itali ang mga lubid.
 INDIO: [curious] Bantay sa gabi ang nahual, at ang yeti ang nagbaba ng mga troso mula sa bundok.
 
-INDIO: [warm] Si Totoy, ang batang binigyan ko noon ng kalahating tinapay, labinsiyam na ngayon.
+INDIO: [warm] Si Totoy, ang batang binigyan ko noon ng kalahating tinapay, dalawampu't tatlo na ngayon.
 INDIO: [warm] Si Tay Sebyo ang nagtuturo sa kanya kung paano basahin ang hangin.
 INDIO: [sad] Isang gabi, nakita niya sa balita ang lalaking sumira ng floodgate sa San Lorenzo.
-TOTOY: [sad] Kuya, tatay ko po 'yan. Si Rufino Paredes. Iniwan niya kami.
+TOTOY_BINATA: [sad] Kuya, tatay ko po 'yan. Si Rufino Paredes. Iniwan niya kami.
 USMAN: [excited] Kapitan Totoy, ako ang tagatikim ng ulam mo!
 INDIO: [warm] Sinadya ni Usman na malakas, para marinig ng buong bakuran.
 
@@ -63,12 +63,12 @@ INDIO: [serious] Lilinawin ko ngayon.
 INDIO: [serious] Tiyak: ang mga balangay ng Butuan ay mga bangkang tabla na pinagdugtong ng tarugo at tali.
 INDIO: [curious] Nahukay ang mga ito mula 1976, at may mga petsang mula mga taong 689 hanggang 988.
 INDIO: [curious] Kasulatan: sa Genesis siyam, talata labing-isa, ang pangakong hindi na lilipulin ng baha ang lahat.
-INDIO: [serious] At sa Pahayag labindalawa, talata labinlima, ang ahas na nagbuga ng tubig na gaya ng isang ilog.
-INDIO: [somber] Kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito, at lahat ng tauhan.
+INDIO: [serious] At sa Pahayag labindalawa, talata labinlima, sa buod: ang ahas na nagbuga ng tubig na gaya ng isang ilog.
+INDIO: [somber] Kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito at lahat ng tauhan; kuwentong-bayan ang mga nilalang.
 
 INDIO: [warm] Isang gabi, sa pampang ng ilog Agusan, nakaupo kami ni M sa isang tapos na arko.
 INDIO: [warm] Lumapit siya, isang dangkal na lang.
-TOTOY: [curious] Kuya Indio, paano po ba basahin 'tong mapa ng hangin?
+TOTOY_BINATA: [curious] Kuya Indio, paano po ba basahin 'tong mapa ng hangin?
 INDIO: [playful] Napapikit si M, natawa ako. Naputol na naman.
 
 INDIO: [serious] Kaya ikaw, ka-Indio, i-comment mo.
