@@ -19,7 +19,9 @@ render: spec.json (paths are relative to the spec file)
    "subjects": [{"image": "subject.png", "label": "KAGWANG", "from_line": 1}],
    "lines": [{"speaker": "USMAN", "text": "Teka, patalastas muna!", "wav": "l0.wav", "emphasis": ["patalastas"]}, ...],
    "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento",
-   optional: "calm": true (a grave episode: no frame shake or flash frame, softer lower sting, slower pops with less overshoot),
+   optional: "calm": true (a grave episode: no frame shake or flash frame, softer lower sting, slower pops with less overshoot;
+   in the bold layout the DUSK look: a night-blue ground with one faint warm glow, no rays, dots or sparkles, muted gold type,
+   a fade up from black and down to black inside the break's length, and a music bed 4 dB lower without its hi-hat),
    "layout": "bold" (default: BOLD) | "classic" (version 1: BOXES), "joke_line": index of the joke (default: the
    one before the last; the listener cracks up on it), subjects[].pulse: words that make the subject pulse (default: the label)}
   Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
@@ -433,6 +435,24 @@ def background(W, H, pal, center):
     return ang, mk(pal['a']).astype(np.uint8), mk(pal['b']).astype(np.uint8)
 
 
+def dusk_ground(W, H, pal, glow_c, floor_y):
+    """the calm ground: night blue at the top to indigo below, a soft vignette, a darker stage floor with a faint rim of
+    light, and (returned apart, to be faded in) one warm lamp glow round glow_c. A fixed fine grain keeps the dark
+    gradient from banding. Returns (base, glow) as float32 H x W x 3."""
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32); v = (yy / H)[..., None]
+    top, bot = np.array(pal['top'], np.float32), np.array(pal['bottom'], np.float32)
+    base = top + (bot - top) * np.clip(v / 0.85, 0, 1) ** 1.1
+    fl = yy >= floor_y; dv = ((yy - floor_y) / max(1, H - floor_y))[..., None]
+    base = np.where(fl[..., None], np.array(pal['floor'], np.float32) * (1 - 0.35 * dv), base)
+    base += np.array(pal['edge'], np.float32) * 0.16 * np.exp(-((yy - floor_y) / 2.5) ** 2)[..., None]   # the floor's rim
+    d = np.hypot((xx - W / 2) / (W * 0.70), (yy - H * 0.46) / (H * 0.62))
+    base *= (1 - 0.55 * np.clip((d - 0.45) / 0.85, 0, 1) ** 1.4)[..., None]                              # vignette
+    base += np.random.default_rng(5).normal(0, 0.7, base.shape).astype(np.float32)                       # grain
+    g = np.exp(-(((xx - glow_c[0]) / (H * 0.24)) ** 2 + ((yy - glow_c[1]) / (H * 0.20)) ** 2))
+    glow = np.array(pal['glow'], np.float32) * 0.20 * g[..., None]
+    return base, glow
+
+
 # ---------------------------------------------------------------------------------------------------------- render
 def load_spec(a):
     spec = json.load(open(a.spec)); base = os.path.dirname(os.path.abspath(a.spec))
@@ -819,7 +839,11 @@ def render_bold(a, spec, P):
     voices, starts, T, N, wav, gap = make_sound(spec, P, fps)
     calm = bool(spec.get('calm'))      # a grave episode: no frame shake or flash, slower pops with less overshoot (softer sting in make_sound)
     PK, BK = (1.7, 1.0) if calm else (1.0, 2.0)
-    if calm: print('calm: no frame shake, no flash frame, pops x%.1f slower, softer sting' % PK, flush=True)
+    HK = 0.5 if calm else 1.0                                       # calm: hops at half height
+    if calm:
+        pal = dusk_palette(spec.get('palette', 'sun'))
+        print('calm: dusk look (night-blue ground, one warm glow, no rays, dots or sparkles, fade from and to black), no frame shake, '
+              'no flash frame, pops x%.1f slower, softer sting, bed 4 dB lower without hi-hat' % PK, flush=True)
     BX = {k: px(v, W, H) for k, v in BOLD.items()}; ext, win = {}, {}; allow = set()
     ends = [s + len(v) / SR for s, v in zip(starts, voices)]
 
@@ -859,11 +883,11 @@ def render_bold(a, spec, P):
         ext[name] = (cx + e[0], bot + e[1] - hop_px, cx + e[2], bot + e[3])
         rise = name == first
         sprites[name] = dict(im=im, dim=dim, cx=cx, bot=bot, ph=0.0 if name == 'INDIO' else 1.7, side=-1 if name == 'INDIO' else 1,
-                             rise=rise, enter=0.0 if rise else 0.25, dur=0.30 if rise else 0.42, hops=[], nods=[], laugh=None)
+                             rise=rise, enter=0.0 if rise else 0.25, dur=(0.30 if rise else 0.42) * (1.8 if calm else 1.0), hops=[], nods=[], laugh=None)
         win[name] = (sprites[name]['enter'] + sprites[name]['dur'] + 0.1, T)
         print(f'{name}: sprite {im.width} x {im.height} px ({im.height / H:.3f} H), feet at {bot / H:.3f} H', flush=True)
     for li, (c, l) in enumerate(zip(caps, lines)):                         # hop at each line start; nods; the joke; the exit jump
-        if l['speaker'] in sprites: sprites[l['speaker']]['hops'].append((c.start, hop_px))
+        if l['speaker'] in sprites: sprites[l['speaker']]['hops'].append((c.start, hop_px * HK))
         for k2, sp in sprites.items():
             if k2 == l['speaker']: continue
             for i, e_ in enumerate(c.emph):
@@ -875,7 +899,7 @@ def render_bold(a, spec, P):
             if k2 != lines[joke]['speaker']: sp['laugh'] = tl; sp['nods'] = [n_ for n_ in sp['nods'] if not tl - 0.1 <= n_ <= tl + 1.0]
     cl = caps[-1]; te = [cl.t[i] for i, e_ in enumerate(cl.emph) if e_]
     if te:
-        for sp in sprites.values(): sp['hops'].append((te[0], hop_px))
+        for sp in sprites.values(): sp['hops'].append((te[0], hop_px * HK))
     for sp in sprites.values(): sp['hops'].sort()
 
     # ---- subject, label, source card
@@ -891,7 +915,7 @@ def render_bold(a, spec, P):
         ext['subject'] = union(ext.get('subject'), (cx - rw * B_POP / 2, cy - rh * B_POP / 2 - bob, cx + rw * B_POP / 2, cy + rh * B_POP / 2 + bob))
         print(f'subject: {im.width} x {im.height} px, pulses at ' + ', '.join(f'{x:.2f}' for x in pulses), flush=True)
         if s.get('label'):
-            rb = ribbon(s['label'].upper(), pal, H, (255, 255, 255)); lb = BX['label']; k = min(1.0, fit_scale(rb.width, rb.height, lb, POP))
+            rb = ribbon(s['label'].upper(), pal, H, tuple(pal.get('sub', (255, 255, 255)))); lb = BX['label']; k = min(1.0, fit_scale(rb.width, rb.height, lb, POP))
             if k < 1: rb = rb.resize((round(rb.width * k), round(rb.height * k)), Image.LANCZOS)
             sub['rib'] = (rb, (lb[0] + lb[2]) / 2, (lb[1] + lb[3]) / 2)
             ext['label'] = union(ext.get('label'), (sub['rib'][1] - rb.width * POP / 2, sub['rib'][2] - rb.height * POP / 2, sub['rib'][1] + rb.width * POP / 2, sub['rib'][2] + rb.height * POP / 2))
@@ -909,8 +933,8 @@ def render_bold(a, spec, P):
         if fs < round(H * SRC_MIN_PX / 1280): print(f'WARNING: the source card needs {fs} px (under {SRC_MIN_PX} px is small on a phone): shorten source_onscreen ("{src}")', flush=True)
         cw = round(max(f.getlength(x) for x in ln) + 20); ch = round(len(ln) * lh + 14)
         card = Image.new('RGBA', (cw, ch), (0, 0, 0, 0)); d_ = ImageDraw.Draw(card)
-        d_.rounded_rectangle((0, 0, cw - 1, ch - 1), radius=10, fill=INK + (200,), outline=(255, 255, 255, 230), width=2)
-        for j, x in enumerate(ln): d_.text((cw / 2, 7 + lh * (j + 0.5)), x, font=f, anchor='mm', fill=(255, 255, 255, 255))
+        d_.rounded_rectangle((0, 0, cw - 1, ch - 1), radius=10, fill=INK + (200,), outline=tuple(pal.get('card_edge', (255, 255, 255, 230))), width=2)
+        for j, x in enumerate(ln): d_.text((cw / 2, 7 + lh * (j + 0.5)), x, font=f, anchor='mm', fill=tuple(pal.get('card_text', (255, 255, 255))) + (255,))
         sx, sy = (sb[0] + sb[2]) / 2 - cw / 2, sb[1]; card = (card, round(sx), round(sy))
         ext['source'] = (sx, sy, sx + cw, sy + ch); win['source'] = (t_s, T)
         print(f'source card: {fs} px, {len(ln)} line(s): ' + ' / '.join(ln), flush=True)
@@ -923,6 +947,12 @@ def render_bold(a, spec, P):
     fly0 = max(SLAM_T + 0.2, t_s - FLY_T); fly1 = fly0 + FLY_T
 
     def title_at(t):
+        if calm:                                      # dusk: no slam, no tilt; it fades and slides up a little, then glides to the header
+            if t < fly0:
+                p = ease_out((t - DUSK_FADE * 0.5) / 0.7); return gc[0], gc[1] + H * 0.014 * (1 - p), s_b, 0.0, max(0.0, min(1.0, p)), 'title (cold open)'
+            if t < fly1:
+                p = ease_out((t - fly0) / FLY_T); return gc[0] + (hc[0] - gc[0]) * p, gc[1] + (hc[1] - gc[1]) * p, s_b + (s_h - s_b) * p, 0.0, 1.0, 'title (fly)'
+            return hc[0], hc[1], s_h, 0.0, 1.0, 'title'
         if t < SLAM_T:
             p = t / SLAM_T; return gc[0], gc[1], s_b * (1 + (SLAM - 1) * (1 - ease_out(p))), -14 + 11 * ease_out(p), min(1.0, 0.4 + p * 1.5), 'title (cold open)'
         if t < fly0: return gc[0], gc[1], s_b * (1 + 0.025 * math.sin(2 * math.pi * (t - SLAM_T) / 0.8)), TILT, 1.0, 'title (cold open)'
@@ -955,6 +985,8 @@ def render_bold(a, spec, P):
     dots = (np.hypot((xx % cell) - cell / 2, (yy % cell) - cell / 2) < cell * (0.16 + 0.30 * (yy - fy) / (H - fy))).astype(np.float32)[..., None]
     floor = np.clip(np.array(pal['b'], np.float32) * 0.80 * (1 - dots) + np.array(pal['dot'], np.float32) * 0.70 * dots, 0, 255).astype(np.uint8)
     BG_A[fy:], BG_B[fy:] = floor, floor; BG_A[fy - 1:fy + 2] = BG_B[fy - 1:fy + 2] = INK
+    if calm:                                                            # dusk: one ground, a lamp glow behind the subject
+        sbx = BX['subject']; DG, GL = dusk_ground(W, H, pal, ((sbx[0] + sbx[2]) / 2, (sbx[1] + sbx[3]) / 2 + H * 0.02), fy)
     shadows = {}
     for k, sp in sprites.items():
         sw_, sh_ = round(sp['im'].width * 0.85), round(H * 0.035); m = Image.new('L', (sw_ + 40, sh_ + 40), 0)
@@ -963,6 +995,7 @@ def render_bold(a, spec, P):
     emph_t = [c.t[i] for c in caps for i, e_ in enumerate(c.emph) if e_]
     bursts = [(SLAM_T, gc[0], gc[1], ts.width * s_b / 2, 12), (fly1, hc[0], hc[1], ts.width * s_h / 2, 9)]
     bursts += [(s['t0'], s['cx'], s['cy'], max(s['im'].size) / 2, 12) for s in subs] + [(tp, s['cx'], s['cy'], max(s['im'].size) / 2, 8) for s in subs for tp in s['pulses']]
+    if calm: bursts = []                                                # dusk: no sparkles
     rng = np.random.default_rng(11); star_seed = [rng.random((14, 3)) for _ in bursts]
     stills = [float(x) for x in a.stills.split(',')] if a.stills else []
     track = {}; thumbs = []; spin = 0.0; prev_tip = None; spill = []
@@ -976,9 +1009,14 @@ def render_bold(a, spec, P):
     for fi in range(N):
         t = fi / fps
         spin += (0.10 + sum(0.9 * (1 - (t - x) / 0.6) for x in emph_t if 0 <= t - x < 0.6)) / fps     # the rays kick on each emphasis word
-        stripe = (((ang + spin) * (16 / (2 * np.pi))) % 1.0) < 0.5
-        bg_now = np.where(stripe[..., None], BG_A, BG_B); fr = Image.fromarray(bg_now); d = ImageDraw.Draw(fr)
-        if t < 0.6:                                                       # cold open: a ray burst behind the title
+        if calm:                                                          # the lamp glows up slowly as the subject comes, and breathes
+            gk = (0.45 + 0.55 * ease_out((t - t_s + 0.4) / 1.6)) * (1 + 0.06 * math.sin(2 * math.pi * t / 6.0))
+            bg_now = np.clip(DG + GL * gk, 0, 255).astype(np.uint8)
+        else:
+            stripe = (((ang + spin) * (16 / (2 * np.pi))) % 1.0) < 0.5
+            bg_now = np.where(stripe[..., None], BG_A, BG_B)
+        fr = Image.fromarray(bg_now); d = ImageDraw.Draw(fr)
+        if t < 0.6 and not calm:                                          # cold open: a ray burst behind the title
             ov = Image.new('RGBA', fr.size, (0, 0, 0, 0)); do = ImageDraw.Draw(ov); R = H * 0.30 * ease_out(t / 0.6); al = round(200 * (1 - t / 0.6))
             for j in range(16):
                 a0, a1 = j / 16 * 2 * math.pi + t, (j + 0.5) / 16 * 2 * math.pi + t
@@ -999,8 +1037,8 @@ def render_bold(a, spec, P):
             s_ = cur[-1]; q = t - s_['t0']; p = q / (0.45 * PK)
             sc = ease_out_back(p, BK) if p < 1 else 1.0 + 0.012 * math.sin(q * 2.2)
             for tp in s_['pulses']:
-                if 0 <= t - tp < 0.3: sc *= 1 + 0.06 * math.sin(math.pi * (t - tp) / 0.3)
-            rot = (B_WOB - 0.8) * math.exp(-q * 4.5) * math.sin(q * 16) + 0.8 * math.sin(q * 1.4)
+                if 0 <= t - tp < 0.3: sc *= 1 + (0.03 if calm else 0.06) * math.sin(math.pi * (t - tp) / 0.3)
+            rot = (B_WOB - 0.8) * math.exp(-q * 4.5) * math.sin(q * 16) * (0.3 if calm else 1.0) + 0.8 * math.sin(q * 1.4)
             if sc > 0.02:
                 by = B_BOB * H * math.sin(2 * math.pi * max(0.0, q - 0.45) / BOBT)
                 sc = min(sc, B_POP); r = paste(fr, s_['im'], s_['cx'], s_['cy'] + by, sc, rot); note(track, 'subject', s_['im'], r, sc, rot, t)
@@ -1013,7 +1051,7 @@ def render_bold(a, spec, P):
         # title (drawn before the bar: on its way up it passes under it)
         x, y, s, r, al, k = title_at(t)
         if s > 0.02: rr = paste(fr, ts, x, y, s, r, al); note(track, k, ts, rr, s, r, t)
-        draw_bar(fr, BX['bar'], t, T, fps, pal, fbar, fnum, spec.get('countdown_text', 'babalik ang kuwento').upper())
+        draw_bar(fr, BX['bar'], t, T, fps, pal, fbar, fnum, spec.get('countdown_text', 'babalik ang kuwento').upper(), calm)
         # caption plate and words: drawn on one layer, and the page pop scales that whole layer about the tail tip
         li = max([i for i, c in enumerate(caps) if c.start <= t + 1e-6], default=None)
         if li is not None:
@@ -1021,10 +1059,11 @@ def render_bold(a, spec, P):
             spk = sprites.get(lines[li]['speaker']); tip_x = spk['cx'] if spk else (cb[0] + cb[2]) / 2
             prev_tip = tip_x if prev_tip is None else prev_tip + (tip_x - prev_tip) * 0.45
             q = t - c.pt[pg]; dur_ = (0.15 if pg == 0 else 0.10) * PK
-            ls = 1.0 if q >= dur_ else (0.55 if pg == 0 else 0.86) + (0.45 if pg == 0 else 0.14) * ease_out(q / dur_)
+            if calm: ls = 1.0 if q >= dur_ else (0.80 if pg == 0 else 0.93) + (0.20 if pg == 0 else 0.07) * ease_out(q / dur_)   # a gentler page pop
+            else: ls = 1.0 if q >= dur_ else (0.55 if pg == 0 else 0.86) + (0.45 if pg == 0 else 0.14) * ease_out(q / dur_)
             lay_ = Image.new('RGBA', (LR[2] - LR[0], LR[3] - LR[1]), (0, 0, 0, 0)); o_ = (LR[0], LR[1])
             loc = lambda r_: (r_[0] - o_[0], r_[1] - o_[1], r_[2] - o_[0], r_[3] - o_[1])
-            tip = draw_plate(lay_, loc(plate), prev_tip - o_[0], cb[3] - 4 - o_[1], Pages.SHADOW)   # the 4 px tail stroke ends inside the box
+            tip = draw_plate(lay_, loc(plate), prev_tip - o_[0], cb[3] - 4 - o_[1], Pages.SHADOW, tuple(pal.get('plate', (255, 255, 255))))   # the 4 px tail stroke ends inside the box
             dl = ImageDraw.Draw(lay_); boxes = []
             cur_w = max([i for i in c.pages[pg] if c.t[i] <= t + 1e-6], default=None)
             for i, (im, x_, y_, e_, ink, act_im, grey) in zip(c.pages[pg], place):
@@ -1079,9 +1118,9 @@ def render_bold(a, spec, P):
             sx = min(sx * qx, B_GROW * B_SQX); sy = min(sy * qy, B_GROW * (1 + B_BREATH + B_STRETCH))
             dx = dy = 0.0
             if te < 1:
-                if sp['rise']: dy = H * 0.35 * (1 - ease_out_back(te, 1.6))
-                else: ee = ease_out_back(te, 1.4); dx = sp['side'] * (1 - ee) * (W * 0.62); up += math.sin(math.pi * te) * 0.10 * sp['im'].height
-            elif sp['rise'] and te < 1 + 3 / (sp['dur'] * fps): sy *= 0.88; sx *= 1.08    # landing squash after rising in
+                if sp['rise']: dy = H * 0.35 * (1 - (ease_out(te) if calm else ease_out_back(te, 1.6)))
+                else: ee = ease_out(te) if calm else ease_out_back(te, 1.4); dx = sp['side'] * (1 - ee) * (W * 0.62); up += math.sin(math.pi * te) * (0.04 if calm else 0.10) * sp['im'].height
+            elif sp['rise'] and te < 1 + 3 / (sp['dur'] * fps) and not calm: sy *= 0.88; sx *= 1.08    # landing squash after rising in
             src_im = sp['im'] if bright >= 0 else Image.blend(sp['im'], sp['dim'], min(1.0, -bright))
             w_, h_ = max(1, round(sp['im'].width * sx)), max(1, round(sp['im'].height * sy))
             draws.append((k, src_im.resize((w_, h_), Image.BICUBIC), sp['cx'] + dx, sp['bot'] - up + dy, deg, up, te))
@@ -1097,7 +1136,10 @@ def render_bold(a, spec, P):
         q = t - SLAM_T
         if 0 <= q < 0.2 and not calm:                                                                   # the slam shakes the frame
             k_ = 6 * (1 - q / 0.2); arr = np.roll(np.roll(arr, round(k_ * math.sin(q * 95)), 1), round(k_ * math.cos(q * 80)), 0)
-        if fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, bg_now, fi)
+        if calm:                                                        # dusk: fade up from black, fade down to black (no whip-pan)
+            nf_ = max(1, round(DUSK_FADE * fps)); kf = min(1.0, fi / nf_, (N - 1 - fi) / nf_)
+            if kf < 1: arr = (arr.astype(np.float32) * (kf * kf * (3 - 2 * kf))).astype(np.uint8)
+        elif fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, bg_now, fi)
         fr = Image.fromarray(arr)
         if fi % fps == fps // 2 or fi in extra: thumbs.append((t, fr.resize((W // 4, H // 4), Image.LANCZOS), extra.get(fi, '')))
         for st_ in stills:
@@ -1130,11 +1172,19 @@ def draw_plate(fr, r, tip_x, tip_y, shadow, fill=(255, 255, 255)):
     return tx, tip_y
 
 
-def draw_bar(fr, box, t, T, fps, pal, fbar, fnum, text):
-    """the countdown: the fill runs down and warms to the accent colour; a shine sweeps it; the last 3 seconds pop."""
+def draw_bar(fr, box, t, T, fps, pal, fbar, fnum, text, calm=False):
+    """the countdown: the fill runs down and warms to the accent colour; a shine sweeps it; the last 3 seconds pop.
+    calm: muted, a thin muted-gold rim, the fill warms from dusty violet to muted amber, no shine, no flash, no pop."""
     bx0, by0, bx1, by1 = (round(v) for v in box); hb = by1 - by0; left = max(0.0, 1 - t / T); rem = T - t; n = max(0, math.ceil(rem - 1e-6))
     since = n - rem; hot = n <= 3                                        # the number shown changes when rem passes an integer
     d = ImageDraw.Draw(fr); flash = hot and since < 2 / fps
+    if calm:
+        d.rounded_rectangle((bx0, by0, bx1, by1), radius=hb / 2, fill=INK, outline=tuple(pal['edge']), width=max(1, round(hb * 0.07)))
+        ins = max(3, round(hb * 0.16)); w = min(1, max(0, (t / T - 0.5) / 0.5)); fx1 = bx0 + ins + (bx1 - bx0 - 2 * ins) * left
+        if left > 0.01: d.rounded_rectangle((bx0 + ins, by0 + ins, fx1, by1 - ins), radius=(hb - 2 * ins) / 2, fill=tuple(int(a_ + (b_ - a_) * w) for a_, b_ in zip(pal['bar'], pal['bar_end'])))
+        d.text((bx0 + hb * 0.7, (by0 + by1) / 2), text, font=fbar, anchor='lm', fill=tuple(pal['sub']), stroke_width=2, stroke_fill=INK)
+        if rem >= 0.5: d.text((bx1 - hb * 0.6, (by0 + by1) / 2), f'{n}s', font=fbar, anchor='rm', fill=tuple(pal['title']), stroke_width=2, stroke_fill=INK)
+        return
     d.rounded_rectangle((bx0, by0, bx1, by1), radius=hb / 2, fill=INK, outline=tuple(pal['title']) if flash else (255, 255, 255), width=max(2, round(hb * 0.10)))
     ins = max(3, round(hb * 0.16)); w = (t / T - 0.7) / 0.3
     col = tuple(int(a_ + (b_ - a_) * min(1, max(0, w))) for a_, b_ in zip(pal['bar'], pal['accent']))
