@@ -1,0 +1,426 @@
+{
+ "episode": 29,
+ "audited_by": "ep04-render-machine reader 1",
+ "keys_looked_at": 85,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/holo_static.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The figure is a brown-haired, blue-eyed young man in a black shirt, not Indio (black topknot, grey t-shirt).",
+   "where": "right half, face and raised hand"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/stairs_down.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "Two black dogs walk down the stairs where there is only Usman.",
+   "where": "centre stairs, one dog ahead and one beside Lolo"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/stairs_down.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a brown jacket and has short brown hair with no topknot.",
+   "where": "centre-left figure on the stairs"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/lolo_laugh.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a floppy-eared labrador with a chain collar and tag and no red kerchief.",
+   "where": "bottom right, dog under Lolo's hand"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/usman_worried.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up instead of one folded ear.",
+   "where": "top, both ears"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up and a heavy pit-bull build.",
+   "where": "head, both ears"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/walk_past_door.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears up and a red studded collar instead of the kerchief.",
+   "where": "bottom right dog"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/fiction_card.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears up and a kerchief with a white emblem on it.",
+   "where": "bottom right dog"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up.",
+   "where": "top, both ears"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/ash_burst.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Two young men in hoodies with backpacks stand in the ash; neither is Indio nor his father.",
+   "where": "lower half, both figures"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/teddy_speaks.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio, seen from behind, has short hair with no topknot and a collared grey shirt.",
+   "where": "right figure"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/sinag_laugh.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio walks past the door in a grey suit jacket and trousers with no topknot.",
+   "where": "left figure seen from behind"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/usman_proud.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has much darker skin and a heavier painted look than in every other shot.",
+   "where": "right figure, face and arms"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/usman_tug.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Indio's hand disappears into Usman's open jaws, so hand and mouth are fused into one shape.",
+   "where": "centre, between the man's hand and the dog's mouth"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/usman_tug.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a navy jacket with no topknot, and Usman has both ears up.",
+   "where": "left man and right dog"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/kurakot_title.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio and Lolo are drawn as chibi children, one with red horns, in a different cartoon style.",
+   "where": "bottom left two figures"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/arm_bleeds.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The arm belongs to a figure with messy hair, no topknot and a navy shirt.",
+   "where": "top right head and sleeve"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/lolo_weight.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Lolo has long white hair and a full beard, and Indio has no topknot and wears a collared shirt.",
+   "where": "bottom, both figures"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/usman_lick.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a light-blue shirt with no topknot and has floral tattoos on his arm; Usman has both ears up.",
+   "where": "right man and left dog"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/teddy_eyes.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio appears as a small boy beside his father instead of the adult Indio.",
+   "where": "right figure"
+  },
+  {
+   "key": "k78",
+   "shots": [
+    78
+   ],
+   "still": "full/follow.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a floppy-eared labrador with a medallion tag and no red kerchief.",
+   "where": "bottom left dog"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/ash_rock_wide.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The father wears a navy blazer and has spiky young hair, not the torn work clothes of k01.",
+   "where": "top centre seated man"
+  },
+  {
+   "key": "k75",
+   "shots": [
+    75
+   ],
+   "still": "full/alone_down.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's face is wider with darker skin than in his other shots.",
+   "where": "centre face"
+  },
+  {
+   "key": "k72",
+   "shots": [
+    72
+   ],
+   "still": "full/greek_word.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Gold letter-like marks reading like \"2 l2\" are scrawled on the stone tablet.",
+   "where": "left centre, on the tablet"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/old_books.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Open books and scrolls carry scribbled letter-like lines.",
+   "where": "centre and bottom, open pages"
+  },
+  {
+   "key": "k74",
+   "shots": [
+    74
+   ],
+   "still": "full/three_more.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The still is a manga page with panel borders and crowds of faces, unlike the rest of the episode.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/pitch_illus.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The still is a sepia engraving unlike the episode's colour cartoon style.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/tambuli.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The tambuli is a curved brown tube with a lamp in its end, a horn that is a flashlight.",
+   "where": "centre object on the rope"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/three_items.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The left hand grips a dagger, a small lantern and a brown tube fused together; the horn is not readable.",
+   "where": "bottom right hand"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/last_key.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The thumbnail sits in the middle of the hand holding the key, so the digits do not read as a thumb and four fingers.",
+   "where": "centre hand holding the key"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/indio_silent.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on both wrists (a bow and a cuff) instead of one handkerchief.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/almost_face.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on both wrists.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/indio_asks.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio wears a red cloth on both wrists.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k76",
+   "shots": [
+    76
+   ],
+   "still": "full/comment.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has the handkerchief on one wrist and a red string bracelet on the other.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/lolo_serious.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Lolo wears Indio's red handkerchief tied on his wrist.",
+   "where": "bottom left wrist"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/martys.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Lolo has Indio's red handkerchief in his shirt pocket.",
+   "where": "chest pocket"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/lolo_reassure.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Lolo wears red cloth cuffs on both wrists like Indio's handkerchief.",
+   "where": "both wrists"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/sakim_title.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A large smiling girl's head is cut off by the bottom-right corner of the frame, unrelated to the carriers.",
+   "where": "bottom right corner"
+  }
+ ]
+}
