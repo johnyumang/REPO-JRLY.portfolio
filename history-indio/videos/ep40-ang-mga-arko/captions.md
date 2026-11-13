@@ -1,7 +1,7 @@
 # Captions — Episode 40 (Season 4): Ang mga Arko
 
 ## Facebook (Reels)
-SEASON 3, EPISODE 40: Isandaang balangay, kasinlaki ng mga gusali, itinayo sa bawat baybayin sa harap ng lahat, may resibo ang bawat tabla. At sa unang hanay ng listahan, ang pangalan ng taong pinakamaingay na tumawa. ⛵
+SEASON 4, EPISODE 40: Isandaang balangay, kasinlaki ng mga gusali, itinayo sa bawat baybayin sa harap ng lahat, may resibo ang bawat tabla. At sa unang hanay ng listahan, ang pangalan ng taong pinakamaingay na tumawa. ⛵
 Kathang-isip sina Indio, M, Usman, Tay Sebyo, Totoy, Ma'am Celia, Rico Bulan, Tubal at Sinag, ang mga arko, ang tahimik na panunumpa at ang gunaw ng kuwentong ito; walang totoong tao, partido o kumpanya. Totoo ang mga balangay ng Butuan. Ang Genesis 9:11 at Pahayag 12:15 ay sinipi mula sa Ang Dating Biblia at iginagalang bilang kasulatan.
 
 👉 Kung ikaw ang may listahan, sino ang isasakay mo? Comment mo.
