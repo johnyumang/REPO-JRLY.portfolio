@@ -185,49 +185,39 @@
 },
 "30": {
 "fx": [
-"sparkle"
-],
-"move": "push_in"
-},
-"31": {
-"fx": [
-"sparkle"
-],
-"move": "pull_out",
-"key": 25
-},
-"32": {
-"fx": [
 "sparkle",
 "aura_blue"
 ],
 "move": "pull_out",
 "key": 14
 },
+"31": {
+"fx": [
+"sparkle"
+],
+"move": "pan_left",
+"key": 33
+},
+"32": {
+"fx": [
+"sparkle"
+],
+"move": "push_in",
+"key": 34
+},
 "33": {
-"fx": [
-"sparkle"
-],
-"move": "pan_left"
-},
-"34": {
-"fx": [
-"sparkle"
-],
-"move": "push_in"
-},
-"35": {
 "fx": [
 "punch"
 ],
 "move": "pull_out",
 "key": 34
 },
-"36": {
+"34": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"key": 36
 },
-"37": {
+"35": {
 "fx": [
 "sparkle",
 "aura_gold"
@@ -235,36 +225,39 @@
 "move": "push_in",
 "key": 25
 },
-"38": {
+"36": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"key": 38
 },
-"39": {
+"37": {
 "fx": [
 "flash"
 ],
 "move": "pull_out",
 "key": 38
 },
-"40": {
+"38": {
 "fx": [
 "punch"
 ],
-"move": "push_in"
+"move": "push_in",
+"key": 40
 },
-"41": {
+"39": {
 "fx": [
 "sparkle"
 ],
 "move": "push_in",
 "key": 12
 },
-"42": {
+"40": {
 "fx": [
 "sparkle",
 "aura_gold",
 "punch"
 ],
-"move": "pull_out"
+"move": "pull_out",
+"key": 42
 }
 }
