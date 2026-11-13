@@ -152,7 +152,8 @@
    ],
    "fix_idea": "Redraw with the full Usman cast string word for word (the prompt omits 'a red kerchief around his neck'); the dog itself is good, so only the kerchief needs to come back.",
    "fixed": true,
-   "note": "Redrawn from the full Usman cast string (try 3 of 6): red kerchief, white chest patch, one folded ear and one up, two front legs."
+   "note": "Redrawn from the full Usman cast string (try 3 of 6): red kerchief, white chest patch, one folded ear and one up, two front legs.",
+   "check_note": "Checker 13 Nov: kept. Kerchief, white chest, one folded ear are right; the face is stockier than k01, acceptable in a fast portal close-up."
   },
   {
    "key": "k19",
@@ -165,8 +166,11 @@
     19
    ],
    "fix_idea": "Redraw with the full Usman cast string word for word, so the kerchief is in the prompt; the Indio half is good.",
-   "fixed": true,
-   "note": "Redrawn (try 3 of 3) with both cast strings: Usman wears the red kerchief, one ear folded; Indio points with a shocked face."
+   "fixed": false,
+   "note": "Redrawn (try 3 of 3) with both cast strings: Usman wears the red kerchief, one ear folded; Indio points with a shocked face.",
+   "check_note": "Checker 13 Nov: the redraw was rejected and the old key restored. At 3x the new Usman has FIVE legs (three hind legs under the belly plus two front legs), so it was not clean; the old key (no kerchief, stub leg) is back with its old prompt.",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour. Scene: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, black slacks and worn sneakers, a small backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no tattoos, shocked face, pointing at a slim medium-sized black short-haired Philippine street dog with a white chest patch, ONE folded ear and one upright ear, bright clever eyes, a red kerchief tied around his neck, seen from the side in a clean leap with exactly four legs: two front legs stretched forward, two hind legs tucked back; both tumble through a golden time tunnel of clock gears. Medium shot. Golden light. Vertical 9:16. No text, no logos, no watermarks."
   },
   {
    "key": "k19",
@@ -179,8 +183,9 @@
     19
    ],
    "fix_idea": "Comes with the k19 kerchief redraw: ask for the dog in a clean leap, 'four legs, two front legs stretched forward', and check the paws at 3x before keeping a try.",
-   "fixed": true,
-   "note": "Same redraw: Usman has four legs, no floating stub (checked at 3x)."
+   "fixed": false,
+   "note": "Open again: comes with the k19 off_model redraw (needs_figma).",
+   "check_note": "Checker 13 Nov: the redraw was rejected and the old key restored. At 3x the new Usman has FIVE legs (three hind legs under the belly plus two front legs), so it was not clean; the old key (no kerchief, stub leg) is back with its old prompt."
   },
   {
    "key": "k33",
@@ -464,5 +469,5 @@
    "actually": "The shot is a raised forearm seen end-on, with the red wrist cloth at the bottom and the white sleeve of the shoulder behind it; the elbow is simply outside the frame. At 3x the wrist, forearm and sleeve all line up and the tattoo sits correctly on the forearm. No fault."
   }
  ],
- "fix_note": "Fixed on 13 Nov: 14 keys redrawn with the backup engine at full quality (30 steps, guidance 4, negative prompt), 3 to 6 tries each, every pick checked at full size and 3x; k37 was already redrawn. Episode 1 has no shots/plates layout, so each new picture was drawn from its edited prompt in key_prompts.json and written straight to keys/kNN.png at 864x1536. Old keys are kept outside the repo. Nothing needs Figma."
+ "fix_note": "Fixed on 13 Nov: 14 keys redrawn with the backup engine at full quality (30 steps, guidance 4, negative prompt), 3 to 6 tries each, every pick checked at full size and 3x; k37 was already redrawn. Episode 1 has no shots/plates layout, so each new picture was drawn from its edited prompt in key_prompts.json and written straight to keys/kNN.png at 864x1536. Old keys are kept outside the repo. Checker 13 Nov: 13 of the 14 redraws kept after full-size and 3x checks; k19 rejected (the new Usman had five legs) and restored, its off_model entry set back to open with needs_figma and a figma_prompt."
 }
