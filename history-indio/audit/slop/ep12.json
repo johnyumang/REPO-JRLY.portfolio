@@ -1,0 +1,356 @@
+{
+ "episode": 12,
+ "audited_by": "render worker 3 (two readers)",
+ "keys_looked_at": 80,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/ride_hook.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The tikbalang's front leg ends in a long grey five-fingered human hand, and Indio's right arm runs into that same limb so you cannot tell which arm is his.",
+   "where": "left half, the limb reaching out below Indio's chest",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/sign_papers.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The paper under the phone carries a line of cursive letter-like marks.",
+   "where": "bottom right, the sheet beside the phone",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/family_kneel.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The onlookers in the foreground of the year-900 ceremony wear modern white and pale-blue collared polo shirts with modern haircuts.",
+   "where": "bottom third, the three backs nearest the camera",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/lens_plate.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The shot is a photographic macro of real scratched copper with photo grain and shallow depth of field, not a drawn cel-shaded frame.",
+   "where": "whole frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "left": "redraw stayed photographic (1 try), old still kept; round 2 running"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/kawi_close.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The inscription close-up is a photograph of scratched metal with no ink line at all, so the cut from the drawn shots jolts.",
+   "where": "whole frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "left": "redraw stayed photographic (1 try), old still kept; round 2 running"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/gold_weigh.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Under the scale beam two palms are pressed into one mass of about eight long boneless fingers with no thumb, while a second pair of hands grips the beam above them.",
+   "where": "centre of frame, the hands below the scale",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/receipt_hand.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The pale hand taking the copper plate is a flat featureless mitten with one thumb and no drawn fingers, and the dark hand under it has stubby half-formed digits.",
+   "where": "centre of frame, the lighter hand on the right",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/oldest_doc.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The plate in the museum case is covered in rows of invented letter-like glyphs.",
+   "where": "bottom left, the plate inside the glass case",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/usman_alarm.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up here instead of one folded ear.",
+   "where": "centre, the dog's head",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/net_leg.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The wounded leg in the net is smooth pale pink human skin, while the creature it belongs to is dark grey and hairy in every other shot.",
+   "where": "whole frame, the limb in the net",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/cut_net.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The creature being cut free is an ordinary brown horse in a leather bridle, not the dark long-faced spiny tikbalang of the shots around it.",
+   "where": "right half, the head under the net",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/sandugo_tb.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand raising the glowing spine is a boneless mitten with no separated fingers and a spare wedge of flesh where the thumb should be.",
+   "where": "left half, the raised hand",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/indio_shrug.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "His open left hand is a flipper with three part-formed digits and no thumb.",
+   "where": "bottom left, the open hand",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/indio_shrug.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The right hand wraps five finger-like digits across the front of the dark object it holds with no thumb anywhere.",
+   "where": "bottom right, the hand on the dark object",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/holo12.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "In the hologram shot Indio wears an olive sleeveless vest with bandaged shins and boots instead of the beige tunic and red sash of the same night scene.",
+   "where": "left half, Indio crouching",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/usman_list.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up here as well, with no folded ear.",
+   "where": "centre, the dog's head",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is drawn grey with two big upright pointed ears and no folded ear, so he does not read as the black one-folded-ear dog of the other shots.",
+   "where": "whole frame, the dog's head",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/museum_plate2.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The museum plate is a photo-real object with camera bokeh and no ink line, so the cut from the anime shots jolts.",
+   "where": "whole frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "left": "redraw stayed photographic (1 try), old still kept; round 2 running"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/party_house.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "His right hand at the bottom edge has no drawn fingers at all, only a red smear, and the left hand's fingers are a tangle of scribbled lines.",
+   "where": "bottom of frame, both hanging hands",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/party_house.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "He wears a gold watch on his right wrist and a second gold watch band on his left wrist.",
+   "where": "bottom of frame, both wrists",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/party_house.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The guest in the brown hat behind the crowd has a smeared face with the eyes sliding off it.",
+   "where": "upper left of the crowd, under the brown hat",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k91",
+   "shots": [
+    91
+   ],
+   "still": "full/forest_eye.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The creature's eye close-up sits in golden-tan fur, not the dark grey hide the tikbalang has in every other shot.",
+   "where": "whole frame",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k94",
+   "shots": [
+    94
+   ],
+   "still": "full/tb_hoof.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The tikbalang's hoof is a smooth featureless stump with no hoof, toes or fetlock, filling most of the frame.",
+   "where": "centre of frame, the foot on the ground",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k105",
+   "shots": [
+    105
+   ],
+   "still": "full/tb_rest.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio sits against the tikbalang in a modern grey T-shirt and dark trousers instead of the beige tunic and red sash of the year-900 scenes.",
+   "where": "centre, Indio seated",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k01",
+   "what": "Reader 1: the hand holding the shirt collar has claw-like fingers with no knuckles and no clear thumb.",
+   "why": "At 3x the hand reads normally: four fingers of ordinary length with a ring on one, knuckle creases drawn, and the thumb tucked behind the collar it grips. Nothing is miscounted or melted, so this is taste, not a fault."
+  },
+  {
+   "key": "k104",
+   "what": "Reader 1: the copper sheet is a photo-like blank metal panel unlike the drawn frames around it.",
+   "why": "At 3x the frame is plainly drawn in the episode's style, with black ink outlines and flat cel shading on the woven mat and the plate's edges. The plate's face is blank, which is what the no-writing rule asks for, not a style break."
+  }
+ ]
+}

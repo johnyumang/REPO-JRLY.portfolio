@@ -1,7 +1,9 @@
 {
  "episode": 16,
  "readers": [
-  "r1"
+  "r1",
+  "r2",
+  "r3"
  ],
  "keys_looked_at": 85,
  "defects": [
@@ -15,7 +17,11 @@
    "must_fix": true,
    "what": "Both hands in the handshake come out of identical red sleeves, but Indio wears a short-sleeved white polo and M a dark coat in this scene.",
    "where": "both forearms, lower left and lower right",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: both forearms come out of red sleeves; neither matches Indio's white polo nor M's dark coat",
+   "fixed": true,
+   "fix": "redrawn (1 try): bare brown forearm with the red handkerchief and a dark sleeve, no red sleeves, fingers counted at 3x",
+   "r3": "kept: red sleeves gone, brown forearm with kerchief and a dark sleeve, fingers OK at 3x (small magenta sleeve edge at top-left corner)"
   },
   {
    "key": "k13",
@@ -27,7 +33,11 @@
    "must_fix": true,
    "what": "M is drawn in a white polo shirt and grey shorts, not her long dark coat, so she reads as a different girl.",
    "where": "M, right of Indio, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the girl beside Indio is brown-haired in a white polo and grey shorts, not M in her dark coat",
+   "fixed": true,
+   "fix": "redrawn (1 try): Indio in the white polo and M in the long dark coat with the red umbrella, seen from behind; Usman leaping",
+   "r3": "kept: M on model from behind, Usman on model with one folded ear (umbrella hangs behind her unheld, minor)"
   },
   {
    "key": "k46",
@@ -39,7 +49,11 @@
    "must_fix": true,
    "what": "Usman is a grey wolf-like dog with a harness and no red kerchief or white chest patch.",
    "where": "bottom right corner",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the dog is grey and wolf-like with no red kerchief and no white chest patch, not Usman",
+   "fixed": true,
+   "fix": "redrawn (2 tries): wide shot, M with the medallion, Indio, the green kappa and Usman (black, white chest, red kerchief) apart, no merges",
+   "r3": "kept: Usman black with white chest and kerchief, whole cast present (both his ears erect, minor, as in k14/k26)"
   },
   {
    "key": "k43",
@@ -51,7 +65,11 @@
    "must_fix": true,
    "what": "Indio in the 1594 scene has no red headband, blue-grey eyes and a black open shirt instead of the brown jacket of the other 1594 shots.",
    "where": "whole figure",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: no red headband, grey eyes, black open shirt, not the 1594 brown-jacket Indio",
+   "fixed": true,
+   "fix": "redrawn (1 try): Indio with red headband and 1590s work jacket offering the cucumber, both hands clean at 3x",
+   "r3": "kept: headband and work jacket, cucumber hands clean at 3x, kappa on model"
   },
   {
    "key": "k58",
@@ -63,7 +81,12 @@
    "must_fix": true,
    "what": "Tubal has brown hair and green eyes and a younger face than the black-haired grey-eyed Tubal of k55-k57.",
    "where": "face, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: brown hair, green eyes, younger face, not the black-haired grey-eyed Tubal of k56-k57",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k97",
@@ -75,7 +98,11 @@
    "must_fix": true,
    "what": "M has light brown hair, a collared shirt and black tie and a different face from the black-haired M of k05 and k71.",
    "where": "face and collar, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: brown hair, grey collared shirt and black tie, not the black-haired coated M of k05/k71",
+   "fixed": true,
+   "fix": "redrawn (1 try): M with long straight black hair in the long dark coat with the red umbrella; both hands clean at 3x",
+   "r3": "kept: M on model (black hair, dark coat, red umbrella); hands acceptable, the red handle's strap looks a little like a second prong"
   },
   {
    "key": "k44",
@@ -87,7 +114,11 @@
    "must_fix": true,
    "what": "The kappa is a brown furry capybara-like animal with a hat-dish, not the green shelled kappa of k01, k37 and k38.",
    "where": "whole creature",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: furry brown capybara-like creature with a dish, not the green shelled kappa",
+   "fixed": true,
+   "fix": "redrawn (flux-3, 1 try): the episode's green shelled kappa with the water dish",
+   "r3": "kept: green shelled kappa with dish, water spilling"
   },
   {
    "key": "k68",
@@ -99,7 +130,11 @@
    "must_fix": true,
    "what": "The kappa eating the cucumber is a brown monkey-like animal with no shell or dish, a third design for the same creature.",
    "where": "whole creature",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: furry brown monkey-like creature, no shell or dish, a third kappa design",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa eating the cucumber, hands clean at 3x",
+   "r3": "kept: green shelled kappa eating cucumber, paws clean"
   },
   {
    "key": "k41",
@@ -108,10 +143,14 @@
    ],
    "still": "full/true_want.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "The kappa is a brown seal-like blob with no shell or water dish, unlike the green kappa elsewhere.",
    "where": "creature, lower centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed; must_fix corrected false->true: a brown seal-like blob fills the frame, clearly not the green shelled kappa and plainly seen on pause, same bar as k44/k68",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa under the golden cucumber wish",
+   "r3": "kept: green shelled kappa under the golden cucumber"
   },
   {
    "key": "k92",
@@ -120,10 +159,14 @@
    ],
    "still": "full/kappa_splash.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "The splashing kappa is a brown otter with a fish tail, not the green shelled kappa.",
    "where": "creature, bottom",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed; must_fix corrected false->true: a central brown otter with a fish tail, clearly not the green kappa and plainly seen on pause, same bar as k44/k68",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa diving",
+   "r3": "kept: green shelled kappa diving, no faults"
   },
   {
    "key": "k52",
@@ -135,7 +178,12 @@
    "must_fix": true,
    "what": "The arrow is nocked backwards: the arrowhead sits at the drawing hand by his face and the shaft runs toward the bow.",
    "where": "arrow, upper centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the light arrow's head sits at the drawing hand by his face while the shaft runs to the bow, nocked backwards",
+   "fixed": true,
+   "fix": "redrawn as a still with no people: the arrow of light, head in the wall, pins the shadow creature; no bow, no hands (retry, 2 of 4 tries)",
+   "retry": true,
+   "r3": "kept (retry): arrowhead in the wall, fletching behind, shadow creature pinned; no hands or bow, clean at 3x, style matches k51/k53"
   },
   {
    "key": "k93",
@@ -147,7 +195,11 @@
    "must_fix": true,
    "what": "The bundle of arrows is held by a pink boneless mass with no fingers or thumb.",
    "where": "bottom half, holding hand",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the arrow bundle is gripped by a pink boneless mass with no fingers or thumb",
+   "fixed": true,
+   "fix": "redrawn (1 try): quiver hanging on a peg, no hands",
+   "r3": "kept: no hands, quiver on a post"
   },
   {
    "key": "k96",
@@ -159,7 +211,11 @@
    "must_fix": true,
    "what": "Two tattooed arms merge into one fleshy mass with no hands where the hologram device sits.",
    "where": "centre, both arms",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the forearm and hand are a merged fleshy mass with no proper hand where the hologram sits",
+   "fixed": true,
+   "fix": "redrawn (2 tries): one brown tattooed forearm resting on a crate, hand out of frame, hologram ring with a kappa icon",
+   "r3": "kept: one clean tattooed forearm, hand out of frame, no merge"
   },
   {
    "key": "k74",
@@ -171,7 +227,12 @@
    "must_fix": true,
    "what": "The glowing medallion shows letter-like marks (like 'IHS') on its face and lettering round the rim.",
    "where": "medallion in his hands, left centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the medallion face carries bold letter-like marks and rim lettering, though it should be blank",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: the blank bronze medallion glowing purple on a bedside table beside the red handkerchief; no letters (retry, 3 of 4 tries; try 2 had a head relief on the medallion)",
+   "retry": true,
+   "r3": "kept (retry): medallion face blank, no letters; purple glow and red handkerchief on the bedside table follow k73's separate rooms (disc drawn rather large, minor)"
   },
   {
    "key": "k53",
@@ -183,7 +244,11 @@
    "must_fix": true,
    "what": "Carved Latin-looking letters ('iKAu') on the wooden plank above Usman's head.",
    "where": "top left",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: carved glyph-like marks on the plank above Usman",
+   "fixed": true,
+   "fix": "redrawn (1 try): Usman against a plain wall with no carvings, one folded ear, red kerchief, white chest",
+   "r3": "kept: no carvings, Usman on model with one folded ear"
   },
   {
    "key": "k14",
@@ -195,7 +260,8 @@
    "must_fix": false,
    "what": "Usman has both ears standing up; he should have one folded ear.",
    "where": "head, top",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: both ears stand erect; one should be folded"
   },
   {
    "key": "k26",
@@ -207,7 +273,8 @@
    "must_fix": false,
    "what": "Usman has both ears standing up; he should have one folded ear.",
    "where": "head, top",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: both ears stand erect; one should be folded"
   },
   {
    "key": "k19",
@@ -219,7 +286,8 @@
    "must_fix": false,
    "what": "Indio wears a grey western suit with tattoo-patterned cuffs in 1594 Sakai, unlike the brown jacket of his other 1594 shots.",
    "where": "whole figure",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: a grey tailored suit in 1594 Sakai, not the brown labourer jacket (minor; reads as a loose jacket on a quick pause)"
   },
   {
    "key": "k45",
@@ -231,7 +299,8 @@
    "must_fix": false,
    "what": "Indio wears a grey suit and the headband ties look like a scarf, different from his brown jacket in the same scene.",
    "where": "whole figure",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: grey suit in the 1594 scene, not the brown jacket"
   },
   {
    "key": "k39",
@@ -243,7 +312,8 @@
    "must_fix": false,
    "what": "Indio wears a khaki shirt and trousers with a neck tattoo, different from the brown jacket outfit of the 1594 scene.",
    "where": "whole figure",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: khaki open shirt with a neck tattoo, not the brown jacket of the 1594 scene"
   },
   {
    "key": "k50",
@@ -255,7 +325,8 @@
    "must_fix": false,
    "what": "Indio wears a grey buttoned shirt instead of the brown jacket of the 1594 scene.",
    "where": "upper body",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: grey buttoned shirt, not the brown jacket"
   },
   {
    "key": "k51",
@@ -267,7 +338,8 @@
    "must_fix": false,
    "what": "Indio wears a khaki buttoned shirt instead of the brown jacket of the 1594 scene.",
    "where": "upper body",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: khaki buttoned shirt, not the brown jacket"
   },
   {
    "key": "k12",
@@ -279,7 +351,8 @@
    "must_fix": false,
    "what": "Indio wears a black jacket at the Daian-ji sign, while the shots around it (k11, k13) show the white polo.",
    "where": "whole figure",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: dark jacket from behind, not the white polo of k11/k13"
   },
   {
    "key": "k70",
@@ -291,7 +364,8 @@
    "must_fix": false,
    "what": "M has long light-brown hair and an earring, unlike her black hair in k71 and k72.",
    "where": "face and hair, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: long light-brown hair and an earring, not the black-haired M"
   },
   {
    "key": "k38",
@@ -303,7 +377,8 @@
    "must_fix": false,
    "what": "M's hair falls to her waist in a black curtain, much longer than in any other shot.",
    "where": "M from behind, left",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: waist-length black hair, longer than any other shot"
   },
   {
    "key": "k09",
@@ -315,7 +390,8 @@
    "must_fix": false,
    "what": "Indio has a red kerchief tied on his left wrist and also holds a second red kerchief in his right hand.",
    "where": "both hands, lower half",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: a red band on the wrist plus a second red kerchief held in the hand"
   },
   {
    "key": "k11",
@@ -327,7 +403,8 @@
    "must_fix": false,
    "what": "Indio holds a red kerchief in each hand, so there are two of his single kerchief.",
    "where": "both hands, lower half",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: a red kerchief held in each hand"
   },
   {
    "key": "k64",
@@ -339,7 +416,8 @@
    "must_fix": false,
    "what": "Red kerchief bands are on both wrists; he wears one on the left wrist.",
    "where": "both wrists",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: red bands on both wrists; he wears one"
   },
   {
    "key": "k21",
@@ -351,7 +429,8 @@
    "must_fix": false,
    "what": "M's lower hand on the jar is a mitten with fused fingers.",
    "where": "hands on jar lid, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the lower hand on the jar lid is a mitten with fused fingers"
   },
   {
    "key": "k40",
@@ -363,7 +442,8 @@
    "must_fix": false,
    "what": "The hand holding the medallion shows only a thumb and one fingertip around a huge boneless palm.",
    "where": "hand, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the holding hand is a large boneless palm with only a thumb and one defined finger"
   },
   {
    "key": "k56",
@@ -375,7 +455,8 @@
    "must_fix": false,
    "what": "Tubal's hand at his lapel shows two fingers and a dark slit where the others should be.",
    "where": "hand with ring, lower left",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the hand at the lapel shows a dark slit between fused fingers"
   },
   {
    "key": "k95",
@@ -387,7 +468,8 @@
    "must_fix": false,
    "what": "The fox's two eyes are drawn in different colours.",
    "where": "fox face, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the fox's two eyes are different colours"
   },
   {
    "key": "k58",
@@ -399,7 +481,12 @@
    "must_fix": false,
    "what": "Shop signs carry kanji-like characters.",
    "where": "background signs, left and right",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: background shop signs carry kanji-like characters",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k63",
@@ -411,7 +498,8 @@
    "must_fix": false,
    "what": "Lettering runs round the rim of the medallion.",
    "where": "medallion, lower centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: rim lettering plus an engraved salamander on a medallion that should be blank"
   },
   {
    "key": "k73",
@@ -423,7 +511,8 @@
    "must_fix": false,
    "what": "Letter-like marks on the ceiling vent.",
    "where": "ceiling, top centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: letter-like marks on the framed picture and ceiling fixtures"
   },
   {
    "key": "k60",
@@ -435,7 +524,8 @@
    "must_fix": false,
    "what": "Shop signs carry kana-like characters.",
    "where": "background signs, right",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: shop signs carry kana/kanji characters"
   },
   {
    "key": "k76",
@@ -447,7 +537,8 @@
    "must_fix": false,
    "what": "Shop sign carries kana-like characters.",
    "where": "background right",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: a shop sign carries kana-like characters"
   },
   {
    "key": "k00",
@@ -459,7 +550,8 @@
    "must_fix": false,
    "what": "Scribbled letter marks on the jar and a '茶' character on the background sign.",
    "where": "jar lower left; sign right",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: a CJK character on the background building sign (the jar marks are faint glaze, less clearly letters)"
   },
   {
    "key": "k29",
@@ -471,7 +563,8 @@
    "must_fix": false,
    "what": "Letter-like marks on the lens frame.",
    "where": "bottom right of the lens rim",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: small marks on the lens rim (faint)"
   },
   {
    "key": "k90",
@@ -483,7 +576,8 @@
    "must_fix": false,
    "what": "Small letter-like tags on the jars.",
    "where": "jars",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: small letter-like tags hang on the jars"
   },
   {
    "key": "k97",
@@ -495,7 +589,74 @@
    "must_fix": false,
    "what": "The umbrella shaft bends into a hook mid-shaft and melts into her fingertips.",
    "where": "hand and shaft, centre",
-   "reader": "r1"
+   "reader": "r1",
+   "r2": "confirmed: the umbrella grip and her hand meet awkwardly and the index finger splays oddly (minor)",
+   "fixed": true,
+   "fix": "redrawn (1 try): M with long straight black hair in the long dark coat with the red umbrella; both hands clean at 3x",
+   "r3": "kept: M on model (black hair, dark coat, red umbrella); hands acceptable, the red handle's strap looks a little like a second prong"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/usman_joke.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "An artist-seal stamp of CJK characters sits in the bottom-right corner.",
+   "where": "bottom right corner",
+   "reader": "r2"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/kolambu_glow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing medallion shows an engraved human figure and letter-like marks, though the medallion should be blank.",
+   "where": "medallion in the hand, centre",
+   "reader": "r2"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/m_says.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is seen from behind in a dark jacket instead of the white polo of this present-day scene (as in k12).",
+   "where": "back and shoulders, centre",
+   "reader": "r2"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/fox_reflection.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A second red kerchief is tucked at his waist in addition to the band on his wrist, so his single kerchief appears twice.",
+   "where": "wrist and waistband, right of centre",
+   "reader": "r2"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/usman_fade.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn with both ears erect; one should be folded (as in k14 and k26).",
+   "where": "head, top",
+   "reader": "r2",
+   "fixed": true,
+   "fix": "redrawn (1 try): Usman against a plain wall with no carvings, one folded ear, red kerchief, white chest",
+   "r3": "kept: no carvings, Usman on model with one folded ear"
   }
  ]
 }

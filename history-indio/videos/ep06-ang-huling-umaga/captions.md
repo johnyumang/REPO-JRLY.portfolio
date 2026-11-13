@@ -24,7 +24,7 @@ Tiyak: binaril si José Rizal sa Bagumbayan (Rizal Park ngayon) noong Disyembre 
 Ayon sa mga tala: kinapa ng doktor na militar ang pulso niya at normal ito.
 Mahina ang pinagmulan: ang kuwentong may asong umikot at umiyak sa tabi niya.
 Pinagtatalunan: kung paano talaga naitago ang huling tula niya (walang pamagat, walang pirma) sa isang lutuang de-alkohol.
-Kathang-isip: sina Indio, Usman, si M, ang medalyon at ang pagkakaiwan ni Indio sa 1896.
+Kathang-isip sina Indio, Usman, si M, ang medalyon at ang pagkakaiwan ni Indio sa 1896; totoo ang kasaysayan.
 
 Kung ikaw ang naiwan sa 1896, saan ka unang pupunta? I-comment sa baba.
 Mag-subscribe para sa susunod na talon.
@@ -35,14 +35,14 @@ Mag-subscribe para sa susunod na talon.
 
 ## TikTok
 EP 6 🕯️ Unang beses nakatabi ni Indio si M, sa umagang binaril si Rizal. Tapos nawala ang medalyon. Kung ikaw ang naiwan sa 1896, saan ka pupunta?
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, Usman, si M at ang medalyon; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #kasaysayan #philippinehistory #timetravel #pinoyanime #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
 Episode 6: ang huling umaga. 🕯️ Bagumbayan, 1896. Isang pulang payong, isang medalyong nawala, at isang asong hindi na naglaho.
 Kung ikaw ang naiwan sa 1896, saan ka unang pupunta? 👇
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, Usman, si M at ang medalyon; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #kasaysayan
 

@@ -1,29 +1,401 @@
 {
   "episode": 25,
-  "readers": ["first"],
+  "readers": [
+    "first",
+    "second"
+  ],
   "keys_looked_at": 81,
   "entries": [
-    {"key": "k01", "shots": [1], "still": "full/intro.jpg", "type": "writing", "must_fix": true, "what": "Letter shapes (E, I, O, F) are carved around the glowing gear ring behind Indio.", "where": "top-left and top-right of the gear halo"},
-    {"key": "k04", "shots": [4], "still": "full/bea_call.jpg", "type": "limbs", "must_fix": true, "what": "A second bare forearm ending in a hand with a red bow hangs on the same side of his body as the arm holding the phone, so it can belong to neither shoulder.", "where": "lower right, below the phone arm"},
-    {"key": "k04", "shots": [4], "still": "full/bea_call.jpg", "type": "off_model", "must_fix": true, "what": "Bea on the phone screen has black hair and no glasses, while the very next shot gives her a brown bob and round glasses.", "where": "phone screen, right of frame"},
-    {"key": "k05", "shots": [5, 9], "still": "full/bea_cu.jpg", "type": "writing", "must_fix": false, "what": "Orange block letters stand on the newsroom shelf behind her.", "where": "left edge, behind her shoulder"},
-    {"key": "k11", "shots": [11], "still": "full/balangay_snow.jpg", "type": "object", "must_fix": false, "what": "The boat's bamboo booms cross in an X in front of Indio and attach to nothing.", "where": "across his waist and chest"},
-    {"key": "k22", "shots": [22], "still": "full/seal_yeti.png", "type": "hands", "must_fix": true, "what": "M's far hand has long thin boneless fingers that trail off into loose strands.", "where": "M's raised hand, centre of frame"},
-    {"key": "k25", "shots": [25, 93], "still": "full/pale_people.jpg", "type": "hands", "must_fix": true, "what": "The seated woman at the left has a flat fingerless mitten where her hand should be.", "where": "her near hand, lower left"},
-    {"key": "k28", "shots": [28], "still": "full/indio_lesson.jpg", "type": "off_model", "must_fix": false, "what": "Indio's skin is ivory pale and his face longer and sharper than his warm brown look in the other shots.", "where": "whole face"},
-    {"key": "k31", "shots": [31], "still": "full/hand_clock.jpg", "type": "writing", "must_fix": true, "what": "Letter shapes (E, I, O, D) are carved around the stone dial instead of plain notches.", "where": "dial rim, left of the hand"},
-    {"key": "k31", "shots": [31], "still": "full/hand_clock.jpg", "type": "off_model", "must_fix": true, "what": "The man touching the dial has long loose hair, pale skin and neither the red headband nor the topknot Indio wears in every other shot.", "where": "upper half of frame, his head"},
-    {"key": "k36", "shots": [36], "still": "full/hand_shake.jpg", "type": "hands", "must_fix": true, "what": "An extra rounded fingertip with its own outline is fused to the side of the ring finger.", "where": "ring finger, upper right of the hand"},
-    {"key": "k37", "shots": [37], "still": "full/m_comfort.jpg", "type": "style", "must_fix": true, "what": "The shot is drawn as two full-length figures standing on a blank white void, like a character sheet, while the shots around it are the painted cave.", "where": "whole frame"},
-    {"key": "k37", "shots": [37], "still": "full/m_comfort.jpg", "type": "hands", "must_fix": false, "what": "Their clasped hands merge into one lump with no separable fingers.", "where": "centre, between the two figures"},
-    {"key": "k42", "shots": [42, 85], "still": "full/time_stop.png", "type": "off_model", "must_fix": false, "what": "Usman is a stocky dog with a grizzled grey muzzle and both ears folded, not the slim black street dog with one upright ear of the other shots.", "where": "the dog, right of frame"},
-    {"key": "k44", "shots": [44, 86], "still": "full/stones_fit.jpg", "type": "limbs", "must_fix": true, "what": "Three separate hands reach in to fit the stones although only Indio is moving in the frozen cave.", "where": "from the left, the top and the right edge"},
-    {"key": "k46", "shots": [46], "still": "full/leave_clock.jpg", "type": "off_model", "must_fix": true, "what": "The very old woman of the cave is drawn here as a white-bearded old man.", "where": "right of frame"},
-    {"key": "k46", "shots": [46], "still": "full/leave_clock.jpg", "type": "off_model", "must_fix": false, "what": "M wears Indio's beige fur coat and red waist sash instead of her long dark coat.", "where": "left of frame"},
-    {"key": "k55", "shots": [55], "still": "full/portal_exit_snow.jpg", "type": "object", "must_fix": false, "what": "Oars cross the boat held by nobody and one loose blade stands in mid-air in front of Indio.", "where": "centre, across the hull"},
-    {"key": "k56", "shots": [56], "still": "full/samar_fog.jpg", "type": "bleed", "must_fix": true, "what": "A second red kerchief grows out of the shoulder and sleeve of his grey shirt, besides the one on his wrist.", "where": "his left shoulder, right of frame"},
-    {"key": "k58", "shots": [58], "still": "full/notebook_line_s3.jpg", "type": "object", "must_fix": true, "what": "A closed eye with lashes is drawn on the blank notebook page, attached to nothing.", "where": "right-hand page, centre"},
-    {"key": "k59", "shots": [59, 97], "still": "full/notebook_map.jpg", "type": "style", "must_fix": true, "what": "The notebook is a photographic image with real paper and gold paint, not the episode's cel-shaded anime.", "where": "whole frame"},
-    {"key": "k62", "shots": [62], "still": "full/trio_snow.jpg", "type": "off_model", "must_fix": false, "what": "The yeti on the ridge is a round smiling cartoon snow creature, not the ape-like white-furred giant of the earlier shots.", "where": "upper left, on the ridge"}
+    {
+      "key": "k01",
+      "shots": [
+        1
+      ],
+      "still": "full/intro.jpg",
+      "type": "writing",
+      "must_fix": true,
+      "what": "Letter shapes (E, I, O, F) are carved around the glowing gear ring behind Indio.",
+      "where": "top-left and top-right of the gear halo",
+      "second": "confirmed"
+    },
+    {
+      "key": "k04",
+      "shots": [
+        4
+      ],
+      "still": "full/bea_call.jpg",
+      "type": "limbs",
+      "must_fix": true,
+      "what": "A second bare forearm ending in a hand with a red bow hangs on the same side of his body as the arm holding the phone, so it can belong to neither shoulder.",
+      "where": "lower right, below the phone arm",
+      "second": "confirmed"
+    },
+    {
+      "key": "k04",
+      "shots": [
+        4
+      ],
+      "still": "full/bea_call.jpg",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "Bea on the phone screen has black hair and no glasses, while the very next shot gives her a brown bob and round glasses.",
+      "where": "phone screen, right of frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k05",
+      "shots": [
+        5,
+        9
+      ],
+      "still": "full/bea_cu.jpg",
+      "type": "writing",
+      "must_fix": true,
+      "what": "Orange block letters stand on the newsroom shelf behind her.",
+      "where": "left edge, behind her shoulder",
+      "second": "confirmed; must_fix corrected to true: the orange letters read as 'INA' at full size, so they show on a paused phone"
+    },
+    {
+      "key": "k11",
+      "shots": [
+        11
+      ],
+      "still": "full/balangay_snow.jpg",
+      "type": "object",
+      "must_fix": false,
+      "what": "The boat's bamboo booms cross in an X in front of Indio and attach to nothing.",
+      "where": "across his waist and chest",
+      "second": "confirmed"
+    },
+    {
+      "key": "k22",
+      "shots": [
+        22
+      ],
+      "still": "full/seal_yeti.png",
+      "type": "hands",
+      "must_fix": false,
+      "what": "M's far hand has long thin boneless fingers that trail off into loose strands.",
+      "where": "M's raised hand, centre of frame",
+      "second": "confirmed; must_fix corrected to false: at 5x the far fingertips are muddy and run into the crescent's hanging cord, but at full size the hand is small and reads as a normal cupped hand"
+    },
+    {
+      "key": "k25",
+      "shots": [
+        25,
+        93
+      ],
+      "still": "full/pale_people.jpg",
+      "type": "hands",
+      "must_fix": true,
+      "what": "The seated woman at the left has a flat fingerless mitten where her hand should be.",
+      "where": "her near hand, lower left",
+      "second": "confirmed"
+    },
+    {
+      "key": "k28",
+      "shots": [
+        28
+      ],
+      "still": "full/indio_lesson.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Indio's skin is ivory pale and his face longer and sharper than his warm brown look in the other shots.",
+      "where": "whole face",
+      "second": "confirmed"
+    },
+    {
+      "key": "k31",
+      "shots": [
+        31
+      ],
+      "still": "full/hand_clock.jpg",
+      "type": "writing",
+      "must_fix": true,
+      "what": "Letter shapes (E, I, O, D) are carved around the stone dial instead of plain notches.",
+      "where": "dial rim, left of the hand",
+      "second": "confirmed"
+    },
+    {
+      "key": "k31",
+      "shots": [
+        31
+      ],
+      "still": "full/hand_clock.jpg",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "The man touching the dial has long loose hair, pale skin and neither the red headband nor the topknot Indio wears in every other shot.",
+      "where": "upper half of frame, his head",
+      "second": "confirmed"
+    },
+    {
+      "key": "k36",
+      "shots": [
+        36
+      ],
+      "still": "full/hand_shake.jpg",
+      "type": "hands",
+      "must_fix": true,
+      "what": "An extra rounded fingertip with its own outline is fused to the side of the ring finger.",
+      "where": "ring finger, upper right of the hand",
+      "second": "confirmed"
+    },
+    {
+      "key": "k37",
+      "shots": [
+        37
+      ],
+      "still": "full/m_comfort.jpg",
+      "type": "style",
+      "must_fix": true,
+      "what": "The shot is drawn as two full-length figures standing on a blank white void, like a character sheet, while the shots around it are the painted cave.",
+      "where": "whole frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k37",
+      "shots": [
+        37
+      ],
+      "still": "full/m_comfort.jpg",
+      "type": "hands",
+      "must_fix": false,
+      "what": "Their clasped hands merge into one lump with no separable fingers.",
+      "where": "centre, between the two figures",
+      "second": "confirmed"
+    },
+    {
+      "key": "k42",
+      "shots": [
+        42,
+        85
+      ],
+      "still": "full/time_stop.png",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Usman is a stocky dog with a grizzled grey muzzle and both ears folded, not the slim black street dog with one upright ear of the other shots.",
+      "where": "the dog, right of frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k44",
+      "shots": [
+        44,
+        86
+      ],
+      "still": "full/stones_fit.jpg",
+      "type": "limbs",
+      "must_fix": true,
+      "what": "Three separate hands reach in to fit the stones although only Indio is moving in the frozen cave.",
+      "where": "from the left, the top and the right edge",
+      "second": "confirmed"
+    },
+    {
+      "key": "k46",
+      "shots": [
+        46
+      ],
+      "still": "full/leave_clock.jpg",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "The very old woman of the cave is drawn here as a white-bearded old man.",
+      "where": "right of frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k46",
+      "shots": [
+        46
+      ],
+      "still": "full/leave_clock.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "M wears Indio's beige fur coat and red waist sash instead of her long dark coat.",
+      "where": "left of frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k55",
+      "shots": [
+        55
+      ],
+      "still": "full/portal_exit_snow.jpg",
+      "type": "object",
+      "must_fix": false,
+      "what": "Oars cross the boat held by nobody and one loose blade stands in mid-air in front of Indio.",
+      "where": "centre, across the hull",
+      "second": "confirmed"
+    },
+    {
+      "key": "k56",
+      "shots": [
+        56
+      ],
+      "still": "full/samar_fog.jpg",
+      "type": "bleed",
+      "must_fix": true,
+      "what": "A second red kerchief grows out of the shoulder and sleeve of his grey shirt, besides the one on his wrist.",
+      "where": "his left shoulder, right of frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k58",
+      "shots": [
+        58
+      ],
+      "still": "full/notebook_line_s3.jpg",
+      "type": "object",
+      "must_fix": true,
+      "what": "A closed eye with lashes is drawn on the blank notebook page, attached to nothing.",
+      "where": "right-hand page, centre",
+      "second": "confirmed"
+    },
+    {
+      "key": "k59",
+      "shots": [
+        59,
+        97
+      ],
+      "still": "full/notebook_map.jpg",
+      "type": "style",
+      "must_fix": true,
+      "what": "The notebook is a photographic image with real paper and gold paint, not the episode's cel-shaded anime.",
+      "where": "whole frame",
+      "second": "confirmed"
+    },
+    {
+      "key": "k62",
+      "shots": [
+        62
+      ],
+      "still": "full/trio_snow.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "The yeti on the ridge is a round smiling cartoon snow creature, not the ape-like white-furred giant of the earlier shots.",
+      "where": "upper left, on the ridge",
+      "second": "confirmed"
+    },
+    {
+      "key": "k02",
+      "shots": [
+        2,
+        13
+      ],
+      "still": "full/stone_door.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "Letter shapes (O, N, H) are carved in a band on the door lintel.",
+      "where": "lintel above the door, right of centre",
+      "found_by": "second"
+    },
+    {
+      "key": "k07",
+      "shots": [
+        7
+      ],
+      "still": "full/old_book_1873.jpg",
+      "type": "style",
+      "must_fix": true,
+      "what": "The book is a photo-like image with real leather and paper texture and a blurred photographic background, not the episode's cel-shaded anime.",
+      "where": "whole frame",
+      "found_by": "second"
+    },
+    {
+      "key": "k07",
+      "shots": [
+        7
+      ],
+      "still": "full/old_book_1873.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "A row of letter-like marks runs along the building's front in the cover drawing.",
+      "where": "centre right, under the balcony of the drawn building",
+      "found_by": "second"
+    },
+    {
+      "key": "k10",
+      "shots": [
+        10
+      ],
+      "still": "full/indio_salute.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "The red kerchief on his wrist is covered in black letter-like marks.",
+      "where": "kerchief on his raised wrist, left of centre",
+      "found_by": "second"
+    },
+    {
+      "key": "k15",
+      "shots": [
+        15
+      ],
+      "still": "full/m_yeti.png",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "M has warm brown skin here, while in the cave and boat shots her skin is pale.",
+      "where": "M's face, lower left",
+      "found_by": "second"
+    },
+    {
+      "key": "k30",
+      "shots": [
+        30
+      ],
+      "still": "full/old_woman_clock.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "The old woman of the cave has short loose grey hair and a different, heavily wrinkled face, while shot 26 gives her two long grey braids.",
+      "where": "her head, left half of frame",
+      "found_by": "second"
+    },
+    {
+      "key": "k46",
+      "shots": [
+        46
+      ],
+      "still": "full/leave_clock.jpg",
+      "type": "hands",
+      "must_fix": false,
+      "what": "A hand holding the stone dial comes out of the old man's beard with no arm leading to it.",
+      "where": "right edge of the dial, beside the beard",
+      "found_by": "second"
+    },
+    {
+      "key": "k50",
+      "shots": [
+        50
+      ],
+      "still": "full/europe_writers.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "The wall maps carry small letter-like marks in a label box and in lines of legend text.",
+      "where": "small map, upper right",
+      "found_by": "second"
+    },
+    {
+      "key": "k51",
+      "shots": [
+        51
+      ],
+      "still": "full/no_himalaya.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "The prayer flags are covered in rows of letter-like marks.",
+      "where": "flag line along the wall, upper left",
+      "found_by": "second"
+    },
+    {
+      "key": "k52",
+      "shots": [
+        52,
+        87
+      ],
+      "still": "full/sherpa_tale.jpg",
+      "type": "writing",
+      "must_fix": false,
+      "what": "The paper and open book in the old woman's hands show lines of letter-like marks.",
+      "where": "her hands, centre",
+      "found_by": "second"
+    }
   ]
 }

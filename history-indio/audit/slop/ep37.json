@@ -1,0 +1,481 @@
+{
+ "episode": 37,
+ "audited_by": "Ep37 render machine: two fresh readers",
+ "keys_looked_at": 69,
+ "must_fix": 14,
+ "minor": 24,
+ "defects": [
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/nesto_tv.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man being interviewed on Nesto's TV is a short-haired man in a blue suit crying, not Indio (no topknot, no grey streak), although the line says Nesto saw Indio on TV.",
+   "where": "TV screen, right middle",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/corridor_sinag.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears his suit jacket over a bare chest with no shirt, unlike the white shirt in every other suit shot.",
+   "where": "Indio's chest, right",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/nesto_alone.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Mang Nesto has dark black hair with grey only at the sides; in k24 and k38, right before and after, his hair is white.",
+   "where": "head, top",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/handover.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The handover is between two young men in a yellow tracksuit and a white t-shirt, not Undersecretary Lorna (dark suit, k09) and the black-suited ring man (k10).",
+   "where": "both figures, centre",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/usman_sinigang.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two floppy folded ears and a white blaze down his face; in k56 he has one ear up and one folded and no blaze.",
+   "where": "dog's head, right middle",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears standing up (German-shepherd look) instead of one folded ear.",
+   "where": "dog's head, bottom left",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/holo_95.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio's right forearm carries a dense floral full-sleeve tattoo; in k06, the episode's own close-up of the same arm, the marks are a ladder of plain dark bands, so the two shots show two different arms.",
+   "where": "right forearm, centre left",
+   "second_reader": "changed: reason corrected - the arm is tattooed in k06 too, the fault is that the design is a different one, not that a tattoo exists",
+   "fixed": true
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/paper_two.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The lower hand is a boneless pink blob with no readable fingers or thumb, and the upper hand's fingers run together into one slab.",
+   "where": "lower left hand; upper right hand",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k90",
+   "shots": [
+    90
+   ],
+   "still": "full/mont_flash.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Crowd of photographers: arms, cameras and bodies run into each other, with many hands melting into cameras and floating arms with no owner.",
+   "where": "whole frame, mostly upper half",
+   "second_reader": "confirmed",
+   "fixed": true,
+   "note": "the camera-flash montage extra was dropped: four redraws kept drawing a person"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/copper_cu.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The copper plate on the mat is a near-photographic 3D render with no ink line and no cel shading, so the whole frame reads as a stock photo dropped into the episode.",
+   "where": "whole frame",
+   "second_reader": "changed: must_fix raised to true - the break covers the entire frame and is unmistakable on a paused screen",
+   "fixed": true,
+   "note": "fixed on the fourth redraw (flat cel-style plate); a better close-up with Figma would still help"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/ring_back.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand reaching for the bag is a fingerless lump: no separated fingers or thumb, and the bronze ring sits on the outside of the knuckle with no finger through it.",
+   "where": "bottom right, the ring hand",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/face_melt.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dissolving man is a young black-haired man in a black suit and tie, not the tall silver-haired Tubal whose face Sinag wears in k26, k27, k28 and k48.",
+   "where": "left figure, whole body",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/tiyak_cars.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Seen from behind, Indio's jacket has a breast pocket with the red handkerchief in it on the BACK of the jacket, between the shoulder blades.",
+   "where": "centre, middle of Indio's back",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Indio's lowered left hand is grown into Usman's raised tail: the stubby fingers have no gaps and run straight into the black fur.",
+   "where": "centre left, Indio's left hand and the dog's tail",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/kathang_rico.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Rico has brown hair and no goatee, while in k33 he has a black pompadour and goatee; a second man in a yellow jacket sits behind him.",
+   "where": "Rico bottom centre; yellow jacket man right middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/ring_back.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The ring man seen from behind has short black hair; if he is meant to be Tubal (bronze ring, Tubal smiles in the hall later), Tubal's hair is silver.",
+   "where": "head, top centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/proverb_mind.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red tie although he wears no tie in the Senate scenes.",
+   "where": "top, tie",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/indio_breath.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black tie in the Senate; his look is no tie.",
+   "where": "tie, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/tiyak_saln.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black tie over a white shirt; his hearing look is no tie.",
+   "where": "centre, collar and tie",
+   "second_reader": "new"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/cctv_ask.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black tie and a grey waistcoat under the jacket, instead of the open collar with no tie.",
+   "where": "bottom right, collar and chest",
+   "second_reader": "new"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/face_melt.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both lowered hands are fingerless mittens: the dissolving man's left hand and Indio's right hand have no separated fingers, only a brown smear.",
+   "where": "left figure's left hand; right figure's right hand",
+   "second_reader": "changed: the hands do not blur into the smoke, they are drawn as solid lumps without fingers"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/rico_tubal_hall.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Rico's raised hand is open beside the camcorder without gripping it, so the camera floats.",
+   "where": "left middle, Rico's right hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/pinag_director.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The slumped man's hand shows a thumb and only three clear fingers.",
+   "where": "left edge, hand on the table",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/pinag_director.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "His second hand grows out of the back of his own head: the fingers run into the black hair and take on a red-brown smear where they meet.",
+   "where": "upper middle, beside the head",
+   "second_reader": "new"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/gorio_withdraw.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Gorio's left hand on the paper is a mitten with a stub thumb and no separate fingers.",
+   "where": "desk, left of the signing hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/garage_return.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's free left hand has a thumb and a curled stub with too few fingers.",
+   "where": "centre, Indio's left hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/garage_return.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "JM is a heavy dark-skinned older man with a scowl and a tool belt; in k19 he is a lighter, younger grinning mechanic, so the two shots read as two men.",
+   "where": "left of centre, the mechanic",
+   "second_reader": "new"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/plate_hand.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The elder's arm ends at the copper plate with no readable hand; the fingers under the plate are brown smudges.",
+   "where": "centre, the arm holding the plate from the left",
+   "second_reader": "new"
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/question.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's hand on the umbrella is a fingerless mitten and does not close around the handle.",
+   "where": "lower left, M's right hand",
+   "second_reader": "new"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/pillar_hide.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's profile is gaunt and deeply lined with a sunken cheek and jaw, reading as a man in his sixties rather than mid-thirties as in k06 and k07.",
+   "where": "upper left, Indio's face",
+   "second_reader": "new"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/jm_log.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The gate log page is full of letter-like marks in its header row.",
+   "where": "log book, left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/garage_return.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "JM's cap patch carries letter-like marks.",
+   "where": "cap, top left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/follow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hanging shop sign is covered in letter-like marks.",
+   "where": "top right sign",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/marks_glow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The blurred shopfront behind the arm carries a red sign with a white letter-like glyph and a second signboard of marks below it.",
+   "where": "right edge, middle and lower third",
+   "second_reader": "new"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/pillar_hide.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The lit mall shopfront behind the pillar carries a sign of white letter-like marks.",
+   "where": "left edge, upper middle",
+   "second_reader": "new"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/tinig_phones.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The jeepney's signboard over the windscreen carries a row of letter-like marks.",
+   "where": "top centre right, above the rear window",
+   "second_reader": "new"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/m_heard.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small framed notice on the kitchen wall beside M's head is covered in brush-written letter-like marks.",
+   "where": "upper right, wall behind M",
+   "second_reader": "new"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/fiction_cards.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Two of the golden cards carry faint letter-like glyphs near their upper edge although the cards are meant to be blank.",
+   "where": "centre, the two cards under the ring",
+   "second_reader": "new"
+  }
+ ]
+}

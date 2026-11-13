@@ -1436,10 +1436,18 @@ def episode(a):
     spec, tb, slug, _ = episode_spec(epdir, a.voice, a.set)
     W_, H_, fps, dur = probe(a.video)
     tim = json.load(open(os.path.join(epdir, 'timings.json'))); k = int(tb['insert_after_sentence'])
+    want_txt = (tb.get('after_text') or '').strip()                  # the sentence the break follows, by its words: the index moves when sentences are cut from an episode
+    if want_txt and not (0 <= k < len(tim) and tim[k]['text'].strip() == want_txt):
+        hits = [i for i, s_ in enumerate(tim) if s_['text'].strip() == want_txt]
+        if len(hits) != 1: die(f'trivia_break.json says the break follows "{want_txt[:60]}" (sentence {k}), but timings.json has that text {len(hits)} time(s): '
+                               'fix insert_after_sentence and after_text for the current narration', 2)
+        print(f'insert point: sentence {k} no longer has the expected text; using sentence {hits[0]}, which does ("{want_txt[:50]}")', flush=True); k = hits[0]
     at, under, avg, (g0, g1) = quiet_cut(a.video, tim, k, fps)
     print(f'cut: after sentence {k} ("{tim[k]["text"][:60]}"), gap {g0:.3f}-{g1:.3f} s, quietest 40 ms at {at:.3f} s: {under:.1f} dB under the episode average ({avg:.1f} dBFS)', flush=True)
-    if under < 12: die(f'refused: the quietest 40 ms of the gap after sentence {k} is only {under:.1f} dB under the episode average (want 12): '
-                       'is timings.json the CURRENT one for this video?', 2)
+    if under < 8: die(f'refused: the quietest 40 ms of the gap after sentence {k} is only {under:.1f} dB under the episode average (want 12, refuse under 8): '
+                      'is timings.json the CURRENT one for this video?', 2)        # a cut that lands in speech is near 0 dB under; a short gap over music sits at 9 to 12
+    if under < 12: print(f'WARNING: the gap after sentence {k} is short or the music is high there: the quietest 40 ms is {under:.1f} dB under the episode average (want 12). '
+                         'Listen to the two seconds around the cut; no word may be clipped.', flush=True)
     os.makedirs(work, exist_ok=True)                                 # only now: a refused run leaves no empty folder behind
     sp = os.path.join(work, 'spec.json'); json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
     me = [sys.executable, os.path.abspath(__file__)]; brk = os.path.join(work, 'break.mp4'); sheet_p = os.path.join(work, 'sheet.jpg')

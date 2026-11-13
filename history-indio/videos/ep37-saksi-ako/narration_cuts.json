@@ -1,0 +1,19 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 61,
+   "text": "Kathang-isip: ang pagdinig, ang pader-baha sa Kawit, ang Dalisdis, sina Mang Nesto, Lorna Malinis, Senador Gorio, Hukom Anselmo, Tubal at Rico, ang Yúmud, at kami ni Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 45,
+   "text": "At kathang-isip ang lahat ng sinabi tungkol sa akin sa vlog na Ang Totoong Kasaysayan.",
+   "why": "Plot: Indio's testimony at the hearing, using the tiyak/pinagtatalunan/kathang-isip method against the vlog's lies. Dialogue inside the story, not a disclaimer about the series."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Tiyak din: sa Saligang Batas at sa batas na RA 6713, kailangang magsumite ng SALN ang bawat opisyal. / Sa radyo ni Lola, isang babala mula sa PAGASA: isang bagyong walang katulad, papalapit."
+}

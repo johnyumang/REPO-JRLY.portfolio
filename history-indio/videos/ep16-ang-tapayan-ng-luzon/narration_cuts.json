@@ -1,0 +1,39 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 69,
+   "text": "Kathang-isip: kami, si Tubal, ang medalyon sa banga, at ang boses ng diwa, na walang ganoong naitalang salita."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 67,
+   "text": "Pinagtatalunan, o kuwento lang: ang buhay ni Luzon Sukezaemon at ang presyo ng bawat banga.",
+   "why": "History: a disputed or legendary part of the real record."
+  },
+  {
+   "index": 68,
+   "text": "Kuwentong-bayan ng Japan ang kappa.",
+   "why": "Folklore attribution that stands as its own sentence."
+  },
+  {
+   "index": 38,
+   "text": "Kappa, sa kuwentong-bayan ng Japan.",
+   "why": "M attributes the folklore inside the story."
+  },
+  {
+   "index": 22,
+   "text": "Ayon sa kuwento, isang taga-Sakai ang pumunta sa Luzon at umuwing may bitbit na ganito.",
+   "why": "Refers to the real Sukezaemon legend, which is a fact about the record."
+  },
+  {
+   "index": 25,
+   "text": "Kuwento ang halaga ng bawat banga.",
+   "why": "M's dialogue about the legend of the jars: a statement about the record, not about our story."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ng Japan ang kappa. / Sa hotel, inamin ko kay M ang lahat."
+}
