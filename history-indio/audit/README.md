@@ -117,3 +117,17 @@ What the pilot taught:
 - Small things must be given a size ("each coin the size of a fingertip").
 - The service refuses some proper names (a bastion's name was refused in every draw): describe the place without the name.
 - Cost: about 70 minutes on one machine for 37 keys with four drawers, the two judges, 13 redraws and the build.
+
+## Writing inside a picture: none, or REAL baybayin (the owner, 13 Nov)
+The owner saw letter-like scribble in frames: "Madaming words na hindi mo maintindihan ... baybayin." An image model cannot write:
+it draws false signs, also when asked for baybayin. So:
+1. Draw every picture with NO writing: signs, pages, banners, plaques show plain ruled or wavy lines (as the prompts already say).
+2. Where a surface NEEDS writing (the point of the shot is a sign, a page, a carved stone; a title; a quest or skill caption of the
+   new series), write true baybayin on it in code: `pipeline/baybayin.py paste <in> <out> "<Tagalog words>" <four corners>`
+   (`--carve` for stone and metal, `|` for a new line, `--final drop` for a scene before about 1600). It prints how the signs read
+   back: check that line, then LOOK at the result at 3x.
+3. Baybayin is right where Filipinos wrote for themselves, and as the series' own mark. A Spanish decree, a British order or an
+   American paper was never in baybayin: those stay plain lines. Latin words that a viewer must read are subtitles or code-drawn
+   captions, never part of the painting.
+4. A frame reader who finds letter-like marks in a painting reports them as a must-fix: repaint the place plain, or cover it with
+   real baybayin.
