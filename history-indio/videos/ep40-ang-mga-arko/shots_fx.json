@@ -375,11 +375,6 @@
  },
  "60": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
- "61": {
-  "fx": [],
   "framing": "wide-night",
   "depth": "strong",
   "move": "pan_right",
@@ -388,37 +383,43 @@
    100
   ]
  },
- "62": {
+ "61": {
   "fx": [],
   "framing": "two",
-  "move": "push_in"
+  "move": "push_in",
+  "key": 62
+ },
+ "62": {
+  "fx": [],
+  "framing": "low",
+  "move": "tilt_up",
+  "key": 63
  },
  "63": {
   "fx": [],
-  "framing": "low",
-  "move": "tilt_up"
+  "framing": "CU",
+  "move": "push_in",
+  "key": 64
  },
  "64": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
+  "framing": "CU-face",
+  "move": "push_in",
+  "key": 65
  },
  "65": {
   "fx": [],
-  "framing": "CU-face",
-  "move": "push_in"
+  "framing": "M",
+  "move": "push_in",
+  "key": 66
  },
  "66": {
   "fx": [],
-  "framing": "M",
-  "move": "push_in"
+  "framing": "CU",
+  "move": "push_in",
+  "key": 67
  },
  "67": {
-  "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
- "68": {
   "fx": [],
   "framing": "low",
   "move": "tilt_up",
