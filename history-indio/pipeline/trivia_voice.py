@@ -26,7 +26,9 @@ Output in --out: l{i}_{SPEAKER}.wav (trimmed to 60 ms of silence at both ends, 4
 under -1 dBTP, no clipping) and takes.json (per line: file, duration, heard in the finished file, checks, the other takes;
 total speech time). Takes and checks stay in --work (default DIR/work): a re-run judges what is there and only generates
 what is missing. Exit 1 naming the line if a line has no acceptable take after --takes; a warning if the total speech time is
-outside 12-20 s. Needs: HI_VOICE_REC (the user's recording), $HI_VOICE_WORK/baseline (baseline.py), /opt/vx, /opt/vx_model32."""
+outside 9-20 s (the break is about 12 to 20 s with the pauses). Words are compared after Tagalog spelling is folded (o/u,
+e/i, kuw/kw, uw/w, iy/y, hyphens, apostrophes, accents), so "kwento" for "kuwento" is no mismatch; a dropped or changed word or
+number still is. Self-test: trivia_voice.py --self-test (run with /opt/vc/bin/python). Needs: HI_VOICE_REC (the user's recording), $HI_VOICE_WORK/baseline (baseline.py), /opt/vx, /opt/vx_model32."""
 import argparse, glob, json, os, re, subprocess, sys, time
 import numpy as np, soundfile as sf
 
@@ -37,6 +39,55 @@ SPK_COMFORT = {'USMAN': 0.89, 'INDIO': 0.935}                          # floors 
 RISE_MAX = 2.0                                                         # semitones: a statement that ends higher sounds like a question
 VX = os.environ.get('HI_VX_PYTHON', '/opt/vx/bin/python')
 MEM_GB, MEM_WAIT_S = 12.0, 20 * 60
+
+
+def fold(s):
+    """One form for Tagalog spellings of the same sound: no accents, no hyphen or apostrophe inside a word, o=u, e=i, kuw=kw, uw=w, iy=y."""
+    import unicodedata
+    s = ''.join(ch for ch in unicodedata.normalize('NFKD', s.lower()) if not unicodedata.combining(ch))
+    s = re.sub(r"(?<=\w)[-'’](?=\w)", '', s).replace('o', 'u').replace('e', 'i')
+    s = s.replace('kuw', 'kw').replace('uw', 'w').replace('iy', 'y')
+    return re.sub(r'(.)\1+', r'\1', s)
+
+
+def fphon(t):
+    import vqc
+    return fold(vqc.phon(t))                                           # phon first: it takes the numbers out (compared by value)
+
+
+def f_edits(want, heard):
+    import vqc, numwords
+    return vqc.lev(fphon(want), fphon(heard)) + vqc.NUM_MISS * len(numwords.diff(want, heard))
+
+
+def f_cmatch(want, heard):
+    import difflib
+    return difflib.SequenceMatcher(None, fphon(want), fphon(heard), autojunk=False).ratio()
+
+
+def f_first_ok(want, heard):
+    import vqc, numwords
+    if numwords.starts_with_number(want): return vqc.first_ok(want, heard)
+    ws = [w for w in vqc.norm_words(want) if fphon(w)]; k = len(fphon(ws[0])) if ws else 0
+    return k > 0 and fphon(want)[:k] == fphon(heard)[:k]
+
+
+def spell_fold(m, text):
+    """Re-judge the stored 'heard' words with Tagalog spelling folded (after ms.renum), so a good take is not lost for spelling."""
+    if 'heard' in m: m['edits'], m['first_ok'], m['cmatch'] = f_edits(text, m['heard']), f_first_ok(text, m['heard']), round(f_cmatch(text, m['heard']), 3)
+    return m
+
+
+def self_test():
+    same = [('Dumadausdos', 'Dumadausdus'), ('higanteng', 'higanting'), ('kuwento', 'kwento'), ('patalastas', 'patalas-tas'),
+            ('alitaptap', 'alitap-tap'), ('Ang kuwento ng higanteng alitaptap.', 'Ang kwento ng higanting alitap-tap.')]
+    diff = [('dalawang taon', 'tatlong taon'), ('bundok', 'bundat'), ('isang itlog lang', 'isang itlog'), ('kada dalawang taon', 'bawat dalawang taon'),
+            ('noong 1521', 'noong 1522'), ('ang ibon', 'ang isda'), ('Dumadausdos ang bundok.', 'Dumadausdos ang bundok bundok.')]
+    bad = 0
+    for want, heard, expect in [(a, b, True) for a, b in same] + [(a, b, False) for a, b in diff]:
+        e = f_edits(want, heard); ok = (e == 0) == expect; bad += not ok
+        print('%s  %-9s %-40r %-40r edits %d' % ('ok  ' if ok else 'FAIL', 'same' if expect else 'different', want, heard, e))
+    print('self-test: %d of %d right' % (len(same) + len(diff) - bad, len(same) + len(diff))); return bad
 
 
 def die(msg, code=1): print('trivia_voice: ' + msg, file=sys.stderr, flush=True); sys.exit(code)
@@ -147,7 +198,7 @@ def main():
         if not os.path.exists(j): json.dump(vqc.take_metrics(w, c['text']), open(j, 'w'), ensure_ascii=False)
         m = json.load(open(j))
         if 'end_rise' not in m: m['end_rise'] = end_rise(w, m['words']); json.dump(m, open(j, 'w'), ensure_ascii=False)
-        ms.renum(m, c['text']); e, rf0 = ms.ref_emb(work, c['speaker'])
+        ms.renum(m, c['text']); spell_fold(m, c['text']); e, rf0 = ms.ref_emb(work, c['speaker'])
         m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = ms.checks(m, c, rf0); h = m.get('heard', '')
         why = [x for x, b in (('first word', not m['first_ok']), ('stray start %r' % vqc.extra_lead(c['text'], h), vqc.extra_lead(c['text'], h)),
                               ('stray end %r' % vqc.extra_trail(c['text'], h), vqc.extra_trail(c['text'], h)),
@@ -204,8 +255,8 @@ def main():
         for f in (tmp, lim):
             if os.path.exists(f): os.remove(f)
         I2, pk2 = ebu(dst); h = vqc.asr(vqc.load16(dst)); dur = round(len(seg2) / sr, 3); total += dur
-        fin = dict(first_word=vqc.first_ok(c['text'], h), stray_start=vqc.extra_lead(c['text'], h), stray_end=vqc.extra_trail(c['text'], h),
-                   edits=vqc.edits(c['text'], h), cmatch=round(vqc.cmatch(c['text'], h), 3), numbers_ok=not numwords.diff(c['text'], h))
+        fin = dict(first_word=f_first_ok(c['text'], h), stray_start=vqc.extra_lead(c['text'], h), stray_end=vqc.extra_trail(c['text'], h),
+                   edits=f_edits(c['text'], h), cmatch=round(f_cmatch(c['text'], h), 3), numbers_ok=not numwords.diff(c['text'], h))
         rows.append(dict(line=c['id'], speaker=c['speaker'], tone=c['style'], text=l['text'], say=c['text'], file=dst, take=os.path.basename(w), duration=dur, heard=h,
                          checks=dict(acceptable=m['acceptable'], not_acceptable=m['why'], other_failed=m['fail'], speaker_similarity=m['spk'], edits=m['edits'],
                                      cmatch=m['cmatch'], rate=m['rate'], clean_edges=m['clean_edges'], end_rise_st=m['end_rise'], intonation_ok=m['tone_ok'],
@@ -218,7 +269,7 @@ def main():
         print('==> %s %s %.2f s %.1f LUFS tp %.1f | heard: %s%s' % (name, os.path.basename(w), dur, I2, pk2, h, '' if fin['first_word'] and not fin['stray_start'] and not fin['stray_end'] else '  (finished file: check by ear)'), flush=True)
     json.dump(dict(episode=os.path.basename(os.path.abspath(a.episode)), lines=rows, total=round(total, 3), target_lufs=TARGET, generation_s=round(t_gen),
                    format='48 kHz mono 16-bit, 60 ms silence at each end', cast=cast), open(os.path.join(out, 'takes.json'), 'w'), ensure_ascii=False, indent=1)
-    print('total speech %.2f s%s' % (total, '' if 12 <= total <= 20 else '  WARNING: outside 12-20 s (the break is 18-23 s with the pauses)'))
+    print('total speech %.2f s%s' % (total, '' if 9 <= total <= 20 else '  WARNING: outside 9-20 s (the break is about 12 to 20 s with the pauses)'))
     if failed:
         for f in failed: print('NO ACCEPTABLE TAKE: ' + f, file=sys.stderr)
         sys.exit(1)
@@ -226,4 +277,5 @@ def main():
 
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['--self-test']: sys.exit(1 if self_test() else 0)
     main()
