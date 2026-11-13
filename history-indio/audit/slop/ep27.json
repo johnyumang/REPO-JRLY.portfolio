@@ -15,7 +15,8 @@
    "must_fix": true,
    "what": "A second long-haired woman in a white blouse stands inside the window right behind Inay, so the mother appears twice where the script has one woman sitting alone.",
    "where": "right half, inside the open window behind Inay's head (right edge; a reframe would also cut Inay)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k30",
@@ -28,7 +29,8 @@
    "must_fix": true,
    "what": "The coat-and-umbrella memory shows a short brown-haired person wearing the coat who cannot be read as Inay (long black hair); the still was meant to show only the coat, umbrella and medallion on a chair.",
    "where": "the figure filling the left and centre",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k35",
@@ -40,7 +42,8 @@
    "must_fix": true,
    "what": "Tala says 'Ako ang Ate mo, Indio' to a small brown-haired boy in a brown coat; Indio is a grown man with a topknot and grey t-shirt, so the brother reads as a stranger child.",
    "where": "lower right, the boy looking up at Tala",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k48",
@@ -52,7 +55,8 @@
    "must_fix": true,
    "what": "Inay whispers to 'anak' but holds a young boy with short hair in a white shirt, not present-day Indio (topknot, grey t-shirt).",
    "where": "lower right, the boy in the white shirt (right edge, but he is half the picture)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k47",
@@ -64,7 +68,8 @@
    "must_fix": true,
    "what": "The 'son' beside M is drawn as a small boy in a black hoodie, not adult Indio, so the forbidden-love line points at a child.",
    "where": "lower right corner, the child in black (corner: a crop to the two women would hide him)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k39",
@@ -76,7 +81,8 @@
    "must_fix": true,
    "what": "Indio grips the hand of a woman with light brown hair in a pink dress, who is neither Inay (black hair, pale blue dress) nor Tala (white hair, black coat).",
    "where": "right edge, the woman in pink",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k39",
@@ -88,7 +94,8 @@
    "must_fix": false,
    "what": "In the handshake Indio's fingers bunch into an unreadable lump under the other hand; no clear thumb and four fingers.",
    "where": "centre right, the clasped hands",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k17",
@@ -100,7 +107,8 @@
    "must_fix": true,
    "what": "The dog walking with Indio has no red kerchief, no white chest patch, both ears folded and glowing white slit eyes, so it does not read as Usman.",
    "where": "lower left, the black dog (left edge and bottom)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k08",
@@ -112,7 +120,8 @@
    "must_fix": true,
    "what": "Usman's entrance close-up gives him two tall upright ears (no folded ear) and a chibi round head unlike his other shots.",
    "where": "upper middle, the dog's head",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k10",
@@ -124,7 +133,8 @@
    "must_fix": true,
    "what": "Usman has two pointed upright ears and a hard geometric white triangle for a chest patch; he should have one folded ear.",
    "where": "whole frame, ears top left and right; chest patch lower middle",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -136,7 +146,8 @@
    "must_fix": true,
    "what": "Usman again has two pointed upright ears and a diamond-shaped white chest patch under a bow-tied kerchief.",
    "where": "ears at the top corners; chest lower middle",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k09",
@@ -173,7 +184,8 @@
    "must_fix": true,
    "what": "Inay's tearful close-up shows a tan, older, flat-shaded face that does not match the pale, soft young-looking mother of k27, k29, k33 and k62.",
    "where": "whole face, centre",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k00",
@@ -197,7 +209,9 @@
    "must_fix": true,
    "what": "M's name close-up gives her dark tan skin, a semi-realistic face and a different shading style from her pale anime face in k42, k44, k49 and k58, so the cut to her jolts.",
    "where": "whole face, centre",
-   "reader": "both"
+   "reader": "both",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour, the same soft pale anime face style as the episode's other shots. Single image, no panels. In a white doorway of light in Biringan, the legendary white city of light from Samar folklore in the Philippines, close-up of a young Filipina woman with long straight black hair, fair skin, soft anime face, in a plain long dark coat, saying her name for the first time, eyes steady, plain fabric with no print, a faint glow behind her, hands out of frame. Vertical 9:16. No text, no letters, no logos, no watermarks."
   },
   {
    "key": "k21",
@@ -209,7 +223,8 @@
    "must_fix": true,
    "what": "The engkantada of the hollow smile has brown hair and a different face from the grey-haired woman of k18 and the blue-black-haired woman of k19, and her two eyes are different colours (yellow-green and blue).",
    "where": "whole face; eyes upper middle",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k19",
@@ -234,7 +249,8 @@
    "must_fix": true,
    "what": "The two walking feet do not match: the left foot is pale in a tan sandal, the right is a dark brown foot with toes drawn as stubs; the feet also cast clear shadows in the shot about a city with no shadows.",
    "where": "bottom middle, the two feet",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k23",
@@ -246,7 +262,8 @@
    "must_fix": true,
    "what": "The rainy street's shop signs carry bold white pseudo-letters on green, red and blue boards that read as writing when paused, even though they cannot be read.",
    "where": "left and right shop fronts, upper half (both at the side edges: a tighter crop on the woman would hide them)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k16",
@@ -259,7 +276,8 @@
    "must_fix": true,
    "what": "The picture book the grandmother reads has a letter-like heading ('MURN') and lines of fake text on both pages.",
    "where": "lower middle, the open book",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k60",
@@ -309,7 +327,8 @@
    "must_fix": false,
    "what": "The umbrella's shaft keeps going past the hand down to the floor behind the chair, making it as tall as a person.",
    "where": "middle, the dark pole beside the chair",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k18",
@@ -395,7 +414,8 @@
    "must_fix": false,
    "what": "The hand under the wrist kerchief is a claw with the fingers fused together around a hole.",
    "where": "right middle, Indio's left hand",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k56",
@@ -433,7 +453,8 @@
    "must_fix": true,
    "what": "In the left window four faces are stacked in a column, each chin sitting on the next head's hair at different sizes, so heads grow out of other heads; it fills the upper half and is plain when paused.",
    "where": "upper left window panes (and the two faces in the upper right pane)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k28",
@@ -445,7 +466,8 @@
    "must_fix": true,
    "what": "A grimacing human head with a leaf crown and bead collar grows straight out of the tree trunk; it is large and plain when paused.",
    "where": "upper right, on the tree (right edge: moving the crop left would cut it out)",
-   "reader": "both"
+   "reader": "both",
+   "fixed": true
   },
   {
    "key": "k06",
@@ -482,7 +504,8 @@
    "must_fix": false,
    "what": "The hand pulling away has a boneless finger as long as the forearm with no knuckles, and the other fingers melt into the palm.",
    "where": "bottom left, the hand in the foreground (bottom edge: a crop up would hide it)",
-   "reader": "second"
+   "reader": "second",
+   "fixed": true
   },
   {
    "key": "k46",
@@ -522,7 +545,8 @@
    "must_fix": false,
    "what": "The window meant to face the grey sea shows a grey wasteland with a person lying face-down and a figure with an animal-like head walking past.",
    "where": "left window, middle of the frame",
-   "reader": "second"
+   "reader": "second",
+   "fixed": true
   },
   {
    "key": "k23",
@@ -534,7 +558,8 @@
    "must_fix": false,
    "what": "The rain woman, whom the next lines name as Inay, has brown shoulder-length hair and a visible face, not Inay's long black hair, so the cut to Inay in k24 does not read as the same woman.",
    "where": "the woman under the umbrella, centre",
-   "reader": "second"
+   "reader": "second",
+   "fixed": true
   }
  ]
 }
