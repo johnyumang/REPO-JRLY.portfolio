@@ -10,11 +10,16 @@ reference, same VoxCPM2 settings). USMAN lines: Usman's DESIGNED voice from the 
 Tones (lively, as the Episode 3 break): line 1 excited, a question curious, the other middle lines playful, the last excited;
 a line's "tone" field overrides; "grave": true makes Indio's playful/excited lines warm. Tones steer Indio's prompt clip and
 pitch window; Usman always continues from his own reference clip.
-Per line: up to --takes takes (seeds 1, 2, ...; a line stops early once a take passes every check). Each take is judged by the
+Per line: up to --takes takes (seeds 1, 2, ...; default 4). A line stops early only on a take that passes every check below
+with 0 word edits (a dropped or changed word is a mismatch with the caption), statement intonation on a statement line and
+speaker similarity comfortably above the floor (Usman >= 0.89, Indio >= 0.935); otherwise it keeps taking while takes remain.
+Each take is judged by the
 project's own checks (voice_clone/vqc.take_metrics + ms.checks): ACCEPTABLE = first word right, no stray token before the first
 word or after the last, words match (edits <= 1, cmatch >= 0.88), speaker similarity (Indio >= 0.915 to the real-recording
-centroid, Usman >= 0.85 to his own clip), numbers right by value. The best acceptable take is kept (fewest failed other checks,
-clean edges, fewest edits, score + liveliness). A line's "say" field is what the voice reads and is judged against; "text"
+centroid, Usman >= 0.85 to his own clip), numbers right by value. The best acceptable take is kept: 0 edits first, then the right intonation (a statement line, ending
+in '.', may not end on a rise of more than 2 semitones or be heard as a question; a '!' line may not be heard as a question),
+then fewest failed other checks, clean edges, fewest edits, score + speaker similarity + liveliness. A kept take with edits
+prints a CAPTION MISMATCH warning (listen; more --takes, or a "say" field). A line's "say" field is what the voice reads and is judged against; "text"
 stays the caption. Before every generation round the listener models are unloaded and the tool waits (60 s steps, up to
 20 min) until 12 GB of memory are available: the voice model needs about 11 GB.
 Output in --out: l{i}_{SPEAKER}.wav (trimmed to 60 ms of silence at both ends, 48 kHz mono 16-bit, about -18 LUFS, true peak
@@ -28,6 +33,8 @@ import numpy as np, soundfile as sf
 HERE = os.path.dirname(os.path.abspath(__file__)); VC = os.path.join(HERE, 'voice_clone'); sys.path.insert(0, VC)
 import vprofile as VP                                                  # noqa: E402  (paths and the voice profile)
 SR, PAD, TARGET, TP_MAX = 48000, 0.06, -18.0, -1.0
+SPK_COMFORT = {'USMAN': 0.89, 'INDIO': 0.935}                          # floors 0.85 / 0.915 (ms.checks); stop early only above these
+RISE_MAX = 2.0                                                         # semitones: a statement that ends higher sounds like a question
 VX = os.environ.get('HI_VX_PYTHON', '/opt/vx/bin/python')
 MEM_GB, MEM_WAIT_S = 12.0, 20 * 60
 
@@ -36,7 +43,9 @@ def die(msg, code=1): print('trivia_voice: ' + msg, file=sys.stderr, flush=True)
 
 
 def find_cast(arg):
-    places = ([arg] if arg else []) + [VP.CAST, '/opt/work/voice/cast']
+    places = []
+    for d in ([arg] if arg else []) + [VP.CAST, '/opt/work/voice/cast']:
+        if d and os.path.abspath(d) not in [os.path.abspath(x) for x in places]: places.append(d)
     for d in places:
         if d and os.path.exists(os.path.join(d, 'USMAN.wav')) and os.path.exists(os.path.join(d, 'USMAN.txt')): return os.path.abspath(d)
     die('no designed USMAN voice found (looked in: %s). Put the cast kit\'s USMAN.wav and USMAN.txt (its exact words) in '
@@ -50,6 +59,28 @@ def tone(i, n, line, grave):
     else: t = 'playful'
     if grave and line['speaker'] == VP.NARRATOR and t in ('playful', 'excited'): t = 'warm'
     return t
+
+
+def end_rise(wav, W):
+    """pitch at the end of the last word against the line's median pitch, in semitones (None if too little voicing)."""
+    import librosa, vqc
+    y = vqc.load16(wav); st, en, lw0 = W[0][1], W[-1][2], W[-1][1]; seg = y[int(st * 16000):int(en * 16000)]
+    if len(seg) < 4000: return None
+    f0 = librosa.yin(seg, fmin=70, fmax=350, sr=16000, frame_length=1024); r = librosa.feature.rms(y=seg, frame_length=1024, hop_length=256)[0]
+    n = min(len(f0), len(r)); f0, r = f0[:n], r[:n]; tt = st + np.arange(n) * 256 / 16000
+    ok = (r > 0.3 * np.median(r[r > 1e-4])) & (f0 > 75) & (f0 < 340)
+    if ok.sum() < 5: return None
+    tail = f0[ok & (tt >= max(lw0, en - 0.35))]
+    if len(tail) < 3: return None
+    return round(float(12 * np.log2(np.median(tail[len(tail) // 2:]) / np.median(f0[ok]))), 2)
+
+
+def intonation_ok(text, heard, rise):
+    t = text.strip().rstrip('"\'”) ')
+    if t.endswith('?'): return True                                      # a question may rise
+    asked = heard.strip().endswith('?')
+    if t.endswith('!'): return not asked
+    return not asked and (rise is None or rise <= RISE_MAX)              # a statement: no question ending
 
 
 def mem_avail_gb():
@@ -72,7 +103,7 @@ def ebu(path):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
-    ap.add_argument('episode'); ap.add_argument('--out', required=True); ap.add_argument('--takes', type=int, default=3)
+    ap.add_argument('episode'); ap.add_argument('--out', required=True); ap.add_argument('--takes', type=int, default=4)
     ap.add_argument('--cast'); ap.add_argument('--work')
     a = ap.parse_args()
     tb_path = os.path.join(a.episode, 'trivia_break.json')
@@ -114,7 +145,9 @@ def main():
         if w in judged: return judged[w]
         j = w[:-4] + '.json'
         if not os.path.exists(j): json.dump(vqc.take_metrics(w, c['text']), open(j, 'w'), ensure_ascii=False)
-        m = json.load(open(j)); ms.renum(m, c['text']); e, rf0 = ms.ref_emb(work, c['speaker'])
+        m = json.load(open(j))
+        if 'end_rise' not in m: m['end_rise'] = end_rise(w, m['words']); json.dump(m, open(j, 'w'), ensure_ascii=False)
+        ms.renum(m, c['text']); e, rf0 = ms.ref_emb(work, c['speaker'])
         m['spk'] = round(float(np.array(m['emb']) @ e), 3); m['fail'] = ms.checks(m, c, rf0); h = m.get('heard', '')
         why = [x for x, b in (('first word', not m['first_ok']), ('stray start %r' % vqc.extra_lead(c['text'], h), vqc.extra_lead(c['text'], h)),
                               ('stray end %r' % vqc.extra_trail(c['text'], h), vqc.extra_trail(c['text'], h)),
@@ -123,9 +156,13 @@ def main():
         m['acceptable'] = not why; m['why'] = why
         m['clean_edges'] = m['pre_s'] <= 0.25 and m['post_s'] <= 0.35 and m['lead'] <= 0.12 and m['trail'] <= 0.12
         m['energy'] = (m['f0sd'] or 0) / max(1, m['f0'] or 1)                        # pitch movement relative to pitch: a livelier read
-        m['key'] = (m['acceptable'], not m['fail'], m['clean_edges'], -m['edits'], round(ms.score(m) + 0.3 * m['energy'], 4))
+        m['tone_ok'] = intonation_ok(c['text'], h, m['end_rise'])
+        m['key'] = (m['acceptable'], m['edits'] == 0, m['tone_ok'], not m['fail'], m['clean_edges'], -m['edits'],
+                    round(ms.score(m) + 0.5 * m['spk'] + 0.3 * m['energy'], 4))
+        m['done'] = m['acceptable'] and not m['fail'] and m['clean_edges'] and m['edits'] == 0 and m['tone_ok'] and m['spk'] >= SPK_COMFORT.get(c['speaker'], 0)
         print('  l%d %-5s %-4s %s edits %d cm %.2f spk %.3f rate %.2f%s%s | %s' % (c['id'], c['speaker'], os.path.basename(w)[-6:-4], 'OK ' if m['acceptable'] else 'NO ',
-              m['edits'], m['cmatch'], m['spk'], m['rate'], (' not: ' + '; '.join(why)) if why else '', (' other: ' + ','.join(m['fail'])) if m['fail'] else '', h), flush=True)
+              m['edits'], m['cmatch'], m['spk'], m['rate'], (' not: ' + '; '.join(why)) if why else '', (' other: ' + ','.join(m['fail'])) if m['fail'] else '', h)
+              + ('' if m['tone_ok'] else '  (intonation: end %+.1f st%s)' % (m['end_rise'] or 0, ', heard as a question' if h.strip().endswith('?') else '')), flush=True)
         judged[w] = m; return m
 
     def takes(c): return sorted(glob.glob(f"{work}/c{c['id']:03d}_{VP.fname(c['speaker'])}_s*.wav"))
@@ -134,7 +171,7 @@ def main():
         need = []
         for c in C:
             ms_ = [judge(c, w) for w in takes(c)]
-            done = any(m['acceptable'] and not m['fail'] and m['clean_edges'] for m in ms_)   # a perfect take: no more needed
+            done = any(m['done'] for m in ms_)                                         # 0 edits, right intonation, clear similarity: enough
             if not done and not os.path.exists(f"{work}/c{c['id']:03d}_{VP.fname(c['speaker'])}_s{seed}.wav"): need.append(c['id'])
         if not need: continue
         print('== round %d: new takes (seed %d) for line(s) %s' % (seed, seed, ','.join(map(str, need))), flush=True)
@@ -171,8 +208,13 @@ def main():
                    edits=vqc.edits(c['text'], h), cmatch=round(vqc.cmatch(c['text'], h), 3), numbers_ok=not numwords.diff(c['text'], h))
         rows.append(dict(line=c['id'], speaker=c['speaker'], tone=c['style'], text=l['text'], say=c['text'], file=dst, take=os.path.basename(w), duration=dur, heard=h,
                          checks=dict(acceptable=m['acceptable'], not_acceptable=m['why'], other_failed=m['fail'], speaker_similarity=m['spk'], edits=m['edits'],
-                                     cmatch=m['cmatch'], rate=m['rate'], clean_edges=m['clean_edges'], finished_file=fin, lufs=I2, true_peak_db=pk2),
+                                     cmatch=m['cmatch'], rate=m['rate'], clean_edges=m['clean_edges'], end_rise_st=m['end_rise'], intonation_ok=m['tone_ok'],
+                                     finished_file=fin, lufs=I2, true_peak_db=pk2),
                          other_takes=[dict(take=os.path.basename(x), heard=q['heard'], acceptable=q['acceptable'], why=q['why'], fail=q['fail']) for x, q in cands if x != w]))
+        if m['edits'] or fin['edits']:
+            print('CAPTION MISMATCH l%d: the caption says "%s", the kept take is heard as "%s" (%d edit(s)): listen; if a word is really dropped or '
+                  'changed, record again with more --takes or give the line a "say"' % (c['id'], c['text'], h, max(m['edits'], fin['edits'])), flush=True)
+        if not m['tone_ok']: print('INTONATION l%d: no take ends as a statement (end %+.1f st): listen, or give the line a "tone"' % (c['id'], m['end_rise'] or 0), flush=True)
         print('==> %s %s %.2f s %.1f LUFS tp %.1f | heard: %s%s' % (name, os.path.basename(w), dur, I2, pk2, h, '' if fin['first_word'] and not fin['stray_start'] and not fin['stray_end'] else '  (finished file: check by ear)'), flush=True)
     json.dump(dict(episode=os.path.basename(os.path.abspath(a.episode)), lines=rows, total=round(total, 3), target_lufs=TARGET, generation_s=round(t_gen),
                    format='48 kHz mono 16-bit, 60 ms silence at each end', cast=cast), open(os.path.join(out, 'takes.json'), 'w'), ensure_ascii=False, indent=1)

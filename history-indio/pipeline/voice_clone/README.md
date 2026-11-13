@@ -119,13 +119,14 @@ cp $W/voice_timings.json videos/<slug>/timings.json                             
 Then the trivia break (Episode 3 on; see the main README, "Chibi trivia break", and `videos/<slug>/trivia_break.json`):
 ```
 /opt/vc/bin/python pipeline/trivia_voice.py videos/<slug> --out $W/trivia                     # the break's lines: Indio clone + Usman's designed voice, takes.json
-/opt/vc/bin/python pipeline/trivia_break.py episode videos/<slug> --voice $W/trivia --video <out>.mp4 --out <final>.mp4   # spec, cut, render, splice, checks; look at the 3 files it prints
+/opt/vc/bin/python pipeline/trivia_break.py episode videos/<slug> --voice $W/trivia --video <out>.mp4 --out <final>.mp4   # spec, cut, render, splice, checks; look at the sheet and 4 frames it prints
 ```
 The same by hand:
 `pipeline/trivia_break.py render --spec ... --out break.mp4 --sheet sheet.jpg` (look at the sheet), then
 `pipeline/trivia_break.py splice --video <out>.mp4 --brk break.mp4 --at <t> --out <final>.mp4`, where `<t>` is the end of
 sentence `insert_after_sentence` in the NEW `timings.json` plus its pause (re-assembly moves times; do not reuse an old
-`insert_time`). Check: duration, both streams, loudness about -16 LUFS / true peak under -1.5 dBTP, three frames.
+`insert_time`). Check: duration, both streams, loudness about -16 LUFS / true peak under -1.5 dBTP, the break within 1.5 LU of the 10 s of
+story either side (splice re-levels the break to the story and prints `level check`), the sheet and four frames.
 Last, the page: `pipeline/episode_page/make_page.py videos/<slug> <final>.mp4 <scratchpad>/page` and ONE private publish
 (4 files). Audio, video and keys never go into the repository.
 

@@ -29,7 +29,9 @@ render: spec.json (paths are relative to the spec file)
   command exits with code 3 naming the overlap if any two meet or anything important leaves the phone safe area.
 
 splice: puts the break into the episode at --at (rounded to a frame), 0.06 s audio fades either side, one re-encode,
-then the loudness guard and the full-decode check. Refuses (exit 2) if --at falls inside speech: the 120 ms around the
+then the loudness guard and the full-decode check. Level rule: before the concat the break is scaled to the integrated
+loudness of the 10 s of story either side of the cut (an episode is mastered near -20 LUFS, a break alone to -16), then
+the whole file is mastered; in the finished file the break must be within 1.5 LU of those 20 s of story (else exit 4). Refuses (exit 2) if --at falls inside speech: the 120 ms around the
 cut should be at least 12 dB under the episode's average level (warning, with the quietest frame nearby) and the 40 ms at
 the cut itself must be (else refused; --force to override): music under the narration keeps whole pauses only ~10 dB down.
 
@@ -41,8 +43,9 @@ up; it says so when still short). Cut: the silent gap after sentence insert_afte
 frame whose 40 ms of the video's own audio is quietest (among frames whose 120 ms, the splice fades, is also 12 dB
 down, when there are any); refused (exit 2) unless that is 12 dB under the episode average.
 Then render (with a sheet), splice, the checks (duration = episode + break, video and audio, every frame decodes, -16 LUFS
-+-0.5, true peak <= -1.5 dBTP), one summary line and the three files to look at (sheet, a frame before the cut, one after
-the break). --set overrides a spec field (dotted keys, JSON values), e.g. a test sticker: --set subjects.0.image=/tmp/x.png."""
++-0.5, true peak <= -1.5 dBTP, break within 1.5 LU of the story around it), one summary line and the five files to look at
+(sheet, a frame before the cut, the break's start and middle, one after the break). The work folder is made only once the
+spec and the cut pass. --set overrides a spec field (dotted keys, JSON values), e.g. a test sticker: --set subjects.0.image=/tmp/x.png."""
 import argparse, json, math, os, re, subprocess, sys, tempfile
 import numpy as np, soundfile as sf
 from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageFilter
@@ -67,6 +70,7 @@ BOXES = {
     'USMAN':    (0.46, 0.541, 0.88, 0.774),
     'source':   (0.04, 0.778, 0.88, 0.8165),
 }
+SRC_MIN_PX = 20                                                       # the source card's smallest phone-readable size (at 1280 px high)
 SRC_X1 = 0.875                                                       # the source line stays left of 87.5 % (x = 630 of 720)
 PALETTES = {   # a, b: the two sunburst tones; dot: halftone; accent: emphasis words; sticker/ribbon/bar fills
     'sun':  dict(a=(255, 208, 58), b=(255, 180, 40), dot=(255, 150, 34), accent=(255, 56, 80), sticker=(214, 20, 30),
@@ -753,13 +757,17 @@ def pop_curve(p, peak):
 
 
 def wrap_source(src, f, maxw, maxlines):
-    """break after ':' and ';' first, then greedy word wrap; None if more than maxlines are needed."""
+    """break after ':' and ';' first, then greedy word wrap (a word too wide for a line breaks after its hyphen:
+    'Merriam-' / 'Webster;'); None if more than maxlines are needed."""
     out = []
     for part in re.split(r'(?<=[:;])\s+', src):
-        cur = ''
+        cur = ''; toks = []
         for w in part.split():
-            if cur and f.getlength(cur + ' ' + w) > maxw: out.append(cur); cur = w
-            else: cur = (cur + ' ' + w).strip()
+            toks += [(x, k > 0) for k, x in enumerate(re.findall(r'[^-]+-|[^-]+$', w))] if f.getlength(w) > maxw and '-' in w[1:-1] else [(w, False)]
+        for w, glued in toks:
+            j = cur + ('' if glued else ' ') + w
+            if cur and f.getlength(j) > maxw: out.append(cur); cur = w
+            else: cur = j.strip()
         if cur: out.append(cur)
     return out if len(out) <= maxlines and max(f.getlength(x) for x in out) <= maxw else None
 
@@ -875,11 +883,12 @@ def render_bold(a, spec, P):
     if subs: win['subject'] = (t_s, T)
     if 'label' in ext: win['label'] = (t_s, T)
     src = spec.get('source', ''); sb = BX['source']; card = None
-    if src:                                     # white words on a dark rounded card, up to 4 lines, 18 px down to 13 px
-        for fs in range(round(H * 18 / 1280), 12, -1):
-            f = font('archivo', fs); ln = wrap_source(src, f, sb[2] - sb[0] - 20, 4); lh = fs * 1.22
+    if src:                                     # white words on a dark rounded card, up to 6 lines (as tall as fits), 22 px down to 20 px (phone-readable)
+        for fs in range(round(H * 22 / 1280), 12, -1):          # ... and only if it cannot fit, down to 13 px with a warning
+            f = font('archivo', fs); ln = wrap_source(src, f, sb[2] - sb[0] - 20, 6); lh = fs * 1.22
             if ln and len(ln) * lh + 16 <= sb[3] - sb[1]: break
         else: die(f'LAYOUT: the source line does not fit its card even at 13 px: shorten it ("{src}")')
+        if fs < round(H * SRC_MIN_PX / 1280): print(f'WARNING: the source card needs {fs} px (under {SRC_MIN_PX} px is small on a phone): shorten source_onscreen ("{src}")', flush=True)
         cw = round(max(f.getlength(x) for x in ln) + 20); ch = round(len(ln) * lh + 14)
         card = Image.new('RGBA', (cw, ch), (0, 0, 0, 0)); d_ = ImageDraw.Draw(card)
         d_.rounded_rectangle((0, 0, cw - 1, ch - 1), radius=10, fill=INK + (200,), outline=(255, 255, 255, 230), width=2)
@@ -939,6 +948,7 @@ def render_bold(a, spec, P):
     rng = np.random.default_rng(11); star_seed = [rng.random((14, 3)) for _ in bursts]
     stills = [float(x) for x in a.stills.split(',')] if a.stills else []
     track = {}; thumbs = []; spin = 0.0; prev_tip = None; spill = []
+    extra = {min(N - 1, math.ceil(fly1 * fps) + 1): 'title landed', min(N - 1, round((caps[-1].pt[-1] + ends[-1]) / 2 * fps)): 'last page'}   # on the sheet too
     LR = tuple(round(v) for v in (ext['captions'][0] - 4, ext['captions'][1] - 4, ext['captions'][2] + 4, ext['captions'][3] + 4))   # caption layer
     keep_out = [(r[0] - 8, r[1] - 8, r[2] + 8, r[3] + 8) for k_ in ('label', 'source') if k_ in ext for r in (ext[k_],)]   # no sparkles there
     hb = BX['bar'][3] - BX['bar'][1]; fbar = font('archivo', hb * 0.60); fnum = {}
@@ -1071,7 +1081,7 @@ def render_bold(a, spec, P):
             k_ = 6 * (1 - q / 0.2); arr = np.roll(np.roll(arr, round(k_ * math.sin(q * 95)), 1), round(k_ * math.cos(q * 80)), 0)
         if fi >= N - WHIP: arr = whip(arr, (fi - (N - WHIP) + 1) / WHIP, bg_now, fi)
         fr = Image.fromarray(arr)
-        if fi % fps == fps // 2: thumbs.append((t, fr.resize((W // 4, H // 4), Image.LANCZOS)))
+        if fi % fps == fps // 2 or fi in extra: thumbs.append((t, fr.resize((W // 4, H // 4), Image.LANCZOS), extra.get(fi, '')))
         for st_ in stills:
             if fi == round(st_ * fps): p_ = f'{os.path.splitext(a.out)[0]}_t{st_:05.2f}.png'; fr.save(p_); print('still', p_)
         ff.stdin.write(arr.tobytes())
@@ -1177,11 +1187,12 @@ def sheet(thumbs, out, T):
     if not thumbs: return
     tw, th = thumbs[0][1].size; cols = min(6, len(thumbs)); rows = math.ceil(len(thumbs) / cols); pad = 10; top = 46
     S = Image.new('RGB', (cols * (tw + pad) + pad, top + rows * (th + pad + 22) + pad), (18, 18, 20)); d = ImageDraw.Draw(S)
-    d.text((pad, 12), f'PATALASTAS NI USMAN: one frame per second, {T:.1f} s', font=font('archivo', 20), fill=(255, 226, 0))
+    d.text((pad, 12), f'PATALASTAS NI USMAN: one frame per second (+ the title landed and the last caption page), {T:.1f} s', font=font('archivo', 20), fill=(255, 226, 0))
     f = font('archivo', 15)
-    for i, (t, im) in enumerate(thumbs):
+    for i, th_ in enumerate(thumbs):
+        t, im, tag = th_ if len(th_) == 3 else th_ + ('',)
         x = pad + (i % cols) * (tw + pad); y = top + (i // cols) * (th + pad + 22)
-        S.paste(im, (x, y + 20)); d.text((x, y + 2), f'{t:.1f} s', font=f, fill=(220, 220, 220))
+        S.paste(im, (x, y + 20)); d.text((x, y + 2), f'{t:.2f} s ' + tag if tag else f'{t:.1f} s', font=f, fill=(255, 226, 0) if tag else (220, 220, 220))
     S.save(out, quality=90); print('sheet', out, S.size)
 
 
@@ -1210,6 +1221,9 @@ def splice(a):
         die(f'refused: --at {at:.3f} falls inside speech ({avg - core:.1f} dB under the average at the cut); '
             'pick a pause between sentences (timings.json), or --force', 2)
     nb = round(bdur * fps); bt = nb / fps
+    win = int(LEVEL_WIN * SR); story = np.concatenate([ep[max(0, c - win):c], ep[c:c + win]])        # the story the viewer hears around the cut
+    ls, lb = lufs(story), lufs(br); g = ls - lb; br = br * np.float32(10 ** (g / 20))
+    print(f'level match: story {LEVEL_WIN:.0f} s either side of the cut {ls:.1f} LUFS, break {lb:.1f} LUFS -> break {g:+.1f} dB before the splice', flush=True)
     fade = int(0.06 * SR); A = ep[:c].copy(); Bq = ep[c:].copy()     # short fade: a pause can be ~0.35 s; longer dims the words
     A[-fade:] *= np.linspace(1, 0, fade, dtype=np.float32)[:, None]; Bq[:fade] *= np.linspace(0, 1, fade, dtype=np.float32)[:, None]
     br = br[:int(round(bt * SR))]; br = np.pad(br, ((0, int(round(bt * SR)) - len(br)), (0, 0)))
@@ -1224,11 +1238,32 @@ def splice(a):
                     '-c:a', 'aac', '-b:a', '192k', '-ar', str(SR), '-ac', '2', '-shortest', '-movflags', '+faststart', a.out], check=True)
     os.remove(wav)
     print(f'episode {dur:.3f} s + break {bt:.3f} s at {at:.3f} s', flush=True)
-    sys.exit(0 if guard(a.out) else 4)
+    ok = guard(a.out); lvl_ok, _ = level_check(a.out, at, bt)
+    sys.exit(0 if ok and lvl_ok else 4)
+
+
+def lufs(x):
+    """integrated loudness (EBU R128, gated) of a mono or stereo array at SR."""
+    t = tempfile.mktemp(suffix='.wav'); sf.write(t, x, SR, subtype='FLOAT')
+    try: return ebur(t)[0]
+    finally: os.remove(t)
+
+
+def level_check(path, at, bt):
+    """in the finished file: the break against the LEVEL_WIN s of story either side of it. A break louder or quieter than
+    the story by more than LEVEL_TOL LU jumps out (the viewer reaches for the volume): refused."""
+    x = read_audio(path, 2); c0, c1, w = int(round(at * SR)), int(round((at + bt) * SR)), int(LEVEL_WIN * SR)
+    pre, post = x[max(0, c0 - w):c0], x[c1:c1 + w]
+    L = dict(before=lufs(pre), brk=lufs(x[c0:c1]), after=lufs(post), story=lufs(np.concatenate([pre, post])))
+    d = L['brk'] - L['story']; ok = abs(d) <= LEVEL_TOL
+    print(f'level check: story before {L["before"]:.1f}, break {L["brk"]:.1f}, story after {L["after"]:.1f} LUFS; break vs story {d:+.1f} LU '
+          f'(limit +-{LEVEL_TOL})' + ('' if ok else '  -> LEVEL MISMATCH: the break jumps out; do not publish this file'), flush=True)
+    return ok, dict(L, diff=round(d, 2))
 
 
 # ---------------------------------------------------------------------------------------------------------- episode
 REPO = os.path.dirname(HERE)
+LEVEL_WIN, LEVEL_TOL = 10.0, 1.5                                     # s of story either side of the break; LU allowed between them
 EP_GAP0, EP_GAP_MAX, EP_GAP_MIN, EP_MIN, EP_MAX = 0.22, 0.40, 0.16, 18.0, 23.0
 
 
@@ -1296,15 +1331,17 @@ def frame_at(video, t, out):
 
 def episode(a):
     epdir = a.episode.rstrip('/'); out = os.path.abspath(a.out)
-    work = os.path.abspath(a.work or os.path.splitext(out)[0] + '_work'); os.makedirs(work, exist_ok=True)
+    work = os.path.abspath(a.work or os.path.splitext(out)[0] + '_work')
+    if not os.path.exists(a.video): die(f'missing the episode video {a.video}', 2)
     spec, tb, slug, _ = episode_spec(epdir, a.voice, a.set)
-    sp = os.path.join(work, 'spec.json'); json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
     W_, H_, fps, dur = probe(a.video)
     tim = json.load(open(os.path.join(epdir, 'timings.json'))); k = int(tb['insert_after_sentence'])
     at, under, avg, (g0, g1) = quiet_cut(a.video, tim, k, fps)
     print(f'cut: after sentence {k} ("{tim[k]["text"][:60]}"), gap {g0:.3f}-{g1:.3f} s, quietest 40 ms at {at:.3f} s: {under:.1f} dB under the episode average ({avg:.1f} dBFS)', flush=True)
     if under < 12: die(f'refused: the quietest 40 ms of the gap after sentence {k} is only {under:.1f} dB under the episode average (want 12): '
                        'is timings.json the CURRENT one for this video?', 2)
+    os.makedirs(work, exist_ok=True)                                 # only now: a refused run leaves no empty folder behind
+    sp = os.path.join(work, 'spec.json'); json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
     me = [sys.executable, os.path.abspath(__file__)]; brk = os.path.join(work, 'break.mp4'); sheet_p = os.path.join(work, 'sheet.jpg')
     r = subprocess.run(me + ['render', '--spec', sp, '--out', brk, '--sheet', sheet_p, '--size', f'{W_}x{H_}', '--fps', str(round(fps))])
     if r.returncode: die(f'render failed (exit {r.returncode}): see above; spec {sp}', r.returncode)
@@ -1315,13 +1352,15 @@ def episode(a):
     kinds = sorted({s_['codec_type'] for s_ in j['streams']}); I, tp = ebur(out)
     dec = subprocess.run(['ffmpeg', '-v', 'error', '-i', out, '-f', 'null', '-'], capture_output=True, text=True).stderr.strip().splitlines()
     want = round(dur * fps) / fps + nb
-    ok = dict(duration=abs(odur - want) <= 1.5 / fps + 0.03, streams=kinds == ['audio', 'video'], decode=not dec, loudness=abs(I - LUFS) <= 0.5, peak=tp <= TP)
+    lvl_ok, L = level_check(out, at, nb)
+    ok = dict(duration=abs(odur - want) <= 1.5 / fps + 0.03, streams=kinds == ['audio', 'video'], decode=not dec, loudness=abs(I - LUFS) <= 0.5, peak=tp <= TP, level=lvl_ok)
     fb = frame_at(out, at - 0.5, os.path.join(work, 'frame_before_cut.jpg')); fa = frame_at(out, at + nb + 0.5, os.path.join(work, 'frame_after_break.jpg'))
+    fs_ = frame_at(out, at + 2.0, os.path.join(work, 'frame_break_start.jpg')); fm = frame_at(out, at + nb / 2, os.path.join(work, 'frame_break_middle.jpg'))
     bad = [x for x, v in ok.items() if not v]
     print(f'{slug}: break {nb:.2f} s (pause {spec["gap"]:.2f} s{", calm" if spec["calm"] else ""}) cut at {at:.3f} s after sentence {k} ({under:.1f} dB under) | '
           f'{os.path.basename(out)} {odur:.3f} s (episode {dur:.3f} + break {nb:.3f} = {want:.3f}), streams {"+".join(kinds)}, '
-          f'{"every frame decodes" if not dec else f"{len(dec)} DECODE ERRORS"}, {I:.1f} LUFS, true peak {tp:.1f} dBTP | {"OK" if not bad else "FAILED: " + ", ".join(bad)}', flush=True)
-    print('look at:'); print('  sheet         ' + sheet_p); print('  before cut    ' + fb); print('  after break   ' + fa)
+          f'{"every frame decodes" if not dec else f"{len(dec)} DECODE ERRORS"}, {I:.1f} LUFS, true peak {tp:.1f} dBTP, break {L["diff"]:+.1f} LU vs the story around it | {"OK" if not bad else "FAILED: " + ", ".join(bad)}', flush=True)
+    print('look at:'); print('  sheet         ' + sheet_p); print('  before cut    ' + fb); print('  break start   ' + fs_); print('  break middle  ' + fm); print('  after break   ' + fa)
     sys.exit(0 if not bad else 4)
 
 

@@ -97,15 +97,22 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
   or white parts inside the subject stay; soft edges, spill removed, white outline, drop shadow).
 - `render`: the spec (title, subtitle, palette `sun`/`sea`/`leaf`, sprites INDIO/USMAN, subjects with label and
   from_line, lines with speaker/text/wav/emphasis, source, countdown_text; paths relative to the spec) becomes the
-  break: synthesised sting, bed (18 dB under the voice) and whoosh, mastered to −16 LUFS / −1.5 dBTP, 48 kHz stereo.
+  break: synthesised sting, bed (18 dB under the voice) and whoosh, mastered to −16 LUFS / −1.5 dBTP, 48 kHz stereo
+  (splice re-levels it to the episode, below). The source card is 20–22 px (on a 1280 px frame) in up to 6 lines; under
+  20 px it warns: shorten `source_onscreen`.
   The layout boxes are fixed (`BOLD` in the script, all inside the phone safe area; only the chibis' feet may stand in
   the bottom app margin, their face zone may not); the drawn extents of every element, with the time each is on
   screen, are computed first and the command exits with code 3 naming any overlap, so nothing ever covers a face or
-  the subject. Look at the `--sheet` before using a break. Optional spec fields: `"layout": "classic"` renders the
+  the subject. Look at the `--sheet` before using a break: one frame per second plus the frame the title lands and the
+  middle of the last caption page (tagged in yellow). Optional spec fields: `"layout": "classic"` renders the
   version-1 frame (`BOXES`); `joke_line` (index; default the line before the last: the listener cracks up on it);
   `subjects[].pulse` (words that make the subject pulse; default its label).
-- `splice`: cuts the break in at `--at` (rounded to a frame) with 0.20 s audio fades, one re-encode, then the loudness
-  guard and the full-decode check. It refuses a cut inside speech and warns (with the quietest frame nearby) when the
+- `splice`: cuts the break in at `--at` (rounded to a frame) with 0.06 s audio fades, one re-encode, then the loudness
+  guard and the full-decode check. **Level rule:** the break is never louder or quieter than the story around it. Before
+  the concat it scales the break so its integrated loudness equals that of the 10 s of story on either side of the cut
+  (a published episode is about −20 LUFS, a rendered break −16), and only then masters the whole file to −16 LUFS; after
+  the encode it measures the finished file again and fails (exit 4, `LEVEL MISMATCH`, do not publish) when the break and
+  those 20 s of story differ by more than 1.5 LU. It refuses a cut inside speech and warns (with the quietest frame nearby) when the
   120 ms around the cut is not 12 dB under the episode's average. Voice and video files stay out of this repo.
 - The whole job for one episode, on the render machine that holds its work folder and final MP4 (from `history-indio/`,
   `HI_VOICE_REC` set, nothing else heavy running):
@@ -116,8 +123,13 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
   `trivia_voice.py` records the lines of `trivia_break.json`: INDIO with the clone of the user's own recording exactly as
   `gen_ms.py` makes Indio lines (tones: line 1 and the last excited, a question curious, the rest playful; a line's `tone`
   overrides; `grave` makes Indio warm), USMAN with his designed voice (`USMAN.wav` + `.txt` from `--cast`, else
-  `$HI_VOICE_WORK/cast`, else `/opt/work/voice/cast`). Up to `--takes` takes per line, judged by the voice_clone checks
-  (first word, no stray token at either end, words, speaker similarity, numbers) and the best kept; a line's `say` is what
+  `$HI_VOICE_WORK/cast`, else `/opt/work/voice/cast`). Up to `--takes` takes per line (default 4), judged by the voice_clone checks
+  (first word, no stray token at either end, words, speaker similarity, numbers) and the best kept. A line stops taking
+  early only at 0 word edits (a dropped or changed word, `nito` heard as `ito`, does not match the caption), statement
+  intonation on a line ending in `.` (no final rise over 2 semitones, not heard as a question) and speaker similarity
+  clear of the floor (Usman ≥ 0.89, Indio ≥ 0.935); among acceptable takes 0 edits wins, then the intonation, then
+  similarity and liveliness. A kept take with edits prints `CAPTION MISMATCH` (listen; more `--takes` or a `say`), one with
+  the wrong ending prints `INTONATION` (listen, or give the line a `tone`); a line's `say` is what
   is spoken and judged, `text` stays the caption. Trimmed to 60 ms, 48 kHz mono 16-bit, about −18 LUFS; `l{i}_{SPEAKER}.wav`
   and `takes.json`. Exit 1 naming the line if no take is acceptable; warns if the speech is outside 12–20 s. It unloads the
   listeners and waits for 12 GB free before each generation round (the voice model takes about 11 GB).
@@ -126,4 +138,6 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
   `"calm": true` for a grave episode (no shake or flash, softer sting, slower pops), cuts in the gap after
   `insert_after_sentence` of the CURRENT `timings.json` at the quietest 40 ms of the video's own audio (frames whose 120 ms is also
   12 dB down first; refused unless the 40 ms are 12 dB under the episode average), renders with a sheet, splices, checks (duration, both streams, every frame decodes,
-  −16 LUFS, true peak ≤ −1.5 dBTP) and prints one summary line and the sheet and two frames to look at.
+  −16 LUFS, true peak ≤ −1.5 dBTP, break within 1.5 LU of the story around it) and prints one summary line and the sheet
+  and four frames to look at (before the cut, break start, break middle, after the break). A run refused before rendering
+  (missing wav, sticker or video, cut refused) leaves no work folder behind.
