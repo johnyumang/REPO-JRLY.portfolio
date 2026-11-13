@@ -1,0 +1,139 @@
+{
+ "episode": 26,
+ "note": "Character-drift LOOK (central's list): every listed still opened at full size; redraws use the corrected prompt with the episode's own clothes; each kept redraw checked at 3x (hands, paws) and against neighbouring keys. Skin: kept redraws follow the cast string (warm brown skin), darker than some older stills of the episode.",
+ "looked": [
+  "indio_dark_eyes",
+  "balete_fog",
+  "balete_fail",
+  "kiling_light",
+  "indio_fear",
+  "crossing_sea",
+  "arrive_bank",
+  "grandkids_phone",
+  "adela_question",
+  "indio_answers",
+  "hut_alone",
+  "sinag_offer",
+  "lamp_glow",
+  "smoke_blow",
+  "cup_far",
+  "body_shiver",
+  "purge_dark",
+  "bakunawa_memory",
+  "pawnshop_mem",
+  "cars_mem",
+  "weeping",
+  "usman_light",
+  "usman_scold",
+  "usman_lead",
+  "baligtad_balete",
+  "dawn_maloka",
+  "breakfast",
+  "notebook_sort",
+  "warning_pills",
+  "vision_not_proof",
+  "indio_refuse",
+  "indio_want",
+  "key_hand_over",
+  "comment_cta",
+  "follow_end",
+  "adela_hands",
+  "usman_paw",
+  "river_close",
+  "indio_walk_night"
+ ],
+ "kept_as_is": [
+  "balete_fog",
+  "balete_fail",
+  "indio_fear",
+  "arrive_bank",
+  "grandkids_phone",
+  "indio_answers",
+  "hut_alone",
+  "sinag_offer",
+  "smoke_blow",
+  "cup_far",
+  "body_shiver",
+  "purge_dark",
+  "bakunawa_memory",
+  "pawnshop_mem",
+  "cars_mem",
+  "weeping",
+  "baligtad_balete",
+  "dawn_maloka",
+  "notebook_sort",
+  "warning_pills",
+  "indio_refuse",
+  "follow_end",
+  "adela_hands",
+  "river_close",
+  "indio_walk_night"
+ ],
+ "redrawn": [
+  {
+   "still": "full/indio_dark_eyes.jpg",
+   "why": "red cloth on both wrists in the opening close-up; now one handkerchief on the left wrist, tattoos on the right forearm",
+   "draws": 2
+  },
+  {
+   "still": "full/usman_paw.jpg",
+   "why": "Indio without a topknot, in a black collared shirt, and Usman as a Labrador puppy; now topknot, white t-shirt, one handkerchief, slim dog",
+   "draws": 2
+  },
+  {
+   "still": "full/adela_question.jpg",
+   "why": "Indio without a topknot, in a grey henley; now topknot, white t-shirt, jeans",
+   "draws": 2
+  },
+  {
+   "still": "full/indio_want.jpg",
+   "why": "red cloth on both wrists in a close-up; now one handkerchief on the left wrist",
+   "draws": 2
+  },
+  {
+   "still": "full/comment_cta.jpg",
+   "why": "red cloth on both wrists in the call-to-action shot; now one handkerchief on the left wrist",
+   "draws": 2
+  },
+  {
+   "still": "full/breakfast.jpg",
+   "why": "Indio in a black shirt and grey trousers unlike every other shot; now white t-shirt and jeans, Adela hands him the plate as the prompt says",
+   "draws": 2
+  },
+  {
+   "still": "full/usman_light.jpg",
+   "why": "Usman as a Labrador puppy with both ears folded, full-frame; now a slim street dog with one ear folded",
+   "draws": 2
+  }
+ ],
+ "left": [
+  {
+   "still": "full/key_hand_over.jpg",
+   "why": "Indio in a black t-shirt; two redraws drawn, both rejected (the better one had the key merging into the umbrella hook and letter-like key teeth, the other gave M a bob); old still and prompt kept"
+  },
+  {
+   "still": "full/usman_scold.jpg",
+   "why": "Usman as a Labrador puppy with both ears folded; over the redraw budget of 8"
+  },
+  {
+   "still": "full/kiling_light.jpg",
+   "why": "red cloth on both wrists; over budget"
+  },
+  {
+   "still": "full/lamp_glow.jpg",
+   "why": "red band and bow on both wrists; over budget"
+  },
+  {
+   "still": "full/crossing_sea.jpg",
+   "why": "red bows on both wrists on the handlebars; over budget"
+  },
+  {
+   "still": "full/vision_not_proof.jpg",
+   "why": "red bow on the book and a red cuff on the wrist (reads as two); over budget"
+  },
+  {
+   "still": "full/usman_lead.jpg",
+   "why": "Usman with both ears hanging (already judged minor in the quality pass)"
+  }
+ ]
+}
