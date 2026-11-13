@@ -7,6 +7,8 @@ def call(model, body, out, poll=25):
     except urllib.error.HTTPError as e: print(model, 'HTTP', e.code, e.read()[:300].decode('utf-8', 'replace')); return False
     a = r.get('artifacts') or r.get('data') or []
     b64 = (a[0].get('base64') or a[0].get('b64_json')) if a else r.get('image')
+    if not b64:                                                          # usually the content filter (finishReason CONTENT_FILTERED): reword the prompt plainly
+        print(model, 'EMPTY: no picture came back,', (a[0].get('finishReason') if a else None) or 'no reason given'); return False
     data = base64.b64decode(b64)                                         # decode first: a reply with no image must not empty an existing file
     open(out, 'wb').write(data); print(model, 'ok %.0fs' % (time.time() - t), out, a[0].get('finishReason', '') if a else ''); return True
 if __name__ == '__main__':

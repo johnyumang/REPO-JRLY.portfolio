@@ -21,8 +21,12 @@ def find(kind, n):
         if os.path.exists(f'{v}/{kind}/{n}.{e}'): return f'{v}/{kind}/{n}.{e}'
 # two free models of the same family on the same service; when one is down (504 for hours on 2026-11-12) the other usually answers.
 # The look is close enough for drafts (same prompt, same characters); set HI_IMG_MODEL=1 to start with the second one.
-MODELS = (('black-forest-labs/flux.2-klein-4b', {'steps': 4}), ('black-forest-labs/flux-3-image-klein', {}))
-PREF = [int(os.environ.get('HI_IMG_MODEL', '0')) % len(MODELS)]
+import flux_hq                                                             # the negative prompt lives there
+# found 13 Nov: flux-3-image-klein takes steps, cfg_scale and negative_prompt; 30 steps, guidance 4 and the negative prompt are most of
+# the difference between a draft with broken hands and a clean picture. flux.2-klein-4b is capped at 4 steps: it is only the fallback.
+HQ = {'steps': 30, 'cfg_scale': 4.0, 'negative_prompt': flux_hq.NEG}
+MODELS = (('black-forest-labs/flux.2-klein-4b', {'steps': 4}), ('black-forest-labs/flux-3-image-klein', HQ))
+PREF = [int(os.environ.get('HI_IMG_MODEL', '1')) % len(MODELS)]            # 1 = flux-3 at full quality (the default now); 0 = start with the 4-step model
 def gen(kind, n):
     p = find(kind, n)
     if p and n not in redo: return p
@@ -38,7 +42,9 @@ def gen(kind, n):
         m, extra = MODELS[(PREF[0] + t) % len(MODELS)]                    # start with the model that answered last; on a failure try the other one
         try:
             if nvidia_still.call(m, {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t // len(MODELS), **extra}, tmp) and cv2.imread(tmp) is not None:
-                PREF[0] = (PREF[0] + t) % len(MODELS); os.replace(tmp, out); return out
+                if 'klein-4b' in m: print(n, 'WARNING: drawn by the 4-step fallback model; look at hands and faces twice, or redo when flux-3 answers')
+                else: PREF[0] = (PREF[0] + t) % len(MODELS)              # only the full-quality model becomes the preferred one
+                os.replace(tmp, out); return out
         except Exception as e: print(n, 'failed:', str(e)[:120])
         if os.path.exists(tmp): os.remove(tmp)
         time.sleep(4 * (t + 1))
