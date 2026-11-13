@@ -1,0 +1,42 @@
+{
+ "fact_id": "t08",
+ "fact_english": "When nesting, the female rufous hornbill seals herself inside a tree hole, leaving a narrow slit through which the male feeds her.",
+ "label_onscreen": "KALAW",
+ "source_onscreen": "Pinagmulan: Wikipedia; The Auk",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang inahing kalaw, kinukulong ang sarili sa butas ng puno habang nangingitlog. May maliit na siwang lang.",
+   "emphasis": [
+    "siwang"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Doon siya pinapakain ng lalaki. Delivery, sa puno.",
+   "emphasis": [
+    "delivery"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Pagbalik ko, inalis ng mga manggagawa ng arko ang tela sa isang bagong marker na tanso.",
+ "estimated_time_note": "no timings.json yet; about 68 s by word count",
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the new marker is unveiled, before what it says is read. Grave episode (the flood begins later): gentle fact."
+}

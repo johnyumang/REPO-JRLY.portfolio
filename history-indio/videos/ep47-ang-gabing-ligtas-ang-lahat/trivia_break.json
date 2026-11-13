@@ -1,0 +1,42 @@
+{
+ "fact_id": "t58",
+ "fact_english": "Many sea cucumbers breathe by pumping water in and out through their rear end.",
+ "label_onscreen": "BALATAN",
+ "source_onscreen": "Pinagmulan: Wikipedia; Encyclopedia of Puget Sound",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Maraming balatan, sea cucumber, ang humihinga sa pamamagitan ng pagbomba ng tubig sa kanilang puwitan.",
+   "emphasis": [
+    "puwitan"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Hindi ko na itatanong kung paano nila nalaman.",
+   "emphasis": [
+    "itatanong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Pero huminto ang ulan.",
+ "insert_time": 63.69,
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After 'Pero huminto ang ulan.': what they see in the sky is the next line. Light episode: the silliest fact."
+}

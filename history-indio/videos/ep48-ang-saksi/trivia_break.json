@@ -1,0 +1,42 @@
+{
+ "fact_id": "t40",
+ "fact_english": "Most rattans are climbing palms; many of them have spines and hooks that help them climb over other plants.",
+ "label_onscreen": "YANTOK",
+ "source_onscreen": "Pinagmulan: Wikipedia; Smithsonian NMNH",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Karamihan sa yantok, palmang umaakyat, at marami ang may tinik at kawit para kumapit sa ibang halaman.",
+   "emphasis": [
+    "kawit"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Palma na marunong mag-rock climbing.",
+   "emphasis": [
+    "climbing"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Sa likod niya, nakapila ang lahat ng dilim ng mundo, at sa unahan, ang pitong prinsipe ng mga kalaliman.",
+ "estimated_time_note": "no timings.json yet; about 82 s by word count",
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the darkness lines up behind the enemy: who speaks to Indio is next. Grave episode: gentle plant fact."
+}

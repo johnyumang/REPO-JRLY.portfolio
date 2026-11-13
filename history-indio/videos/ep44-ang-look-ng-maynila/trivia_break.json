@@ -1,0 +1,43 @@
+{
+ "fact_id": "t10",
+ "fact_english": "The northern Luzon giant cloud rat can weigh about two kilograms or more, which is huge for a rat.",
+ "label_onscreen": "BUGKIAU",
+ "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang higanteng cloud rat ng hilagang Luzon, puwedeng umabot ng dalawang kilo o higit pa!",
+   "emphasis": [
+    "dalawang",
+    "kilo"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Daga na kasimbigat ng isang supot ng bigas. Galang.",
+   "emphasis": [
+    "galang"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "Sumindi ito, at sa liwanag nito, nahubad ang mga mukha.",
+ "insert_time": 97.38,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the lamp strips the faces: what lies behind them is next. Grave episode (battle in the bay): gentle animal fact."
+}

@@ -1,0 +1,42 @@
+{
+ "fact_id": "t07",
+ "fact_english": "Like other megapodes, the Philippine megapode does not sit on its eggs; it buries them in the ground and lets natural heat keep them warm.",
+ "label_onscreen": "TABON",
+ "source_onscreen": "Pinagmulan: Wikipedia; Emu (journal)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tabon, hindi nililimliman ang itlog. Ibinabaon niya sa lupa, at ang init ng kalikasan ang nagpapainit.",
+   "emphasis": [
+    "ibinabaon"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Sariling oven ng mundo. Matalinong ibon.",
+   "emphasis": [
+    "oven"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 9,
+ "after_text": "Sa harap ng marker ng Pugad Lawin, tumigil ang bata, at binasa ito nang malakas.",
+ "estimated_time_note": "no timings.json yet; about 53 s by word count",
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After the child reads the Pugad Lawin marker aloud: whether anything happens is the next line. Exception: Episode 50 reaches its fairness beat at about 63 s, so no spot fits the 60–130 s window; this is the strongest open loop after 50 s."
+}

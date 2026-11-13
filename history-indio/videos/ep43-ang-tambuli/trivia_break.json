@@ -1,0 +1,42 @@
+{
+ "fact_id": "t56",
+ "fact_english": "Mudskippers are fish that can spend up to three quarters of their lives out of water. They skip around on their fins and can breathe through their wet skin.",
+ "label_onscreen": "MUDSKIPPER",
+ "source_onscreen": "Pinagmulan: Wikipedia; Britannica",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang mudskipper, isdang kayang mamuhay nang hanggang tatlong-kapat ng buhay niya sa labas ng tubig!",
+   "emphasis": [
+    "labas"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Lumulukso sa palikpik, humihinga sa basang balat. Isda na ayaw maligo.",
+   "emphasis": [
+    "maligo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "At may sumagot.",
+ "estimated_time_note": "no timings.json yet; about 88 s by word count",
+ "palette": "sea",
+ "grave": false,
+ "why_here": "After 'At may sumagot.': who answered the tambuli is revealed after the break."
+}

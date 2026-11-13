@@ -1,0 +1,42 @@
+{
+ "fact_id": "t28",
+ "fact_english": "For sea turtles, the temperature of the sand decides whether the hatchlings become male or female; warmer sand gives more females.",
+ "label_onscreen": "PAWIKAN",
+ "source_onscreen": "Pinagmulan: Wikipedia; NOAA Ocean Service",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Sa pawikan, ang init ng buhangin ang nagpapasya kung babae o lalaki ang mapipisa. Mas mainit, mas maraming babae!",
+   "emphasis": [
+    "buhangin"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ang buhangin, may say sa gender reveal.",
+   "emphasis": [
+    "gender"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 25,
+ "after_text": "Hindi ninyo ako makukuha, at hindi kumakapit sa dugo ang talim.",
+ "insert_time": 100.7,
+ "palette": "sea",
+ "grave": true,
+ "why_here": "After Tala's 'Hindi ninyo ako makukuha...': the reason follows right after. Grave episode: gentle fact."
+}

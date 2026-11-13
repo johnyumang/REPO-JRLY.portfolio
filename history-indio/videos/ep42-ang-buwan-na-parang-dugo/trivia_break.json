@@ -1,0 +1,42 @@
+{
+ "fact_id": "t62",
+ "fact_english": "The purple colour of puto bumbong traditionally comes from a purple sticky rice called pirurutong.",
+ "label_onscreen": "PUTO BUMBONG",
+ "source_onscreen": "Pinagmulan: Wikipedia; Market Manila",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kulay-ube ng puto bumbong, ayon sa tradisyon, galing sa malagkit na bigas na pirurutong!",
+   "emphasis": [
+    "pirurutong"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Pirurutong. Sabihin mo nang tatlong beses.",
+   "emphasis": [
+    "tatlong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Bago ang buwan, ang lupa.",
+ "insert_time": 68.88,
+ "palette": "sun",
+ "grave": true,
+ "why_here": "After 'Bago ang buwan, ang lupa.': the quake is told after the break. Grave episode (Season 5 war): gentle food fact."
+}
