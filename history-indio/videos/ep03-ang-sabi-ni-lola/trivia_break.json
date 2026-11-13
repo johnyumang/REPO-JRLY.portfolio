@@ -1,0 +1,58 @@
+{
+ "fact_id": "t52",
+ "fact_english": "The American English word \"boondocks\" comes from the Tagalog word \"bundok\" (mountain). US military personnel in the Philippines brought it into American English, and it now means a remote, out-of-the-way rural area.",
+ "label_onscreen": "BUNDOK",
+ "source_onscreen": "Pinagmulan: Merriam-Webster; Collins English Dictionary",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Alam mo ba, par? Ang \"boondocks\" sa Ingles ng mga Amerikano, galing sa atin.",
+   "emphasis": [
+    "boondocks"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Sa salitang \"bundok\". Inuwi ng mga sundalong Amerikano.",
+   "emphasis": [
+    "bundok"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ngayon, liblib na lugar ang ibig sabihin nito sa kanila.",
+   "emphasis": [
+    "liblib"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Taga-bundok din ako. Sikat pala ako!",
+   "emphasis": [
+    "sikat"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 24,
+ "after_text": "Suot ng bata ang medalyon ko.",
+ "insert_time": 81.2,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "Right after the cliffhanger line; the next sentence answers it.",
+ "voice_note": "Line 1 was voiced with the spelling \"bundaks\" (comma after it) so that the English word is heard apart from \"bundok\" in line 2; the caption keeps \"boondocks\". No year is given on purpose: the dictionaries disagree on the first use.",
+ "gap": 0.22
+}
