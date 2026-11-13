@@ -1,0 +1,97 @@
+{
+  "episode": 26,
+  "readers": ["r1"],
+  "keys_looked_at": 89,
+  "defects": [
+    {
+      "key": "k39",
+      "shots": [39],
+      "still": "full/fear_void.jpg",
+      "type": "style",
+      "must_fix": true,
+      "what": "Instead of a figure of light breaking into points of light, the spiral holds a cute chibi grinning toddler flying with arms out, in a cartoon baby style that breaks the episode's realistic anime look and clashes with the terror/ego-death moment.",
+      "where": "centre of the frame",
+      "reader": "r1"
+    },
+    {
+      "key": "k65",
+      "shots": [65],
+      "still": "full/indio_refuse.jpg",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "The 'smiling stranger' Indio walks away from is drawn as a black-haired Filipino man with a low ponytail in plain street clothes, nothing like the blond/ash-haired foreigner in pale safari clothes established as the visitor Sinag in the shots just before.",
+      "where": "the standing man at right",
+      "reader": "r1"
+    },
+    {
+      "key": "k41",
+      "shots": [41, 42, 43, 44, 45],
+      "still": "full/usman_light.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Usman is drawn as a stocky Labrador-type dog with BOTH ears folded down in every shot; the model sheet calls for a slim short-haired street dog with only ONE folded ear.",
+      "where": "the dog's ears and build",
+      "reader": "r1"
+    },
+    {
+      "key": "k21",
+      "shots": [21, 22, 24, 62, 63],
+      "still": "full/sinag_arrive.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "The visitor Sinag's hair colour changes between his shots within the same episode, brown in k21 and k62 but blond in k22/k24 and ash-blond in k63, so the same character is not consistent.",
+      "where": "the foreign visitor's hair",
+      "reader": "r1"
+    },
+    {
+      "key": "k01",
+      "shots": [1, 8, 25, 29, 50, 59, 60, 67],
+      "still": "full/indio_dark_eyes.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Indio wears a red cloth/band on BOTH wrists in these shots; the character spec gives him a red handkerchief on the left wrist only.",
+      "where": "both of Indio's wrists",
+      "reader": "r1"
+    },
+    {
+      "key": "k22",
+      "shots": [22],
+      "still": "full/sinag_offer.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Indio's red handkerchief is tied at his neck like a scout neckerchief instead of on his wrist.",
+      "where": "Indio's collar/neck",
+      "reader": "r1"
+    },
+    {
+      "key": "k43",
+      "shots": [43],
+      "still": "full/usman_paw.jpg",
+      "type": "off_model",
+      "must_fix": false,
+      "what": "Indio is drawn in a black collared shirt with short slicked hair and no topknot, instead of his white t-shirt and black topknot.",
+      "where": "Indio's hair and shirt",
+      "reader": "r1"
+    },
+    {
+      "key": "k98",
+      "shots": [98],
+      "still": "full/ex_jaguar.jpg",
+      "type": "merge",
+      "must_fix": false,
+      "what": "The glowing jaguar's two front legs come together at the bottom and fuse into a single wide paw-blob with an unclear number of toes.",
+      "where": "the jaguar's front paws, lower centre",
+      "reader": "r1"
+    },
+    {
+      "key": "k55",
+      "shots": [55],
+      "still": "full/scholar_books.jpg",
+      "type": "object",
+      "must_fix": false,
+      "what": "The stacked books are rendered in a softer painterly filter and their edges melt into one another so individual volumes are hard to separate.",
+      "where": "the pile of books",
+      "reader": "r1"
+    }
+  ]
+}
