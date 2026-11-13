@@ -1,41 +1,505 @@
 {
-  "episode": 2,
-  "audited_by": "central",
-  "keys_looked_at": 37,
-  "defects": [
-    {"key": "k12", "type": "merge", "must_fix": true, "shots": [12], "still": "chars/indio_duck.jpg", "where": "top centre, above his head", "what": "Both raised forearms end in one smooth fused lump with no hands and no fingers at all; the arms are also over-long and start wide of his shoulders.", "fix_idea": "Redraw hiding the hands: 'ducking, both arms crossed over the top of his head, hands hidden behind his head', or crouching with the hands out of frame. Paste the 1762_manila string word for word (collarless baro, not a V-neck T-shirt) and keep the tattoo on the right forearm."},
-    {"key": "k10", "type": "hands", "must_fix": true, "shots": [10], "still": "full/medallion.jpg", "where": "whole frame, the hand behind the medallion", "what": "The hand is one boneless mitten with a single crease and no countable fingers, the medallion floats in front of the palm instead of being held, and the skin is pale pink instead of Indio's warm brown.", "fix_idea": "Redraw and choose: 'an old bronze medallion hanging from its worn cord against a dark background, glowing gold, no hand in the picture', or 'held by a brown-skinned thumb and index finger only, the other fingers curled out of focus'."},
-    {"key": "k05", "type": "hands", "must_fix": true, "shots": [5], "still": "chars/indio_order.jpg", "where": "both hands at the bilao rim, lower third", "what": "Both hands on the tray are lumpy mittens: an egg-shaped thumb blob on the rim and fused fingers below, no countable digits, and they are grey-brown, a different colour from his face.", "fix_idea": "Reframe so the tray sits on the bottom edge with the hands out of frame (raise y), or redraw 'holding the round bamboo tray from below, both hands hidden under it'."},
-    {"key": "k40", "type": "object", "must_fix": true, "shots": [40], "still": "chars/indio_cold.jpg", "where": "left hand and what it holds, left middle", "what": "He holds a butter-knife handle while a woven straw ball hangs beside it with pale noodles growing out of it and a second brown handle stuck in its side; a stray fingertip pokes out over the top of his fist.", "fix_idea": "Redraw without the risk: 'holding a plain fork with a few limp noodles on it, one hand, a thumb and four fingers', or put the hand out of frame and keep only his deadpan face."},
-    {"key": "k07", "type": "hands", "must_fix": true, "shots": [7], "still": "chars/indio_phone.jpg", "where": "both hands on the phone, lower middle", "what": "Fingers of both hands interlock across the face of the phone, point in different directions and cannot be counted, and neither thumb is readable. (The first reader's second claim is refuted: the camera lens is on the side facing us, so he is correctly looking at the screen.)", "fix_idea": "Redraw and choose: 'holding the phone in one hand, screen facing him, only the back of the phone and his thumb visible', or reframe tighter on his face with the phone below the frame."},
-    {"key": "k07", "type": "face", "must_fix": true, "shots": [7], "still": "chars/indio_phone.jpg", "where": "both eyes", "what": "The eyes are two blank white sickles with lashes and no iris or pupil at all, and the two differ in size and shape, so a held close-up of the lead reads as rolled-back white eyes rather than a downward glance.", "fix_idea": "Fold into the same redraw: 'eyes half-lidded looking down at the screen, dark brown irises visible under the lids'."},
-    {"key": "k34", "type": "hands", "must_fix": true, "shots": [34], "still": "chars/indio_think.jpg", "where": "hand under the chin, centre", "what": "The hand under his chin is boneless: the top finger curls into a closed ring against the palm, the others melt into the fist and there is no thumb.", "fix_idea": "Redraw hiding the hands: 'thinking, arms crossed, hands tucked under the arms', or 'looking up thoughtfully, hands out of frame'. Use the 1762_manila string (collarless baro, not a V-neck T-shirt)."},
-    {"key": "k30", "type": "hands", "must_fix": true, "shots": [30], "still": "chars/indio_whisper.jpg", "where": "hand at the mouth, centre", "what": "The big hand at his mouth has an index fingertip pushed inside the lower lip, three knobby stubs of uneven length below it, one bending backwards, no thumb anywhere, and stray scribble lines across the back of the hand.", "fix_idea": "Redraw hiding the hands: 'whispering behind one cupped hand seen edge-on, fingers together', or keep the hand out of frame and tell it with the face alone."},
-    {"key": "k31", "type": "hands", "must_fix": true, "shots": [31], "still": "full/quill.jpg", "where": "the writing hand, centre of the frame", "what": "The hand holding the quill has only two digits: a thumb and one finger with a nail; the middle, ring and little fingers are missing and the rest of the hand is one smooth paddle that runs straight into the lace cuff. (Missed by the first reader.)", "fix_idea": "Redraw and choose: 'a hand in a white lace cuff holding a quill, a thumb and four fingers, the little finger clearly separate', or reframe to show only the quill tip and the paper with the hand out of frame."},
-    {"key": "k44", "type": "hands", "must_fix": true, "shots": [44], "still": "chars/woman.jpg", "where": "both hands on the umbrella handle, left middle", "what": "The upper hand's fingers fuse into one slab around the shaft and the lower hand is a featureless pale blob with no fingers at all, in a whiter skin tone than the hand above it.", "fix_idea": "Redraw and choose: 'the red umbrella resting on her shoulder, one hand on the handle, a thumb and four fingers', or 'both hands in her coat pockets'."},
-    {"key": "k16", "type": "face", "must_fix": true, "shots": [16], "still": "chars/spanish.jpg", "where": "both eyes, upper half of the face", "what": "The two eyes do not match: the viewer-left eye is smaller, tilted and set lower with its iris aimed down-left, the right is a larger round ball aimed forward, and both have grey-shaded whites, so the face reads as googly. (Missed by the first reader.)", "fix_idea": "Redraw 'a terrified Spanish defender of 1762, both eyes the same shape and size, looking the same way', in the episode's anime style."},
-    {"key": "k14", "type": "object", "must_fix": true, "shots": [14], "still": "full/ships.jpg", "where": "lower half, on the water", "what": "Loose cannon barrels lie on the sea apart from the ships and fire from the water, and one cannon sits on top of a deck firing sideways. The still is also in a flat Western comic style, not the anime of the episode.", "fix_idea": "Redraw: 'warships firing broadsides, smoke from the gun ports along the ship sides, no loose cannons, no cannons on the water', with the episode's anime style line pasted word for word."},
-    {"key": "k18", "type": "object", "must_fix": true, "shots": [18], "still": "full/wallfall.jpg", "where": "centre", "what": "A cannon barrel grows out of the middle of the exploding wall and fires, and the wall is a crenellated European castle drawn in Western comic style.", "fix_idea": "Redraw: 'a section of thick low Spanish bastion wall bursting from a cannonball hit, flying stones and dust, no cannon in the picture', in the episode's anime style."},
-    {"key": "k01", "type": "off_model", "must_fix": true, "shots": [1], "still": "full/intro.jpg", "where": "whole figure", "what": "The intro Indio is a different person from the rest of the episode: sleek side-parted hair, an older narrow face, thin eyes, a white collared dress shirt (neither the baro nor the orange windbreaker), a plain medallion and no forearm tattoo.", "fix_idea": "Redraw with the cast string pasted word for word (1762_manila or modern_rider_from_ep2) and keep the take closest to the face the episode settles on; this is the opening shot, so draw up to four and choose."},
-    {"key": "k01", "type": "face", "must_fix": true, "shots": [1], "still": "full/intro.jpg", "where": "the gear disc at top centre, right beside his head", "what": "A human face is embossed on the gear behind his head with skewed eyes and a melting mouth, so a second, deformed face sits next to Indio's. (Missed by the first reader.)", "fix_idea": "Fold into the same redraw: 'plain gear rims and plain clock faces, no portraits, no faces, no numerals, no letters'."},
-    {"key": "k39", "type": "object", "must_fix": true, "shots": [39], "still": "full/tattoo.jpg", "where": "the forearm, centre", "what": "The line on this shot is 'May pangalawa na akong tattoo sa braso' (I now have a second tattoo), but the arm carries only one small diamond tattoo. (Missed by the first reader; the fist itself is clean, a thumb and four fingers.)", "fix_idea": "Redraw with two small indigo geometric tattoos on the forearm, the newer one glowing faint gold, the arm alone in frame."},
-    {"key": "k01", "type": "writing", "must_fix": false, "shots": [1], "still": "full/intro.jpg", "where": "the clock rings, left and right of his head", "what": "The rings behind him carry rows of letter-like glyphs: repeated E-shapes and Roman-numeral marks around the dials.", "fix_idea": "Fold into the same redraw: 'plain gear rims, no numerals, no letters, no glyphs'."},
-    {"key": "k00", "type": "off_model", "must_fix": false, "shots": [0], "still": "chars/indio_shock.png", "where": "head and render", "what": "A different look from the majority of Indio shots: tousled brown-black spiky hair, a rounder face, bigger brown eyes and richer painterly shading; the broad band tattoo on the forearm also does not match the small wrist diamond of k39.", "fix_idea": "Decide one Indio for the episode first, then redraw either this shot or the majority set to match. The hands on the tray here are the best in the episode and worth keeping as the reference pose."},
-    {"key": "k47", "type": "off_model", "must_fix": false, "shots": [47], "still": "chars/indio_usman.png", "where": "head", "what": "Same newer look as k00 (tousled brown-gold spiky hair with no topknot, rounder face, warmer render), so the cut from k45 to k47 changes his hair and face. Both fists are clean, a thumb and four fingers each.", "fix_idea": "Redraw matched to whichever Indio the episode settles on, with the topknot the cast string asks for."},
-    {"key": "k45", "type": "off_model", "must_fix": false, "shots": [45], "still": "chars/indio_point.jpg", "where": "head", "what": "His face here is rounder, the eyes bigger and browner and the skin warmer than in k03, k05, k07 and k08, so this shot sits between the two Indio looks rather than with the majority.", "fix_idea": "Redraw with whichever look the episode settles on, cast string pasted word for word."},
-    {"key": "k05", "type": "off_model", "must_fix": false, "shots": [5, 7, 8, 30, 34, 40], "still": "chars/indio_order.jpg", "where": "the eyes", "what": "Indio's eyes are steel grey-blue in k05, k07, k08, k30, k34 and k40 but warm brown in k00, k03, k09, k45 and k47, so his eye colour changes from shot to shot. (Missed by the first reader.)", "fix_idea": "Add 'dark brown eyes' to the Indio cast string and use it in every redraw."},
-    {"key": "k25", "type": "off_model", "must_fix": false, "shots": [25, 30, 12, 34], "still": "chars/indio_sad.jpg", "where": "shirt", "what": "In 1762 he wears a modern collared button-down shirt in k25 and k30 and a V-neck T-shirt in k12 and k34, where the cast string asks for a collarless baro.", "fix_idea": "Redraw with the 1762_manila string word for word, adding 'collarless, no collar, no buttons'."},
-    {"key": "k10", "type": "off_model", "must_fix": false, "shots": [10, 0, 1, 3, 5, 9, 25, 47], "still": "full/medallion.jpg", "where": "the medallion", "what": "The medallion face changes across shots: a sun with a triangle in k10, a star or flower in k00 and k47, and a plain blank disc in k01, k03, k05, k09 and k25.", "fix_idea": "Add one fixed medallion description to the cast string (e.g. 'a round bronze medallion engraved with a sun and a triangle') and use it in every redraw."},
-    {"key": "k24", "type": "hands", "must_fix": false, "shots": [24], "still": "full/coins.jpg", "where": "the gloved hand, upper right", "what": "Unsure: the glove shows a thumb and three fingers, with the rightmost digit twice as wide as the others, as though the ring and little fingers were fused into one.", "fix_idea": "Reframe, or redraw 'one gloved hand, a thumb and four fingers clearly separate, reaching into the chest of plain worn coins'."},
-    {"key": "k24", "type": "style", "must_fix": false, "shots": [24, 14, 18, 20, 31, 33], "still": "full/coins.jpg", "where": "whole frame", "what": "The 'full' stills are drawn in a thick-line Western comic style with flat poster colour, not the anime cel look of the character keys, so every cut from a character shot to one of them jolts. It is a pattern across k14, k18, k20, k24, k31 and k33.", "fix_idea": "When any of these is redrawn, paste the episode's style line word for word and keep the same anime cel look; redo the rest in the same pass if the engine allows."},
-    {"key": "k45", "type": "hands", "must_fix": false, "shots": [45], "still": "chars/indio_point.jpg", "where": "the pointing hand, left", "what": "Unsure: the extended digit is thick and nail-less and reads as a thumb, and only three curled knuckles sit below it, so the gesture reads as a sideways thumbs-up with a finger missing rather than the point the line asks for.", "fix_idea": "Redraw and choose: 'pointing straight at the viewer with the index finger, thumb raised, three fingers curled'."},
-    {"key": "k43", "type": "hands", "must_fix": false, "shots": [43], "still": "full/phone.jpg", "where": "the thumb and palm, left of the phone", "what": "Unsure: the four fingers on the right are correct and have nails, but the thumb is an oversized column with no nail and no joint and the palm below it is a blank mass. (Missed by the first reader.)", "fix_idea": "Redraw 'a brown hand holding a smartphone, a thumb with a nail and four fingers' if the shot is redone for any other reason."},
-    {"key": "k08", "type": "object", "must_fix": false, "shots": [8], "still": "chars/indio_hungry.jpg", "where": "the basket, lower half", "what": "The basket of noodles floats in front of his chest with no hands holding it and the noodles are rubbery glowing loops.", "fix_idea": "Reframe lower so the basket sits on the bottom edge, or redraw 'holding the bamboo tray with both hands hidden under it'."},
-    {"key": "k20", "type": "object", "must_fix": false, "shots": [20], "still": "full/city.jpg", "where": "upper left sky; and all four edges", "what": "A lone mast with its yard rises out of the treeline with no ship under it and reads as a giant cross in the sky; the picture also has a near-black border about 3 px wide on all four edges.", "fix_idea": "Reframe (crop a few px in x and y) to drop the border. The mast is minor; remove it if the shot is redrawn."},
-    {"key": "k44", "type": "other", "must_fix": false, "shots": [44], "still": "chars/woman.jpg", "where": "right of centre, among her hair strands below the umbrella", "what": "A small bright yellow-green blob with jagged pixel edges sits between her hair strands, left over from the chroma-key cut-out. (The first reader placed it beside the umbrella tip; it is in the hair.)", "fix_idea": "Clean the cut-out mask of chars/woman.jpg and recomposite. No redraw needed."},
-    {"key": "k03", "type": "writing", "must_fix": false, "shots": [3], "still": "chars/indio_rider.jpg", "where": "the helmet, lower left", "what": "The helmet carries a small square badge that reads as a brand logo and a faint numeral-like mark on the inner rim.", "fix_idea": "Reframe so the helmet badge is out of frame, or accept as minor."},
-    {"key": "k36", "type": "other", "must_fix": false, "shots": [36], "still": "chars/sepoy_farmer.jpg", "where": "the shirt, lower half", "what": "The 1762 sepoy-turned-farmer wears a modern collared dress shirt with a patch breast pocket and plastic buttons. (Missed by the first reader.)", "fix_idea": "Redraw 'wearing a loose plain collarless cotton camisa, no pocket, no buttons' if the shot is redone."},
-    {"key": "k01", "type": "other", "must_fix": false, "shots": [1], "still": "full/intro.jpg", "where": "beside him", "what": "Usman is missing: the intro prompt places the black street dog next to Indio in the opening card, and no dog is in the picture. (Missed by the first reader.)", "fix_idea": "Fold into the k01 redraw: paste the usman string word for word and keep him at Indio's side."},
-    {"key": "k13", "type": "style", "must_fix": false, "shots": [13], "still": "plates/siege.png", "where": "whole frame", "what": "Unsure: the siege plate shown sharp is a semi-realistic painted render with photographic rubble, so the cut from the cel-shaded character shots (k12 to k13) may jolt.", "fix_idea": "Leave if the conductor accepts this plate; otherwise blur it lightly as in the other siege shots."}
-  ]
+ "episode": 2,
+ "audited_by": "central",
+ "keys_looked_at": 37,
+ "defects": [
+  {
+   "key": "k12",
+   "type": "merge",
+   "must_fix": true,
+   "shots": [
+    12
+   ],
+   "still": "chars/indio_duck.jpg",
+   "where": "top centre, above his head",
+   "what": "Both raised forearms end in one smooth fused lump with no hands and no fingers at all; the arms are also over-long and start wide of his shoulders.",
+   "fix_idea": "Redraw hiding the hands: 'ducking, both arms crossed over the top of his head, hands hidden behind his head', or crouching with the hands out of frame. Paste the 1762_manila string word for word (collarless baro, not a V-neck T-shirt) and keep the tattoo on the right forearm.",
+   "fixed": true,
+   "note": "Redrawn (3 takes, full-quality model, 1762_manila string verbatim + 'collarless, no buttons'): arms crossed over the top of his head, hands hidden behind it. Kept take s23636; at 3x no hand shows, collarless baro, tattoo on the forearm."
+  },
+  {
+   "key": "k10",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    10
+   ],
+   "still": "full/medallion.jpg",
+   "where": "whole frame, the hand behind the medallion",
+   "what": "The hand is one boneless mitten with a single crease and no countable fingers, the medallion floats in front of the palm instead of being held, and the skin is pale pink instead of Indio's warm brown.",
+   "fix_idea": "Redraw and choose: 'an old bronze medallion hanging from its worn cord against a dark background, glowing gold, no hand in the picture', or 'held by a brown-skinned thumb and index finger only, the other fingers curled out of focus'.",
+   "fixed": true,
+   "note": "Redrawn as the medallion alone (cast 'medallion' string, sun and triangle), no hand. Kept take s14681; clean at 3x."
+  },
+  {
+   "key": "k05",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    5
+   ],
+   "still": "chars/indio_order.jpg",
+   "where": "both hands at the bilao rim, lower third",
+   "what": "Both hands on the tray are lumpy mittens: an egg-shaped thumb blob on the rim and fused fingers below, no countable digits, and they are grey-brown, a different colour from his face.",
+   "fix_idea": "Reframe so the tray sits on the bottom edge with the hands out of frame (raise y), or redraw 'holding the round bamboo tray from below, both hands hidden under it'.",
+   "fixed": true,
+   "note": "Redrawn, 3 takes; kept s47504: tray at the chest, thumbs on the rim and fingers under it, same skin tone as the face, dark brown eyes. Take s41477 thrown away (letter-like logo on the jacket)."
+  },
+  {
+   "key": "k40",
+   "type": "object",
+   "must_fix": true,
+   "shots": [
+    40
+   ],
+   "still": "chars/indio_cold.jpg",
+   "where": "left hand and what it holds, left middle",
+   "what": "He holds a butter-knife handle while a woven straw ball hangs beside it with pale noodles growing out of it and a second brown handle stuck in its side; a stray fingertip pokes out over the top of his fist.",
+   "fix_idea": "Redraw without the risk: 'holding a plain fork with a few limp noodles on it, one hand, a thumb and four fingers', or put the hand out of frame and keep only his deadpan face.",
+   "fixed": true,
+   "note": "Redrawn: one hand holding a plain fork with a few limp noodles, no straw ball. Kept s47975; thumb over four curled fingers at 3x, deadpan face."
+  },
+  {
+   "key": "k07",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    7
+   ],
+   "still": "chars/indio_phone.jpg",
+   "where": "both hands on the phone, lower middle",
+   "what": "Fingers of both hands interlock across the face of the phone, point in different directions and cannot be counted, and neither thumb is readable. (The first reader's second claim is refuted: the camera lens is on the side facing us, so he is correctly looking at the screen.)",
+   "fix_idea": "Redraw and choose: 'holding the phone in one hand, screen facing him, only the back of the phone and his thumb visible', or reframe tighter on his face with the phone below the frame.",
+   "fixed": true,
+   "note": "Redrawn, 4 takes; kept s8974: phone in one hand, back of the phone to us, four fingers wrapped and readable, no interlocking. Composited k07 checked at 3x."
+  },
+  {
+   "key": "k07",
+   "type": "face",
+   "must_fix": true,
+   "shots": [
+    7
+   ],
+   "still": "chars/indio_phone.jpg",
+   "where": "both eyes",
+   "what": "The eyes are two blank white sickles with lashes and no iris or pupil at all, and the two differ in size and shape, so a held close-up of the lead reads as rolled-back white eyes rather than a downward glance.",
+   "fix_idea": "Fold into the same redraw: 'eyes half-lidded looking down at the screen, dark brown irises visible under the lids'.",
+   "fixed": true,
+   "note": "Same redraw: eyes half-lidded with dark brown irises looking down at the phone."
+  },
+  {
+   "key": "k34",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    34
+   ],
+   "still": "chars/indio_think.jpg",
+   "where": "hand under the chin, centre",
+   "what": "The hand under his chin is boneless: the top finger curls into a closed ring against the palm, the others melt into the fist and there is no thumb.",
+   "fix_idea": "Redraw hiding the hands: 'thinking, arms crossed, hands tucked under the arms', or 'looking up thoughtfully, hands out of frame'. Use the 1762_manila string (collarless baro, not a V-neck T-shirt).",
+   "fixed": true,
+   "note": "Redrawn: arms crossed, 1762_manila string + 'collarless, no buttons'. Kept s60104; one hand shows on the upper arm, four fingers, clean at 3x; collarless baro, no V-neck."
+  },
+  {
+   "key": "k30",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    30
+   ],
+   "still": "chars/indio_whisper.jpg",
+   "where": "hand at the mouth, centre",
+   "what": "The big hand at his mouth has an index fingertip pushed inside the lower lip, three knobby stubs of uneven length below it, one bending backwards, no thumb anywhere, and stray scribble lines across the back of the hand.",
+   "fix_idea": "Redraw hiding the hands: 'whispering behind one cupped hand seen edge-on, fingers together', or keep the hand out of frame and tell it with the face alone.",
+   "fixed": true,
+   "note": "Redrawn: sly smile leaning toward the viewer, hands out of frame. Kept s58431; in k30 only the forearms show (tattoo band on his right arm), no hand at the mouth."
+  },
+  {
+   "key": "k31",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    31
+   ],
+   "still": "full/quill.jpg",
+   "where": "the writing hand, centre of the frame",
+   "what": "The hand holding the quill has only two digits: a thumb and one finger with a nail; the middle, ring and little fingers are missing and the rest of the hand is one smooth paddle that runs straight into the lace cuff. (Missed by the first reader.)",
+   "fix_idea": "Redraw and choose: 'a hand in a white lace cuff holding a quill, a thumb and four fingers, the little finger clearly separate', or reframe to show only the quill tip and the paper with the hand out of frame.",
+   "fixed": true,
+   "note": "Redrawn without the hand: a quill standing in an inkwell beside blank paper sealed with a red wax seal and ribbon (the treaty is signed). Kept s50824, anime style, no hands, no writing."
+  },
+  {
+   "key": "k44",
+   "type": "hands",
+   "must_fix": true,
+   "shots": [
+    44
+   ],
+   "still": "chars/woman.jpg",
+   "where": "both hands on the umbrella handle, left middle",
+   "what": "The upper hand's fingers fuse into one slab around the shaft and the lower hand is a featureless pale blob with no fingers at all, in a whiter skin tone than the hand above it.",
+   "fix_idea": "Redraw and choose: 'the red umbrella resting on her shoulder, one hand on the handle, a thumb and four fingers', or 'both hands in her coat pockets'.",
+   "fixed": true,
+   "note": "Redrawn with the M string verbatim; kept s8434: one hand on the umbrella handle, thumb and fingers wrapped, clean at 3x. The green fringe in the hair is gone with the new cut-out."
+  },
+  {
+   "key": "k16",
+   "type": "face",
+   "must_fix": true,
+   "shots": [
+    16
+   ],
+   "still": "chars/spanish.jpg",
+   "where": "both eyes, upper half of the face",
+   "what": "The two eyes do not match: the viewer-left eye is smaller, tilted and set lower with its iris aimed down-left, the right is a larger round ball aimed forward, and both have grey-shaded whites, so the face reads as googly. (Missed by the first reader.)",
+   "fix_idea": "Redraw 'a terrified Spanish defender of 1762, both eyes the same shape and size, looking the same way', in the episode's anime style.",
+   "fixed": true,
+   "note": "Redrawn ('both eyes the same shape and size, looking the same way'); kept s59499: matching wide eyes, hands out of frame."
+  },
+  {
+   "key": "k14",
+   "type": "object",
+   "must_fix": true,
+   "shots": [
+    14
+   ],
+   "still": "full/ships.jpg",
+   "where": "lower half, on the water",
+   "what": "Loose cannon barrels lie on the sea apart from the ships and fire from the water, and one cannon sits on top of a deck firing sideways. The still is also in a flat Western comic style, not the anime of the episode.",
+   "fix_idea": "Redraw: 'warships firing broadsides, smoke from the gun ports along the ship sides, no loose cannons, no cannons on the water', with the episode's anime style line pasted word for word.",
+   "fixed": true,
+   "note": "Redrawn in the episode's anime style; kept s29431: broadsides fire from the gun ports along the hulls, nothing on the water but ships (checked at 3x)."
+  },
+  {
+   "key": "k18",
+   "type": "object",
+   "must_fix": true,
+   "shots": [
+    18
+   ],
+   "still": "full/wallfall.jpg",
+   "where": "centre",
+   "what": "A cannon barrel grows out of the middle of the exploding wall and fires, and the wall is a crenellated European castle drawn in Western comic style.",
+   "fix_idea": "Redraw: 'a section of thick low Spanish bastion wall bursting from a cannonball hit, flying stones and dust, no cannon in the picture', in the episode's anime style.",
+   "fixed": true,
+   "note": "Redrawn: low sloping bastion wall bursting from a hit, no cannon. Kept s39415, anime style."
+  },
+  {
+   "key": "k01",
+   "type": "off_model",
+   "must_fix": true,
+   "shots": [
+    1
+   ],
+   "still": "full/intro.jpg",
+   "where": "whole figure",
+   "what": "The intro Indio is a different person from the rest of the episode: sleek side-parted hair, an older narrow face, thin eyes, a white collared dress shirt (neither the baro nor the orange windbreaker), a plain medallion and no forearm tattoo.",
+   "fix_idea": "Redraw with the cast string pasted word for word (1762_manila or modern_rider_from_ep2) and keep the take closest to the face the episode settles on; this is the opening shot, so draw up to four and choose.",
+   "note": "Checker: the redraw (take s54697) was thrown away and the old full/intro.jpg restored. Indio and the gear rims came out clean, but Usman is off model (both ears folded and floppy, a rounder puppy face, unlike the one-ear-up dog of k11/k26) and the forearm tattoo runs on across both crossed arms. The old picture keeps the faults listed here until the better engine draws it.",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical 9:16 frame. Opening title card: a golden time portal behind him made of plain smooth gear rims and rings of light, no faces, no clock numerals, no letters, no glyphs. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm only (none on the left arm), dark brown eyes, arms crossed with the hands tucked under the arms, confident smile. Sitting beside him: a slim medium-sized black Philippine street dog with short hair, a white chest patch, ONE ear standing up and the OTHER ear folded over, bright clever brown eyes, a red kerchief around his neck (adult dog, not a puppy, same dog as the episode's Usman shots)."
+  },
+  {
+   "key": "k01",
+   "type": "face",
+   "must_fix": true,
+   "shots": [
+    1
+   ],
+   "still": "full/intro.jpg",
+   "where": "the gear disc at top centre, right beside his head",
+   "what": "A human face is embossed on the gear behind his head with skewed eyes and a melting mouth, so a second, deformed face sits next to Indio's. (Missed by the first reader.)",
+   "fix_idea": "Fold into the same redraw: 'plain gear rims and plain clock faces, no portraits, no faces, no numerals, no letters'.",
+   "note": "Checker: the redraw (take s54697) was thrown away and the old full/intro.jpg restored. Indio and the gear rims came out clean, but Usman is off model (both ears folded and floppy, a rounder puppy face, unlike the one-ear-up dog of k11/k26) and the forearm tattoo runs on across both crossed arms. The old picture keeps the faults listed here until the better engine draws it.",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical 9:16 frame. Opening title card: a golden time portal behind him made of plain smooth gear rims and rings of light, no faces, no clock numerals, no letters, no glyphs. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm only (none on the left arm), dark brown eyes, arms crossed with the hands tucked under the arms, confident smile. Sitting beside him: a slim medium-sized black Philippine street dog with short hair, a white chest patch, ONE ear standing up and the OTHER ear folded over, bright clever brown eyes, a red kerchief around his neck (adult dog, not a puppy, same dog as the episode's Usman shots)."
+  },
+  {
+   "key": "k39",
+   "type": "object",
+   "must_fix": true,
+   "shots": [
+    39
+   ],
+   "still": "full/tattoo.jpg",
+   "where": "the forearm, centre",
+   "what": "The line on this shot is 'May pangalawa na akong tattoo sa braso' (I now have a second tattoo), but the arm carries only one small diamond tattoo. (Missed by the first reader; the fist itself is clean, a thumb and four fingers.)",
+   "fix_idea": "Redraw with two small indigo geometric tattoos on the forearm, the newer one glowing faint gold, the arm alone in frame.",
+   "fixed": true,
+   "note": "Redrawn: two separate diamond tattoos on the forearm, the upper one glowing gold. Kept s6477; fist is a thumb and four fingers at 3x."
+  },
+  {
+   "key": "k01",
+   "type": "writing",
+   "must_fix": false,
+   "shots": [
+    1
+   ],
+   "still": "full/intro.jpg",
+   "where": "the clock rings, left and right of his head",
+   "what": "The rings behind him carry rows of letter-like glyphs: repeated E-shapes and Roman-numeral marks around the dials.",
+   "fix_idea": "Fold into the same redraw: 'plain gear rims, no numerals, no letters, no glyphs'.",
+   "note": "Checker: the redraw (take s54697) was thrown away and the old full/intro.jpg restored. Indio and the gear rims came out clean, but Usman is off model (both ears folded and floppy, a rounder puppy face, unlike the one-ear-up dog of k11/k26) and the forearm tattoo runs on across both crossed arms. The old picture keeps the faults listed here until the better engine draws it.",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical 9:16 frame. Opening title card: a golden time portal behind him made of plain smooth gear rims and rings of light, no faces, no clock numerals, no letters, no glyphs. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm only (none on the left arm), dark brown eyes, arms crossed with the hands tucked under the arms, confident smile. Sitting beside him: a slim medium-sized black Philippine street dog with short hair, a white chest patch, ONE ear standing up and the OTHER ear folded over, bright clever brown eyes, a red kerchief around his neck (adult dog, not a puppy, same dog as the episode's Usman shots)."
+  },
+  {
+   "key": "k00",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    0
+   ],
+   "still": "chars/indio_shock.png",
+   "where": "head and render",
+   "what": "A different look from the majority of Indio shots: tousled brown-black spiky hair, a rounder face, bigger brown eyes and richer painterly shading; the broad band tattoo on the forearm also does not match the small wrist diamond of k39.",
+   "fix_idea": "Decide one Indio for the episode first, then redraw either this shot or the majority set to match. The hands on the tray here are the best in the episode and worth keeping as the reference pose.",
+   "rejected": "After this pass the redrawn Indio shots (k01, k05, k07, k12, k25, k30, k34, k40, k08) all come out in this tousled-topknot, brown-eyed look, so k00 now matches the majority; kept as is (best hands of the episode)."
+  },
+  {
+   "key": "k47",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    47
+   ],
+   "still": "chars/indio_usman.png",
+   "where": "head",
+   "what": "Same newer look as k00 (tousled brown-gold spiky hair with no topknot, rounder face, warmer render), so the cut from k45 to k47 changes his hair and face. Both fists are clean, a thumb and four fingers each.",
+   "fix_idea": "Redraw matched to whichever Indio the episode settles on, with the topknot the cast string asks for.",
+   "rejected": "Same as k00: the redraws now share this look, so k47 matches the majority. Both fists clean; kept."
+  },
+  {
+   "key": "k45",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    45
+   ],
+   "still": "chars/indio_point.jpg",
+   "where": "head",
+   "what": "His face here is rounder, the eyes bigger and browner and the skin warmer than in k03, k05, k07 and k08, so this shot sits between the two Indio looks rather than with the majority.",
+   "fix_idea": "Redraw with whichever look the episode settles on, cast string pasted word for word.",
+   "needs_figma": true,
+   "note": "One try (3 takes) at a matching redraw with a real point: every take drew the thumbs-up/index ambiguity again, not clearly better, so the old still stays. k45, k03 and k09 are now the remaining older-look shots.",
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, pointing straight at the viewer with the index finger of his right hand, the thumb folded against the curled middle, ring and little fingers, a thumb and four fingers, excited open smile, standing in the ruins of the Baluarte de San Diego, Intramuros, Manila, at sunset, sunset rim light. He is alone, no dog, no animals. Vertical 9:16. No text, no logos, no watermarks."
+  },
+  {
+   "key": "k05",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    5,
+    7,
+    8,
+    30,
+    34,
+    40
+   ],
+   "still": "chars/indio_order.jpg",
+   "where": "the eyes",
+   "what": "Indio's eyes are steel grey-blue in k05, k07, k08, k30, k34 and k40 but warm brown in k00, k03, k09, k45 and k47, so his eye colour changes from shot to shot. (Missed by the first reader.)",
+   "fix_idea": "Add 'dark brown eyes' to the Indio cast string and use it in every redraw.",
+   "fixed": true,
+   "note": "Every redraw carries 'dark brown eyes'; all redrawn Indio shots now have brown eyes. The cast string itself was not changed (left for the conductor)."
+  },
+  {
+   "key": "k25",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    25,
+    30,
+    12,
+    34
+   ],
+   "still": "chars/indio_sad.jpg",
+   "where": "shirt",
+   "what": "In 1762 he wears a modern collared button-down shirt in k25 and k30 and a V-neck T-shirt in k12 and k34, where the cast string asks for a collarless baro.",
+   "fix_idea": "Redraw with the 1762_manila string word for word, adding 'collarless, no collar, no buttons'.",
+   "fixed": true,
+   "note": "k25 (indio_sad) redrawn with 'collarless, no buttons', kept s32705, arms at his sides, hands out of frame; k12, k30, k34 fixed above. All 1762 shirts are now collarless baro."
+  },
+  {
+   "key": "k10",
+   "type": "off_model",
+   "must_fix": false,
+   "shots": [
+    10,
+    0,
+    1,
+    3,
+    5,
+    9,
+    25,
+    47
+   ],
+   "still": "full/medallion.jpg",
+   "where": "the medallion",
+   "what": "The medallion face changes across shots: a sun with a triangle in k10, a star or flower in k00 and k47, and a plain blank disc in k01, k03, k05, k09 and k25.",
+   "fix_idea": "Add one fixed medallion description to the cast string (e.g. 'a round bronze medallion engraved with a sun and a triangle') and use it in every redraw.",
+   "note": "Partly fixed: the k10 medallion now follows the cast string (sun and triangle); the small medallions in the character shots are too small to read. Cast string unchanged."
+  },
+  {
+   "key": "k24",
+   "type": "hands",
+   "must_fix": false,
+   "shots": [
+    24
+   ],
+   "still": "full/coins.jpg",
+   "where": "the gloved hand, upper right",
+   "what": "Unsure: the glove shows a thumb and three fingers, with the rightmost digit twice as wide as the others, as though the ring and little fingers were fused into one.",
+   "fix_idea": "Reframe, or redraw 'one gloved hand, a thumb and four fingers clearly separate, reaching into the chest of plain worn coins'.",
+   "fixed": true,
+   "note": "Redrawn (one try, 3 takes) in anime style; kept s23897: the glove shows four separate fingers reaching in, thumb hidden under the palm, coins blank."
+  },
+  {
+   "key": "k24",
+   "type": "style",
+   "must_fix": false,
+   "shots": [
+    24,
+    14,
+    18,
+    20,
+    31,
+    33
+   ],
+   "still": "full/coins.jpg",
+   "where": "whole frame",
+   "what": "The 'full' stills are drawn in a thick-line Western comic style with flat poster colour, not the anime cel look of the character keys, so every cut from a character shot to one of them jolts. It is a pattern across k14, k18, k20, k24, k31 and k33.",
+   "fix_idea": "When any of these is redrawn, paste the episode's style line word for word and keep the same anime cel look; redo the rest in the same pass if the engine allows.",
+   "fixed": true,
+   "note": "k14, k18, k24, k31 redrawn in the anime cel look; k20 and k33 not redrawn (no fault beyond style)."
+  },
+  {
+   "key": "k45",
+   "type": "hands",
+   "must_fix": false,
+   "shots": [
+    45
+   ],
+   "still": "chars/indio_point.jpg",
+   "where": "the pointing hand, left",
+   "what": "Unsure: the extended digit is thick and nail-less and reads as a thumb, and only three curled knuckles sit below it, so the gesture reads as a sideways thumbs-up with a finger missing rather than the point the line asks for.",
+   "fix_idea": "Redraw and choose: 'pointing straight at the viewer with the index finger, thumb raised, three fingers curled'.",
+   "needs_figma": true,
+   "note": "See the k45 off_model entry: 3 takes, none with a clean index point; the old still stays.",
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, pointing straight at the viewer with the index finger of his right hand, the thumb folded against the curled middle, ring and little fingers, a thumb and four fingers, excited open smile, standing in the ruins of the Baluarte de San Diego, Intramuros, Manila, at sunset, sunset rim light. He is alone, no dog, no animals. Vertical 9:16. No text, no logos, no watermarks."
+  },
+  {
+   "key": "k43",
+   "type": "hands",
+   "must_fix": false,
+   "shots": [
+    43
+   ],
+   "still": "full/phone.jpg",
+   "where": "the thumb and palm, left of the phone",
+   "what": "Unsure: the four fingers on the right are correct and have nails, but the thumb is an oversized column with no nail and no joint and the palm below it is a blank mass. (Missed by the first reader.)",
+   "fix_idea": "Redraw 'a brown hand holding a smartphone, a thumb with a nail and four fingers' if the shot is redone for any other reason.",
+   "fixed": true,
+   "note": "Redrawn (one try): thumb with a nail on the screen edge and four fingers along the side. Kept s46220."
+  },
+  {
+   "key": "k08",
+   "type": "object",
+   "must_fix": false,
+   "shots": [
+    8
+   ],
+   "still": "chars/indio_hungry.jpg",
+   "where": "the basket, lower half",
+   "what": "The basket of noodles floats in front of his chest with no hands holding it and the noodles are rubbery glowing loops.",
+   "fix_idea": "Reframe lower so the basket sits on the bottom edge, or redraw 'holding the bamboo tray with both hands hidden under it'.",
+   "fixed": true,
+   "note": "Redrawn with 'both hands hidden under the tray'; kept s52997: thumbs on the rim, fingers under, the tray is held, plain noodles."
+  },
+  {
+   "key": "k20",
+   "type": "object",
+   "must_fix": false,
+   "shots": [
+    20
+   ],
+   "still": "full/city.jpg",
+   "where": "upper left sky; and all four edges",
+   "what": "A lone mast with its yard rises out of the treeline with no ship under it and reads as a giant cross in the sky; the picture also has a near-black border about 3 px wide on all four edges.",
+   "fix_idea": "Reframe (crop a few px in x and y) to drop the border. The mast is minor; remove it if the shot is redrawn.",
+   "fixed": true,
+   "note": "Trimmed 4 px from every edge of full/city.jpg and scaled back: the black border is gone. The mast is left (minor)."
+  },
+  {
+   "key": "k44",
+   "type": "other",
+   "must_fix": false,
+   "shots": [
+    44
+   ],
+   "still": "chars/woman.jpg",
+   "where": "right of centre, among her hair strands below the umbrella",
+   "what": "A small bright yellow-green blob with jagged pixel edges sits between her hair strands, left over from the chroma-key cut-out. (The first reader placed it beside the umbrella tip; it is in the hair.)",
+   "fix_idea": "Clean the cut-out mask of chars/woman.jpg and recomposite. No redraw needed.",
+   "fixed": true,
+   "note": "Fixed by the woman redraw (new still, new cut-out); no green left at 3x."
+  },
+  {
+   "key": "k03",
+   "type": "writing",
+   "must_fix": false,
+   "shots": [
+    3
+   ],
+   "still": "chars/indio_rider.jpg",
+   "where": "the helmet, lower left",
+   "what": "The helmet carries a small square badge that reads as a brand logo and a faint numeral-like mark on the inner rim.",
+   "fix_idea": "Reframe so the helmet badge is out of frame, or accept as minor.",
+   "rejected": "Minor and not touched: the helmet badge is small at the frame edge; k03 otherwise clean."
+  },
+  {
+   "key": "k36",
+   "type": "other",
+   "must_fix": false,
+   "shots": [
+    36
+   ],
+   "still": "chars/sepoy_farmer.jpg",
+   "where": "the shirt, lower half",
+   "what": "The 1762 sepoy-turned-farmer wears a modern collared dress shirt with a patch breast pocket and plastic buttons. (Missed by the first reader.)",
+   "fix_idea": "Redraw 'wearing a loose plain collarless cotton camisa, no pocket, no buttons' if the shot is redone.",
+   "fixed": true,
+   "note": "Redrawn: loose collarless camisa, no pocket, no buttons. Kept s47045."
+  },
+  {
+   "key": "k01",
+   "type": "other",
+   "must_fix": false,
+   "shots": [
+    1
+   ],
+   "still": "full/intro.jpg",
+   "where": "beside him",
+   "what": "Usman is missing: the intro prompt places the black street dog next to Indio in the opening card, and no dog is in the picture. (Missed by the first reader.)",
+   "fix_idea": "Fold into the k01 redraw: paste the usman string word for word and keep him at Indio's side.",
+   "note": "Checker: the redraw (take s54697) was thrown away and the old full/intro.jpg restored. Indio and the gear rims came out clean, but Usman is off model (both ears folded and floppy, a rounder puppy face, unlike the one-ear-up dog of k11/k26) and the forearm tattoo runs on across both crossed arms. The old picture keeps the faults listed here until the better engine draws it.",
+   "needs_figma": true,
+   "figma_prompt": "Modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical 9:16 frame. Opening title card: a golden time portal behind him made of plain smooth gear rims and rings of light, no faces, no clock numerals, no letters, no glyphs. Waist-up: a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm only (none on the left arm), dark brown eyes, arms crossed with the hands tucked under the arms, confident smile. Sitting beside him: a slim medium-sized black Philippine street dog with short hair, a white chest patch, ONE ear standing up and the OTHER ear folded over, bright clever brown eyes, a red kerchief around his neck (adult dog, not a puppy, same dog as the episode's Usman shots)."
+  },
+  {
+   "key": "k13",
+   "type": "style",
+   "must_fix": false,
+   "shots": [
+    13
+   ],
+   "still": "plates/siege.png",
+   "where": "whole frame",
+   "what": "Unsure: the siege plate shown sharp is a semi-realistic painted render with photographic rubble, so the cut from the cel-shaded character shots (k12 to k13) may jolt.",
+   "fix_idea": "Leave if the conductor accepts this plate; otherwise blur it lightly as in the other siege shots.",
+   "rejected": "Left for the conductor as the entry asks; no picture fault."
+  }
+ ],
+ "fix_note": "Episode 2 picture pass: 16 must-fix entries fixed by redrawing 13 stills with the full-quality engine (3-4 takes each, every hand checked at 3x), plus 5 minor redraws (indio_sad, indio_hungry, sepoy_farmer, coins, phone) and a 4 px trim of full/city.jpg. cast_fix applied first (character nv_replace entries removed, no-dog clause added). The redraws settle Indio on the tousled-topknot, brown-eyed look of k00/k47; k03, k09 and k45 stay in the older lean look (k45 needs_figma). Old stills in the scratch folder slop/ep02/old/. Keys recomposited with make_keys.py (keys/ is git-ignored). Checked by the conductor's checker: 19 changed stills kept (looked at old and new at full size and 3x); full/intro.jpg (k01) redraw thrown away (Usman off model, tattoo across both arms), old still restored and the four k01 entries handed to Figma. Small leftovers judged invisible on a paused phone: the k34 tattoo edge touches the lower arm, the k24 glove shows four fingers with the first two close together."
 }

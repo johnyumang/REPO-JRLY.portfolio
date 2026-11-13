@@ -13,7 +13,8 @@
    "must_fix": true,
    "what": "The queen's fingers and Indio's fingers knot together on the cup stem so you cannot tell whose hand is whose or count either.",
    "where": "centre, both hands on the golden cup stem",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k00",
@@ -25,7 +26,8 @@
    "must_fix": true,
    "what": "Indio wears a grey t-shirt and grey slacks with no red headband or sash, while the scene's outfit (k19, k23, k40-k46) is a beige tunic, red sash and red headband; the dog the prompt asks for is also missing.",
    "where": "right half, Indio",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k00",
@@ -50,7 +52,8 @@
    "must_fix": true,
    "what": "The hand on the cup belongs to a pale man with blue eyes, a black shirt, an earring and coloured floral tattoos on his neck, hand and arm, which looks nothing like Indio's brown skin, topknot and indigo geometric forearm tattoos.",
    "where": "whole frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k22",
@@ -75,7 +78,8 @@
    "must_fix": true,
    "what": "A pink scaly claw-hand with no owner hangs under the dog's belly.",
    "where": "centre, below the dog's belly (about x 590, y 1400)",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k29",
@@ -87,7 +91,8 @@
    "must_fix": true,
    "what": "Usman has both ears upright, stands upright like a person and lays a hand-like paw on the queen's chin; the queen is auburn-haired and red-eyed in a red-and-white gown, and Indio wears a modern blue button shirt.",
    "where": "whole frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k29",
@@ -112,7 +117,8 @@
    "must_fix": true,
    "what": "Usman has two fully upright ears (he must have one folded ear) and a scruffy, thin build that does not match the smooth-coated dog in k25 and k51.",
    "where": "centre, dog at the prow",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k20",
@@ -124,7 +130,8 @@
    "must_fix": true,
    "what": "The queen has black hair and a different face here, while in k00, k18 and k19 she has long silver hair.",
    "where": "whole frame, queen's face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k21",
@@ -137,7 +144,8 @@
    "must_fix": true,
    "what": "The queen has brown hair in an updo and a different face, so she does not read as the silver-haired queen from k18 and k19.",
    "where": "left half, queen",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k31",
@@ -149,7 +157,8 @@
    "must_fix": true,
    "what": "The laughing queen has light-blue hair, a fourth hair colour for the same character in this episode.",
    "where": "centre, queen's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -161,7 +170,8 @@
    "must_fix": true,
    "what": "Indio looks at a second young man in the same beige tunic with a red collar, who reads as Indio a second time; the script has him watching M's back (long black hair, dark coat).",
    "where": "right half, the figure seen from behind",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k42",
@@ -173,7 +183,8 @@
    "must_fix": true,
    "what": "The glowing dagger's hilt floats in front of his belly, and the hand that should grip it melts into a shapeless skin blob under the hilt.",
    "where": "centre, dagger hilt",
-   "second_reader": "confirmed: no fingers anywhere on the hilt, only a pale lump"
+   "second_reader": "confirmed: no fingers anywhere on the hilt, only a pale lump",
+   "fixed": true
   },
   {
    "key": "k40",
@@ -185,7 +196,8 @@
    "must_fix": true,
    "what": "His outstretched left hand shows only three fingers and a stub.",
    "where": "left side, outstretched hand",
-   "second_reader": "changed: must_fix raised to true, the three-fingered hand is the hero gesture of the shot and about a fifth of the frame wide"
+   "second_reader": "changed: must_fix raised to true, the three-fingered hand is the hero gesture of the shot and about a fifth of the frame wide",
+   "fixed": true
   },
   {
    "key": "k63",
@@ -356,7 +368,8 @@
    "what": "The hand lowering the cup has a huge thumb and then a clump of three fused finger stubs with an extra nub, so no finger can be counted.",
    "where": "centre, hand over the cup rim",
    "found_by": "second reader",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k45",
@@ -369,7 +382,8 @@
    "what": "Indio has a second green-teal bun of hair behind his black topknot, so he reads as two-coloured hair.",
    "where": "top centre, above the red headband",
    "found_by": "second reader",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k45",
@@ -382,7 +396,8 @@
    "what": "His right forearm and hand carry a coloured picture tattoo full of small human faces instead of indigo geometric marks.",
    "where": "centre right, outstretched forearm",
    "found_by": "second reader",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k56",
@@ -396,7 +411,8 @@
    "what": "The sailor on the left has three arms, each ending in a pointing hand.",
    "where": "bottom left, the shouting man",
    "found_by": "second reader",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k56",
@@ -410,7 +426,8 @@
    "what": "The still is drawn as a cross-hatched vintage ink poster, not the episode's clean cel-shaded anime, so the cut to it jolts.",
    "where": "whole frame",
    "found_by": "second reader",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k25",

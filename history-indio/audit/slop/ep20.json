@@ -1,0 +1,544 @@
+{
+ "episode": 20,
+ "audited_by": "render-ep07 (two readers)",
+ "keys_looked_at": 80,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k02",
+   "shots": [
+    2,
+    92
+   ],
+   "still": "full/shrine_vista.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The pedestal plaques carry rows of letter-like marks that read as writing when paused.",
+   "where": "centre, statue pedestal",
+   "second_reader": "new"
+  },
+  {
+   "key": "k03",
+   "shots": [
+    3
+   ],
+   "still": "full/holo_eleven.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A second face, forehead and one eye, peeks over the top edge of the hologram panel behind it.",
+   "where": "top centre, above the panel",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k03",
+   "shots": [
+    3
+   ],
+   "still": "full/holo_eleven.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "The forearm tattoos are coloured realistic sleeves with a face and red eyes in them, not indigo geometric marks.",
+   "where": "both forearms, right side",
+   "second_reader": "new"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/notebook_last.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small letter-like squiggle is drawn on the blank page.",
+   "where": "bottom centre of the page",
+   "second_reader": "new"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/vans.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "One suited man's trouser leg is brown while the rest of his suit is black.",
+   "where": "centre, middle man's legs",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/tubal_price.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The over-the-shoulder Indio wears a black suit jacket instead of his grey t-shirt.",
+   "where": "bottom left foreground",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/read_hold.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M has brown hair instead of long black hair.",
+   "where": "right, the woman at the plaque",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/usman_face_tubal.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright pointed ears and no folded ear; Tubal behind him has dark hair instead of silver.",
+   "where": "dog's head left; man centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/usman_snarl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman's extreme close-up shows two tall upright pointed ears, no folded ear.",
+   "where": "top of the dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17,
+    85
+   ],
+   "still": "full/warriors_shore.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A small cross stands on the distant hilltop of 1521 Mactan.",
+   "where": "top left, hill summit",
+   "second_reader": "new"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18,
+    89
+   ],
+   "still": "full/refusal.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The chief's head-cloth tail runs down his spine and blends into his back tattoo.",
+   "where": "centre, the chief's back",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/humabon_boats.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "One canoe hull has a white label with letter-like marks.",
+   "where": "left middle, canoe side",
+   "second_reader": "new"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/fall_shallows.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Several footprints in the wet sand have toe marks at both ends or too many toes.",
+   "where": "centre and lower left sand",
+   "second_reader": "new"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/usman_legend.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears upright and a human-like fist instead of a paw, reading as another dog.",
+   "where": "centre, head and raised paw",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/indio_watch.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's eyes are grey instead of dark brown.",
+   "where": "face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/agos_wave.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has red bands on both wrists and a third red cloth tied at his waist.",
+   "where": "waist and both wrists",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k31",
+   "shots": [
+    31
+   ],
+   "still": "full/lihim_vanish.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks are printed on a suited man's sleeve cuff.",
+   "where": "left edge, crossed arms",
+   "second_reader": "new"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/tinig_speak.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A red kerchief strip is drawn across his t-shirt chest as well as on his wrist.",
+   "where": "chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/thugs_bars.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A stray pale hand with a pointing finger floats between the left man and the centre man, belonging to nobody.",
+   "where": "left middle, between the two front men",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/thugs_bars.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "One hand at top right grips two crossed wooden clubs and a metal pipe at once.",
+   "where": "top right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/grab_medallion.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man grabbing the medallion has no topknot and blue eyes, so he does not read as Indio.",
+   "where": "face and hair",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37,
+    87
+   ],
+   "still": "full/lapulapu_light.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The light column contains a full man with a face, short blond hair and t-shirt sleeve lines on a bare chest, though the warrior must be faceless light only.",
+   "where": "centre, the figure in the light",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/kampilan_sand.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kampilan is drawn as a three-pronged fork or trident stuck in the sand, not a sword.",
+   "where": "whole object, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/kampilan_sand.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The gold collar of the hilt carries letter-like marks.",
+   "where": "upper right, the hilt collar",
+   "second_reader": "new"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/kampilan_break.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Indio's own left hand holds the pipe his sword is cutting; the thug holding it is missing.",
+   "where": "centre right, the hand on the pipe",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/no_wound.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man lowering the glowing sword is a suited thug, not Indio; a green-tie man's hand rests on the front man's head.",
+   "where": "bottom centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/tubal_alone.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "An open umbrella floats above Tubal's head with no hand holding it while he also holds a closed umbrella.",
+   "where": "top, umbrella over his head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/siyokoy_bow.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Indio's left hand is green-tinted with long clawed fingers like the sea creatures' hands.",
+   "where": "bottom right, hand below the red kerchief",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/siyokoy_bow.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A red bow shape is printed on the chest of his plain grey t-shirt.",
+   "where": "chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46,
+    90
+   ],
+   "still": "full/twelve_rise.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The ring has ten medallions, each painted with an anime blonde girl's face, instead of twelve plain bronze medallions.",
+   "where": "the whole ring",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/armor_close.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A letter-like scribble is drawn on the grey t-shirt below the armour plates.",
+   "where": "right chest",
+   "second_reader": "new"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49,
+    91
+   ],
+   "still": "full/key_fold.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The key has a second detached ornate bow lying beside it, and the map has small letter-like marks.",
+   "where": "right of the key; bottom right of the map",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/seventh_mark.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "The tattoo diamonds are drawn as raised, overlapping blue glass tiles stuck on the skin, not ink.",
+   "where": "forearm",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_growl_beach.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded instead of only one.",
+   "where": "head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54,
+    93
+   ],
+   "still": "full/statue_low.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The bronze statue is drawn as a living man in an olive t-shirt, trousers and boots with skin and eyes.",
+   "where": "whole figure",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/fiction_trio.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has a red kerchief tied on his wrist and a second one in the same hand, and M also holds a red cloth.",
+   "where": "bottom left hand; centre, M's hand",
+   "second_reader": "new"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/sunset_close.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Two red kerchiefs are tied on the same arm, one at the wrist and one round the hand.",
+   "where": "bottom left, Indio's right hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/key_ring.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot and wears a black shirt in this close-up.",
+   "where": "head and shirt",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/key_ring.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The cupped palm is a wide boneless paddle with a thumb and only two finger tips.",
+   "where": "centre, the hand holding the key",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/samar_light.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has red bands on both wrists and holds a third red kerchief.",
+   "where": "both wrists and right hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k80",
+   "shots": [
+    80
+   ],
+   "still": "full/kampilan_strike.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hands on the hilt are black fingerless blobs with a skin-coloured spot and no fingers.",
+   "where": "bottom left, the grip",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k80",
+   "shots": [
+    80
+   ],
+   "still": "full/kampilan_strike.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The blade tip runs into the bystander's forearm, and the blade is a cross-guard sword with no forked tip.",
+   "where": "top right",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k81",
+   "shots": [
+    81
+   ],
+   "still": "full/usman_return.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright pointed ears, no folded ear, and tan edging on his fur.",
+   "where": "head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k82",
+   "shots": [
+    82
+   ],
+   "still": "full/sandugo_seal.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The index finger bends over the middle finger and the knuckles are lumpy, so the fingers cannot be counted.",
+   "where": "left, the hand holding the medallion",
+   "second_reader": "confirmed"
+  }
+ ],
+ "refuted": []
+}
