@@ -361,9 +361,16 @@ def verify(work, outp):
     P = json.load(open(work + '/plan.json')); T = json.load(open(outp + '_timings.json')); y, sr = librosa.load(outp + '.mp3', sr=44100, mono=True); a = vqc.load16(outp + '.mp3')
     ok_t = all(T[i]['start'] < T[i]['end'] <= T[i + 1]['start'] for i in range(len(T) - 1)) and T[-1]['end'] <= len(y) / sr
     I, L, TP = ebu(y, sr); print('file %.1f s, %.2f LUFS, LRA %.1f, true peak %.2f dBFS | timings: %d sentences, in order %s' % (len(y) / sr, I, L, TP, len(T), ok_t))
-    out = []
+    out = []; pos = {}; j = 0                                                             # sentence number -> line of the timings: an `assemble --cut` narration has fewer lines
+    for s_ in P['sentences']:
+        if j < len(T) and T[j]['text'].strip() == s_['text'].strip(): pos[s_['i']] = j; j += 1
+    if j != len(T): sys.exit('the timings do not follow the plan: only %d of %d lines found in order. Is %s_timings.json the one of this plan?' % (j, len(T), outp))
+    if len(pos) < len(P['sentences']): print('narration cuts: sentences', sorted(s_['i'] for s_ in P['sentences'] if s_['i'] not in pos), 'are not in this narration; their chunks are not checked', flush=True)
     for c in P['chunks']:
-        ids = c['sent_ids']; s0, s1 = max(0.0, T[ids[0]]['start'] - 0.05), T[ids[-1]]['end'] + 0.10
+        ids = [pos[i] for i in c['sent_ids'] if i in pos]
+        if not ids: continue                                                                # the chunk of a cut sentence
+        if len(ids) != len(c['sent_ids']): sys.exit('chunk %d: only part of its sentences are in the narration' % c['id'])
+        s0, s1 = max(0.0, T[ids[0]]['start'] - 0.05), T[ids[-1]]['end'] + 0.10
         seg = a[int(s0 * 16000):int(s1 * 16000)]; hh = vqc.asr(seg); e, _ = ref_emb(work, c['speaker'])
         li = ebu(y[int(s0 * sr):int(s1 * sr)], sr)[0] if s1 - s0 > 0.45 else None
         r = dict(id=c['id'], speaker=c['speaker'], text=c['text'], heard=hh, edits=vqc.edits(c['text'], hh), first_ok=vqc.first_ok(c['text'], hh), spk=round(float(vqc.spk(seg) @ e), 3),
