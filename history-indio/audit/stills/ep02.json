@@ -45,14 +45,14 @@
    "rejected": "redraws were not clearly better (2 tries): one put a new badge on the jacket, the other a striped jacket and an off-model face; the original helmet badge is tiny and unreadable"
   },
   {
-   "still": "chars/indio_read.png",
+   "still": "chars/indio_read.jpg",
    "shots": [
     9
    ],
    "type": "off_model",
    "must_fix": false,
    "what": "Indio has brown, messy hair and a striped orange track jacket instead of the plain windbreaker; the topknot is barely there.",
-   "rejected": "redraw was not clearly better (1 image; the free image service then answered 504 on every retry): it is on model (black topknot, plain windbreaker) but the drawing is weaker, the face looks older and the red wrist handkerchief is gone; the original is kept"
+   "fixed": "the Figma frame (brown messy hair, striped track jacket) is replaced by the earlier still from before commit 3f94440 (black topknot, plain orange windbreaker), the one in the episode the user already has; no new drawing"
   }
  ]
 }
