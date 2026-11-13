@@ -1,0 +1,44 @@
+{
+ "episode": 23,
+ "audited_by": "ep40-render",
+ "stills_looked_at": 83,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/weapons_vision.jpg",
+   "shots": [
+    56
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The picture is a landscape image letterboxed inside the vertical frame: thick black bars fill the top and bottom thirds."
+  },
+  {
+   "still": "full/usman_leg.jpg",
+   "shots": [
+    23
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man beside Usman has no topknot and no red headband and wears a modern olive jacket with red kerchiefs tied on both boots; Usman sits beside him instead of clinging to his ankle."
+  },
+  {
+   "still": "full/usman_shiver.jpg",
+   "shots": [
+    8
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pricked up; the folded ear is missing."
+  },
+  {
+   "still": "full/usman_cloak.jpg",
+   "shots": [
+    37
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pricked up and a white stripe on his forehead; the folded ear is missing."
+  }
+ ]
+}

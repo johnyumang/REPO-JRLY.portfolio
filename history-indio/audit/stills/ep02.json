@@ -1,0 +1,53 @@
+{
+ "episode": 2,
+ "audited_by": "ep40-render",
+ "stills_looked_at": 39,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/quill.jpg",
+   "shots": [
+    31
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The letter on the desk is covered in several lines of large pseudo-handwriting glyphs right under the quill, the centre of the shot."
+  },
+  {
+   "still": "plates/street.jpg",
+   "shots": [
+    3
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The white top box on the motorcycle carries a word-like block of pseudo-letters, and the tank has a small badge; Indio is composited left of it, so the box stays visible."
+  },
+  {
+   "still": "full/phone.jpg",
+   "shots": [
+    43
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small '3' glyph sits in the phone's top-right corner and the gold coin on the screen carries a letter-like mark."
+  },
+  {
+   "still": "chars/indio_rider.jpg",
+   "shots": [
+    3
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "The helmet under Indio's arm has a small square badge drawn on its side."
+  },
+  {
+   "still": "chars/indio_read.png",
+   "shots": [
+    9
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown, messy hair and a striped orange track jacket instead of the plain windbreaker; the topknot is barely there."
+  }
+ ]
+}
