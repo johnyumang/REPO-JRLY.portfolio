@@ -16,7 +16,10 @@
       "must_fix": true,
       "what": "Letter shapes (E, I, O, F) are carved around the glowing gear ring behind Indio.",
       "where": "top-left and top-right of the gear halo",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k04",
@@ -28,7 +31,10 @@
       "must_fix": true,
       "what": "A second bare forearm ending in a hand with a red bow hangs on the same side of his body as the arm holding the phone, so it can belong to neither shoulder.",
       "where": "lower right, below the phone arm",
-      "second": "confirmed"
+      "second": "confirmed",
+      "needs_figma": true,
+      "figma_prompt": "Modern TV anime key frame, crisp ink lines, hard cel shading, vivid colour. Night, small present-day apartment, seen from behind his shoulder: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, sitting at a small table, his arms below the frame; he is alone, no dog, no animals. A phone stands propped against a mug on the table; the whole screen is only the face and shoulders of a young Filipina journalist about twenty, short brown bob, round black glasses, talking, her hands out of view, no icons, no on-screen text. Single image, no panels, no border. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+      "note": "four tries: a hand fused to the phone, a giant second Bea in a TV instead of a phone, the phone screen showing three hands, a stray hand on the table; original still and prompt kept"
     },
     {
       "key": "k04",
@@ -40,7 +46,10 @@
       "must_fix": true,
       "what": "Bea on the phone screen has black hair and no glasses, while the very next shot gives her a brown bob and round glasses.",
       "where": "phone screen, right of frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "needs_figma": true,
+      "figma_prompt": "Modern TV anime key frame, crisp ink lines, hard cel shading, vivid colour. Night, small present-day apartment, seen from behind his shoulder: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, sitting at a small table, his arms below the frame; he is alone, no dog, no animals. A phone stands propped against a mug on the table; the whole screen is only the face and shoulders of a young Filipina journalist about twenty, short brown bob, round black glasses, talking, her hands out of view, no icons, no on-screen text. Single image, no panels, no border. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+      "note": "one redraw fixes both k04 entries"
     },
     {
       "key": "k05",
@@ -53,7 +62,10 @@
       "must_fix": true,
       "what": "Orange block letters stand on the newsroom shelf behind her.",
       "where": "left edge, behind her shoulder",
-      "second": "confirmed; must_fix corrected to true: the orange letters read as 'INA' at full size, so they show on a paused phone"
+      "second": "confirmed; must_fix corrected to true: the orange letters read as 'INA' at full size, so they show on a paused phone",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k11",
@@ -65,7 +77,8 @@
       "must_fix": false,
       "what": "The boat's bamboo booms cross in an X in front of Indio and attach to nothing.",
       "where": "across his waist and chest",
-      "second": "confirmed"
+      "second": "confirmed",
+      "minor_left": "one redraw tried: the outrigger booms still cross in front of the people; not clearly better"
     },
     {
       "key": "k22",
@@ -77,7 +90,8 @@
       "must_fix": false,
       "what": "M's far hand has long thin boneless fingers that trail off into loose strands.",
       "where": "M's raised hand, centre of frame",
-      "second": "confirmed; must_fix corrected to false: at 5x the far fingertips are muddy and run into the crescent's hanging cord, but at full size the hand is small and reads as a normal cupped hand"
+      "second": "confirmed; must_fix corrected to false: at 5x the far fingertips are muddy and run into the crescent's hanging cord, but at full size the hand is small and reads as a normal cupped hand",
+      "minor_left": "one redraw tried: the yeti became a round cat-like beast, off model; original kept"
     },
     {
       "key": "k25",
@@ -90,7 +104,10 @@
       "must_fix": true,
       "what": "The seated woman at the left has a flat fingerless mitten where her hand should be.",
       "where": "her near hand, lower left",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k28",
@@ -102,7 +119,10 @@
       "must_fix": false,
       "what": "Indio's skin is ivory pale and his face longer and sharper than his warm brown look in the other shots.",
       "where": "whole face",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k31",
@@ -114,7 +134,10 @@
       "must_fix": true,
       "what": "Letter shapes (E, I, O, D) are carved around the stone dial instead of plain notches.",
       "where": "dial rim, left of the hand",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k31",
@@ -126,7 +149,11 @@
       "must_fix": true,
       "what": "The man touching the dial has long loose hair, pale skin and neither the red headband nor the topknot Indio wears in every other shot.",
       "where": "upper half of frame, his head",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1,
+      "note": "redrawn as a hand-and-dial close-up with no face, brown skin and the beige coat cuff"
     },
     {
       "key": "k36",
@@ -138,7 +165,10 @@
       "must_fix": true,
       "what": "An extra rounded fingertip with its own outline is fused to the side of the ring finger.",
       "where": "ring finger, upper right of the hand",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k37",
@@ -150,7 +180,10 @@
       "must_fix": true,
       "what": "The shot is drawn as two full-length figures standing on a blank white void, like a character sheet, while the shots around it are the painted cave.",
       "where": "whole frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 3
     },
     {
       "key": "k37",
@@ -162,7 +195,11 @@
       "must_fix": false,
       "what": "Their clasped hands merge into one lump with no separable fingers.",
       "where": "centre, between the two figures",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 3,
+      "note": "the same redraw: no clasped hands; M's hand rests on his shoulder"
     },
     {
       "key": "k42",
@@ -175,7 +212,8 @@
       "must_fix": false,
       "what": "Usman is a stocky dog with a grizzled grey muzzle and both ears folded, not the slim black street dog with one upright ear of the other shots.",
       "where": "the dog, right of frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "minor_left": "one redraw tried: both ears stand up, a white tail tip and white paws, and Indio is small at the back; not clearly better"
     },
     {
       "key": "k44",
@@ -188,7 +226,10 @@
       "must_fix": true,
       "what": "Three separate hands reach in to fit the stones although only Indio is moving in the frozen cave.",
       "where": "from the left, the top and the right edge",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k46",
@@ -200,7 +241,11 @@
       "must_fix": true,
       "what": "The very old woman of the cave is drawn here as a white-bearded old man.",
       "where": "right of frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1,
+      "note": "the old woman with two long grey braids now"
     },
     {
       "key": "k46",
@@ -212,7 +257,11 @@
       "must_fix": false,
       "what": "M wears Indio's beige fur coat and red waist sash instead of her long dark coat.",
       "where": "left of frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1,
+      "note": "M is not in the redraw (the line names Indio, the old woman and the pale people)"
     },
     {
       "key": "k55",
@@ -224,7 +273,8 @@
       "must_fix": false,
       "what": "Oars cross the boat held by nobody and one loose blade stands in mid-air in front of Indio.",
       "where": "centre, across the hull",
-      "second": "confirmed"
+      "second": "confirmed",
+      "minor_left": "one redraw tried: the oars are gone but the dog came out with both ears up and Indio's coat lost its sash; not clearly better"
     },
     {
       "key": "k56",
@@ -236,7 +286,10 @@
       "must_fix": true,
       "what": "A second red kerchief grows out of the shoulder and sleeve of his grey shirt, besides the one on his wrist.",
       "where": "his left shoulder, right of frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k58",
@@ -248,7 +301,10 @@
       "must_fix": true,
       "what": "A closed eye with lashes is drawn on the blank notebook page, attached to nothing.",
       "where": "right-hand page, centre",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k59",
@@ -261,7 +317,10 @@
       "must_fix": true,
       "what": "The notebook is a photographic image with real paper and gold paint, not the episode's cel-shaded anime.",
       "where": "whole frame",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k62",
@@ -273,7 +332,10 @@
       "must_fix": false,
       "what": "The yeti on the ridge is a round smiling cartoon snow creature, not the ape-like white-furred giant of the earlier shots.",
       "where": "upper left, on the ridge",
-      "second": "confirmed"
+      "second": "confirmed",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k02",
@@ -286,7 +348,10 @@
       "must_fix": false,
       "what": "Letter shapes (O, N, H) are carved in a band on the door lintel.",
       "where": "lintel above the door, right of centre",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k07",
@@ -298,7 +363,10 @@
       "must_fix": true,
       "what": "The book is a photo-like image with real leather and paper texture and a blurred photographic background, not the episode's cel-shaded anime.",
       "where": "whole frame",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 3
     },
     {
       "key": "k07",
@@ -310,7 +378,10 @@
       "must_fix": false,
       "what": "A row of letter-like marks runs along the building's front in the cover drawing.",
       "where": "centre right, under the balcony of the drawn building",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 3
     },
     {
       "key": "k10",
@@ -322,7 +393,8 @@
       "must_fix": false,
       "what": "The red kerchief on his wrist is covered in black letter-like marks.",
       "where": "kerchief on his raised wrist, left of centre",
-      "found_by": "second"
+      "found_by": "second",
+      "minor_left": "one redraw tried: the tattoo on the forearm reads as letter shapes and he is in a different pose; not clearly better"
     },
     {
       "key": "k15",
@@ -334,7 +406,10 @@
       "must_fix": false,
       "what": "M has warm brown skin here, while in the cave and boat shots her skin is pale.",
       "where": "M's face, lower left",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k30",
@@ -346,7 +421,8 @@
       "must_fix": false,
       "what": "The old woman of the cave has short loose grey hair and a different, heavily wrinkled face, while shot 26 gives her two long grey braids.",
       "where": "her head, left half of frame",
-      "found_by": "second"
+      "found_by": "second",
+      "minor_left": "one redraw tried: the braids are right but the dial ring is drawn as a row of small blocks like marks and a stray hand grips the dial's edge; not clearly better"
     },
     {
       "key": "k46",
@@ -358,7 +434,10 @@
       "must_fix": false,
       "what": "A hand holding the stone dial comes out of the old man's beard with no arm leading to it.",
       "where": "right edge of the dial, beside the beard",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k50",
@@ -370,7 +449,8 @@
       "must_fix": false,
       "what": "The wall maps carry small letter-like marks in a label box and in lines of legend text.",
       "where": "small map, upper right",
-      "found_by": "second"
+      "found_by": "second",
+      "minor_left": "one redraw tried: a boy sits in the 'empty' chair; original kept"
     },
     {
       "key": "k51",
@@ -382,7 +462,10 @@
       "must_fix": false,
       "what": "The prayer flags are covered in rows of letter-like marks.",
       "where": "flag line along the wall, upper left",
-      "found_by": "second"
+      "found_by": "second",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     },
     {
       "key": "k52",
@@ -395,7 +478,24 @@
       "must_fix": false,
       "what": "The paper and open book in the old woman's hands show lines of letter-like marks.",
       "where": "her hands, centre",
-      "found_by": "second"
+      "found_by": "second",
+      "minor_left": "one redraw tried: the grandmother came out as a bearded old man in red; original kept"
+    },
+    {
+      "key": "k16",
+      "shots": [
+        16,
+        82
+      ],
+      "still": "full/usman_cousin.png",
+      "type": "off_model",
+      "must_fix": true,
+      "what": "Usman is drawn as a longer, shaggier dog with both ears folded and a white tail tip, not the slim black dog of usman_snow and usman_sneeze.",
+      "where": "the dog, whole frame",
+      "found_by": "drift look",
+      "fixed": true,
+      "fix": "redraw",
+      "try": 1
     }
   ]
 }
