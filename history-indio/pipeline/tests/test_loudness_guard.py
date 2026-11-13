@@ -77,10 +77,10 @@ class LoudnessGuard(unittest.TestCase):
             self.assertIn('LOUDNESS GUARD FAILED', str(e.exception))
 
     def test_encoder_that_adds_more_peak(self):
-        """An encode that adds 1.5 dB of true peak (more than the limiter's 0.5 dB room): the guard must lower the limiter,
+        """An encode that adds 1 dB more true peak than the real one (twice the limiter's 0.5 dB room): the guard must lower the limiter,
         not raise the gain in that round, and still land inside the targets as that encode measures them."""
         real = st.ebur
-        st.ebur = lambda p, encode=False: (lambda r: (r[0], r[1] + 1.5))(real(p, encode))
+        st.ebur = lambda p, encode=False: (lambda r: (r[0], r[1] + 1.0))(real(p, encode))
         try:
             dst, log = self.guard(speechlike(20, seed=5) * 2, 'bad_encoder')
             i, tp = st.ebur(dst, encode=True)

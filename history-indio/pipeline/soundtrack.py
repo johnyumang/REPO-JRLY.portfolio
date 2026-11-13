@@ -152,7 +152,7 @@ def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
     ex = list(extra); maps = ['1:a:0' if (k and ex[k - 1] == '-map' and e.startswith('0:a')) else e for k, e in enumerate(ex)]
     if '-map' not in ex: maps = ['-map', '1:a:0'] + maps                             # input 0 = src (video, if any), input 1 = the limited audio
     gain, lim, over = LUFS - i0, TP - 0.5, 0.0                                       # limiter 0.5 dB under the ceiling, as v1; over: largest encode overshoot (dB)
-    rounds, best = [], None
+    rounds, best, slope = [], None, 1.0                                              # slope: LUFS per dB of gain (limiting eats some)
     def render(g, l):
         sf.write(tmp, _limit(x * np.float32(10 ** (g / 20)), l, SR), SR, subtype='FLOAT')
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-i', tmp] + maps + [dst], check=True)
@@ -169,8 +169,7 @@ def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
             if i > LUFS: gain -= i - LUFS
             continue
         same = [r for r in rounds[:-1] if r[1] == lim and abs(r[0] - gain) > 0.05]
-        slope = 1.0
-        if same: slope = min(1.0, max(0.15, (i - same[-1][2]) / (gain - same[-1][0])))  # loudness per dB of gain: limiting eats some of it
+        if same: slope = min(1.0, max(0.15, (i - same[-1][2]) / (gain - same[-1][0])))  # measured at this limiter; kept after it moves
         step = max(-12.0, min(12.0, (LUFS - i) / slope))
         if abs(step) < 0.02: break
         gain = max(-GAIN_CAP, min(GAIN_CAP, gain + step))
