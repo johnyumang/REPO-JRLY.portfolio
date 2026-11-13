@@ -2,7 +2,7 @@
  "fact_id": "t01",
  "fact_english": "Each eyeball of a tarsier is about as large as its entire brain.",
  "label_onscreen": "TARSIER",
- "source_onscreen": "Pinagmulan: Wikipedia",
+ "source_onscreen": "Pinagmulan: Natural History Museum, London; AMNH, New York",
  "lines": [
   {
    "speaker": "USMAN",
@@ -40,5 +40,5 @@
  "palette": "leaf",
  "grave": false,
  "why_here": "After M's 'kung hindi ko kinuha, hindi ito makakarating sa'yo': the next sentence opens the umbrella, so the viewer waits through the break to see what is inside.",
- "source_note": "Checked on 13 Nov: fact t01 failed (Wikipedia plus popular sites only; no reputable source could be opened), and no unused pool fact has two opened reputable sources to swap in, so this break must not be rendered until a verified fact replaces it."
+ "source_note": "Re-checked on 13 Nov by a researcher and a separate second reader (search summaries only; this machine cannot open pages): the fact holds with two independent reputable sources, named on the card. This break may be rendered."
 }

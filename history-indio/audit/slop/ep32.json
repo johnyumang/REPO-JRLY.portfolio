@@ -17,7 +17,8 @@
    "where": "dog's head, right of Indio",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k05 off_model: redrawn chest-up with the usman cast string + usman_ears_clause; dog now has one upright and one folded ear, all-black face, white chest only. Indio's hands kept out of view (one hand rests on the dog: four fingers visible, thumb hidden). Indio face checked at 3x."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k05 off_model: redrawn chest-up with the usman cast string + usman_ears_clause; dog now has one upright and one folded ear, all-black face, white chest only. Indio's hands kept out of view (one hand rests on the dog: four fingers visible, thumb hidden). Indio face checked at 3x.",
+   "third_reader": "pass"
   },
   {
    "key": "k07",
@@ -26,10 +27,13 @@
    ],
    "still": "full/usman_bone.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "Usman has a broad white blaze down his face and both ears folded.",
    "where": "dog's face",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "fail: white blaze on the forehead and both ears floppy",
+   "fixed": true,
+   "fix_note": "Kept try 4 with one small white forehead dot painted out (inpaint, black fur) after the draw; every try drew some white on the forehead. Ears now right (left up, right folded), face black, sunny alley behind. Rejected: t1-t3 forehead blaze (t2 also white background). 4 tries."
   },
   {
    "key": "k08",
@@ -55,7 +59,8 @@
    "where": "bottom left, hand below the red kerchief",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance.",
+   "third_reader": "pass"
   },
   {
    "key": "k10",
@@ -69,7 +74,8 @@
    "where": "Indio's head and both wrists",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k10 hands + off_model: same high angle over the alleys; Indio walks with both hands in his jeans pockets (no melted hand, no spike), solid black hair (no white patch), ONE red handkerchief on his left wrist; neighbours small in the distance.",
+   "third_reader": "pass"
   },
   {
    "key": "k11",
@@ -95,7 +101,8 @@
    "where": "right figure, both wrists",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k13 off_model: Bea (white t-shirt, black bob, blank press ID) writes in front; Indio behind talks to an old woman with his hands in his pockets, ONE kerchief on his left wrist. Bea's hands countable at 3x. Try 1 rejected: a neighbour's hand blurred into Indio's kerchief."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k13 off_model: Bea (white t-shirt, black bob, blank press ID) writes in front; Indio behind talks to an old woman with his hands in his pockets, ONE kerchief on his left wrist. Bea's hands countable at 3x. Try 1 rejected: a neighbour's hand blurred into Indio's kerchief.",
+   "third_reader": "pass"
   },
   {
    "key": "k14",
@@ -122,7 +129,8 @@
    "where": "top left sign; JM's cap",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k15 writing: the KAWIT CAVITE PHILIPPINES sign is gone (plain walls, no signs); JM's cap is plain beige with no logo; motorcycle has no badges; JM in a grease-stained beige t-shirt to match jm_cu; Usman in the sidecar with one folded ear. Indio dropped from this shot (the line is only 'JM drove the old motorcycle'), which also removes the minor double-kerchief fault. Left as is: a small white highlight stroke on the dog's forehead, not a blaze. Rejected tries: (1) both ears up, cap badge, marks on the box; (2) JM in a green shirt; (3) letter-like badge on the tank."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k15 writing: the KAWIT CAVITE PHILIPPINES sign is gone (plain walls, no signs); JM's cap is plain beige with no logo; motorcycle has no badges; JM in a grease-stained beige t-shirt to match jm_cu; Usman in the sidecar with one folded ear. Indio dropped from this shot (the line is only 'JM drove the old motorcycle'), which also removes the minor double-kerchief fault. Left as is: a small white highlight stroke on the dog's forehead, not a blaze. Rejected tries: (1) both ears up, cap badge, marks on the box; (2) JM in a green shirt; (3) letter-like badge on the tank.",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k15",
@@ -135,7 +143,8 @@
    "must_fix": false,
    "what": "Indio has a kerchief on both wrists and Usman has a white blaze down his face.",
    "where": "rear rider's wrists; dog in sidecar",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k19",
@@ -173,7 +182,8 @@
    "where": "bottom left, certificate",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k20 writing: side view of Indio holding the worn folder open with blank pages and no certificate or seal in view; ONE kerchief on his left wrist; both hands pass at 3x; wall boards blank and blurred. Try 1 had the kerchief on his right wrist."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k20 writing: side view of Indio holding the worn folder open with blank pages and no certificate or seal in view; ONE kerchief on his left wrist; both hands pass at 3x; wall boards blank and blurred. Try 1 had the kerchief on his right wrist.",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k21",
@@ -187,7 +197,8 @@
    "where": "top left of frame",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k21 writing: bare walls and filing cabinets with no sign (the 'CA' is gone); Indio's left hand (a thumb and four fingers) holds the medallion by its cord over a blank glowing sheet; kerchief on the left wrist. Left as is: a tiny unreadable engraving texture on the medallion rim. Try 1 had the kerchief on his right wrist."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k21 writing: bare walls and filing cabinets with no sign (the 'CA' is gone); Indio's left hand (a thumb and four fingers) holds the medallion by its cord over a blank glowing sheet; kerchief on the left wrist. Left as is: a tiny unreadable engraving texture on the medallion rim. Try 1 had the kerchief on his right wrist.",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k29",
@@ -196,10 +207,13 @@
    ],
    "still": "full/usman_noscent.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "Usman has a white blaze on his forehead and both ears folded.",
    "where": "dog's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "fail: white stroke on the forehead, both ears folded",
+   "fixed": true,
+   "fix_note": "Usman string + ears clause + 'solid black forehead and muzzle'; 'ears down' removed from the scene words. Try 2 kept: left ear up, right folded, black face, flashlight beam. Try 1 had a white forehead streak. 2 tries."
   },
   {
    "key": "k30",
@@ -211,7 +225,8 @@
    "must_fix": false,
    "what": "Usman is drawn as a stocky, heavy-jawed dog rather than the slim street dog of the other shots.",
    "where": "whole dog",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "pass"
   },
   {
    "key": "k32",
@@ -237,7 +252,8 @@
    "where": "lower centre, his chest",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k34 object: extreme close-up of the face only, eyes narrowing; no hands and no floating kerchief or ghost hand."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k34 object: extreme close-up of the face only, eyes narrowing; no hands and no floating kerchief or ghost hand.",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k35",
@@ -353,7 +369,8 @@
    "where": "left half, hand around the phone",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k52 hands: the phone stands on a stand on the low table; Indio sits on the sofa frowning with his arms crossed and hands tucked; no oversized hand. The vlogger on screen wears a bright green shirt (fixes minor k52: purple vs Rico's green)."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k52 hands: the phone stands on a stand on the low table; Indio sits on the sofa frowning with his arms crossed and hands tucked; no oversized hand. The vlogger on screen wears a bright green shirt (fixes minor k52: purple vs Rico's green).",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k52",
@@ -365,7 +382,8 @@
    "must_fix": false,
    "what": "The vlogger on the phone wears purple while Rico is in a green shirt in the shot before.",
    "where": "phone screen",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k53",
@@ -374,10 +392,13 @@
    ],
    "still": "full/usman_growl_tv.jpg",
    "type": "off_model",
-   "must_fix": false,
+   "must_fix": true,
    "what": "Usman has both ears splayed out pointed with no folded ear and a broad, heavy-jawed face.",
    "where": "dog's head",
-   "second_reader": "new"
+   "second_reader": "new",
+   "third_reader": "fail: both ears folded",
+   "fixed": true,
+   "fix_note": "Usman string + ears clause; 'ears back' removed. Try 1 kept: left ear up, right folded, black face, growling at a phone on the sofa, papers blank. 1 try."
   },
   {
    "key": "k54",
@@ -417,7 +438,8 @@
    "where": "upper centre",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k57 hands: no hands in frame; the glowing sheet floats with the golden pen lying on it, held out toward the viewer in front of Sinag; night under the mango tree and long black hair (fixes minor k57: daylight + pale hair). The paper shows only faint ruled lines. Rejected: (1) fingerless mitten hands + a doubled sheet; (2) vague hands under the paper."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k57 hands: no hands in frame; the glowing sheet floats with the golden pen lying on it, held out toward the viewer in front of Sinag; night under the mango tree and long black hair (fixes minor k57: daylight + pale hair). The paper shows only faint ruled lines. Rejected: (1) fingerless mitten hands + a doubled sheet; (2) vague hands under the paper.",
+   "third_reader": "pass"
   },
   {
    "key": "k57",
@@ -429,7 +451,8 @@
    "must_fix": false,
    "what": "Sinag's hair is pale pink-white and the scene is daylight, while she is black-haired at night in the other shots.",
    "where": "top left corner",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "pass"
   },
   {
    "key": "k58",
@@ -443,7 +466,8 @@
    "where": "dog, bottom left",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k58 off_model: Usman barking with one upright and one folded ear (usman string + ears clause), black face; Sinag (long black hair, long-sleeved white dress) vanishing in sparks; Indio behind with ONE kerchief on his left wrist and no loose kerchief in hand (fixes minor k58 object). Faces checked at 3x. Rejected: (1) both ears up, Sinag in short sleeves; (2) Indio without kerchief, weak fade; (3) Sinag with short brown hair."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k58 off_model: Usman barking with one upright and one folded ear (usman string + ears clause), black face; Sinag (long black hair, long-sleeved white dress) vanishing in sparks; Indio behind with ONE kerchief on his left wrist and no loose kerchief in hand (fixes minor k58 object). Faces checked at 3x. Rejected: (1) both ears up, Sinag in short sleeves; (2) Indio without kerchief, weak fade; (3) Sinag with short brown hair.",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k58",
@@ -455,7 +479,8 @@
    "must_fix": false,
    "what": "Indio holds a loose red kerchief in his hand while wearing one on his wrist.",
    "where": "Indio's hands",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "third_reader": "earlier fault stays fixed; still redrawn again for off_model, see the third-reader entry"
   },
   {
    "key": "k62",
@@ -469,7 +494,8 @@
    "where": "centre, head",
    "second_reader": "confirmed",
    "fixed": true,
-   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k62 merge: Usman covers one eye with a front paw and peeks with the other; the red kerchief is tied on his neck (no blindfold, the paw does not merge into cloth); one upright and one folded ear."
+   "fix_note": "Redrawn on the free full-quality model; checked at 3x. k62 merge: Usman covers one eye with a front paw and peeks with the other; the red kerchief is tied on his neck (no blindfold, the paw does not merge into cloth); one upright and one folded ear.",
+   "third_reader": "pass"
   },
   {
    "key": "k68",
@@ -494,6 +520,83 @@
    "what": "Usman has both ears floppy instead of one folded ear.",
    "where": "dog's head",
    "second_reader": "confirmed"
+  },
+  {
+   "key": "k34",
+   "still": "full/indio_memorize.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio drawn darker-skinned, older and harsher (stubble, heavy lines) than in the kept indio_walk / indio_point / indio_show.",
+   "where": "Indio's face and skin",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Prompt now describes Indio as the kept stills show him (light warm complexion, clean-shaven, gentle clean-cut features, neat black hair swept back in a small topknot); 1 try. Close-up, no hands, no cloth."
+  },
+  {
+   "key": "k21",
+   "still": "full/medal_read.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio drawn darker-skinned, older and harsher (stubble, heavy lines) than in the kept indio_walk / indio_point / indio_show.",
+   "where": "Indio's face and skin",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Indio redescribed as in the kept stills; the medallion asked plain with a sun pattern and no writing (a first free test showed letters round its rim). Left hand thumb + four fingers at 3x, kerchief on left wrist. 2 tries."
+  },
+  {
+   "key": "k52",
+   "still": "full/phone_vlog.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio drawn darker-skinned, older and harsher (stubble, heavy lines) than in the kept indio_walk / indio_point / indio_show.",
+   "where": "Indio's face and skin",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Indio redescribed as in the kept stills; kerchief asked on his left arm, on the right side of the picture (try 1 had it on the right wrist). Phone on a stand, vlogger in green. 3 tries."
+  },
+  {
+   "key": "k20",
+   "still": "full/folder_open.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio drawn darker-skinned, older and harsher (stubble, heavy lines) than in the kept indio_walk / indio_point / indio_show. (milder in this side view)",
+   "where": "Indio's face and skin",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Indio redescribed as in the kept stills; folder cover and pages blank; kerchief on left wrist; hands pass at 3x. 1 try."
+  },
+  {
+   "key": "k15",
+   "still": "full/sidecar_ride.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman's ears mirrored: the dog's RIGHT ear stands up and the LEFT is folded, plus a white stroke on the forehead.",
+   "where": "dog's head in the sidecar",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Ears clause kept and the dog now faces the viewer: left ear upright, right ear folded, all-black face. JM matches jm_cu (beige cap, beige t-shirt), no badges or text. 1 try."
+  },
+  {
+   "key": "k58",
+   "still": "full/sinag_vanish.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman seen in profile with the upright ear on the dog's RIGHT side (near ear folded = his left), mirrored against the series rule.",
+   "where": "dog's head",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Dog asked facing the viewer with the upright ear on the right side of the picture; prompt length freed so the place line is back. Kept try 2: ears right, face black (only a grey sheen on the forehead); Indio on-model with kerchief on his left wrist; Sinag long black hair, long-sleeved white dress, sparks. Rejected: t1 ears mirrored; t3 both ears up; t4 Indio darker and a white forehead stroke. 4 tries."
+  },
+  {
+   "key": "k06",
+   "still": "full/usman_manager.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman: the dog's left ear half-folded (neither ear clearly upright) and a white spot on the muzzle.",
+   "where": "dog's head",
+   "third_reader": "fail: off model",
+   "fixed": true,
+   "fix_note": "Usman string + ears clause + 'solid black forehead, muzzle and chin'; cracked wall with blank sheets behind; tiny plain dark cap. Kept try 3. Rejected: t1 white background and forehead streak; t2 forehead streak. 3 tries."
   }
  ],
  "refuted": [
