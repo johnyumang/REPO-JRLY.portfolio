@@ -1,0 +1,316 @@
+{
+ "episode": 36,
+ "audited_by": "ep36-render readers 1+2",
+ "keys_looked_at": 65,
+ "defects": [
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/indio_line_cu.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The passport cover and the boarding pass in his hand carry rows of fake Japanese-like letters, large in the foreground.",
+   "where": "bottom centre, the passport and ticket in his hand",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "full/rule_hand.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Indio wears a red handkerchief on BOTH wrists instead of one on the left wrist.",
+   "where": "both wrists, lower right",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/fox_bench.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A readable red sign saying 'Central' hangs over the lobby doors.",
+   "where": "top centre, above the far glass doors",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/indio_seen.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The woman Indio smiles at has a brown ponytail and a white t-shirt; she is not the fox woman (long black hair, flowing white dress) from k27-k30, k48 and k49.",
+   "where": "left third, the woman facing Indio",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/fiction_cards.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "One floating card holds a melted, smeared face with broken eyes and mouth.",
+   "where": "upper left, the blue-framed card under the dog card",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/dezhou_memory.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man freeing the fox has short brown hair with no topknot and no red headband, so he does not read as Indio.",
+   "where": "right side, the young man",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/sandugo_glow.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The glowing medallion hangs from the crook of the umbrella handle instead of being raised in M's hand, and its rim carries letter-like marks.",
+   "where": "centre left, umbrella handle and medallion",
+   "found_by": "reader 1",
+   "reader2_note": "Raised to must_fix: at 3x the closed umbrella hangs upside down in mid-air beside M with no hand holding it, and the medallion dangles from its crook; centre of frame, and the script's 'M raises the Sandugo' is not shown."
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/wake_alone.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "His raised foot is a grey fist-shaped blob while the other foot is bare.",
+   "where": "left middle, the raised knee on the bed",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/portal_no.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn bulky with a menacing grin and a single skunk-like white stripe, unlike his lean calm face in the nearby shots.",
+   "where": "face and hair, top half",
+   "found_by": "reader 1",
+   "reader2_note": "Confirmed for the bulky build and broad, menacing grin; the white streak itself is NOT a fault, since Indio has the same streak in k12, k25, k51 and k60 of this episode."
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/daan_glow.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The eye behind the medallion is bright blue and the skin is pale, where Indio has dark eyes and brown skin.",
+   "where": "top, the eye above the medallion",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/holo_93.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "His forearm has a realistic full-sleeve tattoo (dragon/waves) instead of Indio's indigo geometric bands, on the same arm as the handkerchief.",
+   "where": "centre right, the outstretched forearm",
+   "found_by": "reader 1",
+   "reader2_note": "Raised to must_fix: at 3x the realistic full sleeve (faces, waves, dragon) covers the whole forearm and upper arm; it fills the centre of the frame on a paused phone."
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9,
+    8
+   ],
+   "still": "full/usman_sulk.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has BOTH ears folded down (here and in k08); he should have one folded ear.",
+   "where": "top of the dog's head",
+   "found_by": "reader 1",
+   "reader2_note": "Confirmed; k08 (still usman_lola_gate) is a different still with the same two folded ears."
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/follow.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pricked up with no folded ear.",
+   "where": "bottom left, the dog's head",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/bea_phone.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The press ID badge and lanyard carry letter-like marks and a barcode.",
+   "where": "centre, the badge on her chest",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/ticket_house.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The return ticket in his hand shows lines of fake letters.",
+   "where": "bottom centre, the ticket",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/jm_garage.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "JM's cap badge has letter-like red marks.",
+   "where": "upper left, the cap front",
+   "found_by": "reader 1"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/comment.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "He has three arms: one hangs at his side with the handkerchief, a bent elbow sticks out behind his back, and a separate hand points at the gate in front of his chest.",
+   "where": "centre, his arms and the pointing hand left of his chest",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16,
+    54
+   ],
+   "still": "full/flag_sepia.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The flag's sun has about eighteen thin rays instead of the eight rays of the Philippine flag, in the shot that says 'this is the flag'; the same still is k54.",
+   "where": "left middle, the sun on the white triangle",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28,
+    29
+   ],
+   "still": "full/fox_cu.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Her raised index finger is about half as long again as it should be and tapers like a boneless stick (same still in k29).",
+   "where": "left middle, the raised finger",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "full/closed_door.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The see-through hand on the door is a mitten: fingers fused into one shape with one long tapered digit, no countable fingers.",
+   "where": "right middle, the hand beside the door handle",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/airport_home.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "His free hand's fingers are clumped into one fused knot with a stray nail, not a relaxed hand.",
+   "where": "lower left, his right hand at his side",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/question.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up (one only bent at the tip), not one folded ear.",
+   "where": "left middle, the dog's head",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41,
+    40
+   ],
+   "still": "full/lola_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lola changes between consecutive shots of the same video call: cream floral housedress and wide grin in k40, pink dress with a flower collar and a different face in k41.",
+   "where": "whole figure, k40 against k41",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/fox_point.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A dark brown smudge sits on the wrist and palm of her pointing hand, like a stain painted onto the skin.",
+   "where": "upper right, under the pointing finger",
+   "found_by": "reader 2"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/biak_sepia.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The ship's bow carries letter-like marks ('Al6d').",
+   "where": "lower left, the bow of the ship",
+   "found_by": "reader 2"
+  }
+ ],
+ "refuted": []
+}
