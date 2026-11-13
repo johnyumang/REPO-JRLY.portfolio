@@ -15,7 +15,8 @@
    "what": "Lolo hands over a shiny brass valve trumpet whose tubing loops do not connect, not a carabao-horn tambuli.",
    "where": "centre, the instrument between Lolo and the boy",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k39",
@@ -28,7 +29,8 @@
    "what": "The hand holding the phone is a knot of digits: two fingers on the back, a thumb across the middle and a second thumb-like knuckle under it, with no clear second hand.",
    "where": "left half, hand on the phone",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k49",
@@ -41,7 +43,8 @@
    "what": "Close crowd with melting hands: a phone pressed into a girl's eye, a candle growing out of a hand with no holder, large dark hands holding nothing, and a hand fused over a boy's mouth.",
    "where": "left half and centre-left, lower and middle rows",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k03",
@@ -55,7 +58,8 @@
    "what": "Usman has two tall upright pointed ears and a long shaggy wolf-like head, so he does not read as the round-faced dog with one folded ear seen in k52, k53 and k60.",
    "where": "lower left, the dog",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k52",
@@ -147,7 +151,8 @@
    "must_fix": true,
    "what": "M holds the shaft of an open red umbrella and the same shaft continues below her hand as a second, furled red umbrella, so one umbrella is open and closed at once.",
    "where": "left figure, her hand on the umbrella pole and the red furled shape hanging below it",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "fixed": true
   },
   {
    "key": "k26",
@@ -159,7 +164,8 @@
    "must_fix": true,
    "what": "The man Sikatuna turns to (Indio, 'nakatingin sa akin') is a young man with short messy hair, no topknot, in a khaki shirt and boots, not the forties topknot-and-long-dark-coat Indio of k22/k27/k69.",
    "where": "right figure",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -171,7 +177,8 @@
    "must_fix": true,
    "what": "The man in golden armour is a young spiky-haired man in plate armour with no topknot and no medallion armour, not Indio as drawn in the same shot's other key k22.",
    "where": "centre, the armoured man",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -183,7 +190,8 @@
    "must_fix": true,
    "what": "One of the faceless glowing spirits behind Indio has a solid black-haired head and face like the armoured man's, so he appears twice.",
    "where": "centre, the spirit directly behind the armoured man",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "fixed": true
   },
   {
    "key": "k57",
@@ -196,7 +204,10 @@
    "must_fix": true,
    "what": "The Philippine map is mangled (block-shaped Luzon, an invented orange island in the sea east of Luzon, Samar/Leyte missing) and shows six lights, on Palawan and Mindoro but none on Sulu, while the narration counts five places.",
    "where": "whole map; the orange blob upper right of centre",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "needs_figma": true,
+   "note": "two full-quality redraws: shape better but 7-8 lights, no Sulu/Mactan/Bohol; old-vs-new reviewer reverted. Suggest an accurate map with the five lights placed in code, or the better engine.",
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels. Nobody in the frame. A glowing gold-line map of the real Philippine archipelago floating in the dark, accurate shape: long Luzon in the north, the Visayas islands in the middle, large Mindanao in the south, long thin Palawan in the west. Exactly five warm points of light: Manila Bay on Luzon, Mactan near Cebu, Bohol, Lake Lanao in Mindanao, the Sulu islands southwest of Mindanao. No text, no labels, no extra islands."
   },
   {
    "key": "k64",
@@ -208,7 +219,8 @@
    "must_fix": true,
    "what": "The palace name boards carry rows of fake Chinese-like glyphs.",
    "where": "top right, the boards under the roof eaves",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "fixed": true
   },
   {
    "key": "k07",
