@@ -1,7 +1,7 @@
 # Captions — Episode 41 (Season 4 finale): Ang Panunumpa
 
 ## Facebook (Reels)
-SEASON 3, EPISODE 41: Isandaan at labindalawang arko, isang marker na may pangalan ni Indio, at isang panunumpang hindi galing sa karaniwang salita. Sa huling salita, bumukas ang tandang pananong, at umitim ang langit. 🐉
+SEASON 4, EPISODE 41: Isandaan at labindalawang arko, isang marker na may pangalan ni Indio, at isang panunumpang hindi galing sa karaniwang salita. Sa huling salita, bumukas ang tandang pananong, at umitim ang langit. 🐉
 Kathang-isip sina Indio, M, Usman, Sinag, Tubal, Totoy at ang pamilya ni Indio, ang mga arko, ang marker na may pangalan ni Indio, ang panunumpang ito, ang tungkod at ang gunaw ng kuwentong ito; hindi ito itinuturo bilang aral ng pananampalataya. Totoo ang pagpapasinaya ng Komonwelt noong 1935. Ang Pahayag 12 at Genesis 9 ay iginagalang bilang kasulatan.
 
 👉 Kung ikaw ang hinilingang lumuhod para sa lahat, ano ang isasagot mo? Comment mo.
