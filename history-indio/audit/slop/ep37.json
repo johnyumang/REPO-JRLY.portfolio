@@ -15,7 +15,8 @@
    "must_fix": true,
    "what": "The man being interviewed on Nesto's TV is a short-haired man in a blue suit crying, not Indio (no topknot, no grey streak), although the line says Nesto saw Indio on TV.",
    "where": "TV screen, right middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k26",
@@ -27,7 +28,8 @@
    "must_fix": true,
    "what": "Indio wears his suit jacket over a bare chest with no shirt, unlike the white shirt in every other suit shot.",
    "where": "Indio's chest, right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k25",
@@ -39,7 +41,8 @@
    "must_fix": true,
    "what": "Mang Nesto has dark black hair with grey only at the sides; in k24 and k38, right before and after, his hair is white.",
    "where": "head, top",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k11",
@@ -51,7 +54,8 @@
    "must_fix": true,
    "what": "The handover is between two young men in a yellow tracksuit and a white t-shirt, not Undersecretary Lorna (dark suit, k09) and the black-suited ring man (k10).",
    "where": "both figures, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k53",
@@ -63,7 +67,8 @@
    "must_fix": true,
    "what": "Usman has two floppy folded ears and a white blaze down his face; in k56 he has one ear up and one folded and no blaze.",
    "where": "dog's head, right middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k67",
@@ -75,7 +80,8 @@
    "must_fix": true,
    "what": "Usman has both ears standing up (German-shepherd look) instead of one folded ear.",
    "where": "dog's head, bottom left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k64",
@@ -87,7 +93,8 @@
    "must_fix": true,
    "what": "Indio's right forearm carries a dense floral full-sleeve tattoo; in k06, the episode's own close-up of the same arm, the marks are a ladder of plain dark bands, so the two shots show two different arms.",
    "where": "right forearm, centre left",
-   "second_reader": "changed: reason corrected - the arm is tattooed in k06 too, the fault is that the design is a different one, not that a tattoo exists"
+   "second_reader": "changed: reason corrected - the arm is tattooed in k06 too, the fault is that the design is a different one, not that a tattoo exists",
+   "fixed": true
   },
   {
    "key": "k13",
@@ -99,7 +106,8 @@
    "must_fix": true,
    "what": "The lower hand is a boneless pink blob with no readable fingers or thumb, and the upper hand's fingers run together into one slab.",
    "where": "lower left hand; upper right hand",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -111,7 +119,9 @@
    "must_fix": true,
    "what": "Crowd of photographers: arms, cameras and bodies run into each other, with many hands melting into cameras and floating arms with no owner.",
    "where": "whole frame, mostly upper half",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "note": "the camera-flash montage extra was dropped: four redraws kept drawing a person"
   },
   {
    "key": "k16",
@@ -123,7 +133,9 @@
    "must_fix": true,
    "what": "The copper plate on the mat is a near-photographic 3D render with no ink line and no cel shading, so the whole frame reads as a stock photo dropped into the episode.",
    "where": "whole frame",
-   "second_reader": "changed: must_fix raised to true - the break covers the entire frame and is unmistakable on a paused screen"
+   "second_reader": "changed: must_fix raised to true - the break covers the entire frame and is unmistakable on a paused screen",
+   "fixed": true,
+   "note": "fixed on the fourth redraw (flat cel-style plate); a better close-up with Figma would still help"
   },
   {
    "key": "k10",
@@ -135,7 +147,8 @@
    "must_fix": true,
    "what": "The hand reaching for the bag is a fingerless lump: no separated fingers or thumb, and the bronze ring sits on the outside of the knuckle with no finger through it.",
    "where": "bottom right, the ring hand",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k31",
@@ -147,7 +160,8 @@
    "must_fix": true,
    "what": "The dissolving man is a young black-haired man in a black suit and tie, not the tall silver-haired Tubal whose face Sinag wears in k26, k27, k28 and k48.",
    "where": "left figure, whole body",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k37",
@@ -159,7 +173,8 @@
    "must_fix": true,
    "what": "Seen from behind, Indio's jacket has a breast pocket with the red handkerchief in it on the BACK of the jacket, between the shoulder blades.",
    "where": "centre, middle of Indio's back",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k67",
@@ -171,7 +186,8 @@
    "must_fix": true,
    "what": "Indio's lowered left hand is grown into Usman's raised tail: the stubby fingers have no gaps and run straight into the black fur.",
    "where": "centre left, Indio's left hand and the dog's tail",
-   "second_reader": "new"
+   "second_reader": "new",
+   "fixed": true
   },
   {
    "key": "k45",
