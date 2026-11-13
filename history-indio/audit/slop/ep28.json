@@ -25,8 +25,7 @@
    "must_fix": true,
    "what": "A framed wedding photograph is stuck flat on Lola's chest like a badge instead of hanging on the wall.",
    "where": "centre of her floral dress, chest height",
-   "fixed": false,
-   "rejected_redraw": "Redraw drops the badge photo but makes Lola off-model: hair mostly black with a grey streak instead of the silver-grey bun of tell_lola and lola_smile, and a sallow, realistic aged face that breaks from her anime look in the neighbouring kitchen shots."
+   "fixed": true
   },
   {
    "key": "k21",

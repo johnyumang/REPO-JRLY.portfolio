@@ -15,7 +15,11 @@ usage (check an episode by hand):  narration_cuts.py videos/<slug>
 import json, os, sys
 
 
-def _txt(s): return (s['text'] if isinstance(s, dict) else s).strip()
+def _txt(s):
+    """A sentence's words for comparing: typographic quotes and doubled spaces do not count as a difference."""
+    t = s['text'] if isinstance(s, dict) else s
+    for x, y in (('\u2019', "'"), ('\u2018', "'"), ('\u201c', '"'), ('\u201d', '"')): t = t.replace(x, y)
+    return ' '.join(t.split())
 
 
 def source_index(vdir, tim):
@@ -29,7 +33,13 @@ def source_index(vdir, tim):
     C = json.load(open(cp)); S = json.load(open(sp)); S = S if isinstance(S, list) else S.get('sentences', [])
     n = len(S); cut = {int(c['index']) for c in C.get('cut', [])}
     if not cut: return src, None
-    new = {int(r['after_index']) + 1: r.get('new_text', '').strip() for r in C.get('revoice', []) if int(r['after_index']) + 1 in cut}
+    bad = sorted(k for k in cut if not 0 <= k < n)
+    if bad: raise SystemExit(f'narration cuts: {bad} is not a sentence number of sentences.json (0 to {n - 1}). Was sentences.json shortened? Restore it from git: nothing is renumbered for a cut.')
+    for c in C['cut']:                                                 # the cut file must name the sentence that sentences.json has at that number
+        if c.get('text') and _txt(S[int(c['index'])]) != _txt(c['text']):
+            raise SystemExit(f'narration cuts: sentence {c["index"]} of sentences.json is "{_txt(S[int(c["index"])])[:50]}", not the cut file\'s "{_txt(c["text"])[:50]}". '
+                             'sentences.json was renumbered: restore it from git (nothing is renumbered for a cut).')
+    new = {int(r['after_index']) + 1: _txt(r.get('new_text', '')) for r in C.get('revoice', []) if int(r['after_index']) + 1 in cut}
     gone = cut - set(new)                                              # really removed; the others are replaced in place
     if n_t == n - len(gone): src = [k for k in range(n) if k not in gone]; state = 'applied'
     elif n_t == n: state = 'NOT applied yet'
@@ -53,8 +63,16 @@ def source_index(vdir, tim):
     return src, note
 
 
+def renumbered_shots(FX, src):
+    """-> the shots_fx numbers that carry the mark of a hand renumbering: entry k holds "key": <the sentence that line k is>, which is
+    what the old hand cuts wrote to keep each picture. With the map of this module that shifts every later picture a second time."""
+    return sorted(k for k, o in enumerate(src) if o != k and isinstance(FX.get(str(k)), dict) and FX[str(k)].get('key') == o)
+
+
 if __name__ == '__main__':
     v = sys.argv[1].rstrip('/'); tim = json.load(open(v + '/timings.json'))
     src, note = source_index(v, tim); print(note or 'no cuts for this episode')
+    fxp = v + '/shots_fx.json'; rn = renumbered_shots(json.load(open(fxp)), src) if os.path.exists(fxp) else []
+    if len(rn) >= 2: raise SystemExit(f'shots_fx.json was renumbered by hand for this cut (entries {rn[:6]}... carry "key" of the next sentence): restore the original from git, the map does the rest.')
     moved = [(i, k) for i, k in enumerate(src) if i != k]
     if moved: print(f'{len(moved)} line(s) take the picture of an earlier number: line {moved[0][0]} -> key k{moved[0][1]:02d} ... line {moved[-1][0]} -> key k{moved[-1][1]:02d}')
