@@ -214,4 +214,9 @@ if rc == 0 and not only:                                                        
     e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', out, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('Summary')[-1]
     val = lambda k: next((l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)), '?')
     print(f"final MP4: {val('I:')} LUFS (target {soundtrack.LUFS}), true peak {val('Peak:')} dBTP (ceiling {soundtrack.TP})", flush=True)
+    # decode every video frame once: a file whose picture stream is damaged still passes an audio-only check (seen on Episode 46)
+    d = subprocess.run(['ffmpeg', '-v', 'error', '-i', out, '-an', '-f', 'null', '-'], capture_output=True, text=True).stderr.strip().splitlines()
+    if d:
+        print(f'VIDEO STREAM DAMAGED: {len(d)} decode errors, first: {d[0][:160]}  -> build again; do not publish this file', flush=True); rc = 4
+    else: print('video stream: every frame decodes', flush=True)
 sys.exit(rc)
