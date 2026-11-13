@@ -87,12 +87,12 @@ PALETTES = {   # a, b: the two sunburst tones; dot: halftone; accent: emphasis w
 # black. The palette key only tints the small accents (emphasis words, the label ribbon). Caption plates stay light with
 # dark words (at least 7:1).
 DUSK = dict(top=(9, 14, 38), bottom=(38, 28, 82), floor=(20, 16, 46), glow=(255, 168, 92), title=(228, 196, 128), sub=(238, 228, 206),
-            sticker=(30, 28, 66), edge=(176, 150, 104), plate=(244, 238, 226), bar=(112, 100, 146), bar_end=(170, 136, 92),
-            card_edge=(176, 150, 104, 200), card_text=(238, 228, 206), shadow=INK)
+            sticker=(30, 28, 66), edge=(176, 150, 104), plate=(244, 238, 226), bar=(76, 66, 110), bar_end=(92, 66, 40),
+            card_edge=(176, 150, 104, 200), card_text=(238, 228, 206), grey=(170, 162, 172))   # grey: words still to come (faint on purpose)
 DUSK_TINT = {   # accent: emphasis words on the light plate; accent_ink: on the dark pill; ribbon: the label band
-    'sun':  dict(accent=(132, 58, 18), accent_ink=(240, 180, 104), ribbon=(112, 70, 40)),
-    'sea':  dict(accent=(18, 82, 104), accent_ink=(132, 200, 212), ribbon=(30, 78, 98)),
-    'leaf': dict(accent=(40, 92, 46), accent_ink=(164, 208, 144), ribbon=(46, 88, 54)),
+    'sun':  dict(accent=(116, 48, 12), accent_ink=(240, 180, 104), ribbon=(94, 56, 30)),
+    'sea':  dict(accent=(16, 74, 96), accent_ink=(132, 200, 212), ribbon=(26, 68, 88)),
+    'leaf': dict(accent=(32, 78, 38), accent_ink=(164, 208, 144), ribbon=(36, 74, 44)),
 }
 DUSK_FADE = 0.30                                                       # s of fade up from black and down to black (9 frames at 30 fps)
 
@@ -449,7 +449,7 @@ def dusk_ground(W, H, pal, glow_c, floor_y):
     base *= (1 - 0.55 * np.clip((d - 0.45) / 0.85, 0, 1) ** 1.4)[..., None]                              # vignette
     base += np.random.default_rng(5).normal(0, 0.7, base.shape).astype(np.float32)                       # grain
     g = np.exp(-(((xx - glow_c[0]) / (H * 0.24)) ** 2 + ((yy - glow_c[1]) / (H * 0.20)) ** 2))
-    glow = np.array(pal['glow'], np.float32) * 0.20 * g[..., None]
+    glow = np.array(pal['glow'], np.float32) * 0.26 * g[..., None]
     return base, glow
 
 
@@ -745,7 +745,7 @@ class Pages:
                 # on the pill: emphasis words in the accent colour on an ink pill (quotes in white), others as drawn
                 act = word_img(self.words[i], size * (B_EMPH if e else 1.0), self.pal.get('accent_ink', self.pal['accent']), stroke_k=0, shadow=False,
                                plain=(255, 255, 255))[0] if e else im
-                grey = Image.new('RGBA', im.size, self.GREY + (255,)); grey.putalpha(im.getchannel('A'))
+                grey = Image.new('RGBA', im.size, tuple(self.pal.get('grey', self.GREY)) + (255,)); grey.putalpha(im.getchannel('A'))
                 bb = im.getchannel('A').point(lambda v: 255 if v > 40 else 0).getbbox() or (0, 0, im.width, im.height); imgs.append((im, base, bb, e, act, grey))
             space = size * 0.24; widths = [x_[2][2] - x_[2][0] for x_ in imgs]
             opts = [[list(range(len(imgs)))]] + [[list(range(k)), list(range(k, len(imgs)))] for k in range(1, len(imgs))]
