@@ -1,0 +1,378 @@
+{
+ "episode": 18,
+ "readers": 2,
+ "keys_looked_at": 81,
+ "defects": [
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "phone_bank",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man holding the phone is not Indio: short loose hair with no topknot and no headband, a black tee, and big colour floral tattoos over both hands, both forearms and his neck instead of Indio's indigo forearm marks.",
+   "where": "whole frame, the figure behind the phone"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "indio_shield",
+   "type": "style",
+   "must_fix": true,
+   "what": "This still is a flat full-body character line-up of Indio and M standing side by side on a plain white page, not a painted night scene like every shot around it, so the cut to it jolts.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "bread_split",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man tearing the bread is not Indio: dark bangs with no topknot and no red headband, a black shirt, and large colour floral tattoos down both forearms and across the fingers.",
+   "where": "whole frame, face and both hands"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41,
+    88
+   ],
+   "still": "bread_many",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The hands overflowing with bread belong to a brown-haired young woman with earrings and a pale sweater, not to Indio, whose line this moment is.",
+   "where": "whole frame, face above the hands"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "indio_double",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The golden double of Indio is drawn as a different man with short side-parted hair, no topknot and no red headband, so the two figures do not read as the same person.",
+   "where": "right half, the glowing figure's head"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "coin_fade",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The face above the palm with the coins is a blue-eyed man with straight black bangs, no topknot and no headband, not Indio.",
+   "where": "upper half, face behind the hand"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "holo_nahual",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is drawn with reddish-brown hair, no topknot and a modern black hooded sweatshirt in a galleon-era harbour scene.",
+   "where": "lower right, the standing figure"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "signing_hands",
+   "type": "object",
+   "must_fix": true,
+   "what": "A modern blue motor scooter with handlebars and a round headlight stands parked against a drainpipe in the courtyard behind the 1565 signing hands.",
+   "where": "centre left background, behind the quill"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42,
+    61
+   ],
+   "still": "feast_bridge",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The boy kneeling in the foreground has rows of letter-like marks printed across the back of his orange shirt.",
+   "where": "lower centre, the back of the orange shirt"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "hill_night",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Seen from behind on the hill, Indio has short reddish-brown spiky hair with no topknot and a grey-green jacket over his shirt, so only the headband and sash identify him.",
+   "where": "left figure, back of the head"
+  },
+  {
+   "key": "k03",
+   "shots": [
+    3
+   ],
+   "still": "two_pier",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red handkerchief tied on both wrists; the character sheet gives him one, on the left wrist.",
+   "where": "both hands, seen from behind"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6,
+    84
+   ],
+   "still": "bread_stall",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red band on both wrists instead of the single left-wrist handkerchief.",
+   "where": "both wrists of the standing man at left"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "usman_return",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears; he is meant to have one folded ear.",
+   "where": "top of the dog's head"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "usman_bread",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears instead of one folded ear.",
+   "where": "top of the dog's head"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "bone_fail",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears instead of one folded ear.",
+   "where": "top of the dog's head"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "usman_hill_growl",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears instead of one folded ear.",
+   "where": "top of the dog's head"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "intro",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The golden clock ring behind Indio carries rings of letter-like glyphs.",
+   "where": "background ring, upper left and upper right"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "basket_empty",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The coins in the basket are stamped with letter-like glyphs.",
+   "where": "right side of the basket"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "map_route",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks are drawn along the right-hand coastline of the map.",
+   "where": "right edge, lower half"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "map_route",
+   "type": "object",
+   "must_fix": false,
+   "what": "The red route is broken: a separate red stroke floats above the top of the line, unattached to the route.",
+   "where": "top centre of the map"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "compass_cu",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The compass dial carries garbled letter-like characters instead of plain marks, and the chart under it has rows of pen-like squiggles.",
+   "where": "compass face and the chart at left"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "scott_glass",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open notebook under the magnifier is covered in lines of handwriting-like marks.",
+   "where": "lower right, the open page"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "signing_hands",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Two framed notices on the wall in the background are filled with rows of letter-like text.",
+   "where": "upper left, on the yellow wall"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "note_under",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The note under the toy ship is written in cursive that forms word-shaped letter strings rather than plain scribbles.",
+   "where": "centre, the folded note"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "pull_medallion",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Three hands pinch the medallion: the thumb at lower right rises from the bottom edge and cannot belong to the hand reaching in from the top right, so the picture reads as an extra hand.",
+   "where": "lower right thumb against the top right hand",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "indio_promise",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has red cloth on both wrists (a bow on the left and a band at the hand pushing the phone into his pocket) instead of the single left-wrist handkerchief.",
+   "where": "both wrists",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "hill_night",
+   "type": "object",
+   "must_fix": false,
+   "what": "Modern lit high-rise blocks with rows of glass windows stand on the shore of the galleon-era bay, which the shot asks to be free of anything modern.",
+   "where": "left shore of the bay, middle of the frame",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "usman_count",
+   "type": "object",
+   "must_fix": false,
+   "what": "Modern white motor yachts and present-day buildings fill the harbour behind Usman in a galleon-era night scene.",
+   "where": "right half of the background",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26,
+    86
+   ],
+   "still": "treaty_table",
+   "type": "object",
+   "must_fix": false,
+   "what": "The 1565 Spanish officer signs with a modern white click ballpoint pen, not a quill, and wears a khaki tunic with a badge like a 20th-century uniform.",
+   "where": "right, the officer's writing hand",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "indio_double",
+   "type": "object",
+   "must_fix": false,
+   "what": "The galleon-era night scene is a sunny modern marina with white motor yachts, a concrete jetty, a café awning and apartment blocks.",
+   "where": "whole background",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "bone_fail",
+   "type": "object",
+   "must_fix": false,
+   "what": "A sunny modern marina with white sailing yachts and present-day buildings sits behind Usman in a galleon-era night scene.",
+   "where": "background above and around the dog",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "usman_hill_growl",
+   "type": "object",
+   "must_fix": false,
+   "what": "The bay below the hill is a modern marina with white yachts and present-day buildings instead of the galleon-era harbour.",
+   "where": "lower right background",
+   "found_by": "reader2"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k35",
+   "what": "Usman has two upright pointed ears instead of one folded ear.",
+   "why": "At 3x the dog's left ear (right of frame) is upright at the base with its top flap folded down over itself, so he does have one folded ear; only the other ear is fully pointed."
+  }
+ ]
+}
