@@ -259,8 +259,9 @@
 },
 "39": {
 "fx": [],
-"framing": "M",
-"move": "push_in"
+"framing": "CU",
+"move": "rack_focus",
+"depth": "strong"
 },
 "40": {
 "fx": [],
@@ -281,7 +282,7 @@
 },
 "43": {
 "fx": [],
-"framing": "M",
+"framing": "M-low",
 "move": "push_in"
 },
 "44": {
@@ -372,9 +373,11 @@
 "move": "push_in"
 },
 "56": {
-"fx": [],
-"framing": "wide-dream",
-"move": "crane_up",
+"fx": [
+"aura_gold"
+],
+"framing": "wide",
+"move": "dolly_in",
 "depth": "strong"
 },
 "57": {
@@ -418,9 +421,8 @@
 },
 "63": {
 "fx": [],
-"framing": "CU",
-"move": "rack_focus",
-"depth": "strong"
+"framing": "M-low",
+"move": "push_in"
 },
 "64": {
 "fx": [],
