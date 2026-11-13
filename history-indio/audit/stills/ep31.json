@@ -1,0 +1,206 @@
+{
+ "episode": 31,
+ "audited_by": "worker-davinci",
+ "stills_looked_at": 82,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/liway_thanks.jpg",
+   "shots": [
+    9
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The whole picture sits inside a white margin and a black outline, a visible frame around the image."
+  },
+  {
+   "still": "full/m_smile.jpg",
+   "shots": [
+    17
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Plates of food are superimposed over the woman's face like a double-exposure collage, cutting across her eyes and cheeks."
+  },
+  {
+   "still": "full/usman_table.jpg",
+   "shots": [
+    18
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "A hanging scroll with large kanji and a wooden sign with Japanese/Chinese characters on the kitchen wall in a Kawit house."
+  },
+  {
+   "still": "full/dark_voices.jpg",
+   "shots": [
+    31
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "Two big white hanging shop signs with Chinese/Japanese characters on the left wall of the flooded Kawit alley, also mirrored in the water."
+  },
+  {
+   "still": "full/kapitan_cta.jpg",
+   "shots": [
+    72
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "A green shop sign with Chinese characters on the building behind Indio at upper left."
+  },
+  {
+   "still": "full/no_tarp.jpg",
+   "shots": [
+    65
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Posters on the left wall carry pseudo-Japanese headline glyphs and red pseudo-text blocks, and the poster at right has red lettering."
+  },
+  {
+   "still": "full/m_rope.jpg",
+   "shots": [
+    42
+   ],
+   "type": "logo",
+   "must_fix": true,
+   "what": "A white logo badge with red letters is drawn in the top-left corner, plus pseudo-letters on a sign at upper right."
+  },
+  {
+   "still": "full/usman_happy.jpg",
+   "shots": [
+    19
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog at the table has two tall pointed ears, no red kerchief and no white chest patch, so it does not read as Usman."
+  },
+  {
+   "still": "full/usman_swim.jpg",
+   "shots": [
+    38
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A cyan signature-like scribble is drawn in the bottom-right corner."
+  },
+  {
+   "still": "full/usman_sniff.jpg",
+   "shots": [
+    27
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has no red kerchief (both ears also drop the same way)."
+  },
+  {
+   "still": "full/usman_sniff.jpg",
+   "shots": [
+    27
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Japanese-like glyphs painted on the building facade at upper right."
+  },
+  {
+   "still": "full/usman_growl.jpg",
+   "shots": [
+    59
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears instead of one folded ear."
+  },
+  {
+   "still": "full/teddy_speaks.jpg",
+   "shots": [
+    7
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A paper notice with rows of pseudo-text is pinned on the kitchen wall behind the father."
+  },
+  {
+   "still": "full/m_door.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small poster with red kanji-like glyphs hangs in the window at upper left."
+  },
+  {
+   "still": "full/lola_teach.jpg",
+   "shots": [
+    13
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A red logo emblem on the chest of the man's polo shirt at right."
+  },
+  {
+   "still": "full/indio_answer.jpg",
+   "shots": [
+    54
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The billboard on the riverbank shows pseudo-text lines and red glyphs instead of illegible scribbles."
+  },
+  {
+   "still": "full/question_cta.jpg",
+   "shots": [
+    71
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small shop signs with kanji-like glyphs at the top of the street behind Indio."
+  },
+  {
+   "still": "full/hall_mud.jpg",
+   "shots": [
+    64
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small sign with pseudo-text over the barangay hall door."
+  },
+  {
+   "still": "full/coast_towns.jpg",
+   "shots": [
+    61
+   ],
+   "type": "place",
+   "must_fix": false,
+   "what": "The coastal town looks like a Japanese suburb, with small shop signs in Japanese-like characters on the central building."
+  },
+  {
+   "still": "full/night_ferry.jpg",
+   "shots": [
+    43
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Two small lit shop signs with glyphs on the left houses along the flooded street."
+  },
+  {
+   "still": "full/not_enough.jpg",
+   "shots": [
+    52
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small signs with pseudo-letters on the buildings behind Indio."
+  },
+  {
+   "still": "full/intro.jpg",
+   "shots": [
+    2
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a collared white shirt instead of the collarless off-white period shirt; the glowing ring behind him also carries rows of glyphs."
+  }
+ ]
+}
