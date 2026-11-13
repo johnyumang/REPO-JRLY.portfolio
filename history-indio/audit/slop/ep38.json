@@ -12,7 +12,8 @@
    "type": "merge",
    "must_fix": true,
    "what": "Human faces grow out of the floating logs: a boy's head with no body sits among the logs and a half-buried face lies in the debris, in a shot meant to have nobody.",
-   "where": "top centre among the logs and bottom centre in the debris"
+   "where": "top centre among the logs and bottom centre in the debris",
+   "fixed": true
   },
   {
    "key": "k22",
@@ -23,7 +24,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The Indio doubles are young boyish men with no red headband, no topknot and no grey hair, one with pink hair, so none reads as Indio.",
-   "where": "every rooftop figure, worst at bottom left (pink hair) and bottom right foreground"
+   "where": "every rooftop figure, worst at bottom left (pink hair) and bottom right foreground",
+   "fixed": true
   },
   {
    "key": "k23",
@@ -34,7 +36,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The man lunging to save the child is a young man in a white shirt with no headband or topknot, while the next shot (k24) shows Indio holding the same child.",
-   "where": "right side, the man in the water"
+   "where": "right side, the man in the water",
+   "fixed": true
   },
   {
    "key": "k24",
@@ -45,7 +48,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "The hug has too many arms: the child shows a purple sleeve and two grey sleeves, giving five hands between Indio and the child.",
-   "where": "lower half, the child's arms around Indio's chest and the hands under the child"
+   "where": "lower half, the child's arms around Indio's chest and the hands under the child",
+   "fixed": true
   },
   {
    "key": "k30",
@@ -56,7 +60,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "The hands of the blue-shirt man and the girls over the pink cloth fuse into one knot of fingers with no countable hands.",
-   "where": "centre, over the girl in the pink dress"
+   "where": "centre, over the girl in the pink dress",
+   "fixed": true
   },
   {
    "key": "k41",
@@ -67,7 +72,8 @@
    "type": "merge",
    "must_fix": true,
    "what": "Three nurses are stacked into one body: a white-cap head, a grey-haired head with blue bows and a pink-scrubs back share one torso with extra waving hands.",
-   "where": "centre of the nurse group"
+   "where": "centre of the nurse group",
+   "fixed": true
   },
   {
    "key": "k45",
@@ -78,7 +84,8 @@
    "type": "style",
    "must_fix": true,
    "what": "The padlock and ring are a photo-real render, not the anime drawing of every other shot, so the cut jolts.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "fixed": true
   },
   {
    "key": "k56",
@@ -89,7 +96,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "The front villager's hand on the bamboo pole is a boneless lump with no separate fingers.",
-   "where": "centre, under the front man's chin"
+   "where": "centre, under the front man's chin",
+   "fixed": true
   },
   {
    "key": "k90",
@@ -100,7 +108,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The man watching the floodgate is a young man with no headband, topknot or grey hair, but the line says Indio is the one watching.",
-   "where": "bottom right, the man in the green jacket"
+   "where": "bottom right, the man in the green jacket",
+   "fixed": true
   },
   {
    "key": "k97",
@@ -111,7 +120,8 @@
    "type": "face",
    "must_fix": true,
    "what": "The golden doubles are chibi kids with spiky hair holding guitars and swords, and the biggest ones have smeared, half-melted faces.",
-   "where": "centre and left, the large golden figures"
+   "where": "centre and left, the large golden figures",
+   "fixed": true
   },
   {
    "key": "k102",
@@ -122,7 +132,8 @@
    "type": "face",
    "must_fix": true,
    "what": "A shot meant to have nobody is filled with a crowd of mismatched anime characters, some with no face under their caps.",
-   "where": "lower half crowd, faceless heads at bottom left (brown cap) and right (white cap)"
+   "where": "lower half crowd, faceless heads at bottom left (brown cap) and right (white cap)",
+   "fixed": true
   },
   {
    "key": "k05",
@@ -133,7 +144,8 @@
    "type": "face",
    "must_fix": false,
    "what": "Small street figures are smeared: a teal-hat child's face melts behind the pink girl, and a boy's legs tangle.",
-   "where": "left curb and bottom right"
+   "where": "left curb and bottom right",
+   "fixed": true
   },
   {
    "key": "k14",
@@ -144,7 +156,8 @@
    "type": "limbs",
    "must_fix": false,
    "what": "The volunteers in the truck beds are mushy, with tangled knees and arms and crude faces.",
-   "where": "left and right truck beds"
+   "where": "left and right truck beds",
+   "fixed": true
   },
   {
    "key": "k16",
@@ -155,7 +168,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The helicopter has a searchlight and a red disc on stalks hanging from its belly and no landing skids.",
-   "where": "centre, under the helicopter"
+   "where": "centre, under the helicopter",
+   "fixed": true
   },
   {
    "key": "k19",
@@ -166,7 +180,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "A small red sign carries letter-like lines.",
-   "where": "left middle, below the bronze dome"
+   "where": "left middle, below the bronze dome",
+   "fixed": true
   },
   {
    "key": "k26",
@@ -177,7 +192,9 @@
    "type": "hands",
    "must_fix": true,
    "what": "The scaly hands are malformed: the upper one shows only two fingers and a thumb, and on the lower one the little finger grows from the heel of the palm.",
-   "where": "both hands on the boat"
+   "where": "both hands on the boat",
+   "fixed": true,
+   "third_reader": "The scaly hands are gone, but the new fish-creature has two eyes on the same side of its head (a small fish eye on the snout and a large anime eye below), a new face fault as visible as the old one. -> redrawn again (siyokoy from behind with no face; arms crossed inside both sleeves; full body with legs) and checked at 3x."
   },
   {
    "key": "k30",
@@ -188,7 +205,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "Usman has two folded ears instead of one.",
-   "where": "bottom centre, the dog"
+   "where": "bottom centre, the dog",
+   "fixed": true
   },
   {
    "key": "k34",
@@ -199,7 +217,8 @@
    "type": "hands",
    "must_fix": false,
    "what": "The hand on the yoke is a lumpy mass of knuckles, and Sinag's white cuff fuses into Indio's green sleeve.",
-   "where": "bottom right"
+   "where": "bottom right",
+   "fixed": true
   },
   {
    "key": "k39",
@@ -210,7 +229,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The helicopter pilot's seat has a car steering wheel, and a daytime desert shows through the window in a night scene.",
-   "where": "left, the wheel and windows"
+   "where": "left, the wheel and windows",
+   "fixed": true
   },
   {
    "key": "k48",
@@ -221,7 +241,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The power drills have no pistol grips or handles, only tubes with chucks.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "fixed": true
   },
   {
    "key": "k53",
@@ -232,7 +253,8 @@
    "type": "object",
    "must_fix": false,
    "what": "The carried nipa hut is only a haystack-like thatch roof on poles, with no walls or floor.",
-   "where": "top right, the carried roof"
+   "where": "top right, the carried roof",
+   "fixed": true
   },
   {
    "key": "k54",
@@ -243,7 +265,8 @@
    "type": "merge",
    "must_fix": false,
    "what": "A faceless bald head presses into the grey-haired woman, with an extra hand on her shoulder.",
-   "where": "centre left"
+   "where": "centre left",
+   "fixed": true
   },
   {
    "key": "k55",
@@ -254,7 +277,8 @@
    "type": "merge",
    "must_fix": false,
    "what": "At the left end of the carried house, a tangle of planks and people climbs out of the house wall.",
-   "where": "top, the distant house, left end"
+   "where": "top, the distant house, left end",
+   "fixed": true
   },
   {
    "key": "k61",
@@ -265,7 +289,9 @@
    "type": "hands",
    "must_fix": false,
    "what": "The fist with the white cloth is a mitten-like lump with no separate fingers.",
-   "where": "bottom right"
+   "where": "bottom right",
+   "fixed": true,
+   "third_reader": "The mitten fist is gone, but Indio's bare forearm with the cloth now grows straight out of the jacket's zipper front with no sleeve, a limb from the wrong place. -> redrawn again (siyokoy from behind with no face; arms crossed inside both sleeves; full body with legs) and checked at 3x."
   },
   {
    "key": "k65",
@@ -276,7 +302,8 @@
    "type": "off_model",
    "must_fix": false,
    "what": "The kapre is a black wolf or bear beast rather than a hairy tree giant, and an unscripted boy sits under it.",
-   "where": "right, the beast and the boy on the log"
+   "where": "right, the beast and the boy on the log",
+   "fixed": true
   },
   {
    "key": "k67",
@@ -287,7 +314,8 @@
    "type": "writing",
    "must_fix": false,
    "what": "Letter-like marks are stamped on the key head.",
-   "where": "centre bottom, the silver key"
+   "where": "centre bottom, the silver key",
+   "fixed": true
   },
   {
    "key": "k68",
@@ -298,7 +326,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has two folded ears and a stocky, pup-like face.",
-   "where": "bottom centre, the dog"
+   "where": "bottom centre, the dog",
+   "fixed": true,
+   "third_reader": "Usman now has one folded ear, but Indio has no legs: below his jacket hem there is only a grey smeared patch of concrete, and he reads younger with no grey hair. -> redrawn again (siyokoy from behind with no face; arms crossed inside both sleeves; full body with legs) and checked at 3x."
   },
   {
    "key": "k67",
@@ -309,7 +339,8 @@
    "type": "hands",
    "must_fix": true,
    "what": "Indio's open hand holding the keys has too many digits: fingers fan out up, left and down-left plus a curled finger and a thumb, about six in all, and the palm runs into his chin.",
-   "where": "left half, the hand in front of his face"
+   "where": "left half, the hand in front of his face",
+   "fixed": true
   },
   {
    "key": "k41",
@@ -320,12 +351,23 @@
    "type": "writing",
    "must_fix": false,
    "what": "A sign on the hospital building carries letter-like marks.",
-   "where": "upper right, on the building wall left of the tail rotor"
+   "where": "upper right, on the building wall left of the tail rotor",
+   "fixed": true
   }
  ],
  "second_reader": {
   "confirmed": 27,
   "refuted": 0,
   "added": 2
+ },
+ "third_reader": {
+  "better": 23,
+  "worse_or_equal": 3,
+  "redrawn_after": [
+   "siyokoy_boat",
+   "indio_label38",
+   "indio_follow38",
+   "drills_break"
+  ]
  }
 }
