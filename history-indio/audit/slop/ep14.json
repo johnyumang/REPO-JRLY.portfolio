@@ -14,7 +14,9 @@
    "must_fix": true,
    "what": "The kapre licks a cigar with a long tongue, a metal canister is clamped to the branch, and a second small grinning goblin-like man with his own smoke sits on the branch behind.",
    "where": "upper half: canister top left, small figure top right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k01",
@@ -62,7 +64,9 @@
    "must_fix": true,
    "what": "Usman has two hanging folded ears instead of one folded ear.",
    "where": "dog's head, both ears",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k18",
@@ -86,7 +90,9 @@
    "must_fix": true,
    "what": "Indio has spiky reddish-brown hair with no topknot and a boyish face, not the black topknot of every other shot.",
    "where": "Indio's head, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k30",
@@ -98,7 +104,9 @@
    "must_fix": true,
    "what": "Indio wears a red knit beanie instead of the red headband over his topknot.",
    "where": "Indio's head, lower foreground",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k31",
@@ -110,7 +118,9 @@
    "must_fix": true,
    "what": "The Indio holding the lamp is pale with long side-swept bangs, no headband and a grey modern shirt, unlike the 1570 Indio of the other shots.",
    "where": "Indio's face and clothes",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k33",
@@ -122,7 +132,9 @@
    "must_fix": true,
    "what": "Indio again wears a red knit beanie instead of the red headband, so the tearful close-up does not match the scene.",
    "where": "Indio's head",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k34",
@@ -134,7 +146,9 @@
    "must_fix": true,
    "what": "Indio has brown hair, no headband and a white modern polo, not the 1570 tunic Indio of the scene.",
    "where": "Indio, lower left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k34",
@@ -146,7 +160,9 @@
    "must_fix": true,
    "what": "The kapre holds a brass rod with a disc on the end instead of its cigar, and a second pipe floats beside it.",
    "where": "kapre's hands, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k35",
@@ -170,7 +186,9 @@
    "must_fix": true,
    "what": "The kapre's cigar becomes a long hose that runs into its chest.",
    "where": "kapre's mouth and chest, right side",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k39",
@@ -218,7 +236,9 @@
    "must_fix": true,
    "what": "Indio's left arm is missing and a man's hand wearing Indio's gold watch comes out of M's coat sleeve at his thigh.",
    "where": "between Indio and M, waist height",
-   "second_reader": "confirmed: a gold-watch hand in a dark coat cuff sits where Indio's left arm should be, belonging to neither his white shirt nor M's coat"
+   "second_reader": "confirmed: a gold-watch hand in a dark coat cuff sits where Indio's left arm should be, belonging to neither his white shirt nor M's coat",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k47",
@@ -230,7 +250,10 @@
    "must_fix": true,
    "what": "The same angry young man is drawn twice on the phone screen, large and small, with an identical face.",
    "where": "phone screen, centre",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical frame. close-up of one smartphone lying flat on a dark wooden table at night, its screen showing a single video of one young man talking angrily to the camera, one person only on the screen, a plain row of small red heart shapes along the bottom edge of the screen, no letters, no numbers, no hands, no other people. Present-day Manila.",
+   "third_reader": "redraw rejected (bare face / unscripted close-up girl); old kept until a better one"
   },
   {
    "key": "k47",
@@ -398,7 +421,10 @@
    "must_fix": true,
    "what": "A tangle of disembodied hands: the big front camera is held by no hand and other hands overlap the girl's face.",
    "where": "bottom centre and around the girl",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels, no border, the picture fills the whole vertical frame. night at the old stone gate of Fort Santiago, Intramuros, Manila: dozens of bright white camera flashes and lens glare bursting from a crowd far away in the distance, the crowd only small blurred silhouettes, nobody close to the camera, no faces, no hands. Present-day Manila at night, detailed background, no dog, no animals.",
+   "third_reader": "redraw rejected (bare face / unscripted close-up girl); old kept until a better one"
   },
   {
    "key": "k100",
@@ -422,7 +448,9 @@
    "must_fix": true,
    "what": "The tie-pin close-up shows a young brown-haired man with one grey and one brown eye, not the tall pale man in the black suit of k43 and k44.",
    "where": "face, top half",
-   "second_reader": "confirmed: k43 and k44 show a tall silver-haired pale man; this close-up is a young brown-haired man with heterochromia"
+   "second_reader": "confirmed: k43 and k44 show a tall silver-haired pale man; this close-up is a young brown-haired man with heterochromia",
+   "fixed": true,
+   "third_reader": "keep new"
   },
   {
    "key": "k28",
