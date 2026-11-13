@@ -75,13 +75,23 @@ def replacement(p, mm, canon):
     else:
         new = cb
     before = p[:mm.start].rstrip()
-    if p[mm.start:mm.start + 1].isupper() or before == '' or before.endswith(('.', ':', '!', '?')):
+    if p[mm.start:mm.start + 1].isupper() or (mm.bare and before.endswith(('.', '!', '?'))):
         new = new[0].upper() + new[1:]
     carry = []
-    for c in L.CARRY_RE.findall(p[mm.start:mm.end]):
+    span = p[mm.start:mm.end]
+    for seg in re.split(r",\s*|\s+and\s+", span):            # props worn for this scene (a helmet, sunglasses) stay beside the string
+        a = ACCESSORY.search(seg)
+        if a and a.group(0).lower() not in canon.lower():
+            seg = seg.strip()
+            seg = re.sub(r'^.*?\b(?:man|boy|dog|woman)\s+(?=wearing|with|in)', '', seg)
+            if not seg.startswith(('wearing', 'with', 'in ')): seg = 'wearing ' + re.sub(r'^(?:with|in)\s+', '', seg)
+            carry.append(seg)
+    for c in L.CARRY_RE.findall(span):
         c = c.lower()
-        if c not in canon.lower() and c not in carry: carry.append(c)
+        if c not in canon.lower() and c not in carry and not any(c in x for x in carry): carry.append(c)
     return new + (', ' + ', '.join(carry) if carry else '')
+
+ACCESSORY = re.compile(r"helmet|\bhat\b|\bcap\b|sunglasses|goggles|gloves|scarf|\bwatch(?:es)?\b|salakot|backpack|bag\b|mask", re.I)
 
 def check_candidate(K, kind, key, p, ep, canon, need):
     era = L.scene_era(p); bad = []
@@ -89,6 +99,7 @@ def check_candidate(K, kind, key, p, ep, canon, need):
         if mm.unsure: bad.append(f'{mm.char}: {mm.unsure}'); continue
         name, s, why = canon.pick(mm, p, era)
         if not name: bad.append(f'{mm.char}: {why}'); continue
+        mm['end'] = L.extend(p, mm, s)
         cls, det = L.classify(mm, p, name, s, ep, era)
         if cls != 'EXACT': bad.append(f'{mm.char} {cls}: {det}')
     st, msg = L.clause_state(p, need)
@@ -105,6 +116,7 @@ def fix_prompt(K, kind, key, p, ep, canon, nv):
         name, s, why = canon.pick(mm, p, era)
         if not name: reasons.append(f'{mm.char}: {why} ("{p[mm.start:mm.end][:80]}")'); resolved.append(None); continue
         resolved.append((name, s))
+        mm['end'] = L.extend(p, mm, s)
         cls, det = L.classify(mm, p, name, s, ep, era)
         if cls == 'STORY': reasons.append(f'{mm.char}: {det}'); continue
         used.append((name, s))
@@ -123,11 +135,11 @@ def fix_prompt(K, kind, key, p, ep, canon, nv):
     if need:
         st, _ = L.clause_state(new, need)
         if st == 'NEAR':
-            m = L.NODOG_RX.search(new); new = new[:m.start()] + need + new[m.end():]
+            m = L.NODOG_RX.search(new); rep = need[0].upper() + need[1:] if new[m.start()].isupper() else need
+            new = new[:m.start()] + rep + new[m.end():]
         elif st == 'MISSING':
             s0 = new.rstrip()
             new = (s0 + ' ' + need[0].upper() + need[1:] + '.') if s0.endswith('.') else (s0 + ', ' + need + '.')
-    new = L._tidy(new) if hasattr(L, '_tidy') else _tidy(new)
     notes = []
     fits = lambda t: len(L.assemble(K, kind, t, nv)) <= L.LIMIT
     if not fits(new):
@@ -188,18 +200,22 @@ def plan(epdir, C, only=None):
         results[(kind, key)] = fix_prompt(K, kind, key, p, ep, canon, nv_new)
     kept_nv = []
     if cnv:                                                     # does dropping the character nv entries push any prompt over?
+        prot = [s for s in C['str'].values()] + [L.body(s) for s in C['str'].values()] + [L.ALONE, L.NODOG]
         for kind, key, p in items:
             r = results.get((kind, key))
             cur = r['new'] if r else p
-            if len(L.assemble(K, kind, cur, nv_new)) > L.LIMIT and len(L.assemble(K, kind, cur, nv_all)) <= L.LIMIT:
-                short, steps = shorten(cur, [s for s in C['str'].values()] + [L.body(s) for s in C['str'].values()] + [L.ALONE, L.NODOG],
-                                       lambda t: len(L.assemble(K, kind, t, nv_new)) <= L.LIMIT)
-                if short is not None and not check_candidate(K, kind, key, short, ep, canon, None if not r else None):
-                    if r and r['status'] == 'left': pass
-                    results[(kind, key)] = dict(status='changed', new=short, reasons=[], notes=[f'scene shortened so the full cast string fits without nv_replace: {", ".join(steps)}'], used=r.get('used', []) if r else [])
+            fits_new = lambda t: len(L.assemble(K, kind, t, nv_new)) <= L.LIMIT
+            if fits_new(cur) or len(L.assemble(K, kind, cur, nv_all)) > L.LIMIT: continue
+            if r and r['status'] != 'left':
+                short, steps = shorten(cur, prot, fits_new)
+                if short is not None and not check_candidate(K, kind, key, short, ep, canon, None):
+                    results[(kind, key)] = dict(status='changed' if short != p else 'clean', new=short, reasons=[], used=r.get('used', []),
+                                                notes=r.get('notes', []) + [f'scene shortened so the cast strings fit without nv_replace: {", ".join(steps)}'])
                     continue
-                for k in cnv:
-                    if k in L.assemble(K, kind, cur, {}) and k not in kept_nv: kept_nv.append(k)
+            for k in cnv:
+                if k in L.assemble(K, kind, cur, {}) and k not in kept_nv: kept_nv.append(k)
+            if r and r['status'] != 'left':
+                r.setdefault('notes', []).append('needs the nv_replace short form to fit 800: entry kept')
         nv_final = {k: v for k, v in nv_all.items() if k not in cnv or k in kept_nv}
     else:
         nv_final = nv_all
