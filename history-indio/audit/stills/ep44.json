@@ -11,7 +11,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "The flooded evacuation street is lined with Japanese-style shop signs with katakana-like glyphs (large blue sign upper left, vertical sign upper right)."
+   "what": "The flooded evacuation street is lined with Japanese-style shop signs with katakana-like glyphs (large blue sign upper left, vertical sign upper right).",
+   "fixed": true
   },
   {
    "still": "full/lakandula_diwa.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "The street behind the glowing Lakandula has vertical Japanese-style signs with glyphs and lanterns down both sides, reading as Tokyo rather than Manila."
+   "what": "The street behind the glowing Lakandula has vertical Japanese-style signs with glyphs and lanterns down both sides, reading as Tokyo rather than Manila.",
+   "fixed": true
   },
   {
    "still": "full/rico_close.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Black letterbox bars across the top and bottom of the picture (a frame inside the frame)."
+   "what": "Black letterbox bars across the top and bottom of the picture (a frame inside the frame).",
+   "fixed": true
   },
   {
    "still": "full/rico_live.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "A sportswear-style three-stripe logo on the chest of the yellow jacket."
+   "what": "A sportswear-style three-stripe logo on the chest of the yellow jacket.",
+   "left": "minor, left as it is"
   },
   {
    "still": "full/salamat_unseen.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "A small brand logo with lettering on the chest of the yellow jacket."
+   "what": "A small brand logo with lettering on the chest of the yellow jacket.",
+   "left": "minor, left as it is"
   },
   {
    "still": "full/roofs_stay.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A small lit sign with an arrow and glyph lettering on the building at the lower right."
+   "what": "A small lit sign with an arrow and glyph lettering on the building at the lower right.",
+   "left": "minor, left as it is"
   },
   {
    "still": "full/sorting_memory.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The slips of paper in the boxes carry scribbled pseudo-text, most visible lower right."
+   "what": "The slips of paper in the boxes carry scribbled pseudo-text, most visible lower right.",
+   "left": "minor, left as it is"
   },
   {
    "still": "full/evac_river.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Small lit shop signs with glyphs along the left side of the street."
+   "what": "Small lit shop signs with glyphs along the left side of the street.",
+   "left": "minor, left as it is"
   },
   {
    "still": "full/tubal_boat.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "anatomy",
    "must_fix": false,
-   "what": "Tubal is drawn twice: once in front and again as a small figure standing in the boat behind him."
+   "what": "Tubal is drawn twice: once in front and again as a small figure standing in the boat behind him.",
+   "left": "one redraw still drew him twice; original kept"
   }
  ]
 }
