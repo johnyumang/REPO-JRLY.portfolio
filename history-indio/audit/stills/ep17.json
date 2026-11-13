@@ -1,18 +1,158 @@
-{"episode": 17, "audited_by": "render-worker-ep15", "stills_looked_at": 80, "clean": false, "defects": [
-{"still": "full/rain_city_sketch.jpg", "shots": [6], "type": "panels", "must_fix": true, "what": "The picture is split by a hard horizontal line into two panels: a rainy street scene on top and a sketchbook page on the pavement below."},
-{"still": "full/notebook_writes.jpg", "shots": [5], "type": "writing", "must_fix": true, "what": "The open notebook in the center shows five lines of large handwritten pseudo-text that does not spell the script's Tagalog riddle."},
-{"still": "full/medallion_glow.jpg", "shots": [44], "type": "writing", "must_fix": true, "what": "The giant medallion in the center has garbled raised lettering ('MOIK KIN BHI GH', 'NO IOND') around its rim."},
-{"still": "full/book_pages.jpg", "shots": [28], "type": "writing", "must_fix": true, "what": "The two open books in the foreground are filled with large pseudo-text lines and a heading instead of a blank or correct Morga page."},
-{"still": "full/loot_question.jpg", "shots": [69], "type": "writing", "must_fix": true, "what": "A comic speech bubble with a '?' floats in the middle of the sky, and the copper plate rim and book cover in the crate carry pseudo-lettering."},
-{"still": "full/speed_streak.jpg", "shots": [53], "type": "off_model", "must_fix": true, "what": "Indio has no topknot and wears a dark zip jacket instead of the grey ukay hoodie seen in the shots around it."},
-{"still": "full/usman_beg.jpg", "shots": [24], "type": "off_model", "must_fix": false, "what": "In this Usman close-up both ears stand fully upright; neither ear is folded."},
-{"still": "full/usman_growl.jpg", "shots": [33], "type": "off_model", "must_fix": false, "what": "In this Usman close-up both ears stand fully upright; neither ear is folded."},
-{"still": "full/phone_mark.jpg", "shots": [66], "type": "writing", "must_fix": false, "what": "The live-stream screen on the phone has small garbled UI labels next to the avatar bubbles at the lower left."},
-{"still": "full/rizal_far.jpg", "shots": [26], "type": "writing", "must_fix": false, "what": "The shop signs on both sides of the 1888 London street carry CJK-like glyphs such as '日'."},
-{"still": "full/clue_map.jpg", "shots": [7], "type": "flag", "must_fix": false, "what": "A small US-style stars-and-stripes flag hangs from a building at upper right of the London street."},
-{"still": "full/galleon_taken.jpg", "shots": [13], "type": "panels", "must_fix": false, "what": "A second gold lens ring is nested inside the outer oval vignette, making a frame inside a frame around the galleon."},
-{"still": "full/library_now.jpg", "shots": [15], "type": "writing", "must_fix": false, "what": "The manuscripts in the display cases and on the shelves show dense lines of pseudo-text."},
-{"still": "full/manuscripts_carried.jpg", "shots": [14], "type": "writing", "must_fix": false, "what": "The open manuscripts carried by the soldiers and the blue awning at upper left show pseudo-text."},
-{"still": "full/scattered_boxes.jpg", "shots": [58], "type": "writing", "must_fix": false, "what": "The archive boxes and book covers carry garbled label text such as 'GKLEB' and 'GUIRD' in the lower left."},
-{"still": "full/reading_lamp.jpg", "shots": [94], "type": "writing", "must_fix": false, "what": "The open book under the green lamp is covered in small pseudo-text lines."}
-]}
+{
+ "episode": 17,
+ "audited_by": "render-worker-ep15",
+ "stills_looked_at": 80,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/rain_city_sketch.jpg",
+   "shots": [
+    6
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The picture is split by a hard horizontal line into two panels: a rainy street scene on top and a sketchbook page on the pavement below.",
+   "fixed": true
+  },
+  {
+   "still": "full/notebook_writes.jpg",
+   "shots": [
+    5
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open notebook in the center shows five lines of large handwritten pseudo-text that does not spell the script's Tagalog riddle.",
+   "fixed": true
+  },
+  {
+   "still": "full/medallion_glow.jpg",
+   "shots": [
+    44
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The giant medallion in the center has garbled raised lettering ('MOIK KIN BHI GH', 'NO IOND') around its rim.",
+   "fixed": true
+  },
+  {
+   "still": "full/book_pages.jpg",
+   "shots": [
+    28
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The two open books in the foreground are filled with large pseudo-text lines and a heading instead of a blank or correct Morga page.",
+   "fixed": true
+  },
+  {
+   "still": "full/loot_question.jpg",
+   "shots": [
+    69
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "A comic speech bubble with a '?' floats in the middle of the sky, and the copper plate rim and book cover in the crate carry pseudo-lettering.",
+   "fixed": true
+  },
+  {
+   "still": "full/speed_streak.jpg",
+   "shots": [
+    53
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot and wears a dark zip jacket instead of the grey ukay hoodie seen in the shots around it.",
+   "fixed": true
+  },
+  {
+   "still": "full/usman_beg.jpg",
+   "shots": [
+    24
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In this Usman close-up both ears stand fully upright; neither ear is folded."
+  },
+  {
+   "still": "full/usman_growl.jpg",
+   "shots": [
+    33
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In this Usman close-up both ears stand fully upright; neither ear is folded."
+  },
+  {
+   "still": "full/phone_mark.jpg",
+   "shots": [
+    66
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The live-stream screen on the phone has small garbled UI labels next to the avatar bubbles at the lower left."
+  },
+  {
+   "still": "full/rizal_far.jpg",
+   "shots": [
+    26
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The shop signs on both sides of the 1888 London street carry CJK-like glyphs such as '日'."
+  },
+  {
+   "still": "full/clue_map.jpg",
+   "shots": [
+    7
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "A small US-style stars-and-stripes flag hangs from a building at upper right of the London street."
+  },
+  {
+   "still": "full/galleon_taken.jpg",
+   "shots": [
+    13
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "A second gold lens ring is nested inside the outer oval vignette, making a frame inside a frame around the galleon."
+  },
+  {
+   "still": "full/library_now.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The manuscripts in the display cases and on the shelves show dense lines of pseudo-text."
+  },
+  {
+   "still": "full/manuscripts_carried.jpg",
+   "shots": [
+    14
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open manuscripts carried by the soldiers and the blue awning at upper left show pseudo-text."
+  },
+  {
+   "still": "full/scattered_boxes.jpg",
+   "shots": [
+    58
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The archive boxes and book covers carry garbled label text such as 'GKLEB' and 'GUIRD' in the lower left."
+  },
+  {
+   "still": "full/reading_lamp.jpg",
+   "shots": [
+    94
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open book under the green lamp is covered in small pseudo-text lines."
+  }
+ ]
+}
