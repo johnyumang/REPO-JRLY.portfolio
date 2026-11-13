@@ -1,23 +1,218 @@
-{"episode": 11, "audited_by": "ep06-voice-worker", "stills_looked_at": 87, "clean": false, "defects": [
- {"still": "full/m_slip_catch.jpg", "shots": [29], "type": "panels", "must_fix": true, "what": "The still is split into two stacked comic panels (Indio holding M, then a close embrace) with a white divider."},
- {"still": "full/gold_tablet.jpg", "shots": [25], "type": "writing", "must_fix": true, "what": "The gold tablet at the centre is covered in scribbled pseudo-text, some glyphs look Korean, not the tablet's real script."},
- {"still": "full/pickup_buy.jpg", "shots": [14], "type": "logo", "must_fix": true, "what": "The dealership shows a 7-Eleven-like green-red logo and large red letters 'HOE' above Indio."},
- {"still": "plates/school_gate.jpg", "shots": [67], "type": "writing", "must_fix": true, "what": "The school sign and banner on the right carry large gibberish words ('OAO-SOA', 'QUEEN S'), and a stray watermark sits in the bottom-left corner."},
- {"still": "full/m_cafe.jpg", "shots": [5], "type": "writing", "must_fix": true, "what": "A lit shop sign behind M reads a misspelled 'QUZZION' and the wall posters carry pseudo-text."},
- {"still": "full/indio_eyes_glyphs.jpg", "shots": [37], "type": "writing", "must_fix": false, "what": "The ring of glyphs around Indio's head is pseudo-Chinese/Korean characters rather than abstract symbols."},
- {"still": "full/bling.jpg", "shots": [15], "type": "writing", "must_fix": false, "what": "Mall shop signs behind Indio show partial letters and his jacket patch has pseudo-letters."},
- {"still": "full/finger_touch.jpg", "shots": [33], "type": "writing", "must_fix": false, "what": "Small pseudo-letters and currency-like symbols ring the coin and float in the sparkles."},
- {"still": "full/indio_wish.jpg", "shots": [10], "type": "writing", "must_fix": false, "what": "A board on the wall behind Indio shows pseudo-letters ('AI')."},
- {"still": "full/moto_old.jpg", "shots": [6], "type": "writing", "must_fix": false, "what": "Shelf labels in the garage and the tank badge carry small pseudo-letters."},
- {"still": "full/holo_full.jpg", "shots": [92], "type": "writing", "must_fix": false, "what": "The hologram panel shows rows of tiny pseudo-text in its interface."},
- {"still": "full/holo_kakampi.jpg", "shots": [53], "type": "writing", "must_fix": false, "what": "The hologram list has a pseudo-letter heading ('LL')."},
- {"still": "full/lens_story.jpg", "shots": [101], "type": "writing", "must_fix": false, "what": "The round plaque in the lens has a rim of pseudo-letters."},
- {"still": "full/wallet_coins.jpg", "shots": [9], "type": "writing", "must_fix": false, "what": "The banknotes in the wallet carry pseudo-text and digits ('0100')."},
- {"still": "full/walk_city.jpg", "shots": [69], "type": "writing", "must_fix": false, "what": "Shop signs on the left and the bus destination board show small pseudo-letters."},
- {"still": "full/yumud_rise.jpg", "shots": [0], "type": "off_model", "must_fix": false, "what": "Indio is drawn shirtless with spiky red-brown hair beside the creature in the cold open."},
- {"still": "full/yumud_emerge.jpg", "shots": [35], "type": "off_model", "must_fix": false, "what": "Indio seen from behind has brown hair and no topknot."},
- {"still": "full/yumud_bow.jpg", "shots": [41], "type": "off_model", "must_fix": false, "what": "The man taken for Indio has brown hair, no headband and no topknot."},
- {"still": "full/indio_watch_dock.jpg", "shots": [26], "type": "off_model", "must_fix": false, "what": "Indio on the dock has red-brown hair."},
- {"still": "full/shrine_portal.jpg", "shots": [18], "type": "off_model", "must_fix": false, "what": "Indio and M both have brown hair, and Indio wears a dark jacket instead of his outfit."},
- {"still": "full/dawn_three.jpg", "shots": [63], "type": "off_model", "must_fix": false, "what": "Indio has brown hair and a brown hoodie, and M has brown hair."}
-]}
+{
+ "episode": 11,
+ "audited_by": "ep06-voice-worker",
+ "stills_looked_at": 87,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/m_slip_catch.jpg",
+   "shots": [
+    29
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The still is split into two stacked comic panels (Indio holding M, then a close embrace) with a white divider.",
+   "fixed": true
+  },
+  {
+   "still": "full/gold_tablet.jpg",
+   "shots": [
+    25
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The gold tablet at the centre is covered in scribbled pseudo-text, some glyphs look Korean, not the tablet's real script.",
+   "fixed": true
+  },
+  {
+   "still": "full/pickup_buy.jpg",
+   "shots": [
+    14
+   ],
+   "type": "logo",
+   "must_fix": true,
+   "what": "The dealership shows a 7-Eleven-like green-red logo and large red letters 'HOE' above Indio.",
+   "fixed": true
+  },
+  {
+   "still": "plates/school_gate.jpg",
+   "shots": [
+    67
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The school sign and banner on the right carry large gibberish words ('OAO-SOA', 'QUEEN S'), and a stray watermark sits in the bottom-left corner.",
+   "fixed": true
+  },
+  {
+   "still": "full/m_cafe.jpg",
+   "shots": [
+    5
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "A lit shop sign behind M reads a misspelled 'QUZZION' and the wall posters carry pseudo-text.",
+   "fixed": true
+  },
+  {
+   "still": "full/indio_eyes_glyphs.jpg",
+   "shots": [
+    37
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The ring of glyphs around Indio's head is pseudo-Chinese/Korean characters rather than abstract symbols.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/bling.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Mall shop signs behind Indio show partial letters and his jacket patch has pseudo-letters.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/finger_touch.jpg",
+   "shots": [
+    33
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small pseudo-letters and currency-like symbols ring the coin and float in the sparkles.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/indio_wish.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A board on the wall behind Indio shows pseudo-letters ('AI').",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/moto_old.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shelf labels in the garage and the tank badge carry small pseudo-letters.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/holo_full.jpg",
+   "shots": [
+    92
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram panel shows rows of tiny pseudo-text in its interface.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/holo_kakampi.jpg",
+   "shots": [
+    53
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram list has a pseudo-letter heading ('LL').",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/lens_story.jpg",
+   "shots": [
+    101
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The round plaque in the lens has a rim of pseudo-letters.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/wallet_coins.jpg",
+   "shots": [
+    9
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The banknotes in the wallet carry pseudo-text and digits ('0100').",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/walk_city.jpg",
+   "shots": [
+    69
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop signs on the left and the bus destination board show small pseudo-letters.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/yumud_rise.jpg",
+   "shots": [
+    0
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn shirtless with spiky red-brown hair beside the creature in the cold open.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/yumud_emerge.jpg",
+   "shots": [
+    35
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio seen from behind has brown hair and no topknot.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/yumud_bow.jpg",
+   "shots": [
+    41
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man taken for Indio has brown hair, no headband and no topknot.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/indio_watch_dock.jpg",
+   "shots": [
+    26
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio on the dock has red-brown hair.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/shrine_portal.jpg",
+   "shots": [
+    18
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio and M both have brown hair, and Indio wears a dark jacket instead of his outfit.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/dawn_three.jpg",
+   "shots": [
+    63
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair and a brown hoodie, and M has brown hair.",
+   "left": "minor; not redrawn in this pass"
+  }
+ ]
+}

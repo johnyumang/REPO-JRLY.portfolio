@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Three stacked close-up faces of three different young men in separate horizontal strips: a three-panel collage, and none of them is Indio."
+   "what": "Three stacked close-up faces of three different young men in separate horizontal strips: a three-panel collage, and none of them is Indio.",
+   "fixed": true
   },
   {
    "still": "full/family_quiet.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "A hard vertical seam down the middle joins two different table pictures (left and right halves do not match: table edge, light, wall)."
+   "what": "A hard vertical seam down the middle joins two different table pictures (left and right halves do not match: table edge, light, wall).",
+   "fixed": true
   },
   {
    "still": "full/ramil_kagawad.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "The man in blue behind Indio has a face fused into the back of Indio's head, and extra clapping hands next to Indio's arm with the red kerchief read as Indio's own."
+   "what": "The man in blue behind Indio has a face fused into the back of Indio's head, and extra clapping hands next to Indio's arm with the red kerchief read as Indio's own.",
+   "fixed": true
   },
   {
    "still": "full/receipt_fake.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The whole frame is a receipt under a magnifier full of large red pseudo-numbers and Korean-like glyph rows."
+   "what": "The whole frame is a receipt under a magnifier full of large red pseudo-numbers and Korean-like glyph rows.",
+   "fixed": true
   },
   {
    "still": "full/signature_cu.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Gold seal at bottom right ringed with CJK-like characters and Latin letters ('NOE', 'BPE'); the blue signature scrawl itself is acceptable."
+   "what": "Gold seal at bottom right ringed with CJK-like characters and Latin letters ('NOE', 'BPE'); the blue signature scrawl itself is acceptable.",
+   "fixed": true
   },
   {
    "still": "full/erased_para.jpg",
@@ -57,7 +62,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The whole page is glowing and typed pseudo-English ('the mgyreds ehe do, ad thel wbr'), large and readable as gibberish."
+   "what": "The whole page is glowing and typed pseudo-English ('the mgyreds ehe do, ad thel wbr'), large and readable as gibberish.",
+   "fixed": true
   },
   {
    "still": "full/marker_read.jpg",
@@ -66,7 +72,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Large bronze historical marker behind Indio covered in pseudo-English lines ('CORABECTED O PHILIPPINS ...'), and Indio's booklet also has text."
+   "what": "Large bronze historical marker behind Indio covered in pseudo-English lines ('CORABECTED O PHILIPPINS ...'), and Indio's booklet also has text.",
+   "fixed": true
   },
   {
    "still": "full/indio_show.jpg",
@@ -76,7 +83,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Indio holds a document at the centre of the frame covered in pseudo-text with a red circle around gibberish lines."
+   "what": "Indio holds a document at the centre of the frame covered in pseudo-text with a red circle around gibberish lines.",
+   "fixed": true
   },
   {
    "still": "full/count_win.jpg",
@@ -85,7 +93,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Tally sheets across the table in the foreground with pseudo-handwriting and numbers, and 'BAL' on a box at bottom right."
+   "what": "Tally sheets across the table in the foreground with pseudo-handwriting and numbers, and 'BAL' on a box at bottom right.",
+   "fixed": true
   },
   {
    "still": "full/usman_manager.jpg",
@@ -94,7 +103,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Stack of papers by Usman's paw reads 'KAWIT CAVITE' followed by pseudo-handwritten lines."
+   "what": "Stack of papers by Usman's paw reads 'KAWIT CAVITE' followed by pseudo-handwritten lines.",
+   "fixed": true
   },
   {
    "still": "full/flood_line.jpg",
@@ -103,7 +113,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Flood gauge on the wall with garbled numbers (66, 04, 63, 06, 106 out of order) and a blue sign with pseudo-text at its top."
+   "what": "Flood gauge on the wall with garbled numbers (66, 04, 63, 06, 106 out of order) and a blue sign with pseudo-text at its top.",
+   "fixed": true
   },
   {
    "still": "full/engineer_hand.jpg",
@@ -112,7 +123,8 @@
    ],
    "type": "logo",
    "must_fix": true,
-   "what": "A large red logo-like mark on the white hard hat at the top of the frame; the form under her pen also carries small pseudo-text."
+   "what": "A large red logo-like mark on the white hard hat at the top of the frame; the form under her pen also carries small pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/rico_vlog.jpg",
@@ -121,7 +133,8 @@
    ],
    "type": "logo",
    "must_fix": true,
-   "what": "A huge red arrow-and-ring logo fills the background and a big red 'D' is printed on the green shirt."
+   "what": "A huge red arrow-and-ring logo fills the background and a big red 'D' is printed on the green shirt.",
+   "fixed": true
   },
   {
    "still": "full/folder_open.jpg",
@@ -130,7 +143,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The certificate under the folder carries a pseudo-signature line ('Sanna Jnapmh...') and a red stamp with glyphs at bottom of frame."
+   "what": "The certificate under the folder carries a pseudo-signature line ('Sanna Jnapmh...') and a red stamp with glyphs at bottom of frame.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/old_report.jpg",
@@ -140,7 +154,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Full-frame manuscript of pseudo-cursive; reads as a period page but the words are gibberish if a viewer looks closely."
+   "what": "Full-frame manuscript of pseudo-cursive; reads as a period page but the words are gibberish if a viewer looks closely.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/sidecar_ride.jpg",
@@ -150,7 +165,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Red sign 'KAWIT CAVITE PHILIPPINES' at top left (readable, place is right) and a pseudo-text logo on the driver's cap."
+   "what": "Red sign 'KAWIT CAVITE PHILIPPINES' at top left (readable, place is right) and a pseudo-text logo on the driver's cap.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/medal_read.jpg",
@@ -159,7 +175,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Partial 'CA' wall sign behind Indio and pseudo-text on the paper in his hand."
+   "what": "Partial 'CA' wall sign behind Indio and pseudo-text on the paper in his hand.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/peso_wall.jpg",
@@ -169,7 +186,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Wall of posted sheets with small pseudo-text lines and tables."
+   "what": "Wall of posted sheets with small pseudo-text lines and tables.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/bea_notes.jpg",
@@ -178,7 +196,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Small pseudo-text on Bea's ID card and notebook; and small shop sign glyphs in the background."
+   "what": "Small pseudo-text on Bea's ID card and notebook; and small shop sign glyphs in the background.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/jm_cu.jpg",
@@ -187,7 +206,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "Logo mark on JM's cap and a small badge on the motorcycle tank."
+   "what": "Logo mark on JM's cap and a small badge on the motorcycle tank.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/ramil_confess.jpg",
@@ -196,7 +216,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "Small printed logos on the chests of two bystanders' shirts."
+   "what": "Small printed logos on the chests of two bystanders' shirts.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/holo_90.jpg",
@@ -205,7 +226,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "Hologram panel by Indio's wrist shows a UI bar with a question mark and a '%' sign."
+   "what": "Hologram panel by Indio's wrist shows a UI bar with a question mark and a '%' sign.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/usman_stairs.jpg",
@@ -215,7 +237,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears pricked up and pointed (no folded ear), and Indio here has no medallion."
+   "what": "Usman has both ears pricked up and pointed (no folded ear), and Indio here has no medallion.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/ (25 stills with the grey t-shirt prompt)",
@@ -255,7 +278,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Indio wears a grey t-shirt, jeans and a red wrist kerchief in every modern still (as the episode's prompts ask), not the series modern outfit (orange windbreaker over a white polo, medallion); consistent within the episode."
+   "what": "Indio wears a grey t-shirt, jeans and a red wrist kerchief in every modern still (as the episode's prompts ask), not the series modern outfit (orange windbreaker over a white polo, medallion); consistent within the episode.",
+   "left": "minor; not redrawn in this pass"
   }
  ]
 }

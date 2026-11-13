@@ -1,9 +1,80 @@
-{"episode": 20, "audited_by": "ep06-voice-worker", "stills_looked_at": 66, "clean": false, "defects": [
- {"still": "full/lens_reef.jpg", "shots": [26], "type": "anatomy", "must_fix": true, "what": "A large stray anime girl's face fills the upper half of the lens view over the reef, although the shot should show only water, coral and the bronze glint."},
- {"still": "full/notebook_last.jpg", "shots": [4], "type": "writing", "must_fix": true, "what": "Four lines of large gold pseudo-cursive words fill the notebook page above the drawn wave."},
- {"still": "full/pigafetta_write.jpg", "shots": [53], "type": "writing", "must_fix": false, "what": "The open journal shows scribbled pseudo-text lines (the scene is writing, but the marks read as gibberish)."},
- {"still": "full/read_hold.jpg", "shots": [11], "type": "writing", "must_fix": false, "what": "The dark marker plaque in front of Indio and M carries faint rows of pseudo-text."},
- {"still": "full/key_fold.jpg", "shots": [49, 91], "type": "writing", "must_fix": false, "what": "The folded map under the key has tiny pseudo-labels near its edges."},
- {"still": "full/siyokoy_folk.jpg", "shots": [55], "type": "panels", "must_fix": false, "what": "The folk illustration is drawn with a cream border all round, a picture inside the frame."},
- {"still": "full/twelve_rise.jpg", "shots": [46, 90], "type": "off_model", "must_fix": false, "what": "The twelve datu medallions rising from the sand show smiling young women's faces instead of the datu."}
-]}
+{
+ "episode": 20,
+ "audited_by": "ep06-voice-worker",
+ "stills_looked_at": 66,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/lens_reef.jpg",
+   "shots": [
+    26
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A large stray anime girl's face fills the upper half of the lens view over the reef, although the shot should show only water, coral and the bronze glint.",
+   "fixed": true
+  },
+  {
+   "still": "full/notebook_last.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Four lines of large gold pseudo-cursive words fill the notebook page above the drawn wave.",
+   "fixed": true
+  },
+  {
+   "still": "full/pigafetta_write.jpg",
+   "shots": [
+    53
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open journal shows scribbled pseudo-text lines (the scene is writing, but the marks read as gibberish).",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/read_hold.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The dark marker plaque in front of Indio and M carries faint rows of pseudo-text.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/key_fold.jpg",
+   "shots": [
+    49,
+    91
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The folded map under the key has tiny pseudo-labels near its edges.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/siyokoy_folk.jpg",
+   "shots": [
+    55
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "The folk illustration is drawn with a cream border all round, a picture inside the frame.",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "still": "full/twelve_rise.jpg",
+   "shots": [
+    46,
+    90
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The twelve datu medallions rising from the sand show smiling young women's faces instead of the datu.",
+   "left": "minor; not redrawn in this pass"
+  }
+ ]
+}

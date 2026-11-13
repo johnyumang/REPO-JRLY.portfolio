@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "The picture is a landscape image letterboxed inside the vertical frame: thick black bars fill the top and bottom thirds."
+   "what": "The picture is a landscape image letterboxed inside the vertical frame: thick black bars fill the top and bottom thirds.",
+   "fixed": true
   },
   {
    "still": "full/usman_leg.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "The young man beside Usman has no topknot and no red headband and wears a modern olive jacket with red kerchiefs tied on both boots; Usman sits beside him instead of clinging to his ankle."
+   "what": "The young man beside Usman has no topknot and no red headband and wears a modern olive jacket with red kerchiefs tied on both boots; Usman sits beside him instead of clinging to his ankle.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/usman_shiver.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears pricked up; the folded ear is missing."
+   "what": "Usman has both ears pricked up; the folded ear is missing.",
+   "left": "minor; not redrawn in this pass"
   },
   {
    "still": "full/usman_cloak.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears pricked up and a white stripe on his forehead; the folded ear is missing."
+   "what": "Usman has both ears pricked up and a white stripe on his forehead; the folded ear is missing.",
+   "left": "minor; not redrawn in this pass"
   }
  ]
 }
