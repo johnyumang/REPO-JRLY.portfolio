@@ -73,7 +73,8 @@
    "what": "Usman is drawn as a chubby round cartoon puppy with both ears folded, softer than the dog in the other shots.",
    "where": "left half, the dog",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k60",
@@ -86,7 +87,8 @@
    "what": "Usman is a chubby puppy with both ears folded; the series sheet says one folded ear.",
    "where": "centre, the dog's head",
    "found_by": "first reader",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k54",
@@ -205,9 +207,11 @@
    "what": "The Philippine map is mangled (block-shaped Luzon, an invented orange island in the sea east of Luzon, Samar/Leyte missing) and shows six lights, on Palawan and Mindoro but none on Sulu, while the narration counts five places.",
    "where": "whole map; the orange blob upper right of centre",
    "found_by": "second reader",
-   "needs_figma": true,
+   "needs_figma": false,
    "note": "two full-quality redraws: shape better but 7-8 lights, no Sulu/Mactan/Bohol; old-vs-new reviewer reverted. Suggest an accurate map with the five lights placed in code, or the better engine.",
-   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels. Nobody in the frame. A glowing gold-line map of the real Philippine archipelago floating in the dark, accurate shape: long Luzon in the north, the Visayas islands in the middle, large Mindanao in the south, long thin Palawan in the west. Exactly five warm points of light: Manila Bay on Luzon, Mactan near Cebu, Bohol, Lake Lanao in Mindanao, the Sulu islands southwest of Mindanao. No text, no labels, no extra islands."
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. Single image, no panels. Nobody in the frame. A glowing gold-line map of the real Philippine archipelago floating in the dark, accurate shape: long Luzon in the north, the Visayas islands in the middle, large Mindanao in the south, long thin Palawan in the west. Exactly five warm points of light: Manila Bay on Luzon, Mactan near Cebu, Bohol, Lake Lanao in Mindanao, the Sulu islands southwest of Mindanao. No text, no labels, no extra islands.",
+   "fixed": true,
+   "fix_note": "Central, 13 Nov: drawn in code from real coastline data (pipeline/ph_map.py), not by an image model: the true shape of the archipelago (no Borneo, no invented island), exactly five lights at Manila Bay, Mactan, Bohol, Lake Lanao and Jolo (Sulu), each with a ring so that Mactan and Bohol read as two."
   },
   {
    "key": "k64",
@@ -319,7 +323,8 @@
    "must_fix": false,
    "what": "Usman has both ears folded (Labrador-like head), the same drift as k52/k60; the sheet says one folded ear.",
    "where": "centre, the dog's head",
-   "found_by": "second reader"
+   "found_by": "second reader",
+   "rejected": "two redraws with the ears clause: one with both ears up, one with Indio drawn with a black face; original kept"
   }
  ],
  "refuted": [
