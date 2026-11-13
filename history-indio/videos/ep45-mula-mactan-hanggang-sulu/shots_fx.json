@@ -366,27 +366,33 @@
  },
  "62": {
   "fx": [],
+  "framing": "M-alt",
+  "move": "crane_down",
+  "depth": "strong"
+ },
+ "63": {
+  "fx": [],
   "framing": "CU",
   "move": "push_in"
  },
- "63": {
+ "64": {
   "fx": [],
   "framing": "low",
   "move": "pan_right",
   "depth": "strong"
  },
- "64": {
+ "65": {
   "fx": [],
   "framing": "high-wide",
   "move": "dolly_out"
  },
- "65": {
+ "66": {
   "fx": [],
   "framing": "OTS",
   "move": "orbit_right",
   "depth": "strong"
  },
- "66": {
+ "67": {
   "fx": [],
   "framing": "two-shot",
   "move": "tilt_up"
