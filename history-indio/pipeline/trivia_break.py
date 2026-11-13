@@ -38,7 +38,8 @@ trivia/sprites, the sticker trivia/stickers/epNN.png with label_onscreen from li
 trivia_voice.py wrote into --voice, source_onscreen, countdown "babalik ang kuwento", "calm" when "grave": true); the pause
 between lines starts at 0.22 s (or the file's "gap") and widens up to 0.40 s so the break lasts 18-23 s (audio is never sped
 up; it says so when still short). Cut: the silent gap after sentence insert_after_sentence in the CURRENT timings.json, at the
-frame whose 40 ms of the video's own audio is quietest; refused (exit 2) unless that is 12 dB under the episode average.
+frame whose 40 ms of the video's own audio is quietest (among frames whose 120 ms, the splice fades, is also 12 dB
+down, when there are any); refused (exit 2) unless that is 12 dB under the episode average.
 Then render (with a sheet), splice, the checks (duration = episode + break, video and audio, every frame decodes, -16 LUFS
 +-0.5, true peak <= -1.5 dBTP), one summary line and the three files to look at (sheet, a frame before the cut, one after
 the break). --set overrides a spec field (dotted keys, JSON values), e.g. a test sticker: --set subjects.0.image=/tmp/x.png."""
@@ -1278,11 +1279,14 @@ def quiet_cut(video, timings, k, fps):
     if not 0 <= k < len(timings) - 1: die(f'insert_after_sentence {k} is not followed by a sentence in timings.json ({len(timings)} sentences)', 2)
     a0, a1 = timings[k]['end'], timings[k + 1]['start']
     if a1 - a0 < 0.08: die(f'no silent gap after sentence {k}: it ends at {a0:.3f} s, the next starts at {a1:.3f} s', 2)
-    mono = read_audio(video); h = int(0.020 * SR); avg = 20 * np.log10(max(1e-9, gated_rms(mono)))
-    lv = lambda c: 20 * np.log10(max(1e-9, float(np.sqrt(np.mean(mono[max(0, c - h):c + h] ** 2)))))
+    mono = read_audio(video, 2).mean(1); avg = 20 * np.log10(max(1e-9, gated_rms(mono)))       # measured as splice measures it
+    lv = lambda c, h: 20 * np.log10(max(1e-9, float(np.sqrt(np.mean(mono[max(0, c - h):c + h] ** 2)))))
     cands = [f / fps for f in range(math.ceil((a0 + 0.02) * fps), math.floor((a1 - 0.02) * fps) + 1)]
     if not cands: die(f'the gap after sentence {k} ({a0:.3f}-{a1:.3f} s) holds no whole frame', 2)
-    t = min(cands, key=lambda x: lv(int(round(x * SR)))); under = avg - lv(int(round(t * SR)))
+    q40 = lambda x: lv(int(round(x * SR)), int(0.020 * SR)); q120 = lambda x: lv(int(round(x * SR)), int(0.060 * SR))
+    clear = [x for x in cands if avg - q120(x) >= 12]       # prefer frames whose 120 ms (the splice fades) is clear of the words too
+    t = min(clear or cands, key=q40); under = avg - q40(t)
+    if not clear: print(f'note: no frame in the gap has its 120 ms 12 dB under the average; the quietest 40 ms is used', flush=True)
     return t, under, avg, (a0, a1)
 
 

@@ -124,6 +124,6 @@ python pipeline/trivia_break.py splice --video episode.mp4 --brk break.mp4 --at 
   `trivia_break.py episode` builds the spec (sticker `trivia/stickers/epNN.png`, error if missing; `--set
   subjects.0.image=PATH` for a test), picks the pause (0.22 s, widened up to 0.40 s for 18–23 s; never speeds audio up),
   `"calm": true` for a grave episode (no shake or flash, softer sting, slower pops), cuts in the gap after
-  `insert_after_sentence` of the CURRENT `timings.json` at the quietest 40 ms of the video's own audio (refused unless
-  12 dB under the episode average), renders with a sheet, splices, checks (duration, both streams, every frame decodes,
+  `insert_after_sentence` of the CURRENT `timings.json` at the quietest 40 ms of the video's own audio (frames whose 120 ms is also
+  12 dB down first; refused unless the 40 ms are 12 dB under the episode average), renders with a sheet, splices, checks (duration, both streams, every frame decodes,
   −16 LUFS, true peak ≤ −1.5 dBTP) and prints one summary line and the sheet and two frames to look at.
