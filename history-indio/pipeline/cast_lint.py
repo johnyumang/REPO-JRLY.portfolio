@@ -47,6 +47,9 @@ def load_cast(path=None):
         if n is not None: C['notes'].append(f'indio_outfits.{k} names {n} tattoo(s): right only for episode {n + 1}; other episodes get a template outfit with their own count')
     for k, v in C['str'].items():
         if re.search(r'\ba [aeiou]', v): C['notes'].append(f'{k} says "{re.search(r"\ba [aeiou]\w*", v).group(0)}" (grammar); pasted verbatim all the same')
+    for k in ('indio_modern', 'indio_outfits.modern_rider_from_ep2', 'indio_modern_2012'):
+        if k in C['str'] and 'tattoo' not in C['str'][k]:
+            C['notes'].append(f'{k} has no tattoos against "tattoos in every era"; prompts that add them beside the string are kept as they are')
     for k in ('indio_modern_2012',):
         if k in C['str'] and 'medallion' not in C['str'][k]:
             C['notes'].append(f'{k} has no medallion ("bare neck with no necklace") against the rule "medallion in every era"; the string wins for present-day scenes from ep10')
@@ -93,7 +96,7 @@ NONCASUAL = re.compile(r"silk|\bsuit\b|\btie\b|jacket|hoodie|\bcoat\b|uniform|su
 ERA_CLOTHES = re.compile(r"tunic|sash|camisa|\bbaro\b|cloak|bahag|loincloth|\brobe\b|sandals|barefoot|collarless|wool|linen|homespun|"
                          r"trousers|kimono|\bwrap\b", re.I)
 MOD_CLOTHES = re.compile(r"t-shirt|\bjeans\b|\bpolo\b|sneakers|hoodie|windbreaker|jacket|\bsuit\b|\bslacks\b|backpack|silk shirt", re.I)
-INDIO_V = re.compile(r"topknot|\bhair\b|\bskin\b|\blean\b|\bslim\b|\bsmall\b|\bthin\b|young|about twenty|twenty|thirt|forties|forty|grey (?:strands|hairs)|"
+INDIO_V = re.compile(r"topknot|\bhair\b|\bskin\b|\blean\b|young|about twenty|twenty|thirt|forties|forty|grey (?:strands|hairs)|"
                      r"headband|long tails|medallion|necklace|\bneck\b|tattoo|forearm|handkerchief|\bwrist\b|adult face|" + CARRY + "|" + CLOTHES, re.I)
 INDIO_ADJ = {'young', 'lean', 'slim', 'thin', 'small', 'tall', 'brown-skinned', 'ten-year-old', 'filipino'}
 INDIO_MARK = re.compile(r'topknot|headband|handkerchief|medallion|tattoo|schoolboy|ten-year-old', re.I)
@@ -129,7 +132,7 @@ EARS_BAD_BREED = re.compile(r'floppy-eared|labrador|golden retriever|\bpuppy\b',
 
 PRESENT = re.compile(r'\b(?:present[- ]day|today|modern(?! Japanese| TV| anime)|smartphones?|phones?|laptops?|jeepneys?|motorcycles?|'
                      r'sidecar|cars?|offices?|elevators?|hotel|yacht|billboards?|TV|video call|condo|apartment|parking|senat\w*|campaign|'
-                     r'airport|taxi|delivery|fluorescent|tricycles?|mall|vlogger|20[0-2]\d)\b', re.I)
+                     r'airport|taxi|delivery|fluorescent|tricycles?|mall|vlogger)\b', re.I)
 NOTMOD = re.compile(r'nothing modern', re.I)
 PAST = re.compile(r'\b(?:1[0-8]\d\d|19[0-4]\d|[2-9]\d\d)s?\b|pre-?colonial|colonial|ancient|galleon|Victorian|Katipunan|medieval|'
                   r'biblical|primeval|\bAD\b|\bBC\b', re.I)
@@ -248,8 +251,8 @@ def find_mentions(p, ep, key=''):
         if not INDIO_MARK.search(span):
             if art.lower() == 'the' and any(x.char == 'indio' for x in out): continue      # "the young man": back-reference
             if re.search(r'\bold\b|grandfather|sixties|seventies|fifties|heavyset|teenage', span, re.I): continue
-            if m.group(0) == 'young man' and not key.lower().startswith('indio'): continue
-            taken.append((st, e)); out.append(Mention(char='indio', start=st, end=e, art=art, kept=kept, vstart=vs, head=m.group(0), unsure='no Indio marker (topknot, headband, handkerchief, medallion, tattoo): another man, or Indio with every constant missing'))
+            taken.append((st, e)); out.append(Mention(char='indio', start=st, end=e, art=art, kept=kept, vstart=vs, head=m.group(0), weak=True,
+                                                      unsure='no Indio marker (topknot, headband, handkerchief, medallion, tattoo): another man, or Indio with every constant missing'))
             continue
         taken.append((st, e)); out.append(Mention(char='indio', start=st, end=e, art=art, kept=kept, vstart=vs, head=m.group(0)))
     # Usman (negated "no dog" is not a mention)
@@ -278,7 +281,35 @@ def find_mentions(p, ep, key=''):
         span = p[st:e]
         if not M_MARK.search(span) or re.search(r'snow-white|white hair|grandmother|white dress|in white|fox|\bold\b', span, re.I): continue
         taken.append((st, e)); out.append(Mention(char='m', start=st, end=e, art=art, kept=kept, vstart=vs, head='woman'))
+    if any(x.char in ('usman', 'm') and not x.unsure for x in out):     # beside Usman or M a plain "young man" is Indio
+        for x in out:
+            if x.weak: x['unsure'] = None
+    out = [x for x in out if not (x.weak and x.unsure and x.head == 'young man' and not key.lower().startswith('indio'))]
     return sorted(out, key=lambda x: x.start)
+
+def extend(p, mm, canon, vocab=None):
+    """after the canonical string is known: take further segments that are part of it (", in a white school uniform
+    shirt"), also across up to two other character segments ("small and thin") when a canonical segment follows."""
+    if mm.bare: return mm.end
+    vocab = vocab or {'indio': INDIO_V, 'usman': USMAN_V, 'm': M_V}.get(mm.char, GEN_V)
+    cl = canon.lower(); end = i = mm.end; skipped = 0
+    while True:
+        c = re.match(r",\s*|\s+and\s+|\s+in\s+|\s+with\s+", p[i:])
+        if not c: break
+        s0 = i + c.end()
+        b = re.search(r",|\s+and\s+|[.;:!?()]|$", p[s0:]); seg = p[s0:s0 + b.start()]
+        cut = STOPW.search(seg)
+        if cut: seg = seg[:cut.start()]
+        seg = seg.rstrip()
+        if not seg or OTHER_HEAD.search(seg): break
+        core = re.sub(r'^(?:a|an)\s+', '', re.sub(r'^(?:wearing|in|with)\s+', '', seg.lower()))
+        if core and len(core) > 3 and core in cl or (not skipped and vocab.search(seg)):
+            end = i = s0 + len(seg); skipped = 0
+            if cut: break
+            continue
+        if cut or skipped >= 2 or not re.search(r'\b(?:skin|small|thin|slim|lean|tall|eyes|face|build)\b', seg): break
+        skipped += 1; i = s0 + len(seg)
+    return end
 
 # ------------------------------------------------------------------ choosing the canonical string
 def mention_variant(span, era, p):
@@ -463,8 +494,8 @@ def clause_need(p, ep, mentions, era, resolved, outfit_means_present=True):
 NODOG_RX = re.compile(r"\b(?:he is alone,\s*)?no dogs?\b(?:,?\s*(?:and\s+)?no (?:other )?animals?\b)?", re.I)
 def clause_state(p, need):
     if need is None: return 'OK', ''
-    if need in p: return 'OK', ''
-    if need == NODOG and ALONE in p: return 'OK', ''
+    if need.lower() in p.lower(): return 'OK', ''
+    if need == NODOG and ALONE in p.lower(): return 'OK', ''
     if NODOG_RX.search(p): return 'NEAR', f'modern-day prompt says "{NODOG_RX.search(p).group(0)}", not "{need}"'
     return 'MISSING', f'modern-day prompt without "{need}"'
 
@@ -508,6 +539,7 @@ def lint_episode(epdir, C, K=None):
             name, s, why = canon.pick(mm, p, era)
             if not name:
                 resolved.append(None); out.append({'char': mm.char, 'cls': 'NOCANON', 'detail': why, 'span': p[mm.start:mm.end], 'start': mm.start, 'end': mm.end}); continue
+            mm['end'] = extend(p, mm, s)
             cls, det = classify(mm, p, name, s, ep, era)
             resolved.append((name, s))
             out.append({'char': mm.char, 'cls': cls, 'detail': det, 'canon': name, 'span': p[mm.start:mm.end], 'start': mm.start, 'end': mm.end})
