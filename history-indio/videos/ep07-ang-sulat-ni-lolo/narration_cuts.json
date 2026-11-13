@@ -1,0 +1,44 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 34,
+   "text": "Kathang-isip: kami ni Usman, si Lolo at ang kuwento niya, ang sulat at lente, si M, ang Huling Tala."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 31,
+   "text": "Tiyak: ang palihim na libing, ang paghahanap ni Narcisa, ang paghukay noong 1898.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 32,
+   "text": "Pinagtatalunan: kung may kabaong, at sino ang naglagay ng RPJ.",
+   "why": "History (disputed)."
+  },
+  {
+   "index": 33,
+   "text": "Mahina: ang papel sa sapatos ni Rizal.",
+   "why": "About a weakly sourced real anecdote."
+  },
+  {
+   "index": 35,
+   "text": "Sa totoo, walang kilalang inapo si Rizal.",
+   "why": "Fact about the real record. It corrects the invented 'José Indalecio Bracken' lineage (sentence 11) and still reads after 33."
+  },
+  {
+   "index": 25,
+   "text": "Katotohanan lang ang ipinapakita ng lente.",
+   "why": "Plot line about the lens, not a disclaimer."
+  },
+  {
+   "index": 26,
+   "text": "Malabo ang alamat, at manonood lang ako.",
+   "why": "Plot line, not a disclaimer."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Mahina: ang papel sa sapatos ni Rizal. / Sa totoo, walang kilalang inapo si Rizal."
+}

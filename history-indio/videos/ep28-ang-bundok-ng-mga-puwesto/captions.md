@@ -29,11 +29,11 @@ Kung may tambuli ka, sino ang unang tatawagin mo? I-comment sa baba.
 **Tags:** hermano pule, apolinario de la cruz, cofradia de san jose, mount banahaw, banahaw, lucban, quezon province, 1841, kasaysayan ng pilipinas, philippine history, time travel, history indio, indio at usman, pinoy anime
 
 ## TikTok
-Banahaw, 1841. Si Hermano Pule at libu-libong kapatid, sa paanan ng banal na bundok. 🕯️ At sa dulo ng isang kweba, ang tatay ni Indio. Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Kung may tambuli ka, sino ang tatawagin mo? #HistoryIndio #HermanoPule #Banahaw #KasaysayanNgPilipinas #fyp
+Banahaw, 1841. Si Hermano Pule at libu-libong kapatid, sa paanan ng banal na bundok. 🕯️ At sa dulo ng isang kweba, ang tatay ni Indio. Kathang-isip sina Indio, M at Usman, si Lolo Isidro, si Giliw, ang kweba at ang sulat, ang tambuli at ang pitong lalim; totoo ang kasaysayan. Kung may tambuli ka, sino ang tatawagin mo? #HistoryIndio #HermanoPule #Banahaw #KasaysayanNgPilipinas #fyp
 
 ## Instagram
 Bundok Banahaw. Isang banal na bundok, isang kapatirang hindi kinilala, at isang kweba na walang kandila. 🕯️
-Kathang-isip sina Indio, M at Usman; totoo ang kasaysayan. Sa totoong tala, itinatag ni Hermano Pule ang Cofradía de San José noong 1832 at binaril siya noong 4 Nobyembre 1841.
+Kathang-isip sina Indio, M at Usman, si Lolo Isidro, si Giliw, ang kweba at ang sulat, ang tambuli at ang pitong lalim; totoo ang kasaysayan. Sa totoong tala, itinatag ni Hermano Pule ang Cofradía de San José noong 1832 at binaril siya noong 4 Nobyembre 1841.
 #HistoryIndio #HermanoPule #Banahaw #Lucban #PhilippineHistory
 
 ## Pinned comment (sources)

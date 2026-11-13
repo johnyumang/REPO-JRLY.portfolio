@@ -1,0 +1,19 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 58,
+   "text": "Kathang-isip: ang medalyon at ang boses nito, ang punyal, ang lambat at ang tatak."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 57,
+   "text": "Kuwentong-bayan ang tikbalang at ang pagpapaamo rito, at diwata ng bundok Makiling si Mariang Makiling.",
+   "why": "Folklore attribution in a sentence of its own, so the tikbalang and Mariang Makiling do not pass as the record. Sentence 31 ('gaya ng sinasabi ng kuwentong-bayan') is plot that names the folklore, so it stays too."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ang tikbalang at ang pagpapaamo rito, at diwata ng bundok Makiling si Mariang Makiling. / Pag-uwi, nag-party ako sa bagong bahay, kasama ang maraming bagong kaibigan."
+}

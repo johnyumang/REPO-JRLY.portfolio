@@ -1,0 +1,24 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 63,
+   "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang hiling, ang anino at ang hologram."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 61,
+   "text": "Totoo si Rajah Kiling: sa tala ng Song, hari siya ng Butuan na nagpadala ng sugo.",
+   "why": "A statement about the real record."
+  },
+  {
+   "index": 62,
+   "text": "Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng tubig.",
+   "why": "Folklore named as folklore, in its own sentence. Keep it, because without it the Yúmud would be presented as part of the record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ng mga Manobo ng Agusan ang Yúmud, isang diwa ng tubig. / Pag-uwi namin, naglaho si Usman, at nagsulat ang kuwaderno."
+}

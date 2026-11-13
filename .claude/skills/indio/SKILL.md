@@ -57,7 +57,10 @@ stacks units in a hierarchy, and works by remembering patterns and predicting fr
   user); Opus 5.5 workers execute and report. One worker owns the machine's CPU queue. The conductor checks each report
   and gives the next task; stop only for decisions that are the user's.
 - Indio, Usman, M, the medallion and Indio's family are fiction and are labelled so in every caption and pinned
-  comment, next to the real record. Indio only witnesses. No invented words for real people.
+  comment, next to the real record. Never tell the viewer inside the video that the story is fiction; put
+  'Kathang-isip sina Indio at Usman; totoo ang kasaysayan.' in the caption and the pinned comment (owner, 2026-11-13).
+  The caption also names every invented person, company, office, party and place, the datus' invented lines and any
+  invented scripture link. Indio only witnesses. No invented words for real people.
 - Captions (user, 2026-11-12): use the trending repeated-line format: three to five short lines that start with the
   same words, taken from THAT episode's story, then a payoff that turns to the episode and its comment question. Vary
   the stem between episodes. Keep the episode's fiction label in every block and the pinned comment with the real
@@ -93,7 +96,7 @@ Deliver: contact sheet check, MP4 to the user, captions from `captions.md`, the 
 
 ## Story shape (8 beats of about 20 s, about 6 shots each)
 hook; intro line + present-day problem; push to a real marker; the jump and Usman; the event; the twist; the
-fairness beat (certain / disputed / legend / fiction); return + cliffhanger + question + follow line.
+fairness beat (certain / disputed or commonly mistaken; folklore named as folklore; no fiction line, that is in the caption); return + cliffhanger + question + follow line.
 Vary arrival, connection and twist from the previous two episodes. Indio's voice: cool, calm, short sentences,
 slang about once per two or three sentences, none in history lines.
 

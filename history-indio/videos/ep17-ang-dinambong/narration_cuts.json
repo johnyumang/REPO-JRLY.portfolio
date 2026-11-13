@@ -1,0 +1,44 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 61,
+   "text": "Kathang-isip: kami, ang mga medalyon at ang boses sa tanso, si Rico, at ang kuwento ng pamilya tungkol kay Lolo Pepe."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 60,
+   "text": "Alamat ng London ang Spring-heeled Jack.",
+   "why": "Folklore attribution that stands as its own sentence."
+  },
+  {
+   "index": 34,
+   "text": "Spring-heeled Jack, alamat ng London na unang iniulat noong 1837.",
+   "why": "A fact about the real legend."
+  },
+  {
+   "index": 27,
+   "text": "Si José Rizal, si Lolo Pepe sa kuwento ng pamilya namin.",
+   "why": "Plot: Indio's family lore, said inside the story."
+  },
+  {
+   "index": 29,
+   "text": "Sa kuwento ni Lola Ising, dito raw unang nabasa ni Lolo Pepe ang landas ng isang medalyon.",
+   "why": "Plot: family lore, hedged with 'raw'."
+  },
+  {
+   "index": 30,
+   "text": "Kuwento iyon ng pamilya, kaya tumingin lang ako.",
+   "why": "Indio's own honesty in the scene (rule c). Now that 61 is cut, this is also the only narration that keeps the invented Rizal and medallion link from being heard as the record, so it must stay."
+  },
+  {
+   "index": 59,
+   "text": "Totoo si Lakandula ng Tondo: tinanggap niya si Legazpi noong 1571, at tumulong laban kay Limahong noong 1574.",
+   "why": "History."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Alamat ng London ang Spring-heeled Jack. / Sa hotel, sa harap ng heater, unang beses ulit kaming nagtawanan ni M."
+}

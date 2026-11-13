@@ -1,0 +1,19 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 69,
+   "text": "Kathang-isip: ako, si Totoy, si Lola, si M, ang mga medalyon, at ang boses ng hari, na walang naitalang ganoong salita."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 68,
+   "text": "Kuwentong-bayan ng Tsina ang húli jīng.",
+   "why": "Folklore attribution in a sentence of its own. Sentence 46 also names it as folklore, inside the plot."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ng Tsina ang húli jīng. / Sa pinto ng kusina, basa ng ulan, nakatayo si M."
+}

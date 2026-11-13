@@ -1,0 +1,39 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 61,
+   "text": "Kathang-isip ang lahat ng tauhan, ang susi, at ang lungsod na nakita namin."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 56,
+   "text": "Lilinawin ko muna.",
+   "why": "The opener still introduces the folklore and record lines 57-60."
+  },
+  {
+   "index": 57,
+   "text": "Ang Biringan ay bahagi ng kuwentong-bayan ng Samar, isang di-nakikitang lungsod ng mga engkanto.",
+   "why": "Folklore attribution as its own sentence (rule d)."
+  },
+  {
+   "index": 59,
+   "text": "Mula noong mga taong 1960 kumalat ang mga kuwento, at walang mapa o talang nagpapatunay nito.",
+   "why": "A statement about the real record."
+  },
+  {
+   "index": 60,
+   "text": "Paniniwala ito ng mga taga-Samar, at iginagalang ko bilang ganoon.",
+   "why": "Folklore attribution and respect for the belief. It is not a fiction label."
+  },
+  {
+   "index": 43,
+   "text": "Totoo 'yan, par.",
+   "why": "Plot dialogue: Usman confirms what Tala says."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Paniniwala ito ng mga taga-Samar, at iginagalang ko bilang ganoon. / Umuwi ako, at naglaho si Usman sa liwanag ng pagbalik."
+}
