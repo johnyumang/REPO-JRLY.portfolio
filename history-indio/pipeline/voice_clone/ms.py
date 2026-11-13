@@ -112,10 +112,12 @@ def renum(m, text):
 def numbers(work, show_all=False):
     """Audit an already narrated episode: per chunk with a number in its script, the numbers expected and the numbers heard in
     the chosen take (choice.json, else the first take), DIFF where they differ, with the heard words so a machine can listen.
+    A DIFF chunk is heard once more with a prompt asking for numbers as words (vqc.num_prompt, never naming the line's numbers); if its numbers then match it
+    is reported "ok (on second listen)" with both transcripts (the recogniser, not the voice, was wrong).
     Reads the take .json files only. Works on Season 1 (run_episode.sh: no speaker) and multi-speaker work folders."""
     import numwords
     P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')) if os.path.exists(work + '/choice.json') else {}
-    S = {s['i']: s for s in P['sentences']}; bad = 0; n = 0
+    S = {s['i']: s for s in P['sentences']}; bad = 0; n = 0; again = 0
     for c in P['chunks']:
         want = numwords.numbers(c['text']); spk = c.get('speaker', '')
         if not want and not show_all: continue
@@ -124,14 +126,20 @@ def numbers(work, show_all=False):
         if not w or not os.path.exists(w[:-4] + '.json'):
             if not takes: print('c%03d no take' % c['id']); continue
             w = takes[0][:-5] + '.wav'
-        h = json.load(open(w[:-4] + '.json')).get('heard', ''); d = numwords.diff(c['text'], h); n += 1; bad += bool(d)
+        h = json.load(open(w[:-4] + '.json')).get('heard', ''); d = numwords.diff(c['text'], h); n += 1; h2 = None
+        if d and os.path.exists(w):                      # second listen: the recogniser often writes "600 at 89" for 689; ask for number words once
+            import vqc
+            h2 = vqc.asr(vqc.load16(w), prompt=vqc.num_prompt(set(want) | set(numwords.numbers(h))))
+            if not numwords.diff(c['text'], h2): d = None; again += 1
+        bad += bool(d)
         tag = lambda x: os.path.basename(x)[5:].rsplit('.', 1)[0]
         others = [tag(x) + ':' + (','.join(map(str, numwords.numbers(json.load(open(x)).get('heard', '')))) or '-') for x in takes if x[:-5] + '.wav' != w]
         txt = ' / '.join(S[i]['text'] for i in c.get('sent_ids', []) if i in S) or c['text']
-        print('%s sent %-8s c%03d %-6s expected %-16s heard %-16s take %s%s | %s' % ('DIFF' if d else 'ok  ', ','.join(map(str, c.get('sent_ids', []))), c['id'], spk[:6],
+        print('%s sent %-8s c%03d %-6s expected %-16s heard %-16s take %s%s | %s' % ('DIFF' if d else 'ok (on second listen)' if h2 else 'ok  ', ','.join(map(str, c.get('sent_ids', []))), c['id'], spk[:6],
               ','.join(map(str, want)) or '-', ','.join(map(str, numwords.numbers(h))) or '-', tag(w), ('  other takes ' + ' '.join(others)) if d and others else '', txt[:110]))
-        if d: print('     heard words: %s' % h)
-    print('%d chunks with numbers, %d differ%s' % (n, bad, ' (listen to the DIFF lines; ms.py qc then assemble re-picks takes by the number rule)' if bad else ''))
+        if d or h2: print('     heard words: %s' % h)
+        if h2: print('     second listen (numbers as words): %s -> %s' % (h2, ','.join(map(str, numwords.numbers(h2))) or '-'))
+    print('%d chunks with numbers: %d real DIFF, %d ok on second listen%s' % (n, bad, again, ' (listen to the DIFF lines; ms.py qc then assemble re-picks takes by the number rule)' if bad else ''))
     return bad
 def score(m): return 0.40 * m['cmatch'] + 0.25 * m['conf'] + 0.10 * min(m['minconf'], 0.8) / 0.8 + 0.25 * float(np.clip((m['spk'] - 0.80) / 0.15, 0, 1)) - 0.3 * max(0, abs(m['rate'] - 5.85) / 5.85 - 0.15)
 def qc(work, full=False):

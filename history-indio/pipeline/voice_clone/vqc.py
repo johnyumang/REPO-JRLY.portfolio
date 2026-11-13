@@ -49,13 +49,23 @@ def words(y16, text, em=None):
         prev = a
     for r in res: r['conf'] = float(np.mean(r['p'])) if r['p'] else 0.0; del r['p']
     return res
-def asr(y16):
-    """What a strong listener model hears (Whisper large-v3-turbo, CTranslate2 int8, forced Tagalog)."""
+QC_PROMPT = "Ako 'to si Indio. Samahan mo akong mag-time travel, at tuklasin ang history natin."
+_NUM_EXAMPLES = ["dalawampu't tatlo", "mil otsosyentos kuwarenta", "labing-apat na raan", "apatnapu't walo", "mil pitong daan at labing-isa",
+                 "sitenta'y kuwatro", "tatlong libo", "mil nobesyentos singkuwenta'y dos", "labimpito", "animnapu't isa"]
+def num_prompt(avoid=()):
+    """Prompt for the audit's second listen: numbers written as words. Its examples never contain a number of the line being
+    checked (an example equal to the expected year made a take that says 1909 come back as 1906: the prompt steers the listener)."""
+    import numwords
+    avoid = set(avoid); ex = [e for e in _NUM_EXAMPLES if not (set(numwords.numbers(e)) & avoid)][:4]
+    return "Isinusulat ang mga bilang nang buo sa salita, hindi sa numero: " + ', '.join(ex) + '.'
+def asr(y16, prompt=QC_PROMPT):
+    """What a strong listener model hears (Whisper large-v3-turbo, CTranslate2 int8, forced Tagalog). The qc pass uses QC_PROMPT;
+    num_prompt() (numbers written as words) is only for the audit's second listen of a number mismatch."""
     if 'asr' not in _m:
         from faster_whisper import WhisperModel
         _m['asr'] = WhisperModel('deepdml/faster-whisper-large-v3-turbo-ct2', device='cpu', compute_type='int8', cpu_threads=os.cpu_count() or 4)
     segs, _ = _m['asr'].transcribe(np.asarray(y16, dtype=np.float32), language='tl', task='transcribe', beam_size=3, condition_on_previous_text=False, vad_filter=False,
-                                   initial_prompt="Ako 'to si Indio. Samahan mo akong mag-time travel, at tuklasin ang history natin.")
+                                   initial_prompt=prompt)
     return ' '.join(x.text.strip() for x in segs).strip()
 def match(want, heard):
     return difflib.SequenceMatcher(None, norm_words(want), norm_words(heard), autojunk=False).ratio()

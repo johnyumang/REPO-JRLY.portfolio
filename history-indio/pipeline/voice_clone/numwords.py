@@ -194,6 +194,8 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("noong mil nuwebe syentos sisenta", "noong 1900, 60", [1960], True), ("mil nuwebe syentos sisenta", "1916", [1960], False),
     ("noong anim na raan at walumpu't siyam hanggang siyam na raan at walumpu't walo", "noong 600 at 89 hanggang 188", [689, 988], False),
     ("noong anim na raan at walumpu't siyam hanggang siyam na raan at walumpu't walo", "noong 689 hanggang 988", [689, 988], True),
+    ("noong anim na raan at walumpu't siyam hanggang siyam na raan at walumpu't walo",                       # Ep 40 s57, second listen
+     "noong anim na raan at walumput siyam hanggang siyam na raan at walumput walo", [689, 988], True),
     ("henesis tres, bente kuwatro", "Genesis 3:24", [3, 24], True), ("henesis tres, bente kuwatro", "Genesis 3", [3, 24], False),
     ("genesis siyam, talata labing-isa", "Genesis 9, talata 11", [9, 11], True), ("genesis siyam, talata labing-isa", "Genesis siyam, talata labing isa", [9, 11], True),
     ("isa, dalawa, tatlo", "1, 2, 3", [1, 2, 3], True), ("mula sa isang libong metro", "mula sa 1,000 metro", [1000], True),

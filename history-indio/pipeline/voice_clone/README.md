@@ -83,7 +83,10 @@ bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.
   their stored transcript, so a re-run picks takes by this rule with no new generation. Audit an episode already narrated:
   `/opt/vc/bin/python pipeline/voice_clone/ms.py numbers $HI_VOICE_WORK/<slug>` lists each chunk with a year, age, date or
   amount (expected vs heard in the chosen take, `DIFF` where they differ with the heard words, other takes' numbers); exit 1 if
-  any differ. Works on Season 1 (`run_episode.sh`) work folders too. To fix:
+  any differ. Works on Season 1 (`run_episode.sh`) work folders too. A DIFF chunk is heard once
+  more with a prompt asking for numbers as words (`vqc.num_prompt`, whose examples never contain the line's own numbers: an
+  example equal to the expected year steered a take that says 1909 into "1906"); if the numbers then match it prints
+  "ok (on second listen)" with both transcripts. Last line: real DIFF / ok on second listen. The qc pass keeps its own prompt. To fix:
   `ms.py qc <work>`, then `ms.py assemble <work> <work>/voice`, then rebuild the video.
 - Assembly (`ms.py assemble`): same per-tone level, slow-down of rushed takes, -17.4 LUFS master and true-peak limit as
   `assemble.py`; the match EQ to the real recording is applied to Indio's lines only. Pauses 0.38 s in a turn, 0.45 s
