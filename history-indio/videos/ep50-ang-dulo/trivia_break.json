@@ -33,10 +33,10 @@
    ]
   }
  ],
- "insert_after_sentence": 9,
- "after_text": "Sa harap ng marker ng Pugad Lawin, tumigil ang bata, at binasa ito nang malakas.",
- "estimated_time_note": "no timings.json yet; about 53 s by word count",
+ "insert_after_sentence": 17,
+ "after_text": "Kaya ikaw, ka-Indio, i-comment mo: ano ang unang marker na babasahin mo nang malakas?",
+ "estimated_time_note": "no timings.json yet; about 85 s by word count",
  "palette": "sun",
  "grave": false,
- "why_here": "After the child reads the Pugad Lawin marker aloud: whether anything happens is the next line. Exception: Episode 50 reaches its fairness beat at about 63 s, so no spot fits the 60–130 s window; this is the strongest open loop after 50 s."
+ "why_here": "After the fairness beat (13-16) and the light call to comment (17) close the \"linawin natin\" paragraph, and before the scene moves to the other world at the beginning (\"At sa ibang mundo, sa pinakasimula\"). The viewer is left with an open question. Times are estimates; there is no timings.json. The cut is at about 84.9-85.7 s, inside the 60-130 s window. Moved on 13 Nov because the old cut came at only about 50 s, outside the window, and the old note's \"no spot fits\" exception was wrong, since this seam fits."
 }
