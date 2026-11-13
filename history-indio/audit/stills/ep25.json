@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The big project billboard in the centre is covered in several rows of scrawled pseudo-handwriting and fake signatures instead of being a blank sign."
+   "what": "The big project billboard in the centre is covered in several rows of scrawled pseudo-handwriting and fake signatures instead of being a blank sign.",
+   "fixed": true
   },
   {
    "still": "full/notebook_line_s3.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Three rows of golden pseudo-letter glyphs are written across the left half of the notebook cover."
+   "what": "Three rows of golden pseudo-letter glyphs are written across the left half of the notebook cover.",
+   "fixed": true
   },
   {
    "still": "full/puzzle_stones.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "Three of the round puzzle stones (top left, right, bottom) carry anime children's faces, as if people were inside the stones."
+   "what": "Three of the round puzzle stones (top left, right, bottom) carry anime children's faces, as if people were inside the stones.",
+   "fixed": true
   },
   {
    "still": "full/no_himalaya.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The prayer wheels on both sides of the courtyard, most clearly the green and white ones at left, carry Latin-like pseudo-text labels."
+   "what": "The prayer wheels on both sides of the courtyard, most clearly the green and white ones at left, carry Latin-like pseudo-text labels.",
+   "fixed": true
   },
   {
    "still": "full/hand_shake.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The glowing dial segments at right show letter shapes such as \"NE\" and \"MJII\", and the hand and fingers are tattooed with rows of glyphs."
+   "what": "The glowing dial segments at right show letter shapes such as \"NE\" and \"MJII\", and the hand and fingers are tattooed with rows of glyphs.",
+   "fixed": true
   },
   {
    "still": "full/trio_snow.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The dog at bottom right has no red kerchief, no white chest patch and two upright ears, so it does not read as Usman."
+   "what": "The dog at bottom right has no red kerchief, no white chest patch and two upright ears, so it does not read as Usman.",
+   "fixed": true
   },
   {
    "still": "full/hand_clock.jpg",
@@ -83,7 +89,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "The man holding the dial has swept loose hair with no topknot and no headband, so it does not read as Indio."
+   "what": "The man holding the dial has swept loose hair with no topknot and no headband, so it does not read as Indio.",
+   "fixed": true
   },
   {
    "still": "full/needle_palm.jpg",
@@ -93,7 +100,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "The close-up face has loose hair with no topknot and no headband, so it does not read as Indio."
+   "what": "The close-up face has loose hair with no topknot and no headband, so it does not read as Indio.",
+   "fixed": true
   },
   {
    "still": "full/needle_palm.jpg",
@@ -103,7 +111,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The back of the hand and fingers carry tattoo glyphs that look like CJK characters."
+   "what": "The back of the hand and fingers carry tattoo glyphs that look like CJK characters.",
+   "fixed": true
   },
   {
    "still": "full/door_closing.jpg",
@@ -113,7 +122,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The carved stones on the floor show letter-like marks, e.g. \"DE\" on the centre stone."
+   "what": "The carved stones on the floor show letter-like marks, e.g. \"DE\" on the centre stone.",
+   "fixed": true
   },
   {
    "still": "full/clock_dial.jpg",
@@ -123,7 +133,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The twelve carved marks on the stone dial look like Latin letters (T, U, N, X)."
+   "what": "The twelve carved marks on the stone dial look like Latin letters (T, U, N, X).",
+   "fixed": true
   },
   {
    "still": "full/old_book_1886.jpg",
@@ -133,7 +144,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The left page of the open book at the left edge is filled with rows of pseudo-text."
+   "what": "The left page of the open book at the left edge is filled with rows of pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/bea_cu.jpg",
@@ -152,7 +164,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "There is a letter-like glyph tattoo on Indio's neck, and pseudo-text sits in the corners of the hologram panel at top right."
+   "what": "There is a letter-like glyph tattoo on Indio's neck, and pseudo-text sits in the corners of the hologram panel at top right.",
+   "fixed": true
   },
   {
    "still": "full/lab_dna.jpg",
@@ -162,7 +175,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Small pseudo-text labels appear at the top left of the lab screen and on the microscope base."
+   "what": "Small pseudo-text labels appear at the top left of the lab screen and on the microscope base.",
+   "fixed": true
   },
   {
    "still": "full/usman_snow.jpg",
@@ -171,7 +185,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears fully upright, not his one folded ear."
+   "what": "Usman has both ears fully upright, not his one folded ear.",
+   "fixed": true
   },
   {
    "still": "full/usman_growl_snow.jpg",
@@ -180,7 +195,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman has both ears upright, not his one folded ear."
+   "what": "Usman has both ears upright, not his one folded ear.",
+   "fixed": true
   }
  ]
 }
