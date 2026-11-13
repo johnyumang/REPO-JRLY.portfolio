@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The paper held in the lower left of the lens view is covered in rows of CJK-like pseudo-glyphs."
+   "what": "The paper held in the lower left of the lens view is covered in rows of CJK-like pseudo-glyphs.",
+   "fixed": true
   },
   {
    "still": "full/s1_montage.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "flag",
    "must_fix": true,
-   "what": "Two wrong flags: a blue-and-red flag with a yellow emblem and no white triangle at the bottom-panel window, and a red flag with a cross on the pole of the stone house at top right."
+   "what": "Two wrong flags: a blue-and-red flag with a yellow emblem and no white triangle at the bottom-panel window, and a red flag with a cross on the pole of the stone house at top right.",
+   "fixed": true
   },
   {
    "still": "full/s1_montage.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "The still is a collage of tilted photo cards (houses, a wall, close-ups of eyes) rather than one picture."
+   "what": "The still is a collage of tilted photo cards (houses, a wall, close-ups of eyes) rather than one picture.",
+   "fixed": true
   },
   {
    "still": "full/sign_papers.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The deed page shows a large pseudo-text heading, mixed Latin/CJK pseudo-text lines and a glyph signature block."
+   "what": "The deed page shows a large pseudo-text heading, mixed Latin/CJK pseudo-text lines and a glyph signature block.",
+   "fixed": true
   },
   {
    "still": "full/notebook_count.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The notebook page shows a column of large numbers instead of tally marks."
+   "what": "The notebook page shows a column of large numbers instead of tally marks.",
+   "fixed": true
   },
   {
    "still": "full/glass_tower.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "anatomy",
    "must_fix": true,
-   "what": "A large anime face with staring eyes is drawn inside the glass tower at mid-height, where the prompt calls for no people."
+   "what": "A large anime face with staring eyes is drawn inside the glass tower at mid-height, where the prompt calls for no people.",
+   "fixed": true
   },
   {
    "still": "full/kitchen_lola.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The young man is drawn twice (one walking out of the door at left, one standing behind Lola), and neither has Indio's topknot."
+   "what": "The young man is drawn twice (one walking out of the door at left, one standing behind Lola), and neither has Indio's topknot.",
+   "fixed": true
   },
   {
    "still": "full/usman_nod.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The young man on the right has loose brown hair, no topknot and a cream short-sleeved shirt, so he does not read as Indio."
+   "what": "The young man on the right has loose brown hair, no topknot and a cream short-sleeved shirt, so he does not read as Indio.",
+   "fixed": true
   },
   {
    "still": "full/biringan_view.jpg",
@@ -83,7 +91,9 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The dog at lower left has no red kerchief (a white collar instead) and a pug-like face, so it does not read as Usman."
+   "what": "The dog at lower left has no red kerchief (a white collar instead) and a pug-like face, so it does not read as Usman.",
+   "fixed": true,
+   "note": "redrawn 3 times: red kerchief and white chest patch now right, but both ears still upright (the model will not draw the folded ear)"
   },
   {
    "still": "full/indio_down.jpg",
@@ -92,7 +102,9 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "The dog in the foreground wears a white collar instead of the red kerchief and has two upright ears."
+   "what": "The dog in the foreground wears a white collar instead of the red kerchief and has two upright ears.",
+   "fixed": true,
+   "note": "redrawn 3 times: red kerchief and white chest patch now right, but both ears still upright (the model will not draw the folded ear)"
   },
   {
    "still": "full/bronze_hands.jpg",
