@@ -1,0 +1,501 @@
+{
+ "episode": 16,
+ "readers": [
+  "r1"
+ ],
+ "keys_looked_at": 85,
+ "defects": [
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/handshake.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Both hands in the handshake come out of identical red sleeves, but Indio wears a short-sleeved white polo and M a dark coat in this scene.",
+   "where": "both forearms, lower left and lower right",
+   "reader": "r1"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/jump_light.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is drawn in a white polo shirt and grey shorts, not her long dark coat, so she reads as a different girl.",
+   "where": "M, right of Indio, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/sandugo_seal.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is a grey wolf-like dog with a harness and no red kerchief or white chest patch.",
+   "where": "bottom right corner",
+   "reader": "r1"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/bow_offer.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio in the 1594 scene has no red headband, blue-grey eyes and a black open shirt instead of the brown jacket of the other 1594 shots.",
+   "where": "whole figure",
+   "reader": "r1"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/tubal_card.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Tubal has brown hair and green eyes and a younger face than the black-haired grey-eyed Tubal of k55-k57.",
+   "where": "face, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/m_sees.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M has light brown hair, a collared shirt and black tie and a different face from the black-haired M of k05 and k71.",
+   "where": "face and collar, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/kappa_bows.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The kappa is a brown furry capybara-like animal with a hat-dish, not the green shelled kappa of k01, k37 and k38.",
+   "where": "whole creature",
+   "reader": "r1"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/fair_kappa.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The kappa eating the cucumber is a brown monkey-like animal with no shell or dish, a third design for the same creature.",
+   "where": "whole creature",
+   "reader": "r1"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/true_want.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The kappa is a brown seal-like blob with no shell or water dish, unlike the green kappa elsewhere.",
+   "where": "creature, lower centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k92",
+   "shots": [
+    92
+   ],
+   "still": "full/kappa_splash.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The splashing kappa is a brown otter with a fish tail, not the green shelled kappa.",
+   "where": "creature, bottom",
+   "reader": "r1"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/arrow_light.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The arrow is nocked backwards: the arrowhead sits at the drawing hand by his face and the shaft runs toward the bow.",
+   "where": "arrow, upper centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k93",
+   "shots": [
+    93
+   ],
+   "still": "full/bow_quiver.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The bundle of arrows is held by a pink boneless mass with no fingers or thumb.",
+   "where": "bottom half, holding hand",
+   "reader": "r1"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/hologram_kappa.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two tattooed arms merge into one fleshy mass with no hands where the hologram device sits.",
+   "where": "centre, both arms",
+   "reader": "r1"
+  },
+  {
+   "key": "k74",
+   "shots": [
+    74
+   ],
+   "still": "full/question_end.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The glowing medallion shows letter-like marks (like 'IHS') on its face and lettering round the rim.",
+   "where": "medallion in his hands, left centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/usman_fade.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Carved Latin-looking letters ('iKAu') on the wooden plank above Usman's head.",
+   "where": "top left",
+   "reader": "r1"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/usman_leap.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up; he should have one folded ear.",
+   "where": "head, top",
+   "reader": "r1"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/usman_joke.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up; he should have one folded ear.",
+   "where": "head, top",
+   "reader": "r1"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/port_walk.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a grey western suit with tattoo-patterned cuffs in 1594 Sakai, unlike the brown jacket of his other 1594 shots.",
+   "where": "whole figure",
+   "reader": "r1"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/witness.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a grey suit and the headband ties look like a scarf, different from his brown jacket in the same scene.",
+   "where": "whole figure",
+   "reader": "r1"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/pulled_under.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a khaki shirt and trousers with a neck tattoo, different from the brown jacket outfit of the 1594 scene.",
+   "where": "whole figure",
+   "reader": "r1"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/finger_lips.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a grey buttoned shirt instead of the brown jacket of the 1594 scene.",
+   "where": "upper body",
+   "reader": "r1"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/unseen.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a khaki buttoned shirt instead of the brown jacket of the 1594 scene.",
+   "where": "upper body",
+   "reader": "r1"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/read_sign.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a black jacket at the Daian-ji sign, while the shots around it (k11, k13) show the white polo.",
+   "where": "whole figure",
+   "reader": "r1"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/hotel_confess.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M has long light-brown hair and an earring, unlike her black hair in k71 and k72.",
+   "where": "face and hair, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/m_names.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M's hair falls to her waist in a black curtain, much longer than in any other shot.",
+   "where": "M from behind, left",
+   "reader": "r1"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/indio_guilt.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has a red kerchief tied on his left wrist and also holds a second red kerchief in his right hand.",
+   "where": "both hands, lower half",
+   "reader": "r1"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/daianji.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio holds a red kerchief in each hand, so there are two of his single kerchief.",
+   "where": "both hands, lower half",
+   "reader": "r1"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/fair_growl.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Red kerchief bands are on both wrists; he wears one on the left wrist.",
+   "where": "both wrists",
+   "reader": "r1"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/m_explains.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's lower hand on the jar is a mitten with fused fingers.",
+   "where": "hands on jar lid, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/kolambu_glow.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand holding the medallion shows only a thumb and one fingertip around a huge boneless palm.",
+   "where": "hand, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/tubal_smile.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Tubal's hand at his lapel shows two fingers and a dark slit where the others should be.",
+   "where": "hand with ring, lower left",
+   "reader": "r1"
+  },
+  {
+   "key": "k95",
+   "shots": [
+    95
+   ],
+   "still": "full/fox_lantern.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The fox's two eyes are drawn in different colours.",
+   "where": "fox face, centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/tubal_card.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop signs carry kanji-like characters.",
+   "where": "background signs, left and right",
+   "reader": "r1"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/silent.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Lettering runs round the rim of the medallion.",
+   "where": "medallion, lower centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/two_doors.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks on the ceiling vent.",
+   "where": "ceiling, top centre",
+   "reader": "r1"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/vanish.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop signs carry kana-like characters.",
+   "where": "background signs, right",
+   "reader": "r1"
+  },
+  {
+   "key": "k76",
+   "shots": [
+    76
+   ],
+   "still": "full/follow.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Shop sign carries kana-like characters.",
+   "where": "background right",
+   "reader": "r1"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/jar_hook.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Scribbled letter marks on the jar and a '茶' character on the background sign.",
+   "where": "jar lower left; sign right",
+   "reader": "r1"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/tondo_lens.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks on the lens frame.",
+   "where": "bottom right of the lens rim",
+   "reader": "r1"
+  },
+  {
+   "key": "k90",
+   "shots": [
+    90
+   ],
+   "still": "full/jar_rows_drone.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small letter-like tags on the jars.",
+   "where": "jars",
+   "reader": "r1"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/m_sees.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The umbrella shaft bends into a hook mid-shaft and melts into her fingertips.",
+   "where": "hand and shaft, centre",
+   "reader": "r1"
+  }
+ ]
+}
