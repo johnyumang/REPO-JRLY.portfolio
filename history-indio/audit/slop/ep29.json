@@ -18,7 +18,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k06",
@@ -65,7 +66,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k11",
@@ -80,7 +82,8 @@
    "second_reader": "confirmed; must_fix raised to true: this is a full-frame close-up and both huge ears stand up, so the one folded ear is unmistakably missing on a paused screen",
    "fixed": true,
    "fix": "redraw",
-   "tries": 3
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k17",
@@ -143,7 +146,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k22",
@@ -170,7 +174,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k36",
@@ -185,7 +190,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k41",
@@ -260,7 +266,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k60",
@@ -275,7 +282,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 4
+   "tries": 4,
+   "third_reader": "kept"
   },
   {
    "key": "k65",
@@ -290,7 +298,8 @@
    "second_reader": "confirmed; must_fix raised to true: the boy is the second of two figures in a medium shot and reads at once as a child, not the adult Indio of every other shot",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k78",
@@ -305,7 +314,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k00",
@@ -344,7 +354,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k10",
@@ -371,7 +382,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k69",
@@ -398,7 +410,8 @@
    "second_reader": "confirmed",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k66",
@@ -535,7 +548,8 @@
    "second_reader": "added",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k36",
@@ -550,7 +564,8 @@
    "second_reader": "added",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k75",
@@ -603,9 +618,9 @@
    "what": "The watch dials carry garbled letter-like marks and scrawled brand words beside the numerals.",
    "where": "centre, faces of the gold watches",
    "second_reader": "added",
-   "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "reverted: the redraw trades the minor dial-writing fault for a style jolt: a glossy, outline-free, near-3D render in flat yellow next to the flat line-art montage stills, and the heap does not slide; not clearly better"
   }
  ]
 }
