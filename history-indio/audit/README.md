@@ -25,3 +25,26 @@ The machine that holds an episode's work folder fixes that episode's stills:
 3. LOOK at every redraw at full size before you keep it. A redraw that is worse than the original is thrown away and the entry gets `"rejected": "redraw was worse (n tries)"` after three tries.
 4. Add `"fixed": true` to each fixed entry, commit the stills, `key_prompts.json`, the sheet and the json (pull --rebase first), and recomposite the keys of the changed shots.
 5. Rebuild only when the conductor's message says so (Season 1 rebuilds at once; the other seasons rebuild once, in the final pass, together with the voice fixes and the trivia break). Nothing is published until the conductor says so.
+
+## Picture quality pass (the owner's word on 13 November: "Ang dami kong nakikitang AI slop, extra fingers ... dapat high quality")
+The first cross-check hunted writing. This pass hunts what makes a picture look machine-made. The bar is higher: a fault counts when a viewer who PAUSES the video would see it, not only when it jumps out in three seconds.
+
+**Look at** every key (the finished frame of every shot, `keys/kNN.png`) at full size, and every hand, face and held object again at 3x. Report in `audit/slop/epNN.json`:
+1. `hands`: count the fingers of every visible hand (a thumb and four fingers). Extra, missing, fused or boneless fingers; two thumbs; a hand that melts into what it holds or into another person; a hand growing from the wrong place.
+2. `limbs`: an extra or missing arm or leg, a limb bent the wrong way, a foot or shoe that is a blob.
+3. `face`: eyes that do not match, a broken mouth or teeth, a second face, features sliding off.
+4. `merge`: two bodies, or a body and an object, grown together (a mother's arm that becomes the child's, hair that becomes a hat).
+5. `bleed`: a pattern or colour on the wrong surface (a dress print on a bare arm, a tattoo that is cloth).
+6. `object`: a thing that could not exist or work (a trumpet with two bells, a spoon that is a finger, a door in the sky, a chair with five legs).
+7. `off_model`: Indio, Usman, M or a named character who would not be recognised as the same person or dog as in the episode's other shots (face shape, hair, skin tone, build, outfit of that scene). Usman: a slim black short-haired street dog, white chest patch, ONE folded ear, red kerchief.
+8. `style`: a still drawn in another style than the episode (a painterly poster, a manga page, a 3D render) so that the cut to it jolts.
+9. `duplicate`: the same person twice in one picture where the script has one.
+10. `writing`: as before (any letter-like mark), if one was missed.
+Each entry: `{"key": "k07", "shots": [7], "still": "chars/lola_thumb.jpg", "type": "...", "must_fix": true|false, "what": "one plain sentence", "where": "which hand / corner"}`. `must_fix` = seen on a paused phone screen. An empty list is a good result; do not invent faults, and do not report taste.
+
+**Fix**, cheapest clean way first:
+1. *Reframe.* If the fault is at the edge, change the shot's crop in `key_prompts.json` (`x`, `y`, `s`) so it is out of the frame, when the picture still tells its moment.
+2. *Redraw without the risk.* Most hands need not be seen: "hands at his sides, out of frame", "hands behind her back", "arms crossed, hands tucked under the arms", "holding it with both hands hidden behind the object". Say the count when a hand must show: "one hand, a thumb and four fingers, holding ...". One moment, one or two people, no crowd close to the camera.
+3. *Redraw and choose.* With the backup engine draw up to four pictures (new seed each time, one call at a time) and keep one only if every hand, face and object passes at 3x. Paste the character strings from `characters/series_cast.json` word for word.
+4. *Hand it to the conductor* when four tries fail or the shot is a close-up the story hangs on: add `"needs_figma": true` and `"figma_prompt": "..."` (the full prompt you would use). The conductor draws those with the better engine when its daily credits return, most important shots first.
+A redraw that is not clearly better is thrown away. Keep the old file beside your work until the episode is rebuilt. Mark `"fixed": true`, recomposite the changed keys, commit stills, `key_prompts.json` and the json; rebuild when the conductor says so.
