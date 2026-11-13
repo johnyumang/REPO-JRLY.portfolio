@@ -4,7 +4,8 @@ Reads: digits (1,906 / 72% / Genesis 3:24 -> 3, 24); Tagalog (isa ... siyam, sam
 siyam" = 1609, "dalawampung milyon"); Spanish-derived Tagalog (uno ... nuwebe, onse ... disinuwebe, bente ... nobenta,
 -syentos, "mil seis siyentos nuwebe" = 1609, milyones); English (one ... ninety, hundred, thousand, million, year pairs
 "eighteen ninety-six" = 1896, "nineteen oh-six" = 1906); the linkers -ng / -'t / -'y / na / at / y; clock words
-("alas-sais" = "alasais" = alas 6). A heard split that a listener hears as one number ("1900, 60" = nineteen hundred sixty
+("alas-sais" = "alasais" = alas 6); ordinals ("ikadalawamputpito" = ika 27, "ika-16"); words the recogniser
+glues ("apat na putsyam" = 49, "libut limandaang" = libo't limandaan = 1500). A heard split that a listener hears as one number ("1900, 60" = nineteen hundred sixty
 = 1960; "600 at 89" = 689) is read as that one number.
   numbers(text) -> [int, ...] in order;  strip(text) -> text with every number removed (for the letter comparison);
   starts_with_number(text) -> bool;  diff(want, heard) -> [(expected or None, heard or None), ...] for each mismatch."""
@@ -13,7 +14,7 @@ import re, difflib
 UNIT = {}
 for v, ws in {1: ('isa', 'uno', 'one'), 2: ('dalawa', 'dos', 'two'), 3: ('tatlo', 'tres', 'three'), 4: ('apat', 'kuwatro', 'kwatro', 'kuatro', 'cuatro', 'four'),
               5: ('lima', 'singko', 'sinko', 'cinco', 'five'), 6: ('anim', 'sais', 'seis', 'six'), 7: ('pito', 'siyete', 'syete', 'siete', 'seven'),
-              8: ('walo', 'otso', 'ocho', 'eight'), 9: ('siyam', 'nuwebe', 'nueve', 'nwebe', 'nine'),
+              8: ('walo', 'otso', 'ocho', 'eight'), 9: ('siyam', 'syam', 'nuwebe', 'nueve', 'nwebe', 'nine'),
               10: ('sampu', 'diyes', 'dyes', 'dies', 'ten'), 11: ('onse', 'eleven', 'labingisa'), 12: ('dose', 'doce', 'twelve', 'labindalawa'),
               13: ('trese', 'trece', 'thirteen', 'labintatlo'), 14: ('katorse', 'catorce', 'fourteen', 'labingapat'), 15: ('kinse', 'quince', 'fifteen', 'labinlima'),
               16: ('disisais', 'diesiseis', 'sixteen', 'labinganim'), 17: ('disisiyete', 'disisyete', 'diesisiete', 'seventeen', 'labimpito', 'labinpito'),
@@ -50,7 +51,18 @@ def _val(w):
         if x in HUND: return 'h', HUND[x]
         if x in MULT: return MULT[x], None
         if x in ('labing', 'labin', 'labim'): return 'u', 10
+        if x in ('libu',): return 'x1000', None                                          # heard "libut" = libo't
+        m = re.fullmatch(r'([a-z]+?)(?:n|na|ng)?(daan|raan)', x)                         # one-word hundreds: "limandaan", "apatnaraan"
+        if m and (UNIT.get(m[1]) or 0) > 1: return 'h', UNIT[m[1]] * 100
     return None
+
+def _split(w):
+    """A recogniser-glued number word -> its parts ("apatnaputsyam" -> apatnaput syam), else [w]."""
+    if _val(w) or len(w) < 6: return [w]
+    for k in range(3, len(w) - 2):
+        a, b = w[:k], w[k:]
+        if _val(a) and (_val(b) or len(_split(b)) > 1): return [a] + _split(b)
+    return [w]
 
 def _words(t):
     t = t.lower().replace('ñ', 'n')
@@ -64,7 +76,9 @@ def _words(t):
         if w.startswith('alas') and len(w) > 4:                                        # clock: "alasais" = alas + sais, "alassiyete"
             r = w[4:]; r = r if _val(r) else 's' + r if _val('s' + r) else None
             if r: out += ['alas', r]; continue
-        out.append(w)
+        if w.startswith('ika') and len(w) > 3 and len(_split(w[3:])) >= 1 and (_val(w[3:]) or len(_split(w[3:])) > 1):
+            out += ['ika'] + _split(w[3:]); continue                                    # ordinals: "ikadalawamputpito" = ika 27, "ikalabing anim"
+        out += _split(w) if w.isalpha() else [w]
     return out
 
 def _kind(w):
@@ -76,7 +90,9 @@ def _scan(t):
     tok = _words(t); out = []; i = 0
     while i < len(tok):
         k0 = _kind(tok[i])
-        if not k0 or k0[0] in ('x100',) or tok[i] in NEED_BEFORE or (k0[0] == 'x1000' and tok[i] != 'mil'):
+        nk0 = _kind(tok[i + 1]) if i + 1 < len(tok) else None
+        lib = k0 and k0[0] == 'x1000' and tok[i] in ('libot', 'libut') and nk0 and nk0[0] in ('u', 't', 'h')   # "libo't limandaan" = 1500
+        if not lib and (not k0 or k0[0] in ('x100',) or tok[i] in NEED_BEFORE or (k0[0] == 'x1000' and tok[i] != 'mil')):
             i += 1; continue
         total, cur, last, lastd, j = 0, 0, None, None, i
         while j < len(tok):
@@ -148,7 +164,7 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("sumuko siya noong mil nuwebe syentos sais, umaasa", "Sumuko siya noong 1906, umaasa", [1906], True),
     ("sumuko siya noong mil nuwebe syentos sais, umaasa", "Sumuko siya noong 1909, umaasa", [1906], False),
     ("trenta'y singko na ako", "35 na ako", [35], True), ("trenta'y singko na ako", "Tanat-ray-sinko na ako", [35], False),
-    ("dos mil bente singko", "2025", [2025], True), ("noong ikalabintatlo ng setyembre", "noong ikalabintatlo ng Setyembre", [], True),
+    ("dos mil bente singko", "2025", [2025], True), ("noong ikalabintatlo ng setyembre", "noong ikalabintatlo ng Setyembre", [13], True),
     ("limampung sasakyan", "50 sasakyan", [50], True), ("dalawampu't isang taon", "21 taon", [21], True), ("sa daan papunta", "sa daan papunta", [], True),
     ("setenta'y dos porsyento", "72%", [72], True), ("kabanata bente dos, talata uno", "Kabanata 22, Talata 1", [22, 1], True), ("isang video", "Isang video", [], True),
     ("mil otsosyentos nobentay otso", "1898", [1898], True), ("limang trak", "5 truck", [5], True),
@@ -166,7 +182,7 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("eighteen ninety-nine", "1899", [1899], True), ("mil otso syentos sisentay nuwebe", "1869", [1869], True),
     ("mil nuwebe syentos sais lang ito unang nalathala", "1906 lang ito unang nalathala", [1906], True),
     ("mil otsosyentos nobentay nuwebe, sumiklab", "1899, sumiklab", [1899], True),
-    ("alas-siyete ng umaga, ikatatlumpu ng disyembre, mil otsosyentos nobentay sais", "Alas 7 ng umaga, ikatatlumpu ng Disyembre, 1896", [7, 1896], True),
+    ("alas-siyete ng umaga, ikatatlumpu ng disyembre, mil otsosyentos nobentay sais", "Alas 7 ng umaga, ikatatlumpu ng Disyembre, 1896", [7, 30, 1896], True),
     ("dalawampung milyong dolyar ang nakasulat", "20 milyong dolyar ang nakasulat", [20000000], True),
     ("dalawampung milyong dolyar ang nakasulat", "20 million dollars ang nakasulat", [20000000], True),
     ("bente milyones", "20 milyones", [20000000], True), ("ang dalawampung milyon, at walang pilipino", "ang 20 milyon at walang Pilipino", [20000000], True),
@@ -180,6 +196,14 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("isa, dalawa, tatlo", "1, 2, 3", [1, 2, 3], True), ("mula sa isang libong metro", "mula sa 1,000 metro", [1000], True),
     ("isandaang taon", "100 taon", [100], True), ("mil kuwatrosiyentos nobentay dos", "1492", [1492], True),
     ("tatlong daan at apatnapu", "300 at 40", [340], True), ("mil nobesiyentos", "1900", [1900], True),
+    # third round: ordinals, glued words, libo't, and the e4be8d7 cases
+    ("ikadalawampu't pitong araw", "ikadalawamputpitong araw", [27], True), ("ikalabing-anim na siglo", "ikalabing anim na siglo", [16], True),
+    ("ikalabing-anim na siglo", "ika-16 na siglo", [16], True), ("ikalabing-anim na siglo", "ikalabinlimang siglo", [16], False),
+    ("noong ikalabintatlo ng setyembre", "noong ika-13 ng Setyembre", [13], True),
+    ("apatnapu't siyam na araw", "apat na putsyam na araw", [49], True), ("isang libo't limandaang tao", "isang libut limandaang tao", [1500], True),
+    ("libo't limandaan", "1500", [1500], True), ("mil kinyentos", "libo't limandaan", [1500], True),
+    ("mil onse", "111", [1011], False), ("mil onse", "1011", [1011], True),
+    ("mil kuwatrosiyentos disisiyete", "1417", [1417], True), ("mil treynta'y", "1030", [1030], True),
     ("mahigit dalawang libong metro ang taas", "mahigit 2000 metro ang taas", [2000], True), ("libu-libo na sila", "libu-libo na sila", [], True),
 ]
 
