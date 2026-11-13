@@ -6,14 +6,16 @@ because image models cannot spell. Fonts are open-licence (pipeline/fonts, SIL O
   thumbnail.py make --art art.png --out ep01_thumb.jpg --line "NASA 1896" --line "NA AKO?!" \
       --accent 1896 --season 1 --episode 1 [--pos top|bottom] [--color yellow|red|cyan|white] [--tilt -4]
       [--zoom 1.0 --dx 0 --dy 0] [--size 1080x1920|1280x720] [--font anton|archivo|bebas] [--box 2] [--guides]
-      [--brand-pos bl|br|tl|tr|none] --keep face:0.20,0.30,0.80,0.62 --keep medallion:0.40,0.80,0.62,0.93
+      [--brand-pos bl|br|tl|tr|none] [--badge-pos tl|tr] [--badge-scale 0.8]
+      --keep head:0.20,0.24,0.80,0.62 --keep medallion:0.40,0.80,0.62,0.93
   thumbnail.py sheet --out sheet.jpg a.jpg b.jpg c.jpg [--labels A B C]
 
 THE FIRST RULE (the owner's): nothing may cover a face or a thing that matters in the story (the medallion, the dog,
 the paper, a hand that holds something). Give every such area with --keep name:x0,y0,x1,y1 (fractions of the finished
-frame, after zoom and shift). The script measures how much the words, the badge and the brand tab cover each area,
+frame, after zoom and shift; a head is the whole head with its hair and topknot, not only the face). The script measures how much the words, the badge and the brand tab cover each area,
 prints BLOCKED lines and exits with code 3 when anything is covered; move the words (--pos, --top), shrink them
-(fewer words), move the brand (--brand-pos) or reframe (--zoom, --dx, --dy) until it passes. --guides draws the areas.
+(fewer words), move the brand (--brand-pos), move or shrink the badge (--badge-pos tr, --badge-scale) or reframe
+(--zoom, --dx, --dy) until it passes. --guides draws the areas.
 
 Rules the layout follows (vertical covers): everything that matters sits inside the middle 4:5 of the frame (feeds and
 profile grids crop to it); at most two lines and four words; the words never repeat the title; one word in the accent
@@ -106,13 +108,15 @@ def words_layer(W, H, lines, accent, color, fname, pos, tilt, box, top_frac=None
     return L.crop((pad, pad, pad + W, pad + H)), (top, top + total)
 
 
-def badge(im, season, episode, tag=None):
-    """Top left, always the same place: SEASON n on yellow, EPISODE n on red."""
+def badge(im, season, episode, tag=None, pos='tl', k=1.0):
+    """SEASON n on yellow, EPISODE n on red. Top left by default; top right (pos='tr') or smaller (k < 1) only when
+    the top left of the picture holds a head or a story object that the badge would cover."""
     W, H = im.size; vertical = H > W; d = ImageDraw.Draw(im)
-    u = H * (0.030 if vertical else 0.062); x = W * 0.05; y = H * (0.075 if vertical else 0.06)
+    u = H * (0.030 if vertical else 0.062) * k; y = H * (0.075 if vertical else 0.06)
     f1 = font('archivo', u * 0.80); f2 = font('anton', u * 1.75); sw = max(3, int(u * 0.10))
     t1 = f'SEASON {season}'; t2 = tag or f'EPISODE {episode}'
     w1 = f1.getlength(t1) + u * 0.9; h1 = u * 1.25; w2 = f2.getlength(t2) + u * 1.0; h2 = u * 2.35
+    x = W * 0.05 if pos == 'tl' else W * 0.95 - max(w1, w2) - u * 0.12
     d.rounded_rectangle((x + u * 0.12, y + u * 0.12, x + max(w1, w2) + u * 0.12, y + h1 + h2 + u * 0.12), radius=int(u * 0.25), fill=(0, 0, 0))
     d.rounded_rectangle((x, y, x + w1, y + h1), radius=int(u * 0.22), fill=COLORS['yellow'], outline=(0, 0, 0), width=sw)
     d.text((x + u * 0.45, y + h1 / 2), t1, font=f1, fill=(0, 0, 0), anchor='lm')
@@ -147,7 +151,7 @@ def make(a):
         solid = layer.split()[3].point(lambda v: 255 if v > 200 else 0)        # the letters and outline, not the soft shadow
         if solid.getbbox(): rects['words'] = solid.getbbox()
         im = Image.alpha_composite(im.convert('RGBA'), layer).convert('RGB')
-    if a.season: im, rects['badge'] = badge(im, a.season, a.episode, a.tag)
+    if a.season: im, rects['badge'] = badge(im, a.season, a.episode, a.tag, a.badge_pos, a.badge_scale)
     if a.brand_pos != 'none': im, rects['brand tab'] = brand(im, pos=a.brand_pos)
     keeps = []
     for k in a.keep or []:
@@ -194,6 +198,7 @@ if __name__ == '__main__':
     m.add_argument('--season', type=int); m.add_argument('--episode', type=int); m.add_argument('--tag')
     m.add_argument('--size', default='1080x1920'); m.add_argument('--zoom', type=float, default=1.0)
     m.add_argument('--dx', type=float, default=0.0); m.add_argument('--dy', type=float, default=0.0)
+    m.add_argument('--badge-pos', default='tl', choices=['tl', 'tr']); m.add_argument('--badge-scale', type=float, default=1.0)
     m.add_argument('--brand-pos', default='bl', choices=['bl', 'br', 'tl', 'tr', 'none']); m.add_argument('--guides', action='store_true')
     m.add_argument('--keep', action='append', help='name:x0,y0,x1,y1 (fractions): an area nothing may cover; repeatable')
     m.add_argument('--allow-overlap', action='store_true', help='save anyway and exit 0 (for looking only, never for a final)')
