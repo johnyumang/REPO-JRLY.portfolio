@@ -43,7 +43,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "A large framed notice board behind Usman is filled with rows of pseudo-text, and two smaller framed certificates beside it also carry text."
+   "what": "A large framed notice board behind Usman is filled with rows of pseudo-text, and two smaller framed certificates beside it also carry text.",
+   "fixed": true
   },
   {
    "still": "full/bidding_room.jpg",
@@ -103,7 +104,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "A white banner on the back wall reads 'BURDADLIUCI HALL' with a second line of garbled text under the seal."
+   "what": "A white banner on the back wall reads 'BURDADLIUCI HALL' with a second line of garbled text under the seal.",
+   "fixed": true
   },
   {
    "still": "full/fiction_table.jpg",
@@ -112,7 +114,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The open folder in the foreground shows a document with a bold garbled title and paragraphs of pseudo-text."
+   "what": "The open folder in the foreground shows a document with a bold garbled title and paragraphs of pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/holo_91.jpg",
@@ -121,7 +124,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The hologram over Indio's forearm reads '9991 199%' plus rows of tiny glyphs, where the script needs 91 percent."
+   "what": "The hologram over Indio's forearm reads '9991 199%' plus rows of tiny glyphs, where the script needs 91 percent.",
+   "fixed": true
   },
   {
    "still": "full/garage_photo.jpg",
@@ -186,7 +190,9 @@
    ],
    "type": "flag",
    "must_fix": false,
-   "what": "The flag at the left has a blue top, a yellow band and a red bottom, with the sun on blue and white and no proper triangle."
+   "what": "The flag at the left has a blue top, a yellow band and a red bottom, with the sun on blue and white and no proper triangle.",
+   "fixed": true,
+   "fixed_note": "the redraw has no flag"
   },
   {
    "still": "full/bidding_room.jpg",
@@ -195,7 +201,9 @@
    ],
    "type": "flag",
    "must_fix": false,
-   "what": "The flag on the back wall is blue and red with a sun but has no white triangle."
+   "what": "The flag on the back wall is blue and red with a sun but has no white triangle.",
+   "fixed": true,
+   "fixed_note": "the redraw has no flag"
   },
   {
    "still": "full/tubal_enter.jpg",
@@ -205,7 +213,9 @@
    ],
    "type": "flag",
    "must_fix": false,
-   "what": "The standing flag at right is blue and white with a large red-centred sun and no red stripe, and the small flag in the wall sign has no triangle."
+   "what": "The standing flag at right is blue and white with a large red-centred sun and no red stripe, and the small flag in the wall sign has no triangle.",
+   "fixed": true,
+   "fixed_note": "the redraw has no flag"
   },
   {
    "still": "full/tubal_ring_cu.jpg",
@@ -277,7 +287,9 @@
    ],
    "type": "flag",
    "must_fix": false,
-   "what": "The flag behind the desk is blue with a yellow sun and a yellow band, with no white triangle and no red."
+   "what": "The flag behind the desk is blue with a yellow sun and a yellow band, with no white triangle and no red.",
+   "fixed": true,
+   "fixed_note": "the redraw has no flag"
   },
   {
    "still": "full/vangie_three.jpg",
