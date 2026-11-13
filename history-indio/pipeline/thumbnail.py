@@ -6,7 +6,14 @@ because image models cannot spell. Fonts are open-licence (pipeline/fonts, SIL O
   thumbnail.py make --art art.png --out ep01_thumb.jpg --line "NASA 1896" --line "NA AKO?!" \
       --accent 1896 --season 1 --episode 1 [--pos top|bottom] [--color yellow|red|cyan|white] [--tilt -4]
       [--zoom 1.0 --dx 0 --dy 0] [--size 1080x1920|1280x720] [--font anton|archivo|bebas] [--box 2] [--guides]
+      [--brand-pos bl|br|tl|tr|none] --keep face:0.20,0.30,0.80,0.62 --keep medallion:0.40,0.80,0.62,0.93
   thumbnail.py sheet --out sheet.jpg a.jpg b.jpg c.jpg [--labels A B C]
+
+THE FIRST RULE (the owner's): nothing may cover a face or a thing that matters in the story (the medallion, the dog,
+the paper, a hand that holds something). Give every such area with --keep name:x0,y0,x1,y1 (fractions of the finished
+frame, after zoom and shift). The script measures how much the words, the badge and the brand tab cover each area,
+prints BLOCKED lines and exits with code 3 when anything is covered; move the words (--pos, --top), shrink them
+(fewer words), move the brand (--brand-pos) or reframe (--zoom, --dx, --dy) until it passes. --guides draws the areas.
 
 Rules the layout follows (vertical covers): everything that matters sits inside the middle 4:5 of the frame (feeds and
 profile grids crop to it); at most two lines and four words; the words never repeat the title; one word in the accent
@@ -63,10 +70,10 @@ def fit(name, text, width, max_size, stroke_k):
     return lo
 
 
-def words_layer(W, H, lines, accent, color, fname, pos, tilt, box, top_frac=None):
+def words_layer(W, H, lines, accent, color, fname, pos, tilt, box, top_frac=None, scale=1.0):
     """The stacked words on a transparent layer: each line as wide as the safe width allows, black outline, shadow."""
     vertical = H > W
-    safe_w = W * (0.90 if vertical else 0.62); stroke_k = 0.085
+    safe_w = W * (0.90 if vertical else 0.62) * scale; stroke_k = 0.085
     max_size = H * (0.150 if vertical else 0.30) if len(lines) > 1 else H * (0.19 if vertical else 0.34)
     sizes = [fit(fname, ln.upper(), safe_w, max_size, stroke_k) for ln in lines]
     gap = lambda s: int(s * 0.04)
@@ -111,33 +118,55 @@ def badge(im, season, episode, tag=None):
     d.text((x + u * 0.45, y + h1 / 2), t1, font=f1, fill=(0, 0, 0), anchor='lm')
     d.rounded_rectangle((x, y + h1 - sw, x + w2, y + h1 + h2), radius=int(u * 0.25), fill=(214, 20, 30), outline=(0, 0, 0), width=sw)
     d.text((x + u * 0.5, y + h1 + h2 / 2 - sw / 2), t2, font=f2, fill=(255, 255, 255), anchor='lm')
-    return im
+    return im, (x, y, x + max(w1, w2) + u * 0.12, y + h1 + h2 + u * 0.12)
 
 
-def brand(im, name='HISTORY INDIO'):
+def brand(im, name='HISTORY INDIO', pos='bl'):
     W, H = im.size; vertical = H > W; d = ImageDraw.Draw(im)
-    u = H * (0.024 if vertical else 0.05); f = font('archivo', u); x = W * 0.05; y = H * (0.872 if vertical else 0.90)
+    u = H * (0.024 if vertical else 0.05); f = font('archivo', u)
     w = f.getlength(name) + u * 1.2
+    x = W * 0.05 if pos[1] == 'l' else W * 0.95 - w
+    y = H * (0.872 if vertical else 0.90) if pos[0] == 'b' else H * (0.082 if vertical else 0.07)
     d.rounded_rectangle((x, y, x + w, y + u * 1.7), radius=int(u * 0.3), fill=(0, 0, 0), outline=COLORS['yellow'], width=max(2, int(u * 0.10)))
     d.text((x + u * 0.6, y + u * 0.85), name, font=f, fill=COLORS['yellow'], anchor='lm')
-    return im
+    return im, (x, y, x + w, y + u * 1.7)
+
+
+def overlap(r, k):
+    w = min(r[2], k[2]) - max(r[0], k[0]); h = min(r[3], k[3]) - max(r[1], k[1])
+    return max(0.0, w) * max(0.0, h) / max(1e-9, (k[2] - k[0]) * (k[3] - k[1]))
 
 
 def make(a):
     W, H = (int(v) for v in a.size.lower().split('x'))
     im = Image.open(a.art).convert('RGB'); im = cover(im, W, H, a.zoom, a.dx, a.dy); im = grade(im)
-    if a.line: im = scrim(im, a.pos, a.scrim)
+    rects = {}
     if a.line:
-        layer, _ = words_layer(W, H, a.line, a.accent or [], COLORS[a.color], a.font, a.pos, a.tilt, a.box, a.top)
+        im = scrim(im, a.pos, a.scrim)
+        layer, _ = words_layer(W, H, a.line, a.accent or [], COLORS[a.color], a.font, a.pos, a.tilt, a.box, a.top, a.scale)
+        solid = layer.split()[3].point(lambda v: 255 if v > 200 else 0)        # the letters and outline, not the soft shadow
+        if solid.getbbox(): rects['words'] = solid.getbbox()
         im = Image.alpha_composite(im.convert('RGBA'), layer).convert('RGB')
-    if a.season: im = badge(im, a.season, a.episode, a.tag)
-    if not a.no_brand: im = brand(im)
-    if a.guides:                                              # the middle 4:5: what a feed or a profile grid keeps
+    if a.season: im, rects['badge'] = badge(im, a.season, a.episode, a.tag)
+    if a.brand_pos != 'none': im, rects['brand tab'] = brand(im, pos=a.brand_pos)
+    keeps = []
+    for k in a.keep or []:
+        name, box = k.split(':'); x0, y0, x1, y1 = (float(v) for v in box.split(','))
+        keeps.append((name, (x0 * W, y0 * H, x1 * W, y1 * H)))
+    blocked = [(n, e, overlap(r, kb)) for n, kb in keeps for e, r in rects.items() if overlap(r, kb) > 0.01]
+    if 'words' in rects:                                      # the words must not sit on the badge or the brand tab either
+        blocked += [('the ' + e, 'words', overlap(rects['words'], r)) for e, r in rects.items() if e != 'words' and overlap(rects['words'], r) > 0.01]
+    if a.guides:                                              # the middle 4:5 (green) and the keep-clear areas (cyan)
         d = ImageDraw.Draw(im); h45 = W * 5 / 4; y0 = (H - h45) / 2
         d.rectangle((2, y0, W - 3, y0 + h45), outline=(0, 255, 0), width=3)
+        for n, kb in keeps: d.rectangle(kb, outline=(0, 229, 255), width=4)
     im.save(a.out, quality=93, subsampling=0)
     small = im.resize((270, round(270 * H / W)), Image.LANCZOS); small.save(os.path.splitext(a.out)[0] + '_small.jpg', quality=88)
     print(a.out, im.size)
+    if not keeps: print('NOTE: no --keep areas given: nothing checked that faces and story objects are clear')
+    for n, e, f in blocked: print(f'BLOCKED: the {e} covers {f:.0%} of {n}')
+    if blocked and not a.allow_overlap: sys.exit(3)
+    if keeps and not blocked: print('clear: nothing covers ' + ', '.join(n for n, _ in keeps))
 
 
 def sheet(a):
@@ -159,11 +188,14 @@ if __name__ == '__main__':
     m.add_argument('--line', action='append', default=[]); m.add_argument('--accent', action='append')
     m.add_argument('--color', default='yellow', choices=list(COLORS)); m.add_argument('--pos', default='bottom', choices=['top', 'bottom'])
     m.add_argument('--top', type=float, help='top of the words as a fraction of the height (overrides --pos placement)')
+    m.add_argument('--scale', type=float, default=1.0, help='make the words smaller (0.7 to 1.0) when they would cover something')
     m.add_argument('--tilt', type=float, default=-3.0); m.add_argument('--font', default='anton', choices=list(FONTS))
     m.add_argument('--box', type=int, default=0, help='put line N on a red block'); m.add_argument('--scrim', type=float, default=0.72)
     m.add_argument('--season', type=int); m.add_argument('--episode', type=int); m.add_argument('--tag')
     m.add_argument('--size', default='1080x1920'); m.add_argument('--zoom', type=float, default=1.0)
     m.add_argument('--dx', type=float, default=0.0); m.add_argument('--dy', type=float, default=0.0)
-    m.add_argument('--no-brand', action='store_true'); m.add_argument('--guides', action='store_true')
+    m.add_argument('--brand-pos', default='bl', choices=['bl', 'br', 'tl', 'tr', 'none']); m.add_argument('--guides', action='store_true')
+    m.add_argument('--keep', action='append', help='name:x0,y0,x1,y1 (fractions): an area nothing may cover; repeatable')
+    m.add_argument('--allow-overlap', action='store_true', help='save anyway and exit 0 (for looking only, never for a final)')
     s = sub.add_parser('sheet'); s.add_argument('--out', required=True); s.add_argument('images', nargs='+'); s.add_argument('--labels', nargs='*')
     a = p.parse_args(); (make if a.cmd == 'make' else sheet)(a)
