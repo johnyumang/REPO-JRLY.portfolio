@@ -1,0 +1,261 @@
+{
+ "episode": 32,
+ "audited_by": "ep42-worker",
+ "stills_looked_at": 66,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/intro.jpg",
+   "shots": [
+    1
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Three stacked close-up faces of three different young men in separate horizontal strips: a three-panel collage, and none of them is Indio."
+  },
+  {
+   "still": "full/family_quiet.jpg",
+   "shots": [
+    49
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "A hard vertical seam down the middle joins two different table pictures (left and right halves do not match: table edge, light, wall)."
+  },
+  {
+   "still": "full/ramil_kagawad.jpg",
+   "shots": [
+    48
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The man in blue behind Indio has a face fused into the back of Indio's head, and extra clapping hands next to Indio's arm with the red kerchief read as Indio's own."
+  },
+  {
+   "still": "full/receipt_fake.jpg",
+   "shots": [
+    23
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The whole frame is a receipt under a magnifier full of large red pseudo-numbers and Korean-like glyph rows."
+  },
+  {
+   "still": "full/signature_cu.jpg",
+   "shots": [
+    22
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Gold seal at bottom right ringed with CJK-like characters and Latin letters ('NOE', 'BPE'); the blue signature scrawl itself is acceptable."
+  },
+  {
+   "still": "full/erased_para.jpg",
+   "shots": [
+    24,
+    81
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The whole page is glowing and typed pseudo-English ('the mgyreds ehe do, ad thel wbr'), large and readable as gibberish."
+  },
+  {
+   "still": "full/marker_read.jpg",
+   "shots": [
+    35
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Large bronze historical marker behind Indio covered in pseudo-English lines ('CORABECTED O PHILIPPINS ...'), and Indio's booklet also has text."
+  },
+  {
+   "still": "full/indio_show.jpg",
+   "shots": [
+    43,
+    63
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Indio holds a document at the centre of the frame covered in pseudo-text with a red circle around gibberish lines."
+  },
+  {
+   "still": "full/count_win.jpg",
+   "shots": [
+    19
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Tally sheets across the table in the foreground with pseudo-handwriting and numbers, and 'BAL' on a box at bottom right."
+  },
+  {
+   "still": "full/usman_manager.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Stack of papers by Usman's paw reads 'KAWIT CAVITE' followed by pseudo-handwritten lines."
+  },
+  {
+   "still": "full/flood_line.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Flood gauge on the wall with garbled numbers (66, 04, 63, 06, 106 out of order) and a blue sign with pseudo-text at its top."
+  },
+  {
+   "still": "full/engineer_hand.jpg",
+   "shots": [
+    32
+   ],
+   "type": "logo",
+   "must_fix": true,
+   "what": "A large red logo-like mark on the white hard hat at the top of the frame; the form under her pen also carries small pseudo-text."
+  },
+  {
+   "still": "full/rico_vlog.jpg",
+   "shots": [
+    51
+   ],
+   "type": "logo",
+   "must_fix": true,
+   "what": "A huge red arrow-and-ring logo fills the background and a big red 'D' is printed on the green shirt."
+  },
+  {
+   "still": "full/folder_open.jpg",
+   "shots": [
+    20
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The certificate under the folder carries a pseudo-signature line ('Sanna Jnapmh...') and a red stamp with glyphs at bottom of frame."
+  },
+  {
+   "still": "full/old_report.jpg",
+   "shots": [
+    39,
+    64
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Full-frame manuscript of pseudo-cursive; reads as a period page but the words are gibberish if a viewer looks closely."
+  },
+  {
+   "still": "full/sidecar_ride.jpg",
+   "shots": [
+    15,
+    88
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Red sign 'KAWIT CAVITE PHILIPPINES' at top left (readable, place is right) and a pseudo-text logo on the driver's cap."
+  },
+  {
+   "still": "full/medal_read.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Partial 'CA' wall sign behind Indio and pseudo-text on the paper in his hand."
+  },
+  {
+   "still": "full/peso_wall.jpg",
+   "shots": [
+    45,
+    90
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Wall of posted sheets with small pseudo-text lines and tables."
+  },
+  {
+   "still": "full/bea_notes.jpg",
+   "shots": [
+    13
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small pseudo-text on Bea's ID card and notebook; and small shop sign glyphs in the background."
+  },
+  {
+   "still": "full/jm_cu.jpg",
+   "shots": [
+    16
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "Logo mark on JM's cap and a small badge on the motorcycle tank."
+  },
+  {
+   "still": "full/ramil_confess.jpg",
+   "shots": [
+    46
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "Small printed logos on the chests of two bystanders' shirts."
+  },
+  {
+   "still": "full/holo_90.jpg",
+   "shots": [
+    68
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "Hologram panel by Indio's wrist shows a UI bar with a question mark and a '%' sign."
+  },
+  {
+   "still": "full/usman_stairs.jpg",
+   "shots": [
+    5,
+    67
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears pricked up and pointed (no folded ear), and Indio here has no medallion."
+  },
+  {
+   "still": "full/ (25 stills with the grey t-shirt prompt)",
+   "shots": [
+    5,
+    8,
+    10,
+    11,
+    13,
+    15,
+    19,
+    20,
+    21,
+    26,
+    31,
+    34,
+    35,
+    36,
+    43,
+    44,
+    48,
+    52,
+    54,
+    56,
+    58,
+    60,
+    63,
+    67,
+    68,
+    69,
+    70,
+    71,
+    83,
+    86,
+    88,
+    91
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a grey t-shirt, jeans and a red wrist kerchief in every modern still (as the episode's prompts ask), not the series modern outfit (orange windbreaker over a white polo, medallion); consistent within the episode."
+  }
+ ]
+}
