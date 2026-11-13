@@ -1,0 +1,252 @@
+{
+ "episode": 3,
+ "audited_by": "central",
+ "keys_looked_at": 36,
+ "defects": [
+  {
+   "key": "k00",
+   "shots": [
+    0,
+    26
+   ],
+   "still": "chars/ancestor.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The mother's two hands and the child's hand knot together in front of her waist; the fingers cross and none of the three hands can be counted to a thumb and four fingers.",
+   "where": "centre, the hands at the child's seat (about x 380-950, y 1080-1450)",
+   "fix_idea": "Redraw while hiding the hands: one arm under the child with the hand hidden behind his legs, the other arm around his back. Cold open and shot 26: hand to the conductor (needs_figma) if four tries fail."
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "chars/ancestor_side.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The mother's hand under the child is a flat pale slab without fingers that runs into the child's leg, and the child's hand lies on it so the two grow together.",
+   "where": "centre, where she holds the child (about x 480-900, y 1150-1600)",
+   "fix_idea": "Redraw with her arms wrapped around the child and her hands hidden behind his back, using the chars/ancestor.jpg wording word for word."
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "chars/ancestor_side.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "A different mother and child from k00/k26: beige cap and ponytail instead of the lavender hood, white blouse with a pink sash and pink skirt instead of the grey dress, and the child in white instead of olive.",
+   "where": "whole figure",
+   "fix_idea": "Same redraw as the merge entry: paste the ancestor.jpg mother and child wording (lavender hood, grey dress, child in an olive shirt with the medallion), only the pose changes to three-quarter profile looking up."
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "chars/bandsman.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The horn cannot exist: its tubing loops back on itself and a second long smeared brass tube sweeps out diagonally to the right edge like a second bell.",
+   "where": "centre to lower right, the instrument",
+   "fix_idea": "Redraw and choose with 'one plain cornet seen from the side, one bell pointing forward, both hands on the valves', or the horn lowered at his side."
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "chars/bandsman.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The straw texture on the hat brim and crown is drawn as clusters of strokes that read as Chinese or Japanese characters on a paused frame.",
+   "where": "hat brim and crown, top third",
+   "fix_idea": "Fix with the horn redraw: 'smooth plain woven straw hat, no markings'."
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "chars/lola_remember.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "The flower print of Lola's dress is painted onto the bare skin of her forearm and onto a finger of the hand on her chest.",
+   "where": "lower left forearm (about x 150-500, y 1550-1900) and the hand on her chest",
+   "fix_idea": "Redraw with her hands folded in her lap out of frame, or reframe tighter on her face."
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "chars/lola_remember.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "In the three-quarter view the far lens of Lola's glasses floats past the edge of her face.",
+   "where": "glasses, left side of the face",
+   "fix_idea": "Fix with the bleed redraw."
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "chars/lola_ask.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Lola's raised hand is a lumpy thumbs-up fist with no fingers drawn and purple shading, and a second thumbs-up hand at the right edge has short stub fingers; neither counts to five.",
+   "where": "middle (about x 350-700, y 980-1400) and right edge (about x 950-1152, y 1330-1680)",
+   "fix_idea": "Redraw with her hands at her sides out of frame, leaning forward with a raised eyebrow; or reframe to head and shoulders."
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/medallion.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the glowing medallion is an oversized mitten: a thumb on top, one curled finger at the right and a broad flat slab of palm with no other fingers, so it cannot be counted to five.",
+   "where": "the whole hand behind the medallion (about x 0-1050, y 450-1900)",
+   "fix_idea": "Redraw the close-up with the medallion hanging from its cord in front of a dark background, or 'held between a thumb and four curled fingers, seen from the side'. Story close-up: needs_figma if four tries fail."
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "chars/indio_think.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "In 1898 Indio wears a modern white V-neck T-shirt and his raised forearm has no tattoo, while k30 shows a collarless camisa and k17 a collared shirt.",
+   "where": "his shirt and the raised forearm",
+   "fix_idea": "Redraw and choose with the 1896_manila outfit string word for word plus 'two indigo geometric tattoos on his right forearm', the hand under the chin as one hand, a thumb and four fingers."
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "chars/indio_shock.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Missed by the first reader: in 1898 Indio again wears a modern V-neck T-shirt with no tattoo on the forearm, so k01, k17, k28 and k30 show three different shirts in one scene.",
+   "where": "his shirt and forearm",
+   "fix_idea": "Redraw with the same 1896_manila string as k28, k17 and k30 so all 1898 Indio shots match; keep the hand on the medallion (it passes at 3x)."
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "chars/indio_awe.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In 1898 Indio wears a modern collared button shirt with a pointed collar instead of the collarless camisa of k30.",
+   "where": "his shirt",
+   "fix_idea": "Redraw with the 1896_manila outfit string, the same as k28, k01 and k30."
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "chars/indio_cheer.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has no topknot, only loose messy hair with a cowlick, and a rounder face with big cartoon eyes, so he does not read as the Indio of k09, k12 or k40.",
+   "where": "head",
+   "fix_idea": "Redraw and choose with the indio_modern string word for word, keeping the fist pump: 'one fist raised, a thumb and four fingers curled'."
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has a bodybuilder's chest and shoulders and a green tint on his neck, unlike the slim street dog of k23.",
+   "where": "neck and chest, lower half",
+   "fix_idea": "Redraw with the usman string word for word plus 'slim, lean street-dog build', the growl kept to the face."
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "chars/usman_crowd.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is jet black with white brow marks and a narrower face, unlike the grey-black broad-muzzled dog of k23 and k27 (his white chest patch does show below the kerchief).",
+   "where": "the dog's face",
+   "fix_idea": "Redraw with the usman string word for word so the three Usman shots share one look."
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4,
+    5,
+    13,
+    33,
+    40
+   ],
+   "still": "plates/shrine.jpg",
+   "type": "other",
+   "must_fix": true,
+   "what": "The 'Aguinaldo Shrine' background is a white church with a tall red steeple, against the cast rule (no church on a civic monument); the real shrine has a square tower and no steeple. The steeple is sharpest in k33 and k40.",
+   "where": "background behind Indio in every shrine shot",
+   "fix_idea": "Redraw the plate: 'a large old house of wood and stone with a tall square tower, a museum in Kawit, Cavite, Philippines, no cross, no church, no steeple, no religious statue'."
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/flag.png",
+   "type": "other",
+   "must_fix": true,
+   "what": "The flag is waved from a carved wooden balcony, while the narration over this shot says 'mula sa bintana' and later says the balcony was only added in 1919; the picture shows the myth the episode corrects.",
+   "where": "upper half, the balcony and balustrade",
+   "fix_idea": "Redraw so the flag hangs from an open window with wooden shutters and no balcony or railing, as on plates/kawit1898.jpg."
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "chars/indio_alone.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The narration says he now has a third tattoo, but his bare forearm shows none; the fist below the wrist cloth is stubby but countable at 3x.",
+   "where": "bottom centre, the forearm below the red wrist cloth",
+   "fix_idea": "When the shrine plate is redrawn, redraw this still with 'three small indigo geometric tattoos on his forearm' and the other hand in his jacket pocket."
+  },
+  {
+   "key": "k02",
+   "shots": [
+    2
+   ],
+   "still": "full/intro.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Missed by the first reader: the glowing clock rings behind Indio carry letter-like marks ('E', 'B' and runs of glyphs) around their rims.",
+   "where": "the rings in the top third, left and right of his head",
+   "fix_idea": "Blur or darken the outer ring in the composite, or redraw with 'gear rings with plain tick marks only, no letters, no numerals'."
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "chars/lola_smile.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Missed by the first reader: Lola's clasped hands melt into one rounded block; the fingertips are pink lumps at the bottom and no finger can be counted.",
+   "where": "bottom centre, the clasped hands (about x 400-800, y 1550-1850)",
+   "fix_idea": "Reframe higher (y up, s smaller) so the hands drop below the frame edge; her smile carries the moment."
+  }
+ ]
+}

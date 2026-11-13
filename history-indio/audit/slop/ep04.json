@@ -1,0 +1,390 @@
+{
+ "episode": 4,
+ "audited_by": "central",
+ "keys_looked_at": 37,
+ "defects": [
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/medallion.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the medallion is a smooth mitten with no separate fingers, and the medallion sits pasted flat on the palm.",
+   "where": "whole frame, the hand fills the centre",
+   "fix_idea": "Close-up the story hangs on: redraw and choose, or hand to the conductor. The medallion hanging from its cord in front of a dark background, with only the fingertips of one hand at the bottom edge."
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "chars/hug.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The boy hugging the dog shows three hands: one behind the dog's ear, one gripping his own sleeve at the right, and one more under the dog's paw.",
+   "where": "left edge near the dog's ear, right middle, and lower centre",
+   "fix_idea": "Redraw hiding the hands: the boy kneels with his face pressed into the dog's neck, both arms around the dog, hands hidden in its fur behind its back. Paste the Usman string word for word."
+  },
+  {
+   "key": "k25",
+   "shots": [
+    25
+   ],
+   "still": "chars/hug.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The dog in the hug is a fluffy floppy-eared Labrador, not the slim short-haired Usman with one folded ear and a white chest patch.",
+   "where": "left half, the dog",
+   "fix_idea": "Same redraw as the k25 limbs entry, with the Usman string."
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/carromata.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The 1869 karomata has no horse; the boy steers it with a handlebar and it has two car-style rear-view mirrors.",
+   "where": "centre right, the front of the cart",
+   "fix_idea": "Redraw and choose: a small horse-drawn two-wheel calesa seen from behind, the pony clearly pulling it, a young man holding the reins and a small boy beside him, no mirrors, no handlebars."
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/carromata.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The boy in the karomata has brown hair and a mint short-sleeved shirt, while Pepe has black hair and a white long-sleeved shirt elsewhere; Paciano is missing.",
+   "where": "centre, the boy seen from behind",
+   "fix_idea": "Same redraw: black hair, white long-sleeved shirt, with the older brother at the reins."
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "chars/indio_wink.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A pale, flat, cut-off finger floats beside his shoulder with no hand or arm, a different skin colour, clipped by the cut-out edge.",
+   "where": "left edge, at shoulder height",
+   "fix_idea": "Reframe first (raise s or move x so the left edge drops out); if it still shows, redraw with arms down out of frame."
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "chars/usman_run.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The running dog shows only two legs, a long front leg and one hind leg, and the body joins them in an unreadable way.",
+   "where": "lower half, the dog's body and legs",
+   "fix_idea": "Redraw and choose: side view of the running dog with all four legs visible, Usman string word for word, left ear folded; keep only if four legs pass at 3x."
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "chars/usman_run.jpg",
+   "type": "other",
+   "must_fix": false,
+   "what": "A pixelated blocky teal smear under the paws looks like a broken shadow or cut-out artifact.",
+   "where": "bottom centre, under the paws",
+   "fix_idea": "Same redraw; or reframe to push it below the bottom edge."
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0,
+    13,
+    37
+   ],
+   "still": "chars/usman_serious.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright ears; the cast has one folded ear, and he reads as a different dog from the folded-ear Usman in k18, k28 and k35.",
+   "where": "top of the head, the ears",
+   "fix_idea": "Redraw and choose usman_serious with the cast string and 'his left ear folded down, his right ear up', matched to k28. Fixes shots 0, 13 and 37."
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18,
+    35
+   ],
+   "still": "chars/usman_soft.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears folded down while k00, k13 and k14 have both up; neither matches the cast's one folded ear.",
+   "where": "top of the head, the ears",
+   "fix_idea": "Redraw and choose usman_soft with 'left ear folded, right ear up', matched to k28. Fixes shots 18 and 35."
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1,
+    17
+   ],
+   "still": "chars/boy_dog.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Pepe's dog, which the script says is Usman, is a fluffy floppy-eared Labrador with no white chest patch or kerchief, a different breed from Usman.",
+   "where": "right half, the dog",
+   "fix_idea": "Redraw and choose with the Usman string word for word (slim short-haired street dog, white chest patch, one folded ear); same for hug.jpg and dog_wait.jpg."
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1,
+    17
+   ],
+   "still": "chars/boy_dog.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The boy's hand on his knee is a flat palm with a thumb and a single finger; the other three fingers are missing.",
+   "where": "lower left, the hand on the knee",
+   "fix_idea": "Fix in the boy_dog redraw: the boy's near hand resting on the dog's back, hidden in its fur, or one hand with a thumb and four fingers."
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1,
+    17
+   ],
+   "still": "chars/boy_dog.jpg",
+   "type": "other",
+   "must_fix": false,
+   "what": "A pinkish furry tuft between the dog's hind legs reads as genitals at 3x.",
+   "where": "lower right, the dog's belly",
+   "fix_idea": "Goes away in the boy_dog redraw."
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "chars/dog_wait.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "The dog seen from behind has a side-profile eye and muzzle stuck onto the left side of a back-view head, an impossible head; it also has two upright pointed ears and no kerchief, matching neither the Labrador of k01 and k25 nor Usman.",
+   "where": "head, top left of the dog",
+   "fix_idea": "Redraw and choose from directly behind with the Usman string, one folded ear, head turned only slightly, sitting at a wooden gate looking down the road."
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "chars/boy.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The boy's two hands on the book are mushy fists: the left has no fingers at all and the right one's fingers fuse into one lump.",
+   "where": "lower centre, the hands on the book",
+   "fix_idea": "Redraw hiding the hands: the boy hugs the book to his chest with forearms crossed over it, or crop at mid-chest."
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/poem.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the quill has six digits: a thumb, an index finger above the quill, a middle finger under the nib, and three more curled fingers below.",
+   "where": "right middle, the writing hand",
+   "fix_idea": "Redraw and choose: the quill lying on the paper beside the inkwell with no hand, or 'one hand seen from the side, a thumb and four fingers'."
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "chars/indio_lonely.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Both hands on the phone are boneless mittens whose fingers cannot be counted.",
+   "where": "bottom edge, the hands around the phone",
+   "fix_idea": "Reframe first: raise y or s so the hands drop below the frame."
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "chars/indio_lonely.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio is drawn in a flatter thick-line style with short spiky hair and a rounder face, unlike the slim Indio of k06, k08, k10 and k41.",
+   "where": "face and hair",
+   "fix_idea": "If redrawn for the hands, paste indio_modern word for word and match k41."
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "chars/indio_alone.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has chin stubble, a wide messy hairdo with a side ponytail and a different face and line style; on pause he reads as another man.",
+   "where": "face and hair",
+   "fix_idea": "Redraw and choose with indio_modern word for word plus 'clean-shaven', matched to k41."
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "chars/indio_cheer.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is a caricature in an older flat style, with dot eyes and a huge mouth, unlike the k41 Indio shown just before.",
+   "where": "face",
+   "fix_idea": "Redraw and choose with indio_modern word for word, laughing with one fist raised, matched to k41."
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15,
+    20,
+    23,
+    29,
+    32,
+    36
+   ],
+   "still": "chars/indio_run.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In the 1869 scene Indio's outfit changes from shot to shot (V-neck T-shirt in k15, k23, k29, k36; buttoned collared shirt in k20 and k32), k15 is broad and muscular, the headband has no tails, and no forearm shows the three tattoos he should have by Episode 4.",
+   "where": "whole figure, shirt and forearms",
+   "fix_idea": "When any of these is redrawn, paste one 1869 outfit string word for word with 'three small indigo geometric tattoos on his right forearm'; redraw k15 only if time allows."
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_run.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both running fists are soft lumps with weak finger separation (motion blur hides most of it).",
+   "where": "left and right lower edge",
+   "fix_idea": "Reframe to drop the fists below the frame, or fix in a redraw."
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "chars/pony.png",
+   "type": "other",
+   "must_fix": true,
+   "what": "The horse is composited floating in front of the doorway with all four hooves well above the ground line, and it is a full-size horse rather than the small pony Alipato.",
+   "where": "lower half, the hooves",
+   "fix_idea": "Reframe: lower y so the hooves sit on the path, or raise s so the hooves leave the frame; redraw as 'a small pony' if neither works."
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "chars/mother.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open book on the mother's lap is covered in rows of pseudo-text scribbles with blotchy pictures.",
+   "where": "lower centre, the book pages",
+   "fix_idea": "Redraw with the book angled away, cover toward the camera, or crop to their faces; 'blank pages, no writing'."
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "chars/mother.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The mother's two pointing hands are soft and the curled fingers merge into the knuckles (unsure).",
+   "where": "centre, both of the mother's hands",
+   "fix_idea": "Same redraw: one hand with a thumb and four fingers, the other hidden behind the book."
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "chars/mother.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Pepe wears a short-sleeved khaki-grey shirt and looks younger and rounder than the boy in the white long-sleeved shirt in k17, k19 and k25 (it may be meant as an earlier memory).",
+   "where": "right, the boy",
+   "fix_idea": "Use the boy.jpg wording in the redraw."
+  },
+  {
+   "key": "k02",
+   "shots": [
+    2
+   ],
+   "still": "full/intro.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The rim of the golden portal carries rows of letter-like glyphs, and one gear has a human face engraved in it.",
+   "where": "top and sides of the portal ring, a face in a gear at upper centre",
+   "fix_idea": "Redraw and choose: 'a swirling golden portal of plain clock gears and light, no numbers, no letters, no faces', same Indio pose."
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/phone.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The coin in the centre of the screen carries a large letter-like mark, the status bar shows a glyph, and the screen reads as a payment app rather than a text from Lola.",
+   "where": "centre of the screen, top right of the phone",
+   "fix_idea": "Redraw: a blank glowing message bubble on the screen, no coin, no icons, no writing."
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "chars/brother.png",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both of Paciano's hands have cut-out holes showing the background: the bag handle passes through a gap in his fingers and his open right hand has a hole in the palm and a smudged fingertip.",
+   "where": "left middle (the bag) and right middle (the open hand)",
+   "fix_idea": "Reframe tighter to the upper body, or redraw with the bag held behind his leg and the other hand in his pocket."
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "chars/indio_think.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand on his chin has loosely drawn curled fingers and no clear thumb (unsure).",
+   "where": "centre, under the chin",
+   "fix_idea": "Redraw and choose: 'one hand, a thumb and four fingers, the index finger resting on his chin', or arms crossed."
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/tattoo.jpg",
+   "type": "other",
+   "must_fix": false,
+   "what": "The forearm shows three tattoos, but the voice says this is his fourth tattoo.",
+   "where": "centre, the forearm",
+   "fix_idea": "Redraw and choose with 'exactly four small indigo geometric tattoos in a row on his forearm'."
+  }
+ ]
+}
