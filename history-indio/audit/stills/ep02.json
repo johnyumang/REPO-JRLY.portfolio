@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The letter on the desk is covered in several lines of large pseudo-handwriting glyphs right under the quill, the centre of the shot."
+   "what": "The letter on the desk is covered in several lines of large pseudo-handwriting glyphs right under the quill, the centre of the shot.",
+   "fixed": true
   },
   {
    "still": "plates/street.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The white top box on the motorcycle carries a word-like block of pseudo-letters, and the tank has a small badge; Indio is composited left of it, so the box stays visible."
+   "what": "The white top box on the motorcycle carries a word-like block of pseudo-letters, and the tank has a small badge; Indio is composited left of it, so the box stays visible.",
+   "rejected": "not seen in the episode: in shot 3 Indio is composited over the motorcycle and the crop leaves only the wall and trees, so the box never appears (checked in the finished video)"
   },
   {
    "still": "full/phone.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A small '3' glyph sits in the phone's top-right corner and the gold coin on the screen carries a letter-like mark."
+   "what": "A small '3' glyph sits in the phone's top-right corner and the gold coin on the screen carries a letter-like mark.",
+   "fixed": true
   },
   {
    "still": "chars/indio_rider.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "The helmet under Indio's arm has a small square badge drawn on its side."
+   "what": "The helmet under Indio's arm has a small square badge drawn on its side.",
+   "rejected": "redraws were not clearly better (2 tries): one put a new badge on the jacket, the other a striped jacket and an off-model face; the original helmet badge is tiny and unreadable"
   },
   {
    "still": "chars/indio_read.png",
@@ -47,7 +51,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Indio has brown, messy hair and a striped orange track jacket instead of the plain windbreaker; the topknot is barely there."
+   "what": "Indio has brown, messy hair and a striped orange track jacket instead of the plain windbreaker; the topknot is barely there.",
+   "rejected": "redraw was not clearly better (1 image; the free image service then answered 504 on every retry): it is on model (black topknot, plain windbreaker) but the drawing is weaker, the face looks older and the red wrist handkerchief is gone; the original is kept"
   }
  ]
 }
