@@ -15,7 +15,10 @@
    "must_fix": true,
    "what": "The glowing old spirit has six arms, three pairs spread out at different heights.",
    "where": "both sides of the body, upper half of frame",
-   "second_reader": "confirmed (at least five arms visible at 3x; extra-limbs defect is real, must_fix correct)"
+   "second_reader": "confirmed (at least five arms visible at 3x; extra-limbs defect is real, must_fix correct)",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k45",
@@ -27,7 +30,10 @@
    "must_fix": true,
    "what": "The thumb holding the phone grows into Indio's selfie face, so his head has no hair, one eye and a pointed bulge where the thumb joins it.",
    "where": "bottom right of the phone screen",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   },
   {
    "key": "k14",
@@ -39,7 +45,10 @@
    "must_fix": true,
    "what": "A huge tilted face with its nose pressed on the notebook page slides off to the side, with a second smaller face pushed in under it.",
    "where": "top right, over the notebook",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k101",
@@ -51,7 +60,10 @@
    "must_fix": true,
    "what": "One foot is bare and stands on a loose shoe sole while the other foot wears a brown boot.",
    "where": "both feet, lower half",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   },
   {
    "key": "k28",
@@ -63,7 +75,10 @@
    "must_fix": true,
    "what": "Usman's hind leg stretches up the tree and ends in a shapeless blob paw stuck to the trunk.",
    "where": "right middle, against the tree",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 3
   },
   {
    "key": "k26",
@@ -75,7 +90,10 @@
    "must_fix": true,
    "what": "Indio is drawn as a boyish face with brown messy hair and no topknot, so he does not read as the same man as in the other shots.",
    "where": "face and hair, right middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k23",
@@ -87,7 +105,10 @@
    "must_fix": true,
    "what": "Letter and number marks ('N6', 'H1', '06') are printed beside the lower compass rose.",
    "where": "lower left compass",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k47",
@@ -99,7 +120,10 @@
    "must_fix": true,
    "what": "A straight white bar cuts across M and Indio at chest height like a comic panel line, in front of both bodies.",
    "where": "middle of frame, full width",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k25",
@@ -147,7 +171,9 @@
    "must_fix": false,
    "what": "Usman has both ears standing up instead of one folded ear.",
    "where": "dog's head, upper left",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": false,
+   "note": "usman_pull redrawn 3 times for the must-fix leg; the model drew both ears up every time, minor fault left as is"
   },
   {
    "key": "k06",
@@ -267,7 +293,10 @@
    "must_fix": true,
    "what": "The stone cross has a doubled, broken crossbar - an extra right arm plus a left arm set lower, so the crossbeam reads as two mismatched members that could not be built.",
    "where": "crossbar junction, upper half",
-   "second_reader": "added"
+   "second_reader": "added",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k05",
