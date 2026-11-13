@@ -442,95 +442,103 @@
  },
  "59": {
   "fx": [],
-  "framing": "wide",
-  "move": "dolly_out",
-  "depth": "strong"
+  "framing": "CU",
+  "move": "push_in",
+  "key": 60
  },
  "60": {
   "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
- "61": {
-  "fx": [],
   "framing": "low-wide",
   "move": "dolly_out",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 61
  },
- "62": {
+ "61": {
   "fx": [
    "water"
   ],
   "framing": "low-wide-alt",
   "move": "dolly_in",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 62
  },
- "63": {
+ "62": {
   "fx": [],
   "framing": "ECU",
-  "move": "push_in"
+  "move": "push_in",
+  "key": 63
  },
- "64": {
+ "63": {
   "fx": [
    "water"
   ],
   "framing": "low-wide",
   "move": "dolly_in",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 64
  },
- "65": {
+ "64": {
   "fx": [],
   "framing": "wide",
   "move": "orbit_right",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 65
  },
- "66": {
+ "65": {
   "fx": [],
   "framing": "wide-back",
   "move": "dolly_out",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 66
+ },
+ "66": {
+  "fx": [],
+  "framing": "CU-alt",
+  "move": "pull_out",
+  "key": 67
  },
  "67": {
   "fx": [],
-  "framing": "CU-alt",
-  "move": "pull_out"
+  "framing": "wide",
+  "move": "dolly_in",
+  "depth": "strong",
+  "key": 68
  },
  "68": {
   "fx": [],
-  "framing": "wide",
-  "move": "dolly_in",
-  "depth": "strong"
+  "framing": "CU",
+  "move": "push_in",
+  "key": 69
  },
  "69": {
-  "fx": [],
-  "framing": "CU",
-  "move": "push_in"
- },
- "70": {
   "fx": [
    "sparkle"
   ],
   "framing": "insert",
   "move": "rack_focus",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 70
+ },
+ "70": {
+  "fx": [],
+  "framing": "M",
+  "move": "push_in",
+  "key": 71
  },
  "71": {
   "fx": [],
-  "framing": "M",
-  "move": "push_in"
- },
- "72": {
-  "fx": [],
   "framing": "wide",
   "move": "crane_up",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 72
  },
- "73": {
+ "72": {
   "fx": [
    "sparkle"
   ],
   "framing": "low-wide",
   "move": "crane_up",
-  "depth": "strong"
+  "depth": "strong",
+  "key": 73
  }
 }
