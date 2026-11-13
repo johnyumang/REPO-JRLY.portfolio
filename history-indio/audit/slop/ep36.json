@@ -233,9 +233,11 @@
    "what": "The flag's sun has about eighteen thin rays instead of the eight rays of the Philippine flag, in the shot that says 'this is the flag'; the same still is k54.",
    "where": "left middle, the sun on the white triangle",
    "found_by": "reader 2",
-   "needs_figma": true,
+   "needs_figma": false,
    "figma_prompt": "Warm sepia illustration of the first Philippine flag laid flat on a wooden sewing table with thread and a lamp, vertical 9:16: a white equilateral triangle at the hoist holding a golden sun with EXACTLY EIGHT rays (one at each compass point and diagonal) and EXACTLY THREE golden five-pointed stars, one in each corner of the triangle; a royal blue band on top and a red band below, running away from the triangle. No people, no text, no letters, no numbers. Modern anime key-frame style, crisp ink lines, cel shading.",
-   "note": "4 free-model tries: 16-18 rays (tries 1-2), 10 rays (try 3), 8 rays but 4 stars (try 4); interim keeps try 2 (right layout, three stars, ~16 rays)."
+   "note": "4 free-model tries: 16-18 rays (tries 1-2), 10 rays (try 3), 8 rays but 4 stars (try 4); interim keeps try 2 (right layout, three stars, ~16 rays).",
+   "fixed": true,
+   "fix_note": "Central, 13 Nov: the painted disc, the three stars and the cloth are kept; the 14 rays were painted out (cloth rebuilt under them) and exactly eight rays were drawn in code in the disc's own perspective, at the compass points and diagonals. No image model was used for the sun."
   },
   {
    "key": "k28",
@@ -325,5 +327,11 @@
   }
  ],
  "refuted": [],
- "third_reader": "old vs new: 9 kept; fiction_cards first redraw reverted (two-snouted fox, tube dog) and redrawn as five object cards (no animals, no faces), kept after a look at full size; flag_sepia kept as interim (better than old), still needs_figma for the 8-ray sun."
+ "third_reader": "old vs new: 9 kept; fiction_cards first redraw reverted (two-snouted fox, tube dog) and redrawn as five object cards (no animals, no faces), kept after a look at full size; flag_sepia kept as interim (better than old), still needs_figma for the 8-ray sun.",
+ "usman_ears_pass": {
+  "usman_lola_gate": "redrawn with the ears clause (left up, right folded), chosen from 2",
+  "usman_sulk": "redrawn with the ears clause, chosen from 2",
+  "question": "redrawn with the ears clause, chosen from 2 (no white on the face)",
+  "follow": "4 draws failed (clause bled onto Indio's skin x2; both ears up; two handkerchiefs): original kept, both ears up (minor)"
+ }
 }
