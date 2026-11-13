@@ -62,6 +62,7 @@ def make_cover(path, W=1600, H=2560):
     im.save(path, quality=90)
 
 def art(rel, name, maxh=1400):
+    if not os.path.exists(os.path.join(HI, rel)): print('art missing, skipped:', rel); return None
     im = Image.open(os.path.join(HI, rel)).convert('RGB')
     if im.height > maxh: im = im.resize((round(im.width * maxh / im.height), maxh), Image.LANCZOS)
     p = os.path.join(out, 'img', name); im.save(p, quality=80, optimize=True); return 'img/' + name
@@ -71,15 +72,17 @@ make_cover(os.path.join(out, 'img', 'cover_print.jpg'), 1800, 2700)
 parts = []
 for f in B.get('front', []):
     parts.append(open(os.path.join(src, f), encoding='utf-8').read())
-parts.append(f"# {B['part_title']} {{.unnumbered .part}}\n")
+if B.get('part_title'): parts.append(f"# {B['part_title']} {{.unnumbered .part}}\n")
 for i, ch in enumerate(B['chapters'], 1):
+    if 'part' in ch:                                          # a part heading inside a multi-book volume
+        parts.append(f"# {ch['part']} {{.unnumbered .part}}\n"); continue
     t = open(os.path.join(src, ch['file']), encoding='utf-8').read().strip()
     head, rest = t.split('\n', 1)
     img = art(ch['art'], f'ch{i:02d}.jpg')
-    t = f"{head}\n\n![]({img}){{.chapter-art}}\n{rest}"
+    t = f"{head}\n\n![]({img}){{.chapter-art}}\n{rest}" if img else f"{head}\n{rest}"
     t = re.sub(r'^## (Tala ng Saksi|Witness Notes)', r'## \1 {.tala}', t, flags=re.M)
     parts.append(t)
-if B.get('map_frame'):
+if B.get('map_frame'):  # map page after the last chapter
     m = art(B['map_frame'], 'map.jpg')
     parts.append(f"# {B.get('map_title', 'Ang Kasulatan')} {{.unnumbered}}\n\n![]({m}){{.chapter-art}}\n\n*{B.get('map_caption', 'Labindalawang tuldok. Labindalawang medalyon. Sa Ikalawang Aklat: Ang Labindalawa.')}*\n")
 for f in B.get('back', []):
