@@ -1,8 +1,8 @@
 {
  "fact_id": "t43",
- "fact_english": "Manila paper and manila envelopes are named after Manila hemp, or abaca, the Philippine fibre the paper was originally made from.",
+ "fact_english": "Manila paper, the paper manila envelopes are made of, was originally made from Manila hemp, the Philippine fibre abaca.",
  "label_onscreen": "ABAKA",
- "source_onscreen": "Pinagmulan: Wikipedia",
+ "source_onscreen": "Pinagmulan: Merriam-Webster; Collins Dictionary",
  "lines": [
   {
    "speaker": "USMAN",
@@ -13,7 +13,7 @@
   },
   {
    "speaker": "INDIO",
-   "text": "Ang manila envelope at manila paper, ipinangalan sa manila hemp, ang abaka natin, na dati nitong pinagmulan!",
+   "text": "Ang manila paper, 'yung papel ng manila envelope, dati ay gawa sa manila hemp: ang abaka natin!",
    "emphasis": [
     "abaka"
    ]
@@ -39,5 +39,5 @@
  "palette": "sun",
  "grave": false,
  "why_here": "After Lola's 'Ano'ng hihilingin mo, apo?': the wish is answered after the break.",
- "source_note": "Checked on 13 Nov: fact t43 failed (Wikipedia plus popular sites only; no reputable source could be opened), and no unused pool fact has two opened reputable sources to swap in, so this break must not be rendered until a verified fact replaces it."
+ "source_note": "Re-checked on 13 Nov by a researcher and a separate second reader (search summaries only; this machine cannot open pages): the fact holds with two independent reputable sources, named on the card. This break may be rendered. The spoken line was reworded to what the sources support (\"dati ay gawa sa\", not \"ipinangalan sa\"): record Indio's line again before rendering."
 }

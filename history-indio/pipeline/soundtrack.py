@@ -178,6 +178,7 @@ def loudnorm2(src, dst, extra=('-c:a', 'pcm_s16le'), check_encoded=True):
         gain = max(-GAIN_CAP, min(GAIN_CAP, gain + step))
     if best is not None and best is not rounds[-1]:
         i, tp = render(best[0], best[1])                                             # keep the best round under the ceiling
+        print(f'loudness kept: round {rounds.index(best) + 1} re-rendered -> {i:.2f} LUFS, true peak {tp:.2f} dBTP', flush=True)
     os.remove(tmp)
     if abs(i - LUFS) <= LUFS_TOL and tp <= TP: return i0, i
     why = (f'loudness cannot reach {LUFS - LUFS_TOL} without the true peak going over the ceiling; kept the peak under it'
