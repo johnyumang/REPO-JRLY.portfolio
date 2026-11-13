@@ -1,0 +1,540 @@
+{
+ "episode": 27,
+ "audited_by": "render-ep17 (two readers)",
+ "keys_looked_at": 79,
+ "defects": [
+  {
+   "key": "k22",
+   "shots": [
+    22,
+    87,
+    92
+   ],
+   "still": "full/house_sea.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "A second long-haired woman in a white blouse stands inside the window right behind Inay, so the mother appears twice where the script has one woman sitting alone.",
+   "where": "right half, inside the open window behind Inay's head (right edge; a reframe would also cut Inay)",
+   "reader": "both"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30,
+    88
+   ],
+   "still": "full/coat_umbrella.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The coat-and-umbrella memory shows a short brown-haired person wearing the coat who cannot be read as Inay (long black hair); the still was meant to show only the coat, umbrella and medallion on a chair.",
+   "where": "the figure filling the left and centre",
+   "reader": "both"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/tala_cu.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Tala says 'Ako ang Ate mo, Indio' to a small brown-haired boy in a brown coat; Indio is a grown man with a topknot and grey t-shirt, so the brother reads as a stranger child.",
+   "where": "lower right, the boy looking up at Tala",
+   "reader": "both"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/banahaw_whisper.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Inay whispers to 'anak' but holds a young boy with short hair in a white shirt, not present-day Indio (topknot, grey t-shirt).",
+   "where": "lower right, the boy in the white shirt (right edge, but he is half the picture)",
+   "reader": "both"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/law_host.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The 'son' beside M is drawn as a small boy in a black hoodie, not adult Indio, so the forbidden-love line points at a child.",
+   "where": "lower right corner, the child in black (corner: a crop to the two women would hide him)",
+   "reader": "both"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/two_hands.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio grips the hand of a woman with light brown hair in a pink dress, who is neither Inay (black hair, pale blue dress) nor Tala (white hair, black coat).",
+   "where": "right edge, the woman in pink",
+   "reader": "both"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/two_hands.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "In the handshake Indio's fingers bunch into an unreadable lump under the other hand; no clear thumb and four fingers.",
+   "where": "centre right, the clasped hands",
+   "reader": "both"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/three_tables.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog walking with Indio has no red kerchief, no white chest patch, both ears folded and glowing white slit eyes, so it does not read as Usman.",
+   "where": "lower left, the black dog (left edge and bottom)",
+   "reader": "both"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/usman_appear.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman's entrance close-up gives him two tall upright ears (no folded ear) and a chibi round head unlike his other shots.",
+   "where": "upper middle, the dog's head",
+   "reader": "both"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/usman_sniff_white.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two pointed upright ears and a hard geometric white triangle for a chest patch; he should have one folded ear.",
+   "where": "whole frame, ears top left and right; chest patch lower middle",
+   "reader": "both"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/usman_growl_white.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman again has two pointed upright ears and a diamond-shaped white chest patch under a bow-tied kerchief.",
+   "where": "ears at the top corners; chest lower middle",
+   "reader": "both"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9,
+    91
+   ],
+   "still": "full/usman_tables.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears are folded here; his design has only one folded ear.",
+   "where": "top of the dog's head",
+   "reader": "both"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/usman_whistle.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two folded ears and a heavy stocky body, and Indio and M are both drawn much darker-skinned with different faces than in the shots before and after (k56, k58).",
+   "where": "dog lower middle; Indio top left; M right",
+   "reader": "both"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/mother_cu.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Inay's tearful close-up shows a tan, older, flat-shaded face that does not match the pale, soft young-looking mother of k27, k29, k33 and k62.",
+   "where": "whole face, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/mother_name.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In the opening frame Inay has a flat, older-cartoon face with round dot eyes, and Indio has much darker skin; both differ from how the episode draws them later.",
+   "where": "Inay left, Indio right",
+   "reader": "both"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/m_name.png",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M's name close-up gives her dark tan skin, a semi-realistic face and a different shading style from her pale anime face in k42, k44, k49 and k58, so the cut to her jolts.",
+   "where": "whole face, centre",
+   "reader": "both"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/empty_smile.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The engkantada of the hollow smile has brown hair and a different face from the grey-haired woman of k18 and the blue-black-haired woman of k19, and her two eyes are different colours (yellow-green and blue).",
+   "where": "whole face; eyes upper middle",
+   "reader": "both"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/engkantada_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The engkantada close-up has dark blue-black hair and green eyes, while the same woman in k18 has grey hair and dark eyes.",
+   "where": "face and hair, whole frame",
+   "reader": "both"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38,
+    86
+   ],
+   "still": "full/no_shadows.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The two walking feet do not match: the left foot is pale in a tan sandal, the right is a dark brown foot with toes drawn as stubs; the feet also cast clear shadows in the shot about a city with no shadows.",
+   "where": "bottom middle, the two feet",
+   "reader": "both"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/rain_night_memory.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The rainy street's shop signs carry bold white pseudo-letters on green, red and blue boards that read as writing when paused, even though they cannot be read.",
+   "where": "left and right shop fronts, upper half (both at the side edges: a tighter crop on the woman would hide them)",
+   "reader": "both"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16,
+    51
+   ],
+   "still": "full/samar_folk.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The picture book the grandmother reads has a letter-like heading ('MURN') and lines of fake text on both pages.",
+   "where": "lower middle, the open book",
+   "reader": "both"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "full/holo_80.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram panel carries small letter-like glyphs above and beside the bars.",
+   "where": "right middle, top of the hologram",
+   "reader": "both"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/m_letter.png",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The whole shot is a giant glowing letter M; this was asked for in the prompt, but it is a letter on screen.",
+   "where": "upper half",
+   "reader": "both"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55,
+    93
+   ],
+   "still": "full/family_window.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Tala wears a long grey dress here instead of her black coat, and the two are not waving as the prompt asks.",
+   "where": "right figure",
+   "reader": "both"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30,
+    88
+   ],
+   "still": "full/coat_umbrella.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The umbrella's shaft keeps going past the hand down to the floor behind the chair, making it as tall as a person.",
+   "where": "middle, the dark pole beside the chair",
+   "reader": "both"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/engkantada_arm.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio's red handkerchief is fused into a smartwatch strap and also hangs loose from his hand, so it is two things at once.",
+   "where": "lower right, Indio's wrist (bottom right corner)",
+   "reader": "both"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/hug_rain.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Indio's red wrist kerchief sits on Inay's wrist, and a second red cloth sticks out of his jeans waistband.",
+   "where": "middle, Inay's forearm; lower right, his waist (bottom edge)",
+   "reader": "both"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62,
+    80
+   ],
+   "still": "full/mother_hug.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Red wrist bands sit on two arms (the forearm across her waist and the arm up to her shoulder), with a third red sliver at his far hip, so the kerchief appears two or three times and the hug's arms are hard to assign.",
+   "where": "middle, the two forearms; left edge at his hip",
+   "reader": "both"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/trio_rice.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio has a red kerchief on both wrists and holds a third red cloth in his hand.",
+   "where": "left figure, both wrists and right hand",
+   "reader": "both"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/indio_point_rice.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The red kerchief hangs from his sleeve and shoulder instead of his wrist.",
+   "where": "left of the pointing arm",
+   "reader": "both"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4,
+    95
+   ],
+   "still": "full/balete_key.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The lowered hand at the bottom edge is a blob holding a dark lump, with no readable fingers.",
+   "where": "bottom right edge (a small reframe up would hide it)",
+   "reader": "both"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/three_tables.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand under the wrist kerchief is a claw with the fingers fused together around a hole.",
+   "where": "right middle, Indio's left hand",
+   "reader": "both"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/close_faces.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's hand at the bottom edge has smeared fingers that cannot be counted.",
+   "where": "bottom right edge",
+   "reader": "both"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59,
+    94
+   ],
+   "still": "full/exit_balete.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's fist is crossed by scribbled black lines instead of finger joints.",
+   "where": "right edge, M's hand at hip height",
+   "reader": "both"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13,
+    83
+   ],
+   "still": "full/window_faces.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "In the left window four faces are stacked in a column, each chin sitting on the next head's hair at different sizes, so heads grow out of other heads; it fills the upper half and is plain when paused.",
+   "where": "upper left window panes (and the two faces in the upper right pane)",
+   "reader": "both"
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/law_city.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "A grimacing human head with a leaf crown and bead collar grows straight out of the tree trunk; it is large and plain when paused.",
+   "where": "upper right, on the tree (right edge: moving the crop left would cut it out)",
+   "reader": "both"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/feather_key.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "A large woman's face, not anyone from the cast, fills the frame behind the feather and key; the prompt asked for only the feather and key.",
+   "where": "whole background",
+   "reader": "both"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4,
+    95
+   ],
+   "still": "full/balete_key.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The key floats just above the closed fist instead of being held between the fingers.",
+   "where": "upper left, the raised hand",
+   "reader": "second"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/empty_smile.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand pulling away has a boneless finger as long as the forearm with no knuckles, and the other fingers melt into the palm.",
+   "where": "bottom left, the hand in the foreground (bottom edge: a crop up would hide it)",
+   "reader": "second"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46,
+    85
+   ],
+   "still": "full/rev_war.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "A second toothed jaw with no eyes grows out of the dragon's neck just under its head, like half a second head.",
+   "where": "upper middle, under the dragon's head",
+   "reader": "second"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59,
+    94
+   ],
+   "still": "full/exit_balete.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's hand under the kerchief bow is a lump with a dark hole and no readable fingers.",
+   "where": "left middle, Indio's right hand",
+   "reader": "second"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22,
+    87,
+    92
+   ],
+   "still": "full/house_sea.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The window meant to face the grey sea shows a grey wasteland with a person lying face-down and a figure with an animal-like head walking past.",
+   "where": "left window, middle of the frame",
+   "reader": "second"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/rain_night_memory.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The rain woman, whom the next lines name as Inay, has brown shoulder-length hair and a visible face, not Inay's long black hair, so the cut to Inay in k24 does not read as the same woman.",
+   "where": "the woman under the umbrella, centre",
+   "reader": "second"
+  }
+ ]
+}
