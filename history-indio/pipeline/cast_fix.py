@@ -75,7 +75,7 @@ def replacement(p, mm, canon):
     else:
         new = cb
     before = p[:mm.start].rstrip()
-    if p[mm.start:mm.start + 1].isupper() or (mm.bare and before.endswith(('.', '!', '?'))):
+    if (not mm.bare and p[mm.start:mm.start + 1].isupper()) or (mm.bare and (before == '' or before.endswith(('.', '!', '?')))):
         new = new[0].upper() + new[1:]
     carry = []
     span = p[mm.start:mm.end]
