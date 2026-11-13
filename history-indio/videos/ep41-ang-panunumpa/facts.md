@@ -25,7 +25,7 @@
 | 15 | "Mga tatlong daang libong tao raw ang dumalo." (59) | about 300,000 people attended | reported ("raw") | WP "Commonwealth of the Philippines" and "National Museum of Fine Arts (Manila)" (the old Legislative Building) (raw, read 2026-11-12) |
 | 16 | "Kasulatan: sa Pahayag labindalawa, ang malaking dragong mapula, at ang tubig na ibinuga na gaya ng isang ilog." (60) | Revelation 12: the great red dragon (12:3) and the water cast out like a river (12:15) | certain (scripture) | Pahayag 12:3 and 12:15, Ang Dating Biblia (1905), abtag text fetched 2026-11-12 |
 | 17 | "Sa Genesis siyam, ang pangakong hindi na lilipulin ng baha ang lahat, at sa Genesis apat, si Abel na pastol." (61) | Genesis 9:11 (the promise) and Genesis 4:2 (Abel a keeper of sheep) | certain (scripture) | Genesis 9:11 and 4:2, Ang Dating Biblia (1905), abtag text fetched 2026-11-12 |
-| 18 | "Kathang-isip ang marker na may pangalan ko, ang panunumpang ito, ang tungkod, at ang gunaw ng kuwentong ito." (62) | fiction label; "not taught as a lesson of faith" (to 57) | — | — |
+| 18 | "Kathang-isip ang mga arko, ang pagkapangulo ko, ang marker, ang panunumpang ito, ang tungkod, at ang gunaw ng kuwentong ito." (62) | fiction label, now naming the arks and Indio's presidency as invented (SERIES.md: "Indio's offices are fiction, and the episode says so"; "The arks are public works of the story (invented)"); "not taught as a lesson of faith" (to 57) | — | — |
 
 ## Could not verify / kept out on purpose
 - **Whose staff it is:** left open on purpose (the story answers later).
