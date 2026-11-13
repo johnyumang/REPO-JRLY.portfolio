@@ -1,0 +1,89 @@
+{
+ "episode": 38,
+ "audited_by": "ep36-render",
+ "stills_looked_at": 83,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/heli_memory.jpg",
+   "shots": [
+    36
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Black letterbox bars fill the top and bottom quarters; the helicopter is a small band in the middle of the frame."
+  },
+  {
+   "still": "full/giveaway.jpg",
+   "shots": [
+    40
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The big white building has a sign of Chinese/Japanese-style glyphs and a red seal on its facade, and the street of tiled houses reads as a Japanese town."
+  },
+  {
+   "still": "full/keys_ring.jpg",
+   "shots": [
+    94
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Close-up key fobs carry pseudo-letters and stamped glyphs (one grey fob reads like 'C2L WHC')."
+  },
+  {
+   "still": "full/marker_old.jpg",
+   "shots": [
+    52
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The plaque Indio holds in the foreground shows lines of fake engraved script."
+  },
+  {
+   "still": "full/sarimanok_circle.jpg",
+   "shots": [
+    28
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "The sarimanok's head is a flat human-like face with a mask patch, odd next to the bird body."
+  },
+  {
+   "still": "full/indio_hold.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small sign with letters ('WV...') on the wall to the right of the door."
+  },
+  {
+   "still": "full/jm_fuel.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Fragments of letters on the yellow tank at the top right."
+  },
+  {
+   "still": "full/drills_break.jpg",
+   "shots": [
+    48
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Pseudo-letters on the side of the yellow drill."
+  },
+  {
+   "still": "full/ring_cement.jpg",
+   "shots": [
+    45
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The broken padlock face carries a glyph-like emblem."
+  }
+ ]
+}

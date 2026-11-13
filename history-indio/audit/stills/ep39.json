@@ -1,0 +1,179 @@
+{
+ "episode": 39,
+ "audited_by": "ep36-render",
+ "stills_looked_at": 81,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/receipts_posts.jpg",
+   "shots": [
+    0
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The receipts pinned to the posts in the foreground show rows of fake print and barcodes, large and close to the camera."
+  },
+  {
+   "still": "full/tondo1950.jpg",
+   "shots": [
+    25
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Readable misspelled shop signs ('TANDO: Pamin...', 'ONDO') across the street front."
+  },
+  {
+   "still": "full/hometown.jpg",
+   "shots": [
+    48
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The gate wall carries large garbled letters ('LYC PYONHIO') and the shop signs above are pseudo-text."
+  },
+  {
+   "still": "full/jeep_1950.jpg",
+   "shots": [
+    103
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Big garbled signs on the building ('DMALAI', 'BETLANDY') and fake lettering on the jeepney's front."
+  },
+  {
+   "still": "full/constitution.jpg",
+   "shots": [
+    47
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The green book cover in close-up is covered with lines of fake gold script."
+  },
+  {
+   "still": "full/celia_desk.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper Celia writes on and the notices on the wall behind her show rows of pseudo-text."
+  },
+  {
+   "still": "full/pipay.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The paper at the bottom right reads a garbled word ('UIVOCTIES') in large letters."
+  },
+  {
+   "still": "full/candle_table.jpg",
+   "shots": [
+    97
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "A large Chinese-looking character is stamped on the candle glass in the middle of the frame."
+  },
+  {
+   "still": "full/usman_yelp.jpg",
+   "shots": [
+    59
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The street behind Usman has red Chinese/Japanese character signs (top left and right)."
+  },
+  {
+   "still": "full/school_gate39.jpg",
+   "shots": [
+    105
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "A Japanese-style school gate with kanji signs on the wall at the right."
+  },
+  {
+   "still": "full/people_game.jpg",
+   "shots": [
+    23
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Black letterbox bars at the top and bottom of the frame."
+  },
+  {
+   "still": "full/fake_docs.jpg",
+   "shots": [
+    18
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Documents with rows of scribbles and stamps (the script is about fake papers, but the rows read as glyphs)."
+  },
+  {
+   "still": "full/receipt_boards.jpg",
+   "shots": [
+    9
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Many small papers on boards with rows of tiny pseudo-text."
+  },
+  {
+   "still": "full/indio_file.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The form under Indio's pen has small rows of pseudo-text."
+  },
+  {
+   "still": "full/villacorta.jpg",
+   "shots": [
+    7
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "The podium seal has garbled lettering around it."
+  },
+  {
+   "still": "full/indio_calm39.jpg",
+   "shots": [
+    22
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A sign with Asian-looking glyphs in the background at the top left."
+  },
+  {
+   "still": "full/asiong_far.jpg",
+   "shots": [
+    26
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small shop signs with garbled letters on the buildings."
+  },
+  {
+   "still": "full/indio_lesson39.jpg",
+   "shots": [
+    30
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A blue sign reading 'TONDO' with garbled text behind Indio."
+  },
+  {
+   "still": "full/usman_soot.jpg",
+   "shots": [
+    106
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Extreme close-up of Usman with no white chest patch or red kerchief in view."
+  }
+ ]
+}
