@@ -1,0 +1,62 @@
+{
+ "episode": 45,
+ "audited_by": "ep39 render machine",
+ "stills_looked_at": 65,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/kulas_close.jpg",
+   "shots": [
+    8
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Two pictures stacked: a strip of a night beach with outrigger boats across the top quarter, cut by a hard edge above the close-up of the fisherman in the straw hat."
+  },
+  {
+   "still": "full/lost_boats.jpg",
+   "shots": [
+    42
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Two white comic speech bubbles with squiggle glyphs float above the girl standing in the lower boat."
+  },
+  {
+   "still": "full/workers_help.jpg",
+   "shots": [
+    25
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small red seal-like stamp with glyphs sits on a worker's hand at the bottom centre."
+  },
+  {
+   "still": "full/question.jpg",
+   "shots": [
+    66
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "A framed picture on the back wall inside the doorway carries pseudo-glyphs."
+  },
+  {
+   "still": "full/mactan_1521.jpg",
+   "shots": [
+    57
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "The sepia print has a thin drawn border line around the whole picture, like a framed engraving."
+  },
+  {
+   "still": "full/cebu_treaty.jpg",
+   "shots": [
+    91
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The paper on the table carries faint scribbled lines of pseudo-text under the writer's hand."
+  }
+ ]
+}
