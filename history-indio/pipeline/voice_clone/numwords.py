@@ -74,7 +74,9 @@ def _words(t):
     t = re.sub(r"\b([a-z]+)'?y,\s*(?=[a-z])", lambda m: m[1] + 'y ' if m[1] in TENS else m[0], t)              # "Trentay, sinko" = trenta'y singko
     t = re.sub(r'(?<=\d)[,.](?=\d{3}\b)', '', t)                                       # 1,906 -> 1906
     t = t.replace('%', ' porsyento ').replace('-', ' ').replace('’', '').replace("'", '')
-    t = re.sub(r'\b(apat|anim|siyam)\s+na\s*p([uo])', r'\1nap\2', t)                  # recogniser splits: "siyam napot" -> siyamnapot
+    TEN = {'dalawa': 'dalawampu', 'tatlo': 'tatlumpu', 'apat': 'apatnapu', 'lima': 'limampu', 'anim': 'animnapu', 'pito': 'pitumpu', 'walo': 'walumpu', 'siyam': 'siyamnapu'}
+    t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam)\s+na\s*p[uo](t|ng|y)?(na)?(?=\W|$)',            # heard "apat na pu", "apat na puna",
+               lambda m: TEN[m[1]] + (m[2] or '') + (' na' if m[3] else ''), t)                            # "siyam napot": the tens (only "pu" right after "na")
     t = re.sub(r'\b(dalawa|tatlu|tatlo|lima|pitu|pito|walu|walo)m?\s+m?p([uo])', lambda m: {'tatlo': 'tatlu', 'pito': 'pitu', 'walo': 'walu'}.get(m[1], m[1]) + 'mp' + m[2], t)
     t = re.sub(r'\b(dalawa|tatlo|apat|lima|anim|pito|walo|siyam|syam)\s+na(raan|daan)\b', r'\1na\2', t)   # heard "siyam naraan" = 900
     out = []
@@ -231,6 +233,12 @@ TESTS = [  # (script as spoken, heard, expected numbers, numbers must match?)
     ("trenta'y singko", "Trentay, sinko", [35], True), ("trenta'y singko", "Trenta, singko", [35], False),
     ("ar ey anim na libo pitong daan at labintatlo", "R ay 6,713", [6713], True), ("Republic Act 6713", "RA 6713", [6713], True),
     ("mil siyete", "Mil-7", [1007], True), ("mil siyete", "1007", [1007], True), ("mil siyete", "Mil-9", [1007], False),
+    # sixth round (Episode 43 sentence 9): "<unit> na pu" heard split
+    ("lampas apatnapu na", "lampas apat na pu na", [40], True), ("lampas apatnapu na", "lampas apat na puna", [40], True),
+    ("dalawampu", "dalawa na pu", [20], True), ("tatlumpu't lima", "tatlo na pu at lima", [35], True), ("siyamnapung taon", "siyam na pung taon", [90], True),
+    ("pitumpu", "pito na pu", [70], True), ("apat na tao", "apat na tao", [4], True), ("apat na puno", "apat na puno", [4], True),
+    ("lampas apatnapu na", "lampas apat na tao", [40], False), ("limampu't apat na porsiyento", "54 porsyento", [54], True),
+    ("apat na porsiyento", "4 porsyento", [4], True),
     ("mahigit dalawang libong metro ang taas", "mahigit 2000 metro ang taas", [2000], True), ("libu-libo na sila", "libu-libo na sila", [], True),
 ]
 
