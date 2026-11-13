@@ -11,7 +11,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Three stacked panels of the fleet with gutters between them, plus a man's face inset in the middle panel."
+   "what": "Three stacked panels of the fleet with gutters between them, plus a man's face inset in the middle panel.",
+   "fixed": true
   },
   {
    "still": "full/still_sky.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Four stacked horizontal strips (shore, face, hand, star) forming a comic-page collage."
+   "what": "Four stacked horizontal strips (shore, face, hand, star) forming a comic-page collage.",
+   "fixed": true
   },
   {
    "still": "full/rain_again.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Stacked strips of ships in the rain with a boy's face inset bottom right, a comic-page collage."
+   "what": "Stacked strips of ships in the rain with a boy's face inset bottom right, a comic-page collage.",
+   "fixed": true
   },
   {
    "still": "full/rescue_fleet.jpg",
@@ -38,7 +41,9 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "Flooded street of a Japanese-style city lined with vertical red signs and billboards in pseudo-kanji/katakana."
+   "what": "Flooded street of a Japanese-style city lined with vertical red signs and billboards in pseudo-kanji/katakana.",
+   "fixed": true,
+   "note": "redrawn as a Manila street; the kanji billboards are gone, two small Latin-letter shop signs remain (not readable at phone size)"
   },
   {
    "still": "full/umbrella_open.jpg",
@@ -47,7 +52,8 @@
    ],
    "type": "off_model",
    "must_fix": true,
-   "what": "Under the red umbrella are two young women; Indio (topknot, grey coat, red wrist handkerchief) is missing and replaced by a girl in a grey coat."
+   "what": "Under the red umbrella are two young women; Indio (topknot, grey coat, red wrist handkerchief) is missing and replaced by a girl in a grey coat.",
+   "fixed": true
   },
   {
    "still": "full/usman_eyes.jpg",
@@ -56,7 +62,8 @@
    ],
    "type": "place",
    "must_fix": false,
-   "what": "Background behind Usman (a Butuan memory) is a Japanese-style town with tiled roofs and a shop sign bearing glyphs."
+   "what": "Background behind Usman (a Butuan memory) is a Japanese-style town with tiled roofs and a shop sign bearing glyphs.",
+   "fixed": true
   },
   {
    "still": "full/usman_talks.jpg",
@@ -65,7 +72,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Dark background behind Usman has vertical hanging signs with Japanese-like glyphs."
+   "what": "Dark background behind Usman has vertical hanging signs with Japanese-like glyphs.",
+   "fixed": true
   },
   {
    "still": "full/comment.jpg",
@@ -74,7 +82,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Blurred shop signs behind Indio carry katakana-like glyphs."
+   "what": "Blurred shop signs behind Indio carry katakana-like glyphs.",
+   "fixed": true
   },
   {
    "still": "full/x_bowls.jpg",
@@ -83,7 +92,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Top edge: shop signs with kanji-like glyphs at left and a red vertical sign with marks at right."
+   "what": "Top edge: shop signs with kanji-like glyphs at left and a red vertical sign with marks at right.",
+   "fixed": true
   },
   {
    "still": "full/star_hand.jpg",
@@ -92,7 +102,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Indio has loose purple-tinted hair with no topknot, and the wishing star is drawn as the hilt of a dagger."
+   "what": "Indio has loose purple-tinted hair with no topknot, and the wishing star is drawn as the hilt of a dagger.",
+   "rejected": "kept: key_prompts asks for the wishing star set in the guard of a short blade on purpose; the man is only partly in frame"
   },
   {
    "still": "full/m_chose.jpg",
@@ -101,7 +112,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Indio is a young man with short hair and no topknot, in a suit, without the grey coat or red wrist handkerchief."
+   "what": "Indio is a young man with short hair and no topknot, in a suit, without the grey coat or red wrist handkerchief.",
+   "fixed": true
   },
   {
    "still": "full/bagumbayan_hand.jpg",
@@ -110,7 +122,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Young Indio in the Bagumbayan memory has short messy hair, no topknot, red headband or medallion, in a white zip jacket."
+   "what": "Young Indio in the Bagumbayan memory has short messy hair, no topknot, red headband or medallion, in a white zip jacket.",
+   "fixed": true
   },
   {
    "still": "full/usman_looks.jpg",
@@ -119,7 +132,9 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman is a tall Great Dane-like dog with both ears erect, and the two people beside him are two young women instead of Indio and M."
+   "what": "Usman is a tall Great Dane-like dog with both ears erect, and the two people beside him are two young women instead of Indio and M.",
+   "fixed": true,
+   "note": "Usman and Indio now on model; M is drawn with auburn hair in the redraw"
   },
   {
    "still": "full/family_whole.jpg",
@@ -128,7 +143,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Usman (lower right) wears a gold collar with no red kerchief and has both ears floppy."
+   "what": "Usman (lower right) wears a gold collar with no red kerchief and has both ears floppy.",
+   "fixed": true
   }
  ]
 }
