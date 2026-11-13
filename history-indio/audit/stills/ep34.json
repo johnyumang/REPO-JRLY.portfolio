@@ -1,22 +1,206 @@
-{"episode": 34, "audited_by": "render-worker-ep18", "stills_looked_at": 67, "clean": false, "defects": [
-{"still": "full/intro.jpg", "shots": [1], "type": "panels", "must_fix": true, "what": "Three stacked horizontal panels (split screen) of three different anime boys (orange, black, blonde hair), none of whom is Indio with his topknot, under the line 'Ako 'to si Indio'."},
-{"still": "full/phones_city.jpg", "shots": [32, 85], "type": "panels", "must_fix": true, "what": "Eight-panel comic collage of hands holding phones in jeepneys and a market, and every phone screen carries rows of pseudo-text."},
-{"still": "full/dike_line.jpg", "shots": [0], "type": "writing", "must_fix": true, "what": "Full-frame budget book page covered in large garbled digits, with a glowing red line of numbers across the centre."},
-{"still": "full/inserted_line.jpg", "shots": [17], "type": "writing", "must_fix": true, "what": "The whole frame is rows of large, sharp, garbled numbers under a pointing hand."},
-{"still": "full/marker_barasoain.jpg", "shots": [21], "type": "writing", "must_fix": true, "what": "The bronze marker in the lower left has large, readable, garbled English ('MALOSS OF BULOLOS', 'BULAGAN', 'PHILIPPINES')."},
-{"still": "full/constitution_1899.jpg", "shots": [26], "type": "writing", "must_fix": true, "what": "The parchment that fills the lower two-thirds is covered in lines of legible pseudo-handwriting."},
-{"still": "full/provinces.jpg", "shots": [24], "type": "writing", "must_fix": true, "what": "Glowing labels '1898' plus a garbled word and 'Malolos' are written on the map in the centre (the prompt asked for no readable text)."},
-{"still": "full/holo_92.jpg", "shots": [66], "type": "writing", "must_fix": true, "what": "The hologram in his hand reads '992%' but the script says ninety-two percent."},
-{"still": "full/fiction_table.jpg", "shots": [64], "type": "writing", "must_fix": true, "what": "The folder in the centre has a bold garbled title ('T DIIT GOMAAANTICH') and the budget sheet below has pseudo-text cells."},
-{"still": "full/tubal_cu.jpg", "shots": [57], "type": "writing", "must_fix": true, "what": "The speech paper in the lower left of the close-up is dense with sharp pseudo-text lines."},
-{"still": "full/delegate_books.jpg", "shots": [62], "type": "writing", "must_fix": true, "what": "The open ledger that fills the frame shows rows of pseudo-script glyphs, some of them katakana-like."},
-{"still": "full/kappa_river.jpg", "shots": [47, 87], "type": "place", "must_fix": true, "what": "The village behind the river is Japanese-style houses with a roadside sign in kanji-like glyphs, in a scene meant to be Central Luzon."},
-{"still": "full/tubal_dark.jpg", "shots": [56, 89], "type": "writing", "must_fix": false, "what": "The booklet Tubal holds at the bottom shows rows of small pseudo-text."},
-{"still": "full/notary_admit.jpg", "shots": [4], "type": "writing", "must_fix": false, "what": "The tan folder on the desk has small pseudo-text lines and a red label with glyphs."},
-{"still": "full/kasulatan_read.jpg", "shots": [16], "type": "writing", "must_fix": false, "what": "The form under the medallion at the bottom has small pseudo-text in its table cells."},
-{"still": "full/folk_scroll.jpg", "shots": [63], "type": "writing", "must_fix": false, "what": "The two museum label cards at the bottom right carry tiny pseudo-text."},
-{"still": "full/age_scale.jpg", "shots": [8, 60], "type": "logo", "must_fix": false, "what": "The red presidential chair on the right has an eagle-and-shield seal emblem on its back (the prompt asked for no real seal)."},
-{"still": "full/jump_1898.jpg", "shots": [22, 82], "type": "flag", "must_fix": false, "what": "The flags at both sides of the plaza are red, white and blue tricolours with no sun or stars, so they do not read as Philippine revolutionary flags."},
-{"still": "full/indio_point.jpg", "shots": [67], "type": "off_model", "must_fix": false, "what": "Usman has two tall erect ears instead of one folded ear."},
-{"still": "full/trio_roof.jpg", "shots": [69], "type": "off_model", "must_fix": false, "what": "Usman has tan rottweiler-style legs and muzzle markings and two folded ears, so he is not the all-black dog with a white chest patch."}
-]}
+{
+ "episode": 34,
+ "audited_by": "render-worker-ep18",
+ "stills_looked_at": 67,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/intro.jpg",
+   "shots": [
+    1
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Three stacked horizontal panels (split screen) of three different anime boys (orange, black, blonde hair), none of whom is Indio with his topknot, under the line 'Ako 'to si Indio'.",
+   "fixed": true,
+   "note": "replaced with the series intro in d19f603"
+  },
+  {
+   "still": "full/phones_city.jpg",
+   "shots": [
+    32,
+    85
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "Eight-panel comic collage of hands holding phones in jeepneys and a market, and every phone screen carries rows of pseudo-text.",
+   "fixed": true
+  },
+  {
+   "still": "full/dike_line.jpg",
+   "shots": [
+    0
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Full-frame budget book page covered in large garbled digits, with a glowing red line of numbers across the centre.",
+   "fixed": true
+  },
+  {
+   "still": "full/inserted_line.jpg",
+   "shots": [
+    17
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The whole frame is rows of large, sharp, garbled numbers under a pointing hand.",
+   "fixed": true
+  },
+  {
+   "still": "full/marker_barasoain.jpg",
+   "shots": [
+    21
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze marker in the lower left has large, readable, garbled English ('MALOSS OF BULOLOS', 'BULAGAN', 'PHILIPPINES').",
+   "fixed": true
+  },
+  {
+   "still": "full/constitution_1899.jpg",
+   "shots": [
+    26
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The parchment that fills the lower two-thirds is covered in lines of legible pseudo-handwriting.",
+   "fixed": true
+  },
+  {
+   "still": "full/provinces.jpg",
+   "shots": [
+    24
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Glowing labels '1898' plus a garbled word and 'Malolos' are written on the map in the centre (the prompt asked for no readable text).",
+   "fixed": true
+  },
+  {
+   "still": "full/holo_92.jpg",
+   "shots": [
+    66
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The hologram in his hand reads '992%' but the script says ninety-two percent.",
+   "fixed": true
+  },
+  {
+   "still": "full/fiction_table.jpg",
+   "shots": [
+    64
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The folder in the centre has a bold garbled title ('T DIIT GOMAAANTICH') and the budget sheet below has pseudo-text cells.",
+   "fixed": true
+  },
+  {
+   "still": "full/tubal_cu.jpg",
+   "shots": [
+    57
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The speech paper in the lower left of the close-up is dense with sharp pseudo-text lines.",
+   "fixed": true
+  },
+  {
+   "still": "full/delegate_books.jpg",
+   "shots": [
+    62
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The open ledger that fills the frame shows rows of pseudo-script glyphs, some of them katakana-like.",
+   "fixed": true
+  },
+  {
+   "still": "full/kappa_river.jpg",
+   "shots": [
+    47,
+    87
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The village behind the river is Japanese-style houses with a roadside sign in kanji-like glyphs, in a scene meant to be Central Luzon.",
+   "fixed": true
+  },
+  {
+   "still": "full/tubal_dark.jpg",
+   "shots": [
+    56,
+    89
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The booklet Tubal holds at the bottom shows rows of small pseudo-text."
+  },
+  {
+   "still": "full/notary_admit.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The tan folder on the desk has small pseudo-text lines and a red label with glyphs."
+  },
+  {
+   "still": "full/kasulatan_read.jpg",
+   "shots": [
+    16
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The form under the medallion at the bottom has small pseudo-text in its table cells."
+  },
+  {
+   "still": "full/folk_scroll.jpg",
+   "shots": [
+    63
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The two museum label cards at the bottom right carry tiny pseudo-text."
+  },
+  {
+   "still": "full/age_scale.jpg",
+   "shots": [
+    8,
+    60
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "The red presidential chair on the right has an eagle-and-shield seal emblem on its back (the prompt asked for no real seal)."
+  },
+  {
+   "still": "full/jump_1898.jpg",
+   "shots": [
+    22,
+    82
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "The flags at both sides of the plaza are red, white and blue tricolours with no sun or stars, so they do not read as Philippine revolutionary flags."
+  },
+  {
+   "still": "full/indio_point.jpg",
+   "shots": [
+    67
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two tall erect ears instead of one folded ear."
+  },
+  {
+   "still": "full/trio_roof.jpg",
+   "shots": [
+    69
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has tan rottweiler-style legs and muzzle markings and two folded ears, so he is not the all-black dog with a white chest patch."
+  }
+ ]
+}
