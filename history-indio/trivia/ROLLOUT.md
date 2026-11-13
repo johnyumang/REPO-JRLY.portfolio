@@ -37,3 +37,14 @@ the sheet.
 - **The caption check** no longer flags o/u and e/i spellings of one word, and the length warning fires only when a break is outside 12 to 24 s.
 - **Still to come:** fixed recordings of "Teka, patalastas muna!" and "Balik sa kuwento, par!" (after the upload reset), and the older chibi Indio for Season 5.
 
+
+
+## The five weak-source facts, settled on 13 Nov
+A researcher and a separate second reader re-checked the five facts whose card said "Wikipedia" (web search only: this
+machine cannot open pages, so every source is recorded as `opened: false`).
+- **Hold** (new source line on the card): Episode 8 tarsier (Natural History Museum, London; AMNH, New York), Episode 16
+  ube (Britannica; DOST-PCAARRD), Episode 49 manila paper (Merriam-Webster; Collins Dictionary; Indio's line reworded to
+  "dati ay gawa sa manila hemp", recorded again).
+- **Do not hold**: Episode 14 sailfin lizard (the juvenile limit has no reputable source) and Episode 42 puto bumbong (no
+  reputable source confirmed). These two episodes ship WITHOUT the trivia break, like Episode 6; a copy with the break may
+  be kept unpublished for the owner to choose. Notes for a later check are in `trivia/pool.json`.
