@@ -1,0 +1,107 @@
+{
+ "episode": 14,
+ "audited_by": "ep04-render-machine",
+ "stills_looked_at": 80,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/fort_marker.jpg",
+   "shots": [
+    15
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The brass historical marker Indio touches is covered in lines of pseudo-text."
+  },
+  {
+   "still": "full/m_leaves.jpg",
+   "shots": [
+    51
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "A lit vertical neon sign with Chinese-style characters hangs at the upper left of the alley M walks down."
+  },
+  {
+   "still": "full/watches_shoes.jpg",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Price tags and barcode labels on the watch boxes carry pseudo-text."
+  },
+  {
+   "still": "full/lens_anito.jpg",
+   "shots": [
+    41
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "Two stacked circular frames split the picture like a split screen; the seated idol in the upper circle looks like an East Asian shrine figure."
+  },
+  {
+   "still": "full/vlog_phone.jpg",
+   "shots": [
+    47
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "The phone screen shows a status-bar user interface and a two-face split layout."
+  },
+  {
+   "still": "full/flashes.jpg",
+   "shots": [
+    100
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The front camera in the crowd shows pseudo-text on its body."
+  },
+  {
+   "still": "full/matanda_deal.jpg",
+   "shots": [
+    58
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The document on the table shows lines of pseudo-text."
+  },
+  {
+   "still": "full/indio_witness.jpg",
+   "shots": [
+    25
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's hair is drawn reddish-brown instead of black."
+  },
+  {
+   "still": "full/kapre_whisper.jpg",
+   "shots": [
+    30
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red knit cap instead of his red headband and topknot."
+  },
+  {
+   "still": "full/indio_admit.jpg",
+   "shots": [
+    33
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a red knit cap instead of his red headband and topknot."
+  },
+  {
+   "still": "full/lamp_relit.jpg",
+   "shots": [
+    34
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has brown hair and no headband or topknot."
+  }
+ ]
+}

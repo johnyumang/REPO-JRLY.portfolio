@@ -1,0 +1,96 @@
+{
+ "episode": 5,
+ "audited_by": "ep04-render-machine",
+ "stills_looked_at": 43,
+ "clean": false,
+ "defects": [
+  {
+   "still": "plates/church.jpg",
+   "shots": [
+    4,
+    5,
+    6,
+    8,
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze plaque above the white marble door is filled with several lines of pseudo-text."
+  },
+  {
+   "still": "plates/manila.jpg",
+   "shots": [
+    31
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A girl's head and face stick out of a hole in the stone wall in the middle of this background plate."
+  },
+  {
+   "still": "chars/indio_count.jpg",
+   "shots": [
+    21
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Indio's raised counting hand has fused, malformed fingers with dark blotches on the back of the hand."
+  },
+  {
+   "still": "plates/salon.jpg",
+   "shots": [
+    0,
+    16,
+    17,
+    19
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The papers laid on the green treaty table carry rows of pseudo-text lines."
+  },
+  {
+   "still": "chars/agoncillo_write.jpg",
+   "shots": [
+    27
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The note Agoncillo writes on shows scribbled pseudo-handwriting."
+  },
+  {
+   "still": "full/coins.jpg",
+   "shots": [
+    39
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Garbled lettering runs around the rims of the two coins in the hand."
+  },
+  {
+   "still": "full/senate.jpg",
+   "shots": [
+    34
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Open books on the front desks show small rows of pseudo-text."
+  },
+  {
+   "still": "chars/usman_look.jpg",
+   "shots": [
+    24
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two tall, pointed, upright ears (no folded ear) and a slimmer, different-breed look."
+  },
+  {
+   "still": "chars/usman_growl.jpg",
+   "shots": [
+    35
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has glowing blue eyes and his white chest patch is shaped like a letter M."
+  }
+ ]
+}
