@@ -27,13 +27,15 @@ Ano ang unang marker na babasahin mo nang malakas? I-comment sa baba.
 **Tags:** history indio, ang dulo, huling episode, pugad lawin, abel shepherd genesis 4, kasaysayan ng pilipinas, philippine history, time travel, pinoy anime
 
 ## TikTok
-Ang Dulo. Isang batang bumasa ng marker nang malakas, at walang nangyari. 🌱 Ang tagpo ay kathang-isip ng serye; walang anak si Abel sa Bibliya. #HistoryIndio #AngDulo #fyp
+Ang Dulo. Isang batang bumasa ng marker nang malakas, at walang nangyari. 🌱 Ang tagpo ay kathang-isip ng serye; walang anak si Abel sa Bibliya. Kathang-isip sina Indio at Usman; totoo ang kasaysayan. #HistoryIndio #AngDulo #fyp
 
 ## Instagram
 Itinayo ang bayan, kalye kada kalye, ilog kada ilog. 🌱
 Ang tagpo ay kathang-isip ng serye; sanggunian: Genesis 4:2, 4:25.
+Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
 #HistoryIndio #AngDulo
 
 ## Pinned comment (sources)
 Ang tagpo ay kathang-isip ng serye: ang bagong mundo, ang pamilya, si Abel na buhay at ang sanggol, at sina Indio at Usman. Walang salitang inilagay sa bibig ng Diyos o ni Abel.
 Mga pinagmulan: Genesis 4:2, 4:8 at 4:25 (Ang Dating Biblia 1905). Walang anak si Abel na binanggit sa Bibliya.
+Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
