@@ -123,8 +123,8 @@ class LoudnessGuard(unittest.TestCase):
         for name in ('build_anime.py', 'trivia_break.py'):
             with self.subTest(name):
                 with open(os.path.join(here, name), encoding='utf-8') as f: src = f.read()
-                self.assertNotIn("split('Summary')", src, f'{name} parses the 0.1 dB Summary of ebur128')
-                self.assertIn('soundtrack.ebur(', src, f'{name} does not measure with soundtrack.ebur')
+                self.assertFalse("split('Summary')" in src, f'{name} parses the 0.1 dB Summary of ebur128')
+                self.assertTrue('soundtrack.ebur(' in src, f'{name} does not measure with soundtrack.ebur')
 
 
 if __name__ == '__main__':
