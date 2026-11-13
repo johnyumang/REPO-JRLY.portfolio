@@ -88,6 +88,11 @@ bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.
   example equal to the expected year steered a take that says 1909 into "1906"); if the numbers then match it prints
   "ok (on second listen)" with both transcripts. Last line: real DIFF / ok on second listen. The qc pass keeps its own prompt. To fix:
   `ms.py qc <work>`, then `ms.py assemble <work> <work>/voice`, then rebuild the video.
+- Stray sound before the first word (`leadtrim.py`, called by `ms.py assemble`): when the recogniser hears an extra token
+  before the script's first word ("O", "Do") and the take has a voiced burst (>= 60 ms) then a dip (>= 30 ms) before that
+  word, the line is cut at the dip with a 40 ms pre-roll and fade-in, kept only if a second listen hears the first word and
+  no drop in match; the same after the last word. Prints `trim cNNN ...` and a total. A stray syllable glued to the first
+  word (no dip) cannot be trimmed: it needs another take. Episode 35: 1 trim, stray-start lines 4 -> 3, no line worse.
 - Assembly (`ms.py assemble`): same per-tone level, slow-down of rushed takes, -17.4 LUFS master and true-peak limit as
   `assemble.py`; the match EQ to the real recording is applied to Indio's lines only. Pauses 0.38 s in a turn, 0.45 s
   between turns, 0.65 s between scenes. `voice_timings.json` = one entry per sentence in script order, the same format

@@ -191,7 +191,7 @@ def assemble(work, outp):
         st0, en0 = st, en
         listen = lambda clip: vqc.asr(vqc.load16(clip, sr))
         heard_ok = lambda t, h, h0: vqc.first_ok(t, h) and vqc.cmatch(t, h) >= vqc.cmatch(t, h0) and vqc.edits(t, h) <= vqc.edits(t, h0)
-        st, en, note = leadtrim.trim(y, sr, st, en, W, c['text'], listen, heard_ok)   # stray syllable / noise before the first or after the last word, cut at the dip
+        st, en, note = leadtrim.trim(y, sr, st, en, W, c['text'], listen, heard_ok, lambda t, h: bool(vqc.extra_lead(t, h)), lambda t, h: bool(vqc.extra_trail(t, h)))   # stray syllable / noise before the first or after the last word, cut at the dip
         if note: ntrim += 1; print('trim c%03d %-8s %s' % (c['id'], c['speaker'][:8], note), flush=True)
         if st == st0 and W[0][1] - st > 0.04:   # stray syllable glued to the first word (continuation prompt): trim to just before the first aligned word, kept only if the recogniser then hears the script's first word
             st2 = max(0.0, W[0][1] - 0.03); h2 = vqc.asr(vqc.load16(y[int(st2 * sr):int(en * sr)], sr))

@@ -110,6 +110,24 @@ def first_ok(want, heard):
     if numwords.starts_with_number(want):                       # "Trenta'y singko na ako" / "35 na ako": the first number must match in value
         a, b = numwords.numbers(want), numwords.numbers(heard); return numwords.starts_with_number(heard) and bool(b) and a[0] == b[0]
     ws = [w for w in norm_words(want) if phon(w)]; n = len(phon(ws[0])) if ws else 0; return n > 0 and phon(want)[:n] == phon(heard)[:n]
+def extra_lead(want, heard):
+    """The token(s) heard before the script's first word ("O", "Do", "Lo"), or None when the heard text starts with that word."""
+    a, b = norm_words(want), norm_words(heard)
+    if not a or not b: return None
+    f = phon(a[0])
+    if not f or phon(' '.join(b))[:len(f)] == f: return None
+    for k in (1, 2):
+        if len(b) > k and phon(' '.join(b[k:]))[:len(f)] == f: return ' '.join(b[:k])
+    return None
+def extra_trail(want, heard):
+    """The token(s) heard after the script's last word, or None."""
+    a, b = norm_words(want), norm_words(heard)
+    if not a or not b: return None
+    f = phon(a[-1])
+    if not f or phon(' '.join(b)).endswith(f): return None
+    for k in (1, 2):
+        if len(b) > k and phon(' '.join(b[:-k])).endswith(f): return ' '.join(b[-k:])
+    return None
 def rms_db(y): return float(20 * np.log10(np.sqrt(np.mean(np.square(y))) + 1e-9)) if len(y) else -99.0
 def speech_edges(y, sr, st, en, back=0.5, fwd=0.6, rel=-35.0):
     """Where the sound really starts and ends around the aligned words [st, en] (s): walk out from them while 10 ms frames stay

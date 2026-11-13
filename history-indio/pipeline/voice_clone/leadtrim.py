@@ -6,7 +6,9 @@ at the dip. No model inside: the listener is passed in, so `python3 leadtrim.py`
   frames_db(y, sr)                       -> 10 ms frame levels (dB) and the speech level (90th percentile)
   lead_cuts(db, lvl, t0, t1)             -> candidate cut times (s) in [t0, t1]: dips after a voiced burst >= 60 ms
   tail_cuts(db, lvl, t0, t1)             -> the same mirrored: a dip before a voiced burst >= 60 ms at the end
-  trim(y, sr, st, en, words, text, listen, ok) -> (st, en, note): new edges, or the old ones when no cut is heard clean"""
+  trim(y, sr, st, en, words, text, listen, ok, stray) -> (st, en, note): new edges, or the old ones when no cut is heard clean
+Lead cuts are tried only when stray(text, heard) says the untrimmed line is heard with an extra leading token: on Episode 35
+a dip inside "Hin-di" / "Pag-balik" passed the listener (it filled the lost syllable back in from context) and cut the word."""
 import numpy as np
 
 HOP = 0.01; PRE = 0.04; FADE = 0.015; BURST = 0.06; DIP_DB = 9.0; DIP_MIN = 0.03; LOUD_DB = 25.0
@@ -49,7 +51,7 @@ def onset_after(db, lvl, t):
     while i < len(db) and db[i] <= lvl - LOUD_DB: i += 1
     return i * HOP
 
-def trim(y, sr, st, en, words, text, listen, ok):
+def trim(y, sr, st, en, words, text, listen, ok, stray=lambda t, h: True, stray_end=lambda t, h: True):
     """words: aligned [[w, start, end, conf], ...]; listen(clip) -> heard text; ok(text, heard_trimmed, heard_before) -> bool
     (first word right and no drop in match). Lead: candidate cuts at dips before the second aligned word, earliest first; the
     clip starts PRE before the next voiced frame after the dip (never before the dip). Tail: the same mirrored after the
@@ -59,6 +61,7 @@ def trim(y, sr, st, en, words, text, listen, ok):
     cand = [c for c in lead_cuts(db, lvl, st, min(lim, st + 1.2)) if c > st + 0.02]
     if cand:
         h0 = listen(y[int(st * sr):int(en * sr)])
+        if not stray(text, h0): cand = []                                                # cut only a sound the listener hears as an extra token
         for c in cand:
             s2 = max(c, onset_after(db, lvl, c) - PRE)
             if s2 >= words[0][2]: break                                                  # past the first word: never cut into it
@@ -68,6 +71,7 @@ def trim(y, sr, st, en, words, text, listen, ok):
         cand = [c for c in tail_cuts(db, lvl, max(words[-2][2], en - 1.2), en) if c < en - 0.02 and c >= words[-1][2] - 0.05]                    # only after the last word's aligned end
         if cand:
             h0 = listen(y[int(st * sr):int(en * sr)])
+            if not stray_end(text, h0): cand = []                                        # likewise only a token heard after the last word
             for c in cand:
                 h2 = listen(y[int(st * sr):int((c + PRE) * sr)])
                 if ok(text, h2, h0): notes.append('tail %.2f->%.2f' % (en, c + PRE)); en = c + PRE; break
@@ -100,9 +104,13 @@ if __name__ == '__main__':
     # 6 trim(): listener rejects every cut (first word lost) -> edges unchanged
     st, en, note = trim(y, sr, 0.0, len(y) / sr, W, 'sa bahay', lambda clip: 'bahay', lambda t, h, h0: h == t)
     check('trim rejected keeps edges', st == 0.0 and note == '')
+    # 6b no extra token heard before the first word -> no lead cut even with a burst and a dip ("Hin-di")
+    y = np.concatenate([sil(0.03), tone(0.2), sil(0.05), tone(0.5), sil(0.05), tone(0.4), sil(0.1)]); W = [['hindi', 0.03, 0.40, .9], ['ko', 0.83, 1.2, .9]]
+    st, en, note = trim(y, sr, 0.0, len(y) / sr, W, 'hindi ko', lambda clip: 'hindi ko', lambda t, h, h0: True, lambda t, h: h.split()[0] != t.split()[0])
+    check('no extra token heard: no lead cut', st == 0.0 and not note.startswith('lead'))
     # 7 tail: word + dip + stray syllable at the end -> cut kept when the listener agrees
     y = np.concatenate([sil(0.03), tone(0.5), sil(0.05), tone(0.5), tone(0.05, 0.01), tone(0.15), sil(0.05)])
     W = [['sa', 0.03, 0.53, .9], ['bahay', 0.58, 1.08, .9]]
     st, en, note = trim(y, sr, 0.0, len(y) / sr, W, 'sa bahay', lambda clip: 'sa bahay' if len(clip) < len(y) - int(0.12 * sr) else 'sa bahay o', lambda t, h, h0: h == t)
     check('trim tail accepted (%s)' % note, note.startswith('tail') and 1.08 <= en <= 1.18)
-    print('%d of 7 tests fail' % bad); raise SystemExit(1 if bad else 0)
+    print('%d of 8 tests fail' % bad); raise SystemExit(1 if bad else 0)
