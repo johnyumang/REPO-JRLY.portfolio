@@ -208,3 +208,12 @@ Indio IS a relative of "Pepe" (José Rizal). Episode 4 now ends with the Lola's 
 - A writer committed about 233 MB of keys/ composites by mistake and removed them; they remain in the branch history. No history was rewritten. `videos/*/keys/` is now ignored for every episode.
 
 - 2026-11-13 00:30 UTC (Season 4 writer A): Episodes 35 "Ang Bitag", 36 "Ang Paglayo", 37 "Saksi Ako" have full text packages (independently checked; contractor renamed Dalisdis Diking) and NVIDIA draft frames on flux-3-image-klein with keyframes sheets (70, 64, 68 frames). Indio is 35 in all three. Ep 36's residence reading (Romualdez-Marcos v. COMELEC) is marked TO BE CHECKED in its facts.md. Scripture: Kawikaan 22:1a (Ep 35) and 14:5a (Ep 37), exact first halves from the 1905 text. keys/ for 35-37 are git-ignored; rebuild with make_keys.py.
+
+## State at 2026-11-13 01:05 UTC (conductor)
+- Videos done (13 after Season 1): Season 2 Episodes 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20 (only 16 is still rendering); Season 3 Episodes 21 and 23. Links are on the board page.
+- New render machines: Episode 40 (session_014Q6Ynpdho8NePynkMYuhjN), Episode 33 (session_014Q6YnpCy254iQmr24EkeFz), Episode 34 (session_014Q6YnmqZqpBGcUVHCy44ym).
+- Order change for the machines that had a rebuild queued: new videos first, the rebuild after. Ep 4 worker: 29, then 46, then rebuild 4. Ep 3 worker: 22, then 47, then rebuild 3. Ep 18 worker: 28, then 48, then rebuild 18. Ep 6 worker: 31, then 49, then rebuild 6. Ep 15 worker: 25, the builder true-peak fix, then 41, then rebuild 15. Voice cast session: rebuild 10, then 50.
+- Frames: Episodes 46, 47, 48 by the book session's chain; 49 and 50 on the central machine (make_keys, second model, about 7 s a still); 41 by the Season 2 research session; the last stills of 32, 33, 34 by the Ep 10 writer session.
+- Voices for the last episodes all exist: kit 2 has TUBAL, RICO, LALAKI, JAYADEWA, SULAYMAN, INAY; kit 3 has LUCIFER, TEDDY, TALA, ALBO, SINAG, GORIO, VANGIE, TOTOY_BINATA.
+- Upload budget for 13 November (200 files, shared): about 29 new episodes at 5 files each, plus 8 rebuilds; it only just fits, so every page is published once and the Season 1 loudness re-publishes wait for the next day.
+- Builder true peak: on 3c6844e the two-pass loudness step does not always hold the -1.5 dBTP ceiling (Episode 14 came out at -0.0 before renorm.sh). Every worker measures the finished MP4 and runs pipeline/renorm.sh when the peak is over; the permanent fix is with the Ep 15 worker.
