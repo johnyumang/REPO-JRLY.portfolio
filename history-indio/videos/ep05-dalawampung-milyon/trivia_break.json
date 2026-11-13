@@ -1,0 +1,42 @@
+{
+ "fact_id": "t14",
+ "fact_english": "The coconut crab, called tatus in the Philippines, is the largest arthropod that lives on land. It can climb trees, and its strong claws can break open coconuts.",
+ "label_onscreen": "TATUS",
+ "source_onscreen": "Pinagmulan: Wikipedia; Natural History Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tatus, ang coconut crab, ang pinakamalaking arthropod na sa lupa nakatira!",
+   "emphasis": [
+    "tatus"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Umaakyat pa ng puno, at kaya ng sipit niyang buksan ang niyog. Ako, de-lata nga hirap.",
+   "emphasis": [
+    "niyog"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 25,
+ "after_text": "Mali raw ang bintana ko.",
+ "insert_time": 71.08,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After 'Mali raw ang bintana ko.': a half-made reveal (which window?), answered right after the break."
+}

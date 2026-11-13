@@ -1,0 +1,42 @@
+{
+ "fact_id": "t26",
+ "fact_english": "The colasisi is a hanging parrot, part of a group of small parrots known for sleeping while hanging upside down from branches.",
+ "label_onscreen": "COLASISI",
+ "source_onscreen": "Pinagmulan: Wikipedia; World Parrot Trust encyclopedia",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang colasisi, maliit na loro natin, kasama sa grupo ng mga lorong natutulog nang nakabitin, patiwarik!",
+   "emphasis": [
+    "patiwarik"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Baligtad matulog, tuwid gumising. Sana all.",
+   "emphasis": [
+    "baligtad"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Minana ko pala ang tinakbuhan ni Lolo.",
+ "insert_time": 62.71,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'Minana ko pala ang tinakbuhan ni Lolo.': what Lolo buried is still unopened, and Usman digs it up right after the break."
+}

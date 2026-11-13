@@ -1,0 +1,56 @@
+{
+ "fact_id": "t16",
+ "fact_english": "The tokay gecko, called tuko in the Philippines, is named after the loud call of the males, which sounds like \"to-kay\".",
+ "label_onscreen": "TUKO",
+ "source_onscreen": "Pinagmulan: Wikipedia; Encyclopedia of Life",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Alam mo ba, par, kung bakit tuko ang tawag sa tuko?",
+   "emphasis": [
+    "tuko"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ganyan ang tunog ng tawag ng lalaki: to-kay! Pangalan niya mismo ang sinisigaw niya.",
+   "emphasis": [
+    "to-kay"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Parang ikaw tuwing gutom.",
+   "emphasis": [
+    "gutom"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Hindi ako sumisigaw. Kumakanta ako.",
+   "emphasis": [
+    "kumakanta"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 23,
+ "after_text": "Pero ngayong hapon, aalis ang bata.",
+ "insert_time": 70.77,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After 'Pero ngayong hapon, aalis ang bata.': the viewer waits to see the parting; the break sits before it, not inside it."
+}

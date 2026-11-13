@@ -1,0 +1,2287 @@
+[
+ {
+  "id": "t01",
+  "topic": "Philippine tarsier",
+  "category": "hayop",
+  "fact_english": "Each eyeball of a tarsier is about as large as its entire brain.",
+  "label_onscreen": "TARSIER",
+  "subject_art_prompt": "a cute big-eyed Philippine tarsier clinging to a branch, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; WorldAtlas",
+  "sources": [
+   {
+    "name": "Wikipedia: Tarsier",
+    "url": "https://en.wikipedia.org/wiki/Tarsier",
+    "says": "Each eyeball is about 16 mm across and is as large as, or in some cases larger than, its entire brain (cites Soluri & Agarwal 2016, W.W. Norton lab manual).",
+    "opened": true
+   },
+   {
+    "name": "Awake! / JW.org: Tarsier - big eyes, tiny body",
+    "url": "https://www.jw.org/en/library/magazines/g201412/tarsier-big-eyes-tiny-body/",
+    "says": "Search result on tarsier eyes being as big as its brain.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Tarsier",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tarsier&action=raw",
+    "says": "each eyeball is approximately 16 mm in diameter and is as large as, or in some cases larger than, its entire brain",
+    "opened": true
+   },
+   {
+    "name": "WorldAtlas: Tarsier",
+    "url": "https://animals.worldatlas.com/animals/tarsier.html",
+    "says": "Each eyeball is about 16 mm across, close to the size of the brain behind it (per search summary)",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is popular-level only; no museum or university page came up in the search. The claim is widely repeated and Wikipedia cites a textbook for it. | Second reader: Wikipedia and WorldAtlas both say each roughly 16 mm eyeball is about as large as the brain, sometimes larger. 'About as large' is the safe wording. Do not upgrade it to 'heavier than'."
+ },
+ {
+  "id": "t02",
+  "topic": "Visayan warty pig",
+  "category": "hayop",
+  "fact_english": "Male Visayan warty pigs have spiky hair on their heads, and in the breeding season it grows into a long mane, like a mohawk.",
+  "label_onscreen": "BABOY-DAMO",
+  "subject_art_prompt": "a cute Visayan warty pig with a spiky mohawk mane, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; National Geographic",
+  "sources": [
+   {
+    "name": "Wikipedia: Visayan warty pig",
+    "url": "https://en.wikipedia.org/wiki/Visayan_warty_pig",
+    "says": "Says only that boars grow stiff spiky hair; it does not mention a seasonal mane.",
+    "opened": true
+   },
+   {
+    "name": "National Geographic: endangered warty pigs with mohawks",
+    "url": "https://www.nationalgeographic.com/animals/article/endangered-warty-pigs-mohawks-philippines",
+    "says": "Breeding-season mane described as a mohawk; the mane can reach about 23 cm.",
+    "opened": false
+   },
+   {
+    "name": "IUCN SSC Wild Pig Specialist Group: Visayan warty pig",
+    "url": "https://www.iucn-wpsg.org/visayan-warty-pig-detailed",
+    "says": "Males in breeding condition grow longer manes that are shed at the end of the breeding season (about November to March/April).",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Visayan warty pig",
+    "url": "https://en.wikipedia.org/w/index.php?title=Visayan_warty_pig&action=raw",
+    "says": "The boars also grow stiff spiky hair.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Wikipedia supports only the spiky hair. The seasonal mane comes from the search results, which named National Geographic and the IUCN pig specialist group. | Second reader: Several zoo and taxonomic sources describe boars growing a long mane in the breeding season and shedding it afterwards. National Geographic and Erie Zoo use the mohawk comparison. Wikipedia notes the stiff spiky hair."
+ },
+ {
+  "id": "t03",
+  "topic": "Philippine flying lemur (kagwang)",
+  "category": "hayop",
+  "fact_english": "The Philippine flying lemur, or kagwang, is not a lemur and cannot truly fly; it glides on a wide skin membrane between its limbs.",
+  "label_onscreen": "KAGWANG",
+  "subject_art_prompt": "a cute Philippine flying lemur gliding with its skin membrane spread, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine flying lemur",
+    "url": "https://en.wikipedia.org/wiki/Philippine_flying_lemur",
+    "says": "Flying lemurs are not lemurs and cannot truly fly; they only glide. The patagium runs from the neck to the limbs and behind the hind limbs and tail.",
+    "opened": true
+   },
+   {
+    "name": "Animal Diversity Web (University of Michigan): Cynocephalus volans",
+    "url": "https://animaldiversity.org/site/accounts/information/Cynocephalus_volans.html",
+    "says": "Search result: not a true flier and not a lemur; it glides using a patagium and belongs to the order Dermoptera.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine flying lemur",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_flying_lemur&action=raw",
+    "says": "flying lemurs are not lemurs, nor are they capable of true powered flight, as they can only glide between trees",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Colugo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Colugo&action=raw",
+    "says": "patagium runs from the shoulder blades to the fore paws ... and from the hind legs to the tip of the tail",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Sources agree it is neither a lemur nor a powered flier, and that it glides on a patagium. Wikipedia's Colugo page says the membrane runs to the tip of the tail. One Singapore page summarized in search said the tail is free, but other sources include the tail. If you want zero risk, say 'between its limbs' only."
+ },
+ {
+  "id": "t04",
+  "topic": "Golden-crowned flying fox",
+  "category": "hayop",
+  "fact_english": "The giant golden-crowned flying fox, found only in the Philippines, is one of the largest bats in the world, with a wingspan of up to about 1.7 metres.",
+  "label_onscreen": "PANIKING HIGANTE",
+  "subject_art_prompt": "a cute giant golden-crowned flying fox with wings spread wide, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+  "sources": [
+   {
+    "name": "Wikipedia: Giant golden-crowned flying fox",
+    "url": "https://en.wikipedia.org/wiki/Giant_golden-crowned_flying_fox",
+    "says": "Endemic to the Philippines and one of the largest bat species in the world, with a wingspan of 1.5 to 1.7 m.",
+    "opened": true
+   },
+   {
+    "name": "Field Museum, Synopsis of Philippine Mammals: Golden-Crowned Flying Fox",
+    "url": "https://philippines.fieldmuseum.org/natural-history/narrative/4125",
+    "says": "Search result on the endemic Philippine species. A Montana State University poster gives a wingspan up to about 1.68 m.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Giant golden-crowned flying fox",
+    "url": "https://en.wikipedia.org/w/index.php?title=Giant_golden-crowned_flying_fox&action=raw",
+    "says": "megabat endemic to the Philippines ... one of the largest bat species in the world ... wingspan of 1.5-1.7 m",
+    "opened": true
+   },
+   {
+    "name": "Dimensions.com",
+    "url": "https://dimensions.com/element/giant-golden-crowned-flying-fox-acerodon-jubatus",
+    "says": "Wingspan around 1.5-1.7 m (per search summary)",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Used the full name 'giant golden-crowned flying fox' and changed 'can reach' to 'up to about'. The sources give 1.5 to 1.7 m. | Second reader: Endemic to the Philippines, described as one of the largest bats, wingspan given as 1.5 to 1.7 m. Popular claims of about 1.8 m (6 ft) are overstated, but 'up to about 1.7 m' is fine."
+ },
+ {
+  "id": "t05",
+  "topic": "Dugong",
+  "category": "hayop",
+  "fact_english": "Dugongs, which live in Philippine seas, are not closely related to whales or dolphins; apart from manatees, their closest living relatives are elephants.",
+  "label_onscreen": "DUGONG",
+  "subject_art_prompt": "a cute dugong grazing on seagrass, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+  "sources": [
+   {
+    "name": "Wikipedia: Dugong",
+    "url": "https://en.wikipedia.org/wiki/Dugong",
+    "says": "Sirenians are more closely related to elephants than to other marine mammals. The dugong's closest modern relative is the extinct Steller's sea cow, and the order Sirenia also includes manatees.",
+    "opened": true
+   },
+   {
+    "name": "Animal Diversity Web (University of Michigan): Sirenia",
+    "url": "https://animaldiversity.org/accounts/Sirenia/",
+    "says": "Search result: the closest living relatives of sirenians are elephants and hyraxes (the clade Paenungulata).",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Dugong",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dugong&action=raw",
+    "says": "Dugongs and other sirenians are not closely related to other marine mammals, being more closely related to elephants.",
+    "opened": true
+   },
+   {
+    "name": "EDGE of Existence",
+    "url": "https://www.edgeofexistence.org/blog/species-of-the-week-dugong-dugong-dugon/",
+    "says": "With Steller's sea cow extinct, manatees are the dugong's closest living relatives (per search summary)",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "The draft was too strong. The dugong's closest living relatives are its fellow sirenians, the manatees, and elephants are the closest group outside the sea cows. | Second reader: Sirenians are not closely related to other marine mammals. Their closest living relatives outside Sirenia are elephants (hyraxes are also close). Manatees are the closest living sirenians, because Steller's sea cow is extinct."
+ },
+ {
+  "id": "t06",
+  "topic": "Palawan pangolin",
+  "category": "hayop",
+  "fact_english": "The scales of the Palawan pangolin are made of keratin, the same protein as human fingernails.",
+  "label_onscreen": "BALINTONG",
+  "subject_art_prompt": "a cute Palawan pangolin curled up, scales shining, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine pangolin",
+    "url": "https://en.wikipedia.org/wiki/Philippine_pangolin",
+    "says": "Covered in small triangular scales made of keratin everywhere except the underbelly and face.",
+    "opened": true
+   },
+   {
+    "name": "Animal Diversity Web (University of Michigan): Manis culionensis",
+    "url": "https://animaldiversity.org/accounts/Manis_culionensis",
+    "says": "Search result: keratin scales; keratin is the same material as human fingernails.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine pangolin",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_pangolin&action=raw",
+    "says": "covered in small triangular scales made of keratin",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Pangolin",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pangolin&action=raw",
+    "says": "made of keratin, the same material from which human fingernails ... are made",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Wikipedia names keratin but does not make the fingernail comparison; that came from the search result. | Second reader: The scales are made of keratin, the same material as human fingernails. Sources say this about the Philippine/Palawan pangolin specifically and about pangolins in general."
+ },
+ {
+  "id": "t07",
+  "topic": "Philippine megapode (tabon)",
+  "category": "hayop",
+  "fact_english": "Like other megapodes, the Philippine megapode does not sit on its eggs; it buries them in the ground and lets natural heat keep them warm.",
+  "label_onscreen": "TABON",
+  "subject_art_prompt": "a cute Philippine megapode bird beside a mound of warm sand, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Emu (journal)",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine megapode",
+    "url": "https://en.wikipedia.org/wiki/Philippine_megapode",
+    "says": "Brief article: nesting habits differ by place, and it is a burrow nester on Palawan, Negros and Panay. Egg collection is a threat. It does not mention the chicks.",
+    "opened": true
+   },
+   {
+    "name": "Sinclair et al., Emu (CSIRO Publishing): Selection of incubation sites by the Philippine Megapode",
+    "url": "https://publish.csiro.au/MU/MU00078",
+    "says": "Abstract via search: the Sulawesi subspecies most often lays its eggs in the decaying roots of dead trees, at chosen incubation sites.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Megapode",
+    "url": "https://en.wikipedia.org/w/index.php?title=Megapode&action=raw",
+    "says": "do not incubate their eggs with their body heat as other birds do, but bury them",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Philippine megapode",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_megapode&action=raw",
+    "says": "is a burrow nester in Palawan, Negros and Panay",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Dropped the claim that chicks hatch fully feathered and fend for themselves: the search supported it only for megapodes in general, not for this species. The Wikipedia article is a short stub. | Second reader: Megapodes do not incubate their eggs with body heat. They bury them and rely on heat from decomposition, the ground (geothermal) or the sun. The Philippine megapode uses mounds and burrows, and in Sulawesi it uses decaying tree roots, so the eggs are still buried and warmed by natural heat. It is not found only in the Philippines (also Borneo and Sulawesi), but the claim does not say it is."
+ },
+ {
+  "id": "t08",
+  "topic": "Rufous hornbill (kalaw)",
+  "category": "hayop",
+  "fact_english": "When nesting, the female rufous hornbill seals herself inside a tree hole, leaving a narrow slit through which the male feeds her.",
+  "label_onscreen": "KALAW",
+  "subject_art_prompt": "a cute rufous hornbill at a tree-hole nest, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; The Auk",
+  "sources": [
+   {
+    "name": "Wikipedia: Rufous hornbill",
+    "url": "https://en.wikipedia.org/wiki/Rufous_hornbill",
+    "says": "Like other hornbills, females seal themselves inside the nest cavity. The male feeds the female and nestlings through a narrow vertical slit, sometimes helped by non-breeding helper males.",
+    "opened": true
+   },
+   {
+    "name": "Witmer, The Auk 110(4):933-936 (1993), cooperative breeding in the rufous hornbill",
+    "url": "http://sora.unm.edu/sites/default/files/journals/auk/v110n04/p0933-p0936.pdf",
+    "says": "Primary paper cited for the feeding through the slit (this URL is from the Wikipedia article, not from the search).",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Rufous hornbill",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rufous_hornbill&action=raw",
+    "says": "females seal themselves within the nest cavity ... The nestlings and the female are fed by the male through a narrow vertical slit in the sealed nest opening",
+    "opened": true
+   },
+   {
+    "name": "Encyclopedia.com: Hornbills",
+    "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/hornbills-0",
+    "says": "Female walls the entrance leaving a slit-like gap (per search summary)",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "The search found no independent page about this species specifically, only Wikipedia and accounts of other hornbills (for example the ADW rhinoceros hornbill). The second source is the peer-reviewed paper Wikipedia cites, so it is not fully independent. | Second reader: Wikipedia's rufous hornbill page says it directly. General hornbill sources confirm the sealed nest with a slit through which the male passes food."
+ },
+ {
+  "id": "t09",
+  "topic": "Philippine sailfin lizard (ibid)",
+  "category": "hayop",
+  "fact_english": "Young Philippine sailfin lizards can run short distances across the surface of water; adults get too heavy to do it.",
+  "label_onscreen": "IBID",
+  "subject_art_prompt": "a cute young Philippine sailfin lizard running on water, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine sailfin lizard",
+    "url": "https://en.wikipedia.org/wiki/Philippine_sailfin_lizard",
+    "says": "Juveniles have flattened toes and less weight, which lets them run across water like basilisks. Adults lose this ability as they gain weight.",
+    "opened": true
+   },
+   {
+    "name": "Animal Scene (Manila Bulletin): Come sail away with the sailfin",
+    "url": "https://animalscene.mb.com.ph/come-sail-away-with-the-sailfin/",
+    "says": "Search result: fringed toes act like pontoons so the lizards can run short distances on water; adults are too heavy.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine sailfin lizard",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_sailfin_lizard&action=raw",
+    "says": "smaller juvenile lizards can run briefly on the water surface ... As the adult gains weight, it loses the ability to run across water",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Only juveniles can do this, so the fact now says so. The second source is popular-level. | Second reader: Juveniles can run briefly on water using flattened toes and their low mass, like basilisks. Adults lose this ability as they get heavier. | On-screen credit shows Wikipedia only: the second source is a popular site."
+ },
+ {
+  "id": "t10",
+  "topic": "Northern giant cloud rat",
+  "category": "hayop",
+  "fact_english": "The northern Luzon giant cloud rat can weigh about two kilograms or more, which is huge for a rat.",
+  "label_onscreen": "BUGKIAU",
+  "subject_art_prompt": "a cute giant cloud rat with a fluffy tail on a branch, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+  "sources": [
+   {
+    "name": "Wikipedia: Northern Luzon giant cloud rat",
+    "url": "https://en.wikipedia.org/wiki/Northern_Luzon_giant_cloud_rat",
+    "says": "Weighs 1.9 to 2.6 kg and is 75 to 77 cm long including the tail.",
+    "opened": true
+   },
+   {
+    "name": "Field Museum, Synopsis of Philippine Mammals: Slender-tailed cloud rat",
+    "url": "https://philippines.fieldmuseum.org/natural-history/narrative/4152",
+    "says": "Search result: weighs up to about 2.5 kg. Heaney et al. (2014, American Museum Novitates) give up to 2.7 kg.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Cloud rat",
+    "url": "https://Www.wikipedia.org/wiki/Cloud_rat",
+    "says": "Largest species is Phloeomys pallidus, reaching up to 2.7 kg.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Dropped 'as heavy as a small cat' because no source makes that comparison. 'Slender-tailed cloud rat' is another common name for Phloeomys pallidus. | Second reader: Wikipedia gives 1.9-2.6 kg; a second source gives up to 2.7 kg. 'About two kilograms or more' fits."
+ },
+ {
+  "id": "t11",
+  "topic": "Tawilis",
+  "category": "hayop",
+  "fact_english": "The tawilis is a sardine that lives in fresh water, and it is found only in Taal Lake.",
+  "label_onscreen": "TAWILIS",
+  "subject_art_prompt": "a cute small silver tawilis sardine, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; FishBase",
+  "sources": [
+   {
+    "name": "Wikipedia: Sardinella tawilis",
+    "url": "https://en.wikipedia.org/wiki/Sardinella_tawilis",
+    "says": "A freshwater sardine found only in Taal Lake, and the only Sardinella known to live entirely in fresh water.",
+    "opened": true
+   },
+   {
+    "name": "FishBase: Sardinella tawilis",
+    "url": "https://fishbase.se/summary/1518",
+    "says": "Freshwater, found only in Lake Taal, and the only Sardinella apparently found only or mainly in fresh water. IUCN Endangered (2017).",
+    "opened": false
+   },
+   {
+    "name": "Zoological Studies",
+    "url": "https://zoolstud.sinica.edu.tw/issue.php?id=1268",
+    "says": "Search summary: the only freshwater representative of its genus, endemic to Taal Lake.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Sardinella tawilis is a freshwater sardine whose populations are found only in Taal Lake, Batangas."
+ },
+ {
+  "id": "t12",
+  "topic": "Sinarapan",
+  "category": "hayop",
+  "fact_english": "Guinness World Records lists the sinarapan of Lake Buhi as the smallest commercially harvested fish; adults are only about 1 to 2.5 centimetres long.",
+  "label_onscreen": "SINARAPAN",
+  "subject_art_prompt": "a tiny sinarapan fish beside a fingertip for scale, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Guinness World Records",
+  "sources": [
+   {
+    "name": "Wikipedia: Sinarapan",
+    "url": "https://en.wikipedia.org/wiki/Sinarapan",
+    "says": "Grows up to 2.5 cm. Guinness lists it as the 'smallest commercially-harvested food fish' (marked citation needed).",
+    "opened": true
+   },
+   {
+    "name": "Guinness World Records: Smallest commercial fish",
+    "url": "https://www.guinnessworldrecords.com/world-records/70695-smallest-commercial-fish",
+    "says": "Males are 10 to 13 mm long, and about 70,000 fit in a 454 g dried fish cake.",
+    "opened": false
+   },
+   {
+    "name": "FishBase: Mistichthys luzonensis",
+    "url": "https://fishbase.se/summary/Mistichthys_luzonensis.html",
+    "says": "Maximum length 2.5 cm TL; matures at about 1.0 cm.",
+    "opened": false
+   },
+   {
+    "name": "Philippine Daily Inquirer",
+    "url": "https://newsinfo.inquirer.net/?p=900168",
+    "says": "Search summary: 'Keeping world's smallest edible fish alive', average length about 12 mm.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "The sources disagree on size (Guinness: males 1.0 to 1.3 cm; FishBase: up to 2.5 cm), so the fact gives a range. The record is credited to Guinness. | Second reader: Guinness lists the sinarapan of Lake Buhi as the smallest commercial fish. Guinness gives males as 10-13 mm and Wikipedia gives a maximum of 2.5 cm, so '1 to 2.5 cm' covers both. Caveats: Guinness's title is 'smallest commercial fish' (Wikipedia's 'commercially-harvested food fish' wording is uncited), and a 2025 DA-NFRDI feature reports a sharp decline in Lake Buhi."
+ },
+ {
+  "id": "t13",
+  "topic": "Luzon bleeding-heart pigeon",
+  "category": "hayop",
+  "fact_english": "The Luzon bleeding-heart is a ground dove with a red patch on its white chest that looks like a bleeding wound.",
+  "label_onscreen": "PUNALAY",
+  "subject_art_prompt": "a cute Luzon bleeding-heart dove with a red patch on its white chest, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+  "sources": [
+   {
+    "name": "Wikipedia: Luzon bleeding-heart",
+    "url": "https://en.wikipedia.org/wiki/Luzon_bleeding-heart",
+    "says": "A ground dove named for the distinctive red patch on its chest, with a white throat, chest and belly. Its old name meant 'stabbed pigeon'.",
+    "opened": true
+   },
+   {
+    "name": "Animal Diversity Web (University of Michigan): Gallicolumba luzonica",
+    "url": "https://animaldiversity.org/accounts/Gallicolumba_luzonica",
+    "says": "Search result: a ground dove whose red breast patch resembles a bleeding wound.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: It is a ground dove with a white throat and breast and a red chest patch that looks like a bleeding wound."
+ },
+ {
+  "id": "t14",
+  "topic": "Coconut crab (tatus)",
+  "category": "hayop",
+  "fact_english": "The coconut crab, called tatus in the Philippines, is the largest arthropod that lives on land. It can climb trees, and its strong claws can break open coconuts.",
+  "label_onscreen": "TATUS",
+  "subject_art_prompt": "a cute coconut crab climbing a coconut palm trunk, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Natural History Museum",
+  "sources": [
+   {
+    "name": "Wikipedia: Coconut crab",
+    "url": "https://en.wikipedia.org/wiki/Coconut_crab",
+    "says": "The largest living terrestrial arthropod (up to 4.1 kg). It climbs trees and opens coconuts by stripping the husk. In the Philippines it is called tatus and is declared locally threatened.",
+    "opened": true
+   },
+   {
+    "name": "Natural History Museum, London: Coconut crabs, bird-eating giants on tropical islands",
+    "url": "https://nhm.ac.uk/discover/coconut-crabs-bird-eating-giants-on-tropical-islands.html",
+    "says": "Search result: the largest land crab or arthropod, though the Japanese spider crab is a bigger crab overall.",
+    "opened": false
+   },
+   {
+    "name": "The Nature Conservancy blog",
+    "url": "https://blog.nature.org/2022/08/08/meet-the-worlds-largest-land-crab/",
+    "says": "Search summary: the world's largest land crab; coconuts are an occasional treat.",
+    "opened": false
+   },
+   {
+    "name": "One Earth",
+    "url": "https://oneearth.org/species-of-the-week-coconut-crab",
+    "says": "Search summary: the largest land arthropod.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Changed 'crack' to 'open' because the crab tears off the husk first. Added the local name to tie it to the Philippines. The crab also lives on islands across the Indian and Pacific Oceans. | Second reader: The 'largest land-living arthropod', tatus and tree-climbing parts hold. 'Open coconuts with its claws' is broadly supported, but the crab often does it by hammering or dropping the nut, and coconuts are not a big part of its diet. The new wording avoids suggesting it lives on coconuts."
+ },
+ {
+  "id": "t15",
+  "topic": "Palawan stink badger (pantot)",
+  "category": "hayop",
+  "fact_english": "The Palawan stink badger is not a true badger: it belongs to the skunk family.",
+  "label_onscreen": "PANTOT",
+  "subject_art_prompt": "a cute Palawan stink badger sniffing the ground, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Mammal Diversity Database",
+  "sources": [
+   {
+    "name": "Wikipedia: Palawan stink badger",
+    "url": "https://en.wikipedia.org/wiki/Palawan_stink_badger",
+    "says": "Once thought closer to badgers, genetic evidence has reclassified it in Mephitidae, the skunk family (Dragoo & Honeycutt 1997).",
+    "opened": true
+   },
+   {
+    "name": "Mammal Diversity Database (American Society of Mammalogists): Mydaus marchei",
+    "url": "https://www.mammaldiversity.org/taxon/1005814",
+    "says": "Search result: listed in the family Mephitidae.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Genetic evidence moved stink badgers (Mydaus) into Mephitidae, the skunk family."
+ },
+ {
+  "id": "t16",
+  "topic": "Tokay gecko (tuko)",
+  "category": "hayop",
+  "fact_english": "The tokay gecko, called tuko in the Philippines, is named after the loud call of the males, which sounds like \"to-kay\".",
+  "label_onscreen": "TUKO",
+  "subject_art_prompt": "a cute tokay gecko on a wall, mouth open calling, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Encyclopedia of Life",
+  "sources": [
+   {
+    "name": "Wikipedia: Tokay gecko",
+    "url": "https://en.wikipedia.org/wiki/Tokay_gecko",
+    "says": "'Tokay' is an onomatopoeia of the sound males make; the call is written as tokay, tou-kay, tuck-too and similar.",
+    "opened": true
+   },
+   {
+    "name": "Encyclopedia of Life: Gekko gecko",
+    "url": "https://eol.org/pages/794412/articles",
+    "says": "Search result: the common and scientific names come from onomatopoeic names in Malay, Tagalog, Thai and other languages. The Filipino name 'tuko' also comes from the call.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Wikipedia supports this for 'tokay'. The claim that 'tuko' comes from the call rests only on the search summary, and it was not clear which page said it. | Second reader: 'Tokay' imitates the male's call, and Filipinos call the gecko 'tuko' after the same call."
+ },
+ {
+  "id": "t17",
+  "topic": "Thresher shark",
+  "category": "hayop",
+  "fact_english": "In the Philippines, near Pescador Island off Cebu, scientists filmed thresher sharks whipping their long tails to stun the sardines they eat.",
+  "label_onscreen": "PATING NA ITIKAN",
+  "subject_art_prompt": "a cute thresher shark with a very long whip-like tail, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Bangor University news",
+  "sources": [
+   {
+    "name": "Wikipedia: Thresher shark",
+    "url": "https://en.wikipedia.org/wiki/Thresher_shark",
+    "says": "Threshers use their tails as a weapon to stun prey (cites Oliver et al. 2013, PLOS ONE). The article does not mention Malapascua.",
+    "opened": true
+   },
+   {
+    "name": "Bangor University news: Researchers reveal that thresher sharks use tail-slaps to hunt",
+    "url": "https://bangor.ac.uk/news/archive/researchers-reveal-that-thresher-sharks-use-tail-slaps-to-hunt-14880",
+    "says": "Search result on the Oliver et al. 2013 PLOS ONE study, filmed off Malapascua, Philippines, in 2010, of tail-slaps stunning schooling sardines.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Pelagic thresher",
+    "url": "https://en.wikipedia.org/wiki/Pelagic_thresher",
+    "says": "Pelagic threshers stun their prey with the upper lobe of the tail (Oliver et al. 2013, 'Thresher Sharks Use Tail-Slaps as a Hunting Strategy'); at Malapascua Island they are observed visiting cleaning stations.",
+    "opened": true
+   },
+   {
+    "name": "Sci.News",
+    "url": "https://www.sci.news/biology/science-thresher-sharks-tail-slaps-01221.html",
+    "says": "Search summary: thresher sharks stun sardines with tail-slaps; the study site was Pescador Island, Philippines.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "'Seen regularly' was not supported, so the fact now names the 2013 filming study, which ties it to Malapascua. | Second reader: Malapascua is the wrong place. The 2013 PLOS ONE study (Oliver et al.) used footage shot near Pescador Island, off Moalboal in Cebu, not off Malapascua. The researchers' project is based at Malapascua, where threshers are known for visiting cleaning stations."
+ },
+ {
+  "id": "t18",
+  "topic": "Synchronous fireflies",
+  "category": "hayop",
+  "fact_english": "In Southeast Asia, including the Philippines, male fireflies of the genus Pteroptyx gather in trees, often along mangrove rivers, and flash in unison.",
+  "label_onscreen": "ALITAPTAP",
+  "subject_art_prompt": "cute fireflies glowing together on a mangrove tree, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Biodiversity Journal",
+  "sources": [
+   {
+    "name": "Wikipedia: Pteroptyx",
+    "url": "https://en.wikipedia.org/wiki/Pteroptyx",
+    "says": "Genus found in SE Asia incl. Philippines (P. mcdermotti pictured in Bohol); noted for synchronous flashing, though not all species synchronize; males gather in large groups on certain trees; tied to mangrove forests.",
+    "opened": true
+   },
+   {
+    "name": "Biodiversity Journal 2022, Philippine Lampyridae checklist",
+    "url": "https://www.biodiversityjournal.com/images/pubblicazioni/biodiversity-journal-2022/biodiversity-journal-2022-13-02/biodiversity-journal-2022-13-02_0409-0416.pdf",
+    "says": "Synchronous firefly congregations range from India through Thailand, Malaysia and Indonesia to the Philippines; displays occur in trees along tidal rivers in mangrove-nypa swamps.",
+    "opened": false
+   },
+   {
+    "name": "Firefly.org: Synchronous Fireflies",
+    "url": "https://www.firefly.org/synchronous-fireflies.html",
+    "says": "Search summary: displays occur in trees and shrubs along tidal rivers in mangrove-nypa swamps in Southeast Asia.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Not all Pteroptyx species synchronize; Philippine-specific mangrove detail is thin, so framed regionally. | Second reader: Pteroptyx males gather on 'firefly trees', usually mangroves along tidal rivers, and flash in sync. The genus is recorded in the Philippines. Not every species flashes in sync, but the claim does not say they all do."
+ },
+ {
+  "id": "t19",
+  "topic": "Giant clam (taklobo)",
+  "category": "hayop",
+  "fact_english": "Giant clams get much of their food from tiny algae living inside their own tissue, which make food from sunlight.",
+  "label_onscreen": "TAKLOBO",
+  "subject_art_prompt": "a cute giant clam open with colourful mantle in sunlit water, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Animal Diversity Web",
+  "sources": [
+   {
+    "name": "Wikipedia: Giant clam",
+    "url": "https://en.wikipedia.org/wiki/Giant_clam",
+    "says": "Mantle tissues host symbiotic zooxanthellae from which adult clams get most of their nutrition; clam opens by day so algae get sunlight; 65-70% of needs from zooxanthellae; found off the Philippines.",
+    "opened": true
+   },
+   {
+    "name": "Animal Diversity Web (Univ. of Michigan): Tridacna gigas",
+    "url": "https://animaldiversity.org/accounts/Tridacna_gigas",
+    "says": "Gets the bulk of its nutrition from photosymbionts, also filter-feeds; dies without the algae or in the dark.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Tridacna",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tridacna&action=raw",
+    "says": "Live in symbiosis with photosynthetic dinoflagellate algae that grow in the mantle tissues; adult clams can get most (70-100%) of their nutrients from the algae and the rest from filter feeding.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "General biology; Philippine link is that giant clams live on Philippine reefs. | Second reader: Giant clams (Tridacna) host photosynthetic dinoflagellate algae (zooxanthellae/Symbiodinium) in their mantle tissue; adults can get 70-100% of nutrients from them, the rest from filter feeding. 'Much of their food' is, if anything, understated."
+ },
+ {
+  "id": "t20",
+  "topic": "Flying dragon lizard (Draco)",
+  "category": "hayop",
+  "fact_english": "Draco lizards, found in the Philippines, glide between trees on skin flaps held open by long ribs.",
+  "label_onscreen": "BUTIKING LUMILIPAD",
+  "subject_art_prompt": "a cute Draco flying lizard gliding with orange wing flaps, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; PLOS ONE",
+  "sources": [
+   {
+    "name": "Wikipedia: Draco (lizard)",
+    "url": "https://en.wikipedia.org/wiki/Draco_(lizard)",
+    "says": "Glide via patagia supported by an enlarged set of ribs; glides up to 60 m; lists Draco spilopterus, the Philippine flying dragon.",
+    "opened": true
+   },
+   {
+    "name": "PLoS ONE 2017 'How lizards fly' (via PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5728497",
+    "says": "Patagium supported by five to seven greatly elongated thoracic ribs; gliding is main way of moving through forest.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Draco (lizard)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Draco_(lizard)&action=raw",
+    "says": "Capable of gliding via patagia formed by a support structure from an enlarged set of ribs.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Draco mindanensis",
+    "url": "https://en.wikipedia.org/wiki/Draco_mindanensis",
+    "says": "Endemic to the Philippines; five ribs support its patagium.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Draco gliding membranes (patagia) are supported by elongated, movable ribs; several Draco species live in the Philippines (e.g. D. volans, D. mindanensis, D. reticulatus)."
+ },
+ {
+  "id": "t21",
+  "topic": "Gray's monitor (butaan)",
+  "category": "hayop",
+  "fact_english": "The butaan, a large monitor lizard of southern Luzon and nearby islands, eats mostly ripe fruit, which is unusual for a monitor lizard.",
+  "label_onscreen": "BUTAAN",
+  "subject_art_prompt": "a cute large monitor lizard holding a ripe fruit, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Smithsonian research profile",
+  "sources": [
+   {
+    "name": "Wikipedia: Gray%27s monitor",
+    "url": "https://en.wikipedia.org/wiki/Gray%27s_monitor",
+    "says": "Found in southern Luzon, Catanduanes and Polillo; diet consists primarily of ripe fruit, especially Pandanus, plus some animal prey; an exception among monitors.",
+    "opened": true
+   },
+   {
+    "name": "Smithsonian research profile (Herpetological Review 2017 paper)",
+    "url": "https://profiles.si.edu/display/sro_145257",
+    "says": "Described as an obligate frugivore, unusual among monitors; adults eat fruits such as Pandanus, Canarium, Ficus.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Gray's monitor",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gray%27s_monitor&action=raw",
+    "says": "Known only from southern Luzon, Catanduanes and Polillo; diet consists primarily of ripe fruit; monitors are generally carnivorous, making it somewhat of an exception.",
+    "opened": true
+   },
+   {
+    "name": "Los Angeles Zoo: Butaan (Gray's Monitor)",
+    "url": "https://lazoo.org/explore-your-zoo/our-animals/reptiles/butaan",
+    "says": "Zoo species page describing the butaan as a fruit-eating Philippine monitor (per search summary).",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "'of Luzon' narrowed to southern Luzon; northern Luzon population is now a separate species. | Second reader: Gray's monitor / butaan (Varanus olivaceus) is known only from southern Luzon, Catanduanes and Polillo; its diet consists primarily of ripe fruit (esp. Pandanus), an exception among generally carnivorous monitors."
+ },
+ {
+  "id": "t22",
+  "topic": "Snakehead (dalag)",
+  "category": "hayop",
+  "fact_english": "The dalag can breathe air, and can survive out of water for a time if it stays moist.",
+  "label_onscreen": "DALAG",
+  "subject_art_prompt": "a cute snakehead fish peeking out of the water, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; US Dept. of the Interior",
+  "sources": [
+   {
+    "name": "Wikipedia: Snakehead (fish)",
+    "url": "https://en.wikipedia.org/wiki/Snakehead_(fish)",
+    "says": "Breathe air via suprabranchial organs; can survive on land up to four days if wet; called dalag by Tagalogs in the Philippines.",
+    "opened": true
+   },
+   {
+    "name": "US Dept. of the Interior: Snakeheads: A Horror Story",
+    "url": "https://www.doi.gov/employees/snakeheads-horror-story",
+    "says": "Snakeheads breathe air and can survive out of water for up to about four days if kept moist.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Channa striata",
+    "url": "https://en.wikipedia.org/w/index.php?title=Channa_striata&action=raw",
+    "says": "Called dalag in the Philippines; survives the dry season by burrowing in mud.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Snakehead (fish)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Snakehead_(fish)&action=raw",
+    "says": "They breathe air; can survive on land for up to four days provided they are wet.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is about snakeheads generally (northern snakehead), not the Philippine species specifically. | Second reader: Dalag is Channa striata, the striped snakehead. Snakeheads are air-breathers with suprabranchial organs; they survive dry seasons buried in mud as long as skin and breathing organs stay moist, and snakeheads can survive on land for days if wet."
+ },
+ {
+  "id": "t23",
+  "topic": "Binturong",
+  "category": "hayop",
+  "fact_english": "The binturong, found in Palawan, gives off a scent often compared to buttered popcorn.",
+  "label_onscreen": "BINTURONG",
+  "subject_art_prompt": "a cute binturong hugging a branch with a popcorn bucket floating beside it, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Duke Today",
+  "sources": [
+   {
+    "name": "Wikipedia: Binturong",
+    "url": "https://en.wikipedia.org/wiki/Binturong",
+    "says": "Popcorn-scented musk glands; odor reminiscent of popcorn or corn chips, likely from 2-acetyl-1-pyrroline in urine; subspecies A. b. whitei from Palawan.",
+    "opened": true
+   },
+   {
+    "name": "Duke Today (Duke University), 2016",
+    "url": "https://today.duke.edu/2016/04/popcornscentedbinturong",
+    "says": "Duke study found 2-AP, the compound behind popcorn aroma, in the urine of all 33 binturongs sampled.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Binturong",
+    "url": "https://en.wikipedia.org/w/index.php?title=Binturong&action=raw",
+    "says": "Subspecies A. b. whitei from Palawan; inhabits Palawan lowland forest; musk odor reminiscent of popcorn due to 2-AP in urine.",
+    "opened": true
+   },
+   {
+    "name": "Popular Science",
+    "url": "https://www.popsci.com/bearcats-pee-smells-like-hot-buttered-popcorn/",
+    "says": "Why binturongs' pee smells like buttery popcorn.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Within the Philippines binturongs occur only on Palawan. | Second reader: The Palawan binturong (A. b. whitei) is a recognized subspecies on Palawan. A 2016 Duke study found 2-acetyl-1-pyrroline, the compound in cooked popcorn, in binturong urine; coverage widely describes the smell as buttered popcorn."
+ },
+ {
+  "id": "t24",
+  "topic": "Cebu flowerpecker",
+  "category": "hayop",
+  "fact_english": "The Cebu flowerpecker, a tiny bird found only on Cebu, was feared extinct for most of the 1900s until it was found again in 1992. It is critically endangered.",
+  "label_onscreen": "CEBU FLOWERPECKER",
+  "subject_art_prompt": "a tiny cute flowerpecker bird with a red patch, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Bird Conservation International",
+  "sources": [
+   {
+    "name": "Wikipedia: Cebu flowerpecker",
+    "url": "https://en.wikipedia.org/wiki/Cebu_flowerpecker",
+    "says": "Endemic to Cebu; feared extinct early in the 20th century, rediscovered 1992 in limestone forest at Tabunan; critically endangered; some now fear it is extinct again.",
+    "opened": true
+   },
+   {
+    "name": "Dutson 1993, Bird Conservation International (Cambridge)",
+    "url": "https://www.cambridge.org/core/journals/bird-conservation-international/article/rediscovery-of-the-cebu-flowerpecker-dicaeum-quadricolor-with-notes-on-other-forest-birds-on-cebu-philippines/947D7CB952FACDC3BC0480480577EF7A",
+    "says": "Considered extinct since 1906, rediscovered near Tabunan in 1992.",
+    "opened": false
+   },
+   {
+    "name": "BirdLife DataZone factsheet",
+    "url": "https://datazone.birdlife.org/species/factsheet/cebu-flowerpecker-dicaeum-quadricolor/text",
+    "says": "Listed as Critically Endangered (per search summary).",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Cebu flowerpecker",
+    "url": "https://en.wikipedia.org/w/index.php?title=Cebu_flowerpecker&action=raw",
+    "says": "Endemic to Cebu; feared extinct early in the 20th century; rediscovered 1992; critically endangered on IUCN Red List.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Recent sightings are unconfirmed; avoid implying it is thriving. | Second reader: Endemic to Cebu; considered extinct since 1906 (unseen ~86 years) until rediscovered near Tabunan in 1992; IUCN Critically Endangered. Note: recent reports say it has become very rare and some fear it is extinct again, but its official status is still Critically Endangered. | Gentle: the bird is critically endangered; no joke at its expense."
+ },
+ {
+  "id": "t25",
+  "topic": "Philippine mouse-deer (pilandok)",
+  "category": "hayop",
+  "fact_english": "The Philippine mouse-deer of Balabac is not a true deer; it is a chevrotain, from a separate family of small hoofed animals.",
+  "label_onscreen": "PILANDOK",
+  "subject_art_prompt": "a cute tiny Philippine mouse-deer, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Mammal Diversity Database",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine mouse-deer",
+    "url": "https://en.wikipedia.org/wiki/Philippine_mouse-deer",
+    "says": "Tragulus nigricans, also called the Balabac chevrotain; endemic to Balabac and nearby islets; males lack antlers 'like a true deer' and use tusk-like canines.",
+    "opened": true
+   },
+   {
+    "name": "Mammal Diversity Database: Tragulus nigricans",
+    "url": "https://www.mammaldiversity.org/taxon/1006358",
+    "says": "Listed in family Tragulidae (chevrotains), order Artiodactyla.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine mouse-deer",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_mouse-deer&action=raw",
+    "says": "Also known as the Balabac chevrotain; endemic to Balabac and nearby smaller islands.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Chevrotain",
+    "url": "https://en.wikipedia.org/w/index.php?title=Chevrotain&action=raw",
+    "says": "Chevrotains, or mouse-deer, are small even-toed ungulates making up the family Tragulidae.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Tragulus nigricans (Balabac chevrotain) is endemic to Balabac and nearby islets, in family Tragulidae (chevrotains), not Cervidae."
+ },
+ {
+  "id": "t26",
+  "topic": "Colasisi (Philippine hanging parrot)",
+  "category": "hayop",
+  "fact_english": "The colasisi is a hanging parrot, part of a group of small parrots known for sleeping while hanging upside down from branches.",
+  "label_onscreen": "COLASISI",
+  "subject_art_prompt": "a cute small green colasisi parrot sleeping upside down from a branch, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; World Parrot Trust encyclopedia",
+  "sources": [
+   {
+    "name": "Wikipedia: Hanging parrot",
+    "url": "https://en.wikipedia.org/wiki/Hanging_parrot",
+    "says": "Hanging parrots (Loriculus) are unique among birds for their ability to sleep upside down.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Philippine hanging parrot",
+    "url": "https://en.wikipedia.org/wiki/Philippine_hanging_parrot",
+    "says": "Colasisi = Loriculus philippensis, endemic to the Philippines; article itself does not describe the upside-down sleeping.",
+    "opened": true
+   },
+   {
+    "name": "World Parrot Trust encyclopedia: Blue-crowned hanging parrot",
+    "url": "https://parrots.org/encyclopedia/blue-crowned-hanging-parrot/",
+    "says": "Hanging parrots roost upside down, hence the name.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine hanging parrot",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_hanging_parrot&action=raw",
+    "says": "Also commonly known as the colasisi, from Tagalog kulasisi; small parrot endemic to the Philippines.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Upside-down sleeping is documented at genus level, not specifically for L. philippensis; dropped 'like a bat'. | Second reader: Colasisi = Philippine hanging parrot (Loriculus philippensis), a member of the hanging parrot genus Loriculus, which is known for sleeping upside down."
+ },
+ {
+  "id": "t27",
+  "topic": "Philippine eagle egg",
+  "category": "hayop",
+  "fact_english": "A pair of Philippine eagles usually lays just one egg and raises one chick about every two years.",
+  "label_onscreen": "HARIBON",
+  "subject_art_prompt": "a cute Philippine eagle guarding a single egg in a nest, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Inquirer",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine eagle",
+    "url": "https://en.wikipedia.org/wiki/Philippine_eagle",
+    "says": "Complete breeding cycle lasts two years; female typically lays one egg, occasionally two reported.",
+    "opened": true
+   },
+   {
+    "name": "Inquirer: First Philippine eagle bred in captivity turns 20",
+    "url": "https://newsinfo.inquirer.net/127999/first-philippine-eagle-bred-in-captivity-turns-20/amp",
+    "says": "Philippine Eagle Foundation researcher: slow breeder, one egg every two years.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine eagle",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_eagle&action=raw",
+    "says": "The complete breeding cycle lasts two years; the female typically lays one egg, occasionally two reported.",
+    "opened": true
+   },
+   {
+    "name": "HowStuffWorks: Philippine Eagle: The Bird That Lays 1 Egg Every 2 Years",
+    "url": "https://animals.howstuffworks.com/endangered-species/philippine-eagle.htm",
+    "says": "Lays one egg every two years.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Pairs that lose an egg may try again the next year; Peregrine Fund says every 2-3 years. | Second reader: Female typically lays one egg; complete breeding cycle lasts two years. Caveat: if the egg or chick is lost they may relay the next year, and some sources say every 2-3 years; 'usually' and 'about' cover this."
+ },
+ {
+  "id": "t28",
+  "topic": "Sea turtle nests",
+  "category": "hayop",
+  "fact_english": "For sea turtles, the temperature of the sand decides whether the hatchlings become male or female; warmer sand gives more females.",
+  "label_onscreen": "PAWIKAN",
+  "subject_art_prompt": "cute baby sea turtles hatching from warm sand, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; NOAA Ocean Service",
+  "sources": [
+   {
+    "name": "Wikipedia: Sea turtle",
+    "url": "https://en.wikipedia.org/wiki/Sea_turtle",
+    "says": "Sea turtles have temperature-dependent sex determination; warmer temperatures produce females, cooler produce males; mentions Philippine conservation efforts.",
+    "opened": true
+   },
+   {
+    "name": "NOAA Ocean Service: turtle hatch facts",
+    "url": "https://oceanservice.noaa.gov/facts/turtle-hatch.html/contact.html",
+    "says": "Cooler sand produces more males, warmer sand more females.",
+    "opened": false
+   },
+   {
+    "name": "NOAA Fisheries",
+    "url": "https://www.fisheries.noaa.gov/news/rising-temperatures-turning-major-sea-turtle-population-female",
+    "says": "Warm northern Great Barrier Reef beaches produce almost all female green turtle hatchlings.",
+    "opened": false
+   },
+   {
+    "name": "Live Science",
+    "url": "https://www.livescience.com/almost-all-florida-sea-turtles-female",
+    "says": "Sand temperature determines hatchling sex; warmer sand gives more females.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "General sea turtle biology, not Philippine-specific; frame with Philippine nesting beaches in the video if needed. | Second reader: Temperature-dependent sex determination in sea turtles is well documented; warmer sand produces more females, cooler sand more males."
+ },
+ {
+  "id": "t29",
+  "topic": "Platymantis frogs",
+  "category": "hayop",
+  "fact_english": "Platymantis forest frogs, found mostly in the Philippines, lay their eggs out of water, and tiny froglets hatch directly, skipping the tadpole stage.",
+  "label_onscreen": "PALAKANG-GUBAT",
+  "subject_art_prompt": "a cute tiny froglet hatching straight from an egg on a leaf, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Field Museum",
+  "sources": [
+   {
+    "name": "Wikipedia: Platymantis",
+    "url": "https://en.wikipedia.org/wiki/Platymantis",
+    "says": "Up to ~60 species found mostly in the Philippines; article does not discuss breeding.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Ceratobatrachidae",
+    "url": "https://en.wikipedia.org/wiki/Ceratobatrachidae",
+    "says": "All Ceratobatrachidae (family of Platymantis) lay eggs outside of water and undergo direct development without free-living tadpoles.",
+    "opened": true
+   },
+   {
+    "name": "Field Museum: Philippine Frogs",
+    "url": "https://philippines.fieldmuseum.org/natural-history/narrative/4156",
+    "says": "All species in the genus Platymantis undergo direct development; a froglet emerges from the egg.",
+    "opened": false
+   },
+   {
+    "name": "AmphibiaWeb: Platymantis negrosensis",
+    "url": "https://amphibiaweb.org/species/5680",
+    "says": "Eggs develop directly into froglets.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Some species lay in epiphyte water/leaves rather than strictly 'on land', so 'out of water' used. | Second reader: Platymantis as now defined is mostly Philippine, and all species develop directly from land-laid eggs (a few use water held in plants), with froglets hatching instead of tadpoles."
+ },
+ {
+  "id": "t30",
+  "topic": "Moalboal sardine run",
+  "category": "hayop",
+  "fact_english": "Off Moalboal in Cebu, a huge school of sardines gathers close to the shore, near enough for snorkellers to see.",
+  "label_onscreen": "SARDINAS",
+  "subject_art_prompt": "a swirling silver school of sardines near a reef, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Philstar",
+  "sources": [
+   {
+    "name": "Wikipedia: Moalboal",
+    "url": "https://en.wikipedia.org/wiki/Moalboal",
+    "says": "Area known as home to a vast school of sardines (pictured 'sardine run'), near a coastal drop-off.",
+    "opened": true
+   },
+   {
+    "name": "Philstar, 2024",
+    "url": "https://www.philstar.com/headlines/2024/09/08/2383608/beach-known-sardine-run-among-southeast-asias-best",
+    "says": "Quoting Conde Nast Traveler: sardines found here all year round, peak Nov-Apr; travel guides say school is 20-30 m from Panagsama Beach.",
+    "opened": false
+   },
+   {
+    "name": "Outlook Traveller",
+    "url": "https://www.outlooktraveller.com/experiences/nature/swim-inside-a-twisting-silver-cloud-how-to-float-with-millions-of-sardines-in-moalboal",
+    "says": "Snorkellers float with millions of sardines in Moalboal.",
+    "opened": false
+   },
+   {
+    "name": "We Seek Travel",
+    "url": "https://www.weseektravel.com/moalboal-sardine-run-panagsama-beach/",
+    "says": "The sardines sit about 20-30 m off Panagsama Beach.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "'Year-round' rests on travel/press sources only, so removed; the school reportedly moved from Pescador Island. | Second reader: The Moalboal (Panagsama Beach) sardine school stays roughly 20-30 m from shore and is a well-known snorkelling site."
+ },
+ {
+  "id": "t31",
+  "topic": "Palawan peacock-pheasant",
+  "category": "hayop",
+  "fact_english": "The male Palawan peacock-pheasant spreads its tail like a fan with shining blue-green eye spots to court a female.",
+  "label_onscreen": "TANDIKAN",
+  "subject_art_prompt": "a cute Palawan peacock-pheasant spreading its shining tail, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Toronto Zoo",
+  "sources": [
+   {
+    "name": "Wikipedia: Palawan peacock-pheasant",
+    "url": "https://en.wikipedia.org/wiki/Palawan_peacock-pheasant",
+    "says": "Male tail plumes bear highly iridescent ocelli; tail held erect and expanded laterally in courtship displays; endemic to Palawan.",
+    "opened": true
+   },
+   {
+    "name": "Toronto Zoo: Palawan peacock-pheasant",
+    "url": "https://www.torontozoo.com/animals/Palawan%20Peacock-pheasant",
+    "says": "Males have metallic blue and green ocelli on wings and tail.",
+    "opened": false
+   },
+   {
+    "name": "Zoo Barcelona",
+    "url": "https://zoobarcelona.cat/en/node/348",
+    "says": "The tail has two rows of large green-blue ocelli, shown to the female in a fan during courtship.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: The male raises and spreads its tail to show iridescent green-blue ocelli during courtship. Wikipedia describes the spread as lateral, so 'like a fan' is a simplification, but other sources call it a fan."
+ },
+ {
+  "id": "t32",
+  "topic": "Rafflesia",
+  "category": "halaman",
+  "fact_english": "Rafflesia, which grows in the Philippines, has no leaves, no stem and no true roots; it lives as a parasite on a vine.",
+  "label_onscreen": "RAFFLESIA",
+  "subject_art_prompt": "a big red Rafflesia flower on the forest floor, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Mongabay",
+  "sources": [
+   {
+    "name": "Wikipedia: Rafflesia",
+    "url": "https://en.wikipedia.org/wiki/Rafflesia",
+    "says": "Plant has no stems, leaves or roots; holoparasite of Tetrastigma vines; several species listed from the Philippines.",
+    "opened": true
+   },
+   {
+    "name": "Mongabay 2023: Philippines research on Rafflesia",
+    "url": "https://news.mongabay.com/2023/07/philippines-research-offers-hope-for-conserving-enigmatic-rafflesia-plants/amp",
+    "says": "Rafflesia cannot photosynthesize and relies on Tetrastigma vines; Philippines has 13 recognized species.",
+    "opened": false
+   },
+   {
+    "name": "Scientific American",
+    "url": "https://www.scientificamerican.com/blog/extinction-countdown/corpse-flower-coconuts/",
+    "says": "Rafflesia species are obligate parasites with no stems, roots or leaves; R. consueloae (Philippines) grows on a Tetrastigma vine.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Rafflesia is a holoparasite of Tetrastigma vines and has no stems, leaves or roots. Several species are Philippine."
+ },
+ {
+  "id": "t33",
+  "topic": "Jade vine",
+  "category": "halaman",
+  "fact_english": "The jade vine, native to the Philippines, has turquoise-blue flowers, a colour very rare in plants, and is pollinated by bats.",
+  "label_onscreen": "JADE VINE",
+  "subject_art_prompt": "hanging clusters of turquoise jade vine flowers, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; University of Bristol news",
+  "sources": [
+   {
+    "name": "Wikipedia: Strongylodon macrobotrys",
+    "url": "https://en.wikipedia.org/wiki/Strongylodon_macrobotrys",
+    "says": "Endemic to the Philippines; turquoise/greenish-blue flowers; bat-pollinated in the wild, bats hang upside down to drink nectar.",
+    "opened": true
+   },
+   {
+    "name": "University of Bristol news, 2020",
+    "url": "https://www.bristol.ac.uk/news/2020/march/jade-vine.html",
+    "says": "Its flower colour is exceptionally rare in plants.",
+    "opened": false
+   },
+   {
+    "name": "Oxford Plants 400",
+    "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/ST/Strong",
+    "says": "Native to the Philippines; thought to be bat pollinated.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Endemic to the Philippines, with turquoise (blue-green) flowers described as a very unusual plant colour, and bat-pollinated in the wild."
+ },
+ {
+  "id": "t34",
+  "topic": "Buri palm",
+  "category": "halaman",
+  "fact_english": "The buri palm flowers only once in its life, at the end of it, and then dies.",
+  "label_onscreen": "BURI",
+  "subject_art_prompt": "a buri palm with a huge flower spike on top, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; ANPSA",
+  "sources": [
+   {
+    "name": "Wikipedia: Corypha",
+    "url": "https://en.wikipedia.org/wiki/Corypha",
+    "says": "Buri palm genus native incl. the Philippines; all species are monocarpic and die after flowering.",
+    "opened": true
+   },
+   {
+    "name": "ANPSA: Corypha utan",
+    "url": "https://anpsa.org.au/?p=7623",
+    "says": "Monocarpic: flowers, sets seed and then dies; may live 50-60 years before a huge terminal inflorescence.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Corypha utan",
+    "url": "https://en.wikipedia.org/wiki/Corypha_utan",
+    "says": "Flowers once at the end of its lifetime (monocarpy).",
+    "opened": true
+   },
+   {
+    "name": "Global Voices",
+    "url": "https://globalvoices.org/2024/04/18/a-majestic-palm-that-flowers-once-in-its-life-is-in-bloom-in-trinidad/",
+    "says": "A Corypha palm flowers once in its life and then dies.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Corypha utan (buri) is monocarpic: it flowers once at the end of its life and then dies."
+ },
+ {
+  "id": "t35",
+  "topic": "Ube",
+  "category": "halaman",
+  "fact_english": "Ube is a yam, not a sweet potato or a taro, even though people often mix them up.",
+  "label_onscreen": "UBE",
+  "subject_art_prompt": "a purple ube yam cut in half, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Tasting Table",
+  "sources": [
+   {
+    "name": "Wikipedia: Dioscorea alata",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dioscorea_alata&action=raw",
+    "says": "D. alata, also called ube, is a species of yam; it is sometimes confused with taro and the Okinawa sweet potato.",
+    "opened": true
+   },
+   {
+    "name": "Fine Dining Lovers: What is ube",
+    "url": "https://www.finedininglovers.com/explore/articles/what-is-ube",
+    "says": "Search summary: ube (Dioscorea alata) is a true yam in Dioscoreaceae; sweet potato is in the morning glory family, taro is a corm in Araceae.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Dioscorea alata",
+    "url": "https://en.wikipedia.org/wiki/Dioscorea_alata",
+    "says": "Ube is a species of yam; it is sometimes confused with taro and the Okinawa sweet potato.",
+    "opened": true
+   },
+   {
+    "name": "Tasting Table",
+    "url": "https://www.tastingtable.com/1389004/difference-purple-sweet-potato-ube",
+    "says": "Ube and purple sweet potato are different plants that are often mixed up.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Botany is uncontroversial; second source is a food site, not a botanical authority. | Second reader: Ube is Dioscorea alata, a true yam, and is often confused with taro and purple sweet potato."
+ },
+ {
+  "id": "t36",
+  "topic": "Medinilla",
+  "category": "halaman",
+  "fact_english": "Medinilla magnifica is a flowering plant native to the Philippines, and people in many countries grow it as a houseplant.",
+  "label_onscreen": "KAPA-KAPA",
+  "subject_art_prompt": "pink hanging Medinilla flowers in a pot, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Royal Horticultural Society",
+  "sources": [
+   {
+    "name": "Wikipedia: Medinilla magnifica",
+    "url": "https://en.wikipedia.org/w/index.php?title=Medinilla_magnifica&action=raw",
+    "says": "Epiphytic flowering plant native to the Philippines; in temperate zones must be grown as an indoor houseplant; holds the RHS Award of Garden Merit.",
+    "opened": true
+   },
+   {
+    "name": "Royal Horticultural Society: Medinilla magnifica",
+    "url": "https://www.rhs.org.uk/plants/11004/wd/details",
+    "says": "Appeared in search for the Philippine native houseplant; search summary: grown indoors in temperate zones.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Medinilla magnifica",
+    "url": "https://en.wikipedia.org/wiki/Medinilla_magnifica",
+    "says": "Native to the Philippines; a common house plant in cooler climes.",
+    "opened": true
+   },
+   {
+    "name": "Plantura",
+    "url": "https://plantura.garden/uk/houseplants/medinilla-magnifica/medinilla-magnifica-overview",
+    "says": "Covers Medinilla magnifica as a houseplant and how to care for it.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "'Sold around the world' softened to 'grown as a houseplant in many countries'. It is an epiphyte (grows on trees), not strictly a shrub, so 'shrub' removed. | Second reader: Native (endemic) to the Philippines and widely grown as a houseplant in cooler climates."
+ },
+ {
+  "id": "t37",
+  "topic": "Sampaguita",
+  "category": "halaman",
+  "fact_english": "The sampaguita, the national flower of the Philippines, did not start out there: botanists list it as native to Bhutan and India.",
+  "label_onscreen": "SAMPAGUITA",
+  "subject_art_prompt": "a small white sampaguita flower, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Kew Plants of the World Online",
+  "sources": [
+   {
+    "name": "Wikipedia: Jasminum sambac",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jasminum_sambac&action=raw",
+    "says": "Species of jasmine native to Bhutan and India (citing POWO); national flower of the Philippines, known as sampaguita.",
+    "opened": true
+   },
+   {
+    "name": "Kew Plants of the World Online: Jasminum sambac",
+    "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:609755-1",
+    "says": "Search summary: native range Bhutan to India.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Jasminum sambac",
+    "url": "https://en.wikipedia.org/wiki/Jasminum_sambac",
+    "says": "is a species of jasmine native to Bhutan and India ... national flower of the Philippines, where it is known as sampaguita",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Replaced vague 'elsewhere in tropical Asia' with the POWO native range. Arrival date in the Philippines (17th century claims) not stated because weakly sourced. | Second reader: Kew's Plants of the World Online gives the native range of Jasminum sambac as Bhutan to India (East Himalaya, India), and the Philippines is not part of that range. Wikipedia agrees. The flower was adopted as the national flower in 1934."
+ },
+ {
+  "id": "t38",
+  "topic": "Mabolo (kamagong)",
+  "category": "halaman",
+  "fact_english": "The kamagong or mabolo tree belongs to the same genus as ebony trees, and its fuzzy fruit is called the velvet apple.",
+  "label_onscreen": "MABOLO",
+  "subject_art_prompt": "a fuzzy reddish mabolo velvet apple fruit, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; StuartXchange",
+  "sources": [
+   {
+    "name": "Wikipedia: Diospyros blancoi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Diospyros_blancoi&action=raw",
+    "says": "Commonly known as velvet apple, velvet persimmon, kamagong or mabolo tree; a tree of the genus Diospyros of ebony trees and persimmons; fruit has a velvety fur-like covering.",
+    "opened": true
+   },
+   {
+    "name": "Earthpedia: Velvet Persimmon (Diospyros discolor)",
+    "url": "https://earthpedia.earth.com/plant-encyclopedia/angiosperms/ebenaceae/diospyros-discolor",
+    "says": "Search summary: tree in the ebony and persimmon genus, called velvet apple, kamagong and mabolo, with fuzzy reddish-brown fruit.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Diospyros blancoi",
+    "url": "https://en.wikipedia.org/wiki/Diospyros_blancoi",
+    "says": "commonly known as velvet apple, velvet persimmon, kamagong, or mabolo tree, is a tree of the genus Diospyros of ebony trees and persimmons. It produces edible fruit with a fine, velvety, reddish-brown fur-like covering",
+    "opened": true
+   },
+   {
+    "name": "StuartXchange: Mabolo",
+    "url": "https://www.stuartxchange.org/Mabolo",
+    "says": "Philippine medicinal plant entry for Diospyros blancoi (kamagong/mabolo), in the family Ebenaceae",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is a general plant encyclopedia site; Wikipedia cites USDA GRIN for the names. | Second reader: Diospyros blancoi (kamagong, mabolo) is in the genus Diospyros, the same genus as ebony trees and persimmons. Its fuzzy fruit is called the velvet apple."
+ },
+ {
+  "id": "t39",
+  "topic": "Calamansi",
+  "category": "halaman",
+  "fact_english": "Calamansi is a hybrid fruit, generally thought to be a cross between a kumquat and a mandarin.",
+  "label_onscreen": "KALAMANSI",
+  "subject_art_prompt": "a few small round green calamansi fruits, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; UC Riverside Citrus Variety Collection",
+  "sources": [
+   {
+    "name": "Wikipedia: Calamansi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Calamansi&action=raw",
+    "says": "Calamansi is a hybrid between kumquat and another Citrus species, probably the mandarin orange.",
+    "opened": true
+   },
+   {
+    "name": "UC Riverside Citrus Variety Collection",
+    "url": "https://citrusvariety.ucr.edu/crc3087",
+    "says": "Search summary: believed to be a natural hybrid with kumquat in its parentage; one researcher considered it a sour mandarin x kumquat hybrid.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Calamansi",
+    "url": "https://en.wikipedia.org/wiki/Calamansi",
+    "says": "Calamansi is a hybrid between kumquat ... and another species of Citrus (in this case probably the mandarin orange).",
+    "opened": true
+   },
+   {
+    "name": "UC Riverside Citrus Variety Collection",
+    "url": "https://citrusvariety.ucr.edu/crc2592",
+    "says": "believed to be a natural hybrid with kumquat in its parentage; cited description calls it a natural hybrid between a sour mandarin and some kumquat",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Parentage wording already hedged. Note PROSEA suggests it may have originated in China, so do not claim it arose in the Philippines. | Second reader: Sources agree that calamansi is a hybrid with kumquat as one parent, and the other parent is probably a mandarin. Saying it is 'generally thought' to be this cross matches that uncertainty."
+ },
+ {
+  "id": "t40",
+  "topic": "Rattan",
+  "category": "halaman",
+  "fact_english": "Most rattans are climbing palms; many of them have spines and hooks that help them climb over other plants.",
+  "label_onscreen": "YANTOK",
+  "subject_art_prompt": "a rattan vine with hooked tendrils climbing a tree, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Smithsonian NMNH",
+  "sources": [
+   {
+    "name": "Wikipedia: Rattan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rattan&action=raw",
+    "says": "Roughly 600 species of Old World climbing palms; many rattans have spines which act as hooks to aid climbing over other plants.",
+    "opened": true
+   },
+   {
+    "name": "Smithsonian NMNH: Arecaceae key",
+    "url": "https://naturalhistory.si.edu/sites/default/files/media/file/arecaceae.pdf",
+    "says": "Search summary: describes the cirrus as a whip-like leaf extension with leaflets reduced to down-pointing hooks.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Rattan",
+    "url": "https://en.wikipedia.org/wiki/Rattan",
+    "says": "roughly 600 species of Old World climbing palms ... A few species of rattans are non-climbing.",
+    "opened": true
+   },
+   {
+    "name": "Rowe & Isnard 2009, Plant Signaling & Behavior (PMC)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2802813/",
+    "says": "Climbing palms attach to supports with modified leaf tips (cirri) or modified inflorescences (flagella) bearing reflexed spines or hooks",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Changed 'Rattan is a palm' to plural with 'many', since rattan is ~600 species and a few are not climbers. | Second reader: The claim is mostly right, but it says all rattans climb. Wikipedia notes that a few rattan species do not climb (free-standing or shrub-like). Hooked whips (cirri and flagella) used for climbing are well documented."
+ },
+ {
+  "id": "t41",
+  "topic": "Nipa palm",
+  "category": "halaman",
+  "fact_english": "The nipa palm's trunk grows underground in the mud; only its leaves and flower stalks rise above the surface.",
+  "label_onscreen": "NIPA",
+  "subject_art_prompt": "a nipa palm with leaves rising from mud by a river, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; PROSEA",
+  "sources": [
+   {
+    "name": "Wikipedia: Nypa fruticans",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nypa_fruticans&action=raw",
+    "says": "Unlike most palms, the nipa palm's trunk grows beneath the ground; only the leaves and flower stalk grow upwards above the surface.",
+    "opened": true
+   },
+   {
+    "name": "PROSEA: Nypa fruticans",
+    "url": "https://prosea.prota4u.org/view.aspx?id=54",
+    "says": "Search summary: prostrate rhizome stem branching underground, leaves arising from the buried stem.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Nypa fruticans",
+    "url": "https://en.wikipedia.org/wiki/Nypa_fruticans",
+    "says": "Unlike most palms, the nipa palm's trunk grows beneath the ground; only the leaves and flower stalk grow upwards above the surface.",
+    "opened": true
+   },
+   {
+    "name": "NParks Flora & Fauna Web: Nypa fruticans",
+    "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2658",
+    "says": "prostrate, rhizomatous stem that branches underground; only the large erect leaves are visible",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: The nipa palm's stem runs horizontally underground in the mud, and only its leaves and flower stalks rise above the surface."
+ },
+ {
+  "id": "t42",
+  "topic": "Ylang-ylang",
+  "category": "halaman",
+  "fact_english": "The name ylang-ylang comes from the Tagalog name of the tree, ilang-ilang, and oil from its flowers is used in perfumes.",
+  "label_onscreen": "ILANG-ILANG",
+  "subject_art_prompt": "yellow ylang-ylang flowers on a branch, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Britannica",
+  "sources": [
+   {
+    "name": "Wikipedia: Cananga odorata",
+    "url": "https://en.wikipedia.org/w/index.php?title=Cananga_odorata&action=raw",
+    "says": "'Ylang-ylang' is the Spanish spelling of the Tagalog name ilang-ilang; the essential oil from the flowers is one of the most used natural fragrances in perfume.",
+    "opened": true
+   },
+   {
+    "name": "Britannica: ylang-ylang",
+    "url": "https://www.britannica.com/plant/ylang-ylang",
+    "says": "Search summary: also spelled ilang-ilang; Tagalog term; flowers distilled for perfume.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Cananga odorata",
+    "url": "https://en.wikipedia.org/wiki/Cananga_odorata",
+    "says": "'Ylang-ylang' is the Spanish spelling of the Tagalog name for the tree, ilang-ilang ... The essential oil is used as a perfume",
+    "opened": true
+   },
+   {
+    "name": "Dictionary.com: ylang-ylang",
+    "url": "https://www.dictionary.com/browse/ylang-ylang",
+    "says": "from Tagalog; English term dated 1875-80",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Do NOT add the 'flower of flowers' meaning: Britannica gives it but Wikipedia calls it a mistranslation. | Second reader: 'Ylang-ylang' is the Spanish spelling of the Tagalog name ilang-ilang, and the essential oil from its flowers is widely used in perfumes."
+ },
+ {
+  "id": "t43",
+  "topic": "Abaca and manila paper",
+  "category": "gawa",
+  "fact_english": "Manila paper and manila envelopes are named after Manila hemp, or abaca, the Philippine fibre the paper was originally made from.",
+  "label_onscreen": "ABAKA",
+  "subject_art_prompt": "a bundle of abaca fibre beside a plain brown envelope, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia",
+  "sources": [
+   {
+    "name": "Wikipedia: Manila paper",
+    "url": "https://en.wikipedia.org/w/index.php?title=Manila_paper&action=raw",
+    "says": "The 'manila' in the name comes from manila hemp (abacá), named after Manila; from the 1840s recycled abacá rope was the main material; later replaced by wood pulp.",
+    "opened": true
+   },
+   {
+    "name": "Mental Floss: Why is it called a manila envelope",
+    "url": "https://www.mentalfloss.com/language/why-is-it-called-a-manila-envelope",
+    "says": "Search summary: papermakers turned to old Manila rope from ships; 1843 Hollingsworth patent to make paper from manila fibres.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Manila paper",
+    "url": "https://en.wikipedia.org/wiki/Manila_paper",
+    "says": "The manila component of the name originates from manila hemp (a.k.a. abaca leaves) ... Manila paper was originally made out of old Manila hemp ropes",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Light rewording; today such paper is usually wood pulp. | Second reader: Manila paper is named after Manila hemp (abaca). It was originally made from recycled abaca rope, and modern versions use wood pulp. | On-screen credit shows Wikipedia only: the second source is a popular site."
+ },
+ {
+  "id": "t44",
+  "topic": "Piña cloth",
+  "category": "gawa",
+  "fact_english": "Piña is a fine Philippine cloth woven from the fibres of pineapple leaves.",
+  "label_onscreen": "PIÑA",
+  "subject_art_prompt": "a pineapple beside a folded sheer piña cloth, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; University of Michigan",
+  "sources": [
+   {
+    "name": "Wikipedia: Piña",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pi%C3%B1a&action=raw",
+    "says": "Piña is a traditional Philippine fiber made from the leaves of the pineapple plant, woven into lustrous lace-like textiles.",
+    "opened": true
+   },
+   {
+    "name": "University of Michigan Museum of Anthropological Archaeology: Piña Cloth",
+    "url": "https://sites.lsa.umich.edu/ummaa-philippines/2023/07/13/pina-cloth/",
+    "says": "Search summary: sheer hand-woven Philippine textile made from pineapple leaf fibre.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Pina",
+    "url": "https://en.wikipedia.org/wiki/Pi%C3%B1a",
+    "says": "Pina is a traditional Philippine fiber made from the leaves of the pineapple plant ... used for weaving lustrous lace-like luxury textiles",
+    "opened": true
+   },
+   {
+    "name": "Cooper Hewitt: From Spiny Leaf to Gossamer Beauty",
+    "url": "https://www.cooperhewitt.org/2018/09/19/from-spiny-leaf-to-gossamer-beauty",
+    "says": "Philippine pina cloth is woven from pineapple leaf fibers",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Piña is a traditional Philippine fibre made from pineapple leaves and woven into fine, sheer cloth."
+ },
+ {
+  "id": "t45",
+  "topic": "Nata de coco",
+  "category": "pagkain",
+  "fact_english": "Nata de coco, a chewy jelly made from coconut water, was invented in the Philippines in 1949 by the chemist Teódula Kalaw África.",
+  "label_onscreen": "NATA DE COCO",
+  "subject_art_prompt": "a glass bowl of cubes of nata de coco, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Batangas History",
+  "sources": [
+   {
+    "name": "Wikipedia: Nata de coco",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nata_de_coco&action=raw",
+    "says": "Originating in Ramon, Isabela, nata de coco was invented in 1949 by Teódula Kalaw África as an alternative to nata de piña.",
+    "opened": true
+   },
+   {
+    "name": "Batangas History: Teodula Africa, inventor of nata de coco",
+    "url": "https://www.batangashistory.date/2025/08/the-lipena-teodula-africa-inventor-of.html",
+    "says": "Search summary: cites her 1949 paper in the journal Unitas (University of Santo Tomas) proposing coconut water as the fermentation medium.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Nata de coco",
+    "url": "https://en.wikipedia.org/wiki/Nata_de_coco",
+    "says": "Nata de coco was invented in 1949 by Teodula Kalaw Africa, a Filipino chemist working for the National Coconut Corporation",
+    "opened": true
+   },
+   {
+    "name": "Esquire Philippines via PEP",
+    "url": "https://awsdev.pep.ph/lifestyle/food/180225/teodula-kalaw-frica-chemist-nata-de-coco-sa1057-20240419-src-esquireph",
+    "says": "Teodula Kalaw Africa, a chemist from Lipa, Batangas, credited with creating nata de coco",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is a local history blog, not a top-tier source; it points to the 1949 Unitas paper. Caller may want a stronger second source before use. | Second reader: Wikipedia and Esquire Philippines (via PEP) both credit the Filipino chemist Teódula Kalaw África, of the National Coconut Corporation, with inventing nata de coco in 1949. Her 1949 paper on producing nata from coconut water is cited. Little is documented about her life, but the date and attribution are consistent across sources. | Weakest-sourced fact in the pool: keep as a spare."
+ },
+ {
+  "id": "t46",
+  "topic": "Banana ketchup",
+  "category": "pagkain",
+  "fact_english": "Banana ketchup was invented in the Philippines, and the food scientist María Orosa is credited with creating it.",
+  "label_onscreen": "BANANA KETCHUP",
+  "subject_art_prompt": "a plain unlabeled bottle of banana ketchup beside bananas, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; US National Park Service",
+  "sources": [
+   {
+    "name": "Wikipedia: Banana ketchup",
+    "url": "https://en.wikipedia.org/w/index.php?title=Banana_ketchup&action=raw",
+    "says": "First produced in the Philippines during WWII due to a tomato shortage; Filipina food technologist Maria Y. Orosa is credited with inventing it.",
+    "opened": true
+   },
+   {
+    "name": "US National Park Service: Maria Ylagan Orosa",
+    "url": "https://www.nps.gov/articles/000/maria-ylagan-orosa.htm",
+    "says": "Search summary: profile of Orosa as chemist and food scientist credited with banana ketchup.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Banana ketchup",
+    "url": "https://en.wikipedia.org/wiki/Banana_ketchup",
+    "says": "Filipina food technologist Maria Y. Orosa (1892-1945) is credited with inventing the product; first mass-produced commercially in 1942 by Magdalo V. Francisco Sr.",
+    "opened": true
+   },
+   {
+    "name": "ABS-CBN News",
+    "url": "https://news.abs-cbn.com/life/11/29/19/who-is-maria-ylagan-orosa-banana-ketchup-inventor-featured-as-google-doodle",
+    "says": "Calls Maria Ylagan Orosa the banana ketchup inventor (Google Doodle, 2019).",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Orosa is widely credited with inventing banana ketchup in the Philippines. One nuance, not a contradiction: Magdalo Francisco worked out his own method (1938) and was first to mass-produce it (Mafran brand, 1942)."
+ },
+ {
+  "id": "t47",
+  "topic": "Pancit (word)",
+  "category": "pagkain",
+  "fact_english": "The word pancit most likely comes from Hokkien, a Chinese language spoken by many Chinese Filipinos.",
+  "label_onscreen": "PANCIT",
+  "subject_art_prompt": "a plate of pancit noodles, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Language Log",
+  "sources": [
+   {
+    "name": "Wikipedia: Pancit",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pancit&action=raw",
+    "says": "Derived from either of two Philippine Hokkien terms, 扁食 (pán-si̍t) or 便的食 (pân-si̍t).",
+    "opened": true
+   },
+   {
+    "name": "Language Log (University of Pennsylvania): Udon, wontons, & pansit",
+    "url": "https://languagelog.ldc.upenn.edu/nll?p=70652",
+    "says": "Search summary: discusses Hokkien 扁食 as the likely source of pansit; exact ultimate origin still unclear.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Pancit",
+    "url": "https://en.wikipedia.org/wiki/Pancit",
+    "says": "The term pancit is derived from either the Philippine Hokkien terms pian-sit or pian-e-sit ('convenient food').",
+    "opened": true
+   },
+   {
+    "name": "Wiktionary: pansit",
+    "url": "https://en.wiktionary.com/wiki/pansit",
+    "says": "Lists Hokkien 扁食 or 便食 as the possible source.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Hokkien origin agreed; which Hokkien word is disputed, so added 'most likely' and avoided the popular 'convenient food' meaning. | Second reader: Sources agree the word comes from Philippine Hokkien. Which Hokkien word it comes from is still argued (pian-sit 'wonton' or pian-e-sit 'convenient food'), but the claim only says Hokkien and uses 'most likely'."
+ },
+ {
+  "id": "t48",
+  "topic": "Champorado",
+  "category": "pagkain",
+  "fact_english": "Champorado is thought to have come to the Philippines from Mexico through the galleon trade; in Mexico a similar chocolate drink is called champurrado.",
+  "label_onscreen": "CHAMPORADO",
+  "subject_art_prompt": "a bowl of chocolate champorado, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Philstar",
+  "sources": [
+   {
+    "name": "Wikipedia: Champorado",
+    "url": "https://en.wikipedia.org/w/index.php?title=Champorado&action=raw",
+    "says": "During the galleon trade between Mexico and the Philippines, Mexican traders brought cocoa and the knowledge of making champurrado; name from Spanish champurrar, 'to mix'.",
+    "opened": true
+   },
+   {
+    "name": "Philstar: Americans discover breakfast staple Filipinos have been eating for centuries",
+    "url": "https://philstar.com/food-and-leisure/2018/03/21/1798956/americans-discover-breakfast-staple-filipinos-have-been-eating-centuries",
+    "says": "Search summary: galleon-trade account of champurrado reaching the Philippines and becoming champorado with rice.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Champorado",
+    "url": "https://en.wikipedia.org/wiki/Champorado",
+    "says": "During the galleon trade, Mexican traders brought cocoa and the knowledge of making champurrado to the Philippines; Filipinos replaced masa with sticky rice.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Champurrado",
+    "url": "https://en.wikipedia.org/wiki/Champurrado",
+    "says": "Champurrado is a Mexican chocolate drink. Champorado was adapted directly from it via the Manila galleons.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Added 'is thought to' since the transfer is not documented in detail; supporting sources are mostly newspapers and food writing. | Second reader: Sources agree champorado comes from Mexican champurrado, brought over by the Manila galleons. Filipinos swapped the masa for sticky rice. The claim hedges with 'is thought to'."
+ },
+ {
+  "id": "t49",
+  "topic": "Pinatubo cooling",
+  "category": "agham",
+  "fact_english": "The 1991 eruption of Mount Pinatubo sent so much gas high into the sky that the whole world cooled by up to about half a degree Celsius for a year or two.",
+  "label_onscreen": "PINATUBO",
+  "subject_art_prompt": "a volcano puffing a tall ash cloud into the sky, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; NASA GISS",
+  "sources": [
+   {
+    "name": "Wikipedia: Mount Pinatubo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mount_Pinatubo&action=raw",
+    "says": "Released about 20 million tonnes of SO2; aerosols formed a global sulfuric acid haze; global temperatures dropped by about 0.5 °C in 1991–1993.",
+    "opened": true
+   },
+   {
+    "name": "NASA GISS publication abstract",
+    "url": "https://www.giss.nasa.gov/pubs/abs/pa09400x.html",
+    "says": "Search summary: global mean surface air temperature reduced by up to 0.5 °C for some months in mid-1992.",
+    "opened": false
+   },
+   {
+    "name": "USGS Fact Sheet 113-97",
+    "url": "https://pubs.usgs.gov/fs/1997/fs113-97",
+    "says": "Pinatubo's sulfur dioxide cloud lowered global temperatures by about 0.5 C (1991-1993).",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: 1991 eruption of Mount Pinatubo",
+    "url": "https://en.wikipedia.org/wiki/1991_eruption_of_Mount_Pinatubo",
+    "says": "Northern Hemisphere cooled 0.5-0.6 C, global decrease of about 0.4 C; a more conservative estimate is 0.2 C.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: About 0.5 C is the peak or round figure (USGS, NASA GISS 'up to 0.5 C'). Other estimates give about 0.4 C for the global average (Wikipedia, citing Science News and Parker et al.), and one 2024 paper argues for only 0.2 C. Saying 'up to about half a degree' is safer than calling it the average drop."
+ },
+ {
+  "id": "t50",
+  "topic": "Philippine Trench",
+  "category": "agham",
+  "fact_english": "The deepest point of the Philippine Trench is about ten and a half kilometres deep, one of the deepest places in the oceans.",
+  "label_onscreen": "PHILIPPINE TRENCH",
+  "subject_art_prompt": "a deep blue ocean trench seen from the side, a tiny submarine, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Galathea Report",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine Trench",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_Trench&action=raw",
+    "says": "Deepest point, known as Emden Deep, reaches 10,540 m; the trench reaches one of the greatest depths in the ocean.",
+    "opened": true
+   },
+   {
+    "name": "Galathea Report vol. 1 (University of Copenhagen Natural History Museum)",
+    "url": "https://digit.snm.ku.dk/Documentsonline/GalatheaReports/galathea-vol.01-pp_155-172.pdf",
+    "says": "Appeared in search for the 10,540 m sounding; search summary: Galathea expedition's 1951 soundings are the usual source of the 10,540 m figure.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine Trench",
+    "url": "https://en.wikipedia.org/wiki/Philippine_Trench",
+    "says": "Its deepest point is known as Emden Deep and reaches 10,540 meters; the trench reaches one of the greatest depths in the ocean.",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Emden Deep",
+    "url": "https://en.wikipedia.org/wiki/Emden_Deep",
+    "says": "Part of the 10,540-metre-deep Philippine Trench.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Dropped the name 'Galathea Depth': the Wikipedia trench article calls it Emden Deep (Galathea Depth is an alternative name). Kept depth only. | Second reader: The deepest point, Emden (Galathea) Deep, measures 10,540 m, which is about 10.5 km. Calling it 'one of the deepest' is not an overstatement. An older reading of 10,497 m is still about 10.5 km."
+ },
+ {
+  "id": "t51",
+  "topic": "Rizalites",
+  "category": "agham",
+  "fact_english": "Little pieces of natural glass called tektites, formed by a meteorite impact long ago, are found in the Philippines, where they are called philippinites or rizalites.",
+  "label_onscreen": "PHILIPPINITE",
+  "subject_art_prompt": "small dark pieces of natural glass tektite, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippinite",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippinite&action=raw",
+    "says": "Philippinites, or rizalites, are tektites found in the Philippines, about 710,000 years old on average, matching the Australasian strewn field; also opened Tektite article: tektites are natural glass formed from debris ejected during meteorite impacts.",
+    "opened": true
+   },
+   {
+    "name": "Meteorite Times: The 'Instructive' Tektite",
+    "url": "https://www.meteorite-times.com/the-instructive-tektite/",
+    "says": "Search summary: philippinites (rizalites) are Philippine tektites belonging to the Australasian strewn field.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippinite",
+    "url": "https://en.wikipedia.org/wiki/Philippinite",
+    "says": "Philippinites, or rizalites, are tektites found in the Philippines, about 710,000 years old, part of the Australasian strewn field (citing National Museum of the Philippines).",
+    "opened": true
+   },
+   {
+    "name": "Wikipedia: Tektite",
+    "url": "https://en.wikipedia.org/wiki/Tektite",
+    "says": "Short description: gravel-sized glass beads formed from meteorite impacts.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Used the Philippinite article (the Tektite article only lists 'philippinites'). Added the more common name philippinites. Tektites are melted Earth rock thrown out by an impact, not pieces of the meteorite; wording avoids implying otherwise. Second source is a specialist collectors' magazine. | Second reader: Philippinites (rizalites) are tektites found in the Philippines. They belong to the Australasian strewn field and are about 710,000 years old. One small nuance: tektites come from a large asteroid or comet impact, and the crater has not been found. 'Meteorite impact' is the common wording, so the claim holds. | On-screen credit shows Wikipedia only: the second source is a popular site."
+ },
+ {
+  "id": "t52",
+  "topic": "Boondocks",
+  "category": "wika",
+  "fact_english": "The English word \"boondocks\" comes from the Tagalog word \"bundok\", which means mountain.",
+  "label_onscreen": "BUNDOK",
+  "subject_art_prompt": "a green mountain with a speech bubble shape, no words, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Dictionary.com",
+  "sources": [
+   {
+    "name": "Wikipedia: Boondocks",
+    "url": "https://en.wikipedia.org/wiki/Boondocks",
+    "says": "Derives from Tagalog bundok, 'mountain'; brought into American English by US soldiers in the Philippine-American War (1899-1902).",
+    "opened": true
+   },
+   {
+    "name": "Dictionary.com",
+    "url": "https://www.dictionary.com/browse/boondock",
+    "says": "Search snippet: from Tagalog bundok, mountain (Collins dates first English use 1940-45).",
+    "opened": false
+   },
+   {
+    "name": "Word Origins: boondocks / boonies",
+    "url": "https://www.wordorigins.org/big-list-entries/boondocks",
+    "says": "Traces the word to Tagalog bundok, which US soldiers met in the Philippines; a 1905 US Army Tagalog grammar has a glossary entry for it.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Sources disagree on first-recorded date; date left out. | Second reader: Several sources agree that 'boondocks' comes from Tagalog 'bundok' (mountain). They disagree only on when the word entered English."
+ },
+ {
+  "id": "t53",
+  "topic": "Kilig in the dictionary",
+  "category": "wika",
+  "fact_english": "In 2016 the Oxford English Dictionary added the Filipino word \"kilig\", the giddy, fluttery feeling of romance.",
+  "label_onscreen": "KILIG",
+  "subject_art_prompt": "a thick open dictionary with little hearts floating up, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Philippine Daily Inquirer",
+  "sources": [
+   {
+    "name": "Wikipedia: Kilig",
+    "url": "https://en.wikipedia.org/wiki/Kilig",
+    "says": "Kilig was added to the OED in March 2016, as a noun and an adjective.",
+    "opened": true
+   },
+   {
+    "name": "Philippine Daily Inquirer",
+    "url": "https://globalnation.inquirer.net/?p=138631",
+    "says": "'Kilig' and 'teleserye' included in the OED (March 2016 update).",
+    "opened": false
+   },
+   {
+    "name": "Philstar (14 Apr 2016)",
+    "url": "https://www.philstar.com/news-commentary/2016/04/14/1572806/kilig-officially-added-oxford-english-dictionary",
+    "says": "'Kilig' officially added to Oxford English Dictionary.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Barkada dropped: sources show it was already in the OED but give no 2016 date. The listed Philippine_English article does not mention the 2016 update, so the Kilig article was used instead. | Second reader: 'Kilig' was added to the OED in its March 2016 update (reported in April 2016) as a noun ('thrill, shudder') and an adjective. Note that 'giddy, fluttery feeling of romance' is a paraphrase; the OED definition is 'exhilarated by an exciting or romantic experience'."
+ },
+ {
+  "id": "t55",
+  "topic": "Batanes",
+  "category": "lugar",
+  "fact_english": "Batanes, the northernmost province of the Philippines, is closer to Taiwan than to Manila.",
+  "label_onscreen": "BATANES",
+  "subject_art_prompt": "a small map of Batanes islands between Luzon and Taiwan, no labels, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Radio Free Asia",
+  "sources": [
+   {
+    "name": "Wikipedia: Batanes",
+    "url": "https://en.wikipedia.org/wiki/Batanes",
+    "says": "About 190 km south of Taiwan (Pingtung County), 162 km north of the Luzon mainland; it is the northernmost province.",
+    "opened": true
+   },
+   {
+    "name": "Go Asia travel guide",
+    "url": "https://goasia.cc/en/article/batanes-islands",
+    "says": "Search summary: Batanes sits closer to Taiwan than to Manila.",
+    "opened": false
+   },
+   {
+    "name": "Radio Free Asia",
+    "url": "https://www.rfa.org/english/news/southchinasea/south-china-sea-05012024145826.html",
+    "says": "Batanes lies closer to Taiwan, which is only 120 miles (193 km) away.",
+    "opened": false
+   },
+   {
+    "name": "PhilAtlas: Basco",
+    "url": "https://www.philatlas.com/luzon/r02/batanes/basco.html",
+    "says": "Its distance from the national capital is 657.04 kilometers.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is a weak travel guide. A great-circle check (Basco to Manila is roughly 650 km, versus about 190 km to southern Taiwan) supports the claim. | Second reader: Batanes is about 190 km from Taiwan and about 657-661 km from Manila. It is the northernmost province."
+ },
+ {
+  "id": "t56",
+  "topic": "Mudskipper",
+  "category": "hayop",
+  "fact_english": "Mudskippers are fish that can spend up to three quarters of their lives out of water. They skip around on their fins and can breathe through their wet skin.",
+  "label_onscreen": "MUDSKIPPER",
+  "subject_art_prompt": "a cute mudskipper fish sitting on mud, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Britannica",
+  "sources": [
+   {
+    "name": "Wikipedia: Mudskipper",
+    "url": "https://en.wikipedia.org/wiki/Mudskipper",
+    "says": "Amphibious gobies; spend up to three quarters of their life on land; move in skips using fins; breathe through skin and mouth lining when wet.",
+    "opened": true
+   },
+   {
+    "name": "Britannica",
+    "url": "https://www.britannica.com/animal/mudskipper",
+    "says": "Search snippet: out of water they breathe air trapped in gill chambers and through the skin; strong pectoral fins aid movement on land.",
+    "opened": false
+   },
+   {
+    "name": "PBS Deep Look: This fish walks on land and leaps for love",
+    "url": "https://www.pbs.org/video/this-fish-walks-on-land-and-leaps-for-love-pivhe2/",
+    "says": "Mudskippers can spend about three quarters of their lives out of water but need to stay wet.",
+    "opened": false
+   },
+   {
+    "name": "KQED Science",
+    "url": "https://www.kqed.org/science/2001332/this-fish-walks-on-land-and-leaps-for-love",
+    "says": "Companion article to the Deep Look episode on mudskippers walking on land.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Dropped 'common in Philippine mangroves' (neither source says it). Dropped 'walking'; the sources say 'skips'. | Second reader: The 'up to three quarters' figure comes from popular and encyclopedic sources and is approximate. Mudskippers do move on land using their pectoral fins and leap, and they breathe through their skin only while it is wet."
+ },
+ {
+  "id": "t57",
+  "topic": "Pygmy seahorse",
+  "category": "hayop",
+  "fact_english": "The pygmy seahorse, found on reefs in the Philippines, is usually less than 2 cm long. It looks so much like the sea fan it lives on that it is extremely hard to see.",
+  "label_onscreen": "PYGMY SEAHORSE",
+  "subject_art_prompt": "a tiny pygmy seahorse on a pink sea fan, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; FlipScience",
+  "sources": [
+   {
+    "name": "Wikipedia: Hippocampus bargibanti",
+    "url": "https://en.wikipedia.org/wiki/Hippocampus_bargibanti",
+    "says": "Usually less than 2 cm; lives only on gorgonian sea fans and mimics them; extremely difficult to see. Range from southern Japan and Indonesia to northern Australia.",
+    "opened": true
+   },
+   {
+    "name": "FlipScience",
+    "url": "https://www.flipscience.ph/flipfacts/pygmy-seahorse/",
+    "says": "Search summary: grows up to 2.4 cm and is found in various Philippine areas.",
+    "opened": false
+   },
+   {
+    "name": "Florent's Guide to the Tropical Reefs",
+    "url": "https://reefguide.org/pixhtml/pygmyseahorse8.html",
+    "says": "Hippocampus bargibanti, Anilao, Philippines; up to 0.75 in (2 cm).",
+    "opened": false
+   },
+   {
+    "name": "Blue Ribbon Divers",
+    "url": "https://blueribbondivers.com/bargibants-pygmy-seahorse-filmed-in-anilao-philippines",
+    "says": "Bargibant's pygmy seahorse filmed in Anilao, Philippines.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "The fingernail comparison was replaced with the sourced size. Wikipedia does not name the Philippines; FlipScience and a dive report (Anilao) do. | Second reader: H. bargibanti is usually under 2 cm. Some sources give a maximum of about 2.4-2.7 cm, but 'usually' covers that. It mimics its gorgonian sea-fan host so well that it was first found by accident in a lab. It is documented at Anilao, Philippines."
+ },
+ {
+  "id": "t58",
+  "topic": "Sea cucumber",
+  "category": "hayop",
+  "fact_english": "Many sea cucumbers breathe by pumping water in and out through their rear end.",
+  "label_onscreen": "BALATAN",
+  "subject_art_prompt": "a cute sea cucumber on the sand, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Encyclopedia of Puget Sound",
+  "sources": [
+   {
+    "name": "Wikipedia: Sea cucumber",
+    "url": "https://en.wikipedia.org/wiki/Sea_cucumber",
+    "says": "Cloacal respiration via respiratory trees just inside the anus: they draw water in through the anus, take the oxygen and expel it.",
+    "opened": true
+   },
+   {
+    "name": "Encyclopedia of Puget Sound",
+    "url": "https://www.eopugetsound.org/node/153352",
+    "says": "Search summary: water is pumped into the respiratory trees by contracting the cloaca.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Enteral respiration",
+    "url": "https://en.wikipedia.org/wiki/Enteral_respiration",
+    "says": "Lists sea cucumber cloacal respiration via respiratory trees.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Not Philippines-specific. | Second reader: Sea cucumbers use cloacal respiration: they draw water in through the anus into respiratory trees and then expel it. The word 'many' is right, because some groups (e.g. Apodida and Elasipodida) lack respiratory trees."
+ },
+ {
+  "id": "t59",
+  "topic": "Kapok",
+  "category": "halaman",
+  "fact_english": "The fluffy fibre of the kapok tree was once widely used to fill life jackets, because it is light, floats well and resists water.",
+  "label_onscreen": "KAPOK",
+  "subject_art_prompt": "a kapok seed pod bursting with white fluff, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; RNLI",
+  "sources": [
+   {
+    "name": "Wikipedia: Ceiba pentandra",
+    "url": "https://en.wikipedia.org/wiki/Ceiba_pentandra",
+    "says": "Fibre is light, very buoyant and water resistant; previously popular in life jackets until synthetics replaced it.",
+    "opened": true
+   },
+   {
+    "name": "Kotuia (NZ heritage story)",
+    "url": "https://www.kotuia.org.nz/korero-stories/a-short-history-of-early-lifejackets-and-the-nz-design-which-saved-countless-lives/",
+    "says": "Search summary: kapok was the main buoyant filling in early 20th-century life jackets.",
+    "opened": false
+   },
+   {
+    "name": "RNLI: The evolution of lifesaving kit",
+    "url": "https://rnli.org/magazine/magazine-featured-list/2018/june/the-evolution-of-lifesaving-kit",
+    "says": "In 1904 a new material known as kapok was used to replace cork lifejackets.",
+    "opened": false
+   },
+   {
+    "name": "Ocean Safety: The evolution of lifejackets",
+    "url": "https://www.oceansafety.com/latest-news/the-evolution-of-lifejackets",
+    "says": "Kapok, from the Ceiba pentandra tree, is waterproof and buoyant and was used in lifejackets.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Not Philippines-specific (the tree is grown there). | Second reader: Kapok was the standard life-jacket filling from about 1904 (RNLI) through WWII until synthetic materials replaced it. The fibre is light, buoyant and water-resistant."
+ },
+ {
+  "id": "t60",
+  "topic": "Kangkong",
+  "category": "halaman",
+  "fact_english": "Kangkong is a relative of the sweet potato and the morning glory.",
+  "label_onscreen": "KANGKONG",
+  "subject_art_prompt": "a bunch of kangkong with a purple morning-glory flower, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; PROTA via Pl@ntNet",
+  "sources": [
+   {
+    "name": "Wikipedia: Ipomoea aquatica",
+    "url": "https://en.wikipedia.org/wiki/Ipomoea_aquatica",
+    "says": "Lists sweet potato as another edible species in the morning glory family.",
+    "opened": true
+   },
+   {
+    "name": "PROTA via Pl@ntNet",
+    "url": "https://uses.plantnet-project.org/en/Ipomoea_aquatica_(PROTA)",
+    "says": "Search summary: Convolvulaceae (morning glory family); related to sweet potato.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Ipomoea aquatica",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ipomoea_aquatica&action=raw",
+    "says": "Genus Ipomoea; also called water morning glory; sweet potato listed as another edible species in the morning glory family.",
+    "opened": true
+   },
+   {
+    "name": "NSW Department of Primary Industries: Kang Kong",
+    "url": "https://www.dpi.nsw.gov.au/agriculture/horticulture/vegetables/commodity-growing-guides/asian-vegetables/g-l/kang-kong-emipomoea-aquaticaem",
+    "says": "Kang kong is closely related to sweet potato and to morning glory.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Kangkong (Ipomoea aquatica) is in the genus Ipomoea, family Convolvulaceae (morning glory family), same genus as sweet potato (Ipomoea batatas)."
+ },
+ {
+  "id": "t61",
+  "topic": "Kesong puti",
+  "category": "pagkain",
+  "fact_english": "Kesong puti, a soft white Filipino cheese, is made from carabao milk, though goat or cow milk can also be used.",
+  "label_onscreen": "KESONG PUTI",
+  "subject_art_prompt": "a soft white cheese wrapped in a banana leaf, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Philippine Carabao Center",
+  "sources": [
+   {
+    "name": "Wikipedia: Kesong puti",
+    "url": "https://en.wikipedia.org/wiki/Kesong_puti",
+    "says": "Soft, unaged white cheese made from unskimmed carabao milk; can also be made with goat or cow milk.",
+    "opened": true
+   },
+   {
+    "name": "Philippine Carabao Center",
+    "url": "https://www.pcc.gov.ph/more-than-5-meter-long-kesong-puti-takes-center-stage-in-n-e-s-1st-ever-kesong-puti-festival/",
+    "says": "Search summary: the PCC produces and promotes kesong puti from carabao milk.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Kesong puti",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kesong_puti&action=raw",
+    "says": "Soft, unaged white cheese made from unskimmed carabao milk... It can also be made with goat or cow milk.",
+    "opened": true
+   },
+   {
+    "name": "culture: the word on cheese - Faraway Cheeses: Philippines",
+    "url": "https://culturecheesemag.com/blog/faraway-cheeses-philippines/",
+    "says": "Usually made from carabao milk; producers also use cow or goat milk or a combination.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Added that other milks are also used. | Second reader: Kesong puti is traditionally made from carabao milk; goat or cow milk can be used."
+ },
+ {
+  "id": "t62",
+  "topic": "Puto bumbong",
+  "category": "pagkain",
+  "fact_english": "The purple colour of puto bumbong traditionally comes from a purple sticky rice called pirurutong.",
+  "label_onscreen": "PUTO BUMBONG",
+  "subject_art_prompt": "purple puto bumbong with grated coconut, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Market Manila",
+  "sources": [
+   {
+    "name": "Wikipedia: Puto bumbong",
+    "url": "https://en.wikipedia.org/wiki/Puto_bumbong",
+    "says": "Made from the heirloom glutinous rice pirurutong, deep purple to near-black; some modern versions leave it out.",
+    "opened": true
+   },
+   {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/puto-bumbong/",
+    "says": "Search summary: the colour comes from pirurutong; ube or food colouring is used when it is unavailable.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Puto bumbong",
+    "url": "https://en.wikipedia.org/w/index.php?title=Puto_bumbong&action=raw",
+    "says": "Made from an heirloom glutinous rice called pirurutong, deep purple to near-black; some modern versions use purple food coloring or ube instead.",
+    "opened": true
+   },
+   {
+    "name": "Market Manila: Pirurutong at Tapol",
+    "url": "https://www.marketmanila.com/archives/pirurutong-at-tapol-purple-and-white-glutinous-rice",
+    "says": "Pirurutong is the purple glutinous rice used for puto bumbong (search result).",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second source is a recipe site; no better one was found. | Second reader: Traditional puto bumbong is coloured by pirurutong, a purple/near-black heirloom glutinous rice; modern versions may substitute food colouring or ube, which the word 'traditionally' already allows for."
+ },
+ {
+  "id": "t63",
+  "topic": "Kamusta",
+  "category": "wika",
+  "fact_english": "The Filipino greeting kumusta (often spelled kamusta) comes from the Spanish \"¿cómo está?\", meaning \"how are you?\"",
+  "label_onscreen": "KUMUSTA",
+  "subject_art_prompt": "a waving hand emoji-like cartoon hand, no text, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia",
+  "sources": [
+   {
+    "name": "Wikipedia: Tagalog grammar",
+    "url": "https://en.wikipedia.org/wiki/Tagalog_grammar",
+    "says": "Kumustá is used as a greeting meaning 'How are you?'; derived from the Spanish ¿cómo está?",
+    "opened": true
+   },
+   {
+    "name": "Wiktionary: kumusta",
+    "url": "https://en.wiktionary.com/wiki/kumusta",
+    "says": "Search summary: from Spanish cómo está; Kamusta is a common spelling.",
+    "opened": false
+   },
+   {
+    "name": "Kaikki (Wiktionary data): kumusta (Cebuano)",
+    "url": "https://kaikki.org/dictionary/Cebuano/meaning/k/ku/kumusta.html",
+    "says": "From Spanish cómo está.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Tagalog language",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tagalog_language&action=raw",
+    "says": "'How are you?' = Kumustá (modern).",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "The listed 'Kumusta' article is a 2026 TV show, so Tagalog grammar was used instead. Wiktionary is a weak second source. | Second reader: Kumusta is a loan from Spanish 'como esta'. Dictionary-grade support is mainly Wiktionary; corroborating sources are language-learning sites, but no source disputes it. | Thin dictionary sourcing: keep as a spare. | On-screen credit shows Wikipedia only: the second source is a popular site."
+ },
+ {
+  "id": "t64",
+  "topic": "Carabao (word)",
+  "category": "wika",
+  "fact_english": "The English word carabao came through Spanish from a Visayan word, karabaw.",
+  "label_onscreen": "KALABAW",
+  "subject_art_prompt": "a cute carabao resting in water, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; Merriam-Webster",
+  "sources": [
+   {
+    "name": "Wikipedia: Carabao",
+    "url": "https://en.wikipedia.org/wiki/Carabao",
+    "says": "English carabao is borrowed from Spanish, from Eastern Visayan (likely Waray) karabàw.",
+    "opened": true
+   },
+   {
+    "name": "Merriam-Webster",
+    "url": "https://www.merriam-webster.com/dictionary/carabao",
+    "says": "Search summary: from Philippine Spanish, from the Visayan of Samar and Leyte karabáw.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Carabao (Names and etymology)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Carabao&action=raw",
+    "says": "English 'carabao' is borrowed from Spanish carabao, derived from Eastern Visayan (likely Waray) karabàw.",
+    "opened": true
+   },
+   {
+    "name": "Wiktionary: carabao",
+    "url": "https://en.wiktionary.org/wiki/carabao",
+    "says": "Borrowed from Spanish carabao, from Waray-Waray karabaw, from Malay kerbau.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: English 'carabao' is from Spanish carabao, from Visayan (likely Waray) karabaw. (Karabaw itself ultimately relates to Malay kerbau, but the claim is still accurate.)"
+ },
+ {
+  "id": "t65",
+  "topic": "Mantis shrimp",
+  "category": "hayop",
+  "fact_english": "Some mantis shrimp, which also live in Philippine waters, punch with club-like claws so fast that they can crack snail shells.",
+  "label_onscreen": "TATAMPAL",
+  "subject_art_prompt": "a cute colourful mantis shrimp with club claws, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; ScienceDaily",
+  "sources": [
+   {
+    "name": "Wikipedia: Mantis shrimp",
+    "url": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+    "says": "'Smashers' hit prey with a club-like appendage, reaching speeds of 23 m/s; gives Philippine names for mantis shrimp.",
+    "opened": true
+   },
+   {
+    "name": "ScienceDaily (UC Berkeley, Patek 2004)",
+    "url": "https://www.sciencedaily.com/releases/2004/04/040421233921.htm",
+    "says": "Search summary: the club strikes at about 50 mph, and cavitation helps break snail shells.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Mantis shrimp",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mantis_shrimp&action=raw",
+    "says": "Smashers attack crabs, snails... their blunt clubs crack the shells of their prey; in the Philippines known as tatampal, pitik-pitik etc.",
+    "opened": true
+   },
+   {
+    "name": "Cosmos: mantis shrimps register shell shape",
+    "url": "https://cosmosmagazine.com/biology/engineering-excellence-mantis-shrimps-register-shell-shape-and-target-the-weakest-part",
+    "says": "Mantis shrimp strike snail shells repeatedly, targeting weak spots.",
+    "opened": false
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "'Some' added: only the smasher type uses clubs. The Philippine presence comes only from Wikipedia's local-names line, which is marked citation needed. | Second reader: 'Smasher' mantis shrimp strike with mineralised clubs (~23 m/s) and crack snail shells; species such as the peacock mantis shrimp occur in the Philippines (e.g. Anilao), and mantis shrimp are known locally as tatampal/pitik-pitik."
+ },
+ {
+  "id": "t66",
+  "topic": "Philippine crocodile",
+  "category": "hayop",
+  "fact_english": "The Philippine crocodile is a freshwater crocodile found only in the Philippines.",
+  "label_onscreen": "BUWAYA",
+  "subject_art_prompt": "a cute small Philippine crocodile on a riverbank, chibi-cute sticker style, white outline, no text, no letters",
+  "source_onscreen": "Pinagmulan: Wikipedia; IUCN Crocodile Specialist Group",
+  "sources": [
+   {
+    "name": "Wikipedia: Philippine crocodile",
+    "url": "https://en.wikipedia.org/wiki/Philippine_crocodile",
+    "says": "Endemic to the Philippines; a relatively small freshwater crocodile; Critically Endangered.",
+    "opened": true
+   },
+   {
+    "name": "IUCN Crocodile Specialist Group",
+    "url": "https://www.iucncsg.org/365_docs/attachments/protarea/13_C-511712ed.pdf",
+    "says": "Search summary: a freshwater crocodile treated as a full species endemic to the Philippines.",
+    "opened": false
+   },
+   {
+    "name": "Wikipedia: Philippine crocodile",
+    "url": "https://en.wikipedia.org/w/index.php?title=Philippine_crocodile&action=raw",
+    "says": "Also known as the Philippine freshwater crocodile... endemic to the Philippines.",
+    "opened": true
+   }
+  ],
+  "checked_by_second_reader": true,
+  "notes": "Second reader: Crocodylus mindorensis, also called the Philippine freshwater crocodile, is endemic to the Philippines and lives in rivers, creeks, ponds and marshes."
+ }
+]
