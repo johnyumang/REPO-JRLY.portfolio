@@ -683,10 +683,11 @@
    "must_fix": true,
    "what": "red cloth on both wrists",
    "drift_fix": true,
-   "fixed": false,
+   "fixed": true,
    "tries": 4,
-   "needs_figma": true,
-   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. A dark cavern over a glowing sea of black tar, orange light from below, rising heat haze: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm looking at his own arm, then up at the old man, troubled. Over-the-shoulder. Fix: Indio wears ONE red handkerchief tied on his LEFT wrist only, his right wrist bare; Lolo clean-shaven in a faded polo; hands simple and few. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks."
+   "needs_figma": false,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face. A dark cavern over a glowing sea of black tar, orange light from below, rising heat haze: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm looking at his own arm, then up at the old man, troubled. Over-the-shoulder. Fix: Indio wears ONE red handkerchief tied on his LEFT wrist only, his right wrist bare; Lolo clean-shaven in a faded polo; hands simple and few. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "fix_note": "Redrawn 13 Nov on the free full-quality model (flux-3, 30 steps), chosen from 12 draws, seed 5612 (round 2). Changed: the wrist fault is removed by framing: a chest-up close-up of Indio over the glowing tar, looking up and aside at Lolo off frame, troubled, mid-question; arms, wrists and hands are out of frame, and Lolo is left off frame so there is one figure only. Round 1 was clean of faults but drew Indio with shaggy bangs over the forehead (two seeds also slipped a partial old man in at the edge), unlike the kept stills; round 2 described the hair from the kept stills (pulled back from the forehead into a small topknot on the crown, a few loose strands at the temples, slim face, sharp jaw). Checked at 3x: both eyes aligned and matching, mouth and teeth normal, ears normal, topknot tied, plain grey crew-neck t-shirt, no hands, no wrists, no necklace, no second person. Placed beside indio_silent, lolo_weight and follow: same Indio."
   }
  ]
 }
