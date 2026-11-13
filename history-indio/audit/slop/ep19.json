@@ -12,7 +12,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio is a different person here: a hooded older man with long fringe, whisker-like scars on both cheeks and a golden line running down his face.",
-   "where": "face, top half of frame"
+   "where": "face, top half of frame",
+   "fixed": true,
+   "how": "prompt matched to the kept present-day Indio (light tan skin, neat topknot), 4 draws, checked at 3x beside indio_point_lake"
   },
   {
    "key": "k10",
@@ -23,7 +25,9 @@
    "type": "object",
    "must_fix": true,
    "what": "The crumpled shirt sits upright on the chair like a headless invisible man slumped over the table, and a dark hand seems to come out of the sleeve.",
-   "where": "centre, chair behind the bottles"
+   "where": "centre, chair behind the bottles",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k12",
@@ -34,7 +38,10 @@
    "type": "object",
    "must_fix": true,
    "what": "A second tin pot floats in the air pouring into the cup the fisherman holds, and no hand is holding it.",
-   "where": "left middle, the fisherman's cup"
+   "where": "left middle, the fisherman's cup",
+   "fixed": false,
+   "needs_figma": true,
+   "how": "the free image service returned CONTENT_FILTERED on every draw, the simplified prompt too; full prompt in key_prompts.json full.fisherman_coffee"
   },
   {
    "key": "k15",
@@ -67,7 +74,9 @@
    "type": "hands",
    "must_fix": true,
    "what": "The hand cupped behind Indio's ear is a smooth mitten-like lump with no fingers you can make out.",
-   "where": "Indio's right hand, left middle by his ear"
+   "where": "Indio's right hand, left middle by his ear",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k25",
@@ -103,7 +112,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has brown hair with no topknot, and Usman is a long-haired, floppy-eared puppy with no white patch, so neither is recognisable.",
-   "where": "kneeling man right; dog lower left"
+   "where": "kneeling man right; dog lower left",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k33",
@@ -125,7 +136,9 @@
    "type": "style",
    "must_fix": true,
    "what": "A dense, painterly tattoo-poster illustration unlike the episode's cel anime, with a small realistic man pasted onto the fish in the beak.",
-   "where": "whole frame; man on the fish, right middle"
+   "where": "whole frame; man on the fish, right middle",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k39",
@@ -161,7 +174,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The sarimanok is a plain brown hen or eagle instead of the multicoloured bird, and Indio's hair sticks up in two horn-like tufts.",
-   "where": "bird across the frame; Indio's hair, top"
+   "where": "bird across the frame; Indio's hair, top",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k51",
@@ -206,7 +221,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "M has short light-brown hair instead of long black hair.",
-   "where": "woman's head, top left"
+   "where": "woman's head, top left",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k60",
@@ -217,7 +234,9 @@
    "type": "bleed",
    "must_fix": true,
    "what": "M's hand carries the same pink floral sleeve tattoo as the man's hand.",
-   "where": "left hand on the cup"
+   "where": "left hand on the cup",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k61",
@@ -250,7 +269,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Rico on the phone screen is a near-realistic man who looks nothing like the cartoon Rico of k07 and k63.",
-   "where": "phone screen, centre"
+   "where": "phone screen, centre",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k81",
@@ -320,5 +341,6 @@
    "what": "The ad cards along the jeepney ceiling carry small letter-like marks.",
    "where": "ceiling, top left and right"
   }
- ]
+ ],
+ "third_reader": "kept 7 redraws, rejected notebook_line (Indio off this episode's look; prompt matched to kept stills, redrawn and chosen beside indio_point_lake). Minor notes: flight Usman ears both up (drift list); indio_listen_far no longer cups an ear; phone_video Rico's raised fist soft"
 }

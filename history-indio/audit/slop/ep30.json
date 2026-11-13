@@ -12,7 +12,9 @@
    "type": "writing",
    "must_fix": true,
    "what": "Each of the four coins in the palm carries blocky letter-like glyphs.",
-   "where": "coins in the centre of the frame"
+   "where": "coins in the centre of the frame",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k01",
@@ -35,7 +37,9 @@
    "type": "writing",
    "must_fix": true,
    "what": "The hologram panel shows rows of letter-like characters.",
-   "where": "top-left corner of the hologram"
+   "where": "top-left corner of the hologram",
+   "fixed": true,
+   "how": "prompt narrowed to the forearm only (the first draws put a stranger's face over it); 4 draws, chosen at 3x: five fingers, empty broken hologram, no letters"
   },
   {
    "key": "k23",
@@ -46,7 +50,9 @@
    "type": "hands",
    "must_fix": true,
    "what": "The clasped hands form a knot of fingers that cannot be counted, with a thumb in the middle of the other hand.",
-   "where": "both hands at the centre of the chest"
+   "where": "both hands at the centre of the chest",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k23",
@@ -68,7 +74,9 @@
    "type": "hands",
    "must_fix": true,
    "what": "Each open palm has a thumb and only three fingers.",
-   "where": "both hands, left and right edges at mid-height"
+   "where": "both hands, left and right edges at mid-height",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k27",
@@ -90,7 +98,9 @@
    "type": "hands",
    "must_fix": true,
    "what": "The spread hand on the ice has only four digits.",
-   "where": "centre hand"
+   "where": "centre hand",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k41",
@@ -101,7 +111,9 @@
    "type": "merge",
    "must_fix": true,
    "what": "A white hand and arm shape melts into the ice and cloth with no clear fingers or body.",
-   "where": "lower half of the frame"
+   "where": "lower half of the frame",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k51",
@@ -112,7 +124,9 @@
    "type": "merge",
    "must_fix": true,
    "what": "Two large heads stick out of the rock with no bodies, and neither looks like Indio or Teddy.",
-   "where": "left and right of the light column"
+   "where": "left and right of the light column",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k71",
@@ -123,7 +137,9 @@
    "type": "object",
    "must_fix": true,
    "what": "A knife blade with a letter-like mark grows straight out of the handkerchief knot on his wrist.",
-   "where": "left wrist, lower-left"
+   "where": "left wrist, lower-left",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k67",
@@ -134,7 +150,9 @@
    "type": "duplicate",
    "must_fix": true,
    "what": "Two near-identical young men in red shirts lean side by side, and neither looks like Indio.",
-   "where": "top half of the frame"
+   "where": "top half of the frame",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k55",
@@ -145,7 +163,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Tala is blonde and Liwayway has auburn hair and a pink dress, but in k56-k59 Tala has long white hair and a black coat and Liwayway black hair and a white dress.",
-   "where": "the two women at centre-bottom"
+   "where": "the two women at centre-bottom",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k25",
@@ -156,7 +176,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "This close-up of Indio has long bangs, no topknot and a black hoodie instead of the grey t-shirt.",
-   "where": "whole face and shoulders"
+   "where": "whole face and shoulders",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k42",
@@ -167,7 +189,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has short spiky hair, no topknot and an orange-yellow top, in an older anime style.",
-   "where": "face, lower half"
+   "where": "face, lower half",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k50",
@@ -178,7 +202,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has shaggy hair over his eyes, no topknot and a blue-and-white jacket.",
-   "where": "face and body"
+   "where": "face and body",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k40",
@@ -189,7 +215,9 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Indio has messy hair, no topknot and a dark navy hoodie.",
-   "where": "figure at lower right"
+   "where": "figure at lower right",
+   "fixed": true,
+   "how": "redraw and choose (2 to 4 full-quality draws, checked at 3x); kept by the third reader"
   },
   {
    "key": "k49",
@@ -380,5 +408,6 @@
    "what": "The time-travel montage is a painterly photo-collage that reads as a different style.",
    "where": "whole frame"
   }
- ]
+ ],
+ "third_reader": "kept all 13 redraws; minor notes: weapon_realise right hand foreshortened, call_datu hands cropped out, frost_hand long grey sleeve, holo_new grip a little awkward, fiction_cards one card smeared, time_open topknot a little spiky"
 }

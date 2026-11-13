@@ -67,12 +67,7 @@ AAC = ('-c:a', 'aac', '-b:a', '192k')     # the encode build_anime.py uses: the 
 
 def true_peak(path, encode=False):
     """True peak (dBTP) of path's audio; encode=True measures it after an AAC encode like the final MP4's."""
-    src = path
-    if encode:
-        src = tempfile.mktemp(suffix='.m4a'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', path, '-vn'] + list(AAC) + [src], check=True)
-    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', src, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
-    if encode: os.remove(src)
-    return float([l.split(':')[1].split()[0] for l in e.split('Summary')[-1].splitlines() if l.strip().startswith('Peak:')][-1])
+    return ebur(path, encode)[1]
 
 
 LUFS_TOL = 0.5                               # an output is accepted at LUFS +/- LUFS_TOL and true peak <= TP
@@ -80,14 +75,22 @@ TRIES = 6
 
 
 def ebur(path, encode=False):
-    """(integrated LUFS, true peak dBTP) of path's audio; encode=True measures after an AAC encode like the final MP4's."""
+    """(integrated LUFS, true peak dBTP) of path's audio at full precision; encode=True measures after an AAC encode like the
+    final MP4's. Read from ebur128's per-frame metadata (last lavfi.r128.I, largest lavfi.r128.true_peak), not its Summary:
+    the Summary prints 0.1 dB, so a file at -1.46 dBTP or -15.46 LUFS read -1.5 / -15.5 and passed (review, 2026-11-13).
+    Every pass/fail decision on loudness (loudnorm2, build_anime.py's final check, trivia_break.py) goes through here."""
     src = path
     if encode:
         src = tempfile.mktemp(suffix='.m4a'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', path, '-vn'] + list(AAC) + [src], check=True)
-    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', src, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    r = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', src, '-vn', '-af', 'ebur128=peak=true:metadata=1,ametadata=mode=print:file=-',
+                        '-f', 'null', '-'], capture_output=True, text=True)
     if encode: os.remove(src)
-    e = e.split('Summary')[-1]; g = lambda k: float([l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)][-1])
-    return g('I:'), g('Peak:')
+    I = [float(l.split('=', 1)[1]) for l in r.stdout.splitlines() if l.startswith('lavfi.r128.I=')]
+    P = [float(l.split('=', 1)[1]) for l in r.stdout.splitlines() if l.startswith('lavfi.r128.true_peak=')]
+    if not I or not P:                                                               # under 0.1 s: no frame out, only the Summary
+        e = r.stderr.split('Summary')[-1]; g = lambda k: float([l.split(':')[1].split()[0] for l in e.splitlines() if l.strip().startswith(k)][-1])
+        return g('I:'), g('Peak:')
+    return I[-1], float(20 * np.log10(max(max(P), 1e-10)))
 
 
 GUARD = 'loudness guard v3'                 # printed first by loudnorm2, so a log shows which guard ran
