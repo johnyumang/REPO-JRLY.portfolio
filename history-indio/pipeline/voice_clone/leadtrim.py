@@ -77,6 +77,12 @@ def trim(y, sr, st, en, words, text, listen, ok, stray=lambda t, h: True, stray_
                 if ok(text, h2, h0): notes.append('tail %.2f->%.2f' % (en, c + PRE)); en = c + PRE; break
     return st, en, ' '.join(notes)
 
+LEADINS = ['Sige.', 'Ayun.', 'Oo.', '@echo']           # tried in this order (Episode 18/26/44 test: each of the first three fixed 4 of 4 stubborn starts)
+def leadin_text(lead, prev_say):
+    """The throwaway lead-in spoken before a line: a fixed word, or '@echo' = the last word of the previous sentence."""
+    if lead != '@echo': return lead
+    w = [x for x in prev_say.replace('-', ' ').split() if any(ch.isalpha() for ch in x)]
+    return (''.join(ch for ch in w[-1] if ch.isalpha()).capitalize() + '.') if w else 'Sige.'
 def cut_leadin(y, sr, words, n_lead):
     """A take generated with a throwaway lead-in ("Oo. <line>"): words = the alignment of the whole text, the first n_lead are
     the lead-in. Cut in the pause after the lead-in: the clip starts PRE before the first voiced frame after the lead-in's end

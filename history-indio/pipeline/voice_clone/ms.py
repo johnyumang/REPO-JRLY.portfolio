@@ -3,7 +3,7 @@ usage: ms.py plan <script_multispeaker.txt | episode_dir> <work_dir>
        ms.py qc <work_dir> [--full]        -> choice.json; prints the chunks that need another take
        ms.py assemble <work_dir> <out_prefix>   -> <out_prefix>.mp3/.wav + <out_prefix>_timings.json
        ms.py verify <work_dir> <out_prefix>     -> re-hears every line of the finished file, <out_prefix>_verify.json
-       ms.py fixstarts <work_dir> [--max 3]  -> new takes (next seeds) for lines heard with a stray token glued before the first
+       ms.py fixstarts <work_dir> [--max 3] [--leadin]  -> new takes (next seeds) for lines heard with a stray token glued before the first
                                              word (or after the last) that the trim cannot cut; first clean take wins (choice.json)
        ms.py numbers <work_dir> [--all]   -> audit: every chunk whose script has a number (year, age, date, amount): expected vs heard
                                              in the chosen take, DIFF where they differ (from the qc files already there; no generation)
@@ -155,12 +155,14 @@ def free_models():
     vqc._m.clear(); gc.collect()
     try: ctypes.CDLL('libc.so.6').malloc_trim(0)
     except OSError: pass
-def fixstarts(work, maxn=3):
+def fixstarts(work, maxn=3, leadin=False):
     """For each chosen take heard with an extra token before the script's first word (or after its last) that the assembly
     trim cannot remove (the syllable is glued to the word), generate up to maxn new takes (next seeds, one gen_ms.py run per
     seed for all such chunks; takes already on disk are judged first) and take the first CLEAN one: first word right, no extra
     token at either end, numbers right, no more word errors than the old take, no check failing that the old take passed,
-    and for scripture lines heard word for word. Updates
+    and for scripture lines heard word for word. --leadin: for lead-start chunks still bad, generate with a throwaway lead-in
+    (Sige. / Ayun. / Oo. / the previous sentence's last word), cut it off at its pause (leadtrim.cut_leadin) and judge the cut take
+    the same way (Episode 18/26/44 test: plain takes 0 of 8 clean, lead-in takes 15 of 16). Updates
     choice.json; prints one line per chunk and a total. Never swaps in a take with a wrong number."""
     import vqc, leadtrim, soundfile as sf, time
     P = json.load(open(work + '/plan.json')); CH = json.load(open(work + '/choice.json')); S = {s['i']: s for s in P['sentences']}
@@ -182,7 +184,7 @@ def fixstarts(work, maxn=3):
         if (not lead or note.find('lead') >= 0) and (not trail or note.find('tail') >= 0):
             print('c%03d %-8s trim fixes it (%s): no new take' % (c['id'], c['speaker'][:8], note)); continue
         e, rf0 = ref_emb(work, c['speaker']); m['spk'] = round(float(np.array(m['emb']) @ e), 3)
-        todo[c['id']] = dict(c=c, old=m, oldfail=set(checks(m, c, rf0)), e=e, rf0=rf0, why=('lead %r' % lead if lead else '') + (' tail %r' % trail if trail else ''))
+        todo[c['id']] = dict(c=c, old=m, oldfail=set(checks(m, c, rf0)), e=e, rf0=rf0, lead_only_tail=not lead, why=('lead %r' % lead if lead else '') + (' tail %r' % trail if trail else ''))
     print('%d chunk(s) with an extra token the trim cannot remove: %s' % (len(todo), ','.join(map(str, todo))))
     fixed = {}
     def judge(i, w, label):
@@ -215,6 +217,21 @@ def fixstarts(work, maxn=3):
         for i in left:
             d = todo[i]; c = d['c']; w = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_s{seed}.wav"
             if os.path.exists(w): judge(i, w, 'take s%d (%.0f s/chunk)' % (seed, dt))
+    if leadin:                                                                          # last step: a throwaway lead-in, cut off at its pause
+        for tag, lead in zip(('ls', 'la', 'lo', 'le'), leadtrim.LEADINS):
+            left = [i for i in todo if i not in fixed and not todo[i]['lead_only_tail']]
+            if not left: break
+            free_models(); t0 = time.time()
+            subprocess.run(['/opt/vx/bin/python', '-u', here + '/gen_ms.py', work, '--only', ','.join(map(str, left)), '--seeds', '1', '--leadin', lead, '--tag', tag], check=True)
+            dt = (time.time() - t0) / len(left)
+            for i in left:
+                c = todo[i]['c']; raw = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_lead1{tag}.wav"
+                if not os.path.exists(raw): continue
+                lt = leadtrim.leadin_text(lead, S.get(c['sent_ids'][0] - 1, {}).get('say', ''))
+                y, sr = sf.read(raw, dtype='float32'); cut = leadtrim.cut_leadin(vqc.load16(raw), 16000, vqc.words(vqc.load16(raw), lt + ' ' + c['text']), len(vqc.norm_words(lt)))
+                if cut is None: print('c%03d %-8s lead-in %r (%.0f s/chunk): no pause after the lead-in' % (i, c['speaker'][:8], lt, dt)); continue
+                w = f"{work}/c{i:03d}_{VP.fname(c['speaker'])}_s1{tag}.wav"; sf.write(w, leadtrim.fade_in(y[int(cut * sr):].copy(), sr), sr)
+                judge(i, w, 'lead-in %r cut at %.2f s (%.0f s/chunk)' % (lt, cut, dt))
     for i, d in todo.items():
         print('c%03d %-8s %s' % (i, d['c']['speaker'][:8], 'fixed with take %s' % fixed[i] if i in fixed else 'still bad (%s): keep the old take, listen' % d['why'].strip()))
     print('fixstarts: %d of %d fixed' % (len(fixed), len(todo))); return len(todo) - len(fixed)
@@ -343,6 +360,6 @@ if __name__ == '__main__':
     elif cmd == 'qc': qc(x[0], '--full' in x)
     elif cmd == 'assemble': assemble(x[0], x[1])
     elif cmd == 'verify': verify(x[0], x[1])
-    elif cmd == 'fixstarts': sys.exit(1 if fixstarts(x[0], int(x[x.index('--max') + 1]) if '--max' in x else 3) else 0)
+    elif cmd == 'fixstarts': sys.exit(1 if fixstarts(x[0], int(x[x.index('--max') + 1]) if '--max' in x else 3, '--leadin' in x) else 0)
     elif cmd == 'numbers': sys.exit(1 if numbers(x[0], '--all' in x) else 0)
     else: sys.exit(__doc__)

@@ -103,12 +103,20 @@ bash pipeline/voice_clone/run_multispeaker.sh videos/<slug>/script_multispeaker.
   speed outside 4.8-6.8 syl/s, pitch outside the character's range) and the voice is below 0.88 speaker similarity to
   Indio and to every voice already kept. The numbers measure clarity and consistency, not naturalness: the user's ear decides.
 
+- Lead-in (`fixstarts --leadin`): some sentence starts get a glued pickup syllable on every seed ("Got pandesal",
+  "Hawang kuta"). Generating "Sige. <line>" and cutting at the pause after "Sige." (`leadtrim.cut_leadin`, 40 ms pre-roll,
+  fade-in) cures it: on four stubborn lines from Episodes 18, 26 and 44, plain takes were 0 of 8 clean, lead-in takes 15 of
+  16 (Sige., Ayun., Oo. each 4 of 4; echo of the previous word 3 of 4), speaker similarity 0.92-0.97, pace and pitch within
+  about 8% of the plain takes. About 50 s per line plus a model load. Listen to these lines: the line may start as if
+  continuing a sentence.
+
 ## Final pass (a finished episode, before its last publish)
 From `history-indio/`, with `W=$HI_VOICE_WORK/<slug>` (default `/opt/work/voice/<slug>`), `HI_VOICE_REC` set, one heavy job per machine:
 ```
 git pull --rebase origin <branch>                                                  # the code below, and the episode's frames
 /opt/vc/bin/python pipeline/voice_clone/ms.py qc $W                                # re-judge every take (numbers by value), re-pick
-/opt/vc/bin/python pipeline/voice_clone/ms.py fixstarts $W --max 3                 # new takes for stray syllables glued to the first word
+/opt/vc/bin/python pipeline/voice_clone/ms.py fixstarts $W --max 3 --leadin        # new takes for stray syllables glued to the first word;
+                                                                                   # last step: a throwaway lead-in (Sige./Ayun./Oo./echo) cut off
 /opt/vc/bin/python pipeline/voice_clone/ms.py numbers $W                           # must end "0 real DIFF"; listen to any DIFF line
 /opt/vc/bin/python pipeline/voice_clone/ms.py assemble $W $W/voice                 # with the stray-sound trim; prints the trims
 /opt/vc/bin/python pipeline/voice_clone/ms.py verify $W $W/voice                   # optional: re-hears the finished file line by line
