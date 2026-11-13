@@ -13,7 +13,8 @@ usage: cut_narration.py videos/<slug> <voice in> <voice out> [--timings <timings
 
 Nothing is renumbered: sentences.json, key_prompts.json, shots_fx.json and the keys keep the original numbers
 (pipeline/narration_cuts.py maps them at build time). A sentence that a "revoice" line replaces is NOT cut here.
-The tool stops instead of cutting when the join would not be quiet (less than 8 dB under the speech around it).
+The tool stops instead of cutting when the join would not be quiet (less than 8 dB under the speech around it), or when
+the timings do not fit the audio (their pauses hold speech: timings of another take).
 After it: listen to each join (the times are printed), then build with the new voice.
 self-test: cut_narration.py --self-test"""
 import json, os, sys, subprocess, tempfile, shutil
@@ -60,8 +61,14 @@ def plan_cuts(m, sr, tim, gone, pause=None):
         speech = float(np.sqrt(np.mean([_rms(m, int(tim[k]['start'] * sr), int(tim[k]['end'] * sr)) ** 2 for k in around])))
         L = quiet_points(m, sr, tim[a - 1]['end'], tim[a]['start']) if a > 0 else None
         R = quiet_points(m, sr, tim[b]['end'], tim[b + 1]['start']) if b < n - 1 else None
-        if L is None: q2 = min(R, key=lambda x: x[1]); q1 = (0.0, q2[1]); q2 = (max(q2[0] - 0.04, 0.0), q2[1])       # the file now starts 40 ms before the next line's quiet point
-        elif R is None: q1 = min(L, key=lambda x: x[1]); q2 = (dur, q1[1]); q1 = (min(q1[0] + 0.25, dur), q1[1])      # the file now ends 0.25 s after the last line's quiet point
+        if L is None:                                                            # the file now starts at most 40 ms before the next line's quiet point, never inside the cut sentence
+            q2 = min(R, key=lambda x: x[1]); q1 = (0.0, q2[1]); q2 = (min(q2[0], max(q2[0] - 0.04, tim[b]['end'] + 0.03, 0.0)), q2[1])
+        elif R is None:                                                          # the file now ends up to 0.25 s after the first quiet point of the pause, but before the level rises again
+            lo = min(x[1] for x in L); i0 = next(i for i, x in enumerate(L) if x[1] <= lo * 1.6); end = L[i0][0]
+            for t, l in L[i0:]:
+                if t > L[i0][0] + 0.25 or l > lo * 2: break                      # 6 dB over the quiet level: the cut sentence is starting
+                end = t
+            q1 = (min(end, max(L[i0][0], tim[a]['start'] - 0.06), dur), L[i0][1]); q2 = (dur, q1[1])
         else:
             g1, g2 = tim[a]['start'] - tim[a - 1]['end'], tim[b + 1]['start'] - tim[b]['end']
             want = pause if pause else min(0.80, max(0.35, g1, g2))
@@ -71,6 +78,21 @@ def plan_cuts(m, sr, tim, gone, pause=None):
         m1 = 20 * np.log10(speech / max(q1[1], 1e-9)); m2 = 20 * np.log10(speech / max(q2[1], 1e-9))
         cuts.append((q1[0], q2[0], a, b, (m1, m2)))
     return cuts
+
+
+def check_fit(m, sr, tim, gone):
+    """-> [problems]: the timings must fit this audio. Every pause between two lines (0.15 s or more) must hold a window
+    20 dB under the speech of those lines, and each cut sentence must be loud where the timings put it. Timings of another
+    take of the same script pass the count, text and length checks but fail here, mostly on several pauses."""
+    bad = []; sp = lambda k: _rms(m, int(tim[k]['start'] * sr), int(tim[k]['end'] * sr))
+    for k in range(len(tim) - 1):
+        if tim[k + 1]['start'] - tim[k]['end'] < 0.15: continue
+        lo = min(x[1] for x in quiet_points(m, sr, tim[k]['end'], tim[k + 1]['start'])); s = float(np.sqrt((sp(k) ** 2 + sp(k + 1) ** 2) / 2))
+        if 20 * np.log10(s / max(lo, 1e-9)) < 20: bad.append('no quiet point between lines %d and %d (%.2f to %.2f s)' % (k, k + 1, tim[k]['end'], tim[k + 1]['start']))
+    ref = float(np.median([sp(k) for k in range(len(tim))]))
+    for i in sorted(gone):
+        if 20 * np.log10(ref / max(sp(i), 1e-9)) > 15: bad.append('cut sentence %d is quiet where the timings put it (%.2f to %.2f s)' % (i, tim[i]['start'], tim[i]['end']))
+    return bad
 
 
 def apply(y, sr, tim, gone, cuts):
@@ -103,10 +125,15 @@ def run(v, vin, vout, tpath=None, write=False, pause=None):
         if not os.path.exists(v + '/timings_full.json'): raise SystemExit('timings.json is already cut and there is no timings_full.json: give the full timings with --timings')
         tp = v + '/timings_full.json'; tim = json.load(open(tp)); print('timings.json is already cut: reading timings_full.json')
     if len(tim) != n: raise SystemExit(f'{tp} has {len(tim)} lines, sentences.json has {n}: the timings must be the ones of the FULL narration')
+    nt = {int(r['after_index']) + 1: r.get('new_text', '').strip() for r in C.get('revoice', [])}
     for c in C['cut']:
-        if tim[c['index']]['text'].strip() != c['text'].strip(): raise SystemExit('sentence %d of the timings is not the one the cut file names: "%s" / "%s"' % (c['index'], tim[c['index']]['text'][:60], c['text'][:60]))
+        if tim[c['index']]['text'].strip() not in (c['text'].strip(), nt.get(int(c['index']))): raise SystemExit('sentence %d of the timings is not the one the cut file names: "%s" / "%s"' % (c['index'], tim[c['index']]['text'][:60], c['text'][:60]))
+    if os.path.exists(vout) and os.path.samefile(vin, vout): raise SystemExit('<voice out> is <voice in>: that would overwrite the only full narration')
     y, sr = read_audio(vin); dur = len(y) / sr; m = y.mean(axis=1)
     if not (tim[-1]['end'] - 0.3 <= dur <= tim[-1]['end'] + 6.0): raise SystemExit(f'{vin} lasts {dur:.1f} s but the timings end at {tim[-1]["end"]:.1f} s: is this the full narration these timings were made from?')
+    fit = check_fit(m, sr, tim, gone)
+    if len(fit) > 2 or any(f.startswith('cut') for f in fit): raise SystemExit('%s does not fit these timings (%d problems; the first: %s): give the timings made from THIS file (--timings)' % (vin, len(fit), fit[0]))
+    for f in fit: print('  CAREFUL:', f)
     cuts = plan_cuts(m, sr, tim, gone, pause)
     for q1, q2, a, b, (m1, m2) in cuts:
         print('cut sentences %s: %.2f to %.2f s (%.2f s out); the join is %.0f / %.0f dB under the speech around it' % (list(range(a, b + 1)), q1, q2, q2 - q1, m1, m2))
@@ -118,7 +145,7 @@ def run(v, vin, vout, tpath=None, write=False, pause=None):
     for j, (q1, q2, a, b, _) in zip(joins, cuts): print('  listen at %.1f s of the new file (where sentence%s %s %s)' % (j, 's' if b > a else '', ' to '.join(str(k) for k in sorted({a, b})), 'were' if b > a else 'was'))
     src, note = narration_cuts.source_index(v, newt); print(' ', note)
     if write:
-        if not os.path.exists(v + '/timings_full.json'): shutil.copy(tp, v + '/timings_full.json')
+        if os.path.abspath(tp) != os.path.abspath(v + '/timings_full.json'): shutil.copy(tp, v + '/timings_full.json')     # the full timings just read and checked, also over an older copy
         json.dump(newt, open(v + '/timings.json', 'w'), ensure_ascii=False, indent=1); print('  written: %s/timings.json (the full one: timings_full.json)' % v)
     return 0
 
@@ -151,6 +178,13 @@ def self_test():
     # a sentence that runs into its neighbour (no pause, no quiet point) must be refused
     y2 = y.copy(); a, b = int(tim[3]['end'] * sr) - int(0.2 * sr), int(tim[4]['start'] * sr) + int(0.2 * sr); y2[a:b, 0] = 0.2 * np.sin(2 * np.pi * 300 * np.arange(b - a) / sr)
     c = plan_cuts(y2[:, 0], sr, tim, {4}); refused = min(c[0][4]) < 8; print('no pause before the cut sentence ->', 'refused, ok' if refused else 'FAIL: would cut'); ok = ok and refused
+    # room noise that fades after line 6, so the quietest point lies just before the cut last sentence: the file must end before it starts
+    y3 = y.copy(); a, b = int(tim[6]['end'] * sr), int(tim[7]['start'] * sr); y3[a:b, 0] = rng.normal(0, 1, b - a) * np.linspace(0.006, 0.0008, b - a)
+    cuts = plan_cuts(y3[:, 0], sr, tim, {7}); out, _, _ = apply(y3, sr, tim, {7}, cuts); tail = 20 * np.log10(_rms(out[:, 0], len(out) - int(0.15 * sr), len(out)))
+    good = cuts[0][0] < tim[7]['start'] - 0.03 and tail < -40; print('cut the last sentence after a noisy pause ->', 'ok' if good else 'FAIL: the file ends at %.3f s (the sentence starts at %.3f), last 150 ms at %.0f dBFS' % (cuts[0][0], tim[7]['start'], tail)); ok = ok and good
+    # timings of another take (every time 8 % earlier) must not fit this audio
+    t2 = [dict(e, start=e["start"] * 0.92, end=e["end"] * 0.92) for e in tim]; refused = len(check_fit(m, sr, t2, {3})) > 2 and not check_fit(m, sr, tim, {3})
+    print('timings of another take ->', 'refused, ok' if refused else 'FAIL: %s / %s' % (check_fit(m, sr, t2, {3}), check_fit(m, sr, tim, {3}))); ok = ok and refused
     print('self-test', 'PASSED' if ok else 'FAILED'); return 0 if ok else 1
 
 
