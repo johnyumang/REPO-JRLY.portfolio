@@ -1,19 +1,172 @@
-{"episode": 29, "audited_by": "render worker 3", "stills_looked_at": 83, "clean": false, "defects": [
-{"still": "full/ash_rock_wide.jpg", "shots": [0], "type": "writing", "must_fix": true, "what": "Large pseudo-letters like 'PRI' plus smaller glyphs are carved into the ash in the foreground, instead of one repeated letter L or a blank surface."},
-{"still": "full/dante_book.jpg", "shots": [9, 68], "type": "writing", "must_fix": true, "what": "Both open pages of the book are covered in clearly visible Chinese/Japanese-style pseudo-characters around the circle drawing."},
-{"still": "full/logo_paper.jpg", "shots": [50], "type": "writing", "must_fix": true, "what": "The floating letterhead is filled with dense Japanese-style pseudo-text and a signature-like mark, and only a bare triangle stands in for the logo."},
-{"still": "full/papers.jpg", "shots": [49], "type": "writing", "must_fix": true, "what": "The two large papers held up in the foreground show rows of CJK-style pseudo-characters."},
-{"still": "full/bread_memory.jpg", "shots": [33], "type": "place", "must_fix": true, "what": "The street behind the boy is a Japanese shopping street with vertical signboards of kanji-like glyphs, not a Philippine sidewalk."},
-{"still": "full/pitch_illus.jpg", "shots": [69], "type": "panels", "must_fix": true, "what": "The engraving sits inside a black-bordered frame on a white margin, with a broken second panel sticking out on the right edge."},
-{"still": "full/arm_bleeds.jpg", "shots": [54], "type": "anatomy", "must_fix": true, "what": "A human face with eyes, nose and mouth appears inside the tattoo lattice on the forearm."},
-{"still": "full/alone_down.jpg", "shots": [75], "type": "anatomy", "must_fix": true, "what": "The black dog at the bottom has two heads on one body: one looks right with an upright ear and another at lower left has its tongue out."},
-{"still": "full/kurakot_title.jpg", "shots": [43], "type": "off_model", "must_fix": true, "what": "The dog on the ledge is a brown-and-white collie type with a separate fox-like head beside it, not black Usman with a red kerchief."},
-{"still": "full/usman_proud.jpg", "shots": [36], "type": "off_model", "must_fix": true, "what": "The young man beside Usman is a blond boy in a white outfit with no topknot, so he does not read as Indio."},
-{"still": "full/gold_heap_close.jpg", "shots": [94], "type": "writing", "must_fix": false, "what": "Several watch dials carry pseudo-text labels, and some dials show small faces and eyes painted in them."},
-{"still": "full/old_books.jpg", "shots": [10], "type": "writing", "must_fix": false, "what": "The open books and scrolls on the shelf show small rows of pseudo-text lines."},
-{"still": "full/greek_word.jpg", "shots": [72], "type": "writing", "must_fix": false, "what": "The golden squiggle at the centre of the parchment reads as the characters '2l2'."},
-{"still": "full/three_more.jpg", "shots": [74], "type": "panels", "must_fix": false, "what": "The three depths are boxed by wooden beams into stacked rectangles that read like comic panels, with a big anime face in the top box."},
-{"still": "full/lolo_weight.jpg", "shots": [59], "type": "off_model", "must_fix": false, "what": "The young man on the right has no topknot and wears a white collared shirt instead of the episode's grey tee."},
-{"still": "full/usman_lick.jpg", "shots": [60], "type": "off_model", "must_fix": false, "what": "The young man has no topknot and wears a light blue collared shirt, and his tattoos are floral rather than indigo geometric."},
-{"still": "full/usman_tug.jpg", "shots": [41], "type": "off_model", "must_fix": false, "what": "The young man being tugged has no topknot and wears a navy zip jacket instead of the grey tee."}
-]}
+{
+ "episode": 29,
+ "audited_by": "render worker 3",
+ "stills_looked_at": 83,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/ash_rock_wide.jpg",
+   "shots": [
+    0
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Large pseudo-letters like 'PRI' plus smaller glyphs are carved into the ash in the foreground, instead of one repeated letter L or a blank surface.",
+   "fixed": true
+  },
+  {
+   "still": "full/dante_book.jpg",
+   "shots": [
+    9,
+    68
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Both open pages of the book are covered in clearly visible Chinese/Japanese-style pseudo-characters around the circle drawing.",
+   "fixed": true
+  },
+  {
+   "still": "full/logo_paper.jpg",
+   "shots": [
+    50
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The floating letterhead is filled with dense Japanese-style pseudo-text and a signature-like mark, and only a bare triangle stands in for the logo.",
+   "fixed": true
+  },
+  {
+   "still": "full/papers.jpg",
+   "shots": [
+    49
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The two large papers held up in the foreground show rows of CJK-style pseudo-characters.",
+   "fixed": true
+  },
+  {
+   "still": "full/bread_memory.jpg",
+   "shots": [
+    33
+   ],
+   "type": "place",
+   "must_fix": true,
+   "what": "The street behind the boy is a Japanese shopping street with vertical signboards of kanji-like glyphs, not a Philippine sidewalk.",
+   "fixed": true
+  },
+  {
+   "still": "full/pitch_illus.jpg",
+   "shots": [
+    69
+   ],
+   "type": "panels",
+   "must_fix": true,
+   "what": "The engraving sits inside a black-bordered frame on a white margin, with a broken second panel sticking out on the right edge.",
+   "fixed": true
+  },
+  {
+   "still": "full/arm_bleeds.jpg",
+   "shots": [
+    54
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "A human face with eyes, nose and mouth appears inside the tattoo lattice on the forearm.",
+   "fixed": true
+  },
+  {
+   "still": "full/alone_down.jpg",
+   "shots": [
+    75
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The black dog at the bottom has two heads on one body: one looks right with an upright ear and another at lower left has its tongue out.",
+   "fixed": true
+  },
+  {
+   "still": "full/kurakot_title.jpg",
+   "shots": [
+    43
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog on the ledge is a brown-and-white collie type with a separate fox-like head beside it, not black Usman with a red kerchief.",
+   "fixed": true
+  },
+  {
+   "still": "full/usman_proud.jpg",
+   "shots": [
+    36
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man beside Usman is a blond boy in a white outfit with no topknot, so he does not read as Indio.",
+   "fixed": true
+  },
+  {
+   "still": "full/gold_heap_close.jpg",
+   "shots": [
+    94
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Several watch dials carry pseudo-text labels, and some dials show small faces and eyes painted in them."
+  },
+  {
+   "still": "full/old_books.jpg",
+   "shots": [
+    10
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open books and scrolls on the shelf show small rows of pseudo-text lines."
+  },
+  {
+   "still": "full/greek_word.jpg",
+   "shots": [
+    72
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The golden squiggle at the centre of the parchment reads as the characters '2l2'."
+  },
+  {
+   "still": "full/three_more.jpg",
+   "shots": [
+    74
+   ],
+   "type": "panels",
+   "must_fix": false,
+   "what": "The three depths are boxed by wooden beams into stacked rectangles that read like comic panels, with a big anime face in the top box."
+  },
+  {
+   "still": "full/lolo_weight.jpg",
+   "shots": [
+    59
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man on the right has no topknot and wears a white collared shirt instead of the episode's grey tee."
+  },
+  {
+   "still": "full/usman_lick.jpg",
+   "shots": [
+    60
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man has no topknot and wears a light blue collared shirt, and his tattoos are floral rather than indigo geometric."
+  },
+  {
+   "still": "full/usman_tug.jpg",
+   "shots": [
+    41
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man being tugged has no topknot and wears a navy zip jacket instead of the grey tee."
+  }
+ ]
+}
