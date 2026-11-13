@@ -284,7 +284,7 @@ def ebu(x, sr):
     import soundfile as sf
     sf.write(FI, x, sr, subtype='FLOAT'); o = subprocess.run(['ffmpeg', '-nostats', '-i', FI, '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
     o = o[o.rindex('Summary:'):]; g = lambda k: float(o.split(k)[1].split()[0]); return g('I:'), g('LRA:'), g('Peak:')
-def assemble(work, outp):
+def assemble(work, outp, cut=()):
     """Same master as assemble.py (per-tone level, slow-down of rushed takes, -17.4 LUFS, true peak under -1.2 dBFS). The match EQ
     to the user's recording is applied to Indio's lines only, so the designed voices keep their own colour."""
     import soundfile as sf, librosa, scipy.signal as sg, vqc
@@ -292,7 +292,10 @@ def assemble(work, outp):
     LEVEL, LDEF = VP.PROFILE['level_db'], VP.PROFILE['level_default_db']; TARGET, TP_MAX = VP.PROFILE['target_lufs'], -1.2; SR = 48000
     import leadtrim
     segs = []; tim = {}; rows = []; ntrim = 0
-    for c in P['chunks']:
+    cut = set(cut); keep = [c for c in P['chunks'] if not set(c['sent_ids']) <= cut]       # chunks whose sentences are all cut (narration_cuts.json) are left out
+    if cut: print('narration cuts: sentences', sorted(cut), '-> chunks left out', [c['id'] for c in P['chunks'] if c not in keep], flush=True)
+    if any(set(c['sent_ids']) & cut for c in keep): sys.exit('a cut sentence shares a chunk with a kept one: re-plan or re-voice')
+    for ci, c in enumerate(keep):
         ch = CH.get(str(c['id']))
         if not ch: sys.exit('chunk %d has no take: run gen_ms.py and ms.py qc first' % c['id'])
         m = json.load(open(ch['wav'][:-4] + '.json')); y, sr = sf.read(ch['wav'], dtype='float32'); assert sr == SR
@@ -317,7 +320,7 @@ def assemble(work, outp):
             n = len(vqc.norm_words(S[si]['say'])); ws = W[j:j + n]; j += n; a0, a1 = (ws[0][1] - st) / k, (ws[-1][2] - st) / k
             a0 = 0.0 if not offs else min(a0, offs[-1][2] + GAP_SENT)   # chunk's first sentence starts with its audio (the aligner places a leading word late); later ones no later than previous end + pause
             offs.append((si, a0, a1))
-        nxt = P['chunks'][c['id'] + 1] if c['id'] + 1 < len(P['chunks']) else None
+        nxt = keep[ci + 1] if ci + 1 < len(keep) else None
         gap = 0.0 if nxt is None else (GAP_SCENE if nxt['para'] != c['para'] else GAP_TURN if nxt['turn'] != c['turn'] else GAP_SENT) + 0.03 * (((c['id'] * 37) % 5) - 2) / 2
         if nxt is not None: gap = max(gap, S[c['sent_ids'][-1]].get('pause') or 0)
         segs.append(dict(c=c, y=seg, offs=offs, gap=gap)); rows.append((c['id'], c['speaker'], os.path.basename(ch['wav'])[-6:-4], m['rate'], round(k, 3), round(g, 1)))
@@ -373,7 +376,7 @@ if __name__ == '__main__':
     cmd = sys.argv[1]; x = sys.argv[2:]
     if cmd == 'plan': plan(x[0], x[1])
     elif cmd == 'qc': qc(x[0], '--full' in x)
-    elif cmd == 'assemble': assemble(x[0], x[1])
+    elif cmd == 'assemble': assemble(x[0], x[1], [int(v) for v in x[x.index('--cut') + 1].split(',') if v] if '--cut' in x else ())   # --cut 61,62: leave these sentence indices out
     elif cmd == 'verify': verify(x[0], x[1])
     elif cmd == 'fixstarts': sys.exit(1 if fixstarts(x[0], int(x[x.index('--max') + 1]) if '--max' in x else 3, '--leadin' in x) else 0)
     elif cmd == 'numbers': sys.exit(1 if numbers(x[0], '--all' in x) else 0)
