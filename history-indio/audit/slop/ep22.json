@@ -1,43 +1,454 @@
 {
-  "episode": 22,
-  "audited_by": "render worker 3 (two readers)",
-  "keys_looked_at": 82,
-  "clean": false,
-  "defects": [
-    {"key": "k01", "shots": [1], "still": "full/confusion_hook.jpg", "type": "hands", "must_fix": true, "what": "The shouting worker's raised open hand has a second hand behind it that is a fused fist-blob with no countable fingers.", "where": "lower centre-left, in front of the shouting man's mouth", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k06", "shots": [6], "still": "full/dowels.jpg", "type": "hands", "must_fix": true, "what": "The close-up of one man tying a dowel shows three hands: a left hand top-left and two right hands, one top-right and one entering bottom-right.", "where": "bottom-right third hand", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k08", "shots": [8], "still": "full/key_boat.jpg", "type": "object", "must_fix": true, "what": "The glowing key has a shank and bit on both sides of its ring, and the thumb passes through the ring into the hand.", "where": "centre, the key in the hand", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k09", "shots": [9], "still": "full/balangay_float.jpg", "type": "off_model", "must_fix": false, "what": "Tay Sebyo is bald with long white hair at the sides and wears a brown sweater, not the straw hat and khaki shirt he wears in the shots just before.", "where": "the old man on the pier, right", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k10", "shots": [10], "still": "full/holo22.jpg", "type": "limbs", "must_fix": false, "what": "A bare forearm with no hand and no shoulder runs edge to edge diagonally across M's face and mouth.", "where": "diagonal from bottom-left to top-right", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k17", "shots": [17], "still": "full/hands_held.jpg", "type": "merge", "must_fix": true, "what": "Two forearms come into frame but there is only one hand; the second arm ends by melting into the side of the first hand instead of holding it.", "where": "centre, where the right forearm meets the fist", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k18", "shots": [18], "still": "full/plain_arrive.jpg", "type": "hands", "must_fix": false, "what": "Indio's hanging hands end in scratchy curled scribbles instead of drawn fingers.", "where": "both hands, either side of the red sash", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k20", "shots": [20], "still": "full/kilns.jpg", "type": "object", "must_fix": true, "what": "The kiln workers wear modern polo shirts, t-shirts, cargo shorts, caps and lace-up shoes and stir galvanised steel buckets in an ancient scene.", "where": "right half, foreground man and the workers and buckets behind him", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k27", "shots": [27], "still": "full/m_walk.jpg", "type": "hands", "must_fix": false, "what": "The hands of both walking figures are small curled scribbles with no readable fingers.", "where": "M's right hand and both of Indio's hands, mid-frame", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k27", "shots": [27], "still": "full/m_walk.jpg", "type": "off_model", "must_fix": false, "what": "Indio wears white ankle socks and brown leather loafers under his ancient tunic.", "where": "Indio's feet, bottom right", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k28", "shots": [28], "still": "full/call_celia.jpg", "type": "off_model", "must_fix": false, "what": "The man holding the phone in the foreground wears glasses and has loose brown-black hair with no topknot or headband, so he does not read as Indio.", "where": "head at the right edge", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k29", "shots": [29], "still": "full/flood_vision.jpg", "type": "object", "must_fix": true, "what": "The tower in the flood vision is a modern concrete block with glass windows, a railed roof and a steel door, and the climbers wear t-shirts and jeans.", "where": "the whole tower, centre and left", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k35", "shots": [35], "still": "full/usman_whisper22.jpg", "type": "off_model", "must_fix": true, "what": "The young man Usman whispers to has loose brown hair, no topknot, no red headband and a blue modern shirt, so he is not recognisable as Indio of the Babel scenes.", "where": "the face and body on the right half", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k37", "shots": [37], "still": "full/overseer.jpg", "type": "object", "must_fix": true, "what": "The kneeling workers around the overseer wear grey military-style work jackets with buttoned pockets, caps and helmets in an ancient scene.", "where": "both foreground corners and the men behind", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k40", "shots": [40], "still": "full/indio_hide.jpg", "type": "off_model", "must_fix": true, "what": "The dog is a bulky broad-muzzled Labrador or mastiff type with no white chest patch and a metal badge on its kerchief, not the slim street dog (its ears, one up and one folded, are right).", "where": "dog, right of centre", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k40", "shots": [40], "still": "full/indio_hide.jpg", "type": "style", "must_fix": false, "what": "The top half of the picture is a blank off-white backdrop instead of the Babel plain, so Indio and the dog sit on rocks in an empty studio.", "where": "whole upper half behind Indio", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k41", "shots": [41], "still": "full/indio_witness22.jpg", "type": "off_model", "must_fix": false, "what": "Indio wears a modern crew-neck t-shirt instead of his wrapped ancient tunic.", "where": "his shirt, lower half", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k43", "shots": [43], "still": "full/two_workers.jpg", "type": "hands", "must_fix": false, "what": "Both workers' raised hands are lumpy thumbs-up fists whose fingers are swollen blobs with no knuckles.", "where": "centre, the two fists between the men", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k45", "shots": [45], "still": "full/bricks_fall.jpg", "type": "object", "must_fix": true, "what": "The shoving workers wear a modern quarter-zip sweater, collared shirts, beanies, trousers and leather shoes in an ancient Babel scene.", "where": "the whole foreground group", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k46", "shots": [46], "still": "full/scatter.jpg", "type": "object", "must_fix": true, "what": "The crowd leaving is a present-day crowd in jeans, sweaters and skirts on green grass, and the tower they leave is an open timber scaffold, not the brick tower.", "where": "the whole crowd and the tower, centre", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k51", "shots": [51], "still": "full/usman_bread.jpg", "type": "off_model", "must_fix": false, "what": "Usman has two big upright ears instead of one folded ear.", "where": "the dog's head, top of frame", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k52", "shots": [52], "still": "full/bread_mouth.jpg", "type": "off_model", "must_fix": true, "what": "The two people either side of Usman have short brown hair and modern shirts; neither is Indio (topknot, red headband, tunic) nor M (long black hair, dark coat).", "where": "left and right edge faces", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k53", "shots": [53], "still": "full/star_brick.jpg", "type": "hands", "must_fix": true, "what": "Under the block the fingers of both hands are fused into big thumb-like lumps with nails, with a spare flap beneath each, so no hand has countable fingers.", "where": "bottom centre, below both palms", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k53", "shots": [53], "still": "full/star_brick.jpg", "type": "off_model", "must_fix": true, "what": "The person holding the star brick in Babel has short hair with no topknot or headband and a dark modern hoodie, so he does not read as Indio.", "where": "face and clothes, whole frame", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k63", "shots": [63], "still": "full/balangay_back.jpg", "type": "off_model", "must_fix": true, "what": "The dog in the boat is a broad-headed pit-bull type with both ears folded and a white blaze up its forehead, not the slim street dog with one folded ear.", "where": "dog's head, centre-left of the boat", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k64", "shots": [64], "still": "full/notebook_mountain.jpg", "type": "style", "must_fix": false, "what": "The table and notebook are drawn almost like a photograph, with a flat cartoon thumb laid over them, so the cut jolts against the anime shots.", "where": "whole frame", "found_by": "reader 2", "second_reader": "new"},
-    {"key": "k65", "shots": [65], "still": "full/indio_point22.jpg", "type": "hands", "must_fix": true, "what": "Indio's pointing hand is grey and malformed: the pointing finger is a blunt cone and the curled fingers are fused flaps.", "where": "his right hand, centre-left", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k66", "shots": [66], "still": "full/indio_ask22.jpg", "type": "hands", "must_fix": true, "what": "The curled lower fingers of the hand holding the toy tower are a tangle of lines with no clear knuckles or fingertips.", "where": "his hand, lower centre", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k67", "shots": [67], "still": "full/indio_follow22.jpg", "type": "hands", "must_fix": false, "what": "Both of Indio's hanging hands end in dark scribbles instead of fingers.", "where": "both hands, either side of his hips", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k95", "shots": [95], "still": "full/tri_tablet.jpg", "type": "object", "must_fix": true, "what": "The crowd behind the fallen tablet wears modern khaki uniforms, caps, a polo shirt, jeans and boots, one man swings a modern sledgehammer, and a balloon-like machine floats in the sky.", "where": "upper half, behind the tablet", "found_by": "reader 1", "second_reader": "confirmed"},
-    {"key": "k102", "shots": [102], "still": "full/usman_wind.jpg", "type": "off_model", "must_fix": false, "what": "Usman has tan-brown markings on his muzzle and brows and a white patch on top of his head instead of plain black with only a white chest patch.", "where": "the dog's head, whole frame", "found_by": "reader 1", "second_reader": "confirmed"}
-  ],
-  "refuted": [
-    {"key": "k31", "what": "Indio drawn as a heavy-set older man with a thick neck and broad shoulders.", "why": "At 3x he is lean, with a young face, red headband, topknot, beige wrapped tunic and red sash; only his hair hangs a little longer, which still reads as Indio."},
-    {"key": "k34", "what": "Usman has two large upright ears.", "why": "Only one ear is visible (the upright one, on the same side as in k12); the other is hidden behind the head, so the picture does not show two upright ears."}
-  ]
+ "episode": 22,
+ "audited_by": "render worker 3 (two readers)",
+ "keys_looked_at": 82,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/confusion_hook.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The shouting worker's raised open hand has a second hand behind it that is a fused fist-blob with no countable fingers.",
+   "where": "lower centre-left, in front of the shouting man's mouth",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/dowels.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The close-up of one man tying a dowel shows three hands: a left hand top-left and two right hands, one top-right and one entering bottom-right.",
+   "where": "bottom-right third hand",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/key_boat.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The glowing key has a shank and bit on both sides of its ring, and the thumb passes through the ring into the hand.",
+   "where": "centre, the key in the hand",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/balangay_float.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Tay Sebyo is bald with long white hair at the sides and wears a brown sweater, not the straw hat and khaki shirt he wears in the shots just before.",
+   "where": "the old man on the pier, right",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/holo22.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "A bare forearm with no hand and no shoulder runs edge to edge diagonally across M's face and mouth.",
+   "where": "diagonal from bottom-left to top-right",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/hands_held.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "Two forearms come into frame but there is only one hand; the second arm ends by melting into the side of the first hand instead of holding it.",
+   "where": "centre, where the right forearm meets the fist",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/plain_arrive.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's hanging hands end in scratchy curled scribbles instead of drawn fingers.",
+   "where": "both hands, either side of the red sash",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/kilns.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kiln workers wear modern polo shirts, t-shirts, cargo shorts, caps and lace-up shoes and stir galvanised steel buckets in an ancient scene.",
+   "where": "right half, foreground man and the workers and buckets behind him",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/m_walk.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hands of both walking figures are small curled scribbles with no readable fingers.",
+   "where": "M's right hand and both of Indio's hands, mid-frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/m_walk.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears white ankle socks and brown leather loafers under his ancient tunic.",
+   "where": "Indio's feet, bottom right",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k28",
+   "shots": [
+    28
+   ],
+   "still": "full/call_celia.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man holding the phone in the foreground wears glasses and has loose brown-black hair with no topknot or headband, so he does not read as Indio.",
+   "where": "head at the right edge",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/flood_vision.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The tower in the flood vision is a modern concrete block with glass windows, a railed roof and a steel door, and the climbers wear t-shirts and jeans.",
+   "where": "the whole tower, centre and left",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/usman_whisper22.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The young man Usman whispers to has loose brown hair, no topknot, no red headband and a blue modern shirt, so he is not recognisable as Indio of the Babel scenes.",
+   "where": "the face and body on the right half",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/overseer.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The kneeling workers around the overseer wear grey military-style work jackets with buttoned pockets, caps and helmets in an ancient scene.",
+   "where": "both foreground corners and the men behind",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/indio_hide.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog is a bulky broad-muzzled Labrador or mastiff type with no white chest patch and a metal badge on its kerchief, not the slim street dog (its ears, one up and one folded, are right).",
+   "where": "dog, right of centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/indio_hide.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The top half of the picture is a blank off-white backdrop instead of the Babel plain, so Indio and the dog sit on rocks in an empty studio.",
+   "where": "whole upper half behind Indio",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/indio_witness22.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio wears a modern crew-neck t-shirt instead of his wrapped ancient tunic.",
+   "where": "his shirt, lower half",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/two_workers.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both workers' raised hands are lumpy thumbs-up fists whose fingers are swollen blobs with no knuckles.",
+   "where": "centre, the two fists between the men",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/bricks_fall.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The shoving workers wear a modern quarter-zip sweater, collared shirts, beanies, trousers and leather shoes in an ancient Babel scene.",
+   "where": "the whole foreground group",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/scatter.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The crowd leaving is a present-day crowd in jeans, sweaters and skirts on green grass, and the tower they leave is an open timber scaffold, not the brick tower.",
+   "where": "the whole crowd and the tower, centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/usman_bread.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two big upright ears instead of one folded ear.",
+   "where": "the dog's head, top of frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/bread_mouth.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The two people either side of Usman have short brown hair and modern shirts; neither is Indio (topknot, red headband, tunic) nor M (long black hair, dark coat).",
+   "where": "left and right edge faces",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/star_brick.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Under the block the fingers of both hands are fused into big thumb-like lumps with nails, with a spare flap beneath each, so no hand has countable fingers.",
+   "where": "bottom centre, below both palms",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/star_brick.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The person holding the star brick in Babel has short hair with no topknot or headband and a dark modern hoodie, so he does not read as Indio.",
+   "where": "face and clothes, whole frame",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/balangay_back.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The dog in the boat is a broad-headed pit-bull type with both ears folded and a white blaze up its forehead, not the slim street dog with one folded ear.",
+   "where": "dog's head, centre-left of the boat",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "partly_fixed": true
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/notebook_mountain.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "The table and notebook are drawn almost like a photograph, with a flat cartoon thumb laid over them, so the cut jolts against the anime shots.",
+   "where": "whole frame",
+   "found_by": "reader 2",
+   "second_reader": "new",
+   "left": "redraw was worse (1 try), old still kept"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/indio_point22.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Indio's pointing hand is grey and malformed: the pointing finger is a blunt cone and the curled fingers are fused flaps.",
+   "where": "his right hand, centre-left",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "partly_fixed": true
+  },
+  {
+   "key": "k66",
+   "shots": [
+    66
+   ],
+   "still": "full/indio_ask22.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The curled lower fingers of the hand holding the toy tower are a tangle of lines with no clear knuckles or fingertips.",
+   "where": "his hand, lower centre",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "left": "redraw was worse (1 try), old still kept"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/indio_follow22.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both of Indio's hanging hands end in dark scribbles instead of fingers.",
+   "where": "both hands, either side of his hips",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "left": "redraw was worse (1 try), old still kept"
+  },
+  {
+   "key": "k95",
+   "shots": [
+    95
+   ],
+   "still": "full/tri_tablet.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The crowd behind the fallen tablet wears modern khaki uniforms, caps, a polo shirt, jeans and boots, one man swings a modern sledgehammer, and a balloon-like machine floats in the sky.",
+   "where": "upper half, behind the tablet",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k102",
+   "shots": [
+    102
+   ],
+   "still": "full/usman_wind.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has tan-brown markings on his muzzle and brows and a white patch on top of his head instead of plain black with only a white chest patch.",
+   "where": "the dog's head, whole frame",
+   "found_by": "reader 1",
+   "second_reader": "confirmed",
+   "fixed": true
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k31",
+   "what": "Indio drawn as a heavy-set older man with a thick neck and broad shoulders.",
+   "why": "At 3x he is lean, with a young face, red headband, topknot, beige wrapped tunic and red sash; only his hair hangs a little longer, which still reads as Indio."
+  },
+  {
+   "key": "k34",
+   "what": "Usman has two large upright ears.",
+   "why": "Only one ear is visible (the upright one, on the same side as in k12); the other is hidden behind the head, so the picture does not show two upright ears."
+  }
+ ]
 }
