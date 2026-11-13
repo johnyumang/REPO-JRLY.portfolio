@@ -13,7 +13,10 @@
    "must_fix": true,
    "what": "Large gothic-looking pseudo-letters fill the page under the magnifying glass and are crisp enough to read as words.",
    "where": "centre, inside the magnifier lens and the pages around it",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "Redrawn (1 try, after rewording past the content filter) as a brass magnifying glass lying on a stack of blank, stained old papers in an archive: no letter-like marks anywhere.",
+   "third_reader": "keep: blank stained papers under a brass magnifier, no letter-like mark at 3x, and it still shows the papers being examined."
   },
   {
    "key": "k73",
@@ -25,7 +28,10 @@
    "must_fix": true,
    "what": "The young man walking out of the portal has no topknot, pale skin, a different face and dark grey trousers instead of jeans, and Usman beside M is a fluffy long-haired dog with both ears up, so neither reads as the same characters.",
    "where": "left figure (Indio) and the dog at bottom centre-right",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "Redrawn (kept try 2 of 2) as a wide shot from behind: Indio with topknot, grey t-shirt and jeans, a grown M in her long dark coat and a slim black Usman with a red kerchief run into the golden gear portal.",
+   "third_reader": "keep: all three are on model from behind running into the gear portal, fists and legs sound at 3x."
   },
   {
    "key": "k29",
@@ -39,7 +45,10 @@
    "where": "whole open book, left and right pages, loose sheet at bottom left",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The open manuscript fills the whole frame and the rows of fake cursive letters are sharp, so a paused viewer reads them as machine writing."
+   "must_fix_reason": "The open manuscript fills the whole frame and the rows of fake cursive letters are sharp, so a paused viewer reads them as machine writing.",
+   "fixed": true,
+   "fix": "Redrawn (kept try 2 of 2; try 1 had a modern ballpoint pen) as a closed plain leather manuscript on a convent table in window light: no pages showing, no writing.",
+   "third_reader": "keep: closed plain leather book on a convent table, no letter-like mark anywhere at 3x."
   },
   {
    "key": "k37",
@@ -87,7 +96,10 @@
    "must_fix": false,
    "what": "The old book being handed to the boy has a dark block of pseudo-text on its cover.",
    "where": "book cover, centre",
-   "second_reader": "confirmed: small dark block on the cover, minor"
+   "second_reader": "confirmed: small dark block on the cover, minor",
+   "fixed": true,
+   "fix": "Redrawn (1 try): the book now lies closed on the desk with a plain blank cover.",
+   "third_reader": "keep: merged hands, purple polo and cover text are all gone, so it beats the old still, but the round cartoon faces and changed teacher jolt next to k39 (new must-fix entry)."
   },
   {
    "key": "k85",
@@ -101,7 +113,10 @@
    "where": "hands under the book, centre",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The joined hands are at the centre of the picture, right under the book the shot is about."
+   "must_fix_reason": "The joined hands are at the centre of the picture, right under the book the shot is about.",
+   "fixed": true,
+   "fix": "Redrawn (1 try): teacher and boy stand behind the desk with the book lying on it, all hands below the desk edge, so nothing can merge.",
+   "third_reader": "keep: merged hands, purple polo and cover text are all gone, so it beats the old still, but the round cartoon faces and changed teacher jolt next to k39 (new must-fix entry)."
   },
   {
    "key": "k85",
@@ -115,7 +130,10 @@
    "where": "boy, right half",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The boy is half of this two-shot and wears a purple polo and khaki trousers, so he does not read as the uniformed boy of the shots before and after."
+   "must_fix_reason": "The boy is half of this two-shot and wears a purple polo and khaki trousers, so he does not read as the uniformed boy of the shots before and after.",
+   "fixed": true,
+   "fix": "Redrawn (1 try): the boy wears the white school uniform shirt and has short neat black hair.",
+   "third_reader": "keep: merged hands, purple polo and cover text are all gone, so it beats the old still, but the round cartoon faces and changed teacher jolt next to k39 (new must-fix entry)."
   },
   {
    "key": "k12",
@@ -129,7 +147,10 @@
    "where": "boy, right of centre",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The boy fills the right third of the frame and reads as a teenager in a blue shirt with brown hair, a different person from the ten-year-old."
+   "must_fix_reason": "The boy fills the right third of the frame and reads as a teenager in a blue shirt with brown hair, a different person from the ten-year-old.",
+   "fixed": true,
+   "fix": "Redrawn (1 try): the boy is the ten-year-old with short black hair and white uniform shirt, hugging the map with his hands tucked away, beside a smiling Lolo with the medallion (the map legend keeps a few tiny scribble lines).",
+   "third_reader": "keep: the boy is now the ten-year-old in white uniform with hands tucked away and Lolo's hands are sound; map legend scribble logged as minor."
   },
   {
    "key": "k15",
@@ -155,7 +176,10 @@
    "where": "dog, centre",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The dog is the centre of the frame and the red kerchief is tied as a bow on top of his head, with a white muzzle and white paws, so he reads as another dog."
+   "must_fix_reason": "The dog is the centre of the frame and the red kerchief is tied as a bow on top of his head, with a white muzzle and white paws, so he reads as another dog.",
+   "fixed": true,
+   "fix": "Redrawn (kept try 2 of 2): Indio kneels with his arm round a slim black Usman with a white chest patch and the red kerchief round his neck; only the tips of the paws are white and both ears stand up.",
+   "third_reader": "keep: Usman is slim and black with white chest and neck kerchief and Indio's hands are sound; ears both up and white paw tips logged as minor."
   },
   {
    "key": "k70",
@@ -169,7 +193,10 @@
    "where": "both hands around the medallion, lower half",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The tattooed hands fill the frame in this close-up of M, so the wrong tattoos are the first thing seen."
+   "must_fix_reason": "The tattooed hands fill the frame in this close-up of M, so the wrong tattoos are the first thing seen.",
+   "fixed": true,
+   "fix": "Redrawn (kept try 1 of 2) with no hands at all: M's crescent medallion glows on her chest, hands in her coat pockets, and a small dog with one folded ear appears in a ring of golden light behind her.",
+   "third_reader": "keep: no tattooed hands any more, the medallion glows and a one-fold-eared dog shows in the light; M's darker skin and longer hair logged as minor."
   },
   {
    "key": "k43",
@@ -183,7 +210,10 @@
    "where": "bottom-left corner",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The fist with the white slab of a nail is plain on a paused frame; moving the crop up a little removes it."
+   "must_fix_reason": "The fist with the white slab of a nail is plain on a paused frame; moving the crop up a little removes it.",
+   "fixed": true,
+   "fix": "Reframed: the still was cropped to its upper right (x 96-768, y 0-1176, scaled back to 768x1344) so the corner hand and umbrella handle are out of the frame (make_keys ignores x, y, s for full stills, so the crop is in the still itself).",
+   "third_reader": "keep: the crop removes the blob hand and leaves a clean close-up of M under the umbrella."
   },
   {
    "key": "k56",
@@ -197,7 +227,10 @@
    "where": "Indio's hanging hand, bottom right",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "Both of the hero's hands hang in view in a front-on shot and both palms break into cracked shards (the left corner hand too, which was not listed)."
+   "must_fix_reason": "Both of the hero's hands hang in view in a front-on shot and both palms break into cracked shards (the left corner hand too, which was not listed).",
+   "fixed": true,
+   "fix": "Redrawn (1 try) as a chest-up close-up of Indio's startled face with both hands and forearms out of frame.",
+   "third_reader": "keep: hands and forearms are out of frame and the startled face tells the line; the swept-back hair is logged as minor."
   },
   {
    "key": "k71",
@@ -211,7 +244,10 @@
    "where": "bottom-right corner",
    "second_reader": "confirmed",
    "must_fix_changed_by": "reader 2",
-   "must_fix_reason": "The palm of the lowered hand is drawn as cracked shards and is clear on a paused frame; a small reframe hides it."
+   "must_fix_reason": "The palm of the lowered hand is drawn as cracked shards and is clear on a paused frame; a small reframe hides it.",
+   "fixed": true,
+   "fix": "Reframed: the character still was cropped (left 5%, top 87%, scaled back) so the lowered hand in the bottom-right corner is out of the frame (x, y, s only move the plate, so the crop is in chars/indio_point_modern.jpg itself).",
+   "third_reader": "keep: the crop takes the broken lowered hand out of frame and the pointing hand that stays is sound."
   },
   {
    "key": "k00",
@@ -223,7 +259,10 @@
    "must_fix": true,
    "what": "In the hook shot Indio lifts the stone with two solid red gloves that have no separate fingers, where he should have bare hands with a red handkerchief on the left wrist, and his right forearm has no tattoos.",
    "where": "both hands on the stone, centre, and the bare right forearm",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (kept try 2 of 2): Indio kneels at the school gate lifting a flat stone with bare hands, red handkerchief on the left wrist, tattoo on the right forearm, a rusty tin in the hollow below; hands and face checked at 3x.",
+   "third_reader": "keep: bare five-fingered hands, handkerchief on the left wrist, tattoo on the right forearm and the tin under the stone all pass at 3x, and it tells the hook better than the red gloves."
   },
   {
    "key": "k07",
@@ -235,7 +274,10 @@
    "must_fix": true,
    "what": "The three who step out of the portal are not the cast: the young man wears a beige jacket over a blue shirt with no topknot, the woman has purple hair, a short navy coat and a shoulder bag, and the dog has two upright ears and no white chest.",
    "where": "the three figures, centre and lower centre",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try) as a wide shot from behind: Indio (topknot, grey t-shirt, jeans), M in her long dark coat and black Usman with a red kerchief stand in a fading ring of golden gear sparks before the school gate.",
+   "third_reader": "keep: the three read as the cast from behind before the school gate with no sign text; M drawn small and Usman's ears both drooping are logged as a minor fault."
   },
   {
    "key": "k09",
@@ -247,7 +289,10 @@
    "must_fix": true,
    "what": "Indio stands as a cut-out on an empty white background with no lens and no schoolyard, so the frame looks unfinished next to the painted scenes around it.",
    "where": "whole frame",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try) as a full painted scene: over Indio's shoulder at the school fence he holds up the golden lens, and the boy reading under a tree shows through the glass.",
+   "third_reader": "keep: a full painted scene with the lens, the boy in the glass, a sound hand and the tattoo on the right forearm only; two small leftovers logged."
   },
   {
    "key": "k09",
@@ -259,7 +304,10 @@
    "must_fix": false,
    "what": "Both of Indio's arms carry full tattoo sleeves, where only the right forearm should be tattooed.",
    "where": "left arm, image left",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): only the right forearm is in view and it carries the tattoo.",
+   "third_reader": "keep: a full painted scene with the lens, the boy in the glass, a sound hand and the tattoo on the right forearm only; two small leftovers logged."
   },
   {
    "key": "k11",
@@ -283,7 +331,10 @@
    "must_fix": true,
    "what": "A large wrinkled hand rests on Lolo's shoulder from outside the frame with no body it could belong to, the boy he whispers to is missing, and Lolo is drawn pale and sharp-faced in a heavier comic line than his other shots.",
    "where": "left edge, on Lolo's shoulder, and his face",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): Lolo, warm brown and kind-faced with the medallion, leans down and whispers behind his own cupped hand to the smiling boy in his white uniform; no stray hand.",
+   "third_reader": "keep: the stray hand is gone, the boy is present and Lolo is on model, which beats the old still, but the cupped hand shows only three fingers (new must-fix entry)."
   },
   {
    "key": "k17",
@@ -307,7 +358,10 @@
    "must_fix": true,
    "what": "A clear glass-like band floats across Lolo's nose and mouth with nothing holding it, and the boy behind wears a tie and a shirt with letters and holds a tablet.",
    "where": "across the face, upper centre, and the boy at right",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try) as a close-up of the glowing sun-and-triangle medallion on Lolo's chest, no hands and nothing floating, with the boy in a plain white school shirt standing before the marker far behind.",
+   "third_reader": "keep: no floating band, no hands, clean sun-and-triangle medallion, blank marker and the uniformed boy behind still tell that Lolo knew."
   },
   {
    "key": "k18",
@@ -319,7 +373,10 @@
    "must_fix": false,
    "what": "Lolo has blue-grey eyes, heavy brows and a goatee here, unlike the brown-eyed grandfather of k12 and k90.",
    "where": "face, top half",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): only Lolo's smile and chin are in frame, so the wrong eyes and goatee are gone.",
+   "third_reader": "keep: no floating band, no hands, clean sun-and-triangle medallion, blank marker and the uniformed boy behind still tell that Lolo knew."
   },
   {
    "key": "k44",
@@ -367,7 +424,10 @@
    "must_fix": true,
    "what": "Indio has a red handkerchief on both wrists, no topknot and no tattoos, and the dog beside him is a brown-black dog with two hanging ears and the kerchief tied across his back.",
    "where": "both wrists and the dog, lower right",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (kept try 2 of 2; try 1 grew a signboard with pseudo-text): seen from behind, Indio with topknot, one red handkerchief on the left wrist and tattoos on the right forearm, beside a slim black Usman with the kerchief round his neck.",
+   "third_reader": "keep: topknot, one handkerchief on the left wrist, tattoo on the right arm, slim black dog with neck kerchief; both ears upright logged as minor."
   },
   {
    "key": "k56",
@@ -379,7 +439,10 @@
    "must_fix": false,
    "what": "Both of Indio's forearms are tattooed, where only the right should be.",
    "where": "both forearms",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): the forearms are out of frame, so no wrong tattoo shows.",
+   "third_reader": "keep: hands and forearms are out of frame and the startled face tells the line; the swept-back hair is logged as minor."
   },
   {
    "key": "k57",
@@ -403,7 +466,10 @@
    "must_fix": true,
    "what": "Three hands push the tin under the stone: one at the pole on the left and two that overlap on the right, one of them with a single long pointing finger.",
    "where": "right half, above the tin",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try) without hands: the rusty tin sits in the hollow under the propped loose stone by the gate while Lolo walks away small in the background.",
+   "third_reader": "keep: no hands; the tin in the hollow under the propped stone with Lolo walking away still shows him hiding it."
   },
   {
    "key": "k62",
@@ -427,7 +493,10 @@
    "must_fix": true,
    "what": "Usman has a third ear: a dark folded flap grows above his upright left ear, beside a second upright ear.",
    "where": "top-left corner, above the ear",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): Usman winks with exactly two ears, one folded and one upright, red kerchief and white chest, dissolving into golden sparks.",
+   "third_reader": "keep: exactly two ears, one folded, a clean wink, kerchief and white chest; tan face markings logged as minor."
   },
   {
    "key": "k64",
@@ -475,7 +544,10 @@
    "must_fix": true,
    "what": "The tattoo is a solid blue band that wraps the whole left forearm like a printed cloth sleeve, on the arm with the handkerchief, and the right arm is bare.",
    "where": "left forearm, image right",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): Indio reads the marker aloud holding the glowing notebook in his left hand with the handkerchief on that wrist, and the tattoo is on his bare right forearm as skin art, not a sleeve.",
+   "third_reader": "keep: notebook hand has a thumb and four fingers, handkerchief on the left wrist, tattoo as skin art on the right forearm, marker plate blank."
   },
   {
    "key": "k69",
@@ -487,7 +559,10 @@
    "must_fix": true,
    "what": "The two hands holding the notebook are pale pink, not Indio's brown, with tattoos on both hands and wrists and a thick dark-blue band round the left forearm.",
    "where": "both hands, whole frame",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try) with no hands: the open notebook lies on the stone ledge while golden lines draw three sailing ships; no writing on the pages.",
+   "third_reader": "keep: no hands, blank pages, three golden ships drawing themselves: exactly the sentence."
   },
   {
    "key": "k71",
@@ -499,7 +574,8 @@
    "must_fix": false,
    "what": "The red handkerchief is on Indio's right wrist and both forearms are tattooed.",
    "where": "raised hand at image left and both forearms",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "third_reader": "keep: the crop takes the broken lowered hand out of frame and the pointing hand that stays is sound."
   },
   {
    "key": "k40",
@@ -547,7 +623,10 @@
    "must_fix": false,
    "what": "Usman has two upright ears; his one folded ear is missing.",
    "where": "both ears",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fixed": true,
+   "fix": "Redrawn (1 try): Usman has one folded and one upright ear, white chest patch and red kerchief.",
+   "third_reader": "keep: one folded and one upright ear, matching eyes, white chest and neck kerchief; a little stockier than before but clearly Usman."
   },
   {
    "key": "k05",
@@ -571,7 +650,8 @@
    "must_fix": false,
    "what": "Usman has two upright ears; his one folded ear is missing.",
    "where": "both ears",
-   "found_by": "reader 2"
+   "found_by": "reader 2",
+   "fix_tried": "One redraw tried and thrown away (the dog's two eyes did not match); old still kept."
   },
   {
    "key": "k60",
@@ -608,6 +688,150 @@
    "what": "Usman has two upright ears; his one folded ear is missing.",
    "where": "both ears",
    "found_by": "reader 2"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/lolo_whisper.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Lolo's cupped hand beside his mouth shows only three long fingers and no fourth, large and in the middle of the frame.",
+   "where": "Lolo's raised hand, centre",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k85",
+   "shots": [
+    85
+   ],
+   "still": "full/teacher_smile_boy.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Teacher and boy have round flat cartoon faces with huge eyes, and the teacher is tan in a short-sleeved bright blue blouse, unlike the pale long-sleeved teacher of k37 to k39, so the cut reads as another show.",
+   "where": "both faces and the teacher's blouse",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/m_medallion_hot.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M has dark brown skin, hip-length black hair and a white blouse here, against the paler M with shoulder-length brown hair and dark top of k43 and k67.",
+   "where": "M, right two thirds",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/portal_gate.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "M stands only shoulder-high to Indio with white ankle socks like a schoolgirl, and Usman's ears both droop sideways.",
+   "where": "M at right, dog at bottom centre",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/pair_gate.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman, seen from behind, has both ears upright; the folded ear is missing.",
+   "where": "dog, lower right",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/indio_stop.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears upright and white tips on all visible paws.",
+   "where": "dog's head and paws, right",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k73",
+   "shots": [
+    73
+   ],
+   "still": "full/finale_run.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman, small and from behind, has both ears drooping sideways.",
+   "where": "dog, bottom centre",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/usman_wink.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has tan markings round the muzzle and brows and a white fleck on the forehead that he has in no other shot.",
+   "where": "dog's face",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/lolo_boy_jeep.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The map's legend box carries a few rows of tiny scribble lines that look like text.",
+   "where": "top left corner of the rolled map",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/indio_lens_ots.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A small oval on the lens handle holds an E-like mark.",
+   "where": "lens handle, just above the thumb",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/indio_lens_ots.jpg",
+   "type": "duplicate",
+   "must_fix": false,
+   "what": "A second blurred seated boy in white shows through the fence below the lens while the boy also shows inside the glass.",
+   "where": "behind the fence, centre",
+   "found_by": "reader 3"
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/indio_realize.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's hair is swept back with no fringe and the topknot sits to the side, so the face reads a little older than in k55 and k57.",
+   "where": "head",
+   "found_by": "reader 3"
   }
  ]
 }
