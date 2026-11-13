@@ -1,0 +1,161 @@
+{
+ "episode": 28,
+ "audited_by": "render-ep16",
+ "stills_looked_at": 83,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/sixth_plate.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The masking-tape label on the table, which the script says reads 'Tala', carries Japanese-like glyphs ('なあ い.O. ナ茶せ') across the bottom of the picture."
+  },
+  {
+   "still": "full/palm_marker.jpg",
+   "shots": [
+    19
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Large carved Japanese-like glyphs on the marker stone under the hand, and the face at the right is a blonde, blue-eyed girl instead of Indio."
+  },
+  {
+   "still": "full/pule_shrine.jpg",
+   "shots": [
+    18
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The plaque on the bust's pedestal carries CJK characters, and the shed behind has a Japanese-style roof."
+  },
+  {
+   "still": "full/petition_desk.jpg",
+   "shots": [
+    28
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The petition on the desk is several lines of Japanese-like pseudo-text under the word 'Rome'."
+  },
+  {
+   "still": "full/usman_away.jpg",
+   "shots": [
+    35
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "Japanese-like glyphs printed in the top-left sky ('く 號田 Ⅲ' under a white shape) and in the bottom-left corner, like a UI caption."
+  },
+  {
+   "still": "full/wall_writing.jpg",
+   "shots": [
+    43
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The cave wall is covered with eight lines of Japanese hiragana-like text in the middle of the frame."
+  },
+  {
+   "still": "full/wall_read.jpg",
+   "shots": [
+    44
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The rock Indio touches carries five lines of large Japanese/Chinese-like glyphs."
+  },
+  {
+   "still": "full/wall_close2.jpg",
+   "shots": [
+    45
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "A big scratched inscription of Japanese-like glyphs across the centre stone."
+  },
+  {
+   "still": "full/return_light.jpg",
+   "shots": [
+    37
+   ],
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The glowing dog leaving through the light is an orange-and-white shiba-like puppy, not Usman (black dog, red kerchief)."
+  },
+  {
+   "still": "full/follow_end.jpg",
+   "shots": [
+    76
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The tambuli horn behind Indio's head reads as a pair of bull horns growing from his head."
+  },
+  {
+   "still": "full/tambuli_close.jpg",
+   "shots": [
+    63
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "The horn close-up merges into an animal-like face with a nostril and a human eye; reads as a face on the object."
+  },
+  {
+   "still": "full/cave_elder_dark.jpg",
+   "shots": [
+    0
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A small red-and-white logo-like mark with glyphs in the top-left corner of the cave."
+  },
+  {
+   "still": "full/letter_desk.jpg",
+   "shots": [
+    8
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small lines of pseudo-text on the letter and the framed notice on the wall."
+  },
+  {
+   "still": "full/flashlight_find.jpg",
+   "shots": [
+    41
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Two Japanese-like glyphs printed on the rusty flashlight body."
+  },
+  {
+   "still": "full/lolo_close.jpg",
+   "shots": [
+    56
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Posters behind Lolo carry small Japanese-like text."
+  },
+  {
+   "still": "full/ride_kawit.jpg",
+   "shots": [
+    4
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Pseudo-text shop sign ('2 SAIE') on the blue awning at left, plus small notices on the shutter."
+  },
+  {
+   "still": "full/usman_sniff.jpg",
+   "shots": [
+    21
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman's white patch sits on his back and shoulder instead of his chest."
+  }
+ ]
+}

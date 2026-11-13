@@ -1,0 +1,155 @@
+{
+ "episode": 18,
+ "audited_by": "render-ep16",
+ "stills_looked_at": 71,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/read_portal.jpg",
+   "shots": [
+    13
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bronze marker plaque in the lower middle carries five lines of large pseudo-letters (RECVINE DENI ...), right where the narration reads it aloud."
+  },
+  {
+   "still": "full/fort_low.jpg",
+   "shots": [
+    11
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The plaque in the lower left is covered in rows of East Asian-looking pseudo-glyphs under a star emblem."
+  },
+  {
+   "still": "full/jaguar_leap.jpg",
+   "shots": [
+    33,
+    87
+   ],
+   "type": "anatomy",
+   "must_fix": true,
+   "what": "Two jaguars are drawn, one overlapping the other in the alley, where the script has a single jaguar appearing."
+  },
+  {
+   "still": "full/coin_fade.jpg",
+   "shots": [
+    48
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The whole gold coin in the hand shows a big letter D and pseudo-lettering around its rim, filling the close-up."
+  },
+  {
+   "still": "full/read_portal.jpg",
+   "shots": [
+    13
+   ],
+   "type": "flag",
+   "must_fix": false,
+   "what": "A small United States flag flies on the fort tower at the top left, in a scene at Fort San Diego, Acapulco."
+  },
+  {
+   "still": "full/scott_glass.jpg",
+   "shots": [
+    27
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Gold pseudo-cursive titles on the stacked book spines (left) and scribbled pseudo-text on the open pages and papers."
+  },
+  {
+   "still": "full/treaty_table.jpg",
+   "shots": [
+    26,
+    86
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The sheet being signed carries several lines of small pseudo-text."
+  },
+  {
+   "still": "full/signing_hands.jpg",
+   "shots": [
+    58
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The paper under the quill shows three lines of pseudo-cursive scribbles in the foreground."
+  },
+  {
+   "still": "full/feast_bridge.jpg",
+   "shots": [
+    42,
+    61
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The boy in the foreground wears an orange shirt with pseudo-letters (LGT-like) on the back."
+  },
+  {
+   "still": "full/compass_cu.jpg",
+   "shots": [
+    22
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Scattered pseudo-numerals and glyphs on the chart and on the compass dial."
+  },
+  {
+   "still": "full/holo_nahual.jpg",
+   "shots": [
+    53
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The young man with the red headband has reddish-brown hair with no topknot and a black hoodie, so he does not read as Indio."
+  },
+  {
+   "still": "full/hill_night.jpg",
+   "shots": [
+    15
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Seen from behind, the man in the red headband has short brown hair and no topknot."
+  },
+  {
+   "still": "full/usman_return.jpg",
+   "shots": [
+    14
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; no folded ear."
+  },
+  {
+   "still": "full/usman_bread.jpg",
+   "shots": [
+    43
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; no folded ear."
+  },
+  {
+   "still": "full/bone_fail.jpg",
+   "shots": [
+    46
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; no folded ear."
+  },
+  {
+   "still": "full/usman_hill_growl.jpg",
+   "shots": [
+    55
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears fully upright; no folded ear."
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{"episode": 48, "audited_by": "render-ep16", "stills_looked_at": 80, "clean": false, "defects": [
+ {"still": "full/x_serpent_sleep.jpg", "shots": [97], "type": "anatomy", "must_fix": true, "what": "The sea serpent has two heads: one raised on the neck at upper left and a second head lying asleep in the coils at the bottom center."},
+ {"still": "full/greek_word.jpg", "shots": [49], "type": "writing", "must_fix": true, "what": "The parchment fills the frame with crisp rows of pseudo-Greek glyphs and X marks across the whole page, not the faint illegible strokes the shot asks for."},
+ {"still": "full/vulgate.jpg", "shots": [65], "type": "writing", "must_fix": false, "what": "Both pages of the open Bible are filled with dense rows of soft pseudo-text."},
+ {"still": "full/bay_1898_map.jpg", "shots": [69], "type": "writing", "must_fix": false, "what": "The sea chart carries small pseudo-text labels and rows of glyphs near the top edge and in the bay."},
+ {"still": "full/lens_paris.jpg", "shots": [21], "type": "writing", "must_fix": false, "what": "The papers on the signing table show tiny lines of pseudo-text, small inside the lens view."}
+]}
