@@ -26,6 +26,7 @@ import flux_hq                                                             # the
 # the difference between a draft with broken hands and a clean picture. flux.2-klein-4b is capped at 4 steps: it is only the fallback.
 HQ = {'steps': 30, 'cfg_scale': 4.0, 'negative_prompt': flux_hq.NEG}
 MODELS = (('black-forest-labs/flux.2-klein-4b', {'steps': 4}), ('black-forest-labs/flux-3-image-klein', HQ))
+LIMIT = {'flux-3': 2000, 'klein-4b': 800}                                 # prompt length each model accepts (its own error message says so)
 PREF = [int(os.environ.get('HI_IMG_MODEL', '1')) % len(MODELS)]            # 1 = flux-3 at full quality (the default now); 0 = start with the 4-step model
 def gen(kind, n):
     p = find(kind, n)
@@ -34,12 +35,14 @@ def gen(kind, n):
     os.makedirs(f'{v}/{kind}', exist_ok=True); out = f'{v}/{kind}/{n}.jpg'
     if kind == 'chars': prompt = K['white'] + K[kind][n] + ' ' + K['style'] + END          # subject first: the free model follows the start of the prompt best
     else: prompt = K['style'] + ('Background art only, no people, no animals: ' if kind == 'plates' else '') + K[kind][n] + END
-    for x, y in K.get('nv_replace', {}).items(): prompt = prompt.replace(x, y)             # the free endpoint refuses prompts over 800 characters
-    if len(prompt) > 800: print(n, 'prompt too long:', len(prompt)); prompt = prompt[:800]
+    for x, y in K.get('nv_replace', {}).items(): prompt = prompt.replace(x, y)             # short forms written when both models stopped at 800 characters
+    full = prompt                                                         # measured 13 Nov: flux-3 takes 2000 characters, the 4-step fallback 800 (LIMIT)
     seed = zlib.crc32(n.encode()) % 9999 + (len(redo) and n in redo) * int.from_bytes(os.urandom(2), 'big')
     tmp = out[:-4] + '.new.jpg'                                           # draw beside the old still: a failed draw (504, no image) must never cost the still we have
     for t in range(6):                                                    # the free endpoint sometimes answers 504 or with no image
         m, extra = MODELS[(PREF[0] + t) % len(MODELS)]                    # start with the model that answered last; on a failure try the other one
+        lim = LIMIT['klein-4b' if 'klein-4b' in m else 'flux-3']; prompt = full[:lim]
+        if len(full) > lim: print(n, 'WARNING: prompt of %d characters cut to %d for %s; the END of the prompt is lost (a sentence added last, such as the Usman ears sentence, is gone): shorten the scene words' % (len(full), lim, m.split('/')[-1]), flush=True)
         try:
             if nvidia_still.call(m, {'prompt': prompt, 'width': 768, 'height': 1344, 'seed': seed + t // len(MODELS), **extra}, tmp) and cv2.imread(tmp) is not None:
                 if 'klein-4b' in m: print(n, 'WARNING: drawn by the 4-step fallback model; look at hands and faces twice, or redo when flux-3 answers')
