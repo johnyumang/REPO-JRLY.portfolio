@@ -18,7 +18,8 @@
    "second_reader": "confirmed: the prompt says nobody in the frame, yet a half-naked red-haired figure crawls out of the water at centre, and its right hand on the waterline is a lumpy claw with no countable fingers",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k19",
@@ -33,7 +34,8 @@
    "second_reader": "confirmed: Sinag has black hair with bangs here, against blonde in k16/k24 and brown in k18/k22, and her face is different",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k20",
@@ -48,7 +50,8 @@
    "second_reader": "confirmed: a heavy pit-bull head with blue eyes, both ears upright and no white chest patch in view",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k31",
@@ -78,7 +81,8 @@
    "second_reader": "confirmed: the two white figures are a painterly blur that runs into one mass, with no readable faces or hands",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k37",
@@ -93,7 +97,8 @@
    "second_reader": "confirmed: the script makes the seated man in the warehouse Tubal ('Pagkatapos, si Tubal ... nakaupo siya'), but he is drawn as a moustached man in an olive jacket, not the grey-suited Tubal of k35/k36/k45/k48. The prompt says only 'an old man' and never pastes the Tubal string",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k40",
@@ -108,7 +113,8 @@
    "second_reader": "confirmed: this is Tubal per the script (Indio reads the contracts to him), but he is drawn in a brown jacket with a moustache and goatee",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k42",
@@ -123,7 +129,8 @@
    "second_reader": "confirmed: this is Tubal per the script, but he is a moustached man with wild grey hair and a brown shirt",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k42",
@@ -138,7 +145,8 @@
    "second_reader": "confirmed: two hanging boards top right carry large blocky CJK-like characters, legible at phone size (the stills pass logged this as 'place', must_fix false; it is clear enough to stay true)",
    "fixed": true,
    "fix": "redraw",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k44",
@@ -153,7 +161,8 @@
    "second_reader": "confirmed: this is Tubal per the script, but he has a goatee and a yellow-tan coat, a fourth different face for him",
    "fixed": true,
    "fix": "redraw",
-   "tries": 3
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k50",
@@ -166,9 +175,9 @@
    "what": "M has short dark-blue bobbed hair, green eyes and a white shirt instead of long black hair and a dark coat.",
    "where": "face and body, whole frame",
    "second_reader": "confirmed: short dark-blue bob, green eyes, white shirt",
-   "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "reverted: the new still has M on model, but the furled red umbrella stands in mid-air beside her with its tip above the planks and both her hands in her coat pockets, so nothing holds it, and the script's line needs her holding the umbrella"
   },
   {
    "key": "k51",
@@ -183,7 +192,8 @@
    "second_reader": "confirmed: scratch or crack marks across her cheek and chin, and bared clenched teeth",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k53",
@@ -198,7 +208,8 @@
    "second_reader": "confirmed: soft painterly blur with blank glowing eyes, unlike the hard cel line of k52 and k54",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k53",
@@ -213,7 +224,8 @@
    "second_reader": "confirmed: both hands on the handle are soft and mushy, and the fingers of the lower hand fuse into the grip",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k55",
@@ -228,7 +240,8 @@
    "second_reader": "confirmed: the prompt says nobody in the frame, yet the right edge shows a man in a white T-shirt and khaki shorts holding the blade, who matches no one in the episode",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k58",
@@ -291,7 +304,8 @@
    "second_reader": "confirmed: two overlapping hands with long fingers whose outlines run into each other",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k20",
@@ -354,7 +368,8 @@
    "second_reader": "confirmed: the old man's hand on his knee is a mitten shape with no separate fingers",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k40",
@@ -369,7 +384,8 @@
    "second_reader": "confirmed: the hand under the papers has no sleeve and its wrist disappears into Indio's red handkerchief, so it is unclear whose hand it is",
    "fixed": true,
    "fix": "redraw_hands_hidden",
-   "tries": 2
+   "tries": 2,
+   "third_reader": "kept"
   },
   {
    "key": "k44",
@@ -384,7 +400,8 @@
    "second_reader": "confirmed: Indio's open hand shows a thumb and only about three fingers",
    "fixed": true,
    "fix": "redraw",
-   "tries": 3
+   "tries": 3,
+   "third_reader": "kept"
   },
   {
    "key": "k55",
@@ -399,7 +416,8 @@
    "second_reader": "confirmed: the gold pommel carries a CJK-like glyph",
    "fixed": true,
    "fix": "redraw",
-   "tries": 1
+   "tries": 1,
+   "third_reader": "kept"
   },
   {
    "key": "k63",
