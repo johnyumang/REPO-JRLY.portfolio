@@ -12,7 +12,8 @@
    "type": "writing",
    "must_fix": true,
    "what": "A red-and-white logo block and two white letter-shapes sit in the top-left corner of the frame.",
-   "where": "top-left corner, over the dark cave wall"
+   "where": "top-left corner, over the dark cave wall",
+   "fixed": true
   },
   {
    "key": "k07",
@@ -23,7 +24,9 @@
    "type": "object",
    "must_fix": true,
    "what": "A framed wedding photograph is stuck flat on Lola's chest like a badge instead of hanging on the wall.",
-   "where": "centre of her floral dress, chest height"
+   "where": "centre of her floral dress, chest height",
+   "fixed": false,
+   "rejected_redraw": "Redraw drops the badge photo but makes Lola off-model: hair mostly black with a grey streak instead of the silver-grey bun of tell_lola and lola_smile, and a sallow, realistic aged face that breaks from her anime look in the neighbouring kitchen shots."
   },
   {
    "key": "k21",
@@ -34,7 +37,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has both ears hanging folded and a pale green eye instead of one folded ear and dark clever eyes.",
-   "where": "the dog's head, lower half of frame"
+   "where": "the dog's head, lower half of frame",
+   "fixed": true
   },
   {
    "key": "k47",
@@ -45,7 +49,8 @@
    "type": "merge",
    "must_fix": true,
    "what": "Two grown men's heads sit on one jacketed body, with the arms that lift the child growing out of the shared shoulder.",
-   "where": "centre-right, the adult holding the baby up"
+   "where": "centre-right, the adult holding the baby up",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -56,7 +61,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The open red umbrella hangs across the woman's chest on its own while both of her hands are open and empty at her sides.",
-   "where": "front figure, chest and both hands"
+   "where": "front figure, chest and both hands",
+   "fixed": true
   },
   {
    "key": "k50",
@@ -67,7 +73,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "M is drawn as a child-sized schoolgirl in a blazer and necktie, not the tall woman in the long dark coat of the two shots before.",
-   "where": "front figure, whole body"
+   "where": "front figure, whole body",
+   "fixed": true
   },
   {
    "key": "k58",
@@ -78,7 +85,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "The young man beside Lolo is not Indio: short brown side-parted hair, no topknot, a dark polo and no red wrist cloth.",
-   "where": "right-hand figure"
+   "where": "right-hand figure",
+   "fixed": true
   },
   {
    "key": "k62",
@@ -89,7 +97,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The carabao horn is forked, ending in two separate tips growing out of one body.",
-   "where": "the horn in the old hand, left of frame"
+   "where": "the horn in the old hand, left of frame",
+   "fixed": true
   },
   {
    "key": "k66",
@@ -100,7 +109,8 @@
    "type": "off_model",
    "must_fix": true,
    "what": "Usman has two tall pointed erect ears and a wolf-like muzzle, with no folded ear anywhere.",
-   "where": "the dog's head, filling the frame"
+   "where": "the dog's head, filling the frame",
+   "fixed": true
   },
   {
    "key": "k74",
@@ -111,7 +121,8 @@
    "type": "object",
    "must_fix": true,
    "what": "The horn is blown through a black flashlight head clamped to its mouthpiece and a torch beam shoots out of the horn's tip.",
-   "where": "the horn at his mouth, left of frame"
+   "where": "the horn at his mouth, left of frame",
+   "fixed": true
   },
   {
    "key": "k93",
@@ -122,7 +133,8 @@
    "type": "style",
    "must_fix": true,
    "what": "The shot is a grey screentoned manga page, not the episode's coloured cel-shaded look, and the far rows of faces dissolve into blank texture.",
-   "where": "whole frame"
+   "where": "whole frame",
+   "fixed": true
   },
   {
    "key": "k01",
@@ -144,7 +156,8 @@
    "type": "writing",
    "must_fix": true,
    "what": "A shop sign over the street reads as the letters 'SAIC', legible on a paused phone.",
-   "where": "upper left, above the shutters"
+   "where": "upper left, above the shutters",
+   "fixed": true
   },
   {
    "key": "k08",
@@ -299,7 +312,8 @@
    "must_fix": true,
    "what": "The recomposited key decodes now, but the rusty flashlight body carries dark kanji-like characters and a boxed glyph.",
    "where": "flashlight barrel, lower centre",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k16",
@@ -311,7 +325,8 @@
    "must_fix": true,
    "what": "Indio has three arms: on his left side a second forearm with its own red wrist cloth grows out behind the first one.",
    "where": "right side of frame, two forearms with red cloths at hip height",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k39",
@@ -323,7 +338,8 @@
    "must_fix": true,
    "what": "M is drawn as a brown-haired girl in a pale t-shirt and jeans, with no long dark coat and no red umbrella.",
    "where": "woman behind Indio, upper right",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k95",
@@ -347,7 +363,8 @@
    "must_fix": false,
    "what": "Lolo's hand on the young man's shoulder is three lumpy knobs with no readable fingers.",
    "where": "top right, on the far shoulder",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k58",
@@ -359,7 +376,8 @@
    "must_fix": false,
    "what": "Lolo has a white goatee and a much older, bony face here (and in k61), while in k55, k56 and k64 he is clean-shaven and rounder.",
    "where": "left-hand figure, face",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k30",
@@ -383,7 +401,8 @@
    "must_fix": false,
    "what": "The young man receiving the horn has loose bangs, no visible topknot and an olive collared shirt, not Indio's grey t-shirt.",
    "where": "right-hand face and shoulder",
-   "found_by": "reader2"
+   "found_by": "reader2",
+   "fixed": true
   },
   {
    "key": "k38",
