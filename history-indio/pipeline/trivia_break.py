@@ -21,7 +21,9 @@ render: spec.json (paths are relative to the spec file)
    "source": "Pinagmulan: ...", "countdown_text": "babalik ang kuwento",
    optional: "calm": true (a grave episode: no frame shake or flash frame, softer lower sting, slower pops with less overshoot;
    in the bold layout the DUSK look: a night-blue ground with one faint warm glow, no rays, dots or sparkles, muted gold type,
-   a fade up from black and down to black inside the break's length, and a music bed 4 dB lower without its hi-hat),
+   a fade up from black and down to black inside the break's length; and in the bold layout only, the DUSK sound: no jingle,
+   the sting is one soft low tone falling a fifth, the bed a slow A minor pad with no beat 22 dB under the voice, and the end
+   whoosh 12 dB under it; the classic layout keeps its jingle and levels),
    "layout": "bold" (default: BOLD) | "classic" (version 1: BOXES), "joke_line": index of the joke (default: the
    one before the last; the listener cracks up on it), subjects[].pulse: words that make the subject pulse (default: the label)}
   Timeline: 0.30 s lead, the line wavs in order with 0.16 s between them (or the spec's "gap"), 0.35 s tail. Sound: synthesised two-note
@@ -88,7 +90,7 @@ PALETTES = {   # a, b: the two sunburst tones; dot: halftone; accent: emphasis w
 # dark words (at least 7:1).
 DUSK = dict(top=(9, 14, 38), bottom=(38, 28, 82), floor=(20, 16, 46), glow=(255, 168, 92), title=(228, 196, 128), sub=(238, 228, 206),
             sticker=(30, 28, 66), edge=(176, 150, 104), plate=(244, 238, 226), bar=(76, 66, 110), bar_end=(92, 66, 40),
-            card_edge=(176, 150, 104, 200), card_text=(238, 228, 206), grey=(170, 162, 172))   # grey: words still to come (faint on purpose)
+            card_edge=(176, 150, 104, 200), card_text=(238, 228, 206), grey=(78, 66, 82))   # grey: words still to come (lighter than the spoken words, still at least 7:1 on the plate)
 DUSK_TINT = {   # accent: emphasis words on the light plate; accent_ink: on the dark pill; ribbon: the label band
     'sun':  dict(accent=(116, 48, 12), accent_ink=(240, 180, 104), ribbon=(94, 56, 30)),
     'sea':  dict(accent=(16, 74, 96), accent_ink=(132, 200, 212), ribbon=(26, 68, 88)),
@@ -205,8 +207,16 @@ def gated_rms(x, win=0.4):
     r = r[r > r.max() * 0.1] if r.max() > 0 else r; return float(np.sqrt(np.mean(r ** 2))) if len(r) else 0.0
 
 
-def sting(soft=False):
-    """two-note sting; soft (calm breaks): a lower fifth, slower attack, fewer bright partials."""
+def sting(soft=False, dusk=False):
+    """two-note sting; soft (calm breaks): a lower fifth, slower attack, fewer bright partials. dusk (calm, bold layout):
+    no chime: one soft low tone falling a fifth (E4 to A3), slow attack, long gentle decay."""
+    if dusk:
+        out = np.zeros(int(1.2 * SR), np.float32)
+        for t0, f, d in ((0.0, 329.63, 0.55), (0.30, 220.0, 0.90)):
+            n_ = int(d * SR); t = np.arange(n_) / SR
+            env = np.minimum(1, t / 0.06) * np.exp(-t / (0.18 if t0 == 0 else 0.35)) * (0.7 if t0 == 0 else 1.0)
+            i = int(t0 * SR); out[i:i + n_] += ((np.sin(2 * np.pi * f * t) + 0.15 * np.sin(4 * np.pi * f * t)) * env).astype(np.float32)
+        return out
     out = np.zeros(int(0.45 * SR), np.float32)
     for t0, f, d in (((0.0, 523.25, 0.16), (0.12, 784.0, 0.32)) if soft else ((0.0, 1046.5, 0.13), (0.10, 1568.0, 0.32))):
         n = int(d * SR); t = np.arange(n) / SR
@@ -227,8 +237,7 @@ def whoosh(d=0.55, seed=7):
     return np.stack([m * np.cos(pan * np.pi / 2), m * np.sin(pan * np.pi / 2)], 1)          # sweeps left to right
 
 
-def bed(dur, bpm=104, seed=3, soft=False):
-    """soft (calm breaks): no hi-hat (the brightest part) and a lighter kick, so the voices carry the break."""
+def bed(dur, bpm=104, seed=3):
     n = int(round(dur * SR)); out = np.zeros(n, np.float32); rng = np.random.default_rng(seed); beat = 60 / bpm
     kn = int(0.16 * SR); kt = np.arange(kn) / SR
     kick = np.sin(2 * np.pi * (55 * kt + 60 * (1 - np.exp(-kt / 0.03)) * 0.03)) * np.exp(-kt / 0.07)
@@ -239,13 +248,31 @@ def bed(dur, bpm=104, seed=3, soft=False):
     while t < dur:
         i = int(t * SR)
         if k % 2 == 0:
-            seg = kick[:max(0, min(kn, n - i))]; out[i:i + len(seg)] += (0.5 if soft else 0.9) * seg
+            seg = kick[:max(0, min(kn, n - i))]; out[i:i + len(seg)] += 0.9 * seg
             f = notes[(k // 2) % 4]; pl = (np.sin(2 * np.pi * f * pt) + 0.3 * np.sin(4 * np.pi * f * pt)) * np.exp(-pt / 0.12)
             seg = pl[:max(0, min(pn, n - i))]; out[i:i + len(seg)] += 0.35 * seg
-        if not soft: seg = hat[:max(0, min(hn, n - i))]; out[i:i + len(seg)] += (0.30 if k % 2 else 0.16) * seg
+        seg = hat[:max(0, min(hn, n - i))]; out[i:i + len(seg)] += (0.30 if k % 2 else 0.16) * seg
         k += 1; t += beat / 2
     f = np.minimum(1, np.minimum(np.arange(n) / (0.3 * SR), (n - np.arange(n)) / (0.4 * SR)))
     return out * f
+
+
+def pad(dur):
+    """the dusk bed (calm, bold layout): no beat and no plucks. A low A minor drone (A2 and E3, a little detuned) that
+    swells slowly (8 s and 11 s cycles), with a quiet upper voice that moves C4 -> B3 -> A3 -> B3 every 4.5 s, cross-faded."""
+    n = int(round(dur * SR)); t = np.arange(n) / SR; out = np.zeros(n, np.float32)
+    for f, g in ((110.0, 1.0), (110.4, 0.6), (164.81, 0.55), (164.3, 0.35)):
+        out += g * (np.sin(2 * np.pi * f * t) + 0.12 * np.sin(4 * np.pi * f * t))
+    out *= 0.8 + 0.2 * np.sin(2 * np.pi * t / 8.0) * np.sin(2 * np.pi * t / 11.0 + 1.0)
+    seg = 4.5; up = np.zeros(n, np.float32)
+    for k, f in enumerate([261.63, 246.94, 220.0, 246.94] * int(dur / seg / 4 + 2)):
+        a, b = k * seg - 1.0, (k + 1) * seg + 1.0
+        if a > dur: break
+        w = np.clip(np.minimum((t - a) / 1.0, (b - t) / 1.0), 0, 1); w = np.sin(w * np.pi / 2) ** 2   # 1 s cross-fades
+        up += w * np.sin(2 * np.pi * f * t)
+    out += 0.28 * up
+    f_ = np.minimum(1, np.minimum(t / 1.2, (dur - t) / 0.6))                                        # swells in, eases out
+    return (out * np.clip(f_, 0, 1)).astype(np.float32)
 
 
 def envelope(x, fps, n_frames):
@@ -477,9 +504,10 @@ def make_sound(spec, P, fps):
     vo = np.zeros(n, np.float32)
     for s, v in zip(starts, voices): i = int(s * SR); vo[i:i + len(v)] += v[:n - i]
     rv = gated_rms(vo); db = lambda x: 20 * np.log10(max(x, 1e-9))
-    calm = bool(spec.get('calm')); st = sting(calm); st *= rv * 10 ** ((-10 if calm else -3) / 20) / gated_rms(st)
-    wh = whoosh(); wh *= rv * 10 ** ((-12 if calm else -6) / 20) / gated_rms(wh.mean(1))
-    bd = bed(T, soft=calm); bd *= rv * 10 ** ((-22 if calm else -18) / 20) / gated_rms(bd)    # calm: 4 dB lower, no hi-hat
+    calm = bool(spec.get('calm')); dusk = calm and spec.get('layout', 'bold') == 'bold'   # the dusk sound: calm in the bold layout only
+    st = sting(calm, dusk); st *= rv * 10 ** ((-10 if calm else -3) / 20) / gated_rms(st)
+    wh = whoosh(); wh *= rv * 10 ** ((-12 if dusk else -6) / 20) / gated_rms(wh.mean(1))
+    bd = pad(T) if dusk else bed(T); bd *= rv * 10 ** ((-22 if dusk else -18) / 20) / gated_rms(bd)    # dusk: a slow pad, 4 dB lower
     mix = np.repeat(vo[:, None], 2, 1) + np.repeat(bd[:, None], 2, 1)
     mix[:len(st)] += st[:, None]; i = n - len(wh); mix[i:] += wh[:n - i]
     print(f'mix vs voice: bed {db(gated_rms(bd)) - db(rv):.1f} dB, sting {db(gated_rms(st)) - db(rv):+.1f} dB, whoosh {db(gated_rms(wh.mean(1))) - db(rv):+.1f} dB', flush=True)
@@ -843,7 +871,7 @@ def render_bold(a, spec, P):
     if calm:
         pal = dusk_palette(spec.get('palette', 'sun'))
         print('calm: dusk look (night-blue ground, one warm glow, no rays, dots or sparkles, fade from and to black), no frame shake, '
-              'no flash frame, pops x%.1f slower, softer sting, bed 4 dB lower without hi-hat' % PK, flush=True)
+              'no flash frame, pops x%.1f slower, a falling low tone for the sting, a slow pad 4 dB lower for the bed' % PK, flush=True)
     BX = {k: px(v, W, H) for k, v in BOLD.items()}; ext, win = {}, {}; allow = set()
     ends = [s + len(v) / SR for s, v in zip(starts, voices)]
 
@@ -1356,6 +1384,7 @@ def episode_spec(epdir, voice, override):
         except ValueError: pass
         o = spec; ks = k.split('.')
         for x in ks[:-1]: o = o[int(x)] if isinstance(o, list) else o.setdefault(x, {})
+        if k == 'grave': ks, v = ['calm'], bool(v)                 # --set grave=true acts like "grave": true in the file
         if isinstance(o, list): o[int(ks[-1])] = v
         else: o[ks[-1]] = v
         print(f'spec override: {k} = {v!r}', flush=True)

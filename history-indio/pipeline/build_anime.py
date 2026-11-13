@@ -11,6 +11,8 @@ import numpy as np, cv2
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import soundtrack, subtitles, branding, puppet_still, depth3d
 from PIL import Image as _I
+try: print('checkout', subprocess.run(['git', '-C', HERE, 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True, timeout=20).stdout.strip() or '? (not a git checkout)', flush=True)   # which code ran
+except Exception: print('checkout ? (git not available)', flush=True)
 W, H = 1080, 1920
 if '--size' in sys.argv: W = int(sys.argv[sys.argv.index('--size') + 1]); H = W * 16 // 9          # e.g. --size 720 renders 720x1280, about twice as fast
 a = sys.argv[1:]; vdir, kdir, voice, out = [os.path.abspath(x) for x in a[:4]]
@@ -217,8 +219,12 @@ if rc == 0 and not only:                                                        
     if abs(fi - soundtrack.LUFS) > soundtrack.LUFS_TOL or ftp > soundtrack.TP:                # the mux missed: correct the MP4's audio itself (video copied)
         print(f'final MP4 off ({fi:.1f} LUFS, {ftp:.1f} dBTP): correcting the audio of the MP4', flush=True)
         fixd = out[:-4] + '.loud.mp4'
-        soundtrack.loudnorm2(out, fixd, ('-map', '0:v:0', '-map', '0:a:0', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart'))
-        os.replace(fixd, out)
+        try:
+            soundtrack.loudnorm2(out, fixd, ('-map', '0:v:0', '-map', '0:a:0', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart'))
+            os.replace(fixd, out)
+        except SystemExit as x:                                                             # no answer: keep the file, fail below (rc 5)
+            print(x, flush=True)
+            if os.path.exists(fixd): os.remove(fixd)
         e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', out, '-vn', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr.split('Summary')[-1]
     print(f"final MP4: {val('I:')} LUFS (target {soundtrack.LUFS}), true peak {val('Peak:')} dBTP (ceiling {soundtrack.TP})", flush=True)
     if abs(float(val('I:')) - soundtrack.LUFS) > soundtrack.LUFS_TOL or float(val('Peak:')) > soundtrack.TP:
