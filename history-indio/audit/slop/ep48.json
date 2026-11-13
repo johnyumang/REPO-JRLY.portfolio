@@ -1,0 +1,313 @@
+{
+ "episode": 48,
+ "readers": 2,
+ "keys_looked_at": 82,
+ "defects": [
+  {
+   "key": "k94",
+   "shots": [
+    94
+   ],
+   "still": "full/x_hands.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Two clasped hands are knotted together: an orange-skinned finger ends in the other woman's pink nail and neither hand can be counted to a thumb and four fingers.",
+   "where": "centre, the clasped hands on the pier planks"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/lola_calls.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "A raised hand in the foreground is a pointed mitten with the fingers fused into one block plus a thumb, and it belongs to a red-haired stranger the script does not have.",
+   "where": "bottom right corner, raised hand and red-haired head"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/usman_coat.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "The man's trousers are two colours: the leg behind the dog is dark grey and the front leg is beige.",
+   "where": "lower half, the man's two trouser legs"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/usman_coat.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Instead of the dog tugging the coat hem with his teeth, the man pinches the hem with a metal clip and strap that runs down to the dog's head like a leash; the hands are also pale with no red handkerchief.",
+   "where": "left middle, hand on coat hem and strap above the dog"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "full/usman_grin.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man standing behind Usman wears a red t-shirt, black shorts and bare legs instead of Indio's long dark grey coat, so it is not Indio.",
+   "where": "whole upper frame, the man's clothes and legs"
+  },
+  {
+   "key": "k26",
+   "shots": [
+    26
+   ],
+   "still": "full/luc_hope.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Lucifer has long messy grey-brown hair and an older face, so he reads as a different man from the short neat black-haired Lucifer of the other shots.",
+   "where": "head, upper half"
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/indio_faces.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The Bakunawa under Indio's hand is a small brown knobbly snake head with fangs and a bulging eye instead of the giant moon-pale serpent of the other shots.",
+   "where": "bottom right, the serpent head under Indio's hand"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/luc_kneel.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Lucifer has long hair to his shoulders and is see-through, with Indio's head and the sea showing through his legs and coat.",
+   "where": "top half, the kneeling figure"
+  },
+  {
+   "key": "k23",
+   "shots": [
+    23
+   ],
+   "still": "full/usman_growl1.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded down instead of one folded ear.",
+   "where": "both ears, top of the dog's head"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/serpent_eye.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The man reflected in the serpent's eye is a young man in a t-shirt and shorts, not the forties Indio in a long coat.",
+   "where": "centre, figure inside the pupil"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/lamp_belt.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's arm is bare in a rolled grey short sleeve with a black wristband and no red handkerchief, not his long dark grey coat.",
+   "where": "centre, the arm by the lamp"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/hands_items.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The blade has no grip: the right hand pinches the gold star crossguard directly with the fingertips. The sword has no handle at all in an extreme close-up where it is the subject.",
+   "where": "top centre, hand at the star guard"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/indio_answers.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The blade is a long katana with a black wrapped hilt instead of the short silver blade with a gold star guard used in k07/k46.",
+   "where": "bottom left, the glowing blade"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44
+   ],
+   "still": "full/luc_kneel.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The raised sword is a long katana with a plain silver crossguard and black wrapped hilt, not the short star-guard blade.",
+   "where": "centre, the sword Indio holds up"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "full/star_guard.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The star guard has blade points sticking out on both sides and an ornate black handle, so it does not read as a working dagger.",
+   "where": "whole frame, guard and handle"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/star_glow.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The gold star sits partway up the blade above a separate round guard, so the sword has two guards.",
+   "where": "centre, star and round guard"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/indio_not_you.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand at the chin is a thick mushy block whose fingers are hard to tell apart.",
+   "where": "centre, hand under the chin"
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/pier_family.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The four clasped hands between Lola and Inay are tangled and their fingers cannot be counted.",
+   "where": "centre, the joined hands"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/ride_serpent.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Faint scratched letter-like marks ('C M A R') are on the serpent's forehead.",
+   "where": "upper middle, the serpent's brow"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/lens_paris.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Every page on the table is filled with letter-like lines, and the front right signer has a yellow smear on his cheek.",
+   "where": "table pages and right signer's face"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/vulgate.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The open Bible pages are covered in letter-like pseudo-text rather than faint lines.",
+   "where": "both open pages"
+  },
+  {
+   "key": "k67",
+   "shots": [
+    67
+   ],
+   "still": "full/milton_book.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Gold letter-like scribbles are on the book cover.",
+   "where": "left, the leather cover"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/bay_1898_map.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The sea chart carries letter- and number-like marks.",
+   "where": "chart surface around the ship models"
+  },
+  {
+   "key": "k09",
+   "shots": [
+    9
+   ],
+   "still": "full/kakampi_line.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The forest giant's two hands at his belt are a knotted lump with the thing he holds; no fingers can be counted.",
+   "where": "centre right, the giant's hands at his waist",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/x_ships.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "On the front ship's deck a white-clad figure has a balloon-shaped body without a readable waist or legs, and the orange figure beside her is a back with arms but no clear head.",
+   "where": "lower middle, the people on the front deck",
+   "found_by": "reader2"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/blade_lower.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The blade is a curved kitchen-knife shape with a plain gold ring guard and no star, unlike the star-guard blade of k07/k45/k57.",
+   "where": "bottom left, the glowing blade in his hand",
+   "found_by": "reader2"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k42",
+   "what": "Lucifer's hair is shaggy and grey-brown with a stray loop on top, not the short neat black hair of k00/k01/k29.",
+   "why": "At full size the hair is dark charcoal, a little shaggy, with the same face, white coat and dark shirt; he reads as the same Lucifer."
+  },
+  {
+   "key": "k43",
+   "what": "Lucifer is drawn with shaggy, longer hair and a different, harder face than in the opening shots.",
+   "why": "Dark tousled hair, same pale face, white coat; a harder expression is acting, not a different man."
+  },
+  {
+   "key": "k18",
+   "what": "Lucifer's hair is a wavy layered mop with blue highlights, softer and longer than the short neat cut elsewhere; still recognisable.",
+   "why": "Reader 1 itself calls him still recognisable; wavy dark hair and the same face and white coat do not meet 'would not be recognised'."
+  }
+ ]
+}
