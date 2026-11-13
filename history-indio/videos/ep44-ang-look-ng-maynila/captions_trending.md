@@ -25,10 +25,10 @@ hindi tiyak 'yan: "ligtas kayo kung susuko kayo." 🌊 S5 EP 44 · totoo ang 157
 
 ## YouTube Shorts
 **Title:** Hindi Tiyak 'Yan | History Indio EP 44 #shorts
-**Description:** hindi tiyak 'yan: "ligtas kayo kung susuko kayo." Season 5, Episode 3. Totoo ang Labanan sa Maynila (24 Mayo 1570) at sina Sulayman, Matanda, Lakandula at Magat Salamat. Kuwento ng serye ang labanan sa look (hinango sa Pahayag 12:15); kathang-isip ang mga diwa at tauhan. #HistoryIndio #Shorts
+**Description:** hindi tiyak 'yan: "ligtas kayo kung susuko kayo." Season 5, Episode 3. Totoo ang Labanan sa Maynila (24 Mayo 1570) at sina Sulayman, Matanda, Lakandula at Magat Salamat. Kuwento ng serye ang labanan sa look (hinango sa Pahayag 12:15); kathang-isip ang mga diwa at tauhan; alamat ang Kraken. #HistoryIndio #Shorts
 
 ## Pinned comment
-Ang totoo: 24 Mayo 1570, lumaban ang Maynila ni Rajah Sulayman kay Martín de Goiti, at nawasak ang kuta sa bunganga ng Pasig. Anak ni Lakandula si Magat Salamat (sabwatan ng Tondo, 1587–1588). Kuwento ng serye ang gunaw at ang labanan; kathang-isip ang mga diwa, sina Indio, Usman, M, Tubal at Rico Bulan.
+Ang totoo: 24 Mayo 1570, lumaban ang Maynila ni Rajah Sulayman kay Martín de Goiti, at nawasak ang kuta sa bunganga ng Pasig. Anak ni Lakandula si Magat Salamat (sabwatan ng Tondo, 1587–1588). Kuwento ng serye ang gunaw at ang labanan; kathang-isip ang mga diwa, sina Indio, Usman, M, Tubal at Rico Bulan; alamat ang Kraken.
 
 ## On-screen opener (first 2 seconds)
 DUMATING SILA MULA SA DAGAT.

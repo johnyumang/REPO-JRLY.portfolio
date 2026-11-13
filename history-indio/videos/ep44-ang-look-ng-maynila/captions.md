@@ -4,7 +4,7 @@
 SEASON 5, EPISODE 44: Dumating sila mula sa dagat, gaya ng lahat ng mananakop ng Maynila. Pero ang dala nila ngayong gabi ay mga mukhang kilala mo: mga ngiti sa billboard, mga boses sa balita. 🌊
 At ang sandata ng bayan: ang pag-uuri ng tiyak, pinagtatalunan at kathang-isip.
 
-Totoo: noong 24 Mayo 1570, lumaban ang Maynila ni Rajah Sulayman sa puwersa ni Martín de Goiti. Totoo sina Rajah Matanda, Lakandula at Magat Salamat. Kuwento ng serye ang gunaw at ang labanan sa look, hinango sa Pahayag 12:15; kathang-isip ang mga diwa at ang kanilang kapangyarihan, sina Indio, Usman, M, Tubal at Rico Bulan.
+Totoo: noong 24 Mayo 1570, lumaban ang Maynila ni Rajah Sulayman sa puwersa ni Martín de Goiti. Totoo sina Rajah Matanda, Lakandula at Magat Salamat. Kuwento ng serye ang gunaw at ang labanan sa look, hinango sa Pahayag 12:15; kathang-isip ang mga diwa at ang kanilang kapangyarihan, sina Indio, Usman, M, Tubal at Rico Bulan; alamat ang Kraken.
 
 👉 Anong kasinungalingan ang matagal mo nang naririnig, na kaya mo nang uriin ngayon? Comment mo.
 I-follow ang History Indio para sa susunod na talon!
@@ -33,4 +33,4 @@ Ang anyo ng kasinungalingan: isang ngiting walang laman. 🌊 Totoo ang 24 Mayo 
 Ang Look ng Maynila, at ang bayang marunong mag-uri. 🌊 Totoo ang 1570 at ang mga datu; kuwento ng serye ang labanan; kathang-isip ang mga diwa at tauhan. #HistoryIndio #RajahSulayman #Maynila1570 #PinoyAnime #DigmaanSaLangit
 
 ## Pinned comment (sources)
-Mga pinagmulan: Battle of Manila, 24 Mayo 1570 (Sulayman laban kay Goiti; W. H. Scott, Barangay, 1994) · Rajah Matanda at Lakandula, mga pinuno ng Maynila at Tondo, 1570–1571 · Magat Salamat, anak ni Lakandula, sabwatan ng Tondo 1587–1588 (Dery 2001; Santiago 1990) · Baluarte de San Diego, Intramuros (1591–1594). Kuwento ng serye ang gunaw at ang labanan (Pahayag 12:15). Kathang-isip ang mga diwa, sina Indio, Usman, M, Tubal at Rico Bulan.
+Mga pinagmulan: Battle of Manila, 24 Mayo 1570 (Sulayman laban kay Goiti; W. H. Scott, Barangay, 1994) · Rajah Matanda at Lakandula, mga pinuno ng Maynila at Tondo, 1570–1571 · Magat Salamat, anak ni Lakandula, sabwatan ng Tondo 1587–1588 (Dery 2001; Santiago 1990) · Baluarte de San Diego, Intramuros (1591–1594). Kuwento ng serye ang gunaw at ang labanan (Pahayag 12:15). Kathang-isip ang mga diwa, sina Indio, Usman, M, Tubal at Rico Bulan. Alamat ang Kraken.
