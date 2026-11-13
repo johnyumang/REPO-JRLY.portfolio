@@ -1,0 +1,482 @@
+{
+ "episode": 32,
+ "audited_by": "render-ep07 (two readers)",
+ "keys_looked_at": 84,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k05",
+   "shots": [
+    5,
+    67
+   ],
+   "still": "full/usman_stairs.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall pointed upright ears (no folded ear) and reads as a different, shepherd-like dog.",
+   "where": "dog's head, right of Indio",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/usman_bone.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has a broad white blaze down his face and both ears folded.",
+   "where": "dog's face",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "full/indio_walk.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "In the handshake the fingers of both hands blur into one another.",
+   "where": "centre, handshake",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/alley_walk.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Indio's left hand below the kerchief is a melted, boneless lump with no countable fingers, fused to a dark spike he seems to hold.",
+   "where": "bottom left, hand below the red kerchief",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/alley_walk.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has a white striped patch on the side of his hair and a red kerchief on both wrists.",
+   "where": "Indio's head and both wrists",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/guro_walk.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Ma'am Celia's lower hand has its fingers fused into one flat paddle and her raised hand is crooked.",
+   "where": "centre, the teacher's two gesturing hands",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/bea_notes.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio wears a red kerchief on both wrists instead of one.",
+   "where": "right figure, both wrists",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/bea_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Bea wears a green shirt in her close-up while she wears a white t-shirt in the same street scene the shot before (and blue, with brown hair, in k44).",
+   "where": "whole figure",
+   "second_reader": "new"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15,
+    88
+   ],
+   "still": "full/sidecar_ride.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A red street sign reads clearly 'KAWIT CAVITE PHILIPPINES' and JM's cap has a logo.",
+   "where": "top left sign; JM's cap",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15,
+    88
+   ],
+   "still": "full/sidecar_ride.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio has a kerchief on both wrists and Usman has a white blaze down his face.",
+   "where": "rear rider's wrists; dog in sidecar",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/count_win.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A girl in the middle of the crowd has a blank, featureless face (no eyes, a blob for a nose) beside a raised hand.",
+   "where": "centre-left, mid-ground, between the boy holding a card up and the man in purple",
+   "second_reader": "new"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/count_win.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The ballot cards on the table carry small scribbled letter-like marks although the prompt asks for blank cards.",
+   "where": "bottom, cards on the table under Indio's hands",
+   "second_reader": "new"
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/folder_open.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The certificate under the folder carries a large letter-like cursive line and a red seal with letter-like marks.",
+   "where": "bottom left, certificate",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/medal_read.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Readable large letters 'CA' on the wall sign behind Indio.",
+   "where": "top left of frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/usman_noscent.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has a white blaze on his forehead and both ears folded.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/usman_warn.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman is drawn as a stocky, heavy-jawed dog rather than the slim street dog of the other shots.",
+   "where": "whole dog",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "full/engineer_hand.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The 'blank' form under the engineer's pen has letter-like scribbles in many of its boxes.",
+   "where": "bottom half, the form on the desk",
+   "second_reader": "new"
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/indio_memorize.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The red kerchief is tied in mid-air on his chest with a pale ghost-like hand shape behind it, attached to nothing.",
+   "where": "lower centre, his chest",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/marker_read.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "After this morning's redraw the main bronze plate is blank, but the small plaque on the stone pedestal still carries rows of letter-like marks.",
+   "where": "centre-left, small plaque on the pedestal below the main plate",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37,
+    65,
+    82
+   ],
+   "still": "full/datu_village.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The young man in front holds an unreadable red bundle with a loop that is no recognisable object.",
+   "where": "bottom centre-left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38,
+    87
+   ],
+   "still": "full/balangay_boat.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A man in a modern cap and t-shirt sits on the porch of a 16th-century stilt house.",
+   "where": "upper left, house porch",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39,
+    64
+   ],
+   "still": "full/old_report.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The manuscript is filled with dense rows of letter-like script.",
+   "where": "the page",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k44",
+   "shots": [
+    44,
+    83
+   ],
+   "still": "full/canal_dig.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's grip on the shovel shaft is a tangle that reads as two hands at the end of one arm; Bea's ID card shows letter-like marks.",
+   "where": "right, Indio's hand on the shaft; left, Bea's ID",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45,
+    90
+   ],
+   "still": "full/peso_wall.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The posted sheets carry dense letter-like headings and lines.",
+   "where": "wall of sheets",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/ramil_confess.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The neighbours' polo shirts carry odd red-and-green badge-like decals that are no recognisable object.",
+   "where": "chests of the men in green, blue and yellow shirts",
+   "second_reader": "new"
+  },
+  {
+   "key": "k51",
+   "shots": [
+    51
+   ],
+   "still": "full/rico_vlog.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A poster on the wall behind the vlogger shows lines of letter-like marks.",
+   "where": "right of the ring light, wall poster",
+   "second_reader": "new"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/phone_vlog.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The phone is held by an oversized hand with no arm, its fingers spread across the screen.",
+   "where": "left half, hand around the phone",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/phone_vlog.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The vlogger on the phone wears purple while Rico is in a green shirt in the shot before.",
+   "where": "phone screen",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/usman_growl_tv.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears splayed out pointed with no folded ear and a broad, heavy-jawed face.",
+   "where": "dog's head",
+   "second_reader": "new"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54,
+    56,
+    86
+   ],
+   "still": "full/sinag_mango.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio holds a second loose red kerchief in his hand while also wearing one on his wrist.",
+   "where": "Indio's left hand",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/sinag_cu.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Sinag's close-up is set in bright daylight on a flooded street while the shots around it are night under the mango tree.",
+   "where": "background",
+   "second_reader": "new"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/sinag_offer.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand with the golden pen has no thumb and the pen passes through the fingers instead of being held.",
+   "where": "upper centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/sinag_offer.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Sinag's hair is pale pink-white and the scene is daylight, while she is black-haired at night in the other shots.",
+   "where": "top left corner",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/sinag_vanish.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two upright pointed ears and a long-muzzled shepherd look.",
+   "where": "dog, bottom left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "full/sinag_vanish.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio holds a loose red kerchief in his hand while wearing one on his wrist.",
+   "where": "Indio's hands",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/usman_paw.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The kerchief is wrapped over the dog's eyes like a blindfold and his paw melts into the cloth.",
+   "where": "centre, head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k68",
+   "shots": [
+    68
+   ],
+   "still": "full/holo_90.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram panel shows a percent sign glyph.",
+   "where": "centre panel",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k69",
+   "shots": [
+    69
+   ],
+   "still": "full/indio_point.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears floppy instead of one folded ear.",
+   "where": "dog's head",
+   "second_reader": "confirmed"
+  }
+ ],
+ "refuted": [
+  {
+   "key": "k12",
+   "what": "In the close-up the raised hand shows too many knuckles and finger tips: more than a thumb and four fingers.",
+   "why": "At 3x the hand counts correctly: the index finger raised to the chin, the thumb tip beside it and three curled fingers below; it reads as a normal hand on a paused phone."
+  }
+ ]
+}
