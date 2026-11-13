@@ -117,7 +117,8 @@
    "must_fix": false,
    "what": "Usman has two tall, pointed upright ears, not one folded ear.",
    "where": "dog's head, lower middle",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true
   },
   {
    "key": "k07",
@@ -550,5 +551,5 @@
    "second_reader": "new"
   }
  ],
- "fix_note": "redrawn with the full-quality model; a third reader compared old and new: usman_chair, indio_1907, watch_vlog, jm_phone, jump_office kept as the originals (redraws not clearly better); left: Usman ears in k06/k07/k31/k37/k67, k23 screen style, small writing marks k10/k24/k25/k32/k36/k61/k67, k24 duplicate faces; 13 Nov afternoon: k06 and k37 redrawn with the usman_ears_clause (2 draws each, one kept); k07, k31, k67 kept: in shots with Indio the clause turned his face black (jump_office, follow) or merged dog and man (watch_vlog)"
+ "fix_note": "redrawn with the full-quality model; a third reader compared old and new: usman_chair, indio_1907, watch_vlog, jm_phone, jump_office kept as the originals (redraws not clearly better); left: Usman ears in k06/k07/k31/k37/k67, k23 screen style, small writing marks k10/k24/k25/k32/k36/k61/k67, k24 duplicate faces; 13 Nov afternoon: k06 and k37 redrawn with the usman_ears_clause (2 draws each, one kept); k07, k31, k67 kept: in shots with Indio the clause turned his face black (jump_office, follow) or merged dog and man (watch_vlog); k67 redrawn with the corrected (dog-named) ear clause: ears right, no dark faces; k07 and k31 keep their originals (ears still both up, or the moment lost)"
 }
