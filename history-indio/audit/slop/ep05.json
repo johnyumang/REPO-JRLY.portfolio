@@ -1,26 +1,302 @@
-{"episode": 5, "audited_by": "worker-davinci (first reader)", "keys_looked_at": 41, "defects": [
- {"key": "k07", "shots": [7, 9], "still": "full/bill.jpg", "type": "hands", "must_fix": true, "what": "In the extreme close-up the fingers behind the folded bill are a fused, tangled cluster: two loose fingertips and a web of crease lines, with no clear count of four fingers.", "where": "the hand's fingers below the bill, lower left of centre"},
- {"key": "k10", "shots": [10, 41], "still": "full/medallion.jpg", "type": "hands", "must_fix": false, "what": "The fist around the medallion is a lumpy mass: the thumb is clear but the other fingers are swollen shapes with no readable joints.", "where": "the whole hand, left and lower half of the frame"},
- {"key": "k11", "shots": [11], "still": "chars/indio_fooled.jpg", "type": "bleed", "must_fix": true, "what": "Jagged lime-green cut-out patches from the green screen sit behind Indio's head and shoulders where the medallion glow should be.", "where": "behind the head on the left and lower right of the head"},
- {"key": "k15", "shots": [15], "still": "chars/indio_listen.jpg", "type": "bleed", "must_fix": true, "what": "A bright teal blob from the green screen is left on the lower edge of the coat, and that sleeve ends in it with no hand.", "where": "right side of the coat at mid height, beside the street"},
- {"key": "k15", "shots": [15], "still": "chars/indio_listen.jpg", "type": "hands", "must_fix": false, "what": "The hand cupped behind the ear is a boneless fist with crack lines instead of separate fingers.", "where": "the raised hand beside his right ear, upper left"},
- {"key": "k17", "shots": [17], "still": "chars/americans.jpg", "type": "hands", "must_fix": false, "what": "Both men's clasped hands are tangled: the bearded man shows a thumbnail growing out of the back of the other hand, and the moustached man's fingers around the pen do not resolve into two hands.", "where": "both pairs of hands on the laps, bottom of the frame"},
- {"key": "k21", "shots": [21], "still": "chars/indio_count.jpg", "type": "hands", "must_fix": true, "what": "The counting hand in the centre of the frame has only four digits (three raised fingers and an open thumb); the little finger is missing and the thumb does not fold anything down.", "where": "the raised hand at chest height, centre"},
- {"key": "k21", "shots": [21], "still": "chars/indio_count.jpg", "type": "off_model", "must_fix": true, "what": "Indio looks like another person: an older heavy-jawed face, yellow-olive skin and a thick flat headband in an older anime style, unlike his young face in k12, k15, k22 and k36.", "where": "head and face, top third"},
- {"key": "k22", "shots": [22], "still": "chars/indio_sad.jpg", "type": "face", "must_fix": false, "what": "The eyes do not match: his right eye (viewer's left) is open looking down while the other is shut, so it reads as a wink in a sad shot.", "where": "eyes, upper third"},
- {"key": "k14", "shots": [14], "still": "chars/usman_bonjour.jpg", "type": "off_model", "must_fix": false, "what": "Usman has both ears flopped half down instead of one folded ear.", "where": "both ears, top of the frame"},
- {"key": "k24", "shots": [24, 25], "still": "chars/usman_look.jpg", "type": "off_model", "must_fix": true, "what": "Usman has two tall upright ears (no folded ear) and a narrow pointed muzzle, so he looks like a different breed from k14 and k35.", "where": "head and ears, top half"},
- {"key": "k35", "shots": [35], "still": "chars/usman_growl.jpg", "type": "off_model", "must_fix": true, "what": "Usman has glowing ice-blue eyes here, while his eyes are brown in k14 and k24.", "where": "eyes, upper middle"},
- {"key": "k35", "shots": [35], "still": "chars/usman_growl.jpg", "type": "writing", "must_fix": false, "what": "The white chest patch is cut in the clean shape of a capital letter M.", "where": "chest patch, bottom centre"},
- {"key": "k27", "shots": [27, 29], "still": "chars/agoncillo_write.jpg", "type": "writing", "must_fix": false, "what": "The letter shows loose cursive marks that read as near-letters rather than plain scribble lines.", "where": "the sheet of paper, lower centre"},
- {"key": "k30", "shots": [30], "still": "full/map.jpg", "type": "writing", "must_fix": false, "what": "The map's border frame is filled with small letter-like glyphs.", "where": "map border, bottom and left edges"},
- {"key": "k32", "shots": [32], "still": "chars/fighters.jpg", "type": "bleed", "must_fix": true, "what": "A jagged lime-green cut-out patch from the green screen sits in the gap between the two fighters' heads.", "where": "between the two heads, middle left"},
- {"key": "k39", "shots": [39], "still": "full/coins.jpg", "type": "hands", "must_fix": true, "what": "The open palm has seven digits: a thumb on each side and five fingers, two of them doubled side by side.", "where": "the whole hand, centre of the frame"},
- {"key": "k39", "shots": [39], "still": "full/coins.jpg", "type": "writing", "must_fix": true, "what": "Both silver dollars carry rows of large letter-like lettering around the rim, centred and in focus.", "where": "rims of both coins, centre"},
- {"key": "k43", "shots": [43], "still": "full/tattoo.jpg", "type": "object", "must_fix": true, "what": "The forearm shows four tattoo symbols, not five, and the glowing new one is second in the row, not last, while the narration says five.", "where": "the row of indigo symbols, centre"},
- {"key": "k43", "shots": [43], "still": "full/tattoo.jpg", "type": "writing", "must_fix": false, "what": "Two tattoo symbols are shaped like letters (a K and a Q), and the shop signs behind carry letter-like marks.", "where": "lowest two tattoos, and the red and yellow signs top left"},
- {"key": "k47", "shots": [47], "still": "chars/woman_five.jpg", "type": "hands", "must_fix": true, "what": "The raised 'five fingers' hand has only four digits (three fingers and a thumb) in the shot whose whole meaning is five.", "where": "the raised open palm, upper left"},
- {"key": "k47", "shots": [46, 47], "still": "chars/woman_five.jpg", "type": "off_model", "must_fix": false, "what": "The woman changes between consecutive shots: grey eyes and an open Western umbrella in k46 become pink-red eyes, a closed paper parasol and a collared shirt in k47.", "where": "eyes, umbrella and collar"},
- {"key": "k04", "shots": [4], "still": "plates/church.jpg", "type": "object", "must_fix": false, "what": "Faint rain streaks fall indoors over the church walls and pews. The same plate is used in k05, k06, k08 and k11.", "where": "whole interior, most visible on the left walls"},
- {"key": "k01", "shots": [1, 2], "still": "full/intro.jpg", "type": "off_model", "must_fix": false, "what": "In the intro, Indio wears no bronze medallion, and Usman, who the prompt puts beside him, is not in the frame.", "where": "chest, and the empty space at his side"}
-]}
+{
+ "episode": 5,
+ "audited_by": "worker-davinci (first and second reader)",
+ "keys_looked_at": 41,
+ "defects": [
+  {
+   "key": "k07",
+   "shots": [
+    7,
+    9
+   ],
+   "still": "full/bill.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "In the extreme close-up the fingers behind the folded bill are a fused, tangled cluster: two loose fingertips and a web of crease lines, with no clear count of four fingers.",
+   "where": "the hand's fingers below the bill, lower left of centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10,
+    41
+   ],
+   "still": "full/medallion.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The fist around the medallion is a lumpy mass: the thumb is clear but the other fingers are swollen shapes with no readable joints.",
+   "where": "the whole hand, left and lower half of the frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "chars/indio_fooled.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "Jagged lime-green cut-out patches from the green screen sit behind Indio's head and shoulders where the medallion glow should be.",
+   "where": "behind the head on the left and lower right of the head",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_listen.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "A bright teal blob from the green screen is left on the lower edge of the coat, and that sleeve ends in it with no hand.",
+   "where": "right side of the coat at mid height, beside the street",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_listen.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand cupped behind the ear is a boneless fist with crack lines instead of separate fingers.",
+   "where": "the raised hand beside his right ear, upper left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "chars/americans.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Both men's clasped hands are tangled: the bearded man shows a thumbnail growing out of the back of the other hand, and the moustached man's fingers around the pen do not resolve into two hands.",
+   "where": "both pairs of hands on the laps, bottom of the frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "chars/indio_count.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The counting hand in the centre of the frame has only four digits (three raised fingers and an open thumb); the little finger is missing and the thumb does not fold anything down.",
+   "where": "the raised hand at chest height, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "chars/indio_count.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio looks like another person: an older heavy-jawed face, yellow-olive skin and a thick flat headband in an older anime style, unlike his young face in k12, k15, k22 and k36.",
+   "where": "head and face, top third",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k22",
+   "shots": [
+    22
+   ],
+   "still": "chars/indio_sad.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The eyes do not match: his right eye (viewer's left) is open looking down while the other is shut, so it reads as a wink in a sad shot.",
+   "where": "eyes, upper third",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "chars/usman_bonjour.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears flopped half down instead of one folded ear.",
+   "where": "both ears, top of the frame",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24,
+    25
+   ],
+   "still": "chars/usman_look.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall upright ears (no folded ear) and a narrow pointed muzzle, so he looks like a different breed from k14 and k35.",
+   "where": "head and ears, top half",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has glowing ice-blue eyes here, while his eyes are brown in k14 and k24.",
+   "where": "eyes, upper middle",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The white chest patch is cut in the clean shape of a capital letter M.",
+   "where": "chest patch, bottom centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27,
+    29
+   ],
+   "still": "chars/agoncillo_write.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The letter shows loose cursive marks that read as near-letters rather than plain scribble lines.",
+   "where": "the sheet of paper, lower centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/map.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The map's border frame is filled with small letter-like glyphs.",
+   "where": "map border, bottom and left edges",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k32",
+   "shots": [
+    32
+   ],
+   "still": "chars/fighters.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "A jagged lime-green cut-out patch from the green screen sits in the gap between the two fighters' heads.",
+   "where": "between the two heads, middle left",
+   "second_reader": "refuted: no green-screen cut-out between the hats; that gap is blurred palm fronds and sunset sky"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/coins.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The open palm has seven digits: a thumb on each side and five fingers, two of them doubled side by side.",
+   "where": "the whole hand, centre of the frame",
+   "second_reader": "refuted: this is TWO cupped hands (a thumb on each outer edge, fingers split between them), not one palm with seven digits; anatomy reads acceptably, soft only where the hands meet"
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/coins.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Both silver dollars carry rows of large letter-like lettering around the rim, centred and in focus.",
+   "where": "rims of both coins, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/tattoo.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The forearm shows four tattoo symbols, not five, and the glowing new one is second in the row, not last, while the narration says five.",
+   "where": "the row of indigo symbols, centre",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "full/tattoo.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Two tattoo symbols are shaped like letters (a K and a Q), and the shop signs behind carry letter-like marks.",
+   "where": "lowest two tattoos, and the red and yellow signs top left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "chars/woman_five.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The raised 'five fingers' hand has only four digits (three fingers and a thumb) in the shot whose whole meaning is five.",
+   "where": "the raised open palm, upper left",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    46,
+    47
+   ],
+   "still": "chars/woman_five.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The woman changes between consecutive shots: grey eyes and an open Western umbrella in k46 become pink-red eyes, a closed paper parasol and a collared shirt in k47.",
+   "where": "eyes, umbrella and collar",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "plates/church.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Faint rain streaks fall indoors over the church walls and pews. The same plate is used in k05, k06, k08 and k11.",
+   "where": "whole interior, most visible on the left walls",
+   "second_reader": "confirmed"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1,
+    2
+   ],
+   "still": "full/intro.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In the intro, Indio wears no bronze medallion, and Usman, who the prompt puts beside him, is not in the frame.",
+   "where": "chest, and the empty space at his side",
+   "second_reader": "confirmed"
+  }
+ ],
+ "second_reader_keys_looked_at": 41
+}
