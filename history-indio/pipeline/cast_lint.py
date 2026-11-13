@@ -106,11 +106,11 @@ ERA_CLOTHES = re.compile(r"tunic|sash|camisa|\bbaro\b|cloak|bahag|loincloth|\bro
 MOD_CLOTHES = re.compile(r"t-shirt|\bjeans\b|\bpolo\b|sneakers|hoodie|windbreaker|(?:rain|denim|leather|hooded|puffer|bomber|track) jacket|\bsuit\b|\bslacks\b|backpack|silk shirt", re.I)
 INDIO_V = re.compile(r"topknot|\bhair\b|\bskin\b|\blean\b|young|about twenty|twenty|thirt|forties|forty|grey (?:strands|hairs)|"
                      r"headband|long tails|medallion|necklace|\bneck\b|tattoo|forearm|handkerchief|\bwrist\b|adult face|" + CARRY + "|" + CLOTHES, re.I)
-INDIO_ADJ = {'young', 'lean', 'slim', 'thin', 'small', 'tall', 'brown-skinned', 'ten-year-old', 'filipino'}
+INDIO_ADJ = {'young', 'lean', 'slim', 'thin', 'brown-skinned', 'ten-year-old', 'filipino'}   # "small", "tall" are framing words: kept
 INDIO_MARK = re.compile(r'topknot|headband|handkerchief|medallion|tattoo|schoolboy|ten-year-old', re.I)
 USMAN_V = re.compile(r"medium-sized|\bblack\b|philippine|street|white|chest|patch|folded|\bears?\b|bright|clever|\beyes\b|kerchief|"
                      r"\bneck\b|aspin|short-haired|\bfur\b|scruffy", re.I)
-USMAN_ADJ = {'medium-sized', 'black', 'philippine', 'street', 'short-haired', 'small', 'scruffy', 'aspin', 'little', 'slim'}
+USMAN_ADJ = {'medium-sized', 'medium', 'black', 'philippine', 'street', 'short-haired', 'small', 'scruffy', 'aspin', 'little', 'slim', 'lean', 'big', 'large'}
 USMAN_MARK = re.compile(r'\bblack\b|street|patch|kerchief|folded ear|aspin', re.I)
 M_V = re.compile(r"mysterious|\bhair\b|\bcoat\b|umbrella|medallion|\bneck\b|skirt|cloak|\bhood|crescent|filipina|young", re.I)
 M_ADJ = {'mysterious', 'young', 'filipina', 'slim', 'tall'}
@@ -150,7 +150,30 @@ JUMP = re.compile(r'time portal|portal|\bjump|lagusan|swirl of golden light|gold
                   r'translucen|ghostly', re.I)
 PERSON = re.compile(r"\b(?:woman|women|girls?|boys?|man|men|people|crowd|children|kids|child|grandmother|grandfather|teacher|vendors?|"
                     r"friends?|stranger|pupils|students|soldiers|guards|workers|family|couple|mother|father|baby|toddler|passengers|"
-                    r"tourists|customers|someone|figures?|officials?|politicians?|reporters?|nurse|doctor|driver|lola|lolo)\b", re.I)
+                    r"tourists|customers|someone|figures?|officials?|politicians?|reporters?|nurse|doctor|driver|lola|lolo|"
+                    r"applicants?|commuters?|shoppers?|villagers?|sailors?|fishermen|fisherman|merchants?|traders?|monks?|priests?|"
+                    r"nuns?|warriors?|crew|audience|spectators?|onlookers?|pedestrians?|residents?|neighbou?rs?|classmates?|players?|"
+                    r"guests?|staff|employees?|clerks?|officers?|police(?:men|man)?|guard|waiters?|waitress|cashiers?|vendor|"
+                    r"queue|everyone|ladies|lady|gentlemen|gentleman|elders?|youths?|teens?|teenagers?|protesters?|"
+                    r"marchers?|rebels?|revolutionaries|troops|army|delegates?|senators?|congressm[ae]n|journalists?|"
+                    r"photographers?|cameram[ae]n|staffers?|aides?|bodyguards?|boatm[ae]n|rowers?|farmers?|"
+                    r"labou?rers?|porters?|slaves?|captives?|prisoners?|captains?|soldier|datus?|rajahs?|chiefs?|chieftains?|"
+                    r"kings?|queens?|princes?|princess|friars?|missionar(?:y|ies)|conquistadors?|spaniards?|"
+                    r"natives?|islanders?|tribesm[ae]n|warlords?|"
+                    r"strangers?|silhouettes?|someone's|grandparents?|parents?|sisters?|brothers?|sons?|daughters?|"
+                    r"wife|husband|kid|girl|boy|persons?)\b", re.I)
+CREATURE = re.compile(r"\b(?:serpents?|bakunawa|dragons?|snakes?|fish(?:es)?|birds?|eagles?|hawks?|horses?|carabaos?|crocodiles?|"
+                      r"monkeys?|kappa|foxe?s?|tikbalang|creatures?|monsters?|whales?|sharks?|turtles?|siyokoy|cats?|kittens?|"
+                      r"chickens?|roosters?|hens?|goats?|pigs?|deer|butterfl(?:y|ies)|bees?|insects?|fireflies|firefly|crabs?|"
+                      r"octopus|squid|dolphins?|bats?|owls?|crows?|ravens?|parrots?|lizards?|geckos?|frogs?|cattle|cows?|"
+                      r"oxen|buffalo|tigers?|lions?|elephants?|bears?|wolves|wolf|sheep|camels?|mules?|donkeys?|animals?|"
+                      r"beasts?|giants?|spirits? of|naga|garuda|manaul|sarimanok|aswang|kapre|duwende|engkanto|diwata)\b", re.I)
+CREATURE_NEG = re.compile(r"\b(?:no|nobody|no other|without|empty of|not a|not an)\s+(?:[\w-]+\s+){0,2}?(?:[\w-]+)\b", re.I)
+def has_creature(p):
+    """an animal or creature the shot shows (not negated): "no animals" would contradict it, so the clause is "no dog"."""
+    t = NODOG_RX.sub(lambda x: ' ' * len(x.group(0)), p)
+    t = CREATURE_NEG.sub(lambda x: ' ' * len(x.group(0)), t)
+    return bool(CREATURE.search(t))
 PERSON_NEG = re.compile(r"\b(?:no|nobody|no other|without|empty of|not a|no one)\s+(?:[\w-]+\s+){0,2}?"
                         r"(?:woman|women|girls?|boys?|man|men|people|crowd|children|kids|child|person|persons|figures?|one)\b", re.I)
 
