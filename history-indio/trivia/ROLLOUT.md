@@ -21,5 +21,10 @@ The owner said to proceed, in the version 2 look. For EACH of your episodes from
 6. Episodes that still wait for other voice work (cast kit 4 for the adult Bea and JM): record the trivia lines now and
    splice after the final rebuild.
 
+## Grave episodes (the quiet look)
+
+Pull, then run the same episode command again; the tool picks the quiet look by itself. Nothing else changes.
+Episodes: 6, 20, 26, 28, 29, 31, 38, 40, 41, 42, 44, 45, 46, 48.
+
 Report one line per episode: break length, cut time, loudness, peak, level difference, warnings, and what you saw on
 the sheet.

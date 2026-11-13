@@ -40,7 +40,7 @@ Every episode from Episode 3 to Episode 50 has one short joke break of about 12 
 
 ## Matching a fact to an episode
 - The fact is random on purpose and is never about the episode's own subject.
-- **Match the mood.** A grave episode (an execution, a massacre, a flood, martial law, a scripture-heavy scene) gets a gentle nature fact and a mild joke, and its file says `"grave": true`, so the conductor can decide whether to soften the bumper. A light episode can take the silliest fact.
+- **Match the mood.** A grave episode (an execution, a massacre, a flood, martial law, a scripture-heavy scene) gets a gentle nature fact and a mild joke, and its file says `"grave": true`. The tool then makes the quiet break by itself: a dark night-blue screen with soft gold and cream words, no rays, dots or sparkles, and a fade from black and back to black. The sound has no jingle: one soft low tone at the start and a slow, low hum under the voices, with no beat. A light episode can take the silliest fact.
 - `palette` is `sun`, `sea` or `leaf`, following the fact: land animals and food are sun, sea life is sea, plants and forest are leaf.
 
 ## Adding facts
