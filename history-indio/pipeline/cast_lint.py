@@ -74,7 +74,15 @@ def tattoo_phrase(ep):
         return f'one indigo geometric tattoo on his right forearm' if n == 1 else f'{numword(n)} indigo geometric tattoos on his right forearm'
     return 'indigo geometric tattoos on his right forearm'          # the count is not drawable past a handful, and the story skips some
 
+PLURAL = {'trousers', 'pants', 'jeans', 'sandals', 'clothes', 'shorts', 'robes', 'sleeves', 'boots', 'shoes', 'sneakers'}
+def with_article(clothes):
+    if re.match(r'(?:a|an|the|his)\b', clothes, re.I): return clothes
+    first = CLOTHES_RE.search(clothes)
+    if first and first.group(0).lower() in PLURAL: return clothes
+    return ('an ' if re.match(r'[aeiou]', clothes, re.I) else 'a ') + clothes
+
 def build_outfit(C, clothes, ep):
+    clothes = with_article(clothes)
     t = C['raw']['indio_era_template']
     t = re.sub(r'indigo geometric tattoos on his forearms \([^()]*\)', tattoo_phrase(ep), t)
     return t.replace(TEMPLATE_SLOT, clothes)
@@ -95,7 +103,7 @@ NONCASUAL = re.compile(r"silk|\bsuit\b|\btie\b|jacket|hoodie|\bcoat\b|uniform|su
                        r"windbreaker|rider|backpack", re.I)
 ERA_CLOTHES = re.compile(r"tunic|sash|camisa|\bbaro\b|cloak|bahag|loincloth|\brobe\b|sandals|barefoot|collarless|wool|linen|homespun|"
                          r"trousers|kimono|\bwrap\b", re.I)
-MOD_CLOTHES = re.compile(r"t-shirt|\bjeans\b|\bpolo\b|sneakers|hoodie|windbreaker|jacket|\bsuit\b|\bslacks\b|backpack|silk shirt", re.I)
+MOD_CLOTHES = re.compile(r"t-shirt|\bjeans\b|\bpolo\b|sneakers|hoodie|windbreaker|(?:rain|denim|leather|hooded|puffer|bomber|track) jacket|\bsuit\b|\bslacks\b|backpack|silk shirt", re.I)
 INDIO_V = re.compile(r"topknot|\bhair\b|\bskin\b|\blean\b|young|about twenty|twenty|thirt|forties|forty|grey (?:strands|hairs)|"
                      r"headband|long tails|medallion|necklace|\bneck\b|tattoo|forearm|handkerchief|\bwrist\b|adult face|" + CARRY + "|" + CLOTHES, re.I)
 INDIO_ADJ = {'young', 'lean', 'slim', 'thin', 'small', 'tall', 'brown-skinned', 'ten-year-old', 'filipino'}
@@ -106,14 +114,14 @@ USMAN_ADJ = {'medium-sized', 'black', 'philippine', 'street', 'short-haired', 's
 USMAN_MARK = re.compile(r'\bblack\b|street|patch|kerchief|folded ear|aspin', re.I)
 M_V = re.compile(r"mysterious|\bhair\b|\bcoat\b|umbrella|medallion|\bneck\b|skirt|cloak|\bhood|crescent|filipina|young", re.I)
 M_ADJ = {'mysterious', 'young', 'filipina', 'slim', 'tall'}
-M_MARK = re.compile(r'mysterious|dark (?:[\w-]+ )?coat|red umbrella|dark (?:hooded )?cloak', re.I)
+M_MARK = re.compile(r'mysterious|dark (?:[\w-]+ ){0,2}(?:coat|cloak)|red umbrella', re.I)
 GEN_V = re.compile(r"\bhair\b|grey-haired|wrinkled|\bface\b|seventies|sixty|twenties|polo|shirt|medallion|\bcord\b|\bneck\b|engraved|"
                    r"\bbun\b|glasses|dress|blouse|pigtails|uniform|filipin|about ten|\bkind\b|patient|\bthin\b|chubby", re.I)
 GEN_ADJ = {'thin', 'grey-haired', 'old', 'kind', 'filipino', 'filipina', 'young', 'public', 'school', 'chubby', 'small', 'elderly'}
 OTHER_HEAD = re.compile(r"\b(?:woman|women|girl|girls|boy|boys|dog|dogs|man|men|grandmother|grandfather|teacher|child|children|people|"
                         r"crowd|soldiers?|priest|figure|datu|king|queen|friar|schoolgirl|schoolboy|Filipino|Filipina|Usman|Indio)\b")
 ING_OK = (r"wearing|matching|ring|earring|string|sling|clothing|lining|stocking|leggings?|evening|morning|building|king|wing|bring|thing|"
-          r"nothing|something|sibling|ceiling|padding|stitching|darling|piping|herring|spring|swing|fling")
+          r"nothing|something|sibling|ceiling|padding|stitching|darling|piping|herring|spring|swing|fling|travelling|traveling|riding|running shoes|hooded|fitting")
 STOPW = re.compile(r"\b(?!(?:" + ING_OK + r")\b)\w+ing\b|\b(?:who|which|while|as|then|beside|next|alone|together|stands|sits|holds|looks|"
                    r"walks|runs|kneels|reaches|turns|catches|smiles|raises|points|leans|watches|steps|carries|faces|takes|gives|opens|"
                    r"lies|grins|nods|waves|hugs|pulls|pushes|stares|peers|lifts|drops|eats|reads|says|shouts|whispers|jumps|falls|"
@@ -121,7 +129,8 @@ STOPW = re.compile(r"\b(?!(?:" + ING_OK + r")\b)\w+ing\b|\b(?:who|which|while|as
                    r"cries|laughs|is|are|has|have|seen|shot|drawn|framed|silhouetted|both|each|one person|only)\b|"
                    r"\b(?:at|in|on|by|under|beside|behind|inside|near|from|into|onto|toward|towards|across|through|against|between|among|"
                    r"amid|before|after|above|below|beneath|outside|along|past|around|over|up|down|to|for)\s+(?:the|this|that|these|those|"
-                   r"its|their|her|them|him)\b", re.I)
+                   r"its|their)\b|\b(?:outside|inside|beside|behind|near|under|beneath|across|along|through|toward|towards|into|onto|amid|"
+                   r"among|in front of)\s+(?:a|an)\b", re.I)
 NEG_STORY = [('tattoo', re.compile(r'no tattoos?|without (?:any )?tattoos|bare (?:clean )?forearms', re.I)),
              ('medallion', re.compile(r'bare neck|no necklace|no medallion|without (?:the |any |a )?(?:medallion|necklace)', re.I)),
              ('headband', re.compile(r'no headband|without (?:a |the |his )?headband', re.I)),
@@ -205,6 +214,9 @@ def _walk_back(p, head_start, adjv):
 def _consume(p, pos, vocab, first_with=True):
     """take descriptor segments after the head noun; returns the end of the character description."""
     end, i, first = pos, pos, True
+    m = re.match(r"\s*\(([^()]{3,200})\)", p[pos:])               # "a lean young Filipino man (black topknot, red headband, ...)"
+    if m and vocab.search(m.group(1)) and not OTHER_HEAD.search(m.group(1)):
+        end = i = pos + m.end(); first = False
     while True:
         if first:
             c = re.match(r"(?:,\s*|\s+)(?:wearing\s+|with\s+|in\s+)?", p[i:]) if first_with else re.match(r",\s*(?:wearing\s+)?", p[i:])
@@ -266,7 +278,8 @@ def find_mentions(p, ep, key=''):
         st, art, kept, vs = _walk_back(p, m.start(), USMAN_ADJ)
         e = _consume(p, m.end(), USMAN_V)
         span = p[st:e]
-        if re.search(r'collar|bears and a dog|drawn as glowing', span, re.I) and not USMAN_MARK.search(span): continue
+        if re.search(r'collar|bears and a dog', span, re.I) and not USMAN_MARK.search(span): continue
+        if re.match(r'\s*(?:drawn|sketched|outlined) as|-like|-shaped', p[e:]) and not USMAN_MARK.search(span): continue
         if not USMAN_MARK.search(span):
             if any(x.char == 'usman' for x in out): continue                       # "the dog": back-reference to a described Usman
             if ep == 4: continue                                                   # Pepe's dog (1869) is not Usman
@@ -294,6 +307,13 @@ def extend(p, mm, canon, vocab=None):
     vocab = vocab or {'indio': INDIO_V, 'usman': USMAN_V, 'm': M_V}.get(mm.char, GEN_V)
     cl = canon.lower(); end = i = mm.end; skipped = 0
     while True:
+        words = list(re.finditer(r"[ ,]+[^ ,]+", p[i:i + 200]))       # words that continue the canonical text ("holding a red umbrella")
+        k = 0
+        for j, w in enumerate(words):
+            if p[i:i + w.end()].lower() in cl: k = j + 1
+            else: break
+        if k >= 2 and not skipped:
+            end = i = i + words[k - 1].end(); continue
         c = re.match(r",\s*|\s+and\s+|\s+in\s+|\s+with\s+", p[i:])
         if not c: break
         s0 = i + c.end()
@@ -307,7 +327,7 @@ def extend(p, mm, canon, vocab=None):
             end = i = s0 + len(seg); skipped = 0
             if cut: break
             continue
-        if cut or skipped >= 2 or not re.search(r'\b(?:skin|small|thin|slim|lean|tall|eyes|face|build)\b', seg): break
+        if cut or skipped >= 3 or not re.search(r'\b(?:skin|small|thin|slim|lean|tall|eyes|face|build)\b', seg): break
         skipped += 1; i = s0 + len(seg)
     return end
 
@@ -355,12 +375,26 @@ class EpisodeCanon:
                     if r[0]: self.modern_votes[r[0]] += 1
         self.era = {}                                         # noun key -> (name, string, saved?)
         saved = {k: v for k, v in C['outfits'].items() if not k.startswith('modern')}
-        n = 0
+        # one jump = one outfit described in several ways: merge clothes that share a garment ("labourer jacket over a shirt" /
+        # "work jacket, loose trousers, straw sandals"); different garments (a cloak vs a camisa) stay apart
+        GEN = {'shirt', 'sleeves', 'collar', 'clothes', 'outfit', 'dressed', 'barefoot'}
+        merged = []                                           # [set of noun keys, Counter]
         for nk, cnt in self.groups.items():
+            hit = [g for g in merged if any((set(k) & set(nk)) - GEN for k in g[0])]
+            if hit:
+                g = hit[0]
+                for o in hit[1:]: g[0] |= o[0]; g[1].update(o[1]); merged.remove(o)
+                g[0].add(nk); g[1].update(cnt)
+            else: merged.append([{nk}, collections.Counter(cnt)])
+        self.alias = {}
+        n = 0
+        for keys, cnt in merged:
+            nk = frozenset().union(*keys)
+            for k in keys: self.alias[k] = nk
             phrase = sorted(cnt.items(), key=lambda x: (-x[1], -len(x[0])))[0][0]
             match = None
             for k, s in saved.items():
-                if noun_key(outfit_clothes(s) or '') == nk: match = (k, s); break
+                if noun_key(outfit_clothes(s) or '') in keys: match = (k, s); break
             if match and self._valid(match[1]): self.era[nk] = ('indio_outfits.' + match[0], match[1], True); continue
             if match: phrase = outfit_clothes(match[1]) or phrase          # keep the saved wording of the clothes
             built = build_outfit(C, phrase, ep)
@@ -368,6 +402,7 @@ class EpisodeCanon:
             if same: self.era[nk] = ('indio_outfits.' + same[0], built, True); continue
             n += 1; name = f'ep{ep:02d}' + ('' if n == 1 else f'_{n}')
             self.era[nk] = ('indio_outfits.' + name, built, False)
+        for k, nk in self.alias.items(): self.era.setdefault(k, self.era[nk])
 
     def _valid(self, s):
         if not ('headband' in s and 'medallion' in s and 'tattoo' in s): return False
@@ -421,10 +456,14 @@ class EpisodeCanon:
         cl = clothes_of(sp)
         if cl and noun_key(cl) in self.era:
             n, s, _ = self.era[noun_key(cl)]; return n, s, None
-        if not cl:
-            if len(self.era) == 1: n, s, _ = list(self.era.values())[0]; return n, s, None
-            if not self.era: return None, None, 'past-era Indio with no clothes named anywhere in this episode: write the outfit once'
-            return None, None, 'past-era Indio with no clothes named and the episode has %d era outfits' % len(self.era)
+        if cl:
+            for k, v in self.era.items():
+                if (set(k) & set(noun_key(cl))) - {'shirt', 'sleeves', 'collar'}: return v[0], v[1], None
+        outs = self.outfits()
+        if not cl or True:
+            if len(outs) == 1: n, s, _ = outs[0]; return n, s, None
+            if not outs: return None, None, 'past-era Indio with no clothes named anywhere in this episode: write the outfit once'
+            return None, None, 'past-era Indio with %s and the episode has %d era outfits' % ('no clothes named' if not cl else 'clothes "%s"' % cl, len(outs))
         return None, None, 'era clothes not grouped'
 
     def _s5(self, low):
@@ -434,8 +473,11 @@ class EpisodeCanon:
             return None, None, 'Season 5 Indio in an outfit the cast does not have (%s)' % ', '.join(sorted(set(cl)))
         return 'indio_s5', self.C['str']['indio_s5'], None
 
+    def outfits(self):
+        return list(dict.fromkeys(self.era.values()))
+
     def unsaved(self):
-        return [(n, s) for n, s, saved in self.era.values() if not saved]
+        return [(n, s) for n, s, saved in self.outfits() if not saved]
 
 # ------------------------------------------------------------------ classification
 INDIO_CONST = [('topknot', r'topknot'), ('headband', r'headband'), ('medallion', r'medallion'), ('tattoos', r'tattoo'),

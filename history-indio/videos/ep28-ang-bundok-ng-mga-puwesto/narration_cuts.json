@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 71,
+   "text": "Kathang-isip: kami nina M at Usman, si Lolo, si Giliw, ang kweba at sulat, ang tambuli, at ang pitong lalim."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 67,
+   "text": "Tiyak: itinatag ni Hermano Pule ang Cofradía de San José noong 1832.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 68,
+   "text": "Tiyak din: ang pag-aalsa noong Oktubre 1841, at ang pagbitay sa kanya noong Nobyembre, sa edad na dalawampu't anim.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 69,
+   "text": "Pinagtatalunan: ang kuwentong tinanggihan siya ng mga Dominiko dahil indio siya; marami ang nagsasabi, pero hindi namin nakita ang orihinal na tala.",
+   "why": "History (Pinagtatalunan)."
+  },
+  {
+   "index": 70,
+   "text": "Totoo: banal na bundok ang Banahaw sa maraming kapatiran ngayon.",
+   "why": "A statement about the real world."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Totoo: banal na bundok ang Banahaw sa maraming kapatiran ngayon. / Pababa na kami."
+}

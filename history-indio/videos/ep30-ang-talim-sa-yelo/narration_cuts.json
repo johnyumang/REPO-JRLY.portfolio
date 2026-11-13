@@ -1,0 +1,48 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 65,
+   "text": "Hindi ito ang bilang ni Dante; sa amin, pito."
+  },
+  {
+   "index": 67,
+   "text": "Kathang-isip: ang talim bilang piraso ng tabak, ang mga prinsipe, ang paggising ko, at ang linya ng diwa ni Paduka Pahala; kuwentong-bayan ng Samar ang Biringan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 20,
+   "text": "At sinagot ko ang bawat isa, gaya sa dulo ng bawat talon: tiyak, pinagtatalunan, kathang-isip.",
+   "why": "Plot: in Season 3 the sorting is Indio's weapon against the lying voices."
+  },
+  {
+   "index": 28,
+   "text": "Nagtanong ako nang malakas kung may nakikinig, at hindi ako nag-imbento ng sagot.",
+   "why": "Indio's own honesty."
+  },
+  {
+   "index": 62,
+   "text": "Sa Genesis tatlo, talatang dalawampu't apat: inilagay sa silanganan ng halamanan ng Eden ang mga Querubin at ang isang nagniningas na tabak na umiikot, upang ingatan ang daang patungo sa kahoy ng buhay.",
+   "why": "The real text of scripture."
+  },
+  {
+   "index": 63,
+   "text": "Hindi sinasabi ng teksto na hawak ito ng isang kerubin; magkakaiba ang basa ng mga iskolar.",
+   "why": "Disputed or commonly mistaken."
+  },
+  {
+   "index": 64,
+   "text": "Tiyak: siyam ang bilog sa Inferno ni Dante, isang tula, at yelo ang pinakamababa, para sa mga taksil.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 66,
+   "text": "Sa Juan walo, talatang apatnapu't apat, tinawag ang diyablo na sinungaling, at ama nito.",
+   "why": "The real text of scripture."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Tiyak: siyam ang bilog sa Inferno ni Dante, isang tula, at yelo ang pinakamababa, para sa mga taksil. / Sa Juan walo, talatang apatnapu't apat, tinawag ang diyablo na sinungaling, at ama nito. / Kumpleto na ang pamilya sa mesa."
+}

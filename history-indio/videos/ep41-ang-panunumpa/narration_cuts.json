@@ -1,0 +1,38 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 62,
+   "text": "Kathang-isip ang mga arko, ang pagkapangulo ko, ang marker, ang panunumpang ito, ang tungkod, at ang gunaw ng kuwentong ito."
+  },
+  {
+   "index": 63,
+   "text": "Hindi ito itinuturo bilang aral ng pananampalataya."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 57,
+   "text": "Lilinawin ko ngayon.",
+   "why": "The beat opener still introduces Tiyak (58-59) and Kasulatan (60-61)."
+  },
+  {
+   "index": 60,
+   "text": "Kasulatan: sa Pahayag labindalawa, ang malaking dragong mapula, at ang tubig na ibinuga na gaya ng isang ilog.",
+   "why": "A statement about the real text."
+  },
+  {
+   "index": 61,
+   "text": "Sa Genesis siyam, ang pangakong hindi na lilipulin ng baha ang lahat, at sa Genesis apat, si Abel na pastol.",
+   "why": "A statement about the real text."
+  },
+  {
+   "index": 30,
+   "text": "Naging totoong bagay ito sa kamay ko: kahoy na luma at makinis, mainit na parang may humawak kanina lang.",
+   "why": "Plot action ('totoong bagay' = became solid). Not a disclaimer."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Sa Genesis siyam, ang pangakong hindi na lilipulin ng baha ang lahat, at sa Genesis apat, si Abel na pastol. / Umangat ang unang arko sa unang alon."
+}

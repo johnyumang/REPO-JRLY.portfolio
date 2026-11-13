@@ -4,8 +4,7 @@
 EPISODE 8, SEASON FINALE: 529 araw na naghintay si Indio. Bumalik siya sa Kawit, Hunyo 12, 1898, at sa likod ng mga tao, nakita niya ang sarili niya. ⭐
 Ngayon, iba na ang tinitingnan niya: ang nakasulat sa Akta, ang iisang Amerikanong pumirma, at ang pamangkin ni Rizal na tumahi ng watawat. At sa hawakan ng pulang payong ni M, ang Huling Tala.
 
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
-Kathang-isip ang diwa sa medalyon at ang linyang sinabi niya; walang ganoong salitang naitala mula kay Rajah Sulayman. Totoo siyang rajah ng Maynila na lumaban sa mga Espanyol noong 1570, at hindi siya ang pinunong namatay sa Bangkusay noong 1571.
+Kathang-isip sina Indio, Usman, M at ang bata, ang mga medalyon, ang pulang payong, ang Huling Tala at ang boses ni Rajah Sulayman sa tanso, na walang naitalang ganoong salita; totoo ang kasaysayan. Totoo siyang rajah ng Maynila na lumaban sa mga Espanyol noong 1570, at hindi siya ang pinunong namatay sa Bangkusay noong 1571.
 
 👉 Kung may tatlong hiling ka, ano ang para sa bayan? Comment mo.
 I-follow ang History Indio para sa Season 2!
@@ -24,9 +23,7 @@ Season finale ng time-travel series ng History Indio. Matapos ang 529 na araw na
 Tiyak: Linggo, Hunyo 12, 1898, sa pagitan ng alas-kuwatro at alas-singko ng hapon, ipinahayag ang kalayaan sa Kawit (Cavite el Viejo noon). Ayon sa Akta, nagsasarili ang bayan sa ilalim ng pag-iingat ng Amerika. Iisang dayuhan ang pumirma, si L. M. Johnson, na walang opisyal na tungkulin para sa Amerika. Hindi dumating si Dewey o ang alinman sa kanyang mga opisyal. Tatlo ang nanahi ng watawat sa Hong Kong: si Marcela Agoncillo, ang anak niyang si Lorenza, at si Delfina Herbosa de Natividad, labingwalong taong gulang, pamangkin ni Rizal (anak ng kapatid niyang si Lucía). 181 araw pagkatapos, sa Kasunduan sa Paris, isinuko ng Espanya ang Pilipinas sa Amerika.
 Pinagtatalunan: kung sino ang nagwagayway ng watawat (ayon sa NHCP, si Ambrosio Rianzares Bautista; ayon sa iba, si Aguinaldo).
 Alam mo ba: walang liriko pa ang martsa noong 1898, at hanggang 1962, Hulyo 4 ang Araw ng Kalayaan.
-Kathang-isip: sina Indio, Usman, si M, ang bata, ang mga medalyon, ang diwa sa medalyon, ang pulang payong at ang Huling Tala.
-Kathang-isip ang diwa sa medalyon at ang linyang sinabi niya; walang ganoong salitang naitala mula kay Rajah Sulayman. Totoo siyang rajah ng Maynila na lumaban sa mga Espanyol noong 1570, at hindi siya ang pinunong namatay sa Bangkusay noong 1571.
-Kathang-isip din na nagmula si Indio sa anak nina Rizal at Josephine Bracken. Sa totoong tala, isinilang ang batang iyon nang kulang sa buwan sa Dapitan at patay na o namatay ilang oras lang; walang kilalang nabubuhay na inapo si Rizal.
+Kathang-isip sina Indio, Usman, M at ang bata, ang mga medalyon, ang pulang payong, ang Huling Tala at ang boses ni Rajah Sulayman sa tanso, na walang naitalang ganoong salita; totoo ang kasaysayan. Totoo siyang rajah ng Maynila na lumaban sa mga Espanyol noong 1570, at hindi siya ang pinunong namatay sa Bangkusay noong 1571. Kathang-isip din na nagmula si Indio sa anak nina Rizal at Josephine Bracken. Sa totoong tala, isinilang ang batang iyon nang kulang sa buwan sa Dapitan at patay na o namatay ilang oras lang; walang kilalang nabubuhay na inapo si Rizal.
 
 Kung may tatlong hiling ka, ano ang para sa bayan? I-comment sa baba.
 Mag-subscribe para sa Season 2.
@@ -37,14 +34,14 @@ Mag-subscribe para sa Season 2.
 
 ## TikTok
 EP 8 FINALE ⭐ Kawit, Hunyo 12, 1898, mula sa likod ng mga tao. Nakasulat sa Akta: sa ilalim ng proteksyon ng Amerika. Anim na buwan lang, Paris na. At ang Huling Tala, nasa pulang payong pala.
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang linya niya; totoong rajah ng Maynila si Rajah Sulayman (lumaban noong 1570, hindi namatay sa Bangkusay).
+Kathang-isip sina Indio, Usman, M at ang bata, ang mga medalyon, ang pulang payong, ang Huling Tala at ang boses ni Rajah Sulayman sa tanso, na walang naitalang ganoong salita; totoo ang kasaysayan. Totoong rajah ng Maynila si Rajah Sulayman (lumaban noong 1570, hindi namatay sa Bangkusay).
 
 #historyindio #june12 #kawit #kasaysayan #philippinehistory #timetravel #pinoyanime #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
 Episode 8, season finale. ⭐ Kawit, 1898, mula sa likod ng mga tao: ang Akta, ang iisang Amerikanong pumirma, at ang pamangkin ni Rizal na tumahi ng watawat.
 Kung may tatlong hiling ka, ano ang para sa bayan? ⭐
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan. Kathang-isip ang diwa sa medalyon at ang linya niya; totoo si Rajah Sulayman ng Maynila.
+Kathang-isip sina Indio, Usman, M at ang bata, ang mga medalyon, ang pulang payong, ang Huling Tala at ang boses ni Rajah Sulayman sa tanso, na walang naitalang ganoong salita; totoo ang kasaysayan. Totoo si Rajah Sulayman ng Maynila.
 
 #historyindio #june12 #kawit #philippinehistory #kasaysayan
 

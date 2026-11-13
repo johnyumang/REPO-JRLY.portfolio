@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 59,
+   "text": "Kathang-isip: ang mga diwa at ang kanilang kapangyarihan, ang gunaw at ang labanan, na hinango lang sa Pahayag 12:15, ang mga demonyo, sina Tubal at Rico, at kami nina M at Usman; alamat ang Kraken."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 23,
+   "text": "Matamis ang mga salita nila habang lumalapit: ligtas kayo kung susuko kayo, wala nang saysay ang laban, walang baha, gawa-gawa lang.",
+   "why": "Plot: it quotes the demons' lie."
+  },
+  {
+   "index": 26,
+   "text": "At sa bawat ungol, sumagot ang mga ka-Indio sa mga bubong: hindi tiyak, kathang-isip!",
+   "why": "Plot: the crowd uses sorting as its weapon, as the ruling names."
+  },
+  {
+   "index": 27,
+   "text": "Ang linawin natin sa dulo ng bawat talon, ang pag-uuri ng tiyak, pinagtatalunan at kathang-isip, pagsasanay pala.",
+   "why": "Plot: Indio realises the fairness beat was training. This is story, not a disclaimer."
+  },
+  {
+   "index": 58,
+   "text": "Totoong balwarte sa Intramuros ang Baluarte de San Diego.",
+   "why": "A fact about the real record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Totoong balwarte sa Intramuros ang Baluarte de San Diego. / Sa kabilang dulo ng look, nakatayo si Tubal sa isang bangka."
+}

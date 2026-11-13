@@ -2,7 +2,8 @@
  "episode": 16,
  "readers": [
   "r1",
-  "r2"
+  "r2",
+  "r3"
  ],
  "keys_looked_at": 85,
  "defects": [
@@ -17,7 +18,10 @@
    "what": "Both hands in the handshake come out of identical red sleeves, but Indio wears a short-sleeved white polo and M a dark coat in this scene.",
    "where": "both forearms, lower left and lower right",
    "reader": "r1",
-   "r2": "confirmed: both forearms come out of red sleeves; neither matches Indio's white polo nor M's dark coat"
+   "r2": "confirmed: both forearms come out of red sleeves; neither matches Indio's white polo nor M's dark coat",
+   "fixed": true,
+   "fix": "redrawn (1 try): bare brown forearm with the red handkerchief and a dark sleeve, no red sleeves, fingers counted at 3x",
+   "r3": "kept: red sleeves gone, brown forearm with kerchief and a dark sleeve, fingers OK at 3x (small magenta sleeve edge at top-left corner)"
   },
   {
    "key": "k13",
@@ -30,7 +34,10 @@
    "what": "M is drawn in a white polo shirt and grey shorts, not her long dark coat, so she reads as a different girl.",
    "where": "M, right of Indio, centre",
    "reader": "r1",
-   "r2": "confirmed: the girl beside Indio is brown-haired in a white polo and grey shorts, not M in her dark coat"
+   "r2": "confirmed: the girl beside Indio is brown-haired in a white polo and grey shorts, not M in her dark coat",
+   "fixed": true,
+   "fix": "redrawn (1 try): Indio in the white polo and M in the long dark coat with the red umbrella, seen from behind; Usman leaping",
+   "r3": "kept: M on model from behind, Usman on model with one folded ear (umbrella hangs behind her unheld, minor)"
   },
   {
    "key": "k46",
@@ -43,7 +50,10 @@
    "what": "Usman is a grey wolf-like dog with a harness and no red kerchief or white chest patch.",
    "where": "bottom right corner",
    "reader": "r1",
-   "r2": "confirmed: the dog is grey and wolf-like with no red kerchief and no white chest patch, not Usman"
+   "r2": "confirmed: the dog is grey and wolf-like with no red kerchief and no white chest patch, not Usman",
+   "fixed": true,
+   "fix": "redrawn (2 tries): wide shot, M with the medallion, Indio, the green kappa and Usman (black, white chest, red kerchief) apart, no merges",
+   "r3": "kept: Usman black with white chest and kerchief, whole cast present (both his ears erect, minor, as in k14/k26)"
   },
   {
    "key": "k43",
@@ -56,7 +66,10 @@
    "what": "Indio in the 1594 scene has no red headband, blue-grey eyes and a black open shirt instead of the brown jacket of the other 1594 shots.",
    "where": "whole figure",
    "reader": "r1",
-   "r2": "confirmed: no red headband, grey eyes, black open shirt, not the 1594 brown-jacket Indio"
+   "r2": "confirmed: no red headband, grey eyes, black open shirt, not the 1594 brown-jacket Indio",
+   "fixed": true,
+   "fix": "redrawn (1 try): Indio with red headband and 1590s work jacket offering the cucumber, both hands clean at 3x",
+   "r3": "kept: headband and work jacket, cucumber hands clean at 3x, kappa on model"
   },
   {
    "key": "k58",
@@ -69,7 +82,11 @@
    "what": "Tubal has brown hair and green eyes and a younger face than the black-haired grey-eyed Tubal of k55-k57.",
    "where": "face, centre",
    "reader": "r1",
-   "r2": "confirmed: brown hair, green eyes, younger face, not the black-haired grey-eyed Tubal of k56-k57"
+   "r2": "confirmed: brown hair, green eyes, younger face, not the black-haired grey-eyed Tubal of k56-k57",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k97",
@@ -82,7 +99,10 @@
    "what": "M has light brown hair, a collared shirt and black tie and a different face from the black-haired M of k05 and k71.",
    "where": "face and collar, centre",
    "reader": "r1",
-   "r2": "confirmed: brown hair, grey collared shirt and black tie, not the black-haired coated M of k05/k71"
+   "r2": "confirmed: brown hair, grey collared shirt and black tie, not the black-haired coated M of k05/k71",
+   "fixed": true,
+   "fix": "redrawn (1 try): M with long straight black hair in the long dark coat with the red umbrella; both hands clean at 3x",
+   "r3": "kept: M on model (black hair, dark coat, red umbrella); hands acceptable, the red handle's strap looks a little like a second prong"
   },
   {
    "key": "k44",
@@ -95,7 +115,10 @@
    "what": "The kappa is a brown furry capybara-like animal with a hat-dish, not the green shelled kappa of k01, k37 and k38.",
    "where": "whole creature",
    "reader": "r1",
-   "r2": "confirmed: furry brown capybara-like creature with a dish, not the green shelled kappa"
+   "r2": "confirmed: furry brown capybara-like creature with a dish, not the green shelled kappa",
+   "fixed": true,
+   "fix": "redrawn (flux-3, 1 try): the episode's green shelled kappa with the water dish",
+   "r3": "kept: green shelled kappa with dish, water spilling"
   },
   {
    "key": "k68",
@@ -108,7 +131,10 @@
    "what": "The kappa eating the cucumber is a brown monkey-like animal with no shell or dish, a third design for the same creature.",
    "where": "whole creature",
    "reader": "r1",
-   "r2": "confirmed: furry brown monkey-like creature, no shell or dish, a third kappa design"
+   "r2": "confirmed: furry brown monkey-like creature, no shell or dish, a third kappa design",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa eating the cucumber, hands clean at 3x",
+   "r3": "kept: green shelled kappa eating cucumber, paws clean"
   },
   {
    "key": "k41",
@@ -121,7 +147,10 @@
    "what": "The kappa is a brown seal-like blob with no shell or water dish, unlike the green kappa elsewhere.",
    "where": "creature, lower centre",
    "reader": "r1",
-   "r2": "confirmed; must_fix corrected false->true: a brown seal-like blob fills the frame, clearly not the green shelled kappa and plainly seen on pause, same bar as k44/k68"
+   "r2": "confirmed; must_fix corrected false->true: a brown seal-like blob fills the frame, clearly not the green shelled kappa and plainly seen on pause, same bar as k44/k68",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa under the golden cucumber wish",
+   "r3": "kept: green shelled kappa under the golden cucumber"
   },
   {
    "key": "k92",
@@ -134,7 +163,10 @@
    "what": "The splashing kappa is a brown otter with a fish tail, not the green shelled kappa.",
    "where": "creature, bottom",
    "reader": "r1",
-   "r2": "confirmed; must_fix corrected false->true: a central brown otter with a fish tail, clearly not the green kappa and plainly seen on pause, same bar as k44/k68"
+   "r2": "confirmed; must_fix corrected false->true: a central brown otter with a fish tail, clearly not the green kappa and plainly seen on pause, same bar as k44/k68",
+   "fixed": true,
+   "fix": "redrawn (1 try): green shelled kappa diving",
+   "r3": "kept: green shelled kappa diving, no faults"
   },
   {
    "key": "k52",
@@ -147,7 +179,11 @@
    "what": "The arrow is nocked backwards: the arrowhead sits at the drawing hand by his face and the shaft runs toward the bow.",
    "where": "arrow, upper centre",
    "reader": "r1",
-   "r2": "confirmed: the light arrow's head sits at the drawing hand by his face while the shaft runs to the bow, nocked backwards"
+   "r2": "confirmed: the light arrow's head sits at the drawing hand by his face while the shaft runs to the bow, nocked backwards",
+   "fixed": true,
+   "fix": "redrawn as a still with no people: the arrow of light, head in the wall, pins the shadow creature; no bow, no hands (retry, 2 of 4 tries)",
+   "retry": true,
+   "r3": "kept (retry): arrowhead in the wall, fletching behind, shadow creature pinned; no hands or bow, clean at 3x, style matches k51/k53"
   },
   {
    "key": "k93",
@@ -160,7 +196,10 @@
    "what": "The bundle of arrows is held by a pink boneless mass with no fingers or thumb.",
    "where": "bottom half, holding hand",
    "reader": "r1",
-   "r2": "confirmed: the arrow bundle is gripped by a pink boneless mass with no fingers or thumb"
+   "r2": "confirmed: the arrow bundle is gripped by a pink boneless mass with no fingers or thumb",
+   "fixed": true,
+   "fix": "redrawn (1 try): quiver hanging on a peg, no hands",
+   "r3": "kept: no hands, quiver on a post"
   },
   {
    "key": "k96",
@@ -173,7 +212,10 @@
    "what": "Two tattooed arms merge into one fleshy mass with no hands where the hologram device sits.",
    "where": "centre, both arms",
    "reader": "r1",
-   "r2": "confirmed: the forearm and hand are a merged fleshy mass with no proper hand where the hologram sits"
+   "r2": "confirmed: the forearm and hand are a merged fleshy mass with no proper hand where the hologram sits",
+   "fixed": true,
+   "fix": "redrawn (2 tries): one brown tattooed forearm resting on a crate, hand out of frame, hologram ring with a kappa icon",
+   "r3": "kept: one clean tattooed forearm, hand out of frame, no merge"
   },
   {
    "key": "k74",
@@ -186,7 +228,11 @@
    "what": "The glowing medallion shows letter-like marks (like 'IHS') on its face and lettering round the rim.",
    "where": "medallion in his hands, left centre",
    "reader": "r1",
-   "r2": "confirmed: the medallion face carries bold letter-like marks and rim lettering, though it should be blank"
+   "r2": "confirmed: the medallion face carries bold letter-like marks and rim lettering, though it should be blank",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: the blank bronze medallion glowing purple on a bedside table beside the red handkerchief; no letters (retry, 3 of 4 tries; try 2 had a head relief on the medallion)",
+   "retry": true,
+   "r3": "kept (retry): medallion face blank, no letters; purple glow and red handkerchief on the bedside table follow k73's separate rooms (disc drawn rather large, minor)"
   },
   {
    "key": "k53",
@@ -199,7 +245,10 @@
    "what": "Carved Latin-looking letters ('iKAu') on the wooden plank above Usman's head.",
    "where": "top left",
    "reader": "r1",
-   "r2": "confirmed: carved glyph-like marks on the plank above Usman"
+   "r2": "confirmed: carved glyph-like marks on the plank above Usman",
+   "fixed": true,
+   "fix": "redrawn (1 try): Usman against a plain wall with no carvings, one folded ear, red kerchief, white chest",
+   "r3": "kept: no carvings, Usman on model with one folded ear"
   },
   {
    "key": "k14",
@@ -433,7 +482,11 @@
    "what": "Shop signs carry kanji-like characters.",
    "where": "background signs, left and right",
    "reader": "r1",
-   "r2": "confirmed: background shop signs carry kanji-like characters"
+   "r2": "confirmed: background shop signs carry kanji-like characters",
+   "fixed": true,
+   "fix": "redrawn as an anime still life with no people: a blank black card with a small triangle mark, a bronze ring and coffee cups on a café table; no face, no hands, no writing (retry, 4 of 4 tries; tries 2-3 came out photographic)",
+   "retry": true,
+   "r3": "kept (retry): Tubal and the kanji shop signs gone; blank black card with a small triangle mark, ring and coffee cups, clean at 3x, flat anime style like k57/k59"
   },
   {
    "key": "k63",
@@ -537,7 +590,10 @@
    "what": "The umbrella shaft bends into a hook mid-shaft and melts into her fingertips.",
    "where": "hand and shaft, centre",
    "reader": "r1",
-   "r2": "confirmed: the umbrella grip and her hand meet awkwardly and the index finger splays oddly (minor)"
+   "r2": "confirmed: the umbrella grip and her hand meet awkwardly and the index finger splays oddly (minor)",
+   "fixed": true,
+   "fix": "redrawn (1 try): M with long straight black hair in the long dark coat with the red umbrella; both hands clean at 3x",
+   "r3": "kept: M on model (black hair, dark coat, red umbrella); hands acceptable, the red handle's strap looks a little like a second prong"
   },
   {
    "key": "k26",
@@ -597,7 +653,10 @@
    "must_fix": false,
    "what": "Usman is drawn with both ears erect; one should be folded (as in k14 and k26).",
    "where": "head, top",
-   "reader": "r2"
+   "reader": "r2",
+   "fixed": true,
+   "fix": "redrawn (1 try): Usman against a plain wall with no carvings, one folded ear, red kerchief, white chest",
+   "r3": "kept: no carvings, Usman on model with one folded ear"
   }
  ]
 }
