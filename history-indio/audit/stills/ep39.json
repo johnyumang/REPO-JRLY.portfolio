@@ -11,7 +11,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The receipts pinned to the posts in the foreground show rows of fake print and barcodes, large and close to the camera."
+   "what": "The receipts pinned to the posts in the foreground show rows of fake print and barcodes, large and close to the camera.",
+   "fixed": true
   },
   {
    "still": "full/tondo1950.jpg",
@@ -20,7 +21,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Readable misspelled shop signs ('TANDO: Pamin...', 'ONDO') across the street front."
+   "what": "Readable misspelled shop signs ('TANDO: Pamin...', 'ONDO') across the street front.",
+   "fixed": true
   },
   {
    "still": "full/hometown.jpg",
@@ -29,7 +31,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The gate wall carries large garbled letters ('LYC PYONHIO') and the shop signs above are pseudo-text."
+   "what": "The gate wall carries large garbled letters ('LYC PYONHIO') and the shop signs above are pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/jeep_1950.jpg",
@@ -38,7 +41,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "Big garbled signs on the building ('DMALAI', 'BETLANDY') and fake lettering on the jeepney's front."
+   "what": "Big garbled signs on the building ('DMALAI', 'BETLANDY') and fake lettering on the jeepney's front.",
+   "fixed": true
   },
   {
    "still": "full/constitution.jpg",
@@ -47,7 +51,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The green book cover in close-up is covered with lines of fake gold script."
+   "what": "The green book cover in close-up is covered with lines of fake gold script.",
+   "fixed": true
   },
   {
    "still": "full/celia_desk.jpg",
@@ -56,7 +61,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The paper Celia writes on and the notices on the wall behind her show rows of pseudo-text."
+   "what": "The paper Celia writes on and the notices on the wall behind her show rows of pseudo-text.",
+   "fixed": true
   },
   {
    "still": "full/pipay.jpg",
@@ -65,7 +71,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "The paper at the bottom right reads a garbled word ('UIVOCTIES') in large letters."
+   "what": "The paper at the bottom right reads a garbled word ('UIVOCTIES') in large letters.",
+   "fixed": true
   },
   {
    "still": "full/candle_table.jpg",
@@ -74,7 +81,8 @@
    ],
    "type": "writing",
    "must_fix": true,
-   "what": "A large Chinese-looking character is stamped on the candle glass in the middle of the frame."
+   "what": "A large Chinese-looking character is stamped on the candle glass in the middle of the frame.",
+   "fixed": true
   },
   {
    "still": "full/usman_yelp.jpg",
@@ -83,7 +91,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "The street behind Usman has red Chinese/Japanese character signs (top left and right)."
+   "what": "The street behind Usman has red Chinese/Japanese character signs (top left and right).",
+   "fixed": true
   },
   {
    "still": "full/school_gate39.jpg",
@@ -92,7 +101,8 @@
    ],
    "type": "place",
    "must_fix": true,
-   "what": "A Japanese-style school gate with kanji signs on the wall at the right."
+   "what": "A Japanese-style school gate with kanji signs on the wall at the right.",
+   "fixed": true
   },
   {
    "still": "full/people_game.jpg",
@@ -101,7 +111,8 @@
    ],
    "type": "panels",
    "must_fix": true,
-   "what": "Black letterbox bars at the top and bottom of the frame."
+   "what": "Black letterbox bars at the top and bottom of the frame.",
+   "fixed": true
   },
   {
    "still": "full/fake_docs.jpg",
@@ -110,7 +121,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Documents with rows of scribbles and stamps (the script is about fake papers, but the rows read as glyphs)."
+   "what": "Documents with rows of scribbles and stamps (the script is about fake papers, but the rows read as glyphs).",
+   "left": "the script is about fake papers; left as minor"
   },
   {
    "still": "full/receipt_boards.jpg",
@@ -119,7 +131,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Many small papers on boards with rows of tiny pseudo-text."
+   "what": "Many small papers on boards with rows of tiny pseudo-text.",
+   "left": "minor, not redrawn in this pass"
   },
   {
    "still": "full/indio_file.jpg",
@@ -128,7 +141,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "The form under Indio's pen has small rows of pseudo-text."
+   "what": "The form under Indio's pen has small rows of pseudo-text.",
+   "left": "minor, not redrawn in this pass"
   },
   {
    "still": "full/villacorta.jpg",
@@ -137,7 +151,8 @@
    ],
    "type": "logo",
    "must_fix": false,
-   "what": "The podium seal has garbled lettering around it."
+   "what": "The podium seal has garbled lettering around it.",
+   "left": "redrawn earlier today (single podium shot); the small seal lettering is left"
   },
   {
    "still": "full/indio_calm39.jpg",
@@ -146,7 +161,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A sign with Asian-looking glyphs in the background at the top left."
+   "what": "A sign with Asian-looking glyphs in the background at the top left.",
+   "left": "minor, not redrawn in this pass"
   },
   {
    "still": "full/asiong_far.jpg",
@@ -155,7 +171,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "Small shop signs with garbled letters on the buildings."
+   "what": "Small shop signs with garbled letters on the buildings.",
+   "left": "minor, not redrawn in this pass"
   },
   {
    "still": "full/indio_lesson39.jpg",
@@ -164,7 +181,8 @@
    ],
    "type": "writing",
    "must_fix": false,
-   "what": "A blue sign reading 'TONDO' with garbled text behind Indio."
+   "what": "A blue sign reading 'TONDO' with garbled text behind Indio.",
+   "left": "minor, not redrawn in this pass"
   },
   {
    "still": "full/usman_soot.jpg",
@@ -173,7 +191,8 @@
    ],
    "type": "off_model",
    "must_fix": false,
-   "what": "Extreme close-up of Usman with no white chest patch or red kerchief in view."
+   "what": "Extreme close-up of Usman with no white chest patch or red kerchief in view.",
+   "left": "minor, not redrawn in this pass"
   }
  ]
 }
