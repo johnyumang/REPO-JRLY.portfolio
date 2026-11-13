@@ -30,16 +30,36 @@ def emissions(y16):
             lp = torch.log_softmax(model(seg).logits[0], -1); fps = lp.shape[0] / ((b - a) / 16000)
             s = int(round((i - a) / 16000 * fps)); e = s + int(round((min(len(y16), i + W) - i) / 16000 * fps)); out.append(lp[s:e]); i += W
     return torch.cat(out)
+def _forced_align(em, targets, blank=0):
+    """Pure-torch CTC Viterbi, the same contract as torchaudio.functional.forced_align for batch 1:
+    em (1, T, C) log-probs, targets (1, L) -> (labels (1, T), frame log-probs (1, T)). Used when torchaudio has no wheel for the torch here."""
+    lp = em[0].detach().float().cpu().numpy(); tg = [int(x) for x in targets[0].tolist()]; T = lp.shape[0]
+    ext = [blank]; [ext.extend([t, blank]) for t in tg]; S = len(ext); NEG = -1e30
+    dp = np.full((T, S), NEG, dtype=np.float64); bp = np.zeros((T, S), dtype=np.int8)
+    dp[0, 0] = lp[0, ext[0]]
+    if S > 1: dp[0, 1] = lp[0, ext[1]]
+    can_skip = np.array([s >= 2 and ext[s] != blank and ext[s] != ext[s - 2] for s in range(S)])
+    em_ext = lp[:, ext]
+    for t in range(1, T):
+        p = dp[t - 1]; c0 = p; c1 = np.concatenate(([NEG], p[:-1])); c2 = np.where(can_skip, np.concatenate(([NEG, NEG], p[:-2])), NEG)
+        st = np.stack([c0, c1, c2]); k = st.argmax(0); dp[t] = st[k, np.arange(S)] + em_ext[t]; bp[t] = k
+    s = S - 1 if S == 1 or dp[-1, S - 1] >= dp[-1, S - 2] else S - 2; path = [0] * T
+    for t in range(T - 1, -1, -1): path[t] = s; s -= int(bp[t, s])
+    lab = [ext[s] for s in path]; sc = [float(lp[t, lab[t]]) for t in range(T)]
+    return torch.tensor([lab]), torch.tensor([sc])
 def words(y16, text, em=None):
     """-> [{'w','start','end','conf'}], conf = mean aligned-frame posterior of the word's letters."""
-    import torchaudio.functional as AF
+    try:
+        import torchaudio.functional as AF; _fa = AF.forced_align
+    except Exception:                                        # no torchaudio wheel for this torch: the same alignment in plain torch
+        _fa = _forced_align
     model, tok = _aligner(); vocab = tok.get_vocab(); ws = norm_words(text)
     em = emissions(y16) if em is None else em; ids = []; owner = []
     for k, w in enumerate(ws):
         for ch in w:
             if ch in vocab: ids.append(vocab[ch]); owner.append(k)
     blank = vocab.get('<blank>', 0)
-    ali, sc = AF.forced_align(em[None], torch.tensor([ids]), blank=blank); ali, sc = ali[0], sc[0].exp()
+    ali, sc = _fa(em[None], torch.tensor([ids]), blank=blank); ali, sc = ali[0], sc[0].exp()
     spf = (len(y16) / 16000) / em.shape[0]; res = [dict(w=w, start=None, end=None, p=[]) for w in ws]; j = -1; prev = blank
     for f, (a, s) in enumerate(zip(ali.tolist(), sc.tolist())):
         if a != blank and (a != prev or prev == blank and False): j += 1 if (a != prev) else 0
