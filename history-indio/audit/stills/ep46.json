@@ -1,0 +1,16 @@
+{"episode": 46, "audited_by": "render worker 3", "stills_looked_at": 80, "clean": false, "defects": [
+{"still": "full/sinag_gone.jpg", "shots": [33], "type": "panels", "must_fix": true, "what": "The frame is two stacked images (a sparking ship scene on top, a near-duplicate with a boy on a deck below) split by a hard horizontal seam at mid-height."},
+{"still": "full/tubal_boat_far.jpg", "shots": [12], "type": "panels", "must_fix": true, "what": "The frame is three stacked horizontal panels (galleons, then a black yacht, then the yacht again) with visible seams, a collage instead of one shot."},
+{"still": "full/x_feather.jpg", "shots": [95], "type": "panels", "must_fix": true, "what": "Thick black letterbox bars fill the top and bottom fifth of the frame, leaving the feather picture as a frame inside the frame."},
+{"still": "full/kasulatan_open.jpg", "shots": [38], "type": "writing", "must_fix": true, "what": "Large glowing pseudo-Latin letters (X, N, K, Z shapes) fill the open document in the lower left foreground."},
+{"still": "full/sinag_falter.jpg", "shots": [22], "type": "off_model", "must_fix": true, "what": "The growling dog in the bottom right is a brown long-haired dog with no red kerchief or white chest patch, not Usman."},
+{"still": "full/copperplate.jpg", "shots": [61], "type": "writing", "must_fix": true, "what": "The Laguna Copperplate is drawn as a round tray covered in dense rows of CJK-like pseudo-glyphs instead of a rectangular plate with Kawi script."},
+{"still": "full/eyes_water.jpg", "shots": [9], "type": "panels", "must_fix": false, "what": "A thin black border runs around all four edges of the picture."},
+{"still": "full/kalakal_sight.jpg", "shots": [42], "type": "place", "must_fix": false, "what": "Hanging signboards in the upper right background carry Chinese-style characters."},
+{"still": "full/forge_memory.jpg", "shots": [28], "type": "writing", "must_fix": false, "what": "A vertical banner in the upper right corner carries a column of CJK-like glyphs."},
+{"still": "full/keel_tablet.jpg", "shots": [7], "type": "writing", "must_fix": false, "what": "The glowing tablet in the keel at the top centre is covered in rows of pseudo-glyphs."},
+{"still": "full/enoch_book.jpg", "shots": [62], "type": "writing", "must_fix": false, "what": "Both pages of the open book are filled with lines of pseudo-text."},
+{"still": "full/reading_aloud.jpg", "shots": [40], "type": "writing", "must_fix": false, "what": "The contract papers held at centre show scribbled pseudo-text lines and letter-like marks."},
+{"still": "full/signatures_glow.jpg", "shots": [41], "type": "writing", "must_fix": false, "what": "Besides the glowing signatures, the scattered contracts carry rows of pseudo-text and form-like headings."},
+{"still": "full/x_ring.jpg", "shots": [97], "type": "writing", "must_fix": false, "what": "The papers under the hand at the bottom carry small lines of pseudo-text."}
+]}

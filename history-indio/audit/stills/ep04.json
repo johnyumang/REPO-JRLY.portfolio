@@ -1,0 +1,11 @@
+{"episode": 4, "audited_by": "render worker 3", "stills_looked_at": 36, "clean": false, "defects": [
+{"still": "full/poem.jpg", "shots": [30], "type": "writing", "must_fix": true, "what": "The whole sheet of paper is covered in large, legible-looking pseudo-handwriting (garbled Latin-letter words), filling most of the frame behind the question-mark shadow."},
+{"still": "chars/indio_cheer.jpg", "shots": [43], "type": "writing", "must_fix": true, "what": "The orange windbreaker has bold printed letters 'DEURE' on the right chest."},
+{"still": "chars/indio_lonely.jpg", "shots": [4], "type": "writing", "must_fix": true, "what": "The windbreaker chest pocket has a logo-style badge with pseudo-text 'RE RUIR'."},
+{"still": "chars/indio_alone.jpg", "shots": [38], "type": "writing", "must_fix": true, "what": "The windbreaker right chest has a small flag-like patch next to garbled pseudo-text like 'BH MHO'."},
+{"still": "chars/mother.jpg", "shots": [22], "type": "writing", "must_fix": false, "what": "The open book on the mother's lap shows rows of scribbled pseudo-text on both pages (small in frame)."},
+{"still": "full/phone.jpg", "shots": [40], "type": "logo", "must_fix": false, "what": "The phone screen shows an app-style green checkmark and gold coin icon instead of a text message, plus a stray '3' glyph in the top-right bezel."},
+{"still": "chars/indio_wink.jpg", "shots": [32], "type": "anatomy", "must_fix": false, "what": "A detached-looking hand/finger sticks up at the left edge beside his shoulder with no clear connection to an arm."},
+{"still": "chars/usman_serious.jpg", "shots": [0, 13, 37], "type": "off_model", "must_fix": false, "what": "Usman has both ears fully upright instead of one folded ear."},
+{"still": "chars/usman_run.jpg", "shots": [14], "type": "off_model", "must_fix": false, "what": "Usman has both ears fully upright instead of one folded ear."}
+]}
