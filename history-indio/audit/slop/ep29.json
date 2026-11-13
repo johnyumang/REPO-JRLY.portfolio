@@ -15,7 +15,10 @@
    "must_fix": true,
    "what": "The figure is a brown-haired, blue-eyed young man in a black shirt, not Indio (black topknot, grey t-shirt).",
    "where": "right half, face and raised hand",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k06",
@@ -27,7 +30,11 @@
    "must_fix": true,
    "what": "Two black dogs walk down the stairs where there is only Usman.",
    "where": "centre stairs, one dog ahead and one beside Lolo",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Backs to us, small, going down endless stone stairs into darkness: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists"
   },
   {
    "key": "k06",
@@ -39,7 +46,11 @@
    "must_fix": false,
    "what": "Indio wears a brown jacket and has short brown hair with no topknot.",
    "where": "centre-left figure on the stairs",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Backs to us, small, going down endless stone stairs into darkness: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "try2 closest: one dog, all on model, but a white patch on the dog rump and no tail; try3 two wrists fused in one kerchief; try4 Indio kerchief on both wrists"
   },
   {
    "key": "k12",
@@ -51,7 +62,10 @@
    "must_fix": true,
    "what": "Usman is a floppy-eared labrador with a chain collar and tag and no red kerchief.",
    "where": "bottom right, dog under Lolo's hand",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k11",
@@ -63,7 +77,10 @@
    "must_fix": true,
    "what": "Usman has both ears standing up instead of one folded ear.",
    "where": "top, both ears",
-   "second_reader": "confirmed; must_fix raised to true: this is a full-frame close-up and both huge ears stand up, so the one folded ear is unmistakably missing on a paused screen"
+   "second_reader": "confirmed; must_fix raised to true: this is a full-frame close-up and both huge ears stand up, so the one folded ear is unmistakably missing on a paused screen",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 3
   },
   {
    "key": "k17",
@@ -123,7 +140,10 @@
    "must_fix": true,
    "what": "Two young men in hoodies with backpacks stand in the ash; neither is Indio nor his father.",
    "where": "lower half, both figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k22",
@@ -147,7 +167,10 @@
    "must_fix": true,
    "what": "Indio walks past the door in a grey suit jacket and trousers with no topknot.",
    "where": "left figure seen from behind",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k36",
@@ -159,7 +182,10 @@
    "must_fix": true,
    "what": "Indio has much darker skin and a heavier painted look than in every other shot.",
    "where": "right figure, face and arms",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k41",
@@ -171,7 +197,11 @@
    "must_fix": true,
    "what": "Indio's hand disappears into Usman's open jaws, so hand and mouth are fused into one shape.",
    "where": "centre, between the man's hand and the dog's mouth",
-   "second_reader": "confirmed; at 3x the forearm also grows a second pale hand beyond the first, and the nearer fingers melt into the strap and the muzzle"
+   "second_reader": "confirmed; at 3x the forearm also grows a second pale hand beyond the first, and the nearer fingers melt into the strap and the muzzle",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Dim gold-lit cavern, full body: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, hands in his pockets, gazing at a gold heap; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, his left ear folded over, bites his jeans hem at the ankle and pulls him away. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging"
   },
   {
    "key": "k41",
@@ -183,7 +213,11 @@
    "must_fix": true,
    "what": "Indio wears a navy jacket with no topknot, and Usman has both ears up.",
    "where": "left man and right dog",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Dim gold-lit cavern, full body: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, hands in his pockets, gazing at a gold heap; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, his left ear folded over, bites his jeans hem at the ankle and pulls him away. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "try1 his hand vanishes behind the dog head; try2 jeans stretched into a strip and hands shown; try3 dog both ears up; try4 closest but the dog has both ears hanging"
   },
   {
    "key": "k43",
@@ -195,7 +229,11 @@
    "must_fix": true,
    "what": "Indio and Lolo are drawn as chibi children, one with red horns, in a different cartoon style.",
    "where": "bottom left two figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Vast cave, orange-glowing black tar sea; backs to us, standing on a ledge: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm; an old Filipino man with white hair, a faded old polo shirt and a red handkerchief on his wrist; one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "all four drawn in the normal style (no chibi); try1 lost the cavern and the orange tar (night sea); try2 good scene but red cloths on all four wrists and a white patch on the dog back; try3 a second Indio far off; try4 dog both ears up and his hand overlaps Lolo"
   },
   {
    "key": "k54",
@@ -219,7 +257,10 @@
    "must_fix": true,
    "what": "Lolo has long white hair and a full beard, and Indio has no topknot and wears a collared shirt.",
    "where": "bottom, both figures",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   },
   {
    "key": "k60",
@@ -231,7 +272,10 @@
    "must_fix": true,
    "what": "Indio wears a light-blue shirt with no topknot and has floral tattoos on his arm; Usman has both ears up.",
    "where": "right man and left dog",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 4
   },
   {
    "key": "k65",
@@ -243,7 +287,10 @@
    "must_fix": true,
    "what": "Indio appears as a small boy beside his father instead of the adult Indio.",
    "where": "right figure",
-   "second_reader": "confirmed; must_fix raised to true: the boy is the second of two figures in a medium shot and reads at once as a child, not the adult Indio of every other shot"
+   "second_reader": "confirmed; must_fix raised to true: the boy is the second of two figures in a medium shot and reads at once as a child, not the adult Indio of every other shot",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k78",
@@ -255,7 +302,10 @@
    "must_fix": true,
    "what": "Usman is a floppy-eared labrador with a medallion tag and no red kerchief.",
    "where": "bottom left dog",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 2
   },
   {
    "key": "k00",
@@ -291,7 +341,10 @@
    "must_fix": true,
    "what": "Gold letter-like marks reading like \"2 l2\" are scrawled on the stone tablet.",
    "where": "left centre, on the tablet",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   },
   {
    "key": "k10",
@@ -315,7 +368,10 @@
    "must_fix": true,
    "what": "The still is a manga page with panel borders and crowds of faces, unlike the rest of the episode.",
    "where": "whole frame",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k69",
@@ -339,7 +395,10 @@
    "must_fix": true,
    "what": "The tambuli is a curved brown tube with a lamp in its end, a horn that is a flashlight.",
    "where": "centre object on the rope",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   },
   {
    "key": "k66",
@@ -459,7 +518,9 @@
    "must_fix": false,
    "what": "A large smiling girl's head is cut off by the bottom-right corner of the frame, unrelated to the carriers.",
    "where": "bottom right corner",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "tries": 1,
+   "kept_original": "one cheap try: the carriers came out as identical childlike faceless figures, not better; original kept"
   },
   {
    "key": "k25",
@@ -471,7 +532,10 @@
    "must_fix": true,
    "what": "The father's arm reaches over his head and ends in a flat fingerless paddle; the hand has no fingers at all.",
    "where": "top centre, hand on his head",
-   "second_reader": "added"
+   "second_reader": "added",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k36",
@@ -483,7 +547,10 @@
    "must_fix": true,
    "what": "The dog is a black-and-white dog with a wide white blaze down its face and drooping ear tips, not Usman's plain black head with one folded ear.",
    "where": "bottom left dog, head",
-   "second_reader": "added"
+   "second_reader": "added",
+   "fixed": true,
+   "fix": "redraw_hands_hidden",
+   "tries": 1
   },
   {
    "key": "k75",
@@ -495,7 +562,11 @@
    "must_fix": true,
    "what": "The dog on the rim has pale blue eyes, a white muzzle blaze, a white paw and both ears hanging, so it is not Usman.",
    "where": "top of frame, dog on the stone rim",
-   "second_reader": "added"
+   "second_reader": "added",
+   "needs_figma": true,
+   "figma_prompt": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.Down a dark shaft: a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm, climbing down alone into the dark; on the rim at the top edge, one dog, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, plain black muzzle, right ear pricked up, left ear folded over at the tip, peers after him. Single image, no panels. Vertical 9:16. No text, no letters, no logos, no watermarks.",
+   "tries": 4,
+   "figma_note": "the dog kept coming out with a white face blaze, white paws or muzzle and both ears up or both hanging; try4 also a white band across its back; Indio himself on model in all four"
   },
   {
    "key": "k38",
@@ -531,7 +602,10 @@
    "must_fix": false,
    "what": "The watch dials carry garbled letter-like marks and scrawled brand words beside the numerals.",
    "where": "centre, faces of the gold watches",
-   "second_reader": "added"
+   "second_reader": "added",
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 1
   }
  ]
 }
