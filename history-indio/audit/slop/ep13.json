@@ -202,10 +202,14 @@
    ],
    "still": "full/heli_deck.jpg",
    "type": "off_model",
-   "must_fix": false,
-   "what": "Indio has orange-brown loose hair with no topknot.",
+   "must_fix": true,
+   "what": "Indio has orange-brown loose hair with no topknot. (Owner pass: the man also had pale skin and a khaki jacket over a black tee, not Indio's open silk shirt, sunglasses, three gold watches and red handkerchief.)",
    "where": "head of the man at the helicopter",
-   "second_reader": "confirmed"
+   "second_reader": "confirmed",
+   "drift_fix": true,
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   },
   {
    "key": "k90",
@@ -318,6 +322,21 @@
    "what": "The white convertible's yellow number plate is garbled letter-and-digit marks.",
    "where": "lower-left, rear plate of the front car",
    "second_reader": "added"
+  },
+  {
+   "key": "k103",
+   "shots": [
+    103
+   ],
+   "still": "full/phone_post.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio's hands on the phone are pale pink, no red handkerchief shows, and a large blue-haired half-face with a glinting eye looms behind the phone.",
+   "where": "both hands; upper right behind the phone",
+   "drift_fix": true,
+   "fixed": true,
+   "fix": "redraw",
+   "tries": 2
   }
  ]
 }
