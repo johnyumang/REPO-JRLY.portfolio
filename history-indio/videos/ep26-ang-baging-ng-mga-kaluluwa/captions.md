@@ -31,11 +31,11 @@ Kung may makikita kang isang sagot, pero kapalit ang dating sugat, susubukan mo 
 **Tags:** history indio, biringan, shipibo konibo, amazon, peru, kene, vision, kasaysayan, pinoy anime, indio at usman, time travel
 
 ## TikTok
-Sarado ang Biringan. Ang daan, nasa isang pangitain sa gubat ng Amazon. 🌿 Ang ipinapakita ay ayon sa mga pag-aaral; huwag gayahin, bawal ito sa Pilipinas. Kathang-isip sina Indio at Usman; kuwentong-bayan ng Samar ang Biringan. #HistoryIndio #Biringan #PinoyAnime
+Sarado ang Biringan. Ang daan, nasa isang pangitain sa gubat ng Amazon. 🌿 Ang ipinapakita ay ayon sa mga pag-aaral; huwag gayahin, bawal ito sa Pilipinas. Kathang-isip sina Indio, M at Usman, si Maestra Adela, ang diwa, ang dayuhan at ang daan; kuwentong-bayan ng Samar ang Biringan, at kuwentong-bayan ang Bakunawa; totoo ang kasaysayan. #HistoryIndio #Biringan #PinoyAnime
 
 ## Instagram
 Isang gabi sa pampang ng Ucayali. Isang ahas na kasinlaki ng ilog. Isang babae sa pinto. 🌿
-Ang pangitain ay hindi patunay. Huwag gayahin; mapanganib at bawal sa Pilipinas ang pangunahing sangkap nito (RA 9165). Kathang-isip sina Indio, M at Usman.
+Ang pangitain ay hindi patunay. Huwag gayahin; mapanganib at bawal sa Pilipinas ang pangunahing sangkap nito (RA 9165). Kathang-isip sina Indio, M at Usman, si Maestra Adela, ang diwa, ang dayuhan at ang daan; kuwentong-bayan ng Samar ang Biringan, at kuwentong-bayan ang Bakunawa; totoo ang kasaysayan.
 #HistoryIndio #Biringan #ShipiboKonibo
 
 ## Pinned comment (sources)

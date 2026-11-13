@@ -1,0 +1,19 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 29,
+   "text": "Kathang-isip: kami ni Usman, si M at ang bata, ang mga medalyon, ang Huling Tala, ang boses sa tanso."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 30,
+   "text": "Totoo si Rajah Sulayman ng Maynila: lumaban sa Espanyol noong 1570, hindi namatay sa Bangkusay.",
+   "why": "A statement about the real record (who Sulayman was, and a common mistake about him). It reads naturally after the Pinagtatalunan line."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Pinagtatalunan: kung sino ang nagwagayway ng watawat. / Totoo si Rajah Sulayman ng Maynila: lumaban sa Espanyol noong 1570, hindi namatay sa Bangkusay."
+}

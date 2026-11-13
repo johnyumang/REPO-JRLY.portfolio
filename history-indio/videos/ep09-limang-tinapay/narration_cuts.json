@@ -1,0 +1,33 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 69,
+   "text": "Kathang-isip: kami nina M at Usman, ang mga medalyon, lente, mapa, bituin at ilawan."
+  },
+  {
+   "index": 75,
+   "text": "Kathang-isip ang kuwento ng pamilya: ang mga anito sa tanso, ang kapalaran nila, at ang paghahanap ni Lolo Pepe."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 10,
+   "text": "Sa kuwento ng pamilya n'yo, bawat medalyon ay dating anito ng isang datu.",
+   "why": "Plot dialogue spoken by M inside the story, not a disclaimer. It also tells the viewer this is family lore."
+  },
+  {
+   "index": 70,
+   "text": "Wala ang ilawan sa salaysay ng Biblia.",
+   "why": "A fact about the scripture text itself. In a scripture episode it keeps the series' added lamp apart from the Gospel account, and it follows naturally after 'Walang taon sa teksto ...'."
+  },
+  {
+   "index": 71,
+   "text": "Totoo: nag-aral si Rizal sa Espanya, Pransiya at Alemanya, at dumaan sa Hapon, Amerika at Inglatera.",
+   "why": "The real record about Rizal. It sets his real travels against the invented medallion search."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Walang taon sa teksto, at tantiya lang ang taong tatlumpu. / Wala ang ilawan sa salaysay ng Biblia. || Marami siyang wika, pero ang bilang na dalawampu't dalawa ay sikat, hindi tiyak. / Tatlong hiling sa bulsa ko; ngayon ko lang naisip kung para kanino."
+}

@@ -35,14 +35,14 @@ Mag-subscribe para sa susunod na talon.
 
 ## TikTok
 EP 6 🕯️ Unang beses nakatabi ni Indio si M, sa umagang binaril si Rizal. Tapos nawala ang medalyon. Kung ikaw ang naiwan sa 1896, saan ka pupunta?
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, Usman, si M at ang medalyon; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #kasaysayan #philippinehistory #timetravel #pinoyanime #fyp #foryou #pinoytiktok
 
 ## Instagram Reels
 Episode 6: ang huling umaga. 🕯️ Bagumbayan, 1896. Isang pulang payong, isang medalyong nawala, at isang asong hindi na naglaho.
 Kung ikaw ang naiwan sa 1896, saan ka unang pupunta? 👇
-Kathang-isip sina Indio at Usman; totoo ang kasaysayan.
+Kathang-isip sina Indio, Usman, si M at ang medalyon; totoo ang kasaysayan.
 
 #historyindio #joserizal #rizalday #bagumbayan #philippinehistory #kasaysayanngpilipinas #timetravel #pinoyanime #kasaysayan
 
