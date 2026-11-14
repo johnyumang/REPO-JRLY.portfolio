@@ -9,7 +9,7 @@ keys_dir: k00.png ... one keyframe per sentence. Depth comes from Depth-Anything
 import json, os, subprocess, sys
 import numpy as np, cv2
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-import soundtrack, subtitles, branding, puppet_still, depth3d
+import soundtrack, subtitles, branding, puppet_still, depth3d, sound_design
 from PIL import Image as _I
 try: print('checkout', subprocess.run(['git', '-C', HERE, 'rev-parse', '--short', 'HEAD'], capture_output=True, text=True, timeout=20).stdout.strip() or '? (not a git checkout)', flush=True)   # which code ran
 except Exception: print('checkout ? (git not available)', flush=True)
@@ -166,7 +166,8 @@ deps = depth_maps(sorted({paths[s_[0]] for s_ in shots if len(s_) < 8 and not ri
 lens = [b - a_ for _, a_, b, *_ in shots]; print('shots', len(shots), 'min %.1f max %.1f avg %.1f' % (min(lens), max(lens), sum(lens) / len(lens)), flush=True)
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
-    mix = os.path.join(work, 'mix.wav'); print(soundtrack.make(voice, [s[1] for s in shots[1:]], [s[1] for s in shots if 'flash' in s[4]], mix), flush=True)
+    mix = os.path.join(work, 'mix.wav')                                                     # sound.json in vdir: the designed mix (sound_design.py); none: as before
+    print(sound_design.soundtrack_for(vdir, tim, voice, mix, [s[1] for s in shots[1:]], [s[1] for s in shots if 'flash' in s[4]], src=SRC), flush=True)
     print(subtitles.make(tim, os.path.join(work, 'subs.ass')), 'subtitle lines'); cmd_a = ['-i', mix, '-vf', 'subtitles=subs.ass', '-c:a', 'aac', '-b:a', '192k', '-shortest']
 ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(fps), '-i', '-'] + cmd_a +
                       ['-c:v', 'libx264', '-crf', '21', '-maxrate', '5000k', '-bufsize', '10000k', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out], stdin=subprocess.PIPE, cwd=work)
