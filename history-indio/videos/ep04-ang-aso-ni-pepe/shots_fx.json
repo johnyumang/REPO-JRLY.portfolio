@@ -7,8 +7,8 @@
 "move": "push_in",
 "keys": [
 0,
-50,
-51
+25,
+27
 ]
 },
 "1": {
@@ -29,7 +29,8 @@
 "fx": [
 "sparkle"
 ],
-"move": "pull_out"
+"move": "pull_out",
+"key": 2
 },
 "4": {
 "fx": [],
@@ -37,7 +38,8 @@
 },
 "5": {
 "fx": [],
-"move": "pull_out"
+"move": "pull_out",
+"key": 4
 },
 "6": {
 "fx": [],
@@ -45,7 +47,8 @@
 },
 "7": {
 "fx": [],
-"move": "pan_right"
+"move": "pan_right",
+"key": 6
 },
 "8": {
 "fx": [
@@ -183,7 +186,8 @@
 "fx": [
 "punch"
 ],
-"move": "pull_out"
+"move": "pull_out",
+"key": 30
 },
 "32": {
 "fx": [
@@ -195,14 +199,16 @@
 "fx": [
 "sparkle"
 ],
-"move": "pull_out"
+"move": "pull_out",
+"key": 18
 },
 "34": {
 "fx": [
 "sparkle",
 "aura_blue"
 ],
-"move": "pull_out"
+"move": "pull_out",
+"key": 11
 },
 "35": {
 "fx": [
@@ -251,7 +257,8 @@
 "fx": [
 "sparkle"
 ],
-"move": "push_in"
+"move": "push_in",
+"key": 27
 },
 "43": {
 "fx": [
@@ -262,8 +269,8 @@
 "move": "pull_out",
 "keys": [
 43,
-52,
-53
+0,
+43
 ]
 }
 }
