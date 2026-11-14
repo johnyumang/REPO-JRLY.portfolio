@@ -1,55 +1,64 @@
-# Shots — Episode 1 (version 2)
+# Shots — Episode 1 (version 2), as built
 
-One row per shot. "Sent." = index in `sentences.json` spoken over the shot. The picture is what the stage line
-of the master script says; nothing is shown that the script does not give. "Still": NEW = must be drawn;
-KEPT = a still of `videos/ep01-ang-unang-talon/keys` can serve (by its old sentence number). Characters from
-`characters/series_cast.json`, verbatim. No readable writing on any paper, sign or tarpaulin except where noted.
-Never the same framing twice in a row; nobody just standing.
+One row per shot, in order. "Sent." = index in `sentences.json` (87 sentences after the owner's additions of 14 November:
+Oriang and Bonifacio's tender beat, Islaw's "Ang Supremo.", Bonifacio's cry). "Still" = the file in `full/` (bk_NN =
+drawn for this version in the Bakunawa look; old_kNN = kept from `videos/ep01-ang-unang-talon/keys`). Every still is
+used once. Lines that share a still hold one continuous camera move (`shots_fx.json` "hold_same_key"): no cut back into
+the same still. Writing in pictures is added in code (see `key_prompts.json` "_note").
 
-| # | Sent. | Scene | What we see (action) | Framing and move | Still |
-|---|---|---|---|---|---|
-| 1 | 0 | Hook | A blade edge and torchlight on Indio's neck; his eyes wide | extreme close-up, shake | NEW |
-| 2 | 1 | Hook | Hundreds of hands tearing small papers, torches | low angle, push in | KEPT (old s24) |
-| 3 | 2-3 | Hook | A black dog leaping out of gold light toward us; Indio flinches | wide, pull out | KEPT (old s18) |
-| 4 | 4-5 | Window | QC street, morning, a queue along a wall; Indio near the front holding a folder | high wide, tilt down | NEW |
-| 5 | 6 | Window | Indio leaning to a glass window, sliding the folder in | over the shoulder | NEW |
-| 6 | 7-9 | Window | A woman's hand pushes the folder back without looking up | close-up on hands | NEW |
-| 7 | 10-11 | Window | The queue behind him; one man laughing; Indio's small dry smile | two-shot, pan left | NEW |
-| 8 | 12-13 | Pawnshop | A pawnshop door at noon; over it three small slanted strokes; Indio going in | low angle, push in | NEW |
-| 9 | 14 | Pawnshop | Indio lays the bronze medallion on the counter | close-up on hands and medallion | KEPT (old s9) |
-| 10 | 15-16 | Pawnshop | Under the counter: a helper's rust-stained hand presses the medallion into a lump of wax | close-up from below, slow push | NEW |
-| 11 | 17 | Pawnshop | Indio takes it back, shrugging at the pawnbroker (face in shadow) | over the shoulder | NEW |
-| 12 | 18-19 | Shrine | Rain bursts; Indio running, a bread roll held to his chest | wide, pan right, water | KEPT (old s12) |
-| 13 | 20-22 | Shrine | Under the shrine's roof; on the fence a tarpaulin: a smiling young man with a ring light, the name hidden by a stapled flyer; Indio bites the roll | two-plane shot, tarpaulin in foreground | NEW |
-| 14 | 23-24, then thunder | Shrine | Indio reading the marker aloud, lips moving; the medallion glowing; raindrops stopped in the air | close-up, then pull out | KEPT (old s15, s16) |
-| 15 | 25-26 | Shrine | The dog out of the light; Indio falling backward, pointing at it | wide, flash | KEPT (old s18) |
-| 16 | 27-28 | Camp | Night, torches, hundreds of men in a yard; Indio (era outfit, red headband) lands on his knees | crane down | NEW |
-| 17 | 29-33 | Camp | Two hands grab his arms; a boy of twelve steps in with an itak raised; a lean Katipunero holds out his palm for a paper; men around them each hold a small folded paper | low angle on Islaw | NEW |
-| 18 | 34-38 | Camp | Indio pats his empty pockets, then glances at us sideways | close-up, eyes to camera | NEW |
-| 19 | 39-40 | Camp | A lean Katipunero ties Indio's wrists; the blade at his neck; the bread roll falls in the dust | close-up on rope, then on the roll | NEW |
-| 20 | 41-42 | Camp | Indio's face and the blade; Usman behind the men's legs, watching | tight two-plane, shake | NEW (same set as shot 1) |
-| 21 | 43-45 | Comeback | Usman's face low to the ground, speaking | close-up, push in | NEW |
-| 22 | 46-49 | Comeback | Indio lifts his head and says it plainly to the boy | medium, still | NEW |
-| 23 | 50-51 | Comeback | Islaw's itak sinking; he whispers | close-up on the boy's eyes | NEW |
-| 24 | 52-53 | Comeback | Camp dogs sniff Indio, eat the roll, lie down at his feet | high angle | NEW |
-| 25 | 54-55 | Comeback | Islaw cutting the rope | close-up on hands | NEW |
-| 26 | 56-58 | Show-off | Indio walking; every dog in the camp follows him in one long line; men step aside; the lean Katipunero stares | wide tracking shot, pan right | NEW |
-| 27 | 59-61 | History | Indio asks; Islaw shrugs at the dark fields around them | wide, slow pan over unnamed open country | NEW |
-| 28 | 62-63 | History | Usman growling at the dark, hackles up | low close-up | NEW |
-| 29 | 64 | History | Far off among torches, a leader seen from behind raises a small paper and tears it | long shot, tilt up, embers | NEW (no face, no likeness) |
-| 30 | 65 | History | Hundreds tear theirs; papers in the air like sparks | low angle, punch | KEPT (old s24) |
-| 31 | 66-67 | History | Islaw, torchlit, explaining with a torn scrap he picked up | two-shot | NEW |
-| 32 | 68 | History | Indio looking up at the falling scraps | close-up, push in | KEPT (old s26) |
-| 33 | (silent) | History | Islaw has nothing to tear; he raises a fist; Indio raises his beside it | from behind, two fists against the torches | NEW |
-| 34 | 69 | History | Indio's hands turning to gold light; Islaw reaching after him, calling | medium, from behind Islaw | NEW |
-| 35 | 70-72 | Return | In the light, Usman fading tail first; a thin line burning onto Indio's forearm; raindrops start to fall again | close-up, water | NEW |
-| 36 | 73-76 | Return | Indio alone under the shrine roof, no dog; on his forearm one indigo line, still smoking; he winces, then smiles at the empty place beside him | medium, pull out | KEPT (old s36) with the smoke added, or NEW |
-| 37 | 77 | Return | Across the street, under a lamp post, a woman soaked by the rain, looking straight at him. No umbrella, no coat | long shot through rain | NEW (not the old red-umbrella still) |
-| 38 | 78-79 | Sting | The pawnshop at night, one light on; the helper lifts the wax to the bulb: the whole face of the medallion in it; a rusty nail between his teeth | close-up, slow push, then black | NEW |
-| 39 | 80 | Question | The question as text over Indio's marked arm | still | NEW |
-| 40 | trivia | After | Chibi Indio and chibi Usman, the trivia card | existing trivia layout | existing sprites |
-New stills: 31. Kept from the first version: 9. No shot of Indio simply standing.
-Notes for the picture machine: the pawnbroker's face is never shown (shadow, hands, a ring is NOT drawn yet);
-the helper's right hand is rust-brown; the three slanted strokes are small and plain, never a real logo; the woman
-of shot 37 is a Filipina of about fifty in a plain dress (in Episode 48 she is his mother), not the red-umbrella
-woman of `series_cast.json`.
+| # | Sent. | What we see | Still |
+|---|---|---|---|
+| 1 | 0 | Hook: the bolo blade level before Indio's chin, torchlight, his eyes wide | bk_01 |
+| 2 | 1 | Hook: a Katipunero tearing a small paper (kept, version 1) | old_k24 |
+| 3 | 2-3 | Hook: the black dog leaping out of gold light (kept, version 1) | old_k18 |
+| 4 | 4-5 | QC morning: Indio in the long queue along a pale wall, folder to his chest | bk_04 |
+| 5 | 6 | Over the shoulder: Indio slides his folder through the glass slot | bk_05 |
+| 6 | 7-9 | The clerk's hand pushes the folder back | bk_06 |
+| 7 | 10-11 | The man in the queue laughs; Indio's small dry smile | bk_07 |
+| 8 | 12-13 | Noon: the pawnshop door; on the sign three slanted strokes and SANGLAAN (in code) | bk_08 |
+| 9 | 14 | Indio's hand lays the medallion on the glass | bk_09 |
+| 10 | 15-16 | Under the counter: a rust-stained hand presses the medallion into wax | bk_10 |
+| 11 | 17 | Over the pawnbroker's shoulder (face never seen): Indio shrugs | bk_11 |
+| 12 | 18-19 | Rain: Indio running (kept, version 1) | old_k12 |
+| 13 | 20-22 | Under the shrine roof: the tarpaulin HERITAGE WALK / kasama si (in code), the flyer over the name; Indio bites the roll | bk_13 |
+| 14 | 23 | The marker, PUGAD LAWIN 1896 (kept, version 1) | old_k14 |
+| 15 | 24 | Raindrops stopped in the air (kept, version 1) | old_k16 |
+| 16 | 25-26 | Indio falls back; the dog in a burst of gold light | bk_15 |
+| 17 | 27-28 | Crane down: Indio lands on his knees inside a ring of torches | bk_16 |
+| 18 | 29-30 | Low angle: Islaw blocks the way, bolo hanging; the lean Katipunero behind | bk_17 |
+| 19 | 31-33 | The lean Katipunero holds out his palm for the paper | bk_45 |
+| 20 | 34-36 | Indio's nervous half-smile to us | bk_18 |
+| 21 | 37-38 | Indio's aside: half his face in the dark, whispering to us | bk_46 |
+| 22 | 39-40 | Wrists tied; the bread roll falls in the dust | bk_19 |
+| 23 | 41-42 | On his knees, a bolo held level near him; Usman watching between the men's legs | bk_20 |
+| 24 | 43-45 | Usman low to the ground, speaking | bk_21 |
+| 25 | 46-49 | Indio lifts his head and says it plainly | bk_22 |
+| 26 | 50-51 | Islaw's wet eyes, whispering | bk_23 |
+| 27 | 52-53 | High angle: the camp dogs eat the roll and lie down at his knees; Usman sits apart | bk_24 |
+| 28 | 54-55 | A boy's hands untie the rope | bk_25 |
+| 29 | 56-58 | Indio walks; the dogs follow in a line led by Usman; the lean Katipunero stares | bk_26 |
+| 30 | 59-61 | Indio and Islaw in profile at the edge of the dark fields; Islaw shrugs | bk_27 |
+| 31 | 62-63 | Usman growls at the dark | bk_28 |
+| 32 | 64 | Far off, the leader seen from behind among the torches | bk_29 |
+| 33 | 65-66 | Oriang ties the red neckerchief at Bonifacio's neck; foreheads touch (owner's order) | bk_40 |
+| 34 | 67 | Her hand on his chest, his hand over hers | bk_41 |
+| 35 | 68 | Indio, Islaw and Usman watch from the dark grass | bk_42 |
+| 36 | 69-70 | Bonifacio steps into the light, face seen, shouting, the cedula held high and tearing | bk_43 |
+| 37 | 71 | Close: two hands tear the cedula; torches and fists behind | bk_44 |
+| 38 | inside 71 | The crowd tears theirs, scraps like sparks (inside sentence 71) | bk_30 |
+| 39 | 72-73 | Islaw, torchlit, explains with a torn scrap | bk_31 |
+| 40 | 74 | Indio looks up at the falling scraps | bk_32 |
+| 41 | inside 74 | From behind: two raised fists against the torches (silent, inside sentence 74) | bk_33 |
+| 42 | 75 | Islaw reaches after Indio, who dissolves into gold light | bk_34 |
+| 43 | 76-78 | Usman fading into gold sparks; rain begins | bk_35 |
+| 44 | 79-82 | Back under the shrine roof: the new indigo line on his arm, a wisp of steam | bk_36 |
+| 45 | 83 | Across the street under a lamp: a soaked woman of about fifty, looking at him | bk_37 |
+| 46 | 84-85 | The pawnshop at night: the helper lifts the wax to the bulb, a nail between his teeth | bk_38 |
+| 47 | 86 | His marked arm on a wet railing; the question in code | bk_39 |
+
+47 shots, 47 stills: 42 drawn new, 5 kept from version 1 (old_k24, old_k18, old_k12, old_k14, old_k16). The trivia
+("Patalastas ni Usman") follows the last line as its own clip with the chibi sprites and the sticker `trivia/stickers/ep01.png`.
+Notes for the picture machine: the pawnbroker's face is never shown; the helper's right hand is rust-brown; the villains'
+sign is three slanted strokes (never a triangle); the woman of shot 45 is a Filipina of about fifty in a plain dress (not
+the red-umbrella woman); Bonifacio: clean-shaven, short hair combed back, white camisa, red neckerchief, no hat; Oriang:
+an adult of 21, hair in a bun, cream baro and dark red saya.

@@ -142,6 +142,7 @@ if _note: print(_note, flush=True)
 _rn = narration_cuts.renumbered_shots(FX, SRC)
 if len(_rn) >= 2: sys.exit(f'shots_fx.json was renumbered by hand for this cut (entries {_rn[:6]}... carry "key" of the next sentence): restore the original from git; the map does the rest.')
 total = tim[-1]['end'] + 0.8; shots = []
+HOLD = bool(FX.get('_', {}).get('hold_same_key'))                                         # shots_fx.json "_": {"hold_same_key": true}: no jump back into the same still
 for i, s in enumerate(tim):
     start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
     cfg = FX.get(str(SRC[i]), {}); mv = cfg.get('move', MOVES[SRC[i] % len(MOVES)]); fx = list(cfg.get('fx', []))
@@ -155,7 +156,9 @@ for i, s in enumerate(tim):
         ks = cfg['keys']; step = (end - start) / len(ks)
         for j, kk in enumerate(ks): shots.append((kk, start + j * step, start + (j + 1) * step, ['push_in', 'pull_out'][j % 2], fx, 1.0, (0.5, 0.5)))
         continue
-    if end - start > 6.2:                                                                    # cut-in on long lines
+    if HOLD and shots and shots[-1][0] == i and len(shots[-1]) == 7 and shots[-1][2] == start and not cfg.get('keys'):
+        shots[-1] = shots[-1][:2] + (end,) + shots[-1][3:]; continue                        # "hold_same_key": the next line on the same still continues the same move
+    if end - start > 6.2 and not HOLD:                                                       # cut-in on long lines
         mid = start + (end - start) * 0.52
         shots.append((i, start, mid, mv, fx, 1.0, (0.5, 0.5))); shots.append((i, mid, end, 'push_in' if mv != 'push_in' else 'pan_right', [f for f in fx if f not in ('punch', 'shake', 'flash')] + ['punch'], 1.42, tuple(cfg.get('focus', (0.5, 0.36)))))
     else: shots.append((i, start, end, mv, fx, 1.0, (0.5, 0.5)))

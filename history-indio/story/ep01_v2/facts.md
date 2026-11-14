@@ -13,7 +13,10 @@ noted there still hold (rows rest on search snippets; no primary account and no 
 | s27 | "Agosto 1896" | Confirmed: the Cry was in August 1896. Wikipedia, Cry of Pugad Lawin; Pinaglabanan Shrine |
 | s28 | "sa labas ng Maynila", no place named | Deliberate: date and place are disputed (Valenzuela, Masangkay, Alvarez; Guerrero, Encarnacion and Villegas 1996; Borromeo-Buehler 1998). Every candidate site lay outside the Manila of 1896. ncca.gov.ph/?p=1885; Philippine Studies 47:4 (1999) |
 | s31 | "May nagsumbong sa amin sa Kastila nitong linggo" | Confirmed: the Katipunan was exposed on 19 August 1896 (Teodoro Patiño to Fr. Mariano Gil). Wikipedia, Diario de Manila; newsinfo.inquirer.net/?p=1011367 |
-| Scene 6, stage line | A leader and hundreds of men tear their cedulas | Confirmed as the traditional account; Bonifacio led the gathering; the number is soft, so "daan-daan". He is seen from far, from behind, with no words and no name spoken. Wikipedia; pna.gov.ph opinion piece 739 |
+| Scene 6, stage lines | A leader and hundreds of men tear their cedulas | Confirmed as the traditional account; Bonifacio led the gathering; the number is soft, so "daan-daan". He is first seen from far, from behind, then steps into the light (owner's order, 14 Nov). Wikipedia; pna.gov.ph opinion piece 739 |
+| s70 (BONIFACIO) | "Punitin ang mga cedula!" | The tearing of cedulas in August 1896 under Bonifacio is attested (the accounts of Pío Valenzuela and others). The exact words he used are TRADITION, not a verbatim record: the accounts differ and none is a transcript. The line is given as the traditional cry; the trivia after the story does not call it a recorded quote |
+| s69 (ISLAW) | "Ang Supremo." | Bonifacio was the Supremo of the Katipunan in 1896 (title of the head of the Kataastaasang Sanggunian). Wikipedia, Katipunan |
+| s65 to s67 (ORIANG, BONIFACIO) | Gregoria de Jesús, "Oriang", his wife | TRUE: she married Bonifacio in 1893 and was a member of the Katipunan (keeper of its papers; "Lakambini"); born 1875, so 21 in August 1896. INVENTED: her presence at the tearing of the cedulas and every word of this exchange. Wikipedia, Gregoria de Jesús |
 | s65 | "Mabuhay ang Pilipinas!" | Reported in Valenzuela's version; the wording varies by account. Given to the crowd, not to a named person |
 | s66 to s67 | The cedula was a tax under Spain | Confirmed in outline (cédulas personales, 1885; also an identity paper). archium.ateneo.edu/history-faculty-pubs/114 (2023); newsinfo.inquirer.net/387567. "Wala nang atrasan" is the character's own reading |
 | s59 to s63 | Nobody there can name the place; "pag-aawayan nila kung saan mismo ito nangyari" | The dispute over the place, as above. This replaces the spoken fairness block of version 1 |
@@ -28,7 +31,9 @@ mga kuwento ni Lolo"; the Rizal link is Episode 4's to tell).
 | Invented | Note |
 |---|---|
 | Indio, the Lolo's medallion, the jump, Usman, the first mark, the woman across the street | As before |
-| **Islaw**, a boy guard of about twelve, and everything he says | An invented, unnamed-in-history child. No real Katipunero is given words |
+| **Islaw**, a boy guard of about twelve, and everything he says | An invented, unnamed-in-history child |
+| Oriang tying the red kerchief at his neck, their words before the shout, her being there at all | Invented (owner's order of 14 Nov: one short tender moment for the hero's wife). Both drawn as adults; touch limited to hands and forehead |
+| Bonifacio's words to Oriang ("Kaya nga pupunitin ko. Para may uuwian ang lahat.") | Invented. Only his cry before the tearing is traditional (see section 1) |
 | The Katipunero who calls Indio a spy; Indio seized and tied; the camp dogs | Invented. Nothing here changes the event: the tearing happens as the sources tell it |
 | The office window, the man in the queue, the pawnshop, its helper, the wax print, the three slanted strokes, the nail | Invented; no real shop or employer is shown or named |
 | The tarpaulin "Heritage Walk kasama si ..." | Invented; no real tour, person or sponsor. The face is a generic drawn figure (Rico Bulan, named in Episode 17) |
@@ -39,7 +44,8 @@ Sigaw noong Agosto 1896. Pinagtatalunan pa ang eksaktong petsa at lugar."
 
 ## 3. Guard rails checked for this script
 
-- No real person speaks. The leader is a far figure, from behind. No likeness.
+- Two real people speak, by the owner's order of 14 Nov: Bonifacio (the traditional cry, plus two invented words to his wife) and Gregoria de Jesús (invented words, marked above). Their faces are generic drawn figures (Bonifacio: short hair combed back, clean-shaven, white camisa, red kerchief), not a photographic likeness. No living person.
+- The trivia after the story does not say that Oriang was at the tearing and does not call "Punitin ang mga cedula!" a recorded quote.
 - No living person, party or firm. No real shop sign; the three slanted strokes are an invented mark.
 - The real outcome stands: the cedulas are torn; Indio causes nothing and stops nothing.
 - No sentence in the story says that anything is invented. The trivia is after the last line.

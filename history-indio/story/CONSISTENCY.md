@@ -336,3 +336,14 @@ Ep9 s78), "season" (Ep21 s4, Ep22 s30, Ep23 s30, Ep25 s48).
 - Ep37: "Saksi ako." Ep38: "Wala nang akin dito." Ep40: Rico Bulan's name left on the list.
 - Ep42: the Bakunawa was guarding the moon. Ep48: he lowers the sword. Ep50: the child reads the marker and
   nothing happens.
+
+## Standing rules from the owner (14 November 2026)
+
+1. **The hero's line.** When a significant hero of history appears, he or she speaks his or her iconic line on camera,
+   in his or her own designed voice (never a clone), as the high point of the scene. Only significant heroes, and only
+   lines that are attested or firmly traditional; the episode's `facts.md` says which, and the trivia never calls a
+   traditional line a recorded quote. (First use: Episode 1, Bonifacio, "Punitin ang mga cedula!")
+2. **The tender moment.** Where a significant hero had a wife or partner, give them one short tender moment per
+   episode (about 8 to 10 seconds, close warm framing, before the hero's high point). Every such character is drawn
+   and written as an adult; touch is limited to hands, forehead and a brief embrace (no kiss on the mouth, nothing
+   suggestive); `facts.md` marks what is invented (presence, words). (First use: Episode 1, Gregoria de Jesús.)

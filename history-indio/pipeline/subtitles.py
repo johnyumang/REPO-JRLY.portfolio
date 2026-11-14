@@ -30,6 +30,7 @@ WrapStyle: 2
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sub,DejaVu Sans,74,&H0000E4FF,&H0000E4FF,&H001F121F,&H961F121F,1,0,0,0,100,100,0,0,1,7,3,2,60,60,650,1
+Style: Shout,DejaVu Sans,100,&H0000E4FF,&H0000E4FF,&H001F121F,&H961F121F,1,0,0,0,100,100,1,0,1,9,4,2,40,40,640,1
 Style: Who,DejaVu Sans,40,&H00FFFFFF,&H00FFFFFF,&H001F121F,&H961F121F,1,0,0,0,100,100,2,0,1,5,2,2,60,60,742,1
 
 [Events]
@@ -41,11 +42,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for s in timings:
         if tag and s.get('speaker'):                                                         # colour per speaker (ASS colours are &HBBGGRR)
             col = TAG_COLOURS[order.index(s['speaker']) % len(TAG_COLOURS)]; name = s['speaker'] + (' (SA ATIN)' if s.get('aside') else '')
-            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,0,,{{\\fad(40,0)\\c{col}}}{name}")
+            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,{790 if s.get('style') == 'shout' else 0},,{{\\fad(40,0)\\c{col}}}{name}")
         cs = chunks(s['text'].replace('\n', ' ').split()); total = sum(len(' '.join(c)) for c in cs); t = s['start']
         for i, c in enumerate(cs):
             txt = ' '.join(c); d = (s['end'] - s['start']) * len(txt) / total; end = s['end'] if i == len(cs) - 1 else t + d
-            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},Sub,,0,0,0,,{{\\fad(40,0)}}{txt.upper()}")
+            st = 'Shout' if tag and s.get('style') == 'shout' else 'Sub'                   # a shouted line of a multi-voice episode: big, centred
+            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},{st},,0,0,0,,{{\\fad(40,0)}}{txt.upper()}")
             t = end
     open(path, 'w', encoding='utf-8').write(head + '\n'.join(lines) + '\n'); return len(lines)
 

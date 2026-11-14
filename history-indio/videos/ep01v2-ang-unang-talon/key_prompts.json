@@ -1,5 +1,5 @@
 {
- "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (pipeline/flux_hq.py style through a sequential drawer: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Shot 33 (silent) is key 90, shown inside sentence 68.",
+ "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (pipeline/flux_hq.py style through a sequential drawer: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Silent shot 41 (two fists) is key 90, shown inside sentence 74; the crowd answer (shot 38) is key 91, shown inside sentence 71 after the hands tearing. Scene 6 has the owner's additions of 14 Nov: Oriang and Bonifacio (bk_40, bk_41), the watchers (bk_42), Bonifacio's shout (bk_43), the tear (bk_44). bk_45 and bk_46 break the two long holds of the camp scene.",
  "look": "bakunawa",
  "look_cast": {
   "cast": {
@@ -14,7 +14,9 @@
    "islaw": "a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck",
    "katip": "a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers",
    "indio_wet": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, soaking wet from the rain",
-   "woman50": "a Filipina woman of about fifty, short greying black hair plastered by the rain, a plain faded blue cotton house dress, soaked through, no umbrella, no coat, arms at her sides"
+   "woman50": "a Filipina woman of about fifty, short greying black hair plastered by the rain, a plain faded blue cotton house dress, soaked through, no umbrella, no coat, arms at her sides",
+   "boni": "a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat",
+   "oriang": "a young Filipina woman of twenty-one, clearly an adult, slim, warm brown skin, black hair in a neat low bun, gentle dark eyes, a light cream baro blouse with wide sheer sleeves and a long dark red saya skirt"
   },
   "places": {
    "qc_street": "a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere",
@@ -298,6 +300,55 @@
   "old_k16": {
    "kept_from": "videos/ep01-ang-unang-talon/keys/k16.png",
    "prompt": "Very wide low-angle shot: thousands of raindrops frozen motionless in mid-air above a wet empty street at night, each drop glowing softly gold. No people, no animals. | a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere, a parked jeepney, street lamps. | deep blue night, golden light glowing inside every frozen drop, mirror reflections on the wet road, richly painted, detailed ink linework, textured brushwork."
+  },
+  "bk_40": {
+   "subject": "Close warm two-shot in profile at the edge of the torchlight: a young Filipina woman of twenty-one, clearly an adult, slim, warm brown skin, black hair in a neat low bun, gentle dark eyes, a light cream baro blouse with wide sheer sleeves and a long dark red saya skirt, tying a red neckerchief at the neck of a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, dark trousers, a bolo in a sheath at his waist, no hat; their foreheads touching, eyes closed, a tender quiet moment. Both faces in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "warm torch glow from one side, soft golden rim light, the background torches melted into soft bokeh, shallow depth of field, embers, intimate and quiet, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "Oriang tender beat 1"
+  },
+  "bk_41": {
+   "subject": "Close shot: a young Filipina woman of twenty-one, clearly an adult, slim, warm brown skin, black hair in a neat low bun, gentle dark eyes, a light cream baro blouse with wide sheer sleeves and a long dark red saya skirt, her hand resting flat on the chest of a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, his hand covering hers, she looks up into his face, he looks down at her, foreheads almost touching. Both faces in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "warm torch glow from one side, soft golden rim light, the background torches melted into soft bokeh, shallow depth of field, embers, intimate and quiet, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Oriang tender beat 2"
+  },
+  "bk_42": {
+   "subject": "Medium shot from the dark behind tall grass: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, and a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck, crouching side by side, watching something far away with wide eyes, faces lit faintly by distant torch glow; a body-width apart beside them, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Faces in the upper half.",
+   "setting": "tall dark grass at the edge of a camp on a night in August 1896, torches far away",
+   "light": "deep darkness, only a faint warm torch glow on their faces from far away, cool moonlight rim, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "watchers"
+  },
+  "bk_43": {
+   "subject": "Low-angle front shot: a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, stepping into blazing torchlight, shouting with his mouth wide open, holding a small old paper certificate high above his head in both hands, starting to tear it in two; his face fully lit. His face and the paper in the upper half of the picture. The paper is blank.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange torchlight full on his face, deep black night behind, embers swirling, rim light, smoke, night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Bonifacio shout"
+  },
+  "bk_44": {
+   "subject": "Close-up: two strong hands tearing a small old paper certificate in two, the torn edge glowing in firelight, the white camisa sleeves at the edges; behind, out of focus, torches and many raised fists. The paper is blank, with a small round red stamp. The hands in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "the tear"
+  },
+  "bk_45": {
+   "subject": "Close shot, low angle: a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, holding out one open palm toward the camera, a thumb and four fingers, his face cold and suspicious, other men behind him holding small folded papers. His face in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Katipunero demand (breaks the long hold of shot 17)"
+  },
+  "bk_46": {
+   "subject": "Extreme close-up of half a young man's face in the dark: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, turned toward the viewer, whispering a secret, eyes sliding sideways to the viewer, torchlight only on the edge of his face. His face in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "deep shadow, a thin orange torchlight edge on his cheek, embers, night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "Indio aside (breaks the long hold of shot 18)"
   }
  },
  "shots": {
@@ -357,109 +408,137 @@
    "full": "old_k14",
    "shot": 14
   },
+  "24": {
+   "full": "old_k16",
+   "shot": 15
+  },
   "25": {
    "full": "bk_15",
-   "shot": 15
+   "shot": 16
   },
   "27": {
    "full": "bk_16",
-   "shot": 16
+   "shot": 17
   },
   "29": {
    "full": "bk_17",
-   "shot": 17
+   "shot": 18
+  },
+  "31": {
+   "full": "bk_45",
+   "shot": 19
   },
   "34": {
    "full": "bk_18",
-   "shot": 18
+   "shot": 20
+  },
+  "37": {
+   "full": "bk_46",
+   "shot": 21
   },
   "39": {
    "full": "bk_19",
-   "shot": 19
+   "shot": 22
   },
   "41": {
    "full": "bk_20",
-   "shot": 20
+   "shot": 23
   },
   "43": {
    "full": "bk_21",
-   "shot": 21
+   "shot": 24
   },
   "46": {
    "full": "bk_22",
-   "shot": 22
+   "shot": 25
   },
   "50": {
    "full": "bk_23",
-   "shot": 23
+   "shot": 26
   },
   "52": {
    "full": "bk_24",
-   "shot": 24
+   "shot": 27
   },
   "54": {
    "full": "bk_25",
-   "shot": 25
+   "shot": 28
   },
   "56": {
    "full": "bk_26",
-   "shot": 26
+   "shot": 29
   },
   "59": {
    "full": "bk_27",
-   "shot": 27
+   "shot": 30
   },
   "62": {
    "full": "bk_28",
-   "shot": 28
+   "shot": 31
   },
   "64": {
    "full": "bk_29",
-   "shot": 29
+   "shot": 32
   },
   "65": {
-   "full": "bk_30",
-   "shot": 30
+   "full": "bk_40",
+   "shot": 33
   },
-  "66": {
-   "full": "bk_31",
-   "shot": 31
+  "67": {
+   "full": "bk_41",
+   "shot": 34
   },
   "68": {
+   "full": "bk_42",
+   "shot": 35
+  },
+  "69": {
+   "full": "bk_43",
+   "shot": 36
+  },
+  "71": {
+   "full": "bk_44",
+   "shot": 37
+  },
+  "91": {
+   "full": "bk_30",
+   "shot": 38
+  },
+  "72": {
+   "full": "bk_31",
+   "shot": 39
+  },
+  "74": {
    "full": "bk_32",
-   "shot": 32
+   "shot": 40
   },
   "90": {
    "full": "bk_33",
-   "shot": 33
+   "shot": 41
   },
-  "69": {
+  "75": {
    "full": "bk_34",
-   "shot": 34
+   "shot": 42
   },
-  "70": {
+  "76": {
    "full": "bk_35",
-   "shot": 35
+   "shot": 43
   },
-  "73": {
+  "79": {
    "full": "bk_36",
-   "shot": 36
+   "shot": 44
   },
-  "77": {
+  "83": {
    "full": "bk_37",
-   "shot": 37
+   "shot": 45
   },
-  "78": {
+  "84": {
    "full": "bk_38",
-   "shot": 38
+   "shot": 46
   },
-  "80": {
+  "86": {
    "full": "bk_39",
-   "shot": 39
-  },
-  "24": {
-   "full": "old_k16",
-   "shot": 14
+   "shot": 47
   }
  }
 }
