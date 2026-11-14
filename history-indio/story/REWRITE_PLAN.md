@@ -46,7 +46,7 @@ lines, so the count rises while the word count holds). The exact count is fixed 
 
 | Ep | New scenes | Cut from the current script | Twist and what is added (BIBLE) | Now -> kept / cut / new |
 |---|---|---|---|---|
-| 1 | Sample written: the job window; the pawnshop (wax print, three triangles); the shrine in the rain (Rico's tarpaulin); the camp, seized; the tearing; back in the rain | s2 intro; s21 to s27 told history; s28 to s33 fairness; s41 follow | Mistaken identity. Islaw; first Udyok unknowing; the woman across the street stays | 42 -> 9 / 33 / 49 |
+| 1 | Sample written: the job window; the pawnshop (wax print, three triangles); the shrine in the rain (Rico's tarpaulin); the camp, seized; the tearing; back in the rain | s2 intro; s21 to s27 told history; s28 to s33 fairness; s41 follow | Mistaken identity. Islaw; first Udyok unknowing; the woman across the street stays | 42 -> 4 / 22 / 77 (written: 81 lines, 367 words) |
 | 2 | The order slip "M"; the empty baluarte; inside the wall, Sepa's kitchen; the gate that will not listen; the rats and the drain; cold pancit | s2; s27 to s36 (ten told sentences: surrender, ransom, Anda, Paris, 1764: to trivia); s34 fairness; s47 follow | He arrives too late. Dinig costs him the pancit. "R.B., five stars." M's tip message | 48 -> 8 / 38 / 44 |
 | 3 | Lola Ising's question (named at once; a red umbrella dries behind the door); the box; Kawit from the back row; he grabs at the woman; Tinong; two medallions | s3; s27 to s30 fairness and label; s36 "ang lolo ng Lolo ko" becomes Lola's guess, said as a guess; s42 follow | Wrong target. First Malas, unknowing. "Lolo Isidro" named. Third mark | 43 -> 9 / 30 / 42 |
 | 4 | The taunt about Rico; the one word "Calamba"; the stone house; the big dog bares its teeth; "Ako 'yan, par"; the karomata leaves; Lola's text | s3; s7 "Isang salita lang ang iniwan niya" stays and s40 "lumang sulat" becomes "may nakita akong sobre, hindi ko pa nabubuksan" (fixes the Lolo's legacy); s28 to s32; s43 | False betrayal. Andoy. "Kaamoy mo siya" | 44 -> 10 / 30 / 42 |
@@ -126,7 +126,7 @@ lines, so the count rises while the word count holds). The exact count is fixed 
 - Voice: 50 of 50 re-voiced; about one line in five can reuse an existing take.
 - Trivia break: 48 files change (`insert_after_sentence` and the lines); Episodes 1 and 2 gain an end trivia.
 - Files per episode when its v2 is written: `script_multispeaker.txt` (master), `script.txt`, `sentences.json`
-  (with `speaker`, and `kind: "stage"` for the unspoken lines), `facts.md` (the old rows kept, plus a table of
+  (spoken lines only, with `speaker`, and `aside: true` for Indio's whisper to the viewer; the unspoken picture lines stay in the master script and in `shots.md`), `facts.md` (the old rows kept, plus a table of
   what is invented), `shots.md` (one row per shot, drawn from the stage lines).
 
 ## 4. Checks before any re-voice (from BIBLE section 12)

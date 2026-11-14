@@ -1,0 +1,98 @@
+# INDIO: ANG SAKSI — Episode 1, "Ang Unang Talon" (version 2, sample of the new form)
+# MASTER script. One line per turn: NAME: [tone] text. Lines in (parentheses) are NOT spoken: they are what the
+# picture shows (see shots.md). script.txt and sentences.json are derived from this file (same words, same order).
+# Speakers: TAGAPAGSALAYSAY (calm storyteller, designed voice; place and time only). INDIO (the clone of the
+# owner's own recording). INDIO (sa atin) = Indio whispering to the viewer, same voice, closer. USMAN (designed
+# voice; only inside the jump). ISLAW (invented boy of about twelve, a camp guard; "friend" voice, boy 1).
+# BABAE SA BINTANA, LALAKI SA PILA, MAY-ARI (the pawnbroker, face never shown), KATULONG (his helper), KATIPUNERO, MGA KATIPUNERO (crowd): invented,
+# unnamed. The leader of the gathering is seen from far, from behind, and says nothing.
+# "Umungol" is always said u-MU-ngol. Spoken words: about 370 in the story, about 55 in the trivia clip after it.
+
+# --- 0. Hook (over three flashes: the itak, the torn paper, the dog in the light)
+INDIO (sa atin): [dramatic] Kaninang umaga, walang cedula, kaya walang trabaho.
+INDIO (sa atin): [dramatic] Ngayong gabi, walang cedula, kaya may itak sa leeg ko.
+INDIO (sa atin): [playful] Ako 'to si Indio. Malas daw ako.
+
+# --- 1. The window. He wants: a job.
+TAGAPAGSALAYSAY: [calm] Quezon City. Umaga.
+(Isang bintana ng opisina. Ibinalik ng babae ang folder ni Indio nang hindi man lang tumitingin.)
+INDIO: [hopeful] Ma'am, pang-anim na apply ko na po ito ngayong buwan.
+BABAE SA BINTANA: [flat] Kulang. Walang cedula, 'yung resibo ng buwis mo. Tatawagan ka na lang.
+(Sa likod ni Indio, mahaba ang pila. May tumawa.)
+LALAKI SA PILA: [mocking] Malas ka talaga, tol.
+INDIO (sa atin): [dry] Pang-anim na "malas" ko na rin 'yan ngayong buwan.
+
+# --- 2. The pawnshop. He wants: fare home.
+TAGAPAGSALAYSAY: [calm] Tanghali. Isang sanglaan.
+(Sa ibabaw ng pinto, tatlong tatsulok. Inilapag ni Indio ang lumang medalyon ng Lolo niya. Kinuha ito ng katulong, idiniin sandali sa isang pirasong pagkit sa ilalim ng mesa, saka ibinalik.)
+INDIO: [hopeful] Pamasahe lang po sana.
+MAY-ARI: [bored] Tanso lang 'yan, tol. Walang halaga.
+INDIO: [dry] Pati medalyon ko, bagsak sa interview.
+
+# --- 3. The shrine. He wants: to get out of the rain.
+TAGAPAGSALAYSAY: [calm] Gabi. Bumuhos ang ulan sa Bahay Toro.
+(Tumakbo si Indio sa silong ng Pugad Lawin Shrine, yakap ang isang tinapay. Sa bakod, isang tarpaulin: lalaking nakangiti, "Heritage Walk kasama si...", natakpan ng flyer ang pangalan.)
+INDIO: [sigh] Hapunan. Isa. Buti pa 'yung nasa tarpaulin, may trabaho.
+INDIO: [bored] Wala akong kausap. Marker na lang.
+(Binasa niya nang malakas ang marker: kulog ang naririnig natin, hindi ang mga salita. Uminit ang medalyon. Tumigil ang mga patak ng ulan sa ere.)
+USMAN: [urgent] Kumapit ka, Indio!
+(Isang itim na aso, lumundag mula sa liwanag.)
+INDIO: [shocked] Teka, nagsalita 'yung aso?
+
+# --- 4. The camp. He wants: to stay alive. THE FALL.
+TAGAPAGSALAYSAY: [low] Agosto 1896. Isang bakuran sa labas ng Maynila.
+(Dilim. Mga sulo. Daan-daang lalaki. Dalawang kamay ang humablot kay Indio. Isang batang may itak ang humarang sa kanya.)
+ISLAW: [hard] Sino ka? Sino'ng nagsama sa'yo rito?
+KATIPUNERO: [cold] May nagsumbong sa amin sa Kastila nitong linggo. Kaya lahat ng narito, may dalang cedula ngayong gabi. Ilabas mo ang sa'yo.
+INDIO: [nervous] Cedula? 'Yan din ang hinanap sa akin kaninang umaga. Uso pa rin pala.
+INDIO (sa atin): [whisper] Sabi ng titser ko, pinunit nila ang cedula. Walang nagsabing hahanapan muna ako.
+KATIPUNERO: [cold] Walang papel, walang kakilala. Espiya 'yan.
+(Itinali ang mga kamay ni Indio. Idinikit ang itak sa leeg niya. Nahulog ang tinapay sa lupa.)
+INDIO (sa atin): [whisper] Unang araw ko sa nakaraan. Mukhang huling araw ko na rin.
+
+# --- 5. THE COMEBACK. "Ako muna."
+USMAN: [low] Par. Sabihin mo ang totoo. 'Yun lang ang meron ka.
+INDIO: [quiet] Wala akong cedula. Wala akong trabaho. Wala akong kahit ano. Kaya nga ako napadpad dito.
+(Natigilan si Islaw. Bumaba nang kaunti ang itak.)
+ISLAW: [whisper] Wala rin akong cedula. Hindi kayang bayaran ni Itay.
+(Lumapit ang mga aso ng kampo. Inamoy si Indio. Kinain ang tinapay niya. Saka humiga sa paanan niya, tahimik.)
+USMAN: [playful] Kinausap ko sila. May bayad nga lang: hapunan mo.
+ISLAW: [sure] Hindi tumatahimik ang aso sa espiya. Kalagan n'yo siya.
+(Kinalagan si Indio. Tumayo siya, at sumunod sa kanya ang lahat ng aso, isang mahabang pila.)
+KATIPUNERO: [uneasy] Sino ka ba talaga?
+INDIO: [dry] Wala. Tambay lang.
+INDIO: [curious] Islaw, ano'ng tawag sa lugar na 'to?
+ISLAW: [shrug] Ewan. Basta dito.
+(Umungol si Usman, nakatingin sa dilim.)
+USMAN: [low] Tandaan mo 'yan, par. Balang araw, pag-aawayan nila kung saan mismo ito nangyari.
+
+# --- 6. What he came to see. History stands.
+TAGAPAGSALAYSAY: [low] At nagsimula na.
+(Sa malayo, sa gitna ng mga sulo, isang pinuno, likod lang ang kita natin, ang nagtaas ng maliit na papel at pinunit ito. Sumunod ang daan-daan.)
+MGA KATIPUNERO: [shout] Mabuhay ang Pilipinas!
+ISLAW: [awed] Buwis namin 'yan sa Kastila. Kapag pinunit mo, wala nang atrasan.
+INDIO (sa atin): [whisper] 'Yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.
+(Walang mapunit si Islaw. Itinaas na lang niya ang kamao. Itinaas din ni Indio ang kanya.)
+ISLAW: [hopeful] Kuya, babalik ka ba?
+
+# --- 7. Back. The mark. Two doors left open.
+TAGAPAGSALAYSAY: [calm] Lumamig ang medalyon.
+USMAN: [fading] May marka ka na, par. Una pa lang 'yan.
+(Quezon City ulit. Ulan. Mag-isa si Indio sa silong. Wala na ang aso. Sa braso niya, isang guhit na umuusok pa: ang unang marka.)
+INDIO: [wince] Aray. Usman. 'Yun ang itatawag ko sa'yo. Pangalan ng aso sa mga kuwento ni Lolo.
+(Napatingin siya sa kabilang kalye. Sa ilalim ng poste, isang babae, basa ng ulan, nakatitig sa kanya.)
+INDIO (sa atin): [whisper] May babaeng nakatingin sa akin, na parang kilala niya ako.
+TAGAPAGSALAYSAY: [low] At sa sanglaan, bukas pa ang ilaw.
+(Inangat ng katulong ang pagkit sa liwanag: buong-buo ang bakas ng medalyon. May kagat siyang pako.)
+KATULONG: [soft] Tanso lang pala, ha.
+
+# --- 8. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung hinanapan ka ng papel na wala ka, magsisinungaling ka ba, o aamin?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; not counted in the 380)
+# USMAN: Totoo ba 'yon, par?
+# INDIO: Tiyak: Agosto 1896, pinunit ng mga Katipunero ang cedula nila, at doon nagsimula ang Himagsikan.
+# INDIO: Ang cedula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula 1885.
+# USMAN: Eh saan at kailan mismo?
+# INDIO: 'Yan ang pinagtatalunan. Pugad Lawin, ikadalawampu't tatlo ng Agosto, ang opisyal mula 1963. Pero may mga saksing nagsabing Balintawak, Bahay Toro, o sa kamalig ni Tandang Sora.
+# USMAN: Kaya pala ako umungol.
