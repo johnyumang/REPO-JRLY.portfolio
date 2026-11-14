@@ -80,3 +80,61 @@ A still marked `needs_figma` after four tries is not hopeless on the free model.
 5. **A second reader who did not draw it** compares old and new and may put the old one back (`judge_note` in the audit entry).
 A character drawn for the green key must have no green on it. A map, a flag or a count of lights is drawn in code
 (`pipeline/ph_map.py`; the eight-ray sun of Episode 36), never by the image model.
+
+## The Bakunawa look for a whole episode (pilot: Episode 2, 13 Nov)
+The owner on 13 November: the pictures of the Bakunawa reel are the quality he wants ("Use the same Quality Graphics, I think
+there is a roll back"). That reel was one FULL painted picture per shot (`pipeline/flux_hq.py`: dark-fantasy key visual, ink
+line, hard shadows, rim light, deep painted background). The 50 episodes drifted to a flatter look (a character cut out on a
+blurred plate). The pilot redrew all 37 keys of Episode 2 as full painted scenes; nothing else of the episode changed (same
+narration, timings, shots_fx, subtitles). How it was done, so any machine can do the same for its episode:
+
+1. **Plan before drawing** (one file, `plan.json`, outside the repo): fixed CAST strings (one per character and period, written
+   from the episode's kept stills and `characters/series_cast.json`; Usman's string ends with the ears sentence word for word),
+   fixed PLACE strings, and for every key: the lines it is shown under, `subject` (framing first, then the cast string, then
+   the action), `setting` (the place string), `light`, and a hand note. Draw one ANCHOR per main character first and look at it.
+2. **Draw**: `pipeline/draw_pick.py <dir> <p.json> <seeds> "<negative>"` with a JSON prompt `{"subject","setting","light"}`
+   (that form uses the flux_hq look). Three draws a key, the choice at 3x, new words when none is clean. Hands hidden or resting.
+3. **Put them in**: the kept picture is `videos/<slug>/full/bk_<NN>.jpg`; in `key_prompts.json` the old `shots` are copied to
+   `shots_before_bakunawa` and every shot becomes `{"full": "bk_<NN>"}`; delete the old `keys/k*.png` and `keys/depth`, run
+   `make_keys.py`. `shots_fx.json` is not touched.
+4. **Two judges who did not draw** (one: characters, period and continuity from picture to picture; one: machine faults,
+   framing against the subtitle band at about 63% of the height, and pictures that fall out of the look), then a fixer.
+   Hand the fixer the judges' list as a FILE: in the pilot the list was passed inline and was cut off, so one key was missed.
+5. **Build and check** as always (loudness, every frame decodes, a frames sheet that is LOOKED at, v3 beside v4).
+
+What the pilot taught:
+- A picture falls out of the look (flat cel, even light) mostly when the `light` is weak. Write the light as a scene ("hard
+  orange firelight from the burning city behind him, deep shadows on half his face, rim light, smoke, embers") and add
+  "richly painted, detailed ink linework, textured brushwork"; negative: "flat cel shading, flat even lighting, cartoon, tv
+  animation, thick even outlines, poster, clip art".
+- The subject belongs in the UPPER half ("in the upper half of the picture ... the lower half is only dark stones"): the
+  subtitles cross about 63%.
+- Seen from behind, the model hangs the medallion on his back: write "only the cord at the back of his neck, the medallion not
+  visible", or turn him three-quarter with the medallion on his chest.
+- Crossed arms beside the dog drew a third hand: arms at his sides with the hands below the frame, the dog a body-width apart.
+- Period words must be spelled out and repeated in the negative (a tricorne became a Napoleonic bicorne; a 1762 shore got a
+  modern skyline: "beyond the walls only palm groves, nipa huts and low tiled roofs of 1762, no modern buildings").
+- Small things must be given a size ("each coin the size of a fingertip").
+- The service refuses some proper names (a bastion's name was refused in every draw): describe the place without the name.
+- Cost: about 70 minutes on one machine for 37 keys with four drawers, the two judges, 13 redraws and the build.
+
+## Writing inside a picture: none, or REAL baybayin (the owner, 13 Nov)
+The owner saw letter-like scribble in frames: "Madaming words na hindi mo maintindihan ... baybayin." An image model cannot write:
+it draws false signs, also when asked for baybayin. So:
+1. Draw every picture with NO writing: signs, pages, banners, plaques show plain ruled or wavy lines (as the prompts already say).
+2. Where a surface NEEDS writing (the point of the shot is a sign, a page, a carved stone; a title; a quest or skill caption of the
+   new series), write true baybayin on it in code: `pipeline/baybayin.py paste <in> <out> "<Tagalog words>" <four corners>`
+   (`--carve` for stone and metal, `|` for a new line, `--final drop` for a scene before about 1600). It prints how the signs read
+   back: check that line, then LOOK at the result at 3x.
+3. Baybayin is right where Filipinos wrote for themselves, and as the series' own mark. A Spanish decree, a British order or an
+   American paper was never in baybayin: those stay plain lines. Latin words that a viewer must read are subtitles or code-drawn
+   captions, never part of the painting.
+4. A frame reader who finds letter-like marks in a painting reports them as a must-fix: repaint the place plain, or cover it with
+   real baybayin.
+
+## Two rules that are not negotiable (the owner, 14 Nov)
+1. EVERY picture of every video is in the look of the Bakunawa reel (full painted scenes; the method is the section "The Bakunawa
+   look for a whole episode"). The older, flatter look is not delivered any more.
+2. A sign, marker, plaque or page that the story says carries writing is never empty: it gets REAL writing, added in code after
+   the picture is chosen (Latin letters for things of today, only words that are certainly true; baybayin where it fits;
+   see "Writing inside a picture"). A surface with nothing to say is not put in the middle of a shot.
