@@ -815,11 +815,17 @@ def nv_status(K, items):
         v = K['nv_replace'][k]
         # an entry that says "bare neck" (key or value) or changes M's medallion is the episode's record of a story choice:
         # kept even when no prompt uses it now, so the next run still knows (removing it would let cast_fix add the medallion)
+<<<<<<< Updated upstream
         if NECK_RX.search(v) or NECK_RX.search(k):
             out[k] = ('story', 'Indio with a bare neck (no medallion)'); continue
         if not any(k in r for r in raw): out[k] = ('dead', 'no prompt contains it'); continue
         if 'crescent' in v or ('Filipina woman' in k and 'medallion' in k and 'medallion' not in v):
             out[k] = ('story', "the short form changes M's medallion"); continue
+=======
+        if NECK_RX.search(v) or NECK_RX.search(k) or 'crescent' in v or ('Filipina woman' in k and 'medallion' in k and 'medallion' not in v):
+            out[k] = ('story', 'the short form drops or changes the medallion'); continue
+        if not any(k in r for r in raw): out[k] = ('dead', 'no prompt contains it'); continue
+>>>>>>> Stashed changes
         out[k] = ('plain', 'short form of a cast string')
     return out
 
