@@ -42,13 +42,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for s in timings:
         if tag and s.get('speaker'):                                                         # colour per speaker (ASS colours are &HBBGGRR)
             col = TAG_COLOURS[order.index(s['speaker']) % len(TAG_COLOURS)]; name = s['speaker'] + (' (SA ATIN)' if s.get('aside') else '')
-            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,{790 if s.get('style') == 'shout' else 0},,{{\\fad(40,0)\\c{col}}}{name}")
+            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,{790 if s.get('style') == 'shout' else 0},,{{\\c{col}}}{name}")
         cs = chunks(s['text'].replace('\n', ' ').split()); total = sum(len(' '.join(c)) for c in cs); t = s['start']
         for i, c in enumerate(cs):
             txt = ' '.join(c); d = (s['end'] - s['start']) * len(txt) / total; end = s['end'] if i == len(cs) - 1 else t + d
             st = 'Shout' if tag and s.get('style') == 'shout' else 'Sub'                   # a shouted line of a multi-voice episode: big, centred
-            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},{st},,0,0,0,,{{\\fad(40,0)}}{txt.upper()}")
+            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},{st},,0,0,0,,{txt.upper()}")
             t = end
+    # no fade-in: a 40 ms fade left one half-transparent frame per page, seen as a ghost subtitle on a pause (owner, Ep17, 14 Nov)
     open(path, 'w', encoding='utf-8').write(head + '\n'.join(lines) + '\n'); return len(lines)
 
 if __name__ == '__main__':
