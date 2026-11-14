@@ -7,9 +7,9 @@
 ],
 "move": "push_in",
 "keys": [
-24,
-16,
-20
+0,
+91,
+90
 ]
 },
 "1": {
@@ -24,7 +24,6 @@
 "sparkle",
 "punch"
 ],
-"key": 41,
 "move": "pull_out"
 },
 "3": {
@@ -63,7 +62,6 @@
 },
 "11": {
 "fx": [],
-"key": 7,
 "move": "pull_out"
 },
 "12": {
@@ -93,8 +91,7 @@
 "punch",
 "sparkle"
 ],
-"move": "push_in",
-"key": 8
+"move": "push_in"
 },
 "16": {
 "fx": [
@@ -106,7 +103,6 @@
 "fx": [
 "sparkle"
 ],
-"key": 8,
 "move": "pull_out"
 },
 "18": {
@@ -162,7 +158,6 @@
 "fx": [
 "embers"
 ],
-"key": 24,
 "move": "push_in"
 },
 "26": {
@@ -178,7 +173,6 @@
 "embers",
 "sparkle"
 ],
-"key": 20,
 "move": "push_in"
 },
 "28": {
@@ -189,14 +183,12 @@
 },
 "29": {
 "fx": [],
-"key": 28,
 "move": "pull_out"
 },
 "30": {
 "fx": [
 "embers"
 ],
-"key": 26,
 "move": "push_in"
 },
 "31": {
@@ -219,14 +211,12 @@
 "fx": [
 "sparkle"
 ],
-"key": 8,
 "move": "pull_out"
 },
 "35": {
 "fx": [
 "water"
 ],
-"key": 12,
 "move": "pull_out"
 },
 "36": {
@@ -246,7 +236,6 @@
 "fx": [
 "sparkle"
 ],
-"key": 28,
 "move": "pull_out"
 },
 "39": {
@@ -254,7 +243,6 @@
 "water",
 "punch"
 ],
-"key": 38,
 "move": "push_in"
 },
 "40": {
@@ -263,7 +251,6 @@
 "punch",
 "embers"
 ],
-"key": 24,
 "move": "push_in",
 "focus": [
 0.5,

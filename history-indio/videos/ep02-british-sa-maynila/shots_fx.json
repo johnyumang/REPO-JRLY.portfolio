@@ -8,8 +8,8 @@
 "move": "push_in",
 "keys": [
 0,
-18,
-19
+90,
+91
 ]
 },
 "1": {
@@ -23,8 +23,7 @@
 "fx": [
 "sparkle"
 ],
-"move": "pull_out",
-"key": 1
+"move": "pull_out"
 },
 "3": {
 "fx": [],
@@ -34,8 +33,7 @@
 "fx": [
 "punch"
 ],
-"move": "pull_out",
-"key": 3
+"move": "pull_out"
 },
 "5": {
 "fx": [],
@@ -115,8 +113,7 @@
 "embers",
 "punch"
 ],
-"move": "pull_out",
-"key": 16
+"move": "pull_out"
 },
 "18": {
 "fx": [
@@ -150,15 +147,13 @@
 "fx": [
 "punch"
 ],
-"move": "pan_left",
-"key": 21
+"move": "pan_left"
 },
 "23": {
 "fx": [
 "embers"
 ],
-"move": "tilt_up",
-"key": 21
+"move": "tilt_up"
 },
 "24": {
 "fx": [
@@ -214,8 +209,7 @@
 "fx": [
 "punch"
 ],
-"move": "pull_out",
-"key": 31
+"move": "pull_out"
 },
 "33": {
 "fx": [
@@ -232,8 +226,7 @@
 "fx": [
 "sparkle"
 ],
-"move": "pull_out",
-"key": 24
+"move": "pull_out"
 },
 "36": {
 "fx": [
@@ -246,8 +239,7 @@
 "sparkle",
 "aura_blue"
 ],
-"move": "pull_out",
-"key": 10
+"move": "pull_out"
 },
 "38": {
 "fx": [],
@@ -269,13 +261,11 @@
 "fx": [
 "punch"
 ],
-"move": "pull_out",
-"key": 40
+"move": "pull_out"
 },
 "42": {
 "fx": [],
-"move": "push_in",
-"key": 7
+"move": "push_in"
 },
 "43": {
 "fx": [
@@ -302,8 +292,8 @@
 ],
 "move": "push_in",
 "keys": [
-21,
-27
+46,
+92
 ]
 },
 "47": {
@@ -315,8 +305,7 @@
 "move": "pull_out",
 "keys": [
 47,
-26,
-47
+93
 ]
 }
 }
