@@ -625,6 +625,102 @@
     95,
     200
    ]
+  },
+  "TAGAPAGSALAYSAY": {
+   "descriptions": [
+    "A calm, warm storyteller, a man in his fifties, deep gentle voice, unhurried and clear, quiet authority, like reading a story to children at night, Filipino accent",
+    "A calm, warm female storyteller in her forties, low smooth gentle voice, unhurried and clear, steady and kind, Filipino accent"
+   ],
+   "ref_text": "Noong unang panahon, sa isang bayang malapit sa ilog, may batang mahilig makinig sa mga kuwento. Tuwing gabi, umuupo siya sa hagdan ng bahay nila. Tahimik ang paligid, at ang tanging maririnig ay ang hangin sa mga dahon.",
+   "sample": "Kinaumagahan, maulap ang langit sa buong bayan.",
+   "f0_hz": [
+    70,
+    260
+   ]
+  },
+  "ISLAW": {
+   "descriptions": [
+    "A twelve-year-old Filipino boy, clear child's voice just starting to roughen, earnest and brave, trying hard to sound tough, Filipino accent",
+    "A boy of about twelve, bright but serious young voice, quick and determined, a camp guard trying to act grown up, Filipino accent"
+   ],
+   "ref_text": "Huwag kang lalapit, ha! Ako ang bantay dito ngayong gabi. Maliit lang ako, pero hindi ako natatakot. Kapag may dumating na hindi namin kilala, sisigaw ako, at tatakbo agad ang mga kasama ko.",
+   "sample": "Kuya, sigurado ka bang dito ka nanggaling?",
+   "f0_hz": [
+    170,
+    380
+   ]
+  },
+  "BABAE SA BINTANA": {
+   "descriptions": [
+    "A Filipina office clerk in her forties, flat, tired and bored voice, curt and businesslike, medium-low pitch, Filipino accent",
+    "A middle-aged woman at a government window, dry, monotone and impatient voice, clipped words, Filipino accent"
+   ],
+   "ref_text": "Susunod. Ibigay mo na ang mga papel mo. Kumpleto ba 'yan? Wala akong oras magpaliwanag ulit. Pirmahan mo dito, tapos maupo ka muna doon. Tatawagin na lang namin ang pangalan mo.",
+   "sample": "Bukas ka na lang bumalik, sarado na kami.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "LALAKI SA PILA": {
+   "descriptions": [
+    "A Filipino man in his twenties, teasing and mocking voice with a laugh in it, slightly nasal, casual street talk, Filipino accent",
+    "A young man in a queue, cheeky, sneering friendly-rude voice, loud and casual, Filipino accent"
+   ],
+   "ref_text": "Hoy, pare, ang tagal mo naman diyan! Kanina pa kami nakatayo dito sa init. Sigurado ka bang kumpleto 'yang dala mo? Haha, sige lang, subukan mo ulit bukas, baka suwertehin ka na.",
+   "sample": "Ayan na naman siya, pare, tingnan mo.",
+   "f0_hz": [
+    85,
+    220
+   ]
+  },
+  "MAY-ARI": {
+   "descriptions": [
+    "A man in his sixties, bored, slow and gravelly voice, dismissive and unimpressed, low pitch, a shopkeeper who has seen everything, Filipino accent",
+    "An older pawnbroker, low, raspy, lazy voice, cold and uninterested, slow, Filipino accent"
+   ],
+   "ref_text": "Ano 'yan? Ipakita mo nga. Hmm. Marami na akong nakitang ganyan. Luma na, gasgas pa. Hindi ko 'yan mabibili nang mahal. Kung ayaw mo, may iba pang naghihintay sa likod mo.",
+   "sample": "Sarado na kami, bumalik ka na lang bukas.",
+   "f0_hz": [
+    60,
+    170
+   ]
+  },
+  "KATULONG": {
+   "descriptions": [
+    "A man in his thirties, soft, quiet and sly voice, slightly breathy, a hidden smile in it, slow, Filipino accent",
+    "A quiet shop helper, low, smooth and secretive male voice, soft-spoken and knowing, Filipino accent"
+   ],
+   "ref_text": "Opo, boss, ako na po ang bahala. Ilalagay ko na lang po sa likod. Wala pong makakaalam. Tahimik lang po ako dito, pero nakikita ko po ang lahat ng pumapasok at lumalabas.",
+   "sample": "Sige po, boss, ilalagay ko na po sa kahon.",
+   "f0_hz": [
+    75,
+    190
+   ]
+  },
+  "KATIPUNERO": {
+   "descriptions": [
+    "A lean Filipino man in his thirties, cold, hard and suspicious voice, low and clipped, stern and unfriendly, Filipino accent",
+    "A tense rebel guard, hard, low and rough male voice, short cold sentences, distrustful, Filipino accent"
+   ],
+   "ref_text": "Tumigil ka diyan. Huwag kang gagalaw. Saan ka nanggaling, at sino ang nagpapunta sa'yo rito? Hindi ka namin kilala. Sagutin mo ako nang diretso, dahil hindi ako nakikipagbiruan ngayong gabi.",
+   "sample": "Bantayan n'yo ang daan, may paparating.",
+   "f0_hz": [
+    70,
+    190
+   ]
+  },
+  "MGA KATIPUNERO": {
+   "descriptions": [
+    "A strong Filipino man in his twenties shouting a rallying cry with full voice, loud, rough and passionate, outdoors, Filipino accent",
+    "A rough, powerful male voice of a young rebel, loud and fierce, shouting with all his heart, Filipino accent"
+   ],
+   "ref_text": "Magkaisa tayo, mga kapatid! Huwag na tayong matakot! Sama-sama tayong lalaban, at hindi tayo aatras kahit kailan! Para sa bayan, para sa ating mga anak!",
+   "sample": "Tayo na, mga kapatid! Sulong!",
+   "f0_hz": [
+    90,
+    300
+   ]
   }
  }
 }

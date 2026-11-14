@@ -12,6 +12,8 @@ Speed mode (default): a chunk gets a second take only when its WORDS are wrong; 
 import os, sys, re, json, glob, subprocess, tempfile, numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import vprofile as VP
 TAGMAP = {'whisper': 'whispers', 'suspense': 'suspenseful', 'somber': 'sad'}
+INDIO_PROMPT = {'hopeful': 'warm', 'dry': 'serious', 'bored': 'serious', 'sigh': 'sad', 'quiet': 'sad', 'shocked': 'excited', 'nervous': 'suspenseful', 'wince': 'dramatic'}
+                         # Indio's tone tags with no prompt of their own in the real recording -> the nearest one there (else 'narrate')
 SPK_CAST = 0.85          # a designed-voice line must be at least this similar (WavLM x-vector) to ITS OWN reference clip
 F0_CAST_ST = 4.0         # ... and its median pitch within this many semitones of the reference clip's
 GAP_SENT, GAP_TURN, GAP_SCENE = 0.38, 0.45, 0.65
@@ -20,11 +22,11 @@ def parse_script(script):
     for line in open(script, encoding='utf-8').read().split('\n'):
         line = line.strip()
         if not line: scene += 1 if S else 0; continue
-        if line.startswith('#'): continue
-        m = re.match(r'^([A-Za-z_\u00d1\u00f1 .\'-]+?)\s*:\s*(.+)$', line)
+        if line.startswith('#') or line.startswith('('): continue          # a (stage line) is what the picture shows, never spoken
+        m = re.match(r'^([A-Za-z_\u00d1\u00f1 .\'-]+?)\s*(\([^)]*\))?\s*:\s*(.+)$', line)   # "INDIO (sa atin): ..." = INDIO, an aside
         assert m, 'not `NAME: [tone] text`: %r' % line
-        spk = m.group(1).strip().upper(); turn += 1; cur = 'narrate'
-        for s in re.findall(r'[^.?!]+[.?!]+["\u201d]?', m.group(2) + ('' if re.search(r'[.?!]["\u201d]?\s*$', m.group(2)) else '.')):
+        spk = m.group(1).strip().upper(); turn += 1; cur = 'narrate'; body = m.group(3)
+        for s in re.findall(r'[^.?!]+[.?!]+["\u201d]?', body + ('' if re.search(r'[.?!]["\u201d]?\s*$', body) else '.')):
             tags = re.findall(r'\[([^\]]+)\]', s); txt = re.sub(r'\[[^\]]+\]\s*', '', s).strip()
             if not txt: continue
             if tags: cur = TAGMAP.get(tags[-1].lower(), tags[-1].lower())
@@ -53,7 +55,7 @@ def plan(src, work):
     for s in S:
         c = C[-1] if C else None
         if c and c['turn'] == s['turn'] and not s['tagged'] and len(c['sent_ids']) < 3 and len(c['text']) + len(s['say']) + 1 <= 170: c['sent_ids'].append(s['i']); c['text'] += ' ' + s['say']
-        else: C.append(dict(id=len(C), speaker=s['speaker'], turn=s['turn'], para=s['para'], style=s['style'], prompt=s['style'], sent_ids=[s['i']], text=s['say']))
+        else: C.append(dict(id=len(C), speaker=s['speaker'], turn=s['turn'], para=s['para'], style=s['style'], prompt=INDIO_PROMPT.get(s['style'], s['style']) if s['speaker'] == VP.NARRATOR else s['style'], sent_ids=[s['i']], text=s['say']))
     for sp in sorted({c['speaker'] for c in C} - {VP.NARRATOR}): VP.cast_ref(sp)      # fail early on a missing reference
     os.makedirs(work, exist_ok=True); json.dump(dict(multispeaker=True, sentences=S, chunks=C), open(work + '/plan.json', 'w'), ensure_ascii=False, indent=1)
     print(len(S), 'sentences ->', len(C), 'chunks, speakers:', sorted({c['speaker'] for c in C}))
