@@ -151,21 +151,14 @@ line's words are not those of its sentence. Check an episode by hand: `pipeline/
 
 The narration, one of two ways (never by hand in an editor):
 - **(a) from the takes** (multi-voice episodes whose takes are on the machine, the cut sentence alone in its chunk or chunks):
-<<<<<<< Updated upstream
   `ms.py assemble $W $W/voice --cut 61,62` (the numbers under `cut` in the cut file, WITHOUT a number that a `revoice`
   line replaces: for Episodes 31 and 49 that leaves nothing to cut), then `ms.py verify`. Copy
   `$W/voice_timings.json` to `videos/<slug>/timings.json`. It stops when a cut sentence shares a chunk with a kept one:
   then use (b).
-=======
-  `ms.py assemble $W $W/voice --cut 61,62` (or `apply_cuts.py videos/<slug> $W`, which reads the numbers from the cut
-  file and trims `plan.json`, then a plain `ms.py assemble`), then `ms.py verify`. Copy `$W/voice_timings.json` to
-  `videos/<slug>/timings.json`.
->>>>>>> Stashed changes
 - **(b) from the finished file** (Season 1 layout, or a cut sentence that shares a chunk with a kept one):
   `pipeline/cut_narration.py videos/<slug> <full voice.wav> <new voice.wav> --write`. It cuts at the quiet points around
   the sentence, leaves a natural pause, refuses a join that is not quiet (under 8 dB below the speech around it), writes
   the shifted timings (`--write` puts them in `videos/<slug>/timings.json`, the full ones stay as `timings_full.json`) and
-<<<<<<< Updated upstream
   prints where to listen. It also refuses timings that do not fit the file (pauses of the timings that hold speech: the
   timings of another take), and an output path equal to the input. `cut_narration.py --self-test` proves the tool on a
   made voice.
@@ -179,17 +172,6 @@ After either way: `pipeline/narration_cuts.py videos/<slug>` must print `narrati
 print the same line. The trivia break finds its place by the words of its sentence (`after_text`), so it needs no change.
 `shots_fx_full.json` beside an episode means an old tool (`apply_cuts.py`, removed) renumbered `shots_fx.json`: move
 `shots_fx_full.json` back over `shots_fx.json` before the build.
-=======
-  prints where to listen. `cut_narration.py --self-test` proves the tool on a made voice.
-- **A `revoice` line REPLACES the cut sentence it follows** (same number, same picture, new words): record the new words
-  as that sentence's chunk and assemble as usual; nothing is cut for it and the count does not change. `timings.json`
-  then carries the new words at that number, which the builder accepts.
-
-After either way: `pipeline/narration_cuts.py videos/<slug>` must print `narration cuts applied`, and the build log must
-print the same line. The trivia break finds its place by the words of its sentence (`after_text`), so it needs no change.
-`shots_fx_full.json` beside an episode means an old tool renumbered `shots_fx.json`: run `apply_cuts.py` once, it puts the
-original back.
->>>>>>> Stashed changes
 
 ## Limits
 - It measures clarity and similarity, NOT naturalness: a take can pass every check and still sound flat, oddly

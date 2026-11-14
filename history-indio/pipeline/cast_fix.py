@@ -140,11 +140,7 @@ def fix_prompt(K, kind, key, p, ep, canon, nv, story_nv=()):
         for k in story_nv:
             if k.rstrip(', ') in s or L.body(s) in k:
                 reasons.append(f'{mm.char}: nv_replace sends {r["name"]} as a short form without the medallion (NV_STORY): a person decides')
-<<<<<<< Updated upstream
         if cls == 'EXACT' or (cls == 'WRONG' and (p.startswith(L.body(s), mm.vstart) or p.startswith(re.sub(r'\ba ([aeiou])', r'an \1', L.body(s)), mm.vstart))): continue
-=======
-        if cls == 'EXACT' or (cls == 'WRONG' and p.startswith(L.body(s), mm.vstart)): continue
->>>>>>> Stashed changes
         if mm.bare:
             edits.append((mm.start, mm.end, replacement(p, mm, s), mm.char, s)); continue
         dels, aside, stop = L.desc_tail(pm, mm.hend, mm.char, s)
