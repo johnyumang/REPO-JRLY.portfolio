@@ -131,3 +131,10 @@ it draws false signs, also when asked for baybayin. So:
    captions, never part of the painting.
 4. A frame reader who finds letter-like marks in a painting reports them as a must-fix: repaint the place plain, or cover it with
    real baybayin.
+
+## Two rules that are not negotiable (the owner, 14 Nov)
+1. EVERY picture of every video is in the look of the Bakunawa reel (full painted scenes; the method is the section "The Bakunawa
+   look for a whole episode"). The older, flatter look is not delivered any more.
+2. A sign, marker, plaque or page that the story says carries writing is never empty: it gets REAL writing, added in code after
+   the picture is chosen (Latin letters for things of today, only words that are certainly true; baybayin where it fits;
+   see "Writing inside a picture"). A surface with nothing to say is not put in the middle of a shot.
