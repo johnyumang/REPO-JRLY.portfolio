@@ -26,7 +26,7 @@ truth and the guard rails): section 13.
    shows. Then they talk. No stretch of more than two storyteller lines in a row; no talking heads.
 2. **Indio does not know the history.** He finds it out there, from a **friend he makes in that time or place**
    (always an invented, ordinary person: a child, a porter, a cook). What he brings from today is only the
-   **sabi-sabi**: what people say now ("Sabi sa TikTok...", "Sabi ng titser ko..."). He whispers it to us, then
+   **sabi-sabi**: what people say now ("Sabi sa internet...", "Sabi ng titser ko..."). He whispers it to us, then
    sees what is in front of him. That gap is where the truth of the episode is told, by sight, with a joke.
 3. **A reason drives every scene** (he wants one thing) and the scene ends when he gets it, loses it, or it
    turns into something else. A scene with no want is cut.
@@ -157,7 +157,7 @@ and not a villain, and why he can come back.
 
 ## 4. The villain web, the neutral ones, the traitors
 
-**One sign joins them all: three triangles.** It is on the pawnshop door in Episode 1.
+**One sign joins them all: three slanted strokes.** It is on the pawnshop door in Episode 1.
 
 **"Ilusyon lang"** passes from mouth to mouth. Ep 1, its seed: "Tanso lang 'yan." Ep 14, the tall man to
 Indio's face: "Ilusyon lang ang hawak mo, Mister Bracken." Ep 17 on, Rico's hashtag. Ep 20 and 37, Tubal. Ep 48,
@@ -166,8 +166,8 @@ Sige. Tingnan natin kung sino ang maglalaho."
 
 | Who | Role | First seen, unnamed | Built | Revealed |
 |---|---|---|---|---|
-| **Ang Lalaking Nakaputi** (Lucifer) | The chief. Father of the lie. He speaks no scripture. | **Ep 11**: the bank officer in white who hands Indio the passbook of the first wish: "Kayo na ang hari ng sarili n'yong buhay." | Ep 13 the thirteenth guest on the yacht, who raises the first toast and is in no photo. Ep 24 Sinag's "ikaw na ang hari". Ep 30 the voice in the ice, the same sentence. Ep 41 behind the dragon. Ep 44-46 a white boat that never gets wet | **Ep 48**: the banker's face. M says the name inside the story: "Lucifer." Usman: "Kilala ko ang amoy na 'yan. Nasa bukid siya noong una." |
-| **Tobías "Tubal" Alcaín** | Chief on earth. Smith and builder: Alcaín Builders; Dalisdis Diking Corporation is his shell. A bronze ring. "Tubal" is what his men call whoever wears the ring. He wants **"ang pintong binubuksan ng labindalawa"** (section 7). | Ep 1 the three triangles over the pawnshop door. Ep 12 a cigarette end with the seal, in the year 900 | Ep 14 the tall man with the tie. Ep 16 said in the story by M: "Tubal ang tawag ng mga tauhan niya." Ep 17 Rico, live: "Salamat, Sir Tubal!" Ep 19 the logo. Ep 22 the same seal on the foreman of Babel | Full name **Ep 20**. His want **Ep 33**. Dalisdis is his: **Ep 34**, Bea turns its logo upside down. The ring **Ep 38-39**. **Ep 46**: he asks places on the ark for his workers and none for himself. **Ep 48**: he drops the ring into the bay. |
+| **Ang Lalaking Nakaputi** (Lucifer) | The chief. Father of the lie. He speaks no scripture. | **Ep 11**: the bank officer in white who hands Indio the passbook of the first wish: "Kayo na ang hari ng sarili n'yong buhay." | Ep 14 the guest at the house party who raises the first toast and is in no photo (never near the Mass of Ep 13). Ep 24 Sinag's "ikaw na ang hari". Ep 30 the voice in the ice, the same sentence. Ep 41 behind the dragon. Ep 44-46 a white boat that never gets wet | **Ep 48**: the banker's face. M says the name inside the story: "Lucifer." Usman: "Kilala ko ang amoy na 'yan. Nasa bukid siya noong una." |
+| **Tobías "Tubal" Alcaín** | Chief on earth. Smith and builder: Alcaín Builders; Dalisdis Diking Corporation is his shell. A bronze ring. "Tubal" is what his men call whoever wears the ring. He wants **"ang pintong binubuksan ng labindalawa"** (section 7). | Ep 1 the three slanted strokes over the pawnshop door. Ep 12 a cigarette end with the seal, in the year 900 | Ep 14 the tall man with the tie. Ep 16 said in the story by M: "Tubal ang tawag ng mga tauhan niya." Ep 17 Rico, live: "Salamat, Sir Tubal!" Ep 19 the logo. Ep 22 the same seal on the foreman of Babel | Full name **Ep 20**. His want **Ep 33**. Dalisdis is his: **Ep 34**, Bea turns its logo upside down. The ring **Ep 38-39**. **Ep 46**: he asks places on the ark for his workers and none for himself. **Ep 48**: he drops the ring into the bay. |
 | **Kalawang** = Rufino Paredes | Tubal's hand: driver, foreman, dummy director. Chews a rusty nail. Totoy's father. | Ep 1 the pawnbroker's helper who presses the wax. Ep 12 boot prints and a bent, bitten nail by the steel net | Ep 14 the driver. Ep 15 Totoy: "Si Tatay, nasa malayo. Nagtatayo ng pader." Ep 32 "ang lalaking ngumunguya ng pako" in the signing photo. Ep 33 named Kalawang; his right hand rust-brown from carrying Ang Huwad. Ep 36 the faceless director of Dalisdis is "R. Paredes" | **Ep 40**: Totoy sees the nail: "Tay?" One man, said on screen. **Ep 45**: he takes the pact, with Totoy watching. |
 | **Rico Bulan** | Their voice; the rival (section 3) | Ep 1, 2, 10, 12 | Ep 14-41 | Named Ep 17; "kaklase mo" Ep 19; broken Ep 37; turns Ep 44; confesses Ep 49 |
 | **Sinag** | Fallen from M's host. The tempter, and the picture of what M risks. **Six visits only**, each a new face and a new offer: Ep 24 a queen and a crown; Ep 26 "isa pa, gabi-gabi"; Ep 29 a door in the depth of Hilig; Ep 37 Tubal's face and the presidency; Ep 41 one kneel; Ep 46 her end. | Ep 13 the guest who never drinks and always pours, from a golden cup. Ep 14 the "other woman" at the condo, back to the camera, the same cup | Ep 15-16 she sends the white fox | **Ep 24**: M sees the cup: "Ikaw ang nasa condo." The betrayal of Episode 14 becomes an ambush. Undone in Ep 46 when Albo turns from her. |
@@ -259,10 +259,10 @@ pampaligo?" The humblest thing in the series heals everything.
   3. Ep 29: Papa in the depth of Limot does not know him. One salok, and: "Indalecio?"
   4. Ep 31: dry. Lola swallows flood water and he has nothing; she lives by her neighbours, not by magic.
   5. Ep 37: Usman, poisoned at Lola's gate the night before the hearing. One salok, held by M.
-  6. Ep 38: seven children with fever, or Vangie pinned under her own floodgate. He gives it to the children;
-     Vangie lives anyway, and that is what turns her.
+  6. Ep 38: dry (it was spent on Usman days before). Vangie is pinned under her own floodgate and he has
+     nothing; he and JM lift it by hand. That is what turns her.
   7. Ep 48: Indio is the one wounded and cannot use it. Rico Bulan picks it up.
-  8. Ep 49: he pours the last salok on the mud of Kawit: the first green thing.
+  8. Ep 49: he sets the empty tabò down on the mud of Kawit; rain fills it. He leaves it for whoever comes.
 
 ---
 
@@ -280,7 +280,7 @@ wish; Episode 50 is what is behind it.
 - Pays: why a jobless man is led from marker to marker; who the dog was; where the bronze comes from (the
   loop, and only the loop).
 - Pays: his first show-off: the paper he lacked in the morning is torn for freedom at night.
-- Plants: the three triangles and the wax print; the face on the tarpaulin; "naririnig pa rin kita" with no
+- Plants: the three slanted strokes and the wax print; the face on the tarpaulin; "naririnig pa rin kita" with no
   medallion; a red umbrella drying behind Lola's door (Ep 3).
 
 **Season 2, Asya at ang mga dagat (Ep 9-20): the rich man who loses**
@@ -390,9 +390,9 @@ the arrow is the fall and the part after is the comeback. KIND is the kind of tw
 | Ep | Title; real moment kept | HOOK (first line) | Friend | TWIST (kind): fall -> comeback | CLIFFHANGER (last line) |
 |---|---|---|---|---|---|
 | 1 | Ang Unang Talon. Pugad Lawin, Aug 1896 | "Walang cedula, walang trabaho. 'Yan ang sabi nila sa akin kaninang umaga." | Islaw, batang bantay ng kampo | **Mistaken identity.** With no cedula to show he is seized as a spy -> he admits he has none; Islaw has none either; the camp dogs go quiet for him: "Hindi tumatahimik ang aso sa espiya." He watches the paper he lacked torn for freedom | "Sa kabilang kalye, may babaeng nakatingin sa akin. At sa sanglaan, may bakas ng medalyon ko sa isang pirasong pagkit." |
-| 2 | British sa Maynila. Intramuros, Oct 1762 | "Isang order ng pancit, para kay 'M', sa pader na walang tao." | Sepa, batang tagaluto | **He arrives too late.** He runs to warn the gate; the wall is already breached and nobody heeds a barefoot indio -> the rats show him a drain (he pays them the pancit); Sepa's family gets out. The city still falls | "Delivered na raw. May tip. Galing kay M. May kasamang mensahe: 'Huwag kang magtiwala sa laging nauuna.'" |
+| 2 | British sa Maynila. Intramuros, Oct 1762 | "Isang order ng pancit, para kay 'M', sa pader na walang tao." | Sepa, batang tagaluto | **He arrives too late.** He runs to warn the gate; the wall is already breached and nobody heeds a barefoot indio -> the rats show him a drain (he pays them the pancit); Sepa's family gets out. The city still falls | "Delivered na raw. May tip. Galing kay M. May kasamang mensahe: 'Basahin mo nang malakas ang susunod.'" |
 | 3 | Ang Sabi ni Lola. Kawit, 12 Jun 1898 | "'Apo, uminit na ba ang medalyon?' Inuna pa 'yan ni Lola Ising sa 'kumain ka na ba'." | Tinong, batang tambolero | **Wrong target.** He sees his medallion on a toddler, thinks he was robbed and grabs at the woman; the crowd turns on him -> Tinong finds his own in the dust. There are two | "May isa pa raw sikreto si Lolo Isidro. Isang salita lang ang iniwan niya: Calamba." |
-| 4 | Ang Aso ni Pepe. Calamba, Jun 1869 | "'Si Rico nga, may sariling show na. Ikaw, aso ang kausap mo.'" | Andoy, anak ng kutsero | **False betrayal.** Usman runs to a small boy, and the big dog of 1869 bares its teeth at Indio -> "Ako 'yan, par. Hindi pa kita kilala noon." Why he knows him now: "Kaamoy mo siya." | "Text ni Lola: 'Kadugo natin si Pepe.' At hindi raw ako ang unang Bracken na nagtanong." |
+| 4 | Ang Aso ni Pepe. Calamba, Jun 1869 | "'Buti pa 'yung nasa TV, may sariling show na. Ikaw, aso ang kausap mo.'" | Andoy, anak ng kutsero | **False betrayal.** Usman runs to a small boy, and the big dog of 1869 bares its teeth at Indio -> "Ako 'yan, par. Hindi pa kita kilala noon." Why he knows him now: "Kaamoy mo ang bahay na 'to." (the story never confirms a bloodline; it stays what the family says) | "Text ni Lola: 'Kadugo natin si Pepe.' At hindi raw ako ang unang Bracken na nagtanong." |
 | 5 | Dalawampung Milyon. Paris, 10 Dec 1898 | "Bente pesos. 'Yan na lang ang laman ng bulsa ko, at may sulat-kamay pa." | Ambo, Pilipinong marino, tagahugas sa hotel | **He wins the wrong thing.** He fights his way to the great door and gets in; the number is on a paper nobody reads aloud; he counts the Filipinos at the table: "Wala." -> Usman pulls him to the right window: one man writing alone | "Itinaas ng babaeng may pulang payong ang limang daliri. Bakit parang binibilang niya ako?" |
 | 6 | Ang Huling Umaga. Bagumbayan, 30 Dec 1896 | "Unang beses kong namalantsa ng polo. May date ako, alas-sais ng umaga, sa Luneta." | Kiko, batang tagaigib | **Betrayal.** "Huwag kang pipikit." He shuts his eyes at the volley; the hand, the medallion and M are gone; no mark -> Usman does not fade | "Wala na ang medalyon. Pero naririnig ko pa rin si Usman. Paano?" |
 | 7 | Ang Sulat ni Lolo. Paco, Dec 1896 to Aug 1898 | "Siyam na porsiyento ang baterya ko. Isandaan at tatlumpung taon ang layo ng charger." | Imo, anak ng sepulturero | **The secret kept from him.** Lolo knew M and refused her; the phone dies in the middle of the letter -> Imo remembers where an old stranger once dug: the lente | "'Hindi ang medalyon ang hinahanap nila, apo. Ang Huling Tala.'" |
@@ -406,7 +406,7 @@ the arrow is the fall and the part after is the comeback. KIND is the kind of tw
 | 10 | Batang Indio. The Kalantiaw hoax; a QC classroom, 2012 | "Grade five ako nang una akong pinalabas ng klasrum dahil nagsabi ako ng totoo." | Batang Bea at JM; Ma'am Celia | **Stolen credit.** The first-honor boy gets the medal for the false code; the boy Indio stands in the corridor -> Ma'am Celia kept his paper all these years: "Tama ka." Lolo's tin at the gate: the kuwaderno | "Sumulat ang kuwaderno nang kusa: mga barko, pahilaga. Sa ilalim, sulat ni Lolo: 'Mag-ingat sa batang laging nauuna.'" |
 | 11 | Ang Sugo ng Butuan. Butuan, 1007 and 1011 | "'Sana yumaman ako.' Biro lang 'yon. Hawak ko pala ang payong ni M." | Agyu, batang tagasagwan | **The enemy is the guard.** A banker in white hands him a passbook; the Yúmud sinks his new pickup and takes him down -> Ang Sugo: it guards the old boats. First "Nakita na kita." First knot. First hologram | "May aninong tumawid sa tubig. Walang may-ari. Sabi ni M: 'May sumusunod na sa pera mo.'" |
 | 12 | Ang Kasulatang Tanso. Lumban; the copperplate, 900 | "Sampung sasakyan sa isang linggo. Tanong ni Usman: 'Par, ilan ba ang puwet mo?'" | Bini, batang ilog | **The rival got there first.** Tyre tracks in the year 900; the tikbalang already netted; a hand with a ring light drives off with the chest -> shirt inside out, thrown three times, he holds on. Ang Kasulatan was knotted in its mane; the Punyal | "Binasa ng Kasulatan ang kontrata ng bahay ko. May sugnay na nakatago. At sa putik, isang pakong may kagat." |
-| 13 | Ang Unang Misa. Mazaua, 31 Mar 1521 | "Dalawampu't dalawang sasakyan, isang yate, labindalawang kaibigan. Isang linggo ko pa lang silang kilala." | Mang Laon, mangingisda | **The gift fails.** Drunk, lens in hand, he sees nothing; he films the Bakunawa and cannot say the words; it leaves -> only the fish trade is honest; Ang Kalakal comes to him dim | "Sa litrato ng handaan, labindalawa lang kami. Pero labintatlo ang basong itinaas." |
+| 13 | Ang Unang Misa. Mazaua, 31 Mar 1521 | "Dalawampu't dalawang sasakyan, isang yate, labindalawang kaibigan. Isang linggo ko pa lang silang kilala." | Mang Laon, mangingisda | **The gift fails.** Drunk, lens in hand, he sees nothing; he films the Bakunawa and cannot say the words; it leaves -> only the fish trade is honest; Ang Kalakal comes to him dim | "Sabi ni M: 'Unang beses, Indio, na may nawala sa atin.'" |
 | 14 | Ang Kuta sa Bunganga ng Ilog. Maynila, 1570 to 1571 | "'Magnanakaw!' 'Yan ang bati sa akin ng kapre." | Ambing, batang taga-kuta; JM today | **The price comes due.** Lamp dead, map blank, M walks out, every medallion cold; the tall man: "Ilusyon lang ang hawak mo, Mister Bracken." -> one true line relights the lamp: "Nagnanakaw ako ng oras, sa sarili ko." Ang Dagat | "Alas-tres ng umaga. Limampung sasakyan. Nasa akin ang lahat, at wala akong gana sa kahit isa." |
 | 15 | Ang Haring Inilibing sa Tsina. Dezhou, 1417 | "Isang pandesal na lang ang akin sa mundo. Tapos may batang nakatingin." | Totoy | **The lie he wants to believe.** A woman in white offers a room and a drink, and he wants both -> he sees nine tails in her shadow. "Hindi na." Ang Daan Pauwi takes him to Lola Ising's kitchen; she admits she sent M | "Si M, basa ng ulan, sa pinto: 'Puwede ba akong pumasok?'" |
 | 16 | Ang Tapayan ng Luzon. Sakai, about 1594; Tondo 1587 to 1588 | "'Walang sikreto,' sabi ni M. Tumango ako. May sikreto ako." | Kichi, batang tagabuhat ng tapayan | **The secret kept (his own).** The kappa drags him under as M sees the woman in white -> he bows, it bows, its water spills. Ang Lihim, the bow. He tells M everything | "'Tubal ang tawag ng mga tauhan niya,' sabi ni M. 'At gusto niyang bilhin ang lahat ng medalyon mo.'" |
@@ -420,14 +420,14 @@ the arrow is the fall and the part after is the comeback. KIND is the kind of tw
 | Ep | Title; real moment kept | HOOK | Friend | TWIST (kind): fall -> comeback | CLIFFHANGER |
 |---|---|---|---|---|---|
 | 21 | Ang Ate sa Hamog. Biringan, the folklore of Samar | "Huwag ka raw kakain sa Biringan. Eh paano kung nanay mo ang nagluto?" | Nanay Pacing | **The enemy is the guard.** The town feasts Rico's convoy; the fog shuts on Indio; the long coat he has chased since Butuan steps out -> "Ako si Tala. Ate mo ako." | "Sabi ni Lola: 'Nakita ko ang tatay mo sa'yo. At natakot ako.'" |
-| 22 | Ang Toreng Hindi Natapos. Genesis 11:1-9 | "Naiintindihan ko ang lahat ng wika sa mundo. Kaya nagulat ako nang hindi ko maintindihan si M." | Nuri, batang tagabuhat ng ladrilyo | **The gift fails.** Every tongue breaks and Ang Sugo goes dumb -> Usman is still clear. The hearing was never the bronze. The Ladrilyo, with three triangles pressed in it | "Sa kuwaderno: 'Ang mga tagabuo ay may ama sa itaas ng bundok.' At kaamoy sila ni Ate Tala." |
+| 22 | Ang Toreng Hindi Natapos. Genesis 11:1-9 | "Naiintindihan ko ang lahat ng wika sa mundo. Kaya nagulat ako nang hindi ko maintindihan si M." | Nuri, batang tagabuhat ng ladrilyo | **The gift fails.** Every tongue breaks and Ang Sugo goes dumb -> Usman is still clear. The hearing was never the bronze. The Ladrilyo, with three slanted strokes pressed in it | "Sa kuwaderno: 'Ang mga tagabuo ay may ama sa itaas ng bundok.' At kaamoy sila ni Ate Tala." |
 | 23 | Ang mga Bantay sa Hermon. Genesis 6:1-4; 1 Enoch; Mount Hermon | "Umakyat ako ng bundok para suntukin ang kumuha sa nanay ko." | Sami, batang pastol | **Wrong target.** The giant flattens the Kalasag; the white-haired "kidnapper" takes off a coat we know from Galilee: he is the father who hid them -> weapons down: "Hinahanap ko ang kapatid ko." The giant kneels | "Sabi ni Albo kay M: 'Anak ng hukbo. Alam ba niya kung ano ang ipinagbabawal sa'yo?'" |
 | 24 | Ang Reyna ng Lungsod na Lumubog. Plato's Atlantis, about 360 BC | "Inalok ako ng korona. Ang problema: gusto ko." | Ilos, batang pantalan; Ma'am Celia sa tawag | **The prize is a trap.** The golden cup; the city sinks; M is caught -> "Natutukso ako." The lamp shows burnt wings; M: "Ikaw ang nasa condo." He cuts the Pugita's net. Behind the throne: a cracked tabò | "'Tabò? 'Yung pampaligo?' Isang salok lang kada bagong buwan. At hindi ito gumagana sa may hawak." |
 | 25 | Ang Orasan sa Ilalim ng Mundo. "Agartha", an invention of 1873 to 1886; yeti lore | "Tatlong hinga. 'Yun lang ang haba ng oras na paulit-ulit kong nabuhay." | Pema, batang Sherpa; Bea sa tawag | **Time loop.** Touching the stone clock traps him in the same three breaths -> one thing changes each round: Usman's tail. He steps out owning the three dark breaths. The only salok goes to the yeti's foot | "Sa orasan, nakita ko ang Kawit, lubog. Si Lola, nasa bubong. At isang arko. Si Totoy ang kapitan." |
 | 26 | Ang Baging ng mga Kaluluwa. Ucayali, Peru; the Shipibo-Konibo ceremony | "Labindalawang araw akong pinaghintay ng isang lola sa Peru. Wala raw akong gagawin. 'Yun pala ang mahirap." | Maestra Adela | **The test in disguise.** He thinks the cup is the lesson; Sinag: "Isa pa. Gabi-gabi." -> the waiting was the training: "Alin dito ang totoo?" He sorts; he refuses | "'Malinis ka pa rin.' Sa susi, may bagong ukit. Iginuhit ng kamay ni Maestra Adela, hindi ng panaginip." |
 | 27 | Ang Lungsod na Walang Anino. Biringan folklore | "Buong buhay kong hinanap ang nanay ko. Sampung segundo lang kaming nagkita." | Hiraya, batang engkanto | **False victory.** "Indalecio, anak ko." A table is laid -> the city's law holds her; the Tabò does nothing. Three conditions. M says her name: Mikaela | "'Ang Papa mo, bumaba sa Banahaw. Hinanap niya kami sa maling direksyon.'" |
 | 28 | Ang Bundok ng mga Puwesto. Banahaw; Hermano Pule, 1832 to 1841 | "Naglagay si Lola ng ikaanim na plato. Wala pa kaming ikaanim." | Selang, batang tagaigib ng Cofradía | **Sacrifice.** Giliw bars M at the cave -> she hangs Ang Sandugo on his neck and stays above, unguarded. Below, Lolo Isidro: "Hindi sa tanso 'yan, apo. Sa'yo." The tambuli | "Pitong pinto sa kuwaderno. At sa una, may lalaking nakaupo, umuukit ng iisang letra." |
-| 29 | Ang Unang Apat na Lalim. Dante; Qur'an 15:44; Plasencia 1589 | "'Indalecio?' Hindi ako kilala ng sarili kong tatay." | Papa (Teddy) | **The dilemma.** One salok: Papa's memory, or his own bleeding marks -> Papa. Under fifty vehicles he sees his own face. "Hindi ka malas, anak. Nagmamalas ka." | "'Hindi mo kailangan ng ilaw. Kailangan mo ng mata.' Tatlong lalim pa. At patay na ang lahat ng medalyon." |
+| 29 | Ang Unang Apat na Lalim. Dante; Qur'an 15:44; Plasencia 1589 | "'Indalecio?' Hindi ako kilala ng sarili kong tatay." | Papa (Teddy) | **The dilemma.** One salok: Papa's memory now, or keep it for Mama in Biringan -> Papa. Under fifty vehicles he sees his own face. "Hindi ka malas, anak. Nagmamalas ka." | "'Hindi mo kailangan ng ilaw. Kailangan mo ng mata.' Tatlong lalim pa. At patay na ang lahat ng medalyon." |
 | 30 | Ang Talim sa Yelo. Genesis 3:24; Dante's ice; John 8:44 | "Patay ang labindalawang medalyon. Kaya nalaman ko kung alin ang akin talaga." | Usman, na hindi na maglalaho | **He loses on purpose.** A voice in the ice: "Hindi ka saksi. Hari ka." "Sino ka ba?" -> he kneels: "Saksi lang ako." The blade rises. Biringan's three conditions are met on screen | "Kumpleto na ang pamilya sa mesa. Sa ilalim ng yelo, may pintong may iisang marka: sero. At sa labas, tumataas ang tubig." |
 | 31 | Ang Pader sa Papel. Kawit, low ground that floods | "Unang sinigang ng buong pamilya. Umabot ang baha bago ang kanin." | Aling Charing, kapitbahay na pasan niya | **Stolen credit.** He carries the street to the roofs; the Tabò is dry for Lola; Rico lands with cameras and is the hero by evening -> the street he saved knows. Lola's house is gone | "Isinulat ko sa karton: 'José Indalecio Bracken, saksi.' Kandidato. Tumawa ang buong barangay." |
 
@@ -437,12 +437,12 @@ the arrow is the fall and the part after is the comeback. KIND is the kind of tw
 |---|---|---|---|---|---|
 | 32 | Ang Kapitan. A Tagalog shore, 16th century; Plasencia 1589 | "Nanalo akong kapitan. Ang minana ko: susi, upuan, at utang na labing-apat na milyon." | Amihan, batang timawa | **He wins the wrong thing.** The seat comes with the blame for a wall of sacks -> "Ako muna." Kap Ramil talks. "Par. Hindi mo suot ang Tinig." A real canal | "Sa litrato ng pirmahan, may lalaking ngumunguya ng pako. Nakita ko na ang pakong 'yan. Sa putik ng Laguna." |
 | 33 | Ang Bayan. Manila, 1574 (Limahong) | "Libre raw ang pader. Kapag libre, par, ikaw ang bayad." | Tikoy, batang karpintero; Engr. Vangie Dulay | **The prize is a trap.** Tubal's gift wall carries a clause -> Ang Kasulatan reads it; the co-ops, the giant and the kapre build the true one, with Vangie. It holds | "Sabi ni Tubal: 'Kilala ko ang tatay mo, Mayor. Itanong mo kung sino ang nagsukat ng pinto sa ilalim ng Banahaw.'" |
-| 34 | Ang Senado. Malolos, 15 Sep 1898 | "Tatlong gabi kong binasa ang budget. Sa ikatlo, may font na hindi kasali." | Entong, batang aprendis sa imprenta; Bea | **False victory.** He reads the inserted line aloud and it is struck -> by morning it is back as three small lines with his name as sponsor. Bea turns the Dalisdis logo upside down: three triangles | "Sa madilim na opisina: 'Talunin natin siya sa kuwento.' 'Ako ang bahala.' At may ikatlong nakaupo, nakaguwantes." |
+| 34 | Ang Senado. Malolos, 15 Sep 1898 | "Tatlong gabi kong binasa ang budget. Sa ikatlo, may font na hindi kasali." | Entong, batang aprendis sa imprenta; Bea | **False victory.** He reads the inserted line aloud and it is struck -> by morning it is back as three small lines with his name as sponsor. Bea turns the Dalisdis logo upside down: three slanted strokes | "Sa madilim na opisina: 'Talunin natin siya sa kuwento.' 'Ako ang bahala.' At may ikatlong nakaupo, nakatalikod." |
 | 35 | Ang Bitag. Bilibid, Sep 1907 (Sakay) | "Perpekto ang pirma ko sa kontrata. 'Yun ang problema: hindi ako pumirma." | Loleng, batang tindera sa labas ng Bilibid | **The frame-up.** The fifty are real; "Akin," and the public hears half; the blade will not cut the signature -> he pours the bottle out and stays. A word can be glued to a life | "Hindi pinutol ng talim ang pirma. Ibig sabihin, totoo ito. Kailan ako pumirma?" |
 | 36 | Ang Paglayo. Hong Kong, May 1898 | "Lumipad ako pa-Hong Kong na parang ordinaryong tao. Ang hirap pala." | Mei, batang utusan | **Betrayal.** The trail of the perfect signature ends at a tyre receipt, and at JM -> without Usman he listens to pigeons and wharf rats: the forger. He shuts his eyes among nine loved faces: one heartbeat is a fox's | "Tawag mula sa Kawit: 'Apo, si Usman. Ayaw nang kumain. May nagbigay ng karne sa gate.'" |
 | 37 | Saksi Ako. Laguna, about 900; the SALN duty | "Isang salok para kay Usman. Tuyo na ang tabò, at bukas ang pagdinig." | Bini (the other side of Episode 12); Mang Nesto | **The witness is doubted.** Rico testifies first and the room is his -> one plain question: "Ano ang nakita mo mismo?" Nothing. "Ako muna": the forger, then JM, speak. "Sino ka ba?" "Saksi ako." Tubal walks out | "Nalinis ang pangalan ko. Tapos ang ulat-panahon: 'Isang bagyong walang katulad.'" |
-| 38 | Ang Limampu. Bayanihan; Laguna de Bay | "Limampung sasakyan. Sa wakas, may silbi." | Pitong batang isinakay; JM | **The helper is the enemy.** The floodgate was built to fail; the glove comes off: Vangie's bronze ring -> "Wala nang akin dito." All fifty, with receipts; the salok to the children; the Pugita plugs the gate | "Iniwan ni Vangie ang singsing sa palad ko. 'Hindi ako ang huling may suot nito, Senador.'" |
-| 39 | Ang Sugo. Tondo, early 1950s | "Sa debate, tinanong ako ni Rico: 'Ano'ng natapos mo?' Sabi ko: delivery rider." | Badong, batang limpiyabota | **The gift fails.** He promises too much and Ang Tinig dies on live television -> the next night he only confesses. He wins by a hair | "Sabi ni M: 'Sugo ka na. Ang sugo, ipinapadala sa lugar na ayaw puntahan ng iba.'" |
+| 38 | Ang Limampu. Bayanihan; Laguna de Bay | "Limampung sasakyan. Sa wakas, may silbi." | Pitong batang isinakay; JM | **The helper is the enemy.** The floodgate was built to fail; the glove comes off: Vangie's bronze ring -> "Wala nang akin dito." All fifty, with receipts; the Pugita plugs the gate | "Iniwan ni Vangie ang singsing sa palad ko. 'Hindi ako ang huling may suot nito, Senador.'" |
+| 39 | Ang Sugo. Tondo, early 1950s | "Sa debate, tinanong ako ni Rico: 'Ano'ng natapos mo?' Sabi ko: delivery rider." | Badong, batang limpiyabota | **The gift fails.** He promises too much and Ang Tinig goes silent on live television -> the next night he only confesses. He wins by a hair | "Sabi ni M: 'Ipinadala ka na. Sa lugar na ayaw puntahan ng iba.'" |
 | 40 | Ang mga Arko. Butuan boats, the 1970s dig; Gen 9:11; Rev 12:15 | "Animnapung arko ang kaya namin. Bilangin mo kung ilan kaming lahat." | Nonoy, batang tagahukay; Tay Sebyo | **The dilemma.** Sixty arks, and a list -> he doubles the yards, and leaves Rico Bulan's name on it | "Hawak ni Totoy ang isang pakong kinakalawang. 'Kuya, ganito ngumuya ang tatay ko.'" |
 | 41 | Ang Panunumpa. Manila, 15 Nov 1935 | "Isandaang porsiyento. Akala ko, premyo 'yon." | Peping, batang nagtitinda ng diyaryo | **The price comes due.** Kaalaman 100%: the "?" becomes a staff and the sky goes black; Sinag: one kneel -> "Walang maiiwan." | "Umangat ang unang arko sa unang alon." |
 
@@ -454,7 +454,7 @@ the arrow is the fall and the part after is the comeback. KIND is the kind of tw
 | 43 | Ang Tambuli. The Butuan boats; the envoy of 1007 | "Hinipan ko ang tambuli. Walang sumagot." | Totoy, pinakabatang kapitan | **He arrives too late** (so it seems). Silence; Albo turns away; Rico's stream: "Ilusyon lang." -> then the true answer: the diwa, every knot, the barkada, and the counter in the corner, which is us | "Limang lupa, limang laban. Ang una: sa bunganga ng Pasig." |
 | 44 | Ang Look ng Maynila. Maynila, 24 May 1570 (as a window) | "Dumating sila sa Look ng Maynila. Kamukha nila ang mga mahal ko." | Lola Auring, ka-Indio sa bubong na may flashlight | **Mistaken identity.** A demon wears M; he nearly cuts the real one -> no lamp, no lens: he sees. Ang Huwad cracks; Rico's beasts turn on him; Indio shields him. Rico sees the true 1570 | "Nakatayo si Tubal sa isang bangka. Hindi siya nakatingin sa akin. Sa pulang payong ni M." |
 | 45 | Mula Mactan hanggang Sulu. Mactan 1521; Bohol and Cebu 1565; Lanao 1639; Sulu 1417 | "Tatlong gabi sa likod ng Bakunawa. Sa ikatlo, nakita ko ang ate ko, katabi ng kalaban." | Kalawang (Rufino), sa harap ni Totoy | **False betrayal.** Tala points him out to Tubal -> her finger shows where the workers are chained. Kalawang takes the pact | "Sabi ni M: 'Kailangan kita roon. Hindi sa laban namin. Sa laban mo.'" |
-| 46 | Ang Mga Pinili. Gen 4:17, 4:22; Gen 3:24; the copperplate | "'Pumili ka,' sabi nila sa tatay ng ate ko. Libong taon na siyang hindi pumipili." | Albo | **Sacrifice.** The Trinity has no hilt and Tubal holds the contracts -> Tala lays them down; Albo turns; Sinag is undone; M twists the handle of her umbrella and gives up her rank with it | "Bukas, ang huling laban. Dalawa pang hiling. At tuyo ang tabò." |
+| 46 | Ang Mga Pinili. Gen 4:17, 4:22; Gen 3:24; the copperplate | "'Pumili ka,' sabi nila sa tatay ng ate ko. Libong taon na siyang hindi pumipili." | Albo | **Sacrifice.** The Trinity has no hilt and Tubal holds the contracts -> Tala lays them down; Albo turns; Sinag is undone; M twists the handle of her umbrella and gives him the hilt | "Bukas, ang huling laban. Dalawa pang hiling. At isang salok na lang." |
 | 47 | Ang Gabing Ligtas ang Lahat. (No dated moment; the safe night) | "Isang hiling: isang gabing ligtas ang lahat. Hindi ko alam na may sisingil." | Ang buong mesa | **The price comes due.** One white night. "Bukas na ngayon." M stays, and her light leaves the hologram | "Bukas, haharapin ko ang ama ng kasinungalingan. At si M, sa unang pagkakataon, puwede nang masugatan." |
 | 48 | Ang Saksi. Manila Bay, 1 May 1898 (one line) | "'Ilusyon ka lang, Indio.' Narinig ko na 'yan sa sanglaan. Ngayon, galing na sa pinagmulan." | Rico: "Saksi ako. Sa kanya." | **He loses on purpose.** M names him: Lucifer, the banker's face. Indio is wounded and cannot use the Tabò; Rico holds it. Each lie is cut until the man has nothing to say; the last wish could erase him -> he lowers the sword: "Nakita na kita." | "'Halika na, apo, lumalamig ang sabaw.' At ang babae sa kabilang kalye noong unang gabi: si Nanay." |
 | 49 | Ang Ikatlong Hiling. Named: the feeding; the Kawit window; Sulayman 1570 | "Isang hiling na lang. At alam ko kung sino ang gusto kong iligtas." | Rico Bulan, na umamin sa isang bata | **The lie he wants to believe.** Save Rizal; erase Paris. The clock shows it ends in another flood -> "Ang unang hardin, bago may nang-agaw." Under the ice, the door marked sero opens | "'Itatayo natin ulit. At ngayon, walang magnanakaw.'" |
@@ -520,31 +520,80 @@ summons is M's own request (45). 20 Tala is resolved on screen (46). 21 Lola Isi
 
 ---
 
-## 13. The three judgments
+## 13. The judgments
 
-The panel was planned as three proposers and three separate judges. The three proposals were completed. The
-account's weekly usage limit then stopped further subagents, so the three judgments below were made by the
-curator alone, against each of the three briefs in turn. When the limit resets (15 November, 22:00 UTC) the
-bible should be read once by an independent judge for each brief; this section then gets their verdicts.
+The panel was planned as three proposers and three judges. The three proposals were completed. The account's
+weekly usage limit then cut the judging to **one independent judge**, who read the bible three times, as three
+people (the owner's brief; a first-time viewer of any age; truth and the guard rails). The full report, with 38
+numbered findings and replacement lines, is `story/_parts/judges.md`. The curator's rulings on it are section
+14; they are part of the bible and override any row above that they contradict.
 
-**For the owner's brief.** Scenes in the third person: section 0. He does not know the history: the friend
-and the sabi-sabi. A reason and a payoff in every scene; a fall and a comeback in every episode, with 23 kinds
-of twist: section 10. The underestimated hero, the rival who is not near him, "ilusyon lang": sections 3 and
-4. The three gifts, unknowing as a child, mastered at the end: section 2. Allies won in hard fights and then
-used: section 5. The item that heals everything, from a boss: section 6. Villain, neutrals, traitors, unnamed
-when first seen: section 4. The feel of a role-playing game: section 8. No fiction talk, nothing seen twice,
-trivia at the end, no generic follow card, u-MU-ngol: section 0. From the Philippines through Asia to Agartha,
-Mundong Sero and the last war: section 7. Open risk: the bible asks more of each 750-word episode than it can
-always carry; the rewrite plan gives each episode ONE plant and ONE payoff from the web and leaves the rest
-to pictures.
+What the judge confirmed: the form (section 0), the three gifts and their steps, the rival's five-beat
+reversal, the knot rule, the Tabò as an object, and the closing of the 21 threads all answer the owner's
+points. What the judge found wanting is ruled on below.
 
-**For a first-time viewer of any age.** Can a ten-year-old and a lola retell an episode? Each has one want,
-one fall, one comeback. The cast a viewer must hold is small: Indio, Usman, M, Lola; one rival (a face they
-already know from a screen); one earthly villain (the ring, the three triangles); one helper of his (the
-nail). Every hidden person is joined to one object a child can spot. Three knots, not fourteen creatures.
-Risk: Seasons 4 and 5 lean on words (budget, deed, register); each of those episodes must turn its paper
-into a thing (a font that does not fit, a logo turned upside down, a glove that comes off).
+---
 
-**For truth.** Nothing here changes a real outcome. The only real persons with invented words remain the
-long-dead datu diwa under the owner's exception. The thirteen close calls of `CONSISTENCY.md` section 7 each
-have a rule in section 12. Three items stay open and are listed there as checks before re-voice.
+## 14. Rulings after the independent judge (binding; where a row above disagrees, this wins)
+
+**Truth and the guard rails**
+1. **"Sila" must never read as a real fraternity or a bloodline.** Builders, a smith's name, a ring and
+   triangles together point at Freemasonry, to which Rizal and Bonifacio belonged, and the Katipunan itself
+   used a triangle. So: the sign is **three slanted strokes** (tatlong guhit na pahilig, three slopes: the
+   "dalisdis" of Dalisdis Diking), never a triangle, a compass, an eye or a square. "Sila" are heirs **by
+   oath, never by blood**: anyone can put the ring on and anyone can take it off. No lodge, no ritual, no
+   apron, no handshake. The Lalaking Nakaputi is "a bank officer" in one scene only; bankers are not "sila".
+2. **Agartha and Atlantis are entered as stories, not places.** Episode 24 already enters Plato's unfinished
+   page. Episode 25 enters the book of 1886 the same way, and what is inside is what that book says, shown as
+   somebody's invention. The clock is no longer "ng Agartha" and is not a marked disc: it is **Ang Orasang
+   Tubig**, a bamboo water clock kept by Pema's grandmother at the foot of the pass. What it shows is "isang
+   posibleng bukas", never a certainty; Indio treats it as testimony to be checked.
+3. **The Rizal bloodline is never confirmed by the story.** It stays what the Lola says. Usman's line in
+   Episode 4 is about the house, not the blood. The trivia states the record (no known descendants).
+4. **Scripture.** The serpent of Revelation 12:15 is "ahas" wherever the verse is cited, "dragon" only where
+   12:7-9 is. The garden is never named Eden and Genesis 3:24 is never said to be the door marked sero: the
+   link is the viewer's to make. "The first lie" is the series' own phrase and is always carried by a
+   character ("sabi ni Usman"), never by the storyteller. Abel's field is seen only in Usman's memory and in
+   the last image, with no words from above. The gunaw of the story is the sea rising on these islands and
+   their neighbours as far as the arks can sail; no line says all flesh is destroyed.
+5. **Real-world collisions removed.** "Sugo" stays only as the name of the Butuan medallion (an envoy to the
+   Song court); nobody calls a winning candidate "ang Sugo", and Episode 39 is retitled **"Ang Isinugo ng
+   Kalye"** (the owner may rename). Kap Ramil's barangay and its debt belong to an invented barangay of
+   invented San Lorenzo; Indio is its kapitan because the family is rehoused there after the flood. No app or
+   firm is named ("sabi sa internet"). Nothing in Episode 13 mirrors the Mass (no twelve, no thirteenth; the
+   uninvited guest moves to the house party of Episode 14). In Episode 26 the vigil, not the cup, is the
+   lesson, and the script never shows or says that he drinks. The passage to the depths is an invented cave
+   on an unnamed slope; no real puwesto of Banahaw is shown as a door to hell.
+
+**Story**
+6. **Season 1 must show off.** Episodes 1, 5 and 8 end their comeback with a public reversal (Ep 1: every
+   dog in the camp walks behind the man they tied; Ep 5: the doorman who threw him out holds the door; Ep 8:
+   Aling Pining tells the whole bakery whose bread that was). Episodes 3, 4, 5 and 7 get a real fall and a
+   comeback by his own gift, named in each script's header.
+7. **"He confesses and the dead thing relights" at most four times** in the 50: Episodes 14, 19, 37, 48. The
+   others (9, 24, 32, 39, 42) come back another way: 9 by staying when he wants to run; 24 by cutting the net;
+   32 by the erased paragraph; 39 by saying nothing at all on live television; 42 by silence. **"It was never
+   the bronze" is said three times only:** 22, 29, 30.
+8. **Hooks.** At least half of the 50 open on an action or on a line said TO him, not on Indio speaking to us;
+   no more than six open on a number. Each script's header states WANT (what he wants in this episode) and
+   SABI-SABI (what people say today that the episode will set against what he sees). The judge's replacement
+   hooks for Episodes 9, 34 and 36 and cliffhangers for 24, 26 and 46 are taken as written in `judges.md`.
+9. **The past visit must be the tool of the comeback** in Episodes 32 to 36, 39 to 41 and 43: what the friend
+   of that time teaches is what he uses in the present. A past scene that only illustrates is cut to one
+   picture. **No row carries more than four beats**; Episodes 12, 20, 24, 30, 37 and 45 are thinned when
+   written, and Indio must act, not watch, in 28 and 46.
+10. **Rico and Vangie stay hidden.** Nobody says "Rico" before Episode 17 and nothing before 19 says he was a
+    classmate. Nothing marks Vangie before the glove comes off in 38. "Not near him" means both: he is a
+    level above in the world's eyes, and he is in the same room as Indio only at 20, 37, 39, 44 and 48.
+
+**The ledger**
+11. **Ang Pintuan** (the family medallion) comes back to Indio in Episode 10, in the Lolo's tin, having gone
+    down the family from the child of 1898. The anting of Episode 20 is eleven, with one slot dark; it is whole
+    when M hangs Ang Sandugo on him at Banahaw (28). Medallions are dead only inside the three lowest depths;
+    Ang Daan Pauwi works once he has climbed out.
+12. **The Tabò**, corrected: 25 the yeti; 27 nothing happens; 29 Papa (the dilemma is Papa now or Mama later);
+    31 dry; 37 Usman, M holding; 38 dry; 48 Indio, Rico holding; 49 set down empty. Never two saloks in one
+    moon. M gives up her place once, in 47; in 46 she gives only the hilt.
+
+**Still to check before any re-voice** (the judge could not verify these either): the invented names against
+living people and real firms; the mango at Acapulco; Ortiz 1731; the hour of Episode 6.

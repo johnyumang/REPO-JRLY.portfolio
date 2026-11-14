@@ -30,7 +30,7 @@ hashtag niya. Sa dulo, siya ang unang tatayo: "Saksi ako. Sa kanya."
 **Ang kontrabida at ang misteryo (hindi pinapangalanan sa unang kita):**
 - **Ang Lalaking Nakaputi** (Lucifer): una siyang makikita sa Ep 11 bilang taga-bangko na nag-abot ng passbook.
   Pangalan sa Ep 48.
-- **Tubal** (Tobías Alcaín), panday at tagapagtayo. Tanda niya: **tatlong tatsulok** — nasa pinto na ng sanglaan
+- **Tubal** (Tobías Alcaín), panday at tagapagtayo. Tanda niya: **tatlong guhit na pahilig** — nasa pinto na ng sanglaan
   sa Ep 1. **Kalawang**, ang kamay niya, laging may kagat na **pakong kalawangin**; tatay pala ni Totoy (Ep 40).
 - **Sinag**, ang manunukso: anim na beses na lang, iba-iba ang mukha.
 - **Neutral:** si Albo (siya ang nakatalukbong sa Galilea), ang Bakunawa, si Bea ("kakampi ako ng totoo").
@@ -53,5 +53,13 @@ unang kasinungalingan. 'Yon ang gusto ni Tubal; bubukas lang sa ikatlong hiling.
 nangyari; walang salita ang Diyos; walang buhay na tao, partido o kompanya; walang imaheng bawal sa Agartha;
 ang label ng piksyon, sa caption at pinned comment lang.
 
-**Hindi ko pa natatapos:** ang tatlong hiwalay na hurado. Naabot ang lingguhang limit ng account habang
-tumatakbo ang panel, kaya ako muna ang humatol laban sa tatlong panukat (BIBLE seksyon 13).
+**Hatol ng hiwalay na hurado (isinama na sa bible, seksyon 14):**
+- Ang tanda ng kalaban ay **tatlong guhit na pahilig** (dalisdis), hindi tatsulok, para hindi mapagkamalang
+  tinutukoy ang isang totoong kapatiran na kinabilangan nina Rizal at Bonifacio. "Sila" ay sa panunumpa, hindi sa dugo.
+- Ang Agartha at Atlantis ay pinapasok bilang kuwento (aklat), hindi totoong lugar.
+- Hindi kinukumpirma ng kuwento na kadugo ni Rizal si Indio; sabi lang 'yon ng Lola.
+- "Sugo" ay pangalan lang ng medalyon ng Butuan; hindi itinatawag sa nanalong kandidato (titulo 'yon ng isang
+  buhay na simbahan). Ep 39, bagong pamagat: "Ang Isinugo ng Kalye" — puwede mong palitan.
+- Season 1 kailangang may pasikat (Ep 1, 5, 8). Ang "umamin siya kaya gumana ulit" ay apat na beses lang sa 50.
+
+**Kulang pa:** isang hurado lang ang nakatakbo (tatlo ang plano) dahil sa lingguhang limit ng account.

@@ -44,7 +44,7 @@ ko sila. May bayad nga lang: hapunan mo."; "Uso pa rin pala."
 | "Sanay na ako. Chill lang." fell flat | Replaced: "Pang-anim na 'malas' ko na rin 'yan ngayong buwan." |
 
 Left as it is, on purpose (these are the questions of the series, planted here and paid later): the three
-triangles; the nail; the face on the tarpaulin; why the dog knows his name; who the woman is; the leader seen
+slanted strokes over the pawnshop door; the nail; the face on the tarpaulin; why the dog knows his name; who the woman is; the leader seen
 from behind, unnamed in the story (he is named in the trivia after it). The cold open tells that a blade will
 be at his neck; that is the hook, and the surprise kept for the scene is how he gets out.
 

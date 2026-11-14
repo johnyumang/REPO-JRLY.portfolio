@@ -30,7 +30,7 @@ mga kuwento ni Lolo"; the Rizal link is Episode 4's to tell).
 | Indio, the Lolo's medallion, the jump, Usman, the first mark, the woman across the street | As before |
 | **Islaw**, a boy guard of about twelve, and everything he says | An invented, unnamed-in-history child. No real Katipunero is given words |
 | The Katipunero who calls Indio a spy; Indio seized and tied; the camp dogs | Invented. Nothing here changes the event: the tearing happens as the sources tell it |
-| The office window, the man in the queue, the pawnshop, its helper, the wax print, the three triangles, the nail | Invented; no real shop or employer is shown or named |
+| The office window, the man in the queue, the pawnshop, its helper, the wax print, the three slanted strokes, the nail | Invented; no real shop or employer is shown or named |
 | The tarpaulin "Heritage Walk kasama si ..." | Invented; no real tour, person or sponsor. The face is a generic drawn figure (Rico Bulan, named in Episode 17) |
 | "Lahat ng narito, may dalang cedula ngayong gabi"; Islaw has none because his father could not pay | Invented dialogue; it fits the event (they came to tear them) and claims nothing more |
 
@@ -40,7 +40,7 @@ Sigaw noong Agosto 1896. Pinagtatalunan pa ang eksaktong petsa at lugar."
 ## 3. Guard rails checked for this script
 
 - No real person speaks. The leader is a far figure, from behind. No likeness.
-- No living person, party or firm. No real shop sign; the three triangles are an invented mark.
+- No living person, party or firm. No real shop sign; the three slanted strokes are an invented mark.
 - The real outcome stands: the cedulas are torn; Indio causes nothing and stops nothing.
 - No sentence in the story says that anything is invented. The trivia is after the last line.
 - Usman is only inside the jump; no dog in the present-day scenes.

@@ -15,7 +15,7 @@ Never the same framing twice in a row; nobody just standing.
 | 5 | 6 | Window | Indio leaning to a glass window, sliding the folder in | over the shoulder | NEW |
 | 6 | 7-9 | Window | A woman's hand pushes the folder back without looking up | close-up on hands | NEW |
 | 7 | 10-11 | Window | The queue behind him; one man laughing; Indio's small dry smile | two-shot, pan left | NEW |
-| 8 | 12-13 | Pawnshop | A pawnshop door at noon; over it three small triangles; Indio going in | low angle, push in | NEW |
+| 8 | 12-13 | Pawnshop | A pawnshop door at noon; over it three small slanted strokes; Indio going in | low angle, push in | NEW |
 | 9 | 14 | Pawnshop | Indio lays the bronze medallion on the counter | close-up on hands and medallion | KEPT (old s9) |
 | 10 | 15-16 | Pawnshop | Under the counter: a helper's rust-stained hand presses the medallion into a lump of wax | close-up from below, slow push | NEW |
 | 11 | 17 | Pawnshop | Indio takes it back, shrugging at the pawnbroker (face in shadow) | over the shoulder | NEW |
@@ -50,6 +50,6 @@ Never the same framing twice in a row; nobody just standing.
 | 40 | trivia | After | Chibi Indio and chibi Usman, the trivia card | existing trivia layout | existing sprites |
 New stills: 31. Kept from the first version: 9. No shot of Indio simply standing.
 Notes for the picture machine: the pawnbroker's face is never shown (shadow, hands, a ring is NOT drawn yet);
-the helper's right hand is rust-brown; the three triangles are small and plain, never a real logo; the woman
+the helper's right hand is rust-brown; the three slanted strokes are small and plain, never a real logo; the woman
 of shot 37 is a Filipina of about fifty in a plain dress (in Episode 48 she is his mother), not the red-umbrella
 woman of `series_cast.json`.
