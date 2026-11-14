@@ -1,0 +1,70 @@
+{
+ "fact_id": "ep01v2_end",
+ "fact_english": "The Katipuneros tore their cedulas in August 1896, the start of the Revolution; the cedula (cedula personal, from 1885) was an identity paper and tax under Spain. Where and when exactly is disputed: Pugad Lawin, 23 August, official since 1963; witnesses also said Balintawak, Bahay Toro, or the barn of Tandang Sora.",
+ "label_onscreen": "CEDULA",
+ "source_onscreen": "Pinagmulan: NCCA; Philippine Studies 47:4 (1999); Ateneo (2023)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par?",
+   "emphasis": [
+    "totoo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: Agosto 1896, pinunit ng mga Katipunero ang cedula nila, at doon nagsimula ang Himagsikan.",
+   "emphasis": [
+    "1896",
+    "cedula"
+   ],
+   "say": "Tiyak: Agosto mil otsosyentos nobentay sais, pinunit ng mga Katipunero ang sedula nila, at doon nagsimula ang Himagsikan."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang cedula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula 1885.",
+   "emphasis": [
+    "buwis"
+   ],
+   "say": "Ang sedula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula mil otsosyentos otsentay singko."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh saan at kailan mismo?",
+   "emphasis": [
+    "saan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "'Yan ang pinagtatalunan. Pugad Lawin, ikadalawampu't tatlo ng Agosto, ang opisyal mula 1963.",
+   "emphasis": [
+    "pinagtatalunan"
+   ],
+   "say": "Yan ang pinagtatalunan. Pugad Lawin, ikadalawampu't tatlo ng Agosto, ang opisyal mula mil nuwebe syentos sisentay tres."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Pero may mga saksing nagsabing Balintawak, Bahay Toro, o sa kamalig ni Tandang Sora.",
+   "emphasis": [
+    "Balintawak"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umungol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 80,
+ "after_text": "Ikaw, ka-Indio: kung hinanapan ka ng papel na wala ka, magsisinungaling ka ba, o aamin?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
+ "voice_note": "The script's fifth trivia line is split in two INDIO lines (the dispute, then the witnesses) so each caption fits; same words. Years are voiced as Spanish-derived numbers."
+}

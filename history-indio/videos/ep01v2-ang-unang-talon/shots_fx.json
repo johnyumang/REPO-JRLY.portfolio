@@ -1,0 +1,593 @@
+{
+ "0": {
+  "fx": [
+   "shake",
+   "punch",
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 1
+ },
+ "1": {
+  "fx": [
+   "punch",
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 2
+ },
+ "2": {
+  "fx": [
+   "flash",
+   "sparkle"
+  ],
+  "move": "pull_out",
+  "shot": 3
+ },
+ "3": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pan_left",
+  "shot": 3,
+  "key": 2
+ },
+ "4": {
+  "fx": [],
+  "move": "tilt_down",
+  "shot": 4
+ },
+ "5": {
+  "fx": [],
+  "move": "push_in",
+  "shot": 4,
+  "key": 4
+ },
+ "6": {
+  "fx": [],
+  "move": "push_in",
+  "shot": 5
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "shot": 6
+ },
+ "8": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 6,
+  "key": 7
+ },
+ "9": {
+  "fx": [],
+  "move": "tilt_up",
+  "shot": 6,
+  "key": 7
+ },
+ "10": {
+  "fx": [],
+  "move": "pan_left",
+  "shot": 7
+ },
+ "11": {
+  "fx": [],
+  "move": "tilt_down",
+  "shot": 7,
+  "key": 10
+ },
+ "12": {
+  "fx": [],
+  "move": "tilt_up",
+  "shot": 8
+ },
+ "13": {
+  "fx": [],
+  "move": "pull_out",
+  "shot": 8,
+  "key": 12
+ },
+ "14": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "shot": 9
+ },
+ "15": {
+  "fx": [],
+  "move": "push_in",
+  "shot": 10
+ },
+ "16": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 10,
+  "key": 15
+ },
+ "17": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 11
+ },
+ "18": {
+  "fx": [
+   "water",
+   "spray",
+   "shake"
+  ],
+  "move": "pan_right",
+  "shot": 12
+ },
+ "19": {
+  "fx": [
+   "water",
+   "spray"
+  ],
+  "move": "tilt_up",
+  "shot": 12,
+  "key": 18
+ },
+ "20": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "shot": 13
+ },
+ "21": {
+  "fx": [
+   "water"
+  ],
+  "move": "pan_right",
+  "shot": 13,
+  "key": 20
+ },
+ "22": {
+  "fx": [
+   "water"
+  ],
+  "move": "tilt_up",
+  "shot": 13,
+  "key": 20
+ },
+ "23": {
+  "fx": [
+   "water",
+   "sparkle"
+  ],
+  "move": "push_in",
+  "shot": 14
+ },
+ "24": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pull_out",
+  "shot": 14
+ },
+ "25": {
+  "fx": [
+   "flash",
+   "punch",
+   "sparkle"
+  ],
+  "move": "pull_out",
+  "shot": 15
+ },
+ "26": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pan_left",
+  "shot": 15,
+  "key": 25
+ },
+ "27": {
+  "fx": [
+   "embers",
+   "impact"
+  ],
+  "move": "tilt_down",
+  "shot": 16
+ },
+ "28": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 16,
+  "key": 27
+ },
+ "29": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "shot": 17
+ },
+ "30": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "shot": 17,
+  "key": 29
+ },
+ "31": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_left",
+  "shot": 17,
+  "key": 29
+ },
+ "32": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_down",
+  "shot": 17,
+  "key": 29
+ },
+ "33": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 17,
+  "key": 29
+ },
+ "34": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 18
+ },
+ "35": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 18,
+  "key": 34
+ },
+ "36": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "shot": 18,
+  "key": 34
+ },
+ "37": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "shot": 18,
+  "key": 34
+ },
+ "38": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_left",
+  "shot": 18,
+  "key": 34
+ },
+ "39": {
+  "fx": [
+   "embers",
+   "punch"
+  ],
+  "move": "tilt_down",
+  "shot": 19
+ },
+ "40": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 19,
+  "key": 39
+ },
+ "41": {
+  "fx": [
+   "embers",
+   "shake"
+  ],
+  "move": "push_in",
+  "shot": 20
+ },
+ "42": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 20,
+  "key": 41
+ },
+ "43": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 21
+ },
+ "44": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 21,
+  "key": 43
+ },
+ "45": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "shot": 21,
+  "key": 43
+ },
+ "46": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "shot": 22
+ },
+ "47": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_left",
+  "shot": 22,
+  "key": 46
+ },
+ "48": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_down",
+  "shot": 22,
+  "key": 46
+ },
+ "49": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 22,
+  "key": 46
+ },
+ "50": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 23
+ },
+ "51": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 23,
+  "key": 50
+ },
+ "52": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_down",
+  "shot": 24
+ },
+ "53": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 24,
+  "key": 52
+ },
+ "54": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 25
+ },
+ "55": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 25,
+  "key": 54
+ },
+ "56": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_right",
+  "shot": 26
+ },
+ "57": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "shot": 26,
+  "key": 56
+ },
+ "58": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "shot": 26,
+  "key": 56
+ },
+ "59": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 27
+ },
+ "60": {
+  "fx": [],
+  "move": "tilt_up",
+  "shot": 27,
+  "key": 59
+ },
+ "61": {
+  "fx": [],
+  "move": "pull_out",
+  "shot": 27,
+  "key": 59
+ },
+ "62": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "shot": 28
+ },
+ "63": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 28,
+  "key": 62
+ },
+ "64": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "shot": 29
+ },
+ "65": {
+  "fx": [
+   "embers",
+   "punch",
+   "shake"
+  ],
+  "move": "push_in",
+  "shot": 30
+ },
+ "66": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_left",
+  "shot": 31
+ },
+ "67": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_down",
+  "shot": 31,
+  "key": 66
+ },
+ "68": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "shot": 32,
+  "keys": [
+   68,
+   90
+  ]
+ },
+ "69": {
+  "fx": [
+   "sparkle",
+   "aura_gold"
+  ],
+  "move": "pull_out",
+  "shot": 34
+ },
+ "70": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "shot": 35
+ },
+ "71": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pan_right",
+  "shot": 35,
+  "key": 70
+ },
+ "72": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_up",
+  "shot": 35,
+  "key": 70
+ },
+ "73": {
+  "fx": [
+   "water"
+  ],
+  "move": "pull_out",
+  "shot": 36
+ },
+ "74": {
+  "fx": [
+   "water"
+  ],
+  "move": "pan_left",
+  "shot": 36,
+  "key": 73
+ },
+ "75": {
+  "fx": [
+   "water"
+  ],
+  "move": "tilt_down",
+  "shot": 36,
+  "key": 73
+ },
+ "76": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "shot": 36,
+  "key": 73
+ },
+ "77": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "shot": 37
+ },
+ "78": {
+  "fx": [],
+  "move": "push_in",
+  "shot": 38
+ },
+ "79": {
+  "fx": [],
+  "move": "pan_right",
+  "shot": 38,
+  "key": 78
+ },
+ "80": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "shot": 39
+ }
+}

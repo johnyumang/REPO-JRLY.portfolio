@@ -18,6 +18,8 @@ def chunks(words, max_chars=20, max_words=4):
         else: out.append(cur)
     return out
 
+TAG_COLOURS = ['&H0000E4FF', '&H00FFD27A', '&H008CF08C', '&H00B49BFF', '&H0060B4FF', '&H00F0A0F0', '&H00D0D0D0', '&H0080FFFF', '&H00FF9A9A', '&H0090C8FF']
+
 def make(timings, path):
     head = """[Script Info]
 ScriptType: v4.00+
@@ -28,12 +30,18 @@ WrapStyle: 2
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sub,DejaVu Sans,74,&H0000E4FF,&H0000E4FF,&H001F121F,&H961F121F,1,0,0,0,100,100,0,0,1,7,3,2,60,60,650,1
+Style: Who,DejaVu Sans,40,&H00FFFFFF,&H00FFFFFF,&H001F121F,&H961F121F,1,0,0,0,100,100,2,0,1,5,2,2,60,60,742,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     lines = []
+    who = [s.get('speaker') for s in timings]; tag = len({w for w in who if w}) > 1          # several voices: a small name tag over each line
+    order = list(dict.fromkeys(w for w in who if w))
     for s in timings:
+        if tag and s.get('speaker'):                                                         # colour per speaker (ASS colours are &HBBGGRR)
+            col = TAG_COLOURS[order.index(s['speaker']) % len(TAG_COLOURS)]; name = s['speaker'] + (' (SA ATIN)' if s.get('aside') else '')
+            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,0,,{{\\fad(40,0)\\c{col}}}{name}")
         cs = chunks(s['text'].replace('\n', ' ').split()); total = sum(len(' '.join(c)) for c in cs); t = s['start']
         for i, c in enumerate(cs):
             txt = ' '.join(c); d = (s['end'] - s['start']) * len(txt) / total; end = s['end'] if i == len(cs) - 1 else t + d
