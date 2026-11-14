@@ -197,7 +197,9 @@ def transition(a_, b_, p, kind):
         o += (np.clip(1 - np.abs(dgn - pos) / (26 * W / 1080), 0, 1) ** 2)[..., None] * 255; return np.clip(o, 0, 255).astype(np.uint8)
     if kind == 'zoom': return cv2.addWeighted(_zoom(a_, 1 + 0.55 * pe), 1 - pe, _zoom(b_, 1.5 - 0.5 * pe), pe, 0)      # zoom-through
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
+    if kind == 'cut': return b_                                                              # hard cut (no blend)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
+HARD_IN = {(0.0 if j == 0 else tim[j]['start']) for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
 f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
@@ -210,6 +212,7 @@ for n, sh in enumerate(shots):
         if i not in L3s: L3s[i] = depth3d.prep3d(im, deps[paths[i]], im.shape[1] * 0.008); print('3d layers k%02d:' % i, 'flat, normal parallax' if L3s[i] is None else 'ok', flush=True)
         L3 = L3s[i]
     kind = FX.get('trans', {}).get(str(n), TRANS[n % len(TRANS)])
+    if any(abs(a_ - t_) < 1e-6 for t_ in HARD_IN): kind = 'cut'                             # shots_fx line {"trans_in": "cut"}: e.g. the line right after a spliced trivia break
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
         if cap is not None:
