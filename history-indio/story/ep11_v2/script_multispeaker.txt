@@ -1,0 +1,133 @@
+# INDIO: ANG SAKSI — Episode 11, "Ang Sugo ng Butuan" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: gas money. Then, rich: the bronze he sees shining under the water, and the gold beside it.
+# SABI-SABI: "Bago dumating ang Kastila, wala tayong sariling kabihasnan. Mga taga-bundok lang."
+# TWIST (BIBLE row 11): the enemy is the guard. Fall: the thing in the lake drags the new rich man under by
+#   the gold in his fists; money cannot buy air. Comeback: the medallion wakes in his open hand and he can
+#   HEAR the guard; he puts the gold back, says what it truly is, and it lifts him out. First ally, first
+#   knot, first medallion of the hunt, first hologram. The first wish is spent, by accident.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump). M.
+# AGYU (invented boy paddler of the port of Butuan, about eleven; "friend" voice, boy 2).
+# ANG NAKAPUTI (an unnamed bank officer in white, today; designed voice, smooth; ONE line; he is never named).
+# YÚMUD (the water being of Agusan Manobo folklore; a low voice we hear only once Indio can understand it).
+# DIWA (the diwa of Rajah Kiling in the medallion "Ang Sugo"; the owner's approved exception; ONE invented
+#   line, about nothing outside his own life). No other real person speaks: the envoys of 1007 and 1011 are
+#   told of by Agyu. There is no attested line of Rajah Kiling, so the hero line here is the diwa's, and it is
+#   marked invented in facts.md.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Ukay-ukay=Ukay Ukay
+# SAY: hukay=HUkay
+# SAY: Surigao=suriGAW
+# SAY: Butuan=BUtwan
+# SAY: 1011=isang libo't labing-isa
+# SAY: balangay=balaNGAY
+# SAY: Rajah Kiling=RAha kiLING
+# SAY: Champa=TSAMpa
+# SAY: Yúmud=YUmud
+# SAY: Agyu=AGyu
+# SAY: Sandugo=sanduGO
+# SAY: pickup=PIKap
+# SAY: sidecar=SAYDkar
+# SAY: passbook=PASbuk
+
+# --- 0. Hook (cold, at 0.0, on the pull and the splash: a flash-forward of scene 3)
+(Isang kamay na puno ng ginto, sa ilalim ng tubig. Isang itim na anyo ang humila rito pababa. Bula.)
+AGYU: [shout] Bitawan mo ang ginto! Hihilahin ka niya!
+INDIO (sa atin): [dramatic] Kahapon, yumaman ako. Ngayon, nalulunod ako dahil doon.
+INDIO (sa atin): [dry] Ako 'to si Indio. Mayaman na. Sandali lang.
+
+# --- 1. Today (short, Indio's voice). He wants: gas money.
+TAGAPAGSALAYSAY: [calm] Ngayon. Sa daan papuntang Butuan.
+TAGAPAGSALAYSAY: [calm] Papunta sina Indio at M sa Butuan, pero tumirik ang lumang motor. Ubos ang gas, at isandaan at dalawampung piso na lang ang pera ni Indio.
+(Isang lumang motor na may sidecar, tirik sa gilid ng kalsada. Si Indio, naka-kupas na t-shirt. Si M, may pulang payong. Sa kuwaderno: mga barko, pahilaga.)
+INDIO (sa atin): [playful] Ukay-ukay: galing sa salitang "hukay", kasi hinuhukay mo sa tambak ang damit. Buong buhay ko, ukay. Pati itong motor, parang ukay.
+(Iniabot ni M ang payong para hawakan niya sandali. Hinawakan niya sa hawakan.)
+TAGAPAGSALAYSAY: [calm] Ipinahawak sa kanya ni M ang pulang payong, kung saan nakatago ang Huling Tala, na tumutupad ng tatlong hiling.
+INDIO: [sigh] Sana yumaman ako. Kahit pang-gas lang.
+(Kumislap ang hawakan ng payong. Tumunog ang phone ni Indio. Hindi magkasya sa screen ang mga zero.)
+TAGAPAGSALAYSAY: [calm] Tumunog ang phone ni Indio: may pumasok na pera, napakarami.
+M: [sharp] Indio! 'Yan ang una sa tatlong hiling. Hindi na 'yan mababawi.
+(Isang bangko. Isang lalaking nakaputi mula ulo hanggang paa ang nag-abot ng passbook. Nakangiti.)
+TAGAPAGSALAYSAY: [calm] Sa bangko, isang lalaking nakaputi ang nag-abot ng passbook niya.
+ANG NAKAPUTI: [smooth] Kayo na po ang hari ng sarili n'yong buhay.
+(Sunod-sunod: bagong pickup, gintong relo, kuwintas, salamin.)
+TAGAPAGSALAYSAY: [calm] Bumili agad si Indio: pickup, gintong relo, kuwintas.
+(Sa Balangay Shrine. Binasa ni Indio nang malakas ang nakasulat sa tabi ng lumang bangka. Uminit ang medalyon ni M.)
+TAGAPAGSALAYSAY: [calm] Sa Butuan, binasa niya nang malakas ang isang marker. Uminit ang medalyon.
+
+# --- 2. The port. He wants: to see what the notebook meant.
+TAGAPAGSALAYSAY: [low] Butuan. Taong 1011. Ang daungan.
+(Isang malapad na ilog. Dose-dosenang malalaking bangkang kahoy. Mga kargador, mga banga, mga telang makulay. Lumabas ang itim na asong si Usman sa liwanag. Suot pa rin ni Indio ang gintong relo at kuwintas.)
+TAGAPAGSALAYSAY: [low] Sa daungan, sumalubong ang aso niyang si Usman.
+USMAN: [dry] Par. Kumikinang ka. Para kang bagong kaldero.
+INDIO (sa atin): [whisper] Sabi sa libro, bago dumating ang Kastila, mga taga-bundok lang tayo. Tingnan mo 'to.
+(Isang batang lalaki, may sagwan sa balikat, napatigil sa harap nila.)
+TAGAPAGSALAYSAY: [low] Isang batang may sagwan ang napatigil sa harap nila: si Agyu.
+AGYU: [proud] Mga balangay namin 'yan. Walang pako: tabla, tarugo at tali lang. Umaabot 'yan hanggang sa emperador sa hilaga.
+INDIO: [surprised] Emperador? Nakikipag-usap kayo sa emperador?
+AGYU: [plain] Nagpadala ng sugo ang hari namin, si Rajah Kiling. Ang hiling niya: ituring kaming kapantay ng Champa, 'yung malaking kaharian sa kanluran. May dala pang sulat na nakaukit sa ginto.
+(Inilabas ni Indio ang lente ni Lolo, at itinapat sa ilog. May kumislap sa ilalim ng tubig, sa isang lumubog na bangka: tanso. At sa tabi nito, ginto.)
+TAGAPAGSALAYSAY: [low] Sumilip si Indio sa lente ng Lolo niya. Sa ilalim ng ilog, sa isang lumubog na bangka, may kumikislap na ginto.
+INDIO: [greedy] May ginto roon. Ang dami.
+AGYU: [alarmed] Huwag, kuya. May bantay ang ilog na 'yan.
+
+# --- 3. Under the water. THE FALL.
+(Lumusong si Indio. Sumisid. Sa lumubog na bangka: mga gintong palamuti. Dinakot niya nang dalawang kamay. Sa ilalim ng isang tabla, isang medalyong tanso, hindi niya pinansin.)
+TAGAPAGSALAYSAY: [low] Sumisid si Indio at dinakot ang ginto.
+(Mula sa dilim ng tubig, isang anyong itim. Buhok na parang lumot. Mga matang parang baga. Hinawakan nito ang bukung-bukong niya, at hinila pababa.)
+TAGAPAGSALAYSAY: [low] Mula sa dilim, isang itim na nilalang ang humawak sa paa niya at hinila siya pababa.
+AGYU: [shout] Bitawan mo ang ginto! Hihilahin ka niya!
+(Sa ilalim. Nagpupumiglas si Indio. Ayaw niyang bitawan ang ginto. Ipinakita pa niya ang relo sa nilalang, na parang suhol. Mas lalo siyang hinila.)
+INDIO (sa atin): [whisper] Ang dami kong pera. Walang nagbebenta ng hangin dito.
+
+# --- 4. THE COMEBACK. He opens his hands.
+(Nauubos ang bula. Bumuka ang mga kamay ni Indio. Lumutang palayo ang ginto. Sa walang-lamang palad niya, dumikit ang medalyong tanso mula sa ilalim ng tabla. Uminit ito.)
+TAGAPAGSALAYSAY: [low] Sa wakas, ibinuka niya ang mga kamay. Lumutang ang ginto, at dumikit sa palad niya ang isang medalyong tanso.
+DIWA: [deep] Matagal akong naghintay ng sugong marunong munang makinig.
+(Biglang may naririnig si Indio sa tubig. Hindi ungol. Mga salita.)
+YÚMUD: [low] Bantay ako. Magnanakaw lang ang hinihila ko.
+INDIO (sa atin): [whisper] Naiintindihan ko siya. Hindi siya halimaw. Bantay siya ng mga bangkang lumubog. At ako ang magnanakaw.
+(Itinuro ni Indio ang ginto. Umiling. Ibinalik niya ang huling piraso sa bangka. Tapos tumingin siya nang diretso sa mga matang parang baga, at gumalaw ang labi niya.)
+TAGAPAGSALAYSAY: [low] Ibinalik ni Indio ang ginto, at tumingin nang diretso sa nilalang.
+INDIO: [bubbling] Nakita na kita.
+(Binitawan siya ng nilalang. Binuhat siya nito paahon, at inilapag sa pantalan. Napaatras ang mga kargador. Napanganga si Agyu.)
+TAGAPAGSALAYSAY: [low] Binitawan siya nito, at binuhat pa paahon sa pantalan.
+AGYU: [awed] Hindi ka niya kinain!
+INDIO: [coughing] Nakinig lang ako. Sa unang pagkakataon.
+(Pinutol ni M ang isang hibla ng pulang tali mula sa payong niya, at itinali sa pulso ni Indio. Itinaas niya ang sarili niyang medalyon. Kumislap. Sa pulang tali, kusang nabuo ang isang buhol.)
+TAGAPAGSALAYSAY: [low] Itinali ni M ang isang pulang tali sa pulso ni Indio. Kusang nabuo roon ang isang buhol.
+M: [low] 'Yung tinig kanina: si Rajah Kiling, ang diwa sa medalyong 'yan. Mula ngayon, maiintindihan mo ang lahat ng wika. Hindi mo lang masasalita.
+INDIO: [curious] At itong buhol?
+M: [low] Ang bantay ng ilog. Kakampi mo na siya.
+USMAN: [dry] May kakampi ka nang halimaw, par. Ako pa rin ang paborito, ha.
+(Sa tabi nila, isang dayuhang mangangalakal ang tumitimbang ng bigas ni Agyu, habang bumubulong sa kasama niya sa sariling wika.)
+TAGAPAGSALAYSAY: [low] Sa tabi nila, tinitimbang ng isang dayuhang mangangalakal ang bigas ni Agyu.
+INDIO (sa atin): [whisper] Naiintindihan ko siya. Sabi niya: "Idiin mo ang timbangan. Bata lang 'yan."
+(Hindi makapagsalita si Indio sa wika nila. Itinuro na lang niya ang hinlalaking nakadiin sa timbangan.)
+TAGAPAGSALAYSAY: [low] Itinuro ni Indio ang daliri sa timbangan.
+AGYU: [sharp] Hoy! Ang daliri mo, nasa timbangan!
+(Nagtawanan ang mga kargador. Namula ang mangangalakal, at nagdagdag ng bayad.)
+TAGAPAGSALAYSAY: [low] Nagdagdag ng bayad ang mangangalakal.
+USMAN: [dry] Naiintindihan mo, hindi mo masabi. Ganyan ako sa'yo dati.
+(Sa braso ni Indio, umilaw ang isa sa mga marka. Sa hangin, tatlong segundo: isang maliit na liwanag na may mga guhit at isang buhol. Wala nang iba.)
+
+# --- 5. Back. What follows the money.
+TAGAPAGSALAYSAY: [calm] Ngayon.
+(Butuan, gabi. Ang bagong pickup, nakaparada. Hinubad ni Indio ang gintong relo at inilagay sa bulsa. Sa kuwaderno, kusang sumusulat ang tinta.)
+M: [low] Indio. May kumuha ng litrato ng sasakyan mo kanina, tapos umalis.
+(Itinaas ni Indio ang ilawan. Sa tubig ng ilog, isang aninong gumagalaw. Walang taong nakatayo sa ibabaw nito.)
+TAGAPAGSALAYSAY: [calm] Pagbalik sa kasalukuyan, itinaas ni Indio ang ilawan mula sa Galilea. Sa ilog, may aninong gumagalaw, pero walang taong nakatayo.
+INDIO (sa atin): [whisper] Anino. Walang may-ari. At sabi ni M, may sumusunod na sa pera ko.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung may isang hiling ka, at nasabi mo nang hindi sinasadya, ano kaya 'yon?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? May sugo ang Butuan sa emperador?
+# INDIO: Tiyak: sa mga tala ng Tsina, noong 1007, humiling ang sugo ni Rajah Kiling ng Butuan ng ranggong kapantay ng sa Champa. Noong 1011, may sugong nag-alay ng sulat na nakaukit sa gintong tableta.
+# INDIO: At ang mga balangay: labing-isang bangka ang nahukay sa Butuan, ang pinakamatanda mula pa sa mga taong 689 hanggang 988.
+# USMAN: Eh pinagbigyan ba ang hiling?
+# INDIO: 'Yan ang pinagtatalunan. At ang Yúmud, kuwentong-bayan ng mga Manobo ng Agusan: isang diwa ng malalim na tubig.
+# USMAN: Kaya pala ako umungol.

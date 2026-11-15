@@ -360,6 +360,12 @@ Ep9 s78), "season" (Ep21 s4, Ep22 s30, Ep23 s30, Ep25 s48).
 | 4 | buko pie (Los Baños) | commonly told, "sabi nila" |
 | 5 | the twenty-peso note (most used; becoming a coin) | confirmed |
 | 6 | taho (from Hokkien for tofu) | well supported |
+| 7 | texting ("text capital ng mundo", 2000s) | confirmed as a label; no number said |
+| 8 | sinigang (from "sigang") | the word: supported; the dish's age: common account |
+| 9 | merienda (Spanish word) | one source so far: confirm before the build |
+| 10 | banana cue ("cue" from barbecue) | one source so far: confirm before the build |
+| 11 | ukay-ukay (from "hukay") | one source so far: confirm before the build |
+| 12 | resibo (Spanish "recibo"; today's slang for proof) | dictionary sense: confirm before the build |
 
 **Hooks used** (the shout or blow at 0.0; never the same kind twice in a row, never the same picture twice):
 
@@ -371,17 +377,66 @@ Ep9 s78), "season" (Ep21 s4, Ep22 s30, Ep23 s30, Ep25 s48).
 | 4 | "Atras! Kakagatin ka niyan!", a dog at a gate | an animal's attack |
 | 5 | a tray of glasses crashing, "Imbécile!" | his own blunder |
 | 6 | "Fuego!", a volley over black | a death he must watch |
+| 7 | "Huwag! Huwag ngayon! Lolo!", a phone dying at 1% | a loss (his own shout) |
+| 8 | "Huwag!", M's hand on his wrist | a hand that stops him |
+| 9 | "Hindi ako takot!", a lamp going out | a lie and the dark |
+| 10 | "Kausap ang aso!", a boy alone in a corridor | mockery |
+| 11 | "Bitawan mo ang ginto!", pulled under water | drowning |
+| 12 | "Pangatlo na 'yan!", thrown by a mount | thrown off |
 
 **Falls used** (how he seems to lose; the picture must differ): 1 tied, blade at his neck; 2 shoved into mud,
 the wall already open; 3 passed out of a yard by open hands; 4 his dog turns its back, he sits in the road; 5
-led by the sleeve to a sink; 6 he shuts his eyes and is left with nothing.
+led by the sleeve to a sink; 6 he shuts his eyes and is left with nothing; 7 the phone dies mid-letter; 8 his
+wrist held, he must watch his way home hung on a child; 9 he runs in the dark and leaves a boy behind; 10 he
+may not go to the boy he was; 11 dragged under by the gold in his fists; 12 thrown three times, lost in a
+turning forest, the prize driven away.
 
 **Friends of each time:** 1 Islaw (boy guard); 2 Sepa (kitchen girl) and her lola; 3 Tinong (drum boy); 4 Andoy
-(coachman's son); 5 Ambo (seaman, dishwasher); 6 Kiko (water boy).
+(coachman's son); 5 Ambo (seaman, dishwasher); 6 Kiko (water boy); 7 Imo (gravedigger's son); 8 Aling Pining
+(baker); 9 Yoni (fig boy); 10 Bea and Ma'am Celia (and himself at ten); 11 Agyu (boy paddler); 12 Bini (river
+girl).
 
 **Things he brings back** (kept in the Lola's box from Episode 3): 2 Sepa's tapis; 3 Tinong's drumstick; 5 M's
-twenty (spent on taho in 6). Nothing from 1, 4 and 6.
+twenty (spent on taho in 6). Nothing from 1, 4 and 6. Gamit and gear: 7 ang lente; 9 ang ilawan; 10 ang
+kuwaderno ni Lolo; 11 the medallion of Rajah Kiling (understands every tongue), the red thread, knot 1 (the
+Yúmud); 12 ang Punyal, the medallion of Jayadewa (reads any writing truly), knot 2 (the tikbalang). Marks: six
+from Episode 8; none in 9 to 12.
 
 **Hero lines:** 1 Bonifacio, the traditional cry; 2 none; 3 Bautista, one word (not a quote of the Acta); 4
 Teodora, the moth warning (attested, our translation, placement invented); 5 Agoncillo, his protest in
-substance (not verbatim); 6 Rizal, reported last words (traditional).
+substance (not verbatim); 6 Rizal, reported last words (traditional); 7 Rizal, the first line of his last poem
+(VERBATIM, as a voice); 8 Mabini, a rendering of his memoir's judgment (not a quote), and the diwa of
+Sulayman (invented, the exception); 9 no voice plays Jesus: three verses read word for word by the storyteller;
+10 none; 11 the diwa of Rajah Kiling (invented, the exception); 12 the chief of Tundun, a rendering of the
+copperplate (not a quote), and the diwa of Jayadewa (invented, the exception).
+
+**Plants made in Episodes 1 to 12 that later scripts must pay:** the three slanted strokes (1); the wax print
+(1); the face on the tarpaulin (1), "R.B." (2), the first-honor boy (10), the raised phone in 1898 (8), the
+ring light and tyre tracks in the year 900 (12); the red umbrella behind the Lola's door (3); "hindi ikaw ang
+unang nagtanong" (4); the white hair and the dog that did not growl (9); "Mag-ingat sa batang laging nauuna"
+(10); the man in white at the bank (11); the shadow with no owner (11); the hidden clause in the house
+contract and the bitten nail (12).
+
+## 10. Rule 9 (owner, 15 November, after watching Episode 1 v2): told like a storyteller
+
+Nothing the viewer needs in order to follow the story may live only in a stage line. TAGAPAGSALAYSAY tells
+each action in a full, plain sentence, in the third person: who does what, and why it matters ("Walang trabaho,
+walang pamasahe. Kaya dinala niya sa sanglaan ang nag-iisang mana niya: ang lumang medalyon ng Lolo niya.").
+Stage lines stay only as notes for the picture. One thread at a time: a side thread is cut rather than left
+half explained. Length follows: the story may run to about 3:30 to 3:45 and about 520 to 560 spoken words.
+Clear beats short. This replaces BIBLE section 0, point 1 ("no stretch of more than two storyteller lines in a
+row"): the storyteller now carries the action, and the characters carry the feeling and the jokes.
+`story/_parts/reflow.py` re-derives a revised script, counts lines added, changed and cut against the committed
+version, and renumbers `shots.md` and `facts.md`.
+
+## 11. Rule 10 (owner, 15 November): camera
+
+The whole film vocabulary is used, but only where it serves the scene; an effect that does not match what is
+happening is a fault. The table is `pipeline/CAMERA.md`. In every `shots.md`:
+
+- a **Camera** column: shot size / angle / move / reason in five words or fewer, chosen by what the line is doing;
+- the size and angle come first in each picture description;
+- two or three **high points** per episode earn a big move (orbit, crane, dolly); the rest are small push-ins or holds;
+- the shot size changes at every cut; a reveal says where it ends;
+- transitions are plain cuts unless the table allows another (dissolve for a change of time or place, whip inside
+  action, flash for the time jump or a memory).

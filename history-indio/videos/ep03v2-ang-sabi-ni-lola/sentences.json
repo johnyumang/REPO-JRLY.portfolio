@@ -68,22 +68,12 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Natanggal ako sa delivery.",
-  "say": "natanggal ako sa deLIberi.",
-  "style": "dry",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Kaya pauwi ako kay Lola Ising, barya na lang ang laman ng bulsa.",
-  "say": "kaya pauwi ako kay lola Ising, barya na lang ang laman ng bulsa.",
-  "style": "",
+  "text": "Natanggal si Indio sa trabaho, kaya umuwi siya sa Lola niya sa Kawit.",
+  "say": "natanggal si indio sa trabaho, kaya umuwi siya sa lola niya sa KAwit.",
+  "style": "calm",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Jeepney: pagkatapos ng giyera, mga lumang jeep ng sundalong Amerikano ang ginawang pampasahero ng mga Pilipino.",
@@ -129,6 +119,22 @@
   "speaker": "LOLA ISING"
  },
  {
+  "text": "Iniabot ni Lola ang isang lumang kahon.",
+  "say": "iniabot ni lola ang isang lumang kahon.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kasyang-kasya ang medalyon niya.",
+  "say": "kasyang-kasya ang medalyon niya.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Ganyan din ang Lolo Isidro mo.",
   "say": "ganyan din ang lolo iSIdro mo.",
   "style": "quiet",
@@ -151,6 +157,22 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "LOLA ISING"
+ },
+ {
+  "text": "Sa bahay ni Aguinaldo, binasa niya ang marker.",
+  "say": "sa bahay ni aginALdo, binasa niya ang marker.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Uminit ang medalyon.",
+  "say": "uminit ang medalyon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Kawit.",
@@ -207,6 +229,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "May batang hirap sa isang malaking tambol: si Tinong.",
+  "say": "may batang hirap sa isang malaking tambol: si tiNONG.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Tabi!",
@@ -292,12 +322,36 @@
   "aside": true
  },
  {
+  "text": "Mula sa likod, may nakita si Indio: isang paslit na may medalyong kamukha ng kanya.",
+  "say": "mula sa likod, may nakita si indio: isang paslit na may medalyong kamukha ng kanya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Medalyon ko 'yon.",
   "say": "medalyon ko yon.",
   "style": "shocked",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Kinapa niya ang leeg niya.",
+  "say": "kinapa niya ang leeg niya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Wala.",
+  "say": "wala.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Wala ang akin!",
@@ -340,6 +394,22 @@
   "speaker": "TINDERA"
  },
  {
+  "text": "Hinila niya ang tali sa leeg ng bata.",
+  "say": "hinila niya ang tali sa leeg ng bata.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kaya itinulak siya ng mga tao palabas ng bakuran.",
+  "say": "kaya itinulak siya ng mga tao palabas ng bakuran.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Diyan ka sa labas.",
   "say": "diyan ka sa labas.",
   "style": "cold",
@@ -372,6 +442,22 @@
   "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
+ },
+ {
+  "text": "Sa alikabok, nakita niya ang sarili niyang medalyon.",
+  "say": "sa alikabok, nakita niya ang sarili niyang medalyon.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Nahulog lang pala.",
+  "say": "nahulog lang pala.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "'Yan ang sinasabi ko kanina.",
@@ -456,6 +542,14 @@
   "speaker": "TINONG"
  },
  {
+  "text": "Pinasan niya ang tambol ni Tinong, bumalik sa loob, at hinarap ang tinderang sumigaw.",
+  "say": "pinasan niya ang tambol ni tiNONG, bumalik sa loob, at hinarap ang tinderang sumigaw.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Nagkamali po ako.",
   "say": "nagkamali po ako.",
   "style": "plain",
@@ -504,6 +598,14 @@
   "speaker": "TINDERA"
  },
  {
+  "text": "Nahati ang mga tao, at pinadaan siya hanggang sa harap.",
+  "say": "nahati ang mga tao, at pinadaan siya hanggang sa harap.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Kanina pinalabas ka.",
   "say": "kanina pinalabas ka.",
   "style": "playful",
@@ -536,6 +638,22 @@
   "speaker": "TINONG"
  },
  {
+  "text": "Sa bintana, pinisil ng isang ginang ang kamay ng heneral.",
+  "say": "sa bintana, pinisil ng isang ginang ang kamay ng heneral.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Saka iniladlad ang watawat, at tumugtog ang banda.",
+  "say": "saka iniladlad ang watawat, at tumugtog ang banda.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Martsa namin 'yan!",
   "say": "martsa namin yan!",
   "style": "proud",
@@ -558,6 +676,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "TINONG"
+ },
+ {
+  "text": "Isang matandang lalaki ang bumasa ng kasulatan.",
+  "say": "isang matandang lalaki ang bumasa ng kasulatan.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "¡Independencia!",
@@ -602,6 +728,22 @@
   "aside": true
  },
  {
+  "text": "Ngumiti ang paslit kay Indio.",
+  "say": "ngumiti ang paslit kay indio.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
+  "say": "tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Kakaiba ang amoy ng babaeng 'yon, par.",
   "say": "kakaiba ang amoy ng babaeng yon, par.",
   "style": "low",
@@ -644,6 +786,14 @@
  {
   "text": "Lumamig ang medalyon.",
   "say": "lumamig ang medalyon.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumalik si Indio sa kasalukuyan, may pangatlong marka sa braso.",
+  "say": "bumalik si indio sa kasalukuyan, may pangatlong marka sa braso.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,

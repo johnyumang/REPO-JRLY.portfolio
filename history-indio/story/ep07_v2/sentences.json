@@ -84,31 +84,20 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Walang medalyon.",
-  "say": "walang medalyon.",
-  "style": "dry",
+  "text": "Ninakaw ang medalyon ni Indio, kaya naiwan siya sa 1896.",
+  "say": "ninakaw ang medalyon ni indio, kaya naiwan siya sa mil otsosyentos nobentay sais.",
+  "style": "low",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Walang signal.",
-  "say": "walang signal.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Siyam na porsiyento na lang.",
-  "say": "siyam na porsiyento na lang.",
+  "text": "Phone na lang ang hawak niya, siyam na porsiyento ang baterya.",
+  "say": "phone na lang ang hawak niya, siyam na porsiyento ang baterya.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Text: noong mga taong 2000, tinawag tayong text capital ng mundo.",
@@ -136,6 +125,14 @@
   "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
+ },
+ {
+  "text": "May litratong hindi pa niya nabubuksan, galing kay Lola: sulat ng Lolo niya.",
+  "say": "may litratong hindi pa niya nabubuksan, galing kay lola: sulat ng lolo niya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Kapag binuksan ko, ubos ang baterya.",
@@ -186,6 +183,22 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Sinundan nila ang kariton hanggang sa pader ng sementeryo.",
+  "say": "sinundan nila ang kariton hanggang sa pader ng sementeryo.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa puno, may batang nakasilip: si Imo.",
+  "say": "sa puno, may batang nakasilip: si Imo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Akyat, kuya.",
   "say": "akyat, kuya.",
   "style": "whisper",
@@ -200,6 +213,30 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "IMO"
+ },
+ {
+  "text": "Sumilip si Indio.",
+  "say": "sumilip si indio.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa isang sulok, tinatabunan ang isang hukay.",
+  "say": "sa isang sulok, tinatabunan ang isang hukay.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Walang krus, walang pangalan.",
+  "say": "walang krus, walang pangalan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Sabi ng titser ko, may marangal na libing ang pambansang bayani.",
@@ -257,6 +294,22 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Nagtago sila hanggang makalampas ang guwardiya.",
+  "say": "nagtago sila hanggang makalampas ang guwardiya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa lilim ng pader, binuksan na ni Indio ang sulat.",
+  "say": "sa lilim ng pader, binuksan na ni indio ang sulat.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Mahal kong José Indalecio Bracken, ang apo kong tinatawag naming Indio.",
@@ -365,6 +418,14 @@
   "speaker": "LOLO"
  },
  {
+  "text": "Namatay ang phone, sa gitna ng pangungusap.",
+  "say": "namatay ang phone, sa gitna ng pangungusap.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Huwag!",
   "say": "huwag!",
   "style": "shout",
@@ -455,6 +516,14 @@
   "speaker": "IMO"
  },
  {
+  "text": "Inamoy ni Usman ang lupa sa paanan ng pader.",
+  "say": "inamoy ni usman ang lupa sa paanan ng pader.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Dito, par.",
   "say": "dito, par.",
   "style": "excited",
@@ -471,12 +540,52 @@
   "speaker": "USMAN"
  },
  {
+  "text": "Naghukay sila.",
+  "say": "naghukay sila.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "May lata.",
+  "say": "may lata.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa loob, isang lumang lente.",
+  "say": "sa loob, isang lumang LENte.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Lente.",
   "say": "LENte.",
   "style": "awed",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Sumilip si Indio sa lente.",
+  "say": "sumilip si indio sa LENte.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumilis ang mga araw sa sementeryo.",
+  "say": "bumilis ang mga araw sa sementeryo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Totoo lang ang ipinapakita niyan, par.",
@@ -493,6 +602,22 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "USMAN"
+ },
+ {
+  "text": "Isang babaeng nakaitim ang naghahanap sa mga puntod.",
+  "say": "isang babaeng nakaitim ang naghahanap sa mga puntod.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Lumuhod ito sa bagong hukay.",
+  "say": "lumuhod ito sa bagong hukay.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Kapatid niya 'yan.",
@@ -517,6 +642,22 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "IMO"
+ },
+ {
+  "text": "Pagkatapos, lumitaw ang isang maliit na lapida.",
+  "say": "pagkatapos, lumitaw ang isang maliit na lapida.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tatlong letra lang: R, P, J.",
+  "say": "tatlong letra lang: r, p, j.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Tatlong letra lang?",
@@ -609,6 +750,22 @@
   "speaker": "USMAN"
  },
  {
+  "text": "Itinapat ni Indio ang lente sa hinukayan nila.",
+  "say": "itinapat ni indio ang LENte sa hinukayan nila.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Nakita niya ang Lolo niya kaninang umaga, ibinabaon ang lata.",
+  "say": "nakita niya ang lolo niya kaninang umaga, ibinabaon ang lata.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Ang hinahanap nila ay hindi ang medalyon, apo.",
   "say": "ang hinahanap nila ay hindi ang medalyon, apo.",
   "style": "clear",
@@ -639,6 +796,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Tumingala ang matanda, ngumiti, at naglaho.",
+  "say": "tumingala ang matanda, ngumiti, at naglaho.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Hindi ka niya nakikita, par.",

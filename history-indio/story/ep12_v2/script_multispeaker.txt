@@ -1,0 +1,124 @@
+# INDIO: ANG SAKSI — Episode 12, "Ang Kasulatang Tanso" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: the next medallion, quickly, so he can get back to his new house. Then: to stay on a thing that money
+#   cannot buy.
+# SABI-SABI: "Walang sariling sulat ang mga ninuno natin. Ang unang kasulatan natin, galing sa Kastila."
+# TWIST (BIBLE row 12): the rival got there first. Fall: tyre tracks in the year 900; the guardian already
+#   netted; a man with a ring light drives off with the chest; the freed tikbalang throws Indio three times
+#   and leaves him in the mud with nothing. Comeback: the friend's trick (the shirt inside out) and holding on
+#   without breaking it, until it chooses. The chest was empty: the medallion was knotted in its mane.
+#   Second medallion, second knot, first weapon (ang Punyal), first living mount.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump). M.
+# BINI (invented river girl of about ten, year 900; "friend" voice, girl 1).
+# PINUNO NG TUNDUN (the chief of Tundun of the copperplate, real, unnamed in the story; designed voice, a
+#   grave elder): ONE line, the substance of the plate itself (the children of Namwaran are cleared of their
+#   debt), not its wording; see facts.md.
+# DIWA (the diwa of Jayadewa in the medallion; the owner's approved exception; ONE invented line).
+# The kneeling family, the scribe, the man with the ring light and the woman in white say nothing.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Resibo=reSIbo
+# SAY: recibo=reSIbo
+# SAY: Tagaytay=tagayTAY
+# SAY: Lumban=lumBAN
+# SAY: Laguna=laGUna
+# SAY: 900=siyam na raan
+# SAY: Tundun=tunDUN
+# SAY: Namwaran=namwaRAN
+# SAY: Jayadewa=dyayaDEwa
+# SAY: tikbalang=tikbaLANG
+# SAY: Bini=biNI
+# SAY: pickup=PIKap
+# SAY: ring light=ring layt
+# SAY: Punyal=punYAL
+
+# --- 0. Hook (cold, at 0.0, on the throw: a flash-forward of scene 3)
+(Isang mahabang mukhang parang kabayo. Isang sipa ng likod. Lumipad si Indio sa ere at bumagsak nang pasubsob sa putik.)
+BINI: [shout] Pangatlo na 'yan! Huwag ka nang sumakay!
+INDIO (sa atin): [dramatic] Sampung sasakyan ang binili ko nitong linggo. Ito lang ang hindi ko mabili. At ayaw akong pasakayin.
+INDIO (sa atin): [dry] Ako 'to si Indio. Mayaman pa rin. Maputik lang.
+
+# --- 1. Today (short, Indio's voice). He wants: to get this over with.
+TAGAPAGSALAYSAY: [calm] Ngayon. Makalipas ang isang linggo.
+TAGAPAGSALAYSAY: [calm] Isang linggo nang mayaman si Indio. Pumipirma siya ng makapal na papeles sa phone, hindi binabasa.
+(Isang garahe: sampung sasakyan, makikintab. Si Indio, nakasalamin, pumipirma ng makapal na papeles sa phone, hindi binabasa. Sa sulok, ang lumang motor na may sidecar, may alikabok na.)
+INDIO (sa atin): [smug] Sampu na. Pati bahay sa Tagaytay, binili ko sa telepono. Pirma lang nang pirma.
+INDIO (sa atin): [playful] Resibo: galing sa Kastilang "recibo", katunayan ng bayad. Ngayon, "may resibo ka ba?" ang tanong kapag gusto mo ng patunay. Ako, ang dami kong resibo. Wala akong binasa kahit isa.
+M: [quiet] Natatawa pa rin ako sa'yo, Indio. Pero pasandali na nang pasandali.
+(Sa kuwaderno ni Lolo, bagong sulat: isang utang na ginto, pinatawad, sa bunganga ng isang ilog sa Laguna.)
+TAGAPAGSALAYSAY: [calm] Sa kuwaderno ng Lolo niya, may bagong sulat tungkol sa Laguna.
+INDIO: [careless] Lumban, Laguna. Sige, bilisan natin. May party ako mamaya.
+(Sa pampang ng ilog sa Lumban. Binasa niya nang malakas ang nakasulat sa isang karatula. Uminit ang medalyon ni M.)
+TAGAPAGSALAYSAY: [calm] Sa Lumban, binasa ni Indio nang malakas ang karatula, at uminit ang medalyon.
+
+# --- 2. The lakeshore. He wants: to know what the dot means.
+TAGAPAGSALAYSAY: [low] Sa pampang ng lawa. Taong 900.
+(Umaga. Mga bangka sa tubig. Isang pamilya, nakaluhod sa harap ng mga pinunong nakaupo. Sa tabi, isang tagasulat, umuukit ng maliliit na titik sa isang manipis na piraso ng tanso. Lumabas ang itim na asong si Usman sa liwanag.)
+TAGAPAGSALAYSAY: [low] May pamilyang nakaluhod sa harap ng mga pinuno, at may tagasulat na umuukit sa manipis na tanso.
+INDIO (sa atin): [whisper] Sabi sa internet, walang sariling sulat ang mga ninuno natin. Kastila raw ang nagturo.
+(Isang batang babae, basa ang buhok, may hawak na sagwan, ang tumabi kay Indio.)
+TAGAPAGSALAYSAY: [low] Isang batang babaeng may sagwan ang tumabi kay Indio: si Bini.
+BINI: [whisper] Tahimik, kuya. Isinusulat nila sa tanso para hindi mabura.
+INDIO: [whisper] Ano'ng nakasulat? Hindi ko mabasa.
+BINI: [whisper] Utang. Malaking utang na ginto ng tatay nila. Ngayong araw, mawawala.
+(Tumayo ang isang matandang pinuno. Itinaas ang tanso sa harap ng lahat.)
+PINUNO NG TUNDUN: [grave] Mula sa araw na ito, malaya na sa utang ang mga anak ni Namwaran, at ang kanilang mga apo.
+(Napaiyak ang babaeng nakaluhod. Niyakap niya ang kapatid.)
+USMAN: [low] Resibo, par. Isang libong taon ang tanda sa mga resibo mo.
+
+# --- 3. The forest. The rival got there first. THE FALL.
+(Isang malakas na halinghing mula sa gubat. Tumakbo sina Indio, Bini at Usman. Sa pagitan ng mga puno: isang matangkad at payat na nilalang, mahaba ang mukha, matinik ang kiling, nakabitin sa isang lambat na bakal.)
+TAGAPAGSALAYSAY: [low] Biglang may humalinghing sa gubat. Tumakbo sila roon. Isang tikbalang ang nakabitin sa lambat.
+BINI: [frightened] Ang tikbalang. Bantay siya ng gubat na 'to. Sino'ng gumawa niyan?
+(Sa putik: bakas ng gulong. Sa malayo, isang pickup, papalayo. Sa bintana, isang kamay na may hawak na ring light, kumakaway. Sa likod nito, isang baul.)
+TAGAPAGSALAYSAY: [low] Sa putik, may bakas ng gulong. Papalayo ang isang pickup, may kargang baul.
+INDIO: [stunned] Gulong. Sa taong 900. May nauna sa atin. At dala niya ang baul ng mga pinuno. Doon siguro ang medalyon.
+(Sa ugat ng puno, isang lumang punyal. Dinampot ito ni Indio at pinutol ang lambat. Bumagsak ang tikbalang, tumayo, at tiningnan si Indio nang may galit.)
+TAGAPAGSALAYSAY: [low] Pinutol ni Indio ang lambat gamit ang isang lumang punyal.
+INDIO: [confident] Pinalaya kita. Kaya sasakay ako. Habulin natin siya.
+(Tumalon siya sa likod nito. Isang sipa. Lumipad siya. Tumayo siya, sumakay ulit. Lumipad ulit. Umikot ang gubat sa paligid niya: pare-parehong puno, pare-parehong daan.)
+TAGAPAGSALAYSAY: [low] Sumakay si Indio. Sinipa siya nito, dalawang beses. At umikot ang gubat sa paligid niya.
+BINI: [shout] Pangatlo na 'yan! Huwag ka nang sumakay!
+(Nakasubsob si Indio sa putik. Wala na ang pickup. Wala na ang baul.)
+INDIO (sa atin): [whisper] Sampung sasakyan sa garahe ko. At dito, hindi ko mahanap kahit ang daan palabas.
+
+# --- 4. THE COMEBACK. The shirt, and holding on.
+BINI: [kind] Kuya, inililigaw ka niya. Baligtarin mo ang baro mo. 'Yan ang turo ng lola ko. At huwag mo siyang aawayin. Kumapit ka lang.
+(Hinubad ni Indio ang mamahaling polo, at isinuot nang baligtad. Tumigil ang pag-ikot ng gubat. Hinubad din niya ang gintong relo, at iniabot kay Bini.)
+TAGAPAGSALAYSAY: [low] Binaligtad ni Indio ang polo niya, at tumigil ang pag-ikot ng gubat. Hinubad din niya ang gintong relo.
+(Sumakay siya ulit. Hindi siya nag-utos. Hindi siya namalo. Yumakap lang siya sa leeg nito. Lumundag ang tikbalang sa ibabaw ng mga puno. Kumapit siya. Bumaba ito. Kumapit siya. Hanggang sa bumagal ito, at huminto, at lumingon sa kanya.)
+TAGAPAGSALAYSAY: [low] Sumakay siya ulit. Yumakap lang siya sa leeg nito, hanggang sa bumagal ito.
+INDIO: [breathless] Hindi kita pag-aari. Nakita na kita.
+(Sa kiling ng tikbalang, sa pagitan ng mga tinik, isang buhol. Sa loob ng buhol, isang medalyong tanso. Kusa itong nahulog sa palad ni Indio.)
+TAGAPAGSALAYSAY: [low] Sa kiling nito, may medalyong tanso. Kusa itong nahulog sa palad ni Indio.
+DIWA: [stern] Ang nakasulat ay nananatili.
+USMAN: [delighted] Diwa 'yan ng medalyon, par, gaya noong sa Butuan. Walang laman ang baul niya!
+(Sa pulang tali sa pulso ni Indio, pangalawang buhol. Tumingin siya sa tansong hawak ng pinuno sa malayo. Ngayon, nababasa na niya.)
+TAGAPAGSALAYSAY: [low] Sa pulang tali niya, nabuo ang pangalawang buhol: kakampi na niya ang tikbalang.
+INDIO (sa atin): [whisper] Dahil sa medalyon, nababasa ko na. May sarili tayong sulat. Mahigit isang libong taon na.
+(Sumakay siya, at lumipad ang tikbalang sa ibabaw ng gubat. Sa ibaba, ang pickup, lubog ang gulong sa putik. Ang lalaking may ring light, nakatingala, nakanganga.)
+TAGAPAGSALAYSAY: [low] Lumipad sila sa ibabaw ng gubat. Sa ibaba, lubog sa putik ang pickup.
+USMAN: [smug] Kumaway ka naman, par.
+
+# --- 5. Back. What he can read now.
+TAGAPAGSALAYSAY: [calm] Ngayon. Tagaytay.
+TAGAPAGSALAYSAY: [calm] Sa party sa bagong bahay, uminit ang bagong medalyon. Sa kontrata, lumitaw ang isang talatang dati niyang hindi nakikita.
+(Ang bagong bahay. Mga bisita, tugtugin. Hawak ni Indio ang kontrata ng bahay. Uminit ang bagong medalyon. Sa papel, may lumitaw na isang talatang dating hindi nakikita.)
+INDIO: [reading] "Kapag nahuli ng isang araw ang bayad, mapupunta sa nagbenta ang lahat ng ari-arian ng bumili."
+M: [sharp] Pinirmahan mo 'yan nang hindi binabasa?
+INDIO: [shrug] Mayaman naman ako. Hindi ako mahuhuli.
+(Umalis si M sa party, maaga. Sa labas ng gate, sa putik, isang pakong kinakalawang, may bakas ng ngipin.)
+TAGAPAGSALAYSAY: [calm] Maagang umalis si M. Sa labas ng gate, may pakong kinakalawang.
+INDIO (sa atin): [whisper] Isang pakong may kagat, sa mismong gate ko. Sino'ng ngumunguya ng pako?
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: ano ang huling pinirmahan mo nang hindi mo binabasa?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? May resibong isang libong taon na?
+# INDIO: Tiyak: ang Laguna Copperplate, natagpuan noong 1987 malapit sa bunganga ng ilog Lumbang sa Lumban, Laguna. May petsa itong katumbas ng taong 900: ang pinakamatandang kasulatang may petsa na natagpuan sa Pilipinas.
+# INDIO: Nakasulat sa lumang Malay, sa titik na Kawi. Pinalalaya nito ang mga anak ni Namwaran sa utang na ginto, sa harap ng pinuno ng Tundun na kumakatawan kay Jayadewa ng Pailah.
+# USMAN: Eh 'yung sinabi ng pinuno?
+# INDIO: Diwa 'yon ng nakasulat, hindi eksaktong salita. At kung saan ang Pailah, pinagtatalunan pa. Ang tikbalang, kuwentong-bayan.
+# USMAN: Kaya pala ako umungol.

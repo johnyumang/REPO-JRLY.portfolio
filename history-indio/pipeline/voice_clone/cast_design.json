@@ -804,22 +804,22 @@
   },
   "AMBO": {
    "descriptions": [
-    "A Filipino seaman about forty, weathered and slightly husky voice, warm and plain-spoken, Batangas accent, kind and practical",
-    "A middle-aged Filipino sailor, low rough friendly voice, unhurried, humble and gentle, Tagalog from Batangas"
+    "An old Filipino seaman about sixty, thin reedy raspy voice, fairly high pitched for a man, a little nasal, quick and cheerful, plain Batangas Tagalog",
+    "An elderly Filipino sailor, light wiry crackly voice, higher pitch, lively and warm, speaks at a normal brisk pace, Tagalog from Batangas"
    ],
    "ref_text": "Ako si Ambo, marino ako, taga-Batangas. Naiwan ako ng barko kaya naghuhugas ako ng pinggan dito. Mahirap, kuya, pero may kinakain. Basta't magkasama tayo, hindi tayo malulungkot. Halika, pumasok ka at magpainit muna.",
    "sample": "Dito sa ibaba, kuya, mas marami kang makikita. Subukan mo ang bintanang 'yan.",
    "f0_hz": [
-    80,
-    170
+    85,
+    190
    ]
   },
   "PUNONG WEYTER": {
    "descriptions": [
-    "A stern French head waiter about fifty, sharp loud nasal voice, impatient and angry, clear diction",
-    "A strict middle-aged hotel head waiter, hard clipped commanding voice, shouting in anger, French accent"
+    "A stern French head waiter about fifty, deep hard commanding voice, low and angry, clipped clear diction, French accent",
+    "A strict older hotel head waiter, low gruff barking voice, impatient and harsh, firm and loud, French accent"
    ],
-   "ref_text": "Imbécile! Ano ba'ng ginagawa mo? Bilisan mo, bilisan mo! Dalhin mo ang mga baso sa itaas, at huwag kang titingin sa kanila. Hindi ka nila dapat makita. Sige na, alis!",
+   "ref_text": "Imbécile! Ano ba'ng ginagawa mo? Bilisan mo! Ang mga baso, sa itaas! Huwag kang titingin sa kanila. Sige na, alis!",
    "sample": "Imbécile!",
    "f0_hz": [
     90,
@@ -946,6 +946,32 @@
    "f0_hz": [
     80,
     300
+   ]
+  },
+  "SEPA": {
+   "descriptions": [
+    "An eleven-year-old Filipino girl, bright clear child's voice, quick and brave, a little bossy, a kitchen helper giving orders, Filipino accent",
+    "A girl of about eleven, lively high young voice, fast and confident, bossy but warm, fearless, Filipino accent",
+    "A young girl around eleven, crisp bright child voice, firm and quick-talking, a brave little leader, Filipino accent"
+   ],
+   "ref_text": "Hoy, bilisan mo naman diyan! Hindi tayo puwedeng tumunganga habang kumukulo ang kaldero. Ikaw, kunin mo ang tubig sa banga. Ako na ang bahala sa apoy. Huwag kang matakot, ha. Maliit lang ako, pero alam ko ang gagawin.",
+   "sample": "Sumunod ka sa akin, at huwag kang bibitaw sa kamay ko.",
+   "f0_hz": [
+    190,
+    420
+   ]
+  },
+  "GUWARDIYA_EP2": {
+   "descriptions": [
+    "A Spanish soldier in his forties speaking Tagalog with a strong Spanish accent, loud, scornful and arrogant, harsh low male voice",
+    "An adult Spanish gate guard, deep rough male voice, contemptuous and loud, rolling Spanish r's, speaking Filipino with a Spanish accent",
+    "A gruff middle-aged man, loud barking voice, sneering and dismissive, low pitch, Spanish-accented Filipino"
+   ],
+   "ref_text": "Ano ang ginagawa mo rito? Bawal ang indio sa tarangkahang ito! Umalis ka, bago kita ipahuli sa mga sundalo. Akala mo ba, makikinig ako sa iyo? Bumalik ka sa trabaho mo, at huwag mo na akong gagambalain.",
+   "sample": "Walang papasok dito nang walang pahintulot ng gobernador!",
+   "f0_hz": [
+    70,
+    210
    ]
   }
  }
