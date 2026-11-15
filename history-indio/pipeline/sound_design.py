@@ -566,8 +566,45 @@ def walla(dur=4.0, voices=12, seed=37, far=False, f0=(95, 230), vowels='aeiou', 
     return _out(out)
 
 
+def _ring(m, f, d, rng):
+    """One small glass or china partial: a bright sine that decays fast."""
+    tt = _t(m); return np.sin(2 * np.pi * f * tt + rng.random() * 6) * _dec(m, d, 0.0005)
+
+
+def glass_crash(dur=1.6, seed=27, pieces=40):
+    """A tray of glasses hitting a stone floor: one hard broadband crack, then many short high rings and tinkles that scatter."""
+    rng = _rng(seed); m = _n(dur); z = rng.normal(0, 1, m); y = np.zeros(m)
+    y += _f(z, 'band', (800, 9000)) * _dec(m, 0.05, 0.0005) * 1.6                          # the shatter
+    y += _f(z, 'low', 300) * _dec(m, 0.08, 0.001) * 0.7                                    # the tray on the floor
+    for _ in range(pieces):                                                                # the shards
+        t0 = rng.exponential(0.18); k = _n(rng.uniform(0.04, 0.25))
+        if t0 > dur - 0.3: continue
+        y[_n(t0):_n(t0) + k] += _ring(k, rng.uniform(2500, 7500), rng.uniform(0.02, 0.09), rng)[:len(y[_n(t0):_n(t0) + k])] * rng.uniform(0.2, 0.7)
+    return _out(y)
+
+
+def plates(dur=1.4, seed=28, count=7):
+    """Plates set down and stacked in a sink: dull clinks with a short china ring."""
+    rng = _rng(seed); m = _n(dur); y = np.zeros(m)
+    for k in range(count):
+        t0 = 0.05 + k * dur / (count + 1) + rng.uniform(-0.04, 0.04); n = _n(0.25)
+        hit = _f(rng.normal(0, 1, n), 'band', (600, 3000)) * _dec(n, 0.012, 0.0005)
+        hit += _ring(n, rng.uniform(1800, 3200), 0.06, rng) * 0.4 + _ring(n, rng.uniform(3500, 5200), 0.04, rng) * 0.25
+        _add(y, hit * rng.uniform(0.5, 1.0), t0)
+    return _out(y)
+
+
+def pen(dur=1.8, seed=29):
+    """A steel nib on paper: fine scratching in short strokes, with tiny pauses."""
+    rng = _rng(seed); m = _n(dur); z = _f(rng.normal(0, 1, m), 'band', (2500, 8000))
+    strokes = _smooth_rand(m, 7.0, rng) > 0.45                                             # on while the pen moves
+    return _out(z * strokes * (0.6 + 0.4 * _smooth_rand(m, 25.0, rng)))
+
+
 # ---------------------------------------------------------------- the registry
 EVENTS = {
+    'glass_crash': lambda e, s: glass_crash(e.get('dur', 1.6), s), 'plates': lambda e, s: plates(e.get('dur', 1.4), s, e.get('count', 7)),
+    'pen': lambda e, s: pen(e.get('dur', 1.8), s),
     'steps_earth': lambda e, s: footsteps('earth', e.get('pace', 'walk'), e.get('count', 6), s),
     'steps_grass': lambda e, s: footsteps('grass', e.get('pace', 'walk'), e.get('count', 6), s),
     'steps_stone': lambda e, s: footsteps('stone', e.get('pace', 'walk'), e.get('count', 6), s),
