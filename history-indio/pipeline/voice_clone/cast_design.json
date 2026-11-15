@@ -947,6 +947,32 @@
     80,
     300
    ]
+  },
+  "SEPA": {
+   "descriptions": [
+    "An eleven-year-old Filipino girl, bright clear child's voice, quick and brave, a little bossy, a kitchen helper giving orders, Filipino accent",
+    "A girl of about eleven, lively high young voice, fast and confident, bossy but warm, fearless, Filipino accent",
+    "A young girl around eleven, crisp bright child voice, firm and quick-talking, a brave little leader, Filipino accent"
+   ],
+   "ref_text": "Hoy, bilisan mo naman diyan! Hindi tayo puwedeng tumunganga habang kumukulo ang kaldero. Ikaw, kunin mo ang tubig sa banga. Ako na ang bahala sa apoy. Huwag kang matakot, ha. Maliit lang ako, pero alam ko ang gagawin.",
+   "sample": "Sumunod ka sa akin, at huwag kang bibitaw sa kamay ko.",
+   "f0_hz": [
+    190,
+    420
+   ]
+  },
+  "GUWARDIYA_EP2": {
+   "descriptions": [
+    "A Spanish soldier in his forties speaking Tagalog with a strong Spanish accent, loud, scornful and arrogant, harsh low male voice",
+    "An adult Spanish gate guard, deep rough male voice, contemptuous and loud, rolling Spanish r's, speaking Filipino with a Spanish accent",
+    "A gruff middle-aged man, loud barking voice, sneering and dismissive, low pitch, Spanish-accented Filipino"
+   ],
+   "ref_text": "Ano ang ginagawa mo rito? Bawal ang indio sa tarangkahang ito! Umalis ka, bago kita ipahuli sa mga sundalo. Akala mo ba, makikinig ako sa iyo? Bumalik ka sa trabaho mo, at huwag mo na akong gagambalain.",
+   "sample": "Walang papasok dito nang walang pahintulot ng gobernador!",
+   "f0_hz": [
+    70,
+    210
+   ]
   }
  }
 }
