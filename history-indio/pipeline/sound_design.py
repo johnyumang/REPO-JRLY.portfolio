@@ -704,6 +704,9 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
     v, _ = sf.read(tmp, dtype='float32'); os.remove(tmp); dur = len(v) / SR + 0.8
     v = np.pad(v, (0, int(dur * SR) - len(v))).astype(np.float64); n = len(v); total = n / SR
     rv = soundtrack.gated_rms(v); act = _voice_activity(v, rv)
+    o = plan.get('_', {}).get('levels', {})                                                   # per-episode override, e.g. {"amb": -9, "music": -9, "fx_duck": 14}
+    AMB_DB, MUSIC_DB, FOLEY_DB, SPOT_DB = (float(o.get(k, d)) for k, d in (('amb', globals()['AMB_DB']), ('music', globals()['MUSIC_DB']), ('foley', globals()['FOLEY_DB']), ('spot', globals()['SPOT_DB'])))
+    DUCK, FX_DUCK = float(o.get('duck', globals()['DUCK'])), float(o.get('fx_duck', globals()['FX_DUCK']))
     LN = lines(tim, total); state = {'amb': None, 'music': 'none', 'level': 0.0}; per = []
     beds = np.zeros(n); mus = np.zeros(n); fol = np.zeros(n); spt = np.zeros(n); hush = np.zeros(n); events = 0
     for i, (a, b) in enumerate(LN):

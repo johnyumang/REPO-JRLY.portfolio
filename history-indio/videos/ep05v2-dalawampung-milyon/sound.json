@@ -1,10 +1,16 @@
 {
 "_": {
-"whoosh_cuts": true
+"whoosh_cuts": true,
+"levels": {
+"amb": -9,
+"music": -9,
+"fx_duck": 14
+}
 },
 "0": {
 "amb": [
-"indoor:-4"
+"indoor",
+"walla:-12"
 ],
 "music": "none",
 "spot": [
@@ -16,10 +22,6 @@
 ]
 },
 "1": {
-"amb": [
-"indoor",
-"walla:-12"
-],
 "music": "heartbeat",
 "level": -3
 },
@@ -34,9 +36,6 @@
 ]
 },
 "4": {
-"amb": [
-"wind:-8"
-],
 "music": "drone",
 "level": -4
 },
@@ -140,8 +139,7 @@
 "32": {
 "amb": [
 "indoor",
-"fire:-8",
-"wind:-14"
+"fire:-8"
 ],
 "music": "none",
 "foley": [
@@ -159,10 +157,6 @@
 ]
 },
 "39": {
-"amb": [
-"indoor",
-"fire:-10"
-],
 "music": "guitar",
 "level": -5
 },
@@ -237,9 +231,6 @@
 "level": -3
 },
 "57": {
-"amb": [
-"indoor:-8"
-],
 "music": "none",
 "spot": [
 {
@@ -248,21 +239,23 @@
 "gain": -10,
 "hush": 0.3
 }
-]
+],
+"level": -6
 },
 "58": {
 "spot": [
 {
 "what": "glass_crash",
-"at": 0.0,
-"gain": 2
+"at": -0.45,
+"gain": 0
 }
 ]
 },
 "60": {
 "amb": [
 "indoor",
-"fire:-8"
+"fire:-10",
+"wind:-14"
 ],
 "music": "none",
 "foley": [
@@ -292,11 +285,6 @@
 ]
 },
 "63": {
-"amb": [
-"indoor",
-"fire:-10",
-"wind:-12"
-],
 "music": "guitar",
 "level": -5
 },
@@ -311,10 +299,6 @@
 ]
 },
 "66": {
-"amb": [
-"wind:-6",
-"indoor:-10"
-],
 "music": "drone",
 "level": -4
 },
@@ -329,32 +313,19 @@
 "level": -7
 },
 "79": {
-"amb": "none",
+"level": -6,
 "music": "none",
-"level": 0,
-"spot": [
-{
-"what": "shimmer",
-"at": 0.0,
-"dur": 0.6,
-"gain": -24,
-"hush": 0.6
-}
-],
 "foley": [
 {
 "what": "cloth",
 "at": 0.0,
-"dur": 0.4,
-"gain": -14
+"dur": 0.3,
+"gain": -30,
+"hush": 0.6
 }
 ]
 },
 "80": {
-"amb": [
-"wind:-6",
-"indoor:-12"
-],
 "music": "drone",
 "level": -4
 },
@@ -404,9 +375,6 @@
 ]
 },
 "95": {
-"amb": [
-"wind"
-],
 "music": "guitar",
 "level": -3,
 "foley": [
@@ -438,8 +406,7 @@
 },
 "99": {
 "amb": [
-"indoor",
-"city:-12"
+"city:-4"
 ],
 "music": "none",
 "level": -3,
@@ -452,16 +419,10 @@
 ]
 },
 "103": {
-"amb": [
-"city"
-],
 "music": "drone",
 "level": -4
 },
 "107": {
-"amb": [
-"city:-8"
-],
 "music": "none",
 "level": -5
 }
