@@ -1,0 +1,78 @@
+{
+ "fact_id": "ep05v2_end",
+ "fact_english": "On 10 December 1898, in the Treaty of Paris, Spain ceded the Philippines to the United States, which was to pay Spain $20,000,000 (Article III). No Filipino took part. Felipe Agoncillo, Aguinaldo's envoy, was never admitted to any session; on 12 December he filed a written protest. Whether it was a 'sale' is argued: some call the payment compensation for buildings and public works; the '$2 a head' figure is only arithmetic on a population estimate.",
+ "label_onscreen": "KASUNDUAN SA PARIS",
+ "source_onscreen": "Pinagmulan: Treaty of Paris (1898), Art. III; US Office of the Historian",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? Binili tayo?",
+   "emphasis": [
+    "binili"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: ikasampu ng Disyembre 1898, sa Kasunduan sa Paris, isinuko ng Espanya ang Pilipinas sa Amerika.",
+   "emphasis": [
+    "1898",
+    "isinuko"
+   ],
+   "say": "Tiyak: ikasampu ng Disyembre mil otsosyentos nobentay otso, sa Kasunduan sa paRIS, isinuko ng Espanya ang Pilipinas sa Amerika."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Dalawampung milyong dolyar ang ibabayad, at walang Pilipinong kasali.",
+   "emphasis": [
+    "dalawampung",
+    "walang"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Si Felipe Agoncillo, sugo ni Aguinaldo, hindi pinapasok sa kahit isang pulong. Makalipas ang dalawang araw, naghain siya ng protesta.",
+   "emphasis": [
+    "Agoncillo",
+    "protesta"
+   ],
+   "say": "Si peLIpe agonSILyo, sugo ni Aginaldo, hindi pinapasok sa kahit isang pulong. Makalipas ang dalawang araw, naghain siya ng protesta."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh bentahan ba talaga?",
+   "emphasis": [
+    "bentahan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "'Yan ang pinagtatalunan. May nagsasabing bayad lang 'yon sa mga gusali at pagawaing-bayan.",
+   "emphasis": [
+    "pinagtatalunan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At 'yung dalawang dolyar bawat ulo, kuwenta lang 'yon sa tantiyang populasyon.",
+   "emphasis": [
+    "kuwenta"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako u-MU-ngol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 93,
+ "after_text": "Ikaw, ka-Indio: kung hindi ka pinapasok sa silid, saan ka tatayo para marinig ka pa rin?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form: the trivia goes at the END, after the last line of the story (the question), as 'Patalastas ni Usman'.",
+ "voice_note": "Script's trivia lines; the first INDIO line is split in two so each caption fits; same words. Years voiced as Spanish-derived numbers; 'umungol' voiced u-MU-ngol."
+}

@@ -1,0 +1,172 @@
+{
+ "_note": "Episode 7 v2: one still per shot of shots.md (bk_<shot>), keys >= 100 are the silent shots inside a montage; full[...] holds subject/setting/light/seed",
+ "look": "bakunawa (pipeline/flux_hq.py through pipeline/draw_pick.py; cast and places in look_cast)",
+ "look_cast": {},
+ "full": {},
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "3": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "7": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "10": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "13": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "16": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "18": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "21": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "22": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "24": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "29": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "30": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "31": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "33": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "39": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "41": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "44": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "47": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "49": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "55": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "57": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "58": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "60": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "63": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "67": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "70": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "74": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "77": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "78": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "80": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "87": {
+   "full": "bk_39",
+   "shot": 39
+  },
+  "88": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "91": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "100": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "101": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "102": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "103": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "104": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "105": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "106": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "107": {
+   "full": "bk_36",
+   "shot": 36
+  }
+ }
+}
