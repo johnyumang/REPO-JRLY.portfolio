@@ -281,10 +281,6 @@
    "seed": "c3",
    "note": "question text in code, upper part"
   },
-  "old_k24": {
-   "kept_from": "videos/ep01-ang-unang-talon/keys/k24.png",
-   "prompt": "Low-angle medium shot: two Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears; the man in front shouts and tears a small aged paper in half at chest height, a thumb and four fingers on each hand; the man beside him holds a bamboo spear upright; torn paper pieces flying. The paper has only plain faint ruled lines and a small round red stamp, no letters. | the hilly countryside north of Manila in August 1896: tall cogon grass, bamboo groves, a few nipa huts on stilts, a dirt path, distant blue hills; no modern buildings, no electric wires, no paved roads. | fiery sunset behind, hard orange rim light, light rays, flying paper glowing, richly painted, detailed ink linework, textured brushwork."
-  },
   "old_k18": {
    "kept_from": "videos/ep01-ang-unang-talon/keys/k18.png",
    "prompt": "Dynamic low-angle close shot of the dog leaping out of a burst of golden light toward the viewer: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. His eyes glow gold, his mouth open as if speaking urgently. Four legs, one tail. No people. | a swirling golden time portal of plain smooth gear rims and rings of light, floating in a dark starry space, the portal opening behind him in the rain at night. | blinding golden light behind, hard rim light on the black fur, sparks and rain drops lit gold, richly painted, detailed ink linework, textured brushwork."
@@ -323,11 +319,11 @@
    "note": "watchers"
   },
   "bk_43": {
-   "subject": "Low-angle front shot: a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, stepping into blazing torchlight, shouting with his mouth wide open, holding a small old paper certificate high above his head in both hands, starting to tear it in two; his face fully lit. His face and the paper in the upper half of the picture. The paper is blank.",
+   "subject": "Low-angle front shot: a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat; a tall man with a long lean oval face, strong jaw, high cheekbones, black hair slicked straight back from the forehead; stepping into blazing torchlight, shouting with his mouth wide open, holding a small old paper certificate high above his head in both hands, starting to tear it in two; his face fully lit. His face and the paper in the upper half of the picture. The paper is blank.",
    "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
    "light": "hard orange torchlight full on his face, deep black night behind, embers swirling, rim light, smoke, night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
-   "seed": "c3",
-   "note": "Bonifacio shout"
+   "seed": "r2c1",
+   "note": "Bonifacio shout; round 2 matched to bk_40/41"
   },
   "bk_44": {
    "subject": "Close-up: two strong hands tearing a small old paper certificate in two, the torn edge glowing in firelight, the white camisa sleeves at the edges; behind, out of focus, torches and many raised fists. The paper is blank, with a small round red stamp. The hands in the upper half of the picture.",
@@ -349,6 +345,13 @@
    "light": "deep shadow, a thin orange torchlight edge on his cheek, embers, night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
    "seed": "c1",
    "note": "Indio aside (breaks the long hold of shot 18)"
+  },
+  "bk_02": {
+   "subject": "Low-angle medium shot at night: two Filipino Katipunan revolutionaries of 1896 in loose white camisa shirts and red kerchiefs; the man in front shouts and tears a small old paper certificate in half at chest height, a thumb and four fingers on each hand; torn scraps flying. The paper is blank with a small round red stamp. Faces in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "hook flash, night like the camp (replaces the sunset still of version 1)"
   }
  },
  "shots": {
@@ -357,7 +360,7 @@
    "shot": 1
   },
   "1": {
-   "full": "old_k24",
+   "full": "bk_02",
    "shot": 2
   },
   "2": {

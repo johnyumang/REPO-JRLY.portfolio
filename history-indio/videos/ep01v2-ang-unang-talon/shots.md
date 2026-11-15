@@ -9,7 +9,7 @@ the same still. Writing in pictures is added in code (see `key_prompts.json` "_n
 | # | Sent. | What we see | Still |
 |---|---|---|---|
 | 1 | 0 | Hook: the bolo blade level before Indio's chin, torchlight, his eyes wide | bk_01 |
-| 2 | 1 | Hook: a Katipunero tearing a small paper (kept, version 1) | old_k24 |
+| 2 | 1 | Hook: a Katipunero tearing a small paper at night | bk_02 |
 | 3 | 2-3 | Hook: the black dog leaping out of gold light (kept, version 1) | old_k18 |
 | 4 | 4-5 | QC morning: Indio in the long queue along a pale wall, folder to his chest | bk_04 |
 | 5 | 6 | Over the shoulder: Indio slides his folder through the glass slot | bk_05 |
@@ -56,7 +56,7 @@ the same still. Writing in pictures is added in code (see `key_prompts.json` "_n
 | 46 | 84-85 | The pawnshop at night: the helper lifts the wax to the bulb, a nail between his teeth | bk_38 |
 | 47 | 86 | His marked arm on a wet railing; the question in code | bk_39 |
 
-47 shots, 47 stills: 42 drawn new, 5 kept from version 1 (old_k24, old_k18, old_k12, old_k14, old_k16). The trivia
+47 shots, 47 stills: 43 drawn new, 4 kept from version 1 (old_k18, old_k12, old_k14, old_k16). The trivia
 ("Patalastas ni Usman") follows the last line as its own clip with the chibi sprites and the sticker `trivia/stickers/ep01.png`.
 Notes for the picture machine: the pawnbroker's face is never shown; the helper's right hand is rust-brown; the villains'
 sign is three slanted strokes (never a triangle); the woman of shot 45 is a Filipina of about fifty in a plain dress (not
