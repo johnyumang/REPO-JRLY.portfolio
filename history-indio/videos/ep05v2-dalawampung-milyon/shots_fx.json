@@ -6,63 +6,55 @@
 "0": {
 "move": "hold",
 "fx": [
-"shake",
-"punch"
-],
-"why": "glass bursts on marble floor"
+"shake"
+]
 },
 "1": {
-"move": "orbit_left",
-"fx": [],
-"why": "every head turns toward him",
-"trans_in": "cut"
+"move": "hold",
+"fx": []
 },
 "2": {
-"move": "orbit_left",
+"move": "hold",
 "fx": [],
-"why": "every head turns toward him",
 "key": 1
 },
 "3": {
 "move": "rack_focus",
 "fx": [],
-"why": "his eyes find the window",
-"trans_in": "cut"
+"why": "face to the snowy window"
 },
 "4": {
 "move": "rack_focus",
 "fx": [],
-"why": "his eyes find the window",
+"why": "face to the snowy window",
 "key": 3
 },
 "5": {
 "move": "push_in",
 "fx": [],
-"why": "a new time: the church",
+"why": "new place, finds Indio",
 "trans_in": "dissolve"
 },
 "6": {
 "move": "push_in",
 "fx": [],
-"why": "a new time: the church",
+"why": "new place, finds Indio",
 "key": 5
 },
 "7": {
 "move": "push_in",
 "fx": [],
-"why": "the twenty pesos in hand",
-"trans_in": "cut"
+"why": "his last twenty matters"
 },
 "8": {
 "move": "push_in",
 "fx": [],
-"why": "the twenty pesos in hand",
+"why": "his last twenty matters",
 "key": 7
 },
 "9": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "10": {
 "move": "hold",
@@ -86,8 +78,7 @@
 },
 "14": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "15": {
 "move": "hold",
@@ -102,45 +93,43 @@
 "17": {
 "move": "push_in",
 "fx": [],
-"why": "his hand reaches for it",
-"trans_in": "cut"
+"why": "the second note tempts him"
 },
 "18": {
 "move": "push_in",
 "fx": [],
-"why": "his hand reaches for it",
+"why": "the second note tempts him",
 "key": 17
 },
 "19": {
-"move": "push_in",
+"move": "tilt_up",
 "fx": [
 "sparkle"
 ],
-"why": "he reads the name aloud",
-"trans_in": "cut"
+"why": "ends on his falling face"
 },
 "20": {
-"move": "push_in",
+"move": "tilt_up",
 "fx": [
 "sparkle"
 ],
-"why": "he reads the name aloud",
+"why": "ends on his falling face",
 "key": 19
 },
 "21": {
-"move": "push_in",
+"move": "tilt_up",
 "fx": [
 "sparkle"
 ],
-"why": "he reads the name aloud",
+"why": "ends on his falling face",
 "key": 19
 },
 "22": {
-"move": "push_in",
+"move": "tilt_up",
 "fx": [
 "sparkle"
 ],
-"why": "he reads the name aloud",
+"why": "ends on his falling face",
 "key": 19
 },
 "23": {
@@ -148,7 +137,7 @@
 "fx": [
 "snow"
 ],
-"why": "opening Paris: the snowy alley",
+"why": "new place, into the alley",
 "trans_in": "flash"
 },
 "24": {
@@ -156,7 +145,7 @@
 "fx": [
 "snow"
 ],
-"why": "opening Paris: the snowy alley",
+"why": "new place, into the alley",
 "key": 23
 },
 "25": {
@@ -164,15 +153,14 @@
 "fx": [
 "snow"
 ],
-"why": "opening Paris: the snowy alley",
+"why": "new place, into the alley",
 "key": 23
 },
 "26": {
 "move": "hold",
 "fx": [
 "snow"
-],
-"trans_in": "cut"
+]
 },
 "27": {
 "move": "hold",
@@ -210,99 +198,95 @@
 "key": 26
 },
 "32": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
-"trans_in": "cut"
+"why": "the warm door opens"
 },
 "33": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "34": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "35": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "36": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "37": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "38": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "a stranger fills the doorway",
+"why": "the warm door opens",
 "key": 32
 },
 "39": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo points up: the street",
-"trans_in": "cut"
+"why": "ends on the grating"
 },
 "40": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo points up: the street",
+"why": "ends on the grating",
 "key": 39
 },
 "41": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo points up: the street",
+"why": "ends on the grating",
 "key": 39
 },
 "42": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo points up: the street",
+"why": "ends on the grating",
 "key": 39
 },
 "43": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo points up: the street",
+"why": "ends on the grating",
 "key": 39
 },
 "44": {
 "move": "tilt_down",
 "fx": [],
-"why": "down to the growling dog",
-"trans_in": "cut"
+"why": "ends on Usman's teeth"
 },
 "45": {
 "move": "tilt_down",
 "fx": [],
-"why": "down to the growling dog",
+"why": "ends on Usman's teeth",
 "key": 44
 },
 "46": {
 "move": "tilt_down",
 "fx": [],
-"why": "down to the growling dog",
+"why": "ends on Usman's teeth",
 "key": 44
 },
 "47": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "48": {
 "move": "hold",
@@ -320,101 +304,89 @@
 "key": 47
 },
 "51": {
-"move": "dolly_in",
+"move": "push_in",
 "fx": [],
-"why": "the doors open on power",
-"trans_in": "dissolve"
+"why": "he enters the room"
 },
 "52": {
 "move": "pan_right",
 "fx": [],
-"why": "tracks him between the chairs",
-"trans_in": "cut"
+"why": "follows his walk"
 },
 "53": {
 "move": "push_in",
 "fx": [],
-"why": "to the number on paper",
-"trans_in": "cut"
+"why": "the number is the price"
 },
 "54": {
 "move": "push_in",
 "fx": [],
-"why": "to the number on paper",
+"why": "the number is the price",
 "key": 53
 },
 "55": {
 "move": "push_in",
 "fx": [],
-"why": "to the number on paper",
+"why": "the number is the price",
 "key": 53
 },
 "56": {
-"move": "pan_left",
+"move": "pan_right",
 "fx": [],
-"why": "his eyes move along faces",
-"trans_in": "cut"
+"why": "he counts every face"
 },
 "57": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "58": {
 "move": "dolly_in",
 "fx": [
-"punch",
-"shake"
+"punch"
 ],
-"why": "the head waiter's shout",
-"trans_in": "cut"
+"why": "the fall, the waiter shouts"
 },
 "59": {
 "move": "dolly_in",
 "fx": [],
-"why": "the head waiter's shout",
+"why": "the fall, the waiter shouts",
 "key": 58
 },
 "60": {
 "move": "tilt_down",
 "fx": [],
-"why": "led down the service stair",
-"trans_in": "cut"
+"why": "led down the stairs"
 },
 "61": {
 "move": "push_in",
 "fx": [],
-"why": "he speaks to us",
-"trans_in": "cut"
+"why": "he tells us the wound"
 },
 "62": {
 "move": "push_in",
 "fx": [],
-"why": "he speaks to us",
+"why": "he tells us the wound",
 "key": 61
 },
 "63": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo nods at the window",
-"trans_in": "cut"
+"why": "ends on the small window"
 },
 "64": {
 "move": "tilt_up",
 "fx": [],
-"why": "Ambo nods at the window",
+"why": "ends on the small window",
 "key": 63
 },
 "65": {
-"move": "push_in",
+"move": "dolly_in",
 "fx": [],
-"why": "through the circle: one window",
-"trans_in": "cut"
+"why": "ends on the lit window"
 },
 "66": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "67": {
 "move": "hold",
@@ -429,49 +401,47 @@
 "69": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
-"trans_in": "cut"
+"why": "Ambo names the man"
 },
 "70": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
+"why": "Ambo names the man",
 "key": 69
 },
 "71": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
+"why": "Ambo names the man",
 "key": 69
 },
 "72": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
+"why": "Ambo names the man",
 "key": 69
 },
 "73": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
+"why": "Ambo names the man",
 "key": 69
 },
 "74": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo tells who he is",
+"why": "Ambo names the man",
 "key": 69
 },
 "75": {
 "move": "push_in",
 "fx": [],
-"why": "letter pressed to his forehead",
-"trans_in": "cut"
+"why": "his wife's letter",
+"dof": "far"
 },
 "76": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "77": {
 "move": "hold",
@@ -484,36 +454,33 @@
 "key": 76
 },
 "79": {
-"move": "hold",
+"move": "dolly_in",
 "fx": [],
-"trans_in": "cut"
+"why": "his protest, alone, aloud"
 },
 "80": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"trans_in": "cut"
+"why": "the light is dying"
 },
 "81": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "the light is dying",
 "key": 80
 },
 "82": {
-"move": "push_in",
-"fx": [],
-"why": "his own twenty comes out",
-"trans_in": "cut"
+"move": "hold",
+"fx": []
 },
 "83": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "his own twenty comes out",
 "key": 82
 },
 "84": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "85": {
 "move": "hold",
@@ -533,31 +500,30 @@
 "88": {
 "move": "push_in",
 "fx": [],
-"why": "he holds it to his chest",
-"trans_in": "cut"
+"why": "the word president sinks in"
 },
 "89": {
 "move": "push_in",
 "fx": [],
-"why": "he holds it to his chest",
+"why": "the word president sinks in",
 "key": 88
 },
 "90": {
 "move": "push_in",
 "fx": [],
-"why": "he holds it to his chest",
+"why": "the word president sinks in",
 "key": 88
 },
 "91": {
 "move": "push_in",
 "fx": [],
-"why": "he holds it to his chest",
+"why": "the word president sinks in",
 "key": 88
 },
 "92": {
 "move": "push_in",
 "fx": [],
-"why": "he holds it to his chest",
+"why": "the word president sinks in",
 "key": 88
 },
 "93": {
@@ -565,72 +531,70 @@
 "fx": [
 "snow"
 ],
-"why": "follows the lamp across street",
-"trans_in": "cut"
+"why": "follows the lamp across"
 },
 "94": {
-"move": "push_in",
+"move": "hold",
 "fx": [
 "snow"
-],
-"why": "the far window lights again",
-"trans_in": "cut"
+]
 },
 "95": {
-"move": "crane_up",
+"move": "pull_out",
 "fx": [
 "snow"
 ],
-"why": "five stand still, seen above",
-"trans_in": "cut"
+"why": "five small under one light"
 },
 "96": {
-"move": "crane_up",
+"move": "pull_out",
 "fx": [
 "snow"
 ],
-"why": "five stand still, seen above",
+"why": "five small under one light",
 "key": 95
 },
 "97": {
-"move": "crane_up",
+"move": "pull_out",
 "fx": [
 "snow"
 ],
-"why": "five stand still, seen above",
+"why": "five small under one light",
 "key": 95
 },
 "98": {
 "move": "hold",
 "fx": [
 "sparkle"
-],
-"trans_in": "cut"
+]
 },
 "99": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "the fifth mark burns",
 "trans_in": "flash"
 },
 "100": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "the fifth mark burns",
 "key": 99
 },
 "101": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "the fifth mark burns",
 "key": 99
 },
 "102": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "the fifth mark burns",
 "key": 99
 },
 "103": {
 "move": "hold",
-"fx": [],
-"trans_in": "cut"
+"fx": []
 },
 "104": {
 "move": "hold",
@@ -649,7 +613,6 @@
 },
 "107": {
 "move": "hold",
-"fx": [],
-"trans_in": "dissolve"
+"fx": []
 }
 }
