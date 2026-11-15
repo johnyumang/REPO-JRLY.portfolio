@@ -753,6 +753,54 @@
     150,
     320
    ]
+  },
+  "TINONG": {
+   "descriptions": [
+    "A lively Filipino boy about twelve, bright, clear and eager child's voice, quick and friendly, a little breathless from carrying a drum, Filipino accent",
+    "A cheerful twelve-year-old boy, energetic, clear high voice, proud and helpful, Filipino accent"
+   ],
+   "ref_text": "Kuya, ako si Tinong! Ako ang taga-buhat ng tambol ng banda namin. Mabigat ito, pero kaya ko. Kapag pinalo ko na ito, maririnig ng buong bayan. Tara, sumama ka sa amin sa harap!",
+   "sample": "Tabi po kayo! Tambol ito ng banda, mabigat po ito!",
+   "f0_hz": [
+    200,
+    380
+   ]
+  },
+  "TINDERA": {
+   "descriptions": [
+    "A loud, sharp Filipino market vendor woman in her forties, brassy and quick voice, used to shouting over a crowd, bossy but not cruel, Filipino accent",
+    "A strong-voiced street vendor woman around forty-five, loud, nasal and fast, scolding, Filipino accent"
+   ],
+   "ref_text": "Kakanin! Bibingka, puto, suman! Bili na kayo, mainit pa! Hoy, ikaw, huwag mong hawakan kung hindi mo bibilhin! Sige na, suki, mura lang, para sa iyo, dagdagan ko pa ng isa.",
+   "sample": "Hoy! Huwag kang manulak diyan, may bata rito!",
+   "f0_hz": [
+    150,
+    330
+   ]
+  },
+  "BAUTISTA": {
+   "descriptions": [
+    "An old Filipino lawyer in his late sixties, a dignified, deep and slightly rough voice, slow and solemn, reading aloud a formal declaration with strong emotion, Filipino accent",
+    "A grave elderly man around seventy, resonant, measured and proud voice, formal and steady, Filipino accent"
+   ],
+   "ref_text": "Mga kababayan, makinig kayo. Matagal nating hinintay ang araw na ito. Sa harap ng Diyos at ng buong bayan, babasahin ko ang kasulatang ito, at isusulat ng kasaysayan ang ating pangalan.",
+   "sample": "Mga kababayan, ito na ang araw na ating hinintay.",
+   "f0_hz": [
+    80,
+    190
+   ]
+  },
+  "LOLA ISING": {
+   "descriptions": [
+    "A Filipino grandmother about seventy, warm, slow and knowing voice, gentle but sharp-eyed, a quiet mischievous smile in it, slightly creaky, Filipino accent",
+    "An elderly woman in her early seventies, soft, low and unhurried, kind and wise, a little secretive, Filipino accent"
+   ],
+   "ref_text": "Apo, maupo ka muna. May sinigang pa sa kaldero, mainit pa. Alam kong may itatanong ka, kaya kumain ka muna. Matagal ko nang hinihintay na umuwi ka, at marami akong ikukuwento sa iyo.",
+   "sample": "Kumain ka muna, apo. Mamaya na tayo mag-usap.",
+   "f0_hz": [
+    140,
+    300
+   ]
   }
  }
 }
