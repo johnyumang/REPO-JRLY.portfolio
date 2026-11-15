@@ -416,3 +416,15 @@ ring light and tyre tracks in the year 900 (12); the red umbrella behind the Lol
 unang nagtanong" (4); the white hair and the dog that did not growl (9); "Mag-ingat sa batang laging nauuna"
 (10); the man in white at the bank (11); the shadow with no owner (11); the hidden clause in the house
 contract and the bitten nail (12).
+
+## 10. Rule 9 (owner, 15 November, after watching Episode 1 v2): told like a storyteller
+
+Nothing the viewer needs in order to follow the story may live only in a stage line. TAGAPAGSALAYSAY tells
+each action in a full, plain sentence, in the third person: who does what, and why it matters ("Walang trabaho,
+walang pamasahe. Kaya dinala niya sa sanglaan ang nag-iisang mana niya: ang lumang medalyon ng Lolo niya.").
+Stage lines stay only as notes for the picture. One thread at a time: a side thread is cut rather than left
+half explained. Length follows: the story may run to about 3:30 to 3:45 and about 520 to 560 spoken words.
+Clear beats short. This replaces BIBLE section 0, point 1 ("no stretch of more than two storyteller lines in a
+row"): the storyteller now carries the action, and the characters carry the feeling and the jokes.
+`story/_parts/reflow.py` re-derives a revised script, counts lines added, changed and cut against the committed
+version, and renumbers `shots.md` and `facts.md`.
