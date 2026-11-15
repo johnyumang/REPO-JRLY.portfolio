@@ -6,7 +6,7 @@ Old numbering = sentences.json at git HEAD. A new sentence between two shots goe
 between them if there is one (that shot now carries a storyteller line), else to the shot that follows."""
 import json, re, subprocess, sys, difflib
 d = sys.argv[1].rstrip('/')
-old = json.loads(subprocess.check_output(['git', 'show', f'HEAD:history-indio/{d}/sentences.json']))
+old = json.loads(subprocess.check_output(['git', 'show', f'{sys.argv[2] if len(sys.argv)>2 else "HEAD"}:history-indio/{d}/sentences.json']))
 subprocess.check_call([sys.executable, 'story/_parts/derive.py', d])
 new = json.load(open(f'{d}/sentences.json'))
 ot = [(s['speaker'], s['text']) for s in old]; nt = [(s['speaker'], s['text']) for s in new]

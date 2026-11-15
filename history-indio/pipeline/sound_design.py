@@ -705,6 +705,9 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
     v = np.pad(v, (0, int(dur * SR) - len(v))).astype(np.float64); n = len(v); total = n / SR
     rv = soundtrack.gated_rms(v); act = _voice_activity(v, rv)
     R2 = bool(plan.get('_', {}).get('rules_v2'))                                              # opt-in: central's sound rules of 15 Nov (SOUND.md section 7)
+    o = plan.get('_', {}).get('levels', {})                                                   # per-episode override, e.g. {"amb": -9, "music": -9, "fx_duck": 14}
+    AMB_DB, MUSIC_DB, FOLEY_DB, SPOT_DB = (float(o.get(k, d)) for k, d in (('amb', globals()['AMB_DB']), ('music', globals()['MUSIC_DB']), ('foley', globals()['FOLEY_DB']), ('spot', globals()['SPOT_DB'])))
+    DUCK, FX_DUCK = float(o.get('duck', globals()['DUCK'])), float(o.get('fx_duck', globals()['FX_DUCK']))
     LN = lines(tim, total); state = {'amb': None, 'music': 'none', 'level': 0.0}; per = []
     beds = np.zeros(n); mus = np.zeros(n); fol = np.zeros(n); spt = np.zeros(n); hush = np.zeros(n); events = 0
     for i, (a, b) in enumerate(LN):
