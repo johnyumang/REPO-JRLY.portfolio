@@ -1,0 +1,468 @@
+{
+"_": {
+"whoosh_cuts": true
+},
+"0": {
+"amb": [
+"indoor:-4"
+],
+"music": "none",
+"spot": [
+{
+"what": "glass_crash",
+"at": 0.0,
+"gain": 2
+}
+]
+},
+"1": {
+"amb": [
+"indoor",
+"walla:-12"
+],
+"music": "heartbeat",
+"level": -3
+},
+"3": {
+"spot": [
+{
+"what": "whoosh",
+"at": 0.0,
+"dur": 0.5,
+"gain": -8
+}
+]
+},
+"4": {
+"amb": [
+"wind:-8"
+],
+"music": "drone",
+"level": -4
+},
+"5": {
+"amb": [
+"indoor",
+"city:-16"
+],
+"music": "guitar",
+"level": -5,
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -10
+}
+]
+},
+"10": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.3,
+"dur": 0.6,
+"gain": -6
+}
+]
+},
+"15": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.5,
+"gain": -6
+}
+]
+},
+"18": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.4,
+"gain": -8
+}
+]
+},
+"20": {
+"music": "drone",
+"spot": [
+{
+"what": "shimmer",
+"at": 0.4,
+"dur": 1.6,
+"gain": -4
+}
+]
+},
+"21": {
+"spot": [
+{
+"what": "riser",
+"at": 0.2,
+"dur": 1.4,
+"gain": -4
+},
+{
+"what": "whoosh",
+"at": 1.4,
+"dur": 0.8,
+"gain": -2
+}
+]
+},
+"22": {
+"amb": [
+"wind",
+"city:-18"
+],
+"music": "drone",
+"level": -3,
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -6
+}
+]
+},
+"25": {
+"foley": [
+{
+"what": "dog_paws",
+"at": 0.0,
+"count": 6,
+"gain": -6
+}
+]
+},
+"30": {
+"amb": [
+"indoor",
+"fire:-8",
+"wind:-14"
+],
+"music": "none",
+"foley": [
+{
+"what": "door",
+"at": 0.0,
+"gain": -4
+},
+{
+"what": "plates",
+"at": 1.0,
+"count": 4,
+"gain": -10
+}
+]
+},
+"36": {
+"amb": [
+"indoor",
+"fire:-10"
+],
+"music": "guitar",
+"level": -5
+},
+"41": {
+"music": "drone",
+"level": -4
+},
+"43": {
+"foley": [
+{
+"what": "growl",
+"at": 1.0,
+"dur": 1.0,
+"gain": -2
+}
+]
+},
+"44": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.7,
+"gain": -4
+},
+{
+"what": "plates",
+"at": 1.2,
+"count": 3,
+"gain": -8
+}
+]
+},
+"47": {
+"amb": [
+"indoor",
+"walla:-8"
+],
+"music": "drone",
+"level": -3,
+"foley": [
+{
+"what": "door",
+"at": 0.0,
+"gain": -6
+}
+]
+},
+"48": {
+"foley": [
+{
+"what": "steps_stone",
+"at": 0.0,
+"pace": "walk",
+"count": 5,
+"gain": -6
+}
+]
+},
+"49": {
+"foley": [
+{
+"what": "pen",
+"at": 0.2,
+"dur": 2.0,
+"gain": -2
+}
+]
+},
+"51": {
+"music": "heartbeat",
+"level": -3
+},
+"52": {
+"amb": [
+"indoor:-8"
+],
+"music": "none",
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -10,
+"hush": 0.3
+}
+]
+},
+"53": {
+"spot": [
+{
+"what": "glass_crash",
+"at": 0.0,
+"gain": 2
+}
+]
+},
+"54": {
+"amb": [
+"indoor",
+"fire:-8"
+],
+"music": "none",
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.6,
+"gain": -4
+},
+{
+"what": "steps_stone",
+"at": 0.3,
+"pace": "walk",
+"count": 6,
+"gain": -6
+}
+]
+},
+"55": {
+"foley": [
+{
+"what": "plates",
+"at": 0.2,
+"count": 6,
+"gain": -6
+}
+]
+},
+"56": {
+"amb": [
+"indoor",
+"fire:-10",
+"wind:-12"
+],
+"music": "guitar",
+"level": -5
+},
+"57": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.3,
+"dur": 0.8,
+"gain": -6
+}
+]
+},
+"58": {
+"amb": [
+"wind:-6",
+"indoor:-10"
+],
+"music": "drone",
+"level": -4
+},
+"66": {
+"music": "guitar",
+"level": -6
+},
+"67": {
+"level": -5
+},
+"69": {
+"level": -7
+},
+"70": {
+"amb": "none",
+"music": "none",
+"level": 0,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.0,
+"dur": 0.6,
+"gain": -24,
+"hush": 0.6
+}
+],
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.4,
+"gain": -14
+}
+]
+},
+"71": {
+"amb": [
+"wind:-6",
+"indoor:-12"
+],
+"music": "drone",
+"level": -4
+},
+"73": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.5,
+"gain": -6
+}
+]
+},
+"80": {
+"music": "guitar",
+"level": -4
+},
+"82": {
+"amb": [
+"wind",
+"city:-18"
+],
+"foley": [
+{
+"what": "door",
+"at": 0.0,
+"gain": -6
+},
+{
+"what": "steps_wet",
+"at": 0.4,
+"pace": "walk",
+"count": 6,
+"gain": -6
+}
+]
+},
+"83": {
+"foley": [
+{
+"what": "steps_wet",
+"at": 0.0,
+"pace": "walk",
+"count": 5,
+"gain": -8
+}
+]
+},
+"84": {
+"amb": [
+"wind"
+],
+"music": "guitar",
+"level": -3,
+"foley": [
+{
+"what": "dog_pant",
+"at": 0.0,
+"dur": 0.8,
+"gain": -12
+}
+]
+},
+"87": {
+"amb": "none",
+"music": "drone",
+"spot": [
+{
+"what": "shimmer",
+"at": 0.0,
+"dur": 1.6,
+"gain": -4
+},
+{
+"what": "whoosh",
+"at": 1.0,
+"dur": 0.8,
+"gain": -2
+}
+]
+},
+"88": {
+"amb": [
+"indoor",
+"city:-12"
+],
+"music": "none",
+"level": -3,
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -8
+}
+]
+},
+"91": {
+"amb": [
+"city"
+],
+"music": "drone",
+"level": -4
+},
+"93": {
+"amb": [
+"city:-8"
+],
+"music": "none",
+"level": -5
+}
+}

@@ -1,0 +1,111 @@
+# INDIO: ANG SAKSI — Episode 4, "Ang Aso ni Pepe" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to find what the Lolo's one word, "Calamba", points to. Then: to get his dog back.
+# SABI-SABI: "Bayani na si Rizal mula pagkabata: henyo, hindi umiiyak, hindi natatakot."
+# TWIST (BIBLE row 4): false betrayal. Fall: Usman runs from him to another master, and the big dog at the gate
+#   goes for his throat. Comeback: Ang Dinig, by the friend's lesson (sit, do not stare, wait) and its price
+#   (his buko pie). Show-off: he sits shoulder to shoulder with the dog nobody can go near.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (only inside the jump). LOLA ISING (one text, read by
+# Indio). ANDOY (invented son of a coachman, about ten; "friend" voice, boy 1).
+# TEODORA (Teodora Alonso, Rizal's mother, real; designed voice, a calm woman of about forty): ONE line, the
+#   warning of the moth story as her son recorded it in his memoir, in Tagalog translation; see facts.md.
+# The boy (José Rizal, "Pepe", turning eight) and his brother Paciano are seen and say nothing. Indio never
+#   speaks to them or touches them; Usman never goes in to the boy. The young black dog of 1869 does not speak in words: we hear what Indio hears.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Calamba=kaLAMba
+# SAY: buko pie=BUko pay
+# SAY: Los Baños=los BANyos
+# SAY: apple pie=Apol pay
+# SAY: 1869=mil otsosyentos sesentay nuwebe
+# SAY: Pepe=PEpe
+# SAY: Biñan=binYAN
+# SAY: karomata=karoMAta
+# SAY: Andoy=anDOY
+# SAY: gamu-gamo=gamuGAmo
+# SAY: Rizal=riSAL
+
+# --- 0. Hook (cold, at 0.0, on the lunge: a flash-forward of scene 3)
+(Isang malaking itim na aso, lumundag sa rehas ng tarangkahan, labas ang pangil, diretso sa atin.)
+ANDOY: [shout] Atras! Kakagatin ka niyan!
+INDIO (sa atin): [dramatic] Iniwan ako ng sarili kong aso. Tapos itong kamukha niya, gusto akong kainin.
+INDIO (sa atin): [playful] Ako 'to si Indio. Malas pati sa aso.
+
+# --- 1. Today (short, Indio's voice). He wants: what "Calamba" points to.
+TAGAPAGSALAYSAY: [calm] Ngayon. Calamba, Laguna.
+(Isang tindahan sa tabi ng kalsada. Hawak ni Indio ang isang hiwa ng buko pie sa papel. Huling barya niya ang ibinayad.)
+INDIO (sa atin): [dry] Isang salita lang ang iniwan ni Lolo: Calamba. Kaya nandito ako, at ito na ang huling pera ko.
+INDIO (sa atin): [proud] Buko pie: sabi nila, sa Los Baños ito nagsimula. May magkakapatid na gustong gumawa ng apple pie, pero walang mansanas. Kaya buko. Kapag walang-wala ka, may paraan pa rin.
+(Sa harap ng isang bahay na bato, isang marker. Itinabi ni Indio ang pie sa bulsa ng jacket.)
+INDIO: [bored] Hapunan kita mamaya. Babasahin ko muna 'to nang malakas.
+(Binasa niya ang marker: huni ng ibon ang naririnig natin, hindi ang mga salita. Uminit ang medalyon.)
+
+# --- 2. The run. He wants: to keep up with his dog.
+TAGAPAGSALAYSAY: [low] Calamba. Hunyo 1869. Isang hapon ng Linggo.
+(Araw. Mga puno ng mangga. Lumabas ang itim na asong si Usman mula sa liwanag. Hindi siya tumingin kay Indio. Suminghot siya, at tumakbo.)
+INDIO: [surprised] Usman! Hindi ka man lang babati? Ikaw pa namang asong madaldal. Hoy!
+(Hinabol siya ni Indio: lampas sa mga kariton, lampas sa mga manok. Huminto si Usman sa tarangkahan ng isang malaking bahay na bato. Idinikit niya ang nguso sa rehas. Hindi na siya gumalaw.)
+(Sa bakuran: isang maliit na batang lalaki, nakabihis panlakad, may maliit na baul. Nakatitig sa kanya si Usman, kumakawag ang buntot.)
+INDIO: [calling] Usman. Halika na. Usman!
+(Hindi lumingon si Usman.)
+INDIO (sa atin): [whisper] May iba pala siyang amo.
+
+# --- 3. The gate. He wants: his dog back. THE FALL.
+(Humawak si Indio sa rehas. Mula sa gilid ng bahay, isang malaking itim na aso, bata pa, kamukhang-kamukha ni Usman. Lumundag ito sa rehas, labas ang pangil.)
+ANDOY: [shout] Atras! Kakagatin ka niyan!
+(Isang batang lalaki sa upuan ng karomatang nakaparada: anak ng kutsero, hawak ang renda.)
+ANDOY: [flat] Aso 'yan ng bunsong lalaki rito. Si Pepe. José Rizal ang buong pangalan. Siya lang ang nakakalapit diyan.
+INDIO: [stunned] Rizal? 'Yung nasa piso?
+ANDOY: [puzzled] Anong piso?
+INDIO: [hurt] Wala. 'Yung aso ko, ayaw nang umalis diyan. Hindi man lang ako nililingon.
+ANDOY: [shrug] Eh di hindi mo aso 'yon.
+(Tumahol ulit ang malaking aso. Umatras si Indio, natisod, napaupo sa alikabok ng kalsada. Si Usman, nasa rehas pa rin, nakatalikod sa kanya.)
+INDIO (sa atin): [whisper] Tatlong beses na kaming tumalon sa nakaraan. Akala ko, kakampi ko siya. Nakikisakay lang pala siya pauwi.
+
+# --- 4. THE COMEBACK. Ang Dinig: sit, do not stare, wait, and pay.
+ANDOY: [kind] Kuya, mali ang ginagawa mo. Huwag mong titigan sa mata. Umupo ka. Maghintay ka. Ganyan sa kabayo, ganyan din sa aso.
+(Umupo si Indio sa tabi ng tarangkahan, patagilid. Hindi tumingin. Tumahimik. Matagal.)
+(Tumigil ang tahol. Suminghot ang malaking aso sa bulsa ng jacket ni Indio.)
+INDIO: [pained] Ang pie ko. Huling pera ko 'yan.
+(Inilabas niya ang buko pie at inilapag sa pagitan ng rehas. Kinain ito ng aso. Saka umungol ito, mahina, at sa unang pagkakataon, naririnig natin ang naririnig ni Indio: dalawang salita.)
+INDIO: [whisper] "Aalis siya." 'Yun ang sinasabi niya. Hindi siya galit sa akin. Nalulungkot siya.
+(Sa wakas, lumingon si Usman. Magkatapat sa rehas ang dalawang itim na aso: isang bata sa loob, isang matanda sa labas. Iisa ang puting batik sa dibdib.)
+USMAN: [quiet] Ako 'yan, par. Noong hindi pa kita kilala.
+INDIO: [stunned] Ikaw 'yan?
+USMAN: [low] Hindi kita iniwan. Gusto ko lang siyang makita ulit. Minsan pa.
+(Binuksan ni Andoy ang tarangkahan. Lumabas ang batang aso, at umupo sa tabi ni Indio, balikat sa balikat, parehong nakatingin sa bakuran. Napanganga si Andoy.)
+ANDOY: [awed] Si Pepe lang ang nakakagawa niyan.
+INDIO: [dry] Mahal ang bayad. Isang buong pie.
+
+# --- 5. What he came to see. History stands.
+(Sa hagdan ng bahay: lumuhod ang isang ina sa harap ng maliit na bata. Inayos niya ang kuwelyo nito, at hinawakan ang mukha nito sa dalawang palad.)
+INDIO (sa atin): [whisper] Sabi sa libro, bayani na siya mula pagkabata. Hindi umiiyak. Tingnan mo.
+(Nanginginig ang baba ng bata. Pinipigil niya ang iyak.)
+TEODORA: [gentle] Huwag mong tularan ang batang gamu-gamo, at huwag kang susuway. Masusunog ka ring gaya niya.
+INDIO (sa atin): [whisper] Gamu-gamo. 'Yung lumapit sa apoy kahit pinagbawalan.
+(Tumango ang bata. Niyakap niya ang ina. Tapos tumakbo siya sa tarangkahan at niyakap ang batang aso sa leeg. Umatras si Indio para bigyan sila ng puwang. Walang sinabi ang bata. Walang sinabi si Indio.)
+ANDOY: [soft] Sa Biñan siya mag-aaral. Ihahatid ng kuya niya. Ako ang hahawak ng renda.
+(Sumakay ang bata at ang kuya niya. Umandar ang karomata. Naiwan ang batang aso sa tarangkahan, nakatingin sa daan. Katabi nito, si Usman, nakatingin din.)
+INDIO (sa atin): [whisper] Mga walong taon lang. Umiiyak. Bata lang pala siya, gaya ng lahat.
+INDIO: [quiet] Usman, kung aso ka niya, bakit ako ang kilala mo?
+USMAN: [low] Kaamoy mo ang bahay na 'to, par. Hindi ko alam kung bakit.
+
+# --- 6. Back. The fourth mark. The Lola's text.
+TAGAPAGSALAYSAY: [calm] Lumamig ang medalyon.
+(Calamba ngayon. Mag-isa si Indio sa harap ng bahay na bato. Walang aso. Sa braso niya, pang-apat na guhit, umuusok. Sa bulsa niya, papel ng pie, walang laman.)
+INDIO: [wince] Aray. Apat. At kinain na naman ng aso ang hapunan ko.
+(Tumunog ang phone. Mensahe mula kay Lola Ising.)
+INDIO: [reading] "Apo, may nakita akong lumang sobre ng Lolo mo. Sabi niya rito, kadugo raw natin si Pepe. At hindi raw ikaw ang unang nagtanong."
+INDIO (sa atin): [whisper] Sabi raw. Eh sino ang nauna sa akin?
+
+# --- 7. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung may mahal kang gustong bumalik sa dati niyang tahanan, hahayaan mo ba?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? May aso si Rizal na kapangalan ko?
+# INDIO: Ayon sa mga talambuhay niya, oo: isang malaking itim na aso, Usman ang pangalan. Hindi ito matunton sa sarili niyang sulat, kaya "ayon sa talambuhay" lang.
+# INDIO: Tiyak: Hunyo 1869, isang Linggo, inihatid siya ng kuya niyang si Paciano sa Biñan para mag-aral. Mga walong taon siya noon.
+# INDIO: At ang kuwento ng gamu-gamo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa.
+# USMAN: Eh kadugo mo ba talaga siya?
+# INDIO: Sa totoong tala, walang kilalang apo si Rizal. Kuwento 'yan ng pamilya namin.
