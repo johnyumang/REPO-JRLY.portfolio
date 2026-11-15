@@ -120,8 +120,8 @@
   "aside": true
  },
  {
-  "text": "Ipinahawak sa kanya ni M ang pulang payong, kung saan nakatago ang Huling Tala.",
-  "say": "ipinahawak sa kanya ni m ang pulang payong, kung saan nakatago ang huling tala.",
+  "text": "Ipinahawak sa kanya ni M ang pulang payong, kung saan nakatago ang Huling Tala, na tumutupad ng tatlong hiling.",
+  "say": "ipinahawak sa kanya ni m ang pulang payong, kung saan nakatago ang huling tala, na tumutupad ng tatlong hiling.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -235,6 +235,14 @@
   "text": "Ang daungan.",
   "say": "ang daungan.",
   "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa daungan, sumalubong ang aso niyang si Usman.",
+  "say": "sa daungan, sumalubong ang aso niyang si usman.",
+  "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -354,8 +362,8 @@
   "speaker": "AGYU"
  },
  {
-  "text": "Sumilip si Indio sa lente.",
-  "say": "sumilip si indio sa lente.",
+  "text": "Sumilip si Indio sa lente ng Lolo niya.",
+  "say": "sumilip si indio sa lente ng lolo niya.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -763,8 +771,8 @@
   "speaker": "M"
  },
  {
-  "text": "Itinaas ni Indio ang ilawan.",
-  "say": "itinaas ni indio ang ilawan.",
+  "text": "Pagbalik sa kasalukuyan, itinaas ni Indio ang ilawan mula sa Galilea.",
+  "say": "pagbalik sa kasalukuyan, itinaas ni indio ang ilawan mula sa galilea.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
