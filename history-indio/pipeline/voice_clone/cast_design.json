@@ -837,6 +837,30 @@
     80,
     170
    ]
+  },
+  "ANDOY": {
+   "descriptions": [
+    "A ten-year-old Filipino boy, son of a coachman, clear bright voice, quick and direct, a little bossy but kind, speaking Filipino",
+    "A boy around ten, lively clear child's voice, practical and confident, plain-spoken, Filipino accent"
+   ],
+   "ref_text": "Kuya, huwag kang tatakbo diyan. Hawak ko ang renda ng kabayo, kaya ako ang bahala. Umupo ka lang muna, at maghintay tayo. Mamaya, aalis na tayo papuntang bayan, bago pa dumilim ang daan.",
+   "sample": "Huwag mong titigan sa mata, kuya. Umupo ka lang at maghintay.",
+   "f0_hz": [
+    200,
+    400
+   ]
+  },
+  "TEODORA": {
+   "descriptions": [
+    "A Filipino woman in her forties, calm, warm and firm, a mother's low steady voice, gentle but serious, unhurried, speaking Filipino",
+    "A woman around forty, soft low calm voice, tender and firm, clear diction, a mother speaking quietly to her child, Filipino accent"
+   ],
+   "ref_text": "Anak, makinig ka sa akin. Huwag kang matakot sa daan, at huwag mong kalilimutan ang bilin ko. Mag-aral kang mabuti, at maging mabait ka sa lahat. Lagi kitang ipagdarasal, saan ka man magpunta.",
+   "sample": "Mag-ingat ka sa daan, anak, at huwag kang susuway.",
+   "f0_hz": [
+    140,
+    280
+   ]
   }
  }
 }
