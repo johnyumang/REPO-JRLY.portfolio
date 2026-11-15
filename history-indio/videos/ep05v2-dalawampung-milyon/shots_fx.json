@@ -60,62 +60,64 @@
 "key": 7
 },
 "9": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "the twenty pesos in hand",
-"key": 7
+"trans_in": "cut"
 },
 "10": {
 "move": "hold",
 "fx": [],
-"trans_in": "cut"
+"key": 9
 },
 "11": {
 "move": "hold",
 "fx": [],
-"key": 10
+"key": 9
 },
 "12": {
 "move": "hold",
 "fx": [],
-"key": 10
+"key": 9
 },
 "13": {
 "move": "hold",
 "fx": [],
-"key": 10
+"key": 9
 },
 "14": {
 "move": "hold",
 "fx": [],
-"key": 10
+"trans_in": "cut"
 },
 "15": {
 "move": "hold",
 "fx": [],
-"trans_in": "cut"
+"key": 14
 },
 "16": {
 "move": "hold",
 "fx": [],
-"key": 15
+"key": 14
 },
 "17": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 15
+"why": "his hand reaches for it",
+"trans_in": "cut"
 },
 "18": {
 "move": "push_in",
 "fx": [],
 "why": "his hand reaches for it",
-"trans_in": "cut"
+"key": 17
 },
 "19": {
 "move": "push_in",
-"fx": [],
-"why": "his hand reaches for it",
-"key": 18
+"fx": [
+"sparkle"
+],
+"why": "he reads the name aloud",
+"trans_in": "cut"
 },
 "20": {
 "move": "push_in",
@@ -123,7 +125,7 @@
 "sparkle"
 ],
 "why": "he reads the name aloud",
-"trans_in": "cut"
+"key": 19
 },
 "21": {
 "move": "push_in",
@@ -131,15 +133,15 @@
 "sparkle"
 ],
 "why": "he reads the name aloud",
-"key": 20
+"key": 19
 },
 "22": {
-"move": "crane_down",
+"move": "push_in",
 "fx": [
-"snow"
+"sparkle"
 ],
-"why": "opening Paris: the snowy alley",
-"trans_in": "flash"
+"why": "he reads the name aloud",
+"key": 19
 },
 "23": {
 "move": "crane_down",
@@ -147,7 +149,7 @@
 "snow"
 ],
 "why": "opening Paris: the snowy alley",
-"key": 22
+"trans_in": "flash"
 },
 "24": {
 "move": "crane_down",
@@ -155,178 +157,210 @@
 "snow"
 ],
 "why": "opening Paris: the snowy alley",
-"key": 22
+"key": 23
 },
 "25": {
-"move": "hold",
+"move": "crane_down",
 "fx": [
 "snow"
 ],
-"trans_in": "cut"
+"why": "opening Paris: the snowy alley",
+"key": 23
 },
 "26": {
 "move": "hold",
 "fx": [
 "snow"
 ],
-"key": 25
+"trans_in": "cut"
 },
 "27": {
 "move": "hold",
 "fx": [
 "snow"
 ],
-"key": 25
+"key": 26
 },
 "28": {
 "move": "hold",
 "fx": [
 "snow"
 ],
-"key": 25
+"key": 26
 },
 "29": {
 "move": "hold",
 "fx": [
 "snow"
 ],
-"key": 25
+"key": 26
 },
 "30": {
-"move": "dolly_in",
-"fx": [],
-"why": "a stranger fills the doorway",
-"trans_in": "cut"
+"move": "hold",
+"fx": [
+"snow"
+],
+"key": 26
 },
 "31": {
-"move": "dolly_in",
-"fx": [],
-"why": "a stranger fills the doorway",
-"key": 30
+"move": "hold",
+"fx": [
+"snow"
+],
+"key": 26
 },
 "32": {
 "move": "dolly_in",
 "fx": [],
 "why": "a stranger fills the doorway",
-"key": 30
+"trans_in": "cut"
 },
 "33": {
 "move": "dolly_in",
 "fx": [],
 "why": "a stranger fills the doorway",
-"key": 30
+"key": 32
 },
 "34": {
 "move": "dolly_in",
 "fx": [],
 "why": "a stranger fills the doorway",
-"key": 30
+"key": 32
 },
 "35": {
 "move": "dolly_in",
 "fx": [],
 "why": "a stranger fills the doorway",
-"key": 30
+"key": 32
 },
 "36": {
-"move": "tilt_up",
+"move": "dolly_in",
 "fx": [],
-"why": "Ambo points up: the street",
-"trans_in": "cut"
+"why": "a stranger fills the doorway",
+"key": 32
 },
 "37": {
-"move": "tilt_up",
+"move": "dolly_in",
 "fx": [],
-"why": "Ambo points up: the street",
-"key": 36
+"why": "a stranger fills the doorway",
+"key": 32
 },
 "38": {
-"move": "tilt_up",
+"move": "dolly_in",
 "fx": [],
-"why": "Ambo points up: the street",
-"key": 36
+"why": "a stranger fills the doorway",
+"key": 32
 },
 "39": {
 "move": "tilt_up",
 "fx": [],
 "why": "Ambo points up: the street",
-"key": 36
+"trans_in": "cut"
 },
 "40": {
 "move": "tilt_up",
 "fx": [],
 "why": "Ambo points up: the street",
-"key": 36
+"key": 39
 },
 "41": {
-"move": "tilt_down",
+"move": "tilt_up",
 "fx": [],
-"why": "down to the growling dog",
-"trans_in": "cut"
+"why": "Ambo points up: the street",
+"key": 39
 },
 "42": {
-"move": "tilt_down",
+"move": "tilt_up",
 "fx": [],
-"why": "down to the growling dog",
-"key": 41
+"why": "Ambo points up: the street",
+"key": 39
 },
 "43": {
+"move": "tilt_up",
+"fx": [],
+"why": "Ambo points up: the street",
+"key": 39
+},
+"44": {
 "move": "tilt_down",
 "fx": [],
 "why": "down to the growling dog",
-"key": 41
-},
-"44": {
-"move": "hold",
-"fx": [],
 "trans_in": "cut"
 },
 "45": {
-"move": "hold",
+"move": "tilt_down",
 "fx": [],
+"why": "down to the growling dog",
 "key": 44
 },
 "46": {
-"move": "hold",
+"move": "tilt_down",
 "fx": [],
+"why": "down to the growling dog",
 "key": 44
 },
 "47": {
+"move": "hold",
+"fx": [],
+"trans_in": "cut"
+},
+"48": {
+"move": "hold",
+"fx": [],
+"key": 47
+},
+"49": {
+"move": "hold",
+"fx": [],
+"key": 47
+},
+"50": {
+"move": "hold",
+"fx": [],
+"key": 47
+},
+"51": {
 "move": "dolly_in",
 "fx": [],
 "why": "the doors open on power",
 "trans_in": "dissolve"
 },
-"48": {
+"52": {
 "move": "pan_right",
 "fx": [],
 "why": "tracks him between the chairs",
 "trans_in": "cut"
 },
-"49": {
+"53": {
 "move": "push_in",
 "fx": [],
 "why": "to the number on paper",
 "trans_in": "cut"
 },
-"50": {
+"54": {
 "move": "push_in",
 "fx": [],
 "why": "to the number on paper",
-"key": 49
+"key": 53
 },
-"51": {
+"55": {
+"move": "push_in",
+"fx": [],
+"why": "to the number on paper",
+"key": 53
+},
+"56": {
 "move": "pan_left",
 "fx": [],
 "why": "his eyes move along faces",
 "trans_in": "cut"
 },
-"52": {
+"57": {
 "move": "hold",
 "fx": [],
 "trans_in": "cut"
 },
-"53": {
+"58": {
 "move": "dolly_in",
 "fx": [
 "punch",
@@ -335,161 +369,198 @@
 "why": "the head waiter's shout",
 "trans_in": "cut"
 },
-"54": {
+"59": {
+"move": "dolly_in",
+"fx": [],
+"why": "the head waiter's shout",
+"key": 58
+},
+"60": {
 "move": "tilt_down",
 "fx": [],
 "why": "led down the service stair",
 "trans_in": "cut"
 },
-"55": {
+"61": {
 "move": "push_in",
 "fx": [],
 "why": "he speaks to us",
 "trans_in": "cut"
 },
-"56": {
+"62": {
+"move": "push_in",
+"fx": [],
+"why": "he speaks to us",
+"key": 61
+},
+"63": {
 "move": "tilt_up",
 "fx": [],
 "why": "Ambo nods at the window",
 "trans_in": "cut"
 },
-"57": {
+"64": {
+"move": "tilt_up",
+"fx": [],
+"why": "Ambo nods at the window",
+"key": 63
+},
+"65": {
 "move": "push_in",
 "fx": [],
 "why": "through the circle: one window",
 "trans_in": "cut"
 },
-"58": {
-"move": "hold",
-"fx": [],
-"trans_in": "cut"
-},
-"59": {
-"move": "hold",
-"fx": [],
-"key": 58
-},
-"60": {
-"move": "hold",
-"fx": [],
-"key": 58
-},
-"61": {
-"move": "push_in",
-"fx": [],
-"why": "Ambo tells who he is",
-"trans_in": "cut"
-},
-"62": {
-"move": "push_in",
-"fx": [],
-"why": "Ambo tells who he is",
-"key": 61
-},
-"63": {
-"move": "push_in",
-"fx": [],
-"why": "Ambo tells who he is",
-"key": 61
-},
-"64": {
-"move": "push_in",
-"fx": [],
-"why": "Ambo tells who he is",
-"key": 61
-},
-"65": {
-"move": "push_in",
-"fx": [],
-"why": "Ambo tells who he is",
-"key": 61
-},
 "66": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "letter pressed to his forehead",
 "trans_in": "cut"
 },
 "67": {
 "move": "hold",
 "fx": [],
-"trans_in": "cut"
+"key": 66
 },
 "68": {
 "move": "hold",
 "fx": [],
-"key": 67
+"key": 66
 },
 "69": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 67
+"why": "Ambo tells who he is",
+"trans_in": "cut"
 },
 "70": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"trans_in": "cut"
+"why": "Ambo tells who he is",
+"key": 69
 },
 "71": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"trans_in": "cut"
+"why": "Ambo tells who he is",
+"key": 69
 },
 "72": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 71
+"why": "Ambo tells who he is",
+"key": 69
 },
 "73": {
 "move": "push_in",
 "fx": [],
-"why": "his own twenty comes out",
-"trans_in": "cut"
+"why": "Ambo tells who he is",
+"key": 69
 },
 "74": {
 "move": "push_in",
 "fx": [],
-"why": "his own twenty comes out",
-"key": 73
+"why": "Ambo tells who he is",
+"key": 69
 },
 "75": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
+"why": "letter pressed to his forehead",
 "trans_in": "cut"
 },
 "76": {
 "move": "hold",
 "fx": [],
-"key": 75
+"trans_in": "cut"
 },
 "77": {
 "move": "hold",
 "fx": [],
-"key": 75
+"key": 76
 },
 "78": {
 "move": "hold",
 "fx": [],
-"key": 75
+"key": 76
 },
 "79": {
 "move": "hold",
 "fx": [],
-"key": 75
+"trans_in": "cut"
 },
 "80": {
+"move": "hold",
+"fx": [],
+"trans_in": "cut"
+},
+"81": {
+"move": "hold",
+"fx": [],
+"key": 80
+},
+"82": {
+"move": "push_in",
+"fx": [],
+"why": "his own twenty comes out",
+"trans_in": "cut"
+},
+"83": {
+"move": "push_in",
+"fx": [],
+"why": "his own twenty comes out",
+"key": 82
+},
+"84": {
+"move": "hold",
+"fx": [],
+"trans_in": "cut"
+},
+"85": {
+"move": "hold",
+"fx": [],
+"key": 84
+},
+"86": {
+"move": "hold",
+"fx": [],
+"key": 84
+},
+"87": {
+"move": "hold",
+"fx": [],
+"key": 84
+},
+"88": {
 "move": "push_in",
 "fx": [],
 "why": "he holds it to his chest",
 "trans_in": "cut"
 },
-"81": {
+"89": {
 "move": "push_in",
 "fx": [],
 "why": "he holds it to his chest",
-"key": 80
+"key": 88
 },
-"82": {
+"90": {
+"move": "push_in",
+"fx": [],
+"why": "he holds it to his chest",
+"key": 88
+},
+"91": {
+"move": "push_in",
+"fx": [],
+"why": "he holds it to his chest",
+"key": 88
+},
+"92": {
+"move": "push_in",
+"fx": [],
+"why": "he holds it to his chest",
+"key": 88
+},
+"93": {
 "move": "pan_right",
 "fx": [
 "snow"
@@ -497,7 +568,7 @@
 "why": "follows the lamp across street",
 "trans_in": "cut"
 },
-"83": {
+"94": {
 "move": "push_in",
 "fx": [
 "snow"
@@ -505,7 +576,7 @@
 "why": "the far window lights again",
 "trans_in": "cut"
 },
-"84": {
+"95": {
 "move": "crane_up",
 "fx": [
 "snow"
@@ -513,55 +584,70 @@
 "why": "five stand still, seen above",
 "trans_in": "cut"
 },
-"85": {
+"96": {
 "move": "crane_up",
 "fx": [
 "snow"
 ],
 "why": "five stand still, seen above",
-"key": 84
+"key": 95
 },
-"86": {
+"97": {
 "move": "crane_up",
 "fx": [
 "snow"
 ],
 "why": "five stand still, seen above",
-"key": 84
+"key": 95
 },
-"87": {
+"98": {
 "move": "hold",
 "fx": [
 "sparkle"
 ],
 "trans_in": "cut"
 },
-"88": {
+"99": {
 "move": "hold",
 "fx": [],
 "trans_in": "flash"
 },
-"89": {
+"100": {
 "move": "hold",
 "fx": [],
-"key": 88
+"key": 99
 },
-"90": {
+"101": {
 "move": "hold",
 "fx": [],
-"key": 88
+"key": 99
 },
-"91": {
+"102": {
+"move": "hold",
+"fx": [],
+"key": 99
+},
+"103": {
 "move": "hold",
 "fx": [],
 "trans_in": "cut"
 },
-"92": {
+"104": {
 "move": "hold",
 "fx": [],
-"key": 91
+"key": 103
 },
-"93": {
+"105": {
+"move": "hold",
+"fx": [],
+"key": 103
+},
+"106": {
+"move": "hold",
+"fx": [],
+"key": 103
+},
+"107": {
 "move": "hold",
 "fx": [],
 "trans_in": "dissolve"
