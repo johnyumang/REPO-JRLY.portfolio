@@ -143,8 +143,10 @@ _rn = narration_cuts.renumbered_shots(FX, SRC)
 if len(_rn) >= 2: sys.exit(f'shots_fx.json was renumbered by hand for this cut (entries {_rn[:6]}... carry "key" of the next sentence): restore the original from git; the map does the rest.')
 total = tim[-1]['end'] + 0.8; shots = []
 HOLD = bool(FX.get('_', {}).get('hold_same_key'))                                         # shots_fx.json "_": {"hold_same_key": true}: no jump back into the same still
+_EARLY = lambda j: j > 0 and FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'              # a line after a spliced trivia break: its picture starts just after the
+_ST = [0.0 if j == 0 else (tim[j - 1]['end'] + 0.05 if _EARLY(j) else tim[j]['start']) for j in range(len(tim))]   # previous line's last word, so the break never cuts into the old picture
 for i, s in enumerate(tim):
-    start = 0.0 if i == 0 else s['start']; end = tim[i + 1]['start'] if i + 1 < len(tim) else total
+    start = _ST[i]; end = _ST[i + 1] if i + 1 < len(tim) else total
     cfg = FX.get(str(SRC[i]), {}); mv = cfg.get('move', MOVES[SRC[i] % len(MOVES)]); fx = list(cfg.get('fx', []))
     if 'punch' in fx or 'shake' in fx: fx += [f for f in ('speedlines', 'impact') if f not in fx]      # action beats get the full anime treatment
     if cfg.get('depth') == 'strong' or mv in depth3d.MOVES3D:                                # 3D perspective (opt-in): layered depth camera, see depth3d.py
@@ -199,7 +201,7 @@ def transition(a_, b_, p, kind):
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     if kind == 'cut': return b_                                                              # hard cut (no blend)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
-HARD_IN = {(0.0 if j == 0 else tim[j]['start']) for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
+HARD_IN = {_ST[j] for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
 f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
