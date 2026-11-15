@@ -1,0 +1,116 @@
+# INDIO: ANG SAKSI — Episode 6, "Ang Huling Umaga" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to meet M at last. Then: to keep his eyes open, as she asks.
+# SABI-SABI: "Mga Kastila ang bumaril kay Rizal." And: "Bumaling siya at bumagsak nang nakaharap sa langit."
+# TWIST (BIBLE row 6): betrayal. Fall: at the volley he shuts his eyes; when he opens them the hand, the
+#   medallion and M are gone, and he cannot go home. No mark, because he blinked. What is left to him: he still
+#   hears the dog with no medallion (the first crack: the hearing is his), and the dog does not fade.
+#   This is the season's low point; the comeback is small on purpose.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump). M (the woman with the red
+# umbrella; designed voice, calm and low). KIKO (invented water boy of about ten; "friend" voice, boy 2).
+# OPISYAL (an invented, unnamed officer; one shouted command).
+# RIZAL (José Rizal, real, 35; designed voice, quiet and clear): ONE line, "Consummatum est!", his last words
+#   as the biographies report them (traditional, not a verified record); see facts.md. Indio never speaks to him.
+# Josephine Bracken is not at the field: Kiko tells what he saw before dawn at the fort gate, and one picture
+#   shows hands on a book (the farewell and the book are reported; the picture is invented; see facts.md).
+# The shooting itself is NOT shown: the picture is Indio's shut eyes, then birds.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Luneta=luNEta
+# SAY: Taho=taHO
+# SAY: tokwa=TOKwa
+# SAY: Bagumbayan=bagumBAyan
+# SAY: 1896=mil otsosyentos nobentay sais
+# SAY: Rizal=riSAL
+# SAY: Pepe=PEpe
+# SAY: Consummatum est=konsuMAtum est
+# SAY: Fuego=FWEgo
+# SAY: Kiko=KIko
+# SAY: date=deyt
+# SAY: message=MEsej
+
+# --- 0. Hook (cold, at 0.0, on the command and the volley: a flash-forward of scene 4)
+(Itim. Isang sigaw. Isang putok ng maraming riple. Lumipad ang mga ibon.)
+OPISYAL: [shout] Fuego!
+INDIO (sa atin): [dramatic] Sabi niya, huwag akong pipikit. Isang segundo lang akong pumikit. Isang segundo lang.
+INDIO (sa atin): [quiet] Ako 'to si Indio. At ito ang una kong date.
+
+# --- 1. Today (short, Indio's voice). He wants: to meet M.
+TAGAPAGSALAYSAY: [calm] Ngayon. Luneta, bago mag-alas-sais ng umaga.
+(Madilim pa. Si Indio, naka-polong bagong plantsa, nakasuklay. Sa kamay niya, ang bente na may sulat-kamay ni M, at isang basong taho.)
+INDIO (sa atin): [shy] Nag-message si M. Magkikita na raw kami, alas-sais, dito. Kaya namalantsa ako. Unang beses.
+INDIO (sa atin): [playful] Taho: galing sa salitang Tsino para sa tokwa. Dinala rito ng mga mangangalakal, tapos nilagyan natin ng arnibal at sago. Bente niya ang ipinambili ko. Libre niya ako, hindi niya alam.
+(Walang tao sa tagpuan. Isang marker lang sa damuhan. Tumunog ang phone: "Basahin mo nang malakas.")
+INDIO: [uneasy] Dito? Ito 'yung lugar kung saan... Sige na nga. Para sa'yo.
+(Binasa niya ang marker: kampana ang naririnig natin, hindi ang mga salita. Uminit ang medalyon.)
+
+# --- 2. The field. He wants: to find her.
+TAGAPAGSALAYSAY: [low] Bagumbayan. Ikatatlumpu ng Disyembre, 1896. Umaga.
+(Malamig na liwanag. Isang malawak na parang sa tabi ng dagat. Maraming tao, tahimik. Lumabas ang itim na asong si Usman sa liwanag. Hindi siya bumati. Nakatingin lang siya sa malayo.)
+INDIO: [low] Usman? Bakit ganyan ka?
+USMAN: [quiet] Kilala ko ang araw na ito, par. Huwag mo akong tanungin.
+(Isang batang lalaki, may pasang dalawang banga ng tubig, ang tumabi sa kanila.)
+KIKO: [whisper] Tubig, kuya? Libre na ngayong umaga. Walang gustong uminom.
+INDIO: [whisper] Ano'ng meron?
+KIKO: [whisper] Babarilin si Doktor Rizal. Ayun siya.
+(Sa gitna ng dalawang hanay ng sundalo: isang lalaking nakaitim, nakasombrero, tuwid ang lakad, nakatali ang mga siko sa likod.)
+INDIO (sa atin): [whisper] Si Pepe. Si Rizal. 'Yung batang umiiyak sa Calamba. Tatlumpu't lima na siya.
+
+# --- 3. She is here. He wants: this to be a date.
+(Sa kabilang tabi ni Indio, bumukas ang isang pulang payong. Isang babaeng naka-mahabang kapa. Sa unang pagkakataon, katabi niya.)
+M: [calm] Indio.
+INDIO: [stunned] M? Ikaw 'yon? Nagplantsa pa ako. Dito mo ako dinala?
+M: [low] Kailangan mong makita ito. Buong-buo.
+(Hinawakan niya ang kamay ni Indio. Mahigpit. Hindi makapagsalita si Indio.)
+INDIO (sa atin): [whisper] Sabi ng titser ko, mga Kastila ang bumaril sa kanya.
+KIKO: [whisper] Hindi, kuya. Tingnan mo kung sino ang may hawak ng riple. Mga kababayan natin. Ang mga Kastila, nasa likod nila, nakatutok.
+(Walong sundalong kayumanggi sa harap. Sa likod nila, isa pang hanay, mapuputi, nakaamba ang riple sa mga nasa harap.)
+KIKO: [whisper] Kaninang madaling-araw, sa pinto ng kuta, may babaeng lumabas na umiiyak. Si Josephine raw, ang mahal niya. Yakap niya ang isang libro. Bigay raw ni Doktor.
+(Isang iglap na larawan: dalawang kamay na magkapatong sa isang maliit na libro. Isang noo sa isang noo. Tapos wala na.)
+
+# --- 4. The volley. THE FALL.
+(Kinapa ng isang doktor na militar ang pulso ng lalaking nakaitim. Tumingin siya sa relo. Umiling, hindi makapaniwala.)
+KIKO: [whisper] Kalmado pa rin daw ang pulso niya.
+(Humarap ang lalaki sa mga sundalo. May sinabi sa opisyal. Umiling ang opisyal, at itinuro ang dagat. Tumalikod muli ang lalaki.)
+KIKO: [whisper] Gusto niyang humarap. Ayaw nila. Traydor daw ang binabaril nang nakatalikod.
+INDIO (sa atin): [whisper] Sabi sa pelikula, bumaling siya at bumagsak nang nakaharap sa langit.
+(Umungol si Usman. Mahina.)
+M: [low] Huwag kang pipikit, Indio.
+INDIO: [shaking] Hindi ko kaya.
+M: [firm] Saksi ka. Huwag kang pipikit.
+(Tumahimik ang parang. Itinaas ng opisyal ang espada. Tumingala ang lalaking nakaitim.)
+RIZAL: [clear] Consummatum est!
+OPISYAL: [shout] Fuego!
+(Pumikit si Indio. Itim. Ang putok. Mga ibon. Isang mahabang alulong ni Usman.)
+(Dumilat si Indio. Katahimikan. Sa damuhan, sa malayo, isang itim na sombrero. Nag-antanda si Kiko.)
+KIKO: [whisper] Narinig mo, kuya? "Tapos na," sabi niya. Sa wikang Latin.
+INDIO (sa atin): [whisper] Hindi ko nakita kung bumaling siya. Pumikit ako.
+(Saka lang niya napansin: walang kamay sa kamay niya. Walang pulang payong. Kinapa niya ang dibdib: wala ang medalyon.)
+INDIO: [panicked] M? M! Ang medalyon ko!
+(Sa bulsa ng polo niya, isang papel. Sulat-kamay.)
+INDIO: [reading] "Pasensya na, Indio. Hindi sa'yo ang medalyon. Ibabalik ko lang sa pinanggalingan."
+INDIO (sa atin): [whisper] Bawat order ng pancit. Bawat tip. Bawat bente. Siya pala ang nagdala sa akin dito, hakbang-hakbang.
+
+# --- 5. What is left to him.
+(Naghihiwa-hiwalay ang mga tao. Nakatayo si Indio sa gitna ng parang, hawak ang papel. Hinintay niyang lumamig ang dibdib niya. Walang lumamig. Tiningnan niya ang braso: lima pa rin ang guhit.)
+INDIO: [hollow] Walang bagong marka.
+USMAN: [low] Pumikit ka, par. Kaya walang marka. Kaya rin niya nakuha.
+INDIO: [stunned] Teka. Wala na ang medalyon. Bakit naririnig pa rin kita?
+USMAN: [quiet] Hindi ko rin alam. Akala ko rin, sa medalyon 'yon.
+(Inabot ni Kiko ang isang tabo ng tubig. Ininom ito ni Indio. Dumikit si Usman sa binti niya.)
+KIKO: [kind] Taga-saan ka ba, kuya? Mukhang malayo ang uuwian mo.
+INDIO: [dry] Isandaan at tatlumpung taon mula rito. Walang jeep.
+(Lumiwanag ang araw sa parang. Hindi naglaho si Usman.)
+INDIO (sa atin): [whisper] Sa unang pagkakataon, hindi siya naglaho. Wala akong medalyon. Wala akong daan pauwi. Pero may kasama ako.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: may bagay ka bang hindi mo kinayang tingnan, na sana tiningnan mo?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", quiet version; separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par?
+# INDIO: Tiyak: ikatatlumpu ng Disyembre 1896, sa Bagumbayan, binaril si José Rizal, mga alas-siyete y tres ng umaga. Humiling siyang humarap; hindi pinayagan.
+# INDIO: Mga sundalong Pilipino ng hukbong kolonyal ang nasa harap; mga Espanyol ang nasa likod nila.
+# USMAN: Eh 'yung huling salita, at 'yung pagbaling niya?
+# INDIO: "Consummatum est" ang iniuulat ng mga talambuhay; hindi ito tiyak na tala. Ganoon din ang pagbaling niya paharap sa langit: ikinukuwento, hindi napatunayan.
+# USMAN: Kaya pala ako umungol.
