@@ -552,6 +552,14 @@
   "speaker": "BEA"
  },
  {
+  "text": "Lumabas ang guro at lumuhod sa harap ng bata.",
+  "say": "lumabas ang guro at lumuhod sa harap ng bata.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Ma'am, baka po mali ako.",
   "say": "maam, baka po mali ako.",
   "style": "plain",
@@ -739,8 +747,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hinukay ni Indio ang parehong ugat.",
-  "say": "hinukay ni indio ang parehong ugat.",
+  "text": "Pagbalik sa kasalukuyan, hinukay ni Indio ang parehong ugat.",
+  "say": "pagbalik sa kasalukuyan, hinukay ni indio ang parehong ugat.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,

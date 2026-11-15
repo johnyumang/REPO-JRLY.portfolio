@@ -728,9 +728,17 @@
   "aside": true
  },
  {
-  "text": "Ngumiti ang paslit kay Indio, at nawala sila ng babae sa dami ng tao.",
-  "say": "ngumiti ang paslit kay indio, at nawala sila ng babae sa dami ng tao.",
+  "text": "Ngumiti ang paslit kay Indio.",
+  "say": "ngumiti ang paslit kay indio.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
+  "say": "tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -784,8 +792,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Bumalik si Indio sa kasalukuyan, may pangatlong marka.",
-  "say": "bumalik si indio sa kasalukuyan, may pangatlong marka.",
+  "text": "Bumalik si Indio sa kasalukuyan, may pangatlong marka sa braso.",
+  "say": "bumalik si indio sa kasalukuyan, may pangatlong marka sa braso.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
