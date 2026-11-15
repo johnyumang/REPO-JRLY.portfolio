@@ -9,6 +9,8 @@ Everything lives in the repository `johnyumang/REPO-JRLY.portfolio`, folder `his
 This skill is the map; the files it names are the law. Read them before acting, in this order:
 
 1. `LOCAL_SETUP.md` — machine setup, what is free, the eight steps, the eight consistency checks.
+   `ENGINES.md` — every engine used (all free), its limit, its key and its script. Use only these; when a
+   free quota is used up, wait for it to refill. Never switch to a paid service.
 2. `story/CONSISTENCY.md` — rules that never change (looks, names, the villains' sign of three slanted strokes,
    hero lines, tender moments, the storyteller rule, the camera rule, lists of hooks and today-things already used).
 3. `story/BIBLE.md`, `story/REWRITE_PLAN.md` — the whole story and what each episode must do.
