@@ -347,6 +347,41 @@ def growl(dur=1.8, seed=19):
     return _out(y)
 
 
+def bark(count=2, seed=41):
+    """A big dog's bark: a short voiced burst (falling pitch, open formants) with a noisy onset; count barks ~0.35 s apart."""
+    rng = _rng(seed); out = np.zeros(_n(0.4 * count + 0.4))
+    for k in range(count):
+        m = _n(rng.uniform(0.16, 0.22)); tt = _t(m)
+        f0 = rng.uniform(300, 380) * (1 - 0.35 * tt / tt[-1]); saw = ((np.cumsum(f0) / SR) % 1.0) - 0.5
+        src = saw + rng.normal(0, 1, m) * 0.35 * np.exp(-tt * 30)
+        y = _formant(src, (700, 1300, 2600)) * np.minimum(1, tt / 0.008) * np.exp(-tt * 9)
+        _add(out, y * rng.uniform(0.8, 1.0), k * rng.uniform(0.3, 0.4))
+    return _out(out)
+
+
+def hooves(dur=3.0, seed=43):
+    """A horse at a walk on a dirt road with a wooden cart: four hoof thuds per stride, wheel rumble and creaks."""
+    rng = _rng(seed); n = _n(dur); t = _t(n); out = _f(_brown(n, rng), 'band', (40, 220)) * 0.25
+    t0 = 0.05; k = 0
+    while t0 < dur - 0.1:
+        m = _n(0.09); tt = _t(m)
+        y = _f(rng.normal(0, 1, m), 'band', (150, 900)) * _dec(m, 0.025, 0.001) + np.sin(2 * np.pi * 95 * tt) * _dec(m, 0.04, 0.001) * 0.6
+        _add(out, y * rng.uniform(0.6, 1.0), t0); k += 1; t0 += (0.16, 0.34, 0.16, 0.34)[k % 4] * rng.uniform(0.9, 1.1)
+    c = rng.uniform(0.3, 1.0)
+    while c < dur - 0.3:
+        m = _n(0.25); tt = _t(m); fc = rng.uniform(500, 900) * (1 + 0.2 * np.sin(2 * np.pi * 7 * tt))
+        _add(out, np.sin(2 * np.pi * np.cumsum(fc) / SR) * np.sin(np.pi * tt / tt[-1]) * 0.06, c); c += rng.uniform(0.9, 1.8)
+    return _out(out * np.minimum(1, t / 0.3) * np.minimum(1, (dur - t) / 0.4))
+
+
+def low_note(dur=4.0, seed=45, f=73.4):
+    """One low sustained note (D2): a soft bowed tone with two quiet overtones, slow attack, long fade. Not an ethnic instrument."""
+    rng = _rng(seed); n = _n(dur); t = _t(n)
+    y = sum(np.sin(2 * np.pi * f * h * t + rng.random() * 6) * a for h, a in ((1, 1), (2, 0.25), (3, 0.08)))
+    env = np.minimum(1, t / 0.6) * np.minimum(1, (dur - t) / 1.6)
+    return _out(y * env * (0.92 + 0.08 * np.sin(2 * np.pi * 4.5 * t)))
+
+
 # ---------------------------------------------------------------- (c) spot effects
 def cannon(seed=20):
     rng = _rng(seed); m = _n(4.0); tt = _t(m); z = rng.normal(0, 1, m)
@@ -584,6 +619,8 @@ EVENTS = {
     'heartbeat': lambda e, s: heartbeat(e.get('dur', 4.0), s), 'cheer': lambda e, s: cheer(e.get('dur', 2.8), s),
     'whisper': lambda e, s: whisper(e.get('dur', 1.6), s),
     'walla': lambda e, s: walla(e.get('dur', 4.0), e.get('voices', 12), s),
+    'bark': lambda e, s: bark(e.get('count', 2), s), 'hooves': lambda e, s: hooves(e.get('dur', 3.0), s),
+    'low_note': lambda e, s: low_note(e.get('dur', 4.0), s),
 }
 
 

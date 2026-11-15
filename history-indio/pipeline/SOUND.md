@@ -105,7 +105,7 @@ For the cheer of "Mabuhay!" and for whispers, a real recording of people (even a
 
 Names: ambience `night_insects rain_light rain_heavy wind sea forest city crowd fire indoor office`; foley and spot
 `steps_earth steps_grass steps_stone steps_wood steps_wet` (with `pace` walk/run/sneak and `count`) `cloth paper_tear paper_tear_many door
-dog_paws dog_pant growl cannon thunder bell splash gong impact whoosh riser shimmer drone heartbeat cheer whisper walla`; music
+dog_paws dog_pant growl cannon thunder bell splash gong impact whoosh riser shimmer drone heartbeat cheer whisper walla bark hooves low_note` (bark: `count`; hooves: a horse and cart at a walk; low_note: one soft sustained low D, for a hushed high point); music
 `none guitar flute gongs band drone heartbeat`.
 
 ## Sources (all opened: false; read as search summaries)
