@@ -203,6 +203,7 @@ def transition(a_, b_, p, kind):
     if kind == 'cut': return b_                                                              # hard cut (no blend)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
 HARD_IN = {_ST[j] for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
+TR_IN = {_ST[j]: FX[str(SRC[j])]['trans_in'] for j in range(len(tim)) if isinstance(FX.get(str(SRC[j])), dict) and FX[str(SRC[j])].get('trans_in') in TRANS + ['cut']}   # a line's own way in (CAMERA.md)
 f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
@@ -214,7 +215,9 @@ for n, sh in enumerate(shots):
     if '3d' in fx and not clip and pup is None:                                              # layers are made once per keyframe; None = flat depth
         if i not in L3s: L3s[i] = depth3d.prep3d(im, deps[paths[i]], im.shape[1] * 0.008); print('3d layers k%02d:' % i, 'flat, normal parallax' if L3s[i] is None else 'ok', flush=True)
         L3 = L3s[i]
-    kind = FX.get('trans', {}).get(str(n), TRANS[n % len(TRANS)])
+    kind = FX.get('trans', {}).get(str(n), (FX.get('_') or {}).get('trans_default') or TRANS[n % len(TRANS)])   # "_": {"trans_default": "cut"} stops the rotation
+    for t_, k_ in TR_IN.items():
+        if abs(a_ - t_) < 1e-6: kind = k_
     if any(abs(a_ - t_) < 1e-6 for t_ in HARD_IN): kind = 'cut'                             # shots_fx line {"trans_in": "cut"}: e.g. the line right after a spliced trivia break
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
