@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T11:07:45.854Z",
+  "generatedAt": "2026-11-15T17:48:42.647Z",
   "repo": "johnyumang/REPO-JRLY.portfolio",
   "systems": [
     {
@@ -14,17 +14,17 @@
         {
           "label": "Home page",
           "state": "ok",
-          "detail": "HTTP 200 · 153 ms"
+          "detail": "HTTP 200 · 246 ms"
         },
         {
           "label": "Shop page",
           "state": "ok",
-          "detail": "HTTP 200 · 71 ms"
+          "detail": "HTTP 200 · 130 ms"
         },
         {
           "label": "Product page",
           "state": "ok",
-          "detail": "HTTP 200 · 44 ms"
+          "detail": "HTTP 200 · 95 ms"
         }
       ]
     },
@@ -40,7 +40,7 @@
         {
           "label": "Status page",
           "state": "ok",
-          "detail": "HTTP 200 · 27 ms"
+          "detail": "HTTP 200 · 83 ms"
         }
       ]
     },
