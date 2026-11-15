@@ -1,6 +1,7 @@
 {
 "_": {
-"hold_same_key": true
+"hold_same_key": true,
+"trans_default": "cut"
 },
 "0": {
 "fx": [
@@ -8,471 +9,654 @@
 "shake",
 "punch"
 ],
-"move": "push_in"
+"move": "push_in",
+"why": "his shout as light dies"
 },
 "1": {
 "fx": [],
 "move": "push_in",
+"why": "his shout as light dies",
 "key": 0
 },
 "2": {
 "fx": [],
 "move": "push_in",
+"why": "his shout as light dies",
 "key": 0
 },
 "3": {
 "fx": [],
-"move": "pull_out"
+"move": "pull_out",
+"why": "reveal the wall behind him"
 },
 "4": {
 "fx": [],
 "move": "pull_out",
+"why": "reveal the wall behind him",
 "key": 3
 },
 "5": {
 "fx": [],
 "move": "pull_out",
+"why": "reveal the wall behind him",
 "key": 3
 },
 "6": {
 "fx": [],
 "move": "pull_out",
+"why": "reveal the wall behind him",
 "key": 3
 },
 "7": {
 "fx": [],
-"move": "pull_out"
+"move": "crane_down",
+"why": "opening the empty noon field",
+"trans_in": "dissolve"
 },
 "8": {
 "fx": [],
-"move": "pull_out",
+"move": "crane_down",
+"why": "opening the empty noon field",
 "key": 7
 },
 "9": {
 "fx": [],
-"move": "pull_out",
+"move": "crane_down",
+"why": "opening the empty noon field",
 "key": 7
 },
 "10": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"why": "we read his last battery"
 },
 "11": {
 "fx": [],
 "move": "push_in",
+"why": "we read his last battery",
 "key": 10
 },
 "12": {
 "fx": [],
-"move": "push_in",
-"key": 10
+"move": "hold",
+"why": "the typed message must read"
 },
 "13": {
 "fx": [],
-"move": "push_in"
+"move": "hold",
+"why": "the typed message must read",
+"key": 12
 },
 "14": {
 "fx": [],
-"move": "push_in",
-"key": 13
+"move": "hold",
+"why": "the typed message must read",
+"key": 12
 },
 "15": {
 "fx": [],
-"move": "push_in",
-"key": 13
+"move": "hold",
+"why": "thumb hesitates over the photo"
 },
 "16": {
 "fx": [],
-"move": "push_in"
+"move": "hold",
+"why": "thumb hesitates over the photo",
+"key": 15
 },
 "17": {
 "fx": [],
-"move": "push_in",
-"key": 16
+"move": "hold",
+"why": "thumb hesitates over the photo",
+"key": 15
 },
 "18": {
 "fx": [],
-"move": "pull_out"
+"move": "rack_focus",
+"why": "reveal the cart far off",
+"focus_to": "far"
 },
 "19": {
 "fx": [],
-"move": "pull_out",
+"move": "rack_focus",
+"why": "reveal the cart far off",
+"focus_to": "far",
 "key": 18
 },
 "20": {
 "fx": [],
-"move": "pull_out",
+"move": "rack_focus",
+"why": "reveal the cart far off",
+"focus_to": "far",
 "key": 18
 },
 "21": {
 "fx": [],
-"move": "pan_right"
+"move": "pan_right",
+"why": "running along the wall right",
+"trans_in": "dissolve"
 },
 "22": {
 "fx": [],
-"move": "tilt_up"
+"move": "tilt_up",
+"why": "reveal the boy up there"
 },
 "23": {
 "fx": [],
 "move": "tilt_up",
+"why": "reveal the boy up there",
 "key": 22
 },
 "24": {
 "fx": [],
-"move": "push_in",
-"keys": [
-100,
-24
-]
+"move": "tilt_up",
+"why": "reveal the boy up there",
+"key": 22
 },
 "25": {
 "fx": [],
-"move": "push_in",
-"key": 24
+"move": "tilt_up",
+"why": "reveal the boy up there",
+"key": 22
 },
 "26": {
 "fx": [],
 "move": "push_in",
-"key": 24
+"why": "the cemetery, seen from afar"
 },
 "27": {
 "fx": [],
-"move": "push_in",
-"key": 24
+"move": "hold",
+"why": "two people whispering, plain talk"
 },
 "28": {
 "fx": [],
-"move": "push_in",
-"key": 24
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "29": {
-"fx": [
-"shake"
-],
-"move": "tilt_up"
+"fx": [],
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "30": {
 "fx": [],
-"move": "pan_left"
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "31": {
 "fx": [],
-"move": "push_in",
-"keys": [
-101,
-31
-]
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "32": {
 "fx": [],
-"move": "push_in",
-"key": 31
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "33": {
 "fx": [],
-"move": "tilt_down"
+"move": "hold",
+"why": "two people whispering, plain talk",
+"key": 27
 },
 "34": {
-"fx": [],
-"move": "tilt_down",
-"key": 33
+"fx": [
+"punch"
+],
+"move": "dolly_in",
+"why": "the guard shouts a threat"
 },
 "35": {
 "fx": [],
-"move": "tilt_down",
-"key": 33
+"move": "dolly_in",
+"why": "the guard shouts a threat",
+"key": 34
 },
 "36": {
 "fx": [],
-"move": "tilt_down",
-"key": 33
+"move": "orbit_left",
+"why": "fear of being found below"
 },
 "37": {
 "fx": [],
-"move": "tilt_down",
-"key": 33
+"move": "push_in",
+"why": "he hears his own name",
+"keys": [
+100,
+37
+]
 },
 "38": {
 "fx": [],
-"move": "tilt_down",
-"key": 33
+"move": "push_in",
+"why": "he hears his own name",
+"key": 37
 },
 "39": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"why": "the Lolo face in glass"
 },
 "40": {
 "fx": [],
 "move": "push_in",
+"why": "the Lolo face in glass",
 "key": 39
 },
 "41": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"why": "the Lolo face in glass",
+"key": 39
 },
 "42": {
 "fx": [],
 "move": "push_in",
-"key": 41
+"why": "the Lolo face in glass",
+"key": 39
 },
 "43": {
 "fx": [],
 "move": "push_in",
-"key": 41
+"why": "the Lolo face in glass",
+"key": 39
 },
 "44": {
-"fx": [
-"flash",
-"shake",
-"punch"
-],
-"move": "push_in"
+"fx": [],
+"move": "push_in",
+"why": "the Lolo face in glass",
+"key": 39
 },
 "45": {
 "fx": [],
-"move": "push_in",
-"key": 44
+"move": "hold",
+"why": "plain whisper to himself, still"
 },
 "46": {
 "fx": [],
-"move": "push_in",
-"key": 44
+"move": "hold",
+"why": "plain whisper to himself, still",
+"key": 45
 },
 "47": {
 "fx": [],
-"move": "pull_out"
+"move": "push_in",
+"why": "the last line cut off"
 },
 "48": {
 "fx": [],
-"move": "pull_out",
+"move": "push_in",
+"why": "the last line cut off",
 "key": 47
 },
 "49": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"why": "the last line cut off",
+"key": 47
 },
 "50": {
-"fx": [],
-"move": "push_in",
-"key": 49
+"fx": [
+"shake",
+"punch"
+],
+"move": "hold",
+"why": "the blow: the phone dies"
 },
 "51": {
 "fx": [],
-"move": "push_in",
-"key": 49
+"move": "hold",
+"why": "the blow: the phone dies",
+"key": 50
 },
 "52": {
 "fx": [],
-"move": "push_in",
-"key": 49
+"move": "hold",
+"why": "the blow: the phone dies",
+"key": 50
 },
 "53": {
 "fx": [],
-"move": "push_in",
-"key": 49
+"move": "hold",
+"why": "the blow: the phone dies",
+"key": 50
 },
 "54": {
 "fx": [],
-"move": "push_in",
-"key": 49
+"move": "pull_out",
+"why": "left with nothing, small now"
 },
 "55": {
 "fx": [],
+"move": "pull_out",
+"why": "left with nothing, small now",
+"key": 54
+},
+"56": {
+"fx": [],
 "move": "push_in",
-"keys": [
-102,
-55
-]
+"why": "Imo remembers an old man"
 },
 "57": {
-"fx": [
-"sparkle"
-],
-"move": "push_in"
+"fx": [],
+"move": "push_in",
+"why": "Imo remembers an old man",
+"key": 56
 },
 "58": {
 "fx": [],
 "move": "push_in",
-"keys": [
-104,
-58
-]
+"why": "Imo remembers an old man",
+"key": 56
 },
 "59": {
 "fx": [],
 "move": "push_in",
-"key": 58
+"why": "Imo remembers an old man",
+"key": 56
 },
 "60": {
 "fx": [],
 "move": "push_in",
-"keys": [
-105,
-60
-]
+"why": "Imo remembers an old man",
+"key": 56
 },
 "61": {
 "fx": [],
 "move": "push_in",
-"key": 60
+"why": "Imo remembers an old man",
+"key": 56
 },
 "62": {
 "fx": [],
-"move": "push_in",
-"key": 60
+"move": "rack_focus",
+"why": "nose to the scratched stone"
 },
 "63": {
 "fx": [],
-"move": "push_in"
+"move": "hold",
+"why": "the dog calls them over"
 },
 "64": {
 "fx": [],
-"move": "push_in",
+"move": "hold",
+"why": "the dog calls them over",
 "key": 63
 },
 "65": {
 "fx": [],
 "move": "push_in",
-"key": 63
+"why": "digging, the tin comes up"
 },
 "66": {
-"fx": [],
+"fx": [
+"sparkle"
+],
 "move": "push_in",
-"key": 63
+"why": "the lens is revealed, shining"
 },
 "67": {
 "fx": [
 "sparkle"
 ],
-"move": "push_in"
+"move": "push_in",
+"why": "the lens is revealed, shining",
+"key": 66
 },
 "68": {
 "fx": [
 "sparkle"
 ],
 "move": "push_in",
-"key": 67
+"why": "the lens is revealed, shining",
+"key": 66
 },
 "69": {
-"fx": [
-"sparkle"
-],
+"fx": [],
 "move": "push_in",
-"key": 67
+"why": "time rushes inside the lens",
+"trans_in": "flash"
 },
 "70": {
 "fx": [],
-"move": "pan_right"
+"move": "hold",
+"why": "Usman watching him look, still"
 },
 "71": {
 "fx": [],
-"move": "pan_right",
+"move": "hold",
+"why": "Usman watching him look, still",
 "key": 70
 },
 "72": {
 "fx": [],
-"move": "pan_right",
+"move": "hold",
+"why": "Usman watching him look, still",
 "key": 70
 },
 "73": {
 "fx": [],
-"move": "pan_right",
-"key": 70
+"move": "push_in",
+"why": "Narcisa searching, seen from behind"
 },
 "74": {
 "fx": [],
-"move": "push_in",
-"keys": [
-106,
-74
-]
+"move": "hold",
+"why": "Imo whispers who she is"
 },
 "75": {
 "fx": [],
-"move": "push_in",
+"move": "hold",
+"why": "Imo whispers who she is",
 "key": 74
 },
 "76": {
 "fx": [],
-"move": "push_in",
+"move": "hold",
+"why": "Imo whispers who she is",
 "key": 74
 },
 "77": {
 "fx": [],
-"move": "push_in"
+"move": "hold",
+"why": "Imo whispers who she is",
+"key": 74
 },
 "78": {
 "fx": [],
-"move": "pull_out",
-"keys": [
-107,
-78
-]
+"move": "push_in",
+"why": "reveal the three carved letters"
 },
 "79": {
 "fx": [],
-"move": "pull_out",
+"move": "push_in",
+"why": "reveal the three carved letters",
 "key": 78
 },
 "80": {
 "fx": [],
-"move": "push_in"
+"move": "push_in",
+"why": "reveal the three carved letters",
+"key": 78
 },
 "81": {
 "fx": [],
 "move": "push_in",
-"key": 80
+"why": "reveal the three carved letters",
+"key": 78
 },
 "82": {
 "fx": [],
 "move": "push_in",
-"key": 80
+"why": "reveal the three carved letters",
+"key": 78
 },
 "83": {
 "fx": [],
-"move": "push_in",
-"key": 80
+"move": "hold",
+"why": "the poem line, hold still"
 },
 "84": {
 "fx": [],
-"move": "push_in",
-"key": 80
+"move": "hold",
+"why": "the poem line, hold still",
+"key": 83
 },
 "85": {
 "fx": [],
-"move": "push_in",
-"key": 80
+"move": "hold",
+"why": "the poem line, hold still",
+"key": 83
 },
 "86": {
 "fx": [],
-"move": "push_in",
-"key": 80
+"move": "pan_right",
+"why": "the dog turns him around"
 },
 "87": {
 "fx": [],
-"move": "pan_right"
+"move": "pan_right",
+"why": "the dog turns him around",
+"key": 86
 },
 "88": {
 "fx": [],
-"move": "pull_out"
+"move": "pan_right",
+"why": "the dog turns him around",
+"key": 86
 },
 "89": {
 "fx": [],
-"move": "pull_out",
-"key": 88
+"move": "pan_right",
+"why": "the dog turns him around",
+"key": 86
 },
 "90": {
 "fx": [],
-"move": "pull_out",
-"key": 88
+"move": "push_in",
+"why": "the Lolo burying the tin",
+"trans_in": "dissolve"
 },
 "91": {
 "fx": [],
-"move": "push_in"
+"move": "dolly_in",
+"why": "the Lolo says the key"
 },
-"56": {
+"92": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo says the key",
+"key": 91
+},
+"93": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo says the key",
+"key": 91
+},
+"94": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo says the key",
+"key": 91
+},
+"95": {
+"fx": [],
+"move": "hold",
+"why": "he weeps behind the glass"
+},
+"96": {
+"fx": [],
+"move": "pull_out",
+"why": "the Lolo looks up, vanishes"
+},
+"97": {
 "fx": [],
 "move": "push_in",
-"key": 103
+"why": "tender comfort from the dog",
+"dof": "far",
+"trans_in": "dissolve"
+},
+"98": {
+"fx": [],
+"move": "push_in",
+"why": "tender comfort from the dog",
+"dof": "far",
+"key": 97
+},
+"99": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months"
+},
+"100": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"101": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"102": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"103": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"104": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"105": {
+"fx": [],
+"move": "hold",
+"why": "comic counting of the months",
+"key": 99
+},
+"106": {
+"fx": [],
+"move": "pan_left",
+"why": "following where Imo points"
+},
+"107": {
+"fx": [],
+"move": "pull_out",
+"why": "walking away, the last picture"
+},
+"108": {
+"fx": [],
+"move": "pull_out",
+"why": "walking away, the last picture",
+"key": 107
+},
+"109": {
+"fx": [],
+"move": "pull_out",
+"why": "walking away, the last picture",
+"key": 107
+},
+"110": {
+"fx": [],
+"move": "hold",
+"why": "the question over the phone",
+"trans_in": "dissolve"
 }
 }
