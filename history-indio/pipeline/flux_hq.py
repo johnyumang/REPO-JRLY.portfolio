@@ -1,6 +1,6 @@
 """FLUX stills at the Bakunawa look: one markdown-structured prompt + a negative prompt, on flux-3-image-klein (free NVIDIA endpoint).
 usage: flux_hq.py <out.jpg> <subject> <setting> <light> [--seed N] [--steps N] [--cfg X] [--tries N]"""
-import json, sys, base64, urllib.request, time
+import json, sys, os, base64, urllib.request, time
 STYLE = """# STYLE
 Hand-painted anime key visual for a dark-fantasy shonen series. Bold confident ink line art, sharp cel shading with hard-edged shadows, rich saturated colour, dramatic rim light, deep painterly background full of detail, cinematic depth, film-poster finish. One single moment, one picture."""
 RULES = """# ANATOMY
@@ -14,7 +14,7 @@ NEG = ("text, letters, words, numbers, captions, subtitles, signature, watermark
        "japanese signage, chinese characters, torii, cherry blossom")
 def prompt(subject, setting, light): return f"{STYLE}\n# SUBJECT\n{subject}\n# SETTING\n{setting}\n# LIGHT AND MOOD\n{light}\n{RULES}"
 def call(body, out, model="black-forest-labs/flux-3-image-klein"):
-    req = urllib.request.Request(f"https://ai.api.nvidia.com/v1/genai/{model}", data=json.dumps(body).encode(), headers={"Accept": "application/json", "Content-Type": "application/json", "NVCF-POLL-SECONDS": "60"})
+    req = urllib.request.Request(f"https://ai.api.nvidia.com/v1/genai/{model}", data=json.dumps(body).encode(), headers={"Accept": "application/json", "Content-Type": "application/json", "NVCF-POLL-SECONDS": "60", **({"Authorization": "Bearer " + os.environ["NVIDIA_API_KEY"]} if os.environ.get("NVIDIA_API_KEY") else {})})   # the key is only needed off the cloud machines, which add it themselves
     try: r = json.load(urllib.request.urlopen(req, timeout=180))
     except urllib.error.HTTPError as e: print('HTTP', e.code, e.read()[:300].decode('utf-8', 'replace')); return False
     except Exception as e: print('ERR', e); return False
