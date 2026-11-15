@@ -1,0 +1,665 @@
+{
+ "_note": {
+  "text": "Episode 5 version 2. Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, three draws a key, the choice at 3x). 'full' holds each still's JSON prompt; 'shots' maps every sentence index to its still and its row of shots.md. Silent shots sit on whole lines: shot 16 on 47, 17 on 48, 19 on 51, 22 on 54, 23 on 55, 25 on 57, 28 on 66, 35 on 82, 36 on 83. Must not resemble Episodes 1 to 4: Indio is led down by the sleeve, never pushed; no rain shelter, phone screen, crowd or barred gate; the five in the snow stand still, small, from above. The commissioners are never likenesses and never close; Agoncillo is generic and seen only through his window; Marcela is never shown; the building is no known landmark; the twenty-peso notes are generic. Negative for every draw: flat cel shading, flat even lighting, cartoon, tv animation, thick even outlines, poster, clip art, text, letters, numbers, watermark, extra fingers.",
+  "writing": [
+   "bk_49: write 20,000,000 in dark brown ink, a formal 1898 hand, large, inside the blank pale area in the centre of the document (upper half of the frame); nothing else on the paper.",
+   "bk_20: inside the blank pale strip on the orange note, two or three short lines of dark blue handwriting (the words of the marker, only words checked as true, e.g. \"Felipe Agoncillo 1859-1941\"; nothing from the unchecked marker text), and at the end of the strip one larger handwritten letter M.",
+   "bk_93: the question \"Ikaw, ka-Indio: kung hindi ka pinapasok sa silid, saan ka tatayo para marinig ka pa rin?\" set in the empty night sky of the upper part (about 8% to 40% of the height), above the lit window, clear of the subtitle band at 63%.",
+   "bk_07, bk_10, bk_18, bk_73, bk_75, bk_80, bk_88: the twenty-peso notes stay generic (orange, an outline portrait), no letters or numbers added; bk_18 and bk_88 show the note folded, its writing not seen.",
+   "bk_15 (and bk_18): the wall plaque stays plain and off-centre; its text is not checked (facts.md: THIN), so nothing is written on it."
+  ]
+ },
+ "look": "bakunawa",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm",
+   "indio_today_after": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, five small indigo line tattoos on his right forearm",
+   "indio_paris": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm",
+   "indio_waiter": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve",
+   "indio_scullery": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "m": "a small far-away figure of a calm young Filipina woman with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder, her face in shadow and not clear",
+   "ambo": "a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron",
+   "head_waiter": "a tall thin French head waiter of about fifty in 1898, a black tailcoat, white waistcoat and white bow tie, slick parted grey hair, a long waxed grey moustache, a red angry face",
+   "commissioners": "far-away diplomats of 1898 in black frock coats and white high collars, some bearded, some in spectacles, their faces soft and blurred, no individual likeness, never close",
+   "agoncillo": "a Filipino lawyer of about forty in 1898, brown skin, black hair combed back, a thick black moustache, a dark frock coat over a white high collar, seen small and far through his lit window, a generic figure, no likeness of any real person",
+   "scullery_hands": "three Filipino kitchen hands of 1898, brown skin, short black hair, long white aprons, seen from behind"
+  },
+  "places": {
+   "church": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "church_door": "the arched wooden door and stone steps of an old church in San Juan, Manila, in our time at dusk: a city street with tangled electric wires on poles, acacia trees, a plain city bus; no signboards, no writing anywhere",
+   "alley": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "kitchen": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "stair": "a narrow stone service stair in a Paris hotel in 1898 going down to a cellar, worn steps, a gas lamp, stacked dirty plates at the bottom; no writing anywhere",
+   "scullery": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "great_room": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "street": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere"
+  }
+ },
+ "full": {
+  "bk_00": {
+   "subject": "Floor-level shot on a polished marble floor: a silver tray and a dozen crystal glasses hitting the floor, shards and drops flying up toward the lens, the burst of glass in the upper half of the picture; behind it, out of focus, the legs of chairs and a long table. No people's faces, no hands. The lower half is only the dark polished marble and its reflections.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "golden chandelier light caught in every flying shard, deep shadows under the table, sparkles frozen mid-air, hard rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "hook: the crash"
+  },
+  "bk_01": {
+   "subject": "High wide shot from near the ceiling: far-away diplomats of 1898 in black frock coats and white high collars, some bearded, some in spectacles, their faces soft and blurred, no individual likeness, never close, seated along both sides of a long table, all turning their heads toward one point; at that point, standing alone between the chairs, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, his empty hands open at his sides, frozen. The table and the men in the upper half; the lower half is the dark patterned carpet.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "warm gold chandelier light, deep black shadows between the chairs, candle glow on the papers, a cold blue window glow, dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": "high wide; faces blurred"
+  },
+  "bk_03": {
+   "subject": "Close-up, three-quarter view: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, his face sharp in the upper half of the picture, eyes wide, guilty and lost; behind him, soft and out of focus, a small grimy cellar window with snow falling beyond. Hands below the frame. He is alone, no dog, no animals. The lower half is the shadow of the jacket and the dark wall.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue snow light from the small window on one side of his face, warm lamp glow on the other, deep shadows, rack-focus feel, richly painted, detailed ink linework, textured brushwork",
+   "note": "hook; hands hidden"
+  },
+  "bk_05": {
+   "subject": "Wide shot from the church door down the nave: rows of empty dark pews, and at the near end of the last pew, small and alone, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, seated with his head bowed, his hands in his lap. He is alone, no dog, no animals. The high windows and his small figure in the upper half; the lower half is the dark worn floor and pew ends.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "late golden light falling in long beams from the high windows, dust in the air, deep cool shadows in the nave, quiet and dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": ""
+  },
+  "bk_07": {
+   "subject": "Close-up on a young man's open palm, one hand, a thumb and four fingers, warm brown skin, a red handkerchief tied on the wrist, four small indigo line tattoos on the forearm: in the palm a generic crumpled orange banknote with an outline portrait, no readable letters or numbers. The palm and the note in the upper half of the picture; the lower half is the dark wooden pew, out of focus.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "one shaft of late golden window light across the palm, everything else in soft shadow, warm and quiet, richly painted, detailed ink linework, textured brushwork",
+   "note": "hand: count fingers; note generic"
+  },
+  "bk_10": {
+   "subject": "Top shot looking straight down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, seated on a dark pew, bent over his knee, smoothing a generic crumpled orange banknote with an outline portrait, no readable letters or numbers flat on his knee with great care using one hand, a thumb and four fingers, the paper already curling up again at the corners; his face comically serious. He is alone, no dog, no animals. His head and the note in the upper half; the lower half is the dark pew wood and the floor tiles.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "a warm beam of late window light on his knee, cool shadows around, gentle comic mood, richly painted, detailed ink linework, textured brushwork",
+   "note": "top shot; one hand"
+  },
+  "bk_15": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, standing by the side wall, turning his whole body away from a plain dark bronze plaque at the edge of the picture, arms crossed with his hands tucked out of sight, chin up, stubborn. The plaque is small, at the left edge and seen at a slant, plain with no marks. He is alone, no dog, no animals. His face and shoulders in the upper half; the lower half is the dark pews.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "golden late window light behind him, a rim of light on his hair, the plaque in shadow, dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": "arms crossed; plaque plain"
+  },
+  "bk_18": {
+   "subject": "Low shot at floor level along the base of the side wall: at the foot of a plain dark bronze plaque, a second a generic crumpled orange banknote with an outline portrait, no readable letters or numbers, folded in half and tucked against the wall; reaching into the picture from above toward it, one young man's hand, a thumb and four fingers, a red handkerchief on the wrist. The note and the hand in the upper half; the lower half is the dark worn floor tiles.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "a single warm beam of light landing on the folded note, deep shadows around it, mysterious, dust in the air, richly painted, detailed ink linework, textured brushwork",
+   "note": "hand: count fingers; note folded, no writing seen"
+  },
+  "bk_20": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, holding up near his face, in one hand, a thumb and four fingers, a generic crumpled orange banknote with an outline portrait, no readable letters or numbers, a blank pale strip across it; he squints, his face falling; a golden glow through his shirt from the medallion. He is alone, no dog, no animals. The note and his face in the upper half; the lower half is his shirt and the pews.",
+   "setting": "inside a quiet old stone church in San Juan, Manila, in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "warm golden glow from the medallion lighting his chin from below, late window light, deep shadows, magical tension, richly painted, detailed ink linework, textured brushwork",
+   "note": "blank pale strip: handwriting and M added in code"
+  },
+  "bk_22": {
+   "subject": "Crane shot coming down into a narrow empty alley at night: big snowflakes falling between tall stone walls, one gas lamp glowing on a wall bracket, a kitchen door with light at its edges. Nobody in the picture, no animals. The lamp and the falling snow in the upper half; the lower half is fresh untouched snow on the cobblestones.",
+   "setting": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "light": "cold blue night, warm yellow gaslight making a cone in the falling snow, deep black shadows, breath of steam from a grating, cinematic, richly painted, detailed ink linework, textured brushwork",
+   "note": "no people"
+  },
+  "bk_25": {
+   "subject": "Low two-shot: out of a fading ring of gold light on the snow steps, paws lifted high, shivering, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. A body-width apart, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, hugging himself, hands under his arms. Both heads in the upper half; the lower half is snow.",
+   "setting": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "light": "gold glow fading on the snow, cold blue night, gaslight, falling snow, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "dog apart; hands tucked"
+  },
+  "bk_30": {
+   "subject": "Shot from the dark alley into the light: a kitchen door thrown open in a blast of white steam and warm light; in the doorway, a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, holding a slop bucket, staring out surprised. In the near foreground, seen from behind and dark, the head and shoulders of the young man in the white polo, only the cord at the back of his neck, the medallion not visible. Ambo in the upper half; the lower half is snow on the step.",
+   "setting": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "light": "hot orange kitchen light and steam pouring out into the cold blue snowy night, silhouette, rim light, dramatic contrast, richly painted, detailed ink linework, textured brushwork",
+   "note": "Ambo first seen; bucket held"
+  },
+  "bk_36": {
+   "subject": "Medium shot, tilting up: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, by the stove, one hand, a thumb and four fingers, its thumb raised toward a high iron grating; through it the spoked wheels of a passing carriage and snow. At the edge, in profile, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, looking up. No dog. The grating and faces in the upper half; the lower half is the stove.",
+   "setting": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "light": "orange stove fire, cold blue light through the grating, steam, deep shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": "thumb up; hands"
+  },
+  "bk_41": {
+   "subject": "Close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, crouched on his heels, whispering toward the viewer, wary; a body-width beside him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. baring his teeth, growling. Both heads in the upper half; the lower half is the dark kitchen floor. His hands rest on his knees.",
+   "setting": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "light": "warm stove glow from one side, cold shadow on the other, steam, tense, rim light on the dog, richly painted, detailed ink linework, textured brushwork",
+   "note": "dog apart; hands resting"
+  },
+  "bk_44": {
+   "subject": "Close two-shot: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, fastening the top button of the white jacket of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, with one hand, a thumb and four fingers; the young man holds a silver tray of glasses flat at shoulder height, his hand hidden under it. No dog. Faces and tray in the upper half; the lower half is jacket and apron.",
+   "setting": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "light": "warm orange stove light, steam, glints on the glasses, busy, deep shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": "one hand each"
+  },
+  "bk_47": {
+   "subject": "Point-of-view shot through a pair of tall gilded double doors swinging open: a huge room beyond, crystal chandeliers blazing, and a long table with far-away diplomats of 1898 in black frock coats and white high collars, some bearded, some in spectacles, their faces soft and blurred, no individual likeness, never close seated on both sides among papers. No dog. The chandeliers and the table in the upper half; the lower half is the dark carpet leading in.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "blazing gold chandelier light pouring out at the viewer, deep shadows at the edges, glints on mirrors, grand and cold, richly painted, detailed ink linework, textured brushwork",
+   "note": "POV; silent"
+  },
+  "bk_48": {
+   "subject": "Side tracking shot at shoulder height: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, gliding between high-backed chairs, a silver tray of glasses high on one flat palm, the hand under the tray, the other hand at his side; seated around him, far-away diplomats of 1898 in black frock coats and white high collars, some bearded, some in spectacles, their faces soft and blurred, no individual likeness, never close, none turning to look. No dog. His face and the tray in the upper half; the lower half is chair backs in shadow.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "warm gold chandelier light from above, candle glow, deep black shadows between the chairs, richly painted, detailed ink linework, textured brushwork",
+   "note": "nobody turns"
+  },
+  "bk_49": {
+   "subject": "Shot over the edge of a silver tray, looking down at the green tabletop: in the middle a large cream paper document with plain faint wavy lines and a wide BLANK pale area in its centre with nothing on it, a dark wax seal; a black pen passing from one hand in a black cuff to another, each hand a thumb and four fingers. The document in the upper half; the lower half is the tray rim and glasses, out of focus. No faces.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "warm candle and chandelier light pooling on the paper, deep shadows at the edges, glints on the tray, solemn, richly painted, detailed ink linework, textured brushwork",
+   "note": "blank area: 20,000,000 added in code; hands"
+  },
+  "bk_51": {
+   "subject": "Slow pan along one side of the long table, from a few metres away at table height: far-away diplomats of 1898 in black frock coats and white high collars, some bearded, some in spectacles, their faces soft and blurred, no individual likeness, never close, seated in a long row receding to the far end, beards, spectacles and high collars as soft blurred shapes; in the near foreground, blurred, the rim of a silver tray. The row of men in the upper half; the lower half is the green table cloth and papers in shadow.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "warm gold light from above, the faces dissolving into soft shadow, candle glints, a cold blue window glow at the far end, richly painted, detailed ink linework, textured brushwork",
+   "note": "faces blurred; silent"
+  },
+  "bk_52": {
+   "subject": "Extreme close-up of his face, straight on: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, his face emptied, eyes wet and staring, mouth slightly open. He is alone, no dog, no animals. His eyes in the upper half of the picture; the lower half is his white jacket collar and the medallion, in shadow.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "soft gold chandelier light from above, his eyes catching the light, the background dark and blurred, still and heavy, richly painted, detailed ink linework, textured brushwork",
+   "note": ""
+  },
+  "bk_53": {
+   "subject": "Top shot looking down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve, his hands opening, the round silver tray tilting off them and the crystal glasses sliding off the edge into the air; behind him, close, a tall thin French head waiter of about fifty in 1898, a black tailcoat, white waistcoat and white bow tie, slick parted grey hair, a long waxed grey moustache, a red angry face, his furious face swelling toward the viewer, mouth open in a shout. No dog. The two faces and the tilting tray in the upper half; the lower half is the marble floor far below.",
+   "setting": "a huge gilded room in Paris in 1898: crystal chandeliers, tall mirrors, dark red walls, a long table under green cloth with papers, inkwells and candlesticks; not any known landmark, no flags, no writing anywhere",
+   "light": "hard gold chandelier light, glints on falling glass, deep shadows, sudden dramatic punch, richly painted, detailed ink linework, textured brushwork",
+   "note": "hands opening: count fingers"
+  },
+  "bk_54": {
+   "subject": "Following shot from behind, going down: a tall thin French head waiter of about fifty in 1898, a black tailcoat, white waistcoat and white bow tie, slick parted grey hair, a long waxed grey moustache, a red angry face, seen from behind, holding a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a long-sleeved white waiter's jacket buttoned over a plain white polo shirt, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, the four indigo line tattoos on his right forearm hidden under the sleeve lightly by the sleeve and leading him down a narrow stair; the young man walks down on his own feet, head low, only the cord at the back of his neck, the medallion not visible. No dog. The two in the upper half; the lower half is the dark steps.",
+   "setting": "a narrow stone service stair in a Paris hotel in 1898 going down to a cellar, worn steps, a gas lamp, stacked dirty plates at the bottom; no writing anywhere",
+   "light": "one gas lamp above, long shadows down the stair, warm gold behind fading to cold grey below, richly painted, detailed ink linework, textured brushwork",
+   "note": "led by the sleeve, never pushed; silent"
+  },
+  "bk_55": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, standing alone before a stone sink and towers of dirty plates, a wet rag in one hand, a thumb and four fingers, his other hand on the rim of the sink, looking straight at the viewer, tired and quiet. He is alone, no dog, no animals. His face and the plates in the upper half; the lower half is the sink and grey dishwater.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "a single oil lamp, cold blue light from the small high window, damp shine on the bricks, steam, deep shadows, sad and still, richly painted, detailed ink linework, textured brushwork",
+   "note": "sleeves up: four marks"
+  },
+  "bk_56": {
+   "subject": "Low angle from beside the sink, looking up: above the sink a small grimy window at street level, through it horses' legs, carriage wheels and snow passing; beside it, a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, nodding up toward the window, his hands resting on the sink rim. No dog. The window and Ambo's face in the upper half; the lower half is the sink and the plates.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue street light through the dirty glass, warm lamp glow on Ambo's face, steam, deep shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": ""
+  },
+  "bk_57": {
+   "subject": "Shot through a small round circle wiped clean in a grimy window pane, the grime and soot all around it: through the clean circle, across a snowy street and high up, one lit window in an old stone tenement, a man in a dark coat bent over a desk, writing. The circle in the upper half; the lower half is the dirty pane and the dark sill.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "one warm golden lit window glowing in the cold blue night, falling snow, gaslight below, the grime dark around the circle, quiet and hopeful, richly painted, detailed ink linework, textured brushwork",
+   "note": "silent; man tiny, generic"
+  },
+  "bk_58": {
+   "subject": "Profile shot: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. standing on an upturned wooden crate, his forepaws on a stone window sill, looking up through a small grimy window. No people. The dog's head and the window in the upper half; the lower half is the crate and the dark brick wall.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue window light on the dog's face, warm lamp glow behind, steam, rim light on his fur, richly painted, detailed ink linework, textured brushwork",
+   "note": "dog alone"
+  },
+  "bk_61": {
+   "subject": "Two-shot at the window: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, beside a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, both looking up through a small window, Ambo speaking low and proud, the young man listening, their hands resting on the sill. No dog. Both faces in the upper half; the lower half is the sill and sink in shadow.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue window light on their faces, warm lamp glow behind, steam, intimate, richly painted, detailed ink linework, textured brushwork",
+   "note": "hands resting"
+  },
+  "bk_66": {
+   "subject": "Long-lens shot across a snowy street into one lit window high up: a Filipino lawyer of about forty in 1898, brown skin, black hair combed back, a thick black moustache, a dark frock coat over a white high collar, seen small and far through his lit window, a generic figure, no likeness of any real person, alone in a small bare room, sitting at a desk, eyes closed, pressing a folded letter to his forehead with one hand, a thumb and four fingers. Nobody else in the room. The window in the upper half; the lower half is the dark stone wall and falling snow.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "warm lamplight inside the window, cold blue night outside, falling snow between, tender and still, richly painted, detailed ink linework, textured brushwork",
+   "note": "tender beat: alone, the wife NOT shown"
+  },
+  "bk_67": {
+   "subject": "Close-up: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, his weathered face softening, eyes wet, a faint sad smile, looking up. No dog. His face in the upper half of the picture; the lower half is his apron and shadow.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue window light on his face, a warm lamp glow on his cheek, steam, gentle, richly painted, detailed ink linework, textured brushwork",
+   "note": ""
+  },
+  "bk_70": {
+   "subject": "Medium shot through a window frame: a Filipino lawyer of about forty in 1898, brown skin, black hair combed back, a thick black moustache, a dark frock coat over a white high collar, seen small and far through his lit window, a generic figure, no likeness of any real person, standing at his desk in a small bare room, holding a page with plain wavy lines in both hands, each a thumb and four fingers, reading aloud to the empty room, his face firm. Nobody else in the room. He and the page in the upper half; the lower half is the window frame and the dark wall below, with snow.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "one oil lamp on the desk lighting him warmly from below, cold blue night around the window, snow, steady and dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": "his one line; generic, no likeness"
+  },
+  "bk_71": {
+   "subject": "Close-up on the flame of a small oil lamp on a desk, guttering low and blue, the glass chimney smoked; behind it, out of focus, a window going dim. No people. The flame in the upper half; the lower half is the dark desk.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "the last weak flame, smoke curling, darkness closing in, cold blue beyond, richly painted, detailed ink linework, textured brushwork",
+   "note": ""
+  },
+  "bk_73": {
+   "subject": "Close-up on one young man's hand, a thumb and four fingers, four small indigo line tattoos on the forearm, a red handkerchief on the wrist, pulling a generic crumpled orange banknote with an outline portrait, no readable letters or numbers out of the pocket of black slacks. The hand and the note in the upper half; the lower half is the dark slacks and shadow.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "cold blue window light on the note, warm lamp glow, deep shadows, quiet, richly painted, detailed ink linework, textured brushwork",
+   "note": "hand; note generic"
+  },
+  "bk_75": {
+   "subject": "Over Ambo's shoulder: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, turning a generic crumpled orange banknote with an outline portrait, no readable letters or numbers to the gaslight in one hand, a thumb and four fingers; beyond it, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, answering quietly. No dog. The note and the young man's face in the upper half; the lower half is Ambo's shoulder in shadow.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "warm gaslight through the paper, cold blue window light, deep shadows, hushed, richly painted, detailed ink linework, textured brushwork",
+   "note": "note generic"
+  },
+  "bk_80": {
+   "subject": "Close-up, slow push: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, holding a generic crumpled orange banknote with an outline portrait, no readable letters or numbers in both hands flat against his chest like a holy thing, eyes shining. No dog. His face and hands in the upper half; the lower half is his apron in shadow.",
+   "setting": "a low cellar scullery of a Paris hotel in 1898: a stone sink, towers of dirty plates, buckets, damp brick walls, one small grimy window high up at street level; no writing anywhere",
+   "light": "warm lamp light on his face and hands, cold blue behind, soft glow, moved, richly painted, detailed ink linework, textured brushwork",
+   "note": "hands: count fingers"
+  },
+  "bk_82": {
+   "subject": "High wide shot from far above the snowy street: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, crossing with a kitchen lamp held high; behind him a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, and three Filipino kitchen hands of 1898, brown skin, short black hair, long white aprons, seen from behind, all small, leaving tracks in the snow. No dog. The figures in the upper half; the lower half is snow.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "one warm lamp in cold blue snow, falling snow, long shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": "silent; small figures"
+  },
+  "bk_83": {
+   "subject": "Long shot across the snowy street: the one window high up in the old stone tenement brightening again with warm light, a small dark figure at a desk inside. No people in the street. The bright window in the upper half; the lower half is the dark facade and the snow.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "the window blooming gold against the cold blue night, snow sparkling in its light, hopeful, richly painted, detailed ink linework, textured brushwork",
+   "note": "silent"
+  },
+  "bk_84": {
+   "subject": "Top shot from high above, looking down: five small figures standing still in the snow in a loose line, their faces turned up toward one lit window, not raising their arms; a sixth small dark dot beside them, the black dog. No crowd. The five in the upper half of the picture; the lower half is the empty white snow and their tracks.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "warm gold light from the window falling on the five upturned faces, cold blue night all around, snow falling, quiet and still, richly painted, detailed ink linework, textured brushwork",
+   "note": "still, small, from above; no raised fists"
+  },
+  "bk_87": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white waiter's jacket with the sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, standing in the snow with his open hands held out palms up, each a thumb and four fingers, the falling snowflakes turning into golden sparks around him, his face calm. He is alone, no dog, no animals. His face and hands in the upper half; the lower half is the snow dissolving into gold light.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "golden light rising and swallowing the cold blue night, sparks, rim light, magical, richly painted, detailed ink linework, textured brushwork",
+   "note": "hands: count fingers"
+  },
+  "bk_88": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, five small indigo line tattoos on his right forearm, standing alone in the arched church doorway, wincing, looking down at his right forearm where the newest indigo line glows red and smokes; in his other hand a folded a generic crumpled orange banknote with an outline portrait, no readable letters or numbers. He is alone, no dog, no animals. His face and forearm in the upper half; the lower half is the stone steps.",
+   "setting": "the arched wooden door and stone steps of an old church in San Juan, Manila, in our time at dusk: a city street with tangled electric wires on poles, acacia trees, a plain city bus; no signboards, no writing anywhere",
+   "light": "orange dusk sky behind, warm light from inside the church on his back, a thin wisp of smoke from his arm, dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": "five marks; note folded"
+  },
+  "bk_91": {
+   "subject": "Long-lens shot across the street at dusk: on the far sidewalk, a small far-away figure of a calm young Filipina woman with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder, her face in shadow and not clear, raising her other hand open toward the viewer, a thumb and four fingers spread; a plain city bus passing in the foreground, blurred with motion. She is in the upper half of the picture; the lower half is the blurred side of the bus.",
+   "setting": "the arched wooden door and stone steps of an old church in San Juan, Manila, in our time at dusk: a city street with tangled electric wires on poles, acacia trees, a plain city bus; no signboards, no writing anywhere",
+   "light": "orange and violet dusk light, streetlamps coming on, the red umbrella glowing, motion blur, mysterious, richly painted, detailed ink linework, textured brushwork",
+   "note": "far, face not clear; five fingers"
+  },
+  "bk_93": {
+   "subject": "Still wide shot of the old stone tenement at night: the one lit window glowing warm, set low in the picture just above its middle; the whole upper part of the picture is a calm, empty dark blue night sky with gently falling snow, left clear. No people.",
+   "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
+   "light": "one warm golden window in deep blue night, soft falling snow, quiet, richly painted, detailed ink linework, textured brushwork",
+   "note": "room for the question text in code, upper area"
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_00",
+   "shot": 1
+  },
+  "1": {
+   "full": "bk_01",
+   "shot": 2
+  },
+  "2": {
+   "full": "bk_01",
+   "shot": 2
+  },
+  "3": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "4": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "5": {
+   "full": "bk_05",
+   "shot": 4
+  },
+  "6": {
+   "full": "bk_05",
+   "shot": 4
+  },
+  "7": {
+   "full": "bk_07",
+   "shot": 5
+  },
+  "8": {
+   "full": "bk_07",
+   "shot": 5
+  },
+  "9": {
+   "full": "bk_07",
+   "shot": 5
+  },
+  "10": {
+   "full": "bk_10",
+   "shot": 6
+  },
+  "11": {
+   "full": "bk_10",
+   "shot": 6
+  },
+  "12": {
+   "full": "bk_10",
+   "shot": 6
+  },
+  "13": {
+   "full": "bk_10",
+   "shot": 6
+  },
+  "14": {
+   "full": "bk_10",
+   "shot": 6
+  },
+  "15": {
+   "full": "bk_15",
+   "shot": 7
+  },
+  "16": {
+   "full": "bk_15",
+   "shot": 7
+  },
+  "17": {
+   "full": "bk_15",
+   "shot": 7
+  },
+  "18": {
+   "full": "bk_18",
+   "shot": 8
+  },
+  "19": {
+   "full": "bk_18",
+   "shot": 8
+  },
+  "20": {
+   "full": "bk_20",
+   "shot": 9
+  },
+  "21": {
+   "full": "bk_20",
+   "shot": 9
+  },
+  "22": {
+   "full": "bk_22",
+   "shot": 10
+  },
+  "23": {
+   "full": "bk_22",
+   "shot": 10
+  },
+  "24": {
+   "full": "bk_22",
+   "shot": 10
+  },
+  "25": {
+   "full": "bk_25",
+   "shot": 11
+  },
+  "26": {
+   "full": "bk_25",
+   "shot": 11
+  },
+  "27": {
+   "full": "bk_25",
+   "shot": 11
+  },
+  "28": {
+   "full": "bk_25",
+   "shot": 11
+  },
+  "29": {
+   "full": "bk_25",
+   "shot": 11
+  },
+  "30": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "31": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "32": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "33": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "34": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "35": {
+   "full": "bk_30",
+   "shot": 12
+  },
+  "36": {
+   "full": "bk_36",
+   "shot": 13
+  },
+  "37": {
+   "full": "bk_36",
+   "shot": 13
+  },
+  "38": {
+   "full": "bk_36",
+   "shot": 13
+  },
+  "39": {
+   "full": "bk_36",
+   "shot": 13
+  },
+  "40": {
+   "full": "bk_36",
+   "shot": 13
+  },
+  "41": {
+   "full": "bk_41",
+   "shot": 14
+  },
+  "42": {
+   "full": "bk_41",
+   "shot": 14
+  },
+  "43": {
+   "full": "bk_41",
+   "shot": 14
+  },
+  "44": {
+   "full": "bk_44",
+   "shot": 15
+  },
+  "45": {
+   "full": "bk_44",
+   "shot": 15
+  },
+  "46": {
+   "full": "bk_44",
+   "shot": 15
+  },
+  "47": {
+   "full": "bk_47",
+   "shot": 16
+  },
+  "48": {
+   "full": "bk_48",
+   "shot": 17
+  },
+  "49": {
+   "full": "bk_49",
+   "shot": 18
+  },
+  "50": {
+   "full": "bk_49",
+   "shot": 18
+  },
+  "51": {
+   "full": "bk_51",
+   "shot": 19
+  },
+  "52": {
+   "full": "bk_52",
+   "shot": 20
+  },
+  "53": {
+   "full": "bk_53",
+   "shot": 21
+  },
+  "54": {
+   "full": "bk_54",
+   "shot": 22
+  },
+  "55": {
+   "full": "bk_55",
+   "shot": 23
+  },
+  "56": {
+   "full": "bk_56",
+   "shot": 24
+  },
+  "57": {
+   "full": "bk_57",
+   "shot": 25
+  },
+  "58": {
+   "full": "bk_58",
+   "shot": 26
+  },
+  "59": {
+   "full": "bk_58",
+   "shot": 26
+  },
+  "60": {
+   "full": "bk_58",
+   "shot": 26
+  },
+  "61": {
+   "full": "bk_61",
+   "shot": 27
+  },
+  "62": {
+   "full": "bk_61",
+   "shot": 27
+  },
+  "63": {
+   "full": "bk_61",
+   "shot": 27
+  },
+  "64": {
+   "full": "bk_61",
+   "shot": 27
+  },
+  "65": {
+   "full": "bk_61",
+   "shot": 27
+  },
+  "66": {
+   "full": "bk_66",
+   "shot": 28
+  },
+  "67": {
+   "full": "bk_67",
+   "shot": 29
+  },
+  "68": {
+   "full": "bk_67",
+   "shot": 29
+  },
+  "69": {
+   "full": "bk_67",
+   "shot": 29
+  },
+  "70": {
+   "full": "bk_70",
+   "shot": 30
+  },
+  "71": {
+   "full": "bk_71",
+   "shot": 31
+  },
+  "72": {
+   "full": "bk_71",
+   "shot": 31
+  },
+  "73": {
+   "full": "bk_73",
+   "shot": 32
+  },
+  "74": {
+   "full": "bk_73",
+   "shot": 32
+  },
+  "75": {
+   "full": "bk_75",
+   "shot": 33
+  },
+  "76": {
+   "full": "bk_75",
+   "shot": 33
+  },
+  "77": {
+   "full": "bk_75",
+   "shot": 33
+  },
+  "78": {
+   "full": "bk_75",
+   "shot": 33
+  },
+  "79": {
+   "full": "bk_75",
+   "shot": 33
+  },
+  "80": {
+   "full": "bk_80",
+   "shot": 34
+  },
+  "81": {
+   "full": "bk_80",
+   "shot": 34
+  },
+  "82": {
+   "full": "bk_82",
+   "shot": 35
+  },
+  "83": {
+   "full": "bk_83",
+   "shot": 36
+  },
+  "84": {
+   "full": "bk_84",
+   "shot": 37
+  },
+  "85": {
+   "full": "bk_84",
+   "shot": 37
+  },
+  "86": {
+   "full": "bk_84",
+   "shot": 37
+  },
+  "87": {
+   "full": "bk_87",
+   "shot": 38
+  },
+  "88": {
+   "full": "bk_88",
+   "shot": 39
+  },
+  "89": {
+   "full": "bk_88",
+   "shot": 39
+  },
+  "90": {
+   "full": "bk_88",
+   "shot": 39
+  },
+  "91": {
+   "full": "bk_91",
+   "shot": 40
+  },
+  "92": {
+   "full": "bk_91",
+   "shot": 40
+  },
+  "93": {
+   "full": "bk_93",
+   "shot": 41
+  }
+ }
+}

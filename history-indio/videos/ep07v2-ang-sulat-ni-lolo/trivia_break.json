@@ -1,0 +1,88 @@
+{
+ "fact_id": "ep07v2_end",
+ "fact_english": "Rizal was buried in secret in Paco Cemetery on 30 December 1896, in the ground with no name, and the grave was guarded; his sister Narcisa searched for it. It was marked R.P.J., his initials reversed; the remains were exhumed in August 1898 (17 August per the Paco Park marker); the place is Paco Park today. Who placed the marker is disputed (Narcisa through the caretaker, or friends of the family). His last poem was untitled; 'Mi Último Adiós' was given by others.",
+ "label_onscreen": "PACO, 1896",
+ "source_onscreen": "Pinagmulan: Craig (1913); Paco Park marker; es.wikisource",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? Walang pangalan ang puntod niya?",
+   "emphasis": [
+    "totoo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: palihim na inilibing si Rizal sa Sementeryo ng Paco, sa lupa, walang pangalan.",
+   "emphasis": [
+    "palihim"
+   ],
+   "say": "Tiyak: palihim na inilibing si riSAL sa Sementeryo ng PAko, sa lupa, walang pangalan."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Binantayan ang puntod, at hinanap ito ng kapatid niyang si Narcisa.",
+   "emphasis": [
+    "Narcisa"
+   ],
+   "say": "Binantayan ang puntod, at hinanap ito ng kapatid niyang si narSIsa."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Nilagyan ito ng tandang R.P.J., baligtad na inisyal niya.",
+   "emphasis": [
+    "R.P.J."
+   ],
+   "say": "Nilagyan ito ng tandang ar, pi, jey, baligtad na inisyal niya."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Agosto 1898, hinukay ang mga labi. Paco Park na ito ngayon.",
+   "emphasis": [
+    "1898"
+   ],
+   "say": "Agosto mil otsosyentos nobentay otso, hinukay ang mga labi. PAko Park na ito ngayon."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh sino ang naglagay ng R.P.J.?",
+   "emphasis": [
+    "sino"
+   ],
+   "say": "Eh sino ang naglagay ng ar, pi, jey?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "'Yan ang pinagtatalunan: si Narcisa sa tulong ng sepulturero, o mga kaibigan ng pamilya.",
+   "emphasis": [
+    "pinagtatalunan"
+   ],
+   "say": "Yan ang pinagtatalunan: si narSIsa sa tulong ng sepulturero, o mga kaibigan ng pamilya."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At ang tula niya, walang pamagat noong isinulat; iba ang nagpangalan ng \"Mi Último Adiós\".",
+   "emphasis": [
+    "pamagat"
+   ],
+   "say": "At ang tula niya, walang pamagat noong isinulat; iba ang nagpangalan ng mi ULtimo adYOS."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umúngol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 91,
+ "after_text": "Ikaw, ka-Indio: kung isang sulat na lang ang mababasa mo bago mamatay ang phone mo, kanino galing?",
+ "palette": "sun",
+ "grave": true,
+ "calm": true,
+ "gap": 0.22,
+ "why_here": "New form: trivia at the END, after the story's last line, the quiet (grave) look: the episode is the secret burial of Rizal.",
+ "voice_note": "Script trivia lines split so each caption fits; same words. R.P.J. voiced letter by letter; 1898 voiced as a Spanish-derived number; umungol said u-MU-ngol."
+}

@@ -119,6 +119,7 @@ def frame_tail(fr, mx, my, s, t, fx, seed, aura):
     if 'sparkle' in fx: dots(60, (255, 245, 225), 0.0, 1, 0, twinkle=3.2, region=(0, 0.55))
     if 'bubbles' in fx: dots(40, (255, 230, 200), -1.0, 3, 9)
     if 'spray' in fx: dots(70, (255, 255, 255), 2.4, 1, 6, region=(0.2, 1))
+    if 'snow' in fx: dots(90, (250, 248, 245), 0.9, 2, 10)                                  # slow falling snow
     if ov.any(): fr += cv2.resize(cv2.GaussianBlur(ov, (0, 0), 1.6), (W, H)) * 0.9
     if 'flash' in fx and t < 0.12: fr = fr * (t / 0.12) + 255 * (1 - t / 0.12)
     if 'speedlines' in fx:                                                                   # radial speed lines, redrawn every 2 frames
