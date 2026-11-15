@@ -8,17 +8,17 @@ SERIES.md for this episode are kept and are stricter than the owner's general ru
 
 | Line (sentences.json) | What is said | Text |
 |---|---|---|
-| s36 (TAGAPAGSALAYSAY) | "Nakasulat sa Marcos 6:37: 'Bigyan ninyo sila ng makakain.'" | Marcos 6:37, word for word: "Datapuwa't siya'y sumagot at sinabi sa kanila, Bigyan ninyo sila ng makakain." (also Mateo 14:16, Lucas 9:13) |
-| s37 (TAGAPAGSALAYSAY) | "Nakasulat sa Marcos 6:42: 'At nagsikain silang lahat, at nangabusog.'" | Marcos 6:42, the whole verse, word for word |
-| s38 (TAGAPAGSALAYSAY) | "Nakasulat sa Juan 6:12: 'Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang.'" | Juan 6:12, word for word from "Pulutin" |
+| s46 (TAGAPAGSALAYSAY) | "Nakasulat sa Marcos 6:37: 'Bigyan ninyo sila ng makakain.'" | Marcos 6:37, word for word: "Datapuwa't siya'y sumagot at sinabi sa kanila, Bigyan ninyo sila ng makakain." (also Mateo 14:16, Lucas 9:13) |
+| s47 (TAGAPAGSALAYSAY) | "Nakasulat sa Marcos 6:42: 'At nagsikain silang lahat, at nangabusog.'" | Marcos 6:42, the whole verse, word for word |
+| s49 (TAGAPAGSALAYSAY) | "Nakasulat sa Juan 6:12: 'Pulutin ninyo ang mga pinagputolputol na lumabis, upang walang anomang masayang.'" | Juan 6:12, word for word from "Pulutin" |
 | Scene 3, stage lines (pictures, not spoken) | The people are made to sit on the grass in groups; five loaves and two fish; the looking up to heaven, the breaking, the giving to the disciples and by them to the crowd; twelve baskets gathered; afterwards He goes up the mountain alone | Marcos 6:39-41, 43; Mateo 14:19-20; Lucas 9:14-17; Juan 6:10-13, 15. Pictures follow the text and add nothing to it: no words, no faces, no explanation of how |
-| s21 to s22 | The Sea of Galilee; "mahigit labingwalong daang taon pabalik" (from 1898) | Juan 6:1 names the sea. No year is in the text; about AD 30 is an estimate, so only a round span is said |
-| s29 to s31 (YONI) | "Ang Guro. Maghapon na silang nakikinig" | "Guro" is a respectful word of an invented child; that the day was far spent is in Marcos 6:35 and Mateo 14:15 |
+| s25 to s26 | The Sea of Galilee; "mahigit labingwalong daang taon pabalik" (from 1898) | Juan 6:1 names the sea. No year is in the text; about AD 30 is an estimate, so only a round span is said |
+| s36 to s38 (YONI) | "Ang Guro. Maghapon na silang nakikinig" | "Guro" is a respectful word of an invented child; that the day was far spent is in Marcos 6:35 and Mateo 14:15 |
 | Trivia | The four chapters; five loaves, two fish, five thousand men, twelve baskets; the lad with barley loaves only in Juan (6:9); "bukod pa ang mga babae at ang mga bata" only in Mateo (14:21); no year in the text; the lamp is not in the Bible | The four passages |
 
 ## 2. The today-thing
 
-| s11 to s12 (INDIO) | "Merienda: salitang Kastila para sa magaang kain sa hapon" | The word is Spanish (merienda: a light meal, usually in the afternoon), taken into Philippine languages; Wikipedia, "Merienda" (Philippines section). NOT searched again in this session: a dictionary sense, to be confirmed with a second source before the build. The rest of the line is a joke |
+| s13 to s14 (INDIO) | "Merienda: salitang Kastila para sa magaang kain sa hapon" | The word is Spanish (merienda: a light meal, usually in the afternoon), taken into Philippine languages; Wikipedia, "Merienda" (Philippines section). NOT searched again in this session: a dictionary sense, to be confirmed with a second source before the build. The rest of the line is a joke |
 
 ## 3. What is invented (never said in the video; the caption and the pinned comment carry it)
 
