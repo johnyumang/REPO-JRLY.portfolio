@@ -1,65 +1,57 @@
-# Shots — Episode 1 (version 2), as built
+# Shots — Episode 1 (version 2, revision 3), as built
 
-One row per shot, in order. "Sent." = index in `sentences.json` (83 sentences: the owner's version of 15 November, with the new hook, the shorter present day and the paresan; and of 14 November: Oriang, Bonifacio's cry). "Still" = the file in `full/` (bk_NN =
-drawn for this version in the Bakunawa look; old_kNN = kept from `videos/ep01-ang-unang-talon/keys`). Every still is
-used once. Lines that share a still hold one continuous camera move (`shots_fx.json` "hold_same_key"): no cut back into
-the same still. Writing in pictures is added in code (see `key_prompts.json` "_note").
+104 sentences; the storyteller tells every action. "Still" = file in `full/` (bk_NN drawn in the Bakunawa look; old_kNN kept from version 1). Every still is used once; lines that share a still hold one continuous camera move. Plain cuts unless a line says otherwise (pipeline/CAMERA.md).
 
-| # | Sent. | What we see | Still |
-|---|---|---|---|
-| 1 | 0 | Hook, cold open on the shout: the lean Katipunero's face, mouth open, torchlight, a blade edge in the corner | bk_50 |
-| 2 | 1 | Hook: the blade level before Indio's chin (flash-forward of scene 4) | bk_01 |
-| 3 | 2-3 | Hook: the black dog leaping out of gold light (kept, version 1) | old_k18 |
-| 4 | 4-5 | Today: Indio in the long queue, folder to his chest ('Ngayon.') | bk_04 |
-| 5 | 6 | He slides his folder through the glass slot | bk_05 |
-| 6 | 7 | The clerk's hand pushes it back | bk_06 |
-| 7 | 8 | Noon: the pawnshop door; on the sign three slanted strokes and SANGLAAN (in code) | bk_08 |
-| 8 | 9 | Indio's hand lays the medallion on the glass | bk_09 |
-| 9 | 10-11 | Under the counter: a rust-stained hand presses the medallion into wax | bk_10 |
-| 10 | 12 | Over the pawnbroker's shoulder: Indio shrugs ('Gutom na 'ko.') | bk_11 |
-| 11 | 13-14 | The paresan: steaming kaldero, sign PARES ₱80 (in code); Indio with a bread roll looks at the bowl he cannot afford | bk_51 |
-| 12 | 15 | Close: the bowl of pares, fried rice and soup | bk_52 |
-| 13 | 16 | Indio grins, bread roll up: 'Diwata, baka naman!' (no picture of any real person) | bk_53 |
-| 14 | 17-18 | Rain: Indio running (kept, version 1) | old_k12 |
-| 15 | 19 | Under the shrine roof: the tarpaulin HERITAGE WALK / kasama si (in code), the flyer over the name; Indio bites the roll ('Wala akong kausap.') | bk_13 |
-| 16 | 20 | The marker, PUGAD LAWIN 1896 (kept, version 1) | old_k14 |
-| 17 | inside 20 | Raindrops stopped in the air (kept, version 1) | old_k16 |
-| 18 | 21-22 | Indio falls back; the dog in a burst of gold light | bk_15 |
-| 19 | 23-24 | Crane down: Indio lands on his knees inside a ring of torches | bk_16 |
-| 20 | 25-26 | Low angle: Islaw blocks the way, bolo hanging; the lean Katipunero behind | bk_17 |
-| 21 | 27-29 | The lean Katipunero holds out his palm for the paper | bk_45 |
-| 22 | 30-32 | Indio's nervous half-smile to us | bk_18 |
-| 23 | 33-34 | Indio's aside: half his face in the dark, whispering to us | bk_46 |
-| 24 | 35-36 | Wrists tied; the bread roll falls in the dust | bk_19 |
-| 25 | 37-38 | On his knees, a bolo held level near him; Usman watching between the men's legs | bk_20 |
-| 26 | 39-41 | Usman low to the ground, speaking | bk_21 |
-| 27 | 42-45 | Indio lifts his head and says it plainly | bk_22 |
-| 28 | 46-47 | Islaw's wet eyes, whispering | bk_23 |
-| 29 | 48-49 | High angle: the camp dogs eat the roll and lie down at his knees; Usman sits apart | bk_24 |
-| 30 | 50-51 | A boy's hands untie the rope | bk_25 |
-| 31 | 52-54 | Indio walks; the dogs follow in a line led by Usman; the lean Katipunero stares | bk_26 |
-| 32 | 55-57 | Indio and Islaw in profile at the edge of the dark fields; Islaw shrugs | bk_27 |
-| 33 | 58-59 | Usman growls at the dark | bk_28 |
-| 34 | 60 | Far off, the leader seen from behind among the torches | bk_29 |
-| 35 | 61-62 | Oriang ties the red neckerchief at Bonifacio's neck; foreheads touch (owner's order) | bk_40 |
-| 36 | 63 | Her hand on his chest, his hand over hers | bk_41 |
-| 37 | 64 | Indio, Islaw and Usman watch from the dark grass | bk_42 |
-| 38 | 65-66 | Bonifacio steps into the light, face seen, shouting, the cedula held high and tearing | bk_43 |
-| 39 | 67 | Close: two hands tear the cedula; torches and fists behind | bk_44 |
-| 40 | inside 67 | The crowd tears theirs, scraps like sparks (inside sentence 71) | bk_30 |
-| 41 | 68-69 | Islaw, torchlit, explains with a torn scrap | bk_31 |
-| 42 | 70 | Indio looks up at the falling scraps | bk_32 |
-| 43 | inside 70 | From behind: two raised fists against the torches (silent, inside sentence 74) | bk_33 |
-| 44 | 71 | Islaw reaches after Indio, who dissolves into gold light | bk_34 |
-| 45 | 72-74 | Usman fading into gold sparks; rain begins | bk_35 |
-| 46 | 75-78 | Back under the shrine roof: the new indigo line on his arm, a wisp of steam | bk_36 |
-| 47 | 79 | Across the street under a lamp: a soaked woman of about fifty, looking at him | bk_37 |
-| 48 | 80-81 | The pawnshop at night: the helper lifts the wax to the bulb, a nail between his teeth | bk_38 |
-| 49 | 82 | His marked arm on a wet railing; the question in code | bk_39 |
+| # | Sent. | First line | Still | Camera move (+ way in) | Why |
+|---|---|---|---|---|---|
+| 1 | 0 | Nasaan ang cedula mo?! | bk_50 | dolly_in | he threatens: close, push hard |
+| 2 | 1 | Walang cedula, kaya may itak sa leeg k | bk_01 | hold + slash in | blade at neck: stay still |
+| 3 | 2-4 | Ako 'to si Indio. | old_k18 | pull_out + flash in | the dog leaps toward us |
+| 4 | 5-6 | Kaninang umaga, sa Quezon City, pumila | bk_04 | crane_down + dissolve in | opening: morning queue, Quezon City |
+| 5 | 7 | Wala pala akong cedula, 'yung resibo n | bk_05 | push_in | he hands in his papers |
+| 6 | 8 | Hindi ko alam na kailangan pala 'yon. | bk_06 | hold | the folder pushed back: object |
+| 7 | 9-10 | Walang trabaho, walang pamasahe. | bk_08 | tilt_up | reveal the pawnshop sign above |
+| 8 | 11 | Pamasahe lang po sana. | bk_09 | push_in | the medallion on the glass |
+| 9 | 12-13 | Tanso lang 'yan, tol. | bk_11 | hold | the verdict: no move needed |
+| 10 | 14 | Pero bago ito ibinalik, palihim itong  | bk_10 | rack_focus | secret: hand, wax, medallion |
+| 11 | 15-18 | Gutom na 'ko. | bk_51 | push_in + dissolve in | hungry: closer to the stall |
+| 12 | 19-21 | Pares: taga-Quezon City, gaya ko. | bk_52 | hold | the bowl he cannot afford |
+| 13 | 22 | Diwata, baka naman! | bk_53 | push_in | the joke: punch on him |
+| 14 | 23 | Pagsapit ng gabi, bumuhos ang ulan. | old_k12 | pan_right + dissolve in | running with him through rain |
+| 15 | 24-26 | Sumilong si Indio sa dambana ng Pugad  | bk_60 | push_in | he takes shelter, alone |
+| 16 | 27-28 | Binasa niya nang malakas ang nakasulat | old_k14 | push_in | he reads; medallion warms |
+| 17 | 29 | At tumigil sa ere ang mga patak ng ula | old_k16 | tilt_up | up to the hanging drops |
+| 18 | 30-32 | Kumapit ka, Indio! | bk_15 | hold + flash in | the dog in the light |
+| 19 | 33-35 | Agosto 1896. | bk_16 | crane_down + flash in | opening: the camp, 1896 |
+| 20 | 36-38 | Hinablot si Indio, at hinarang ng isan | bk_17 | dolly_in + whip in | the boy blocks him: threat |
+| 21 | 39-41 | May nagsumbong sa amin sa Kastila. | bk_45 | push_in | the Katipunero demands the paper |
+| 22 | 42-43 | Cedula? | bk_18 | hold | caught out, he looks at us |
+| 23 | 44-46 | Walang papel, walang kakilala. | bk_19 | tilt_down | spy: down to tied wrists |
+| 24 | 47 | Idinikit ang itak sa leeg niya. | bk_20 | hold | the blade at his neck |
+| 25 | 48-49 | Unang araw ko sa nakaraan. | bk_46 | push_in | he whispers to us |
+| 26 | 50-52 | Par. | bk_21 | push_in | Usman speaks low, close |
+| 27 | 53-56 | Wala akong cedula. | bk_22 | hold | the confession: plain, still |
+| 28 | 57-60 | Natigilan ang bata. | bk_23 | push_in | the boy lowers the blade |
+| 29 | 61-62 | Saka lumapit ang mga aso ng kampo. | bk_24 | pan_right | follow the dogs coming in |
+| 30 | 63-64 | Kinausap ko sila. | bk_62 | push_in | Usman takes the credit |
+| 31 | 65-66 | Hindi tumatahimik ang aso sa espiya. | bk_25 | hold | the rope comes loose |
+| 32 | 67-69 | Sino ka ba talaga? | bk_26 | pan_right | walking out, dogs follow |
+| 33 | 70-71 | Sa gilid ng liwanag, may mag-asawang n | bk_63 | push_in + dissolve in | seen from the dark, slowly |
+| 34 | 72 | Kapag pinunit mo 'yan, wala na tayong  | bk_40 | push_in + dissolve in | tender: very slow, close |
+| 35 | 73-74 | Kaya nga pupunitin ko. | bk_41 | push_in | his answer, held close |
+| 36 | 75 | Huwag kang tumitig, par. | bk_42 | hold | Indio and Islaw watching |
+| 37 | 76-79 | Humakbang ang lalaki sa liwanag, at it | bk_43 | tilt_up | he steps up: end on face |
+| 38 | 80 | Mabuhay ang Pilipinas! | bk_44 | push_in | the cedula torn in two |
+| 40 | 81-82 | Buwis namin 'yan sa Kastila. | bk_31 | hold | the boy explains, plainly |
+| 41 | 83 | 'Yung papel na kulang sa akin kaninang | bk_32 | push_in | he understands, looking up |
+| 42 | 84-86 | Walang mapunit si Islaw. | bk_33 | tilt_up | up to the raised fists |
+| 43 | 87 | Kuya, babalik ka ba? | bk_34 | pull_out | Indio leaving, boy reaching |
+| 44 | 88-90 | Bago pa siya makasagot, lumamig ang me | bk_35 | pull_out + flash in | Usman fades into light |
+| 45 | inside 80 | the crowd tears its papers | bk_30 | crane_up | the crowd answers |
+| 45 | 91-93 | Quezon City ulit. | bk_61 | crane_down + flash in | back in Quezon City, alone |
+| 46 | 94-98 | Pero sa braso ni Indio, may guhit na u | bk_36 | rack_focus | the mark on his arm |
+| 47 | 99 | Sa kabilang kalye, may babaeng nakatit | bk_37 | orbit_left | the woman watching him |
+| 48 | 100-102 | At sa sanglaan, bukas pa ang ilaw. | bk_38 | push_in + dissolve in | the wax print revealed |
+| 49 | 103 | Ikaw, ka-Indio: kung hinanapan ka ng p | bk_39 | pull_out | the question to us |
 
-49 shots, 49 stills: 45 drawn new, 4 kept from version 1 (old_k18, old_k12, old_k14, old_k16). The trivia
-("Patalastas ni Usman") follows the last line as its own clip with the chibi sprites and the sticker `trivia/stickers/ep01.png`.
-Notes for the picture machine: the pawnbroker's face is never shown; the helper's right hand is rust-brown; the villains'
-sign is three slanted strokes (never a triangle); the woman under the lamp post is a Filipina of about fifty in a plain dress (not
-the red-umbrella woman); Bonifacio: clean-shaven, short hair combed back, white camisa, red neckerchief, no hat; Oriang:
-an adult of 21, hair in a bun, cream baro and dark red saya.
+Notes: the pawnbroker's face is never shown; the helper's right hand is rust-brown; the villains' sign is three slanted strokes; the woman under the lamp post is a Filipina of about fifty in a plain dress; Bonifacio: clean-shaven, hair combed back, white camisa, red neckerchief; Oriang: an adult of 21, hair in a bun, cream baro, dark red saya.
