@@ -1,0 +1,768 @@
+[
+ {
+  "text": "Bumigay na ang pader!",
+  "say": "bumigay na ang pader!",
+  "style": "shout",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Naghatid lang ako ng pancit.",
+  "say": "naghatid lang ako ng panSIT.",
+  "style": "dramatic",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ngayon, hinahabol na ako ng giyera.",
+  "say": "ngayon, hinahabol na ako ng giyera.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ako 'to si Indio.",
+  "say": "ako to si indio.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "At oo, late na naman ako.",
+  "say": "at oo, late na naman ako.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ngayon.",
+  "say": "ngayon.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Intramuros.",
+  "say": "intraMUros.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "May trabaho na ako: delivery rider.",
+  "say": "may trabaho na ako: deLIberi RAYder.",
+  "style": "proud",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Unang order ko, pancit, para sa isang \"M\".",
+  "say": "unang ORder ko, panSIT, para sa isang m.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Walang tao rito.",
+  "say": "walang tao rito.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Pancit: sabi nila, galing sa salitang Hokkien na ang ibig sabihin, pagkaing madaling lutuin.",
+  "say": "panSIT: sabi nila, galing sa salitang hokkien na ang ibig sabihin, pagkaing madaling lutuin.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Madaling lutuin, mahirap tiisin.",
+  "say": "madaling lutuin, mahirap tiisin.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Bawal ko kasing tikman.",
+  "say": "bawal ko kasing tikman.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Sige.",
+  "say": "sige.",
+  "style": "bored",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Babasahin ko na lang 'tong karatula habang naghihintay.",
+  "say": "babasahin ko na lang tong karatula habang naghihintay.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Usman!",
+  "say": "usman!",
+  "style": "glad",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ang asong madaldal.",
+  "say": "ang asong madaldal.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ayan ka na naman.",
+  "say": "ayan ka na naman.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "May dala ka pang baon.",
+  "say": "may dala ka pang baon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Oktubre 1762.",
+  "say": "oktubre mil siyete syentos sesentay dos.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa loob ng pader ng Maynila.",
+  "say": "sa loob ng pader ng maynila.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Yumuko ka!",
+  "say": "yumuko ka!",
+  "style": "urgent",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Halos dalawang linggo na silang nagpapaputok.",
+  "say": "halos dalawang linggo na silang nagpapaputok.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Sino?",
+  "say": "sino?",
+  "style": "confused",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Mga Kastila?",
+  "say": "mga kastila?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Mga Ingles.",
+  "say": "mga ingles.",
+  "style": "flat",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Galing sa dagat, kasama ang mga sundalong taga-India.",
+  "say": "galing sa dagat, kasama ang mga sundalong taga-india.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Sabi ng titser ko: Kastila, Amerikano, Hapon.",
+  "say": "sabi ng titser ko: kastila, amerikano, hapon.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Walang nagbanggit ng British.",
+  "say": "walang nagbanggit ng BRItish.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Pero pader 'to ng Intramuros.",
+  "say": "pero pader to ng intraMUros.",
+  "style": "nervous",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hindi 'to matitibag, 'di ba?",
+  "say": "hindi to matitibag, di ba?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pader lang 'yan.",
+  "say": "pader lang yan.",
+  "style": "flat",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "May kanyon sila.",
+  "say": "may kanyon sila.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Si Lola.",
+  "say": "si lola.",
+  "style": "soft",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi ko siya maiiwan.",
+  "say": "hindi ko siya maiiwan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Señor!",
+  "say": "senYOR!",
+  "style": "urgent",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Malapit nang bumigay ang pader sa baluarte.",
+  "say": "malapit nang bumigay ang pader sa baluarte.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May mga tao pa roon!",
+  "say": "may mga tao pa roon!",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Indio, bumalik ka sa kusina.",
+  "say": "indio, bumalik ka sa kusina.",
+  "style": "cold",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Paano mo nalaman ang pangalan ko?",
+  "say": "paano mo nalaman ang pangalan ko?",
+  "style": "dry",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ah.",
+  "say": "ah.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Hindi pala pangalan.",
+  "say": "hindi pala pangalan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Tawag pala 'yon sa aming lahat.",
+  "say": "tawag pala yon sa aming lahat.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Bumigay na ang pader!",
+  "say": "bumigay na ang pader!",
+  "style": "shout",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Huli na ako.",
+  "say": "huli na ako.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Puwede ka palang mahuli kahit sa nakaraan.",
+  "say": "puwede ka palang mahuli kahit sa nakaraan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Par, tumahimik ka muna.",
+  "say": "par, tumahimik ka muna.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "May sinasabi sila.",
+  "say": "may sinasabi sila.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "\"Ilalim.\"",
+  "say": "ilalim.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "'Yun ang sabi nila.",
+  "say": "yun ang sabi nila.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ilalim.",
+  "say": "ilalim.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May labasan sila.",
+  "say": "may labasan sila.",
+  "style": "playful",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Pero walang libre sa hayop, par.",
+  "say": "pero walang libre sa hayop, par.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Order 'to ng customer.",
+  "say": "ORder to ng customer.",
+  "style": "pained",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Unang sahod ko 'to.",
+  "say": "unang sahod ko to.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sepa!",
+  "say": "sepa!",
+  "style": "sure",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ang lola mo.",
+  "say": "ang lola mo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bubuhatin ko.",
+  "say": "bubuhatin ko.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Indio!",
+  "say": "indio!",
+  "style": "scared",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Saan ang labasan?",
+  "say": "saan ang labasan?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Sundan mo ang daga, señor.",
+  "say": "sundan mo ang daga, senYOR.",
+  "style": "dry",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sila ang mas nakakaalam dito.",
+  "say": "sila ang mas nakakaalam dito.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa labas ng pader, tabing-ilog.",
+  "say": "sa labas ng pader, tabing-ilog.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Labing-apat, par.",
+  "say": "labing-apat, par.",
+  "style": "proud",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Bilangin mo.",
+  "say": "bilangin mo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sa isang supot ng pancit.",
+  "say": "sa isang supot ng panSIT.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sumuko na raw ang lungsod.",
+  "say": "sumuko na raw ang lungsod.",
+  "style": "quiet",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Ang arsobispo mismo.",
+  "say": "ang arsobispo mismo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Tapos na pala.",
+  "say": "tapos na pala.",
+  "style": "somber",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa kanila na tayo.",
+  "say": "sa kanila na tayo.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hindi pa.",
+  "say": "hindi pa.",
+  "style": "fierce",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "May isang hukom na nakaalis bago bumagsak ang pader.",
+  "say": "may isang hukom na nakaalis bago bumagsak ang pader.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Nasa Pampanga na raw.",
+  "say": "nasa pamPANGga na raw.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Lalaban.",
+  "say": "lalaban.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi ko nailigtas ang Maynila.",
+  "say": "hindi ko nailigtas ang maynila.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Isang kusina lang.",
+  "say": "isang kusina lang.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Para sa susunod mong hatid, Indio.",
+  "say": "para sa susunod mong hatid, indio.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "'Yung pangalan, ha.",
+  "say": "yung pangalan, ha.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi 'yung tawag.",
+  "say": "hindi yung tawag.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Lumamig ang medalyon.",
+  "say": "lumamig ang medalyon.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Aray.",
+  "say": "aray.",
+  "style": "wince",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Dalawa na.",
+  "say": "dalawa na.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "At wala na akong pancit.",
+  "say": "at wala na akong panSIT.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tapis na lang.",
+  "say": "tapis na lang.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Paano ko ipapaliwanag 'to sa app?",
+  "say": "paano ko ipapaliwanag to sa ap?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Kinain po ng daga, noong 1762.\"",
+  "say": "kinain po ng daga, noong mil siyete syentos sesentay dos.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Teka.",
+  "say": "teka.",
+  "style": "surprised",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Delivered.\"",
+  "say": "delivered.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May tip pa.",
+  "say": "may tip pa.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Galing kay M.",
+  "say": "galing kay m.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Basahin mo nang malakas ang susunod.\"",
+  "say": "basahin mo nang malakas ang susunod.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Sino ka ba, M?",
+  "say": "sino ka ba, m?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik?",
+  "say": "ikaw, ka-indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik?",
+  "style": "curious",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ }
+]
