@@ -42,10 +42,11 @@ INDIO (sa atin): [quiet] Ako 'to si Indio. At hindi ako makauwi.
 
 # --- 1. His now (short, Indio's voice). He wants: to save the battery.
 TAGAPAGSALAYSAY: [low] Bagumbayan pa rin. Ikatatlumpu ng Disyembre, 1896. Tanghali.
+TAGAPAGSALAYSAY: [low] Ninakaw ang medalyon ni Indio, kaya naiwan siya sa 1896. Phone na lang ang hawak niya, siyam na porsiyento ang baterya.
 (Wala nang tao sa parang. Nakaupo si Indio sa damuhan, katabi ang itim na asong si Usman. Sa phone niya: 9%. Walang signal.)
-INDIO (sa atin): [dry] Walang medalyon. Walang signal. Siyam na porsiyento na lang.
 INDIO (sa atin): [playful] Text: noong mga taong 2000, tinawag tayong text capital ng mundo. Ngayon, isang text lang ang gusto kong ipadala: "Lola, sunduin mo ako." Walang tatanggap.
 (Sa screen, isang litratong hindi pa niya nabubuksan. Galing kay Lola, dumating bago siya nawalan ng signal. Caption: "Sulat ng Lolo mo. Nasa sapin pala ng kahon.")
+TAGAPAGSALAYSAY: [low] May litratong hindi pa niya nabubuksan, galing kay Lola: sulat ng Lolo niya.
 INDIO: [torn] Kapag binuksan ko, ubos ang baterya. Kapag hindi, wala akong alam.
 (Tumayo si Usman. Suminghot. Sa malayo, isang kariton na may takip, hila ng kabayo, may mga guwardiyang kasabay.)
 USMAN: [low] Par. Dinadala na si Rizal. Sumunod tayo.
@@ -53,8 +54,10 @@ USMAN: [low] Par. Dinadala na si Rizal. Sumunod tayo.
 # --- 2. The wall. He wants: to see where they take him.
 TAGAPAGSALAYSAY: [low] Sementeryo ng Paco.
 (Isang lumang sementeryong pabilog, mataas ang pader. Sa labas ng pader, sa likod ng isang puno, sina Indio at Usman. Isang batang lalaki ang nakaupo sa sanga, nakasilip sa loob.)
+TAGAPAGSALAYSAY: [low] Sinundan nila ang kariton hanggang sa pader ng sementeryo. Sa puno, may batang nakasilip: si Imo.
 IMO: [whisper] Akyat, kuya. Anak ako ng sepulturero.
 (Umakyat si Indio. Sa loob: hindi sa mga nitso sa pader. Sa lupa, sa isang sulok, isang bagong hukay. Tinatabunan na. Walang krus. Walang pangalan.)
+TAGAPAGSALAYSAY: [low] Sumilip si Indio. Sa isang sulok, tinatabunan ang isang hukay. Walang krus, walang pangalan.
 INDIO (sa atin): [whisper] Sabi ng titser ko, may marangal na libing ang pambansang bayani.
 IMO: [whisper] Palihim, kuya. Sa lupa, hindi sa nitso. Bawal lagyan ng pangalan. May bantay pa, gabi't araw.
 GUWARDIYA: [shout] Alto! Sino 'yan sa puno?
@@ -62,6 +65,7 @@ GUWARDIYA: [shout] Alto! Sino 'yan sa puno?
 
 # --- 3. The letter. THE FALL.
 (Sa lilim ng pader. 7%. Huminga nang malalim si Indio, at binuksan ang litrato. Sulat-kamay ng isang matanda.)
+TAGAPAGSALAYSAY: [low] Sa lilim ng pader, binuksan na ni Indio ang sulat.
 LOLO: [warm] Mahal kong José Indalecio Bracken, ang apo kong tinatawag naming Indio.
 INDIO: [stunned] 'Yan pala ang buo kong pangalan.
 LOLO: [warm] Lima ang marka ko, apo. Sa ikalima, napunta ako sa umagang kinaroroonan mo ngayon.
@@ -71,6 +75,7 @@ INDIO (sa atin): [whisper] Kaya ako ang hinanap niya. Minana ko ang tinakbuhan n
 (2%. Lumabo ang screen.)
 LOLO: [urgent] Bago ako umuwi, may ibinaon ako para sa'yo. At tandaan mo ito, apo. Ang hinahanap nila ay hindi ang...
 (1%. Itim.)
+TAGAPAGSALAYSAY: [low] Namatay ang phone, sa gitna ng pangungusap.
 INDIO: [shout] Huwag! Huwag ngayon! Lolo!
 (Pinindot niya. Inalog. Idinikit sa noo. Wala.)
 INDIO (sa atin): [whisper] Hindi ang ano? Isang salita na lang.
@@ -80,16 +85,21 @@ IMO: [curious] Kuya, may kamag-anak ka bang matanda? Kamukha mo, pero puti na an
 INDIO: [dull] Lolo ko. Bakit?
 IMO: [plain] Kaninang umaga, bago dumating ang kariton, may matandang ganoon dito. Naghukay sa paanan ng pader, tapos nawala.
 (Napatingin si Indio kay Usman. Nakadikit na ang ilong ni Usman sa lupa, sa isang batong may gasgas na hugis araw.)
+TAGAPAGSALAYSAY: [low] Inamoy ni Usman ang lupa sa paanan ng pader.
 USMAN: [excited] Dito, par. Kaamoy mo.
 (Naghukay silang tatlo. Isang lata. Sa loob, nakabalot sa tela: isang lumang lente, ginto ang gilid.)
+TAGAPAGSALAYSAY: [low] Naghukay sila. May lata. Sa loob, isang lumang lente.
 INDIO: [awed] Lente.
 (Itinapat niya ito sa mata. Sa butas ng pader, tanaw ang sulok ng sementeryo. Sa loob ng salamin, bumilis ang mga araw: araw, gabi, ulan.)
+TAGAPAGSALAYSAY: [low] Sumilip si Indio sa lente. Bumilis ang mga araw sa sementeryo.
 USMAN: [low] Totoo lang ang ipinapakita niyan, par. Ang nangyari at mangyayari sa lugar na tinitingnan mo.
 
 # --- 5. What the lens shows. History stands. Then the Lolo.
 (Sa lente: isang babaeng nakaitim, likod lang ang kita natin, palakad-lakad sa pagitan ng mga puntod. Huminto siya sa bagong hukay. Lumuhod. Inilapat ang palad sa lupa.)
+TAGAPAGSALAYSAY: [low] Isang babaeng nakaitim ang naghahanap sa mga puntod. Lumuhod ito sa bagong hukay.
 IMO: [whisper] Kapatid niya 'yan. Si Narcisa. Ilang sementeryo na raw ang nilibot niya.
 (Sa lente: isang maliit na lapidang marmol sa lupa. Tatlong letra lang: R, P, J.)
+TAGAPAGSALAYSAY: [low] Pagkatapos, lumitaw ang isang maliit na lapida.
 INDIO: [puzzled] Tatlong letra lang?
 IMO: [whisper] Baligtad na pangalan, kuya. José Protasio Rizal. Para hindi mahalata ng bantay.
 (Mula sa lapida, isang tinig, mahina, na parang galing sa lupa.)
@@ -97,9 +107,11 @@ RIZAL: [quiet] Adiós, Patria adorada, región del sol querida.
 INDIO (sa atin): [whisper] Paalam, bayang minamahal. Walang pangalan ang puntod, pero may tula.
 USMAN: [urgent] Par. Hindi diyan. Dito. Sa hinukayan natin.
 (Itinapat ni Indio ang lente sa paanan ng pader. Sa loob ng salamin: ang parehong lugar, kaninang umaga. Isang matandang lalaki, nakaluhod, ibinabaon ang lata. Nagsasalita habang sumusulat.)
+TAGAPAGSALAYSAY: [low] Itinapat ni Indio ang lente sa hinukayan nila. Nakita niya ang Lolo niya kaninang umaga, ibinabaon ang lata.
 LOLO: [clear] Ang hinahanap nila ay hindi ang medalyon, apo. Ang Huling Tala. Hintayin mo ang babae sa Kawit, sa araw ng kalayaan.
 INDIO: [breaking] Lolo.
 (Tumingala ang matanda sa loob ng lente, na parang may narinig. Ngumiti. At naglaho.)
+TAGAPAGSALAYSAY: [low] Tumingala ang matanda, ngumiti, at naglaho.
 USMAN: [soft] Hindi ka niya nakikita, par. Pero alam niyang darating ka.
 
 # --- 6. No way home, and a long wait.
