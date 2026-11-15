@@ -1,16 +1,15 @@
 [
  {
-  "text": "Kaninang umaga, walang cedula, kaya walang trabaho.",
-  "say": "kaninang umaga, walang sedula, kaya walang trabaho.",
-  "style": "dramatic",
+  "text": "Nasaan ang cedula mo?!",
+  "say": "nasaan ang SEdula mo?!",
+  "style": "shout",
   "pre": 0,
-  "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "pause": 0.4,
+  "speaker": "KATIPUNERO"
  },
  {
-  "text": "Ngayong gabi, walang cedula, kaya may itak sa leeg ko.",
-  "say": "ngayong gabi, walang sedula, kaya may itak sa leeg ko.",
+  "text": "Walang cedula, kaya may itak sa leeg ko ngayon.",
+  "say": "walang SEdula, kaya may itak sa leeg ko ngayon.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.5,
@@ -22,7 +21,7 @@
   "say": "ako to si indio.",
   "style": "playful",
   "pre": 0,
-  "pause": 0.3,
+  "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
  },
@@ -36,64 +35,16 @@
   "aside": true
  },
  {
-  "text": "Quezon City.",
-  "say": "keson siti.",
+  "text": "Ngayon.",
+  "say": "ngayon.",
   "style": "calm",
   "pre": 0,
-  "pause": 0.3,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Umaga.",
-  "say": "umaga.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ma'am, pang-anim na apply ko na po ito ngayong buwan.",
-  "say": "maam, pang-anim na aplay ko na po ito ngayong buwan.",
-  "style": "hopeful",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "INDIO"
- },
- {
-  "text": "Kulang.",
-  "say": "kulang.",
-  "style": "flat",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "BABAE SA BINTANA"
- },
- {
-  "text": "Walang cedula, 'yung resibo ng buwis mo.",
-  "say": "walang sedula, yung resibo ng buwis mo.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "BABAE SA BINTANA"
- },
- {
-  "text": "Tatawagan ka na lang.",
-  "say": "tatawagan ka na lang.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "BABAE SA BINTANA"
- },
- {
-  "text": "Malas ka talaga, tol.",
-  "say": "malas ka talaga, tol.",
-  "style": "mocking",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "LALAKI SA PILA"
- },
- {
-  "text": "Pang-anim na \"malas\" ko na rin 'yan ngayong buwan.",
-  "say": "pang-anim na malas ko na rin yan ngayong buwan.",
+  "text": "Maghapon akong pumila.",
+  "say": "maghapon akong pumila.",
   "style": "dry",
   "pre": 0,
   "pause": 0.5,
@@ -101,17 +52,27 @@
   "aside": true
  },
  {
-  "text": "Tanghali.",
-  "say": "tanghali.",
-  "style": "calm",
+  "text": "Wala pala akong cedula, 'yung resibo ng buwis.",
+  "say": "wala pala akong SEdula, yung resibo ng buwis.",
+  "style": "",
   "pre": 0,
-  "pause": 0.3,
-  "speaker": "TAGAPAGSALAYSAY"
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Hindi ko alam na kailangan pala 'yon.",
+  "say": "hindi ko alam na kailangan pala yon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
  },
  {
   "text": "Isang sanglaan.",
   "say": "isang sanglaan.",
-  "style": "",
+  "style": "calm",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -129,7 +90,7 @@
   "say": "tanso lang yan, tol.",
   "style": "bored",
   "pre": 0,
-  "pause": 0.3,
+  "pause": 0.5,
   "speaker": "MAY-ARI"
  },
  {
@@ -141,9 +102,44 @@
   "speaker": "MAY-ARI"
  },
  {
-  "text": "Pati medalyon ko, bagsak sa interview.",
-  "say": "pati medalyon ko, bagsak sa interbyu.",
-  "style": "dry",
+  "text": "Gutom na 'ko.",
+  "say": "gutom na ko.",
+  "style": "sigh",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pares: taga-Quezon City, gaya ko.",
+  "say": "pares: taga keson siti, gaya ko.",
+  "style": "proud",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Sabi nila, nagsimula ito sa Retiro noong 1979: baka, kapares ng sinangag at sabaw.",
+  "say": "sabi nila, nagsimula ito sa retiro noong mil nuwebe syentos sitentay nuwebe: baka, kapares ng sinangag at sabaw.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ngayon, nasa buong Pilipinas na.",
+  "say": "ngayon, nasa buong pilipinas na.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Diwata, baka naman!",
+  "say": "diwata, baka naman!",
+  "style": "playful",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
@@ -163,30 +159,6 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Hapunan.",
-  "say": "hapunan.",
-  "style": "sigh",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Isa.",
-  "say": "isa.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.3,
-  "speaker": "INDIO"
- },
- {
-  "text": "Buti pa 'yung nasa tarpaulin, may trabaho.",
-  "say": "buti pa yung nasa tarpolin, may trabaho.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "INDIO"
  },
  {
   "text": "Wala akong kausap.",
@@ -262,7 +234,7 @@
  },
  {
   "text": "Kaya lahat ng narito, may dalang cedula ngayong gabi.",
-  "say": "kaya lahat ng narito, may dalang sedula ngayong gabi.",
+  "say": "kaya lahat ng narito, may dalang SEdula ngayong gabi.",
   "style": "",
   "pre": 0,
   "pause": 0.3,
@@ -278,7 +250,7 @@
  },
  {
   "text": "Cedula?",
-  "say": "sedula?",
+  "say": "SEdula?",
   "style": "nervous",
   "pre": 0,
   "pause": 0.3,
@@ -302,7 +274,7 @@
  },
  {
   "text": "Sabi ng titser ko, pinunit nila ang cedula.",
-  "say": "sabi ng titser ko, pinunit nila ang sedula.",
+  "say": "sabi ng titser ko, pinunit nila ang SEdula.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.3,
@@ -378,7 +350,7 @@
  },
  {
   "text": "Wala akong cedula.",
-  "say": "wala akong sedula.",
+  "say": "wala akong SEdula.",
   "style": "quiet",
   "pre": 0,
   "pause": 0.3,
@@ -410,7 +382,7 @@
  },
  {
   "text": "Wala rin akong cedula.",
-  "say": "wala rin akong sedula.",
+  "say": "wala rin akong SEdula.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.3,
@@ -570,7 +542,7 @@
  },
  {
   "text": "Punitin ang mga cedula!",
-  "say": "punitin ang mga sedula!",
+  "say": "punitin ang mga SEdula!",
   "style": "shout",
   "pre": 0,
   "pause": 0.4,

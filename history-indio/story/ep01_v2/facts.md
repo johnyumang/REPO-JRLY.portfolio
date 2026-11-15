@@ -8,7 +8,7 @@ noted there still hold (rows rest on search snippets; no primary account and no 
 
 | Line (sentences.json) | Claim | Status and sources (from the checked facts.md) |
 |---|---|---|
-| s7 to s9, the office window ("'yung resibo ng buwis mo": the cedula today is the community tax certificate) | A cedula is still asked for in some job applications today | Confirmed with a qualifier: essential for most government transactions; some employers ask new hires; not universal. quezoncity.gov.ph guide to the community tax certificate; moneymax.ph (2024); requirementph.com (2026) |
+| s5 to s7, the queue ("'yung resibo ng buwis": the cedula today is the community tax certificate) | A cedula is still asked for in some job applications today | Confirmed with a qualifier: essential for most government transactions; some employers ask new hires; not universal. quezoncity.gov.ph guide to the community tax certificate; moneymax.ph (2024); requirementph.com (2026) |
 | Stage line of scene 3 (s18 to s24) | There is a Pugad Lawin Shrine in Bahay Toro, Quezon City | Confirmed. quezoncity.gov.ph/place/ang-sigaw-ng-pugad-lawin; tribune.net.ph, 23 Aug 2026. The marker's wording was not found, so it is never quoted: thunder covers it |
 | s27 | "Agosto 1896" | Confirmed: the Cry was in August 1896. Wikipedia, Cry of Pugad Lawin; Pinaglabanan Shrine |
 | s28 | "sa labas ng Maynila", no place named | Deliberate: date and place are disputed (Valenzuela, Masangkay, Alvarez; Guerrero, Encarnacion and Villegas 1996; Borromeo-Buehler 1998). Every candidate site lay outside the Manila of 1896. ncca.gov.ph/?p=1885; Philippine Studies 47:4 (1999) |
@@ -25,6 +25,9 @@ noted there still hold (rows rest on search snippets; no primary account and no 
 Dropped from the story (still true, now only in the trivia or not said): "si Andres Bonifacio" by name; the
 official date; the list of rival sites; "Rizal had a dog named Usman" (Indio now says only "pangalan ng aso sa
 mga kuwento ni Lolo"; the Rizal link is Episode 4's to tell).
+
+| s13 to s15 (INDIO, the paresan) | Beef pares is a Quezon City dish; "sabi nila, nagsimula ito sa Retiro noong 1979"; "pares" because the beef is paired with fried rice and soup; now found all over the Philippines | COMMONLY TOLD, and supported by the sources found (web search, 15 Nov 2026; summaries only, no page opened in full): the term and dish are traced to a carinderia opened in 1979 by Lolita and Roger Tiu (later "Jonas") near Calle Retiro, now N.S. Amoranto Sr. Street, Quezon City, hence "pares Retiro"; "pares" = "pair": braised beef served with garlic fried rice and a light beef soup. Competing claims exist (The Original Pares Mami House says it has served pares since 1989; one blog repeats an unconfirmed story about a cook named Jonas), so the line says "sabi nila" and names no restaurant. Sources: Wikipedia, "Pares (food)"; SunStar (Cebu), "Reasons to try beef pares"; Business Mirror, "Beef Pares Noodle Soup"; thesmartlocal.ph, "Original Pares Retiro"; zoytotheworld.com, "Jonas vs. Original Pares Mami House"; mb.com.ph (28 Feb 2025) |
+| s16 (INDIO) | "Diwata, baka naman!" | A friendly shout-out to a real, living pares vendor known as Diwata, said once, kindly. No picture, likeness, logo or stall sign of his is shown: the stall in the picture is a plain invented paresan with a code-written sign "PARES ₱80" (invented price) |
 
 ## 2. What is invented (never said in the video; the caption and the pinned comment carry it)
 
@@ -50,3 +53,9 @@ Sigaw noong Agosto 1896. Pinagtatalunan pa ang eksaktong petsa at lugar."
 - The real outcome stands: the cedulas are torn; Indio causes nothing and stops nothing.
 - No sentence in the story says that anything is invented. The trivia is after the last line.
 - Usman is only inside the jump; no dog in the present-day scenes.
+
+## 4. Version of 15 November (owner's fixes)
+
+- Hook: KATIPUNERO shouts "Nasaan ang cedula mo?!" (s0), a flash-forward of the camp. In scene 4 the same man asks coldly, "Ilabas mo ang sa'yo." (s29), then calls him a spy and the blade comes (s35-s36): the hook is that moment shown sharper, not a different event; the shout's words are not repeated in scene 4.
+- The present day is shorter: the office window, the man in the queue and "Pati medalyon ko, bagsak sa interview" are cut; the pawnshop "tanso lang" beat and the three slanted strokes stay (the ending needs them); the bread beat at the shrine is replaced by the paresan (he can only afford bread, which the camp dogs eat later).
+- "Cedula" is voiced with the stress on the first syllable, SE-du-la (the owner's ear); the subtitles keep "cedula".

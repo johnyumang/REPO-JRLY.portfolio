@@ -1,641 +1,533 @@
 {
+ "_": {
+  "hold_same_key": true
+ },
  "0": {
   "fx": [
    "shake",
    "punch",
    "embers"
   ],
-  "move": "push_in",
-  "shot": 1
+  "move": "push_in"
  },
  "1": {
   "fx": [
-   "punch",
+   "shake",
    "embers"
   ],
-  "move": "push_in",
-  "shot": 2
+  "move": "push_in"
  },
  "2": {
   "fx": [
    "flash",
    "sparkle"
   ],
-  "move": "pull_out",
-  "shot": 3
+  "move": "pull_out"
  },
  "3": {
   "fx": [
    "sparkle"
   ],
   "move": "pull_out",
-  "shot": 3,
   "key": 2
  },
  "4": {
   "fx": [],
-  "move": "tilt_down",
-  "shot": 4
+  "move": "tilt_down"
  },
  "5": {
   "fx": [],
   "move": "tilt_down",
-  "shot": 4,
   "key": 4
  },
  "6": {
   "fx": [],
-  "move": "push_in",
-  "shot": 5
+  "move": "push_in"
  },
  "7": {
   "fx": [],
-  "move": "push_in",
-  "shot": 6
+  "move": "push_in"
  },
  "8": {
   "fx": [],
-  "move": "push_in",
-  "shot": 6,
-  "key": 7
+  "move": "tilt_up"
  },
  "9": {
-  "fx": [],
-  "move": "push_in",
-  "shot": 6,
-  "key": 7
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in"
  },
  "10": {
   "fx": [],
-  "move": "pan_left",
-  "shot": 7
+  "move": "push_in"
  },
  "11": {
   "fx": [],
-  "move": "pan_left",
-  "shot": 7,
+  "move": "push_in",
   "key": 10
  },
  "12": {
   "fx": [],
-  "move": "tilt_up",
-  "shot": 8
+  "move": "pan_right"
  },
  "13": {
   "fx": [],
-  "move": "tilt_up",
-  "shot": 8,
-  "key": 12
+  "move": "push_in"
  },
  "14": {
-  "fx": [
-   "sparkle"
-  ],
+  "fx": [],
   "move": "push_in",
-  "shot": 9
+  "key": 13
  },
  "15": {
   "fx": [],
-  "move": "push_in",
-  "shot": 10
+  "move": "push_in"
  },
  "16": {
-  "fx": [],
-  "move": "push_in",
-  "shot": 10,
-  "key": 15
+  "fx": [
+   "punch"
+  ],
+  "move": "pull_out"
  },
  "17": {
-  "fx": [],
-  "move": "pan_right",
-  "shot": 11
- },
- "18": {
   "fx": [
    "water",
    "spray",
    "shake"
   ],
-  "move": "pan_right",
-  "shot": 12
+  "move": "pan_right"
  },
- "19": {
+ "18": {
   "fx": [
    "water",
    "spray"
   ],
   "move": "pan_right",
-  "shot": 12,
-  "key": 18
+  "key": 17
+ },
+ "19": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in"
  },
  "20": {
-  "fx": [
-   "water"
-  ],
-  "move": "push_in",
-  "shot": 13
- },
- "21": {
-  "fx": [
-   "water"
-  ],
-  "move": "push_in",
-  "shot": 13,
-  "key": 20
- },
- "22": {
-  "fx": [
-   "water"
-  ],
-  "move": "push_in",
-  "shot": 13,
-  "key": 20
- },
- "23": {
   "fx": [
    "water",
    "sparkle"
   ],
   "move": "push_in",
-  "shot": 14
+  "keys": [
+   20,
+   92
+  ]
  },
- "24": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "pull_out",
-  "shot": 15
- },
- "25": {
+ "21": {
   "fx": [
    "flash",
    "punch",
    "sparkle"
   ],
-  "move": "pull_out",
-  "shot": 16
+  "move": "pull_out"
  },
- "26": {
+ "22": {
   "fx": [
    "sparkle"
   ],
   "move": "pull_out",
-  "shot": 16,
-  "key": 25
+  "key": 21
  },
- "27": {
+ "23": {
   "fx": [
    "embers",
    "impact"
   ],
+  "move": "tilt_down"
+ },
+ "24": {
+  "fx": [
+   "embers"
+  ],
   "move": "tilt_down",
-  "shot": 17
+  "key": 23
+ },
+ "25": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up"
+ },
+ "26": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "key": 25
+ },
+ "27": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in"
  },
  "28": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "shot": 17,
+  "move": "push_in",
   "key": 27
  },
  "29": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_up",
-  "shot": 18
+  "move": "push_in",
+  "key": 27
  },
  "30": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_up",
-  "shot": 18,
-  "key": 29
+  "move": "push_in"
  },
  "31": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
-  "shot": 19
+  "key": 30
  },
  "32": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
-  "shot": 19,
-  "key": 31
+  "key": 30
  },
  "33": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 19,
-  "key": 31
+  "move": "pull_out"
  },
  "34": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 20
+  "move": "pull_out",
+  "key": 33
  },
  "35": {
   "fx": [
-   "embers"
+   "embers",
+   "punch"
   ],
-  "move": "push_in",
-  "shot": 20,
-  "key": 34
+  "move": "tilt_down"
  },
  "36": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 20,
-  "key": 34
+  "move": "tilt_down",
+  "key": 35
  },
  "37": {
   "fx": [
-   "embers"
+   "embers",
+   "shake"
   ],
-  "move": "pull_out",
-  "shot": 21
+  "move": "push_in"
  },
  "38": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "shot": 21,
+  "move": "push_in",
   "key": 37
  },
  "39": {
   "fx": [
-   "embers",
-   "punch"
+   "embers"
   ],
-  "move": "tilt_down",
-  "shot": 22
+  "move": "push_in"
  },
  "40": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "shot": 22,
+  "move": "push_in",
   "key": 39
  },
  "41": {
   "fx": [
-   "embers",
-   "shake"
+   "embers"
   ],
   "move": "push_in",
-  "shot": 23
+  "key": 39
  },
  "42": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 23,
-  "key": 41
+  "move": "pull_out"
  },
  "43": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 24
+  "move": "pull_out",
+  "key": 42
  },
  "44": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 24,
-  "key": 43
+  "move": "pull_out",
+  "key": 42
  },
  "45": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 24,
-  "key": 43
+  "move": "pull_out",
+  "key": 42
  },
  "46": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "shot": 25
+  "move": "push_in"
  },
  "47": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "shot": 25,
+  "move": "push_in",
   "key": 46
  },
  "48": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "shot": 25,
-  "key": 46
+  "move": "tilt_down"
  },
  "49": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "shot": 25,
-  "key": 46
+  "move": "tilt_down",
+  "key": 48
  },
  "50": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 26
+  "move": "push_in"
  },
  "51": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
-  "shot": 26,
   "key": 50
  },
  "52": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "shot": 27
+  "move": "pan_right"
  },
  "53": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "shot": 27,
+  "move": "pan_right",
   "key": 52
  },
  "54": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "shot": 28
+  "move": "pan_right",
+  "key": 52
  },
  "55": {
-  "fx": [
-   "embers"
-  ],
-  "move": "push_in",
-  "shot": 28,
-  "key": 54
+  "fx": [],
+  "move": "pan_right"
  },
  "56": {
-  "fx": [
-   "embers"
-  ],
+  "fx": [],
   "move": "pan_right",
-  "shot": 29
+  "key": 55
  },
  "57": {
-  "fx": [
-   "embers"
-  ],
+  "fx": [],
   "move": "pan_right",
-  "shot": 29,
-  "key": 56
+  "key": 55
  },
  "58": {
   "fx": [
-   "embers"
+   "punch"
   ],
-  "move": "pan_right",
-  "shot": 29,
-  "key": 56
+  "move": "push_in"
  },
  "59": {
   "fx": [],
-  "move": "pan_right",
-  "shot": 30
+  "move": "push_in",
+  "key": 58
  },
  "60": {
-  "fx": [],
-  "move": "pan_right",
-  "shot": 30,
-  "key": 59
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up"
  },
  "61": {
-  "fx": [],
-  "move": "pan_right",
-  "shot": 30,
-  "key": 59
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in"
  },
  "62": {
   "fx": [
-   "punch"
+   "embers"
   ],
   "move": "push_in",
-  "shot": 31
+  "key": 61
  },
  "63": {
-  "fx": [],
-  "move": "push_in",
-  "shot": 31,
-  "key": 62
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in"
  },
  "64": {
-  "fx": [
-   "embers"
-  ],
-  "move": "tilt_up",
-  "shot": 32
+  "fx": [],
+  "move": "pull_out"
  },
  "65": {
-  "fx": [
-   "embers"
-  ],
-  "move": "push_in",
-  "shot": 33
- },
- "66": {
-  "fx": [
-   "embers"
-  ],
-  "move": "push_in",
-  "shot": 33,
-  "key": 65
- },
- "67": {
-  "fx": [
-   "embers"
-  ],
-  "move": "push_in",
-  "shot": 34
- },
- "68": {
-  "fx": [],
-  "move": "pull_out",
-  "shot": 35
- },
- "69": {
   "fx": [
    "embers",
    "punch",
    "shake"
   ],
-  "move": "tilt_up",
-  "shot": 36
+  "move": "tilt_up"
  },
- "70": {
+ "66": {
   "fx": [
    "embers"
   ],
   "move": "tilt_up",
-  "shot": 36,
-  "key": 69
+  "key": 65
  },
- "71": {
+ "67": {
   "fx": [
    "embers",
    "punch"
   ],
   "move": "push_in",
-  "shot": 37,
   "keys": [
-   71,
+   67,
    91
   ]
  },
- "72": {
+ "68": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pan_left"
+ },
+ "69": {
   "fx": [
    "embers"
   ],
   "move": "pan_left",
-  "shot": 39
+  "key": 68
  },
- "73": {
-  "fx": [
-   "embers"
-  ],
-  "move": "pan_left",
-  "shot": 39,
-  "key": 72
- },
- "74": {
+ "70": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
-  "shot": 40,
   "keys": [
-   74,
+   70,
    90
   ]
  },
- "75": {
+ "71": {
   "fx": [
    "sparkle",
    "aura_gold"
   ],
-  "move": "pull_out",
-  "shot": 42
+  "move": "pull_out"
+ },
+ "72": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in"
+ },
+ "73": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "key": 72
+ },
+ "74": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "key": 72
+ },
+ "75": {
+  "fx": [
+   "water"
+  ],
+  "move": "pull_out"
  },
  "76": {
   "fx": [
-   "sparkle"
+   "water"
   ],
-  "move": "push_in",
-  "shot": 43
+  "move": "pull_out",
+  "key": 75
  },
  "77": {
   "fx": [
-   "sparkle"
+   "water"
   ],
-  "move": "push_in",
-  "shot": 43,
-  "key": 76
+  "move": "pull_out",
+  "key": 75
  },
  "78": {
   "fx": [
-   "sparkle"
+   "water"
   ],
-  "move": "push_in",
-  "shot": 43,
-  "key": 76
+  "move": "pull_out",
+  "key": 75
  },
  "79": {
   "fx": [
    "water"
   ],
-  "move": "pull_out",
-  "shot": 44
+  "move": "push_in"
  },
  "80": {
-  "fx": [
-   "water"
-  ],
-  "move": "pull_out",
-  "shot": 44,
-  "key": 79
+  "fx": [],
+  "move": "push_in"
  },
  "81": {
-  "fx": [
-   "water"
-  ],
-  "move": "pull_out",
-  "shot": 44,
-  "key": 79
+  "fx": [],
+  "move": "push_in",
+  "key": 80
  },
  "82": {
   "fx": [
    "water"
   ],
-  "move": "pull_out",
-  "shot": 44,
-  "key": 79
- },
- "83": {
-  "fx": [
-   "water"
-  ],
-  "move": "push_in",
-  "shot": 45
- },
- "84": {
-  "fx": [],
-  "move": "push_in",
-  "shot": 46
- },
- "85": {
-  "fx": [],
-  "move": "push_in",
-  "shot": 46,
-  "key": 84
- },
- "86": {
-  "fx": [
-   "water"
-  ],
-  "move": "pull_out",
-  "shot": 47
- },
- "_": {
-  "hold_same_key": true
+  "move": "pull_out"
  }
 }

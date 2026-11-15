@@ -1,5 +1,5 @@
 {
- "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, drawn one request at a time: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Silent shot 41 (two fists) is key 90, shown inside sentence 74; the crowd answer (shot 38) is key 91, shown inside sentence 71 after the hands tearing. Scene 6 has the owner's additions of 14 Nov: Oriang and Bonifacio (bk_40, bk_41), the watchers (bk_42), Bonifacio's shout (bk_43), the tear (bk_44). bk_45 and bk_46 break the two long holds of the camp scene.",
+ "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, drawn one request at a time: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Silent shot 41 (two fists) is key 90, shown inside sentence 70; the crowd answer (shot 38) is key 91, shown inside sentence 67 after the hands tearing. Scene 6 has the owner's additions of 14 Nov: Oriang and Bonifacio (bk_40, bk_41), the watchers (bk_42), Bonifacio's shout (bk_43), the tear (bk_44). bk_45 and bk_46 break the two long holds of the camp scene. Version of 15 Nov: new hook still bk_50 (the Katipunero shouting), the paresan bk_51 to bk_53 (PARES and a price written in code; a plain invented stall), the stopped raindrops old_k16 is key 92 inside sentence 20; bk_02 and bk_07 are no longer used.",
  "look": "bakunawa",
  "look_cast": {
   "cast": {
@@ -63,13 +63,6 @@
    "light": "cold fluorescent light, hard reflections on the glass, richly painted, detailed ink linework, textured brushwork",
    "seed": "c1",
    "note": "hand: count fingers"
-  },
-  "bk_07": {
-   "subject": "Medium two-shot, three-quarter view: in front, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, turned half toward the camera with a small dry crooked smile, holding a brown folder; just behind him in the queue a young Filipino man in a cap and a basketball jersey laughing at him, his hands in his pockets; other applicants blurred behind. No dog, no animals. Both faces in the upper half.",
-   "setting": "a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere, a pale concrete government building with a long plain wall",
-   "light": "bright morning sun, hard shadows, warm haze, richly painted, detailed ink linework, textured brushwork",
-   "seed": "c2",
-   "note": ""
   },
   "bk_08": {
    "subject": "Low-angle shot of the front of a small old pawnshop at noon: above the iron-grilled glass door a wide flat plain cream signboard, completely blank, filling the upper part of the picture; a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, seen from behind in three-quarter, walking in through the door, only the cord of the medallion at the back of his neck. He is alone, no dog, no animals.",
@@ -346,21 +339,42 @@
    "seed": "c1",
    "note": "Indio aside (breaks the long hold of shot 18)"
   },
-  "bk_02": {
-   "subject": "Low-angle medium shot at night: two Filipino Katipunan revolutionaries of 1896 in loose white camisa shirts and red kerchiefs; the man in front shouts and tears a small old paper certificate in half at chest height, a thumb and four fingers on each hand; torn scraps flying. The paper is blank with a small round red stamp. Faces in the upper half of the picture.",
+  "bk_50": {
+   "subject": "Extreme close-up, low angle: a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, shouting a question with his mouth open, stern eyes, his face lit by orange torchlight; a long steel blade catches the light at the bottom edge of the picture. His face in the upper half of the picture.",
    "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
-   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
-   "seed": "c1",
-   "note": "hook flash, night like the camp (replaces the sunset still of version 1)"
+   "light": "hard orange torchlight on one side of his face, black night, embers, night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c5",
+   "note": "new hook: the shout"
+  },
+  "bk_51": {
+   "subject": "Medium shot at a street food cart: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, standing at the counter holding a small bread roll, looking hungrily at a steaming bowl of beef pares on the counter that he cannot afford; behind the cart a big kaldero steaming. A wide plain blank signboard on the awning above. He is alone, no dog, no animals. His face and the signboard in the upper half.",
+   "setting": "a small plain street-corner paresan in Quezon City at dusk in our time: a steel food cart with a big dented aluminium kaldero of beef stew steaming, a ladle, plastic stools, a short counter, a wide plain blank white signboard on the awning; no other signs, no logos, no writing anywhere",
+   "light": "warm yellow light from a bare bulb over the cart, clouds of steam, blue dusk street behind, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "paresan: sign PARES + price in code"
+  },
+  "bk_52": {
+   "subject": "Still life on a steel counter at a street food cart: a white bowl of braised beef in brown sauce with spring onions, a plate of rice and a cup of soup beside it, steam rising. Nobody in the picture. The bowl in the upper half of the picture.",
+   "setting": "a small plain street-corner paresan in Quezon City at dusk in our time: a steel food cart with a big dented aluminium kaldero of beef stew steaming, a ladle, plastic stools, a short counter, a wide plain blank white signboard on the awning; no other signs, no logos, no writing anywhere",
+   "light": "warm bulb light, glossy highlights, rising steam, dark background, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c5",
+   "note": "the bowl"
+  },
+  "bk_53": {
+   "subject": "Medium close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, grinning cheekily and calling out toward someone off to the side, holding up a small bread roll in one hand, the other hand at his side; steam from the cart behind him. He is alone, no dog, no animals. His face in the upper half of the picture.",
+   "setting": "a small plain street-corner paresan in Quezon City at dusk in our time: a steel food cart with a big dented aluminium kaldero of beef stew steaming, a ladle, plastic stools, a short counter, a wide plain blank white signboard on the awning; no other signs, no logos, no writing anywhere",
+   "light": "warm yellow bulb light, steam, blue dusk, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "Diwata, baka naman! (no picture of any real person)"
   }
  },
  "shots": {
   "0": {
-   "full": "bk_01",
+   "full": "bk_50",
    "shot": 1
   },
   "1": {
-   "full": "bk_02",
+   "full": "bk_01",
    "shot": 2
   },
   "2": {
@@ -379,169 +393,177 @@
    "full": "bk_06",
    "shot": 6
   },
-  "10": {
-   "full": "bk_07",
+  "8": {
+   "full": "bk_08",
    "shot": 7
   },
-  "12": {
-   "full": "bk_08",
+  "9": {
+   "full": "bk_09",
    "shot": 8
   },
-  "14": {
-   "full": "bk_09",
+  "10": {
+   "full": "bk_10",
    "shot": 9
   },
-  "15": {
-   "full": "bk_10",
+  "12": {
+   "full": "bk_11",
    "shot": 10
   },
-  "17": {
-   "full": "bk_11",
+  "13": {
+   "full": "bk_51",
    "shot": 11
   },
-  "18": {
-   "full": "old_k12",
+  "15": {
+   "full": "bk_52",
    "shot": 12
   },
-  "20": {
-   "full": "bk_13",
+  "16": {
+   "full": "bk_53",
    "shot": 13
   },
-  "23": {
-   "full": "old_k14",
+  "17": {
+   "full": "old_k12",
    "shot": 14
   },
-  "24": {
-   "full": "old_k16",
+  "19": {
+   "full": "bk_13",
    "shot": 15
   },
-  "25": {
-   "full": "bk_15",
+  "20": {
+   "full": "old_k14",
    "shot": 16
   },
-  "27": {
-   "full": "bk_16",
-   "shot": 17
-  },
-  "29": {
-   "full": "bk_17",
+  "21": {
+   "full": "bk_15",
    "shot": 18
   },
-  "31": {
-   "full": "bk_45",
+  "92": {
+   "full": "old_k16",
+   "shot": 17
+  },
+  "23": {
+   "full": "bk_16",
    "shot": 19
   },
-  "34": {
-   "full": "bk_18",
+  "25": {
+   "full": "bk_17",
    "shot": 20
   },
-  "37": {
-   "full": "bk_46",
+  "27": {
+   "full": "bk_45",
    "shot": 21
   },
-  "39": {
-   "full": "bk_19",
+  "30": {
+   "full": "bk_18",
    "shot": 22
   },
-  "41": {
-   "full": "bk_20",
+  "33": {
+   "full": "bk_46",
    "shot": 23
   },
-  "43": {
-   "full": "bk_21",
+  "35": {
+   "full": "bk_19",
    "shot": 24
   },
-  "46": {
-   "full": "bk_22",
+  "37": {
+   "full": "bk_20",
    "shot": 25
   },
-  "50": {
-   "full": "bk_23",
+  "39": {
+   "full": "bk_21",
    "shot": 26
   },
-  "52": {
-   "full": "bk_24",
+  "42": {
+   "full": "bk_22",
    "shot": 27
   },
-  "54": {
-   "full": "bk_25",
+  "46": {
+   "full": "bk_23",
    "shot": 28
   },
-  "56": {
-   "full": "bk_26",
+  "48": {
+   "full": "bk_24",
    "shot": 29
   },
-  "59": {
-   "full": "bk_27",
+  "50": {
+   "full": "bk_25",
    "shot": 30
   },
-  "62": {
-   "full": "bk_28",
+  "52": {
+   "full": "bk_26",
    "shot": 31
   },
-  "64": {
-   "full": "bk_29",
+  "55": {
+   "full": "bk_27",
    "shot": 32
   },
-  "65": {
-   "full": "bk_40",
+  "58": {
+   "full": "bk_28",
    "shot": 33
   },
-  "67": {
-   "full": "bk_41",
+  "60": {
+   "full": "bk_29",
    "shot": 34
   },
-  "68": {
-   "full": "bk_42",
+  "61": {
+   "full": "bk_40",
    "shot": 35
   },
-  "69": {
-   "full": "bk_43",
+  "63": {
+   "full": "bk_41",
    "shot": 36
   },
-  "71": {
-   "full": "bk_44",
+  "64": {
+   "full": "bk_42",
    "shot": 37
+  },
+  "65": {
+   "full": "bk_43",
+   "shot": 38
+  },
+  "67": {
+   "full": "bk_44",
+   "shot": 39
   },
   "91": {
    "full": "bk_30",
-   "shot": 38
-  },
-  "72": {
-   "full": "bk_31",
-   "shot": 39
-  },
-  "74": {
-   "full": "bk_32",
    "shot": 40
+  },
+  "68": {
+   "full": "bk_31",
+   "shot": 41
+  },
+  "70": {
+   "full": "bk_32",
+   "shot": 42
   },
   "90": {
    "full": "bk_33",
-   "shot": 41
-  },
-  "75": {
-   "full": "bk_34",
-   "shot": 42
-  },
-  "76": {
-   "full": "bk_35",
    "shot": 43
   },
-  "79": {
-   "full": "bk_36",
+  "71": {
+   "full": "bk_34",
    "shot": 44
   },
-  "83": {
-   "full": "bk_37",
+  "72": {
+   "full": "bk_35",
    "shot": 45
   },
-  "84": {
-   "full": "bk_38",
+  "75": {
+   "full": "bk_36",
    "shot": 46
   },
-  "86": {
-   "full": "bk_39",
+  "79": {
+   "full": "bk_37",
    "shot": 47
+  },
+  "80": {
+   "full": "bk_38",
+   "shot": 48
+  },
+  "82": {
+   "full": "bk_39",
+   "shot": 49
   }
  }
 }

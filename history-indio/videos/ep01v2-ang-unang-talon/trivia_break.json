@@ -18,7 +18,7 @@
     "1896",
     "cedula"
    ],
-   "say": "Tiyak: Agosto mil otsosyentos nobentay sais, pinunit ng mga Katipunero ang sedula nila, at doon nagsimula ang Himagsikan."
+   "say": "Tiyak: Agosto mil otsosyentos nobentay sais, pinunit ng mga Katipunero ang séhdula nila, at doon nagsimula ang Himagsikan."
   },
   {
    "speaker": "INDIO",
@@ -26,7 +26,7 @@
    "emphasis": [
     "buwis"
    ],
-   "say": "Ang sedula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula mil otsosyentos otsentay singko."
+   "say": "Ang séhdula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula mil otsosyentos otsentay singko."
   },
   {
    "speaker": "USMAN",
@@ -60,11 +60,11 @@
   }
  ],
  "placement": "end",
- "insert_after_sentence": 86,
+ "insert_after_sentence": 82,
  "after_text": "Ikaw, ka-Indio: kung hinanapan ka ng papel na wala ka, magsisinungaling ka ba, o aamin?",
  "palette": "sun",
  "grave": false,
  "gap": 0.22,
  "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
- "voice_note": "The script's fifth trivia line is split in two INDIO lines (the dispute, then the witnesses) so each caption fits; same words. Years are voiced as Spanish-derived numbers."
+ "voice_note": "The script's fifth trivia line is split in two INDIO lines (the dispute, then the witnesses) so each caption fits; same words. Years are voiced as Spanish-derived numbers. 15 Nov: 'cedula' voiced as 'SEdula' (stress on the first syllable, the owner's ear), checked per take."
 }

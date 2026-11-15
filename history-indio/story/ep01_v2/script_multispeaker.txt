@@ -1,40 +1,40 @@
 # INDIO: ANG SAKSI — Episode 1, "Ang Unang Talon" (version 2, sample of the new form)
 # MASTER script. One line per turn: NAME: [tone] text. Lines in (parentheses) are NOT spoken: they are what the
 # picture shows (see shots.md). script.txt and sentences.json are derived from this file (same words, same order).
-# Speakers: TAGAPAGSALAYSAY (calm storyteller, designed voice; place and time only). INDIO (the clone of the
+# Speakers (owner's version of 15 Nov: new hook, shorter today, the paresan): TAGAPAGSALAYSAY (calm storyteller, designed voice; place and time only). INDIO (the clone of the
 # owner's own recording). INDIO (sa atin) = Indio whispering to the viewer, same voice, closer. USMAN (designed
 # voice; only inside the jump). ISLAW (invented boy of about twelve, a camp guard; "friend" voice, boy 1).
-# BABAE SA BINTANA, LALAKI SA PILA, MAY-ARI (the pawnbroker, face never shown), KATULONG (his helper), KATIPUNERO, MGA KATIPUNERO (crowd): invented,
+# MAY-ARI (the pawnbroker, face never shown), KATULONG (his helper), KATIPUNERO, MGA KATIPUNERO (crowd): invented,
 # BONIFACIO (Andres Bonifacio, real; designed voice; his line is the traditional cry, see facts.md) and ORIANG (Gregoria de Jesus, his wife, real; designed voice; her
 # presence and words here are invented, see facts.md). Owner's order of 14 Nov: the hero speaks his iconic line on camera; the wife's tender beat before it.
 # unnamed. The leader is first seen from far, from behind; then he steps into the light and shouts.
 # "Umungol" is always said u-MU-ngol. Spoken words: about 370 in the story, about 55 in the trivia clip after it.
 
-# --- 0. Hook (over three flashes: the itak, the torn paper, the dog in the light)
-INDIO (sa atin): [dramatic] Kaninang umaga, walang cedula, kaya walang trabaho.
-INDIO (sa atin): [dramatic] Ngayong gabi, walang cedula, kaya may itak sa leeg ko.
+# --- 0. Hook (cold, on the shout: the Katipunero's face; the blade at Indio's neck; the dog in the light). A flash-forward of scene 4.
+KATIPUNERO: [shout] Nasaan ang cedula mo?!
+INDIO (sa atin): [dramatic] Walang cedula, kaya may itak sa leeg ko ngayon.
 INDIO (sa atin): [playful] Ako 'to si Indio. Malas daw ako.
 
-# --- 1. The window. He wants: a job.
-TAGAPAGSALAYSAY: [calm] Quezon City. Umaga.
-(Isang bintana ng opisina. Ibinalik ng babae ang folder ni Indio nang hindi man lang tumitingin.)
-INDIO: [hopeful] Ma'am, pang-anim na apply ko na po ito ngayong buwan.
-BABAE SA BINTANA: [flat] Kulang. Walang cedula, 'yung resibo ng buwis mo. Tatawagan ka na lang.
-(Sa likod ni Indio, mahaba ang pila. May tumawa.)
-LALAKI SA PILA: [mocking] Malas ka talaga, tol.
-INDIO (sa atin): [dry] Pang-anim na "malas" ko na rin 'yan ngayong buwan.
+# --- 1. Today: the queue. He wants: a job.
+TAGAPAGSALAYSAY: [calm] Ngayon.
+(Quezon City. Isang mahabang pila sa harap ng opisina. Ibinalik ng babae sa bintana ang folder ni Indio nang hindi man lang tumitingin.)
+INDIO (sa atin): [dry] Maghapon akong pumila. Wala pala akong cedula, 'yung resibo ng buwis. Hindi ko alam na kailangan pala 'yon.
 
 # --- 2. The pawnshop. He wants: fare home.
-TAGAPAGSALAYSAY: [calm] Tanghali. Isang sanglaan.
+TAGAPAGSALAYSAY: [calm] Isang sanglaan.
 (Sa ibabaw ng pinto, tatlong guhit na pahilig. Inilapag ni Indio ang lumang medalyon ng Lolo niya. Kinuha ito ng katulong, idiniin sandali sa isang pirasong pagkit sa ilalim ng mesa, saka ibinalik.)
 INDIO: [hopeful] Pamasahe lang po sana.
 MAY-ARI: [bored] Tanso lang 'yan, tol. Walang halaga.
-INDIO: [dry] Pati medalyon ko, bagsak sa interview.
+INDIO: [sigh] Gutom na 'ko.
+
+# --- 2b. The paresan. He wants: dinner. (A quick aside, about 10 seconds.)
+(Nakakita siya ng paresan sa kanto: umuusok ang kaldero, "PARES" ang karatula. Isang mangkok na hindi niya kayang bilhin. Tinapay na lang ang nabili niya.)
+INDIO (sa atin): [proud] Pares: taga-Quezon City, gaya ko. Sabi nila, nagsimula ito sa Retiro noong 1979: baka, kapares ng sinangag at sabaw. Ngayon, nasa buong Pilipinas na.
+INDIO: [playful] Diwata, baka naman!
 
 # --- 3. The shrine. He wants: to get out of the rain.
 TAGAPAGSALAYSAY: [calm] Gabi. Bumuhos ang ulan sa Bahay Toro.
-(Tumakbo si Indio sa silong ng Pugad Lawin Shrine, yakap ang isang tinapay. Sa bakod, isang tarpaulin: lalaking nakangiti, "Heritage Walk kasama si...", natakpan ng flyer ang pangalan.)
-INDIO: [sigh] Hapunan. Isa. Buti pa 'yung nasa tarpaulin, may trabaho.
+(Tumakbo si Indio sa silong ng Pugad Lawin Shrine, yakap ang tinapay. Sa bakod, isang tarpaulin: lalaking nakangiti, "Heritage Walk kasama si...", natakpan ng flyer ang pangalan.)
 INDIO: [bored] Wala akong kausap. Marker na lang.
 (Binasa niya nang malakas ang marker: kulog ang naririnig natin, hindi ang mga salita. Uminit ang medalyon. Tumigil ang mga patak ng ulan sa ere.)
 USMAN: [urgent] Kumapit ka, Indio!
