@@ -1,262 +1,295 @@
 {
  "_": {
+  "trans_default": "cut",
   "hold_same_key": true
  },
  "0": {
   "fx": [
-   "shake",
    "punch",
    "embers"
   ],
-  "move": "push_in"
+  "move": "dolly_in",
+  "why": "he threatens: close, push hard"
  },
  "1": {
   "fx": [
    "shake",
    "embers"
   ],
-  "move": "push_in"
+  "move": "hold",
+  "why": "blade at neck: stay still",
+  "trans_in": "slash"
  },
  "2": {
   "fx": [
-   "flash",
    "sparkle"
   ],
-  "move": "pull_out"
+  "move": "pull_out",
+  "why": "the dog leaps toward us",
+  "trans_in": "flash"
  },
  "3": {
   "fx": [
    "sparkle"
   ],
   "move": "pull_out",
+  "why": "the dog leaps toward us",
   "key": 2
  },
  "4": {
-  "fx": [],
-  "move": "tilt_down"
- },
- "5": {
-  "fx": [],
-  "move": "tilt_down",
-  "key": 4
- },
- "6": {
-  "fx": [],
-  "move": "push_in"
- },
- "7": {
-  "fx": [],
-  "move": "push_in"
- },
- "8": {
-  "fx": [],
-  "move": "tilt_up"
- },
- "9": {
   "fx": [
    "sparkle"
   ],
-  "move": "push_in"
+  "move": "pull_out",
+  "why": "the dog leaps toward us",
+  "key": 2
+ },
+ "5": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "opening: morning queue, Quezon City",
+  "trans_in": "dissolve"
+ },
+ "6": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "opening: morning queue, Quezon City",
+  "key": 5
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he hands in his papers"
+ },
+ "8": {
+  "fx": [],
+  "move": "hold",
+  "why": "the folder pushed back: object"
+ },
+ "9": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "reveal the pawnshop sign above"
  },
  "10": {
   "fx": [],
-  "move": "push_in"
+  "move": "tilt_up",
+  "why": "reveal the pawnshop sign above",
+  "key": 9
  },
  "11": {
   "fx": [],
   "move": "push_in",
-  "key": 10
+  "why": "the medallion on the glass"
  },
  "12": {
   "fx": [],
-  "move": "pan_right"
+  "move": "hold",
+  "why": "the verdict: no move needed"
  },
  "13": {
   "fx": [],
-  "move": "push_in"
+  "move": "hold",
+  "why": "the verdict: no move needed",
+  "key": 12
  },
  "14": {
   "fx": [],
-  "move": "push_in",
-  "key": 13
+  "move": "rack_focus",
+  "why": "secret: hand, wax, medallion",
+  "depth": "strong",
+  "dof": "near"
  },
  "15": {
   "fx": [],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "hungry: closer to the stall",
+  "trans_in": "dissolve"
  },
  "16": {
+  "fx": [],
+  "move": "push_in",
+  "why": "hungry: closer to the stall",
+  "key": 15
+ },
+ "17": {
+  "fx": [],
+  "move": "push_in",
+  "why": "hungry: closer to the stall",
+  "key": 15
+ },
+ "18": {
+  "fx": [],
+  "move": "push_in",
+  "why": "hungry: closer to the stall",
+  "key": 15
+ },
+ "19": {
+  "fx": [],
+  "move": "hold",
+  "why": "the bowl he cannot afford"
+ },
+ "20": {
+  "fx": [],
+  "move": "hold",
+  "why": "the bowl he cannot afford",
+  "key": 19
+ },
+ "21": {
+  "fx": [],
+  "move": "hold",
+  "why": "the bowl he cannot afford",
+  "key": 19
+ },
+ "22": {
   "fx": [
    "punch"
   ],
-  "move": "pull_out"
+  "move": "push_in",
+  "why": "the joke: punch on him"
  },
- "17": {
-  "fx": [
-   "water",
-   "spray",
-   "shake"
-  ],
-  "move": "pan_right"
- },
- "18": {
+ "23": {
   "fx": [
    "water",
    "spray"
   ],
   "move": "pan_right",
-  "key": 17
+  "why": "running with him through rain",
+  "trans_in": "dissolve"
  },
- "19": {
+ "24": {
   "fx": [
    "water"
   ],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "he takes shelter, alone"
  },
- "20": {
+ "25": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "why": "he takes shelter, alone",
+  "key": 24
+ },
+ "26": {
+  "fx": [
+   "water"
+  ],
+  "move": "push_in",
+  "why": "he takes shelter, alone",
+  "key": 24
+ },
+ "27": {
   "fx": [
    "water",
    "sparkle"
   ],
   "move": "push_in",
-  "keys": [
-   20,
-   92
-  ]
- },
- "21": {
-  "fx": [
-   "flash",
-   "punch",
-   "sparkle"
-  ],
-  "move": "pull_out"
- },
- "22": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "pull_out",
-  "key": 21
- },
- "23": {
-  "fx": [
-   "embers",
-   "impact"
-  ],
-  "move": "tilt_down"
- },
- "24": {
-  "fx": [
-   "embers"
-  ],
-  "move": "tilt_down",
-  "key": 23
- },
- "25": {
-  "fx": [
-   "embers"
-  ],
-  "move": "tilt_up"
- },
- "26": {
-  "fx": [
-   "embers"
-  ],
-  "move": "tilt_up",
-  "key": 25
- },
- "27": {
-  "fx": [
-   "embers"
-  ],
-  "move": "push_in"
+  "why": "he reads; medallion warms"
  },
  "28": {
   "fx": [
-   "embers"
+   "water",
+   "sparkle"
   ],
   "move": "push_in",
+  "why": "he reads; medallion warms",
   "key": 27
  },
  "29": {
   "fx": [
-   "embers"
+   "sparkle"
   ],
-  "move": "push_in",
-  "key": 27
+  "move": "tilt_up",
+  "why": "up to the hanging drops"
  },
  "30": {
   "fx": [
-   "embers"
+   "flash",
+   "sparkle"
   ],
-  "move": "push_in"
+  "move": "hold",
+  "why": "the dog in the light",
+  "trans_in": "flash"
  },
  "31": {
   "fx": [
-   "embers"
+   "sparkle"
   ],
-  "move": "push_in",
+  "move": "hold",
+  "why": "the dog in the light",
   "key": 30
  },
  "32": {
   "fx": [
-   "embers"
+   "sparkle"
   ],
-  "move": "push_in",
+  "move": "hold",
+  "why": "the dog in the light",
   "key": 30
  },
  "33": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out"
+  "move": "crane_down",
+  "why": "opening: the camp, 1896",
+  "trans_in": "flash"
  },
  "34": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
+  "move": "crane_down",
+  "why": "opening: the camp, 1896",
   "key": 33
  },
  "35": {
   "fx": [
-   "embers",
-   "punch"
+   "embers"
   ],
-  "move": "tilt_down"
+  "move": "crane_down",
+  "why": "opening: the camp, 1896",
+  "key": 33
  },
  "36": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "key": 35
+  "move": "dolly_in",
+  "why": "the boy blocks him: threat",
+  "trans_in": "whip"
  },
  "37": {
   "fx": [
-   "embers",
-   "shake"
+   "embers"
   ],
-  "move": "push_in"
+  "move": "dolly_in",
+  "why": "the boy blocks him: threat",
+  "key": 36
  },
  "38": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
-  "key": 37
+  "move": "dolly_in",
+  "why": "the boy blocks him: threat",
+  "key": 36
  },
  "39": {
   "fx": [
    "embers"
   ],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "the Katipunero demands the paper"
  },
  "40": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
+  "why": "the Katipunero demands the paper",
   "key": 39
  },
  "41": {
@@ -264,270 +297,483 @@
    "embers"
   ],
   "move": "push_in",
+  "why": "the Katipunero demands the paper",
   "key": 39
  },
  "42": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out"
+  "move": "hold",
+  "why": "caught out, he looks at us"
  },
  "43": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
+  "move": "hold",
+  "why": "caught out, he looks at us",
   "key": 42
  },
  "44": {
   "fx": [
-   "embers"
+   "embers",
+   "punch"
   ],
-  "move": "pull_out",
-  "key": 42
+  "move": "tilt_down",
+  "why": "spy: down to tied wrists"
  },
  "45": {
   "fx": [
    "embers"
   ],
-  "move": "pull_out",
-  "key": 42
+  "move": "tilt_down",
+  "why": "spy: down to tied wrists",
+  "key": 44
  },
  "46": {
   "fx": [
    "embers"
   ],
-  "move": "push_in"
+  "move": "tilt_down",
+  "why": "spy: down to tied wrists",
+  "key": 44
  },
  "47": {
   "fx": [
-   "embers"
+   "embers",
+   "shake"
   ],
-  "move": "push_in",
-  "key": 46
+  "move": "hold",
+  "why": "the blade at his neck"
  },
  "48": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down"
+  "move": "push_in",
+  "why": "he whispers to us"
  },
  "49": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
+  "move": "push_in",
+  "why": "he whispers to us",
   "key": 48
  },
  "50": {
   "fx": [
    "embers"
   ],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "Usman speaks low, close"
  },
  "51": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
+  "why": "Usman speaks low, close",
   "key": 50
  },
  "52": {
   "fx": [
    "embers"
   ],
-  "move": "pan_right"
+  "move": "push_in",
+  "why": "Usman speaks low, close",
+  "key": 50
  },
  "53": {
   "fx": [
    "embers"
   ],
-  "move": "pan_right",
-  "key": 52
+  "move": "hold",
+  "why": "the confession: plain, still"
  },
  "54": {
   "fx": [
    "embers"
   ],
-  "move": "pan_right",
-  "key": 52
+  "move": "hold",
+  "why": "the confession: plain, still",
+  "key": 53
  },
  "55": {
-  "fx": [],
-  "move": "pan_right"
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the confession: plain, still",
+  "key": 53
  },
  "56": {
-  "fx": [],
-  "move": "pan_right",
-  "key": 55
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the confession: plain, still",
+  "key": 53
  },
  "57": {
-  "fx": [],
-  "move": "pan_right",
-  "key": 55
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy lowers the blade"
  },
  "58": {
   "fx": [
-   "punch"
+   "embers"
   ],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "the boy lowers the blade",
+  "key": 57
  },
  "59": {
-  "fx": [],
+  "fx": [
+   "embers"
+  ],
   "move": "push_in",
-  "key": 58
+  "why": "the boy lowers the blade",
+  "key": 57
  },
  "60": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_up"
+  "move": "push_in",
+  "why": "the boy lowers the blade",
+  "key": 57
  },
  "61": {
   "fx": [
    "embers"
   ],
-  "move": "push_in"
+  "move": "pan_right",
+  "why": "follow the dogs coming in"
  },
  "62": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
+  "move": "pan_right",
+  "why": "follow the dogs coming in",
   "key": 61
  },
  "63": {
   "fx": [
    "embers"
   ],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "Usman takes the credit"
  },
  "64": {
-  "fx": [],
-  "move": "pull_out"
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "Usman takes the credit",
+  "key": 63
  },
  "65": {
   "fx": [
-   "embers",
-   "punch",
-   "shake"
+   "embers"
   ],
-  "move": "tilt_up"
+  "move": "hold",
+  "why": "the rope comes loose"
  },
  "66": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_up",
+  "move": "hold",
+  "why": "the rope comes loose",
   "key": 65
  },
  "67": {
   "fx": [
-   "embers",
-   "punch"
+   "embers"
   ],
-  "move": "push_in",
-  "keys": [
-   67,
-   91
-  ]
+  "move": "pan_right",
+  "why": "walking out, dogs follow"
  },
  "68": {
   "fx": [
    "embers"
   ],
-  "move": "pan_left"
+  "move": "pan_right",
+  "why": "walking out, dogs follow",
+  "key": 67
  },
  "69": {
   "fx": [
    "embers"
   ],
-  "move": "pan_left",
-  "key": 68
+  "move": "pan_right",
+  "why": "walking out, dogs follow",
+  "key": 67
  },
  "70": {
+  "fx": [],
+  "move": "push_in",
+  "why": "seen from the dark, slowly",
+  "trans_in": "dissolve"
+ },
+ "71": {
+  "fx": [],
+  "move": "push_in",
+  "why": "seen from the dark, slowly",
+  "key": 70
+ },
+ "72": {
   "fx": [
    "embers"
   ],
   "move": "push_in",
+  "why": "tender: very slow, close",
+  "depth": "strong",
+  "dof": "far",
+  "trans_in": "dissolve"
+ },
+ "73": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "his answer, held close",
+  "depth": "strong",
+  "dof": "far"
+ },
+ "74": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "his answer, held close",
+  "depth": "strong",
+  "dof": "far",
+  "key": 73
+ },
+ "75": {
+  "fx": [],
+  "move": "hold",
+  "why": "Indio and Islaw watching"
+ },
+ "76": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face"
+ },
+ "77": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face",
+  "key": 76
+ },
+ "78": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face",
+  "key": 76
+ },
+ "79": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face",
+  "key": 76
+ },
+ "80": {
+  "fx": [
+   "embers",
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "the cedula torn in two",
   "keys": [
-   70,
-   90
+   80,
+   91
   ]
  },
- "71": {
+ "81": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the boy explains, plainly"
+ },
+ "82": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the boy explains, plainly",
+  "key": 81
+ },
+ "83": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "he understands, looking up"
+ },
+ "84": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "up to the raised fists"
+ },
+ "85": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "up to the raised fists",
+  "key": 84
+ },
+ "86": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "up to the raised fists",
+  "key": 84
+ },
+ "87": {
   "fx": [
    "sparkle",
    "aura_gold"
   ],
-  "move": "pull_out"
+  "move": "pull_out",
+  "why": "Indio leaving, boy reaching"
  },
- "72": {
+ "88": {
   "fx": [
    "sparkle"
   ],
-  "move": "push_in"
+  "move": "pull_out",
+  "why": "Usman fades into light",
+  "trans_in": "flash"
  },
- "73": {
+ "89": {
   "fx": [
    "sparkle"
   ],
-  "move": "push_in",
-  "key": 72
+  "move": "pull_out",
+  "why": "Usman fades into light",
+  "key": 88
  },
- "74": {
+ "90": {
   "fx": [
    "sparkle"
   ],
-  "move": "push_in",
-  "key": 72
- },
- "75": {
-  "fx": [
-   "water"
-  ],
-  "move": "pull_out"
- },
- "76": {
-  "fx": [
-   "water"
-  ],
   "move": "pull_out",
-  "key": 75
+  "why": "Usman fades into light",
+  "key": 88
  },
- "77": {
+ "91": {
   "fx": [
    "water"
   ],
-  "move": "pull_out",
-  "key": 75
+  "move": "crane_down",
+  "why": "back in Quezon City, alone",
+  "trans_in": "flash"
  },
- "78": {
+ "92": {
   "fx": [
    "water"
   ],
-  "move": "pull_out",
-  "key": 75
+  "move": "crane_down",
+  "why": "back in Quezon City, alone",
+  "key": 91
  },
- "79": {
+ "93": {
   "fx": [
    "water"
   ],
-  "move": "push_in"
+  "move": "crane_down",
+  "why": "back in Quezon City, alone",
+  "key": 91
  },
- "80": {
+ "94": {
+  "fx": [
+   "water"
+  ],
+  "move": "rack_focus",
+  "why": "the mark on his arm"
+ },
+ "95": {
+  "fx": [
+   "water"
+  ],
+  "move": "rack_focus",
+  "why": "the mark on his arm",
+  "key": 94
+ },
+ "96": {
+  "fx": [
+   "water"
+  ],
+  "move": "rack_focus",
+  "why": "the mark on his arm",
+  "key": 94
+ },
+ "97": {
+  "fx": [
+   "water"
+  ],
+  "move": "rack_focus",
+  "why": "the mark on his arm",
+  "key": 94
+ },
+ "98": {
+  "fx": [
+   "water"
+  ],
+  "move": "rack_focus",
+  "why": "the mark on his arm",
+  "key": 94
+ },
+ "99": {
+  "fx": [
+   "water"
+  ],
+  "move": "orbit_left",
+  "why": "the woman watching him"
+ },
+ "100": {
   "fx": [],
-  "move": "push_in"
+  "move": "push_in",
+  "why": "the wax print revealed",
+  "trans_in": "dissolve"
  },
- "81": {
+ "101": {
   "fx": [],
   "move": "push_in",
-  "key": 80
+  "why": "the wax print revealed",
+  "key": 100
  },
- "82": {
+ "102": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the wax print revealed",
+  "key": 100
+ },
+ "103": {
   "fx": [
    "water"
   ],
-  "move": "pull_out"
+  "move": "pull_out",
+  "why": "the question to us"
  }
 }
