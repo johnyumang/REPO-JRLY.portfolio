@@ -19,7 +19,7 @@ episode's world is daylight smoke, stone, a kitchen, a drain and a river bank.
 | 6 | 10-12 | He opens the bag a finger's width and sniffs; steam; his eyes close | close-up on bag and face |
 | 7 | (silent) | Phone screen: one star beside a small picture of Indio; above it "Top Rider: R.B." with five stars (text in code) | insert, push in |
 | 8 | 13-14 | He walks to a plaque on the old wall, reading aloud, lips moving; the medallion at his neck starts to glow | over the shoulder, plaque unreadable |
-| 9 | 17-18 | Gold light opens over the rampart; Usman trots out of it, nose toward the bag | wide, flash |
+| 9 | 15-18 | Gold light opens over the rampart; Usman trots out of it, nose toward the bag | wide, flash |
 | 10 | 19-20 | 1762: inside the walls, a street of stone houses under yellow smoke; the ground cracked; Indio (era outfit, red headband) lands on one knee, bag still in hand | crane down, shake |
 | 11 | 21-22 | A small hand yanks his sleeve; behind him a piece of tiled roof crashes where he stood | close-up on hands, then the crash |
 | 12 | 23-26 | Inside a low stone kitchen: clay stove, hanging pots swinging; Sepa (eleven, tapis, hair tied back) crouched with him under a table | two-shot under the table |
