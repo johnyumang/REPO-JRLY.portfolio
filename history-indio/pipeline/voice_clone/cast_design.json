@@ -861,6 +861,32 @@
     140,
     280
    ]
+  },
+  "ALING PINING": {
+   "descriptions": [
+    "An older Filipina baker around fifty-five, brisk, loud and warm market voice, bossy but kind, a little husky, quick pace, medium-low pitch for a woman, Filipino accent",
+    "A strong, hard-working older woman who runs a bakery, sharp and bustling, scolding with a smile, slightly hoarse, Filipino accent",
+    "A no-nonsense older market woman around fifty-five, firm, carrying voice with warmth underneath, fast and practical, Filipino accent"
+   ],
+   "ref_text": "Hoy, gising na! Alas-kuwatro na, at hindi pa tapos ang masa. Ilang taon na akong nagluluto ng pandesal dito sa Cavite, at ni minsan, hindi ako nahuli sa umaga. Kaya kilos na, bago pa lumamig ang pugon.",
+   "sample": "Dalhin mo 'to, at huwag mong ihulog sa daan.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "MABINI": {
+   "descriptions": [
+    "A thin man in his early thirties, quiet, precise and measured voice, very calm and exact, a scholar who weighs every word, soft but clear, medium-low pitch, slow, Filipino accent",
+    "A soft-spoken young lawyer around thirty-three, low, even and deliberate voice, cool and serious, never raised, crisp diction, Filipino accent",
+    "A calm, sharp-minded man in his thirties, hushed and exact, a little dry, steady and unhurried, Filipino accent"
+   ],
+   "ref_text": "Hindi sapat ang sigaw ng karamihan para tumayo ang isang bayan. Kailangan ng batas, ng pag-iingat, at ng pasensiya. Isinulat ko ang lahat ng ito nang dahan-dahan, salita sa salita, dahil ang isang maling salita ay maaaring magpabagsak sa atin.",
+   "sample": "Maaga pa. Hindi pa tayo handa.",
+   "f0_hz": [
+    80,
+    180
+   ]
   }
  }
 }
