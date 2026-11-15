@@ -1,0 +1,695 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true
+ },
+ "0": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "the command hits at once"
+ },
+ "1": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "follows the birds up"
+ },
+ "2": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "follows the birds up",
+  "key": 1
+ },
+ "3": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "follows the birds up",
+  "key": 1
+ },
+ "4": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her hand holds his"
+ },
+ "5": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her hand holds his",
+  "key": 4
+ },
+ "6": {
+  "fx": [],
+  "move": "push_in",
+  "why": "new place, before sunrise",
+  "trans_in": "dissolve"
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "why": "new place, before sunrise",
+  "key": 6
+ },
+ "8": {
+  "fx": [],
+  "move": "hold",
+  "why": "he preens, camera waits"
+ },
+ "9": {
+  "fx": [],
+  "move": "hold",
+  "why": "he preens, camera waits",
+  "key": 8
+ },
+ "10": {
+  "fx": [],
+  "move": "push_in",
+  "why": "taho bought with her note"
+ },
+ "11": {
+  "fx": [],
+  "move": "push_in",
+  "why": "taho bought with her note",
+  "key": 10
+ },
+ "12": {
+  "fx": [],
+  "move": "push_in",
+  "why": "taho bought with her note",
+  "key": 10
+ },
+ "13": {
+  "fx": [],
+  "move": "push_in",
+  "why": "taho bought with her note",
+  "key": 10
+ },
+ "14": {
+  "fx": [],
+  "move": "hold",
+  "why": "nobody came, only a marker"
+ },
+ "15": {
+  "fx": [],
+  "move": "hold",
+  "why": "nobody came, only a marker",
+  "key": 14
+ },
+ "16": {
+  "fx": [],
+  "move": "hold",
+  "why": "nobody came, only a marker",
+  "key": 14
+ },
+ "17": {
+  "fx": [],
+  "move": "hold",
+  "why": "nobody came, only a marker",
+  "key": 14
+ },
+ "18": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the medallion wakes"
+ },
+ "19": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "new time, behind the crowd",
+  "trans_in": "flash"
+ },
+ "20": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "new time, behind the crowd",
+  "key": 19
+ },
+ "21": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "new time, behind the crowd",
+  "key": 19
+ },
+ "22": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "new time, behind the crowd",
+  "key": 19
+ },
+ "23": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "new time, behind the crowd",
+  "key": 19
+ },
+ "24": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play"
+ },
+ "25": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play",
+  "key": 24
+ },
+ "26": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play",
+  "key": 24
+ },
+ "27": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play",
+  "key": 24
+ },
+ "28": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play",
+  "key": 24
+ },
+ "29": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog will not play",
+  "key": 24
+ },
+ "30": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the boy joins them"
+ },
+ "31": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the boy joins them",
+  "key": 30
+ },
+ "32": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the boy joins them",
+  "key": 30
+ },
+ "33": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the boy joins them",
+  "key": 30
+ },
+ "34": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "toward where he points"
+ },
+ "35": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "toward where he points",
+  "key": 34
+ },
+ "36": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "toward where he points",
+  "key": 34
+ },
+ "37": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "walks with the man"
+ },
+ "38": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he knows the man"
+ },
+ "39": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he knows the man",
+  "key": 38
+ },
+ "40": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he knows the man",
+  "key": 38
+ },
+ "41": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he knows the man",
+  "key": 38
+ },
+ "42": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "ends on the red umbrella"
+ },
+ "43": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides"
+ },
+ "44": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "45": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "46": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "47": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "48": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "49": {
+  "fx": [],
+  "move": "hold",
+  "why": "they keep their sides",
+  "key": 43
+ },
+ "50": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she takes his hand"
+ },
+ "51": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she takes his hand",
+  "key": 50
+ },
+ "52": {
+  "fx": [],
+  "move": "hold",
+  "why": "a whisper, nothing moves"
+ },
+ "53": {
+  "fx": [],
+  "move": "hold",
+  "why": "a whisper, nothing moves",
+  "key": 52
+ },
+ "54": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "front line to back line"
+ },
+ "55": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "front line to back line",
+  "key": 54
+ },
+ "56": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "front line to back line",
+  "key": 54
+ },
+ "57": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "front line to back line",
+  "key": 54
+ },
+ "58": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy looks up"
+ },
+ "59": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy looks up",
+  "key": 58
+ },
+ "60": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy looks up",
+  "key": 58
+ },
+ "61": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy looks up",
+  "key": 58
+ },
+ "62": {
+  "fx": [],
+  "move": "hold",
+  "why": "a memory, half a second",
+  "trans_in": "flash"
+ },
+ "63": {
+  "fx": [],
+  "move": "hold",
+  "why": "a calm pulse, watched"
+ },
+ "64": {
+  "fx": [],
+  "move": "hold",
+  "why": "he asks to face them"
+ },
+ "65": {
+  "fx": [],
+  "move": "hold",
+  "why": "they refuse, he turns"
+ },
+ "66": {
+  "fx": [],
+  "move": "hold",
+  "why": "they refuse, he turns",
+  "key": 65
+ },
+ "67": {
+  "fx": [],
+  "move": "hold",
+  "why": "they refuse, he turns",
+  "key": 65
+ },
+ "68": {
+  "fx": [],
+  "move": "hold",
+  "why": "they refuse, he turns",
+  "key": 65
+ },
+ "69": {
+  "fx": [],
+  "move": "hold",
+  "why": "the growl needs no move"
+ },
+ "70": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down toward her hands"
+ },
+ "71": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down toward her hands",
+  "key": 70
+ },
+ "72": {
+  "fx": [],
+  "move": "hold",
+  "why": "ends on the tightening hands"
+ },
+ "73": {
+  "fx": [],
+  "move": "hold",
+  "why": "ends on the tightening hands",
+  "key": 72
+ },
+ "74": {
+  "fx": [],
+  "move": "hold",
+  "why": "the field holds its breath"
+ },
+ "75": {
+  "fx": [],
+  "move": "hold",
+  "why": "hold still on his words"
+ },
+ "76": {
+  "fx": [],
+  "move": "hold",
+  "why": "he blinks, we stay"
+ },
+ "77": {
+  "fx": [],
+  "move": "hold",
+  "why": "we do not look"
+ },
+ "78": {
+  "fx": [],
+  "move": "push_in",
+  "why": "ends on the black hat"
+ },
+ "79": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy is very quiet"
+ },
+ "80": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy is very quiet",
+  "key": 79
+ },
+ "81": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy is very quiet",
+  "key": 79
+ },
+ "82": {
+  "fx": [],
+  "move": "hold",
+  "why": "the boy is very quiet",
+  "key": 79
+ },
+ "83": {
+  "fx": [],
+  "move": "hold",
+  "why": "he admits he blinked"
+ },
+ "84": {
+  "fx": [],
+  "move": "hold",
+  "why": "he admits he blinked",
+  "key": 83
+ },
+ "85": {
+  "fx": [],
+  "move": "hold",
+  "why": "her hand is gone"
+ },
+ "86": {
+  "fx": [],
+  "move": "hold",
+  "why": "the umbrella is gone"
+ },
+ "87": {
+  "fx": [],
+  "move": "hold",
+  "why": "the medallion is gone"
+ },
+ "88": {
+  "fx": [],
+  "move": "orbit_left",
+  "why": "he has lost everything"
+ },
+ "89": {
+  "fx": [],
+  "move": "orbit_left",
+  "why": "he has lost everything",
+  "key": 88
+ },
+ "90": {
+  "fx": [],
+  "move": "orbit_left",
+  "why": "he has lost everything",
+  "key": 88
+ },
+ "91": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her note explains it"
+ },
+ "92": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her note explains it",
+  "key": 91
+ },
+ "93": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her note explains it",
+  "key": 91
+ },
+ "94": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her note explains it",
+  "key": 91
+ },
+ "95": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd leaves him"
+ },
+ "96": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd leaves him",
+  "key": 95
+ },
+ "97": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd leaves him",
+  "key": 95
+ },
+ "98": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd leaves him",
+  "key": 95
+ },
+ "99": {
+  "fx": [],
+  "move": "hold",
+  "why": "no new mark comes"
+ },
+ "100": {
+  "fx": [],
+  "move": "hold",
+  "why": "no new mark comes",
+  "key": 99
+ },
+ "101": {
+  "fx": [],
+  "move": "hold",
+  "why": "no new mark comes",
+  "key": 99
+ },
+ "102": {
+  "fx": [],
+  "move": "hold",
+  "why": "no new mark comes",
+  "key": 99
+ },
+ "103": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog tells him why"
+ },
+ "104": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog tells him why",
+  "key": 103
+ },
+ "105": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog tells him why",
+  "key": 103
+ },
+ "106": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he still hears the dog",
+  "dof": "far"
+ },
+ "107": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he still hears the dog",
+  "dof": "far",
+  "key": 106
+ },
+ "108": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he still hears the dog",
+  "dof": "far",
+  "key": 106
+ },
+ "109": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he still hears the dog",
+  "dof": "far",
+  "key": 106
+ },
+ "110": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he still hears the dog",
+  "dof": "far",
+  "key": 106
+ },
+ "111": {
+  "fx": [],
+  "move": "hold",
+  "why": "a drink and a joke"
+ },
+ "112": {
+  "fx": [],
+  "move": "hold",
+  "why": "a drink and a joke",
+  "key": 111
+ },
+ "113": {
+  "fx": [],
+  "move": "hold",
+  "why": "a drink and a joke",
+  "key": 111
+ },
+ "114": {
+  "fx": [],
+  "move": "hold",
+  "why": "a drink and a joke",
+  "key": 111
+ },
+ "115": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "the dog does not fade"
+ },
+ "116": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "they walk on together"
+ },
+ "117": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "they walk on together",
+  "key": 116
+ },
+ "118": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "they walk on together",
+  "key": 116
+ },
+ "119": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "they walk on together",
+  "key": 116
+ },
+ "120": {
+  "fx": [],
+  "move": "hold",
+  "why": "the question needs stillness"
+ }
+}

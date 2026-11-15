@@ -296,6 +296,14 @@
   "speaker": "GUWARDIYA"
  },
  {
+  "text": "Nagtago sila hanggang makalampas ang guwardiya.",
+  "say": "nagtago sila hanggang makalampas ang guwardiya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Sa lilim ng pader, binuksan na ni Indio ang sulat.",
   "say": "sa lilim ng pader, binuksan na ni indio ang sulat.",
   "style": "low",
@@ -639,6 +647,14 @@
   "text": "Pagkatapos, lumitaw ang isang maliit na lapida.",
   "say": "pagkatapos, lumitaw ang isang maliit na lapida.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tatlong letra lang: R, P, J.",
+  "say": "tatlong letra lang: r, p, j.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
