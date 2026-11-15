@@ -9,7 +9,7 @@
   "keys": [
    0,
    90,
-   36
+   89
   ]
  },
  "1": {
@@ -123,12 +123,17 @@
   "fx": [],
   "framing": "CU",
   "move": "rack_focus",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   17,
+   100
+  ]
  },
  "18": {
   "fx": [],
   "framing": "two-shot",
-  "move": "push_in"
+  "move": "push_in",
+  "trans_in": "cut"
  },
  "19": {
   "fx": [
@@ -181,7 +186,11 @@
   "fx": [],
   "framing": "OTS-far",
   "move": "rack_focus",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   26,
+   101
+  ]
  },
  "27": {
   "fx": [],
@@ -393,24 +402,40 @@
   "fx": [],
   "framing": "wide",
   "move": "pan_right",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   56,
+   102
+  ]
  },
  "57": {
   "fx": [],
   "framing": "high-wide",
   "move": "crane_down",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   57,
+   103
+  ]
  },
  "58": {
   "fx": [],
   "framing": "high",
-  "move": "tilt_down"
+  "move": "tilt_down",
+  "keys": [
+   58,
+   104
+  ]
  },
  "59": {
   "fx": [],
   "framing": "wide",
   "move": "dolly_in",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   59,
+   105
+  ]
  },
  "60": {
   "fx": [],
@@ -439,7 +464,11 @@
   ],
   "framing": "wide",
   "move": "orbit_left",
-  "depth": "strong"
+  "depth": "strong",
+  "keys": [
+   64,
+   106
+  ]
  },
  "65": {
   "fx": [],
