@@ -1,0 +1,117 @@
+# INDIO: ANG SAKSI — Episode 5, "Dalawampung Milyon" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: NOT to jump tonight (he is tricked). Then: to get into the room where the Philippines is being decided.
+# SABI-SABI: "Binili tayo ng Amerika sa Espanya. Dalawang dolyar bawat ulo."
+# TWIST (BIBLE row 5): he wins the wrong thing. Fall: he gets into the great room, and there is no Filipino in
+#   it; he breaks a tray and is sent down to the sink. Comeback: Ang Malas, from the lowest window in the
+#   building he sees the one lit window that matters. It costs him his last twenty pesos.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (only inside the jump). AMBO (invented Filipino
+# seaman of about forty, washing dishes in a Paris hotel; "friend" voice, old man). PUNONG WEYTER (an invented
+# French head waiter; one shout).
+# AGONCILLO (Felipe Agoncillo, real, 39 in 1898; designed voice, a tired, steady lawyer): ONE line, the
+#   substance of his written protest of 12 December 1898, in Tagalog; see facts.md. He is seen through a
+#   window, writing; Indio never meets him. The commissioners are far figures and say nothing; the number is
+#   on a paper, never spoken by them.
+# His wife Marcela was in Hong Kong: the tender beat is her letter in his hand (invented, marked in facts.md).
+# "Umungol" is always said u-MU-ngol.
+# SAY: Imbécile=embeSIL
+# SAY: San Juan=san HWAN
+# SAY: Quezon=KEson
+# SAY: Paris=paRIS
+# SAY: 1898=mil otsosyentos nobentay otso
+# SAY: Agoncillo=agonSILyo
+# SAY: Felipe=peLIpe
+# SAY: Marcela=marSEla
+# SAY: Hong Kong=hong kong
+# SAY: Ambo=AMbo
+# SAY: Batangas=baTANGgas
+# SAY: internet=INternet
+# SAY: bonjour=bonZHUR
+# SAY: Don=don
+
+# --- 0. Hook (cold, at 0.0, on the crash: a flash-forward of scene 3)
+(Isang bandehang puno ng baso, bumagsak sa sahig na marmol. Basag. Lumingon ang isang silid na puno ng mga lalaking naka-itim.)
+PUNONG WEYTER: [shout] Imbécile!
+INDIO (sa atin): [dramatic] Nakabasag ako ng baso sa gabing ipinamigay ang Pilipinas. Mas napansin pa nila ang baso.
+INDIO (sa atin): [playful] Ako 'to si Indio. At ayoko sanang bumalik sa nakaraan ngayong gabi.
+
+# --- 1. Today (short, Indio's voice). He wants: NOT to jump.
+TAGAPAGSALAYSAY: [calm] Ngayon. San Juan.
+(Sa loob ng isang tahimik na simbahan. Nakaupo si Indio sa huling bangko. Sa palad niya, isang lukot na bente pesos.)
+INDIO (sa atin): [dry] Apat na ang marka ko. Wala pa rin akong trabaho. Ito na lang ang pera ko.
+INDIO (sa atin): [proud] Bente: ang perang papel na pinakagamit nating mga Pilipino. Kaya nga ginagawa na itong barya, kasi mabilis maluma. Si Quezon ang nakaguhit. Sa akin, hindi naluluma. Hindi kasi tumatagal.
+(Sa tabi niya, isang marker sa dingding. Tumalikod si Indio rito.)
+INDIO: [firm] Hindi. Hindi ako magbabasa ngayong gabi. Gutom ako, pagod ako.
+(Sa paanan ng marker, may nakaipit na isa pang bente, may sulat-kamay. Dinampot niya.)
+INDIO: [pleased] Uy, bente rin. May nakasulat pa.
+(Binasa niya nang malakas ang sulat-kamay. Kopya pala ito ng nasa marker. Sa dulo, isang letra: M. Uminit ang medalyon.)
+INDIO: [annoyed] M na naman. Naisahan ako.
+
+# --- 2. The kitchen. He wants: to know where he is.
+TAGAPAGSALAYSAY: [low] Paris. Ikasampu ng Disyembre, 1898. Gabi.
+(Niyebe. Isang makitid na eskinita sa likod ng isang malaking gusali. Mula sa liwanag, lumabas ang itim na asong si Usman, nanginginig.)
+USMAN: [shivering] Bonjour, par. Ang lamig. Bakit ba ako sumasama sa'yo?
+INDIO: [dry] Ikaw ang may balahibo. Ako ang naka-polo lang.
+(Bumukas ang isang pintuan ng kusina. Isang lalaking kayumanggi, naka-apron, may dalang timba ng maruming tubig.)
+AMBO: [surprised] Kababayan? Dito? Pumasok ka, mamamatay ka sa lamig. Ako si Ambo. Marino, taga-Batangas. Naiwan ng barko, kaya naghuhugas ng pinggan.
+INDIO: [curious] Ano'ng meron sa itaas? Ang daming karwahe.
+AMBO: [low] Mga Amerikano at Kastila. Pinag-uusapan ang Pilipinas. Ngayong gabi ang pirmahan.
+INDIO (sa atin): [whisper] Sabi sa internet, binili raw tayo. Dalawang dolyar bawat ulo. Gusto kong makita kung sino ang pumayag.
+(Umungol si Usman sa salitang "binili".)
+
+# --- 3. The great room. He wins the wrong thing. THE FALL.
+(Isinuot ni Ambo kay Indio ang isang puting dyaket ng weyter at iniabot ang isang bandeha ng mga baso.)
+AMBO: [quick] Huwag kang titingin sa mata nila. Hindi ka nila makikita. Ganyan kami rito.
+(Isang malaking silid. Mga chandelier. Isang mahabang mesa: mga lalaking naka-itim sa magkabilang panig. Dumaan si Indio sa pagitan nila. Walang lumingon.)
+INDIO (sa atin): [whisper] Nakapasok ako. Ako, na hindi makapasok kahit sa isang opisina sa Quezon City.
+(Sa gitna ng mesa, isang papel. Isang numero: dalawampung milyon. Isang panulat, ipinapasa.)
+INDIO (sa atin): [whisper] Ayan ang numero. Bayad ng Amerika sa Espanya. Ngayon, bibilangin ko ang mga Pilipino sa mesa.
+(Tiningnan niya ang bawat mukha. Isa-isa. Hanggang sa dulo.)
+INDIO: [hollow] Wala.
+(Nanlambot ang mga kamay niya. Dumulas ang bandeha. Basag.)
+PUNONG WEYTER: [shout] Imbécile!
+(Hinila siya ng punong weyter sa manggas, pababa ng hagdan, pabalik sa kusina, at itinulak sa harap ng isang bundok ng maruruming pinggan.)
+INDIO (sa atin): [whisper] Sa silid na 'yon pinagpasyahan ang bayan ko. At wala ni isa sa atin ang tinanong.
+
+# --- 4. THE COMEBACK. Ang Malas: the lowest window.
+(Ang lababo. Sa itaas nito, isang maliit at maruming bintana, kapantay ng kalsada. Paa ng mga kabayo. Niyebe.)
+AMBO: [gentle] Dito sa ibaba, kuya, mas marami kang makikita. Subukan mo ang bintanang 'yan.
+(Pinunasan ni Indio ang salamin ng manggas. Sa kabila ng kalye, sa itaas ng isang lumang paupahan, iisang bintana ang may ilaw. Isang lalaki, nakayuko, nagsusulat.)
+USMAN: [low] Par. Mali ang silid na pinasok mo kanina. 'Yang bintanang 'yan ang tama.
+INDIO: [quiet] Sino 'yon?
+AMBO: [proud] Si Don Felipe Agoncillo. Abogado, taga-Batangas din. Sugo natin. Ilang linggo na siyang kumakatok sa kanila. Hindi siya pinapasok kahit minsan.
+(Sa bintana: huminto ang lalaki. Kinuha niya ang isang liham mula sa bulsa sa dibdib, idinikit sandali sa noo, at ibinalik.)
+AMBO: [soft] Sulat ng asawa niya. Si Doña Marcela. Nasa Hong Kong.
+(Tumayo ang lalaki. Binasa niya nang malakas ang kasusulat lang niya, sa walang-taong silid.)
+AGONCILLO: [steady] Tutol ako sa anumang pasyang ginawa rito, hangga't hindi kinikilala ang kalayaan ng bayang Pilipino.
+(Lumamlam ang ilaw sa bintana. Paubos na ang langis ng lampara.)
+AMBO: [worried] Wala na siyang langis. At wala na akong pambili.
+(Inilabas ni Indio ang sarili niyang bente. Ang huli.)
+INDIO: [pained] Ito. Huling pera ko 'to.
+AMBO: [puzzled] Hindi 'yan tatanggapin dito. Sino 'yang nakaguhit?
+INDIO: [quiet] Si Quezon. Presidente natin. Balang araw.
+(Natigilan si Ambo. Hinawakan niya ang bente na parang banal na bagay.)
+AMBO: [moved] Presidente. Natin. Itatago ko 'to, kuya. Ako nang bahala sa langis.
+(Kinuha ni Ambo ang sarili niyang lampara sa kusina at tumawid ng kalye. Sumunod si Indio, at tatlo pang kayumangging tagahugas. Tumayo sila sa niyebe, nakatingala sa bintanang muling lumiwanag.)
+USMAN: [soft] Bilangin mo ulit, par.
+INDIO: [warm] Isa, dalawa, tatlo, apat, lima. Lima kaming Pilipino sa kalyeng ito.
+
+# --- 5. Back. The fifth mark.
+TAGAPAGSALAYSAY: [calm] Lumamig ang medalyon.
+(San Juan ngayon. Mag-isa si Indio sa pinto ng simbahan. Sa braso niya, ikalimang guhit, umuusok. Sa kamay niya, ang bente na may sulat-kamay ni M.)
+INDIO: [wince] Aray. Lima. At ang natira sa akin, bente ng ibang tao.
+(Sa kabilang kalsada, isang babaeng may pulang payong. Itinaas niya ang kamay: limang daliri. Tapos nawala.)
+INDIO (sa atin): [whisper] Lima. Bakit parang binibilang niya ako?
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung hindi ka pinapasok sa silid, saan ka tatayo para marinig ka pa rin?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? Binili tayo?
+# INDIO: Tiyak: ikasampu ng Disyembre 1898, sa Kasunduan sa Paris, isinuko ng Espanya ang Pilipinas sa Amerika, at dalawampung milyong dolyar ang ibabayad. Walang Pilipinong kasali.
+# INDIO: Si Felipe Agoncillo, sugo ni Aguinaldo, hindi pinapasok sa kahit isang pulong. Makalipas ang dalawang araw, naghain siya ng protesta.
+# USMAN: Eh bentahan ba talaga?
+# INDIO: 'Yan ang pinagtatalunan. May nagsasabing bayad lang 'yon sa mga gusali at pagawaing-bayan. At 'yung dalawang dolyar bawat ulo, kuwenta lang 'yon sa tantiyang populasyon.
+# USMAN: Kaya pala ako umungol.
