@@ -837,6 +837,42 @@
     80,
     170
    ]
+  },
+  "KIKO": {
+   "descriptions": [
+    "A ten-year-old Filipino boy's soft, clear voice, gentle and serious for his age, speaking quietly, a little breathy, Filipino accent",
+    "A young boy about ten, light clear voice, earnest and kind, careful soft speech, Filipino accent"
+   ],
+   "ref_text": "Tubig po, gusto ninyo? Malamig pa ito, galing sa balon sa likod ng simbahan. Kanina pa ako naglalakad, pero ayos lang. Sabi ni Inay, huwag daw akong maingay kapag maraming tao. Kaya pabulong lang ako magsalita.",
+   "sample": "Tubig, kuya? Libre na ngayong umaga.",
+   "f0_hz": [
+    180,
+    420
+   ]
+  },
+  "OPISYAL": {
+   "descriptions": [
+    "A stern military officer in his forties, loud, hard and clipped commanding voice, barking orders across a field, Spanish-accented",
+    "A harsh, powerful male voice of a nineteenth-century army officer, curt and loud, giving commands, deep chest voice"
+   ],
+   "ref_text": "Atención! Todos en su lugar. Nadie se mueve hasta que yo lo diga. Preparen las armas, y esperen la orden. Silencio en las filas. Firmes!",
+   "sample": "Fuego!",
+   "f0_hz": [
+    80,
+    300
+   ]
+  },
+  "RIZAL": {
+   "descriptions": [
+    "A calm, clear, quiet voice of a Filipino man of thirty-five, educated and gentle, composed and steady, soft but firm, unhurried",
+    "A composed, soft-spoken man in his mid-thirties, clear diction, calm dignity, warm low voice, Filipino accent"
+   ],
+   "ref_text": "Mahinahon akong magsalita, kahit mabigat ang umagang ito. Malinaw sa akin ang lahat ng nangyari. Hindi ako natatakot. Ang mahalaga, may naiwan akong mga salita, at may mga taong magpapatuloy.",
+   "sample": "Consummatum est!",
+   "f0_hz": [
+    80,
+    260
+   ]
   }
  }
 }
