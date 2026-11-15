@@ -897,6 +897,56 @@
     75,
     240
    ]
+  },
+  "ALING PINING": {
+   "descriptions": [
+    "An older Filipina baker around fifty-five, brisk, loud and warm market voice, bossy but kind, a little husky, quick pace, medium-low pitch for a woman, Filipino accent",
+    "A strong, hard-working older woman who runs a bakery, sharp and bustling, scolding with a smile, slightly hoarse, Filipino accent",
+    "A no-nonsense older market woman around fifty-five, firm, carrying voice with warmth underneath, fast and practical, Filipino accent"
+   ],
+   "ref_text": "Hoy, gising na! Alas-kuwatro na, at hindi pa tapos ang masa. Ilang taon na akong nagluluto ng pandesal dito sa Cavite, at ni minsan, hindi ako nahuli sa umaga. Kaya kilos na, bago pa lumamig ang pugon.",
+   "sample": "Dalhin mo 'to, at huwag mong ihulog sa daan.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "MABINI": {
+   "descriptions": [
+    "A thin man in his early thirties, quiet, precise and measured voice, very calm and exact, a scholar who weighs every word, soft but clear, medium-low pitch, slow, Filipino accent",
+    "A soft-spoken young lawyer around thirty-three, low, even and deliberate voice, cool and serious, never raised, crisp diction, Filipino accent",
+    "A calm, sharp-minded man in his thirties, hushed and exact, a little dry, steady and unhurried, Filipino accent"
+   ],
+   "ref_text": "Hindi sapat ang sigaw ng karamihan para tumayo ang isang bayan. Kailangan ng batas, ng pag-iingat, at ng pasensiya. Isinulat ko ang lahat ng ito nang dahan-dahan, salita sa salita, dahil ang isang maling salita ay maaaring magpabagsak sa atin.",
+   "sample": "Maaga pa. Hindi pa tayo handa.",
+   "f0_hz": [
+    80,
+    180
+   ]
+  },
+  "KIKO": {
+   "descriptions": [
+    "A ten-year-old Filipino boy's soft, clear voice, gentle and serious for his age, speaking quietly, a little breathy, Filipino accent",
+    "A young boy about ten, light clear voice, earnest and kind, careful soft speech, Filipino accent"
+   ],
+   "ref_text": "Tubig po, gusto ninyo? Malamig pa ito, galing sa balon sa likod ng simbahan. Kanina pa ako naglalakad, pero ayos lang. Sabi ni Inay, huwag daw akong maingay kapag maraming tao. Kaya pabulong lang ako magsalita.",
+   "sample": "Tubig, kuya? Libre na ngayong umaga.",
+   "f0_hz": [
+    180,
+    420
+   ]
+  },
+  "OPISYAL": {
+   "descriptions": [
+    "A stern military officer in his forties, loud, hard and clipped commanding voice, barking orders across a field, Spanish-accented",
+    "A harsh, powerful male voice of a nineteenth-century army officer, curt and loud, giving commands, deep chest voice"
+   ],
+   "ref_text": "Atención! Todos en su lugar. Nadie se mueve hasta que yo lo diga. Preparen las armas, y esperen la orden. Silencio en las filas. Firmes!",
+   "sample": "Fuego!",
+   "f0_hz": [
+    80,
+    300
+   ]
   }
  }
 }
