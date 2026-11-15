@@ -428,3 +428,15 @@ Clear beats short. This replaces BIBLE section 0, point 1 ("no stretch of more t
 row"): the storyteller now carries the action, and the characters carry the feeling and the jokes.
 `story/_parts/reflow.py` re-derives a revised script, counts lines added, changed and cut against the committed
 version, and renumbers `shots.md` and `facts.md`.
+
+## 11. Rule 10 (owner, 15 November): camera
+
+The whole film vocabulary is used, but only where it serves the scene; an effect that does not match what is
+happening is a fault. The table is `pipeline/CAMERA.md`. In every `shots.md`:
+
+- a **Camera** column: shot size / angle / move / reason in five words or fewer, chosen by what the line is doing;
+- the size and angle come first in each picture description;
+- two or three **high points** per episode earn a big move (orbit, crane, dolly); the rest are small push-ins or holds;
+- the shot size changes at every cut; a reveal says where it ends;
+- transitions are plain cuts unless the table allows another (dissolve for a change of time or place, whip inside
+  action, flash for the time jump or a memory).
