@@ -347,3 +347,41 @@ Ep9 s78), "season" (Ep21 s4, Ep22 s30, Ep23 s30, Ep25 s48).
    episode (about 8 to 10 seconds, close warm framing, before the hero's high point). Every such character is drawn
    and written as an adult; touch is limited to hands, forehead and a brief embrace (no kiss on the mouth, nothing
    suggestive); `facts.md` marks what is invented (presence, words). (First use: Episode 1, Gregoria de Jesús.)
+
+## 9. Running lists for the v2 rewrite (so nothing repeats; update with every new epNN_v2)
+
+**Today-things used** (one everyday thing of today per episode, with its origin; never twice):
+
+| Ep | Today-thing | Status of the origin line |
+|---|---|---|
+| 1 | pares (Quezon City, Retiro, 1979) | commonly told, "sabi nila" |
+| 2 | pancit (the word, from Hokkien) | commonly told, disputed, "sabi nila" |
+| 3 | the jeepney (surplus US jeeps after the war) | confirmed in outline |
+| 4 | buko pie (Los Baños) | commonly told, "sabi nila" |
+| 5 | the twenty-peso note (most used; becoming a coin) | confirmed |
+| 6 | taho (from Hokkien for tofu) | well supported |
+
+**Hooks used** (the shout or blow at 0.0; never the same kind twice in a row, never the same picture twice):
+
+| Ep | Hook | Kind |
+|---|---|---|
+| 1 | "Nasaan ang cedula mo?!", a blade at the neck | a threat to him |
+| 2 | "Bumigay na ang pader!", a wall bursting | a disaster |
+| 3 | "Magnanakaw! Inaagaw niya ang bata!" | an accusation |
+| 4 | "Atras! Kakagatin ka niyan!", a dog at a gate | an animal's attack |
+| 5 | a tray of glasses crashing, "Imbécile!" | his own blunder |
+| 6 | "Fuego!", a volley over black | a death he must watch |
+
+**Falls used** (how he seems to lose; the picture must differ): 1 tied, blade at his neck; 2 shoved into mud,
+the wall already open; 3 passed out of a yard by open hands; 4 his dog turns its back, he sits in the road; 5
+led by the sleeve to a sink; 6 he shuts his eyes and is left with nothing.
+
+**Friends of each time:** 1 Islaw (boy guard); 2 Sepa (kitchen girl) and her lola; 3 Tinong (drum boy); 4 Andoy
+(coachman's son); 5 Ambo (seaman, dishwasher); 6 Kiko (water boy).
+
+**Things he brings back** (kept in the Lola's box from Episode 3): 2 Sepa's tapis; 3 Tinong's drumstick; 5 M's
+twenty (spent on taho in 6). Nothing from 1, 4 and 6.
+
+**Hero lines:** 1 Bonifacio, the traditional cry; 2 none; 3 Bautista, one word (not a quote of the Acta); 4
+Teodora, the moth warning (attested, our translation, placement invented); 5 Agoncillo, his protest in
+substance (not verbatim); 6 Rizal, reported last words (traditional).
