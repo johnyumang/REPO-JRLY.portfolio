@@ -38,5 +38,8 @@
  "estimated_time_note": "no timings.json yet; about 77 s by word count",
  "palette": "sea",
  "grave": false,
- "why_here": "After the shadow on the 1888 rooftop looks back at Indio: a half-made reveal."
+ "why_here": "After the shadow on the 1888 rooftop looks back at Indio: a half-made reveal.",
+ "sprites": {
+  "INDIO": "indio_today"
+ }
 }

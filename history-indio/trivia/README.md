@@ -58,4 +58,5 @@ Every episode from Episode 3 to Episode 50 has one short joke break of about 12 
 - `trivia/sprites/indio.png` is the young Indio (about twenty, red headband). `trivia/sprites/usman.png` is Usman. Every break uses these two unless the episode's file says otherwise.
 - An episode can name another sprite: `"sprites": {"INDIO": "indio_s5"}` in its `trivia_break.json` makes the tool use `trivia/sprites/indio_s5.png`.
 - `indio_s5.png` is the older Indio of Season 5 (in his forties, long grey coat). It is a first try and no episode points at it yet; a better one is being drawn. When it is ready the conductor adds the field to the Season 5 episodes and says so.
+- `indio_today.png` is Indio in his present-day clothes (topknot, no headband, grey hooded jacket, jeans, red handkerchief on the wrist), for breaks inside present-day episodes (first used: Episode 17).
 
