@@ -1,0 +1,78 @@
+{
+ "fact_id": "ep03v2_end",
+ "fact_english": "On 12 June 1898 in Kawit, Cavite, the Philippine flag was shown from a front window of Aguinaldo's house; the balcony was added in 1919 (enlarged 1919 to 1921). Ambrosio Rianzares Bautista wrote and read the Acta of the proclamation, in Spanish; 98 people signed it. The band of San Francisco de Malabon played the march, which had no words yet. Who unfurled the flag is disputed (Aguinaldo or Bautista).",
+ "label_onscreen": "BALKONAHE",
+ "source_onscreen": "Pinagmulan: NHCP; Inquirer; Britannica",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? Walang balkonahe?",
+   "emphasis": [
+    "balkonahe"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: ikalabindalawa ng Hunyo 1898, sa Kawit, mula sa bintana iniladlad ang watawat.",
+   "emphasis": [
+    "bintana"
+   ],
+   "say": "Tiyak: ikalabindalawa ng Hunyo mil otsosyentos nobentay otso, sa KAwit, mula sa bintana iniladlad ang watawat."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 1919 lang idinagdag ang balkonahe.",
+   "emphasis": [
+    "1919"
+   ],
+   "say": "Noong mil nobesyentos disinwebe lang idinagdag ang balkonahe."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Si Ambrosio Rianzares Bautista ang sumulat at bumasa ng Akta, sa wikang Espanyol.",
+   "emphasis": [
+    "Bautista"
+   ],
+   "say": "Si Ambrosyo Ryansares Bautista ang sumulat at bumasa ng Akta, sa wikang Espanyol."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Siyamnapu't walo ang pumirma. At ang martsa ng banda ng San Francisco de Malabon, wala pang liriko noon.",
+   "emphasis": [
+    "liriko"
+   ],
+   "say": "Siyamnapu't walo ang pumirma. At ang martsa ng banda ng San Fransisko de Malabon, wala pang liriko noon."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh sino ang nagwagayway ng watawat?",
+   "emphasis": [
+    "sino"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "'Yan ang pinagtatalunan. May nagsasabing si Aguinaldo, may nagsasabing si Bautista.",
+   "emphasis": [
+    "pinagtatalunan"
+   ],
+   "say": "'Yan ang pinagtatalunan. May nagsasabing si aginALdo, may nagsasabing si Bautista."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umúngol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 89,
+ "after_text": "Ikaw, ka-Indio: kapag nagkamali ka sa harap ng maraming tao, babalik ka ba para humingi ng tawad?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'.",
+ "voice_note": "Script trivia line 2 is split in two INDIO lines (the window, then the balcony) and line 3 in two (Bautista, then the signers and the march) so each caption fits; same words. Years voiced as Spanish-derived numbers. 'umungol' must be u-MU-ngol with a soft ng: listen-checked."
+}
