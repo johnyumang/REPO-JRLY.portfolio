@@ -861,6 +861,92 @@
     140,
     280
    ]
+  },
+  "IMO": {
+   "descriptions": [
+    "A Filipino boy about nine years old, bright, quick and curious, a clear high child's voice, speaks softly and eagerly, Filipino accent",
+    "A small Filipino boy around nine, lively and friendly, light clear voice, a little breathless when excited, Filipino accent"
+   ],
+   "ref_text": "Kuya, dito ka umupo, sa sanga. Kita mo ba 'yung pader? Diyan ako lumaki. Si Tatay ang naghuhukay dito, kaya alam ko ang lahat ng daan. Huwag kang maingay, ha? Baka marinig tayo ng bantay.",
+   "sample": "Naghahanap ng tagamasa ang panaderya sa kanto.",
+   "f0_hz": [
+    200,
+    450
+   ]
+  },
+  "GUWARDIYA": {
+   "descriptions": [
+    "A stern Filipino guard in his thirties, loud gruff commanding voice, short barked words, Filipino accent",
+    "A rough-voiced watchman around forty, deep and harsh, shouting orders, Filipino accent"
+   ],
+   "ref_text": "Hoy! Bawal dito! Sino ang nagpapasok sa inyo? Umalis kayo sa pader, ngayon din! Wala kayong makikita rito. Ang susunod na umakyat diyan, dadalhin ko sa kuwartel.",
+   "sample": "Alto! Sino 'yan sa puno?",
+   "f0_hz": [
+    75,
+    260
+   ]
+  },
+  "RIZAL": {
+   "descriptions": [
+    "A calm, clear Filipino man of thirty-five, an educated gentle voice, measured and unhurried, warm and steady, careful clear pronunciation of Spanish and Tagalog",
+    "A soft-spoken thoughtful Filipino man in his mid thirties, clear light baritone, slow and dignified, precise diction in Spanish and Tagalog"
+   ],
+   "ref_text": "Mahal ko ang bayang ito, ang mga bundok at ang dagat niya. Adiós, amigos queridos. Hindi ako natatakot sa umaga. Ang mahalaga, may maiiwang liwanag para sa susunod na henerasyon.",
+   "sample": "Adiós, Patria adorada, región del sol querida.",
+   "f0_hz": [
+    75,
+    240
+   ]
+  },
+  "ALING PINING": {
+   "descriptions": [
+    "An older Filipina baker around fifty-five, brisk, loud and warm market voice, bossy but kind, a little husky, quick pace, medium-low pitch for a woman, Filipino accent",
+    "A strong, hard-working older woman who runs a bakery, sharp and bustling, scolding with a smile, slightly hoarse, Filipino accent",
+    "A no-nonsense older market woman around fifty-five, firm, carrying voice with warmth underneath, fast and practical, Filipino accent"
+   ],
+   "ref_text": "Hoy, gising na! Alas-kuwatro na, at hindi pa tapos ang masa. Ilang taon na akong nagluluto ng pandesal dito sa Cavite, at ni minsan, hindi ako nahuli sa umaga. Kaya kilos na, bago pa lumamig ang pugon.",
+   "sample": "Dalhin mo 'to, at huwag mong ihulog sa daan.",
+   "f0_hz": [
+    140,
+    300
+   ]
+  },
+  "MABINI": {
+   "descriptions": [
+    "A thin man in his early thirties, quiet, precise and measured voice, very calm and exact, a scholar who weighs every word, soft but clear, medium-low pitch, slow, Filipino accent",
+    "A soft-spoken young lawyer around thirty-three, low, even and deliberate voice, cool and serious, never raised, crisp diction, Filipino accent",
+    "A calm, sharp-minded man in his thirties, hushed and exact, a little dry, steady and unhurried, Filipino accent"
+   ],
+   "ref_text": "Hindi sapat ang sigaw ng karamihan para tumayo ang isang bayan. Kailangan ng batas, ng pag-iingat, at ng pasensiya. Isinulat ko ang lahat ng ito nang dahan-dahan, salita sa salita, dahil ang isang maling salita ay maaaring magpabagsak sa atin.",
+   "sample": "Maaga pa. Hindi pa tayo handa.",
+   "f0_hz": [
+    80,
+    180
+   ]
+  },
+  "KIKO": {
+   "descriptions": [
+    "A ten-year-old Filipino boy's soft, clear voice, gentle and serious for his age, speaking quietly, a little breathy, Filipino accent",
+    "A young boy about ten, light clear voice, earnest and kind, careful soft speech, Filipino accent"
+   ],
+   "ref_text": "Tubig po, gusto ninyo? Malamig pa ito, galing sa balon sa likod ng simbahan. Kanina pa ako naglalakad, pero ayos lang. Sabi ni Inay, huwag daw akong maingay kapag maraming tao. Kaya pabulong lang ako magsalita.",
+   "sample": "Tubig, kuya? Libre na ngayong umaga.",
+   "f0_hz": [
+    180,
+    420
+   ]
+  },
+  "OPISYAL": {
+   "descriptions": [
+    "A stern military officer in his forties, loud, hard and clipped commanding voice, barking orders across a field, Spanish-accented",
+    "A harsh, powerful male voice of a nineteenth-century army officer, curt and loud, giving commands, deep chest voice"
+   ],
+   "ref_text": "Atención! Todos en su lugar. Nadie se mueve hasta que yo lo diga. Preparen las armas, y esperen la orden. Silencio en las filas. Firmes!",
+   "sample": "Fuego!",
+   "f0_hz": [
+    80,
+    300
+   ]
   }
  }
 }
