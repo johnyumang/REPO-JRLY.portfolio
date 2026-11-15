@@ -522,10 +522,15 @@
   "trans_in": "dissolve"
  },
  "71": {
-  "fx": [],
+  "fx": [
+   "embers"
+  ],
   "move": "push_in",
-  "why": "seen from the dark, slowly",
-  "key": 70
+  "why": "she ties it: come close",
+  "depth": "strong",
+  "dof": "far",
+  "key": 72,
+  "trans_in": "dissolve"
  },
  "72": {
   "fx": [
@@ -534,8 +539,7 @@
   "move": "push_in",
   "why": "tender: very slow, close",
   "depth": "strong",
-  "dof": "far",
-  "trans_in": "dissolve"
+  "dof": "far"
  },
  "73": {
   "fx": [
@@ -598,11 +602,7 @@
    "punch"
   ],
   "move": "push_in",
-  "why": "the cedula torn in two",
-  "keys": [
-   80,
-   91
-  ]
+  "why": "hands tear the paper: the answer"
  },
  "81": {
   "fx": [
