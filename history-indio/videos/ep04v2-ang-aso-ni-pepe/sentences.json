@@ -820,8 +820,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Bumalik si Indio sa kasalukuyan, may pang-apat na marka.",
-  "say": "bumalik si indio sa kasalukuyan, may pang-apat na marka.",
+  "text": "Bumalik si Indio sa kasalukuyan, kasama si Usman, may pang-apat na marka sa braso.",
+  "say": "bumalik si indio sa kasalukuyan, kasama si usman, may pang-apat na marka sa braso.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -850,6 +850,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Nag-text si Lola.",
+  "say": "nag-text si lola.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "\"Apo, may nakita akong lumang sobre ng Lolo mo.",
