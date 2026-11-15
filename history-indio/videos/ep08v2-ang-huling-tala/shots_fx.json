@@ -1,474 +1,716 @@
 {
  "_": {
-  "hold_same_key": true
+  "hold_same_key": true,
+  "trans_default": "cut"
  },
  "0": {
+  "move": "hold",
   "fx": [
    "punch",
    "shake"
   ],
-  "move": "push_in"
+  "why": "her shout stops his hand"
  },
  "1": {
-  "fx": [
-   "shake"
-  ],
-  "move": "push_in"
+  "move": "push_in",
+  "fx": [],
+  "why": "his anger close to tears"
  },
  "2": {
-  "fx": [],
-  "move": "push_in"
+  "move": "hold",
+  "fx": []
  },
  "3": {
+  "move": "pull_out",
   "fx": [
-   "punch",
    "dust"
   ],
-  "move": "pull_out"
+  "why": "show the dropped bread whole"
  },
  "4": {
-  "fx": [],
   "move": "pull_out",
+  "fx": [
+   "dust"
+  ],
+  "why": "show the dropped bread whole",
   "key": 3
  },
  "5": {
+  "move": "pan_right",
   "fx": [
    "embers"
   ],
-  "move": "pan_right"
+  "why": "along the tallies to last",
+  "trans_in": "flash"
  },
  "6": {
+  "move": "pan_right",
   "fx": [
    "embers"
   ],
-  "move": "pan_right",
+  "why": "along the tallies to last",
   "key": 5
  },
  "7": {
+  "move": "pan_right",
   "fx": [
    "embers"
   ],
-  "move": "pan_right",
+  "why": "along the tallies to last",
   "key": 5
  },
  "8": {
+  "move": "push_in",
   "fx": [
    "embers"
   ],
-  "move": "tilt_up"
+  "why": "his whole weight into dough"
  },
  "9": {
+  "move": "push_in",
   "fx": [
    "embers"
   ],
-  "move": "tilt_up",
+  "why": "his whole weight into dough",
   "key": 8
  },
  "10": {
+  "move": "push_in",
   "fx": [
-   "sparkle"
+   "embers"
   ],
-  "move": "push_in"
+  "why": "his whole weight into dough",
+  "key": 8
  },
  "11": {
-  "fx": [
-   "sparkle"
-  ],
   "move": "push_in",
-  "key": 10
+  "fx": [
+   "embers"
+  ],
+  "why": "his whole weight into dough",
+  "key": 8
  },
  "12": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 10
+  "move": "rack_focus",
+  "fx": [],
+  "why": "from his face to steam",
+  "focus_to": "far",
+  "dof": "far"
  },
  "13": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 10
+  "move": "rack_focus",
+  "fx": [],
+  "why": "from his face to steam",
+  "key": 12,
+  "focus_to": "far",
+  "dof": "far"
  },
  "14": {
-  "fx": [
-   "punch"
-  ],
-  "move": "pull_out"
+  "move": "rack_focus",
+  "fx": [],
+  "why": "from his face to steam",
+  "key": 12,
+  "focus_to": "far",
+  "dof": "far"
  },
  "15": {
+  "move": "rack_focus",
   "fx": [],
-  "move": "pull_out",
-  "key": 14
+  "why": "from his face to steam",
+  "key": 12,
+  "focus_to": "far",
+  "dof": "far"
  },
  "16": {
-  "fx": [],
-  "move": "pull_out",
-  "key": 14
+  "move": "push_in",
+  "fx": [
+   "embers"
+  ],
+  "why": "she loads him with trays"
  },
  "17": {
-  "fx": [],
-  "move": "pull_out",
-  "key": 14
+  "move": "push_in",
+  "fx": [
+   "embers"
+  ],
+  "why": "she loads him with trays",
+  "key": 16
  },
  "18": {
+  "move": "push_in",
   "fx": [
-   "dust"
+   "embers"
   ],
-  "move": "pan_right"
+  "why": "she loads him with trays",
+  "key": 16
  },
  "19": {
+  "move": "push_in",
   "fx": [
-   "dust"
+   "embers"
   ],
-  "move": "pan_right",
-  "key": 18
+  "why": "she loads him with trays",
+  "key": 16
  },
  "20": {
+  "move": "crane_down",
   "fx": [
    "dust"
   ],
-  "move": "pan_right",
-  "key": 18
+  "why": "opening Kawit: the crowd backs",
+  "trans_in": "dissolve"
  },
  "21": {
+  "move": "crane_down",
   "fx": [
    "dust"
   ],
-  "move": "pan_left",
-  "keys": [
-   90
-  ]
+  "why": "opening Kawit: the crowd backs",
+  "key": 20
  },
  "22": {
-  "fx": [],
-  "move": "push_in"
+  "move": "crane_down",
+  "fx": [
+   "dust"
+  ],
+  "why": "opening Kawit: the crowd backs",
+  "key": 20
  },
  "23": {
-  "fx": [],
-  "move": "push_in",
-  "key": 22
+  "move": "crane_down",
+  "fx": [
+   "dust"
+  ],
+  "why": "opening Kawit: the crowd backs",
+  "key": 20
  },
  "24": {
-  "fx": [],
-  "move": "push_in",
-  "key": 22
+  "move": "crane_down",
+  "fx": [
+   "dust"
+  ],
+  "why": "opening Kawit: the crowd backs",
+  "key": 20
  },
  "25": {
-  "fx": [],
-  "move": "push_in",
-  "key": 22
+  "move": "pan_right",
+  "fx": [
+   "dust"
+  ],
+  "why": "travel with the passing hammock"
  },
  "26": {
-  "fx": [],
-  "move": "push_in"
+  "move": "pan_right",
+  "fx": [
+   "dust"
+  ],
+  "why": "travel with the passing hammock",
+  "key": 25
  },
  "27": {
-  "fx": [],
   "move": "push_in",
-  "key": 26
+  "fx": [],
+  "why": "lean in to her whisper"
  },
  "28": {
+  "move": "push_in",
   "fx": [],
-  "move": "tilt_up",
-  "keys": [
-   28,
-   91
-  ]
+  "why": "lean in to her whisper",
+  "key": 27
  },
  "29": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in"
+  "move": "push_in",
+  "fx": [],
+  "why": "lean in to her whisper",
+  "key": 27
  },
  "30": {
-  "fx": [
-   "sparkle"
-  ],
   "move": "push_in",
-  "key": 29
+  "fx": [],
+  "why": "lean in to her whisper",
+  "key": 27
  },
  "31": {
-  "fx": [
-   "sparkle"
-  ],
   "move": "push_in",
-  "key": 29
+  "fx": [],
+  "why": "lean in to her whisper",
+  "key": 27
  },
  "32": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 29
+  "move": "hold",
+  "fx": []
  },
  "33": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 29
+  "move": "hold",
+  "fx": [],
+  "key": 32
  },
  "34": {
-  "fx": [],
   "move": "push_in",
-  "keys": [
-   92
-  ]
+  "fx": [],
+  "why": "Usman warns him, low, quiet"
  },
  "35": {
+  "move": "dolly_in",
   "fx": [
    "dust"
   ],
-  "move": "tilt_up"
+  "why": "toward the trouble far ahead"
  },
  "36": {
-  "fx": [
-   "shake",
-   "punch",
-   "dust"
-  ],
-  "move": "pull_out"
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self"
  },
  "37": {
-  "fx": [
-   "dust"
-  ],
-  "move": "push_in"
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
  },
  "38": {
-  "fx": [
-   "dust"
-  ],
   "move": "push_in",
-  "key": 37
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
  },
  "39": {
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
+ },
+ "40": {
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
+ },
+ "41": {
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
+ },
+ "42": {
+  "move": "push_in",
+  "fx": [],
+  "why": "into the lens: his self",
+  "key": 36
+ },
+ "43": {
+  "move": "push_in",
+  "fx": [],
+  "why": "she is found in crowd"
+ },
+ "44": {
+  "move": "push_in",
+  "fx": [],
+  "why": "she is found in crowd",
+  "key": 43
+ },
+ "45": {
+  "move": "tilt_up",
   "fx": [
    "dust"
   ],
-  "move": "push_in",
-  "key": 37
- },
- "40": {
-  "fx": [],
-  "move": "push_in"
- },
- "41": {
-  "fx": [],
-  "move": "push_in",
-  "key": 40
- },
- "42": {
-  "fx": [],
-  "move": "push_in",
-  "key": 40
- },
- "43": {
-  "fx": [],
-  "move": "push_in",
-  "key": 40
- },
- "44": {
-  "fx": [],
-  "move": "push_in",
-  "key": 40
- },
- "45": {
-  "fx": [],
-  "move": "push_in",
-  "keys": [
-   93,
-   45
-  ]
+  "why": "from trays up to eyes"
  },
  "46": {
-  "fx": [],
-  "move": "push_in",
+  "move": "tilt_up",
+  "fx": [
+   "dust"
+  ],
+  "why": "from trays up to eyes",
   "key": 45
  },
  "47": {
-  "fx": [],
-  "move": "push_in",
-  "key": 45
+  "move": "dolly_in",
+  "fx": [
+   "dust"
+  ],
+  "why": "he lunges for the medallion"
  },
  "48": {
-  "fx": [],
-  "move": "push_in",
-  "key": 45
+  "move": "dolly_in",
+  "fx": [
+   "dust"
+  ],
+  "why": "he lunges for the medallion",
+  "key": 47
  },
  "49": {
-  "fx": [],
   "move": "push_in",
-  "key": 45
- },
- "50": {
-  "fx": [],
-  "move": "push_in",
-  "key": 45
- },
- "51": {
-  "fx": [],
-  "move": "push_in",
+  "fx": [
+   "punch",
+   "shake"
+  ],
+  "why": "her shout stops his lunge",
   "keys": [
-   94
+   47
   ]
  },
- "52": {
+ "50": {
+  "move": "hold",
+  "fx": []
+ },
+ "51": {
+  "move": "hold",
   "fx": [],
-  "move": "tilt_down"
+  "key": 50
+ },
+ "52": {
+  "move": "hold",
+  "fx": [],
+  "key": 50
  },
  "53": {
-  "fx": [
-   "sparkle",
-   "flash"
-  ],
-  "move": "push_in"
+  "move": "hold",
+  "fx": [],
+  "key": 50
  },
  "54": {
-  "fx": [
-   "punch"
-  ],
-  "move": "pan_left"
+  "move": "push_in",
+  "fx": [],
+  "why": "her face seen at last"
  },
  "55": {
+  "move": "push_in",
   "fx": [],
-  "move": "pan_left",
+  "why": "her face seen at last",
   "key": 54
  },
  "56": {
+  "move": "push_in",
   "fx": [],
-  "move": "pan_left",
+  "why": "her face seen at last",
   "key": 54
  },
  "57": {
+  "move": "push_in",
+  "fx": [],
+  "why": "her face seen at last",
+  "key": 54
+ },
+ "58": {
+  "move": "push_in",
+  "fx": [],
+  "why": "her face seen at last",
+  "key": 54
+ },
+ "59": {
+  "move": "hold",
+  "fx": []
+ },
+ "60": {
+  "move": "hold",
+  "fx": [],
+  "key": 59
+ },
+ "61": {
+  "move": "hold",
+  "fx": []
+ },
+ "62": {
+  "move": "hold",
+  "fx": [],
+  "key": 61
+ },
+ "63": {
+  "move": "hold",
+  "fx": [],
+  "key": 61
+ },
+ "64": {
+  "move": "hold",
+  "fx": [],
+  "key": 61
+ },
+ "65": {
+  "move": "hold",
+  "fx": [],
+  "key": 61
+ },
+ "66": {
+  "move": "hold",
+  "fx": [],
+  "key": 61
+ },
+ "67": {
+  "move": "pull_out",
+  "fx": [],
+  "why": "his hand draws slowly back"
+ },
+ "68": {
+  "move": "pull_out",
+  "fx": [],
+  "why": "his hand draws slowly back",
+  "key": 67
+ },
+ "69": {
+  "move": "push_in",
+  "fx": [],
+  "why": "his choice, said out loud"
+ },
+ "70": {
+  "move": "push_in",
+  "fx": [],
+  "why": "his choice, said out loud",
+  "key": 69
+ },
+ "71": {
+  "move": "tilt_down",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "cord goes down to glow"
+ },
+ "72": {
+  "move": "tilt_down",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "cord goes down to glow",
+  "key": 71
+ },
+ "73": {
+  "move": "tilt_down",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "cord goes down to glow",
+  "key": 71
+ },
+ "74": {
+  "move": "hold",
+  "fx": []
+ },
+ "75": {
+  "move": "hold",
+  "fx": [],
+  "key": 74
+ },
+ "76": {
+  "move": "hold",
+  "fx": [],
+  "key": 74
+ },
+ "77": {
+  "move": "push_in",
   "fx": [
    "embers",
    "sparkle"
   ],
-  "move": "push_in"
+  "why": "the sixth mark burns in"
  },
- "58": {
-  "fx": [
-   "embers"
-  ],
+ "78": {
   "move": "push_in",
-  "key": 57
- },
- "59": {
   "fx": [
-   "embers"
+   "embers",
+   "sparkle"
   ],
-  "move": "push_in",
-  "key": 57
+  "why": "the sixth mark burns in",
+  "key": 77
  },
- "60": {
+ "79": {
+  "move": "push_in",
+  "fx": [
+   "embers",
+   "sparkle"
+  ],
+  "why": "the sixth mark burns in",
+  "key": 77
+ },
+ "80": {
+  "move": "push_in",
+  "fx": [
+   "embers",
+   "sparkle"
+  ],
+  "why": "the sixth mark burns in",
+  "key": 77
+ },
+ "81": {
+  "move": "hold",
+  "fx": []
+ },
+ "82": {
+  "move": "hold",
   "fx": [],
-  "move": "pull_out"
+  "key": 81
  },
- "61": {
-  "fx": [],
-  "move": "pull_out",
-  "key": 60
- },
- "62": {
-  "fx": [
-   "punch",
-   "shake"
-  ],
-  "move": "tilt_up"
- },
- "63": {
-  "fx": [],
-  "move": "tilt_up",
-  "key": 62
- },
- "64": {
-  "fx": [],
-  "move": "tilt_up",
-  "key": 62
- },
- "65": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "pull_out"
- },
- "66": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "pull_out",
-  "key": 65
- },
- "67": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "keys": [
-   95,
-   67
-  ]
- },
- "68": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 67
- },
- "69": {
-  "fx": [
-   "sparkle",
-   "flash"
-  ],
-  "move": "push_in",
-  "key": 67
- },
- "70": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in"
- },
- "71": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "push_in",
-  "key": 70
- },
- "72": {
-  "fx": [
-   "sparkle"
-  ],
-  "move": "pull_out",
-  "keys": [
-   96,
-   72
-  ]
- },
- "73": {
+ "83": {
+  "move": "dolly_in",
   "fx": [
    "punch"
   ],
-  "move": "push_in"
+  "why": "she bawls from the crate"
  },
- "74": {
+ "84": {
+  "move": "dolly_in",
+  "fx": [
+   "punch"
+  ],
+  "why": "she bawls from the crate",
+  "key": 83
+ },
+ "85": {
+  "move": "dolly_in",
+  "fx": [
+   "punch"
+  ],
+  "why": "she bawls from the crate",
+  "key": 83
+ },
+ "86": {
+  "move": "crane_up",
+  "fx": [
+   "dust"
+  ],
+  "why": "the whole crowd turns, cheers"
+ },
+ "87": {
+  "move": "crane_up",
+  "fx": [
+   "dust"
+  ],
+  "why": "the whole crowd turns, cheers",
+  "key": 86
+ },
+ "88": {
+  "move": "crane_up",
+  "fx": [
+   "dust"
+  ],
+  "why": "the whole crowd turns, cheers",
+  "key": 86
+ },
+ "89": {
+  "move": "crane_up",
+  "fx": [
+   "dust"
+  ],
+  "why": "the whole crowd turns, cheers",
+  "key": 86
+ },
+ "90": {
+  "move": "tilt_up",
   "fx": [],
+  "why": "up to the opening handle"
+ },
+ "91": {
   "move": "push_in",
-  "key": 73
+  "fx": [
+   "sparkle"
+  ],
+  "why": "into the hidden star, sheet"
  },
- "75": {
-  "fx": [],
+ "92": {
   "move": "push_in",
-  "key": 73
+  "fx": [
+   "sparkle"
+  ],
+  "why": "into the hidden star, sheet",
+  "key": 91
  },
- "76": {
+ "93": {
+  "move": "push_in",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "into the hidden star, sheet",
+  "key": 91
+ },
+ "94": {
+  "move": "push_in",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "into the hidden star, sheet",
+  "key": 91
+ },
+ "95": {
+  "move": "pan_right",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "across the twelve scattered dots"
+ },
+ "96": {
+  "move": "pan_right",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "across the twelve scattered dots",
+  "key": 95
+ },
+ "97": {
+  "move": "pan_right",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "across the twelve scattered dots",
+  "key": 95
+ },
+ "98": {
+  "move": "pan_right",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "across the twelve scattered dots",
+  "key": 95
+ },
+ "99": {
+  "move": "push_in",
+  "fx": [
+   "sparkle"
+  ],
+  "why": "the first dot lights up"
+ },
+ "100": {
+  "move": "hold",
+  "fx": []
+ },
+ "101": {
+  "move": "hold",
   "fx": [],
-  "move": "tilt_down"
+  "key": 100
+ },
+ "102": {
+  "move": "hold",
+  "fx": [],
+  "key": 100
+ },
+ "103": {
+  "move": "rack_focus",
+  "fx": [],
+  "why": "past the hats, the phone",
+  "focus_to": "far"
+ },
+ "104": {
+  "move": "rack_focus",
+  "fx": [],
+  "why": "past the hats, the phone",
+  "key": 103,
+  "focus_to": "far"
+ },
+ "105": {
+  "move": "rack_focus",
+  "fx": [],
+  "why": "past the hats, the phone",
+  "key": 103,
+  "focus_to": "far"
+ },
+ "106": {
+  "move": "rack_focus",
+  "fx": [],
+  "why": "past the hats, the phone",
+  "key": 103,
+  "focus_to": "far"
+ },
+ "107": {
+  "move": "hold",
+  "fx": [],
+  "trans_in": "dissolve"
  }
 }
