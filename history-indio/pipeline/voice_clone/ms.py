@@ -312,7 +312,7 @@ def assemble(work, outp, cut=()):
             if vqc.first_ok(c['text'], h2): print('trim lead c%03d %.2f -> %.2f | %s' % (c['id'], st, st2, h2[:40])); st = st2
         seg = y[int(st * sr):int(en * sr)].copy(); k = 1.0
         if st != st0: seg = leadtrim.fade_in(seg, sr)
-        if m['rate'] > 6.9:
+        if m['rate'] > 6.9 and not os.environ.get('HI_NO_STRETCH'):                 # HI_NO_STRETCH=1: never time-stretch a take (owner, 15 Nov)
             k = 6.3 / m['rate']; seg = ff(seg, sr, f'rubberband=tempo={k:.4f}:pitchq=quality:formant=preserved')
         body = seg[int(0.04 * sr):len(seg) - int(0.12 * sr)]; g = float(np.clip(LEVEL.get(c['style'], LDEF) - vqc.rms_db(body), -12, 12)); seg *= 10 ** (g / 20)
         n1, n2 = int(0.008 * sr), int(0.04 * sr); seg[:n1] *= np.linspace(0, 1, n1); seg[-n2:] *= np.linspace(1, 0, n2)
