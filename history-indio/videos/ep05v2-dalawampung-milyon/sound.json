@@ -1,11 +1,7 @@
 {
 "_": {
 "whoosh_cuts": true,
-"levels": {
-"amb": -9,
-"music": -9,
-"fx_duck": 14
-}
+"rules_v2": true
 },
 "0": {
 "amb": [
