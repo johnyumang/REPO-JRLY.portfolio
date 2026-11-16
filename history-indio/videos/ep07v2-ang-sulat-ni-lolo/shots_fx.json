@@ -1,7 +1,8 @@
 {
 "_": {
 "hold_same_key": true,
-"trans_default": "cut"
+"trans_default": "cut",
+"subs_after_blend": true
 },
 "0": {
 "fx": [
@@ -206,9 +207,7 @@
 "key": 32
 },
 "35": {
-"fx": [
-"punch"
-],
+"fx": [],
 "move": "tilt_up",
 "why": "ends on the empty branch"
 },
@@ -649,6 +648,7 @@
 "fx": [],
 "move": "hold",
 "why": "the nose finds the stone",
-"key": 121
+"key": 121,
+"sub_v": 120
 }
 }
