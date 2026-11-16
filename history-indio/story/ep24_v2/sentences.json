@@ -121,8 +121,8 @@
   "aside": true
  },
  {
-  "text": "Ipinakita niya kay Ma'am Celia, guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya: mga bilog, at ang salitang \"bukal\".",
-  "say": "ipinakita niya kay maam SELya, guro niya noong grade 5, ang bagong guhit sa kuwaderno ng lolo niya: mga bilog, at ang salitang buKAL.",
+  "text": "Sa tawag, ipinakita niya kay Ma'am Celia, guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya: mga bilog, at ang salitang \"bukal\".",
+  "say": "sa tawag, ipinakita niya kay maam SELya, guro niya noong grade 5, ang bagong guhit sa kuwaderno ng lolo niya: mga bilog, at ang salitang buKAL.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -169,25 +169,17 @@
   "speaker": "MA'AM CELIA"
  },
  {
-  "text": "Binasa ni Indio nang malakas ang pahinang ipinadala niya, at uminit ang medalyon ni M.",
-  "say": "binasa ni indio nang malakas ang pahinang ipinadala niya, at uminit ang medalyon ni m.",
+  "text": "Binasa ni Indio nang malakas ang ipinadala niyang pahina, at uminit ang medalyon ni M.",
+  "say": "binasa ni indio nang malakas ang ipinadala niyang pahina, at uminit ang medalyon ni m.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hindi ito lugar.",
-  "say": "hindi ito lugar.",
+  "text": "Hindi ito lugar: ito ang Atlantis, isang kuwentong isinulat ni Platon, mga 360 bago si Kristo.",
+  "say": "hindi ito lugar: ito ang atLANtis, isang kuwentong isinulat ni plaTON, mga tatlong daan at animnapu bago si kristo.",
   "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Ito ang Atlantis: isang kuwentong isinulat ni Platon, mga 360 bago si Kristo.",
-  "say": "ito ang atLANtis: isang kuwentong isinulat ni plaTON, mga tatlong daan at animnapu bago si kristo.",
-  "style": "",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
@@ -382,31 +374,14 @@
   "say": "walang utang.",
   "style": "",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Walang gutom.",
-  "say": "walang gutom.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
  },
  {
-  "text": "Indio.",
-  "say": "indio.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
   "text": "Huwag.",
   "say": "huwag.",
-  "style": "",
+  "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
@@ -468,8 +443,8 @@
   "speaker": "ILOS"
  },
  {
-  "text": "Hinila ni Indio ang lambat; lalo itong humigpit.",
-  "say": "hinila ni indio ang lamBAT; lalo itong humigpit.",
+  "text": "Hinila ni Indio ang lambat; lalong humigpit.",
+  "say": "hinila ni indio ang lamBAT; lalong humigpit.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
