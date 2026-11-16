@@ -1,19 +1,22 @@
 {
  "_": {
   "hold_same_key": true,
-  "trans_default": "cut"
+  "trans_default": "cut",
+  "subs_after_blend": true
  },
  "0": {
   "fx": [
    "shake",
    "impact"
   ],
-  "move": "hold"
+  "move": "hold",
+  "sub_v": 120
  },
  "1": {
   "fx": [],
   "move": "hold",
-  "key": 0
+  "key": 0,
+  "sub_v": 120
  },
  "2": {
   "fx": [],
@@ -197,24 +200,25 @@
  },
  "34": {
   "fx": [],
-  "move": "hold"
+  "move": "push_in",
+  "why": "the dog charges at him"
  },
  "35": {
+  "fx": [],
+  "move": "hold"
+ },
+ "36": {
   "fx": [
    "shake",
    "impact"
   ],
-  "move": "hold"
- },
- "36": {
-  "fx": [],
   "move": "hold",
-  "key": 35
+  "why": "Andoy's shout"
  },
  "37": {
   "fx": [],
   "move": "hold",
-  "key": 35
+  "key": 36
  },
  "38": {
   "fx": [],
@@ -272,10 +276,7 @@
   "key": 46
  },
  "49": {
-  "fx": [
-   "shake",
-   "impact"
-  ],
+  "fx": [],
   "move": "hold"
  },
  "50": {
@@ -384,12 +385,14 @@
  },
  "70": {
   "fx": [],
-  "move": "hold"
+  "move": "hold",
+  "sub_v": 150
  },
  "71": {
   "fx": [],
   "move": "hold",
-  "key": 70
+  "key": 70,
+  "sub_v": 150
  },
  "72": {
   "fx": [],
@@ -456,7 +459,8 @@
  "84": {
   "fx": [],
   "move": "hold",
-  "key": 122
+  "key": 122,
+  "sub_v": 150
  },
  "85": {
   "fx": [],
@@ -608,6 +612,7 @@
  },
  "112": {
   "fx": [],
-  "move": "hold"
+  "move": "hold",
+  "no_sub": true
  }
 }
