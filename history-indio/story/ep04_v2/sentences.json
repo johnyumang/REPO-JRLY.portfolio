@@ -76,8 +76,16 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Kaya nagpunta siya roon, dala ang huling pera niya.",
-  "say": "kaya nagpunta siya roon, dala ang huling pera niya.",
+  "text": "Kaya nagpunta siya roon.",
+  "say": "kaya nagpunta siya roon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa huling pera niya, bumili siya ng isang buko pie.",
+  "say": "sa huling pera niya, bumili siya ng isang BUko pay.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -176,8 +184,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Lumabas si Usman sa liwanag.",
-  "say": "lumabas si usman sa liwanag.",
+  "text": "Lumabas sa liwanag si Usman, ang asong itim na kasama niya sa bawat talon.",
+  "say": "lumabas sa liwanag si usman, ang asong itim na kasama niya sa bawat talon.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -276,6 +284,14 @@
   "text": "Paglapit ni Indio, sinugod siya ng isang malaking itim na aso, kamukhang-kamukha ni Usman.",
   "say": "paglapit ni indio, sinugod siya ng isang malaking itim na aso, kamukhang-kamukha ni usman.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hinila siya palayo ni Andoy, ang batang kutsero ng pamilya.",
+  "say": "hinila siya palayo ni anDOY, ang batang kutsero ng pamilya.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -644,8 +660,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa hagdan, lumuhod ang ina sa harap ng bata, at hinawakan ang mukha nito.",
-  "say": "sa hagdan, lumuhod ang ina sa harap ng bata, at hinawakan ang mukha nito.",
+  "text": "Sa hagdan, lumuhod si Teodora, ang ina ni Pepe, at hinawakan ang mukha ng bata.",
+  "say": "sa hagdan, lumuhod si teodora, ang ina ni PEpe, at hinawakan ang mukha ng bata.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,

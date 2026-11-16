@@ -440,3 +440,14 @@ happening is a fault. The table is `pipeline/CAMERA.md`. In every `shots.md`:
 - the shot size changes at every cut; a reveal says where it ends;
 - transitions are plain cuts unless the table allows another (dissolve for a change of time or place, whip inside
   action, flash for the time jump or a memory).
+
+## 12. Rule 11 (owner, 16 November, after watching the revised Episode 1): nobody arrives unintroduced
+
+- Every person, animal, object or place that matters is introduced by TAGAPAGSALAYSAY at first sight, in one plain
+  sentence that says who or what it is and why it is there, BEFORE it speaks or matters ("Siya si Islaw.
+  Labindalawang taong gulang, anak ng magsasaka, at bantay ng bakuran ngayong gabi.").
+- A character is seen before it is heard (the dog leaps out, then speaks).
+- Deliberate mysteries stay (M, the woman across the street, the man with the phone), but the storyteller says
+  plainly that Indio does not know who it is, so the viewer knows it is a mystery and not a mistake.
+- Every cause is said: why he is there, why they fear him, why they let him go.
+- Each story stays under 4:00; make room by cutting storyteller words that repeat what a character says right after.

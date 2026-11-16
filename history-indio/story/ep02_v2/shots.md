@@ -23,30 +23,30 @@ Camera (rule 10): column follows pipeline/CAMERA.md; rows marked HIGH POINT are 
 | 6 | 10-12 | Eye-level close-up on the bag and his face: he opens the bag a finger's width and sniffs; steam; his eyes close | close-up / eye level / hold / he only sniffs |
 | 7 | 13 | Eye-level insert of the phone screen: one star beside a small picture of Indio; above it "Top Rider: R.B." with five stars (text in code) | insert / eye level / push_in / toward his single star |
 | 8 | 14-16 | Over Indio's shoulder, at eye level, we see him walk to a plaque on the old wall (the plaque unreadable), reading aloud, lips moving; the medallion at his neck starts to glow | over-the-shoulder / eye level / push_in / he reads the plaque aloud |
-| 9 | 17-22 | Eye-level wide view of gold light opening over the rampart; Usman trots out of it, nose toward the bag | wide / eye level / hold / the gold light opens |
-| 10 | 23-24 | 1762: High-angle extreme wide view inside the walls, a street of stone houses under yellow smoke; the ground cracked; Indio (era outfit, red headband) lands on one knee, bag still in hand | extreme wide / high angle / crane_down / drops us into 1762; in: flash |
-| 11 | 25-28 | Dutch-tilt close-up on hands: a small hand yanks his sleeve; behind him a piece of tiled roof crashes where he stood | close-up / Dutch tilt / hold / the roof crashes behind him; fx: shake, impact |
-| 12 | 29-32 | Eye-level two-shot under the table, inside a low stone kitchen: clay stove, hanging pots swinging; Sepa (eleven, tapis, hair tied back) crouched with him under a table | two-shot / eye level / push_in / they hide and talk |
-| 13 | 33-34 | Eye-level close-up of Indio glancing at us past a swinging ladle, eyes to camera | close-up / eye level / hold / he whispers to us |
-| 14 | 35-38 | Over the shoulders of Indio and Sepa, at eye level, we see through the kitchen window: the grey wall close by; Indio points at it; Sepa shakes her head; a cannon flash beyond | over-the-shoulder / eye level / push_in / toward the doomed wall |
-| 15 | 39-42 | High-angle medium view of the corner: an old woman on a mat; Sepa pulls a blanket over her | medium / high angle / push_in / Sepa cannot leave her |
-| 16 | 43 | Eye-level wide side view of Indio sprinting up the narrow street against the flow of fleeing people, the bag held high | wide / eye level / pan_left / follows his run |
-| 17 | 44-46 | Low-angle medium view of a wooden gate; a Spanish guard in a blue coat and tricorne; Indio pointing back toward the bastion | medium / low angle / push_in / he begs the guard |
-| 18 | 47-48 | Eye-level tight two-shot: the guard's hand flat on Indio's chest; Indio's puzzled half-smile | two-shot / eye level / hold / the hand stops him |
-| 19 | 49-52 | High-angle medium close-up of Indio on his back in the mud, bag held up out of it; the guard laughing above him; then his eyes to camera | medium close-up / high angle / hold / he is pushed down; fx: shake, impact |
-| 20 | 53-55 | Eye-level extreme wide view far down the street: the bastion wall slides down in a cloud; red coats pour through the gap (small, far) | extreme wide / eye level / hold / the wall comes down; fx: shake, impact |
-| 21 | 56-57 | Eye-level close-up of Indio's face, mud on his cheek, the dust cloud rolling toward him | **HIGH POINT** close-up / eye level / dolly_in / he is too late |
-| 22 | 58 | Low-angle wide view at ground level: hundreds of rats streaming past his hands, all one way | wide / low angle / pan_right / follows the rats |
-| 23 | 59-60 | Eye-level close-up of Usman frozen, one ear up, head tilted at the rats | close-up / eye level / hold / he is listening |
-| 24 | 61-65 | Eye-level medium close-up of Indio kneeling in the mud, eyes shut, the noise of the street gone soft around him (blurred edges) | **HIGH POINT** medium close-up / eye level / orbit_right / the street goes quiet |
-| 25 | 66-67 | Eye-level extreme close-up of Usman's eyes flicking to the bag | extreme close-up / eye level / hold / one quick look |
-| 26 | 68-69 | Eye-level medium view of Indio hugging the bag, looking from it to the rats | medium / eye level / push_in / he must give it up |
-| 27 | 70 | Bird's-eye wide view of noodles spilling onto the ground; rats swarm, then run together behind the kitchen, to a plank lying over a hole | wide / bird's-eye / pan_right / ends on the plank |
-| 28 | 71-74 | Low-angle medium view of Indio lifting the old woman onto his back; Sepa pulling the plank away | **HIGH POINT** medium / low angle / dolly_in / he carries the grandmother |
-| 29 | 75 | From behind, a wide view inside the drain: a line of people crawling toward a small circle of daylight, Usman leading, a rat on the ledge beside him | wide / from behind / push_in / toward the daylight |
-| 30 | 76-80 | Over Indio's shoulder, looking backward at eye level, we see the guard on hands and knees at the back of the line, hat gone; Indio looks back over the old woman's arm | over-the-shoulder / eye level / hold / the guard begs now |
-| 31 | 81 | Low-angle wide view of a muddy river bank outside the wall; people climbing out of a hole among reeds | wide / low angle / tilt_up / ends on people climbing out; in: dissolve |
-| 32 | 82-86 | Eye-level medium view along the bank: Usman counting heads as they come out; the guard last, mud to the neck | medium / eye level / pan_right / ends on the muddy guard |
+| 9 | 17-23 | Eye-level wide view of gold light opening over the rampart; Usman trots out of it, nose toward the bag | wide / eye level / hold / the gold light opens |
+| 10 | 24-25 | 1762: High-angle extreme wide view inside the walls, a street of stone houses under yellow smoke; the ground cracked; Indio (era outfit, red headband) lands on one knee, bag still in hand | extreme wide / high angle / crane_down / drops us into 1762; in: flash |
+| 11 | 26-29 | Dutch-tilt close-up on hands: a small hand yanks his sleeve; behind him a piece of tiled roof crashes where he stood | close-up / Dutch tilt / hold / the roof crashes behind him; fx: shake, impact |
+| 12 | 30-33 | Eye-level two-shot under the table, inside a low stone kitchen: clay stove, hanging pots swinging; Sepa (eleven, tapis, hair tied back) crouched with him under a table | two-shot / eye level / push_in / they hide and talk |
+| 13 | 34-35 | Eye-level close-up of Indio glancing at us past a swinging ladle, eyes to camera | close-up / eye level / hold / he whispers to us |
+| 14 | 36-39 | Over the shoulders of Indio and Sepa, at eye level, we see through the kitchen window: the grey wall close by; Indio points at it; Sepa shakes her head; a cannon flash beyond | over-the-shoulder / eye level / push_in / toward the doomed wall |
+| 15 | 40-43 | High-angle medium view of the corner: an old woman on a mat; Sepa pulls a blanket over her | medium / high angle / push_in / Sepa cannot leave her |
+| 16 | 44 | Eye-level wide side view of Indio sprinting up the narrow street against the flow of fleeing people, the bag held high | wide / eye level / pan_left / follows his run |
+| 17 | 45-47 | Low-angle medium view of a wooden gate; a Spanish guard in a blue coat and tricorne; Indio pointing back toward the bastion | medium / low angle / push_in / he begs the guard |
+| 18 | 48-49 | Eye-level tight two-shot: the guard's hand flat on Indio's chest; Indio's puzzled half-smile | two-shot / eye level / hold / the hand stops him |
+| 19 | 50-53 | High-angle medium close-up of Indio on his back in the mud, bag held up out of it; the guard laughing above him; then his eyes to camera | medium close-up / high angle / hold / he is pushed down; fx: shake, impact |
+| 20 | 54-56 | Eye-level extreme wide view far down the street: the bastion wall slides down in a cloud; red coats pour through the gap (small, far) | extreme wide / eye level / hold / the wall comes down; fx: shake, impact |
+| 21 | 57-58 | Eye-level close-up of Indio's face, mud on his cheek, the dust cloud rolling toward him | **HIGH POINT** close-up / eye level / dolly_in / he is too late |
+| 22 | 59 | Low-angle wide view at ground level: hundreds of rats streaming past his hands, all one way | wide / low angle / pan_right / follows the rats |
+| 23 | 60-61 | Eye-level close-up of Usman frozen, one ear up, head tilted at the rats | close-up / eye level / hold / he is listening |
+| 24 | 62-66 | Eye-level medium close-up of Indio kneeling in the mud, eyes shut, the noise of the street gone soft around him (blurred edges) | **HIGH POINT** medium close-up / eye level / orbit_right / the street goes quiet |
+| 25 | 67-68 | Eye-level extreme close-up of Usman's eyes flicking to the bag | extreme close-up / eye level / hold / one quick look |
+| 26 | 69-70 | Eye-level medium view of Indio hugging the bag, looking from it to the rats | medium / eye level / push_in / he must give it up |
+| 27 | 71 | Bird's-eye wide view of noodles spilling onto the ground; rats swarm, then run together behind the kitchen, to a plank lying over a hole | wide / bird's-eye / pan_right / ends on the plank |
+| 28 | 72-75 | Low-angle medium view of Indio lifting the old woman onto his back; Sepa pulling the plank away | **HIGH POINT** medium / low angle / dolly_in / he carries the grandmother |
+| 29 | 76 | From behind, a wide view inside the drain: a line of people crawling toward a small circle of daylight, Usman leading, a rat on the ledge beside him | wide / from behind / push_in / toward the daylight |
+| 30 | 77-81 | Over Indio's shoulder, looking backward at eye level, we see the guard on hands and knees at the back of the line, hat gone; Indio looks back over the old woman's arm | over-the-shoulder / eye level / hold / the guard begs now |
+| 31 | 82 | Low-angle wide view of a muddy river bank outside the wall; people climbing out of a hole among reeds | wide / low angle / tilt_up / ends on people climbing out; in: dissolve |
+| 32 | 83-86 | Eye-level medium view along the bank: Usman counting heads as they come out; the guard last, mud to the neck | medium / eye level / pan_right / ends on the muddy guard |
 | 33 | 87-88 | Eye-level extreme wide view from the bank, over the wall: smoke; a small flag going up a staff, too far to read | extreme wide / eye level / tilt_up / ends on the flag |
 | 34 | 89-90 | High-angle medium view of Indio sitting down hard in the reeds, empty bag in his lap | medium / high angle / hold / he feels beaten |
 | 35 | 91-94 | Low-angle medium close-up of Sepa standing over him, pointing north along the river; Usman growling at Indio's knee | medium close-up / low angle / push_in / she will not give up |
