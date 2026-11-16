@@ -69,8 +69,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa tindahan, kasama ni Indio si M, ang babaeng may mapa ng mga medalyon.",
-  "say": "sa tindahan, kasama ni indio si m, ang babaeng may mapa ng mga medalyon.",
+  "text": "Kasama ni Indio si M, ang babaeng may mapa ng mga medalyon.",
+  "say": "kasama ni indio si m, ang babaeng may mapa ng mga medalyon.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -80,14 +80,6 @@
   "text": "Isang sachet po ng kape.",
   "say": "isang saSHEY po ng kape.",
   "style": "plain",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO"
- },
- {
-  "text": "Isa lang.",
-  "say": "isa lang.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
@@ -129,8 +121,8 @@
   "aside": true
  },
  {
-  "text": "Ipinakita niya kay Ma'am Celia, ang guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya: mga bilog, at ang salitang \"bukal\".",
-  "say": "ipinakita niya kay maam SELya, ang guro niya noong grade 5, ang bagong guhit sa kuwaderno ng lolo niya: mga bilog, at ang salitang buKAL.",
+  "text": "Ipinakita niya kay Ma'am Celia, guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya: mga bilog, at ang salitang \"bukal\".",
+  "say": "ipinakita niya kay maam SELya, guro niya noong grade 5, ang bagong guhit sa kuwaderno ng lolo niya: mga bilog, at ang salitang buKAL.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -149,20 +141,12 @@
   "say": "sabi sa INternet, maam, totoong lungsod yan!",
   "style": "eager",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO"
- },
- {
-  "text": "Lumubog!",
-  "say": "lumubog!",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
  },
  {
-  "text": "Walang nahanap kahit isang bato.",
-  "say": "walang nahanap kahit isang bato.",
+  "text": "Walang nahanap, kahit bato.",
+  "say": "walang nahanap, kahit bato.",
   "style": "kind",
   "pre": 0,
   "pause": 0.4,
@@ -265,16 +249,8 @@
   "speaker": "ILOS"
  },
  {
-  "text": "Sa reyna na 'yon ngayon.",
-  "say": "sa reyna na yon ngayon.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "ILOS"
- },
- {
-  "text": "Sampu ang hari namin, pero siya ang sinusunod.",
-  "say": "sampu ang hari namin, pero siya ang sinusunod.",
+  "text": "Pero sa reyna na 'yon ngayon.",
+  "say": "pero sa reyna na yon ngayon.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -313,14 +289,6 @@
   "speaker": "ILOS"
  },
  {
-  "text": "Isa lang 'yon.",
-  "say": "isa lang yon.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "ILOS"
- },
- {
   "text": "Putulin mo, bubuka lahat.",
   "say": "putulin mo, bubuka lahat.",
   "style": "",
@@ -337,8 +305,8 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Sa trono, may reynang may hawak na gintong kopa.",
-  "say": "sa trono, may reynang may hawak na gintong KOpa.",
+  "text": "Sa trono, may reynang may gintong kopa.",
+  "say": "sa trono, may reynang may gintong KOpa.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -452,8 +420,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hinila ng reyna ang isang lubid, at sumara ang sahig sa ilalim ni M: lambat pala.",
-  "say": "hinila ng reyna ang isang lubid, at sumara ang sahig sa ilalim ni m: lamBAT pala.",
+  "text": "Hinila ng reyna ang lubid, at sumara ang sahig sa ilalim ni M: lambat pala.",
+  "say": "hinila ng reyna ang lubid, at sumara ang sahig sa ilalim ni m: lamBAT pala.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -508,8 +476,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Mula sa likod ng trono, umahon ang may hawak nito: isang dambuhalang pugita.",
-  "say": "mula sa likod ng trono, umahon ang may hawak nito: isang dambuhalang puGIta.",
+  "text": "Sa likod ng trono, umahon ang may hawak nito: isang dambuhalang pugita.",
+  "say": "sa likod ng trono, umahon ang may hawak nito: isang dambuhalang puGIta.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -522,15 +490,6 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "SINAG"
- },
- {
-  "text": "Hari na ako, ligtas pa si M.",
-  "say": "hari na ako, ligtas pa si m.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
  },
  {
   "text": "Inilabas ni Indio ang ilawan niyang sumisindi lang sa totoong salita.",
@@ -597,17 +556,9 @@
   "speaker": "M"
  },
  {
-  "text": "Sandali.",
-  "say": "sandali.",
-  "style": "slow",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO"
- },
- {
   "text": "Nakalambat din ang pugita.",
   "say": "nakalambat din ang puGIta.",
-  "style": "",
+  "style": "slow",
   "pre": 0,
   "pause": 0.4,
   "speaker": "INDIO"
@@ -709,8 +660,8 @@
   "speaker": "ILOS"
  },
  {
-  "text": "Bago pa nagkaginto rito.",
-  "say": "bago pa nagkaginto rito.",
+  "text": "Bago pa nagkaginto.",
+  "say": "bago pa nagkaginto.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -758,8 +709,8 @@
   "aside": true
  },
  {
-  "text": "Binuhat ng pugita ang bangka ng pamilya ni Ilos, palabas ng mga singsing.",
-  "say": "binuhat ng puGIta ang bangka ng pamilya ni Ilos, palabas ng mga singsing.",
+  "text": "Binuhat ng pugita ang bangka nina Ilos, palabas ng mga singsing.",
+  "say": "binuhat ng puGIta ang bangka nina Ilos, palabas ng mga singsing.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -809,8 +760,8 @@
   "aside": true
  },
  {
-  "text": "At bago lumubog ang lungsod, ngumiti si Sinag kay M.",
-  "say": "at bago lumubog ang lungsod, ngumiti si SInag kay m.",
+  "text": "Bago lumubog ang lungsod, ngumiti si Sinag kay M.",
+  "say": "bago lumubog ang lungsod, ngumiti si SInag kay m.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
