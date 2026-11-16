@@ -1,0 +1,132 @@
+# INDIO: ANG SAKSI — Episode 17, "Ang Dinambong" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to reach the crate of 1762 before Tubal's people do. Then: to stop chasing and look.
+# SABI-SABI: "Pilak lang ang kinuha sa atin ng mga British noong 1762."
+# TWIST (BIBLE row 17): stolen credit. Fall: the man with the ring light, now with a name, "finds" the crate
+#   live from inside a warehouse Indio is locked out of; in 1888 a roof-leaper takes the lente and Indio slides
+#   down wet stone with nothing left. Comeback: his own eye (he stops running and sees where the creature lands
+#   and what its shadow carries) and the friend's trick (a shard of mirror that turns lamplight into a line);
+#   he pins the shadow, not the body, and lights a lamp for it. Fourth knot. Under the porcelain the rival never
+#   lifted: Ang Agos.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump only). M.
+# RICO (Rico Bulan, invented, FIRST NAMED here; bright, fast, friendly livestream voice; heard only from a
+#   phone: he and Indio are never in one room).
+# NELL (invented girl of about eleven who cleans a reading room, London 1888; "friend" voice, girl 2).
+# RIZAL (José Rizal, real, seen far off and from behind, bent over a book; designed voice, never a clone):
+#   ONE line, read over the picture of his writing hand. It is his own printed sentence from the dedication of
+#   his edition of Morga (1890), in our Tagalog, shortened; see facts.md. He says nothing in the scene itself.
+# Lundag, the guards and the soldiers in the lens say nothing.
+# "Umungol" is always said u-MU-ngol.
+# SAY: London=LANdon
+# SAY: balikbayan box=balikBAyan baks
+# SAY: 1987=mil nobesyentos otsentay siyete
+# SAY: 1762=mil siyete syentos sesentay dos
+# SAY: 1888=mil otsosyentos otsentay otso
+# SAY: dinambong=dinamBONG
+# SAY: Rico Bulan=RIko buLAN
+# SAY: Tubal=tuBAL
+# SAY: Sir=ser
+# SAY: live=layb
+# SAY: ring light=ring layt
+# SAY: views=byus
+# SAY: porselana=porseLAna
+# SAY: lente=LENte
+# SAY: Nell=nel
+# SAY: Jack=dyak
+# SAY: British=BRItish
+# SAY: Rizal=riSAL
+# SAY: umungol=u-MU-ngol
+# SAY: Lundag=lunDAG
+# SAY: Agos=Agos
+# SAY: José=hoSE
+# SAY: Filipinas=filiPInas
+# SAY: overtime=Obertaym
+# SAY: phone=fon
+# SAY: museo=muSEo
+# SAY: kuwaderno=kuwaDERno
+
+# --- 0. Hook (cold, at 0.0, on the stolen find: a flash-forward of scene 2)
+(Ulan. Isang saradong tarangkahang bakal. Si Indio, basa, hawak ang phone. Sa screen: isang lalaking nakangiti, may ring light, nakapatong ang kamay sa isang lumang kahon.)
+RICO: [bright] Rico Bulan po, ang inyong tunay na saksi! Salamat, Sir Tubal!
+INDIO (sa atin): [dramatic] Tatlong araw kong hinanap ang kahong 'yan. Siya ang nakahanap. Naka-live pa.
+INDIO (sa atin): [dry] Ako 'to si Indio. 'Yung hindi tunay, kumbaga.
+
+# --- 1. Today (short, Indio's voice). He wants: to get to the crate first.
+TAGAPAGSALAYSAY: [calm] Ngayon. London.
+TAGAPAGSALAYSAY: [calm] Kasama ni Indio si M, ang babaeng may mapa ng mga medalyon. Wala siyang pera, kaya nagbubuhat siya ng balikbayan box.
+(Isang maliit na padalahan ng mga Pilipino. Si Indio, pawisan, may teyp sa ngipin, nakayakap sa isang kahong mas malaki pa sa kanya. Si M, nakasandal sa pinto, hawak ang pulang payong.)
+INDIO (sa atin): [playful] Balikbayan box: sumikat noong dekada otsenta, sa mga Pilipino sa Amerika. Noong 1987, inalis ang buwis nito. Kaya kahon na ang umuuwi. 'Yung tao, overtime.
+(Sa kuwaderno ni Lolo, bagong sulat: isang kahon, isang ilog, isang taon: 1762.)
+TAGAPAGSALAYSAY: [calm] Sa kuwaderno ng Lolo niya: ang dinambong sa Maynila noong 1762, nasa isang bodega sa tabi ng ilog.
+M: [low] Gusto rin 'yan ni Tubal, 'yung bumibili ng medalyon.
+
+# --- 2. The warehouse gate. The find is taken, live. THE FALL begins.
+(Gabi, ulan. Isang lumang bodegang ladrilyo sa tabi ng ilog Thames. Saradong tarangkahan, dalawang bantay na nakakapote. Sa itaas, isang bintanang maliwanag: may ring light sa loob. Si Indio, nakatingin sa phone.)
+TAGAPAGSALAYSAY: [calm] Pero sarado ang bodega. Sa phone ni Indio, naka-live mula sa loob si Rico Bulan, ang lalaking may ring light na nauna sa kanya sa Laguna.
+RICO: [bright] Heto ang kahon ng 1762. Porselana!
+(Sa screen, itinaas ni Rico ang isang platong porselana mula sa ibabaw ng kahon. Hindi niya inangat ang nasa ilalim. Sa mga comment: "Ilusyon lang si Indio.")
+M: [low] Noong bago pa 'yan, wala pang bantay.
+(Sa pader ng bodega, isang lumang karatulang bakal. Binasa ito ni Indio nang malakas. Uminit ang medalyon sa dibdib niya.)
+TAGAPAGSALAYSAY: [calm] Binasa ni Indio nang malakas ang karatula ng bodega: itinayo, 1888. Uminit ang medalyon niya.
+
+# --- 3. London, 1888. The lens, and the leaper. THE FALL.
+TAGAPAGSALAYSAY: [low] London, 1888. Hamog.
+(Ang parehong bodega, bagong-bago ang ladrilyo. Mga ilaw na gaas sa kalye. Lumabas mula sa liwanag ang itim na asong si Usman, nakataas ang ilong.)
+TAGAPAGSALAYSAY: [low] Sumalubong si Usman, ang aso niyang nagsasalita.
+USMAN: [dry] Par, amoy tanso sa loob ng bodegang 'yan.
+(Itinapat ni Indio ang lente sa bodega. Sa loob ng salamin: isang silid-aklatan ng kumbento sa Maynila; mga sundalong nakapula, buhat ang mga kaban ng aklat at mga nakarolyong mapa pababa ng hagdan.)
+TAGAPAGSALAYSAY: [low] Itinapat ni Indio sa bodega ang lente, na nagpapakita ng nakaraan. Maynila, 1762: mga sundalong British, hinahakot ang mga aklat at mapa ng isang kumbento.
+INDIO (sa atin): [whisper] Sabi ng titser ko, pilak lang ang kinuha nila. Pati pala libro at mapa.
+(Mula sa bubong, isang payat na aninong mahaba ang binti. Isang lundag. Wala na ang lente sa kamay ni Indio. Nasa itaas na ulit ang anino, sa tabi ng isang ilaw sa kalye.)
+TAGAPAGSALAYSAY: [low] Biglang may lumundag mula sa bubong: isang payat na nilalang. Inagaw nito ang lente.
+(Tumakbo si Indio sa mga eskinita. Ang nilalang, bubong sa bubong, ilaw sa ilaw. Nadulas si Indio sa basang bato at dumausdos hanggang sa paanan ng isang malapad na hagdang bato.)
+TAGAPAGSALAYSAY: [low] Hinabol ito ni Indio, pero hindi ito bumababa sa lupa. Nadulas siya, hanggang sa hagdan ng isang museo.
+INDIO (sa atin): [whisper] Wala na ang kahon. Wala na ang lente.
+
+# --- 4. The steps, and the reading room. What the friend shows him.
+(Madaling-araw. Isang batang babae, may apron at timba, may maliit na lampara, ang huminto sa harap ng lalaking nakaupo sa hagdan.)
+TAGAPAGSALAYSAY: [low] Doon siya nakita ni Nell, isang batang tagalinis ng silid-basahan ng museo.
+NELL: [plain] Si Jack na tumatalon 'yon. Sabi nila, dating tagasindi ng ilaw, takot sa dilim.
+TAGAPAGSALAYSAY: [low] Umungol si Usman. Sabi-sabi lang kasi.
+(Isang napakalaking bilog na silid sa ilalim ng simboryo, puno ng aklat. Sa malayo, sa isang mesa, isang lalaking maliit ang katawan, nakatalikod, nakayuko sa isang lumang aklat, sumusulat. Sina Indio at Nell, nakasilip mula sa pinto.)
+TAGAPAGSALAYSAY: [low] Sa loob, sa malayo, may lalaking nakayuko sa lumang aklat, sumusulat.
+NELL: [whisper] Taga-Filipinas 'yan. Kinokopya niya nang sulat-kamay ang isang libro tungkol sa mga isla nila.
+(Mula sa likod ng balikat ng lalaki: ang kamay na sumusulat. Hindi natin nakikita ang mukha niya.)
+TAGAPAGSALAYSAY: [low] Si José Rizal iyon. Ito ang isusulat niya sa aklat na iyon.
+RIZAL: [quiet] Kung mapukaw ng aklat na ito ang malay ninyo sa ating nakaraan, na nabura sa alaala, hindi nasayang ang pagod ko.
+INDIO (sa atin): [whisper] Ako, isang kahon ang gustong bawiin. Siya, ang buong nakaraan.
+(Lumuhod si Nell sa tabi ng isang istante. Itinapat niya ang isang basag na salamin sa lampara. Isang tuwid at manipis na guhit ng liwanag ang gumapang sa ilalim ng istante. Iniabot niya ang salamin at ang lampara kay Indio.)
+TAGAPAGSALAYSAY: [low] Ipinahiram ni Nell ang lampara niya at isang basag na salamin: kapag pinagtapat, nagiging tuwid na guhit ang liwanag.
+NELL: [kind] Parang palaso.
+
+# --- 5. THE COMEBACK. He stops running and looks.
+(Sa labas, hamog. Nakatayo lang si Indio, hawak ang lampara at ang salamin. Sa itaas, ang nilalang, palipat-lipat sa mga ilaw na may sindi. Sa pader, ang anino nito: may hawak na mahabang panindi.)
+TAGAPAGSALAYSAY: [low] Sa labas, hindi na humabol si Indio. Tumingin siya. Sa may sinding ilaw lang dumadapo ang nilalang, at may mahabang panindi ang anino nito.
+(Itinaas ni Indio ang salamin. Isang guhit ng liwanag, parang palaso, ang tumama sa anino sa pader, hindi sa katawan. Napako ang anino. Napahinto ang nilalang sa gilid ng bubong.)
+TAGAPAGSALAYSAY: [low] Itinutok ni Indio ang guhit ng liwanag sa anino, hindi sa katawan. Napako ang anino.
+INDIO: [gentle] Tagasindi ka nga. Takot ka lang sa dilim. Nakita na kita.
+(Sinindihan ni Indio ang isang patay na ilaw sa kanto. Bumaba ang nilalang sa liwanag nito: isang payat na lalaking nanginginig. Iniabot nito ang lente. Uminit ang medalyon ni M. Sa pulang tali sa pulso ni Indio, isang bagong buhol.)
+TAGAPAGSALAYSAY: [low] Sinindihan ni Indio ang patay na ilaw sa kanto. Bumaba roon ang nilalang at isinauli ang lente. Sa pulang tali ni Indio, may bagong buhol: kakampi na niya ang nilalang, si Lundag.
+(Binuhat ni Lundag sina Indio at Usman sa ibabaw ng mga bubong, hanggang sa bintana ng bodega. Sa loob, ang kahon. Inangat ni Indio ang mga plato: sa ilalim, isang medalyong tanso.)
+TAGAPAGSALAYSAY: [low] Itinawid sila ni Lundag sa mga bubong, papasok sa bodega. Sa ilalim ng mga porselana: isang medalyong tanso, Ang Agos.
+
+# --- 6. Back. What the camera never lifted.
+(Ngayon. Ulan, sa labas ng tarangkahan. Sa phone, live pa rin si Rico, nakataas ang plato. Sa palad ni Indio, mainit ang bagong medalyon.)
+TAGAPAGSALAYSAY: [calm] Ngayon. Live pa rin si Rico. Hindi niya inangat ang mga porselana.
+INDIO (sa atin): [smug] Sa kanya ang views. Sa akin ang nasa ilalim.
+(Isang maliit na kuwarto ng hotel. Sina Indio at M, magkatabi sa harap ng heater, nagtatawanan. Lumapit ang mukha niya. Lumapit ang kay Indio. Mula sa buhol, tumalon si Lundag sa pagitan nila.)
+TAGAPAGSALAYSAY: [calm] Sa hotel, nagtawanan ulit sina Indio at M. Malapit na ang mukha niya. Tapos tumalon si Lundag mula sa buhol.
+M: [warm] Bukas na lang, Indio.
+
+# --- 7. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kapag inagaw ang pinaghirapan mo, hahabulin mo ba, o titingin ka muna?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? Kinopya niya ang buong libro?
+# INDIO: Tiyak: nasa London si Rizal mula Mayo 1888 hanggang Marso 1889. Sa British Museum niya pinag-aralan ang aklat ni Morga ng 1609, at inilathala niya ito sa Paris noong 1890, may sarili niyang mga tala.
+# INDIO: Tiyak din: noong 1762, hinakot ng mga British ang aklatan ng mga Agustino sa Maynila. Ang ilan, nasa mga aklatan pa sa Britain.
+# USMAN: Eh 'yung sinabi niya?
+# INDIO: Salin 'yon, pinaikli, ng isinulat niya sa unahan ng aklat. Si Jack na tumatalon, alamat ng London mula 1837. Hindi nalaman kung sino siya.
+# USMAN: Kaya pala ako umungol.
