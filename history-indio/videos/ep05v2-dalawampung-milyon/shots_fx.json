@@ -53,28 +53,29 @@
 "key": 7
 },
 "9": {
-"move": "hold",
-"fx": []
+"move": "push_in",
+"fx": [],
+"why": "he smooths it with care"
 },
 "10": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 9
+"key": 9,
+"why": "he smooths it with care"
 },
 "11": {
 "move": "hold",
-"fx": [],
-"key": 9
+"fx": []
 },
 "12": {
 "move": "hold",
 "fx": [],
-"key": 9
+"key": 11
 },
 "13": {
 "move": "hold",
 "fx": [],
-"key": 9
+"key": 11
 },
 "14": {
 "move": "hold",
@@ -170,39 +171,43 @@
 "key": 26
 },
 "28": {
-"move": "hold",
+"move": "push_in",
 "fx": [
 "snow"
 ],
-"key": 26
+"why": "they shiver and bicker"
 },
 "29": {
-"move": "hold",
+"move": "push_in",
 "fx": [
 "snow"
 ],
-"key": 26
+"key": 28,
+"why": "they shiver and bicker"
 },
 "30": {
-"move": "hold",
+"move": "push_in",
 "fx": [
 "snow"
 ],
-"key": 26
+"key": 28,
+"why": "they shiver and bicker"
 },
 "31": {
-"move": "hold",
+"move": "push_in",
 "fx": [
 "snow"
 ],
-"key": 26
+"key": 28,
+"why": "they shiver and bicker"
 },
 "32": {
-"move": "hold",
+"move": "push_in",
 "fx": [
 "snow"
 ],
-"key": 26
+"key": 28,
+"why": "they shiver and bicker"
 },
 "33": {
 "move": "push_in",
@@ -296,19 +301,21 @@
 "fx": []
 },
 "49": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 48
+"why": "Ambo leans in, warning"
 },
 "50": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 48
+"key": 49,
+"why": "Ambo leans in, warning"
 },
 "51": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 48
+"key": 49,
+"why": "Ambo leans in, warning"
 },
 "52": {
 "move": "push_in",
@@ -612,23 +619,24 @@
 "key": 102
 },
 "106": {
-"move": "hold",
-"fx": []
+"move": "push_in",
+"fx": [],
+"why": "she raises five fingers"
 },
 "107": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 106
+"key": 106,
+"why": "she raises five fingers"
 },
 "108": {
 "move": "hold",
-"fx": [],
-"key": 106
+"fx": []
 },
 "109": {
 "move": "hold",
 "fx": [],
-"key": 106
+"key": 108
 },
 "110": {
 "move": "hold",

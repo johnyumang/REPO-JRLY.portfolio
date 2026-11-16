@@ -287,6 +287,30 @@
    "setting": "a narrow Paris street on a snowy night in 1898: an old stone tenement with wooden shutters across the way, one lit window high up, a gas lamp, carriage tracks in snow; no modern things, no writing anywhere",
    "light": "one warm golden window in deep blue night, soft falling snow, quiet, richly painted, detailed ink linework, textured brushwork",
    "note": "room for the question text in code, upper area"
+  },
+  "bk_11": {
+   "subject": "Extreme close-up from above, the note centred: a generic crumpled orange banknote with an outline portrait, no readable letters or numbers, lying on the black cloth of a knee, its corners slowly curling up again, soft and worn, the paper creased many times. No hands in the picture, no people's faces. The note in the upper half; the lower half is the dark pew wood.",
+   "setting": "inside a quiet old stone church in our time: a long nave of dark wooden pews, white plastered walls, tall arched windows high up, a worn tiled floor, a plain dark bronze plaque on the side wall; no statues near the camera, no writing anywhere",
+   "light": "a warm beam of late window light across the note, cool shadows around, gentle comic mood, richly painted, detailed ink linework, textured brushwork",
+   "note": "second still of shot 6: the note curls up again"
+  },
+  "bk_28": {
+   "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, hugging himself, hands tucked under his arms, shoulders up to his ears, shivering, teeth gritted, looking down to his side; at his feet, small in the lower corner, the head and shoulders of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog looks up at him. Indio's face in the upper half; the lower half is his chest, the snow and the dog.",
+   "setting": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "light": "cold blue night, gaslight from one side, falling snow, breath steam, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "second still of shot 11: the banter in the cold"
+  },
+  "bk_50": {
+   "subject": "Eye-level close-up: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, leaning in and speaking low and serious, his eyebrows drawn together, one finger raised beside his face, a thumb and four fingers. He is alone in the frame, no dog. His face in the upper half; the lower half is the apron and the kitchen table edge.",
+   "setting": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "light": "warm orange stove light on one side of his face, steam, deep shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": "second still of shot 15: his warning"
+  },
+  "bk_108": {
+   "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, five small indigo line tattoos on his right forearm, standing in the arched church doorway, frowning, puzzled, staring across the street at an empty sidewalk, his right hand slowly opening, five fingers spread, looking at it. He is alone, no dog, no animals. His face and raised hand in the upper half; the lower half is his shirt and the stone door frame.",
+   "setting": "the arched wooden door and stone steps of an old church in our time at dusk: a city street with tangled electric wires on poles, acacia trees, a plain city bus; no signboards, no writing anywhere",
+   "light": "orange dusk sky behind, warm light from inside the church on his back, a faint golden glow on his arm, dramatic, richly painted, detailed ink linework, textured brushwork",
+   "note": "second still of shot 40: \"Lima. Bakit parang binibilang niya ako?\""
   }
  },
  "shots": {
@@ -335,16 +359,16 @@
    "shot": 6
   },
   "11": {
-   "full": "bk_10",
-   "shot": 6
+   "full": "bk_11",
+   "shot": 6.5
   },
   "12": {
-   "full": "bk_10",
-   "shot": 6
+   "full": "bk_11",
+   "shot": 6.5
   },
   "13": {
-   "full": "bk_10",
-   "shot": 6
+   "full": "bk_11",
+   "shot": 6.5
   },
   "14": {
    "full": "bk_15",
@@ -403,24 +427,24 @@
    "shot": 11
   },
   "28": {
-   "full": "bk_25",
-   "shot": 11
+   "full": "bk_28",
+   "shot": 11.5
   },
   "29": {
-   "full": "bk_25",
-   "shot": 11
+   "full": "bk_28",
+   "shot": 11.5
   },
   "30": {
-   "full": "bk_25",
-   "shot": 11
+   "full": "bk_28",
+   "shot": 11.5
   },
   "31": {
-   "full": "bk_25",
-   "shot": 11
+   "full": "bk_28",
+   "shot": 11.5
   },
   "32": {
-   "full": "bk_25",
-   "shot": 11
+   "full": "bk_28",
+   "shot": 11.5
   },
   "33": {
    "full": "bk_30",
@@ -487,16 +511,16 @@
    "shot": 15
   },
   "49": {
-   "full": "bk_44",
-   "shot": 15
+   "full": "bk_50",
+   "shot": 15.5
   },
   "50": {
-   "full": "bk_44",
-   "shot": 15
+   "full": "bk_50",
+   "shot": 15.5
   },
   "51": {
-   "full": "bk_44",
-   "shot": 15
+   "full": "bk_50",
+   "shot": 15.5
   },
   "52": {
    "full": "bk_47",
@@ -723,12 +747,12 @@
    "shot": 40
   },
   "108": {
-   "full": "bk_91",
-   "shot": 40
+   "full": "bk_108",
+   "shot": 40.5
   },
   "109": {
-   "full": "bk_91",
-   "shot": 40
+   "full": "bk_108",
+   "shot": 40.5
   },
   "110": {
    "full": "bk_93",
