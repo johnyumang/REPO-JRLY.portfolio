@@ -476,3 +476,33 @@ summaries); Sulayman's reported answer in Blair and Robertson (14); the dedicati
 quote is used, only the storyteller's summary); Executive Order 206 of 1987 (17); a dictionary for "tiangge"
 (18); the names JM, Ambing, Nell, Rico Bulan against living people. Episode 14's present-day part before the
 jump runs over a minute (rule 2 asks for 40 seconds) because the fall begins there.
+
+## 14. Running lists, Episodes 19 to 24 (batch 4; continues section 13)
+
+| Ep | Today-thing (status) | Hook (kind) | Fall | Friend | Gained / lost | Hero line |
+|---|---|---|---|---|---|---|
+| 19 | "tsismis" (Spanish "chismes"): one dictionary family, check a printed one | "Magsalita ka!" (he cannot speak when it counts) | he claims the medallions as his; no sound comes; the bag is taken | Bapa Usop, fisherman | Ang Tinig (Kudarat's); knot 6, the sarimanok; the map has dots again | Sultan Kudarat, a rendering of one sentence of his recorded speech (not a quote) |
+| 20 | lechon (Spanish "lechón"; Cebu's fame as reputation) | Rico's scream as the siyokoy take him (only he can pull the rival out) | the rival lifts the shield first; it is cold; Alcaín: "Ilusyon lang." | Buyong, spear boy | Ang Kalasag, the twelfth medallion; knot 7, the siyokoy; the seventh mark; the anting; M's map becomes the key | Lapulapu, "ganito raw ang sagot ng Mactan", a rendering of Pigafetta's report (not a quote) |
+| 21 | adobo (the name from "adobar"; the cooking older): two sources; the 1613 note in trivia has one | "Huwag mong isusubo!" (a warning at a feast) | the fog shuts, the rival is feasted, he sits to eat | Nanay Pacing | nothing won; Tala named as his ate; knot 2 used | none |
+| 22 | "kumusta" (Spanish "¿cómo está?"): check a printed dictionary | M shouting in broken words (he cannot understand the one he trusts) | every tongue breaks; both bronze gifts go dumb; Nuri lost in dust | Nuri, brick girl | the Ladrilyo with three slanted strokes; proof the hearing is his own | none: two verses read whole by the storyteller (Genesis 11:1 and 11:9, Ang Dating Biblia 1905) |
+| 23 | tsinelas (Spanish "chinela"): open a dictionary | the shield flattened under a giant's palm (a giant's blow) | wrong target: pinned, he accuses the man who hid them | Sami, shepherd boy | knot 8, the giant Gabon; Albo named as Tala's father; the paper signed Teodoro Bracken | none: one clause read word for word (Genesis 6:4, Ang Dating Biblia 1905) |
+| 24 | "tingi": origin weak, "sabi nila" | "Indio! Bitawan mo ang kopa!" (the one he loves is taken) | he touches the cup; M drops into a net; the city starts to sink | Ilos, harbour boy; Ma'am Celia on a call | Ang Tabò ng Bukal; knot 9, the Pugita; Sinag named | none |
+
+**Rulings added in batch 4:** from Episode 19, with Ang Tinig his TRUE words are understood in any tongue; from
+Episode 20, M's map is the bronze key, the key opens a lagusan (and, read aloud, a story's page), M is "ang
+gabay niyang may pulang payong", and where a lagusan is open Usman has a body; the medallions stay "hiram" and
+go back when the work is done; knots are allies and are counted apart from medallions (twelve with M's own).
+
+**Plants made in 19 to 24:** Federico of Grade 5 is Rico (19); the vow to return every medallion (19, 20); the
+one dark slot of the anting (20); "Indio, anak ko." (20); the mother behind the fog, who ate there and cannot
+come out; Tala can reach only its edge (21); "Nakita ko ang tatay mo sa'yo" (21); the stamped brick and the tall
+builders who smell like Tala (22); Albo's "Itinago ko sila" and "Hindi pa ngayon"; the paper signed Teodoro
+Bracken; "Anak ng hukbo… ipinagbabawal" (23); "Ikaw ang susunod na mahuhulog." to M; the unspent salok (24).
+
+**Hold for the owner's read before voicing:** Episodes 22 and 23 (scripture), as with Episode 9.
+
+**Still to check before any build of 19 to 24:** the fuller text of Kudarat's speech and the 1639 expedition
+(19); Pigafetta in full for Mactan (20); the 1613 dictionary page for adobo (21); a second source for
+Etemenanki (22 trivia); 1 Enoch 6 in a full text and a dictionary for "chinela" (23); Plato's Timaeus and Critias
+in Jowett (24: only summaries were reachable); the names Bapa Usop, Buyong, Nanay Pacing, Tala, Nuri, Sami,
+Ilos against living people; "Bapa" as the Maranao form of address.
