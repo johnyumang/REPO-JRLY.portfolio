@@ -182,6 +182,8 @@ def kind_of(n):
     if any(abs(a_ - t_) < 1e-6 for t_ in HARD_IN): kind = 'cut'                             # shots_fx line {"trans_in": "cut"}: e.g. the line right after a spliced trivia break
     return kind
 SUB_TIM = [dict(t_) for t_ in tim]
+for j_, t_ in enumerate(SUB_TIM):                                                           # shots_fx line {"sub_v": 360}: that line's subtitle sits lower (e.g. off a face)
+    if isinstance(FX.get(str(SRC[j_])), dict) and FX[str(SRC[j_])].get('sub_v'): t_['sub_v'] = int(FX[str(SRC[j_])]['sub_v'])
 if (FX.get('_') or {}).get('subs_after_blend'):                                             # a line's subtitle never shows over the PREVIOUS picture: it waits for a blend to end
     for n_ in range(1, len(shots)):
         if kind_of(n_) in ('cut', 'fade'): continue

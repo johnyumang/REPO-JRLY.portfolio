@@ -1,1 +1,13 @@
-{"hush_before": [67], "hush": 0.5}
+{
+ "hush_before": [
+  67
+ ],
+ "hush": 0.5,
+ "balance": {
+  "to": "TAGAPAGSALAYSAY",
+  "max": 2.0,
+  "allow": {
+   "MGA KAKLASE": 3.5
+  }
+ }
+}
