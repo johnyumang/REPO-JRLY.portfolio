@@ -30,7 +30,7 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 | 20 | 46.37 | TAGAPAGSALAYSAY | -0.0 | 0.978 | 110 | 6.43 | 0.38 | no | -20.0 | -221.4 | none | Galing pala kay M, na hindi pa rin niya kilala. |
 | 21 | 49.33 | INDIO | +0.0 | 0.910 | 108 | 5.33 | 0.42 | no | -20.3 | -81.0 | heard: Deem na naman. | M na naman. |
 | 22 | 50.50 | INDIO | +0.0 | 0.885 | 106 | 6.94 | 0.38 | no | -20.6 | -32.9 | none | Naisahan ako. |
-| 23 | 52.07 | TAGAPAGSALAYSAY | -0.0 | 0.928 | 104 | 4.26 | 0.80 | no | -12.7 | -13.2 | none | Paris. |
+| 23 | 52.07 | TAGAPAGSALAYSAY | -0.0 | 0.928 | 104 | 4.26 | 0.80 | no | -13.1 | -13.2 | none | Paris. |
 | 24 | 52.96 | TAGAPAGSALAYSAY | -0.0 | 0.972 | 109 | 5.01 | 0.38 | no | -17.8 | -61.2 | heard: Ikasampunang Disyembre, 1898. | Ikasampu ng Disyembre, 1898. |
 | 25 | 56.98 | TAGAPAGSALAYSAY | +0.0 | short | 96 | 6.90 | 0.38 | no | 43.3 | -146.2 | none | Gabi. |
 | 26 | 57.69 | TAGAPAGSALAYSAY | +0.0 | 0.972 | 104 | 6.34 | 0.38 | no | -16.9 | -39.0 | none | Napunta siya sa isang eskinita sa Paris, sa gitna ng niyebe. |
@@ -43,7 +43,7 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 | 33 | 74.40 | TAGAPAGSALAYSAY | +0.0 | 0.982 | 106 | 5.56 | 0.42 | no | -19.4 | -37.5 | none | Pinapasok sila ng isang Pilipinong tagahugas ng pinggan: si Ambo. |
 | 34 | 79.01 | AMBO | +0.0 | 0.912 | 135 | 5.26 | 0.42 | no | -21.1 | -216.7 | none | Kababayan? |
 | 35 | 80.19 | AMBO | +0.0 | short | 211 | 4.88 | 0.38 | no | 3.1 | -188.9 | none | Dito? |
-| 36 | 81.03 | AMBO | -0.0 | 0.959 | 180 | 6.63 | 0.38 | no | -18.4 | -220.0 | none | Pumasok ka, mamamatay ka sa lamig. |
+| 36 | 81.03 | AMBO | -0.0 | 0.959 | 180 | 6.63 | 0.38 | no | -18.3 | -220.0 | none | Pumasok ka, mamamatay ka sa lamig. |
 | 37 | 83.26 | AMBO | +0.0 | 0.877 | 129 | 5.81 | 0.38 | no | -20.7 | -219.0 | none | Ako si Ambo. |
 | 38 | 84.47 | AMBO | +0.0 | 0.942 | 194 | 5.06 | 0.30 | no | -18.2 | -219.3 | none | Marino, taga-Batangas. |
 | 39 | 86.47 | AMBO | +0.0 | 0.968 | 163 | 6.51 | 0.38 | no | -19.7 | -221.0 | none | Naiwan ng barko, kaya naghuhugas ng pinggan. |
@@ -54,23 +54,23 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 | 44 | 95.90 | AMBO | -0.0 | 0.916 | 143 | 7.08 | 0.38 | no | -20.8 | -219.7 | none | Ngayong gabi ang pirmahan. |
 | 45 | 97.49 | INDIO | +0.0 | 0.964 | 111 | 6.32 | 0.42 | no | -17.1 | -32.6 | none | Sabi sa internet, binili raw tayo. |
 | 46 | 99.82 | INDIO | -0.0 | 0.880 | 113 | 6.67 | 0.38 | no | -17.2 | -219.5 | none | Dalawang dolyar bawat ulo. |
-| 47 | 101.59 | INDIO | -0.0 | 0.932 | 119 | 6.95 | 0.38 | no | -17.5 | -53.4 | none | Gusto kong makita kung sino ang pumayag. |
+| 47 | 101.59 | INDIO | -0.0 | 0.932 | 119 | 6.95 | 0.38 | no | -17.5 | -53.3 | none | Gusto kong makita kung sino ang pumayag. |
 | 48 | 104.31 | TAGAPAGSALAYSAY | +0.0 | 0.989 | 111 | 5.96 | 0.80 | no | -17.7 | -29.8 | heard: Binihisan siya ni Ambo bilang waiter, para makapasok sa silid ng pirmahan. | Binihisan siya ni Ambo bilang weyter, para makapasok sa silid ng pirmahan. |
 | 49 | 109.13 | AMBO | -0.0 | 0.957 | 166 | 6.55 | 0.42 | no | -17.7 | -31.9 | none | Huwag kang titingin sa mata nila. |
 | 50 | 111.22 | AMBO | -0.0 | 0.919 | 170 | 7.50 | 0.36 | no | -18.9 | -219.4 | none | Hindi ka nila makikita. |
 | 51 | 112.84 | AMBO | -0.0 | 0.893 | 181 | 7.06 | 0.38 | no | -17.7 | -218.4 | none | Ganyan kami rito. |
 | 52 | 114.16 | INDIO | -0.0 | 0.897 | 115 | 6.52 | 0.42 | no | -19.0 | -25.7 | none | Nakapasok ako. |
-| 53 | 115.50 | INDIO | -0.0 | 0.960 | 112 | 6.25 | 0.38 | no | -16.1 | -34.8 | none | Ako, na hindi makapasok kahit sa isang opisina sa Quezon City. |
-| 54 | 119.49 | TAGAPAGSALAYSAY | -0.0 | 0.986 | 113 | 4.28 | 0.42 | no | -18.9 | -36.1 | none | Sa mesa, may papel na may numero: dalawampung milyon. |
+| 53 | 115.50 | INDIO | -0.0 | 0.960 | 112 | 6.25 | 0.38 | no | -16.1 | -34.9 | none | Ako, na hindi makapasok kahit sa isang opisina sa Quezon City. |
+| 54 | 119.49 | TAGAPAGSALAYSAY | -0.0 | 0.986 | 113 | 4.28 | 0.42 | no | -18.9 | -37.1 | none | Sa mesa, may papel na may numero: dalawampung milyon. |
 | 55 | 123.92 | INDIO | -0.0 | 0.898 | 119 | 7.06 | 0.42 | no | -19.2 | -216.1 | none | Ayan ang numero. |
 | 56 | 125.20 | INDIO | -0.0 | 0.934 | 96 | 6.40 | 0.38 | no | -16.2 | -218.7 | none | Bayad ng Amerika sa Espanya. |
 | 57 | 127.34 | INDIO | +0.0 | 0.946 | 110 | 5.84 | 0.38 | no | -17.8 | -36.1 | none | Ngayon, bibilangin ko ang mga Pilipino sa mesa. |
 | 58 | 130.51 | INDIO | -0.0 | short | 103 | 6.90 | 0.38 | no | 79.8 | 70.9 | none | Wala. |
 | 59 | 131.26 | TAGAPAGSALAYSAY | -0.0 | 0.944 | 107 | 6.58 | 0.42 | no | -24.2 | -34.7 | none | Nabitawan niya ang bandeha. |
 | 60 | 133.21 | TAGAPAGSALAYSAY | -0.0 | 0.973 | 102 | 4.57 | 0.38 | no | -22.4 | -221.0 | heard: Nabasag ang mga baso, at sumugod ang punong waiter. | Nabasag ang mga baso, at sumugod ang punong weyter. |
-| 61 | 137.18 | PUNONG WEYTER | +0.0 | 0.775 | 271 | 3.37 | 0.42 | no | -25.3 | -34.5 | heard: Imbécile! | Imbécile! |
+| 61 | 137.18 | PUNONG WEYTER | +0.0 | 0.775 | 271 | 3.37 | 0.42 | no | -25.3 | -36.6 | heard: Imbécile! | Imbécile! |
 | 62 | 138.53 | TAGAPAGSALAYSAY | -0.0 | 0.982 | 103 | 6.02 | 0.42 | no | -22.7 | -37.5 | none | Hinila siya nito pababa, sa harap ng mga maruming pinggan. |
-| 63 | 142.31 | INDIO | -0.0 | 0.944 | 101 | 6.70 | 0.42 | no | -20.3 | -32.8 | heard: Asilid na yun, pinagpasyahan ang bayan ko. | Sa silid na 'yon pinagpasyahan ang bayan ko. |
+| 63 | 142.31 | INDIO | -0.0 | 0.944 | 101 | 6.70 | 0.42 | no | -20.2 | -32.8 | heard: Asilid na yun, pinagpasyahan ang bayan ko. | Sa silid na 'yon pinagpasyahan ang bayan ko. |
 | 64 | 144.75 | INDIO | -0.0 | 0.951 | 93 | 7.65 | 0.30 | no | -19.7 | -218.4 | none | At wala ni isa sa atin ang tinanong. |
 | 65 | 147.30 | AMBO | -0.0 | 0.913 | 169 | 5.67 | 0.80 | no | -17.9 | -27.4 | none | Dito sa ibaba, kuya, mas marami kang makikita. |
 | 66 | 150.70 | AMBO | -0.0 | 0.904 | 175 | 6.04 | 0.36 | no | -17.9 | -219.9 | none | Subukan mo ang bintanang 'yan. |
@@ -93,7 +93,7 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 | 83 | 192.03 | AMBO | +0.0 | 0.886 | 147 | 7.22 | 0.42 | no | -20.0 | -219.9 | none | Wala na siyang langis. |
 | 84 | 193.43 | AMBO | +0.0 | 0.904 | 153 | 7.86 | 0.38 | no | -18.0 | -220.3 | none | At wala na akong pambili. |
 | 85 | 195.04 | INDIO | -0.0 | short | 113 | 6.90 | 0.42 | no | 194.1 | 186.5 | none | Ito. |
-| 86 | 195.75 | INDIO | -0.0 | 0.926 | 111 | 7.69 | 0.38 | no | -19.7 | -57.9 | none | Huling pera ko 'to. |
+| 86 | 195.75 | INDIO | -0.0 | 0.926 | 111 | 7.69 | 0.38 | no | -19.7 | -67.5 | none | Huling pera ko 'to. |
 | 87 | 197.00 | AMBO | -0.0 | 0.927 | 164 | 6.98 | 0.42 | no | -20.1 | -31.5 | none | Hindi 'yan tatanggapin dito. |
 | 88 | 198.71 | AMBO | -0.0 | 0.917 | 183 | 7.61 | 0.38 | no | -17.3 | -217.1 | none | Sino 'yang nakaguhit? |
 | 89 | 200.10 | INDIO | +0.0 | 0.892 | 124 | 6.25 | 0.42 | no | -14.3 | -210.5 | none | Si Quezon. |
@@ -104,7 +104,7 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 | 94 | 205.58 | AMBO | +0.0 | 0.862 | 177 | 6.40 | 0.38 | no | -18.0 | -218.5 | none | Itatago ko 'to, kuya. |
 | 95 | 207.26 | AMBO | +0.0 | 0.904 | 157 | 5.66 | 0.38 | no | -19.1 | -220.6 | none | Ako nang bahala sa langis. |
 | 96 | 209.31 | TAGAPAGSALAYSAY | +0.0 | 0.970 | 105 | 6.62 | 0.42 | no | -18.5 | -37.2 | none | Dinala ni Ambo ang sarili niyang lampara sa kabilang kalye. |
-| 97 | 212.91 | TAGAPAGSALAYSAY | +0.0 | 0.983 | 107 | 5.37 | 0.38 | no | -18.3 | -39.7 | none | Sumunod si Indio at tatlo pang tagahugas, at tumayo sila sa niyebe. |
+| 97 | 212.91 | TAGAPAGSALAYSAY | +0.0 | 0.983 | 107 | 5.37 | 0.38 | no | -18.3 | -39.8 | none | Sumunod si Indio at tatlo pang tagahugas, at tumayo sila sa niyebe. |
 | 98 | 217.84 | USMAN | -0.0 | 0.946 | 229 | 6.54 | 0.42 | no | -18.4 | -27.3 | none | Bilangin mo ulit, par. |
 | 99 | 219.38 | INDIO | +0.0 | 0.945 | 122 | 3.24 | 0.42 | no | -18.0 | -216.1 | none | Isa, dalawa, tatlo, apat, lima. |
 | 100 | 223.15 | INDIO | +0.0 | 0.947 | 137 | 8.02 | 0.32 | no | -16.6 | -219.1 | none | Lima kaming Pilipino sa kalyeng ito. |
@@ -159,11 +159,11 @@ Speaker medians: PUNONG WEYTER -15.6, INDIO -20.6, TAGAPAGSALAYSAY -18.7, USMAN 
 - 46.37 s, line 20 (TAGAPAGSALAYSAY, "Galing pala kay M, na hindi pa rin niya kilala."): narrator speed 6.43 syl/s (5.0-5.5)
 - 18.40 s, line 8 (TAGAPAGSALAYSAY, "Isang lukot na bente na lang ang pera niya."): narrator speed 6.36 syl/s (5.0-5.5)
 - 114.16 s, line 52 (INDIO, "Nakapasok ako."): Indio similarity 0.897 (< 0.93)
-- 52.07 s, line 23 (TAGAPAGSALAYSAY, "Paris."): bed 12.7 dB under the voice (< 14)
 - 57.69 s, line 26 (TAGAPAGSALAYSAY, "Napunta siya sa isang eskinita sa Paris, sa gitna "): narrator speed 6.34 syl/s (5.0-5.5)
 - 123.92 s, line 55 (INDIO, "Ayan ang numero."): Indio similarity 0.898 (< 0.93)
 - 52.07 s, line 23 (TAGAPAGSALAYSAY, "Paris."): narrator speed 4.26 syl/s (5.0-5.5)
 - 119.49 s, line 54 (TAGAPAGSALAYSAY, "Sa mesa, may papel na may numero: dalawampung mily"): narrator speed 4.28 syl/s (5.0-5.5)
+- 52.07 s, line 23 (TAGAPAGSALAYSAY, "Paris."): bed 13.1 dB under the voice (< 14)
 - 52.07 s, line 23 (TAGAPAGSALAYSAY, "Paris."): effects 13.2 dB under the voice on the words
 - 138.53 s, line 62 (TAGAPAGSALAYSAY, "Hinila siya nito pababa, sa harap ng mga maruming "): narrator speed 6.02 syl/s (5.0-5.5)
 - 0.01 s, line 0 (PUNONG WEYTER, "Imbécile!"): bed 13.7 dB under the voice (< 14)

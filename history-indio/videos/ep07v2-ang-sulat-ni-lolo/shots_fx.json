@@ -1,7 +1,8 @@
 {
 "_": {
 "hold_same_key": true,
-"trans_default": "cut"
+"trans_default": "cut",
+"subs_after_blend": true
 },
 "0": {
 "fx": [
@@ -206,9 +207,7 @@
 "key": 32
 },
 "35": {
-"fx": [
-"punch"
-],
+"fx": [],
 "move": "tilt_up",
 "why": "ends on the empty branch"
 },
@@ -267,19 +266,22 @@
 "45": {
 "fx": [],
 "move": "push_in",
-"why": "second still, new size"
+"why": "second still, new size",
+"sub_v": 150
 },
 "46": {
 "fx": [],
 "move": "push_in",
 "why": "second still, new size",
-"key": 45
+"key": 45,
+"sub_v": 150
 },
 "47": {
 "fx": [],
 "move": "push_in",
 "why": "second still, new size",
-"key": 45
+"key": 45,
+"sub_v": 150
 },
 "48": {
 "fx": [],
@@ -649,6 +651,7 @@
 "fx": [],
 "move": "hold",
 "why": "the nose finds the stone",
-"key": 121
+"key": 121,
+"sub_v": 120
 }
 }
