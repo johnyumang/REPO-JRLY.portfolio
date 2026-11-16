@@ -1,7 +1,8 @@
 {
  "_": {
   "trans_default": "cut",
-  "hold_same_key": true
+  "hold_same_key": true,
+  "subs_after_blend": true
  },
  "0": {
   "fx": [
@@ -53,13 +54,12 @@
  "8": {
   "fx": [],
   "move": "push_in",
-  "why": "he leans in to the glass"
+  "why": "he reads her message"
  },
  "9": {
   "fx": [],
   "move": "push_in",
-  "why": "he leans in to the glass",
-  "key": 8
+  "why": "the night before: he irons the polo"
  },
  "10": {
   "fx": [],
@@ -108,13 +108,13 @@
  },
  "18": {
   "fx": [],
-  "move": "hold",
-  "why": "nobody came, only a marker"
+  "move": "push_in",
+  "why": "slowly in on him alone: nobody came"
  },
  "19": {
   "fx": [],
-  "move": "hold",
-  "why": "nobody came, only a marker",
+  "move": "push_in",
+  "why": "slowly in on him alone: nobody came",
   "key": 18
  },
  "20": {
@@ -142,25 +142,24 @@
  },
  "24": {
   "fx": [],
-  "move": "tilt_down",
-  "why": "new time, behind the crowd",
-  "key": 21
+  "move": "hold",
+  "why": "he stands inside the silent crowd"
  },
  "25": {
   "fx": [],
-  "move": "hold",
-  "why": "the dog will not play"
+  "move": "push_in",
+  "why": "slowly in on the dog that will not greet him"
  },
  "26": {
   "fx": [],
-  "move": "hold",
-  "why": "the dog will not play",
+  "move": "push_in",
+  "why": "slowly in on the dog that will not greet him",
   "key": 25
  },
  "27": {
   "fx": [],
-  "move": "hold",
-  "why": "the dog will not play",
+  "move": "push_in",
+  "why": "slowly in on the dog that will not greet him",
   "key": 25
  },
  "28": {
@@ -177,25 +176,24 @@
  "30": {
   "fx": [],
   "move": "push_in",
-  "why": "the boy joins them"
+  "why": "the boy comes toward them"
  },
  "31": {
   "fx": [],
-  "move": "push_in",
-  "why": "the boy joins them",
-  "key": 30
+  "move": "hold",
+  "why": "he offers the water"
  },
  "32": {
   "fx": [],
-  "move": "push_in",
-  "why": "the boy joins them",
-  "key": 30
+  "move": "hold",
+  "why": "he offers the water",
+  "key": 31
  },
  "33": {
   "fx": [],
-  "move": "push_in",
-  "why": "the boy joins them",
-  "key": 30
+  "move": "hold",
+  "why": "he offers the water",
+  "key": 31
  },
  "34": {
   "fx": [],
@@ -438,7 +436,8 @@
  "77": {
   "fx": [],
   "move": "hold",
-  "why": "we do not look"
+  "why": "we do not look",
+  "trans_in": "fade"
  },
  "78": {
   "fx": [],
