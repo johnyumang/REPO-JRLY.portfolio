@@ -86,16 +86,16 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Isang linggo nang mayaman si Indio.",
-  "say": "isang linggo nang mayaman si indio.",
+  "text": "Isang linggo nang mayaman si Indio, kasama pa rin si M, ang babaeng may mapa.",
+  "say": "isang linggo nang mayaman si indio, kasama pa rin si m, ang babaeng may mapa.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Pumipirma siya ng makapal na papeles sa phone, hindi binabasa.",
-  "say": "pumipirma siya ng makapal na papeles sa phone, hindi binabasa.",
+  "text": "Pumipirma siya ng papeles sa phone, hindi binabasa.",
+  "say": "pumipirma siya ng papeles sa phone, hindi binabasa.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -246,9 +246,17 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Sumalubong si Usman, ang aso niya.",
+  "say": "sumalubong si usman, ang aso niya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "May pamilyang nakaluhod sa harap ng mga pinuno, at may tagasulat na umuukit sa manipis na tanso.",
   "say": "may pamilyang nakaluhod sa harap ng mga pinuno, at may tagasulat na umuukit sa manipis na tanso.",
-  "style": "low",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -336,6 +344,14 @@
   "speaker": "BINI"
  },
  {
+  "text": "Tumayo ang pinuno ng Tundun, at itinaas ang tanso.",
+  "say": "tumayo ang pinuno ng tunDUN, at itinaas ang tanso.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Mula sa araw na ito, malaya na sa utang ang mga anak ni Namwaran, at ang kanilang mga apo.",
   "say": "mula sa araw na ito, malaya na sa utang ang mga anak ni namwaRAN, at ang kanilang mga apo.",
   "style": "grave",
@@ -418,6 +434,14 @@
  {
   "text": "Papalayo ang isang pickup, may kargang baul.",
   "say": "papalayo ang isang PIKap, may kargang baul.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hindi nila nakita ang sakay.",
+  "say": "hindi nila nakita ang sakay.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -598,14 +622,6 @@
   "say": "binaligtad ni indio ang polo niya, at tumigil ang pag-ikot ng gubat.",
   "style": "low",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Hinubad din niya ang gintong relo.",
-  "say": "hinubad din niya ang gintong relo.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
@@ -765,8 +781,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa kontrata, lumitaw ang isang talatang dati niyang hindi nakikita.",
-  "say": "sa kontrata, lumitaw ang isang talatang dati niyang hindi nakikita.",
+  "text": "Sa kontrata, lumitaw ang isang nakatagong talata.",
+  "say": "sa kontrata, lumitaw ang isang nakatagong talata.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
