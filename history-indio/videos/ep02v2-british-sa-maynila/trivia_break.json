@@ -10,7 +10,7 @@
    "emphasis": [
     "British"
    ],
-   "say": "Totoo ba yon, par? BRItish, sa Maynila?"
+   "say": "Totoo ba yon, par? british, sa Maynila?"
   },
   {
    "speaker": "INDIO",
@@ -19,7 +19,7 @@
     "1762",
     "Baluarte de San Diego"
    ],
-   "say": "Tiyak: ikaanim ng Oktubre mil siyete syentos sesentay dos, pinasok ng mga BRItish ang Maynila sa butas ng baluARte de san DYEgo."
+   "say": "Tiyak: ikaanim ng Oktubre mil siyete syentos sesentay dos, pinasok ng mga british ang Maynila sa butas ng baluARte de san DYEgo."
   },
   {
    "speaker": "INDIO",
@@ -34,7 +34,7 @@
    "emphasis": [
     "Simón de Anda"
    ],
-   "say": "Pero si Simón de Anda, nakaalis bago bumagsak ang lungsod, at lumaban mula Bacolor, pamPANGga."
+   "say": "Pero si Simón de Anda, nakaalis bago bumagsak ang lungsod, at lumaban mula Bacolor, pampanga."
   },
   {
    "speaker": "INDIO",
@@ -75,11 +75,11 @@
   }
  ],
  "placement": "end",
- "insert_after_sentence": 92,
+ "insert_after_sentence": 119,
  "after_text": "Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik?",
  "palette": "sun",
  "grave": false,
  "gap": 0.22,
  "why_here": "The new form (BIBLE section 0, rule 7), as Episode 1 v2: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
- "voice_note": "Same words as the trivia block at the end of script_multispeaker.txt; Indio's second and third lines are each split in two so each caption fits. Years voiced as Spanish-derived numbers (mil siyete syentos sesentay dos / kuwatro); British = BRItish, Baluarte de San Diego = baluARte de san DYEgo, Pampanga = pamPANGga, umungol = u-MU-ngol (master header)."
+ "voice_note": "Same words as the trivia block at the end of script_multispeaker.txt; Indio's second and third lines are each split in two so each caption fits. Years voiced as Spanish-derived numbers (mil siyete syentos sesentay dos / kuwatro); British = british, Baluarte de San Diego = baluARte de san DYEgo, Pampanga = pampanga, umungol = u-MU-ngol (master header)."
 }
