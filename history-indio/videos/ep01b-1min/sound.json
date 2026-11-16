@@ -1,0 +1,264 @@
+{
+ "_": {
+  "whoosh_cuts": false,
+  "levels": {
+   "amb": -14,
+   "music": -14,
+   "foley": -15,
+   "spot": -11,
+   "duck": 8,
+   "fx_duck": 12
+  },
+  "bed_per_line": true
+ },
+ "0": {
+  "amb": [
+   "fire:-6",
+   "crowd:-12"
+  ],
+  "music": "none"
+ },
+ "1": {
+  "music": "heartbeat",
+  "spot": [
+   {
+    "what": "whoosh",
+    "at": -0.28,
+    "dur": 0.4,
+    "gain": -8
+   }
+  ]
+ },
+ "2": {
+  "amb": [
+   "office",
+   "crowd:-14"
+  ],
+  "music": "guitar",
+  "level": -4,
+  "foley": [
+   {
+    "what": "cloth",
+    "at": -0.5,
+    "dur": 0.4,
+    "gain": -8
+   }
+  ]
+ },
+ "3": {
+  "amb": [
+   "city"
+  ],
+  "music": "guitar",
+  "level": -4
+ },
+ "4": {
+  "amb": [
+   "rain_heavy",
+   "city:-14"
+  ],
+  "music": "drone",
+  "level": -3,
+  "spot": [
+   {
+    "what": "thunder",
+    "at": -0.6,
+    "gain": -8,
+    "hush": 0.2
+   },
+   {
+    "what": "shimmer",
+    "at": -0.3,
+    "dur": 2.0,
+    "gain": -8
+   }
+  ]
+ },
+ "5": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "drone",
+  "level": -2,
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.4,
+    "gain": -8
+   }
+  ]
+ },
+ "6": {
+  "music": "heartbeat",
+  "level": -2
+ },
+ "7": {
+  "level": 0,
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.25,
+    "gain": -8
+   }
+  ]
+ },
+ "8": {
+  "foley": [
+   {
+    "what": "cloth",
+    "at": -0.28,
+    "dur": 0.4,
+    "gain": -6
+   }
+  ]
+ },
+ "9": {
+  "level": -4,
+  "foley": [
+   {
+    "what": "dog_paws",
+    "at": -0.28,
+    "count": 2,
+    "gain": -10
+   }
+  ]
+ },
+ "10": {
+  "music": "guitar",
+  "level": -5,
+  "foley": [
+   {
+    "what": "dog_pant",
+    "at": -0.25,
+    "dur": 0.6,
+    "gain": -14
+   }
+  ]
+ },
+ "11": {
+  "spot": [
+   {
+    "what": "bell",
+    "at": -0.25,
+    "dur": 0.3,
+    "gain": -16
+   }
+  ]
+ },
+ "12": {
+  "music": "none",
+  "level": -5
+ },
+ "13": {
+  "music": "drone",
+  "level": -4,
+  "foley": [
+   {
+    "what": "steps_earth",
+    "at": -0.28,
+    "pace": "run",
+    "count": 2,
+    "gain": -8
+   }
+  ]
+ },
+ "16": {
+  "foley": [
+   {
+    "what": "cloth",
+    "at": -0.28,
+    "dur": 0.4,
+    "gain": -8
+   }
+  ]
+ },
+ "17": {
+  "amb": [
+   "crowd:-4",
+   "fire:-4",
+   "wind:-8"
+  ],
+  "music": "none",
+  "level": -3,
+  "foley": [
+   {
+    "what": "steps_earth",
+    "at": -0.6,
+    "pace": "walk",
+    "count": 2,
+    "gain": -10
+   }
+  ]
+ },
+ "18": {
+  "music": "heartbeat",
+  "level": 0,
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.08,
+    "gain": -10,
+    "hush": 0.5
+   }
+  ]
+ },
+ "19": {
+  "amb": [
+   "crowd",
+   "fire:-4"
+  ],
+  "foley": [
+   {
+    "what": "paper_tear",
+    "at": -0.28,
+    "gain": -6
+   }
+  ]
+ },
+ "20": {
+  "foley": [
+   {
+    "what": "paper_tear_many",
+    "at": -0.28,
+    "dur": 1.4,
+    "gain": -8
+   }
+  ]
+ },
+ "21": {
+  "spot": [
+   {
+    "what": "cheer",
+    "at": -0.28,
+    "dur": 1.5,
+    "gain": -11
+   }
+  ]
+ },
+ "22": {
+  "amb": [
+   "crowd:-10",
+   "fire:-6",
+   "night_insects:-6"
+  ],
+  "music": "guitar",
+  "level": -6
+ },
+ "23": {
+  "music": "guitar",
+  "level": -4,
+  "foley": [
+   {
+    "what": "paper_tear",
+    "at": -0.28,
+    "gain": -16
+   }
+  ]
+ },
+ "24": {
+  "music": "drone",
+  "level": -6
+ }
+}
