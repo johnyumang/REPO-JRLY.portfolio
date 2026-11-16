@@ -49,25 +49,25 @@
  },
  "7": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "trans_in": "fade"
  },
  "8": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
  "9": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
  "10": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
@@ -518,7 +518,7 @@
  },
  "90": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "ends on the buried tin"
  },
  "91": {
