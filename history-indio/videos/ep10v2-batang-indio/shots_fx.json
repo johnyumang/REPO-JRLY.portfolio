@@ -51,7 +51,7 @@
   "fx": [],
   "move": "crane_down",
   "why": "settles behind the tree",
-  "trans_in": "dissolve"
+  "trans_in": "fade"
  },
  "8": {
   "fx": [],
@@ -178,109 +178,112 @@
  },
  "30": {
   "fx": [],
-  "move": "pull_out",
-  "why": "the whole class answers"
- },
- "31": {
-  "fx": [],
   "move": "tilt_up",
   "why": "follows the shaking hand"
  },
- "32": {
+ "31": {
   "fx": [],
   "move": "push_in",
   "why": "he says it is false"
  },
- "33": {
+ "32": {
   "fx": [],
   "move": "push_in",
   "why": "he says it is false",
-  "key": 32
+  "key": 31
  },
- "34": {
+ "33": {
   "fx": [],
   "move": "pan_right",
   "why": "ends on the raised eyebrow"
  },
- "35": {
+ "34": {
   "fx": [],
   "move": "push_in",
   "why": "toward his Lolo's book"
  },
- "36": {
+ "35": {
   "fx": [],
   "move": "push_in",
   "why": "toward his Lolo's book",
-  "key": 35
+  "key": 34
  },
- "37": {
+ "36": {
   "fx": [],
   "move": "hold",
   "why": "his eyes do not waver"
  },
- "38": {
+ "37": {
   "fx": [],
   "move": "hold",
   "why": "his eyes do not waver",
-  "key": 37
+  "key": 36
+ },
+ "38": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper to us"
  },
  "39": {
   "fx": [],
   "move": "hold",
-  "why": "his whisper to us"
+  "why": "his whisper to us",
+  "key": 38
  },
  "40": {
   "fx": [],
   "move": "hold",
   "why": "his whisper to us",
-  "key": 39
+  "key": 38
  },
  "41": {
-  "fx": [],
-  "move": "hold",
-  "why": "his whisper to us",
-  "key": 39
- },
- "42": {
   "fx": [],
   "move": "pan_right",
   "why": "follows him to the door",
   "trans_in": "whip"
  },
- "43": {
+ "42": {
   "fx": [],
   "move": "pan_right",
   "why": "follows him to the door",
-  "key": 42
+  "key": 41
  },
- "44": {
+ "43": {
   "fx": [],
   "move": "hold",
   "why": "she is torn two ways"
  },
- "45": {
+ "44": {
   "fx": [],
   "move": "hold",
   "why": "she is torn two ways",
-  "key": 44
+  "key": 43
  },
- "46": {
+ "45": {
   "fx": [],
   "move": "rack_focus",
   "why": "ends on the medal inside",
   "focus_to": "far"
  },
- "47": {
+ "46": {
   "fx": [],
   "move": "hold",
   "why": "he talks to the dog"
+ },
+ "47": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "the chant comes down"
  },
  "48": {
   "fx": [
    "punch"
   ],
   "move": "hold",
-  "why": "the chant comes down"
+  "why": "the chant comes down",
+  "key": 47
  },
  "49": {
   "fx": [
@@ -288,296 +291,288 @@
   ],
   "move": "hold",
   "why": "the chant comes down",
-  "key": 48
+  "key": 47
  },
  "50": {
-  "fx": [
-   "punch"
-  ],
-  "move": "hold",
-  "why": "the chant comes down",
-  "key": 48
- },
- "51": {
   "fx": [],
   "move": "pan_left",
   "why": "he strides for the gate"
  },
- "52": {
+ "51": {
   "fx": [],
   "move": "pan_left",
   "why": "he strides for the gate",
-  "key": 51
+  "key": 50
  },
- "53": {
+ "52": {
   "fx": [],
   "move": "hold",
   "why": "her hand stops him"
  },
- "54": {
+ "53": {
   "fx": [],
   "move": "hold",
   "why": "her hand stops him",
-  "key": 53
+  "key": 52
+ },
+ "54": {
+  "fx": [],
+  "move": "push_in",
+  "why": "bitter behind the wire"
  },
  "55": {
   "fx": [],
   "move": "push_in",
-  "why": "bitter behind the wire"
+  "why": "bitter behind the wire",
+  "key": 54
  },
  "56": {
   "fx": [],
   "move": "push_in",
   "why": "bitter behind the wire",
-  "key": 55
+  "key": 54
  },
  "57": {
-  "fx": [],
-  "move": "push_in",
-  "why": "bitter behind the wire",
-  "key": 55
- },
- "58": {
   "fx": [],
   "move": "hold",
   "why": "he admits it to us"
  },
- "59": {
+ "58": {
   "fx": [],
   "move": "hold",
   "why": "he admits it to us",
-  "key": 58
+  "key": 57
+ },
+ "59": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "Usman pulls him back"
  },
  "60": {
   "fx": [],
   "move": "pull_out",
-  "why": "Usman pulls him back"
+  "why": "Usman pulls him back",
+  "key": 59
  },
  "61": {
   "fx": [],
   "move": "pull_out",
   "why": "Usman pulls him back",
-  "key": 60
+  "key": 59
  },
  "62": {
-  "fx": [],
-  "move": "pull_out",
-  "why": "Usman pulls him back",
-  "key": 60
- },
- "63": {
   "fx": [],
   "move": "push_in",
   "why": "she shares her half"
  },
- "64": {
+ "63": {
   "fx": [],
   "move": "push_in",
   "why": "she shares her half",
-  "key": 63
+  "key": 62
  },
- "65": {
+ "64": {
   "fx": [],
   "move": "hold",
   "why": "her kindness, plainly"
  },
- "66": {
+ "65": {
   "fx": [],
   "move": "hold",
   "why": "her kindness, plainly",
-  "key": 65
+  "key": 64
  },
- "67": {
+ "66": {
   "fx": [],
   "move": "tilt_down",
   "why": "she kneels to his height"
  },
- "68": {
+ "67": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
   "dof": "far"
  },
+ "68": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "the comeback: his plain honesty",
+  "key": 67
+ },
  "69": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "key": 68
+  "key": 67
  },
  "70": {
-  "fx": [],
-  "move": "dolly_in",
-  "why": "the comeback: his plain honesty",
-  "key": 68
- },
- "71": {
   "fx": [],
   "move": "push_in",
   "why": "he owns up too"
  },
- "72": {
+ "71": {
   "fx": [],
   "move": "hold",
   "why": "he says it quietly"
+ },
+ "72": {
+  "fx": [],
+  "move": "hold",
+  "why": "he says it quietly",
+  "key": 71
  },
  "73": {
   "fx": [],
   "move": "hold",
   "why": "he says it quietly",
-  "key": 72
+  "key": 71
  },
  "74": {
   "fx": [],
   "move": "hold",
-  "why": "he says it quietly",
-  "key": 72
+  "why": "his whisper, eyes shining"
  },
  "75": {
   "fx": [],
   "move": "hold",
-  "why": "his whisper, eyes shining"
+  "why": "his whisper, eyes shining",
+  "key": 74
  },
  "76": {
   "fx": [],
   "move": "hold",
   "why": "his whisper, eyes shining",
-  "key": 75
+  "key": 74
  },
  "77": {
   "fx": [],
-  "move": "hold",
-  "why": "his whisper, eyes shining",
-  "key": 75
+  "move": "push_in",
+  "why": "she corrects the book",
+  "trans_in": "fade"
  },
  "78": {
   "fx": [],
   "move": "push_in",
   "why": "she corrects the book",
-  "trans_in": "dissolve"
+  "key": 77
  },
  "79": {
-  "fx": [],
-  "move": "push_in",
-  "why": "she corrects the book",
-  "key": 78
- },
- "80": {
   "fx": [],
   "move": "hold",
   "why": "she says the book erred"
  },
- "81": {
+ "80": {
   "fx": [],
   "move": "hold",
   "why": "she says the book erred",
-  "key": 80
+  "key": 79
  },
- "82": {
+ "81": {
   "fx": [],
   "move": "hold",
   "why": "the paper changes hands"
  },
- "83": {
+ "82": {
   "fx": [],
   "move": "hold",
   "why": "a dry exchange, no move"
+ },
+ "83": {
+  "fx": [],
+  "move": "hold",
+  "why": "a dry exchange, no move",
+  "key": 82
  },
  "84": {
   "fx": [],
   "move": "hold",
   "why": "a dry exchange, no move",
-  "key": 83
+  "key": 82
  },
  "85": {
-  "fx": [],
-  "move": "hold",
-  "why": "a dry exchange, no move",
-  "key": 83
- },
- "86": {
   "fx": [],
   "move": "pan_right",
   "why": "lens swings to the gate"
  },
- "87": {
+ "86": {
   "fx": [],
   "move": "hold",
   "why": "Lolo's quiet promise"
  },
- "88": {
+ "87": {
   "fx": [],
   "move": "push_in",
   "why": "his promise, heard close"
  },
- "89": {
+ "88": {
   "fx": [],
   "move": "push_in",
   "why": "his promise, heard close",
-  "key": 88
+  "key": 87
  },
- "90": {
+ "89": {
   "fx": [],
   "move": "hold",
   "why": "years later, he is alone",
   "trans_in": "flash"
  },
- "91": {
+ "90": {
   "fx": [],
   "move": "crane_down",
   "why": "ends on the buried tin"
  },
- "92": {
+ "91": {
   "fx": [],
   "move": "push_in",
   "why": "ends on the two words"
  },
- "93": {
+ "92": {
   "fx": [],
   "move": "push_in",
   "why": "ends on the two words",
-  "key": 92
+  "key": 91
  },
- "94": {
+ "93": {
   "fx": [],
   "move": "push_in",
   "why": "Lolo kept it all"
  },
- "95": {
+ "94": {
   "fx": [],
   "move": "push_in",
   "why": "Lolo kept it all",
-  "key": 94
+  "key": 93
  },
- "96": {
+ "95": {
   "fx": [],
   "move": "tilt_up",
   "why": "follows the ships upward"
  },
- "97": {
+ "96": {
   "fx": [],
   "move": "push_in",
   "why": "ends on Lolo's warning"
  },
- "98": {
+ "97": {
   "fx": [],
   "move": "hold",
   "why": "he frowns at the line"
  },
- "99": {
+ "98": {
   "fx": [],
   "move": "hold",
   "why": "he frowns at the line",
-  "key": 98
+  "key": 97
  },
- "100": {
+ "99": {
   "fx": [],
   "move": "hold",
   "why": "the question must stay readable"
  },
- "101": {
+ "100": {
   "fx": [],
   "move": "hold",
   "why": "the question must stay readable",
-  "key": 100
+  "key": 99
  }
 }
