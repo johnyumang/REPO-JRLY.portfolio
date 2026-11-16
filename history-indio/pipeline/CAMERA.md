@@ -37,6 +37,9 @@ builder (`shots_fx.json`, `"move"`). Choose both from what the line is doing, ne
 6. **Transitions are plain cuts by default.** `whip` only inside action, `dissolve` only for time or place changing,
    `flash` only for the time jump or a memory, `slash` only on a blade. Set `"trans"` per shot; do not let the builder
    rotate through its list.
+6a. **Never cross-dissolve between two stills that both show a person.** The two pictures lie over each other for
+    several frames and it reads as a second face or a ghost on the first person's head. For a change of time or place
+    use a dip to black (fade out, fade in) or a plain cut. A line's subtitle never appears before its own picture.
 7. **The reveal ends on the surprise and stops there** for at least half a second before the next cut.
 8. **Subject in the right place.** Centre only for power or confrontation; otherwise on a third, with room in the
    direction of the look. Check that subtitles (at about 63% of the height) do not cover the face or the thing revealed.
