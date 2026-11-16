@@ -2,7 +2,7 @@
 
 Revised for rule 9 (the storyteller tells every action in a full sentence): shots that were silent now carry a storyteller line; the pictures themselves do not change.
 
-One row per shot, in order. "Sent." = index in `sentences.json` (121 sentences). All stills NEW in the Bakunawa
+One row per shot, in order. "Sent." = index in `sentences.json` (122 sentences). All stills NEW in the Bakunawa
 look; writing in pictures is added in code. Nobody just standing; never the same framing twice in a row.
 
 **Must not resemble Episodes 1 to 5 (v2).** No torches or night (Ep 1), no smoke and stone (Ep 2), no cheering
@@ -56,8 +56,8 @@ Camera (rule 10): column follows pipeline/CAMERA.md; rows marked HIGH POINT are 
 | 39 | 106-110 | Eye-level two-shot at dog height: Indio crouching to the dog, one hand on his own bare collarbone | two-shot / eye level / push_in / he still hears the dog; dof: far |
 | 40 | 111-114 | Eye-level medium three-shot: Kiko holds out the dipper; Indio drinks; a wry half-smile | medium / eye level / hold / a drink and a joke |
 | 41 | 115 | High-angle extreme wide view: the sun clears the horizon over the bay; long shadows of a man and a dog on the empty field; the dog's shadow stays | **HIGH POINT** extreme wide / high angle / crane_up / the dog does not fade |
-| 42 | 116-119 | From behind, a wide view of Indio and Usman walking away from us across the field, Kiko watching them go | wide / from behind / pull_out / they walk on together |
-| 43 | 120 | High-angle wide view of the empty field, the question as text over it | wide / high angle / hold / the question needs stillness |
+| 42 | 116-120 | From behind, a wide view of Indio and Usman walking away from us across the field, Kiko watching them go | wide / from behind / pull_out / they walk on together |
+| 43 | 121 | High-angle wide view of the empty field, the question as text over it | wide / high angle / hold / the question needs stillness |
 | 44 | trivia | Eye-level medium view of chibi Indio and chibi Usman, the QUIET trivia card (no jingle, no joke sprite; quiet layout) | medium / eye level / hold / quiet trivia card layout |
 
 New stills: 43. Notes for the picture machine: Rizal is always far, in black, hat on, no likeness, never a
