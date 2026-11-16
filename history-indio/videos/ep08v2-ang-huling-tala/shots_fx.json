@@ -35,7 +35,7 @@
   "move": "pan_right",
   "fx": [],
   "why": "ends on the last tally",
-  "trans_in": "dissolve"
+  "trans_in": "fade"
  },
  "6": {
   "move": "pan_right",
@@ -136,7 +136,7 @@
   "move": "push_in",
   "fx": [],
   "why": "he threads into the crowd",
-  "trans_in": "dissolve"
+  "trans_in": "fade"
  },
  "23": {
   "move": "push_in",
@@ -648,6 +648,6 @@
   "move": "hold",
   "fx": [],
   "why": "the question must stay readable",
-  "trans_in": "dissolve"
+  "trans_in": "fade"
  }
 }
