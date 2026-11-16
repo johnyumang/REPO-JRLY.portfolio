@@ -1,4 +1,4 @@
-# INDIO: ANG SAKSI — Episode 1, "Ang Unang Talon" (version 2, revision 3 of 15 Nov: the storyteller tells every action)
+# INDIO: ANG SAKSI — Episode 1, "Ang Unang Talon" (version 2, revision 4 of 16 Nov: the storyteller tells every action and introduces every character)
 # MASTER script. One line per turn: NAME: [tone] text. Lines in (parentheses) are NOT spoken. script.txt and sentences.json are derived from it.
 # Speakers: TAGAPAGSALAYSAY (designed; tells what happens). INDIO (the clone of the owner's own recording); INDIO (sa atin) = Indio to the viewer,
 # same voice, closer. USMAN (designed; only inside the jump). ISLAW (invented boy of about twelve). MAY-ARI (pawnbroker, face never shown),
@@ -13,10 +13,10 @@ INDIO (sa atin): [playful] Ako 'to si Indio. Malas daw ako. Ganito 'yan nagsimul
 # --- 1. Today
 TAGAPAGSALAYSAY: [calm] Kaninang umaga, sa Quezon City, pumila si Indio para sa trabaho.
 INDIO (sa atin): [dry] Maghapon akong pumila. Wala pala akong cedula, 'yung resibo ng buwis. Hindi ko alam na kailangan pala 'yon.
-TAGAPAGSALAYSAY: [calm] Walang trabaho, walang pamasahe. Kaya dinala niya sa sanglaan ang nag-iisang mana niya: ang lumang medalyon ng Lolo niya.
+TAGAPAGSALAYSAY: [calm] Kaya dinala niya sa sanglaan ang nag-iisang mana niya: ang lumang medalyon ng Lolo niya.
 INDIO: [hopeful] Pamasahe lang po sana.
 MAY-ARI: [bored] Tanso lang 'yan, tol. Walang halaga.
-TAGAPAGSALAYSAY: [low] Pero bago ito ibinalik, palihim itong idiniin ng katulong sa isang pirasong pagkit.
+TAGAPAGSALAYSAY: [low] Sa likod ng may-ari, may katulong na kinakalawang ang kamay. Bago ibinalik ang medalyon, palihim niya itong idiniin sa isang pirasong pagkit.
 INDIO: [sigh] Gutom na 'ko.
 TAGAPAGSALAYSAY: [calm] Sa kanto, may paresan. Hindi niya kaya ang isang mangkok. Tinapay lang ang nabili niya.
 INDIO (sa atin): [proud] Pares: taga-Quezon City, gaya ko. Sabi nila, nagsimula ito sa Retiro noong 1979. Ngayon, nasa buong Pilipinas na.
@@ -26,13 +26,14 @@ INDIO: [playful] Diwata, baka naman!
 TAGAPAGSALAYSAY: [calm] Pagsapit ng gabi, bumuhos ang ulan. Sumilong si Indio sa dambana ng Pugad Lawin, sa Bahay Toro.
 INDIO: [bored] Wala akong kausap. Marker na lang.
 TAGAPAGSALAYSAY: [low] Binasa niya nang malakas ang nakasulat. Uminit ang medalyon sa dibdib niya. At tumigil sa ere ang mga patak ng ulan.
-USMAN: [urgent] Kumapit ka, Indio!
 TAGAPAGSALAYSAY: [low] Mula sa liwanag, lumundag ang isang asong itim.
+USMAN: [urgent] Kumapit ka, Indio!
 INDIO: [shocked] Teka, nagsalita 'yung aso?
 
 # --- 3. 1896
-TAGAPAGSALAYSAY: [low] Agosto 1896. Isang bakuran sa labas ng Maynila. Daan-daang lalaki, may mga sulo. Hinablot si Indio, at hinarang ng isang batang may itak.
+TAGAPAGSALAYSAY: [low] Agosto 1896. Isang bakuran sa labas ng Maynila, puno ng mga Katipunero. Hinablot si Indio, at hinarang ng isang batang may itak. Siya si Islaw. Labindalawang taong gulang, anak ng magsasaka, at bantay ng bakuran ngayong gabi.
 ISLAW: [hard] Sino ka? Sino'ng nagsama sa'yo rito?
+TAGAPAGSALAYSAY: [low] Lumapit ang pinuno ng mga bantay, isang Katipunerong hindi ngumingiti.
 KATIPUNERO: [cold] May nagsumbong sa amin sa Kastila. Kaya lahat ng narito, may dalang cedula ngayong gabi. Ilabas mo ang sa'yo.
 INDIO: [nervous] Cedula? 'Yan din ang hinanap sa akin kaninang umaga.
 KATIPUNERO: [cold] Walang papel, walang kakilala. Espiya 'yan.
@@ -49,7 +50,7 @@ KATIPUNERO: [uneasy] Sino ka ba talaga?
 INDIO: [dry] Wala. Tambay lang.
 
 # --- 4. What he came to see
-TAGAPAGSALAYSAY: [low] Sa gilid ng liwanag, may mag-asawang nagpapaalam. Itinali ng babae ang pulang panyo sa leeg ng lalaki.
+TAGAPAGSALAYSAY: [low] Sa gilid ng liwanag, may mag-asawang nagpapaalam. Ang babae, si Oriang. Itinali niya ang pulang panyo sa leeg ng lalaki.
 ORIANG: [soft] Kapag pinunit mo 'yan, wala na tayong uuwian.
 BONIFACIO: [quiet] Kaya nga pupunitin ko. Para may uuwian ang lahat.
 USMAN: [low] Huwag kang tumitig, par.
@@ -59,7 +60,7 @@ BONIFACIO: [shout] Punitin ang mga cedula!
 MGA KATIPUNERO: [shout] Mabuhay ang Pilipinas!
 ISLAW: [awed] Buwis namin 'yan sa Kastila. Kapag pinunit mo, wala nang atrasan.
 INDIO (sa atin): [whisper] 'Yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.
-TAGAPAGSALAYSAY: [calm] Walang mapunit si Islaw. Itinaas na lang niya ang kamao. Itinaas din ni Indio ang kanya.
+TAGAPAGSALAYSAY: [calm] Walang mapunit si Islaw, kaya kamao na lang ang itinaas nilang dalawa.
 ISLAW: [hopeful] Kuya, babalik ka ba?
 
 # --- 5. Back
@@ -68,7 +69,7 @@ USMAN: [fading] May marka ka na, par. Una pa lang 'yan.
 TAGAPAGSALAYSAY: [calm] Quezon City ulit. Ulan. Wala na ang aso. Pero sa braso ni Indio, may guhit na umuusok pa.
 INDIO: [wince] Aray. Usman. 'Yun ang itatawag ko sa'yo. Pangalan ng aso sa mga kuwento ni Lolo.
 TAGAPAGSALAYSAY: [low] Sa kabilang kalye, may babaeng nakatitig sa kanya, na parang kilala siya.
-TAGAPAGSALAYSAY: [low] At sa sanglaan, bukas pa ang ilaw. Hawak ng katulong ang pagkit: buong-buo ang bakas ng medalyon.
+TAGAPAGSALAYSAY: [low] Sa sanglaan, hawak ng katulong ang pagkit: buong-buo ang bakas ng medalyon.
 KATULONG: [soft] Tanso lang pala, ha.
 INDIO (sa atin): [curious] Ikaw, ka-Indio: kung hinanapan ka ng papel na wala ka, magsisinungaling ka ba, o aamin?
 
