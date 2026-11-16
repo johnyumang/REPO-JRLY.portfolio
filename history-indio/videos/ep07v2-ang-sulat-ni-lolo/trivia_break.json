@@ -21,14 +21,6 @@
   },
   {
    "speaker": "INDIO",
-   "text": "Binantayan ang puntod, at hinanap ito ng kapatid niyang si Narcisa.",
-   "emphasis": [
-    "Narcisa"
-   ],
-   "say": "Binantayan ang puntod, at hinanap ito ng kapatid niyang si narSIsa."
-  },
-  {
-   "speaker": "INDIO",
    "text": "Nilagyan ito ng tandang R.P.J., baligtad na inisyal niya.",
    "emphasis": [
     "R.P.J."
@@ -60,14 +52,6 @@
    "say": "Yan ang pinagtatalunan: si narSIsa sa tulong ng sepulturero, o mga kaibigan ng pamilya."
   },
   {
-   "speaker": "INDIO",
-   "text": "At ang tula niya, walang pamagat noong isinulat; iba ang nagpangalan ng \"Mi Último Adiós\".",
-   "emphasis": [
-    "pamagat"
-   ],
-   "say": "At ang tula niya, walang pamagat noong isinulat; iba ang nagpangalan ng mi ULtimo adYOS."
-  },
-  {
    "speaker": "USMAN",
    "text": "Kaya pala ako umungol.",
    "emphasis": [
@@ -84,5 +68,5 @@
  "calm": true,
  "gap": 0.22,
  "why_here": "New form: trivia at the END, after the story's last line, the quiet (grave) look: the episode is the secret burial of Rizal.",
- "voice_note": "Script trivia lines split so each caption fits; same words. R.P.J. voiced letter by letter; 1898 voiced as a Spanish-derived number; umungol said u-MU-ngol."
+ "voice_note": "Script trivia lines split so each caption fits; same words. R.P.J. voiced letter by letter; 1898 voiced as a Spanish-derived number; umungol said u-MU-ngol. 16 Nov: two lines cut so the break stays near the 12-24 s format (the guarded grave and Narcisa are in the story; the poem title is left out)."
 }
