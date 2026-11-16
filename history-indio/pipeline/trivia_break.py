@@ -1409,8 +1409,9 @@ def episode_spec(epdir, voice, override):
 
 def quiet_cut(video, timings, k, fps):
     """the frame in the silent gap after sentence k (timings.json) whose 40 ms of the video's own audio is quietest."""
-    if not 0 <= k < len(timings) - 1: die(f'insert_after_sentence {k} is not followed by a sentence in timings.json ({len(timings)} sentences)', 2)
-    a0, a1 = timings[k]['end'], timings[k + 1]['start']
+    if not 0 <= k < len(timings): die(f'insert_after_sentence {k} is not a sentence in timings.json ({len(timings)} sentences)', 2)
+    a0 = timings[k]['end']
+    a1 = timings[k + 1]['start'] if k + 1 < len(timings) else a0 + 0.8      # the break at the END (the new form): the build's 0.8 s tail after the last line
     if a1 - a0 < 0.08: die(f'no silent gap after sentence {k}: it ends at {a0:.3f} s, the next starts at {a1:.3f} s', 2)
     mono = read_audio(video, 2).mean(1); avg = 20 * np.log10(max(1e-9, gated_rms(mono)))       # measured as splice measures it
     lv = lambda c, h: 20 * np.log10(max(1e-9, float(np.sqrt(np.mean(mono[max(0, c - h):c + h] ** 2)))))
