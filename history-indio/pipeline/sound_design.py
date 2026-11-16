@@ -762,6 +762,11 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
         if sp0.any():
             bv = 20 * np.log10(np.sqrt(np.mean(bed[sp0] ** 2)) + 1e-12) - 20 * np.log10(np.sqrt(np.mean(v[sp0] ** 2)) + 1e-12)
             if bv > -16.0: bed *= 10 ** ((-16.0 - bv) / 20)
+        if plan.get('_', {}).get('bed_per_line'):                                              # opt-in: hold the bed 16 dB under the voice line by line (quiet lines too), not only on average
+            w = _n(0.4); env = lambda x: np.sqrt(np.convolve(x ** 2, np.ones(w) / w, 'same')) + 1e-9
+            rel = 20 * np.log10(env(bed)) - 20 * np.log10(env(v)); g = np.where(act > 0.5, np.minimum(0.0, -16.0 - rel), 0.0)
+            g = lfilter([1 - np.exp(-1 / (0.15 * SR))], [1, -np.exp(-1 / (0.15 * SR))], g)
+            bed *= 10 ** (np.maximum(g, -30.0) / 20)
         pk0 = np.abs(v).max() * 10 ** (-8 / 20); fx = pk0 * np.tanh(fx / pk0)
     pk = 0.9 * np.abs(v).max(); fx = pk * np.tanh(fx / pk)                                    # effects never pass the voice's peak (soft)
     mixd = v + bed + fx
