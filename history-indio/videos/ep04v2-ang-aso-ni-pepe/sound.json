@@ -1,5 +1,5 @@
 {
-"_": {"whoosh_cuts": true, "rules_v2": true},
+"_": {"whoosh_cuts": true, "rules_v2": true, "bed_under_voice_db": 19.0},
 "0": {"amb": ["forest:-10"], "music": "none"},
 "1": {"spot": [{"what": "bark", "at": -0.32, "count": 1, "gain": 0}]},
 "2": {"music": "heartbeat", "level": -3, "foley": [{"what": "steps_earth", "at": 0.0, "pace": "run", "count": 2, "gain": -6}]},
