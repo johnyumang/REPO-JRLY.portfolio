@@ -1,0 +1,126 @@
+# INDIO: ANG SAKSI — Episode 10, "Batang Indio" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to see what the second dot is. Then: to go and stand beside the boy he was.
+# SABI-SABI: "Kung nasa libro, totoo. Kung may medalya ka, tama ka."
+# TWIST (BIBLE row 10): stolen credit. Fall: the boy who recites the false code gets the medal; the boy who
+#   says it is false is laughed at and sent to the corridor; and the grown Indio may not go to him. Comeback:
+#   what the child did without knowing (he saw what did not fit; he admitted first that he might be wrong,
+#   and the other child then admitted he had only memorised it); the teacher's two words the next day; and
+#   the tin the Lolo hid for him.
+#   The medal is never given back. Third gamit: ang kuwaderno ni Lolo.
+# "Today" in this episode: Quezon City, 2012, his own Grade 5 classroom (invented school), then today.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump). M.
+# BATANG INDIO (himself at ten; "friend" voice, boy 1). BEA (classmate, about ten; girl 1). MA'AM CELIA (his
+# Grade 5 teacher, invented; a young woman's voice). BATANG MAY MEDALYA (the first-honor boy, unnamed here; boy
+# 2). MGA KAKLASE (a chant). LOLO (Lolo Isidro; one line through the lens).
+# No real person appears. William Henry Scott is named by the child as the author of the Lolo's book, and his
+# finding is given "sa buod"; José Marco is not named in the story (he is in the trivia, with the finding
+# attributed to Scott and the National Historical Institute). So there is no hero line here; facts.md says so.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Banana cue=baNAna kyu
+# SAY: barbecue=BARbekyu
+# SAY: Quezon City=KEson SIti
+# SAY: 2012=dos mil dose
+# SAY: Grade five=greyd payb
+# SAY: Kodigo ni Kalantiaw=KOdigo ni kalanTYAW
+# SAY: 1433=mil kuwatro syentos trentay tres
+# SAY: 1914=mil nobesyentos katorse
+# SAY: 2004=dos mil kuwatro
+# SAY: Scott=iSKAT
+# SAY: National Historical Institute=NAsyonal hisTOrikal INStityut
+# SAY: Bea=BEya
+# SAY: Celia=SELya
+# SAY: kuwaderno=kuwaDERno
+# SAY: recess=RIses
+# SAY: marker=MARker
+
+# --- 0. Hook (cold, at 0.0, on the chant: a flash-forward of scene 3)
+(Isang pasilyo ng paaralan. Isang batang lalaki, mag-isa, nakatayo sa tabi ng pinto. Sa loob ng klasrum, mga batang nakaturo sa kanya.)
+MGA KAKLASE: [chant] Kausap ang aso! Kausap ang aso!
+INDIO (sa atin): [dramatic] Grade five ako nang una akong pagtawanan dahil nagsabi ako ng totoo. Ngayon, pinapanood ko ulit. At bawal akong lumapit.
+INDIO (sa atin): [quiet] Ako 'to si Indio. 'Yung nasa pasilyo, ako rin.
+
+# --- 1. Today, of a kind (short, Indio's voice). He wants: to see the second dot.
+TAGAPAGSALAYSAY: [calm] Quezon City. Taong 2012.
+TAGAPAGSALAYSAY: [calm] Dinala ng mapa si Indio sa dati niyang paaralan, kasama si M, ang babaeng may hawak ng mapa, at ang aso niyang si Usman. Nagtago sila sa labas ng gate.
+(Sa labas ng gate ng isang lumang paaralan. Recess. Isang tindera ng banana cue. Nakatago sina Indio, M at Usman sa likod ng puno.)
+INDIO (sa atin): [surprised] Ang pangalawang tuldok sa mapa: ang dati kong paaralan. Akala ko, kayamanan ang hahanapin.
+INDIO (sa atin): [playful] Banana cue: saging na saba, may asukal, nakatuhog. "Cue" raw, galing sa "barbecue", kasi nakatusok sa stick. Walang barbecue sa banana cue. Unang kasinungalingang natutunan ko sa eskwela, at masarap.
+M: [low] Bawal kang lumapit sa sarili mo. Sa lente ka sumilip. Ipapakita niyan ang nangyari rito.
+(Itinapat ni Indio ang lente sa bintana ng isang klasrum. Sa loob: isang batang tahimik sa sulok, nagbabasa habang naglalaro ang iba.)
+TAGAPAGSALAYSAY: [calm] Sa lente, nakita ni Indio ang sarili niya noong bata: tahimik sa sulok, nagbabasa.
+USMAN: [fond] Ayun ka, par. Maliit, pero kamukha mo na ang kunot ng noo.
+
+# --- 2. The classroom. The boy wants: to say what he read.
+(Sa lente. Isang klase. Sa pisara: "PINAKAMATANDANG BATAS". Tumayo ang isang batang maayos ang buhok, tuwid ang tindig.)
+TAGAPAGSALAYSAY: [calm] Nagtanong si Ma'am Celia, ang guro, tungkol sa pinakamatandang batas. Tumayo ang isang batang maayos ang buhok, ang pinakamatalino sa klase.
+BATANG MAY MEDALYA: [proud] Ma'am! Ang Kodigo ni Kalantiaw po, isinulat noong 1433. Labingwalong batas!
+MA'AM CELIA: [warm] Tama. 'Yan ang nasa libro natin.
+(Palakpakan. Sa sulok, dahan-dahang tumaas ang isang maliit na kamay. Nanginginig.)
+TAGAPAGSALAYSAY: [calm] Nagtaas ng kamay ang batang Indio.
+BATANG INDIO: [small] Ma'am, pasensya na po. Hindi po totoo ang kodigo.
+(Katahimikan. Tapos tawanan.)
+BATANG MAY MEDALYA: [mocking] Mas marunong ka pa sa libro?
+BATANG INDIO: [steady] May libro po ang Lolo ko, gawa ni Scott. Sabi po roon, walang lumang papel na bumabanggit sa kodigo. Bago lang po ito lumitaw. Hindi po tugma.
+INDIO (sa atin): [whisper] "Hindi tugma." Sampung taon ako. Nakikita ko na pala ang hindi nakikita ng iba.
+
+# --- 3. The corridor. THE FALL.
+(Lumakas ang tawanan. Namula ang bata. Tumakbo siya palabas ng klasrum.)
+TAGAPAGSALAYSAY: [low] Nagtawanan ang klase. Tumakbo ang bata palabas.
+MA'AM CELIA: [calling] Indio, anak, sandali! Tahimik, class!
+(Sa pasilyo, mag-isa ang bata. Sa loob, bago pa makasunod si Ma'am, isinabit na ng isang panauhin ang medalya sa leeg ng batang maayos ang buhok: "Best in History".)
+TAGAPAGSALAYSAY: [low] Sa loob, isinabit ang medalyang Best in History sa batang maayos ang buhok.
+(Sa gate, isang asong gala. Umupo ang bata sa sahig at kinausap ito. Sumilip ang mga kaklase sa bintana.)
+TAGAPAGSALAYSAY: [low] Sa gate, kinausap ng bata ang isang asong gala. Nakita siya ng mga kaklase.
+MGA KAKLASE: [chant] Kausap ang aso! Kausap ang aso!
+(Sa labas ng paaralan, ibinaba ni Indio ang lente. Humakbang siya papunta sa gate.)
+INDIO: [fierce] Pupuntahan ko siya. Sasabihin ko sa kanyang tama siya.
+M: [firm] Hindi puwede. Bawal magkita ang iisang tao.
+INDIO: [bitter] Siya ang tama, siya ang nasa labas. 'Yung mali, may medalya. Noon pa pala, ganito na.
+(Hinawakan ni M ang braso niya. Hindi siya nakalapit.)
+INDIO (sa atin): [whisper] Ang pinakamadaling taong tulungan sa mundo: ang sarili ko. At hindi ko magawa.
+
+# --- 4. THE COMEBACK. What the boy did, not knowing.
+USMAN: [low] Par. Huwag kang umalis. Tingnan mo ang ginagawa niya.
+(Sa lente. Sa pasilyo, may lumapit sa bata: isang batang babaeng may dalawang tirintas, may dalang banana cue. Hinati niya.)
+TAGAPAGSALAYSAY: [low] May lumapit sa bata: si Bea, kaklase niyang may tirintas. Hinati niya ang banana cue niya.
+BEA: [kind] Sa'yo ang kalahati. Hindi ako tumawa, ha.
+(Lumabas si Ma'am Celia. Lumuhod siya sa harap ng bata.)
+TAGAPAGSALAYSAY: [low] Lumabas ang guro at lumuhod sa harap ng bata.
+BATANG INDIO: [plain] Ma'am, baka po mali ako. Hindi ko pa po tapos basahin ang libro ni Lolo. Pero 'yun po talaga ang nabasa ko.
+(Sa pinto, nakikinig ang batang may medalya. Napayuko siya. Hinawakan ang medalya.)
+TAGAPAGSALAYSAY: [low] Sa pinto, nakikinig ang batang may medalya.
+BATANG MAY MEDALYA: [small] Ma'am. Kinabisa ko lang po 'yung sa akin. Hindi ko rin po alam kung totoo.
+INDIO (sa atin): [whisper] Umamin siya muna na puwede siyang mali. Kaya umamin din ang isa. Sampung taon ako noon.
+TAGAPAGSALAYSAY: [calm] Kinabukasan.
+(Sa lente. Si Ma'am Celia, may hawak na lumang libro mula sa library, sa harap ng klase. Sa pinto, isang matandang lalaking sumundo sa bata.)
+MA'AM CELIA: [clear] Class, tama si Indio. Noong 2004, idineklara mismo ng National Historical Institute na walang batayan sa kasaysayan ang kodigo. Mali ang libro natin.
+(Ngumiti ang bata sa sulok. Sa leeg ng isa, naroon pa rin ang medalya. Iniabot ni Ma'am sa matanda ang isang papel ng pagsusulit, may isinulat siya sa itaas.)
+TAGAPAGSALAYSAY: [calm] Iniabot ng guro sa Lolo ni Indio ang papel ng pagsusulit, may isinulat sa itaas.
+USMAN: [dry] Hindi na binawi ang medalya, par.
+INDIO: [quiet] Hindi na. Pero narinig ko ang "tama ka".
+
+# --- 5. The tin at the gate.
+(Iniikot ni Indio ang lente sa gate. Bumilis ang mga araw. Isang matandang lalaki, payat, nakaluhod sa ugat ng puno, may ibinabaong lata.)
+TAGAPAGSALAYSAY: [calm] Inikot ni Indio ang lente. Nakita niya ang Lolo niya, may ibinabaong lata sa ugat ng puno.
+LOLO: [soft] Para sa apo ko. Kapag handa na siyang maniwala sa sarili niya.
+TAGAPAGSALAYSAY: [calm] Ngayon.
+TAGAPAGSALAYSAY: [calm] Pagbalik sa kasalukuyan, hinukay ni Indio ang parehong ugat. Sa lata, may kuwaderno, at ang papel ng pagsusulit. Sa itaas: Tama ka.
+(Parehong gate, luma na. Walang aso. Mag-isa si Indio, nakaluhod sa parehong ugat. Isang kinakalawang na lata. Sa loob: isang kuwaderno, at isang nakatuping papel ng pagsusulit. Sa itaas nito, sulat-kamay ng guro: "Tama ka.")
+INDIO: [moved] Itinago ni Lolo. Lahat ng taong 'yon.
+(Binuksan niya ang kuwaderno. Blangko. Tapos kusang lumitaw ang tinta: mga barko, pahilaga. Sa ilalim, sulat ni Lolo.)
+TAGAPAGSALAYSAY: [calm] Sa kuwaderno, kusang lumitaw ang guhit ng mga barko, at isang babala.
+INDIO (sa atin): [whisper] "Mag-ingat sa batang laging nauuna." Sino, Lolo? 'Yung may medalya?
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: may itinuro ba sa'yo sa eskwela na hindi pala totoo? Sinabi mo ba?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? Peke ang Kodigo ni Kalantiaw?
+# INDIO: Tiyak: lumitaw lang ang kodigo sa mga papeles ni José Marco bandang 1913. Walang mas lumang talang bumabanggit dito.
+# INDIO: Noong 1968, sinuri ito ng historyador na si William Henry Scott. Noong 2004, idineklara ng National Historical Institute na wala itong batayan sa kasaysayan. Pero ilang dekada pa itong itinuro sa mga eskwela.
+# USMAN: Eh sino ang gumawa, at bakit?
+# INDIO: Ayon kay Scott at sa Institute, si Marco. Pero walang umamin, at hindi tiyak ang dahilan.
+# USMAN: Kaya pala ako umungol.
