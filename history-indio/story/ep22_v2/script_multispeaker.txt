@@ -1,0 +1,161 @@
+# INDIO: ANG SAKSI — Episode 22, "Ang Toreng Hindi Natapos" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to do what the Lolo's notebook orders (find out why the tongues were scattered), because it is the
+#   step before his mother's door. Then, when every word breaks: to get one lost child out from under the
+#   bricks.
+# SABI-SABI: "Sabi nila, giniba raw ang tore." What he sees, and what is written (Genesis 11:8): nothing is
+#   thrown down. The people walk away and the building is left unfinished.
+# TWIST (BIBLE row 22): the gift fails. Fall: the man who "understands every tongue" stands at the edge
+#   when the tongues break; Ang Sugo goes cold on his chest; the child's words turn to noise in the middle
+#   of a sentence; M shouts a warning at him and it is noise too; a stack of bricks comes down between
+#   them and the child is gone in the dust. Comeback: his own gift, Ang Dinig. The dog is still clear,
+#   with the bronze dead ("Hindi pala sa tanso ang dinig mo, par. Sa'yo."); he pays the animal first (his
+#   bread); the dog's nose finds the child; and he calls her with the one thing she taught him that is not
+#   a word: the carriers' knock on a brick. Show-off: three knocks, and for once M follows HIM.
+#   No confession is used. "It was never the bronze" is said here (first of the three: 22, 29, 30).
+# SCRIPTURE GUARD RAILS FOR THIS EPISODE (stricter than the brief; Episode 9 is the model):
+#   - God is given no voice, no words and no picture. The sky stays empty: no light, no hand, no figure.
+#   - Nothing is added to what Genesis 11:1-9 says happened. The tower is not struck and does not fall.
+#   - TWO verses are read word for word by the storyteller, as "Nakasulat sa Genesis ...", from Ang Dating
+#     Biblia (1905), opened and copied for this script (facts.md): 11:1 and 11:9, each whole. Verses 6 and
+#     7 (words of the Panginoon) are never spoken or paraphrased by anyone.
+#   - Indio, M and Usman stay at the edge of the plain, at an invented kiln, and change nothing that is
+#     written. Nuri, her mother, the foreman, the tall cloaked workers, the knock, the brick with three
+#     slanted strokes and the falling stack are INVENTED (facts.md, section 3) and no line says the Bible
+#     tells them. The trivia says: "Wala sa Biblia. Sa atin lang 'yon."
+#   - No joke from the storyteller's "Walang nakita si Indio sa langit" until Usman's "Par!" in scene 4.
+# THE BROKEN TONGUE (how the noise is written): a word that has turned to noise is the Tagalog word said
+#   backward. "Obkat" = takbo. "Ayuk" = kuya. "Yanan ok" = nanay ko. "Tamalas" = salamat. Nobody in the
+#   story explains this; it is only so the voice has something to say.
+# Speakers: TAGAPAGSALAYSAY (and the two verses). INDIO; INDIO (sa atin). M. USMAN (inside the lagusan only).
+# NURI (invented girl of about nine who carries bricks at a kiln on the edge of the plain; "friend" voice,
+#   girl 2).
+# Lola Ising is heard only as a ladle in a pot. The foreman and the tall workers say nothing.
+# Indio understands Nuri through Ang Sugo and cannot answer in her tongue: he never says a line TO her that
+#   she must understand; his asides are to us.
+# SAY: Kumusta=kumusTA
+# SAY: Kinumusta=kinumusTA
+# SAY: cómo está=KOmo esTA
+# SAY: Kastilang=kasTIlang
+# SAY: Genesis 11:1=HEnesis labing-isa, talata isa
+# SAY: Genesis 11:9=HEnesis labing-isa, talata siyam
+# SAY: Babel=baBEL
+# SAY: Sinar=siNAR
+# SAY: Nuri=NUri
+# SAY: Tala=TAla
+# SAY: Tubal=TUbal
+# SAY: Sugo=SUgo
+# SAY: hurno=hurNO
+# SAY: ladrilyo=ladRILyo
+# SAY: ladrilyong=ladRILyong
+# SAY: laryo=larYO
+# SAY: betun=beTUN
+# SAY: kapatas=kapaTAS
+# SAY: pahilig=pahiLIG
+# SAY: salansan=salanSAN
+# SAY: salansang=salanSANG
+# SAY: gumegewang=gumeGEwang
+# SAY: pinanabog=pinanaBOG
+# SAY: sapagka't=sapagKAT
+# SAY: lagusan=laguSAN
+# SAY: kuwaderno=kuwaDERno
+# SAY: Obkat=OB-kat
+# SAY: Ayuk=A-yuk
+# SAY: Yanan=YA-nan
+# SAY: Tamalas=ta-MA-las
+
+# --- 0. Hook (cold, at 0.0, on the shout he cannot understand: a flash-forward of scene 3)
+(Alikabok at usok ng hurno. Si M, sa kabila ng isang salansan ng ladrilyong tumatagilid, sumisigaw kay Indio, nakaturo palayo. Nakatitig lang si Indio sa bibig niya. Nahuhulog ang unang ladrilyo.)
+M: [shout] Obkat, Indio! Obkat!
+INDIO (sa atin): [dramatic] Naiintindihan ko ang lahat ng wika sa mundo. Kaya nagulat ako nang hindi ko maintindihan si M.
+INDIO (sa atin): [dry] Ako 'to si Indio. At ingay na lang ang boses niya.
+
+# --- 1. Today (short, Indio's voice). He wants: the next step to his mother's door.
+TAGAPAGSALAYSAY: [calm] Ngayon, sa hagdan ng bahay ni Lola Ising sa Kawit. Hindi kinikibo ng Lola si Indio, mula nang makilala niya si Tala, ang ate niyang inilihim sa kanya.
+(Umaga. Si Indio, nakaupo sa hagdang kahoy. Sa loob, sa bintana, likod lang ni Lola Ising at isang sandok sa kaldero. Sa tabi ni Indio, si M, nakasandal ang pulang payong, hawak ang kuwaderno ng Lolo.)
+INDIO (sa atin): [playful] Kumusta: galing sa Kastilang "cómo está". Hiniram natin ang tanong. Ang sagot, atin na: "Eto, buhay pa."
+INDIO (sa atin): [dry] Kinumusta ko si Lola kanina. Sandok lang ang sumagot.
+TAGAPAGSALAYSAY: [calm] Katabi niya si M, ang babaeng may mapa ng mga medalyon.
+M: [low] May bagong sulat ang kuwaderno ng Lolo mo: "Alamin mo muna kung bakit nagkalat ang mga wika."
+(Iniabot ni M ang lumang Biblia ng Lola, bukas sa Genesis 11. Bumasa si Indio nang malakas. Sa kamay niya, tumunog ang susing tanso, at bumukas sa hangin ang isang lagusan ng liwanag.)
+TAGAPAGSALAYSAY: [calm] Binuksan ni Indio ang lumang Biblia ng Lola, at bumasa nang malakas.
+TAGAPAGSALAYSAY: [reading] Nakasulat sa Genesis 11:1: "At ang buong lupa ay iisa ang wika at iisa ang salita."
+TAGAPAGSALAYSAY: [calm] Tumunog ang susing tanso niya, at bumukas ang isang lagusan ng liwanag.
+
+# --- 2. The edge of the plain. He wants: to see why the tongues were scattered.
+TAGAPAGSALAYSAY: [low] Isang kapatagan sa lupain ng Sinar. Malayo, sa gitna, isang toreng ginagawa pa. Sa gilid, sumalubong si Usman, ang aso niyang nagsasalita.
+(Isang malawak at patag na lupa, mainit. Malayo, maliit, isang toreng may plantsa. Sa unahan, sa gilid, isang hurno ng ladrilyo at mga salansan. Lumabas sa liwanag ang itim na asong si Usman, nakataas ang ilong.)
+USMAN: [sniffing] Par. Amoy-hurno. At amoy-pawis ng libu-libo.
+M: [firm] Sa gilid lang tayo. Saksi ka. Walang babaguhin sa nakasulat.
+TAGAPAGSALAYSAY: [low] Sa hurno sa gilid, lumapit si Nuri, isang batang tagabuhat ng ladrilyo.
+(Isang batang babaeng mga siyam na taon, puno ng alikabok, may sunong na dalawang ladrilyo. Iniabot niya ang isa kay Indio.)
+NURI: [bright] Bago ka? O, buhatin mo. Laryo at betun: 'yan ang bato at semento namin.
+NURI: [bright] Aabot daw sa langit ang tore. Para raw hindi tayo mangalat.
+INDIO (sa atin): [whisper] Naiintindihan ko siya dahil sa Sugo, ang medalyon kong nakakaintindi ng lahat ng wika. Sumagot sa wika niya, hindi ko kaya.
+NURI: [teaching] Pipi ka? Ayos lang. Maingay ang hurno, kaya katok ang usapan namin. Dalawang katok: "Tabi!" Tatlo: "Sumunod ka."
+(Kumatok si Indio sa ladrilyo: tatlo. Humakbang si Nuri palapit, tumatawa.)
+NURI: [amused] Tatlo! O, sumunod nga ako.
+(Binaligtad ni Indio ang ladrilyo: tatlong guhit na pahilig, nakadiin sa luwad. Sa tabi ng hurno, isang lalaking may pantatak. Sa likod nito, mga tagabuong napakatangkad, balot ng balabal mula ulo, walang mukhang kita.)
+TAGAPAGSALAYSAY: [low] Sa ladrilyong hawak ni Indio, may tatak: tatlong guhit na pahilig. Tatak iyon ng kapatas ng hurno. Sa likod nito, may mga tagabuong napakatangkad, balot ng balabal.
+NURI: [hushed] Mga tagabuo ng kapatas. Walang nakakaalam kung saan sila galing.
+INDIO (sa atin): [whisper] Tatlong guhit. Tatak din 'yan ni Tubal, ang lalaking may gusto sa mga medalyon ko.
+USMAN: [low] Par. 'Yung matatangkad. Kaamoy ni Ate Tala.
+INDIO (sa atin): [whisper] Sabi nila, giniba raw ang toreng 'yan.
+
+# --- 3. What is written. Seen from the edge. THE FALL.
+(Walang nagbago sa langit: walang liwanag, walang anuman. Sa buong kapatagan, mula sa malayo, huminto ang mga taong maliliit. Nagtinginan sila.)
+TAGAPAGSALAYSAY: [low] Walang nakita si Indio sa langit. Ang nakita lang niya: sa buong kapatagan, huminto ang mga tao, at nagtinginan.
+TAGAPAGSALAYSAY: [reading] Nakasulat sa Genesis 11:9: "Kaya ang pangalang itinawag ay Babel; sapagka't doon ginulo ng Panginoon ang wika ng buong lupa: at mula roon ay pinanabog sila ng Panginoon sa ibabaw ng buong lupa."
+(Hinila ni Nuri ang manggas ni Indio. Sa gitna ng pangungusap, nag-iba ang salita niya. Nagulat siya sa sarili niyang bibig.)
+NURI: [scared] Kuya, bakit sila huminto? Ayuk! Yanan! Yanan ok!
+TAGAPAGSALAYSAY: [low] Naging ingay ang salita ni Nuri. Sa dibdib ni Indio, lumamig ang Sugo.
+(Sa paligid ng hurno, ibinaba ng mga tao ang pasan nila at naglakad palayo. Isang salansan ng ladrilyo ang tumagilid. Si M, sa kabila nito, sumisigaw at nakaturo palayo.)
+M: [shout] Obkat, Indio! Obkat!
+INDIO: [desperate] Ano, M? Hindi kita maintindihan!
+(Bumagsak ang salansan sa pagitan nila. Alikabok. Tumakbo si Nuri, takip ang tainga, at nawala.)
+TAGAPAGSALAYSAY: [low] Bumagsak ang isang salansan ng ladrilyo sa pagitan nila. Tumakbo si Nuri, at nawala sa alikabok.
+INDIO (sa atin): [whisper] Lahat ng wika, naiintindihan ko. 'Yan ang yabang ko. Ngayon, kahit si M, hindi.
+
+# --- 4. THE COMEBACK. The dog is still clear.
+(Mula sa alikabok, lumabas si Usman, hinihila ang laylayan ng damit ni Indio.)
+USMAN: [urgent] Par! Naririnig mo pa ba ako?
+INDIO: [stunned] Oo. Malinaw. Ikaw lang.
+USMAN: [teasing] Eh patay na ang tanso mo. Hindi pala sa tanso ang dinig mo, par. Sa'yo.
+INDIO: [urgent] Si Nuri. Hanapin natin.
+USMAN: [dry] Walang libre sa aso. 'Yung tinapay sa bulsa mo.
+(Iniabot ni Indio ang tinapay. Nilunok ito ni Usman, suminghot, at tumakbo.)
+TAGAPAGSALAYSAY: [low] Ibinigay ni Indio ang tinapay niya. Suminghot si Usman, at tumakbo.
+USMAN: [sniffing] Amoy-iyak. Sa likod ng hurno, par!
+(Sa likod ng hurno, si Nuri, nakaupo, takip ang tainga, sa paanan ng isa pang salansang gumegewang. Itinaas ni Indio ang ladrilyo at kumatok dito ng bato: dalawa.)
+TAGAPAGSALAYSAY: [low] Nakaupo roon si Nuri, sa paanan ng isa pang salansang gumegewang. Hindi na niya maiintindihan ang sigaw ni Indio. Kaya kumatok siya sa ladrilyo: dalawa.
+(Tumalon si Nuri patabi. Bumagsak ang salansan sa inupuan niya. Sa ere, tatlong segundo, ang hologram: madilim ang puwesto ng Sugo; tumaas ang KAALAMAN. Tatlong katok: sumunod si Nuri kay Indio hanggang sa isang babaeng yumakap sa kanya nang walang salita.)
+TAGAPAGSALAYSAY: [low] Tumalon si Nuri patabi, bago bumagsak ang salansan. Sa tatlong katok, sumunod siya hanggang sa nanay niya.
+(Dumating si M, nagsasalita pa rin ng hindi maintindihan. Kumatok si Indio: tatlo. Tumaas ang kilay ni M, at sumunod.)
+INDIO (sa atin): [smug] Tatlong katok din kay M. Unang beses na siya ang sumunod sa akin.
+(Idiniin ni Nuri ang ladrilyong may tatak sa mga kamay ni Indio.)
+NURI: [soft] Tamalas, ayuk.
+INDIO (sa atin): [quiet] Hindi ko naintindihan. Pero alam ko ang ibig niyang sabihin.
+(Sa buong kapatagan, mga taong naglalakad palayo, sa lahat ng direksyon. Ang tore, nakatayo pa, may plantsa pa, walang tao.)
+TAGAPAGSALAYSAY: [low] Naglakad ang mga tao palayo, sa lahat ng direksyon. Naiwan ang tore, hindi tapos.
+INDIO (sa atin): [whisper] Walang gumiba. Iniwan lang nila.
+
+# --- 5. Back. The brick on the steps.
+(Ang hagdan ulit, hapon na. Sa pagitan nina Indio at M, ang ladrilyong may tatlong guhit. Bukas ang kuwaderno.)
+TAGAPAGSALAYSAY: [calm] Ngayon, sa hagdan. Uminit ulit ang Sugo, at malinaw na ulit si M. Sa pagitan nila, ang ladrilyong may tatlong guhit.
+M: [soft] "Takbo," ang sigaw ko kanina.
+INDIO: [dry] Buti na lang, hindi ko naintindihan.
+M: [low] May bagong sulat ang kuwaderno.
+INDIO: [reading] "Ang mga tagabuo ay may ama sa itaas ng bundok."
+INDIO (sa atin): [whisper] At kaamoy sila ni Ate Tala.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: sumisigaw ang pinagkakatiwalaan mo, at hindi mo siya maintindihan. Tatakbo ka, o babalikan mo ang bata?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", quiet version; separate clip after the last story line; up to 25 seconds)
+# USMAN: Saan nakasulat 'yon, par?
+# INDIO: Sa Genesis 11, talata 1 hanggang 9. Ang binasa: Ang Dating Biblia, 1905. Sa buod: kapatagan sa Sinar, laryo at betun, iisang wika; ginulo ang wika, nangalat ang mga tao, at iniwan nila ang pagtatayo. Walang sinasabi roon na gumuho ang tore.
+# INDIO: Madalas iugnay ng mga iskolar ang kuwento sa Etemenanki, ang ziggurat ng Babilonya. Pero walang nahukay na masasabing iyon mismo ang tore.
+# USMAN: Eh si Nuri? Ang kapatas? Ang tatak sa ladrilyo?
+# INDIO: Wala sa Biblia. Sa atin lang 'yon.
