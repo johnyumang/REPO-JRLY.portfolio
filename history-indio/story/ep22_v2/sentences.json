@@ -153,6 +153,30 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Sa gilid lang tayo.",
+  "say": "sa gilid lang tayo.",
+  "style": "firm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "M"
+ },
+ {
+  "text": "Saksi ka.",
+  "say": "saksi ka.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "M"
+ },
+ {
+  "text": "Walang babaguhin sa nakasulat.",
+  "say": "walang babaguhin sa nakasulat.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "M"
+ },
+ {
   "text": "Isang kapatagan sa lupain ng Sinar.",
   "say": "isang kapatagan sa lupain ng siNAR.",
   "style": "low",
@@ -201,30 +225,6 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Sa gilid lang tayo.",
-  "say": "sa gilid lang tayo.",
-  "style": "firm",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
-  "text": "Saksi ka.",
-  "say": "saksi ka.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
-  "text": "Walang babaguhin sa nakasulat.",
-  "say": "walang babaguhin sa nakasulat.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "M"
- },
- {
   "text": "Lumapit si Nuri, isang batang tagabuhat ng ladrilyo sa hurno.",
   "say": "lumapit si NUri, isang batang tagabuhat ng ladRILyo sa hurNO.",
   "style": "low",
@@ -260,15 +260,6 @@
   "text": "Naiintindihan ko siya dahil sa Sugo, ang medalyon ko ng mga wika.",
   "say": "naiintindihan ko siya dahil sa SUgo, ang medalyon ko ng mga wika.",
   "style": "whisper",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Sumagot, hindi ko kaya.",
-  "say": "sumagot, hindi ko kaya.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO",
@@ -323,8 +314,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa tabi ng hurno, may mga tagabuong napakatangkad, balot ng balabal.",
-  "say": "sa tabi ng hurNO, may mga tagabuong napakatangkad, balot ng balabal.",
+  "text": "Sa tabi ng hurno, may mga taong napakatangkad, balot ng balabal.",
+  "say": "sa tabi ng hurNO, may mga taong napakatangkad, balot ng balabal.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -527,8 +518,8 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Naririnig mo pa ba ako?",
-  "say": "naririnig mo pa ba ako?",
+  "text": "Naririnig mo pa ako?",
+  "say": "naririnig mo pa ako?",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -538,14 +529,6 @@
   "text": "Oo.",
   "say": "oo.",
   "style": "stunned",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO"
- },
- {
-  "text": "Malinaw.",
-  "say": "malinaw.",
-  "style": "",
   "pre": 0,
   "pause": 0.4,
   "speaker": "INDIO"
@@ -647,8 +630,24 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Tumalon si Nuri patabi bago ito bumagsak.",
-  "say": "tumalon si NUri patabi bago ito bumagsak.",
+  "text": "Tumalon!",
+  "say": "tumalon!",
+  "style": "relieved",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sakto, par.",
+  "say": "sakto, par.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Bumagsak ang salansan sa inupuan niya.",
+  "say": "bumagsak ang salanSAN sa inupuan niya.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -731,16 +730,16 @@
   "aside": true
  },
  {
-  "text": "Pag-uwi sa Kawit, uminit ulit ang Sugo, at malinaw na ulit si M.",
-  "say": "pag-uwi sa kawit, uminit ulit ang SUgo, at malinaw na ulit si m.",
+  "text": "Pag-uwi, uminit ulit ang Sugo, at malinaw na ulit si M.",
+  "say": "pag-uwi, uminit ulit ang SUgo, at malinaw na ulit si m.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "\"Takbo,\" ang sigaw ko kanina.",
-  "say": "takbo, ang sigaw ko kanina.",
+  "text": "\"Takbo,\" ang sigaw ko.",
+  "say": "takbo, ang sigaw ko.",
   "style": "soft",
   "pre": 0,
   "pause": 0.5,
