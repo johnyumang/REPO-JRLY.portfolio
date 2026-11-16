@@ -1,0 +1,861 @@
+[
+ {
+  "text": "Bumigay na ang pader!",
+  "start": 0.01,
+  "end": 1.21,
+  "style": "shout",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Naghatid lang ako ng pancit.",
+  "start": 1.61,
+  "end": 3.36,
+  "style": "dramatic",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ngayon, hinahabol na ako ng giyera.",
+  "start": 3.74,
+  "end": 5.57,
+  "style": "dramatic",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ako 'to si Indio.",
+  "start": 5.96,
+  "end": 7.12,
+  "style": "playful",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "At oo, late na naman ako.",
+  "start": 7.49,
+  "end": 9.12,
+  "style": "playful",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ngayon.",
+  "start": 9.9,
+  "end": 10.45,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Intramuros.",
+  "start": 10.81,
+  "end": 11.75,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Unang araw ni Indio bilang delivery rider.",
+  "start": 12.17,
+  "end": 14.74,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ang order: pancit para sa isang nagngangalang M, na hindi niya kilala, sa lumang pader ng Intramuros.",
+  "start": 15.09,
+  "end": 21.89,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Walang naghihintay.",
+  "start": 22.26,
+  "end": 23.34,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pancit: sabi nila, galing sa salitang Hokkien na ang ibig sabihin, pagkaing madaling lutuin.",
+  "start": 23.72,
+  "end": 31.0,
+  "style": "playful",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Madaling lutuin, mahirap tiisin.",
+  "start": 31.36,
+  "end": 34.01,
+  "style": "playful",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Bawal ko kasing tikman.",
+  "start": 34.39,
+  "end": 35.93,
+  "style": "playful",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Isang bituin lang ang rating niya sa app.",
+  "start": 36.32,
+  "end": 38.3,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "May ibang rider na laging nauuna.",
+  "start": 38.67,
+  "end": 41.09,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sige.",
+  "start": 41.47,
+  "end": 41.79,
+  "style": "bored",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Babasahin ko na lang 'tong karatula habang naghihintay.",
+  "start": 42.15,
+  "end": 44.8,
+  "style": "bored",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Binasa niya nang malakas ang karatula.",
+  "start": 45.22,
+  "end": 47.28,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Uminit ang medalyong mana niya sa Lolo niya, at dinala siya sa nakaraan.",
+  "start": 47.63,
+  "end": 51.77,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Mula sa liwanag, lumundag si Usman: ang asong itim na siya lang ang nakakarinig, at sa nakaraan lang lumilitaw.",
+  "start": 52.18,
+  "end": 59.41,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Usman!",
+  "start": 59.79,
+  "end": 60.28,
+  "style": "glad",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ang asong madaldal.",
+  "start": 60.64,
+  "end": 61.61,
+  "style": "glad",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ayan ka na naman.",
+  "start": 62.03,
+  "end": 62.93,
+  "style": "playful",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "May dala ka pang baon.",
+  "start": 63.28,
+  "end": 64.33,
+  "style": "playful",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Oktubre 1762.",
+  "start": 65.14,
+  "end": 67.89,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa loob ng pader ng Maynila.",
+  "start": 68.23,
+  "end": 69.91,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumagsak si Indio sa gitna ng putukan.",
+  "start": 70.31,
+  "end": 73.0,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hinila siya papasok sa isang kusina ni Sepa, isang batang babaeng nakatira roon kasama ang lola niya.",
+  "start": 73.38,
+  "end": 79.46,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Yumuko ka!",
+  "start": 79.85,
+  "end": 80.63,
+  "style": "urgent",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Halos dalawang linggo na silang nagpapaputok.",
+  "start": 81.0,
+  "end": 83.01,
+  "style": "urgent",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Sino?",
+  "start": 83.39,
+  "end": 83.68,
+  "style": "confused",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Mga Kastila?",
+  "start": 84.04,
+  "end": 84.67,
+  "style": "confused",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Mga Ingles.",
+  "start": 85.09,
+  "end": 85.79,
+  "style": "flat",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Galing sa dagat, kasama ang mga sundalong taga-India.",
+  "start": 86.14,
+  "end": 88.8,
+  "style": "flat",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Sabi ng titser ko: Kastila, Amerikano, Hapon.",
+  "start": 89.21,
+  "end": 92.72,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Walang nagbanggit ng British.",
+  "start": 93.06,
+  "end": 94.56,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Pero pader 'to ng Intramuros.",
+  "start": 94.96,
+  "end": 96.8,
+  "style": "nervous",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hindi 'to matitibag, 'di ba?",
+  "start": 97.18,
+  "end": 98.55,
+  "style": "nervous",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pader lang 'yan.",
+  "start": 98.94,
+  "end": 99.72,
+  "style": "flat",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "May kanyon sila.",
+  "start": 100.09,
+  "end": 101.0,
+  "style": "flat",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi na makalakad ang lola ni Sepa.",
+  "start": 101.38,
+  "end": 103.54,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kaya hindi sila makatakas.",
+  "start": 103.9,
+  "end": 105.55,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Si Lola.",
+  "start": 105.97,
+  "end": 106.65,
+  "style": "soft",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi ko siya maiiwan.",
+  "start": 107.0,
+  "end": 108.02,
+  "style": "soft",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Tumakbo si Indio sa isang guwardiyang Kastila sa pader, para humingi ng tulong.",
+  "start": 108.83,
+  "end": 113.58,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Señor!",
+  "start": 113.96,
+  "end": 114.59,
+  "style": "urgent",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Malapit nang bumigay ang pader sa baluarte.",
+  "start": 114.95,
+  "end": 117.08,
+  "style": "urgent",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May mga tao pa roon!",
+  "start": 117.46,
+  "end": 118.45,
+  "style": "urgent",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Indio, bumalik ka sa kusina.",
+  "start": 118.84,
+  "end": 120.58,
+  "style": "cold",
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Paano mo nalaman ang pangalan ko?",
+  "start": 120.99,
+  "end": 122.39,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Itinulak siya sa putik, at pinagtawanan.",
+  "start": 122.77,
+  "end": 125.53,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ah.",
+  "start": 125.93,
+  "end": 126.15,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Hindi pala pangalan.",
+  "start": 126.53,
+  "end": 127.42,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Tawag pala 'yon sa aming lahat.",
+  "start": 127.77,
+  "end": 129.25,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "At gumuho ang pader.",
+  "start": 129.659,
+  "end": 131.289,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pumasok ang mga sundalong naka-pula.",
+  "start": 131.629,
+  "end": 133.689,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumigay na ang pader!",
+  "start": 134.089,
+  "end": 135.289,
+  "style": "shout",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Huli na ako.",
+  "start": 135.709,
+  "end": 136.259,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Puwede ka palang mahuli kahit sa nakaraan.",
+  "start": 136.609,
+  "end": 138.479,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Noon napansin ni Usman ang mga daga, tumatakbo sa iisang direksyon.",
+  "start": 139.289,
+  "end": 143.709,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Par, tumahimik ka muna.",
+  "start": 144.089,
+  "end": 145.649,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "May sinasabi sila.",
+  "start": 146.009,
+  "end": 146.959,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Tumahimik si Indio.",
+  "start": 147.379,
+  "end": 148.589,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "At naintindihan niya ang mga hayop.",
+  "start": 148.939,
+  "end": 150.839,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "\"Ilalim.\"",
+  "start": 151.249,
+  "end": 151.839,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "'Yun ang sabi nila.",
+  "start": 152.179,
+  "end": 153.049,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ilalim.",
+  "start": 153.409,
+  "end": 153.899,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May labasan sila.",
+  "start": 154.319,
+  "end": 155.169,
+  "style": "playful",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Pero walang libre sa hayop, par.",
+  "start": 155.519,
+  "end": 157.169,
+  "style": "playful",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Order 'to ng customer.",
+  "start": 157.579,
+  "end": 158.769,
+  "style": "pained",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Unang sahod ko 'to.",
+  "start": 159.109,
+  "end": 160.029,
+  "style": "pained",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ibinuhos niya ang pancit.",
+  "start": 160.429,
+  "end": 162.349,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Itinuro ng mga daga ang isang lumang imburnal.",
+  "start": 162.729,
+  "end": 165.599,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sepa!",
+  "start": 165.989,
+  "end": 166.369,
+  "style": "sure",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ang lola mo.",
+  "start": 166.739,
+  "end": 167.349,
+  "style": "sure",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bubuhatin ko.",
+  "start": 167.689,
+  "end": 168.569,
+  "style": "sure",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pinasan niya ang lola, at gumapang silang lahat palabas.",
+  "start": 168.969,
+  "end": 172.289,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pati ang guwardiya, sumunod.",
+  "start": 172.669,
+  "end": 174.349,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Indio!",
+  "start": 174.739,
+  "end": 175.269,
+  "style": "scared",
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Saan ang labasan?",
+  "start": 175.639,
+  "end": 176.829,
+  "style": "scared",
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Sundan mo ang daga, señor.",
+  "start": 177.209,
+  "end": 179.189,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sila ang mas nakakaalam dito.",
+  "start": 179.549,
+  "end": 181.309,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Nakalabas silang lahat sa tabing-ilog, buhay.",
+  "start": 182.129,
+  "end": 184.589,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa Maynila, may bagong watawat na.",
+  "start": 184.939,
+  "end": 187.209,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Labing-apat, par.",
+  "start": 187.619,
+  "end": 188.699,
+  "style": "proud",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Bilangin mo.",
+  "start": 189.039,
+  "end": 189.719,
+  "style": "proud",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sa isang supot ng pancit.",
+  "start": 190.079,
+  "end": 191.769,
+  "style": "proud",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sumuko na raw ang lungsod.",
+  "start": 192.189,
+  "end": 193.419,
+  "style": "quiet",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Ang arsobispo mismo.",
+  "start": 193.769,
+  "end": 194.929,
+  "style": "quiet",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Tapos na pala.",
+  "start": 195.339,
+  "end": 196.029,
+  "style": "sad",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa kanila na tayo.",
+  "start": 196.369,
+  "end": 197.309,
+  "style": "sad",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hindi pa.",
+  "start": 197.709,
+  "end": 198.219,
+  "style": "fierce",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "May isang hukom na nakaalis bago bumagsak ang pader.",
+  "start": 198.599,
+  "end": 201.279,
+  "style": "fierce",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Nasa Pampanga na raw.",
+  "start": 201.629,
+  "end": 202.709,
+  "style": "fierce",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Lalaban.",
+  "start": 203.079,
+  "end": 203.609,
+  "style": "fierce",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi ko nailigtas ang Maynila.",
+  "start": 203.989,
+  "end": 205.489,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Isang kusina lang.",
+  "start": 205.849,
+  "end": 206.819,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Para sa susunod mong hatid, Indio.",
+  "start": 207.239,
+  "end": 208.909,
+  "style": "warm",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "'Yung pangalan, ha.",
+  "start": 209.259,
+  "end": 210.109,
+  "style": "warm",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Hindi 'yung tawag.",
+  "start": 210.479,
+  "end": 211.159,
+  "style": "warm",
+  "speaker": "SEPA"
+ },
+ {
+  "text": "Itinali ni Sepa ang tapis niya sa supot ni Indio.",
+  "start": 211.539,
+  "end": 214.349,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "At ang guwardiyang tumulak sa kanya, yumuko bilang pasasalamat.",
+  "start": 214.709,
+  "end": 218.459,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Lumamig ang medalyon.",
+  "start": 219.279,
+  "end": 220.679,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumalik si Indio sa kasalukuyan.",
+  "start": 221.069,
+  "end": 223.079,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa braso niya, may pangalawa nang marka.",
+  "start": 223.449,
+  "end": 225.809,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Aray.",
+  "start": 226.189,
+  "end": 226.529,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Dalawa na.",
+  "start": 226.889,
+  "end": 227.409,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "At wala na akong pancit.",
+  "start": 227.789,
+  "end": 229.369,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tapis na lang.",
+  "start": 229.719,
+  "end": 230.469,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Paano ko ipapaliwanag 'to sa app?",
+  "start": 230.839,
+  "end": 232.559,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Kinain po ng daga, noong 1762.\"",
+  "start": 232.899,
+  "end": 236.319,
+  "style": "wince",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kinansela ng app ang order.",
+  "start": 236.719,
+  "end": 238.349,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pero may isa pang dumating.",
+  "start": 238.729,
+  "end": 240.149,
+  "style": "calm",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Teka.",
+  "start": 240.539,
+  "end": 240.879,
+  "style": "surprised",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Delivered.\"",
+  "start": 241.249,
+  "end": 241.819,
+  "style": "surprised",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May tip pa.",
+  "start": 242.159,
+  "end": 242.749,
+  "style": "surprised",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Galing kay M.",
+  "start": 243.109,
+  "end": 243.729,
+  "style": "surprised",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "\"Basahin mo nang malakas ang susunod.\"",
+  "start": 244.149,
+  "end": 246.019,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Sino ka ba, M?",
+  "start": 246.369,
+  "end": 247.849,
+  "style": "whispers",
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik?",
+  "start": 248.659,
+  "end": 253.339,
+  "style": "curious",
+  "speaker": "INDIO",
+  "aside": true
+ }
+]
