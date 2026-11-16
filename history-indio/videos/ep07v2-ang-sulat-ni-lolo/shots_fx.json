@@ -65,13 +65,13 @@
 },
 "10": {
 "fx": [],
-"move": "hold",
-"why": "nine percent, he hesitates"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "11": {
 "fx": [],
-"move": "hold",
-"why": "nine percent, he hesitates",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 10
 },
 "12": {
@@ -93,42 +93,42 @@
 },
 "15": {
 "fx": [],
-"move": "hold",
-"why": "his thumb doubts for him"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "16": {
 "fx": [],
-"move": "hold",
-"why": "his thumb doubts for him",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 15
 },
 "17": {
 "fx": [],
-"move": "hold",
-"why": "his thumb doubts for him",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 15
 },
 "18": {
 "fx": [],
-"move": "rack_focus",
-"why": "from dog to far cart"
+"move": "pull_out",
+"why": "keep the far cart in frame"
 },
 "19": {
 "fx": [],
-"move": "rack_focus",
-"why": "from dog to far cart",
+"move": "pull_out",
+"why": "keep the far cart in frame",
 "key": 18
 },
 "20": {
 "fx": [],
-"move": "rack_focus",
-"why": "from dog to far cart",
+"move": "pull_out",
+"why": "keep the far cart in frame",
 "key": 18
 },
 "21": {
 "fx": [],
-"move": "rack_focus",
-"why": "from dog to far cart",
+"move": "pull_out",
+"why": "keep the far cart in frame",
 "key": 18
 },
 "22": {
@@ -167,26 +167,26 @@
 },
 "28": {
 "fx": [],
-"move": "hold",
-"why": "whispers, they keep sides"
+"move": "tilt_down",
+"why": "ends on the nameless mound",
+"key": 27
 },
 "29": {
 "fx": [],
-"move": "hold",
-"why": "whispers, they keep sides",
-"key": 28
+"move": "tilt_down",
+"why": "ends on the nameless mound",
+"key": 27
 },
 "30": {
 "fx": [],
 "move": "hold",
-"why": "whispers, they keep sides",
-"key": 28
+"why": "whispers, they keep sides"
 },
 "31": {
 "fx": [],
 "move": "hold",
 "why": "whispers, they keep sides",
-"key": 28
+"key": 30
 },
 "32": {
 "fx": [],
@@ -226,8 +226,8 @@
 },
 "38": {
 "fx": [],
-"move": "hold",
-"why": "they hide, boots pass"
+"move": "pull_out",
+"why": "boots pass, they hide"
 },
 "39": {
 "fx": [],
@@ -237,46 +237,46 @@
 },
 "40": {
 "fx": [],
-"move": "hold",
-"why": "he hears his full name"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "41": {
 "fx": [],
-"move": "hold",
-"why": "he hears his full name",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 40
 },
 "42": {
 "fx": [],
 "move": "push_in",
-"why": "the Lolo's face appears"
+"why": "slow push, a long held line"
 },
 "43": {
 "fx": [],
 "move": "push_in",
-"why": "the Lolo's face appears",
+"why": "slow push, a long held line",
 "key": 42
 },
 "44": {
 "fx": [],
 "move": "push_in",
-"why": "the Lolo's face appears",
+"why": "slow push, a long held line",
 "key": 42
 },
 "45": {
 "fx": [],
-"move": "hold",
+"move": "push_in",
 "why": "second still, new size"
 },
 "46": {
 "fx": [],
-"move": "hold",
+"move": "push_in",
 "why": "second still, new size",
 "key": 45
 },
 "47": {
 "fx": [],
-"move": "hold",
+"move": "push_in",
 "why": "second still, new size",
 "key": 45
 },
@@ -312,18 +312,18 @@
 "fx": [
 "punch"
 ],
-"move": "dolly_in",
+"move": "push_in",
 "why": "the phone dies, he shouts"
 },
 "54": {
 "fx": [],
-"move": "dolly_in",
+"move": "push_in",
 "why": "the phone dies, he shouts",
 "key": 53
 },
 "55": {
 "fx": [],
-"move": "dolly_in",
+"move": "push_in",
 "why": "the phone dies, he shouts",
 "key": 53
 },
@@ -357,35 +357,25 @@
 },
 "61": {
 "fx": [],
-"move": "hold",
-"why": "second still, new size"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "62": {
 "fx": [],
-"move": "hold",
-"why": "second still, new size",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 61
 },
 "63": {
 "fx": [],
-"move": "hold",
-"why": "second still, new size",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 61
-},
-"64": {
-"fx": [],
-"move": "hold",
-"why": "the dog has found it",
-"keys": [
-121,
-64
-]
 },
 "65": {
 "fx": [],
 "move": "hold",
-"why": "the dog has found it",
-"key": 64
+"why": "the dog has found it"
 },
 "66": {
 "fx": [],
@@ -410,49 +400,49 @@
 },
 "70": {
 "fx": [],
-"move": "hold",
-"why": "the dog explains the lens"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "71": {
 "fx": [],
-"move": "hold",
-"why": "the dog explains the lens",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 70
 },
 "72": {
 "fx": [],
-"move": "hold",
-"why": "the dog explains the lens",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 70
 },
 "73": {
 "fx": [],
 "move": "pan_right",
 "why": "walks with her search",
-"trans_in": "fade"
+"trans_in": "cut"
 },
 "74": {
 "fx": [],
-"move": "hold",
-"why": "the boy names her"
+"move": "pan_right",
+"why": "walks with her search",
+"key": 73
 },
 "75": {
 "fx": [],
 "move": "hold",
-"why": "the boy names her",
-"key": 74
+"why": "the boy names her"
 },
 "76": {
 "fx": [],
 "move": "hold",
 "why": "the boy names her",
-"key": 74
+"key": 75
 },
 "77": {
 "fx": [],
 "move": "hold",
 "why": "the boy names her",
-"key": 74
+"key": 75
 },
 "78": {
 "fx": [],
@@ -491,25 +481,25 @@
 },
 "84": {
 "fx": [],
-"move": "hold",
-"why": "hold still on the poem"
+"move": "push_in",
+"why": "slow push, a long held line"
 },
 "85": {
 "fx": [],
-"move": "hold",
-"why": "hold still on the poem",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 84
 },
 "86": {
 "fx": [],
-"move": "hold",
-"why": "hold still on the poem",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 84
 },
 "87": {
 "fx": [],
-"move": "hold",
-"why": "hold still on the poem",
+"move": "push_in",
+"why": "slow push, a long held line",
 "key": 84
 },
 "88": {
@@ -651,7 +641,13 @@
 },
 "112": {
 "fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"64": {
+"fx": [],
 "move": "hold",
-"why": "the question needs stillness"
+"why": "the nose finds the stone",
+"key": 121
 }
 }
