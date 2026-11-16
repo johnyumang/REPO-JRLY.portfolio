@@ -114,7 +114,7 @@
 "city:-18"
 ],
 "music": "drone",
-"level": -3,
+"level": -12,
 "spot": [
 {
 "what": "impact",
@@ -422,5 +422,8 @@
 "gain": 0
 }
 ]
+},
+"24": {
+"level": -3
 }
 }
