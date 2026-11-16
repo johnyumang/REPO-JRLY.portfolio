@@ -39,7 +39,7 @@
 | 33 | 65-66 | Kinausap ko sila. | bk_72 | hold | Usman takes the credit |
 | 34 | 67-68 | Hindi tumatahimik ang aso sa espiya. | bk_64 | hold | free: the rope on the ground |
 | 35 | 69-71 | Sino ka ba talaga? | bk_70 | pull_out | he walks at us, dogs follow |
-| 36 | 72 | Sa gilid ng liwanag, may mag-asawang n | bk_63 | tilt_up + fade in | from the dark up to the couple |
+| 36 | 72 | Sa gilid ng liwanag, may mag-asawang n | bk_88 | tilt_up + fade in | from the dark up to the couple |
 | 37 | 73-74 | Ang babae, si Oriang. | bk_40 | push_in | tender: very slow, close |
 | 38 | 75-77 | Kapag pinunit mo 'yan, wala na tayong  | bk_65 | push_in | foreheads together, held close |
 | 39 | 78 | Huwag kang tumitig, par. | bk_42 | hold | Indio and Islaw watching |
