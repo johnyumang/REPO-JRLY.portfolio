@@ -1,0 +1,146 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "punch",
+   "embers"
+  ],
+  "move": "dolly_in",
+  "why": "he threatens: close, push hard"
+ },
+ "1": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "blade at neck: stay still",
+  "trans_in": "slash"
+ },
+ "2": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "he introduces himself to us",
+  "trans_in": "flash"
+ },
+ "4": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he hands in his papers"
+ },
+ "5": {
+  "fx": [
+   "flash",
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the dog in the light",
+  "trans_in": "flash"
+ },
+ "7": {
+  "fx": [
+   "embers"
+  ],
+  "move": "crane_down",
+  "why": "opening: the camp, 1896",
+  "trans_in": "fade"
+ },
+ "9": {
+  "fx": [
+   "embers"
+  ],
+  "move": "dolly_in",
+  "why": "meet the boy who blocks him"
+ },
+ "10": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the guard chief demands papers"
+ },
+ "11": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "up from bread to tied wrists"
+ },
+ "13": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the blade at his neck"
+ },
+ "14": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "Usman speaks low, close"
+ },
+ "15": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "the confession: plain, still"
+ },
+ "16": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy falters, close"
+ },
+ "17": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "free: the rope on the ground"
+ },
+ "18": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face",
+  "trans_in": "fade"
+ },
+ "20": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "hero's line: hold still"
+ },
+ "21": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the cedula torn in two"
+ },
+ "22": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "he understands, looking up"
+ },
+ "23": {
+  "fx": [
+   "water"
+  ],
+  "move": "pull_out",
+  "why": "the question to us",
+  "trans_in": "fade"
+ }
+}
