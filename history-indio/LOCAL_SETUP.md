@@ -4,6 +4,8 @@ This file is written so you can hand it, with the repository, to a local model o
 episode the same way as `videos/ep01v2-ang-unang-talon`". Everything it needs is in this repository except three
 things that are yours and are never committed: your Episode 1 voice recording, the finished audio/video, and keys.
 
+See `ENGINES.md` for the full list of engines, their limits and keys.
+
 ## What is free and what you must bring
 | Part | Tool | Cost | Runs where |
 |---|---|---|---|

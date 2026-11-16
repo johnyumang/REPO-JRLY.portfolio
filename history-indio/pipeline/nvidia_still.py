@@ -1,7 +1,7 @@
 import json, sys, base64, urllib.request, time
 def call(model, body, out, poll=25):
     req = urllib.request.Request(f"https://ai.api.nvidia.com/v1/genai/{model}", data=json.dumps(body).encode(),
-                                 headers={"Accept": "application/json", "Content-Type": "application/json", "NVCF-POLL-SECONDS": str(poll)})
+                                 headers={"Accept": "application/json", "Content-Type": "application/json", "NVCF-POLL-SECONDS": str(poll), **({"Authorization": "Bearer " + __import__("os").environ["NVIDIA_API_KEY"]} if __import__("os").environ.get("NVIDIA_API_KEY") else {})})
     t = time.time()
     try: r = json.load(urllib.request.urlopen(req, timeout=120))
     except urllib.error.HTTPError as e: print(model, 'HTTP', e.code, e.read()[:300].decode('utf-8', 'replace')); return False

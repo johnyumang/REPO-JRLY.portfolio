@@ -804,22 +804,22 @@
   },
   "AMBO": {
    "descriptions": [
-    "A Filipino seaman about forty, weathered and slightly husky voice, warm and plain-spoken, Batangas accent, kind and practical",
-    "A middle-aged Filipino sailor, low rough friendly voice, unhurried, humble and gentle, Tagalog from Batangas"
+    "An old Filipino seaman about sixty, thin reedy raspy voice, fairly high pitched for a man, a little nasal, quick and cheerful, plain Batangas Tagalog",
+    "An elderly Filipino sailor, light wiry crackly voice, higher pitch, lively and warm, speaks at a normal brisk pace, Tagalog from Batangas"
    ],
    "ref_text": "Ako si Ambo, marino ako, taga-Batangas. Naiwan ako ng barko kaya naghuhugas ako ng pinggan dito. Mahirap, kuya, pero may kinakain. Basta't magkasama tayo, hindi tayo malulungkot. Halika, pumasok ka at magpainit muna.",
    "sample": "Dito sa ibaba, kuya, mas marami kang makikita. Subukan mo ang bintanang 'yan.",
    "f0_hz": [
-    80,
-    170
+    85,
+    190
    ]
   },
   "PUNONG WEYTER": {
    "descriptions": [
-    "A stern French head waiter about fifty, sharp loud nasal voice, impatient and angry, clear diction",
-    "A strict middle-aged hotel head waiter, hard clipped commanding voice, shouting in anger, French accent"
+    "A stern French head waiter about fifty, deep hard commanding voice, low and angry, clipped clear diction, French accent",
+    "A strict older hotel head waiter, low gruff barking voice, impatient and harsh, firm and loud, French accent"
    ],
-   "ref_text": "Imbécile! Ano ba'ng ginagawa mo? Bilisan mo, bilisan mo! Dalhin mo ang mga baso sa itaas, at huwag kang titingin sa kanila. Hindi ka nila dapat makita. Sige na, alis!",
+   "ref_text": "Imbécile! Ano ba'ng ginagawa mo? Bilisan mo! Ang mga baso, sa itaas! Huwag kang titingin sa kanila. Sige na, alis!",
    "sample": "Imbécile!",
    "f0_hz": [
     90,
@@ -828,14 +828,14 @@
   },
   "AGONCILLO": {
    "descriptions": [
-    "A Filipino lawyer about forty, measured steady baritone, tired but firm, formal and dignified, careful clear diction, Tagalog",
-    "A man around forty, calm grave lawyerly voice, slow and deliberate, quiet resolve, Filipino accent"
+    "A Filipino lawyer about forty, clear crisp light tenor voice, precise and formal, firm and steady, a little dry, speaking Tagalog with careful diction",
+    "A man around forty, bright clean tenor speaking voice, controlled and dignified, quietly determined, measured pace, Filipino lawyer"
    ],
    "ref_text": "Hindi ako susuko sa pintuang ito. Ilang linggo na akong kumakatok, at ilang linggo na rin nila akong hindi pinapapasok. Pero isusulat ko pa rin ang aming tinig, at ipadadala ko ito sa kanila. Ang bayan ay hindi ipinagbibili.",
    "sample": "Tutol ako sa anumang pasyang ginawa rito, hangga't hindi kinikilala ang kalayaan ng bayang Pilipino.",
    "f0_hz": [
-    80,
-    170
+    95,
+    185
    ]
   },
   "ANDOY": {

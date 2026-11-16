@@ -60,31 +60,20 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Apat na ang marka ko.",
-  "say": "apat na ang marka ko.",
-  "style": "dry",
+  "text": "Apat na ang marka sa braso ni Indio, pero wala pa rin siyang trabaho.",
+  "say": "apat na ang marka sa braso ni indio, pero wala pa rin siyang trabaho.",
+  "style": "calm",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Wala pa rin akong trabaho.",
-  "say": "wala pa rin akong trabaho.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Ito na lang ang pera ko.",
-  "say": "ito na lang ang pera ko.",
+  "text": "Isang lukot na bente na lang ang pera niya.",
+  "say": "isang lukot na bente na lang ang pera niya.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Bente: ang perang papel na pinakagamit nating mga Pilipino.",
@@ -172,6 +161,22 @@
   "speaker": "INDIO"
  },
  {
+  "text": "Ayaw niyang magbasa ng marker ngayong gabi.",
+  "say": "ayaw niyang magbasa ng marker ngayong gabi.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pero may napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
+  "say": "pero may napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "M na naman.",
   "say": "m na naman.",
   "style": "annoyed",
@@ -207,6 +212,14 @@
   "text": "Gabi.",
   "say": "gabi.",
   "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Napunta sila ng aso niyang si Usman sa isang eskinita sa Paris, sa gitna ng niyebe.",
+  "say": "napunta sila ng aso niyang si usman sa isang eskinita sa paRIS, sa gitna ng niyebe.",
+  "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -250,6 +263,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Pinapasok sila ng isang Pilipinong tagahugas ng pinggan: si Ambo.",
+  "say": "pinapasok sila ng isang pilipinong tagahugas ng pinggan: si AMbo.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Kababayan?",
@@ -367,6 +388,14 @@
   "aside": true
  },
  {
+  "text": "Binihisan siya ni Ambo bilang weyter, para makapasok sa silid ng pirmahan.",
+  "say": "binihisan siya ni AMbo bilang weyter, para makapasok sa silid ng pirmahan.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Huwag kang titingin sa mata nila.",
   "say": "huwag kang titingin sa mata nila.",
   "style": "quick",
@@ -407,6 +436,14 @@
   "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
+ },
+ {
+  "text": "Sa mesa, may papel na may numero: dalawampung milyon.",
+  "say": "sa mesa, may papel na may numero: dalawampung milyon.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Ayan ang numero.",
@@ -452,6 +489,22 @@
   "speaker": "PUNONG WEYTER"
  },
  {
+  "text": "Nabitawan niya ang bandeha.",
+  "say": "nabitawan niya ang bandeha.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hinila siya ng punong weyter pababa, sa harap ng mga maruming pinggan.",
+  "say": "hinila siya ng punong weyter pababa, sa harap ng mga maruming pinggan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Sa silid na 'yon pinagpasyahan ang bayan ko.",
   "say": "sa silid na yon pinagpasyahan ang bayan ko.",
   "style": "whisper",
@@ -484,6 +537,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "AMBO"
+ },
+ {
+  "text": "Mula sa maliit na bintana ng kusina, may natanaw si Indio: isang lalaking nagsusulat mag-isa, sa kabila ng kalye.",
+  "say": "mula sa maliit na bintana ng kusina, may natanaw si indio: isang lalaking nagsusulat mag-isa, sa kabila ng kalye.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Par.",
@@ -556,6 +617,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "AMBO"
+ },
+ {
+  "text": "Idinikit ng lalaki sa noo niya ang isang liham, saka ibinalik sa bulsa.",
+  "say": "idinikit ng lalaki sa noo niya ang isang liham, saka ibinalik sa bulsa.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Sulat ng asawa niya.",
@@ -694,6 +763,22 @@
   "speaker": "AMBO"
  },
  {
+  "text": "Dinala ni Ambo ang sarili niyang lampara sa kabilang kalye.",
+  "say": "dinala ni AMbo ang sarili niyang lampara sa kabilang kalye.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sumunod si Indio at tatlo pang tagahugas, at tumayo sila sa niyebe.",
+  "say": "sumunod si indio at tatlo pang tagahugas, at tumayo sila sa niyebe.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Bilangin mo ulit, par.",
   "say": "bilangin mo ulit, par.",
   "style": "soft",
@@ -726,6 +811,14 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Bumalik si Indio sa kasalukuyan, may ikalimang marka.",
+  "say": "bumalik si indio sa kasalukuyan, may ikalimang marka.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Aray.",
   "say": "aray.",
   "style": "wince",
@@ -748,6 +841,22 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Sa kabilang kalsada, itinaas ng babaeng may pulang payong ang limang daliri.",
+  "say": "sa kabilang kalsada, itinaas ng babaeng may pulang payong ang limang daliri.",
+  "style": "calm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tapos nawala siya.",
+  "say": "tapos nawala siya.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Lima.",

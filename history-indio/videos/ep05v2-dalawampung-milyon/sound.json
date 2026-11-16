@@ -1,10 +1,12 @@
 {
 "_": {
-"whoosh_cuts": true
+"whoosh_cuts": true,
+"rules_v2": true
 },
 "0": {
 "amb": [
-"indoor:-4"
+"indoor",
+"walla:-12"
 ],
 "music": "none",
 "spot": [
@@ -16,10 +18,6 @@
 ]
 },
 "1": {
-"amb": [
-"indoor",
-"walla:-12"
-],
 "music": "heartbeat",
 "level": -3
 },
@@ -34,9 +32,6 @@
 ]
 },
 "4": {
-"amb": [
-"wind:-8"
-],
 "music": "drone",
 "level": -4
 },
@@ -55,7 +50,7 @@
 }
 ]
 },
-"10": {
+"9": {
 "foley": [
 {
 "what": "cloth",
@@ -65,7 +60,7 @@
 }
 ]
 },
-"15": {
+"14": {
 "foley": [
 {
 "what": "cloth",
@@ -75,7 +70,7 @@
 }
 ]
 },
-"18": {
+"17": {
 "foley": [
 {
 "what": "cloth",
@@ -85,7 +80,7 @@
 }
 ]
 },
-"20": {
+"19": {
 "music": "drone",
 "spot": [
 {
@@ -96,7 +91,7 @@
 }
 ]
 },
-"21": {
+"22": {
 "spot": [
 {
 "what": "riser",
@@ -112,7 +107,7 @@
 }
 ]
 },
-"22": {
+"23": {
 "amb": [
 "wind",
 "city:-18"
@@ -127,7 +122,7 @@
 }
 ]
 },
-"25": {
+"26": {
 "foley": [
 {
 "what": "dog_paws",
@@ -137,11 +132,10 @@
 }
 ]
 },
-"30": {
+"32": {
 "amb": [
 "indoor",
-"fire:-8",
-"wind:-14"
+"fire:-8"
 ],
 "music": "none",
 "foley": [
@@ -158,19 +152,15 @@
 }
 ]
 },
-"36": {
-"amb": [
-"indoor",
-"fire:-10"
-],
+"39": {
 "music": "guitar",
 "level": -5
 },
-"41": {
+"44": {
 "music": "drone",
 "level": -4
 },
-"43": {
+"46": {
 "foley": [
 {
 "what": "growl",
@@ -180,7 +170,7 @@
 }
 ]
 },
-"44": {
+"47": {
 "foley": [
 {
 "what": "cloth",
@@ -196,7 +186,7 @@
 }
 ]
 },
-"47": {
+"51": {
 "amb": [
 "indoor",
 "walla:-8"
@@ -211,7 +201,7 @@
 }
 ]
 },
-"48": {
+"52": {
 "foley": [
 {
 "what": "steps_stone",
@@ -222,7 +212,7 @@
 }
 ]
 },
-"49": {
+"53": {
 "foley": [
 {
 "what": "pen",
@@ -232,14 +222,11 @@
 }
 ]
 },
-"51": {
+"56": {
 "music": "heartbeat",
 "level": -3
 },
-"52": {
-"amb": [
-"indoor:-8"
-],
+"57": {
 "music": "none",
 "spot": [
 {
@@ -248,21 +235,23 @@
 "gain": -10,
 "hush": 0.3
 }
-]
+],
+"level": -6
 },
-"53": {
+"58": {
 "spot": [
 {
 "what": "glass_crash",
-"at": 0.0,
-"gain": 2
+"at": -0.45,
+"gain": 0
 }
 ]
 },
-"54": {
+"60": {
 "amb": [
 "indoor",
-"fire:-8"
+"fire:-10",
+"wind:-14"
 ],
 "music": "none",
 "foley": [
@@ -281,7 +270,7 @@
 }
 ]
 },
-"55": {
+"61": {
 "foley": [
 {
 "what": "plates",
@@ -291,16 +280,11 @@
 }
 ]
 },
-"56": {
-"amb": [
-"indoor",
-"fire:-10",
-"wind:-12"
-],
+"63": {
 "music": "guitar",
 "level": -5
 },
-"57": {
+"65": {
 "foley": [
 {
 "what": "cloth",
@@ -310,55 +294,38 @@
 }
 ]
 },
-"58": {
-"amb": [
-"wind:-6",
-"indoor:-10"
-],
+"66": {
 "music": "drone",
 "level": -4
 },
-"66": {
+"75": {
 "music": "guitar",
 "level": -6
 },
-"67": {
+"76": {
 "level": -5
 },
-"69": {
+"78": {
 "level": -7
 },
-"70": {
-"amb": "none",
+"79": {
+"level": -6,
 "music": "none",
-"level": 0,
-"spot": [
-{
-"what": "shimmer",
-"at": 0.0,
-"dur": 0.6,
-"gain": -24,
-"hush": 0.6
-}
-],
 "foley": [
 {
 "what": "cloth",
 "at": 0.0,
-"dur": 0.4,
-"gain": -14
+"dur": 0.3,
+"gain": -30,
+"hush": 0.6
 }
 ]
 },
-"71": {
-"amb": [
-"wind:-6",
-"indoor:-12"
-],
+"80": {
 "music": "drone",
 "level": -4
 },
-"73": {
+"82": {
 "foley": [
 {
 "what": "cloth",
@@ -368,11 +335,11 @@
 }
 ]
 },
-"80": {
+"88": {
 "music": "guitar",
 "level": -4
 },
-"82": {
+"93": {
 "amb": [
 "wind",
 "city:-18"
@@ -392,7 +359,7 @@
 }
 ]
 },
-"83": {
+"94": {
 "foley": [
 {
 "what": "steps_wet",
@@ -403,10 +370,7 @@
 }
 ]
 },
-"84": {
-"amb": [
-"wind"
-],
+"95": {
 "music": "guitar",
 "level": -3,
 "foley": [
@@ -418,7 +382,7 @@
 }
 ]
 },
-"87": {
+"98": {
 "amb": "none",
 "music": "drone",
 "spot": [
@@ -436,10 +400,9 @@
 }
 ]
 },
-"88": {
+"99": {
 "amb": [
-"indoor",
-"city:-12"
+"city:-4"
 ],
 "music": "none",
 "level": -3,
@@ -451,17 +414,11 @@
 }
 ]
 },
-"91": {
-"amb": [
-"city"
-],
+"103": {
 "music": "drone",
 "level": -4
 },
-"93": {
-"amb": [
-"city:-8"
-],
+"107": {
 "music": "none",
 "level": -5
 }

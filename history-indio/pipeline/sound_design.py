@@ -704,6 +704,10 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
     v, _ = sf.read(tmp, dtype='float32'); os.remove(tmp); dur = len(v) / SR + 0.8
     v = np.pad(v, (0, int(dur * SR) - len(v))).astype(np.float64); n = len(v); total = n / SR
     rv = soundtrack.gated_rms(v); act = _voice_activity(v, rv)
+    R2 = bool(plan.get('_', {}).get('rules_v2'))                                              # opt-in: central's sound rules of 15 Nov (SOUND.md section 7)
+    o = plan.get('_', {}).get('levels', {})                                                   # per-episode override, e.g. {"amb": -9, "music": -9, "fx_duck": 14}
+    AMB_DB, MUSIC_DB, FOLEY_DB, SPOT_DB = (float(o.get(k, d)) for k, d in (('amb', globals()['AMB_DB']), ('music', globals()['MUSIC_DB']), ('foley', globals()['FOLEY_DB']), ('spot', globals()['SPOT_DB'])))
+    DUCK, FX_DUCK = float(o.get('duck', globals()['DUCK'])), float(o.get('fx_duck', globals()['FX_DUCK']))
     LN = lines(tim, total); state = {'amb': None, 'music': 'none', 'level': 0.0}; per = []
     beds = np.zeros(n); mus = np.zeros(n); fol = np.zeros(n); spt = np.zeros(n); hush = np.zeros(n); events = 0
     for i, (a, b) in enumerate(LN):
@@ -717,7 +721,13 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
                 if w not in EVENTS: raise SystemExit(f'sound.json line {src[i]}: unknown sound {w!r}; known: {", ".join(EVENTS)}')
                 x = EVENTS[w](ev, 1000 + 37 * i + events).astype(float); t0 = a + float(ev.get('at', 0.0))
                 if w == 'riser': t0 -= len(x) / SR
-                _add(dest, x * rv * 10 ** ((base + float(ev.get('gain', 0.0))) / 20) / _active_rms(x), t0); events += 1
+                if R2:                                                                         # rules v2: music-bus events (a held note) sit with the music; effects 14 dB or more under the voice
+                    bus = ev.get('bus', 'music' if w in ('low_note', 'drone', 'heartbeat') else 'fx')
+                    if bus == 'music': dest = mus; base = MUSIC_DB
+                    else: base = min(base, -14.0 - (2.0 if lst is e.get('foley', []) else 0.0))
+                    g_ev = min(float(ev.get('gain', 0.0)), 0.0)
+                else: g_ev = float(ev.get('gain', 0.0))
+                _add(dest, x * rv * 10 ** ((base + g_ev) / 20) / _active_rms(x), t0); events += 1
                 if ev.get('hush'): h0 = a + float(ev.get('at', 0.0)); _add(hush, np.ones(_n(float(ev['hush']))), h0 - float(ev['hush']))
     if plan.get('_', {}).get('whoosh_cuts'):
         for c in cuts:
@@ -745,10 +755,18 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
     for a, b, *_k in per: lvl[_n(a) - 1 if a > 0 else 0:_n(b)] = _k[2]
     lvl = lfilter([1 - np.exp(-1 / (0.25 * SR))], [1, -np.exp(-1 / (0.25 * SR))], lvl, zi=[lvl[0] * np.exp(-1 / (0.25 * SR))])[0]
     hush = np.clip(_f(np.clip(hush, 0, 1), 'low', 8), 0, 1)
-    duck = 10 ** (-(DUCK * act + 14 * hush) / 20); fduck = 10 ** (-FX_DUCK * act / 20)
+    duck = 10 ** (-(DUCK * act + 14 * hush) / 20); fduck = 10 ** (-(30.0 if R2 else FX_DUCK) * act / 20)   # rules v2: no effect on top of a word
     bed = (beds + mus) * duck * 10 ** (lvl / 20); fx = (fol + spt) * fduck
+    if R2:                                                                                     # beds and music: 14 dB or more under the voice while it speaks, 16 dB in practice
+        sp0 = act > 0.9
+        if sp0.any():
+            bv = 20 * np.log10(np.sqrt(np.mean(bed[sp0] ** 2)) + 1e-12) - 20 * np.log10(np.sqrt(np.mean(v[sp0] ** 2)) + 1e-12)
+            if bv > -16.0: bed *= 10 ** ((-16.0 - bv) / 20)
+        pk0 = np.abs(v).max() * 10 ** (-8 / 20); fx = pk0 * np.tanh(fx / pk0)
     pk = 0.9 * np.abs(v).max(); fx = pk * np.tanh(fx / pk)                                    # effects never pass the voice's peak (soft)
     mixd = v + bed + fx
+    if os.environ.get('HI_MIX_STEMS'):                                                         # for the sound audit: the three layers at mix scale (before the loudness guard)
+        np.savez_compressed(os.environ['HI_MIX_STEMS'], voice=v.astype(np.float32), bed=bed.astype(np.float32), fx=fx.astype(np.float32), sr=SR)
     raw = tempfile.mktemp(suffix='.wav'); sf.write(raw, mixd.astype(np.float32), SR, subtype='FLOAT')
     soundtrack.loudnorm2(raw, out); os.remove(raw)
     sp = act > 0.9; gp = act < 0.1
