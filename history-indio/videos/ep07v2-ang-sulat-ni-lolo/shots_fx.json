@@ -266,19 +266,22 @@
 "45": {
 "fx": [],
 "move": "push_in",
-"why": "second still, new size"
+"why": "second still, new size",
+"sub_v": 150
 },
 "46": {
 "fx": [],
 "move": "push_in",
 "why": "second still, new size",
-"key": 45
+"key": 45,
+"sub_v": 150
 },
 "47": {
 "fx": [],
 "move": "push_in",
 "why": "second still, new size",
-"key": 45
+"key": 45,
+"sub_v": 150
 },
 "48": {
 "fx": [],
