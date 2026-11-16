@@ -812,7 +812,8 @@ def mix(episode_dir, tim, voice, out, src=None, cuts=(), plan=None):
         sp0 = act > 0.9
         if sp0.any():
             bv = 20 * np.log10(np.sqrt(np.mean(bed[sp0] ** 2)) + 1e-12) - 20 * np.log10(np.sqrt(np.mean(v[sp0] ** 2)) + 1e-12)
-            if bv > -16.0: bed *= 10 ** ((-16.0 - bv) / 20)
+            tgt = float(plan.get('_', {}).get('bed_under_voice_db', 16.0))                          # per-episode: deeper when single lines still come out under 14
+            if bv > -tgt: bed *= 10 ** ((-tgt - bv) / 20)
         if plan.get('_', {}).get('bed_per_line'):                                              # opt-in: hold the bed 16 dB under the voice line by line (quiet lines too), not only on average
             w = _n(0.4); env = lambda x: np.sqrt(np.convolve(x ** 2, np.ones(w) / w, 'same')) + 1e-9
             rel = 20 * np.log10(env(bed)) - 20 * np.log10(env(v)); g = np.where(act > 0.5, np.minimum(0.0, -16.0 - rel), 0.0)

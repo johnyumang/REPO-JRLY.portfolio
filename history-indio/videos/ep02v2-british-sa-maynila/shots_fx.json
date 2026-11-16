@@ -41,7 +41,7 @@
   "fx": [],
   "move": "tilt_down",
   "why": "ends on the motorcycle",
-  "trans_in": "dissolve"
+  "trans_in": "fade"
  },
  "6": {
   "fx": [],
@@ -74,12 +74,14 @@
  "11": {
   "fx": [],
   "move": "push_in",
-  "why": "he breathes in the smell"
+  "why": "he breathes in the smell",
+  "sub_v": 360
  },
  "12": {
   "fx": [],
   "move": "push_in",
   "why": "he breathes in the smell",
+  "sub_v": 360,
   "key": 11
  },
  "13": {
@@ -156,32 +158,23 @@
   "key": 24
  },
  "26": {
-  "fx": [
-   "shake",
-   "impact"
-  ],
-  "move": "hold",
-  "why": "the roof crashes behind him"
+  "fx": [],
+  "move": "push_in",
+  "why": "he falls amid the gunfire"
  },
  "27": {
-  "fx": [
-   "punch"
-  ],
+  "fx": [],
   "move": "push_in",
   "why": "she pulls him to safety"
  },
  "28": {
-  "fx": [
-   "punch"
-  ],
+  "fx": [],
   "move": "push_in",
   "why": "she pulls him to safety",
   "key": 27
  },
  "29": {
-  "fx": [
-   "punch"
-  ],
+  "fx": [],
   "move": "push_in",
   "why": "she pulls him to safety",
   "key": 27
@@ -464,13 +457,13 @@
  },
  "76": {
   "fx": [],
-  "move": "push_in",
-  "why": "toward the daylight"
+  "move": "hold",
+  "why": "he carries the grandmother"
  },
  "77": {
   "fx": [],
-  "move": "hold",
-  "why": "the guard begs now"
+  "move": "push_in",
+  "why": "toward the daylight"
  },
  "78": {
   "fx": [],
@@ -542,30 +535,30 @@
  "90": {
   "fx": [],
   "move": "hold",
-  "why": "he feels beaten",
-  "key": 89
+  "why": "the dog growls at him"
  },
  "91": {
   "fx": [],
-  "move": "hold",
-  "why": "the dog growls at him"
+  "move": "push_in",
+  "why": "she will not give up"
  },
  "92": {
   "fx": [],
   "move": "push_in",
-  "why": "she will not give up"
+  "why": "she will not give up",
+  "key": 91
  },
  "93": {
   "fx": [],
   "move": "push_in",
   "why": "she will not give up",
-  "key": 92
+  "key": 91
  },
  "94": {
   "fx": [],
   "move": "push_in",
   "why": "she will not give up",
-  "key": 92
+  "key": 91
  },
  "95": {
   "fx": [],

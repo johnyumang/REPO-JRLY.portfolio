@@ -186,9 +186,10 @@ for j_, t_ in enumerate(SUB_TIM):                                               
     if isinstance(FX.get(str(SRC[j_])), dict) and FX[str(SRC[j_])].get('sub_v'): t_['sub_v'] = int(FX[str(SRC[j_])]['sub_v'])
 if (FX.get('_') or {}).get('subs_after_blend'):                                             # a line's subtitle never shows over the PREVIOUS picture: it waits for a blend to end
     for n_ in range(1, len(shots)):
-        if kind_of(n_) in ('cut', 'fade'): continue
+        if kind_of(n_) == 'cut': continue
+        TW_ = FN if kind_of(n_) == 'fade' else TN                                         # a dip from black counts as a blend: the subtitle waits for the picture
         for t_ in SUB_TIM:
-            if abs(t_['start'] - shots[n_][1]) < 0.06 or (abs(_ST[SUB_TIM.index(t_)] - shots[n_][1]) < 1e-6): t_['start'] = min(t_['end'] - 0.2, max(t_['start'], shots[n_][1] + (TN + 1) / fps))
+            if abs(t_['start'] - shots[n_][1]) < 0.06 or (abs(_ST[SUB_TIM.index(t_)] - shots[n_][1]) < 1e-6): t_['start'] = min(t_['end'] - 0.2, max(t_['start'], shots[n_][1] + (TW_ + 1) / fps))
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
     mix = os.path.join(work, 'mix.wav')                                                     # sound.json in vdir: the designed mix (sound_design.py); none: as before
