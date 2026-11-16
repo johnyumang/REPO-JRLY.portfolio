@@ -1,7 +1,8 @@
 {
 "_": {
 "hold_same_key": true,
-"trans_default": "cut"
+"trans_default": "cut",
+"subs_after_blend": true
 },
 "0": {
 "move": "hold",
@@ -65,17 +66,20 @@
 },
 "11": {
 "move": "hold",
-"fx": []
+"fx": [],
+"sub_v": 170
 },
 "12": {
 "move": "hold",
 "fx": [],
-"key": 11
+"key": 11,
+"sub_v": 170
 },
 "13": {
 "move": "hold",
 "fx": [],
-"key": 11
+"key": 11,
+"sub_v": 170
 },
 "14": {
 "move": "hold",
@@ -351,7 +355,8 @@
 },
 "58": {
 "move": "hold",
-"fx": []
+"fx": [],
+"sub_v": 170
 },
 "59": {
 "move": "dolly_in",
@@ -526,31 +531,36 @@
 "91": {
 "move": "push_in",
 "fx": [],
-"why": "the word president sinks in"
+"why": "the word president sinks in",
+"sub_v": 170
 },
 "92": {
 "move": "push_in",
 "fx": [],
 "why": "the word president sinks in",
-"key": 91
+"key": 91,
+"sub_v": 170
 },
 "93": {
 "move": "push_in",
 "fx": [],
 "why": "the word president sinks in",
-"key": 91
+"key": 91,
+"sub_v": 170
 },
 "94": {
 "move": "push_in",
 "fx": [],
 "why": "the word president sinks in",
-"key": 91
+"key": 91,
+"sub_v": 170
 },
 "95": {
 "move": "push_in",
 "fx": [],
 "why": "the word president sinks in",
-"key": 91
+"key": 91,
+"sub_v": 170
 },
 "96": {
 "move": "pan_right",
