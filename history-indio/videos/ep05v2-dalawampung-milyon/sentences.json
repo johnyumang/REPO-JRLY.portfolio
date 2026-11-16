@@ -161,16 +161,16 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Ayaw niyang magbasa ng marker ngayong gabi.",
-  "say": "ayaw niyang magbasa ng marker ngayong gabi.",
+  "text": "May napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
+  "say": "may napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Pero may napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
-  "say": "pero may napulot siyang isa pang bente na may sulat-kamay, at binasa niya nang malakas.",
+  "text": "Galing pala kay M, na hindi pa rin niya kilala.",
+  "say": "galing pala kay m, na hindi pa rin niya kilala.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -217,9 +217,17 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Napunta sila ng aso niyang si Usman sa isang eskinita sa Paris, sa gitna ng niyebe.",
-  "say": "napunta sila ng aso niyang si usman sa isang eskinita sa paRIS, sa gitna ng niyebe.",
+  "text": "Napunta siya sa isang eskinita sa Paris, sa gitna ng niyebe.",
+  "say": "napunta siya sa isang eskinita sa paRIS, sa gitna ng niyebe.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa tabi niya, lumitaw si Usman, ang asong itim na siya lang ang nakakarinig.",
+  "say": "sa tabi niya, lumitaw si usman, ang asong itim na siya lang ang nakakarinig.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -481,14 +489,6 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Imbécile!",
-  "say": "embeSIL!",
-  "style": "shout",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "PUNONG WEYTER"
- },
- {
   "text": "Nabitawan niya ang bandeha.",
   "say": "nabitawan niya ang bandeha.",
   "style": "low",
@@ -497,9 +497,25 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hinila siya ng punong weyter pababa, sa harap ng mga maruming pinggan.",
-  "say": "hinila siya ng punong weyter pababa, sa harap ng mga maruming pinggan.",
+  "text": "Nabasag ang mga baso, at sumugod ang punong weyter.",
+  "say": "nabasag ang mga baso, at sumugod ang punong weyter.",
   "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Imbécile!",
+  "say": "embeSIL!",
+  "style": "shout",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "PUNONG WEYTER"
+ },
+ {
+  "text": "Hinila siya nito pababa, sa harap ng mga maruming pinggan.",
+  "say": "hinila siya nito pababa, sa harap ng mga maruming pinggan.",
+  "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -619,8 +635,8 @@
   "speaker": "AMBO"
  },
  {
-  "text": "Idinikit ng lalaki sa noo niya ang isang liham, saka ibinalik sa bulsa.",
-  "say": "idinikit ng lalaki sa noo niya ang isang liham, saka ibinalik sa bulsa.",
+  "text": "Idinikit ng lalaki sa noo niya ang isang liham.",
+  "say": "idinikit ng lalaki sa noo niya ang isang liham.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -657,6 +673,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "AGONCILLO"
+ },
+ {
+  "text": "Lumamlam ang lampara ng lalaki.",
+  "say": "lumamlam ang lampara ng lalaki.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Wala na siyang langis.",
@@ -843,16 +867,16 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa kabilang kalsada, itinaas ng babaeng may pulang payong ang limang daliri.",
-  "say": "sa kabilang kalsada, itinaas ng babaeng may pulang payong ang limang daliri.",
+  "text": "Sa kabilang kalsada, may babaeng may pulang payong na hindi niya kilala.",
+  "say": "sa kabilang kalsada, may babaeng may pulang payong na hindi niya kilala.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Tapos nawala siya.",
-  "say": "tapos nawala siya.",
+  "text": "Itinaas nito ang limang daliri, tapos nawala.",
+  "say": "itinaas nito ang limang daliri, tapos nawala.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
