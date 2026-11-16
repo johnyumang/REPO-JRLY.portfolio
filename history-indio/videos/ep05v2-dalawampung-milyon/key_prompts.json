@@ -311,6 +311,27 @@
    "setting": "the arched wooden door and stone steps of an old church in our time at dusk: a city street with tangled electric wires on poles, acacia trees, a plain city bus; no signboards, no writing anywhere",
    "light": "orange dusk sky behind, warm light from inside the church on his back, a faint golden glow on his arm, dramatic, richly painted, detailed ink linework, textured brushwork",
    "note": "second still of shot 40: \"Lima. Bakit parang binibilang niya ako?\""
+  },
+  "bk_28b": {
+   "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, hugging himself, hands tucked under his arms, shoulders up to his ears, shivering, teeth gritted, looking down to his side; at his feet, small in the lower corner, the head and shoulders of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog looks up at him. Indio's face in the upper half; the lower half is his chest, the snow and the dog.",
+   "setting": "a narrow service alley behind a big anonymous stone building in Paris on a winter night in 1898: tall grey stone walls, one gas lamp on a bracket, cobblestones under fresh snow, a kitchen door; no known landmark, no writing anywhere",
+   "light": "cold blue night, gaslight from one side, falling snow, breath steam, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "second still of shot 11: the banter in the cold; repaint in code 16 Nov: white on muzzle/throat painted black, second upright ear painted out (hanging ear kept as the folded one)",
+   "replaces": "bk_28"
+  },
+  "bk_41b": {
+   "subject": "Close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing only a thin plain white short-sleeved polo shirt, no coat, black slacks, no backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm, crouched on his heels, whispering toward the viewer, wary; a body-width beside him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog has mismatched ears: the dog's left ear stands upright and pointed, the dog's right ear hangs folded down, soft and floppy; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog bares his teeth, growling. Both heads in the upper half; the lower half is the dark kitchen floor. His hands rest on his knees, away from the dog.",
+   "setting": "a hot hotel kitchen in Paris in 1898: copper pots on racks, a black iron stove with fire, a scrubbed wooden table, white tiles, steam, a high iron grating at street level; no writing anywhere",
+   "light": "warm stove glow from one side, cold shadow on the other, steam, tense, rim light on the dog, richly painted, detailed ink linework, textured brushwork",
+   "note": "dog apart; hands resting; repaint in code 16 Nov: white toes and throat tuft painted black",
+   "replaces": "bk_41"
+  },
+  "bk_84b": {
+   "subject": "Bird's-eye wide view: five small figures standing in the snow, faces up to one lit window: a stocky Filipino seaman of about forty, weathered dark brown skin, close-cropped black hair grey at the temples, a short thick black moustache, kind deep-set eyes, a small gold ring in his left ear, a faded blue-striped collarless shirt with rolled sleeves, a long stained white canvas apron, holding a brass lantern; a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, wearing a white single-breasted waiter's jacket with a stand-up collar, sleeves pushed up to the elbows, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, four small indigo line tattoos on his right forearm; and three different kitchen hands: a tall thin youth, a short round bald older man, a bearded man in a cap; beside them, small, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "setting": "a snowy Paris street, 1898; no writing",
+   "light": "cold blue night, warm window glow, falling snow",
+   "note": "redraw 16 Nov: three different kitchen hands, same outfit for Indio; repaint in code 16 Nov: the dog's right ear painted out and a folded flap painted in",
+   "replaces": "bk_84"
   }
  },
  "shots": {
@@ -427,23 +448,23 @@
    "shot": 11
   },
   "28": {
-   "full": "bk_28",
+   "full": "bk_28b",
    "shot": 11.5
   },
   "29": {
-   "full": "bk_28",
+   "full": "bk_28b",
    "shot": 11.5
   },
   "30": {
-   "full": "bk_28",
+   "full": "bk_28b",
    "shot": 11.5
   },
   "31": {
-   "full": "bk_28",
+   "full": "bk_28b",
    "shot": 11.5
   },
   "32": {
-   "full": "bk_28",
+   "full": "bk_28b",
    "shot": 11.5
   },
   "33": {
@@ -495,15 +516,15 @@
    "shot": 13
   },
   "45": {
-   "full": "bk_41",
+   "full": "bk_41b",
    "shot": 14
   },
   "46": {
-   "full": "bk_41",
+   "full": "bk_41b",
    "shot": 14
   },
   "47": {
-   "full": "bk_41",
+   "full": "bk_41b",
    "shot": 14
   },
   "48": {
@@ -707,15 +728,15 @@
    "shot": 36
   },
   "98": {
-   "full": "bk_84",
+   "full": "bk_84b",
    "shot": 37
   },
   "99": {
-   "full": "bk_84",
+   "full": "bk_84b",
    "shot": 37
   },
   "100": {
-   "full": "bk_84",
+   "full": "bk_84b",
    "shot": 37
   },
   "101": {
