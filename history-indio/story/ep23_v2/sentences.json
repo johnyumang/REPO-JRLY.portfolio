@@ -152,8 +152,8 @@
   "aside": true
  },
  {
-  "text": "Itinaas ni Indio ang susing tanso niya, at bumukas ang isang lagusan ng liwanag.",
-  "say": "itinaas ni indio ang susing tanso niya, at bumukas ang isang laguSAN ng liwanag.",
+  "text": "Itinaas ni Indio ang susing tanso, at bumukas ang lagusan ng liwanag.",
+  "say": "itinaas ni indio ang susing tanso, at bumukas ang laguSAN ng liwanag.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -339,8 +339,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Nakalitaw sa bag ni Indio ang ladrilyo mula sa tore ng Babel: may tatlong guhit na pahilig, tatak ng kapatas.",
-  "say": "nakalitaw sa bag ni indio ang ladRILyo mula sa tore ng baBEL: may tatlong guhit na pahiLIG, tatak ng kapatas.",
+  "text": "Nakalitaw sa bag ni Indio ang ladrilyo mula sa tore ng Babel: may tatlong guhit na pahilig, tatak ng kapatas ng mga tagabuo.",
+  "say": "nakalitaw sa bag ni indio ang ladRILyo mula sa tore ng baBEL: may tatlong guhit na pahiLIG, tatak ng kapatas ng mga tagaBUo.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -435,8 +435,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Bumaba ang nakatalukbong, at hinubad ang talukbong: ang balabal ding nagmasid sa kanila noon sa Galilea.",
-  "say": "bumaba ang nakataLUKbong, at hinubad ang taLUKbong: ang balabal ding nagmasid sa kanila noon sa galiLEa.",
+  "text": "Bumaba ang nakatalukbong, na hindi kilala ni Indio, at hinubad ang talukbong: ang balabal ding nagmasid sa kanila noon sa Galilea.",
+  "say": "bumaba ang nakataLUKbong, na hindi kilala ni indio, at hinubad ang taLUKbong: ang balabal ding nagmasid sa kanila noon sa galiLEa.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -451,17 +451,9 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Par.",
-  "say": "par.",
-  "style": "puzzled",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "USMAN"
- },
- {
   "text": "Hindi ako umuungol.",
   "say": "hindi ako u-mu-U-ngol.",
-  "style": "",
+  "style": "puzzled",
   "pre": 0,
   "pause": 0.4,
   "speaker": "USMAN"

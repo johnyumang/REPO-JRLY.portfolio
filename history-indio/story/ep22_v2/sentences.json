@@ -60,8 +60,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hindi kinikibo ni Lola Ising si Indio mula nang makilala niya si Tala, ang ate niyang inilihim sa kanya.",
-  "say": "hindi kinikibo ni lola ising si indio mula nang makilala niya si TAla, ang ate niyang inilihim sa kanya.",
+  "text": "Hindi kinikibo ni Lola Ising si Indio: nakilala na niya si Tala, ang ate niyang inilihim sa kanya.",
+  "say": "hindi kinikibo ni lola ising si indio: nakilala na niya si TAla, ang ate niyang inilihim sa kanya.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
@@ -121,16 +121,16 @@
   "aside": true
  },
  {
-  "text": "Sulat ng kuwaderno ng Lolo mo: \"Alamin mo kung bakit nagkalat ang mga wika.\"",
-  "say": "sulat ng kuwaDERno ng lolo mo: alamin mo kung bakit nagkalat ang mga wika.",
+  "text": "Sabi ng kuwaderno ng Lolo mo: \"Alamin kung bakit nagkalat ang mga wika.\"",
+  "say": "sabi ng kuwaDERno ng lolo mo: alamin kung bakit nagkalat ang mga wika.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
   "speaker": "M"
  },
  {
-  "text": "Basahin mo nang malakas ang Biblia ng Lola.",
-  "say": "basahin mo nang malakas ang biblia ng lola.",
+  "text": "Basahin mo nang malakas.",
+  "say": "basahin mo nang malakas.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -217,8 +217,8 @@
   "speaker": "USMAN"
  },
  {
-  "text": "At amoy-pawis ng libu-libo.",
-  "say": "at amoy-pawis ng libu-libo.",
+  "text": "Amoy-pawis ng libu-libo.",
+  "say": "amoy-pawis ng libu-libo.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -249,8 +249,8 @@
   "speaker": "NURI"
  },
  {
-  "text": "Laryo at betun ang bato at semento namin.",
-  "say": "larYO at beTUN ang bato at semento namin.",
+  "text": "Laryo ang bato namin, betun ang pandikit.",
+  "say": "larYO ang bato namin, beTUN ang pandikit.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -298,9 +298,17 @@
   "speaker": "NURI"
  },
  {
-  "text": "O, sumunod nga ako!",
-  "say": "o, sumunod nga ako!",
+  "text": "Tatlong katok!",
+  "say": "tatlong katok!",
   "style": "amused",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "NURI"
+ },
+ {
+  "text": "O, sumunod ako.",
+  "say": "o, sumunod ako.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "NURI"
@@ -542,8 +550,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Eh patay na ang tanso mo.",
-  "say": "eh patay na ang tanso mo.",
+  "text": "Patay na ang tanso mo.",
+  "say": "patay na ang tanso mo.",
   "style": "teasing",
   "pre": 0,
   "pause": 0.4,
