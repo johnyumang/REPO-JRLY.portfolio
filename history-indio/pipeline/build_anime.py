@@ -201,9 +201,11 @@ def transition(a_, b_, p, kind):
     if kind == 'zoom': return cv2.addWeighted(_zoom(a_, 1 + 0.55 * pe), 1 - pe, _zoom(b_, 1.5 - 0.5 * pe), pe, 0)      # zoom-through
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     if kind == 'cut': return b_                                                              # hard cut (no blend)
+    if kind == 'dip':                                                                        # dip to black (CAMERA.md 6a): never two people over each other
+        return (a_.astype(np.float32) * max(0.0, 1 - 2 * p) if p < 0.5 else b_.astype(np.float32) * min(1.0, 2 * p - 1)).astype(np.uint8)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
 HARD_IN = {_ST[j] for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
-TR_IN = {_ST[j]: FX[str(SRC[j])]['trans_in'] for j in range(len(tim)) if isinstance(FX.get(str(SRC[j])), dict) and FX[str(SRC[j])].get('trans_in') in TRANS + ['cut']}   # a line's own way in (CAMERA.md)
+TR_IN = {_ST[j]: FX[str(SRC[j])]['trans_in'] for j in range(len(tim)) if isinstance(FX.get(str(SRC[j])), dict) and FX[str(SRC[j])].get('trans_in') in TRANS + ['cut', 'dip']}   # a line's own way in (CAMERA.md)
 f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
