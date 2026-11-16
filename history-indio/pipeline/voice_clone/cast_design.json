@@ -1000,6 +1000,19 @@
     200
    ],
    "kept": "description 2, seed 5 (d2s5), then pitched down 4 semitones (rubberband, formant shifted) to keep it under 0.90 to the storyteller, the diwa and Indio; the shifted clip is the reference"
+  },
+  "MANG LAON": {
+   "descriptions": [
+    "An old fisherman around seventy, weathered, warm and slightly hoarse male voice, slow and plain-spoken, kind, low pitch, Filipino accent",
+    "An elderly man of the lake, gentle, rough and sun-worn voice, calm and humble, slow, Filipino accent"
+   ],
+   "ref_text": "Ito ang lawa ng aming mga ninuno. Tuwing umaga, pumapalaot ako bago sumikat ang araw. Hindi ako mayaman, pero hindi rin ako nagugutom. Ang lawa ang nagpapakain sa amin, kaya iginagalang namin ito.",
+   "sample": "Mag-ingat ka, anak. Malalim ang tubig dito, at maraming kuwento ang lawa.",
+   "f0_hz": [
+    65,
+    170
+   ],
+   "note": "Episode 13: old fisherman of Mazaua, 1521; the pool's old-man 'friend' voice (same descriptions as MANGINGISDA)"
   }
  }
 }
