@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | 1 | 0 | Nasaan ang cedula mo?! | bk_50 | dolly_in | he threatens: close, push hard |
 | 2 | 1 | Walang cedula, kaya may itak sa leeg k | bk_01c | hold + slash in | blade at neck: stay still |
-| 3 | 2-4 | Ako 'to si Indio. | old_k18 | pull_out + flash in | the dog leaps toward us |
+| 3 | 2-4 | Ako 'to si Indio. | bk_89 | push_in + flash in | he introduces himself to us |
 | 4 | 5-6 | Kaninang umaga, sa Quezon City, pumila | bk_04 | crane_down + fade in | opening: morning queue, Quezon City |
 | 5 | 7 | Wala pala akong cedula, 'yung resibo n | bk_05 | push_in | he hands in his papers |
 | 6 | 8 | Hindi ko alam na kailangan pala 'yon. | fix_s6 | hold | the folder pushed back: object |
