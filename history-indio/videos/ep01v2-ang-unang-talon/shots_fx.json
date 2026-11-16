@@ -128,8 +128,8 @@
  },
  "20": {
   "fx": [],
-  "move": "hold",
-  "why": "the bowl he cannot afford"
+  "move": "push_in",
+  "why": "slowly closer to the bowl"
  },
  "21": {
   "fx": [],
@@ -456,8 +456,8 @@
   "fx": [
    "embers"
   ],
-  "move": "hold",
-  "why": "the dogs settle around him"
+  "move": "push_in",
+  "why": "the dogs gather round him"
  },
  "64": {
   "fx": [
@@ -522,8 +522,8 @@
  },
  "72": {
   "fx": [],
-  "move": "tilt_up",
-  "why": "from the dark up to the couple",
+  "move": "push_in",
+  "why": "toward the couple in light",
   "trans_in": "fade"
  },
  "73": {
@@ -604,11 +604,10 @@
  },
  "82": {
   "fx": [
-   "embers",
-   "punch"
+   "embers"
   ],
   "move": "hold",
-  "why": "the cry: still on the words"
+  "why": "hero's line: hold still"
  },
  "83": {
   "fx": [
