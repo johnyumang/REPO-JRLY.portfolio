@@ -2,7 +2,7 @@
 # MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
 # Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
 # script.txt and sentences.json are derived from this file by story/_parts/derive.py.
-# WANT: the spring the Lolo's notebook draws at the centre of the rings ("bukal"). Then, when it is offered:
+# WANT: to know what the rings in the Lolo's notebook are, and to see them. Then, when it is offered:
 #   the crown, and an end to a life bought by the piece. Then: M, out of the net.
 # SABI-SABI: "Sabi sa internet, totoong lungsod ang Atlantis; lumubog, at hinahanap pa." What he finds: it is
 #   a page. Plato wrote it, about 360 BC, and scholars read it as a parable of a proud state.
@@ -18,7 +18,7 @@
 #   the boy's boat out through the rings. The prize: a cracked coconut dipper, Ang Tabò ng Bukal.
 # CLIFFHANGER: the judge's replacement, taken by section 14 ruling 8, played as a scene (same words).
 # Atlantis is entered as a STORY (section 14 ruling 2): the door is the page of Plato read aloud; the
-#   storyteller says "Hindi ito lugar"; what is inside is what the Timaeus and the Critias say, plus the
+#   key of Episode 20 opens it ("kahit kuwento"); the storyteller says "Hindi ito lugar"; what is inside is what the Timaeus and the Critias say, plus the
 #   series' own queen, octopus and dipper (facts.md marks them; the trivia says Plato has neither).
 # Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). M. USMAN (inside the page only).
 # MA'AM CELIA (invented; his Grade 5 teacher of Episode 10; on a phone call only; kind).
@@ -56,30 +56,32 @@
 # --- 0. Hook (cold, at 0.0, on M's shout: a flash-forward of scene 3)
 (Isang bulwagang ginto na tumatagilid; bumubuhos ang dagat sa pinto. Sumasara ang isang gintong lambat sa palibot ni M at binubuhat siya nito. Si Indio, sa harap ng isang trono, hawak ang isang gintong kopa, nakatulala.)
 M: [shout] Indio! Bitawan mo ang kopa!
-INDIO (sa atin): [dramatic] Inalok ako ng korona. Ang problema: gusto ko. Kaya si M ang nahuli.
+INDIO (sa atin): [dramatic] Inalok ako ng korona. Ang problema: gusto ko.
 INDIO (sa atin): [dry] Ako 'to si Indio. Bitag pala ang hawak ko.
 
 # --- 1. Today (short, Indio's voice). He wants: coffee he can afford, and what the new drawing means.
-TAGAPAGSALAYSAY: [calm] Ngayon. Kasama ni Indio si M, ang babaeng may mapa ng mga medalyon.
+TAGAPAGSALAYSAY: [calm] Ngayon. Kasama ni Indio si M, ang gabay niyang may pulang payong.
+INDIO: [careful] M. Ano ba'ng bawal sa'yo?
+M: [quiet] Hindi pa ngayon.
 (Bintanang may rehas ng isang sari-sari, mga sachet na nakasabit na parang kurtina. Si Indio, nagbibilang ng barya sa palad. Si M, sa bangko sa tabi, hawak ang pulang payong at ang kuwaderno ng Lolo.)
 INDIO: [plain] Isang sachet po ng kape.
 INDIO (sa atin): [playful] Tingi. Sabi nila, galing sa Hokkien: "ayon sa gusto mo". Mali. Ayon 'to sa kaya ko.
-(Itinaas niya ang telepono: sa screen, isang gurong may salamin, nakangiti. Itinapat niya rito ang kuwaderno: mga bilog sa loob ng bilog, at isang salita, "bukal".)
-TAGAPAGSALAYSAY: [calm] Sa tawag, ipinakita niya kay Ma'am Celia, guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya: mga bilog, at ang salitang "bukal".
+(Itinaas niya ang telepono: sa screen, isang gurong may salamin, nakangiti. Itinapat niya rito ang kuwaderno: mga bilog sa loob ng bilog.)
+TAGAPAGSALAYSAY: [calm] Sa tawag, ipinakita niya kay Ma'am Celia, guro niya noong Grade 5, ang bagong guhit sa kuwaderno ng Lolo niya.
 MA'AM CELIA: [warm] Atlantis 'yan, anak.
 INDIO: [eager] Sabi sa internet, Ma'am, totoong lungsod 'yan!
-MA'AM CELIA: [kind] Walang nahanap, kahit bato. Kuwento 'yan ni Platon. Talinghaga, sabi ng mga iskolar: bayang nalunod sa sariling yabang.
-(Binasa ni Indio ang pahina sa telepono nang malakas. Sa kamay ni M, uminit ang medalyon.)
-TAGAPAGSALAYSAY: [calm] Binasa ni Indio nang malakas ang ipinadala niyang pahina, at uminit ang medalyon ni M.
+MA'AM CELIA: [kind] Kuwento 'yan ni Platon. Talinghaga, sabi ng mga iskolar: bayang nalunod sa sariling yabang. Ipapadala ko ang pahina niya.
+(Binasa ni Indio ang pahina sa telepono nang malakas. Sa kabilang kamay niya, tumunog ang susing tanso, at bumukas sa hangin ang isang lagusan ng liwanag.)
+TAGAPAGSALAYSAY: [calm] Binasa ito ni Indio nang malakas, at tumunog ang susi niyang tanso: binubuksan nito ang anumang binabasa nang malakas, kahit kuwento.
 
 # --- 2. The pier. He wants: the spring at the centre.
-TAGAPAGSALAYSAY: [low] Hindi ito lugar: ito ang Atlantis, isang kuwentong isinulat ni Platon, mga 360 bago si Kristo. Sa loob ng pahina, sumalubong si Usman, ang aso niyang nagsasalita.
+TAGAPAGSALAYSAY: [low] Hindi ito lugar: ito ang Atlantis, isang kuwentong isinulat ni Platon, mga 360 bago si Kristo. Doon sumalubong si Usman, ang aso niyang nagsasalita.
 (Isang pantalang bato sa ilalim ng puting araw. Lumabas ang itim na asong si Usman sa liwanag, nakataas ang ilong. Sa likod: mga singsing ng tubig at lupa, mga tulay, mga pader na kumikinang.)
-USMAN: [sniffing] Par. Amoy-tinta ang dagat dito.
+USMAN: [sniffing] Par. Amoy-tinta ang dagat.
 (Isang batang lalaking sunog sa araw, nakaupo sa gilid ng pantalan, may lambat sa kandungan at kutsilyong kabibe sa baywang. Kumaway siya.)
 TAGAPAGSALAYSAY: [low] Sa pantalan, nag-aayos ng lambat si Ilos, anak ng mangingisda.
-ILOS: [proud] Tingnan n'yo: tatlong singsing ng tubig, dalawa ng lupa. Tanso ang pader!
-ILOS: [hushed] Sa gitna, may bukal. Pero sa reyna na 'yon ngayon.
+ILOS: [proud] Tatlong singsing ng tubig, dalawa ng lupa. Tanso ang pader!
+ILOS: [hushed] Sa gitna, may bukal. Sa reyna na 'yon ngayon.
 (Humakbang si Indio papunta sa burol; nasabit ang paa niya sa lambat ni Ilos. Hinila niya. Humigpit.)
 TAGAPAGSALAYSAY: [low] Nasabit ang paa ni Indio sa lambat. Hinila niya; humigpit.
 ILOS: [laughing] Huwag mong hilahin! Hanapin mo ang punong buhol. Putulin mo, bubuka lahat.
@@ -88,50 +90,49 @@ USMAN: [dry] Nahuli ka ng lambat na walang isda, par.
 
 # --- 3. The throne. The prize is a trap. THE FALL.
 (Isang bulwagang balot ng ginto. Sa trono, isang matangkad na reynang may koronang perlas, nakangiti, may gintong kopa sa kamay. Sa kandungan niya, isa pang korona. Ang sahig: gintong sala-salabid, parang banig.)
-TAGAPAGSALAYSAY: [low] Sa trono, may reynang may gintong kopa. Hindi siya kilala ni Indio.
+TAGAPAGSALAYSAY: [low] Sa trono, may reynang may gintong kopa.
+INDIO (sa atin): [whisper] Ang kopa. Sinalinan na niya ako dati, sa condo ko. Hindi ko nalaman ang pangalan niya.
 USMAN: [low] Par. Wala siyang amoy.
 SINAG: [honeyed] Pagod ka na, Indio. Tingi ang buhay mo: isang sachet, isang araw. Dito, buo. Uminom ka, at ikaw na ang hari.
-INDIO (sa atin): [whisper] Korona. Walang utang.
+INDIO (sa atin): [whisper] Korona. Wala nang utang kay JM, sa limampung sasakyang iniwan ko.
 M: [low] Huwag.
 (Inabot ni Indio ang kopa. Hinila ng reyna ang isang gintong lubid sa tabi ng trono. Ang sahig sa ilalim ni M ay umangat at sumara: lambat. Yumanig ang bulwagan; pumasok ang tubig.)
-TAGAPAGSALAYSAY: [low] Hinawakan ni Indio ang kopa. Hinila ng reyna ang lubid, at sumara ang sahig sa ilalim ni M: lambat pala.
+TAGAPAGSALAYSAY: [low] Hinawakan ni Indio ang kopa. Sumara ang sahig sa ilalim ni M: lambat pala, hila ng reyna.
 M: [shout] Indio! Bitawan mo ang kopa!
-TAGAPAGSALAYSAY: [low] Yumanig ang lungsod. Sa kuwento ni Platon, nilamon ito ng dagat sa isang araw at isang gabi: ngayon.
+TAGAPAGSALAYSAY: [low] Sa kuwento ni Platon, nilamon ito ng dagat sa isang araw at isang gabi: ngayon.
 (Binitawan ni Indio ang kopa at hinila ang lambat ng dalawang kamay. Lalong humigpit. Sa likod ng trono, mula sa isang balon, umahon ang walong galamay: isang dambuhalang pugita, hawak ang kabilang dulo ng lambat.)
 ILOS: [shout] Huwag mong hilahin!
-TAGAPAGSALAYSAY: [low] Hinila ni Indio ang lambat; lalong humigpit. Sa likod ng trono, umahon ang may hawak nito: isang dambuhalang pugita.
+TAGAPAGSALAYSAY: [low] Humila si Indio; humigpit. Sa likod ng trono, umahon ang may hawak ng lambat: isang dambuhalang pugita.
 SINAG: [cold] Uminom ka, at pakakawalan ko siya.
 
 # --- 4. THE COMEBACK. A true word, a look, one knot.
 (Hinugot ni Indio sa baywang ang ilawang luwad. Patay ang mitsa.)
-TAGAPAGSALAYSAY: [low] Inilabas ni Indio ang ilawan niyang sumisindi lang sa totoong salita.
+TAGAPAGSALAYSAY: [low] Inilabas ni Indio ang ilawan niya: sumisindi lang ito sa totoong salita, at inilalantad ang nagtatago.
 INDIO: [quiet] Natutukso ako. Gusto ko ang korona mo.
 (Sumindi ang ilawan. Sa gintong pader, ang anino ng reyna: dalawang pakpak, sunog hanggang buto.)
-TAGAPAGSALAYSAY: [low] Sumindi ito. Sa pader, may pakpak ang anino ng reyna: sunog.
-M: [steady] Sinag. Ikaw ang nasa condo. Ang babaeng may gintong kopa.
+TAGAPAGSALAYSAY: [low] Sumindi ito. Sa pader, sunog na pakpak ang anino ng reyna. Hindi alam ni Indio kung ano siya.
+M: [steady] Sinag. Ikaw ang nasa condo.
 (Sa liwanag ng ilawan, tumingin si Indio: ang lambat kay M ay karugtong ng lambat na nakabalot sa pugita; nakabaon ito sa balat ng hayop. Nakataas ang galamay nitong may hawak kay M, sa ibabaw ng tubig.)
-INDIO: [slow] Nakalambat din ang pugita. Hindi mo siya bantay. Bihag mo.
+INDIO: [slow] Nakalambat din ang pugita! Bihag mo siya. Pinilit mo lang siyang humawak kay M.
 ILOS: [urgent] Ang punong buhol! Heto ang kutsilyo ko!
 (Inihagis ni Ilos ang kutsilyong kabibe. Sinalo ito ni Indio, sumisid sa paa ng trono, at hiniwa ang iisang malaking buhol. Bumuka ang lambat na parang bulaklak. Sa ere, tatlong segundo, ang hologram: isang bagong buhol, at tumaas ang KAALAMAN.)
-TAGAPAGSALAYSAY: [low] Pinutol ni Indio ang iisang buhol. Bumuka ang lambat: malaya si M, at ang pugita.
+TAGAPAGSALAYSAY: [low] Pinutol ni Indio ang punong buhol. Bumuka ang lambat: malaya si M, at ang pugita.
 INDIO: [steady] Nakita na kita.
-(Ibinaba ng pugita si M sa tabi ni Indio, marahan. Itinaas ni M ang medalyon niya. Sa pulang tali sa pulso ni Indio, isang bagong buhol.)
+(Ibinaba ng pugita si M sa tabi ni Indio, marahan. Sa pulang tali sa pulso ni Indio, isang bagong buhol.)
 M: [low] Ikasiyam na buhol, ikasiyam na kakampi: ang pugita.
 
 # --- 5. The spring behind the throne.
 (Umalis ang pugita sa balon na dinaganan nito: isang bukal na malinaw. Lumulutang doon ang isang tabong bao, may lamat, tinalian ng yantok. Dinampot ito ni Indio.)
-TAGAPAGSALAYSAY: [low] Sa bukal na dinaganan ng pugita, may lumulutang na tabong bao: basag, tinalian ng yantok.
+TAGAPAGSALAYSAY: [low] Sa bukal, may lumulutang na tabong bao: basag, tinalian ng yantok.
 INDIO: [flat] Tabò? 'Yung pampaligo?
 ILOS: [awed] Tabò 'yan ng mga ninuno namin! Bago pa nagkaginto.
-M: [soft] Ang Tabò ng Bukal. Isang salok, gagaling ang kahit anong sugat. Pero isang salok lang kada bagong buwan. At hindi ito gumagana sa may hawak.
+M: [soft] Ang Tabò ng Bukal. Isang salok, gagaling ang anumang sugat. Pero isang salok lang kada bagong buwan. At hindi ito gumagana sa may hawak.
 INDIO (sa atin): [dry] Pati himala, tingi.
 (Bumubuhos ang dagat sa bulwagan. Binuhat ng pugita, sa dalawang galamay, ang isang bangkang pangisda: sina Ilos, ang mga magulang niya, si Indio, si M at si Usman, palabas sa mga singsing.)
 TAGAPAGSALAYSAY: [low] Binuhat ng pugita ang bangka nina Ilos, palabas ng mga singsing.
-ILOS: [delighted] Nakasakay kami sa bantay ng reyna!
 USMAN: [happy] Tubig-alat lang ang upa niya, par.
 INDIO (sa atin): [smug] Tumanggi ako sa korona. May pugita naman ako.
 (Sa likod nila, lumulubog ang mga pader na tanso. Sa ibabaw ng tubig, nakatayo ang reyna, tuyo, nakangiti, kay M nakatingin. Si Indio, hawak ang tabò sa dibdib.)
-INDIO (sa atin): [low] Hawak ko ang isang basag na tabò.
 TAGAPAGSALAYSAY: [low] Bago lumubog ang lungsod, ngumiti si Sinag kay M.
 SINAG: [cold] Ikaw ang susunod na mahuhulog.
 
