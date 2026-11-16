@@ -970,7 +970,8 @@
    "f0_hz": [
     180,
     420
-   ]
+   ],
+   "kept": "description 0, seed 2 (d0s2)"
   },
   "ANG NAKAPUTI": {
    "descriptions": [
@@ -982,7 +983,8 @@
    "f0_hz": [
     75,
     220
-   ]
+   ],
+   "kept": "description 1, seed 1 (d1s1)"
   },
   "YÚMUD": {
    "descriptions": [
@@ -996,7 +998,8 @@
    "f0_hz": [
     60,
     200
-   ]
+   ],
+   "kept": "description 2, seed 5 (d2s5), then pitched down 4 semitones (rubberband, formant shifted) to keep it under 0.90 to the storyteller, the diwa and Indio; the shifted clip is the reference"
   }
  }
 }
