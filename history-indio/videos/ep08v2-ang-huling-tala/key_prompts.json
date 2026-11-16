@@ -1,5 +1,5 @@
 {
- "_note": "Episode 8 version 2 (the new form, as Episode 1 v2). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, three draws a key, the choice at 3x). 'full' holds each still's JSON prompt; bk_NN = row NN of shots.md; bk_02b is the second close-up of shot 2 (her eyes). 'shots' maps every sentence 0-107 (108 sentences, the storyteller version) to the still it shows; a still's key number is the first sentence it shows under (bk_02b is key 2). Three rows hold a second still for a second beat: bk_10b (key 24, shot 10), bk_14b (key 40, shot 14), bk_26b (key 78, shot 26). No shot is silent any more (each picture carries a storyteller line), so there are no keys 90+ and shots_fx has no 'keys' montage. Shot 37 (trivia card) is not drawn. Rules kept: Kawit only from the BACK of the crowd (backs, hats, trays, the hammock, the lens); never the window, the flag, a drum, open hands pushing toward us or a crowd parting from the front; the earlier Indio only tiny inside the lens circle (bk_14). Mabini is a generic thin man, no likeness, carried in a hammock, lying or half-seated, never standing, never comic. M wears period clothes and a salakot (as Episode 3) and her face IS seen (bk_02b, bk_19); she wears no coat and no medallion of her own here, so only the family medallion is in the picture. The red umbrella appears only folded and only from bk_30. Indio has no medallion (M took it in Episode 6): five indigo lines until bk_26, six from bk_27 on. The voice of Sulayman is light only (bk_24): no figure, no face. The lens (lente) string is from story/ep07_v2/shots.md ('an old lens with a gold rim'; through it 'tinted warm and slightly curved'), because videos/ep07v2-ang-sulat-ni-lolo/key_prompts.json has no prompts yet: when Episode 7 v2 draws its lens, copy its exact words into look_cast.cast.lente and lens_view here before drawing. Writing in pictures, added in code after the choice: bk_36 the episode's question (\"Ikaw, ka-Indio: kung isang hakbang na lang pauwi, at may nagsabing \\\"huwag muna\\\", makikinig ka ba?\") in the bare upper wall, about 8% to 40% of the height, clear of the subtitle band at 63%. Nothing else is written: the tally marks of bk_04 and bk_36 are marks drawn by the model (groups of five, no numerals; the count is not meant to be read), the map of bk_32 and bk_33 is coastlines and dots with no labels, the phone screen of bk_35 is a plain glow, the sheet of bk_31 is blank. Negative for every draw: flat cel shading, flat even lighting, cartoon, tv animation, thick even outlines, poster, clip art, text, letters, numbers, watermark, extra fingers, flag, window, drum, balcony, modern buildings, electric wires, weapons, blades.",
+ "_note": "Episode 8 version 2 (the new form, as Episode 1 v2). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, three draws a key, the choice at 3x). 'full' holds each still's JSON prompt; bk_NN = row NN of shots.md; bk_02b is the second close-up of shot 2 (her eyes). 'shots' maps every sentence 0-110 (111 sentences, the storyteller version) to the still it shows; a still's key number is the first sentence it shows under (bk_02b is key 2). Long rows hold more stills, one per beat: bk_05b (key 10, shot 5), bk_07b (key 21, shot 7), bk_10b (key 26, shot 8), bk_10c (key 33, shot 10), bk_14b (key 43, shot 14), bk_21b (key 66, shot 21), bk_21c (key 68, shot 21), bk_26b (key 81, shot 26), bk_32b (key 99, shot 32). Sentence 52 (M's second \"Huwag!\") re-cuts key 50 through shots_fx 'keys' so the punch lands on the shout. No shot is silent any more (each picture carries a storyteller line), so there are no keys 90+. Shot 37 (trivia card) is not drawn. Rules kept: Kawit only from the BACK of the crowd (backs, hats, trays, the hammock, the lens); never the window, the flag, a drum, open hands pushing toward us or a crowd parting from the front; the earlier Indio only tiny inside the lens circle (bk_14). Mabini is a generic thin man, no likeness, carried in a hammock, lying or half-seated, never standing, never comic. M wears period clothes and a salakot (as Episode 3) and her face IS seen (bk_02b, bk_19); she wears no coat and no medallion of her own here, so only the family medallion is in the picture. The red umbrella appears only folded and only from bk_30. Indio has no medallion (M took it in Episode 6): five indigo lines until bk_26, six from bk_27 on. The voice of Sulayman is light only (bk_24): no figure, no face. The lens (lente) string is from story/ep07_v2/shots.md ('an old lens with a gold rim'; through it 'tinted warm and slightly curved'), because videos/ep07v2-ang-sulat-ni-lolo/key_prompts.json has no prompts yet: when Episode 7 v2 draws its lens, copy its exact words into look_cast.cast.lente and lens_view here before drawing. Writing in pictures, added in code after the choice: bk_36 the episode's question (\"Ikaw, ka-Indio: kung isang hakbang na lang pauwi, at may nagsabing \\\"huwag muna\\\", makikinig ka ba?\") in the bare upper wall, about 8% to 40% of the height, clear of the subtitle band at 63%. Nothing else is written: the tally marks of bk_04 and bk_36 are marks drawn by the model (groups of five, no numerals; the count is not meant to be read), the map of bk_32 and bk_33 is coastlines and dots with no labels, the phone screen of bk_35 is a plain glow, the sheet of bk_31 is blank. Negative for every draw: flat cel shading, flat even lighting, cartoon, tv animation, thick even outlines, poster, clip art, text, letters, numbers, watermark, extra fingers, flag, window, drum, balcony, modern buildings, electric wires, weapons, blades.",
  "look": "bakunawa",
  "look_cast": {
   "cast": {
@@ -90,7 +90,7 @@
    "subject": "Eye-level medium side tracking shot: the crowd opens at one side and four Filipino bearers of 1898, brown skin, plain white camisa shirts, rolled trousers, woven straw hats, the long bamboo pole of the hammock on their shoulders carry a hammock through the gap; in it a thin Filipino man in his early thirties, a generic figure with no likeness of any real person, short black hair, a narrow serious face, very sharp dark eyes, a dark buttoned jacket over a white collarless shirt, lying back half-seated in a hammock of plain off-white cloth slung from a long bamboo pole, a light blanket over his unmoving legs, his face in profile, calm, his eyes very sharp. The hammock and his face in the upper half of the picture. His hands resting on the blanket. The crowd from behind at the edges.",
    "setting": "the side edge of a crowd in a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898: a bamboo fence, coconut palms, nipa huts, backs and straw hats; no flag, no modern buildings, no electric wires",
    "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 9 (key 23); generic, no likeness; he lies, never stands; never comic"
+   "note": "shot 9 (key 28); generic, no likeness; he lies, never stands; never comic"
   },
   "bk_10": {
    "subject": "Eye-level close two-shot: a strong Filipina baker woman of about fifty, broad shoulders, thick forearms dusted with flour, greying black hair under a faded red kerchief tied over her head, a weathered round face, a plain brown baro blouse with rolled sleeves, a long dark skirt, a flour-stained apron, leaning in to whisper at the ear of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, who listens and looks sideways straight at the viewer with a knowing look. Both faces in the upper half of the picture. Hands below the frame. Behind them, out of focus, hats and backs.",
@@ -114,7 +114,7 @@
    "subject": "Over-the-shoulder shot at eye level from just behind his right shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, lifting an old round lens the size of a palm with a gold rim, clear glass, no handle to his right eye with one hand, a thumb and four fingers on the rim; far ahead over the hats of the crowd a disturbance, heads turning, arms raised. The lens and the far crowd in the upper half of the picture. Only backs of the crowd.",
    "setting": "the back of a huge crowd in a dusty yard and road in Kawit, Cavite, on the afternoon of 12 June 1898: bamboo fences, nipa huts, coconut palms, a big old wooden house far off, hidden by heads and hats; no flag, no modern buildings, no electric wires",
    "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 13 (key 35); hand on the lens: count fingers"
+   "note": "shot 13 (key 38); hand on the lens: count fingers"
   },
   "bk_14": {
    "subject": "Wide point-of-view shot at eye level, a view seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred: inside the circle, small and far, a tiny far-away young man with a red headband with long tails and a white camisa shirt, seen from behind, a small black dog at his heels, being passed backward by many people out of a bamboo gate in a puff of dust, all seen from far behind the crowd. The circle in the upper half of the picture. No hands holding the lens.",
@@ -126,7 +126,7 @@
    "subject": "Long-lens eye-level medium shot through a gap between two shoulders, pushing in: at the edge of the crowd a calm young Filipina woman in her twenties with long straight black hair tied low at the nape, a tired gentle face, dark eyes, a wide woven salakot hat, wearing a plain faded indigo baro blouse, a long dark patadyong skirt and a dark brown cotton shawl over her shoulders, thin dark cloth gloves, a toddler on her hip, a Filipino toddler about two years old, round cheeks, short soft black hair, a small plain white cotton shirt, calm deep dark eyes that look old and kind; in her free gloved hand she holds an old round bronze medallion engraved with a sun and a triangle, on a worn cord. Her face small, half in the shadow of the hat. The woman and child in the upper half of the picture.",
    "setting": "the side edge of a crowd in a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898: a bamboo fence, coconut palms, nipa huts, backs and straw hats; no flag, no modern buildings, no electric wires",
    "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 15 (key 43); no umbrella"
+   "note": "shot 15 (key 46); no umbrella"
   },
   "bk_16": {
    "subject": "Low-angle medium close-up from the ground, the trays in front: three stacked round flat woven bilao trays of bread rolls being set down in the dust in the foreground; behind them a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, crouching as he lets go of them, his eyes fixed hard on something ahead past the camera. His face in the upper half of the picture. Hands on the tray rims.",
@@ -156,7 +156,7 @@
    "subject": "Eye-level extreme close-up: a Filipino toddler about two years old, round cheeks, short soft black hair, a small plain white cotton shirt, calm deep dark eyes that look old and kind, resting on a woman's shoulder, looking straight into the viewer with calm, deep, very old eyes, not smiling, not crying. The child's face in the upper half of the picture. No hands. Behind, soft and blurred, the woven brim of a salakot and the dusty crowd.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "soft golden afternoon light on the child's face, gentle shadows, quiet, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 20 (key 59); the eyes are the shot"
+   "note": "shot 20 (key 62); the eyes are the shot"
   },
   "bk_21": {
    "subject": "Eye-level close-up, long hold: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, the anger draining out of his face, his jaw loosening, eyes wet, looking sideways straight at the viewer. His face in the upper half of the picture. Hands below the frame. No other people.",
@@ -168,7 +168,7 @@
    "subject": "Eye-level insert close-up on hands: a woman's fingers in a thin dark cloth glove opening and letting go of a young man's floury wrist; his free right hand, a thumb and four fingers, hanging in the air, then drawing slowly back; five thin straight indigo line tattoos on the forearm. Only the two hands and forearms, no faces. The hands in the upper half.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "soft golden afternoon light, flour dust drifting down, gentle shadows, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 22 (key 67); hands are the shot: count fingers; a wrist released, NOT a hand held"
+   "note": "shot 22 (key 70); hands are the shot: count fingers; a wrist released, NOT a hand held"
   },
   "bk_23": {
    "subject": "Eye-level medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, nodding once, slowly, his chin down, mouth firm, a quiet decision on his face. His face in the upper half. Arms at his sides, hands below the frame. Behind him, out of focus, backs of the crowd.",
@@ -216,7 +216,7 @@
    "subject": "Eye-level insert close-up on hands: two hands in thin dark cloth gloves drawing a folded red umbrella with a thick carved dark wooden handle, closed and tied from under a dark brown cotton shawl and twisting its handle; the top of the handle swings open like a little box lid. Only the hands, the shawl and the umbrella, no faces. The handle in the upper half.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "warm low sun, the red cloth glowing, deep shadows in the shawl, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 30 (key 90); first time the red umbrella is seen: folded; gloved hands"
+   "note": "shot 30 (key 92); first time the red umbrella is seen: folded; gloved hands"
   },
   "bk_31": {
    "subject": "High-angle macro extreme close-up into the hollow of an opened carved wooden umbrella handle: inside it a small star-shaped bronze medallion the size of a coin, with five points and a small rolled sheet of old yellowed paper, completely blank, tied with a thread. The star and the paper in the upper half of the picture; the red cloth of the umbrella at the edge. No hands.",
@@ -234,7 +234,7 @@
    "subject": "High-angle point-of-view extreme close-up, looking down, a view seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred: faint brown ink coastlines on old yellowed paper; one small gold dot far to the left (the west) pulsing brighter than the others, a soft ring of light around it. The circle and the glowing dot in the upper half. No hands.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "the single dot glowing hot gold, the rest dim, a gold glint on the rim, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 33 (key 99); no labels"
+   "note": "shot 33 (key 101); no labels"
   },
   "bk_34": {
    "subject": "Eye-level medium shot in profile: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly six thin straight indigo line tattoos across his right forearm, looking off into the far distance toward home, then back down, shaking his head with half a smile, steady and at peace. His face in the upper half of the picture. Hands below the frame.",
@@ -258,19 +258,55 @@
    "subject": "Eye-level medium shot, three-quarter view from behind: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, three stacked round woven trays of bread rolls balanced on his head, searching the faces of the crowd ahead for someone, eyes narrowed; ahead of him the people step aside, and far behind them, soft and out of focus, the long bamboo pole of a hammock being carried past. His face in the upper half of the picture. Hands up on the trays.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 10, first beat (key 24): he looks for M as the crowd parts for the hammock; not the hammock itself (bk_09)"
+   "note": "shot 8, second beat (key 26): he looks for M as the crowd parts for the hammock; not the hammock itself (bk_09)"
   },
   "bk_14b": {
    "subject": "Low-angle medium two-shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, lowering an old round lens the size of a palm with a gold rim, clear glass, no handle from his eye, stunned, mouth a little open; pressed against his leg a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. Ears up, looking up at him, urgent. His face and the dog's head in the upper half of the picture.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 14, second beat (key 40): Usman's warning; one lens, one hand on it: count fingers"
+   "note": "shot 14, second beat (key 43): Usman's warning; one lens, one hand on it: count fingers"
   },
   "bk_26b": {
    "subject": "Eye-level medium close-up over his shoulder: over the shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly six thin straight indigo line tattoos across his right forearm, his forearm out of the picture, we see a calm young Filipina woman in her twenties with long straight black hair tied low at the nape, a tired gentle face, dark eyes, a wide woven salakot hat, wearing a plain faded indigo baro blouse, a long dark patadyong skirt and a dark brown cotton shawl over her shoulders, thin dark cloth gloves, looking at him softly with a small kind smile, speaking. Her face in the upper half of the picture. Hands below the frame.",
    "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
    "light": "low amber late-afternoon sun, long blue shadows, dust and flour motes in the air, warm rim light, richly painted, detailed ink linework, textured brushwork",
-   "note": "shot 26, second beat (key 78): M names the sixth mark; hands hidden"
+   "note": "shot 26, second beat (key 81): M names the sixth mark; hands hidden"
+  },
+  "bk_05b": {
+   "subject": "Eye-level medium shot: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. Curled up asleep on a flour sack under a rough lime-washed wall covered with rows of short black charcoal tally marks; above him the floury right hand of a young man, a thumb and four fingers, five thin straight indigo line tattoos on the forearm under the flour, the rolled white sleeve at the edge, adding one more short charcoal stroke to the last group. The hand and the newest mark in the upper half of the picture; the sleeping dog below.",
+   "setting": "inside a small old bakery of 1898 in Cavite before dawn: a big domed brick oven with glowing coals, a long floured wooden kneading table, flour sacks, round flat woven bamboo bilao trays, wooden paddles, rough lime-washed walls; no modern things",
+   "light": "deep orange glow of the oven coals from one side, blue darkness before dawn at the small door, flour dust glittering in the air, warm rim light, deep shadows, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 5, second beat (key 10): Usman asleep, the day counted on the wall; no face; marks drawn, not numerals"
+  },
+  "bk_07b": {
+   "subject": "Eye-level close-up: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. Curled up on a flour sack, one eye open, a dry sleepy look up at the woman's voice; at the edge of the picture the hem of a flour-stained apron and a long dark skirt. The dog's head in the upper half of the picture.",
+   "setting": "a small old bakery of 1898 in Cavite: a domed brick oven, flour sacks, a floured table",
+   "light": "orange oven glow, flour dust, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 7, second beat (key 21): Usman answers; one eye open"
+  },
+  "bk_10c": {
+   "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, three stacked round woven trays of bread rolls balanced on his head, a wry half-smile, glancing sideways straight at the viewer; behind him, soft and out of focus, the backs of the crowd, straw hats raised high in a far cheer. His face in the upper half of the picture. Hands up on the trays.",
+   "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
+   "light": "hot golden June afternoon sun from behind the crowd, long shadows, dust glowing in the air, rim light on hats and shoulders, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 10, second beat (key 33): his aside 'Lahat masaya'; from the back of the crowd, no window, no flag"
+  },
+  "bk_21b": {
+   "subject": "Eye-level close-up: an old round bronze medallion engraved with a sun and a triangle, on a worn cord, swinging gently from the gloved hand of a calm young Filipina woman in her twenties with long straight black hair tied low at the nape, a tired gentle face, dark eyes, a wide woven salakot hat, wearing a plain faded indigo baro blouse, a long dark patadyong skirt and a dark brown cotton shawl over her shoulders, thin dark cloth gloves, her arm and shoulder in the picture; beside it on her hip a Filipino toddler about two years old, round cheeks, short soft black hair, a small plain white cotton shirt, calm deep dark eyes that look old and kind, his small hand reaching toward the medallion. The medallion and the child's face in the upper half of the picture.",
+   "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
+   "light": "warm late golden sun turning soft, long shadows, dust slowly falling, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 21, second beat (key 66): the medallion will pass down from this child; M's arm joined to her hand"
+  },
+  "bk_21c": {
+   "subject": "Eye-level wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with the sleeves rolled above the elbows, a plain flour-dusted cotton apron, rolled-up dark trousers, barefoot, bare neck with no necklace and no medallion, exactly five thin straight indigo line tattoos across his right forearm, standing quite still, his right wrist still held in the gloved hand of a calm young Filipina woman in her twenties with long straight black hair tied low at the nape, a tired gentle face, dark eyes, a wide woven salakot hat, wearing a plain faded indigo baro blouse, a long dark patadyong skirt and a dark brown cotton shawl over her shoulders, thin dark cloth gloves, the toddler on her hip, the medallion hanging from her other hand near the child's neck; he does not pull any more, only watches. All three in the upper half of the picture, the dusty ground below.",
+   "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
+   "light": "warm late golden sun turning soft, long shadows, dust slowly falling, rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 21, third beat (key 68): he must watch; the wrist still held until shot 22"
+  },
+  "bk_32b": {
+   "subject": "Eye-level medium close-up: a calm young Filipina woman in her twenties with long straight black hair tied low at the nape, a tired gentle face, dark eyes, a wide woven salakot hat, wearing a plain faded indigo baro blouse, a long dark patadyong skirt and a dark brown cotton shawl over her shoulders, thin dark cloth gloves, holding a folded red umbrella with a thick carved dark wooden handle, closed and tied against her shoulder, looking straight at the young man beside her, calm and kind, making an offer; his shoulder soft at the edge of the picture. Her face in the upper half of the picture.",
+   "setting": "a dusty yard in Kawit, Cavite, on the afternoon of 12 June 1898, the crowd soft and out of focus behind; no flag, no modern buildings",
+   "light": "low amber late-afternoon sun, long blue shadows, dust and flour motes in the air, warm rim light, richly painted, detailed ink linework, textured brushwork",
+   "note": "shot 32, second beat (key 99): M offers to take him home; the umbrella folded"
   }
  },
  "shots": {
@@ -315,20 +351,20 @@
    "shot": 5
   },
   "10": {
-   "full": "bk_05",
+   "full": "bk_05b",
    "shot": 5
   },
   "11": {
-   "full": "bk_05",
+   "full": "bk_05b",
    "shot": 5
   },
   "12": {
-   "full": "bk_06",
-   "shot": 6
+   "full": "bk_05b",
+   "shot": 5
   },
   "13": {
-   "full": "bk_06",
-   "shot": 6
+   "full": "bk_05b",
+   "shot": 5
   },
   "14": {
    "full": "bk_06",
@@ -339,12 +375,12 @@
    "shot": 6
   },
   "16": {
-   "full": "bk_07",
-   "shot": 7
+   "full": "bk_06",
+   "shot": 6
   },
   "17": {
-   "full": "bk_07",
-   "shot": 7
+   "full": "bk_06",
+   "shot": 6
   },
   "18": {
    "full": "bk_07",
@@ -355,44 +391,44 @@
    "shot": 7
   },
   "20": {
-   "full": "bk_08",
-   "shot": 8
+   "full": "bk_07",
+   "shot": 7
   },
   "21": {
-   "full": "bk_08",
-   "shot": 8
+   "full": "bk_07b",
+   "shot": 7
   },
   "22": {
    "full": "bk_08",
    "shot": 8
   },
   "23": {
-   "full": "bk_09",
-   "shot": 9
+   "full": "bk_08",
+   "shot": 8
   },
   "24": {
-   "full": "bk_10b",
-   "shot": 10
+   "full": "bk_08",
+   "shot": 8
   },
   "25": {
-   "full": "bk_10b",
-   "shot": 10
+   "full": "bk_08",
+   "shot": 8
   },
   "26": {
    "full": "bk_10b",
-   "shot": 10
+   "shot": 8
   },
   "27": {
-   "full": "bk_10",
-   "shot": 10
+   "full": "bk_10b",
+   "shot": 8
   },
   "28": {
-   "full": "bk_10",
-   "shot": 10
+   "full": "bk_09",
+   "shot": 9
   },
   "29": {
-   "full": "bk_10",
-   "shot": 10
+   "full": "bk_09",
+   "shot": 9
   },
   "30": {
    "full": "bk_10",
@@ -403,104 +439,104 @@
    "shot": 10
   },
   "32": {
-   "full": "bk_11",
-   "shot": 11
+   "full": "bk_10",
+   "shot": 10
   },
   "33": {
+   "full": "bk_10c",
+   "shot": 10
+  },
+  "34": {
+   "full": "bk_10c",
+   "shot": 10
+  },
+  "35": {
    "full": "bk_11",
    "shot": 11
   },
-  "34": {
+  "36": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "37": {
    "full": "bk_12",
    "shot": 12
   },
-  "35": {
+  "38": {
    "full": "bk_13",
    "shot": 13
-  },
-  "36": {
-   "full": "bk_14",
-   "shot": 14
-  },
-  "37": {
-   "full": "bk_14",
-   "shot": 14
-  },
-  "38": {
-   "full": "bk_14",
-   "shot": 14
   },
   "39": {
    "full": "bk_14",
    "shot": 14
   },
   "40": {
-   "full": "bk_14b",
+   "full": "bk_14",
    "shot": 14
   },
   "41": {
-   "full": "bk_14b",
+   "full": "bk_14",
    "shot": 14
   },
   "42": {
-   "full": "bk_14b",
+   "full": "bk_14",
    "shot": 14
   },
   "43": {
+   "full": "bk_14b",
+   "shot": 14
+  },
+  "44": {
+   "full": "bk_14b",
+   "shot": 14
+  },
+  "45": {
+   "full": "bk_14b",
+   "shot": 14
+  },
+  "46": {
    "full": "bk_15",
    "shot": 15
   },
-  "44": {
-   "full": "bk_16",
-   "shot": 16
-  },
-  "45": {
-   "full": "bk_16",
-   "shot": 16
-  },
-  "46": {
-   "full": "bk_16",
-   "shot": 16
-  },
   "47": {
-   "full": "bk_17",
-   "shot": 17
+   "full": "bk_16",
+   "shot": 16
   },
   "48": {
-   "full": "bk_17",
-   "shot": 17
+   "full": "bk_16",
+   "shot": 16
   },
   "49": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "50": {
    "full": "bk_17",
    "shot": 17
   },
-  "50": {
-   "full": "bk_18",
-   "shot": 18
-  },
   "51": {
-   "full": "bk_18",
-   "shot": 18
+   "full": "bk_17",
+   "shot": 17
   },
   "52": {
-   "full": "bk_18",
-   "shot": 18
+   "full": "bk_17",
+   "shot": 17
   },
   "53": {
    "full": "bk_18",
    "shot": 18
   },
   "54": {
-   "full": "bk_19",
-   "shot": 19
+   "full": "bk_18",
+   "shot": 18
   },
   "55": {
-   "full": "bk_19",
-   "shot": 19
+   "full": "bk_18",
+   "shot": 18
   },
   "56": {
-   "full": "bk_19",
-   "shot": 19
+   "full": "bk_18",
+   "shot": 18
   },
   "57": {
    "full": "bk_19",
@@ -511,24 +547,24 @@
    "shot": 19
   },
   "59": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "60": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "61": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "62": {
    "full": "bk_20",
    "shot": 20
   },
-  "60": {
-   "full": "bk_21",
-   "shot": 21
-  },
-  "61": {
-   "full": "bk_21",
-   "shot": 21
-  },
-  "62": {
-   "full": "bk_21",
-   "shot": 21
-  },
   "63": {
-   "full": "bk_21",
-   "shot": 21
+   "full": "bk_20",
+   "shot": 20
   },
   "64": {
    "full": "bk_21",
@@ -539,112 +575,112 @@
    "shot": 21
   },
   "66": {
-   "full": "bk_21",
+   "full": "bk_21b",
    "shot": 21
   },
   "67": {
+   "full": "bk_21b",
+   "shot": 21
+  },
+  "68": {
+   "full": "bk_21c",
+   "shot": 21
+  },
+  "69": {
+   "full": "bk_21c",
+   "shot": 21
+  },
+  "70": {
    "full": "bk_22",
    "shot": 22
   },
-  "68": {
-   "full": "bk_23",
-   "shot": 23
-  },
-  "69": {
-   "full": "bk_23",
-   "shot": 23
-  },
-  "70": {
-   "full": "bk_23",
-   "shot": 23
-  },
   "71": {
-   "full": "bk_24",
-   "shot": 24
+   "full": "bk_23",
+   "shot": 23
   },
   "72": {
-   "full": "bk_24",
-   "shot": 24
+   "full": "bk_23",
+   "shot": 23
   },
   "73": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "74": {
    "full": "bk_24",
    "shot": 24
   },
-  "74": {
-   "full": "bk_25",
-   "shot": 25
-  },
   "75": {
-   "full": "bk_25",
-   "shot": 25
+   "full": "bk_24",
+   "shot": 24
   },
   "76": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "77": {
    "full": "bk_25",
    "shot": 25
   },
-  "77": {
+  "78": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "79": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "80": {
    "full": "bk_26",
    "shot": 26
   },
-  "78": {
-   "full": "bk_26b",
-   "shot": 26
-  },
-  "79": {
-   "full": "bk_26b",
-   "shot": 26
-  },
-  "80": {
-   "full": "bk_26b",
-   "shot": 26
-  },
   "81": {
-   "full": "bk_27",
-   "shot": 27
+   "full": "bk_26b",
+   "shot": 26
   },
   "82": {
+   "full": "bk_26b",
+   "shot": 26
+  },
+  "83": {
+   "full": "bk_26b",
+   "shot": 26
+  },
+  "84": {
    "full": "bk_27",
    "shot": 27
   },
-  "83": {
-   "full": "bk_28",
-   "shot": 28
-  },
-  "84": {
-   "full": "bk_28",
-   "shot": 28
-  },
   "85": {
-   "full": "bk_28",
-   "shot": 28
+   "full": "bk_27",
+   "shot": 27
   },
   "86": {
-   "full": "bk_29",
-   "shot": 29
+   "full": "bk_28",
+   "shot": 28
   },
   "87": {
-   "full": "bk_29",
-   "shot": 29
+   "full": "bk_28",
+   "shot": 28
   },
   "88": {
-   "full": "bk_29",
-   "shot": 29
+   "full": "bk_28",
+   "shot": 28
   },
   "89": {
    "full": "bk_29",
    "shot": 29
   },
   "90": {
-   "full": "bk_30",
-   "shot": 30
+   "full": "bk_29",
+   "shot": 29
   },
   "91": {
-   "full": "bk_31",
-   "shot": 31
+   "full": "bk_29",
+   "shot": 29
   },
   "92": {
-   "full": "bk_31",
-   "shot": 31
+   "full": "bk_30",
+   "shot": 30
   },
   "93": {
    "full": "bk_31",
@@ -655,12 +691,12 @@
    "shot": 31
   },
   "95": {
-   "full": "bk_32",
-   "shot": 32
+   "full": "bk_31",
+   "shot": 31
   },
   "96": {
-   "full": "bk_32",
-   "shot": 32
+   "full": "bk_31",
+   "shot": 31
   },
   "97": {
    "full": "bk_32",
@@ -671,28 +707,28 @@
    "shot": 32
   },
   "99": {
-   "full": "bk_33",
-   "shot": 33
+   "full": "bk_32b",
+   "shot": 32
   },
   "100": {
-   "full": "bk_34",
-   "shot": 34
+   "full": "bk_32b",
+   "shot": 32
   },
   "101": {
-   "full": "bk_34",
-   "shot": 34
+   "full": "bk_33",
+   "shot": 33
   },
   "102": {
    "full": "bk_34",
    "shot": 34
   },
   "103": {
-   "full": "bk_35",
-   "shot": 35
+   "full": "bk_34",
+   "shot": 34
   },
   "104": {
-   "full": "bk_35",
-   "shot": 35
+   "full": "bk_34",
+   "shot": 34
   },
   "105": {
    "full": "bk_35",
@@ -703,6 +739,18 @@
    "shot": 35
   },
   "107": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "108": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "109": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "110": {
    "full": "bk_36",
    "shot": 36
   }
