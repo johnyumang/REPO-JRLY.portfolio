@@ -16,8 +16,8 @@
   "speaker": "RICO"
  },
  {
-  "text": "Nasa kamay niya ang huling medalyon.",
-  "say": "nasa kamay niya ang huling medalyon.",
+  "text": "Hawak niya ang huling medalyon.",
+  "say": "hawak niya ang huling medalyon.",
   "style": "dramatic",
   "pre": 0,
   "pause": 0.4,
@@ -25,8 +25,8 @@
   "aside": true
  },
  {
-  "text": "Nasa kamay ko ang huling pag-asa niya.",
-  "say": "nasa kamay ko ang huling pag-asa niya.",
+  "text": "Ako ang huling pag-asa niya.",
+  "say": "ako ang huling pag-asa niya.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -76,8 +76,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Lechon: galing sa Espanyol na \"lechón\": biik na sumususo pa.",
-  "say": "leCHON: galing sa espanyol na leCHON: biik na sumususo pa.",
+  "text": "Lechon: sa Espanyol, \"lechón\": biik na sumususo pa.",
+  "say": "leCHON: sa espanyol, leCHON: biik na sumususo pa.",
   "style": "playful",
   "pre": 0,
   "pause": 0.4,
@@ -85,8 +85,8 @@
   "aside": true
  },
  {
-  "text": "Sa Cebu, na sikat diyan, amoy pa lang, ulam na.",
-  "say": "sa seBU, na sikat diyan, amoy pa lang, ulam na.",
+  "text": "Sikat diyan ang Cebu.",
+  "say": "sikat diyan ang seBU.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
@@ -94,8 +94,8 @@
   "aside": true
  },
  {
-  "text": "Buti: amoy lang ang kaya ko.",
-  "say": "buti: amoy lang ang kaya ko.",
+  "text": "Amoy lang ang kaya ko: iniwan ko kay JM ang mga sasakyan, pati utang.",
+  "say": "amoy lang ang kaya ko: iniwan ko kay jm ang mga sasakyan, pati utang.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -103,24 +103,16 @@
   "aside": true
  },
  {
-  "text": "Hinarang sila ni Tubal, ang lalaking naka-kurbata, at ni Rico Bulan, ang kaklase ni Indio na laging nauuna.",
-  "say": "hinarang sila ni TUbal, ang lalaking naka-kurbata, at ni RIko buLAN, ang kaklase ni indio na laging nauuna.",
+  "text": "Hinarang sila ni Tobías Alcaín, ang naka-kurbatang tinatawag na Tubal ng mga tauhan, at ni Rico Bulan, ang kaklase ni Indio na laging nauuna.",
+  "say": "hinarang sila ni toBIas alkaIN, ang naka-kurbatang tinatawag na TUbal ng mga tauhan, at ni RIko buLAN, ang kaklase ni indio na laging nauuna.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Salamat, Sir Tobías Alcaín!",
-  "say": "salamat, sir toBIas alkaIN!",
-  "style": "bright",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "RICO"
- },
- {
-  "text": "Labing-isa ang hawak mo, Mister Bracken.",
-  "say": "labing-isa ang hawak mo, MISter BRAken.",
+  "text": "Labing-isa ang hawak mo, Bracken.",
+  "say": "labing-isa ang hawak mo, BRAken.",
   "style": "smooth",
   "pre": 0,
   "pause": 0.4,
@@ -175,8 +167,8 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Sa bakawan, hinila sila pababa ni Buyong, isang batang tagadala ng sibat.",
-  "say": "sa bakaWAN, hinila sila pababa ni BUyong, isang batang tagadala ng sibat.",
+  "text": "Hinila sila pababa ni Buyong, isang batang tagadala ng sibat.",
+  "say": "hinila sila pababa ni BUyong, isang batang tagadala ng sibat.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -191,16 +183,8 @@
   "speaker": "BUYONG"
  },
  {
-  "text": "Hindi makalapit ang mga barko nila.",
-  "say": "hindi makalapit ang mga barko nila.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "BUYONG"
- },
- {
-  "text": "Bahura 'yan.",
-  "say": "baHUra yan.",
+  "text": "Hindi makalapit ang mga barko nila sa bahura.",
+  "say": "hindi makalapit ang mga barko nila sa baHUra.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
@@ -224,9 +208,17 @@
   "aside": true
  },
  {
-  "text": "Humarap sa mga mandirigma si Lapulapu, ang pinuno ng Mactan.",
-  "say": "humarap sa mga mandirigma si lapuLApu, ang pinuno ng makTAN.",
+  "text": "Humarap sa mga mandirigma si Lapulapu, ang pinuno nila.",
+  "say": "humarap sa mga mandirigma si lapuLApu, ang pinuno nila.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ganito raw ang sagot ng Mactan.",
+  "say": "ganito raw ang sagot ng makTAN.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -256,8 +248,8 @@
   "speaker": "BUYONG"
  },
  {
-  "text": "Lumusong ang mga dayuhan, at dinagsa sila ng mga mandirigma.",
-  "say": "lumusong ang mga dayuhan, at dinagsa sila ng mga mandirigma.",
+  "text": "Dinagsa ng mga mandirigma ang mga dayuhan.",
+  "say": "dinagsa ng mga mandirigma ang mga dayuhan.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -304,16 +296,16 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Sa dami nila, kahit ilong ko, hindi alam.",
-  "say": "sa dami nila, kahit ilong ko, hindi alam.",
+  "text": "Sa dami nila, walang makapagsasabi.",
+  "say": "sa dami nila, walang makapagsasabi.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "USMAN"
  },
  {
-  "text": "Binitawan ni Buyong ang mga sibat para hilahin ang isang natumbang mandirigma.",
-  "say": "binitawan ni BUyong ang mga sibat para hilahin ang isang natumbang mandirigma.",
+  "text": "Binitawan ni Buyong ang mga sibat para hilahin ang isang natumba.",
+  "say": "binitawan ni BUyong ang mga sibat para hilahin ang isang natumba.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -336,24 +328,24 @@
   "speaker": "BUYONG"
  },
  {
-  "text": "Sa bitak ng bahura, may napansin si Indio: isang bilog na tanso.",
-  "say": "sa bitak ng baHUra, may napansin si indio: isang bilog na tanso.",
+  "text": "Sa bahura, may napansin si Indio: isang bilog na tanso.",
+  "say": "sa baHUra, may napansin si indio: isang bilog na tanso.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Par, hindi mo pa nilalabas ang lente ng Lolo mo.",
-  "say": "par, hindi mo pa nilalabas ang LENte ng lolo mo.",
+  "text": "Par, nasa bag pa ang lente ng Lolo mo.",
+  "say": "par, nasa bag pa ang LENte ng lolo mo.",
   "style": "surprised",
   "pre": 0,
   "pause": 0.4,
   "speaker": "USMAN"
  },
  {
-  "text": "Paano mo nakita 'yon?",
-  "say": "paano mo nakita yon?",
+  "text": "Sariling mata mo ang nakakita.",
+  "say": "sariling mata mo ang nakakita.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -376,6 +368,22 @@
   "speaker": "BUYONG"
  },
  {
+  "text": "Iniwan iyon ni Indio.",
+  "say": "iniwan iyon ni indio.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bilin ni M: walang binabago sa nakaraan.",
+  "say": "bilin ni m: walang binabago sa nakaraan.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Misyon mo, par: huwag kang malunod.",
   "say": "misyon mo, par: huwag kang malunod.",
   "style": "dry",
@@ -384,25 +392,17 @@
   "speaker": "USMAN"
  },
  {
-  "text": "Pagbalik nila sa ngayon, nasa bahura na si Rico, nakataas ang tansong bilog.",
-  "say": "pagbalik nila sa ngayon, nasa baHUra na si rico, nakataas ang tansong bilog.",
+  "text": "Pagbalik nila sa ngayon, hawak na ni Rico ang tansong bilog.",
+  "say": "pagbalik nila sa ngayon, hawak na ni rico ang tansong bilog.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Mga ka-saksi!",
-  "say": "mga ka-saksi!",
-  "style": "triumphant",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "RICO"
- },
- {
   "text": "Ang kalasag ni Lapulapu!",
   "say": "ang kaLAsag ni lapuLApu!",
-  "style": "",
+  "style": "triumphant",
   "pre": 0,
   "pause": 0.4,
   "speaker": "RICO"
@@ -416,8 +416,8 @@
   "speaker": "RICO"
  },
  {
-  "text": "Ang labing-isa mo, Bracken?",
-  "say": "ang labing-isa mo, BRAken?",
+  "text": "Kung wala ito, Bracken, ang labing-isa mo?",
+  "say": "kung wala ito, BRAken, ang labing-isa mo?",
   "style": "smooth",
   "pre": 0,
   "pause": 0.4,
@@ -448,25 +448,17 @@
   "speaker": "RICO"
  },
  {
-  "text": "Umahon ang mga siyokoy, ang mga makaliskis na taong-dagat ng kuwentong-bayan.",
-  "say": "umahon ang mga SYOkoy, ang mga makaliskis na taong-dagat ng kuwentong-bayan.",
+  "text": "Umahon ang mga siyokoy, mga taong-dagat ng kuwentong-bayan.",
+  "say": "umahon ang mga SYOkoy, mga taong-dagat ng kuwentong-bayan.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Kinuha niya ang sa dagat.",
-  "say": "kinuha niya ang sa dagat.",
+  "text": "Binabawi ng dagat ang kinuha niya.",
+  "say": "binabawi ng dagat ang kinuha niya.",
   "style": "urgent",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
-  "text": "Binabawi nila.",
-  "say": "binabawi nila.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
@@ -520,22 +512,6 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Nasa'yo na!",
-  "say": "nasayo na!",
-  "style": "urgent",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
-  "text": "Umahon ka!",
-  "say": "umahon ka!",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "M"
- },
- {
   "text": "Hindi ko siya kaya ng isang kamay!",
   "say": "hindi ko siya kaya ng isang kamay!",
   "style": "strained",
@@ -553,36 +529,12 @@
   "aside": true
  },
  {
-  "text": "Binitawan ni Indio ang kalasag.",
-  "say": "binitawan ni indio ang kaLAsag.",
+  "text": "Binitawan ni Indio ang kalasag, at lumubog ito.",
+  "say": "binitawan ni indio ang kaLAsag, at lumubog ito.",
   "style": "low",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Lumubog ito sa dilim.",
-  "say": "lumubog ito sa dilim.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Ang kalasag!",
-  "say": "ang kaLAsag!",
-  "style": "gasping",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "RICO"
- },
- {
-  "text": "Baliw ka ba?!",
-  "say": "baliw ka ba?!",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "RICO"
  },
  {
   "text": "Binitawan mo ang gusto mo.",
@@ -633,40 +585,40 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Iniahon ng pinakamatanda ang kalasag at isinuot sa braso ni Indio.",
-  "say": "iniahon ng pinakamatanda ang kaLAsag at isinuot sa braso ni indio.",
+  "text": "Isinuot ng pinakamatanda ang kalasag sa braso ni Indio.",
+  "say": "isinuot ng pinakamatanda ang kaLAsag sa braso ni indio.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Uminit na.",
-  "say": "uminit na.",
+  "text": "Uminit!",
+  "say": "uminit!",
   "style": "soft",
   "pre": 0,
   "pause": 0.4,
   "speaker": "M"
  },
  {
-  "text": "Ang Kalasag, kay Lapulapu.",
-  "say": "ang kaLAsag, kay lapuLApu.",
+  "text": "Ang Kalasag ni Lapulapu: ikalabindalawang medalyon.",
+  "say": "ang kaLAsag ni lapuLApu: ikalabindalawang medalyon.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
   "speaker": "M"
  },
  {
-  "text": "Ikapitong buhol, ikapitong kakampi: ang mga siyokoy.",
-  "say": "ikapitong buhol, ikapitong kakampi: ang mga SYOkoy.",
+  "text": "Sa tali mo, ikapitong buhol: ikapitong kakampi, ang mga siyokoy.",
+  "say": "sa tali mo, ikapitong buhol: ikapitong kakampi, ang mga SYOkoy.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
  },
  {
-  "text": "Sumugod ang mga tauhan ni Tubal, at tumalbog sila sa hangin.",
-  "say": "sumugod ang mga tauhan ni TUbal, at tumalBOG sila sa hangin.",
+  "text": "Sumugod ang mga tauhan ni Tubal, at tumalbog sa hangin.",
+  "say": "sumugod ang mga tauhan ni TUbal, at tumalBOG sa hangin.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -707,17 +659,9 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ang braso mo: ikapitong marka.",
-  "say": "ang braso mo: ikapitong marka.",
+  "text": "Sa braso mo, ikapitong marka: may binitawan ka kasi.",
+  "say": "sa braso mo, ikapitong marka: may binitawan ka kasi.",
   "style": "soft",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
- },
- {
-  "text": "Lumalabas 'yan kapag may binitawan ka.",
-  "say": "lumalabas yan kapag may binitawan ka.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
@@ -739,20 +683,36 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ang anting.",
-  "say": "ang anTING.",
+  "text": "Buo na ang labindalawa: ang anting.",
+  "say": "buo na ang labindalawa: ang anTING.",
   "style": "soft",
   "pre": 0,
   "pause": 0.4,
   "speaker": "M"
  },
  {
-  "text": "At ang susi.",
-  "say": "at ang susi.",
+  "text": "At ang susi ng mga lagusan.",
+  "say": "at ang susi ng mga lagusan.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
+ },
+ {
+  "text": "Hiram pa rin.",
+  "say": "hiram pa rin.",
+  "style": "quiet",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ibabalik ko rin pagkatapos.",
+  "say": "ibabalik ko rin pagkatapos.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
  },
  {
   "text": "Tumunog ang susi.",
