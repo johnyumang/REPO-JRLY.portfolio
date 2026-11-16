@@ -2,11 +2,11 @@
  "_": {
   "whoosh_cuts": false,
   "levels": {
-   "amb": -10,
-   "music": -10,
-   "foley": -12,
-   "spot": -8,
-   "duck": 6,
+   "amb": -14,
+   "music": -14,
+   "foley": -15,
+   "spot": -11,
+   "duck": 8,
    "fx_duck": 12
   },
   "bed_per_line": true

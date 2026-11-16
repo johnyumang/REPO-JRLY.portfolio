@@ -1,0 +1,585 @@
+{
+"_": {
+"hold_same_key": true,
+"trans_default": "cut"
+},
+"0": {
+"fx": [
+"punch"
+],
+"move": "push_in",
+"why": "Agyu shouts the warning"
+},
+"1": {
+"fx": [],
+"move": "push_in",
+"why": "Agyu shouts the warning",
+"key": 0
+},
+"2": {
+"fx": [],
+"move": "tilt_down",
+"why": "he is sinking"
+},
+"3": {
+"fx": [],
+"move": "tilt_down",
+"why": "he is sinking",
+"key": 2
+},
+"4": {
+"fx": [],
+"move": "push_in",
+"why": "the fist stays shut"
+},
+"5": {
+"fx": [],
+"move": "push_in",
+"why": "the fist stays shut",
+"key": 4
+},
+"6": {
+"fx": [],
+"move": "push_in",
+"why": "the fist stays shut",
+"key": 4
+},
+"7": {
+"fx": [],
+"move": "push_in",
+"why": "opens today's road",
+"trans_in": "fade"
+},
+"8": {
+"fx": [],
+"move": "push_in",
+"why": "opens today's road",
+"key": 7
+},
+"9": {
+"fx": [],
+"move": "hold",
+"why": "the joke needs stillness"
+},
+"10": {
+"fx": [],
+"move": "hold",
+"why": "the joke needs stillness",
+"key": 9
+},
+"11": {
+"fx": [],
+"move": "tilt_down",
+"why": "collar down to the seat"
+},
+"12": {
+"fx": [],
+"move": "tilt_down",
+"why": "collar down to the seat",
+"key": 11
+},
+"13": {
+"fx": [],
+"move": "tilt_down",
+"why": "collar down to the seat",
+"key": 11
+},
+"14": {
+"fx": [],
+"move": "push_in",
+"why": "toward the umbrella handle"
+},
+"15": {
+"fx": [],
+"move": "push_in",
+"why": "toward the umbrella handle",
+"key": 14
+},
+"16": {
+"fx": [],
+"move": "push_in",
+"why": "toward the umbrella handle",
+"key": 14
+},
+"17": {
+"fx": [],
+"move": "push_in",
+"why": "the wish lands"
+},
+"18": {
+"fx": [
+"punch"
+],
+"move": "push_in",
+"why": "she snaps at him"
+},
+"19": {
+"fx": [],
+"move": "push_in",
+"why": "she snaps at him",
+"key": 18
+},
+"20": {
+"fx": [],
+"move": "push_in",
+"why": "she snaps at him",
+"key": 18
+},
+"21": {
+"fx": [],
+"move": "push_in",
+"why": "the passbook slides forward",
+"trans_in": "fade"
+},
+"22": {
+"fx": [],
+"move": "push_in",
+"why": "the passbook slides forward",
+"key": 21
+},
+"23": {
+"fx": [],
+"move": "push_in",
+"why": "the passbook slides forward",
+"key": 21
+},
+"24": {
+"fx": [],
+"move": "hold",
+"why": "four quick buys"
+},
+"25": {
+"fx": [],
+"move": "push_in",
+"why": "toward the glowing medallion",
+"trans_in": "fade"
+},
+"26": {
+"fx": [],
+"move": "crane_down",
+"why": "opens the port of 1011",
+"trans_in": "flash"
+},
+"27": {
+"fx": [],
+"move": "crane_down",
+"why": "opens the port of 1011",
+"key": 26
+},
+"28": {
+"fx": [],
+"move": "crane_down",
+"why": "opens the port of 1011",
+"key": 26
+},
+"29": {
+"fx": [],
+"move": "crane_down",
+"why": "opens the port of 1011",
+"key": 26
+},
+"30": {
+"fx": [],
+"move": "push_in",
+"why": "Usman sizes him up"
+},
+"31": {
+"fx": [],
+"move": "push_in",
+"why": "Usman sizes him up",
+"key": 30
+},
+"32": {
+"fx": [],
+"move": "push_in",
+"why": "Usman sizes him up",
+"key": 30
+},
+"33": {
+"fx": [],
+"move": "push_in",
+"why": "Usman sizes him up",
+"key": 30
+},
+"34": {
+"fx": [],
+"move": "rack_focus",
+"why": "from him to the boats"
+},
+"35": {
+"fx": [],
+"move": "rack_focus",
+"why": "from him to the boats",
+"key": 34
+},
+"36": {
+"fx": [],
+"move": "pan_right",
+"why": "joinery, ends on Agyu"
+},
+"37": {
+"fx": [],
+"move": "pan_right",
+"why": "joinery, ends on Agyu",
+"key": 36
+},
+"38": {
+"fx": [],
+"move": "pan_right",
+"why": "joinery, ends on Agyu",
+"key": 36
+},
+"39": {
+"fx": [],
+"move": "pan_right",
+"why": "joinery, ends on Agyu",
+"key": 36
+},
+"40": {
+"fx": [],
+"move": "push_in",
+"why": "toward the sealed box"
+},
+"41": {
+"fx": [],
+"move": "push_in",
+"why": "toward the sealed box",
+"key": 40
+},
+"42": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size"
+},
+"43": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 42
+},
+"44": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 42
+},
+"45": {
+"fx": [],
+"move": "push_in",
+"why": "into the lens circle"
+},
+"46": {
+"fx": [],
+"move": "hold",
+"why": "the missed grab must read"
+},
+"47": {
+"fx": [],
+"move": "hold",
+"why": "the missed grab must read",
+"key": 46
+},
+"48": {
+"fx": [],
+"move": "hold",
+"why": "the missed grab must read",
+"key": 46
+},
+"49": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size"
+},
+"50": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 49
+},
+"51": {
+"fx": [],
+"move": "push_in",
+"why": "toward the ignored disc"
+},
+"52": {
+"fx": [],
+"move": "dolly_in",
+"why": "the guard seizes his ankle"
+},
+"53": {
+"fx": [
+"punch"
+],
+"move": "push_in",
+"why": "Agyu screams the warning"
+},
+"54": {
+"fx": [],
+"move": "push_in",
+"why": "Agyu screams the warning",
+"key": 53
+},
+"55": {
+"fx": [],
+"move": "tilt_down",
+"why": "it drags him deeper",
+"key": 120
+},
+"56": {
+"fx": [],
+"move": "hold",
+"why": "his last air leaves",
+"key": 55
+},
+"57": {
+"fx": [],
+"move": "dolly_in",
+"why": "the disc finds his palm"
+},
+"58": {
+"fx": [],
+"move": "push_in",
+"why": "the diwa speaks from it"
+},
+"59": {
+"fx": [],
+"move": "push_in",
+"why": "the diwa speaks from it",
+"key": 58
+},
+"60": {
+"fx": [],
+"move": "push_in",
+"why": "the diwa speaks from it",
+"key": 58
+},
+"61": {
+"fx": [],
+"move": "hold",
+"why": "its calm needs stillness"
+},
+"62": {
+"fx": [],
+"move": "hold",
+"why": "its calm needs stillness",
+"key": 61
+},
+"63": {
+"fx": [],
+"move": "hold",
+"why": "its calm needs stillness",
+"key": 61
+},
+"64": {
+"fx": [],
+"move": "push_in",
+"why": "he understands the guard"
+},
+"65": {
+"fx": [],
+"move": "push_in",
+"why": "he understands the guard",
+"key": 64
+},
+"66": {
+"fx": [],
+"move": "push_in",
+"why": "he understands the guard",
+"key": 64
+},
+"67": {
+"fx": [],
+"move": "push_in",
+"why": "he understands the guard",
+"key": 64
+},
+"68": {
+"fx": [],
+"move": "push_in",
+"why": "toward the returned gold"
+},
+"69": {
+"fx": [],
+"move": "hold",
+"why": "still on his three words"
+},
+"70": {
+"fx": [],
+"move": "crane_up",
+"why": "the guard lifts him out"
+},
+"71": {
+"fx": [],
+"move": "push_in",
+"why": "Agyu cannot believe it"
+},
+"72": {
+"fx": [],
+"move": "push_in",
+"why": "Agyu cannot believe it",
+"key": 71
+},
+"73": {
+"fx": [],
+"move": "push_in",
+"why": "Agyu cannot believe it",
+"key": 71
+},
+"74": {
+"fx": [],
+"move": "push_in",
+"why": "the knot ties itself"
+},
+"75": {
+"fx": [],
+"move": "push_in",
+"why": "she explains the knot"
+},
+"76": {
+"fx": [],
+"move": "push_in",
+"why": "she explains the knot",
+"key": 75
+},
+"77": {
+"fx": [],
+"move": "push_in",
+"why": "she explains the knot",
+"key": 75
+},
+"78": {
+"fx": [],
+"move": "push_in",
+"why": "she explains the knot",
+"key": 75
+},
+"79": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size"
+},
+"80": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 79
+},
+"81": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 79
+},
+"82": {
+"fx": [],
+"move": "hold",
+"why": "the joke needs stillness"
+},
+"83": {
+"fx": [],
+"move": "hold",
+"why": "the joke needs stillness",
+"key": 82
+},
+"84": {
+"fx": [],
+"move": "rack_focus",
+"why": "ear to the pressing thumb"
+},
+"85": {
+"fx": [],
+"move": "rack_focus",
+"why": "ear to the pressing thumb",
+"key": 84
+},
+"86": {
+"fx": [],
+"move": "rack_focus",
+"why": "ear to the pressing thumb",
+"key": 84
+},
+"87": {
+"fx": [],
+"move": "rack_focus",
+"why": "ear to the pressing thumb",
+"key": 84
+},
+"88": {
+"fx": [],
+"move": "pull_out",
+"why": "the porters roar"
+},
+"89": {
+"fx": [],
+"move": "pull_out",
+"why": "the porters roar",
+"key": 88
+},
+"90": {
+"fx": [],
+"move": "pull_out",
+"why": "the porters roar",
+"key": 88
+},
+"91": {
+"fx": [],
+"move": "hold",
+"why": "dry line, no move"
+},
+"92": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the glow",
+"key": 121
+},
+"93": {
+"fx": [],
+"move": "push_in",
+"why": "he hides the watch",
+"trans_in": "flash"
+},
+"94": {
+"fx": [],
+"move": "hold",
+"why": "she feels watched"
+},
+"95": {
+"fx": [],
+"move": "hold",
+"why": "she feels watched",
+"key": 94
+},
+"96": {
+"fx": [],
+"move": "push_in",
+"why": "ends on the ownerless shadow"
+},
+"97": {
+"fx": [],
+"move": "push_in",
+"why": "ends on the ownerless shadow",
+"key": 96
+},
+"98": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size"
+},
+"99": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 98
+},
+"100": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 98
+},
+"101": {
+"fx": [],
+"move": "hold",
+"why": "the question must be read"
+}
+}
