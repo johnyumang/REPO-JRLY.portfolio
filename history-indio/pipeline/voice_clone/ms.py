@@ -315,7 +315,7 @@ def assemble(work, outp, cut=()):
         if st != st0: seg = leadtrim.fade_in(seg, sr)
         if m['rate'] > 6.9 and not os.environ.get('HI_NO_STRETCH'):                 # HI_NO_STRETCH=1: never time-stretch a take (owner, 15 Nov)
             k = 6.3 / m['rate']; seg = ff(seg, sr, f'rubberband=tempo={k:.4f}:pitchq=quality:formant=preserved')
-        body = seg[int(0.04 * sr):len(seg) - int(0.12 * sr)]; g = float(np.clip((LDEF if os.environ.get('HI_LEVEL_SPEAKER') else LEVEL.get(c['style'], LDEF)) - vqc.rms_db(body), -12, 12))   # HI_LEVEL_SPEAKER=1: every line of a speaker at one level (owner, 15 Nov: within 1 LU of the speaker's median; a whisper is quiet speech, not a quieter track); seg *= 10 ** (g / 20)
+        body = seg[int(0.04 * sr):len(seg) - int(0.12 * sr)]; g = float(np.clip((LDEF if os.environ.get('HI_LEVEL_SPEAKER') else LEVEL.get(c['style'], LDEF)) - vqc.rms_db(body), -12, 12)); seg *= 10 ** (g / 20)   # HI_LEVEL_SPEAKER=1: every line of a speaker at one level (owner, 15 Nov: within 1 LU of the speaker's median; a whisper is quiet speech, not a quieter track)
         n1, n2 = int(0.008 * sr), int(0.04 * sr); seg[:n1] *= np.linspace(0, 1, n1); seg[-n2:] *= np.linspace(1, 0, n2)
         seg = ff(seg, sr, 'alimiter=limit=0.89:attack=5:release=50:level=false:latency=true')[:len(seg)]
         j = 0; offs = []
