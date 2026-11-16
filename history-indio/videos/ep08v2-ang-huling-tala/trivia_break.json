@@ -6,11 +6,11 @@
  "lines": [
   {
    "speaker": "USMAN",
-   "text": "Totoo ba 'yon, par? Hindi masaya si Mabini?",
+   "text": "Totoo ba 'yon, par?",
    "emphasis": [
-    "Mabini"
+    "totoo"
    ],
-   "say": "Totoo ba yon, par? Hindi masaya si maBIni?"
+   "say": "Totoo ba yon, par?"
   },
   {
    "speaker": "INDIO",
@@ -28,26 +28,12 @@
    ]
   },
   {
-   "speaker": "INDIO",
-   "text": "Sabi pa ng Akta: kalayaan sa ilalim ng proteksyon ng Amerika.",
-   "emphasis": [
-    "proteksyon"
-   ]
-  },
-  {
-   "speaker": "INDIO",
-   "text": "Anim na buwan pagkatapos, isinuko tayo ng Espanya sa Amerika sa Paris.",
-   "emphasis": [
-    "Paris"
-   ]
-  },
-  {
    "speaker": "USMAN",
    "text": "Eh si Rajah Sulayman?",
    "emphasis": [
     "Sulayman"
    ],
-   "say": "Eh si RAha sulayMAN?"
+   "say": "Eh si Raha Sulayman?"
   },
   {
    "speaker": "INDIO",
@@ -72,5 +58,5 @@
  "grave": false,
  "gap": 0.22,
  "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story (sentence 110, the question), as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
- "voice_note": "From the script's TRIVIA AT THE END block, trimmed to keep the speech near 25 s: Indio's first line split in two (the hammock, then the memoir), 'Hindi ito eksaktong sipi; diwa ito ng isinulat niya' shortened to 'diwa ito, hindi sipi', the Akta and Paris lines tightened; same facts. Say: Mabini=maBIni, Kawit=KAwit, Rajah Sulayman=RAha sulayMAN, 1570=mil kinyentos setenta. Check the length after trivia_voice.py; if over, drop 'Hindi masaya si Mabini?' first."
+ "voice_note": "From the script's TRIVIA AT THE END block, trimmed to keep the speech near 25 s: Indio's first line split in two (the hammock, then the memoir), 'Hindi ito eksaktong sipi; diwa ito ng isinulat niya' shortened to 'diwa ito, hindi sipi', the Akta and Paris lines tightened; same facts. Say: Mabini=maBIni, Kawit=KAwit, Rajah Sulayman=RAha sulayMAN, 1570=mil kinyentos setenta. Check the length after trivia_voice.py; if over, drop 'Hindi masaya si Mabini?' first. 16 Nov: trimmed to about 20 s of speech (the tool's limit): the Akta and Paris lines left out, Usman's first line shortened; 'Raha Sulayman' as plain words in say (capital-letter respelling was read as letters)."
 }
