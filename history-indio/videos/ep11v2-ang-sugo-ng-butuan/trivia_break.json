@@ -1,0 +1,71 @@
+{
+ "fact_id": "ep11v2_end",
+ "fact_english": "Song-dynasty records name Kiling as ruler of Butuan; in 1007 his envoy asked for rank equal to Champa; in 1011 an envoy presented a memorial engraved on a gold tablet. Eleven boats have been dug up at Butuan, the oldest dated 689 to 988. Whether the request was granted is disputed. The Yumud is Agusan Manobo folklore, a spirit of deep water.",
+ "label_onscreen": "BUTUAN, 1011",
+ "source_onscreen": "Pinagmulan: Song shi; W. H. Scott, Barangay",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? May sugo ang Butuan sa emperador?",
+   "emphasis": [
+    "sugo"
+   ],
+   "say": "Totoo ba 'yon, par? May sugo ang BUtwan sa emperador?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: sa mga tala ng Tsina, noong 1007, humiling ang sugo ni Rajah Kiling ng ranggong kapantay ng Champa.",
+   "emphasis": [
+    "1007"
+   ],
+   "say": "Tiyak: sa mga tala ng Tsina, noong isang libo't pito, humiling ang sugo ni RAha kiLING ng ranggong kapantay ng TSAMpa."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 1011, may sugong nag-alay ng sulat na nakaukit sa gintong tableta.",
+   "emphasis": [
+    "1011"
+   ],
+   "say": "Noong isang libo't labing-isa, may sugong nag-alay ng sulat na nakaukit sa gintong tableta."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At ang mga balangay: labing-isang bangka ang nahukay sa Butuan, ang pinakamatanda mula 689 hanggang 988.",
+   "emphasis": [
+    "balangay"
+   ],
+   "say": "At ang mga balaNGAY: labing-isang bangka ang nahukay sa BUtwan, ang pinakamatanda mula anim na raan at walumpu't siyam hanggang siyam na raan at walumpu't walo."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh pinagbigyan ba ang hiling?",
+   "emphasis": [
+    "hiling"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "'Yan ang pinagtatalunan. At ang Yúmud, kuwentong-bayan ng mga Manobo ng Agusan: isang diwa ng malalim na tubig.",
+   "emphasis": [
+    "pinagtatalunan"
+   ],
+   "say": "Yan ang pinagtatalunan. At ang YUmud, kuwentong-bayan ng mga Manobo ng Agusan: isang diwa ng malalim na tubig."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umúngol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 101,
+ "after_text": "Ikaw, ka-Indio: kung may isang hiling ka, at nasabi mo nang hindi sinasadya, ano kaya 'yon?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "New form: trivia at the END, after the story's last line ('Patalastas ni Usman').",
+ "voice_note": "Script trivia lines split so each caption fits; same words. Years voiced as Tagalog numbers; umungol said u-MU-ngol."
+}
