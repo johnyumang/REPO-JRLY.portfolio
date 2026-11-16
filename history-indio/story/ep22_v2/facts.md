@@ -90,7 +90,7 @@ wala sila sa Biblia."
 ## 5. Not sourced, or a rule not fully met
 
 - Wiktionary "kumusta": search summary only. Etemenanki: one encyclopedia (two of its articles).
-- The present-day part (s6 to s17) is 100 words, about 42 seconds: 75 words of his now, then the verse and
+- The present-day part (s6 to s17) is 100 words, about 42 seconds: 74 words of his now, then the verse and
   the key, which are the door. Rule 2 asks for under 40.
 - The names Nuri and the reversed words were not checked against real people or real words of other
   languages.
