@@ -1,21 +1,18 @@
 {
  "_": {
   "whoosh_cuts": false,
-  "rules_v2": true
+  "rules_v2": true,
+  "levels": {
+   "amb": -9,
+   "music": -9
+  }
  },
  "0": {
   "amb": [
    "indoor",
    "crowd:-8"
   ],
-  "music": "none",
-  "spot": [
-   {
-    "what": "impact",
-    "at": 0.0,
-    "gain": -6
-   }
-  ]
+  "music": "none"
  },
  "2": {
   "amb": [
