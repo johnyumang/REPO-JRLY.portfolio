@@ -1,0 +1,196 @@
+{
+ "_note": "Episode 11 v2: one still per shot of shots.md (bk_<shot>), second stills bk_NNb on rows with many beats; keys >= 120 are silent shots",
+ "look": "bakunawa (pipeline/flux_hq.py through pipeline/draw_pick.py; cast and places in look_cast)",
+ "look_cast": {},
+ "full": {},
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "2": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "4": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "7": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "9": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "11": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "14": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "17": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "18": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "21": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "24": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "25": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "26": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "30": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "34": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "36": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "40": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "42": {
+   "full": "bk_17b",
+   "shot": 17
+  },
+  "45": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "46": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "49": {
+   "full": "bk_19b",
+   "shot": 19
+  },
+  "51": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "52": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "53": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "55": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "57": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "58": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "61": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "64": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "68": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "69": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "70": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "71": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "74": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "75": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "79": {
+   "full": "bk_34b",
+   "shot": 34
+  },
+  "82": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "84": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "88": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "91": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "93": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "94": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "96": {
+   "full": "bk_42",
+   "shot": 42
+  },
+  "98": {
+   "full": "bk_42b",
+   "shot": 42
+  },
+  "101": {
+   "full": "bk_43",
+   "shot": 43
+  },
+  "120": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "121": {
+   "full": "bk_39",
+   "shot": 39
+  }
+ }
+}

@@ -14,17 +14,17 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 | 3 | 5.96 | INDIO | Ako 'to si Indio. | -0.5 | 0.945 / 0.967 | 110 | 5.17 | 0.39 | - | - | ok | -14.6 / fx -49.3 |
 | 4 | 7.49 | INDIO | At oo, late na naman ako. | +0.1 | 0.921 / 0.967 | 121 | 5.52 | 0.37 | - | - | ok | -14.0 / fx -101.3 |
 | 5 | 9.90 | TAGAPAGSALAYSAY | Ngayon. | -0.1 | 0.898 / 0.940 | 109 | 3.64 | 0.78* | - | - | pace 3.64 | -19.4 / fx -55.0 |
-| 6 | 10.81 | TAGAPAGSALAYSAY | Intramuros. | -0.3 | 0.891 / 0.940 | 93 | 4.26 | 0.36 | - | - | pace 4.26 | -22.0 |
+| 6 | 10.81 | TAGAPAGSALAYSAY | Intramuros. | -0.3 | 0.891 / 0.940 | 93 | 4.26 | 0.36 | - | - | pace 4.26 | -21.9 |
 | 7 | 12.17 | TAGAPAGSALAYSAY | Unang araw ni Indio bilang delivery rider. | -0.2 | 0.975 / 0.994 | 103 | 5.45 | 0.42 | - | - | ok | -17.6 / fx -56.6 |
 | 8 | 15.09 | TAGAPAGSALAYSAY | Ang order: pancit para sa isang nagngangalang M, na hindi niya kilala, sa lumang pader ng Intramuros. | -0.1 | 0.990 / 0.994 | 108 | 4.85 | 0.35 | - | replace:pansit->pan sit; replace:intramuros->intra muros | pace 4.85 | -20.7 |
 | 9 | 22.26 | TAGAPAGSALAYSAY | Walang naghihintay. | -0.0 | 0.932 / 0.994 | 111 | 5.56 | 0.37 | - | - | pace 5.56 | -17.8 |
 | 10 | 23.72 | INDIO | Pancit: sabi nila, galing sa salitang Hokkien na ang ibig sabihin, pagkaing madaling lutuin. | +0.5 | 0.967 / 0.965 | 120 | 3.85 | 0.38 | - | replace:pansit->pan sit | ok | -18.7 / fx -71.6 |
-| 11 | 31.36 | INDIO | Madaling lutuin, mahirap tiisin. | +0.4 | 0.934 / 0.965 | 110 | 3.77 | 0.36 | - | - | ok | -18.9 |
-| 12 | 34.39 | INDIO | Bawal ko kasing tikman. | +0.2 | 0.949 / 0.965 | 102 | 4.55 | 0.38 | - | - | ok | -16.6 |
+| 11 | 31.36 | INDIO | Madaling lutuin, mahirap tiisin. | +0.4 | 0.934 / 0.965 | 110 | 3.77 | 0.36 | - | - | ok | -18.8 |
+| 12 | 34.39 | INDIO | Bawal ko kasing tikman. | +0.2 | 0.949 / 0.965 | 102 | 4.55 | 0.38 | - | - | ok | -16.5 |
 | 13 | 36.32 | TAGAPAGSALAYSAY | Isang bituin lang ang rating niya sa app. | +0.1 | 0.962 / 0.988 | 121 | 6.06 | 0.39 | - | - | pace 6.06 | -18.3 / fx -55.8 |
 | 14 | 38.67 | TAGAPAGSALAYSAY | May ibang rider na laging nauuna. | -0.0 | 0.979 / 0.988 | 104 | 4.13 | 0.37 | - | - | pace 4.13 | -18.9 / fx -43.6 |
 | 15 | 41.47 | INDIO | Sige. | +0.6 | 0.837 / 0.965 | 113 | 6.25 | 0.38 | - | - | ok | -17.5 |
-| 16 | 42.15 | INDIO | Babasahin ko na lang 'tong karatula habang naghihintay. | +0.0 | 0.961 / 0.965 | 120 | 6.79 | 0.36 | - | replace:tong->itong | ok | -17.9 |
+| 16 | 42.15 | INDIO | Babasahin ko na lang 'tong karatula habang naghihintay. | +0.0 | 0.961 / 0.965 | 120 | 6.79 | 0.36 | - | replace:tong->itong | ok | -17.8 |
 | 17 | 45.22 | TAGAPAGSALAYSAY | Binasa niya nang malakas ang karatula. | +0.2 | 0.953 / 0.978 | 104 | 6.80 | 0.42 | - | - | pace 6.80 | -15.4 / fx -50.9 |
 | 18 | 47.63 | TAGAPAGSALAYSAY | Uminit ang medalyong mana niya sa Lolo niya, at dinala siya sa nakaraan. | -0.2 | 0.971 / 0.978 | 102 | 6.28 | 0.35 | - | - | pace 6.28 | -16.0 |
 | 19 | 52.18 | TAGAPAGSALAYSAY | Mula sa liwanag, lumundag si Usman: ang asong itim na siya lang ang nakakarinig, at sa nakaraan lang lumilitaw. | +0.2 | 0.985 / 0.985 | 102 | 5.12 | 0.41 | - | - | ok | -16.8 |
@@ -32,13 +32,13 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 | 21 | 60.64 | INDIO | Ang asong madaldal. | +0.6 | 0.931 / 0.935 | 129 | 6.19 | 0.36 | - | - | ok | -17.2 / fx -59.1 |
 | 22 | 62.03 | USMAN | Ayan ka na naman. | +0.8 | 0.928 / 0.940 | 261 | 6.67 | 0.42 | - | - | ok | -15.3 |
 | 23 | 63.28 | USMAN | May dala ka pang baon. | +0.0 | 0.884 / 0.940 | 234 | 5.71 | 0.35 | - | - | ok | -14.6 |
-| 24 | 65.14 | TAGAPAGSALAYSAY | Oktubre 1762. | +0.2 | 0.977 / 0.987 | 102 | 4.73 | 0.81* | - | delete:mil siyete syentos sesentay dos-> | pace 4.73 | -17.6 / fx -52.8 |
-| 25 | 68.23 | TAGAPAGSALAYSAY | Sa loob ng pader ng Maynila. | -0.2 | 0.958 / 0.987 | 95 | 5.36 | 0.34 | - | - | ok | -19.5 / fx -61.0 |
-| 26 | 70.31 | TAGAPAGSALAYSAY | Bumagsak si Indio sa gitna ng putukan. | +0.2 | 0.979 / 0.988 | 107 | 4.83 | 0.40 | - | - | pace 4.83 | -19.1 / fx -47.1 |
+| 24 | 65.14 | TAGAPAGSALAYSAY | Oktubre 1762. | +0.2 | 0.977 / 0.987 | 102 | 4.73 | 0.81* | - | delete:mil siyete syentos sesentay dos-> | pace 4.73 | -17.6 / fx -52.7 |
+| 25 | 68.23 | TAGAPAGSALAYSAY | Sa loob ng pader ng Maynila. | -0.2 | 0.958 / 0.987 | 95 | 5.36 | 0.34 | - | - | ok | -19.5 / fx -60.9 |
+| 26 | 70.31 | TAGAPAGSALAYSAY | Bumagsak si Indio sa gitna ng putukan. | +0.2 | 0.979 / 0.988 | 107 | 4.83 | 0.40 | - | - | pace 4.83 | -19.0 / fx -47.0 |
 | 27 | 73.38 | TAGAPAGSALAYSAY | Hinila siya papasok sa isang kusina ni Sepa, isang batang babaeng nakatira roon kasama ang lola niya. | +0.1 | 0.986 / 0.988 | 104 | 5.92 | 0.38 | - | - | pace 5.92 | -19.5 |
 | 28 | 79.85 | SEPA | Yumuko ka! | -0.2 | 0.616 / 0.878 | 256 | 5.13 | 0.39 | - | replace:yumuko->yomuko | first word | -20.9 / fx -56.1 |
 | 29 | 81.00 | SEPA | Halos dalawang linggo na silang nagpapaputok. | -0.2 | 0.868 / 0.878 | 319 | 7.46 | 0.37 | - | - | ok | -19.9 |
-| 30 | 83.39 | INDIO | Sino? | +0.1 | 0.783 / 0.937 | 110 | 6.90 | 0.38 | - | replace:sino->si no | ok | -18.3 |
+| 30 | 83.39 | INDIO | Sino? | +0.1 | 0.783 / 0.937 | 110 | 6.90 | 0.38 | - | replace:sino->si no | ok | -18.2 |
 | 31 | 84.04 | INDIO | Mga Kastila? | -0.2 | 0.756 / 0.937 | 95 | 6.35 | 0.36 | - | - | ok | -16.3 / fx -49.0 |
 | 32 | 85.09 | SEPA | Mga Ingles. | -0.2 | 0.910 / 0.966 | 325 | 4.29 | 0.42 | - | - | ok | -18.2 / fx -56.7 |
 | 33 | 86.14 | SEPA | Galing sa dagat, kasama ang mga sundalong taga-India. | +0.4 | 0.934 / 0.966 | 285 | 6.39 | 0.35 | - | - | ok | -18.5 / fx -70.3 |
@@ -58,12 +58,12 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 | 47 | 117.46 | INDIO | May mga tao pa roon! | +0.6 | 0.813 / 0.956 | 165 | 5.05 | 0.38 | - | replace:roon->ron | ok | -17.5 |
 | 48 | 118.84 | GUWARDIYA | Indio, bumalik ka sa kusina. | +0.0 | 0.974 / 0.974 | 139 | 5.75 | 0.39 | - | - | ok | -18.1 / fx -56.4 |
 | 49 | 120.99 | INDIO | Paano mo nalaman ang pangalan ko? | +0.6 | 0.931 / 0.931 | 143 | 7.86 | 0.41 | - | - | ok | -17.7 |
-| 50 | 122.77 | TAGAPAGSALAYSAY | Itinulak siya sa putik, at pinagtawanan. | +0.0 | 0.971 / 0.971 | 106 | 5.43 | 0.38 | - | - | ok | -19.1 / fx -54.0 |
-| 51 | 125.93 | INDIO | Ah. | -0.5 | 0.604 / 0.932 | 202 | 4.55 | 0.40 | - | replace:ah->oh | first word, 2 word edits | -18.2 |
+| 50 | 122.77 | TAGAPAGSALAYSAY | Itinulak siya sa putik, at pinagtawanan. | +0.0 | 0.971 / 0.971 | 106 | 5.43 | 0.38 | - | - | ok | -19.1 / fx -53.9 |
+| 51 | 125.93 | INDIO | Ah. | -0.5 | 0.604 / 0.932 | 202 | 4.55 | 0.40 | - | replace:ah->oh | first word, 2 word edits | -18.1 |
 | 52 | 126.53 | INDIO | Hindi pala pangalan. | -0.5 | 0.924 / 0.932 | 138 | 7.87 | 0.38 | - | - | ok | -17.7 |
 | 53 | 127.77 | INDIO | Tawag pala 'yon sa aming lahat. | -0.5 | 0.889 / 0.932 | 92 | 6.76 | 0.35 | - | replace:yon->yun | ok | -19.2 |
-| 54 | 129.66 | TAGAPAGSALAYSAY | At gumuho ang pader. | +0.3 | 0.960 / 0.947 | 105 | 4.29 | 0.41 | - | - | pace 4.29 | -17.3 / fx -34.9 |
-| 55 | 131.63 | TAGAPAGSALAYSAY | Pumasok ang mga sundalong naka-pula. | -0.2 | 0.873 / 0.947 | 94 | 5.83 | 0.34 | - | replace:naka pula->nakapula | pace 5.83 | -18.8 / fx -61.4 |
+| 54 | 129.66 | TAGAPAGSALAYSAY | At gumuho ang pader. | +0.3 | 0.960 / 0.947 | 105 | 4.29 | 0.41 | - | - | pace 4.29 | -17.3 / fx -34.8 |
+| 55 | 131.63 | TAGAPAGSALAYSAY | Pumasok ang mga sundalong naka-pula. | -0.2 | 0.873 / 0.947 | 94 | 5.83 | 0.34 | - | replace:naka pula->nakapula | pace 5.83 | -18.7 / fx -61.4 |
 | 56 | 134.09 | SEPA | Bumigay na ang pader! | +0.2 | 0.937 / 0.937 | 233 | 5.83 | 0.40 | - | - | ok | -17.5 |
 | 57 | 135.71 | INDIO | Huli na ako. | -0.5 | 0.888 / 0.949 | 107 | 9.09 | 0.42 | - | - | ok | -17.9 |
 | 58 | 136.61 | INDIO | Puwede ka palang mahuli kahit sa nakaraan. | -0.6 | 0.940 / 0.949 | 95 | 8.02 | 0.35 | - | - | ok | -16.8 |
@@ -78,24 +78,24 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 | 67 | 154.32 | USMAN | May labasan sila. | +0.1 | 0.888 / 0.944 | 267 | 7.06 | 0.42 | - | - | ok | -20.0 |
 | 68 | 155.52 | USMAN | Pero walang libre sa hayop, par. | -0.1 | 0.925 / 0.944 | 237 | 6.06 | 0.35 | - | - | ok | -17.6 |
 | 69 | 157.58 | INDIO | Order 'to ng customer. | +0.4 | 0.902 / 0.950 | 143 | 5.88 | 0.41 | - | - | ok | -18.8 |
-| 70 | 159.11 | INDIO | Unang sahod ko 'to. | -0.4 | 0.915 / 0.950 | 106 | 6.52 | 0.34 | - | - | ok | -14.5 |
+| 70 | 159.11 | INDIO | Unang sahod ko 'to. | -0.4 | 0.915 / 0.950 | 106 | 6.52 | 0.34 | - | - | ok | -14.4 |
 | 71 | 160.43 | TAGAPAGSALAYSAY | Ibinuhos niya ang pancit. | -0.1 | 0.980 / 0.984 | 108 | 4.69 | 0.40 | - | replace:pansit->pan sit | pace 4.69 | -17.9 / fx -55.7 |
-| 72 | 162.73 | TAGAPAGSALAYSAY | Itinuro ng mga daga ang isang lumang imburnal. | -0.0 | 0.964 / 0.984 | 108 | 5.57 | 0.38 | - | - | pace 5.57 | -19.0 / fx -58.7 |
+| 72 | 162.73 | TAGAPAGSALAYSAY | Itinuro ng mga daga ang isang lumang imburnal. | -0.0 | 0.964 / 0.984 | 108 | 5.57 | 0.38 | - | - | pace 5.57 | -19.0 / fx -58.6 |
 | 73 | 165.99 | INDIO | Sepa! | +0.6 | 0.762 / 0.940 | 197 | 5.26 | 0.39 | - | - | ok | -17.9 |
 | 74 | 166.74 | INDIO | Ang lola mo. | +0.6 | 0.917 / 0.940 | 199 | 6.56 | 0.37 | - | - | ok | -15.3 |
-| 75 | 167.69 | INDIO | Bubuhatin ko. | +0.1 | 0.883 / 0.940 | 114 | 5.68 | 0.34 | - | - | ok | -18.2 |
+| 75 | 167.69 | INDIO | Bubuhatin ko. | +0.1 | 0.883 / 0.940 | 114 | 5.68 | 0.34 | - | - | ok | -18.1 |
 | 76 | 168.97 | TAGAPAGSALAYSAY | Pinasan niya ang lola, at gumapang silang lahat palabas. | +0.1 | 0.971 / 0.979 | 108 | 5.72 | 0.40 | - | - | pace 5.72 | -18.6 / fx -57.6 |
 | 77 | 172.67 | TAGAPAGSALAYSAY | Pati ang guwardiya, sumunod. | +0.0 | 0.960 / 0.979 | 104 | 5.95 | 0.38 | - | - | pace 5.95 | -20.0 |
 | 78 | 174.74 | GUWARDIYA | Indio! | +0.1 | 0.668 / 0.931 | 166 | 3.77 | 0.39 | - | replace:indio->andio | first word | -19.7 / fx -52.7 |
-| 79 | 175.64 | GUWARDIYA | Saan ang labasan? | -0.0 | 0.946 / 0.931 | 138 | 4.20 | 0.37 | - | - | ok | -20.1 / fx -76.9 |
-| 80 | 177.21 | INDIO | Sundan mo ang daga, señor. | +0.4 | 0.957 / 0.972 | 127 | 4.04 | 0.38 | - | - | ok | -18.0 |
+| 79 | 175.64 | GUWARDIYA | Saan ang labasan? | -0.0 | 0.946 / 0.931 | 138 | 4.20 | 0.37 | - | - | ok | -20.0 / fx -76.9 |
+| 80 | 177.21 | INDIO | Sundan mo ang daga, señor. | +0.4 | 0.957 / 0.972 | 127 | 4.04 | 0.38 | - | - | ok | -17.9 |
 | 81 | 179.55 | INDIO | Sila ang mas nakakaalam dito. | +0.1 | 0.945 / 0.972 | 118 | 5.68 | 0.36 | - | - | ok | -16.2 |
 | 82 | 182.13 | TAGAPAGSALAYSAY | Nakalabas silang lahat sa tabing-ilog, buhay. | -0.2 | 0.973 / 0.990 | 105 | 6.10 | 0.82* | - | - | pace 6.10 | -18.6 / fx -46.9 |
 | 83 | 184.94 | TAGAPAGSALAYSAY | Sa Maynila, may bagong watawat na. | +0.1 | 0.977 / 0.990 | 113 | 4.85 | 0.35 | - | - | pace 4.85 | -20.1 |
 | 84 | 187.62 | USMAN | Labing-apat, par. | +0.3 | 0.768 / 0.975 | 261 | 4.63 | 0.41 | - | - | ok | -17.2 / fx -62.8 |
 | 85 | 189.04 | USMAN | Bilangin mo. | +0.2 | 0.848 / 0.975 | 200 | 5.88 | 0.34 | - | - | ok | -18.5 |
 | 86 | 190.08 | USMAN | Sa isang supot ng pancit. | -0.6 | 0.962 / 0.975 | 224 | 4.73 | 0.36 | - | replace:pansit->pan sit | ok | -17.3 |
-| 87 | 192.19 | SEPA | Sumuko na raw ang lungsod. | -0.4 | 0.812 / 0.930 | 299 | 6.50 | 0.42 | - | - | ok | -20.6 / fx -57.3 |
+| 87 | 192.19 | SEPA | Sumuko na raw ang lungsod. | -0.4 | 0.812 / 0.930 | 299 | 6.50 | 0.42 | - | - | ok | -20.5 / fx -57.3 |
 | 88 | 193.77 | SEPA | Ang arsobispo mismo. | -0.6 | 0.906 / 0.930 | 227 | 6.03 | 0.35 | - | - | ok | -14.9 / fx -58.0 |
 | 89 | 195.34 | INDIO | Tapos na pala. | -0.5 | 0.915 / 0.941 | 96 | 7.25 | 0.41 | - | - | ok | -17.1 / fx -61.7 |
 | 90 | 196.37 | INDIO | Sa kanila na tayo. | -0.5 | 0.890 / 0.941 | 101 | 7.45 | 0.34 | - | - | ok | -16.4 / fx -65.7 |
@@ -108,26 +108,26 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 | 97 | 207.24 | SEPA | Para sa susunod mong hatid, Indio. | -0.5 | 0.906 / 0.933 | 308 | 6.59 | 0.42 | - | - | ok | -23.2 / fx -63.9 |
 | 98 | 209.26 | SEPA | 'Yung pangalan, ha. | +0.6 | 0.779 / 0.933 | 267 | 5.88 | 0.35 | - | - | ok | -18.6 |
 | 99 | 210.48 | SEPA | Hindi 'yung tawag. | -0.2 | 0.828 / 0.933 | 321 | 7.35 | 0.37 | - | - | ok | -18.5 |
-| 100 | 211.54 | TAGAPAGSALAYSAY | Itinali ni Sepa ang tapis niya sa supot ni Indio. | +0.1 | 0.982 / 0.991 | 114 | 6.41 | 0.38 | - | - | pace 6.41 | -17.9 / fx -54.6 |
+| 100 | 211.54 | TAGAPAGSALAYSAY | Itinali ni Sepa ang tapis niya sa supot ni Indio. | +0.1 | 0.982 / 0.991 | 114 | 6.41 | 0.38 | - | - | pace 6.41 | -17.9 / fx -54.5 |
 | 101 | 214.71 | TAGAPAGSALAYSAY | At ang guwardiyang tumulak sa kanya, yumuko bilang pasasalamat. | +0.1 | 0.978 / 0.991 | 113 | 5.87 | 0.36 | - | - | pace 5.87 | -18.4 / fx -58.7 |
 | 102 | 219.28 | TAGAPAGSALAYSAY | Lumamig ang medalyon. | -0.2 | 0.946 / 0.946 | 98 | 5.00 | 0.82* | - | - | ok | -18.0 |
-| 103 | 221.07 | TAGAPAGSALAYSAY | Bumalik si Indio sa kasalukuyan. | -0.2 | 0.959 / 0.972 | 108 | 5.97 | 0.39 | - | - | pace 5.97 | -21.4 / fx -64.6 |
-| 104 | 223.45 | TAGAPAGSALAYSAY | Sa braso niya, may pangalawa nang marka. | +0.3 | 0.932 / 0.972 | 99 | 5.51 | 0.37 | - | - | pace 5.51 | -21.3 |
-| 105 | 226.19 | INDIO | Aray. | -0.5 | 0.833 / 0.970 | 106 | 5.88 | 0.38 | - | replace:aray->arai | first word | -20.3 |
-| 106 | 226.89 | INDIO | Dalawa na. | -0.5 | 0.873 / 0.970 | 104 | 7.69 | 0.36 | - | - | ok | -19.1 |
-| 107 | 227.79 | INDIO | At wala na akong pancit. | +0.5 | 0.940 / 0.970 | 126 | 5.06 | 0.38 | E | replace:pansit->pan sit | end clipped? | -19.6 |
-| 108 | 229.72 | INDIO | Tapis na lang. | +0.6 | 0.959 / 0.973 | 109 | 5.33 | 0.35 | - | - | ok | -16.9 |
-| 109 | 230.84 | INDIO | Paano ko ipapaliwanag 'to sa app? | +0.6 | 0.961 / 0.973 | 134 | 6.98 | 0.37 | - | - | ok | -19.2 |
-| 110 | 232.90 | INDIO | "Kinain po ng daga, noong 1762." | +0.6 | 0.956 / 0.973 | 119 | 4.97 | 0.34 | - | delete:mil siyete syentos sesentay dos-> | ok | -18.1 |
-| 111 | 236.72 | TAGAPAGSALAYSAY | Kinansela ng app ang order. | +0.1 | 0.947 / 0.982 | 104 | 5.52 | 0.40 | - | replace:kinansela->kinansila | pace 5.52, first word | -21.4 / fx -55.3 |
-| 112 | 238.73 | TAGAPAGSALAYSAY | Pero may isa pang dumating. | -0.2 | 0.976 / 0.982 | 104 | 6.34 | 0.38 | - | - | pace 6.34 | -22.6 / fx -55.4 |
-| 113 | 240.54 | INDIO | Teka. | -0.5 | 0.614 / 0.928 | 102 | 5.88 | 0.39 | - | - | Indio similarity 0.928 (turn) | -19.6 / fx -50.6 |
-| 114 | 241.25 | INDIO | "Delivered." | -0.0 | 0.736 / 0.928 | 102 | 7.02 | 0.37 | - | - | Indio similarity 0.928 (turn) | -18.8 / fx -52.9 |
-| 115 | 242.16 | INDIO | May tip pa. | -0.3 | 0.470 / 0.928 | 144 | 5.08 | 0.34 | - | replace:tip pa->tipa | Indio similarity 0.928 (turn) | -15.9 / fx -58.0 |
-| 116 | 243.11 | INDIO | Galing kay M. | +0.6 | 0.921 / 0.921 | 125 | 5.13 | 0.36 | - | replace:em->m | Indio similarity 0.921 (turn) | -17.2 / fx -56.0 |
-| 117 | 244.31 | INDIO | "Basahin mo nang malakas ang susunod." | -0.7 | 0.951 / 0.953 | 99 | 6.42 | 0.42 | - | - | ok | -16.7 / fx -65.2 |
-| 118 | 246.53 | INDIO | Sino ka ba, M? | -0.5 | 0.863 / 0.953 | 110 | 3.38 | 0.35 | - | - | ok | -14.6 |
-| 119 | 248.82 | INDIO | Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik? | +0.5 | 0.955 / 0.955 | 125 | 6.20 | 0.81* | - | - | ok | -19.2 |
+| 103 | 221.07 | TAGAPAGSALAYSAY | Bumalik si Indio sa kasalukuyan. | -0.2 | 0.959 / 0.972 | 108 | 5.97 | 0.39 | - | - | pace 5.97 | -21.1 / fx -64.6 |
+| 104 | 223.45 | TAGAPAGSALAYSAY | Sa braso niya, may pangalawa nang marka. | +0.3 | 0.932 / 0.972 | 99 | 5.51 | 0.37 | - | - | pace 5.51 | -21.1 |
+| 105 | 226.19 | INDIO | Aray. | -0.5 | 0.833 / 0.970 | 106 | 5.88 | 0.38 | - | replace:aray->arai | first word | -20.2 |
+| 106 | 226.89 | INDIO | Dalawa na. | -0.5 | 0.873 / 0.970 | 104 | 7.69 | 0.36 | - | - | ok | -19.4 |
+| 107 | 227.79 | INDIO | At wala na akong pancit. | +0.5 | 0.940 / 0.970 | 126 | 5.06 | 0.38 | E | replace:pansit->pan sit | end clipped? | -20.1 |
+| 108 | 229.72 | INDIO | Tapis na lang. | +0.6 | 0.959 / 0.973 | 109 | 5.33 | 0.35 | - | - | ok | -17.2 |
+| 109 | 230.84 | INDIO | Paano ko ipapaliwanag 'to sa app? | +0.6 | 0.961 / 0.973 | 134 | 6.98 | 0.37 | - | - | ok | -18.9 |
+| 110 | 232.90 | INDIO | "Kinain po ng daga, noong 1762." | +0.6 | 0.956 / 0.973 | 119 | 4.97 | 0.34 | - | delete:mil siyete syentos sesentay dos-> | ok | -17.8 |
+| 111 | 236.72 | TAGAPAGSALAYSAY | Kinansela ng app ang order. | +0.1 | 0.947 / 0.982 | 104 | 5.52 | 0.40 | - | replace:kinansela->kinansila | pace 5.52, first word | -20.8 / fx -55.2 |
+| 112 | 238.73 | TAGAPAGSALAYSAY | Pero may isa pang dumating. | -0.2 | 0.976 / 0.982 | 104 | 6.34 | 0.38 | - | - | pace 6.34 | -22.2 / fx -55.4 |
+| 113 | 240.54 | INDIO | Teka. | -0.5 | 0.614 / 0.928 | 102 | 5.88 | 0.39 | - | - | Indio similarity 0.928 (turn) | -20.2 / fx -50.6 |
+| 114 | 241.25 | INDIO | "Delivered." | -0.0 | 0.736 / 0.928 | 102 | 7.02 | 0.37 | - | - | Indio similarity 0.928 (turn) | -18.9 / fx -52.8 |
+| 115 | 242.16 | INDIO | May tip pa. | -0.3 | 0.470 / 0.928 | 144 | 5.08 | 0.34 | - | replace:tip pa->tipa | Indio similarity 0.928 (turn) | -16.4 / fx -57.9 |
+| 116 | 243.11 | INDIO | Galing kay M. | +0.6 | 0.921 / 0.921 | 125 | 5.13 | 0.36 | - | replace:em->m | Indio similarity 0.921 (turn) | -18.6 / fx -61.8 |
+| 117 | 244.31 | INDIO | "Basahin mo nang malakas ang susunod." | -0.7 | 0.951 / 0.953 | 99 | 6.42 | 0.42 | - | - | ok | -16.9 / fx -66.3 |
+| 118 | 246.53 | INDIO | Sino ka ba, M? | -0.5 | 0.863 / 0.953 | 110 | 3.38 | 0.35 | - | - | ok | -15.1 |
+| 119 | 248.82 | INDIO | Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik? | +0.5 | 0.955 / 0.955 | 125 | 6.20 | 0.81* | - | - | ok | -19.0 |
 
 ## Worst first: what a listener would notice
 
@@ -155,5 +155,4 @@ Columns: **dLU** = line loudness minus that speaker's median; **sim** = speaker 
 
 
 ## Mix (after the build)
-(Measured on the build of the earlier assembly of 16 Nov; the line times moved by at most 0.16 s, so the bed column is from that mix.)
-Built at 720x1280 with sound.json rules_v2: final file -16.08 LUFS, true peak -1.83 dBTP. Bed under the voice: median -18.1 dB per line, worst -14.0 dB (at the limit, no line above it); between words -14.6 dB. Effects during spoken lines: worst -34.7 dB under the voice (effects are ducked under words).
+Rebuilt at 720x1280 on the re-assembled narration (16 Nov, new take of "Galing kay M."), sound.json rules_v2: story -16.08 LUFS, true peak -1.82 dBTP; with the trivia at the end 291.2 s, -16.05 LUFS, true peak -2.29 dBTP. Bed under the voice: median -18.1 dB per line, worst -14.0 dB (at the limit, no line above it); between words -14.6 dB. Effects during spoken lines: worst -34.7 dB under the voice.
