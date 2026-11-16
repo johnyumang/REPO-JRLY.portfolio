@@ -7,7 +7,9 @@
 - **bk_24** corrected in code: the white front paw and the white chin tuft darkened to Usman's black (the white chest patch stays; it is in his cast line).
 - **bk_18** corrected in code: the pseudo-letters on the medal rim smoothed into a plain raised rim.
 - **Backpack colour:** the earlier note "cast sheet says brown" was this audit's briefing error. `characters/series_cast.json` named no colour; it now says "a small charcoal backpack", which is what all 51 stills show.
-- Not redrawn: the empty-classroom stills (bk_48 at 94-104 s, bk_13/bk_17 around 65-69 and 114-117 s) against the full class in bk_10; each would need a new draw with a crowd of children, which the picture service has refused or cloned before, so they are left and reported.
+- **Empty classroom (central's second list):** bk_09, bk_12, bk_14, bk_17, bk_45, bk_48 and bk_51 were re-framed in code from the same paintings: cropped closer on the speaker, and the room behind the speaker blurred and darkened by depth, so the empty desks no longer read against the full class of bk_10. No new drawing.
+- **bk_18** the medal boy's hair darkened from brown to black; **bk_31** Ma'am Celia's blouse graded from cream to her yellow; **bk_22** re-framed lower so Indio's face is not cut at the chin.
+- **bk_52** Lolo does wear his glasses in this close-up (thin wire frames, eyes lowered); nothing changed.
 
 
 Audit C. Method: the 20 redrawn / mirrored stills (04, 05, 06, 08, 09, 13, 16, 20, 23, 24, 25, 26, 30, 32, 35, 36, 37, 43, 44, 47) and the 5 stills with code-added writing (09, 14, 40, 42, 53) were looked at whole, then every hand, small face, animal and wrist was cropped at 3x (`/opt/work/build/ep10v2/audit_crops_c/C_NN_*.jpg`, contact sheets `sheet_NN_*.jpg`) and looked at again. The other 31 rows are carried over, condensed, from `audit_A.md` / `audit_B.md` and were NOT re-inspected (marked "carried"). Pixel areas are (x0-x1, y0-y1) in the 768x1344 still. "Own left/right" = the character's own side. bk_41 and bk_46 do not exist.

@@ -88,19 +88,22 @@
  "13": {
   "fx": [],
   "move": "push_in",
-  "why": "the dog's nose leads us"
+  "why": "the dog's nose leads us",
+  "sub_v": 220
  },
  "14": {
   "fx": [],
   "move": "push_in",
   "why": "the dog's nose leads us",
-  "key": 13
+  "key": 13,
+  "sub_v": 220
  },
  "15": {
   "fx": [],
   "move": "push_in",
   "why": "the dog's nose leads us",
-  "key": 13
+  "key": 13,
+  "sub_v": 220
  },
  "16": {
   "fx": [],
@@ -203,13 +206,15 @@
  "34": {
   "fx": [],
   "move": "push_in",
-  "why": "toward his Lolo's book"
+  "why": "toward his Lolo's book",
+  "sub_v": 160
  },
  "35": {
   "fx": [],
   "move": "push_in",
   "why": "toward his Lolo's book",
-  "key": 34
+  "key": 34,
+  "sub_v": 160
  },
  "36": {
   "fx": [],
@@ -275,9 +280,7 @@
   "why": "he talks to the dog"
  },
  "47": {
-  "fx": [
-   "punch"
-  ],
+  "fx": [],
   "move": "hold",
   "why": "the chant comes down"
  },
@@ -559,7 +562,8 @@
  "96": {
   "fx": [],
   "move": "push_in",
-  "why": "ends on Lolo's warning"
+  "why": "ends on Lolo's warning",
+  "sub_v": 250
  },
  "97": {
   "fx": [],
