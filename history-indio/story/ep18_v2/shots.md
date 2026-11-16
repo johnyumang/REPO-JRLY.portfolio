@@ -1,5 +1,7 @@
 # Shots — Episode 18 (version 2)
 
+Revised for rule 9 (the storyteller tells every action in a full sentence): shots that were silent now carry a storyteller line; the pictures themselves do not change.
+
 One row per shot, in order. "Sent." = index in `sentences.json` (94 sentences). All stills NEW in the Bakunawa
 look; writing in pictures is added in code. Nobody just standing; never the same framing twice in a row.
 

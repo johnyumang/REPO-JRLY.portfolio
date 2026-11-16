@@ -451,3 +451,58 @@ happening is a fault. The table is `pipeline/CAMERA.md`. In every `shots.md`:
   plainly that Indio does not know who it is, so the viewer knows it is a mystery and not a mistake.
 - Every cause is said: why he is there, why they fear him, why they let him go.
 - Each story stays under 4:00; make room by cutting storyteller words that repeat what a character says right after.
+
+## 13. Running lists, Episodes 13 to 18 (batch 3; continues section 9)
+
+| Ep | Today-thing (status) | Hook (kind) | Fall | Friend | Gained / lost | Hero line |
+|---|---|---|---|---|---|---|
+| 13 | karaoke/videoke; Roberto del Rosario's patent certain, "inventor" disputed: "sabi nila" | his own drunk shout as the Bakunawa turns away (the gift fails in public) | he films instead of looking; the Bakunawa is lost | Mang Laon, fisherman | Ang Kalakal (Kolambu's), dim; no knot | none; diwa of Kolambu (invented) |
+| 14 | the vulcanizing shop (the word, from Vulcan): two sources | "Ilusyon lang ang hawak mo, Mister Bracken." as M walks out (everyone leaves him) | he lies to M, the map goes blank; he grabs the bronze before helping, the lamp dies | Ambing, a founder's son | Ang Dagat, cold; the kapre's word (no knot: M is gone); M lost | Sulayman, a rendering in substance (not a quote) |
+| 15 | pandesal (Spanish "pan de sal"): two sources | "Ang anino niya! May buntot! Siyam!" (a tempter unmasked) | he takes the fox's cup; Ang Dagat goes cold, stranded with a child | Totoy (plant: "Nagtatayo ng pader") | Ang Daan Pauwi; the cars and their debt left with JM; no jump, no Usman | none (no word of Paduka Pahala survives); diwa (invented) |
+| 16 | "suki" (Hokkien): one source read, one seen as a summary | "Sino ang babaeng 'yon, Indio?!" (caught keeping a secret) | he lies about the fox; the kappa throws him in a canal | Kichi, jar boy | Ang Lihim (Magat Salamat's) and the bow; knot 3, the kappa; "Tubal" first said | none; diwa (invented) |
+| 17 | the balikbayan box (1980s; the 1987 tax order, simplified): re-read the order | Rico live: "Salamat, Sir Tubal!" (his find stolen on camera; Rico first NAMED) | the lens snatched from the roofs; the crate behind a locked gate | Nell, reading-room cleaner | Ang Agos (Lakandula's); knot 4, Lundag; lens lost and returned | NONE: Rizal is seen far off, silent (curator's ruling) |
+| 18 | the tiangge (from "tianguis", Nahuatl): "sabi nila"; one dictionary check before the build | "Bitawan mo siya! Hindi siya magnanakaw!" (he attacks the wrong one) | pinned by the jaguar he tackled, pelted by the children | Lupita, bridge girl | Ang Piging (Tupas's); knot 5, the nahual; Ang Kalakal relights; medallions now in a bag | none (Urdaneta silent); diwa (invented) |
+
+**Plants made in 13 to 18 that later scripts must pay:** the Bakunawa unbeaten and his selfie clip (13); the
+woman with the golden cup, unknown to Indio (13 picture, 14 spoken); JM's unread tyre receipt (14, picture);
+the tall man who knows "Bracken", three slanted strokes on his tie (14), named "Tubal" by M (16); the kapre's
+word (14); Totoy's father "building a wall" and Totoy now living with Lola Ising (15); the fox was paid by
+someone unknown (15, 16); the Lola's admission and the father who "went to search and did not come home" (15);
+the powers of Ang Lihim and the bow (16); Rico Bulan named, "Sir Tubal" (17); Ang Agos unused (17); "Bukas na
+lang, Indio." (17); the toy galleon and the note not in M's hand (18).
+
+**Still to check before any build of 13 to 18:** Pigafetta's own text for the Mass (13: read only as search
+summaries); Sulayman's reported answer in Blair and Robertson (14); the dedication of Rizal's Morga (17: no
+quote is used, only the storyteller's summary); Executive Order 206 of 1987 (17); a dictionary for "tiangge"
+(18); the names JM, Ambing, Nell, Rico Bulan against living people. Episode 14's present-day part before the
+jump runs over a minute (rule 2 asks for 40 seconds) because the fall begins there.
+
+## 14. Running lists, Episodes 19 to 24 (batch 4; continues section 13)
+
+| Ep | Today-thing (status) | Hook (kind) | Fall | Friend | Gained / lost | Hero line |
+|---|---|---|---|---|---|---|
+| 19 | "tsismis" (Spanish "chismes"): one dictionary family, check a printed one | "Magsalita ka!" (he cannot speak when it counts) | he claims the medallions as his; no sound comes; the bag is taken | Bapa Usop, fisherman | Ang Tinig (Kudarat's); knot 6, the sarimanok; the map has dots again | Sultan Kudarat, a rendering of one sentence of his recorded speech (not a quote) |
+| 20 | lechon (Spanish "lechón"; Cebu's fame as reputation) | Rico's scream as the siyokoy take him (only he can pull the rival out) | the rival lifts the shield first; it is cold; Alcaín: "Ilusyon lang." | Buyong, spear boy | Ang Kalasag, the twelfth medallion; knot 7, the siyokoy; the seventh mark; the anting; M's map becomes the key | Lapulapu, "ganito raw ang sagot ng Mactan", a rendering of Pigafetta's report (not a quote) |
+| 21 | adobo (the name from "adobar"; the cooking older): two sources; the 1613 note in trivia has one | "Huwag mong isusubo!" (a warning at a feast) | the fog shuts, the rival is feasted, he sits to eat | Nanay Pacing | nothing won; Tala named as his ate; knot 2 used | none |
+| 22 | "kumusta" (Spanish "¿cómo está?"): check a printed dictionary | M shouting in broken words (he cannot understand the one he trusts) | every tongue breaks; both bronze gifts go dumb; Nuri lost in dust | Nuri, brick girl | the Ladrilyo with three slanted strokes; proof the hearing is his own | none: two verses read whole by the storyteller (Genesis 11:1 and 11:9, Ang Dating Biblia 1905) |
+| 23 | tsinelas (Spanish "chinela"): open a dictionary | the shield flattened under a giant's palm (a giant's blow) | wrong target: pinned, he accuses the man who hid them | Sami, shepherd boy | knot 8, the giant Gabon; Albo named as Tala's father; the paper signed Teodoro Bracken | none: one clause read word for word (Genesis 6:4, Ang Dating Biblia 1905) |
+| 24 | "tingi": origin weak, "sabi nila" | "Indio! Bitawan mo ang kopa!" (the one he loves is taken) | he touches the cup; M drops into a net; the city starts to sink | Ilos, harbour boy; Ma'am Celia on a call | Ang Tabò ng Bukal; knot 9, the Pugita; Sinag named | none |
+
+**Rulings added in batch 4:** from Episode 19, with Ang Tinig his TRUE words are understood in any tongue; from
+Episode 20, M's map is the bronze key, the key opens a lagusan (and, read aloud, a story's page), M is "ang
+gabay niyang may pulang payong", and where a lagusan is open Usman has a body; the medallions stay "hiram" and
+go back when the work is done; knots are allies and are counted apart from medallions (twelve with M's own).
+
+**Plants made in 19 to 24:** Federico of Grade 5 is Rico (19); the vow to return every medallion (19, 20); the
+one dark slot of the anting (20); "Indio, anak ko." (20); the mother behind the fog, who ate there and cannot
+come out; Tala can reach only its edge (21); "Nakita ko ang tatay mo sa'yo" (21); the stamped brick and the tall
+builders who smell like Tala (22); Albo's "Itinago ko sila" and "Hindi pa ngayon"; the paper signed Teodoro
+Bracken; "Anak ng hukbo… ipinagbabawal" (23); "Ikaw ang susunod na mahuhulog." to M; the unspent salok (24).
+
+**Hold for the owner's read before voicing:** Episodes 22 and 23 (scripture), as with Episode 9.
+
+**Still to check before any build of 19 to 24:** the fuller text of Kudarat's speech and the 1639 expedition
+(19); Pigafetta in full for Mactan (20); the 1613 dictionary page for adobo (21); a second source for
+Etemenanki (22 trivia); 1 Enoch 6 in a full text and a dictionary for "chinela" (23); Plato's Timaeus and Critias
+in Jowett (24: only summaries were reachable); the names Bapa Usop, Buyong, Nanay Pacing, Tala, Nuri, Sami,
+Ilos against living people; "Bapa" as the Maranao form of address.
