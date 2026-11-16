@@ -68,8 +68,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Natanggal si Indio sa trabaho, kaya umuwi siya sa Lola niya sa Kawit.",
-  "say": "natanggal si indio sa trabaho, kaya umuwi siya sa lola niya sa KAwit.",
+  "text": "Natanggal si Indio sa trabaho, kaya umuwi siya sa Kawit, kay Lola Ising, ang biyuda ng Lolo niya.",
+  "say": "natanggal si indio sa trabaho, kaya umuwi siya sa KAwit, kay lola Ising, ang biyuda ng lolo niya.",
   "style": "calm",
   "pre": 0,
   "pause": 0.5,
@@ -119,16 +119,16 @@
   "speaker": "LOLA ISING"
  },
  {
-  "text": "Iniabot ni Lola ang isang lumang kahon.",
-  "say": "iniabot ni lola ang isang lumang kahon.",
+  "text": "Iniabot ni Lola ang lumang kahon ng Lolo niya.",
+  "say": "iniabot ni lola ang lumang kahon ng lolo niya.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Kasyang-kasya ang medalyon niya.",
-  "say": "kasyang-kasya ang medalyon niya.",
+  "text": "Kasyang-kasya roon ang medalyon.",
+  "say": "kasyang-kasya roon ang medalyon.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -199,6 +199,14 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Sa tabi niya, lumitaw si Usman, ang asong itim na siya lang ang nakakarinig.",
+  "say": "sa tabi niya, lumitaw si usman, ang asong itim na siya lang ang nakakarinig.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Ang daming tao, par.",
   "say": "ang daming tao, par.",
   "style": "playful",
@@ -231,8 +239,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "May batang hirap sa isang malaking tambol: si Tinong.",
-  "say": "may batang hirap sa isang malaking tambol: si tiNONG.",
+  "text": "May batang hirap sa isang malaking tambol: si Tinong, ang pinakabatang tambolero ng banda.",
+  "say": "may batang hirap sa isang malaking tambol: si tiNONG, ang pinakabatang tambolero ng banda.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -338,22 +346,6 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kinapa niya ang leeg niya.",
-  "say": "kinapa niya ang leeg niya.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Wala.",
-  "say": "wala.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
   "text": "Wala ang akin!",
   "say": "wala ang akin!",
   "style": "angry",
@@ -378,6 +370,22 @@
   "speaker": "USMAN"
  },
  {
+  "text": "Hinila niya ang tali sa leeg ng bata.",
+  "say": "hinila niya ang tali sa leeg ng bata.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Nakita ito ng isang tinderang katabi.",
+  "say": "nakita ito ng isang tinderang katabi.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Magnanakaw!",
   "say": "magnanakaw!",
   "style": "shout",
@@ -394,17 +402,9 @@
   "speaker": "TINDERA"
  },
  {
-  "text": "Hinila niya ang tali sa leeg ng bata.",
-  "say": "hinila niya ang tali sa leeg ng bata.",
+  "text": "Itinulak siya ng mga tao palabas ng bakuran.",
+  "say": "itinulak siya ng mga tao palabas ng bakuran.",
   "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Kaya itinulak siya ng mga tao palabas ng bakuran.",
-  "say": "kaya itinulak siya ng mga tao palabas ng bakuran.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -598,14 +598,6 @@
   "speaker": "TINDERA"
  },
  {
-  "text": "Nahati ang mga tao, at pinadaan siya hanggang sa harap.",
-  "say": "nahati ang mga tao, at pinadaan siya hanggang sa harap.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
   "text": "Kanina pinalabas ka.",
   "say": "kanina pinalabas ka.",
   "style": "playful",
@@ -678,8 +670,8 @@
   "speaker": "TINONG"
  },
  {
-  "text": "Isang matandang lalaki ang bumasa ng kasulatan.",
-  "say": "isang matandang lalaki ang bumasa ng kasulatan.",
+  "text": "Si Ambrosio Rianzares Bautista, ang sumulat ng kasulatan, ang bumasa nito.",
+  "say": "si ambrosio rianzares bautista, ang sumulat ng kasulatan, ang bumasa nito.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -738,6 +730,14 @@
  {
   "text": "Tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
   "say": "tapos nawala ito sa dami ng tao, karga ng isang babaeng hindi niya nakita ang mukha.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hindi niya alam kung sino sila.",
+  "say": "hindi niya alam kung sino sila.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
