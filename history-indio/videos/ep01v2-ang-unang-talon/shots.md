@@ -5,7 +5,7 @@
 | # | Sent. | First line | Still | Camera move (+ way in) | Why |
 |---|---|---|---|---|---|
 | 1 | 0 | Nasaan ang cedula mo?! | bk_50 | dolly_in | he threatens: close, push hard |
-| 2 | 1 | Walang cedula, kaya may itak sa leeg k | bk_01 | hold + slash in | blade at neck: stay still |
+| 2 | 1 | Walang cedula, kaya may itak sa leeg k | bk_01c | hold + slash in | blade at neck: stay still |
 | 3 | 2-4 | Ako 'to si Indio. | old_k18 | pull_out + flash in | the dog leaps toward us |
 | 4 | 5-6 | Kaninang umaga, sa Quezon City, pumila | bk_04 | crane_down + fade in | opening: morning queue, Quezon City |
 | 5 | 7 | Wala pala akong cedula, 'yung resibo n | bk_05 | push_in | he hands in his papers |
@@ -29,29 +29,29 @@
 | 23 | 36-39 | Siya si Islaw. | bk_17 | dolly_in | meet the boy who blocks him |
 | 24 | 40-43 | Lumapit ang pinuno ng mga bantay, isan | bk_45 | push_in | the guard chief demands papers |
 | 25 | 44-45 | Cedula? | bk_18 | hold | caught out, he looks at us |
-| 26 | 46-48 | Walang papel, walang kakilala. | bk_19 | tilt_down | from tied wrists to bread |
+| 26 | 46-48 | Walang papel, walang kakilala. | bk_19 | tilt_up | up from bread to tied wrists |
 | 27 | 49 | Idinikit ang itak sa leeg niya. | fix_s24 | hold | the blade at his neck |
 | 28 | 50-51 | Unang araw ko sa nakaraan. | bk_46 | push_in | he whispers to us |
 | 29 | 52-54 | Par. | bk_21 | push_in | Usman speaks low, close |
 | 30 | 55-58 | Wala akong cedula. | bk_22 | hold | the confession: plain, still |
 | 31 | 59-62 | Natigilan ang bata. | bk_68 | push_in | the boy falters, close |
-| 32 | 63-64 | Saka lumapit ang mga aso ng kampo. | bk_24 | push_in | the dogs settle around him |
-| 33 | 65-66 | Kinausap ko sila. | fix_s30 | hold | Usman takes the credit |
+| 32 | 63-64 | Saka lumapit ang mga aso ng kampo. | bk_71 | hold | the dogs settle around him |
+| 33 | 65-66 | Kinausap ko sila. | bk_72 | hold | Usman takes the credit |
 | 34 | 67-68 | Hindi tumatahimik ang aso sa espiya. | bk_64 | hold | free: the rope on the ground |
-| 35 | 69-71 | Sino ka ba talaga? | fix_s32 | pull_out | he walks at us, dogs follow |
+| 35 | 69-71 | Sino ka ba talaga? | bk_70 | pull_out | he walks at us, dogs follow |
 | 36 | 72 | Sa gilid ng liwanag, may mag-asawang n | bk_63 | tilt_up + fade in | from the dark up to the couple |
 | 37 | 73-74 | Ang babae, si Oriang. | bk_40 | push_in | tender: very slow, close |
 | 38 | 75-77 | Kapag pinunit mo 'yan, wala na tayong  | bk_65 | push_in | foreheads together, held close |
 | 39 | 78 | Huwag kang tumitig, par. | bk_42 | hold | Indio and Islaw watching |
 | 40 | 79-81 | Humakbang ang lalaki sa liwanag, at it | fix_s37 | tilt_up | he steps up: end on face |
-| 41 | 82 | Punitin ang mga cedula! | bk_43 | dolly_in | the cry: push in, then still |
+| 41 | 82 | Punitin ang mga cedula! | bk_43 | hold | the cry: still on the words |
 | 42 | 83 | Mabuhay ang Pilipinas! | bk_44 | push_in | the cedula torn in two |
 | 43 | inside 83 | the crowd tears its papers | bk_30 | crane_up | the crowd answers |
-| 44 | 84-85 | Buwis namin 'yan sa Kastila. | bk_31 | hold | the boy explains, plainly |
+| 44 | 84-85 | Buwis namin 'yan sa Kastila. | fix_s40 | hold | the boy explains, plainly |
 | 45 | 86 | 'Yung papel na kulang sa akin kaninang | bk_32 | push_in | he understands, looking up |
 | 46 | 87 | Walang mapunit si Islaw, kaya kamao na | bk_33 | tilt_up | up to the raised fists |
 | 47 | 88 | Kuya, babalik ka ba? | bk_34 | pull_out | Indio leaving, boy reaching |
-| 48 | 89-91 | Bago pa siya makasagot, lumamig ang me | bk_35 | pull_out + flash in | Usman fades into light |
+| 48 | 89-91 | Bago pa siya makasagot, lumamig ang me | fix_s44 | pull_out + flash in | Usman fades into light |
 | 49 | 92-94 | Quezon City ulit. | bk_61 | crane_down + flash in | back in Quezon City, alone |
 | 50 | 95-99 | Pero sa braso ni Indio, may guhit na u | bk_36 | push_in | closer to the fresh mark |
 | 51 | 100 | Sa kabilang kalye, may babaeng nakatit | bk_37 | push_in | the woman watching him |
