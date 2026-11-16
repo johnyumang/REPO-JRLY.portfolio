@@ -1,5 +1,18 @@
 # CONSISTENCY — ep10v2 Batang Indio, 51 stills (`full/bk_NN.jpg`, 768x1344)
 
+## Corrections after this audit (16 Nov, on central's list)
+
+- **bk_32** redrawn (draw c13): Usman's own right ear folded, left ear up; hero's left hand 4 fingers + thumb, right hand resting on the dog; handkerchief on the left wrist. Replaces the code-painted ear.
+- **bk_35** redrawn (draw c8): topknot on top of the head (no ponytail), handkerchief on the left wrist, one person, no dog.
+- **bk_24** corrected in code: the white front paw and the white chin tuft darkened to Usman's black (the white chest patch stays; it is in his cast line).
+- **bk_18** corrected in code: the pseudo-letters on the medal rim smoothed into a plain raised rim.
+- **Backpack colour:** the earlier note "cast sheet says brown" was this audit's briefing error. `characters/series_cast.json` named no colour; it now says "a small charcoal backpack", which is what all 51 stills show.
+- **Empty classroom (central's second list):** bk_09, bk_12, bk_14, bk_17, bk_45, bk_48 and bk_51 were re-framed in code from the same paintings: cropped closer on the speaker, and the room behind the speaker blurred and darkened by depth, so the empty desks no longer read against the full class of bk_10. No new drawing.
+- **bk_18** the medal boy's hair darkened from brown to black; **bk_31** Ma'am Celia's blouse graded from cream to her yellow; **bk_22** re-framed lower so Indio's face is not cut at the chin.
+- **bk_52** Lolo's wire glasses drawn heavier in code so they read at phone size.
+- **bk_09** re-framed again to the blackboard only (the lone child painted out, no desks in frame); the chalk words set again in code, larger, on two lines.
+
+
 Audit C. Method: the 20 redrawn / mirrored stills (04, 05, 06, 08, 09, 13, 16, 20, 23, 24, 25, 26, 30, 32, 35, 36, 37, 43, 44, 47) and the 5 stills with code-added writing (09, 14, 40, 42, 53) were looked at whole, then every hand, small face, animal and wrist was cropped at 3x (`/opt/work/build/ep10v2/audit_crops_c/C_NN_*.jpg`, contact sheets `sheet_NN_*.jpg`) and looked at again. The other 31 rows are carried over, condensed, from `audit_A.md` / `audit_B.md` and were NOT re-inspected (marked "carried"). Pixel areas are (x0-x1, y0-y1) in the 768x1344 still. "Own left/right" = the character's own side. bk_41 and bk_46 do not exist.
 
 Totals: REDRAW 1 · MINOR 19 · OK 31.

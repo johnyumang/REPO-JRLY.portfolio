@@ -22,19 +22,22 @@
  "2": {
   "fx": [],
   "move": "push_in",
-  "why": "closing in on his confession"
+  "why": "closing in on his confession",
+  "sub_v": 270
  },
  "3": {
   "fx": [],
   "move": "push_in",
   "why": "closing in on his confession",
-  "key": 2
+  "key": 2,
+  "sub_v": 270
  },
  "4": {
   "fx": [],
   "move": "push_in",
   "why": "closing in on his confession",
-  "key": 2
+  "key": 2,
+  "sub_v": 270
  },
  "5": {
   "fx": [],
@@ -49,25 +52,25 @@
  },
  "7": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "trans_in": "fade"
  },
  "8": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
  "9": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
  "10": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "settles behind the tree",
   "key": 7
  },
@@ -85,19 +88,22 @@
  "13": {
   "fx": [],
   "move": "push_in",
-  "why": "the dog's nose leads us"
+  "why": "the dog's nose leads us",
+  "sub_v": 220
  },
  "14": {
   "fx": [],
   "move": "push_in",
   "why": "the dog's nose leads us",
-  "key": 13
+  "key": 13,
+  "sub_v": 220
  },
  "15": {
   "fx": [],
   "move": "push_in",
   "why": "the dog's nose leads us",
-  "key": 13
+  "key": 13,
+  "sub_v": 220
  },
  "16": {
   "fx": [],
@@ -140,7 +146,8 @@
  "23": {
   "fx": [],
   "move": "tilt_down",
-  "why": "ends on the neat boy"
+  "why": "down to the chalk question",
+  "sub_v": 900
  },
  "24": {
   "fx": [],
@@ -200,24 +207,28 @@
  "34": {
   "fx": [],
   "move": "push_in",
-  "why": "toward his Lolo's book"
+  "why": "toward his Lolo's book",
+  "sub_v": 160
  },
  "35": {
   "fx": [],
   "move": "push_in",
   "why": "toward his Lolo's book",
-  "key": 34
+  "key": 34,
+  "sub_v": 160
  },
  "36": {
   "fx": [],
   "move": "hold",
-  "why": "his eyes do not waver"
+  "why": "his eyes do not waver",
+  "sub_v": 230
  },
  "37": {
   "fx": [],
   "move": "hold",
   "why": "his eyes do not waver",
-  "key": 36
+  "key": 36,
+  "sub_v": 230
  },
  "38": {
   "fx": [],
@@ -261,9 +272,8 @@
  },
  "45": {
   "fx": [],
-  "move": "rack_focus",
-  "why": "ends on the medal inside",
-  "focus_to": "far"
+  "move": "push_in",
+  "why": "the medal goes to him"
  },
  "46": {
   "fx": [],
@@ -271,9 +281,7 @@
   "why": "he talks to the dog"
  },
  "47": {
-  "fx": [
-   "punch"
-  ],
+  "fx": [],
   "move": "hold",
   "why": "the chant comes down"
  },
@@ -391,19 +399,22 @@
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "dof": "far"
+  "dof": "far",
+  "sub_v": 380
  },
  "68": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "key": 67
+  "key": 67,
+  "sub_v": 380
  },
  "69": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "key": 67
+  "key": 67,
+  "sub_v": 380
  },
  "70": {
   "fx": [],
@@ -470,7 +481,8 @@
  "81": {
   "fx": [],
   "move": "hold",
-  "why": "the paper changes hands"
+  "why": "the paper changes hands",
+  "sub_v": 350
  },
  "82": {
   "fx": [],
@@ -518,7 +530,7 @@
  },
  "90": {
   "fx": [],
-  "move": "crane_down",
+  "move": "tilt_down",
   "why": "ends on the buried tin"
  },
  "91": {
@@ -551,7 +563,8 @@
  "96": {
   "fx": [],
   "move": "push_in",
-  "why": "ends on Lolo's warning"
+  "why": "ends on Lolo's warning",
+  "sub_v": 250
  },
  "97": {
   "fx": [],

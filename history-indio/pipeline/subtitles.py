@@ -42,13 +42,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for s in timings:
         if tag and s.get('speaker'):                                                         # colour per speaker (ASS colours are &HBBGGRR)
             col = TAG_COLOURS[order.index(s['speaker']) % len(TAG_COLOURS)]; name = s['speaker'] + (' (SA ATIN)' if s.get('aside') else '')
-            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,{790 if s.get('style') == 'shout' else (s['sub_v'] + 92 if s.get('sub_v') else 0)},,{{\\c{col}}}{name}")
+            lines.append(f"Dialogue: 1,{ts(s['start'])},{ts(s['end'] + 0.12)},Who,,0,0,{(s['sub_v'] + 150 if s.get('sub_v') else 790) if s.get('style') == 'shout' else (s['sub_v'] + 92 if s.get('sub_v') else 0)},,{{\\c{col}}}{name}")
         shout = tag and s.get('style') == 'shout'                                            # big type: shorter chunks so a shout stays inside the frame
         cs = chunks(s['text'].replace('\n', ' ').split(), *((15, 3) if shout else ())); total = sum(len(' '.join(c)) for c in cs); t = s['start']
         for i, c in enumerate(cs):
             txt = ' '.join(c); d = (s['end'] - s['start']) * len(txt) / total; end = s['end'] if i == len(cs) - 1 else t + d
             st = 'Shout' if shout else 'Sub'                   # a shouted line of a multi-voice episode: big, centred
-            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},{st},,0,0,{0 if shout else s.get('sub_v', 0)},,{txt.upper()}")   # "sub_v" (shots_fx): this line's subtitle at another height (bottom margin, of 1920), e.g. lower when a face sits in the band
+            lines.append(f"Dialogue: 0,{ts(t)},{ts(end + (0.12 if i == len(cs) - 1 else 0))},{st},,0,0,{s.get('sub_v', 0)},,{txt.upper()}")   # "sub_v" (shots_fx): this line's subtitle at another height (bottom margin, of 1920), e.g. lower when a face sits in the band
             t = end
     # no fade-in: a 40 ms fade left one half-transparent frame per page, seen as a ghost subtitle on a pause (owner, Ep17, 14 Nov)
     open(path, 'w', encoding='utf-8').write(head + '\n'.join(lines) + '\n'); return len(lines)

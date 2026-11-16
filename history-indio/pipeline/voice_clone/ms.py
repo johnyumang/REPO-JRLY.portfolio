@@ -24,7 +24,7 @@ def parse_script(script):
         line = line.strip()
         if not line: scene += 1 if S else 0; continue
         if line.startswith('#') or line.startswith('('): continue          # a (stage line) is what the picture shows, never spoken
-        m = re.match(r'^([A-Za-z_\u00d1\u00f1 .\'-]+?)\s*(\([^)]*\))?\s*:\s*(.+)$', line)   # "INDIO (sa atin): ..." = INDIO, an aside
+        m = re.match(r'^([A-Za-z_\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff .\'-]+?)\s*(\([^)]*\))?\s*:\s*(.+)$', line)   # "INDIO (sa atin): ..." = INDIO, an aside
         assert m, 'not `NAME: [tone] text`: %r' % line
         spk = m.group(1).strip().upper(); turn += 1; cur = 'narrate'; body = m.group(3)
         for s in re.findall(r'[^.?!]+[.?!]+["\u201d]?', body + ('' if re.search(r'[.?!]["\u201d]?\s*$', body) else '.')):

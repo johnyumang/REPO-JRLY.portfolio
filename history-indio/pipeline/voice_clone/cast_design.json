@@ -970,7 +970,8 @@
    "f0_hz": [
     180,
     420
-   ]
+   ],
+   "kept": "description 0, seed 2 (d0s2)"
   },
   "ANG NAKAPUTI": {
    "descriptions": [
@@ -982,19 +983,23 @@
    "f0_hz": [
     75,
     220
-   ]
+   ],
+   "kept": "description 1, seed 1 (d1s1)"
   },
   "YÚMUD": {
    "descriptions": [
     "A very old, slow, deep and gentle voice of an ancient river guardian, low and grainy like water over stones, calm and grave, never scary, Filipino accent",
-    "An ancient being with a deep, slow, wet and resonant voice, patient and grave, speaking softly from the river depths, Filipino accent"
+    "An ancient being with a deep, slow, wet and resonant voice, patient and grave, speaking softly from the river depths, Filipino accent",
+    "An ancient water spirit with a hoarse, breathy, whispery old voice like wind over a river, airy and rasping, slow and gentle, more breath than tone, Filipino accent",
+    "A very old, thin, crackling voice of a river guardian, dry and rasping like reeds, quiet and patient, high-pitched for an old man, Filipino accent"
    ],
    "ref_text": "Matagal na akong nakatira sa ilalim ng ilog na ito. Binabantayan ko ang mga bangkang lumubog, at ang mga pangakong kasama nila. Hindi ako kumukuha ng buhay. Ibinabalik ko lang ang hindi sa inyo.",
    "sample": "Hindi ako ang kaaway mo.",
    "f0_hz": [
     60,
     200
-   ]
+   ],
+   "kept": "description 2, seed 5 (d2s5), then pitched down 4 semitones (rubberband, formant shifted) to keep it under 0.90 to the storyteller, the diwa and Indio; the shifted clip is the reference"
   }
  }
 }
