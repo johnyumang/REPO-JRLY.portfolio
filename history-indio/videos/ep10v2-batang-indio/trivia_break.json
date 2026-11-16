@@ -1,0 +1,86 @@
+{
+ "fact_id": "ep10v2_end",
+ "fact_english": "The Code of Kalantiaw first appeared in papers supplied by José E. Marco around 1913; no older record mentions it. William Henry Scott examined it in 1968; in 2004 the National Historical Institute declared it has no historical basis. It was still taught in schools for decades. Who made it and why: per Scott and the Institute, Marco; nobody confessed and the motive is not certain.",
+ "label_onscreen": "KODIGO NI KALANTIAW",
+ "source_onscreen": "Pinagmulan: W. H. Scott (1968); National Historical Institute (2004)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? Peke ang Kodigo ni Kalantiaw?",
+   "emphasis": [
+    "peke"
+   ],
+   "say": "Totoo ba 'yon, par? Peke ang KOdigo ni kalanTYAW?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: lumitaw lang ang kodigo sa mga papeles ni José Marco bandang 1913.",
+   "emphasis": [
+    "1913"
+   ],
+   "say": "Tiyak: lumitaw lang ang kodigo sa mga papeles ni hoSE MARko bandang mil nuwebe syentos trese."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Walang mas lumang talang bumabanggit dito.",
+   "emphasis": [
+    "walang"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 1968, sinuri ito ng historyador na si William Henry Scott.",
+   "emphasis": [
+    "Scott"
+   ],
+   "say": "Noong mil nuwebe syentos sisentay otso, sinuri ito ng historyador na si WILyam HENri iSKAT."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 2004, idineklara ng National Historical Institute na wala itong batayan sa kasaysayan.",
+   "emphasis": [
+    "2004",
+    "batayan"
+   ],
+   "say": "Noong dos mil kuwatro, idineklara ng NAsyonal hisTOrikal INStityut na wala itong batayan sa kasaysayan."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Pero ilang dekada pa itong itinuro sa mga eskwela.",
+   "emphasis": [
+    "dekada"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh sino ang gumawa, at bakit?",
+   "emphasis": [
+    "sino"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ayon kay Scott at sa Institute, si Marco. Pero walang umamin, at hindi tiyak ang dahilan.",
+   "emphasis": [
+    "hindi tiyak"
+   ],
+   "say": "Ayon kay iSKAT at sa INStityut, si MARko. Pero walang umamin, at hindi tiyak ang dahilan."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umungol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 101,
+ "after_text": "Sinabi mo ba?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
+ "voice_note": "The script's long trivia lines are split so each caption fits; same words. Years are voiced as Spanish-derived numbers; Scott as 'iSKAT' as in the story."
+}
