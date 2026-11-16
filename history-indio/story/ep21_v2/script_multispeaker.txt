@@ -1,0 +1,130 @@
+# INDIO: ANG SAKSI — Episode 21, "Ang Ate sa Hamog" (version 2). Opens Season 3.
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to get through the fog to the woman's voice that called him "anak" (the last line of Episode 20),
+#   and to get there before Rico Bulan does.
+# SABI-SABI: "Sabi sa internet, nangunguha ng tao ang mga taga-Biringan." What he sees: the figure in the fog
+#   that he took for the one keeping him out is keeping him SAFE.
+# TWIST (BIBLE row 21): the enemy is the guard. Fall: the town feasts Rico's convoy while he leaves his own
+#   supper uneaten to be first; at the shore the fog will not open to his key and shuts thicker; the long
+#   coat he has seen since Butuan stands in it; hungry, he sits at a table that appears at the foot of the
+#   fog, and the coat's hand comes down on the bowl: barred from the door and from the food. Comeback: his
+#   own eye (Ang Malas), by the friend's rule ("kamay ang tinitingnan, hindi mukha"): the hand is not pulling
+#   him in, it writes "Huwag", in the same small slanted hand as the note left on his cloth in Acapulco
+#   (Episode 18). He says it: she is not barring him, she is guarding him. She steps out: "Ako si Tala. Ate
+#   mo ako." Show-off: the town fed Rico; Indio keeps him from the one supper that would cost him his way
+#   home (the second knot, the tikbalang, hides the road; its wage: he walks home). No confession is used.
+# What is said of the family here, and no more (BIBLE 4, 9, 14): she is Tala, his ate; outside the fog she is
+#   only a shadow; the note of Acapulco is hers; their mother cooked the food and waits; whoever eats there
+#   does not go home. NOT said: the mother's name, why they are there, Tala's father, Albo, where Papa went.
+#   The Lola's last line carries no number of marks (BIBLE 9.1).
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (only once the key opens the lagusan). M.
+# PACING (Nanay Pacing, invented old fisherwoman of an invented, unnamed baryo; "friend" voice, old woman).
+# TALA (invented; calm, low). LOLA (Lola Ising; the Season 1 voice).
+# No real figure of history appears: there is no hero line in this episode (facts.md). Rico Bulan is never
+#   seen: a convoy's lights and a feast heard from far (BIBLE 14.10).
+# Biringan is folklore: the friend says "ayon sa kuwento naming mga taga-Samar". No real town is named.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Samar=SAmar
+# SAY: Biringan=biRIngan
+# SAY: Pacing=PAsing
+# SAY: adobo=aDObo
+# SAY: adobar=adoBAR
+# SAY: Kastila=kasTIla
+# SAY: convoy=KONboy
+# SAY: vlogger=BLAger
+# SAY: Rico Bulan=RIko buLAN
+# SAY: engkanto=engKANto
+# SAY: lagusan=laguSAN
+# SAY: abrigo=aBRIgo
+# SAY: Butuan=buTUan
+# SAY: Acapulco=akaPULko
+# SAY: pahilig=pahiLIG
+# SAY: umungol=u-MU-ngol
+# SAY: tikbalang=tikBAlang
+# SAY: Tala=TAla
+# SAY: Kawit=KAwit
+# SAY: isusubo=isuSUbo
+
+# --- 0. Hook (cold, at 0.0, on the shout: a flash-forward of scene 3)
+(Gabi. Isang hapag sa paanan ng isang pader ng hamog. Si Indio, nakaupo, ang kutsara nasa labi na. Sa likod niya, isang matandang babaeng may gasera, sumisigaw, nakaunat ang kamay. Sa hamog, isang mahabang abrigo.)
+PACING: [shout] Huwag mong isusubo!
+INDIO (sa atin): [dramatic] Huwag ka raw kakain sa Biringan. Eh paano kung nanay mo ang nagluto?
+INDIO (sa atin): [dry] Ako 'to si Indio. Gutom na naman.
+
+# --- 1. Today (short, Indio's voice). He wants: to be first.
+TAGAPAGSALAYSAY: [calm] Ngayon. Isang baryo ng mangingisda sa Samar. Pinatuloy si Indio ni Nanay Pacing, isang matandang mangingisda.
+(Isang kusinang pawid sa tabi ng dagat, dapithapon. Isang palayok sa kalan. Si Indio at si M, may pulang payong, sa pinto. Isang matandang babaeng naghahalo ng ulam. Sa malayo, sa plasa, mga banderitas at ilaw.)
+PACING: [warm] Maupo kayo. Adobo. Malapit nang maluto.
+TAGAPAGSALAYSAY: [calm] Dito itinuro si Indio ng susi niyang tanso, at ng boses ng babaeng tumatawag sa kanya ng anak. Kasama niya si M, ang gabay niyang may pulang payong.
+INDIO (sa atin): [playful] Adobo: Kastila ang pangalan, galing sa "adobar", ibabad. Pero ang pagluluto sa suka, atin na bago pa sila dumating.
+INDIO (sa atin): [dry] Pinangalanan lang nila. Parang ako: Indio.
+(Sa bintana: isang hanay ng mga van na may ilaw, papasok sa plasa. Tugtugan. Mahabang mesa. Walang mukhang kita.)
+TAGAPAGSALAYSAY: [calm] Sa plasa, may handaan para sa convoy ni Rico Bulan, ang vlogger na laging nauuna kay Indio.
+INDIO: [urgent] Mauuna na naman siya! Mamaya na po ang adobo.
+
+# --- 2. The shore. He wants: the fog to open.
+TAGAPAGSALAYSAY: [low] Gabi, sa batuhan. Itinaas ni Indio ang susi, at bumukas ang isang lagusan ng liwanag. Mula roon lumabas si Usman, ang aso niyang nagsasalita.
+(Batuhan sa tabi ng dagat. Sa kamay ni Indio, isang susing tanso na nagliliwanag. Isang itim na aso ang tumalon mula sa liwanag. Si Nanay Pacing, may gasera at isang balot na dahon ng saging.)
+USMAN: [happy] Par! Amoy-adobo ka. Nasaan ang akin?
+INDIO: [dry] Hindi pa nga ako kumakain.
+PACING: [low] Ayon sa kuwento naming mga taga-Samar, diyan ang Biringan: lungsod ng mga engkanto, hindi nakikita. At sabi ng matatanda: ang kumain sa hapag nila, hindi na nakakauwi.
+INDIO (sa atin): [whisper] Sabi sa internet, nangunguha raw sila ng tao.
+PACING: [firm] Tandaan mo, iho. Sa dagat, kamay ang tinitingnan, hindi mukha. Kamay ang nagsasabi kung tutulong o hihila.
+(Sa dagat, isang pader ng hamog. Sa likod nito, malalabong ilaw. Itinapat ni Indio ang susi.)
+
+# --- 3. The fog shuts. THE FALL.
+TAGAPAGSALAYSAY: [low] Itinapat ni Indio ang susi sa pader ng hamog sa dagat. Hindi ito bumukas. Lalo pa itong kumapal.
+USMAN: [uneasy] Par. May nakatayo riyan.
+TAGAPAGSALAYSAY: [low] Isang aninong naka-abrigo, na sumusunod kay Indio mula pa sa Butuan. Hindi niya alam kung sino.
+INDIO: [angry] Ikaw na naman! Ikaw ang nagsara nito!
+(Mula sa plasa, malayo: tugtugan at tawanan. Nakatayo si Indio sa harap ng hamog, mag-isa.)
+INDIO (sa atin): [bitter] Si Rico, pinapakain ng buong bayan. Ako, pinagsarhan ng hamog.
+(Sa paanan ng hamog, lumitaw ang isang hapag: kanin, isang mangkok ng adobong umuusok, isang kutsara.)
+TAGAPAGSALAYSAY: [low] Sa paanan ng hamog, lumitaw ang isang hapag na may adobong umuusok.
+USMAN: [sniffing] Par. Kaamoy mo ang nagluto niyan.
+TAGAPAGSALAYSAY: [low] Gutom si Indio. Umupo siya at sumandok.
+PACING: [shout] Huwag mong isusubo!
+(Mula sa hamog, isang kamay na may mahabang manggas ang dumapo sa mangkok at tinakpan ito.)
+TAGAPAGSALAYSAY: [low] Mula sa hamog, isang kamay ang tumakip sa mangkok.
+INDIO: [angry] Pati ba naman sa pagkain?
+
+# --- 4. THE COMEBACK. He looks at the hand.
+INDIO: [quiet] Sandali. Kamay muna, sabi ni Nanay Pacing.
+(Tumingin si Indio. Hindi siya hinihila ng kamay. Sa hamog sa ibabaw ng mesa, isinusulat ng daliri nito ang isang salita, maliit at pahilig.)
+TAGAPAGSALAYSAY: [low] Hindi siya hinihila ng kamay. Sa hamog sa mesa, isinulat ng daliri nito: "Huwag."
+(Inilabas ni Indio mula sa bulsa ang isang lukot na papel at itinabi sa nakasulat.)
+TAGAPAGSALAYSAY: [low] Inilabas ni Indio ang sulat na may nag-iwan sa kanya sa Acapulco.
+INDIO: [steady] Maliit. Pahilig. Iisa ang sulat-kamay. Hindi mo ako hinaharangan. Binabantayan mo ako.
+USMAN: [soft] Hindi ako umungol, par. Kaamoy mo rin siya.
+(Humakbang ang abrigo hanggang sa gilid ng hamog: isang babae, mas matanda kay Indio, kamukha niya ang mga mata. Sa ere, tatlong segundo, ang hologram: tumaas ang KAALAMAN.)
+TAGAPAGSALAYSAY: [low] Humakbang ang naka-abrigo hanggang sa gilid ng hamog: isang babae.
+TALA: [warm] Ako si Tala. Ate mo ako.
+TALA: [low] Ako ang nagsara ng hamog. Luto 'yan ni Nanay, at hinihintay ka niya. Pero ang kumain dito, hindi na uuwi.
+M: [low] Kaya pala walang may-ari ang anino sa Butuan.
+TALA: [sad] Sa labas ng hamog, anino lang ako. Hindi pa ngayon, Indio.
+(Nagsara ang hamog; wala na si Tala. Sa daan sa itaas ng batuhan, papalapit ang mga ilaw ng convoy. Hinawakan ni Indio ang ikalawang buhol sa pulang tali sa pulso niya. Sa daan, isang mataas na aninong may ulo ng kabayo.)
+TAGAPAGSALAYSAY: [low] Nagsara ang hamog. Papalapit naman ang convoy. Hinawakan ni Indio ang ikalawang buhol sa pulang tali niya: ang tikbalang, ang kakampi niyang nagtatago ng daan.
+INDIO: [steady] Iligaw mo sila hanggang umaga. Lalakarin ko pauwi, bayad ko.
+INDIO (sa atin): [smug] Pinakain siya ng bayan. Ako, iniligtas ko siya sa hapunan.
+(Umiikot sa iisang kanto ang mga ilaw ng convoy. Iniabot ni Nanay Pacing ang balot na dahon ng saging.)
+PACING: [warm] Itong adobo ko ang kainin mo, iho. Kilala mo ang nagluto.
+USMAN: [happy] Hati tayo, par. Ako ang nakaamoy.
+
+# --- 5. Back. The Lola's kitchen.
+(Madaling-araw. Kusina sa Kawit. Si Lola Ising, nakaupo sa mesa, hindi nakatingin. Si Indio sa pinto, maalikabok ang sapatos.)
+TAGAPAGSALAYSAY: [calm] Ngayon. Sa kusina sa Kawit, gising pa si Lola Ising, ang lolang nagpalaki kay Indio.
+INDIO: [quiet] Lola. May ate po pala ako.
+LOLA: [sad] Nakita mo na siya. Itinago ko, apo. Nakita ko ang tatay mo sa'yo. At natakot ako.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: gutom ka, at luto ng nanay mong matagal mo nang hinahanap. Pero kapag kumain ka, hindi ka na uuwi. Isusubo mo ba?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba ang Biringan, par?
+# INDIO: Kuwentong-bayan ito ng Samar: isang lungsod ng mga engkanto na hindi nakikita. Ayon sa mga tala, mula dekada sisenta kumalat ang mga kuwento. Walang mapang nagpapatunay nito, at iginagalang natin ito bilang paniniwala.
+# INDIO: Ang bawal kumain sa hapag ng engkanto, paniniwala sa maraming lugar sa Pilipinas, hindi lang sa Samar.
+# USMAN: Eh 'yung adobo?
+# INDIO: Kastila ang salita, galing sa "adobar". Pero ayon sa mga historyador ng pagkain, katutubo ang pagluluto sa suka. Sa diksyunaryo ni San Buenaventura noong 1613, "adobo ng mga katutubo" ang tawag dito.
+# USMAN: Kaya pala hindi ako umungol.
