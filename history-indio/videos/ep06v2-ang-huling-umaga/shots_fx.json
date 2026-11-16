@@ -31,15 +31,13 @@
  "4": {
   "fx": [],
   "move": "push_in",
-  "why": "her hand holds his",
-  "sub_v": 380
+  "why": "her hand holds his"
  },
  "5": {
   "fx": [],
   "move": "push_in",
   "why": "her hand holds his",
-  "key": 4,
-  "sub_v": 380
+  "key": 4
  },
  "6": {
   "fx": [],
@@ -66,47 +64,55 @@
  "10": {
   "fx": [],
   "move": "push_in",
-  "why": "the taho and her note"
+  "why": "the taho and her note",
+  "sub_v": 380
  },
  "11": {
   "fx": [],
   "move": "push_in",
   "why": "the taho and her note",
-  "key": 10
+  "key": 10,
+  "sub_v": 380
  },
  "12": {
   "fx": [],
   "move": "hold",
-  "why": "he sips, pleased"
+  "why": "he sips, pleased",
+  "sub_v": 380
  },
  "13": {
   "fx": [],
   "move": "hold",
   "why": "he sips, pleased",
-  "key": 12
+  "key": 12,
+  "sub_v": 380
  },
  "14": {
   "fx": [],
   "move": "pan_right",
-  "why": "he looks around the lawn"
+  "why": "he looks around the lawn",
+  "sub_v": 380
  },
  "15": {
   "fx": [],
   "move": "pan_right",
   "why": "he looks around the lawn",
-  "key": 14
+  "key": 14,
+  "sub_v": 380
  },
  "16": {
   "fx": [],
   "move": "pan_right",
   "why": "he looks around the lawn",
-  "key": 14
+  "key": 14,
+  "sub_v": 380
  },
  "17": {
   "fx": [],
   "move": "pan_right",
   "why": "he looks around the lawn",
-  "key": 14
+  "key": 14,
+  "sub_v": 380
  },
  "18": {
   "fx": [],
@@ -122,7 +128,8 @@
  "20": {
   "fx": [],
   "move": "push_in",
-  "why": "the medallion wakes"
+  "why": "the medallion wakes",
+  "sub_v": 380
  },
  "21": {
   "fx": [],
@@ -150,19 +157,22 @@
  "25": {
   "fx": [],
   "move": "push_in",
-  "why": "slowly in on the dog that will not greet him"
+  "why": "slowly in on the dog that will not greet him",
+  "sub_v": 1050
  },
  "26": {
   "fx": [],
   "move": "push_in",
   "why": "slowly in on the dog that will not greet him",
-  "key": 25
+  "key": 25,
+  "sub_v": 1050
  },
  "27": {
   "fx": [],
   "move": "push_in",
   "why": "slowly in on the dog that will not greet him",
-  "key": 25
+  "key": 25,
+  "sub_v": 1050
  },
  "28": {
   "fx": [],
@@ -501,7 +511,8 @@
  "87": {
   "fx": [],
   "move": "hold",
-  "why": "the medallion is gone"
+  "why": "the medallion is gone",
+  "sub_v": 380
  },
  "88": {
   "fx": [],
@@ -523,25 +534,29 @@
  "91": {
   "fx": [],
   "move": "push_in",
-  "why": "her note explains it"
+  "why": "her note explains it",
+  "sub_v": 380
  },
  "92": {
   "fx": [],
   "move": "push_in",
   "why": "her note explains it",
-  "key": 91
+  "key": 91,
+  "sub_v": 380
  },
  "93": {
   "fx": [],
   "move": "push_in",
   "why": "her note explains it",
-  "key": 91
+  "key": 91,
+  "sub_v": 380
  },
  "94": {
   "fx": [],
   "move": "push_in",
   "why": "her note explains it",
-  "key": 91
+  "key": 91,
+  "sub_v": 380
  },
  "95": {
   "fx": [],
