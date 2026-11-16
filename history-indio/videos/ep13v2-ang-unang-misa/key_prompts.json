@@ -30,31 +30,34 @@
  },
  "full": {
   "bk_01": {
-   "subject": "Worm's-eye close-up, Dutch tilt of 15 degrees: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He sways on the sand, shouting with his mouth wide open, a phone held high in his right hand; behind his shoulder a giant golden eye as big as a boat slides away over the black water. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
+   "subject": "Worm's-eye close-up, Dutch tilt of 15 degrees: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He sways on the sand, shouting with his mouth wide open, a phone held high in his right hand. Far behind his shoulder, out on the black water, the pale gold back of a huge sea serpent slides away under the waves. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "his shout comes out wrong"
+   "seed": 4,
+   "note": "his shout comes out wrong",
+   "negative": "giant eye, eye in a boat, floating eye"
   },
   "bk_02": {
-   "subject": "Bird's-eye wide view from high above a moonlit shore: a long crowd of Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths, clay pots and paddles stilled in their hands, every head turned to one small man alone at the waterline: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He holds a phone up. About forty people. The lone man in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Bird's-eye wide view from high above a moonlit shore: in the lower half a long crowd seen from behind and above, men and women of 1521, bare brown shoulders, plain woven waist wraps and cloth headwraps, clay pots and paddles stilled in their hands, every head turned to one small man standing alone at the waterline in the upper half: a young man with a small topknot, dark sunglasses, a white short-sleeved polo shirt, black slacks and a small backpack, holding a phone up. Only he wears a shirt and sunglasses; nobody in the crowd has glasses, shirts or bags.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the whole island watched"
+   "seed": 3,
+   "note": "the whole island watched",
+   "negative": "t-shirts on the crowd, sunglasses on the crowd, backpacks on the crowd, suspenders, modern clothes, identical faces"
   },
   "bk_03": {
    "subject": "Compressed telephoto medium shot through a dirty foreground: the out-of-focus shoulders and headcloths of two Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths frame the left and right edges; between them, sharp, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He lowers his phone, his grin falling. Three people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "watched through their shoulders"
+   "seed": 1,
+   "note": "watched through their shoulders",
+   "post": "mirrored left-right in code after the draw (the handkerchief was on his right wrist)"
   },
   "bk_04": {
-   "subject": "Eye-level medium close-up, 45-degree three-quarter view from his left, framed on the diagonal from upper left to lower right: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. His sunglasses sit crooked, one hand flat on his chest in mid-hiccup, he looks straight at the viewer. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
+   "subject": "Eye-level medium close-up, three-quarter view from his left: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. His sunglasses sit crooked on his nose, his right hand rests on his own shirt over his heart, an embarrassed half-smile, he looks straight at the viewer. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
+   "seed": 2,
    "note": "he owns up to us"
   },
   "bk_05": {
@@ -86,18 +89,20 @@
    "note": "he explains the machine"
   },
   "bk_09": {
-   "subject": "High-angle close view at 45 degrees, framed on the diagonal: a boxy videoke machine with two microphones, a thick songbook and a screen of plain coloured bars; leaning his elbow on it, looking up at the viewer, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture. No dog, no animals.",
+   "subject": "High-angle close view at 45 degrees, framed on the diagonal: a boxy videoke machine with two microphones lying on its plain top and a screen of plain coloured bars; leaning his elbow on it, looking up at the viewer, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture. No book, no paper, no labels. No dog, no animals.",
    "setting": "the open deck of a white yacht at noon in our time, anchored off a small green island in the Philippines: white rails, a videoke machine with a screen, bottles in an ice bucket; no writing anywhere, no logos",
    "light": "hard white noon sun, bright sea glare, short sharp shadows, vivid colour, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the machine itself, proudly"
+   "seed": 2,
+   "note": "the machine itself, proudly",
+   "negative": "book, songbook, paper, page, label, sticker, writing"
   },
   "bk_10": {
    "subject": "Eye-level wide side view: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He shrugs toward the viewer with both palms open, the microphone hanging from one finger; behind him, out of focus, four guests dance by the rail. Five people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture. No dog, no animals.",
    "setting": "the open deck of a white yacht at noon in our time, anchored off a small green island in the Philippines: white rails, a videoke machine with a screen, bottles in an ice bucket; no writing anywhere, no logos",
    "light": "hard white noon sun, bright sea glare, short sharp shadows, vivid colour, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "a shrug, no move"
+   "seed": 1,
+   "note": "a shrug, no move",
+   "post": "mirrored left-right in code after the draw (the handkerchief was on his right wrist)"
   },
   "bk_11": {
    "subject": "Worm's-eye close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He points straight up over his head at the big videoke screen above him, delighted with himself, mouth open in a laugh; the screen is bright and blank. One person. Each visible hand has a thumb and four fingers. His face in the middle of the upper half, the screen at the top. No dog, no animals.",
@@ -124,8 +129,9 @@
    "subject": "High-angle over-the-shoulder shot from behind her left shoulder: in the near foreground, out of focus, the shoulder and hair of a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm; in her hands an old hand-drawn map of islands with one small glowing dot and no writing; beyond the rail the green island; leaning in at the left, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. Two people. Each visible hand has a thumb and four fingers. His face and the island in the upper half. No dog, no animals.",
    "setting": "the open deck of a white yacht at noon in our time, anchored off a small green island in the Philippines: white rails, a videoke machine with a screen, bottles in an ice bucket; no writing anywhere, no logos",
    "light": "hard white noon sun, bright sea glare, short sharp shadows, vivid colour, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "toward the island ahead"
+   "seed": 1,
+   "note": "toward the island ahead",
+   "post": "mirrored left-right in code after the draw (the handkerchief was on his right wrist)"
   },
   "bk_15": {
    "subject": "Worm's-eye wide shot from the sand: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He stands on the left with his head thrown back and mouth wide, reading aloud from a low stone marker, a bottle in his left hand; beside him on the right, patient, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture. No dog, no animals.",
@@ -142,18 +148,20 @@
    "note": "her medallion warms"
   },
   "bk_17": {
-   "subject": "Bird's-eye extreme wide drone view of a small green island at morning: a curve of pale beach with outrigger boats drawn up, tiny far-away people on the sand, three wooden sailing ships at anchor far out on a calm sea. No faces readable. The beach in the upper half of the picture.",
+   "subject": "A pure landscape with no characters: bird's-eye extreme wide drone view of a small green island at morning: a curve of pale beach with outrigger boats drawn up, a few tiny far-away dots of people on the sand, three wooden sailing ships at anchor far out on a calm sea. Scenery only: nobody near the camera, no figures in the foreground, no faces. The beach in the upper half of the picture.",
    "setting": "a small green island in the Visayas on a bright morning in 1521: pale sand, coconut palms, thick trees, outrigger boats on the beach, three wooden sailing ships at anchor far out; no buildings, no writing",
    "light": "clear golden morning sun, long soft shadows, sea haze, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "opens Mazaua, Easter morning"
+   "seed": 3,
+   "note": "opens Mazaua, Easter morning",
+   "negative": "character, portrait, person in the foreground, hero, face, hands, body parts"
   },
   "bk_18": {
-   "subject": "Compressed telephoto long shot from low on the sand, dirty foreground: two carved outrigger prows out of focus at the left and right edges; between them, pulled close by the long lens, three wooden sailing ships at anchor with furled sails. No people, no body parts. The ships in the upper half of the picture.",
+   "subject": "A pure landscape with no characters: compressed telephoto long shot from low on the sand; at the left and right edges two carved wooden outrigger boat prows out of focus; between them, pulled close by the long lens, three wooden sailing ships of 1521 at anchor with furled sails on a calm sea. Scenery only: no people, no figures, no hands, no body parts anywhere. The ships in the upper half of the picture.",
    "setting": "a small green island in the Visayas on a bright morning in 1521: pale sand, coconut palms, thick trees, outrigger boats on the beach, three wooden sailing ships at anchor far out; no buildings, no writing",
    "light": "clear golden morning sun, long soft shadows, sea haze, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the strangers' ships, stacked"
+   "seed": 4,
+   "note": "the strangers' ships, stacked",
+   "negative": "character, portrait, person in the foreground, hero, face, hands, body parts"
   },
   "bk_19": {
    "subject": "Eye-level medium two-shot: on the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He trudges through soft sand, waving the other on impatiently; on the right, a step behind, steady, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
@@ -170,11 +178,12 @@
    "note": "the dog trots at us"
   },
   "bk_21": {
-   "subject": "High-angle over-the-shoulder close-up, dirty foreground: at the left edge, out of focus, the right shoulder and jaw of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. Below him on the sand, sharp, looking up with nose wrinkled and head pulled back, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. One person and one dog. The dog's face in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "High-angle close-up looking down at one dog sitting on the sand, looking up at the viewer with his nose wrinkled and his head pulled back: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Exactly one dog in the whole picture. At the left edge, out of focus, a white short sleeve and a brown forearm of someone standing. The dog's face in the upper half of the picture.",
    "setting": "a small green island in the Visayas on a bright morning in 1521: pale sand, coconut palms, thick trees, outrigger boats on the beach, three wooden sailing ships at anchor far out; no buildings, no writing",
    "light": "clear golden morning sun, long soft shadows, sea haze, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dog recoils, dry"
+   "seed": 4,
+   "note": "the dog recoils, dry",
+   "negative": "two dogs, second dog, two upright ears, both ears upright, white muzzle, white paws, white face"
   },
   "bk_22": {
    "subject": "Top-down bird's-eye view from directly overhead on pale sand: seen from above, standing, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. His long morning shadow lies bent and crooked across the sand; beside him, seen from above, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's shadow is short and straight. One person and one dog, both in the upper half of the picture.",
@@ -205,11 +214,12 @@
    "note": "they watch from far"
   },
   "bk_26": {
-   "subject": "Bird's-eye extreme wide view from high above the treetops: dark tree canopy fills the bottom of the picture; above it a bright beach where about fifty tiny figures kneel in rows before a tiny plain table, two tiny figures with a glint of gold in front; three wooden ships at anchor beyond. No faces readable, nobody close. The beach in the upper half of the picture.",
+   "subject": "A landscape seen from far away, no characters near the camera: bird's-eye extreme wide view from high above the treetops. Dark tree canopy fills the bottom of the picture, only leaves; above it a bright beach where about fifty tiny far-away figures kneel in rows before a tiny plain table, two tiny figures with a glint of gold in front; three wooden ships at anchor beyond. Scenery only, nobody close, no faces. The beach in the upper half of the picture.",
    "setting": "under thick shore trees on a small island in the Visayas, a morning in 1521: dark trunks, big leaves, deep shade, bright sand and sea far beyond; no buildings, no writing",
    "light": "deep green shade, dappled sunlight through leaves, bright sea light beyond, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "count them from above"
+   "seed": 2,
+   "note": "count them from above",
+   "negative": "character, portrait, person in the foreground, person in the bushes, hero, face, hands, anime boy"
   },
   "bk_27": {
    "subject": "Eye-level medium wide side view in deep shade: crouched in a row, in profile, all looking right, keeping still: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. Then a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm; then an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. At the far right edge, a thin strip of bright distant beach. Three people. No sunglasses, no phone, no bottle. Faces in the upper half of the picture. Each visible hand has a thumb and four fingers.",
@@ -233,11 +243,12 @@
    "note": "he whispers to us"
   },
   "bk_30": {
-   "subject": "Wide over-the-shoulder view, dirty foreground: at the left edge, dark and out of focus, the shoulder and back of the head of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. Far away on the bright beach, tiny figures walk back toward small boats drawn up on the sand; nobody is in the water. One near person. The far beach in the upper half. Each visible hand has a thumb and four fingers.",
+   "subject": "Wide view from deep shade under shore trees, framed by dark trunks and big leaves at the left and right edges: far away on the bright beach, tiny figures walk back toward small boats drawn up on the sand; nobody is in the water. In the right foreground, seen from behind from the waist up, small, watching them go, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, only a thin cord at the back of his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. Seen from behind: only the back of his head, the plain white shirt and the backpack; no pendant on his back, his face is not visible. One near person. The far beach in the upper half.",
    "setting": "under thick shore trees on a small island in the Visayas, a morning in 1521: dark trunks, big leaves, deep shade, bright sand and sea far beyond; no buildings, no writing",
    "light": "deep green shade, dappled sunlight through leaves, bright sea light beyond, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "no baptism to see"
+   "seed": 3,
+   "note": "no baptism to see",
+   "negative": "medallion on the back, pendant on the back, necklace on the back, two young men, face toward the viewer, twin"
   },
   "bk_31": {
    "subject": "Over-the-shoulder medium close-up: at the left edge, out of focus, the left shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. Facing left on the right of the picture, calm, eyes down on the net he is checking, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Two people. Each visible hand has a thumb and four fingers. The old man's face in the upper half of the picture.",
@@ -247,18 +258,20 @@
    "note": "plain words, to the net"
   },
   "bk_32": {
-   "subject": "Eye-level medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. Swaying, sunglasses pushed up on his hair, he lifts a small old round brass-rimmed lens to his right eye; at his feet, looking up at him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. One person and one dog. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
+   "subject": "Eye-level medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears a big gold wristwatch on his right wrist; his sunglasses are off. His eyes are bare, no glasses anywhere on him. Swaying, squinting, he holds one small round brass-rimmed glass lens, like a monocle without a frame, up in front of his right eye with one hand; his other arm hangs at his side. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture. No dog, no animals.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "he lifts the lens"
+   "seed": 3,
+   "note": "he lifts the lens",
+   "negative": "sunglasses, spectacles, eyeglasses, two lenses, goggles"
   },
   "bk_33": {
-   "subject": "Extreme close-up of a young man's eye, brow and nose: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. His right eye, huge and bleary, looks through a small round brass-rimmed lens held close; in the glass there is only a smear of white light. One person. Each visible hand has a thumb and four fingers. The eye in the upper half of the picture.",
-   "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
+   "subject": "Extreme close-up filling the whole frame, one single face: the right eye, brow and bridge of the nose of a young Filipino man of twenty with warm brown skin and tousled black hair. The eye, huge and bleary, looks through a small round brass-rimmed glass lens held close in front of it between his thumb and forefinger; in the glass there is only a smear of white light. Nothing else: no second figure, no body, no small person. The eye in the upper half of the picture.",
+   "setting": "out of focus behind him, the bright sand and blue sea of a beach in the Visayas in 1521, daytime; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the glass shows a blur"
+   "seed": 3,
+   "note": "the glass shows a blur",
+   "negative": "second person, small figure, full body, two faces, split image, landscape below"
   },
   "bk_34": {
    "subject": "Low-angle medium close-up, Dutch tilt of 15 degrees: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. He rubs a small round brass-rimmed lens on his shirt and squints at it, off balance, the sea horizon slanting behind him. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
@@ -268,11 +281,12 @@
    "note": "the world tilts on him"
   },
   "bk_35": {
-   "subject": "Worm's-eye close-up at dog height: large on the right, deadpan, looking up to the left, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Above and behind the dog, out of focus, towering, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person and one dog. The dog's face in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Worm's-eye close-up at dog height: one dog sitting on the sand, deadpan, head turned three-quarters looking up to the left: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Both of the dog's ears are clearly seen: one pointed and standing, the other flopped over at the tip. Exactly one dog. Far behind the dog, out of focus, the legs in black slacks of a man standing. The dog's face in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the verdict lands: you"
+   "seed": 4,
+   "note": "the verdict lands: you",
+   "negative": "two dogs, second dog, two upright ears, both ears upright, white muzzle, white paws, white face"
   },
   "bk_36": {
    "subject": "Eye-level wide two-shot: on the left, unsteady, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears dark sunglasses and holds out a big gold wristwatch dangling from his fingers. On the right, seated by a basket of fish and mending a net, looking up, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
@@ -303,11 +317,12 @@
    "note": "along the beating shore"
   },
   "bk_40": {
-   "subject": "Worm's-eye extreme wide view from the sand behind a small man: at the bottom, seen from behind, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. Out of the black sea in front of him rises a very long sea serpent with pale gold scales, long whiskers and one calm round eye, its mouth closed, no bared teeth, climbing in one long shining curve toward the full moon at the top of the picture. One person. His head in the lower half, the serpent and moon above. Each visible hand has a thumb and four fingers.",
+   "subject": "Worm's-eye extreme wide view from the sand: out of the black sea rises a very long sea serpent with pale gold scales, long whiskers and one calm round eye, its mouth closed, no bared teeth, climbing in one long shining curve toward the full moon at the top of the picture. At the very bottom, tiny, seen from behind, the dark back view of a young man with a topknot, a white polo shirt and a backpack, his face not visible. One person. The serpent and moon fill the upper two thirds.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "it climbs to the moon"
+   "seed": 4,
+   "note": "it climbs to the moon",
+   "negative": "teeth, fangs, open mouth, face toward the viewer, portrait"
   },
   "bk_41": {
    "subject": "Low-angle close-up, Dutch tilt of 12 degrees: an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. He clutches a clay pot to his chest and shouts up at the sky, eyes wide, a pale gold glow on his face. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
@@ -324,11 +339,12 @@
    "note": "she looks only at him"
   },
   "bk_43": {
-   "subject": "Extreme close-up of the eyes and mouth of a young woman speaking urgently: a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. The faint gold glow of the medallion touches her chin from the bottom edge. One person. Her eyes in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Extreme close-up of the calm, serious face of a young woman speaking quietly: a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. She has dark brown eyes. Her face fills the frame from forehead to chin, lips slightly parted. The faint gold glow of the medallion touches her chin from the bottom edge. One person. Her eyes in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the three words, given"
+   "seed": 4,
+   "note": "the three words, given",
+   "negative": "blue eyes, glowing eyes, angry, snarl, bared teeth"
   },
   "bk_44": {
    "subject": "Close two-shot framed on a 45-degree diagonal: in profile on the left, looking away at the sea, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. A thin red thread with two small knots is tied above the handkerchief on his left wrist. His left forearm is raised across the picture so the two knots are sharp and clear; behind it on the right, pointing at the thread, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
@@ -352,11 +368,12 @@
    "note": "the phone sees him"
   },
   "bk_47": {
-   "subject": "High-angle medium shot: pulling backward with his teeth in a man's trouser leg, eyes turned up, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. The man, full figure, leans away with a phone held up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person and one dog. Each visible hand has a thumb and four fingers. Both heads in the upper half of the picture.",
+   "subject": "High-angle medium shot, seen from the front: a man stands on the sand, full figure, leaning back, a phone held up in his right hand: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. At his shin a dog pulls hard backward, the cloth of the man's trouser cuff stretched tight in his teeth: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. One person and one dog on the ground. Both heads in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dog warns him, loudly"
+   "seed": 5,
+   "note": "the dog warns him, loudly",
+   "negative": "two dogs, second dog, both ears upright, white muzzle, white paws, dog on lap, barefoot, bare feet"
   },
   "bk_48": {
    "subject": "Extreme close-up of a young man's sunglasses and sneering mouth: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. In both dark lenses is reflected a long pale gold serpent against the moon; he flaps one hand dismissively beside his face. One person. Each visible hand has a thumb and four fingers. The sunglasses in the upper half of the picture.",
@@ -366,18 +383,20 @@
    "note": "he waves it off"
   },
   "bk_49": {
-   "subject": "Low-angle wide view: on the right, its huge head lowered to the beach, a very long sea serpent with pale gold scales, long whiskers and one calm round eye, its mouth closed, no bared teeth; its one calm eye, as big as a boat, faces a small man standing on the left with his back to the viewer: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person. The eye and the man's head in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Low-angle wide view: on the right, its huge head lowered to the beach, a very long sea serpent with pale gold scales, long whiskers and one calm round eye, its mouth closed, no bared teeth; its one calm eye, as big as a boat, faces a small man standing on the left with his back to the viewer, looking up at it: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, only a thin cord at the back of his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. Seen from behind: his back shows only the plain white shirt and the backpack on both shoulders, no pendant on his back. One person. The eye and the man's head in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the eye waits for him"
+   "seed": 4,
+   "note": "the eye waits for him",
+   "negative": "medallion on the back, pendant on the back, necklace on the back, teeth, fangs, open mouth"
   },
   "bk_50": {
-   "subject": "Compressed telephoto close shot: a row of faces stacked close one behind another by the long lens, Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths, clay pots lowered, paddles still, mouths shut, all looking to the right. Seven people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
+   "subject": "Compressed telephoto close shot: a row of five faces stacked close one behind another by the long lens, each face different in age and shape, men and women, Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths, clay pots lowered, mouths shut, all looking to the right, silent and still. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "every pot goes still"
+   "seed": 2,
+   "note": "every pot goes still",
+   "negative": "identical faces, clones, twins"
   },
   "bk_51": {
    "subject": "Eye-level close-up in side profile: on the left, facing right, shouting with his tongue tripping, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. The whole right edge of the picture is the curved golden iris of a giant calm eye. One person. His face in the upper half of the picture. Each visible hand has a thumb and four fingers.",
@@ -390,15 +409,17 @@
    "subject": "High-angle wide view from beside the serpent's head, dirty foreground: across the near foreground, out of focus, pale gold scales and one long whisker; far below on the sand, small, looking up with one finger raised and a phone in his other hand, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. One person. Each visible hand has a thumb and four fingers. The man in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "how small he looks"
+   "seed": 2,
+   "note": "how small he looks",
+   "negative": "second man, two men, small extra figure, child, duplicate person, twin"
   },
   "bk_53": {
-   "subject": "Bird's-eye extreme wide view of a black sea at night: the tip of a pale gold tail slips under the water inside a widening ring of white foam, the full moon reflected whole on the sea; at the top, the shore is a thin pale line with a row of tiny people. No faces readable. The foam ring in the upper half of the picture.",
+   "subject": "A pure seascape with no characters: bird's-eye extreme wide view of a black sea at night: the small tip of a pale gold serpent tail slips under the water inside a widening ring of white foam, the full moon reflected whole on the sea; at the very top, the shore is a thin pale line with a row of tiny dots of people. Scenery only: nobody near the camera, no hands, no body parts, no faces. The foam ring in the upper half of the picture.",
    "setting": "a moonlit beach on a small island in the Visayas in 1521: pale sand, coconut palms, outrigger boats, a black sea, a full round moon; no buildings, no writing anywhere",
    "light": "full moon, cold blue moonlight, a pale gold glow on the water, deep shadows, hard rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "it leaves, moon whole"
+   "seed": 3,
+   "note": "it leaves, moon whole",
+   "negative": "character, portrait, person in the foreground, hero, face, hands, body parts"
   },
   "bk_54": {
    "subject": "High-angle close two-shot: on the right, eyes lowered, lowering a dark unlit medallion on its cord in her hand, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. On the left, staring at the sea, his left arm hanging, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He also wears dark sunglasses and a big gold wristwatch on his right wrist. A thin red thread with two small knots is tied above the handkerchief on his left wrist. Two people. Each visible hand has a thumb and four fingers. Faces in the top third; the medallion and the knotted wrist in the lowest third.",
@@ -422,11 +443,12 @@
    "note": "toward his own face"
   },
   "bk_57": {
-   "subject": "Eye-level wide shot in clear early morning: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He walks away from the viewer toward an old man mending a net by the boats: an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Five Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths stand with their backs turned. On a rock in the near foreground at the bottom edge lie a pair of dark sunglasses and a gold wristwatch. Seven people. Heads in the upper half. Each visible hand has a thumb and four fingers.",
+   "subject": "Eye-level wide shot in clear early morning, seen from behind: walking away from the viewer along the beach, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, only a thin cord at the back of his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Seen from behind, his back shows only the plain white shirt and the small backpack worn on both shoulders; no pendant on his back. Far ahead of him an old white-haired bare-chested fisherman in an indigo waist wrap sits mending a net by the outrigger boats. On a flat rock in the near foreground at the bottom edge lie one small pair of dark sunglasses and one gold wristwatch. Two people only. Heads in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "what he left behind"
+   "seed": 3,
+   "note": "what he left behind",
+   "negative": "medallion on the back, pendant on the back, necklace on the back, giant sunglasses"
   },
   "bk_58": {
    "subject": "Over-the-shoulder medium close-up: at the right edge, out of focus, the right shoulder of an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Facing right on the left of the picture, humble, eyes clear, both hands open and empty, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Two people. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
@@ -450,11 +472,12 @@
    "note": "one fish, earned"
   },
   "bk_61": {
-   "subject": "Top-down close two-shot from directly overhead: seen from above, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. He holds out two silver fish on a green leaf in both hands; facing him, seen from above with his face tipped up toward the fish, hungry, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Two people. Each visible hand has a thumb and four fingers. Both heads and the fish in the upper half of the picture.",
+   "subject": "High-angle close two-shot seen from above and behind a young man's shoulder: in the upper half, facing the viewer and smiling, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. He holds out two silver fish on one green leaf in both hands. In the lower foreground, seen from behind and above, only the back of the head with a small topknot, the white polo shoulders and the backpack of a young man. Two people. Each visible hand has a thumb and four fingers. The old man's face and the fish in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "two fish, not one"
+   "seed": 3,
+   "note": "two fish, not one",
+   "negative": "upside-down face, face looking up at the camera"
   },
   "bk_62": {
    "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. With clear eyes he lays one silver fish back into the open hand of an old man at the right edge: an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
@@ -464,11 +487,12 @@
    "note": "he gives one back"
   },
   "bk_63": {
-   "subject": "Close-up at dog height, Dutch tilt of 10 degrees: jaw dropped, appalled, eyes following something leaving to the right, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Behind the dog, out of focus, kneeling on the sand, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. One person and one dog. The dog's face in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Close-up at dog height, Dutch tilt of 10 degrees: one dog alone on the beach, jaw dropped, appalled, eyes following something leaving to the right: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Exactly one dog, no people, no second animal. The dog at natural size, sitting on the sand, his head and chest fill the upper half of the picture; behind him only sand, drying nets and boats out of focus.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dog cannot believe it"
+   "seed": 4,
+   "note": "the dog cannot believe it",
+   "negative": "two dogs, second dog, person, man, giant dog, white muzzle, white paws"
   },
   "bk_64": {
    "subject": "Low-angle medium close-up with the sun behind him: an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. He smiles broadly for the first time, the net gathered in his lap. One person. Each visible hand has a thumb and four fingers. His face in the upper half of the picture.",
@@ -478,17 +502,18 @@
    "note": "the old man's first smile"
   },
   "bk_65": {
-   "subject": "High-angle close shot: at the top of the picture, looking down and smiling, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. His fingers untie from the hem of the net its sinker: a plain round bronze net weight the size of a coin with a small hole near its rim. One person. Each visible hand has a thumb and four fingers. His face and the bronze weight in the upper half of the picture.",
+   "subject": "High-angle close shot: sitting on the sand, looking down at his hands and smiling, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Between the thumb and forefinger of his right hand he holds up the net's sinker: a plain round bronze net weight the size of a coin with a small hole near its rim. Behind him only pale sand and the hull of one outrigger boat. One person at natural size. Each visible hand has a thumb and four fingers. His face and the bronze weight in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the sinker was bronze"
+   "seed": 3,
+   "note": "the sinker was bronze",
+   "negative": "aerial view, giant, tiny village below, bird's-eye landscape"
   },
   "bk_66": {
    "subject": "Eye-level medium two-shot in side view: on the right, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. He presses a plain round bronze net weight the size of a coin with a small hole near its rim into the open palm of the young man on the left and folds the young man's fingers over it: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Two people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
+   "seed": 2,
    "note": "it passes hand to hand"
   },
   "bk_67": {
@@ -499,39 +524,44 @@
    "note": "the light is dim"
   },
   "bk_68": {
-   "subject": "Extreme close-up: at the top, out of focus, the lowered eyes of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Below them, sharp, on his open palm, a plain round bronze net weight the size of a coin with a small hole near its rim, glowing weakly, a faint thread of pale light rising from it like breath. One person. Each visible hand has a thumb and four fingers. His eyes and the bronze in the upper half of the picture.",
+   "subject": "Tight close-up from the front, one single continuous picture: the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. His head is bowed, eyes lowered, at the top of the frame; just below his chin, held up at chest height, his own open left palm with a plain round bronze net weight the size of a coin with a small hole near its rim, glowing weakly, a faint thread of pale light rising from it like breath. One person, one face, one hand visible, a thumb and four fingers. Face and bronze in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "a faint voice, held"
+   "seed": 3,
+   "note": "a faint voice, held",
+   "negative": "giant eye, second face, two faces, split image, collage, extra hand"
   },
   "bk_69": {
-   "subject": "High-angle medium shot: sitting very straight on the sand, looking at a small bronze weight, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. Crouching beside the dog and holding the weight on his palm, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. One person and one dog. Each visible hand has a thumb and four fingers. Both heads in the upper half of the picture.",
+   "subject": "High-angle medium shot: sitting very straight on the sand, looking at a small bronze disc, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Four legs, one tail. Crouching beside the dog, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. On his open palm lies one flat round bronze disc the size of a coin with a small hole near its rim. One person and one dog. Each visible hand has a thumb and four fingers. Both heads in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dog explains, drily"
+   "seed": 3,
+   "note": "the dog explains, drily",
+   "negative": "two dogs, second dog, two upright ears, both ears upright, white muzzle, white paws, white face, bottle, jar, vase, flask"
   },
   "bk_70": {
-   "subject": "Worm's-eye wide shot from the sand: in profile in the right foreground, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Behind the dog, standing, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He holds a small round bronze weight up against the sun at arm's length and peers through the hole near its rim. One person and one dog. Each visible hand has a thumb and four fingers. Both heads in the upper half of the picture.",
+   "subject": "Worm's-eye wide shot from the sand: standing in the middle, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He holds a small flat round bronze disc the size of a coin up against the sun at arm's length between thumb and forefinger and peers at it. Sitting on the sand a body-width to his right, small, watching him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. One person and one dog. Each visible hand has a thumb and four fingers. His head in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "he weighs it against sun"
+   "seed": 2,
+   "note": "he weighs it against sun",
+   "negative": "two dogs, second dog, two upright ears, both ears upright, white muzzle, white paws, white face"
   },
   "bk_71": {
-   "subject": "Eye-level close-up: the dry, unimpressed face of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. One of the dog's eyes slides toward the left edge. Far behind, out of focus, sitting on the sand, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. One person and one dog. The dog's face in the upper half of the picture. Each visible hand has a thumb and four fingers.",
+   "subject": "Eye-level close-up: one dog alone on the beach, sitting, with a dry, unimpressed face, one eye sliding toward the left edge: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Exactly one dog, no people, no second animal. The dog at natural size, his head and chest fill the upper half of the picture; behind him only sand, drying nets and boats out of focus.",
    "setting": "a beach on a small island in the Visayas in 1521, daytime: pale sand, coconut palms, outrigger boats, fishing nets drying, a calm blue sea; no buildings, no writing anywhere",
    "light": "bright warm sun, sea glare, soft shadows on the sand, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dry last word"
+   "seed": 2,
+   "note": "the dry last word",
+   "negative": "two dogs, second dog, person, man, giant dog, white muzzle, white paws"
   },
   "bk_72": {
-   "subject": "Compressed telephoto medium shot: beside a cooking fire, beckoning with one open hand toward the left, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Stacked close behind him by the long lens, the faces of six seated Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths watching. Seven people. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
+   "subject": "Compressed telephoto medium shot: beside a cooking fire, beckoning with one open hand toward the left, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Close behind him, a little out of focus, four seated Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths, each face different, watching. Each visible hand has a thumb and four fingers. Faces in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, afternoon: a cooking fire ringed with stones, a driftwood log, coconut palms, outrigger boats, a calm sea; no buildings, no writing",
    "light": "warm cooking-fire glow on faces, soft afternoon shade under palms, thin smoke, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the old man calls him"
+   "seed": 3,
+   "note": "the old man calls him",
+   "negative": "identical faces, clones, twins"
   },
   "bk_73": {
    "subject": "High-angle wide view of a cooking fire on the beach: eight Visayan islanders of 1521, brown skin, plain woven waist wraps and headcloths shift along a driftwood log to make room; sitting down among them, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Behind him, with a hand on his shoulder, an old Filipino fisherman of about seventy, thin and wiry, dark sun-browned skin, short white hair, a kind wrinkled face, bare-chested, a faded indigo waist wrap, a fishing net over his left shoulder. Ten people, no dog in this picture. Each visible hand has a thumb and four fingers. Faces in the upper half.",
@@ -551,29 +581,33 @@
    "subject": "Extreme close-up in warm firelight: the tired, smiling face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He lifts a grilled fish to his mouth with rope-reddened fingers. One person. Each visible hand has a thumb and four fingers. His eyes in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, afternoon: a cooking fire ringed with stones, a driftwood log, coconut palms, outrigger boats, a calm sea; no buildings, no writing",
    "light": "warm cooking-fire glow on faces, soft afternoon shade under palms, thin smoke, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "one fish, and proud"
+   "seed": 1,
+   "note": "one fish, and proud",
+   "post": "mirrored left-right in code after the draw (the handkerchief was on his right wrist)"
   },
   "bk_76": {
    "subject": "Low-angle close two-shot by the fire: in the right foreground, chewing half a grilled fish with his eyes shut, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Beside the dog on the left, holding the other half and giving the dog a sideways look, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. One person and one dog. Each visible hand has a thumb and four fingers. Both heads in the upper half of the picture.",
    "setting": "a beach on a small island in the Visayas in 1521, afternoon: a cooking fire ringed with stones, a driftwood log, coconut palms, outrigger boats, a calm sea; no buildings, no writing",
    "light": "warm cooking-fire glow on faces, soft afternoon shade under palms, thin smoke, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "the dog took half"
+   "seed": 1,
+   "note": "the dog took half",
+   "post": "mirrored left-right in code after the draw (the handkerchief was on his right wrist)"
   },
   "bk_77": {
-   "subject": "Worm's-eye wide shot from the deck boards: at the rail on the right, her face lifted to the full moon, her back half turned, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. A few steps behind her on the left, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He looks at her, hands empty. Two people. Faces in the upper half of the picture. No dog, no animals. Each visible hand has a thumb and four fingers.",
+   "subject": "Worm's-eye wide shot from the deck boards: at the rail on the right, her face lifted to the full moon, her back half turned, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. A few steps nearer to the viewer on the left, seen from behind, watching her, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, only a thin cord at the back of his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Seen from behind: only the back of his head, the plain white shirt and the backpack, no pendant on his back; his hands hang empty. Two people. Heads in the upper half of the picture. No dog, no animals.",
    "setting": "the open deck of a white yacht at night in our time, anchored off a small dark island in the Philippines: white rails, a videoke machine with a dark screen; no writing anywhere, no logos",
    "light": "full moon over a calm black sea, cold blue moonlight, one dim deck lamp, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "she will not turn"
+   "seed": 2,
+   "note": "she will not turn",
+   "negative": "medallion on the back, pendant on the back, necklace on the back"
   },
   "bk_78": {
-   "subject": "Compressed telephoto close-up in profile: facing right, the moon reflected in her eye, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. Far behind her on the left, out of focus, small, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Two people. Her face in the upper half of the picture. No dog, no animals. Each visible hand has a thumb and four fingers.",
+   "subject": "Compressed telephoto close-up in profile: facing right, calm and sad, a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, a closed red umbrella under her arm. She has dark brown eyes. Far behind her on the left, out of focus, small, seen only from the chest up with both arms out of the frame, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. Two people. Her face in the upper half of the picture. No dog, no animals. Each visible hand has a thumb and four fingers.",
    "setting": "the open deck of a white yacht at night in our time, anchored off a small dark island in the Philippines: white rails, a videoke machine with a dark screen; no writing anywhere, no logos",
    "light": "full moon over a calm black sea, cold blue moonlight, one dim deck lamp, richly painted, detailed ink linework, textured brushwork",
-   "seed": "",
-   "note": "her words land still"
+   "seed": 3,
+   "note": "her words land still",
+   "negative": "blue eyes, glowing eyes, white eye"
   },
   "bk_79": {
    "subject": "High-angle medium shot at 45 degrees, framed on the diagonal: sitting on the deck steps, looking up at the viewer, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos. He wears no sunglasses and no wristwatch. He holds his phone out toward the viewer; its screen shows his own laughing face in dark sunglasses, paused. One person. Each visible hand has a thumb and four fingers. His face and the phone in the upper half of the picture. No dog, no animals.",
