@@ -79,6 +79,7 @@ def frame(im, d, glow, e, t, move, fx, zoom_extra=1.0, focus=(0.5, 0.5), seed=0,
         x0 += rng.normal() * k; y0 += rng.normal() * k
     mx = (x0 + XX * s).astype(np.float32); my = (y0 + YY * s).astype(np.float32)
     dd = cv2.remap(d, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT) - 0.45        # near > 0, far < 0
+    if 'flat' in fx: dd = np.zeros_like(dd)                                                  # shots_fx "fx": ["flat"]: no depth sway (a still with written words: no wobbling letters)
     par = 30.0 * s                                                                           # parallax strength in source px
     mx = mx + dd * par * sx * (e - 0.5) * 2 + (XX - W / 2) * dd * 0.035 * (z - 1.0) * s * 4  # near things slide and grow more
     my = my + dd * par * sy * (e - 0.5) * 2 + (YY - H / 2) * dd * 0.035 * (z - 1.0) * s * 4 - dd * 5 * s * np.sin(t * 1.1)   # slow breathing drift
