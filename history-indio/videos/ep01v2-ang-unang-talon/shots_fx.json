@@ -326,23 +326,23 @@
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "why": "from tied wrists to bread"
+  "move": "tilt_up",
+  "why": "up from bread to tied wrists"
  },
  "47": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "why": "from tied wrists to bread",
+  "move": "tilt_up",
+  "why": "up from bread to tied wrists",
   "key": 46
  },
  "48": {
   "fx": [
    "embers"
   ],
-  "move": "tilt_down",
-  "why": "from tied wrists to bread",
+  "move": "tilt_up",
+  "why": "up from bread to tied wrists",
   "key": 46
  },
  "49": {
@@ -456,14 +456,14 @@
   "fx": [
    "embers"
   ],
-  "move": "push_in",
+  "move": "hold",
   "why": "the dogs settle around him"
  },
  "64": {
   "fx": [
    "embers"
   ],
-  "move": "push_in",
+  "move": "hold",
   "why": "the dogs settle around him",
   "key": 63
  },
@@ -607,8 +607,8 @@
    "embers",
    "punch"
   ],
-  "move": "dolly_in",
-  "why": "the cry: push in, then still"
+  "move": "hold",
+  "why": "the cry: still on the words"
  },
  "83": {
   "fx": [
