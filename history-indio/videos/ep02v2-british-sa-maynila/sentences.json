@@ -61,15 +61,15 @@
  },
  {
   "text": "Unang araw ni Indio bilang delivery rider.",
-  "say": "unang araw ni indio bilang deLIberi RAYder.",
+  "say": "unang araw ni indio bilang delivery rider.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ang order: pancit para sa isang M, sa lumang pader ng Intramuros.",
-  "say": "ang ORder: panSIT para sa isang m, sa lumang pader ng intraMUros.",
+  "text": "Ang order: pancit para sa isang nagngangalang M, na hindi niya kilala, sa lumang pader ng Intramuros.",
+  "say": "ang ORder: panSIT para sa isang nagngangalang m, na hindi niya kilala, sa lumang pader ng intraMUros.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
@@ -112,7 +112,7 @@
  },
  {
   "text": "Isang bituin lang ang rating niya sa app.",
-  "say": "isang bituin lang ang rating niya sa ap.",
+  "say": "isang bituin lang ang rating niya sa app.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
@@ -120,7 +120,7 @@
  },
  {
   "text": "May ibang rider na laging nauuna.",
-  "say": "may ibang RAYder na laging nauuna.",
+  "say": "may ibang rider na laging nauuna.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -154,6 +154,14 @@
   "text": "Uminit ang medalyong mana niya sa Lolo niya, at dinala siya sa nakaraan.",
   "say": "uminit ang medalyong mana niya sa lolo niya, at dinala siya sa nakaraan.",
   "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Mula sa liwanag, lumundag si Usman: ang asong itim na siya lang ang nakakarinig, at sa nakaraan lang lumilitaw.",
+  "say": "mula sa liwanag, lumundag si usman: ang asong itim na siya lang ang nakakarinig, at sa nakaraan lang lumilitaw.",
+  "style": "low",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -215,8 +223,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Hinila siya ng isang batang babae, si Sepa, papasok sa isang kusina.",
-  "say": "hinila siya ng isang batang babae, si sepa, papasok sa isang kusina.",
+  "text": "Hinila siya papasok sa isang kusina ni Sepa, isang batang babaeng nakatira roon kasama ang lola niya.",
+  "say": "hinila siya papasok sa isang kusina ni sepa, isang batang babaeng nakatira roon kasama ang lola niya.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -353,8 +361,8 @@
   "speaker": "SEPA"
  },
  {
-  "text": "Tumakbo si Indio sa guwardiya para humingi ng tulong.",
-  "say": "tumakbo si indio sa guwardiya para humingi ng tulong.",
+  "text": "Tumakbo si Indio sa isang guwardiyang Kastila sa pader, para humingi ng tulong.",
+  "say": "tumakbo si indio sa isang guwardiyang kastila sa pader, para humingi ng tulong.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -574,8 +582,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Ibinuhos niya ang pancit, ang una sana niyang sahod.",
-  "say": "ibinuhos niya ang panSIT, ang una sana niyang sahod.",
+  "text": "Ibinuhos niya ang pancit.",
+  "say": "ibinuhos niya ang panSIT.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -662,16 +670,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Sa labas ng pader, tabing-ilog.",
-  "say": "sa labas ng pader, tabing-ilog.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Nakalabas silang lahat sa pampang, buhay.",
-  "say": "nakalabas silang lahat sa pampang, buhay.",
+  "text": "Nakalabas silang lahat sa tabing-ilog, buhay.",
+  "say": "nakalabas silang lahat sa tabing-ilog, buhay.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -824,8 +824,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "At ang guwardiya, yumuko.",
-  "say": "at ang guwardiya, yumuko.",
+  "text": "At ang guwardiyang tumulak sa kanya, yumuko bilang pasasalamat.",
+  "say": "at ang guwardiyang tumulak sa kanya, yumuko bilang pasasalamat.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -889,7 +889,7 @@
  },
  {
   "text": "Paano ko ipapaliwanag 'to sa app?",
-  "say": "paano ko ipapaliwanag to sa ap?",
+  "say": "paano ko ipapaliwanag to sa app?",
   "style": "",
   "pre": 0,
   "pause": 0.4,
@@ -905,7 +905,7 @@
  },
  {
   "text": "Kinansela ng app ang order.",
-  "say": "kinansela ng ap ang ORder.",
+  "say": "kinansela ng app ang order.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
@@ -945,7 +945,7 @@
  },
  {
   "text": "Galing kay M.",
-  "say": "galing kay m.",
+  "say": "galing kay em.",
   "style": "",
   "pre": 0,
   "pause": 0.5,

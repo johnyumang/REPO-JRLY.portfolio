@@ -76,8 +76,24 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Nagmamasa siya ng tinapay, at binibilang ang mga araw sa dingding.",
-  "say": "nagmamasa siya ng tinapay, at binibilang ang mga araw sa dingding.",
+  "text": "Nagmamasa siya ng tinapay sa panaderya ng amo niyang si Aling Pining.",
+  "say": "nagmamasa siya ng tinapay sa panaderya ng amo niyang si aling PIning.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kasama pa rin niya si Usman, ang aso niyang nagsasalita.",
+  "say": "kasama pa rin niya si usman, ang aso niyang nagsasalita.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "At binibilang niya ang mga araw sa dingding.",
+  "say": "at binibilang niya ang mga araw sa dingding.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -204,6 +220,14 @@
  {
   "text": "Hinahanap niya si M, ang babaeng nagnakaw ng medalyon niya.",
   "say": "hinahanap niya si m, ang babaeng nagnakaw ng medalyon niya.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sabi sa sulat ng Lolo niya, narito siya ngayong araw.",
+  "say": "sabi sa sulat ng lolo niya, narito siya ngayong araw.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -706,17 +730,9 @@
   "speaker": "ALING PINING"
  },
  {
-  "text": "Lumingon ang mga tao.",
-  "say": "lumingon ang mga tao.",
+  "text": "Pumalakpak ang mga tao.",
+  "say": "pumalakpak ang mga tao.",
   "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "May pumalakpak.",
-  "say": "may pumalakpak.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -845,6 +861,14 @@
   "text": "Pero sa likod ng karamihan, may lalaking nakataas ang cellphone.",
   "say": "pero sa likod ng karamihan, may lalaking nakataas ang cellphone.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hindi siya kilala ni Indio.",
+  "say": "hindi siya kilala ni indio.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"

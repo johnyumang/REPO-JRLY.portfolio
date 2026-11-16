@@ -77,16 +77,16 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Papunta sina Indio at M sa Butuan, pero tumirik ang lumang motor.",
-  "say": "papunta sina indio at m sa BUtwan, pero tumirik ang lumang motor.",
+  "text": "Papunta sa Butuan si Indio at si M, ang babaeng may mapa, pero tumirik ang lumang motor.",
+  "say": "papunta sa BUtwan si indio at si m, ang babaeng may mapa, pero tumirik ang lumang motor.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ubos ang gas, at isandaan at dalawampung piso na lang ang pera ni Indio.",
-  "say": "ubos ang gas, at isandaan at dalawampung piso na lang ang pera ni indio.",
+  "text": "Ubos ang gas, at halos wala nang pera si Indio.",
+  "say": "ubos ang gas, at halos wala nang pera si indio.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -180,6 +180,14 @@
   "say": "sa bangko, isang lalaking nakaputi ang nag-abot ng PASbuk niya.",
   "style": "calm",
   "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hindi niya ito kilala.",
+  "say": "hindi niya ito kilala.",
+  "style": "",
+  "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
@@ -240,8 +248,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa daungan, sumalubong ang aso niyang si Usman.",
-  "say": "sa daungan, sumalubong ang aso niyang si usman.",
+  "text": "Sumalubong si Usman, ang aso niya.",
+  "say": "sumalubong si usman, ang aso niya.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -476,12 +484,28 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
+  "text": "Mula sa tanso, may tinig.",
+  "say": "mula sa tanso, may tinig.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Matagal akong naghintay ng sugong marunong munang makinig.",
   "say": "matagal akong naghintay ng sugong marunong munang makinig.",
   "style": "deep",
   "pre": 0,
   "pause": 0.5,
   "speaker": "DIWA"
+ },
+ {
+  "text": "At naintindihan niya ang nilalang.",
+  "say": "at naintindihan niya ang nilalang.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Bantay ako.",
@@ -552,8 +576,8 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Binitawan siya nito, at binuhat pa paahon sa pantalan.",
-  "say": "binitawan siya nito, at binuhat pa paahon sa pantalan.",
+  "text": "Binitawan siya nito, at iniahon sa pantalan.",
+  "say": "binitawan siya nito, at iniahon sa pantalan.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -723,14 +747,6 @@
   "speaker": "AGYU"
  },
  {
-  "text": "Nagdagdag ng bayad ang mangangalakal.",
-  "say": "nagdagdag ng bayad ang mangangalakal.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
   "text": "Naiintindihan mo, hindi mo masabi.",
   "say": "naiintindihan mo, hindi mo masabi.",
   "style": "dry",
@@ -779,8 +795,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa ilog, may aninong gumagalaw, pero walang taong nakatayo.",
-  "say": "sa ilog, may aninong gumagalaw, pero walang taong nakatayo.",
+  "text": "Sa ilog, may anino, pero walang taong nakatayo.",
+  "say": "sa ilog, may anino, pero walang taong nakatayo.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
