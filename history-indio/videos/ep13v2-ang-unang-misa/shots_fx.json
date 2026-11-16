@@ -1,0 +1,593 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "his shout comes out wrong"
+ },
+ "1": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "his shout comes out wrong",
+  "key": 0
+ },
+ "2": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the whole island watched"
+ },
+ "3": {
+  "fx": [],
+  "move": "hold",
+  "why": "watched through their shoulders"
+ },
+ "4": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he owns up to us"
+ },
+ "5": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he owns up to us",
+  "key": 4
+ },
+ "6": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he owns up to us",
+  "key": 4
+ },
+ "7": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "opens the noon party",
+  "trans_in": "fade"
+ },
+ "8": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "opens the noon party",
+  "key": 7
+ },
+ "9": {
+  "fx": [],
+  "move": "push_in",
+  "why": "who keeps his glass full",
+  "keys": [
+   9,
+   109
+  ],
+  "why_2": "he sings, sees nothing"
+ },
+ "10": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he sings, sees nothing",
+  "key": 109
+ },
+ "11": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he explains the machine",
+  "keys": [
+   11,
+   111
+  ],
+  "why_2": "the machine itself, proudly"
+ },
+ "12": {
+  "fx": [],
+  "move": "hold",
+  "why": "a shrug, no move"
+ },
+ "13": {
+  "fx": [
+   "flat"
+  ],
+  "move": "tilt_up",
+  "why": "up to his score"
+ },
+ "14": {
+  "fx": [
+   "flat"
+  ],
+  "move": "tilt_up",
+  "why": "up to his score",
+  "key": 13
+ },
+ "15": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she steps toward him"
+ },
+ "16": {
+  "fx": [],
+  "move": "hold",
+  "why": "her eyes on the bottle"
+ },
+ "17": {
+  "fx": [],
+  "move": "hold",
+  "why": "her eyes on the bottle",
+  "key": 16
+ },
+ "18": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the island ahead"
+ },
+ "19": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he shouts the marker aloud",
+  "trans_in": "fade"
+ },
+ "20": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "her medallion warms"
+ },
+ "21": {
+  "fx": [],
+  "move": "push_in",
+  "why": "opens Mazaua, Easter morning",
+  "keys": [
+   21,
+   121
+  ],
+  "why_2": "the strangers' ships, stacked",
+  "trans_in": "flash"
+ },
+ "22": {
+  "fx": [],
+  "move": "hold",
+  "why": "he only wants speed"
+ },
+ "23": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pull_out",
+  "why": "the dog trots at us"
+ },
+ "24": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog recoils, dry"
+ },
+ "25": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog recoils, dry",
+  "key": 24
+ },
+ "26": {
+  "fx": [],
+  "move": "hold",
+  "why": "even his shadow sways",
+  "sub_v": 260
+ },
+ "27": {
+  "fx": [],
+  "move": "pan_left",
+  "why": "pulled left into shade"
+ },
+ "28": {
+  "fx": [],
+  "move": "hold",
+  "why": "one finger: be quiet"
+ },
+ "29": {
+  "fx": [],
+  "move": "hold",
+  "why": "one finger: be quiet",
+  "key": 28
+ },
+ "30": {
+  "fx": [],
+  "move": "push_in",
+  "why": "they watch from far"
+ },
+ "31": {
+  "fx": [],
+  "move": "push_in",
+  "why": "count them from above",
+  "keys": [
+   31,
+   131
+  ],
+  "why_2": "nobody in the trees moves"
+ },
+ "32": {
+  "fx": [],
+  "move": "push_in",
+  "why": "what it does to him"
+ },
+ "33": {
+  "fx": [],
+  "move": "push_in",
+  "why": "what it does to him",
+  "key": 32
+ },
+ "34": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he whispers to us"
+ },
+ "35": {
+  "fx": [],
+  "move": "hold",
+  "why": "no baptism to see"
+ },
+ "36": {
+  "fx": [],
+  "move": "push_in",
+  "why": "plain words, to the net"
+ },
+ "37": {
+  "fx": [],
+  "move": "push_in",
+  "why": "plain words, to the net",
+  "key": 36
+ },
+ "38": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he lifts the lens",
+  "keys": [
+   38,
+   138
+  ],
+  "why_2": "the glass shows a blur"
+ },
+ "39": {
+  "fx": [],
+  "move": "hold",
+  "why": "the world tilts on him"
+ },
+ "40": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the verdict lands: you"
+ },
+ "41": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the verdict lands: you",
+  "key": 40
+ },
+ "42": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he leans in to buy"
+ },
+ "43": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he leans in to buy",
+  "key": 42
+ },
+ "44": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down to fish and rice",
+  "sub_v": 260
+ },
+ "45": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he pushes it back"
+ },
+ "46": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he pushes it back",
+  "key": 45
+ },
+ "47": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "along the beating shore",
+  "trans_in": "fade"
+ },
+ "48": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "it climbs to the moon",
+  "sub_v": 260
+ },
+ "49": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "the old man is afraid"
+ },
+ "50": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "the old man is afraid",
+  "key": 49
+ },
+ "51": {
+  "fx": [],
+  "move": "hold",
+  "why": "she looks only at him"
+ },
+ "52": {
+  "fx": [],
+  "move": "hold",
+  "why": "the three words, given"
+ },
+ "53": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the two knots"
+ },
+ "54": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "up to the phone"
+ },
+ "55": {
+  "fx": [],
+  "move": "hold",
+  "why": "the phone sees him"
+ },
+ "56": {
+  "fx": [],
+  "move": "hold",
+  "why": "the phone sees him",
+  "key": 55
+ },
+ "57": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "the dog warns him, loudly"
+ },
+ "58": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "the dog warns him, loudly",
+  "key": 57
+ },
+ "59": {
+  "fx": [],
+  "move": "hold",
+  "why": "he waves it off"
+ },
+ "60": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "the eye waits for him"
+ },
+ "61": {
+  "fx": [],
+  "move": "hold",
+  "why": "every pot goes still"
+ },
+ "62": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "the words fail, shouted"
+ },
+ "63": {
+  "fx": [],
+  "move": "hold",
+  "why": "how small he looks"
+ },
+ "64": {
+  "fx": [
+   "water"
+  ],
+  "move": "pull_out",
+  "why": "it leaves, moon whole",
+  "sub_v": 260
+ },
+ "65": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down to the cold bronze",
+  "sub_v": 260
+ },
+ "66": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down to the cold bronze",
+  "key": 65,
+  "sub_v": 260
+ },
+ "67": {
+  "fx": [],
+  "move": "hold",
+  "why": "alone on the sand"
+ },
+ "68": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward his own face"
+ },
+ "69": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward his own face",
+  "key": 68
+ },
+ "70": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "what he left behind",
+  "trans_in": "fade"
+ },
+ "71": {
+  "fx": [],
+  "move": "hold",
+  "why": "he asks, plainly"
+ },
+ "72": {
+  "fx": [],
+  "move": "hold",
+  "why": "he asks, plainly",
+  "key": 71
+ },
+ "73": {
+  "fx": [],
+  "move": "hold",
+  "why": "he looks at the hands"
+ },
+ "74": {
+  "fx": [],
+  "move": "hold",
+  "why": "he looks at the hands",
+  "key": 73
+ },
+ "75": {
+  "fx": [],
+  "move": "hold",
+  "why": "one fish, earned"
+ },
+ "76": {
+  "fx": [],
+  "move": "push_in",
+  "why": "two fish, not one",
+  "sub_v": 260
+ },
+ "77": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he gives one back"
+ },
+ "78": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he gives one back",
+  "key": 77
+ },
+ "79": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog cannot believe it"
+ },
+ "80": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog cannot believe it",
+  "key": 79
+ },
+ "81": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the old man's first smile",
+  "keys": [
+   81,
+   181
+  ],
+  "why_2": "the sinker was bronze"
+ },
+ "82": {
+  "fx": [],
+  "move": "push_in",
+  "why": "it passes hand to hand"
+ },
+ "83": {
+  "fx": [],
+  "move": "push_in",
+  "why": "it passes hand to hand",
+  "key": 82
+ },
+ "84": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "the light is dim"
+ },
+ "85": {
+  "fx": [],
+  "move": "hold",
+  "why": "a faint voice, held"
+ },
+ "86": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog explains, drily"
+ },
+ "87": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he weighs it against sun"
+ },
+ "88": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dry last word"
+ },
+ "89": {
+  "fx": [],
+  "move": "hold",
+  "why": "the old man calls him"
+ },
+ "90": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "the shore takes him in"
+ },
+ "91": {
+  "fx": [],
+  "move": "push_in",
+  "why": "his first earned thing",
+  "keys": [
+   91,
+   191
+  ],
+  "why_2": "one fish, and proud"
+ },
+ "92": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog took half"
+ },
+ "93": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not turn",
+  "trans_in": "flash"
+ },
+ "94": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not turn",
+  "key": 93
+ },
+ "95": {
+  "fx": [],
+  "move": "hold",
+  "why": "her words land still"
+ },
+ "96": {
+  "fx": [
+   "flat"
+  ],
+  "move": "pull_out",
+  "why": "the question, to us"
+ }
+}

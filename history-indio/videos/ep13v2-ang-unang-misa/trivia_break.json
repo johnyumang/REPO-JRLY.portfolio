@@ -1,0 +1,90 @@
+{
+ "fact_id": "ep13v2_end",
+ "fact_english": "A Mass was said on Easter Sunday, 31 March 1521, on the island Pigafetta called Mazaua. Pigafetta, the eyewitness, wrote that about fifty men landed and that the two rajahs were there, kissed the cross and knelt. The baptisms came at Cebu two weeks later. Where Mazaua was: Limasawa, according to the NHCP in 2020; Butuan, according to others. The Bakunawa is a folk tale of the Visayas and Bikol; a note of 1731 records people making noise at an eclipse.",
+ "label_onscreen": "UNANG MISA",
+ "source_onscreen": "Pinagmulan: Pigafetta (salin ni Robertson); NHCP (2020); Ortiz (1731)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? May misa talaga roon?",
+   "emphasis": [
+    "totoo"
+   ],
+   "say": "totoo ba yon, par? may misa talaga roon?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: Linggo ng Pagkabuhay, 31 Marso 1521, sa islang tinawag ni Pigafetta na Mazaua.",
+   "emphasis": [
+    "tiyak",
+    "1521"
+   ],
+   "say": "tiyak: linggo ng pagkabuhay, ika-tatlumpu't isa ng marso, isang libo limandaan at dalawampu't isa, sa islang tinawag ni pigafeta na masawa."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Siya ang nakasaksi at sumulat: mga limampung tauhan ang bumaba, at naroon ang dalawang raha, na humalik sa krus at lumuhod.",
+   "emphasis": [
+    "nakasaksi"
+   ],
+   "say": "siya ang nakasaksi at sumulat: mga limampung tauhan ang bumaba, at naroon ang dalawang raha, na humalik sa krus at lumuhod."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang binyagan, sa Cebu pa, makalipas ang dalawang linggo.",
+   "emphasis": [
+    "Cebu"
+   ],
+   "say": "ang binyagan, sa sebu pa, makalipas ang dalawang linggo."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At kung nasaan ang Mazaua: Limasawa, ayon sa NHCP noong 2020; Butuan, ayon sa iba.",
+   "emphasis": [
+    "Limasawa",
+    "Butuan"
+   ],
+   "say": "at kung nasaan ang masawa: limasawa, ayon sa en eyts si pi noong dalawang libo't dalawampu; butuan, ayon sa iba."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh 'yung ahas sa buwan?",
+   "emphasis": [
+    "ahas"
+   ],
+   "say": "e yung ahas sa buwan?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Kuwentong-bayan ng Kabisayaan at Bikol ang Bakunawa.",
+   "emphasis": [
+    "kuwentong-bayan"
+   ],
+   "say": "kuwentong-bayan ng kabisayaan at bikol ang bakunawa."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "May tala noong 1731 na nag-iingay ang mga tao tuwing eklipse.",
+   "emphasis": [
+    "1731"
+   ],
+   "say": "may tala noong isang libo pitong daan at tatlumpu't isa na nag-iingay ang mga tao tuwing eklipse."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "kaya pala ako umungol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 96,
+ "after_text": "Ikaw, ka-Indio: kailan ka huling nag-video sa halip na tumingin?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
+ "voice_note": "The script's six trivia turns are kept word for word; the three long INDIO turns are each split at a sentence or clause end into two caption-sized lines (same words, same order), as Episode 1 did. 'say' is plain lower case, no capitals inside a word: the years in Tagalog as the script's own SAY lines give 1521; NHCP spelled as letters; Mazaua as masawa; Cebu as sebu; umungol is u-MU-ngol (stress told to the voice, not written in capitals). facts.md section 5 asks for one more read of Pigafetta's Easter passage and one source for the Cebu baptisms (14 April 1521) before the build; the script's trivia runs longer than 25 seconds as written."
+}
