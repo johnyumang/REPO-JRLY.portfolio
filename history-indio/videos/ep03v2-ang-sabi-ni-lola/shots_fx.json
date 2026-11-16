@@ -34,22 +34,16 @@
   "sub_v": 260
  },
  "4": {
-  "fx": [
-   "shake",
-   "impact"
-  ],
+  "fx": [],
   "move": "hold",
-  "why": "thrown out the gate: hit",
+  "why": "calm self-introduction, hold",
   "trans_in": "whip",
   "sub_v": 260
  },
  "5": {
-  "fx": [
-   "shake",
-   "impact"
-  ],
+  "fx": [],
   "move": "hold",
-  "why": "thrown out the gate: hit",
+  "why": "calm self-introduction, hold",
   "key": 4,
   "sub_v": 260
  },
@@ -537,10 +531,6 @@
   "fx": [],
   "move": "pull_out",
   "why": "she weighs him; crowd parts",
-  "keys": [
-   90,
-   71
-  ],
   "sub_v": 260
  },
  "72": {
@@ -586,7 +576,7 @@
   ],
   "depth": "strong",
   "dof": "far",
-  "sub_v": 260
+  "sub_v": 760
  },
  "78": {
   "fx": [],
