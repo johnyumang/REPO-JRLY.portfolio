@@ -1,6 +1,8 @@
 # Shots — Episode 17 (version 2)
 
-One row per shot, in order. "Sent." = index in `sentences.json` (88 sentences). All stills NEW in the Bakunawa
+Revised for rule 9 (the storyteller tells every action in a full sentence): shots that were silent now carry a storyteller line; the pictures themselves do not change.
+
+One row per shot, in order. "Sent." = index in `sentences.json` (87 sentences). All stills NEW in the Bakunawa
 look; writing in pictures is added in code. Nobody just standing; never the same framing twice in a row.
 
 **Must not resemble Episodes 1 to 16 (v2).** The 1762 of this episode is one picture inside a lens: a convent
@@ -45,36 +47,36 @@ place are plain cuts or the flash of the jump. Rows 23, 31 and 37 are the high p
 | 23 | 39-40 | Bird's-eye wide view: Indio sitting alone at the foot of huge steps and columns, empty hands open on his knees, Usman pressing against his side, fog closing in | **HIGH POINT** wide / bird's-eye / crane_up / he is small, beaten |
 | 24 | 41 | Eye-level medium shot at first light: a girl of about eleven in an apron, a bucket and brushes in her hands, stopping in front of him | medium / eye level / push_in / she stops for him |
 | 25 | 42-43 | Low-angle two-shot: Nell pointing up at the roof line; Indio's face turning to follow her finger | two-shot / low angle / tilt_up / follows her finger up |
-| 26 | 44-45 | Eye-level close-up of Usman, ears back, growling, nose working the air; Indio's hand on his neck | close-up / eye level / hold / the growl needs stillness |
-| 27 | 46-47 | Eye-level medium close-up of Nell, earnest, her thumb jerked at a lit street lamp behind her where a thin shape crouches | medium close-up / eye level / rack_focus / Nell to the lit lamp |
-| 28 | 48-49 | Wide view from behind: Nell leading Indio, M and Usman up the great steps to a small side door, a finger on her lips | wide / from behind / push_in / they follow her in |
-| 29 | 50 | High-angle extreme wide view from a doorway: a vast round room of books under a dome; far off at a long desk a small man seen from behind, bent over a book; the backs of Indio's and Nell's heads at the door frame | extreme wide / high angle / push_in / toward the far desk |
-| 30 | 51-52 | Over Indio's shoulder, at eye level: Nell whispering up to him behind her hand | over-the-shoulder / eye level / hold / a whisper, kept quiet |
-| 31 | 53 | Low-angle close-up from behind the man's shoulder, the dome's light behind: the writing hand, the pen, the line of his jaw only; an old book open beside the page; no face | **HIGH POINT** close-up / low angle / dolly_in / toward his writing hand; dof: far |
-| 32 | 54-55 | Eye-level medium close-up of Indio at the door, eyes bright, hand flat on the door frame | medium close-up / eye level / push_in / it reaches him |
-| 33 | 56-58 | High-angle two-shot: Nell kneeling by the foot of a shelf, a shard of mirror held in the window light; a thin straight line of light runs along the floor under the shelf; she puts the shard in Indio's palm | two-shot / high angle / pan_right / follows the line of light |
-| 34 | 59-61 | Eye-level medium shot outside in fog: Indio holding the small clay lamp from Galilea in both hands, speaking to it; M and Usman behind him | medium / eye level / hold / he says the true word |
-| 35 | 62 | Eye-level close-up of his face as the wick catches by itself and warms it | close-up / eye level / push_in / the lamp lights |
-| 36 | 63-64 | Over the shoulders of Indio and M, low angle: the thin figure crouched on the bracket of a lit street lamp; on the wall behind it, its shadow, and in the shadow's hand a long lighting pole | over-the-shoulder / low angle / pan_left / ends on the shadow's pole |
-| 37 | 65-66 | Low-angle wide view: Indio holds the shard before the clay lamp; one straight line of light crosses the fog and rests on the shadow on the wall; the figure stays where it is, in the light | **HIGH POINT** wide / low angle / orbit_left / circling the held shadow |
-| 38 | 67-69 | Eye-level close-up of Indio, gentle, the lamp warming one side of his face | close-up / eye level / push_in / he says what he sees |
-| 39 | 70 | Eye-level wide view of a street corner: Indio on tiptoe opening the glass of a dead street lamp and lighting it from his clay lamp | wide / eye level / tilt_up / ends on the new flame |
-| 40 | 71 | Eye-level two-shot in the pool of new light: a thin shivering man in an old lamplighter's coat steps down and holds out the lens in both hands | two-shot / eye level / push_in / he gives it back |
-| 41 | 72-73 | Eye-level close-up: Indio's raised wrist beside his face, the red thread with three knots and a fourth drawing itself tight; behind him M speaking, her medallion warm | close-up / eye level / rack_focus / knot to M behind |
-| 42 | 74 | High-angle extreme wide view: the thin man in one long leap over the roofs, Indio on his back, M holding her umbrella, Usman under one arm, ears flying | extreme wide / high angle / pan_right / follows the leap |
-| 43 | 75 | High-angle close-up inside the warehouse: Indio lifting a stack of porcelain plates out of an open crate; under them a bronze disc lighting his face from below; he takes it | close-up / high angle / push_in / he takes it, 1888 |
-| 44 | 76-77 | Eye-level medium close-up of M, the new disc with a wave line round its rim hanging on Indio's chest in the foreground | medium close-up / eye level / hold / she names it |
-| 45 | 78-81 | Today: eye-level medium shot of Indio and M under the red umbrella at the gate; on the phone in his hand the man lifts the plates at last and stares into an empty crate, his smile slipping | medium / eye level / push_in / toward the empty crate; in: flash |
-| 46 | 82-83 | Eye-level extreme close-up of Indio's smirk, the new medallion warm in his fist against his chin | extreme close-up / eye level / hold / what he holds |
-| 47 | 84 | Eye-level close two-shot under the umbrella, rain all round: M laughing, her face turning near his | two-shot / eye level / push_in / faces come close; dof: far |
-| 48 | 85 | Eye-level medium shot, Dutch tilt: a spark at the fourth knot on Indio's wrist, and the thin man springs out of it between them; both jerk back, the umbrella flies | medium / eye level / hold / he leaps between them; fx: punch |
-| 49 | 86 | Eye-level close-up of M, laughing behind her hand, rain on her hair | close-up / eye level / hold / her line, warm |
-| 50 | 87 | Eye-level insert, a still: Indio at the gate, the new medallion in his palm, a lit street lamp behind him; the question as text | insert / eye level / hold / the question must be read |
+| 26 | 44 | Eye-level close-up of Usman, ears back, growling, nose working the air; Indio's hand on his neck | close-up / eye level / hold / the growl needs stillness |
+| 27 | 45-46 | Eye-level medium close-up of Nell, earnest, her thumb jerked at a lit street lamp behind her where a thin shape crouches | medium close-up / eye level / rack_focus / Nell to the lit lamp |
+| 28 | 47-48 | Wide view from behind: Nell leading Indio, M and Usman up the great steps to a small side door, a finger on her lips | wide / from behind / push_in / they follow her in |
+| 29 | 49 | High-angle extreme wide view from a doorway: a vast round room of books under a dome; far off at a long desk a small man seen from behind, bent over a book; the backs of Indio's and Nell's heads at the door frame | extreme wide / high angle / push_in / toward the far desk |
+| 30 | 50-51 | Over Indio's shoulder, at eye level: Nell whispering up to him behind her hand | over-the-shoulder / eye level / hold / a whisper, kept quiet |
+| 31 | 52 | Low-angle close-up from behind the man's shoulder, the dome's light behind: the writing hand, the pen, the line of his jaw only; an old book open beside the page; no face | **HIGH POINT** close-up / low angle / dolly_in / toward his writing hand; dof: far |
+| 32 | 53-54 | Eye-level medium close-up of Indio at the door, eyes bright, hand flat on the door frame | medium close-up / eye level / push_in / it reaches him |
+| 33 | 55-57 | High-angle two-shot: Nell kneeling by the foot of a shelf, a shard of mirror held in the window light; a thin straight line of light runs along the floor under the shelf; she puts the shard in Indio's palm | two-shot / high angle / pan_right / follows the line of light |
+| 34 | 58-60 | Eye-level medium shot outside in fog: Indio holding the small clay lamp from Galilea in both hands, speaking to it; M and Usman behind him | medium / eye level / hold / he says the true word |
+| 35 | 61 | Eye-level close-up of his face as the wick catches by itself and warms it | close-up / eye level / push_in / the lamp lights |
+| 36 | 62-63 | Over the shoulders of Indio and M, low angle: the thin figure crouched on the bracket of a lit street lamp; on the wall behind it, its shadow, and in the shadow's hand a long lighting pole | over-the-shoulder / low angle / pan_left / ends on the shadow's pole |
+| 37 | 64-65 | Low-angle wide view: Indio, the old bow from Sakai drawn in one hand, holds the shard before the clay lamp; one straight line of light crosses the fog and rests on the shadow on the wall; the figure stays where it is, in the light | **HIGH POINT** wide / low angle / orbit_left / circling the held shadow |
+| 38 | 66-68 | Eye-level close-up of Indio, gentle, the lamp warming one side of his face | close-up / eye level / push_in / he says what he sees |
+| 39 | 69 | Eye-level wide view of a street corner: Indio on tiptoe opening the glass of a dead street lamp and lighting it from his clay lamp | wide / eye level / tilt_up / ends on the new flame |
+| 40 | 70 | Eye-level two-shot in the pool of new light: a thin shivering man in an old lamplighter's coat steps down and holds out the lens in both hands | two-shot / eye level / push_in / he gives it back |
+| 41 | 71-72 | Eye-level close-up: Indio's raised wrist beside his face, the red thread with three knots and a fourth drawing itself tight; behind him M speaking, her medallion warm | close-up / eye level / rack_focus / knot to M behind |
+| 42 | 73 | High-angle extreme wide view: the thin man in one long leap over the roofs, Indio on his back, M holding her umbrella, Usman under one arm, ears flying | extreme wide / high angle / pan_right / follows the leap |
+| 43 | 74 | High-angle close-up inside the warehouse: Indio lifting a stack of porcelain plates out of an open crate; under them a bronze disc lighting his face from below; he takes it | close-up / high angle / push_in / he takes it, 1888 |
+| 44 | 75-76 | Eye-level medium close-up of M, the new disc with a wave line round its rim hanging on Indio's chest in the foreground | medium close-up / eye level / hold / she names it |
+| 45 | 77-80 | Today: eye-level medium shot of Indio and M under the red umbrella at the gate; on the phone in his hand the man lifts the plates at last and stares into an empty crate, his smile slipping | medium / eye level / push_in / toward the empty crate; in: flash |
+| 46 | 81-82 | Eye-level extreme close-up of Indio's smirk, the new medallion warm in his fist against his chin | extreme close-up / eye level / hold / what he holds |
+| 47 | 83 | Eye-level close two-shot under the umbrella, rain all round: M laughing, her face turning near his | two-shot / eye level / push_in / faces come close; dof: far |
+| 48 | 84 | Eye-level medium shot, Dutch tilt: a spark at the fourth knot on Indio's wrist, and the thin man springs out of it between them; both jerk back, the umbrella flies | medium / eye level / hold / he leaps between them; fx: punch |
+| 49 | 85 | Eye-level close-up of M, laughing behind her hand, rain on her hair | close-up / eye level / hold / her line, warm |
+| 50 | 86 | Eye-level insert, a still: Indio at the gate, the new medallion in his palm, a lit street lamp behind him; the question as text | insert / eye level / hold / the question must be read |
 | 51 | trivia | Eye-level medium view of chibi Indio and chibi Usman, the trivia card (existing layout) | medium / eye level / hold / existing trivia card layout |
 
 New stills: 50. Notes for the picture machine: Rico Bulan is seen ONLY on the phone screen (perfect teeth, ring
 light, the face of the tarpaulin of Episode 1) and as a lit window; never beside Indio. Rizal is a small man
 in a dark coat seen from behind, no face, no likeness needed. The soldiers in the lens are ordinary men
 carrying loads. Lundag is a thin, frightened man in an old lamplighter's coat with long legs: not a demon, no
-claws, no fire; keep him identical later (Episodes 20 and 34). The light that holds the creature comes from Indio's own clay ilawan (Episode 9) through Nell's shard of mirror; Nell carries no lamp. The fourth knot sits beside the three older ones on the red thread. No hotel.
+claws, no fire; keep him identical later (Episodes 20 and 34). The light that holds the creature comes from Indio's own clay ilawan (Episode 9) through Nell's shard of mirror, loosed as an arrow of light from the bow of Episode 16; Nell carries no lamp. The fourth knot sits beside the three older ones on the red thread. No hotel.
 Ang Agos is a plain bronze disc with a wave line round its rim.

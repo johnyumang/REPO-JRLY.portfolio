@@ -1,5 +1,7 @@
 # Shots — Episode 15 (version 2)
 
+Revised for rule 9 (the storyteller tells every action in a full sentence): shots that were silent now carry a storyteller line; the pictures themselves do not change.
+
 Revised to REVISION_BATCH3: the fall and the comeback are played in lines, so rows 13, 27 to 31 and 40 carry dialogue; row 39 is no longer silent.
 
 One row per shot, in order. "Sent." = index in `sentences.json` (95 sentences). All stills NEW in the Bakunawa
