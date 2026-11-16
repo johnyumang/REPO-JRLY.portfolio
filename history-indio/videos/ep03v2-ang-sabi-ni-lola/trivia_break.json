@@ -13,11 +13,11 @@
   },
   {
    "speaker": "INDIO",
-   "text": "Tiyak: ikalabindalawa ng Hunyo 1898, sa Kawit, mula sa bintana iniladlad ang watawat.",
+   "text": "Tiyak: Hunyo 12, 1898, mula sa bintana iniladlad ang watawat.",
    "emphasis": [
     "bintana"
    ],
-   "say": "Tiyak: ikalabindalawa ng Hunyo mil otsosyentos nobentay otso, sa KAwit, mula sa bintana iniladlad ang watawat."
+   "say": "Tiyak: hunyo dose, mil otsosyentos nobentay otso, mula sa bintana iniladlad ang watawat."
   },
   {
    "speaker": "INDIO",
@@ -29,19 +29,11 @@
   },
   {
    "speaker": "INDIO",
-   "text": "Si Ambrosio Rianzares Bautista ang sumulat at bumasa ng Akta, sa wikang Espanyol.",
+   "text": "Si Ambrosio Rianzares Bautista ang sumulat at bumasa ng Akta.",
    "emphasis": [
     "Bautista"
    ],
-   "say": "Si Ambrosyo Ryansares Bautista ang sumulat at bumasa ng Akta, sa wikang Espanyol."
-  },
-  {
-   "speaker": "INDIO",
-   "text": "Siyamnapu't walo ang pumirma. At ang martsa ng banda ng San Francisco de Malabon, wala pang liriko noon.",
-   "emphasis": [
-    "liriko"
-   ],
-   "say": "Siyamnapu't walo ang pumirma. At ang martsa ng banda ng San Fransisko de Malabon, wala pang liriko noon."
+   "say": "Si ambrosyo ryansares bautista ang sumulat at bumasa ng akta."
   },
   {
    "speaker": "USMAN",
@@ -52,19 +44,11 @@
   },
   {
    "speaker": "INDIO",
-   "text": "'Yan ang pinagtatalunan. May nagsasabing si Aguinaldo, may nagsasabing si Bautista.",
+   "text": "'Yan ang pinagtatalunan: si Aguinaldo, o si Bautista.",
    "emphasis": [
     "pinagtatalunan"
    ],
-   "say": "'Yan ang pinagtatalunan. May nagsasabing si aginALdo, may nagsasabing si Bautista."
-  },
-  {
-   "speaker": "USMAN",
-   "text": "Kaya pala ako umungol.",
-   "emphasis": [
-    "umungol"
-   ],
-   "say": "Kaya pala ako umúngol."
+   "say": "'Yan ang pinagtatalunan: si aginaldo, o si bautista."
   }
  ],
  "placement": "end",
@@ -74,5 +58,5 @@
  "grave": false,
  "gap": 0.22,
  "why_here": "The new form: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'.",
- "voice_note": "Script trivia line 2 is split in two INDIO lines (the window, then the balcony) and line 3 in two (Bautista, then the signers and the march) so each caption fits; same words. Years voiced as Spanish-derived numbers. 'umungol' must be u-MU-ngol with a soft ng: listen-checked."
+ "voice_note": "Six lines to keep the break near 25 s (owner rule); the 98 signers, the march and the closing joke are left out; years voiced as Spanish-derived numbers; respellings plain lower case."
 }
