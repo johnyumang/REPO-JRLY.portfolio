@@ -145,11 +145,11 @@
    "note": "c1 had a scrawled signature"
   },
   "bk_16": {
-   "subject": "Close-up on black iron bars: a young man's right hand, a thumb and four fingers, three thin indigo geometric tattoo lines on the forearm, gripping one vertical bar; just beside it the head of a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. in profile, his nose pushed between two bars, looking in. One hand only, one dog only. The hand and the dog's head in the upper half of the picture.",
+   "subject": "Medium shot from the road, eye level, the whole of the young man in frame at the left: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, leaning back from a tall black iron gate in shock, both his hands raised open in front of his chest, both arms clearly joined to his shoulders. Behind the bars, inside the yard, charging straight at him, teeth bared, ears back: a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair. Only one dog in the picture. No other people. Both in the upper two thirds of the picture, the lower part of the picture is the dusty road.",
    "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
    "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
-   "seed": "c2",
-   "note": "hand counted; c3 broken hand"
+   "seed": "c3",
+   "note": "redrawn 16 Nov (central): the young dog charges, Indio whole"
   },
   "bk_17": {
    "subject": "Dutch-tilted wide shot from the road outside a tall black iron gate in a stone wall, the gate twice as tall as a man: behind the closed bars a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair, a normal-sized dog, jumping up with its front paws on the bars, teeth bared, its folded right ear flopping, its neck bare with no kerchief, no ribbon, no collar; at the right, on the driver's seat of a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse parked by the wall, a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, jumping to his feet with the reins in his hands. One dog only. The dog and the boy in the upper half.",
@@ -395,6 +395,13 @@
    "light": "soft golden evening light, an orange sky, long calm shadows, rim light, richly painted, detailed ink linework, textured brushwork",
    "seed": "r3c1",
    "note": "round 3 (rounds 1-2 refused by the filter); open sky above for the question, written in code"
+  },
+  "bk_17b": {
+   "subject": "Low-angle close-up: a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, standing on the driver's seat of a small two-wheeled horse-drawn carromata of 1869, the reins clenched in both fists, shouting a warning with his mouth wide open and one arm flung out toward the gate, both arms clearly joined to his shoulders. One boy only, no dog in the picture. His face in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "new 16 Nov: Andoy shouting"
   }
  },
  "shots": {
@@ -609,6 +616,10 @@
   "112": {
    "full": "bk_46",
    "shot": 46
+  },
+  "36": {
+   "full": "bk_17b",
+   "shot": 17
   }
  }
 }

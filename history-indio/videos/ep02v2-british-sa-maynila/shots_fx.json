@@ -408,12 +408,14 @@
  "67": {
   "fx": [],
   "move": "hold",
-  "why": "one quick look"
+  "why": "one quick look",
+  "sub_v": 360
  },
  "68": {
   "fx": [],
   "move": "hold",
   "why": "one quick look",
+  "sub_v": 360,
   "key": 67
  },
  "69": {
@@ -595,15 +597,14 @@
  },
  "101": {
   "fx": [],
-  "move": "pull_out",
-  "why": "he is leaving her",
-  "key": 100
+  "move": "push_in",
+  "why": "he bows in thanks"
  },
  "102": {
   "fx": [],
-  "move": "pull_out",
-  "why": "he is leaving her",
-  "key": 100
+  "move": "push_in",
+  "why": "he bows in thanks",
+  "key": 101
  },
  "103": {
   "fx": [],
@@ -659,31 +660,31 @@
  },
  "112": {
   "fx": [],
-  "move": "push_in",
-  "why": "the tip surprises him"
+  "move": "hold",
+  "why": "he reads the message"
  },
  "113": {
   "fx": [],
-  "move": "push_in",
-  "why": "the tip surprises him",
+  "move": "hold",
+  "why": "he reads the message",
   "key": 112
  },
  "114": {
   "fx": [],
-  "move": "push_in",
-  "why": "the tip surprises him",
+  "move": "hold",
+  "why": "he reads the message",
   "key": 112
  },
  "115": {
   "fx": [],
-  "move": "push_in",
-  "why": "the tip surprises him",
+  "move": "hold",
+  "why": "he reads the message",
   "key": 112
  },
  "116": {
   "fx": [],
-  "move": "push_in",
-  "why": "the tip surprises him",
+  "move": "hold",
+  "why": "he reads the message",
   "key": 112
  },
  "117": {
