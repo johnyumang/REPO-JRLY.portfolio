@@ -18,7 +18,7 @@ if __name__ == '__main__':
     out_dir, P = sys.argv[1], open(sys.argv[2], encoding='utf-8').read().strip(); seeds = [int(x) for x in sys.argv[3].split(',')]
     neg = sys.argv[4] if len(sys.argv) > 4 else NEG; os.makedirs(out_dir, exist_ok=True)
     if P.startswith('{'):                                              # the Bakunawa look: {"subject": ..., "setting": ..., "light": ...} -> flux_hq's own style, rules and negative prompt
-        import json; J = json.loads(P); P = flux_hq.prompt(J['subject'], J['setting'], J['light']); neg = sys.argv[4] if len(sys.argv) > 4 else flux_hq.NEG[:500]
+        import json; J = json.loads(P); P = flux_hq.prompt(J['subject'], J['setting'], J['light']); neg = sys.argv[4] if len(sys.argv) > 4 else ((J['negative'] + ', ' + flux_hq.NEG) if J.get('negative') else flux_hq.NEG)[:500]   # opt-in "negative" in the JSON goes first
     if len(P) > 2000: sys.exit('the prompt has %d characters; the model takes 2000' % len(P))
     if len(neg) > 500: sys.exit('the negative prompt has %d characters; the model takes 500' % len(neg))
     print('prompt', len(P), 'characters; negative', len(neg), flush=True)
