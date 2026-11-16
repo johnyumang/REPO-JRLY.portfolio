@@ -1,7 +1,8 @@
 """Sound rules of 15 Nov for a finished multi-voice read: level every line to its speaker's median and set the gaps.
 usage: ms_post.py <work dir (ms.py assemble output)> <episode dir> <out dir>
 Reads <work>/voice.mp3 + <work>/voice_timings.json and <episode>/script_multispeaker.txt (scenes = '# ---' headers),
-optional <episode>/voice_post.json {"hush_before": [sentence, ...], "hush": 0.6}.
+optional <episode>/voice_post.json {"hush_before": [sentence, ...], "hush": 0.6, "balance": {"to": "TAGAPAGSALAYSAY", "max": 2.0, "allow": {"MGA KAKLASE": 3.5}}}
+(balance: no speaker's median sits more than max LU from the named speaker's; allow = a larger margin above for one voice).
 Each sentence is cut at the quiet between it and its neighbours (never inside a word), gained so its loudness (K-weighted,
 gated, BS.1770 style) sits on its speaker's median, then joined again with:
   0.30-0.45 s between sentences of a scene (a natural pause inside that range is kept, others become 0.38 / 0.42 at a turn),
@@ -91,9 +92,13 @@ for i in range(1, len(pieces)):
 med = {}
 for p in pieces: med.setdefault(p['spk'], []).append(p['L'])
 med = {k: float(np.median(v)) for k, v in med.items()}
+tgt = dict(med)                                             # optional balance between speakers (voice_post.json "balance": {"to": speaker, "max": 2.0, "allow": {speaker: LU}})
+if cfg.get('balance'):
+    b = cfg['balance']; ref = med[b['to']]
+    for k in tgt: mx = float(b.get('allow', {}).get(k, b.get('max', 2.0))); tgt[k] = float(np.clip(med[k], ref - float(b.get('max', 2.0)), ref + mx))
 out = []; T = 0.0; rep = []; new_tim = []
 for k, p in enumerate(pieces):
-    g = float(np.clip(med[p['spk']] - p['L'], -10, 10)); x = p['x'] * 10 ** (g / 20)
+    g = float(np.clip(tgt[p['spk']] - p['L'], -10, 10)); x = p['x'] * 10 ** (g / 20)
     f = int(0.006 * SR); x[:f] *= np.linspace(0, 1, f); x[-int(0.02 * SR):] *= np.linspace(1, 0, int(0.02 * SR))
     if k:
         same_scene = scene_of[k] == scene_of[k - 1]; turn = tim[k]['speaker'] != tim[k - 1]['speaker']
