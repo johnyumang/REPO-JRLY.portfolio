@@ -1,5 +1,5 @@
 {
- "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, drawn one request at a time: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Silent shot 41 (two fists) is key 90, shown inside sentence 70; the crowd answer (shot 38) is key 91, shown inside sentence 67 after the hands tearing. Scene 6 has the owner's additions of 14 Nov: Oriang and Bonifacio (bk_40, bk_41), the watchers (bk_42), Bonifacio's shout (bk_43), the tear (bk_44). bk_45 and bk_46 break the two long holds of the camp scene. Revision 3 (15 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md. Revision 4 (16 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md. Revision 4 (16 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md.",
+ "_note": "Episode 1 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, drawn one request at a time: three draws a key, the choice at 3x). 'full' holds each still's JSON prompt (subject, setting, light) and the chosen draw; old_kNN are kept stills of videos/ep01-ang-unang-talon/keys. Writing in pictures is added in code after the choice: bk_08 SANGLAAN and the three slanted strokes; bk_13 HERITAGE WALK / kasama si (the flyer over the name is plain); bk_39 the episode's question; old_k14 PUGAD LAWIN 1896 (from version 1). Silent shot 41 (two fists) is key 90, shown inside sentence 70; the crowd answer (shot 38) is key 91, shown inside sentence 67 after the hands tearing. Scene 6 has the owner's additions of 14 Nov: Oriang and Bonifacio (bk_40, bk_41), the watchers (bk_42), Bonifacio's shout (bk_43), the tear (bk_44). bk_45 and bk_46 break the two long holds of the camp scene. Revision 3 (15 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md. Revision 4 (16 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md. Revision 4 (16 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md. Revision 4 (16 Nov): the storyteller tells every action; new stills bk_60 (shelter, no tarpaulin), bk_61 (Quezon City again, from above), bk_62 (Usman with the camp dogs), bk_63 (the couple seen from the dark); the crowd (bk_30) is key 91 inside sentence 80; bk_13, bk_27, bk_28, bk_29 are no longer used. Camera moves and their reasons are in shots_fx.json (\"why\"), chosen by pipeline/CAMERA.md.",
  "look": "bakunawa",
  "look_cast": {
   "cast": {
@@ -469,6 +469,41 @@
    "drawn_by": "independent reviewer",
    "see": "scratchpad REVIEW_PICTURES.md (not in the repo)",
    "replaces": "fix_s30"
+  },
+  "bk_70": {
+   "subject": "Wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, walking toward the camera, free; beside him the only black dog, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Behind them four different village dogs, each clearly different and none wearing anything on the neck: a big shaggy brown dog with floppy ears, a small white dog with black patches, a brindle dog with pointed ears, and a thin tan dog with a curled tail, following. Figures in the upper half.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "walking out with the dogs (varied dogs)"
+  },
+  "bk_71": {
+   "subject": "High-angle shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, kneeling, wrists tied; around him four different village dogs, each clearly different and none wearing anything on the neck: a big shaggy brown dog with floppy ears, a small white dog with black patches, a brindle dog with pointed ears, and a thin tan dog with a curled tail, one eating a bread roll, two lying at his knees. No black dog. All in the upper half.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "the camp dogs settle (varied dogs)"
+  },
+  "bk_72": {
+   "subject": "Close shot at ground level: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Lying down proudly with a smug grin among the camp dogs: four different village dogs, each clearly different and none wearing anything on the neck: a big shaggy brown dog with floppy ears, a small white dog with black patches, a brindle dog with pointed ears, and a thin tan dog with a curled tail, lying down calmly behind and beside him. He is the only black dog. No people. The black dog's head in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "night, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Usman takes the credit (varied dogs)"
+  },
+  "fix_s44": {
+   "drawn_by": "independent reviewer",
+   "see": "scratchpad REVIEW_PICTURES.md (not in the repo)",
+   "replaces": "fix_s44"
+  },
+  "fix_s40": {
+   "drawn_by": "independent reviewer",
+   "see": "scratchpad REVIEW_PICTURES.md (not in the repo)",
+   "replaces": "fix_s40"
+  },
+  "bk_01c": {
+   "crop_of": "bk_01",
+   "note": "bottom 15% cropped (feet)"
   }
  },
  "shots": {
@@ -477,7 +512,7 @@
    "shot": 1
   },
   "1": {
-   "full": "bk_01",
+   "full": "bk_01c",
    "shot": 2
   },
   "2": {
@@ -597,11 +632,11 @@
    "shot": 31
   },
   "63": {
-   "full": "bk_24",
+   "full": "bk_71",
    "shot": 32
   },
   "65": {
-   "full": "fix_s30",
+   "full": "bk_72",
    "shot": 33
   },
   "67": {
@@ -609,7 +644,7 @@
    "shot": 34
   },
   "69": {
-   "full": "fix_s32",
+   "full": "bk_70",
    "shot": 35
   },
   "72": {
@@ -645,7 +680,7 @@
    "shot": 43
   },
   "84": {
-   "full": "bk_31",
+   "full": "fix_s40",
    "shot": 44
   },
   "86": {
@@ -661,7 +696,7 @@
    "shot": 47
   },
   "89": {
-   "full": "bk_35",
+   "full": "fix_s44",
    "shot": 48
   },
   "92": {
