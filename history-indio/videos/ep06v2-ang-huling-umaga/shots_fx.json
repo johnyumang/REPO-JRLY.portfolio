@@ -124,20 +124,20 @@
  },
  "21": {
   "fx": [],
-  "move": "tilt_down",
-  "why": "new time, behind the crowd",
+  "move": "crane_down",
+  "why": "new time: down from above into the silent crowd",
   "trans_in": "flash"
  },
  "22": {
   "fx": [],
-  "move": "tilt_down",
-  "why": "new time, behind the crowd",
+  "move": "crane_down",
+  "why": "new time: down from above into the silent crowd",
   "key": 21
  },
  "23": {
   "fx": [],
-  "move": "tilt_down",
-  "why": "new time, behind the crowd",
+  "move": "crane_down",
+  "why": "new time: down from above into the silent crowd",
   "key": 21
  },
  "24": {
@@ -299,7 +299,8 @@
  "52": {
   "fx": [],
   "move": "push_in",
-  "why": "she takes his hand"
+  "why": "she takes his hand",
+  "sub_v": 380
  },
  "53": {
   "fx": [],
@@ -331,26 +332,28 @@
  },
  "58": {
   "fx": [],
-  "move": "hold",
-  "why": "the boy looks up"
+  "move": "push_in",
+  "why": "slowly in on the boy as he tells of the weeping woman"
  },
  "59": {
   "fx": [],
-  "move": "hold",
-  "why": "the boy looks up",
+  "move": "push_in",
+  "why": "slowly in on the boy as he tells of the weeping woman",
   "key": 58
  },
  "60": {
   "fx": [],
   "move": "hold",
   "why": "a memory: the book",
-  "trans_in": "flash"
+  "trans_in": "flash",
+  "sub_v": 380
  },
  "61": {
   "fx": [],
   "move": "hold",
   "why": "a memory: the book",
-  "key": 60
+  "key": 60,
+  "sub_v": 380
  },
  "62": {
   "fx": [],
@@ -436,8 +439,12 @@
  "77": {
   "fx": [],
   "move": "hold",
-  "why": "we do not look",
-  "trans_in": "fade"
+  "why": "we do not look: black first, then the birds",
+  "trans_in": "fade",
+  "keys": [
+   100,
+   77
+  ]
  },
  "78": {
   "fx": [],
