@@ -1,0 +1,133 @@
+# INDIO: ANG SAKSI — Episode 13, "Ang Unang Misa" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: the next medallion, fast and paid for, so he can get back to his party. Then: one fish he has earned.
+# SABI-SABI: "Sa unang misa, naging Kristiyano na agad ang lahat."
+# TWIST (BIBLE row 13): the gift fails. Fall: drunk, the lens shows him only a blur; at night the Bakunawa
+#   rises, M waits for the three words, and in front of the whole shore he films it, slurs the words and asks
+#   for another take; it turns away; no warmth, no knot; his phone was on the front camera. Comeback: an
+#   honest act, by the rule his friend taught him (he works a morning for one fish and hands back the fish he
+#   was overpaid). The medallion was the sinker of the old man's net. It comes to him dim.
+#   Third medallion (Ang Kalakal, dim). No knot, no mark. The first fight he loses outright.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump only). M.
+# MANG LAON (invented old fisherman of Mazaua, 1521; "friend" voice, old man).
+# DIWA (the diwa of Rajah Kolambu in the medallion; the owner's approved exception; ONE invented line, faint).
+# THE MASS: seen from the trees, far, in silence. The priest, the captain-general, the two rajahs and every
+#   man on the shore say nothing. Its three sentences are the storyteller's alone, and no joke is inside it.
+#   What is told of it is only what Pigafetta records (facts.md).
+# The woman with the golden glass (today) is unnamed and says nothing.
+# "Umungol" is always said u-MU-ngol.
+# SAY: videoke=VIdyo-oki
+# SAY: Roberto del Rosario=roBERto del roSARyo
+# SAY: Sing-Along System=sing aLONG SIStem
+# SAY: Limasawa=limaSAwa
+# SAY: Mazaua=maSAwa
+# SAY: 31=ika-tatlumpu't isa ng
+# SAY: 1521=isang libo limandaan at dalawampu't isa
+# SAY: Laon=laON
+# SAY: Kolambu=koLAMbu
+# SAY: Siagu=SYAgu
+# SAY: Bakunawa=bakuNAwa
+# SAY: Kalakal=kaLAkal
+# SAY: malamlam=malamLAM
+# SAY: selfie=SELfi
+# SAY: content=KONtent
+# SAY: take=teyk
+# SAY: yate=YAte
+# SAY: marker=MARker
+
+# --- 0. Hook (cold, at 0.0, on his own slurred shout: a flash-forward of scene 4)
+(Gabi. Dagat. Isang matang kasinlaki ng bangka, palayo na. Si Indio, pasuray sa buhanginan, nakataas ang phone. Sa likod niya, isang buong pampang ng mga taong nakatingin.)
+INDIO: [shout] Naki, nakita na, teka! Isa pang take!
+INDIO (sa atin): [dramatic] Tatlong salita lang: "Nakita na kita." Sa harap ng buong isla, hindi ko nasabi.
+INDIO (sa atin): [dry] Ako 'to si Indio. Mayaman. At lasing.
+
+# --- 1. Today (short, Indio's voice). He wants: the party to go on.
+TAGAPAGSALAYSAY: [calm] Ngayon. Sa yate ni Indio, sa tapat ng Limasawa. Tanghali pa lang, may alak na at videoke.
+(Ang deck ng yate. Mga bisitang nagtatawanan. Si Indio, nakasalamin, hawak ang mikropono; sa screen, "98". Sa mesa, nakalimutan: ang kontrata ng bahay at ang pakong may kagat.)
+INDIO (sa atin): [playful] Videoke. Sabi nila, Pinoy ang nag-imbento: si Roberto del Rosario, may patent ng Sing-Along System. May mga Hapon ding nauna. Score ko, siyamnapu't walo. Lasing din yata ang makina.
+(Isang babaeng nakatalikod sa atin ang nagsasalin sa baso ni Indio mula sa isang gintong baso. Ang sarili niyang baso, puno pa.)
+TAGAPAGSALAYSAY: [calm] Lumapit si M, ang babaeng may mapa ng mga medalyon.
+M: [quiet] Indio. Alas-dose pa lang. Nasa islang ito ang susunod na medalyon.
+(Sa pampang ng Limasawa. Hawak pa ni Indio ang bote. Binasa niya nang pasigaw ang marker. Uminit ang medalyon ni M, mabagal.)
+TAGAPAGSALAYSAY: [calm] Sa pampang, binasa ni Indio nang pasigaw ang marker ng unang misa. Uminit ang medalyon ni M, at dinala sila sa nakaraan.
+
+# --- 2. The trees. He wants: to find the bronze and go. THE MASS, far, in silence.
+TAGAPAGSALAYSAY: [low] Mazaua, Linggo ng Pagkabuhay, 31 Marso 1521.
+INDIO: [slurred] Bilisan natin, M.
+(Umaga. Lumabas sa liwanag ang itim na asong si Usman, at suminghot kay Indio.)
+TAGAPAGSALAYSAY: [low] Sumalubong si Usman, ang aso niyang nagsasalita.
+USMAN: [dry] Par. Amoy alak ka. Pati anino mo, pasuray.
+(Isang matandang lalaking may lambat sa balikat ang humila sa kanila sa lilim ng mga puno.)
+TAGAPAGSALAYSAY: [low] Hinila sila sa likod ng mga puno ni Mang Laon, isang matandang mangingisda.
+MANG LAON: [whisper] Dito lang tayo. Tahimik.
+(Mula sa pagitan ng mga puno, malayo: isang tabing-dagat. Maliliit na tao, nakaluhod. Sa gitna, dalawang lalaking may gintong palamuti. Walang tunog kundi alon.)
+TAGAPAGSALAYSAY: [low] Mula roon, tanaw nila sa malayo ang isang misa sa tabing-dagat. Mga limampung dayuhang taga-barko ang naroon, at ang dalawang raha: si Kolambu at ang kapatid niyang si Siagu. Humalik ang dalawa sa krus, at lumuhod.
+(Tapos na. Tumatayo ang maliliit na tao sa malayo. Saka lang gumalaw si Indio.)
+MANG LAON: [low] Tapos na.
+INDIO (sa atin): [whisper] Sabi ng titser ko, sa araw na 'to, naging Kristiyano na tayong lahat. Wala akong nakitang bininyagan.
+MANG LAON: [plain] Panauhin lang sila ng mga raha namin. Bukas, kalakal.
+
+# --- 3. The shore. He wants: to buy it. The lens is blind.
+(Itinapat ni Indio ang lumang lente sa mata. Sa loob nito, labo lang. Kinusot niya. Labo pa rin.)
+TAGAPAGSALAYSAY: [low] Itinapat ni Indio sa mata ang lente ng Lolo niya, na nagpapakita ng totoong nangyari sa lugar na tinitingnan.
+INDIO: [slurred] Wala akong makita.
+USMAN: [dry] Hindi lente ang malabo, par. Ikaw.
+(Iniabot niya ang gintong relo. Itinulak ito pabalik ng matanda, marahan.)
+INDIO: [slurred] Heto, gintong relo. Ituro mo ang medalyong tanso.
+MANG LAON: [plain] Isang isda, isang takal ng bigas: 'yan ang tapat. Ang sobra, hindi bayad. Utang.
+
+# --- 4. Night. The Bakunawa. THE FALL.
+(Gabi. Bilog ang buwan. Sa buong pampang, mga taong pumupukpok ng palayok at sagwan. Mula sa dagat, umaangat ang isang napakahabang ahas na kumikinang ang kaliskis, paakyat sa buwan.)
+TAGAPAGSALAYSAY: [low] Kinagabihan, pinukpok ng buong pampang ang mga palayok. Mula sa dagat, umahon ang isang dambuhalang ahas, paakyat sa buwan.
+MANG LAON: [frightened] Ang Bakunawa! Kakainin niya ang buwan!
+(Itinaas ni M ang medalyon niya. Sa pulso ni Indio, ang pulang tali na may dalawang buhol.)
+M: [urgent] Indio, ngayon na. Sabihin mo: "Nakita na kita." Magiging pangatlong buhol siya, pangatlong kakampi.
+TAGAPAGSALAYSAY: [low] Phone ang itinaas ni Indio.
+INDIO: [slurred] Guys! Content 'to!
+USMAN: [sharp] Par, may sinasabi ang Bakunawa! Tumahimik ka muna!
+INDIO: [slurred] Ungol lang 'yan!
+(Ibinaba ng ahas ang ulo. Isang matang kasinlaki ng bangka, sa harap mismo ni Indio. Tumigil ang lahat ng pumupukpok.)
+TAGAPAGSALAYSAY: [low] Tumitig kay Indio ang dambuhalang mata nito. Tumahimik ang pampang.
+INDIO: [shout] Naki, nakita na, teka! Isa pang take!
+(Tumalikod ang ahas at lumubog. Malamig ang medalyon sa kamay ni M. Ibinaba niya ito.)
+TAGAPAGSALAYSAY: [low] Tumalikod ang Bakunawa at lumubog.
+M: [low] Malamig pa rin. Dalawa pa rin ang buhol mo.
+INDIO (sa atin): [whisper] Sa video, naka-selfie pala. Mukha ko lang ang nakunan. Tumatawa.
+
+# --- 5. Morning. THE COMEBACK. One fish.
+(Umaga. Walang tumitingin kay Indio. Hinubad niya ang salamin at ang relo, at lumapit sa matanda.)
+TAGAPAGSALAYSAY: [low] Kinaumagahan, hindi na lasing si Indio.
+INDIO: [quiet] Gutom po ako. Wala akong tapat na pambayad.
+MANG LAON: [plain] May kamay ka. Hilahin mo ang lambat. Isang isda ang upa.
+(Humihila si Indio ng lubid ng lambat sa tabi ng matanda. Tanghali: dalawang isda ang iniabot ng matanda. Tiningnan ni Indio ang dalawa. Ibinalik niya ang isa.)
+TAGAPAGSALAYSAY: [low] Pagsapit ng tanghali, dalawang isda ang iniabot ng matanda.
+INDIO: [quiet] Sobra po ng isa. Sabi n'yo, ang sobra, utang.
+USMAN: [pained] Par! Gutom din ako!
+(Ngumiti ang matanda. Kinalas niya sa laylayan ng lambat ang pabigat nito: isang bilog na tanso.)
+TAGAPAGSALAYSAY: [low] Ngumiti ang matanda, at kinalas ang pabigat ng lambat niya: isang medalyong tanso.
+MANG LAON: [warm] Galing 'yan sa raha namin. Sa tapat lang 'yan sumasama.
+(Sa palad ni Indio, uminit ang tanso: isang ilaw na mahina, parang kandilang malapit nang maubos.)
+TAGAPAGSALAYSAY: [low] Uminit ito sa palad ni Indio, pero malamlam, at may mahinang tinig.
+DIWA: [faint] Sa tapat na palitan, walang natatalo.
+USMAN: [dry] Diwa 'yan ni Raha Kolambu, 'yung nasa misa. Ang Kalakal ang medalyon niya: tunay na halaga ang ipapakita. Malamlam, kasi kagabi, bulag ka.
+(Sa tabi ng apoy, ang mga taong nanood kagabi. Umusog sila. Kalahati ng isda ni Indio, kay Usman na.)
+MANG LAON: [warm] Dito ka, iho. May lugar sa apoy ang nagbabalik ng sobra.
+INDIO (sa atin): [whisper] Dalawampu't dalawang sasakyan, at ito ang una kong pinaghirapan: isang isda. Hinati pa ni Usman.
+
+# --- 6. Back. What was lost.
+TAGAPAGSALAYSAY: [calm] Ngayon. Pagbalik sa yate, sa buwan nakatingala si M, hindi kay Indio.
+(Gabi. Patay ang videoke. Si M, nakatingala sa buwan. Hindi niya tinitingnan si Indio.)
+M: [low] Unang beses, Indio, na may nawala sa atin.
+
+# --- 7. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kailan ka huling nag-video sa halip na tumingin?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? May misa talaga roon?
+# INDIO: Tiyak: Linggo ng Pagkabuhay, 31 Marso 1521, sa islang tinawag ni Pigafetta na Mazaua. Siya ang nakasaksi at sumulat: mga limampung tauhan ang bumaba, at naroon ang dalawang raha, na humalik sa krus at lumuhod.
+# INDIO: Ang binyagan, sa Cebu pa, makalipas ang dalawang linggo. At kung nasaan ang Mazaua: Limasawa, ayon sa NHCP noong 2020; Butuan, ayon sa iba.
+# USMAN: Eh 'yung ahas sa buwan?
+# INDIO: Kuwentong-bayan ng Kabisayaan at Bikol ang Bakunawa. May tala noong 1731 na nag-iingay ang mga tao tuwing eklipse.
+# USMAN: Kaya pala ako umungol.
