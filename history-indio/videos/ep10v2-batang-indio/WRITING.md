@@ -4,7 +4,7 @@ Every word in a picture is real text set in code with `pipeline/sign_text.py pas
 
 | still | surface | words | font |
 |---|---|---|---|
-| bk_09 | blackboard (chalk, carved light on dark) | PINAKAMATANDANG BATAS | Kalam Bold |
+| bk_09 | blackboard (chalk, carved light on dark) | PINAKAMATANDANG / BATAS | Kalam Bold |
 | bk_14 | book cover (gold, carved) | WILLIAM HENRY / SCOTT | serif |
 | bk_42 | test paper, red pen | Tama ka. | Kalam Bold |
 | bk_53 | Lolo's notebook, ink | Mag-ingat sa batang / laging nauuna. | Caveat |

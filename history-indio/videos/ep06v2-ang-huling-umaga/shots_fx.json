@@ -31,13 +31,15 @@
  "4": {
   "fx": [],
   "move": "push_in",
-  "why": "her hand holds his"
+  "why": "her hand holds his",
+  "sub_v": 380
  },
  "5": {
   "fx": [],
   "move": "push_in",
   "why": "her hand holds his",
-  "key": 4
+  "key": 4,
+  "sub_v": 380
  },
  "6": {
   "fx": [],
@@ -309,24 +311,24 @@
  },
  "54": {
   "fx": [],
-  "move": "rack_focus",
+  "move": "push_in",
   "why": "front line to back line"
  },
  "55": {
   "fx": [],
-  "move": "rack_focus",
+  "move": "push_in",
   "why": "front line to back line",
   "key": 54
  },
  "56": {
   "fx": [],
-  "move": "rack_focus",
+  "move": "push_in",
   "why": "front line to back line",
   "key": 54
  },
  "57": {
   "fx": [],
-  "move": "rack_focus",
+  "move": "push_in",
   "why": "front line to back line",
   "key": 54
  },
@@ -488,7 +490,8 @@
  "85": {
   "fx": [],
   "move": "hold",
-  "why": "her hand is gone"
+  "why": "her hand is gone",
+  "sub_v": 380
  },
  "86": {
   "fx": [],
@@ -566,25 +569,29 @@
  "99": {
   "fx": [],
   "move": "push_in",
-  "why": "counting the five marks"
+  "why": "counting the five marks",
+  "sub_v": 380
  },
  "100": {
   "fx": [],
   "move": "push_in",
   "why": "counting the five marks",
-  "key": 99
+  "key": 99,
+  "sub_v": 380
  },
  "101": {
   "fx": [],
   "move": "push_in",
   "why": "counting the five marks",
-  "key": 99
+  "key": 99,
+  "sub_v": 380
  },
  "102": {
   "fx": [],
   "move": "push_in",
   "why": "counting the five marks",
-  "key": 99
+  "key": 99,
+  "sub_v": 380
  },
  "103": {
   "fx": [],
