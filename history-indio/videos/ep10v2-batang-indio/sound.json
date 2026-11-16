@@ -1,0 +1,451 @@
+{
+ "_": {
+  "whoosh_cuts": false,
+  "rules_v2": true
+ },
+ "0": {
+  "amb": [
+   "indoor",
+   "crowd:-8"
+  ],
+  "music": "none",
+  "spot": [
+   {
+    "what": "impact",
+    "at": 0.0,
+    "gain": -6
+   }
+  ]
+ },
+ "2": {
+  "amb": [
+   "indoor",
+   "crowd:-16"
+  ],
+  "music": "heartbeat"
+ },
+ "5": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "drone",
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": 0.0,
+    "dur": 1.2,
+    "gain": -6
+   }
+  ]
+ },
+ "7": {
+  "amb": [
+   "city",
+   "crowd:-10"
+  ],
+  "music": "guitar",
+  "level": -4,
+  "spot": [
+   {
+    "what": "bell",
+    "at": 0.0,
+    "dur": 1.4,
+    "gain": -5
+   }
+  ]
+ },
+ "9": {
+  "amb": [
+   "city",
+   "crowd:-12"
+  ],
+  "music": "guitar",
+  "level": -4
+ },
+ "13": {
+  "foley": [
+   {
+    "what": "dog_paws",
+    "at": 0.2,
+    "count": 4,
+    "gain": -4
+   }
+  ]
+ },
+ "17": {
+  "amb": [
+   "city:-4",
+   "crowd:-14"
+  ],
+  "music": "none",
+  "foley": [
+   {
+    "what": "cloth",
+    "at": 0.0,
+    "gain": -6
+   }
+  ]
+ },
+ "19": {
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": 0.6,
+    "dur": 1.6,
+    "gain": -4
+   }
+  ]
+ },
+ "20": {
+  "amb": [
+   "city:-4",
+   "crowd:-14"
+  ],
+  "music": "drone",
+  "foley": [
+   {
+    "what": "dog_paws",
+    "at": 0.0,
+    "count": 3,
+    "gain": -4
+   }
+  ]
+ },
+ "23": {
+  "amb": [
+   "indoor",
+   "crowd:-16"
+  ],
+  "music": "none",
+  "foley": [
+   {
+    "what": "steps_wood",
+    "at": 0.0,
+    "pace": "walk",
+    "count": 2,
+    "gain": -4
+   }
+  ]
+ },
+ "27": {
+  "spot": [
+   {
+    "what": "cheer",
+    "at": 0.9,
+    "dur": 1.6,
+    "gain": -8
+   }
+  ]
+ },
+ "31": {
+  "amb": [
+   "indoor"
+  ],
+  "music": "heartbeat",
+  "foley": [
+   {
+    "what": "steps_wood",
+    "at": 0.0,
+    "pace": "walk",
+    "count": 2,
+    "gain": -6
+   }
+  ]
+ },
+ "33": {
+  "amb": [
+   "indoor",
+   "crowd:-8"
+  ],
+  "music": "none"
+ },
+ "34": {
+  "amb": [
+   "indoor",
+   "crowd:-18"
+  ],
+  "music": "guitar",
+  "level": -6,
+  "foley": [
+   {
+    "what": "pen",
+    "at": 0.1,
+    "gain": -8
+   }
+  ]
+ },
+ "38": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "drone"
+ },
+ "43": {
+  "amb": [
+   "indoor",
+   "crowd:-6"
+  ],
+  "music": "none",
+  "foley": [
+   {
+    "what": "steps_wood",
+    "at": 0.0,
+    "pace": "run",
+    "count": 6,
+    "gain": -3
+   },
+   {
+    "what": "door",
+    "at": 1.2,
+    "gain": -4
+   }
+  ]
+ },
+ "48": {
+  "amb": [
+   "indoor",
+   "crowd:-8"
+  ],
+  "music": "heartbeat",
+  "spot": [
+   {
+    "what": "impact",
+    "at": 0.0,
+    "gain": -8
+   }
+  ]
+ },
+ "50": {
+  "amb": [
+   "city:-4"
+  ],
+  "music": "heartbeat",
+  "foley": [
+   {
+    "what": "steps_stone",
+    "at": 0.0,
+    "pace": "run",
+    "count": 5,
+    "gain": -3
+   }
+  ]
+ },
+ "52": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "none",
+  "spot": [
+   {
+    "what": "impact",
+    "at": 0.0,
+    "gain": -8,
+    "hush": 0.25
+   }
+  ],
+  "foley": [
+   {
+    "what": "cloth",
+    "at": 0.05,
+    "gain": -5
+   }
+  ]
+ },
+ "54": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "drone"
+ },
+ "59": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "none",
+  "foley": [
+   {
+    "what": "dog_paws",
+    "at": 0.0,
+    "count": 4,
+    "gain": -4
+   },
+   {
+    "what": "cloth",
+    "at": 0.3,
+    "gain": -6
+   }
+  ]
+ },
+ "64": {
+  "amb": [
+   "indoor",
+   "wind:-14"
+  ],
+  "music": "guitar",
+  "level": -4,
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": 0.0,
+    "dur": 1.0,
+    "gain": -8
+   }
+  ]
+ },
+ "67": {
+  "amb": [
+   "indoor"
+  ],
+  "music": "guitar",
+  "level": -5,
+  "foley": [
+   {
+    "what": "cloth",
+    "at": 0.0,
+    "gain": -6
+   }
+  ]
+ },
+ "71": {
+  "amb": [
+   "indoor"
+  ],
+  "music": "none",
+  "foley": [
+   {
+    "what": "steps_wood",
+    "at": 0.0,
+    "pace": "walk",
+    "count": 2,
+    "gain": -6
+   }
+  ]
+ },
+ "74": {
+  "amb": [
+   "city:-8"
+  ],
+  "music": "guitar",
+  "level": -5
+ },
+ "77": {
+  "amb": [
+   "indoor",
+   "crowd:-18"
+  ],
+  "music": "none",
+  "spot": [
+   {
+    "what": "bell",
+    "at": 0.0,
+    "dur": 1.2,
+    "gain": -6
+   }
+  ]
+ },
+ "78": {
+  "amb": [
+   "indoor",
+   "crowd:-18"
+  ],
+  "music": "guitar",
+  "level": -5,
+  "foley": [
+   {
+    "what": "pen",
+    "at": 0.2,
+    "gain": -8
+   }
+  ]
+ },
+ "82": {
+  "amb": [
+   "city:-6"
+  ],
+  "music": "guitar",
+  "level": -6
+ },
+ "87": {
+  "amb": [
+   "wind:-6",
+   "night_insects:-12"
+  ],
+  "music": "drone",
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": 0.0,
+    "dur": 1.4,
+    "gain": -6
+   }
+  ],
+  "foley": [
+   {
+    "what": "steps_earth",
+    "at": 0.6,
+    "pace": "walk",
+    "count": 3,
+    "gain": -5
+   }
+  ]
+ },
+ "89": {
+  "amb": [
+   "wind:-6",
+   "city:-10"
+  ],
+  "music": "none",
+  "spot": [
+   {
+    "what": "whoosh",
+    "at": 0.0,
+    "dur": 0.8,
+    "gain": -4
+   }
+  ],
+  "foley": [
+   {
+    "what": "steps_earth",
+    "at": 0.5,
+    "pace": "walk",
+    "count": 4,
+    "gain": -4
+   }
+  ]
+ },
+ "93": {
+  "amb": [
+   "wind:-6"
+  ],
+  "music": "guitar",
+  "level": -4,
+  "foley": [
+   {
+    "what": "pen",
+    "at": 0.0,
+    "gain": -6
+   }
+  ]
+ },
+ "96": {
+  "amb": [
+   "wind:-8"
+  ],
+  "music": "drone",
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": 0.0,
+    "dur": 1.6,
+    "gain": -5
+   }
+  ]
+ },
+ "99": {
+  "amb": [
+   "wind:-10"
+  ],
+  "music": "guitar",
+  "level": -4
+ }
+}

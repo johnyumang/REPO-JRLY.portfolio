@@ -1,5 +1,5 @@
 {
- "_note": "Episode 6 version 2 (the new form, same as videos/ep01v2-ang-unang-talon). Every still is one full painted picture in the Bakunawa look (pipeline/draw_pick.py with the JSON prompt, one request at a time, three draws a still, the choice at 3x); size and angle first in each prompt (pipeline/CAMERA.md, the Camera column of shots.md). Shot NN of shots.md -> full/bk_NN.jpg; extra beats bk_23b, bk_25b, bk_33b, bk_33c. The key of a still is its first sentence (121 sentences; every sentence belongs to one still). Shot 44 is the quiet trivia card (not a still here). Writing added in code after the choice: bk_07 the phone message 'Basahin mo nang malakas.'; bk_35 M's note in handwriting; bk_43 the episode's question. The marker (shots 7, 8) is never shown with its face to us; the folded paper under the taho cup shows its blank back. The shooting is never drawn. Rizal always far, no face; M's eyes never shown. Indio wears the era outfit in 1896 and no medallion from shot 30 on.",
+ "_note": "Episode 6 version 2 (the new form, same as videos/ep01v2-ang-unang-talon). Every still is one full painted picture in the Bakunawa look (pipeline/draw_pick.py with the JSON prompt, one request at a time, three draws a still, the choice at 3x); size and angle first in each prompt (pipeline/CAMERA.md, the Camera column of shots.md). Shot NN of shots.md -> full/bk_NN.jpg; extra beats bk_06b, bk_07a, bk_10b, bk_16b, bk_16c, bk_23b, bk_25b, bk_33b, bk_33c (several beats or a hold over 6 s). The key of a still is its first sentence (121 sentences; every sentence belongs to one still). Shot 44 is the quiet trivia card (not a still here). Writing added in code after the choice: bk_07 the phone message 'Basahin mo nang malakas.'; bk_35 M's note in handwriting; bk_43 the episode's question. The marker (shots 7, 8) is never shown with its face to us; the folded paper under the taho cup shows its blank back. The shooting is never drawn. Rizal always far, no face; M's eyes never shown. Indio wears the era outfit in 1896 and no medallion from shot 30 on.",
  "look": "bakunawa",
  "look_cast": {
   "cast": {
@@ -44,7 +44,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "cold grey-blue dawn light, pale white sky behind, the red umbrella rim the only warm colour, hard rim light on the glove, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c13",
    "note": "hook; close-up on hands"
   },
   "bk_04": {
@@ -52,7 +52,7 @@
    "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
    "light": "pre-dawn blue hour, the sky going from deep blue above to soft pink at the horizon, the park lamps still glowing warm, a thin mist on the grass, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
-   "seed": "c3",
+   "seed": "c11",
    "note": "wide, slow push"
   },
   "bk_05": {
@@ -68,23 +68,23 @@
    "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
    "light": "pre-dawn blue hour, the sky going from deep blue above to soft pink at the horizon, the park lamps still glowing warm, a thin mist on the grass, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
-   "seed": "c2",
+   "seed": "c11",
    "note": "cup and hand; the folded paper shows its blank back"
   },
   "bk_07": {
-   "subject": "Low-angle wide view from the grass: in the near foreground at the bottom, out of focus, the plain back of a low square dark stone marker in the grass, its face turned away from us; beyond it, a few steps behind, a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, wearing a crisply ironed plain white short-sleeved polo shirt tucked into black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, five indigo geometric tattoos on his right forearm, no headband, standing alone on the empty lawn, seen full length, holding a smartphone in one hand at chest height, a thumb and four fingers, its plain white glowing screen tilted toward us, blank, its cold light on his face from below; old iron lamp posts and the pre-dawn sky behind him. He is alone, no dog, no animals. His figure in the upper two thirds.",
+   "subject": "Low-angle wide view from the grass: near the bottom, out of focus, the plain back of a low square dark stone marker; a few steps behind it, a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, wearing a crisply ironed plain white short-sleeved polo shirt tucked into black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, five indigo geometric tattoos on his right forearm, no headband, standing alone on the empty lawn, seen full length, holding a smartphone in one hand at chest height, a thumb and four fingers, its blank white glowing screen tilted toward us, its cold light on his face from below; lamp posts and pre-dawn sky behind. He is alone, no dog, no animals. His figure in the upper two thirds.",
    "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
    "light": "dark blue pre-dawn, the cold white phone glow lighting his face from below, park lamps glowing behind him, mist, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
-   "seed": null,
+   "seed": "c21",
    "note": "message in code on the phone; marker shows only its plain back"
   },
   "bk_08": {
-   "subject": "Eye-level close-up in profile of the head and shoulders only of a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, wearing a crisply ironed plain white short-sleeved polo shirt tucked into black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, five indigo geometric tattoos on his right forearm, no headband, in side view facing left, head bowed, lips parted, quietly reading aloud something below the frame; under the white cloth of his polo at his chest a round shape glows gold through the cloth, a soft gold light under his chin. Arms and hands out of the frame. He is alone, no dog, no animals. His face in the upper half.",
+   "subject": "Eye-level close-up in profile of the head and neck only of a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, the collar of a crisply ironed plain white polo shirt, in side view facing left, head bowed, lips parted, quietly reading aloud something below the frame; at the bottom edge, on its cord over the polo, the round bronze medallion itself glows gold, a soft gold light under his chin. Cropped at the collarbone: no arms, no hands, no wrists. He is alone, no dog, no animals. His face in the upper half.",
    "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
    "light": "blue pre-dawn light with a pink edge on his profile, a warm gold glow from his chest, dark soft background of park lamps, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
-   "seed": null,
+   "seed": "c22",
    "note": "silent, bells; the marker is out of the frame"
   },
   "bk_09": {
@@ -96,11 +96,11 @@
    "note": "crane down behind the crowd"
   },
   "bk_10": {
-   "subject": "Low-angle two-shot from behind, the camera low at the grass, both facing away from us toward the backs of a far silent crowd: on the left a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog seen from behind in three-quarter view, standing still with head low and tail down, staring ahead, the dog's back all black. A body-width apart on the right, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, rolled-up dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, five indigo geometric tattoos on his right forearm, seen from behind in three-quarter view, looking down at the dog, his face in profile, only the cord at the back of his neck, the medallion not visible, his hands below the frame. A thin line of gold light glows along the grass. Both in the upper two thirds.",
+   "subject": "Low-angle two-shot from behind, the camera low at the grass, both facing away from us toward the backs of a far silent crowd: on the left a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog seen from behind in three-quarter view, standing still with head low and tail down, staring ahead, the dog's back all black. A body-width apart on the right, a young Filipino man about twenty, lean, warm brown skin, black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa with rolled sleeves, rolled dark brown trousers, barefoot, five indigo tattoos on his right forearm, a medallion on a cord, seen from behind in three-quarter view, looking down at the dog, his face in profile, only the cord at the back of his neck, the medallion not visible, his hands below the frame. A thin line of gold light glows along the grass. Both in the upper two thirds.",
    "setting": "a flat grass field by Manila Bay in 1896, the grey sea beyond; no modern buildings",
    "light": "a thread of gold light at ground level, cold grey-blue dawn, mist, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c23",
    "note": "low two-shot"
   },
   "bk_11": {
@@ -124,7 +124,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c11",
    "note": "silent; long lens, slow track"
   },
   "bk_14": {
@@ -132,7 +132,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c12",
    "note": "push in"
   },
   "bk_15": {
@@ -152,11 +152,11 @@
    "note": "two-shot under the umbrella"
   },
   "bk_17": {
-   "subject": "Macro close-up of only two hands at waist height, seen from the side, filling the picture: a hand in a smooth black leather glove closes around a young man's bare warm brown hand from above, his four fingers stiff and straight with surprise, his thumb showing; behind them only soft blur of a dark coat and a white shirt. No faces, no heads in the picture. The hands in the upper half.",
+   "subject": "High-angle close-up of two hands at waist height, framed wide enough to show both forearms: from the left a woman's forearm in the sleeve of a long dark charcoal coat, ending in a black leather glove; from the right a young man's bare warm brown forearm with indigo tattoo bands and a rolled white camisa sleeve; her gloved hand closes round his hand, his four fingers stiff and straight with surprise, his thumb showing. Each hand clearly joined to its own arm and sleeve. No faces, no heads. The hands in the upper half; below them the trampled grass.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "soft cool grey-blue light, a faint red glow from above, shallow depth of field, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": "c1",
+   "seed": "c21",
    "note": "close-up on hands"
   },
   "bk_18": {
@@ -168,11 +168,11 @@
    "note": "close-up, red behind"
   },
   "bk_19": {
-   "subject": "Eye-level wide side view from a distance: a line of eight Filipino colonial infantry soldiers of 1896 with brown skin, in plain pale blue-and-white striped cotton uniforms and wide straw hats, no badges, standing at attention side by side, their long rifles standing butt-down on the ground beside their feet; one pace behind them, a second line of Spanish soldiers of 1896 with pale skin, in plain pale blue-and-white striped cotton uniforms and dark peaked caps, no badges, standing close behind the first line and holding their long rifles level, pointing forward toward the backs of the first line. All figures full length, small, in the upper half; the near lower half trampled grass. Nobody fires, no smoke, nobody falls.",
+   "subject": "Eye-level wide side view from a distance of two rows of 1896 infantrymen on parade on a grass field: in front, a row of eight men in plain pale blue-and-white striped cotton uniforms and wide straw hats, standing at attention side by side; one pace behind them, a second row of men in the same striped uniforms but dark peaked caps, standing close behind the first row and watching their backs, long guns slung on their shoulders. All figures full length, small, in the upper half; the near lower half trampled grass. A calm still ceremony.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c52",
    "note": "side view, rack focus front to back"
   },
   "bk_20": {
@@ -180,15 +180,15 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c11",
    "note": "close-up"
   },
   "bk_21": {
-   "subject": "Eye-level insert, an extreme close-up filled by only a small closed book with a plain dark leather cover and no writing, lying on a dark wooden table, and two adult hands resting one over the other on it: a man's hand in a black sleeve under a woman's slender hand in a dark grey sleeve, each with a thumb and four fingers. No faces, no heads, no eyes, nothing above the hands. The hands and book in the upper half; below them the dark table.",
+   "subject": "Eye-level insert: a small closed book with a plain dark leather cover and no writing lies on a dark wooden table; two adults sit side by side behind it, seen only from the chest down: a man's forearm in a black coat sleeve rests on the table and his hand lies flat on the book; a woman's forearm in a dark grey sleeve rests beside it and her slender hand lies over his. Both forearms and sleeves clearly join their hands; each hand a thumb and four fingers. Faces and heads out of the frame above. The hands and book in the upper half.",
    "setting": "a dim small room at night lit only by one warm oil lamp out of the frame, a dark wooden table; no windows, no outdoor view",
    "light": "soft warm amber lamp light, deep brown shadows at the edges, a gentle soft glow, a memory, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, faces, eyes, kiss, bed sky, modern, face, eyes, head, hair, field, sky, sea, palm trees",
-   "seed": null,
+   "seed": "c23",
    "note": "silent flash; adults; no faces"
   },
   "bk_22": {
@@ -196,7 +196,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c12",
    "note": "medium long, side"
   },
   "bk_23": {
@@ -204,15 +204,15 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c12",
    "note": "long shot"
   },
   "bk_24": {
-   "subject": "High-angle medium view, the camera above and in front looking down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, rolled-up dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, five indigo geometric tattoos on his right forearm, standing upright on the grass (not crouching, not kneeling), seen from the waist up, his face tilted up toward us, whispering, his arms hanging at his sides; at his knee, a body-width apart, the head and shoulders of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's upper lip lifts in a low growl showing teeth. Both in the upper two thirds of the picture.",
+   "subject": "High-angle medium view from above of two sitting side by side on the grass, in the upper half: a young Filipino man about twenty, lean, warm brown skin, black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa with rolled sleeves, rolled dark brown trousers, barefoot, five indigo tattoos on his right forearm, a round bronze medallion hanging on a cord on his chest, knees up, arms on his knees, face tilted up to us, whispering; a body-width to his right, sitting, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's right ear is folded down flat; the dog's upper lip lifts in a low growl showing teeth, the dog looking out toward the field.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
-   "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "light": "flat cold grey-blue dawn light, muted blues and greys, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c43",
    "note": "close-up then down"
   },
   "bk_25": {
@@ -220,15 +220,15 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "cool grey-blue light, the inside of the red umbrella glowing over her chin, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c13",
    "note": "mouth and rim, then the hands"
   },
   "bk_26": {
-   "subject": "Eye-level extreme wide view of the whole field, everything small and far and still: the backs of a great silent crowd of Filipino townspeople of 1896, men in white camisa shirts and straw hats, women with dark shawls over their heads standing in a long silent line across the middle distance; beyond them on the open grass a far line of soldiers, and one small far officer holding a single sword raised straight up above his head; far beyond them, alone, a tiny figure in a black suit and bowler hat with his arms behind his back lifts his face to the sky. No one near the camera. Everything in the upper half; the near lower half is empty trampled grass. No raised hands, no hats in the air.",
+   "subject": "Eye-level extreme wide view of the whole field, everything small, far and still: in the near part the backs of a great silent crowd of Filipino townspeople of 1896, men in white camisa shirts and straw hats, women with dark shawls over their heads in a long silent line; beyond them on the open grass a far line of soldiers, and in front of that line one small officer in a pale striped uniform and a dark peaked cap holding a single sword raised straight up above his head. No one else near him. No raised hands, no hats in the air. Everything in the upper half.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c42",
    "note": "silent; very wide, still"
   },
   "bk_27": {
@@ -236,15 +236,15 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c11",
    "note": "long shot, no close-up"
   },
   "bk_28": {
-   "subject": "Eye-level extreme close-up filling the whole picture with only a band of one face, from the red cloth headband down to the bridge of the nose: a young Filipino man about twenty with warm brown skin, short tousled black hair, dark brown eyes and a red cloth headband, both his eyes squeezing shut hard, creases at the corners, black eyelashes pressed together, strands of black hair over the headband. Only the eyes and brow fill the frame; no mouth, no body, no hands. The eyes in the upper half.",
+   "subject": "Eye-level close-up of only one face filling the picture from the red headband to the chin: a young Filipino man about twenty with warm brown skin, short tousled black hair, dark brown eyes and a red cloth headband, both eyes shut tight, brows drawn together, his face in three-quarter view; his neck and the collar of a white camisa at the bottom; behind him the soft blur of the grey bay. His face in the upper half.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "cold grey-blue light, deep shadow on one side of his face, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c61",
    "note": "extreme close-up"
   },
   "bk_29": {
@@ -300,7 +300,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "cool grey-blue light, the paper softly lit, shallow depth of field, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c1",
    "note": "handwriting in code"
   },
   "bk_36": {
@@ -308,7 +308,7 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork, motion blur on the passers-by",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c1",
    "note": "medium, crowd streaming"
   },
   "bk_37": {
@@ -336,11 +336,11 @@
    "note": "two-shot at dog height"
   },
   "bk_40": {
-   "subject": "Eye-level medium three-shot on the pale trampled grass: on the left a thin Filipino boy of about ten, brown skin, round face, short messy black hair, big dark eyes, a faded off-white camisa too big for him, rolled brown trousers, barefoot, a bamboo yoke on one shoulder with a clay water jar hanging at each end, standing, holding out a brown coconut-shell dipper with both hands; in the middle a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, rolled-up dark brown trousers, barefoot, a bare neck with no cord and no medallion, five indigo geometric tattoos on his right forearm, standing, taking the dipper and drinking from it, a wry half-smile at the corner of his mouth; on the right, a body-width apart, sitting on the grass, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Everyone in the upper two thirds of the picture.",
+   "subject": "Eye-level medium three-shot on the pale trampled grass: on the left a thin Filipino boy of about ten, brown skin, round face, messy black hair, a faded off-white camisa too big for him, rolled brown trousers, barefoot, a bamboo yoke with two clay water jars, standing, holding out a brown coconut-shell dipper with both hands; in the middle a young Filipino man about twenty, lean, warm brown skin, black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa with rolled sleeves, rolled dark brown trousers, barefoot, five indigo tattoos on his right forearm, a bare neck with no cord, standing, taking the dipper and drinking from it, a wry half-smile at the corner of his mouth; on the right, a body-width apart, sitting on the grass, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Everyone in the upper two thirds of the picture.",
    "setting": "a flat grass field by Manila Bay in 1896, the grey sea beyond; no modern buildings",
-   "light": "flat cold grey-blue dawn light turning a little warmer, pale overcast white sky, muted blues and greys, the grass pale and trampled, not green, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "light": "pale cold dawn light, muted blues and greys, pale trampled grass, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c1",
    "note": "three-shot"
   },
   "bk_41": {
@@ -352,19 +352,19 @@
    "note": "silent; the dog's shadow stays"
   },
   "bk_42": {
-   "subject": "Wide view from behind: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, rolled-up dark brown trousers, barefoot, a bare neck with no cord and no medallion, five indigo geometric tattoos on his right forearm and, a body-width beside him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog seen from behind, walking away with him, the dog's back all black with no white on it. Both walk away from us across the wide pale trampled field toward the grey sea, small in the middle of the upper half; Indio seen from behind, his right forearm with the tattoos on the right side of the picture. In the near lower right, seen from behind and small, a thin Filipino boy of about ten, brown skin, round face, short messy black hair, big dark eyes, a faded off-white camisa too big for him, rolled brown trousers, barefoot, a bamboo yoke on one shoulder with a clay water jar hanging at each end, standing still, watching them go.",
+   "subject": "Wide view from behind: a young Filipino man about twenty, lean, warm brown skin, black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa with rolled sleeves, rolled dark brown trousers, barefoot, five indigo tattoos on his right forearm, a bare neck and, a body-width beside him, a medium-sized slim black short-haired Philippine street dog with a white chest patch, a red kerchief around his neck. The dog walks away with him seen from behind; the dog's left ear stands up, the dog's right ear hangs folded down; the dog's back all black. Both walk away from us across the field toward the grey sea, small, in the upper half; His tattooed right forearm on the right side. In the near lower right small, from behind, a thin Filipino boy of about ten, brown skin, round face, messy black hair, a faded off-white camisa too big for him, rolled brown trousers, barefoot, a bamboo yoke with two clay water jars, standing still, watching them go.",
    "setting": "a flat grass field by Manila Bay in 1896, the grey sea beyond; no modern buildings",
-   "light": "pale early morning light, the low sun ahead of them, long shadows toward us, muted blues and greys, the grass pale and trampled, not green, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "light": "pale early morning light, low sun ahead, long shadows toward us, pale trampled grass, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c43",
    "note": "from behind, slow pull back"
   },
   "bk_43": {
    "subject": "Landscape painting with no figures at all: a high-angle wide view over a wide empty field of pale trampled grass by a calm grey sea, the pale wide sky filling the upper half, nothing in the sky; low at the horizon a thin line of far coconut palms. Empty land, empty sea, empty sky.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "quiet pale morning light, soft cool blue-grey, gentle mist, richly painted, detailed ink linework, textured brushwork",
-   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings, person, people, man, boy, woman, character, face, portrait, figure, anime boy",
-   "seed": null,
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, night, torches, snow, modern buildings, person, people, man, character, face, figure",
+   "seed": "c22",
    "note": "the question in code over the sky"
   },
   "bk_23b": {
@@ -372,23 +372,23 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c12",
    "note": "second beat of shot 23"
   },
   "bk_25b": {
-   "subject": "Low-angle extreme close-up of two hands, seen from below: a black-gloved hand tightening hard around a young man's warm brown hand, his knuckles pressed together, the edge of a long dark coat and a rolled white sleeve; above the hands the dark red inside of an umbrella. No faces, no heads. The hands in the upper half.",
+   "subject": "Low-angle close-up from below of two joined hands, framed wide enough to show both forearms: from above, a woman's forearm in the sleeve of a long dark charcoal coat ending in a black leather glove; from below, a young man's bare warm brown forearm with indigo tattoo bands and a rolled white camisa sleeve; her gloved hand grips his hand hard, his knuckles pressed together. Each hand clearly joined to its own arm and sleeve. Above them the dark red inside of an umbrella. No faces. The hands in the upper half.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "cool grey-blue light, the inside of the red umbrella glowing over her chin, rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c43",
    "note": "second beat of shot 25"
   },
   "bk_33b": {
-   "subject": "High-angle close-up looking straight down at a patch of empty trampled pale grass beside one young man's bare brown foot at the edge of the picture: nothing on the grass, no umbrella, no one, only the flattened grass where someone stood. The grass fills the picture. No people, no faces.",
+   "subject": "High-angle close-up looking straight down at a patch of empty trampled pale grass: the grass flattened in the soft oval shape where someone stood a moment ago, a few bent blades, nothing on it, no umbrella, no person, no feet, no shoes. The flattened grass fills the upper half; plain grass all around.",
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c72",
    "note": "second beat of shot 33"
   },
   "bk_33c": {
@@ -396,8 +396,48 @@
    "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
    "light": "flat cold grey-blue dawn light, pale overcast white sky, muted blues and greys, faint mist, cool rim light, richly painted, detailed ink linework, textured brushwork",
    "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
-   "seed": null,
+   "seed": "c11",
    "note": "second beat of shot 33"
+  },
+  "bk_06b": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, wearing a crisply ironed plain white short-sleeved polo shirt tucked into black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, five indigo geometric tattoos on his right forearm, no headband, sipping from a wide straw in a clear plastic cup of taho, warm silken white tofu with dark brown syrup and small round sago pearls, the cup held near his face in one hand, a thumb and four fingers; pressed under his thumb against the cup a small folded slip of plain white paper, its blank back facing us; his eyes half closed, pleased with himself. No label, no brand, no vendor. He is alone, no dog, no animals. The cup and his face in the upper half.",
+   "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
+   "light": "pre-dawn blue hour, the sky going from deep blue above to soft pink at the horizon, the park lamps still glowing warm, a thin mist on the grass, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
+   "seed": "c2",
+   "note": "second still of shot 06 (long hold)"
+  },
+  "bk_07a": {
+   "subject": "Eye-level medium view of a young Filipino man about twenty, lean, warm brown skin, short black hair neatly combed flat and tied in a small topknot, dark brown eyes, wearing a crisply ironed plain white short-sleeved polo shirt tucked into black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, five indigo geometric tattoos on his right forearm, no headband, walking slowly onto an empty lawn in the park, looking around uneasily over his shoulder, a clear plastic cup of taho in one hand, the other hand at his side; behind him old iron lamp posts still lit and the empty path. He is alone, no dog, no animals. His face in the upper part of the picture.",
+   "setting": "a wide park in Manila in our time before sunrise: a flat empty lawn of short grass, old black iron lamp posts with round lamps still lit, a long straight paved path, rows of trimmed trees, far behind the trees the dark shapes of tall city buildings; no monuments, no statues, no signs, no writing anywhere",
+   "light": "dark blue pre-dawn, the cold white phone glow lighting his face from below, park lamps glowing behind him, mist, rim light, richly painted, detailed ink linework, textured brushwork",
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, dog, animal, crowd, vendor, signboard, brand label, statue",
+   "seed": "c41",
+   "note": "second still of shot 07 (long hold)"
+  },
+  "bk_10b": {
+   "subject": "Low-angle close-up of the head and neck of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog in profile facing right, staring ahead, very still and serious, head low, the red kerchief at the dog's neck; behind the dog, out of focus, the backs of a silent crowd and the grey sky. No people in focus. The dog's head in the upper half.",
+   "setting": "a flat grass field by Manila Bay in 1896, the grey sea beyond; no modern buildings",
+   "light": "a thread of gold light at ground level, cold grey-blue dawn, mist, rim light, richly painted, detailed ink linework, textured brushwork",
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
+   "seed": "c42",
+   "note": "second still of shot 10 (long hold)"
+  },
+  "bk_16b": {
+   "subject": "Over-the-shoulder shot from behind a woman's shoulder in a long dark charcoal coat, the red rim of her umbrella across the top of the picture, toward a young Filipino man about twenty, lean, warm brown skin, black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa with rolled sleeves, rolled dark brown trousers, barefoot, five indigo tattoos on his right forearm, a round bronze medallion on a cord on his chest, facing us, stunned, his eyes wide, one hand smoothing the front of his camisa. Only the dark coat shoulder and the umbrella's red rim of her in the near left; his face and chest in the upper half.",
+   "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
+   "light": "cool grey-blue dawn, a soft red glow from the umbrella over both of them, pale white sky, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
+   "seed": "c41",
+   "note": "second still of shot 16 (long hold)"
+  },
+  "bk_16c": {
+   "subject": "Over-the-shoulder shot from behind the shoulder of a young man in a loose white collarless camisa with a red cloth headband, toward a slim young Filipina woman in a long dark charcoal coat buttoned to the throat and black leather gloves, holding an open red umbrella low over her head so that its rim hides her face down to the lips, her eyes never shown, long straight black hair falling below the rim, facing us, speaking low, her lips just below the red rim, her gloved hand holding the umbrella handle. Her eyes never shown. Her lips and hand in the upper half.",
+   "setting": "a wide flat field of trampled pale grass beside Manila Bay in December 1896: the flat grey sea and a long low horizon, a few far coconut palms, low grey stone city walls far behind; no modern buildings, no electric wires",
+   "light": "cool grey-blue dawn, a soft red glow from the umbrella over both of them, pale white sky, cool rim light, richly painted, detailed ink linework, textured brushwork",
+   "negative": "text, letters, words, watermark, logo, comic panels, split screen, border, extra fingers, six fingers, missing fingers, fused fingers, deformed hands, extra limbs, extra arms, duplicate person, twin, distorted face, crossed eyes, melted face, blurry, 3d render, photo, flat cel shading, flat even lighting, cartoon, clip art, chinese characters, torii, blood, corpse, body on the ground, gun smoke, muzzle flash, night, torches, snow, modern buildings",
+   "seed": "c41",
+   "note": "second still of shot 16 (long hold)"
   }
  },
  "shots": {
@@ -425,21 +465,33 @@
    "full": "bk_06",
    "shot": "06"
   },
+  "12": {
+   "full": "bk_06b",
+   "shot": "06b"
+  },
   "14": {
+   "full": "bk_07a",
+   "shot": "07a"
+  },
+  "18": {
    "full": "bk_07",
    "shot": "07"
   },
-  "18": {
+  "20": {
    "full": "bk_08",
    "shot": "08"
   },
-  "19": {
+  "21": {
    "full": "bk_09",
    "shot": "09"
   },
-  "24": {
+  "25": {
    "full": "bk_10",
    "shot": "10"
+  },
+  "28": {
+   "full": "bk_10b",
+   "shot": "10b"
   },
   "30": {
    "full": "bk_11",
@@ -465,11 +517,19 @@
    "full": "bk_16",
    "shot": "16"
   },
+  "46": {
+   "full": "bk_16b",
+   "shot": "16b"
+  },
   "50": {
+   "full": "bk_16c",
+   "shot": "16c"
+  },
+  "52": {
    "full": "bk_17",
    "shot": "17"
   },
-  "52": {
+  "53": {
    "full": "bk_18",
    "shot": "18"
   },
@@ -481,11 +541,11 @@
    "full": "bk_20",
    "shot": "20"
   },
-  "62": {
+  "60": {
    "full": "bk_21",
    "shot": "21"
   },
-  "63": {
+  "62": {
    "full": "bk_22",
    "shot": "22"
   },
@@ -529,7 +589,7 @@
    "full": "bk_30",
    "shot": "30"
   },
-  "79": {
+  "80": {
    "full": "bk_31",
    "shot": "31"
   },
@@ -581,11 +641,11 @@
    "full": "bk_41",
    "shot": "41"
   },
-  "116": {
+  "118": {
    "full": "bk_42",
    "shot": "42"
   },
-  "120": {
+  "121": {
    "full": "bk_43",
    "shot": "43"
   }

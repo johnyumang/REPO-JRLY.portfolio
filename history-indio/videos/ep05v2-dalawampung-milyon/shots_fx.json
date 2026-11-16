@@ -33,7 +33,7 @@
 "move": "push_in",
 "fx": [],
 "why": "new place, finds Indio",
-"trans_in": "dissolve"
+"trans_in": "fade"
 },
 "6": {
 "move": "push_in",
@@ -198,420 +198,439 @@
 "key": 26
 },
 "32": {
-"move": "push_in",
-"fx": [],
-"why": "the warm door opens"
+"move": "hold",
+"fx": [
+"snow"
+],
+"key": 26
 },
 "33": {
 "move": "push_in",
 "fx": [],
-"why": "the warm door opens",
-"key": 32
+"why": "the warm door opens"
 },
 "34": {
 "move": "push_in",
 "fx": [],
 "why": "the warm door opens",
-"key": 32
+"key": 33
 },
 "35": {
 "move": "push_in",
 "fx": [],
 "why": "the warm door opens",
-"key": 32
+"key": 33
 },
 "36": {
 "move": "push_in",
 "fx": [],
 "why": "the warm door opens",
-"key": 32
+"key": 33
 },
 "37": {
 "move": "push_in",
 "fx": [],
 "why": "the warm door opens",
-"key": 32
+"key": 33
 },
 "38": {
 "move": "push_in",
 "fx": [],
 "why": "the warm door opens",
-"key": 32
+"key": 33
 },
 "39": {
-"move": "tilt_up",
+"move": "push_in",
 "fx": [],
-"why": "ends on the grating"
+"why": "the warm door opens",
+"key": 33
 },
 "40": {
 "move": "tilt_up",
 "fx": [],
-"why": "ends on the grating",
-"key": 39
+"why": "ends on the grating"
 },
 "41": {
 "move": "tilt_up",
 "fx": [],
 "why": "ends on the grating",
-"key": 39
+"key": 40
 },
 "42": {
 "move": "tilt_up",
 "fx": [],
 "why": "ends on the grating",
-"key": 39
+"key": 40
 },
 "43": {
 "move": "tilt_up",
 "fx": [],
 "why": "ends on the grating",
-"key": 39
+"key": 40
 },
 "44": {
-"move": "tilt_down",
+"move": "tilt_up",
 "fx": [],
-"why": "ends on Usman's teeth"
+"why": "ends on the grating",
+"key": 40
 },
 "45": {
 "move": "tilt_down",
 "fx": [],
-"why": "ends on Usman's teeth",
-"key": 44
+"why": "ends on Usman's teeth"
 },
 "46": {
 "move": "tilt_down",
 "fx": [],
 "why": "ends on Usman's teeth",
-"key": 44
+"key": 45
 },
 "47": {
-"move": "hold",
-"fx": []
+"move": "tilt_down",
+"fx": [],
+"why": "ends on Usman's teeth",
+"key": 45
 },
 "48": {
 "move": "hold",
-"fx": [],
-"key": 47
+"fx": []
 },
 "49": {
 "move": "hold",
 "fx": [],
-"key": 47
+"key": 48
 },
 "50": {
 "move": "hold",
 "fx": [],
-"key": 47
+"key": 48
 },
 "51": {
+"move": "hold",
+"fx": [],
+"key": 48
+},
+"52": {
 "move": "push_in",
 "fx": [],
 "why": "he enters the room"
 },
-"52": {
+"53": {
 "move": "pan_right",
 "fx": [],
 "why": "follows his walk"
 },
-"53": {
-"move": "push_in",
-"fx": [],
-"why": "the number is the price"
-},
 "54": {
 "move": "push_in",
 "fx": [],
-"why": "the number is the price",
-"key": 53
+"why": "the number is the price"
 },
 "55": {
 "move": "push_in",
 "fx": [],
 "why": "the number is the price",
-"key": 53
+"key": 54
 },
 "56": {
+"move": "push_in",
+"fx": [],
+"why": "the number is the price",
+"key": 54
+},
+"57": {
 "move": "pan_right",
 "fx": [],
 "why": "he counts every face"
 },
-"57": {
+"58": {
 "move": "hold",
 "fx": []
 },
-"58": {
+"59": {
 "move": "dolly_in",
 "fx": [
 "punch"
 ],
 "why": "the fall, the waiter shouts"
 },
-"59": {
+"60": {
 "move": "dolly_in",
 "fx": [],
 "why": "the fall, the waiter shouts",
-"key": 58
+"key": 59
 },
-"60": {
+"61": {
+"move": "dolly_in",
+"fx": [],
+"why": "the fall, the waiter shouts",
+"key": 59
+},
+"62": {
 "move": "tilt_down",
 "fx": [],
 "why": "led down the stairs"
 },
-"61": {
+"63": {
 "move": "push_in",
 "fx": [],
 "why": "he tells us the wound"
 },
-"62": {
+"64": {
 "move": "push_in",
 "fx": [],
 "why": "he tells us the wound",
-"key": 61
+"key": 63
 },
-"63": {
+"65": {
 "move": "tilt_up",
 "fx": [],
 "why": "ends on the small window"
 },
-"64": {
+"66": {
 "move": "tilt_up",
 "fx": [],
 "why": "ends on the small window",
-"key": 63
+"key": 65
 },
-"65": {
+"67": {
 "move": "dolly_in",
 "fx": [],
 "why": "ends on the lit window"
 },
-"66": {
+"68": {
 "move": "hold",
 "fx": []
 },
-"67": {
-"move": "hold",
-"fx": [],
-"key": 66
-},
-"68": {
-"move": "hold",
-"fx": [],
-"key": 66
-},
 "69": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "Ambo names the man"
+"key": 68
 },
 "70": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "Ambo names the man",
-"key": 69
+"key": 68
 },
 "71": {
 "move": "push_in",
 "fx": [],
-"why": "Ambo names the man",
-"key": 69
+"why": "Ambo names the man"
 },
 "72": {
 "move": "push_in",
 "fx": [],
 "why": "Ambo names the man",
-"key": 69
+"key": 71
 },
 "73": {
 "move": "push_in",
 "fx": [],
 "why": "Ambo names the man",
-"key": 69
+"key": 71
 },
 "74": {
 "move": "push_in",
 "fx": [],
 "why": "Ambo names the man",
-"key": 69
+"key": 71
 },
 "75": {
+"move": "push_in",
+"fx": [],
+"why": "Ambo names the man",
+"key": 71
+},
+"76": {
+"move": "push_in",
+"fx": [],
+"why": "Ambo names the man",
+"key": 71
+},
+"77": {
 "move": "push_in",
 "fx": [],
 "why": "his wife's letter",
 "dof": "far"
 },
-"76": {
+"78": {
 "move": "hold",
 "fx": []
 },
-"77": {
-"move": "hold",
-"fx": [],
-"key": 76
-},
-"78": {
-"move": "hold",
-"fx": [],
-"key": 76
-},
 "79": {
+"move": "hold",
+"fx": [],
+"key": 78
+},
+"80": {
+"move": "hold",
+"fx": [],
+"key": 78
+},
+"81": {
 "move": "dolly_in",
 "fx": [],
 "why": "his protest, alone, aloud"
 },
-"80": {
+"82": {
 "move": "push_in",
 "fx": [],
 "why": "the light is dying"
 },
-"81": {
+"83": {
 "move": "push_in",
 "fx": [],
 "why": "the light is dying",
-"key": 80
-},
-"82": {
-"move": "hold",
-"fx": []
-},
-"83": {
-"move": "hold",
-"fx": [],
 "key": 82
 },
 "84": {
-"move": "hold",
-"fx": []
+"move": "push_in",
+"fx": [],
+"why": "the light is dying",
+"key": 82
 },
 "85": {
 "move": "hold",
-"fx": [],
-"key": 84
+"fx": []
 },
 "86": {
 "move": "hold",
 "fx": [],
-"key": 84
+"key": 85
 },
 "87": {
 "move": "hold",
-"fx": [],
-"key": 84
+"fx": []
 },
 "88": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "the word president sinks in"
+"key": 87
 },
 "89": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "the word president sinks in",
-"key": 88
+"key": 87
 },
 "90": {
-"move": "push_in",
+"move": "hold",
 "fx": [],
-"why": "the word president sinks in",
-"key": 88
+"key": 87
 },
 "91": {
 "move": "push_in",
 "fx": [],
-"why": "the word president sinks in",
-"key": 88
+"why": "the word president sinks in"
 },
 "92": {
 "move": "push_in",
 "fx": [],
 "why": "the word president sinks in",
-"key": 88
+"key": 91
 },
 "93": {
+"move": "push_in",
+"fx": [],
+"why": "the word president sinks in",
+"key": 91
+},
+"94": {
+"move": "push_in",
+"fx": [],
+"why": "the word president sinks in",
+"key": 91
+},
+"95": {
+"move": "push_in",
+"fx": [],
+"why": "the word president sinks in",
+"key": 91
+},
+"96": {
 "move": "pan_right",
 "fx": [
 "snow"
 ],
 "why": "follows the lamp across"
 },
-"94": {
+"97": {
 "move": "hold",
 "fx": [
 "snow"
 ]
 },
-"95": {
+"98": {
 "move": "pull_out",
 "fx": [
 "snow"
 ],
 "why": "five small under one light"
 },
-"96": {
+"99": {
 "move": "pull_out",
 "fx": [
 "snow"
 ],
 "why": "five small under one light",
-"key": 95
+"key": 98
 },
-"97": {
+"100": {
 "move": "pull_out",
 "fx": [
 "snow"
 ],
 "why": "five small under one light",
-"key": 95
+"key": 98
 },
-"98": {
+"101": {
 "move": "hold",
 "fx": [
 "sparkle"
 ]
 },
-"99": {
+"102": {
 "move": "push_in",
 "fx": [],
 "why": "the fifth mark burns",
 "trans_in": "flash"
 },
-"100": {
-"move": "push_in",
-"fx": [],
-"why": "the fifth mark burns",
-"key": 99
-},
-"101": {
-"move": "push_in",
-"fx": [],
-"why": "the fifth mark burns",
-"key": 99
-},
-"102": {
-"move": "push_in",
-"fx": [],
-"why": "the fifth mark burns",
-"key": 99
-},
 "103": {
-"move": "hold",
-"fx": []
+"move": "push_in",
+"fx": [],
+"why": "the fifth mark burns",
+"key": 102
 },
 "104": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 103
+"why": "the fifth mark burns",
+"key": 102
 },
 "105": {
-"move": "hold",
+"move": "push_in",
 "fx": [],
-"key": 103
+"why": "the fifth mark burns",
+"key": 102
 },
 "106": {
 "move": "hold",
-"fx": [],
-"key": 103
+"fx": []
 },
 "107": {
+"move": "hold",
+"fx": [],
+"key": 106
+},
+"108": {
+"move": "hold",
+"fx": [],
+"key": 106
+},
+"109": {
+"move": "hold",
+"fx": [],
+"key": 106
+},
+"110": {
 "move": "hold",
 "fx": []
 }
