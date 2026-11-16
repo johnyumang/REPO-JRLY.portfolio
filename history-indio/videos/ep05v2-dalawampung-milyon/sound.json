@@ -110,11 +110,10 @@
 },
 "23": {
 "amb": [
-"wind",
-"city:-18"
+"wind:-12"
 ],
-"music": "drone",
-"level": -3,
+"music": "none",
+"level": -6,
 "spot": [
 {
 "what": "impact",
@@ -422,5 +421,13 @@
 "gain": 0
 }
 ]
+},
+"24": {
+"amb": [
+"wind",
+"city:-18"
+],
+"music": "drone",
+"level": -3
 }
 }

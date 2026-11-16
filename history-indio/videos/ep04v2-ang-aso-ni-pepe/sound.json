@@ -1,7 +1,7 @@
 {
-"_": {"whoosh_cuts": true, "rules_v2": true},
+"_": {"whoosh_cuts": true, "rules_v2": true, "bed_under_voice_db": 19.0},
 "0": {"amb": ["forest:-10"], "music": "none"},
-"1": {"spot": [{"what": "bark", "at": -0.32, "count": 1, "gain": 0}]},
+"1": {"spot": [{"what": "bark", "at": -0.32, "count": 1, "gain": 0}], "level": -4},
 "2": {"music": "heartbeat", "level": -3, "foley": [{"what": "steps_earth", "at": 0.0, "pace": "run", "count": 2, "gain": -6}]},
 "4": {"music": "guitar", "level": -4},
 "6": {"amb": ["city:-6", "forest:-12"], "music": "guitar", "level": -4, "spot": [{"what": "whoosh", "at": 0.0, "dur": 0.5, "gain": -6}]},
@@ -44,5 +44,7 @@
 "107": {"level": -3},
 "110": {"music": "drone", "level": -6},
 "112": {"music": "guitar", "level": -4},
-"106": {"spot": [{"what": "bell", "at": -0.35, "dur": 0.3, "gain": 0}]}
+"106": {"spot": [{"what": "bell", "at": -0.35, "dur": 0.3, "gain": 0}]},
+"56": {"level": -8},
+"57": {"level": -4}
 }
