@@ -1,0 +1,139 @@
+# INDIO: ANG SAKSI — Episode 18, "Ang Unang Galeon" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: supper. He has earned nothing on the pavement, and one unsold mango is all he has to eat. Then: his
+#   bag back, with every medallion in it.
+# SABI-SABI: "Ang galeon, barko ng yaman: seda, pilak, ginto." What he sees: the first one home is a ship of
+#   sick men who can hardly stand.
+# TWIST (BIBLE row 18): mistaken identity. Fall: his bag is taken; he does not listen to Usman's nose, runs
+#   the taker down and pins him: a thin grandfather, in front of the children he feeds; the grandfather is a
+#   nahual and rises as a jaguar, and now Indio is the one pinned, the bag under its paw, no medallion on
+#   him, and the children pelting him: he is the villain under the bridge. Comeback: he does what the friend
+#   says (no running, no striking), LOOKS (the ribs; the bag unopened; it stands between him and the
+#   children), and pays the animal first from his own share: his supper, the one mango. Then the show-off:
+#   the man who sold nothing all day has a queue to the end of the bridge. Ang Piging; the dim Kalakal
+#   relights; the FIFTH knot (the nahual). No confession is used.
+# Revised to REVISION_BATCH3 (A: scenes with people talking, storyteller at most half; B1, B4, B5, B6).
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN (inside the jump only). M.
+# LUPITA (invented girl of about ten who lives under the bridge, Acapulco 1565; "friend" voice, girl 2).
+# DIWA (the diwa of Rajah Tupas in the medallion "Ang Piging"; the owner's approved exception; ONE invented
+#   line, about nothing outside his own life).
+# Andrés de Urdaneta is seen from far and says nothing: no attested iconic line of his exists, so there is
+#   no hero line in this episode (facts.md). The old man (Tata) and the jaguar have no spoken line.
+# Indio understands Lupita through the medallion of Episode 11 and cannot answer in her tongue: he never
+#   says a line TO her that she must understand; his asides are to us.
+# "Umungol" is always said u-MU-ngol.
+# SAY: Acapulco=akaPULko
+# SAY: Mexico=MEhiko
+# SAY: Tiangge=tyangGE
+# SAY: tianguis=TYANGgis
+# SAY: tianquiztli=tyanKISTli
+# SAY: Aztec=AStek
+# SAY: galeon=galeYON
+# SAY: Mango Manila=MANGgo maNIla
+# SAY: 1565=isang libo limandaan at animnapu't lima
+# SAY: San Pedro=san PEdro
+# SAY: Lupita=luPIta
+# SAY: Andrés de Urdaneta=anDRES de urdaNEta
+# SAY: prayle=PRAYle
+# SAY: Tata=TAta
+# SAY: jaguar=DYAGwar
+# SAY: Nahual=naWAL
+# SAY: Rajah Tupas=RAha TUpas
+# SAY: Sugbu=sugBU
+# SAY: Piging=piGING
+# SAY: Kalakal=kaLAkal
+# SAY: tadyang=tadYANG
+# SAY: Mazaua=maSAwa
+# SAY: London=LANdon
+# SAY: kuwaderno=kuwaDERno
+
+# --- 0. Hook (cold, at 0.0, on the tackle: a flash-forward of scene 3)
+(Gabi, sa ilalim ng isang tulay na kahoy. Sinunggaban ni Indio mula sa likod ang isang tumatakbong lalaki at pareho silang bumagsak sa buhangin. Isang batang babae ang sumisigaw. Sa anino ng lalaki sa poste: isang buntot.)
+LUPITA: [shout] Bitawan mo siya! Hindi siya magnanakaw!
+INDIO (sa atin): [dramatic] Hinabol ko ang kumuha ng bag ko. Lolo pala. At may pangil.
+INDIO (sa atin): [dry] Ako 'to si Indio. Mali na naman ang hinuli ko.
+
+# --- 1. Today (short, Indio's voice). He wants: supper.
+TAGAPAGSALAYSAY: [calm] Ngayon. Acapulco, sa Mexico. Itinawid dito si Indio ng medalyong Ang Dagat, kasama si M, ang babaeng may mapa ng mga medalyon.
+(Isang bangketa sa tabi ng look, tanghali. Si Indio, nakaupo sa likod ng isang telang may nakahanay na mangga. Si M, sa tabi niya, hawak ang kuwaderno ng Lolo. Dumadaan ang mga tao; walang humihinto. Sa tapat, isang tindahan ng prutas na puno ng dilaw na mangga.)
+M: [calm] Dito tayo itinuro ng kuwaderno ng Lolo mo.
+INDIO (sa atin): [dry] Libre ang tawid. Ang hapunan, hindi. Kaya nagtinda ako.
+INDIO (sa atin): [playful] Tiangge: sabi nila, galing sa "tianguis" ng Mexico, at 'yon, sa "tianquiztli" ng mga Aztec: palengke. Sumakay ng galeon ang salita.
+INDIO (sa atin): [dry] Nag-tiangge ako sa pinagmulan ng tiangge. Benta: wala. May sarili silang "mango Manila".
+M: [amused] Isa na lang. Hapunan mo na 'yan. Isilid mo na sa bag.
+(Isinilid niya ang huling mangga sa bag na tela, katabi ng mga medalyon. Sa tabi ng look, isang karatula tungkol sa mga galeon. Binasa niya ito nang malakas. Uminit ang medalyon ni M.)
+TAGAPAGSALAYSAY: [calm] Binasa ni Indio ang isang karatula, at uminit ang medalyon ni M.
+
+# --- 2. The bay. He wants: to see the ship of riches.
+TAGAPAGSALAYSAY: [low] Acapulco, ikawalo ng Oktubre, taong 1565. Sumalubong si Usman, ang aso niyang nagsasalita.
+(Isang maliit na daungan: ilang bahay na pawid, buhangin, gubat sa likod. Lumabas ang itim na asong si Usman sa liwanag, nakataas ang ilong. Sa look, isang barkong punit ang layag, dahan-dahang pumapasok.)
+USMAN: [sniffing] Par. Amoy-sakit ang barkong 'yan.
+INDIO (sa atin): [whisper] Sabi ng titser ko, barko ng yaman ang galeon: seda, pilak.
+(Isang batang babaeng nakayapak, magulo ang buhok, ang tumabi kay Indio at itinuro ang barko.)
+TAGAPAGSALAYSAY: [low] Tumabi sa kanya si Lupita, isang batang nakatira sa ilalim ng tulay.
+LUPITA: [hushed] 'Yan ang San Pedro. Galing sa mga isla sa kabila ng dagat. Wala pa raw barkong nakabalik mula roon.
+LUPITA: [hushed] Halos lahat, maysakit.
+(Sa kubyerta, mga lalaking nakahiga at nakasandal. Iilan ang humihila ng lubid. Sa unahan, malayo, isang prayleng nakaitim, nakatanaw sa pampang.)
+TAGAPAGSALAYSAY: [low] Sa unahan, isang prayle: si Andrés de Urdaneta.
+LUPITA: [hushed] Siya raw ang nagturo ng daan pauwi.
+INDIO (sa atin): [whisper] Walang seda. Walang pilak. Ganito pala umuwi ang unang galeon.
+
+# --- 3. The chase. Mistaken identity. THE FALL.
+(Dapithapon. Nakatingala pa si Indio sa barko. Isang payat na kamay ang humablot sa bag sa balikat niya. Isang aninong tumatakbo sa pagitan ng mga bahay.)
+TAGAPAGSALAYSAY: [low] May humablot sa bag ni Indio. Doon na niya itinatago ang mga medalyon, mula nang maagaw ang lente niya sa London.
+INDIO: [shout] Magnanakaw!
+USMAN: [urgent] Par, sandali! Hindi 'yon amoy-magnanakaw. Amoy-gutom!
+(Takbo sa buhangin, sa ilalim ng isang tulay na kahoy. Sinunggaban niya ang lalaki; bumagsak sila. Isang payat na matanda. Sa likod, isang dosenang batang nakaupo sa dilim, nakatingin.)
+TAGAPAGSALAYSAY: [low] Sa ilalim ng tulay, sinunggaban niya ang kumuha: isang payat na matanda, sa harap ng mga bata.
+LUPITA: [shout] Bitawan mo siya! Hindi siya magnanakaw!
+LUPITA: [fierce] Si Tata 'yan, ang nagpapakain sa amin! Gutom lang kami. Naamoy niya ang prutas mo!
+(Sa ilalim ng mga kamay ni Indio, nagbago ang matanda: batik sa balat, pangil, bigat. Isang jaguar ang tumayo. Si Indio na ang nakahiga, isang paa nito sa dibdib niya, ang isa sa bag.)
+TAGAPAGSALAYSAY: [low] Naging jaguar ang matanda, at si Indio na ang nakadiin sa buhangin.
+(Si M, sa gilid ng tulay, hawak ang payong, hindi lumalapit.)
+M: [low] Nahual, Indio. Taong nagiging hayop.
+(Pinupukol ng mga bata ng buhangin si Indio. Hindi siya makabangon.)
+INDIO (sa atin): [whisper] Nasa kuko niya ang bag ko. Binabato ako ng mga bata. Ako pala ang kontrabida.
+
+# --- 4. THE COMEBACK. He looks, and pays first.
+LUPITA: [whisper] Huwag kang tatakbo. Huwag kang mananakit. Bantay namin siya.
+(Tumigil si Indio sa pagpiglas. Tumingin siya: bilang ang bawat tadyang ng jaguar. Sarado pa ang bag. Nakatayo ang hayop sa pagitan niya at ng mga bata.)
+INDIO: [quiet] Bilang ko ang tadyang mo. Humaharang ka lang, para sa mga bata.
+USMAN: [pained] Par. Hapunan mo 'yan. Pero sige na.
+(Dahan-dahan niyang inabot ang bag. Inilabas niya ang mangga, hinati, at inilapag ang unang hati sa buhangin, sa harap ng jaguar.)
+TAGAPAGSALAYSAY: [low] Inilabas ni Indio ang mangga, at inilapag ang unang hati sa harap ng jaguar.
+INDIO: [steady] Sa'yo muna. Nakita na kita.
+(Kumain ang jaguar. Sa leeg nito, sa isang lubid, isang medalyong tanso ang nagliwanag: isang hapag at isang araw ang ukit.)
+TAGAPAGSALAYSAY: [low] Kumain ang jaguar. Sa leeg nito, uminit ang isang medalyong tanso.
+LUPITA: [awed] Napulot 'yan ni Tata, kung saan ibinaba ang karga ng barko.
+DIWA: [warm] Ang ibinahagi, dumarami.
+M: [low] Diwa 'yan ni Rajah Tupas ng Sugbu, kung saan galing ang barko. Ang Piging.
+(Hinati ni Indio ang natirang kalahati para kay Lupita. Buo pa rin ang hawak niya. Hati ulit. Buo pa rin. Pumila ang mga bata. Sa ere, tatlong segundo, ang hologram: isang bagong buhol, at tumaas ang KAALAMAN.)
+TAGAPAGSALAYSAY: [low] Hinati niya ulit ang mangga, at hindi ito naubos.
+LUPITA: [delighted] Ano 'to? Parang araw na may buto! Isa pa, para sa maliliit!
+INDIO (sa atin): [smug] Kanina, walang bumili. Ngayon, may pila ako.
+(Naging matanda ulit ang jaguar. Isinabit niya ang medalyon sa leeg ni Indio. Itinaas ni M ang sarili niyang medalyon. Sa pulang tali sa pulso ni Indio, ang ikalimang buhol. Sa loob ng bag, isang liwanag.)
+TAGAPAGSALAYSAY: [low] Naging matanda ulit ang jaguar, at isinabit ang medalyon kay Indio. Sa pulang tali sa pulso niya, may nabuong buhol.
+M: [low] Ikalimang buhol, ikalimang kakampi: ang nahual.
+(Sa loob ng bag, isang liwanag. Binuksan ito ni M.)
+M: [soft] At ang medalyong Kalakal: lumabo 'yan nang mabigo ka sa Mazaua. Maliwanag ulit, kasi nagbigay ka nang walang kapalit.
+USMAN: [happy] Pang-anim ko na 'to, par.
+
+# --- 5. Back. The toy on the cloth.
+(Gabi na. Ang tela ni Indio sa bangketa. Sa gitna nito, isang maliit na laruang galeon na kahoy. Sa ilalim, isang papel na may sulat-kamay. Si M, nakatingin din.)
+TAGAPAGSALAYSAY: [calm] Ngayon. Sa tela ni Indio sa bangketa, may laruang galeon na hindi kanya, at isang sulat.
+INDIO: [reading] "Lahat ng barkong umalis, may bumalik. Hinihintay ka niya."
+TAGAPAGSALAYSAY: [calm] Hindi iyon sulat ni M. Hindi alam ni Indio kung sino ang nag-iwan, o kung sino ang "niya".
+INDIO (sa atin): [whisper] Sino'ng naghihintay sa akin?
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: huling pagkain mo na, at gutom pala ang kumuha ng bag mo. Ibibigay mo ba?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? 'Yon ang unang galeon?
+# INDIO: Tiyak: dumating sa Acapulco ang San Pedro noong ikawalo ng Oktubre, 1565, galing sa Sugbu, kasama si Andrés de Urdaneta. Doon nagsimula ang kalakalang galeon, hanggang 1815.
+# INDIO: Pinagtatalunan kung sino ang nauna: noong Agosto, may isa pang barko, kay Alonso de Arellano, na nakabalik na sa Mexico.
+# USMAN: Eh 'yung mangga?
+# INDIO: Sa kalakalang galeon nakarating ang mangga ng Pilipinas sa Mexico, ayon sa mga tala, kaya "mango Manila" ang tawag doon. Ang nahual, paniniwala ng mga katutubo ng Mexico. Ang sinabi ng diwa, hindi tala.
+# USMAN: Kaya pala ako umungol.
