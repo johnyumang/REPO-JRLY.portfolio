@@ -1,7 +1,11 @@
 {
 "_": {
 "whoosh_cuts": true,
-"rules_v2": true
+"rules_v2": true,
+"levels": {
+"amb": -9.0,
+"music": -8.0
+}
 },
 "0": {
 "amb": "none",
