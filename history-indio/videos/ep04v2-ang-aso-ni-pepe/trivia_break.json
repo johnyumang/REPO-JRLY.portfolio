@@ -4,17 +4,70 @@
  "label_onscreen": "USMAN",
  "source_onscreen": "Pinagmulan: Rizal, Memorias de un estudiante de Manila; mga talambuhay ni Rizal",
  "lines": [
-  {"speaker": "USMAN", "text": "Totoo ba 'yon, par? May aso si Rizal na kapangalan ko?", "emphasis": ["kapangalan"], "say": "Totoo ba 'yon, par? May aso si riSAL na kapangalan ko?"},
-  {"speaker": "INDIO", "text": "Ayon sa mga talambuhay niya, oo: isang malaking itim na aso, Usman ang pangalan.", "emphasis": ["talambuhay"]},
-  {"speaker": "INDIO", "text": "Hindi ito matunton sa sarili niyang sulat, kaya \"ayon sa talambuhay\" lang.", "emphasis": ["sulat"]},
-  {"speaker": "INDIO", "text": "Tiyak: Hunyo 1869, isang Linggo, inihatid siya ng kuya niyang si Paciano sa Biñan para mag-aral.", "emphasis": ["1869", "Biñan"], "say": "Tiyak: Hunyo mil otsosyentos sesentay nuwebe, isang Linggo, inihatid siya ng kuya niyang si Paciano sa binYAN para mag-aral."},
-  {"speaker": "INDIO", "text": "Mga walong taon siya noon.", "emphasis": ["walong"]},
-  {"speaker": "INDIO", "text": "At ang kuwento ng gamu-gamo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa.", "emphasis": ["gamu-gamo"], "say": "At ang kuwento ng gamuGAmo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa."},
-  {"speaker": "USMAN", "text": "Eh kadugo mo ba talaga siya?", "emphasis": ["kadugo"]},
-  {"speaker": "INDIO", "text": "Sa totoong tala, walang kilalang apo si Rizal. Kuwento 'yan ng pamilya namin.", "emphasis": ["kuwento"], "say": "Sa totoong tala, walang kilalang apo si riSAL. Kuwento 'yan ng pamilya namin."}
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? May aso si Rizal na kapangalan ko?",
+   "emphasis": [
+    "kapangalan"
+   ],
+   "say": "Totoo ba 'yon, par? May aso si riSAL na kapangalan ko?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ayon sa mga talambuhay niya, oo: isang malaking itim na aso, Usman ang pangalan.",
+   "emphasis": [
+    "talambuhay"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Hindi ito matunton sa sarili niyang sulat, kaya \"ayon sa talambuhay\" lang.",
+   "emphasis": [
+    "sulat"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: Hunyo 1869, isang Linggo, inihatid siya ng kuya niyang si Paciano sa Biñan para mag-aral.",
+   "emphasis": [
+    "1869",
+    "Biñan"
+   ],
+   "say": "Tiyak: Hunyo mil otsosyentos sesentay nuwebe, isang Linggo, inihatid siya ng kuya niyang si Paciano sa binYAN para mag-aral."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Mga walong taon siya noon.",
+   "emphasis": [
+    "walong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At ang kuwento ng gamu-gamo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa.",
+   "emphasis": [
+    "gamu-gamo"
+   ],
+   "say": "At ang kuwento ng gamuGAmo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh kadugo mo ba talaga siya?",
+   "emphasis": [
+    "kadugo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Sa totoong tala, walang kilalang apo si Rizal. Kuwento 'yan ng pamilya namin.",
+   "emphasis": [
+    "kuwento"
+   ],
+   "say": "Sa totoong tala, walang kilalang apo si riSAL. Kuwento 'yan ng pamilya namin."
+  }
  ],
  "placement": "end",
- "insert_after_sentence": 110,
+ "insert_after_sentence": 112,
  "after_text": "Ikaw, ka-Indio: kung may mahal kang gustong bumalik sa dati niyang tahanan, hahayaan mo ba?",
  "palette": "sun",
  "grave": false,
