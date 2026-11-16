@@ -28,6 +28,14 @@
   "why": "he introduces himself to us",
   "trans_in": "flash"
  },
+ "3": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "he introduces himself to us",
+  "key": 2
+ },
  "4": {
   "fx": [],
   "move": "push_in",
@@ -42,6 +50,15 @@
   "why": "the dog in the light",
   "trans_in": "flash"
  },
+ "6": {
+  "fx": [
+   "flash",
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the dog in the light",
+  "key": 5
+ },
  "7": {
   "fx": [
    "embers"
@@ -49,6 +66,14 @@
   "move": "crane_down",
   "why": "opening: the camp, 1896",
   "trans_in": "fade"
+ },
+ "8": {
+  "fx": [
+   "embers"
+  ],
+  "move": "crane_down",
+  "why": "opening: the camp, 1896",
+  "key": 7
  },
  "9": {
   "fx": [
@@ -70,6 +95,14 @@
   ],
   "move": "tilt_up",
   "why": "up from bread to tied wrists"
+ },
+ "12": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "up from bread to tied wrists",
+  "key": 11
  },
  "13": {
   "fx": [
@@ -113,6 +146,14 @@
   "move": "tilt_up",
   "why": "he steps up: end on face",
   "trans_in": "fade"
+ },
+ "19": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_up",
+  "why": "he steps up: end on face",
+  "key": 18
  },
  "20": {
   "fx": [

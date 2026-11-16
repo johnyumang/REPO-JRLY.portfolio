@@ -176,7 +176,7 @@
   "fx": [],
   "move": "hold",
   "why": "even his shadow sways",
-  "sub_v": 260
+  "sub_v": 560
  },
  "27": {
   "fx": [],
@@ -282,7 +282,7 @@
   "fx": [],
   "move": "tilt_down",
   "why": "down to fish and rice",
-  "sub_v": 260
+  "sub_v": 680
  },
  "45": {
   "fx": [],
@@ -302,10 +302,12 @@
   "trans_in": "fade"
  },
  "48": {
-  "fx": [],
-  "move": "crane_up",
-  "why": "it climbs to the moon",
-  "sub_v": 260
+  "fx": [
+   "flat"
+  ],
+  "move": "tilt_up",
+  "why": "up the serpent to the moon",
+  "sub_v": 320
  },
  "49": {
   "fx": [
@@ -548,8 +550,8 @@
  },
  "90": {
   "fx": [],
-  "move": "crane_up",
-  "why": "the shore takes him in"
+  "move": "push_in",
+  "why": "the circle takes him in"
  },
  "91": {
   "fx": [],
@@ -559,12 +561,14 @@
    91,
    191
   ],
-  "why_2": "one fish, and proud"
+  "why_2": "one fish, and proud",
+  "sub_v": 330
  },
  "92": {
   "fx": [],
   "move": "hold",
-  "why": "the dog took half"
+  "why": "the dog took half",
+  "sub_v": 260
  },
  "93": {
   "fx": [],
@@ -588,6 +592,7 @@
    "flat"
   ],
   "move": "pull_out",
-  "why": "the question, to us"
+  "why": "the question, to us",
+  "sub_v": 260
  }
 }
