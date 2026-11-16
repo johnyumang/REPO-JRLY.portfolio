@@ -959,6 +959,42 @@
     190,
     400
    ]
+  },
+  "AGYU": {
+   "descriptions": [
+    "A Filipino boy about eleven years old, lively and confident, clear bright voice slightly lower than a small child's, quick and proud, speaks warmly, Filipino accent",
+    "An eleven-year-old Filipino boy, energetic river paddler, clear strong young voice, cheerful and a little bossy, Filipino accent"
+   ],
+   "ref_text": "Kuya, tingnan mo ang mga bangka namin. Walang pako ang mga 'yan, puro tarugo at tali lang. Ako ang pinakamabilis sumagwan dito sa ilog. Kapag may dumating na barko, ako ang unang nakakakita.",
+   "sample": "Huwag, kuya. May bantay ang ilog na 'yan.",
+   "f0_hz": [
+    180,
+    420
+   ]
+  },
+  "ANG NAKAPUTI": {
+   "descriptions": [
+    "A smooth, polished Filipino man in his fifties, a bank officer, soft and courteous voice with a cold calm under it, unhurried, very clear, Filipino accent",
+    "A suave middle-aged man, velvety low voice, perfectly polite and smiling, quietly menacing, measured, Filipino accent"
+   ],
+   "ref_text": "Magandang umaga po. Narito na ang lahat ng kailangan ninyo. Pirma lang po, at sa inyo na ang lahat. Huwag po kayong mag-alala sa interes. Kami na ang bahala sa lahat ng iyan, sa tamang panahon.",
+   "sample": "Congratulations po, sir. Sa inyo na po ang lahat.",
+   "f0_hz": [
+    75,
+    220
+   ]
+  },
+  "YÚMUD": {
+   "descriptions": [
+    "A very old, slow, deep and gentle voice of an ancient river guardian, low and grainy like water over stones, calm and grave, never scary, Filipino accent",
+    "An ancient being with a deep, slow, wet and resonant voice, patient and grave, speaking softly from the river depths, Filipino accent"
+   ],
+   "ref_text": "Matagal na akong nakatira sa ilalim ng ilog na ito. Binabantayan ko ang mga bangkang lumubog, at ang mga pangakong kasama nila. Hindi ako kumukuha ng buhay. Ibinabalik ko lang ang hindi sa inyo.",
+   "sample": "Hindi ako ang kaaway mo.",
+   "f0_hz": [
+    60,
+    200
+   ]
   }
  }
 }
