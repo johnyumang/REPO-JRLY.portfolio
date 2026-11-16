@@ -1,0 +1,613 @@
+{
+ "_": {
+  "hold_same_key": true,
+  "trans_default": "cut"
+ },
+ "0": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold"
+ },
+ "1": {
+  "fx": [],
+  "move": "hold",
+  "key": 0
+ },
+ "2": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he falls back",
+  "trans_in": "whip"
+ },
+ "3": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he falls back",
+  "key": 2
+ },
+ "4": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "ends on Usman's back"
+ },
+ "5": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "ends on Usman's back",
+  "key": 4
+ },
+ "6": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the pie stall",
+  "trans_in": "cut"
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the pie stall",
+  "key": 6
+ },
+ "8": {
+  "fx": [],
+  "move": "hold"
+ },
+ "9": {
+  "fx": [],
+  "move": "hold",
+  "key": 8
+ },
+ "10": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the pie is his treasure"
+ },
+ "11": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the pie is his treasure",
+  "key": 10
+ },
+ "12": {
+  "fx": [],
+  "move": "push_in",
+  "why": "coconut instead of apples"
+ },
+ "13": {
+  "fx": [],
+  "move": "push_in",
+  "why": "coconut instead of apples",
+  "key": 12
+ },
+ "14": {
+  "fx": [],
+  "move": "push_in",
+  "why": "coconut instead of apples",
+  "key": 12
+ },
+ "15": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "ends on the marker"
+ },
+ "16": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "ends on the marker",
+  "key": 15
+ },
+ "17": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he reads it aloud"
+ },
+ "18": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "down through the leaves",
+  "trans_in": "flash"
+ },
+ "19": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "down through the leaves",
+  "key": 18
+ },
+ "20": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "down through the leaves",
+  "key": 18
+ },
+ "21": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "down through the leaves",
+  "key": 18
+ },
+ "22": {
+  "fx": [],
+  "move": "hold"
+ },
+ "23": {
+  "fx": [],
+  "move": "hold",
+  "key": 22
+ },
+ "24": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "Usman runs, he follows"
+ },
+ "25": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "Usman runs, he follows",
+  "key": 24
+ },
+ "26": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "Usman runs, he follows",
+  "key": 24
+ },
+ "27": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "Usman runs, he follows",
+  "key": 24
+ },
+ "28": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "Usman runs, he follows",
+  "key": 24
+ },
+ "29": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows the chase",
+  "keys": [
+   29,
+   120,
+   121
+  ],
+  "trans_in": "whip"
+ },
+ "30": {
+  "fx": [],
+  "move": "hold"
+ },
+ "31": {
+  "fx": [],
+  "move": "hold",
+  "key": 30
+ },
+ "32": {
+  "fx": [],
+  "move": "hold",
+  "key": 30
+ },
+ "33": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he feels left behind"
+ },
+ "34": {
+  "fx": [],
+  "move": "hold"
+ },
+ "35": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold"
+ },
+ "36": {
+  "fx": [],
+  "move": "hold",
+  "key": 35
+ },
+ "37": {
+  "fx": [],
+  "move": "hold",
+  "key": 35
+ },
+ "38": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy names the owner"
+ },
+ "39": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy names the owner",
+  "key": 38
+ },
+ "40": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy names the owner",
+  "key": 38
+ },
+ "41": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy names the owner",
+  "key": 38
+ },
+ "42": {
+  "fx": [],
+  "move": "hold"
+ },
+ "43": {
+  "fx": [],
+  "move": "hold",
+  "key": 42
+ },
+ "44": {
+  "fx": [],
+  "move": "hold"
+ },
+ "45": {
+  "fx": [],
+  "move": "hold",
+  "key": 44
+ },
+ "46": {
+  "fx": [],
+  "move": "hold"
+ },
+ "47": {
+  "fx": [],
+  "move": "hold",
+  "key": 46
+ },
+ "48": {
+  "fx": [],
+  "move": "hold",
+  "key": 46
+ },
+ "49": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold"
+ },
+ "50": {
+  "fx": [],
+  "move": "hold"
+ },
+ "51": {
+  "fx": [],
+  "move": "hold",
+  "key": 50
+ },
+ "52": {
+  "fx": [],
+  "move": "hold"
+ },
+ "53": {
+  "fx": [],
+  "move": "hold",
+  "key": 52
+ },
+ "54": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy teaches him"
+ },
+ "55": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy teaches him",
+  "key": 54
+ },
+ "56": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy teaches him",
+  "key": 54
+ },
+ "57": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy teaches him",
+  "key": 54
+ },
+ "58": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Andoy teaches him",
+  "key": 54
+ },
+ "59": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he waits a long time",
+  "trans_in": "cut"
+ },
+ "60": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the nose finds the pie"
+ },
+ "61": {
+  "fx": [],
+  "move": "hold"
+ },
+ "62": {
+  "fx": [],
+  "move": "hold",
+  "key": 61
+ },
+ "63": {
+  "fx": [],
+  "move": "hold"
+ },
+ "64": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he hears the dog"
+ },
+ "65": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he hears the dog",
+  "key": 64
+ },
+ "66": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he hears the dog",
+  "key": 64
+ },
+ "67": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he understands her sadness"
+ },
+ "68": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he understands her sadness",
+  "key": 67
+ },
+ "69": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "same dog, two ages"
+ },
+ "70": {
+  "fx": [],
+  "move": "hold"
+ },
+ "71": {
+  "fx": [],
+  "move": "hold",
+  "key": 70
+ },
+ "72": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the truth sinks in slowly"
+ },
+ "73": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the truth sinks in slowly",
+  "key": 72
+ },
+ "74": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the truth sinks in slowly",
+  "key": 72
+ },
+ "75": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the truth sinks in slowly",
+  "key": 72
+ },
+ "76": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the truth sinks in slowly",
+  "key": 72
+ },
+ "77": {
+  "fx": [],
+  "move": "hold"
+ },
+ "78": {
+  "fx": [],
+  "move": "hold"
+ },
+ "79": {
+  "fx": [],
+  "move": "hold",
+  "key": 78
+ },
+ "80": {
+  "fx": [],
+  "move": "hold",
+  "key": 78
+ },
+ "81": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward mother and son",
+  "dof": "far"
+ },
+ "82": {
+  "fx": [],
+  "move": "hold"
+ },
+ "83": {
+  "fx": [],
+  "move": "hold",
+  "key": 82
+ },
+ "84": {
+  "fx": [],
+  "move": "hold",
+  "key": 122
+ },
+ "85": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "her warning to her son"
+ },
+ "86": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "her warning to her son",
+  "key": 85
+ },
+ "87": {
+  "fx": [],
+  "move": "hold"
+ },
+ "88": {
+  "fx": [],
+  "move": "hold",
+  "key": 87
+ },
+ "89": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the boy hugs his dog"
+ },
+ "90": {
+  "fx": [],
+  "move": "hold"
+ },
+ "91": {
+  "fx": [],
+  "move": "hold",
+  "key": 90
+ },
+ "92": {
+  "fx": [],
+  "move": "hold",
+  "key": 90
+ },
+ "93": {
+  "fx": [],
+  "move": "hold"
+ },
+ "94": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "ends on the empty road"
+ },
+ "95": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "ends on the empty road",
+  "key": 94
+ },
+ "96": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "ends on the empty road",
+  "key": 94
+ },
+ "97": {
+  "fx": [],
+  "move": "crane_up",
+  "why": "ends on the empty road",
+  "key": 94
+ },
+ "98": {
+  "fx": [],
+  "move": "push_in",
+  "why": "a quiet question",
+  "dof": "far"
+ },
+ "99": {
+  "fx": [],
+  "move": "push_in",
+  "why": "a quiet question",
+  "dof": "far",
+  "key": 98
+ },
+ "100": {
+  "fx": [],
+  "move": "push_in",
+  "why": "a quiet question",
+  "dof": "far",
+  "key": 98
+ },
+ "101": {
+  "fx": [],
+  "move": "hold"
+ },
+ "102": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "trans_in": "flash"
+ },
+ "103": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 102
+ },
+ "104": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 102
+ },
+ "105": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 102
+ },
+ "106": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the text changes things"
+ },
+ "107": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the text changes things",
+  "key": 106
+ },
+ "108": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the text changes things",
+  "key": 106
+ },
+ "109": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the text changes things",
+  "key": 106
+ },
+ "110": {
+  "fx": [],
+  "move": "push_in",
+  "why": "who asked before him"
+ },
+ "111": {
+  "fx": [],
+  "move": "push_in",
+  "why": "who asked before him",
+  "key": 110
+ },
+ "112": {
+  "fx": [],
+  "move": "hold"
+ }
+}
