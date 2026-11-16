@@ -22,19 +22,22 @@
  "2": {
   "fx": [],
   "move": "push_in",
-  "why": "closing in on his confession"
+  "why": "closing in on his confession",
+  "sub_v": 270
  },
  "3": {
   "fx": [],
   "move": "push_in",
   "why": "closing in on his confession",
-  "key": 2
+  "key": 2,
+  "sub_v": 270
  },
  "4": {
   "fx": [],
   "move": "push_in",
   "why": "closing in on his confession",
-  "key": 2
+  "key": 2,
+  "sub_v": 270
  },
  "5": {
   "fx": [],
@@ -211,13 +214,15 @@
  "36": {
   "fx": [],
   "move": "hold",
-  "why": "his eyes do not waver"
+  "why": "his eyes do not waver",
+  "sub_v": 230
  },
  "37": {
   "fx": [],
   "move": "hold",
   "why": "his eyes do not waver",
-  "key": 36
+  "key": 36,
+  "sub_v": 230
  },
  "38": {
   "fx": [],
@@ -261,9 +266,8 @@
  },
  "45": {
   "fx": [],
-  "move": "rack_focus",
-  "why": "ends on the medal inside",
-  "focus_to": "far"
+  "move": "push_in",
+  "why": "the medal goes to him"
  },
  "46": {
   "fx": [],
@@ -391,19 +395,22 @@
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "dof": "far"
+  "dof": "far",
+  "sub_v": 380
  },
  "68": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "key": 67
+  "key": 67,
+  "sub_v": 380
  },
  "69": {
   "fx": [],
   "move": "dolly_in",
   "why": "the comeback: his plain honesty",
-  "key": 67
+  "key": 67,
+  "sub_v": 380
  },
  "70": {
   "fx": [],
@@ -470,7 +477,8 @@
  "81": {
   "fx": [],
   "move": "hold",
-  "why": "the paper changes hands"
+  "why": "the paper changes hands",
+  "sub_v": 350
  },
  "82": {
   "fx": [],
