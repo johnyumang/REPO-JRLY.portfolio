@@ -1,0 +1,221 @@
+{
+"_": {
+"whoosh_cuts": true,
+"rules_v2": true,
+"bed_per_line": true
+},
+"0": {
+"amb": [
+"sea:-14"
+],
+"music": "none",
+"spot": [
+{
+"what": "splash",
+"at": 0.0,
+"gain": -4
+},
+{
+"what": "impact",
+"at": 0.05,
+"gain": -6
+}
+]
+},
+"2": {
+"music": "heartbeat",
+"level": -3
+},
+"7": {
+"amb": [
+"wind:-8",
+"city:-16"
+],
+"music": "guitar",
+"level": -4,
+"spot": [
+{
+"what": "whoosh",
+"at": 0.0,
+"dur": 0.6,
+"gain": -8
+}
+]
+},
+"17": {
+"spot": [
+{
+"what": "shimmer",
+"at": 0.2,
+"dur": 1.4,
+"gain": -6
+}
+],
+"music": "heartbeat",
+"level": -3
+},
+"21": {
+"amb": [
+"office"
+],
+"music": "none",
+"foley": [
+{
+"what": "cloth",
+"at": 0.4,
+"gain": -10
+}
+]
+},
+"25": {
+"amb": [
+"wind:-10",
+"forest:-14"
+],
+"music": "drone",
+"level": -4
+},
+"26": {
+"spot": [
+{
+"what": "shimmer",
+"at": 0.0,
+"dur": 1.2,
+"gain": -6
+},
+{
+"what": "riser",
+"at": 1.2,
+"dur": 1.6,
+"gain": -8
+}
+]
+},
+"27": {
+"amb": [
+"sea:-8",
+"crowd:-14",
+"forest:-16"
+],
+"music": "flute",
+"level": -4
+},
+"45": {
+"music": "drone",
+"level": -4,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.1,
+"dur": 1.0,
+"gain": -8
+}
+]
+},
+"51": {
+"amb": [
+"sea:-12"
+],
+"music": "heartbeat",
+"level": -2,
+"spot": [
+{
+"what": "splash",
+"at": 0.0,
+"gain": -4
+}
+]
+},
+"52": {
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -4,
+"hush": 0.35
+}
+]
+},
+"57": {
+"music": "none",
+"spot": [
+{
+"what": "low_note",
+"at": 0.0,
+"dur": 3.0,
+"gain": -14,
+"hush": 0.5
+}
+]
+},
+"58": {
+"music": "drone",
+"level": -4,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.3,
+"dur": 1.6,
+"gain": -6
+}
+]
+},
+"70": {
+"amb": [
+"sea:-8",
+"crowd:-12",
+"forest:-16"
+],
+"music": "flute",
+"level": -4,
+"spot": [
+{
+"what": "splash",
+"at": 0.0,
+"gain": -6
+}
+]
+},
+"74": {
+"music": "guitar",
+"level": -5,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.6,
+"dur": 1.0,
+"gain": -10
+}
+]
+},
+"88": {
+"spot": [
+{
+"what": "cheer",
+"at": 1.0,
+"dur": 1.5,
+"gain": -10
+}
+]
+},
+"93": {
+"amb": [
+"night_insects:-10",
+"sea:-16"
+],
+"music": "drone",
+"level": -5,
+"spot": [
+{
+"what": "whoosh",
+"at": 0.0,
+"dur": 0.6,
+"gain": -8
+}
+]
+},
+"101": {
+"music": "none",
+"level": -3
+}
+}
