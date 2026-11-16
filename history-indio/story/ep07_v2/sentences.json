@@ -84,8 +84,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ninakaw ang medalyon ni Indio, kaya naiwan siya sa 1896.",
-  "say": "ninakaw ang medalyon ni indio, kaya naiwan siya sa mil otsosyentos nobentay sais.",
+  "text": "Ninakaw ang medalyon ni Indio, kaya naiwan siya sa 1896, kasama si Usman, ang aso niyang nagsasalita.",
+  "say": "ninakaw ang medalyon ni indio, kaya naiwan siya sa mil otsosyentos nobentay sais, kasama si usman, ang aso niyang nagsasalita.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
@@ -149,6 +149,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
+ },
+ {
+  "text": "Sa malayo, dumaan ang isang karitong may takip.",
+  "say": "sa malayo, dumaan ang isang karitong may takip.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Par.",
@@ -280,6 +288,14 @@
   "speaker": "IMO"
  },
  {
+  "text": "May guwardiyang napatingala.",
+  "say": "may guwardiyang napatingala.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
   "text": "Alto!",
   "say": "ALto!",
   "style": "shout",
@@ -304,8 +320,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa lilim ng pader, binuksan na ni Indio ang sulat.",
-  "say": "sa lilim ng pader, binuksan na ni indio ang sulat.",
+  "text": "Sa lilim ng pader, binuksan na ni Indio ang sulat ng Lolo niya.",
+  "say": "sa lilim ng pader, binuksan na ni indio ang sulat ng lolo niya.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -418,14 +434,6 @@
   "speaker": "LOLO"
  },
  {
-  "text": "Namatay ang phone, sa gitna ng pangungusap.",
-  "say": "namatay ang phone, sa gitna ng pangungusap.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
   "text": "Huwag!",
   "say": "huwag!",
   "style": "shout",
@@ -516,14 +524,6 @@
   "speaker": "IMO"
  },
  {
-  "text": "Inamoy ni Usman ang lupa sa paanan ng pader.",
-  "say": "inamoy ni usman ang lupa sa paanan ng pader.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
   "text": "Dito, par.",
   "say": "dito, par.",
   "style": "excited",
@@ -548,16 +548,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "May lata.",
-  "say": "may lata.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Sa loob, isang lumang lente.",
-  "say": "sa loob, isang lumang LENte.",
+  "text": "Sa isang lata, may lumang lente.",
+  "say": "sa isang lata, may lumang LENte.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -690,6 +682,14 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "IMO"
+ },
+ {
+  "text": "Mula sa lupa, may mahinang tinig.",
+  "say": "mula sa lupa, may mahinang tinig.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Adiós, Patria adorada, región del sol querida.",
