@@ -1,0 +1,24 @@
+{
+ "fact_id": "ep06v2_end",
+ "fact_english": "José Rizal was shot at Bagumbayan on 30 December 1896, at about 7:03 in the morning; he asked to face the firing squad and was refused. The men holding the rifles were Filipino soldiers of the colonial army, with Spanish soldiers behind them. 'Consummatum est' as his last words and his turning to fall face up are reported by the biographies, not proven.",
+ "label_onscreen": "BAGUMBAYAN 1896",
+ "source_onscreen": "Pinagmulan: Inquirer; ABS-CBN ANCX (2018); joserizal.com",
+ "lines": [
+  {"speaker": "USMAN", "text": "Totoo ba 'yon, par?", "emphasis": ["totoo"]},
+  {"speaker": "INDIO", "text": "Tiyak: ikatatlumpu ng Disyembre 1896, sa Bagumbayan, binaril si José Rizal, mga alas-siyete y tres ng umaga.", "emphasis": ["1896", "Bagumbayan"], "say": "Tiyak: ikatatlumpu ng Disyembre mil otsosyentos nobentay sais, sa bagumBAyan, binaril si hoSE riSAL, mga alas-siyete y tres ng umaga."},
+  {"speaker": "INDIO", "text": "Humiling siyang humarap; hindi pinayagan.", "emphasis": ["humarap"]},
+  {"speaker": "INDIO", "text": "Mga sundalong Pilipino ng hukbong kolonyal ang nasa harap; mga Espanyol ang nasa likod nila.", "emphasis": ["Pilipino", "Espanyol"]},
+  {"speaker": "USMAN", "text": "Eh 'yung huling salita, at 'yung pagbaling niya?", "emphasis": ["huling"]},
+  {"speaker": "INDIO", "text": "\"Consummatum est\" ang iniuulat ng mga talambuhay; hindi ito tiyak na tala.", "emphasis": ["talambuhay"], "say": "konsuMAtum est ang iniuulat ng mga talambuhay; hindi ito tiyak na tala."},
+  {"speaker": "INDIO", "text": "Ganoon din ang pagbaling niya paharap sa langit: ikinukuwento, hindi napatunayan.", "emphasis": ["hindi"]},
+  {"speaker": "USMAN", "text": "Kaya pala ako umungol.", "emphasis": ["umungol"]}
+ ],
+ "placement": "end",
+ "insert_after_sentence": 121,
+ "after_text": "Ikaw, ka-Indio: may bagay ka bang hindi mo kinayang tingnan, na sana tiningnan mo?",
+ "palette": "sun",
+ "grave": true,
+ "gap": 0.3,
+ "why_here": "The new form: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman', the QUIET variant (grave: no jingle, no joke sprite) because the episode depicts a real death.",
+ "voice_note": "The script's second and fifth trivia lines are each split in two INDIO lines so each caption fits; same words. The year is voiced in Spanish-derived numbers; 'umungol' is u-MU-ngol."
+}

@@ -637,7 +637,58 @@ def pen(dur=1.8, seed=29):
 
 
 # ---------------------------------------------------------------- the registry
+def volley(n=8, seed=60):
+    """A firing squad's volley (Episode 6 v2): n rifle cracks within about 70 ms, a dull chest thump and a short roll over
+    an open field. Each crack: a 1-4 ms broadband snap, a little high ring, slightly different in time, level and colour."""
+    rng = _rng(seed); m = _n(2.6); tt = _t(m); out = np.zeros(m)
+    for k in range(n):
+        c = _n(0.25); z = rng.normal(0, 1, c)
+        snap = _f(z, 'high', rng.uniform(900, 1600)) * _dec(c, rng.uniform(0.004, 0.012), 0.0002) * rng.uniform(0.6, 1.0)
+        snap += _f(z, 'band', (300, 2500)) * _dec(c, 0.03, 0.0005) * 0.5
+        _add(out, snap, 0.02 + rng.uniform(0, 0.07))
+    out += np.sin(2 * np.pi * np.cumsum(55 + 40 * np.exp(-tt * 25)) / SR) * _dec(m, 0.12, 0.002) * 0.6
+    out += _f(_brown(m, rng), 'low', 300) * _dec(m, 0.9, 0.03) * 0.35                          # the roll over the field
+    return _out(out)
+
+
+def birds_flock(dur=2.5, seed=61):
+    """A flock bursting up from grass: wing flutter (fast amplitude-modulated noise bursts) and a scatter of alarm chirps."""
+    rng = _rng(seed); m = _n(dur); tt = _t(m); out = np.zeros(m)
+    for _ in range(14):                                                                         # wings, staggered take-offs
+        c = _n(rng.uniform(0.5, 1.2)); ct = _t(c); z = rng.normal(0, 1, c)
+        flap = (0.5 + 0.5 * np.sin(2 * np.pi * rng.uniform(12, 20) * ct)) ** 2
+        _add(out, _f(z, 'band', (400, 3000)) * flap * np.sin(np.pi * np.linspace(0, 1, c)) * rng.uniform(0.3, 0.7), rng.uniform(0, dur * 0.35))
+    for _ in range(18):                                                                         # alarm chirps
+        c = _n(rng.uniform(0.04, 0.09)); ct = _t(c); f0 = rng.uniform(2500, 4500)
+        ch = np.sin(2 * np.pi * np.cumsum(f0 + rng.uniform(-900, 900) * ct / ct[-1]) / SR) * np.sin(np.pi * np.linspace(0, 1, c))
+        _add(out, ch * rng.uniform(0.15, 0.35), rng.uniform(0.05, dur * 0.8))
+    return _out(out * np.exp(-tt / (dur * 0.6)))
+
+
+def howl(dur=3.0, seed=62):
+    """A dog's long howl (Usman at the volley): a voiced tone that slides up, holds with a slow wobble and falls away."""
+    rng = _rng(seed); m = _n(dur); tt = _t(m); x = tt / dur
+    f = 380 + 180 * np.sin(np.pi * np.clip(x * 1.4, 0, 1)) ** 0.7 - 120 * np.clip(x - 0.7, 0, 1) / 0.3
+    f = f * (1 + 0.012 * np.sin(2 * np.pi * 5.2 * tt))
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    y = np.sin(ph) + 0.35 * np.sin(2 * ph) + 0.12 * np.sin(3 * ph) + _f(rng.normal(0, 1, m), 'band', (500, 2500)) * 0.04
+    env = np.clip(x / 0.12, 0, 1) * np.clip((1 - x) / 0.35, 0, 1)
+    return _out(y * env)
+
+
+def drum_roll(dur=3.0, seed=63):
+    """A military snare roll (the squad brought to attention): fast strokes of snare noise with a slow swell."""
+    rng = _rng(seed); m = _n(dur); out = np.zeros(m); t0 = 0.0
+    while t0 < dur - 0.05:
+        c = _n(0.06); z = rng.normal(0, 1, c)
+        _add(out, (_f(z, 'band', (1500, 7000)) * 0.8 + _f(z, 'low', 300) * 0.3) * _dec(c, 0.018, 0.0005) * rng.uniform(0.7, 1.0), t0)
+        t0 += rng.uniform(0.045, 0.06)
+    tt = _t(m); return _out(out * (0.5 + 0.5 * np.clip(tt / dur * 1.3, 0, 1)) * np.clip((dur - tt) / 0.15, 0, 1))
+
+
 EVENTS = {
+    'volley': lambda e, s: volley(e.get('count', 8), s), 'birds_flock': lambda e, s: birds_flock(e.get('dur', 2.5), s),
+    'howl': lambda e, s: howl(e.get('dur', 3.0), s), 'drum_roll': lambda e, s: drum_roll(e.get('dur', 3.0), s),
     'glass_crash': lambda e, s: glass_crash(e.get('dur', 1.6), s), 'plates': lambda e, s: plates(e.get('dur', 1.4), s, e.get('count', 7)),
     'pen': lambda e, s: pen(e.get('dur', 1.8), s),
     'steps_earth': lambda e, s: footsteps('earth', e.get('pace', 'walk'), e.get('count', 6), s),
