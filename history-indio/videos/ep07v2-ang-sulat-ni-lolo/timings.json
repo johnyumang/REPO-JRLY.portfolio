@@ -1,0 +1,793 @@
+[
+ {
+  "text": "Huwag!",
+  "start": 0.0,
+  "end": 0.423,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Huwag ngayon!",
+  "start": 0.766,
+  "end": 1.532,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Lolo!",
+  "start": 1.875,
+  "end": 2.258,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Namatay ang phone ko sa gitna ng huling sulat ng Lolo ko.",
+  "start": 2.93,
+  "end": 5.91,
+  "style": "dramatic",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Isandaan at tatlumpung taon ang layo ng charger.",
+  "start": 6.15,
+  "end": 9.16,
+  "style": "dramatic",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ako 'to si Indio.",
+  "start": 9.72,
+  "end": 10.576,
+  "style": "quiet",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "At hindi ako makauwi.",
+  "start": 10.956,
+  "end": 12.108,
+  "style": "quiet",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bagumbayan pa rin.",
+  "start": 13.079,
+  "end": 14.112,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ikatatlumpu ng Disyembre, 1896.",
+  "start": 14.492,
+  "end": 18.645,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tanghali.",
+  "start": 19.025,
+  "end": 19.668,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ninakaw ang medalyon ni Indio, kaya naiwan siya sa 1896, kasama si Usman, ang aso niyang nagsasalita.",
+  "start": 20.288,
+  "end": 28.108,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Phone na lang ang hawak niya, siyam na porsiyento ang baterya.",
+  "start": 28.628,
+  "end": 31.676,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Text: noong mga taong 2000, tinawag tayong text capital ng mundo.",
+  "start": 32.367,
+  "end": 37.136,
+  "style": "playful",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ngayon, isang text lang ang gusto kong ipadala: \"Lola, sunduin mo ako.\"",
+  "start": 37.376,
+  "end": 42.244,
+  "style": "playful",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Walang tatanggap.",
+  "start": 42.624,
+  "end": 43.727,
+  "style": "playful",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "May litratong hindi pa niya nabubuksan, galing kay Lola: sulat ng Lolo niya.",
+  "start": 44.247,
+  "end": 48.996,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kapag binuksan ko, ubos ang baterya.",
+  "start": 49.637,
+  "end": 51.807,
+  "style": "torn",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kapag hindi, wala akong alam.",
+  "start": 52.187,
+  "end": 53.816,
+  "style": "torn",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa malayo, dumaan ang isang karitong may takip.",
+  "start": 54.437,
+  "end": 57.485,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Par.",
+  "start": 58.105,
+  "end": 58.346,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Dinadala na si Rizal.",
+  "start": 58.726,
+  "end": 60.238,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sumunod tayo.",
+  "start": 60.519,
+  "end": 61.244,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sementeryo ng Paco.",
+  "start": 62.185,
+  "end": 64.184,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sinundan nila ang kariton hanggang sa pader ng sementeryo.",
+  "start": 64.865,
+  "end": 67.884,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa puno, may batang nakasilip: si Imo.",
+  "start": 68.264,
+  "end": 71.134,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Akyat, kuya.",
+  "start": 71.815,
+  "end": 72.811,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Anak ako ng sepulturero.",
+  "start": 73.191,
+  "end": 74.563,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Sumilip si Indio.",
+  "start": 75.244,
+  "end": 76.177,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa isang sulok, tinatabunan ang isang hukay.",
+  "start": 76.557,
+  "end": 79.326,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Walang krus, walang pangalan.",
+  "start": 79.706,
+  "end": 81.613,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sabi ng titser ko, may marangal na libing ang pambansang bayani.",
+  "start": 82.284,
+  "end": 85.933,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Palihim, kuya.",
+  "start": 86.513,
+  "end": 87.577,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Sa lupa, hindi sa nitso.",
+  "start": 87.899,
+  "end": 89.425,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Bawal lagyan ng pangalan.",
+  "start": 89.805,
+  "end": 91.372,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "May bantay pa, gabi't araw.",
+  "start": 91.913,
+  "end": 93.531,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "May guwardiyang napatingala.",
+  "start": 94.112,
+  "end": 95.499,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Alto!",
+  "start": 96.141,
+  "end": 96.615,
+  "style": "shout",
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Sino 'yan sa puno?",
+  "start": 96.995,
+  "end": 98.129,
+  "style": "shout",
+  "speaker": "GUWARDIYA"
+ },
+ {
+  "text": "Nagtago sila hanggang makalampas ang guwardiya.",
+  "start": 98.831,
+  "end": 101.198,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa lilim ng pader, binuksan na ni Indio ang sulat ng Lolo niya.",
+  "start": 102.16,
+  "end": 105.928,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Mahal kong José Indalecio Bracken, ang apo kong tinatawag naming Indio.",
+  "start": 106.609,
+  "end": 110.757,
+  "style": "warm",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "'Yan pala ang buo kong pangalan.",
+  "start": 111.418,
+  "end": 112.965,
+  "style": "stunned",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Lima ang marka ko, apo.",
+  "start": 113.607,
+  "end": 114.802,
+  "style": "warm",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Sa ikalima, napunta ako sa umagang kinaroroonan mo ngayon.",
+  "start": 115.182,
+  "end": 118.596,
+  "style": "warm",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Lumapit sa akin ang babaeng may pulang payong.",
+  "start": 119.267,
+  "end": 121.526,
+  "style": "grave",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Hiningi niya ang medalyon.",
+  "start": 121.848,
+  "end": 122.952,
+  "style": "grave",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Tumanggi ako.",
+  "start": 123.314,
+  "end": 123.916,
+  "style": "grave",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Umuwi ako, at hindi na tumalon.",
+  "start": 124.537,
+  "end": 126.305,
+  "style": "grave",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Kaya ako ang hinanap niya.",
+  "start": 126.926,
+  "end": 128.283,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Minana ko ang tinakbuhan ni Lolo.",
+  "start": 128.663,
+  "end": 130.214,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bago ako umuwi, may ibinaon ako para sa'yo.",
+  "start": 130.835,
+  "end": 133.193,
+  "style": "urgent",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "At tandaan mo ito, apo.",
+  "start": 133.494,
+  "end": 134.939,
+  "style": "urgent",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Ang hinahanap nila ay hindi ang...",
+  "start": 135.22,
+  "end": 136.705,
+  "style": "urgent",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Huwag!",
+  "start": 137.205,
+  "end": 137.628,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Huwag ngayon!",
+  "start": 137.971,
+  "end": 138.737,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Lolo!",
+  "start": 139.08,
+  "end": 139.463,
+  "style": "shout",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Hindi ang ano?",
+  "start": 140.135,
+  "end": 140.709,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Isang salita na lang.",
+  "start": 141.089,
+  "end": 142.222,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kuya, may kamag-anak ka bang matanda?",
+  "start": 143.112,
+  "end": 145.261,
+  "style": "curious",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Kamukha mo, pero puti na ang buhok?",
+  "start": 145.623,
+  "end": 147.692,
+  "style": "curious",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Lolo ko.",
+  "start": 148.252,
+  "end": 148.707,
+  "style": "dull",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Bakit?",
+  "start": 149.087,
+  "end": 149.679,
+  "style": "dull",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kaninang umaga, bago dumating ang kariton, may matandang ganoon dito.",
+  "start": 150.299,
+  "end": 153.79,
+  "style": "plain",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Naghukay sa paanan ng pader, tapos nawala.",
+  "start": 154.17,
+  "end": 156.519,
+  "style": "plain",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Dito, par.",
+  "start": 157.139,
+  "end": 157.936,
+  "style": "excited",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Kaamoy mo.",
+  "start": 158.316,
+  "end": 159.126,
+  "style": "excited",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Naghukay sila.",
+  "start": 159.808,
+  "end": 160.602,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Sa isang lata, may lumang lente.",
+  "start": 160.982,
+  "end": 163.476,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Lente.",
+  "start": 164.127,
+  "end": 164.467,
+  "style": "awed",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sumilip si Indio sa lente.",
+  "start": 165.154,
+  "end": 166.65,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bumilis ang mga araw sa sementeryo.",
+  "start": 167.03,
+  "end": 169.302,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Totoo lang ang ipinapakita niyan, par.",
+  "start": 169.983,
+  "end": 172.112,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Ang nangyari at mangyayari sa lugar na tinitingnan mo.",
+  "start": 172.492,
+  "end": 174.823,
+  "style": "low",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Isang babaeng nakaitim ang naghahanap sa mga puntod.",
+  "start": 175.728,
+  "end": 178.67,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Lumuhod ito sa bagong hukay.",
+  "start": 179.05,
+  "end": 180.757,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kapatid niya 'yan.",
+  "start": 181.398,
+  "end": 182.311,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Si Narcisa.",
+  "start": 182.691,
+  "end": 183.776,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Ilang sementeryo na raw ang nilibot niya.",
+  "start": 184.156,
+  "end": 186.546,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Pagkatapos, lumitaw ang isang maliit na lapida.",
+  "start": 187.247,
+  "end": 190.146,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tatlong letra lang: R, P, J.",
+  "start": 190.526,
+  "end": 193.616,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Tatlong letra lang?",
+  "start": 194.457,
+  "end": 195.413,
+  "style": "puzzled",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Baligtad na pangalan, kuya.",
+  "start": 196.036,
+  "end": 197.431,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "José Protasio Rizal.",
+  "start": 197.811,
+  "end": 199.358,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Para hindi mahalata ng bantay.",
+  "start": 199.738,
+  "end": 201.305,
+  "style": "whispers",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Mula sa lupa, may mahinang tinig.",
+  "start": 201.966,
+  "end": 204.053,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Adiós, Patria adorada, región del sol querida.",
+  "start": 204.685,
+  "end": 207.894,
+  "style": "quiet",
+  "speaker": "RIZAL"
+ },
+ {
+  "text": "Paalam, bayang minamahal.",
+  "start": 208.515,
+  "end": 210.171,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Walang pangalan ang puntod, pero may tula.",
+  "start": 210.551,
+  "end": 213.364,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Par.",
+  "start": 213.964,
+  "end": 214.206,
+  "style": "urgent",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Hindi diyan.",
+  "start": 214.388,
+  "end": 214.933,
+  "style": "urgent",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Dito.",
+  "start": 215.313,
+  "end": 215.701,
+  "style": "urgent",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sa hinukayan natin.",
+  "start": 216.252,
+  "end": 217.931,
+  "style": "urgent",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Itinapat ni Indio ang lente sa hinukayan nila.",
+  "start": 218.512,
+  "end": 221.53,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Nakita niya ang Lolo niya kaninang umaga, ibinabaon ang lata.",
+  "start": 221.91,
+  "end": 225.662,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Ang hinahanap nila ay hindi ang medalyon, apo.",
+  "start": 226.302,
+  "end": 228.819,
+  "style": "clear",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Ang Huling Tala.",
+  "start": 229.199,
+  "end": 229.942,
+  "style": "clear",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Hintayin mo ang babae sa Kawit, sa araw ng kalayaan.",
+  "start": 230.322,
+  "end": 233.332,
+  "style": "clear",
+  "speaker": "LOLO"
+ },
+ {
+  "text": "Lolo.",
+  "start": 233.972,
+  "end": 234.289,
+  "style": "breaking",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tumingala ang matanda, ngumiti, at naglaho.",
+  "start": 234.985,
+  "end": 237.903,
+  "style": "low",
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Hindi ka niya nakikita, par.",
+  "start": 238.584,
+  "end": 239.971,
+  "style": "soft",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Pero alam niyang darating ka.",
+  "start": 240.351,
+  "end": 242.243,
+  "style": "soft",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Hunyo 1898 pa 'yon.",
+  "start": 243.169,
+  "end": 245.262,
+  "style": "steady",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ilang buwan?",
+  "start": 245.642,
+  "end": 246.128,
+  "style": "steady",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Labimpito, par.",
+  "start": 246.748,
+  "end": 247.727,
+  "style": "dry",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Mahigit.",
+  "start": 248.107,
+  "end": 248.535,
+  "style": "dry",
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Labimpitong buwan.",
+  "start": 249.075,
+  "end": 250.049,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sa 1896.",
+  "start": 250.35,
+  "end": 252.518,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Kailangan ko ng trabaho.",
+  "start": 252.759,
+  "end": 254.144,
+  "style": "dry",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Naghahanap ng tagamasa ang panaderya sa kanto.",
+  "start": 254.765,
+  "end": 257.322,
+  "style": "bright",
+  "speaker": "IMO"
+ },
+ {
+  "text": "Ang Huling Tala.",
+  "start": 257.994,
+  "end": 258.757,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ano 'yon?",
+  "start": 259.018,
+  "end": 259.36,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "At bakit ko hihintayin ang babaeng nagnakaw sa akin?",
+  "start": 259.74,
+  "end": 262.593,
+  "style": "whispers",
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Ikaw, ka-Indio: kung isang sulat na lang ang mababasa mo bago mamatay ang phone mo, kanino galing?",
+  "start": 263.539,
+  "end": 269.007,
+  "style": "curious",
+  "speaker": "INDIO"
+ }
+]

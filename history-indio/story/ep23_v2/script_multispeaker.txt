@@ -1,0 +1,166 @@
+# INDIO: ANG SAKSI — Episode 23, "Ang mga Bantay sa Hermon" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to hit the white-haired man he believes took his mother. Then, under the giant's hand: to be
+#   heard at all.
+# SABI-SABI: "Sabi sa internet, halimaw ang mga higante." What he sees: a tired runaway who keeps a
+#   shepherd's lost lamb warm, and who kneels when he hears a name.
+# TWIST (BIBLE row 23): wrong target. Fall: the giant takes him for a foreman (the stamped brick of
+#   Episode 22 sticks out of his bag; the story does NOT say the giant was at the tower of Genesis 11: he
+#   fled "ang kapatas" and his hauling, no more) and flattens the Kalasag with one palm; pinned, he screams at the
+#   white-haired man above, who comes down, takes off the hood we know from Galilee, and says he did not
+#   take them, he hid them: the shield is cold AND the man he climbed to hit is the wrong one. Comeback: the
+#   friend's rule (a raised staff reads as a fight: put it down, then call the one you seek by name) and an
+#   honest act: every weapon on the snow, the brick held up in open hands and laid down, and the name of
+#   the one he is looking for. The giant knows the name and the smell, and kneels. "Nakita na kita." The
+#   EIGHTH knot. Show-off: he climbed in slippers and walks down with a giant beside him; the "sheep
+#   thief" hands the boy his lamb. No confession is used.
+# SCRIPTURE GUARD RAILS FOR THIS EPISODE (stricter than the brief; Episode 9 is the model):
+#   - God is given no voice, no words and no picture. Genesis 6:3 (words of the Panginoon) is never spoken
+#     or paraphrased by anyone.
+#   - ONE piece of Genesis 6:1-4 is read, word for word, by the storyteller, as "Nakasulat sa Genesis 6:4",
+#     from Ang Dating Biblia (1905), opened and copied for this script (facts.md): the first clause of 6:4.
+#     Nothing else of the passage is spoken in the story; the trivia gives the rest "sa buod".
+#   - 1 Enoch is named once, by M, as "lumang aklat ni Enoc, na wala sa Biblia ng karamihan ng simbahan",
+#     with "ayon sa" in front. It is never scripture and never fact here.
+#   - The story does NOT say that the giant is one of the "higante" of Genesis, that Albo is one of
+#     Enoch's Bantay, or what any of them are. No line applies "Bantay", "nagmamasid" or "nanonood" to
+#     Albo; he is first seen a whole scene after M's line about the book; no line gives the giant and Tala
+#     one blood (the dog says only what a dog can know: the smell); nobody rides the giant. The word "anghel" is never used. The giant, Albo, Sami, the
+#     paper, the brick and everything they do are INVENTED (facts.md, section 3). The trivia says so.
+#   - No joke stands next to the verse: the line before it and the line after it are plain.
+#   - The mountain is shown as rock and snow in an undated past: no flag, post, border or people of today.
+#     Sami's people are shepherds; nobody is a monster, and nobody of the region is named or blamed.
+# What is said of the family here, and no more (BIBLE 4, 9, 14): a note signed "Teodoro Bracken" (the
+#   name is only the signature on the paper, read out by the storyteller, who says it is Indio's Papa);
+#   the note says mother and daughter were last seen with a white-haired man, so Indio believes that man
+#   shut them behind the fog of Episode 21; Albo is the hooded watcher of Galilee, he
+#   is Tala's father, and he did not take the mother and Tala: he hid them. NOT said: the mother's name;
+#   from whom he hid them; why; where Papa went; what Albo is; what is forbidden to M.
+# Speakers: TAGAPAGSALAYSAY (and the verse). INDIO; INDIO (sa atin). M. USMAN (inside the lagusan only).
+# SAMI (invented shepherd boy of about ten; "friend" voice, boy 1).
+# HIGANTE (Gabon, the Giant of Hermon; invented; huge, slow, deep, tired; the designed voice).
+# ALBO (invented; quiet, very old, precise; the designed voice; "light and one white lock", never a human
+#   type: no height, skin or face type).
+# No real figure of history appears: there is no hero line in this episode (facts.md).
+# Language (ruling for Episodes 19 on): Ang Sugo lets him understand every tongue; Ang Tinig carries his
+#   words to anyone who listens, if they are TRUE. So he speaks to Sami and to the giant only in true
+#   sentences (s35 to s36, s71 to s73, s79 to s81). Neither medallion is named aloud: "mga medalyon ko".
+# "Umungol" is always said u-MU-ngol.
+# SAY: Tsinelas=tsiNElas
+# SAY: tsinelas=tsiNElas
+# SAY: naka-tsinelas=naka-tsiNElas
+# SAY: chinela=tsiNEla
+# SAY: Kastilang=kasTIlang
+# SAY: Teodoro Bracken=teoDOro BRAken
+# SAY: Hermon=herMON
+# SAY: Genesis 6:4=HEnesis anim, talata apat
+# SAY: yaon=yaON
+# SAY: Enoc=eNOK
+# SAY: Sami=SAmi
+# SAY: Tala=TAla
+# SAY: Albo=ALbo
+# SAY: Gabon=gaBON
+# SAY: Galilea=galiLEa
+# SAY: Kalasag=kaLAsag
+# SAY: ladrilyo=ladRILyo
+# SAY: ladrilyong=ladRILyong
+# SAY: pahilig=pahiLIG
+# SAY: kapatas=kapaTAS
+# SAY: Kapatas=kapaTAS
+# SAY: tungkod=tungKOD
+# SAY: kordero=korDEro
+# SAY: korderong=korDErong
+# SAY: nakatalukbong=nakataLUKbong
+# SAY: talukbong=taLUKbong
+# SAY: umuungol=u-mu-U-ngol
+# SAY: lagusan=laguSAN
+# SAY: kuwaderno=kuwaDERno
+# SAY: hukbo=hukBO
+
+# --- 0. Hook (cold, at 0.0, on the blow: a flash-forward of scene 3)
+(Niyebe at bato. Isang palad na kasinlaki ng pinto ang bumabagsak kay Indio. Itinaas niya ang kalasag na tanso at liwanag sa braso niya; napisa ito na parang lata. Sa gilid, isang batang pastol na sumisigaw, nakababa ang tungkod.)
+SAMI: [shout] Ibaba mo! Ibaba mo ang kalasag!
+INDIO (sa atin): [dramatic] Umakyat ako ng bundok para suntukin ang kumuha sa nanay ko. Higante ang sumalubong.
+INDIO (sa atin): [dry] Ako 'to si Indio. Naka-tsinelas lang ako.
+
+# --- 1. Today (short, Indio's voice). He wants: somebody to hit.
+TAGAPAGSALAYSAY: [calm] Ngayon, sa Kawit. Sa kuwaderno ng Lolo niya, may nakaipit na sulat. Ang pirma: Teodoro Bracken, ang Papa ni Indio.
+(Ang hagdan ng bahay ni Lola Ising. Si Indio, nakaupo, naka-tsinelas, hawak ang isang lumang papel. Si M sa tabi niya, may pulang payong, bukas ang kuwaderno sa guhit ng isang bundok na may niyebe.)
+INDIO: [reading] "Nawawala ang mag-ina. Huling kasama: isang lalaking puti ang buhok."
+INDIO (sa atin): [bitter] Nasa likod ng hamog sina Nanay at Ate Tala. Siya pala ang nagkulong sa kanila.
+TAGAPAGSALAYSAY: [calm] Katabi niya si M, ang babaeng may mapa ng mga medalyon.
+M: [low] At may bundok na iginuhit ang kuwaderno: Hermon.
+(Itinaas ni Indio ang susing tanso. Bumukas sa hangin ang isang lagusan ng liwanag.)
+TAGAPAGSALAYSAY: [calm] Itinaas ni Indio ang susing tanso, at bumukas ang lagusan ng liwanag.
+INDIO (sa atin): [playful] Tsinelas: galing sa Kastilang "chinela". Sa atin, sandata 'yan ng mga nanay.
+INDIO (sa atin): [dry] Ako, walang nanay na humabol sa akin ng tsinelas. Kaya ako ang hahabol.
+
+# --- 2. The slope. He wants: the way up.
+TAGAPAGSALAYSAY: [low] Bundok Hermon, noong unang panahon. Walang taon sa anumang tala. Sumalubong si Usman, ang aso niyang nagsasalita.
+(Isang dalisdis ng bato at niyebe, maliwanag at malamig. Lumabas sa liwanag ang itim na asong si Usman, nakatingin sa paa ni Indio.)
+USMAN: [teasing] Par. Niyebe. Tsinelas talaga?
+TAGAPAGSALAYSAY: [low] Sa landas, humarang si Sami, isang batang pastol na may hinahanap na kordero.
+(Isang batang lalaking mga sampung taon, balot ng balat ng tupa, may tungkod, nakaunat ang kamay.)
+SAMI: [urgent] Huwag kayong aakyat! May higante riyan. Kinuha niya ang kordero ko.
+TAGAPAGSALAYSAY: [reading] Nakasulat sa Genesis 6:4: "Ang mga higante ay nasa lupa ng mga araw na yaon."
+M: [low] At ayon sa lumang aklat ni Enoc, na wala sa Biblia ng karamihan ng simbahan, sa bundok na ito bumaba ang dalawandaang Bantay.
+INDIO (sa atin): [whisper] Sabi sa internet, halimaw ang mga higante.
+INDIO (sa atin): [whisper] Dahil sa mga medalyon ko, naiintindihan ko siya. At naiintindihan niya ako, basta totoo ang sabi ko.
+INDIO: [steady] Aakyat ako. May hinahanap ako.
+(Umakyat si Indio. Hinabol siya ni Sami at itinuro ang sarili niyang tungkod, nakababa.)
+SAMI: [teaching] Kapag galit ang barako, ibinababa ko ang tungkod. Ang nakataas, away ang basa niya.
+SAMI: [teaching] Tapos tinatawag ko sa pangalan ang hinahanap ko.
+
+# --- 3. The palm. Wrong target. THE FALL.
+TAGAPAGSALAYSAY: [low] Tumayo ang isang higanteng kasinlaki ng bahay. Nakalitaw sa bag ni Indio ang isang ladrilyong may tatlong guhit na pahilig: tatak ng isang kapatas.
+(Isang napakalaking nilalang na mabuhok, pagod ang mata, tumatayo mula sa niyebe. Nakatitig ito sa ladrilyong nakalitaw sa bag. Itinaas ni Indio ang kalasag sa braso niya.)
+HIGANTE: [roar] Kapatas! Hindi na ako magbubuhat!
+USMAN: [urgent] Par! Ang ladrilyo! Akala niya, kapatas ka!
+TAGAPAGSALAYSAY: [low] Itinaas ni Indio ang Kalasag, ang medalyong panangga niya. Isang hampas ng palad, at napisa ito at lumamig.
+SAMI: [shout] Ibaba mo ang kalasag!
+(Nakadiin si Indio sa niyebe, sa ilalim ng mga daliri ng higante. Sa batuhan sa itaas, isang nakatalukbong; sa ilalim ng talukbong, isang hibla ng puting buhok.)
+TAGAPAGSALAYSAY: [low] Sa itaas, may nakatalukbong na hindi kilala ni Indio. Puti ang buhok.
+INDIO: [shout] Ikaw ang nasa sulat! Ibalik mo ang nanay ko!
+TAGAPAGSALAYSAY: [low] Bumaba ito at hinubad ang talukbong: siya rin ang nakita nila noon sa Galilea.
+USMAN: [puzzled] Hindi ako umuungol. Gaya noon.
+ALBO: [quiet] Ako si Albo. Ama ni Tala. Hindi ko kinuha ang nanay mo. Itinago ko sila.
+INDIO: [stunned] Itinago? Kanino?
+ALBO: [quiet] Hindi pa ngayon.
+INDIO (sa atin): [whisper] Mali ang susuntukin ko. At nasa palad pa ako ng higante.
+
+# --- 4. THE COMEBACK. Weapons down.
+SAMI: [urgent] Ang tungkod, kuya! Ibaba! Tapos ang pangalan!
+(Hinubad ni Indio ang kalasag at inilapag sa niyebe. Hinugot niya ang ladrilyo, itinaas sa dalawang bukas na palad, at inilapag din sa paanan ng higante.)
+TAGAPAGSALAYSAY: [low] Inilapag ni Indio ang kalasag. Itinaas niya ang ladrilyo sa bukas na palad, at inilapag din.
+INDIO: [steady] Hindi ako kapatas. Hinahanap ko ang kapatid ko. Si Tala.
+(Huminto ang palad. Yumuko ang higante at inamoy si Indio.)
+HIGANTE: [slow] Tala?
+USMAN: [soft] Inaamoy ka niya, par. Kaamoy mo si Ate Tala. Kilala niya ang amoy.
+TAGAPAGSALAYSAY: [low] Lumuhod ang higante.
+INDIO: [steady] Nakita na kita. Hindi ka halimaw. Pagod ka lang magbuhat.
+(Itinaas ni M ang medalyon niya. Sa pulang tali sa pulso ni Indio, isang bagong buhol. Sa niyebe, nagliwanag ulit ang kalasag. Sa ere, tatlong segundo, ang hologram: walong buhol, at tumaas ang KAALAMAN.)
+TAGAPAGSALAYSAY: [low] Sa pulang tali sa pulso ni Indio, may nabuong buhol. Uminit ulit ang Kalasag, at bumalik ang hugis nito.
+M: [low] Ikawalong buhol, ikawalong kakampi.
+ALBO: [quiet] Gabon ang pangalan niya. Tumakas siya sa kapatas.
+(Ibinuka ni Gabon ang kabilang kamay: isang korderong tulog sa balahibo ng palad niya. Tumakbo si Sami.)
+SAMI: [delighted] Ang kordero ko! Hindi mo pala kinuha. Pinainitan mo!
+(Bumaba sila ng dalisdis: si Sami, yakap ang kordero; si Indio at si Usman; at sa tabi nila, naglalakad, si Gabon.)
+INDIO (sa atin): [smug] Umakyat akong naka-tsinelas. Bumaba akong may kasamang higante.
+USMAN: [dry] Isa na lang ang tsinelas mo, par.
+
+# --- 5. The cliffhanger. On the slope.
+(Sa batuhan, si Albo at si M, magkaharap. Sa pagitan nila, sa niyebe, isang puting balahibo. Hawak ni M ang payong nang mahigpit.)
+TAGAPAGSALAYSAY: [low] Bago umalis, hinarap ni Albo si M.
+ALBO: [low] Anak ng hukbo. Alam ba niya kung ano ang ipinagbabawal sa'yo?
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: nasa harap mo na ang akala mong may sala. Susuntok ka muna, o makikinig?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", quiet version; separate clip after the last story line; up to 25 seconds)
+# USMAN: Saan nakasulat 'yon, par?
+# INDIO: Sa Genesis 6, talata 1 hanggang 4. Ang binasa: Ang Dating Biblia, 1905. Sa buod: dumami ang mga tao, at may mga higante sa lupa noong mga araw na iyon. Walang binabanggit doon na bundok o "Bantay".
+# INDIO: Ang dalawandaang Bantay sa Hermon, galing sa lumang aklat ni Enoc: wala ito sa Biblia ng karamihan ng simbahan. Totoong bundok ang Hermon, at may niyebe.
+# USMAN: Eh si Gabon? Si Albo? Si Sami?
+# INDIO: Wala sa Biblia, wala rin kay Enoc. Sa atin lang 'yon.

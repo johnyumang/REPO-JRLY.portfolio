@@ -7,11 +7,13 @@ other file. No model names in files.
 ## Read first (in this order; paths from `history-indio/`)
 1. `story/BIBLE.md`: sections 0, 2, 3, 4, 5, 8, 9, the row of your episode AND the rows before and after it in
    section 10, section 12 (guard rails) and section 14 (rulings; they win over any row).
-2. `story/CONSISTENCY.md`: sections 9 to 12 (the running lists of what Episodes 1 to 12 already used, and rules
-   9, 10 and 11).
+2. `story/CONSISTENCY.md`: sections 9 to 13 (the running lists of what Episodes 1 to 18 already used, and rules
+   9, 10 and 11), and `story/_parts/REVISION_BATCH3.md` (section A is binding on you from the first draft:
+   scenes with people talking, the storyteller at most half of the words; section B holds rulings on how he
+   jumps, the lens, the lamp, the knots and where things are).
 3. `pipeline/CAMERA.md` (the camera table).
-4. The model of the form: `story/ep12_v2/` (all of `script_multispeaker.txt`, `facts.md`, `shots.md`) and the
-   spoken lines of `story/ep11_v2/script_multispeaker.txt`. Match their layout exactly.
+4. The model of the form: `story/ep18_v2/` (all of `script_multispeaker.txt`, `facts.md`, `shots.md`) and the
+   spoken lines of the episode just before yours, if its `story/epNN_v2/` exists. Match the layout exactly.
 5. The old episode: `videos/epNN-*/script_multispeaker.txt` and `videos/epNN-*/facts.md`. The old `facts.md` holds
    the real history with its sources; keep what is sourced, and use the row of `story/REWRITE_PLAN.md` for your
    episode to see what the old script got wrong.
@@ -81,6 +83,13 @@ cliffhanger of your bible row, then one spoken question to the viewer ("Ikaw, ka
   `sentences.json`. Fix until it passes and the story is 520 to 540 words.
 - `facts.md` and `shots.md` in the model's layout, with sentence numbers that match `sentences.json`.
 - Then read ONLY your spoken lines once as a stranger and fix anything unintroduced or unexplained.
+
+## Dialogue first (the lesson of batch 3)
+The first drafts of Episodes 13 to 18 had the storyteller at 54 to 65 percent of the words and were sent back.
+Write yours so that derive.py shows TAGAPAGSALAYSAY at 45 percent or less; the fall and the comeback are
+played in lines; the storyteller never runs more than three sentences without a character speaking; the friend
+has at least six lines and Usman at least four in a jump. Introduce M, Usman and the lens in a short clause,
+not the same long phrase every time.
 
 ## Report back (short)
 Title; sentences and words; today-thing and how sure its origin is; the hook (words, picture, kind); the fall;

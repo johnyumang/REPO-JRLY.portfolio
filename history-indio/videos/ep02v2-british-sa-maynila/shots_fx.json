@@ -1,7 +1,8 @@
 {
  "_": {
   "trans_default": "cut",
-  "hold_same_key": true
+  "hold_same_key": true,
+  "subs_after_blend": true
  },
  "0": {
   "fx": [
@@ -24,14 +25,16 @@
  },
  "3": {
   "fx": [],
-  "move": "pan_right",
-  "why": "follows their run",
+  "move": "tilt_down",
+  "why": "ends on Indio running",
+  "sub_v": 360,
   "trans_in": "whip"
  },
  "4": {
   "fx": [],
-  "move": "pan_right",
-  "why": "follows their run",
+  "move": "tilt_down",
+  "why": "ends on Indio running",
+  "sub_v": 360,
   "key": 3
  },
  "5": {
@@ -65,8 +68,8 @@
  },
  "10": {
   "fx": [],
-  "move": "hold",
-  "why": "he only sniffs"
+  "move": "push_in",
+  "why": "the smell draws him in"
  },
  "11": {
   "fx": [],
@@ -114,18 +117,18 @@
  },
  "19": {
   "fx": [],
-  "move": "hold",
+  "move": "push_in",
   "why": "the gold light opens"
  },
  "20": {
   "fx": [],
-  "move": "hold",
+  "move": "push_in",
   "why": "the gold light opens",
   "key": 19
  },
  "21": {
   "fx": [],
-  "move": "hold",
+  "move": "push_in",
   "why": "the gold light opens",
   "key": 19
  },
@@ -300,31 +303,31 @@
   "fx": [
    "impact"
   ],
-  "move": "push_in",
-  "why": "pushed down, he understands"
+  "move": "tilt_down",
+  "why": "from the laughing guard down"
  },
  "51": {
   "fx": [
    "impact"
   ],
-  "move": "push_in",
-  "why": "pushed down, he understands",
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
   "key": 50
  },
  "52": {
   "fx": [
    "impact"
   ],
-  "move": "push_in",
-  "why": "pushed down, he understands",
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
   "key": 50
  },
  "53": {
   "fx": [
    "impact"
   ],
-  "move": "push_in",
-  "why": "pushed down, he understands",
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
   "key": 50
  },
  "54": {
@@ -577,22 +580,19 @@
  },
  "97": {
   "fx": [],
-  "move": "rack_focus",
-  "why": "ends on the guard's bow",
-  "focus_to": "far"
+  "move": "push_in",
+  "why": "the bag changes hands"
  },
  "98": {
   "fx": [],
-  "move": "rack_focus",
-  "why": "ends on the guard's bow",
-  "focus_to": "far",
+  "move": "push_in",
+  "why": "the bag changes hands",
   "key": 97
  },
  "99": {
   "fx": [],
-  "move": "rack_focus",
-  "why": "ends on the guard's bow",
-  "focus_to": "far",
+  "move": "push_in",
+  "why": "the bag changes hands",
   "key": 97
  },
  "100": {

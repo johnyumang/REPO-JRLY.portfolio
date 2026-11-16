@@ -1,12 +1,13 @@
 {
 "_": {
 "whoosh_cuts": true,
-"rules_v2": true
+"rules_v2": true,
+"bed_per_line": true
 },
 "0": {
 "amb": [
 "indoor",
-"walla:-12"
+"crowd:-14"
 ],
 "music": "none",
 "spot": [
@@ -189,7 +190,7 @@
 "52": {
 "amb": [
 "indoor",
-"walla:-8"
+"crowd:-12"
 ],
 "music": "drone",
 "level": -3,

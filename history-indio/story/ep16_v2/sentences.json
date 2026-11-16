@@ -53,52 +53,52 @@
   "aside": true
  },
  {
-  "text": "Ngayon.",
-  "say": "ngayon.",
+  "text": "Kawit, sa kusina ni Lola Ising.",
+  "say": "kawit, sa kusina ni lola Ising.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Kawit, sa kusina ni Lola Ising.",
-  "say": "kawit, sa kusina ni lola Ising.",
+  "text": "Pinapasok ni Indio si M, ang babaeng may mapa ng mga medalyon.",
+  "say": "pinapasok ni indio si m, ang babaeng may mapa ng mga medalyon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Dito na titira ang batang si Totoy.",
+  "say": "dito na titira ang batang si TOtoy.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Bumalik si M, ang babaeng may mapa ng mga medalyon.",
-  "say": "bumalik si m, ang babaeng may mapa ng mga medalyon.",
-  "style": "calm",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Sasama ulit ako.",
-  "say": "sasama ulit ako.",
-  "style": "firm",
+  "text": "Si Lola pala ang nag-utos sa'yo sa Luneta, para protektahan ako.",
+  "say": "si lola pala ang nag-utos sayo sa luNEta, para protektahan ako.",
+  "style": "quiet",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "M"
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Sama ka ulit?",
+  "say": "sama ka ulit?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
  },
  {
   "text": "Isang kondisyon: walang sikreto.",
   "say": "isang kondisyon: walang sikreto.",
-  "style": "",
+  "style": "firm",
   "pre": 0,
   "pause": 0.5,
   "speaker": "M"
- },
- {
-  "text": "Hindi binanggit ni Indio ang babaeng nakaputi sa Tsina, na nag-alok sa kanya ng kuwarto at inumin.",
-  "say": "hindi binanggit ni indio ang babaeng nakaputi sa tsina, na nag-alok sa kanya ng kuwarto at inumin.",
-  "style": "calm",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
  },
  {
   "text": "Suki: galing sa Hokkien na \"chu-khe\", ang mamimiling laging bumabalik.",
@@ -128,44 +128,44 @@
   "aside": true
  },
  {
-  "text": "Ayon sa kuwaderno ng Lolo niya, may medalyon sa isang tapayan sa Sakai, sa Japan.",
-  "say": "ayon sa kuwaderno ng lolo niya, may medalyon sa isang taPAyan sa saKAI, sa diyaPAN.",
+  "text": "Itinawid sila ng Ang Dagat, ang medalyong tumatawid ng dagat, sa Japan.",
+  "say": "itinawid sila ng ang dagat, ang medalyong tumatawid ng dagat, sa diyaPAN.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Nagkargador siya para sa pamasahe.",
-  "say": "nagkargador siya para sa pamasahe.",
+  "text": "Binasa ni Indio ang isang karatula, at uminit ang medalyon ni M.",
+  "say": "binasa ni indio ang isang karatula, at uminit ang medalyon ni m.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Pagdating, binasa niya nang malakas ang isang karatula, at bumukas ang nakaraan.",
-  "say": "pagdating, binasa niya nang malakas ang isang karatula, at bumukas ang nakaraan.",
-  "style": "calm",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Sakai, mga taong 1594.",
-  "say": "saKAI, mga taong isang libo limandaan siyamnaput apat.",
+  "text": "Sa isang bodega ng mga tapayan sa Sakai, mga taong 1594, sumalubong si Usman, ang aso niyang nagsasalita.",
+  "say": "sa isang boDEga ng mga taPAyan sa saKAI, mga taong isang libo limandaan siyamnaput apat, sumalubong si usman, ang aso niyang nagsasalita.",
   "style": "low",
   "pre": 0,
-  "pause": 0.4,
+  "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa isang bodega ng mga tapayan, sumalubong si Usman, ang aso niyang nagsasalita.",
-  "say": "sa isang boDEga ng mga taPAyan, sumalubong si usman, ang aso niyang nagsasalita.",
+  "text": "Par!",
+  "say": "par!",
+  "style": "happy",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Amoy tsaa at pagong.",
+  "say": "amoy tsaa at pagong.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "USMAN"
  },
  {
   "text": "May batang nagpapasan ng tapayan: si Kichi.",
@@ -176,8 +176,40 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Tinulungan siya ni Indio, at pipino ang ibinayad nito.",
-  "say": "tinulungan siya ni indio, at pipino ang ibinayad nito.",
+  "text": "Tinulungan siya ni Indio.",
+  "say": "tinulungan siya ni indio.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Pipino, kuya.",
+  "say": "pipino, kuya.",
+  "style": "warm",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "KICHI"
+ },
+ {
+  "text": "Baon ko.",
+  "say": "baon ko.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "KICHI"
+ },
+ {
+  "text": "Dahil sa medalyon ni Rajah Kiling, naiintindihan siya ni Indio.",
+  "say": "dahil sa medalyon ni rajah kiLING, naiintindihan siya ni indio.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Si M ang sumasagot.",
+  "say": "si m ang sumasagot.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -196,54 +228,60 @@
   "say": "lalagyan ng tsaa ng mga panginoon.",
   "style": "",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "KICHI"
- },
- {
-  "text": "Pinag-aagawan nila.",
-  "say": "pinag-aagawan nila.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "KICHI"
  },
  {
-  "text": "Sa amin, lalagyan lang 'yan ng bagoong.",
-  "say": "sa amin, lalagyan lang yan ng bagoong.",
+  "text": "May medalyon sa isa.",
+  "say": "may medalyon sa isa.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "M"
+ },
+ {
+  "text": "Alin?",
+  "say": "alin?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "M"
+ },
+ {
+  "text": "Kasama nang dumating mula Luzon ang laman.",
+  "say": "kasama nang dumating mula luzon ang laman.",
   "style": "whisper",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "KICHI"
  },
  {
-  "text": "Dito, kayamanan.",
-  "say": "dito, kayamanan.",
+  "text": "Ang kappa sa kanal ang nakakaalam.",
+  "say": "ang KAP-pa sa kanal ang nakakaalam.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "KICHI"
+ },
+ {
+  "text": "Lihim ang bayad niya.",
+  "say": "lihim ang bayad niya.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "KICHI"
  },
  {
-  "text": "Kuya, dito, yumuyuko.",
-  "say": "kuya, dito, yumuyuko.",
+  "text": "Yumuko ka muna.",
+  "say": "yumuko ka muna.",
   "style": "kind",
   "pre": 0,
   "pause": 0.4,
   "speaker": "KICHI"
  },
  {
-  "text": "Kapag yumuko ka, kailangang yumuko rin ang kaharap mo.",
-  "say": "kapag yumuko ka, kailangang yumuko rin ang kaharap mo.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "KICHI"
- },
- {
-  "text": "Kahit galit.",
-  "say": "kahit galit.",
+  "text": "Kapag yumuko ka, yuyuko rin ang kaharap mo.",
+  "say": "kapag yumuko ka, yuyuko rin ang kaharap mo.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -264,30 +302,6 @@
   "pre": 0,
   "pause": 0.5,
   "speaker": "USMAN"
- },
- {
-  "text": "Pero aling tapayan?",
-  "say": "pero aling taPAyan?",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Ang kappa sa kanal, alam ang lahat ng lihim dito.",
-  "say": "ang KAP-pa sa kanal, alam ang lahat ng lihim dito.",
-  "style": "whisper",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "KICHI"
- },
- {
-  "text": "Pero lihim din ang bayad.",
-  "say": "pero lihim din ang bayad.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.5,
-  "speaker": "KICHI"
  },
  {
   "text": "Umahon sa kanal ang kappa, nilalang ng tubig ng mga Hapon: kasinlaki ng bata, may platitong tubig sa ulo.",
@@ -314,20 +328,80 @@
   "speaker": "KAPPA"
  },
  {
-  "text": "Sa kabilang pampang, nakatayo ang babaeng nakaputi.",
-  "say": "sa kabilang pampang, nakatayo ang babaeng nakaputi.",
+  "text": "Sa kabilang pampang, may babaeng nakaputi.",
+  "say": "sa kabilang pampang, may babaeng nakaputi.",
   "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Sinundan siya nito mula sa Tsina, at hindi niya alam kung bakit.",
-  "say": "sinundan siya nito mula sa tsina, at hindi niya alam kung bakit.",
-  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Par, amoy soro siya.",
+  "say": "par, amoy soro siya.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sinusundan niya ang mga medalyon.",
+  "say": "sinusundan niya ang mga medalyon.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Sino'ng amo?",
+  "say": "sinong amo?",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Hindi ko maamoy.",
+  "say": "hindi ko maamoy.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Tinanggap ko ang tasa niya.",
+  "say": "tinanggap ko ang tasa niya.",
+  "style": "whisper",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Muntik na akong manatili.",
+  "say": "muntik na akong manatili.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Nakakahiya.",
+  "say": "nakakahiya.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO",
+  "aside": true
+ },
+ {
+  "text": "Hindi alam ni M.",
+  "say": "hindi alam ni m.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO",
+  "aside": true
  },
  {
   "text": "Sino ang babaeng 'yon, Indio?!",
@@ -354,106 +428,136 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Umungol si Usman: kasinungalingan.",
-  "say": "u-MU-ngol si usman: kasinungalingan.",
+  "text": "Umungol si Usman.",
+  "say": "u-MU-ngol si usman.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Kasinungalingan po.",
+  "say": "kasinungalingan po.",
+  "style": "polite",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "KAPPA"
+ },
+ {
+  "text": "Hindi 'yan bayad.",
+  "say": "hindi yan bayad.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "KAPPA"
+ },
+ {
+  "text": "Ibinalibag ng kappa si Indio sa kanal.",
+  "say": "ibinalibag ng KAP-pa si indio sa kanal.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Para sa kappa, pandaraya 'yon: ibinalibag nito si Indio sa kanal.",
-  "say": "para sa KAP-pa, pandaraya yon: ibinalibag nito si indio sa kanal.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "At naglakad palayo si M.",
-  "say": "at naglakad palayo si m.",
+  "text": "Tumalikod si M, pero hindi siya umalis.",
+  "say": "tumalikod si m, pero hindi siya umalis.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Isang \"wala\" lang.",
-  "say": "isang wala lang.",
-  "style": "whisper",
+  "text": "Kuya!",
+  "say": "kuya!",
+  "style": "shout",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "KICHI"
  },
  {
-  "text": "Nawala si M, pati ang hangin ko.",
-  "say": "nawala si m, pati ang hangin ko.",
+  "text": "Huwag lumaban!",
+  "say": "huwag lumaban!",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "KICHI"
+ },
+ {
+  "text": "Yumuko ka!",
+  "say": "yumuko ka!",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "INDIO",
-  "aside": true
+  "speaker": "KICHI"
  },
  {
-  "text": "Mas malakas ang kappa.",
-  "say": "mas malakas ang KAP-pa.",
+  "text": "Yumuko si Indio.",
+  "say": "yumuko si indio.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Kaya ginawa ni Indio ang turo ni Kichi: yumuko siya nang malalim.",
-  "say": "kaya ginawa ni indio ang turo ni KItsi: yumuko siya nang malalim.",
+  "text": "Yumuko rin ang kappa, at natapon ang tubig sa platito nito.",
+  "say": "yumuko rin ang KAP-pa, at natapon ang tubig sa plaTIto nito.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Magalang ang kappa: yumuko rin ito.",
-  "say": "magalang ang KAP-pa: yumuko rin ito.",
-  "style": "low",
+  "text": "Nanghina!",
+  "say": "nanghina!",
+  "style": "excited",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "USMAN"
  },
  {
-  "text": "Natapon ang tubig sa platito, at napaluhod ito, nanghihina.",
-  "say": "natapon ang tubig sa plaTIto, at napaluhod ito, nanghihina.",
+  "text": "Takbo, par!",
+  "say": "takbo, par!",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "USMAN"
  },
  {
-  "text": "Hindi tumakas si Indio.",
-  "say": "hindi tumakas si indio.",
-  "style": "low",
+  "text": "Huwag!",
+  "say": "huwag!",
+  "style": "alarmed",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "KICHI"
  },
  {
-  "text": "Sumalok siya ng tubig, at pinuno ulit ang platito.",
-  "say": "sumalok siya ng tubig, at pinuno ulit ang plaTIto.",
-  "style": "",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Ibinigay pa niya ang pipino, ang tanging pagkain niya.",
-  "say": "ibinigay pa niya ang pipino, ang tanging pagkain niya.",
+  "text": "Kapag tuyo ang platito, mamamatay siya!",
+  "say": "kapag tuyo ang plaTIto, mamamatay siya!",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "KICHI"
  },
  {
-  "text": "Tapat ka sa usapan.",
-  "say": "tapat ka sa usapan.",
+  "text": "Heto, tubig.",
+  "say": "heto, tubig.",
+  "style": "gentle",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Pipino, tanging pagkain ko.",
+  "say": "pipino, tanging pagkain ko.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Tapat ka.",
+  "say": "tapat ka.",
   "style": "quiet",
   "pre": 0,
   "pause": 0.4,
@@ -476,20 +580,36 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Lumingon si M, at uminit ang medalyon niya.",
-  "say": "lumingon si m, at uminit ang medalyon niya.",
+  "text": "Uminit ang medalyon ni M.",
+  "say": "uminit ang medalyon ni m.",
   "style": "low",
   "pre": 0,
   "pause": 0.4,
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sa pulang tali ni Indio, nabuo ang pangatlong buhol: kakampi na ang kappa.",
-  "say": "sa pulang tali ni indio, nabuo ang pangatlong buhol: kakampi na ang KAP-pa.",
+  "text": "Sa pulang tali sa pulso ni Indio, nabuo ang pangatlong buhol: isa bawat nilalang na naging kakampi.",
+  "say": "sa pulang tali sa pulso ni indio, nabuo ang pangatlong buhol: isa bawat nilalang na naging kakampi.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Bantay ng ilog, tikbalang, ngayon kappa.",
+  "say": "bantay ng ilog, tikbalang, ngayon KAP-pa.",
+  "style": "dry",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "USMAN"
+ },
+ {
+  "text": "Dumadami ang karibal ko.",
+  "say": "dumadami ang karibal ko.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "USMAN"
  },
  {
   "text": "Kuya!",
@@ -516,8 +636,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Sinilip ito ni Indio sa lente ng Lolo niya, na nagpapakita ng nakaraan.",
-  "say": "sinilip ito ni indio sa lente ng lolo niya, na nagpapakita ng nakaraan.",
+  "text": "Sinilip ito ni Indio sa lente ng Lolo niya, na nagpapakita ng totoong nangyari.",
+  "say": "sinilip ito ni indio sa lente ng lolo niya, na nagpapakita ng totoong nangyari.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -526,56 +646,55 @@
  {
   "text": "Tondo, 1588.",
   "say": "tonDO, isang libo limandaan walumput walo.",
-  "style": "low",
+  "style": "hushed",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "INDIO"
  },
  {
-  "text": "Palihim na nagbabalak ang mga pinuno laban sa mga Kastila.",
-  "say": "palihim na nagbabalak ang mga pinuno laban sa mga kastila.",
+  "text": "Mga pinunong palihim na lumalaban sa Kastila.",
+  "say": "mga pinunong palihim na lumalaban sa kastila.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "INDIO"
  },
  {
-  "text": "Ang sugo nila, si Magat Salamat, ay nagtiwala sa isang nagkunwaring kakampi.",
-  "say": "ang sugo nila, si maGAT saLAmat, ay nagtiwala sa isang nagkunwaring kakampi.",
+  "text": "Ang sugo nila, nagtiwala sa nagkunwaring kakampi.",
+  "say": "ang sugo nila, nagtiwala sa nagkunwaring kakampi.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "INDIO"
  },
  {
-  "text": "Nagsumbong ito, at binitay sila.",
-  "say": "nagsumbong ito, at binitay sila.",
+  "text": "Nagsumbong ito.",
+  "say": "nagsumbong ito.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "INDIO"
+ },
+ {
+  "text": "Binitay sila.",
+  "say": "binitay sila.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
+  "speaker": "INDIO"
  },
  {
   "text": "Sabi ng titser ko, tatlong daang taon tayong tahimik.",
   "say": "sabi ng titser ko, tatlong daang taon tayong tahimik.",
   "style": "whisper",
   "pre": 0,
-  "pause": 0.4,
-  "speaker": "INDIO",
-  "aside": true
- },
- {
-  "text": "Ito, 1588 pa lang.",
-  "say": "ito, isang libo limandaan walumput walo pa lang.",
-  "style": "",
-  "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO",
   "aside": true
  },
  {
-  "text": "Mula sa tanso, nagsalita ang diwa ni Magat Salamat.",
-  "say": "mula sa tanso, nagsalita ang diwa ni maGAT saLAmat.",
+  "text": "Mula sa tanso, nagsalita ang diwa ng sugo, si Magat Salamat.",
+  "say": "mula sa tanso, nagsalita ang diwa ng sugo, si maGAT saLAmat.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -598,9 +717,33 @@
   "speaker": "DIWA"
  },
  {
-  "text": "Hinabol ni Indio si M, at binayaran ang utang niyang lihim.",
-  "say": "hinabol ni indio si m, at binayaran ang utang niyang lihim.",
+  "text": "Ang Lihim: habang tahimik ka, hindi ka makikita.",
+  "say": "ang lihim: habang tahimik ka, hindi ka makikita.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "M"
+ },
+ {
+  "text": "Ang busog: pumapana ng liwanag, ipinapako ang anino.",
+  "say": "ang busog: pumapana ng liwanag, ipinapako ang anino.",
+  "style": "",
+  "pre": 0,
+  "pause": 0.5,
+  "speaker": "M"
+ },
+ {
+  "text": "Hinarap ni Indio si M.",
+  "say": "hinarap ni indio si m.",
+  "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Nakasilip ang kappa, naghihintay ng bayad.",
+  "say": "nakasilip ang KAP-pa, naghihintay ng bayad.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
@@ -614,49 +757,41 @@
   "speaker": "INDIO"
  },
  {
-  "text": "Kilala ko siya.",
-  "say": "kilala ko siya.",
+  "text": "Soro ang babaeng 'yon.",
+  "say": "soro ang babaeng yon.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
   "speaker": "INDIO"
  },
  {
-  "text": "Sa Tsina, inalok niya ako ng kuwarto at inumin.",
-  "say": "sa tsina, inalok niya ako ng kuwarto at inumin.",
+  "text": "Sa Tsina, tinanggap ko ang tasa niya.",
+  "say": "sa tsina, tinanggap ko ang tasa niya.",
   "style": "",
   "pre": 0,
   "pause": 0.4,
   "speaker": "INDIO"
  },
  {
-  "text": "Muntik na akong sumama.",
-  "say": "muntik na akong sumama.",
+  "text": "Muntik na akong manatili.",
+  "say": "muntik na akong manatili.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "INDIO"
  },
  {
-  "text": "Tumango ang kappa: bayad na.",
-  "say": "tumango ang KAP-pa: bayad na.",
-  "style": "low",
+  "text": "Bayad na po.",
+  "say": "bayad na po.",
+  "style": "polite",
   "pre": 0,
   "pause": 0.5,
-  "speaker": "TAGAPAGSALAYSAY"
- },
- {
-  "text": "Ako naman.",
-  "say": "ako naman.",
-  "style": "low",
-  "pre": 0,
-  "pause": 0.4,
-  "speaker": "M"
+  "speaker": "KAPPA"
  },
  {
   "text": "'Yung matangkad na lalaking nagsabing ilusyon lang ang hawak mo: Tubal ang tawag ng mga tauhan niya.",
   "say": "yung matangkad na lalaking nagsabing ilusyon lang ang hawak mo: tuBAL ang tawag ng mga tauhan niya.",
-  "style": "",
+  "style": "low",
   "pre": 0,
   "pause": 0.4,
   "speaker": "M"

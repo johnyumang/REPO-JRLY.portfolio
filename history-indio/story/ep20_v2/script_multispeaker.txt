@@ -1,0 +1,148 @@
+# INDIO: ANG SAKSI — Episode 20, "Ang Sariling Dagat" (version 2). End of Season 2.
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: the last medallion, before the man in the tie gets it. Then: Rico's life, which costs him the first.
+# SABI-SABI: "Si Lapulapu mismo ang pumatay kay Magellan." What he sees from the mangroves: a reef that keeps
+#   the ships far, a crowd in the shallows, and nobody who can say whose hand it was.
+# TWIST (BIBLE row 20): the rival got there first. Fall: he comes back from 1521 knowing the place, and Rico
+#   is already standing on the reef lifting the bronze on a live video; Tobías Alcaín: "Ilusyon lang."
+#   In Rico's hand it is cold; the siyokoy take him; Alcaín's men are told to leave him. Comeback: Indio alone
+#   jumps in, has the shield in one hand at last and Rico in the other, cannot pull a man with one hand, and
+#   does what Buyong the spear boy taught (drop what you carry; two hands to pull): he lets the prize sink.
+#   "Sino ka ba?" "Indio." The sea gives the shield back, and it wakes on his arm. He wears the medallions as borrowed (the vow of Episode 19). Show-off: Alcaín's men
+#   bounce off the air. Seventh knot (the siyokoy), seventh mark, the anting, the key. No confession is used.
+# Thinned to four beats as BIBLE section 14 ruling 9 orders: the collared beasts, the vans jumped by Lundag,
+#   the Yúmud and the Sarimanok of the ally table are NOT in this script (see facts.md, section 2).
+# The assigned hook is Rico's scream (the rival is taken); the bible row's hook line is said by Alcaín in
+#   scene 1. Revised after the cold read: the vow, the cause of the anting, the two counts, the JM clause.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). M. USMAN (inside the jump only).
+# BUYONG (invented boy of about eleven who carries the spears of the warriors of Mactan, 1521; "friend" voice).
+# LAPULAPU (ONE line: a RENDERING IN SUBSTANCE of the answer of the chief of Mactan as Pigafetta reports it;
+#   not a quote; see facts.md). Magellan and his men are seen from far and say nothing.
+# TUBAL (Tobías Alcaín, invented: the man in the tie; smooth, quiet). RICO (Rico Bulan, invented rival).
+# SIYOKOY (the eldest of the siyokoy, a being of folklore; deep, slow; one line).
+# INAY (a woman's voice from far away, three words; Indio does not know whose it is).
+# Indio understands Buyong through the medallion of Episode 11 and cannot answer in his tongue: he never
+#   says a line TO him; his asides are to us.
+# SAY: lechón=leCHON
+# SAY: Lechon=leCHON
+# SAY: Mactan=makTAN
+# SAY: Cebu=seBU
+# SAY: Tobías Alcaín=toBIas alkaIN
+# SAY: Tubal=TUbal
+# SAY: Rico Bulan=RIko buLAN
+# SAY: Bracken=BRAken
+# SAY: 1521=isang libo limandaan at dalawampu't isa
+# SAY: Buyong=BUyong
+# SAY: Lapulapu=lapuLApu
+# SAY: Magellan=maGElan
+# SAY: bahura=baHUra
+# SAY: bakawan=bakaWAN
+# SAY: siyokoy=SYOkoy
+# SAY: Kalasag=kaLAsag
+# SAY: kalasag=kaLAsag
+# SAY: lente=LENte
+# SAY: anting=anTING
+# SAY: tumalbog=tumalBOG
+# SAY: tumatalbog=tumataLBOG
+# SAY: bitbit=bitBIT
+
+# --- 0. Hook (cold, at 0.0, on the scream: a flash-forward of scene 3)
+(Maliwanag na umaga, sa ibabaw ng bahura. Si Rico Bulan, lubog hanggang dibdib, hinihila pababa ng mga kamay na makaliskis; sa nakataas niyang kamay, isang bilog na tansong walang kislap. Lumulutang sa tabi niya ang isang ring light. Sa gilid, tumatakbo si Indio papunta sa tubig.)
+RICO: [scream] Tulong! Hinihila nila ako!
+INDIO (sa atin): [dramatic] Hawak niya ang huling medalyon. Ako ang huling pag-asa niya.
+INDIO (sa atin): [dry] Ako 'to si Indio. Sasagipin ko yata ang karibal ko.
+
+# --- 1. Today (short, Indio's voice). He wants: the last medallion.
+TAGAPAGSALAYSAY: [calm] Ngayon. Mactan, sa Cebu. Kasama ni Indio si M, ang babaeng may mapa ng mga medalyon.
+(Tabing-dagat ng Mactan, umaga. Si Indio at si M, hawak niya ang pulang payong at ang mapa: isang tuldok na lang ang madilim. Sa malayo, usok ng isang ihawan; lumilingon doon si Indio, sumisinghot.)
+INDIO (sa atin): [playful] Lechon: sa Espanyol, "lechón": biik na sumususo pa. Sikat diyan ang Cebu. Amoy lang ang kaya ko: iniwan ko kay JM ang mga sasakyan, pati utang.
+(Tatlong itim na van sa buhanginan. Bumaba ang isang matangkad na lalaking naka-kurbata, may tatlong guhit na pahilig sa kurbata. Sa likod niya, isang lalaking perpekto ang ngipin, may ring light, nagla-live. Sa bahura, mga lalaking may makinang panghukay.)
+TAGAPAGSALAYSAY: [calm] Hinarang sila ni Tobías Alcaín, ang naka-kurbatang tinatawag na Tubal ng mga tauhan, at ni Rico Bulan, ang kaklase ni Indio na laging nauuna.
+TUBAL: [smooth] Labing-isa ang hawak mo, Bracken. Akin ang ikalabindalawa. Hinuhukay na namin ang bahura.
+(Hindi sumagot si Indio. Binasa niya nang malakas ang isang marker sa tabing-dagat. Uminit ang medalyon sa leeg ni M; hinawakan niya ang kamay ni Indio.)
+TAGAPAGSALAYSAY: [calm] Binasa ni Indio ang marker, at uminit ang medalyon ni M.
+
+# --- 2. The shore of 1521. He wants: to see where the last medallion lies.
+TAGAPAGSALAYSAY: [low] Mactan, 1521, madaling-araw ng ikadalawampu't pito ng Abril. Sumalubong si Usman, ang aso niyang nagsasalita.
+(Mga bakawan sa dilim bago magbukang-liwayway. Lumabas ang itim na asong si Usman sa liwanag, nakataas ang ilong. Sa malayo sa dagat, tatlong barkong nakaangkla.)
+USMAN: [sniffing] Par, amoy-bakal ang dagat.
+(Isang batang lalaki, may pasang bigkis ng mga sibat na kawayan, ang humila kay Indio pababa sa likod ng mga ugat.)
+TAGAPAGSALAYSAY: [low] Hinila sila pababa ni Buyong, isang batang tagadala ng sibat.
+BUYONG: [hushed] Yuko! Hindi makalapit ang mga barko nila sa bahura. Lulusong sila.
+INDIO (sa atin): [whisper] Sabi sa libro ko, si Lapulapu mismo ang pumatay kay Magellan.
+(Sa dalampasigan, napakaraming mandirigma. Sa harap nila, nakatalikod sa atin, isang pinunong nakataas ang sibat na kawayan; walang malinaw na mukha.)
+TAGAPAGSALAYSAY: [low] Humarap sa mga mandirigma si Lapulapu, ang pinuno nila. Ganito raw ang sagot ng Mactan.
+LAPULAPU: [firm] May sibat sila? May sibat din tayo: kawayan, pinatigas sa apoy.
+BUYONG: [proud] Ayaw niyang yumuko sa hari nila.
+(Sumikat ang araw. Mula sa mga bangka, lumusong hanggang hita ang mga lalaking nakabaluti. Sinalubong sila ng dagsa ng mga mandirigma. Mula sa bakawan, malayo ang lahat: mga sibat sa ere, tilamsik, walang dugo.)
+TAGAPAGSALAYSAY: [low] Dinagsa ng mga mandirigma ang mga dayuhan.
+BUYONG: [quick] Bakal ang dibdib nila. Sa binti kami tumitira!
+(Sa malayo, sa gitna ng dagsa, isang nakabaluting natumba sa mababaw. Ang iba, umaatras sa mga bangka.)
+TAGAPAGSALAYSAY: [low] Bumagsak sa mababaw si Magellan, ang kapitan nila.
+BUYONG: [shout] Umaatras na sila!
+USMAN: [low] Sino'ng tumama, par? Sa dami nila, walang makapagsasabi.
+(Malapit sa bakawan, isang sugatang mandirigma ang natumba sa alon. Ibinagsak ni Buyong ang buong bigkis ng sibat at hinila siya sa kilikili, dalawang kamay.)
+TAGAPAGSALAYSAY: [low] Binitawan ni Buyong ang mga sibat para hilahin ang isang natumba.
+BUYONG: [strained] Kapag may nalulunod, bitawan ang bitbit! Dalawang kamay ang panghila!
+(Humuhupa ang tubig. Tumigil ang mata ni Indio sa isang bitak ng bahura: isang bilog na tansong nakasiksik sa korales. Sarado pa ang bag niya.)
+TAGAPAGSALAYSAY: [low] Sa bahura, may napansin si Indio: isang bilog na tanso.
+USMAN: [surprised] Par, nasa bag pa ang lente ng Lolo mo. Sariling mata mo ang nakakita.
+BUYONG: [hushed] Alay 'yan sa dagat. Dagat lang ang nagbibigay.
+TAGAPAGSALAYSAY: [low] Iniwan iyon ni Indio. Bilin ni M: walang binabago sa nakaraan.
+USMAN: [dry] Misyon mo, par: huwag kang malunod.
+
+# --- 3. THE FALL. The rival is already there.
+TAGAPAGSALAYSAY: [low] Pagbalik nila sa ngayon, hawak na ni Rico ang tansong bilog.
+(Ngayon, maliwanag na umaga. Si Rico sa ibabaw ng bahura, tubig hanggang tuhod, itinataas ang bilog na tanso sa harap ng ring light. Sa pampang, si Tubal, nakangiti. Si Indio at si M, kararating lang sa buhangin.)
+RICO: [triumphant] Ang kalasag ni Lapulapu! Ako ang nauna!
+TUBAL: [smooth] Kung wala ito, Bracken, ang labing-isa mo? Ilusyon lang.
+(Ibinaba ni Rico ang tanso. Walang kislap. Kinatok niya ito.)
+RICO: [uneasy] Sir, malamig. Tanso lang 'to.
+(Kumulo ang tubig sa paligid ng bahura. Dose-dosenang ulong makaliskis ang umahon, may palikpik sa braso. Mga kamay sa binti at baywang ni Rico.)
+TAGAPAGSALAYSAY: [low] Umahon ang mga siyokoy, mga taong-dagat ng kuwentong-bayan.
+M: [urgent] Binabawi ng dagat ang kinuha niya.
+RICO: [scream] Tulong! Hinihila nila ako!
+TUBAL: [cold] Hayaan n'yo siya. Ang kalasag ang kunin.
+
+# --- 4. THE COMEBACK. Two hands.
+(Umatras ang mga tauhan ni Tubal. Tumakbo si Indio sa tubig at sumisid. Sa ilalim: nabitawan ni Rico ang tanso; nasalo ito ni Indio ng kaliwa; ang kanan, sa pulso ni Rico. Hinihila sila pababa.)
+TAGAPAGSALAYSAY: [low] Si Indio lang ang tumalon. Nahablot niya ang kalasag ng isang kamay, si Rico ng kabila.
+INDIO: [strained] Hindi ko siya kaya ng isang kamay!
+INDIO (sa atin): [whisper] Sabi ni Buyong: bitawan ang bitbit.
+(Binuksan ni Indio ang kaliwang kamay. Lumubog ang tanso, paikot, sa dilim. Dalawang kamay na niya ang nasa braso ni Rico.)
+TAGAPAGSALAYSAY: [low] Binitawan ni Indio ang kalasag, at lumubog ito.
+(Isang matandang siyokoy, puti ang palikpik, ang lumapit sa mukha ni Indio.)
+SIYOKOY: [deep] Binitawan mo ang gusto mo. Sino ka ba?
+INDIO: [steady] Indio. Bantay kayo, hindi halimaw. Nakita na kita.
+(Bumitaw ang mga kamay kay Rico. Sumisid ang matandang siyokoy at umahong dala ang tanso; isinuot niya ito sa kaliwang braso ni Indio. Nagliwanag ito: isang kalasag at isang alon ang ukit. Tatlong segundo, ang hologram: ikapitong buhol, ikapitong marka, labing-isang puwang na may ilaw at isang madilim.)
+TAGAPAGSALAYSAY: [low] Binitawan nila si Rico. Isinuot ng pinakamatanda ang kalasag sa braso ni Indio.
+M: [soft] Uminit! Ang Kalasag ni Lapulapu: ikalabindalawang medalyon. Sa tali mo, ikapitong buhol: ikapitong kakampi, ang mga siyokoy.
+(Sa pampang, sumugod ang mga tauhan ni Tubal, may mga pamalo. Itinaas ni Indio ang braso; tumalbog sila na parang bumangga sa salamin, at nabali ang mga pamalo. Walang nasaktan.)
+TAGAPAGSALAYSAY: [low] Sumugod ang mga tauhan ni Tubal, at tumalbog sa hangin.
+INDIO (sa atin): [smug] Ilusyon daw. Eh ba't sila tumatalbog?
+(Tumalikod si Tubal, nakangiti pa rin, at sumakay sa van. Si Rico, basang-basa, pinulot ang ring light at sumunod, hindi lumilingon.)
+TAGAPAGSALAYSAY: [low] Umalis si Tubal. Sumunod si Rico, walang pasalamat.
+M: [soft] Sa braso mo, ikapitong marka: may binitawan ka kasi.
+(Umangat mula sa bag ang mga medalyon, umikot kay Indio, at nagsara sa dibdib at balikat niya: baluting tanso at liwanag, isang puwang ang madilim. Sa kamay ni M, tumiklop ang mapa at naging isang susing tanso. Nasa hawakan pa rin ng payong niya ang bituin.)
+TAGAPAGSALAYSAY: [low] Umikot kay Indio ang mga medalyon at naging baluti. Naging susing tanso ang mapa ni M.
+M: [soft] Buo na ang labindalawa: ang anting. At ang susi ng mga lagusan.
+INDIO: [quiet] Hiram pa rin. Ibabalik ko rin pagkatapos.
+
+# --- 5. The key rings.
+(Dapithapon, sa parehong dalampasigan. Si Indio at si M, nakaupo sa buhangin; iniabot na ni M ang susi, at nasa palad na ito ni Indio. Nanginig ang susi. Sa malayo, sa ibabaw ng dagat, isang ilaw na sumindi at naglaho.)
+TAGAPAGSALAYSAY: [calm] Tumunog ang susi. Isang boses ng babae, malayo, na hindi kilala ni Indio.
+INAY: [whisper] Indio, anak ko.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: hawak mo na ang premyo, nalulunod ang karibal mo. Alin ang bibitawan mo?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? Natalo si Magellan sa Mactan?
+# INDIO: Tiyak: napatay si Magellan sa Mactan noong ikadalawampu't pito ng Abril, 1521. Ayon kay Pigafetta, ang nag-iisang detalyadong saksi: apatnapu't siyam ang lumusong, laban sa mga isang libo't limandaan.
+# USMAN: Eh si Lapulapu mismo ang tumama?
+# INDIO: Walang tala kung kaninong kamay. Maraming mandirigma ang sumugod, ayon kay Pigafetta. At walang naitalang eksaktong salita ni Lapulapu: ang sagot tungkol sa sibat na kawayan, buod lang ng iniulat ni Pigafetta.
+# USMAN: Eh 'yung siyokoy?
+# INDIO: Kuwentong-bayan. Galing daw sa Hokkien ang pangalan.
+# USMAN: Kaya pala ako umungol.
