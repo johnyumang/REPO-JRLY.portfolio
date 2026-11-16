@@ -69,8 +69,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Nag-message si M: magkikita na raw sila, alas-sais ng umaga, sa Luneta.",
-  "say": "nag-MEsej si m: magkikita na raw sila, alas-sais ng umaga, sa luNEta.",
+  "text": "Nag-message si M, ang hindi niya kilalang nagpapadala ng mga order at tip: magkikita na raw sila, alas-sais ng umaga, sa Luneta.",
+  "say": "nag-MEsej si m, ang hindi niya kilalang nagpapadala ng mga order at tip: magkikita na raw sila, alas-sais ng umaga, sa luNEta.",
   "style": "calm",
   "pre": 0,
   "pause": 0.4,
@@ -209,8 +209,8 @@
   "speaker": "TAGAPAGSALAYSAY"
  },
  {
-  "text": "Ang aso niyang si Usman, hindi man lang bumati.",
-  "say": "ang aso niyang si usman, hindi man lang bumati.",
+  "text": "Lumitaw sa tabi niya si Usman, ang aso niyang nagsasalita, pero hindi ito bumati.",
+  "say": "lumitaw sa tabi niya si usman, ang aso niyang nagsasalita, pero hindi ito bumati.",
   "style": "",
   "pre": 0,
   "pause": 0.5,
@@ -249,8 +249,8 @@
   "speaker": "USMAN"
  },
  {
-  "text": "May batang nag-aalok ng tubig: si Kiko.",
-  "say": "may batang nag-aalok ng tubig: si KIko.",
+  "text": "May batang lumapit, may pasang banga: si Kiko, tagatinda ng tubig sa parang.",
+  "say": "may batang lumapit, may pasang banga: si KIko, tagatinda ng tubig sa parang.",
   "style": "low",
   "pre": 0,
   "pause": 0.5,
@@ -944,6 +944,14 @@
   "text": "Sumikat ang araw sa parang.",
   "say": "sumikat ang araw sa parang.",
   "style": "low",
+  "pre": 0,
+  "pause": 0.4,
+  "speaker": "TAGAPAGSALAYSAY"
+ },
+ {
+  "text": "Si Usman, nasa tabi pa rin niya.",
+  "say": "si usman, nasa tabi pa rin niya.",
+  "style": "",
   "pre": 0,
   "pause": 0.5,
   "speaker": "TAGAPAGSALAYSAY"
