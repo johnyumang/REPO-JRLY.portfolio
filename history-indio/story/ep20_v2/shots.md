@@ -45,7 +45,7 @@ with the one establishing crane of row 9.
 | 21 | 40 | Over Indio's shoulder, at high angle, we see the ebbing water over a crack in the reef and a round bronze disc wedged in the coral; his bag still shut on his hip | over-the-shoulder / high angle / rack_focus / from him to the disc |
 | 22 | 41-42 | Low-angle close-up of Usman looking from the shut bag up to Indio's eyes, ears up | close-up / low angle / hold / the dog is puzzled |
 | 23 | 43-44 | Eye-level medium shot of Buyong shaking his head, palm out toward the sea, the dropped spears at his feet | medium / eye level / push_in / the rule of the sea |
-| 24 | 45-47 | High-angle wide view of the reef edge: Indio drawing his hand back from the disc and leaving it in the coral, M beside him with one finger raised, Usman looking up at him, tail low | wide / high angle / hold / he leaves it there |
+| 24 | 45-47 | High-angle close two-shot at the reef edge: Indio drawing his hand back from the disc and leaving it in the coral, M beside him with one finger raised; Usman's head between them, looking up | two-shot / high angle / hold / he leaves it there |
 | 25 | 48-50 | Today: low-angle wide view of Rico standing on the reef, water to his knees, lifting the bronze disc to his ring light; Tubal on the shore, smiling; Indio and M just arrived, small at the edge | wide / low angle / tilt_up / ends on the lifted disc; in: flash |
 | 26 | 51-52 | Eye-level close-up of Tubal, half a smile, eyes on Indio, the vans behind him | close-up / eye level / hold / two words, no move |
 | 27 | 53-54 | High-angle medium shot of Rico lowering the disc and knocking on it with a knuckle, his smile going; no glow | medium / high angle / push_in / it is cold |
