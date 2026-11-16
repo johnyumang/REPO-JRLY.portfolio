@@ -170,11 +170,28 @@ if until: shots = [s_ for s_ in shots if s_[1] < until]
 def rig_for(i): p = os.path.join(vdir, 'rigs', f'k{i:02d}.json'); return p if os.path.exists(p) else None      # a puppet rig makes the still itself move (see PUPPET.md)
 deps = depth_maps(sorted({paths[s_[0]] for s_ in shots if len(s_) < 8 and not rig_for(s_[0])}))
 lens = [b - a_ for _, a_, b, *_ in shots]; print('shots', len(shots), 'min %.1f max %.1f avg %.1f' % (min(lens), max(lens), sum(lens) / len(lens)), flush=True)
+TRANS = ['whip', 'slash', 'dissolve', 'zoom', 'whip', 'flash']; TN = 7                    # transition types, cycled; each lasts TN frames
+FN = 8                                                                                      # "fade": dip to black, FN frames out and FN frames in (CAMERA.md)
+HARD_IN = {_ST[j] for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
+TR_IN = {_ST[j]: FX[str(SRC[j])]['trans_in'] for j in range(len(tim)) if isinstance(FX.get(str(SRC[j])), dict) and FX[str(SRC[j])].get('trans_in') in TRANS + ['cut', 'fade']}   # a line's own way in (CAMERA.md)
+def kind_of(n):
+    if n >= len(shots): return 'cut'
+    a_ = shots[n][1]; kind = FX.get('trans', {}).get(str(n), (FX.get('_') or {}).get('trans_default') or TRANS[n % len(TRANS)])   # "_": {"trans_default": "cut"} stops the rotation
+    for t_, k_ in TR_IN.items():
+        if abs(a_ - t_) < 1e-6: kind = k_
+    if any(abs(a_ - t_) < 1e-6 for t_ in HARD_IN): kind = 'cut'                             # shots_fx line {"trans_in": "cut"}: e.g. the line right after a spliced trivia break
+    return kind
+SUB_TIM = [dict(t_) for t_ in tim]
+if (FX.get('_') or {}).get('subs_after_blend'):                                             # a line's subtitle never shows over the PREVIOUS picture: it waits for a blend to end
+    for n_ in range(1, len(shots)):
+        if kind_of(n_) in ('cut', 'fade'): continue
+        for t_ in SUB_TIM:
+            if abs(t_['start'] - shots[n_][1]) < 0.06 or (abs(_ST[SUB_TIM.index(t_)] - shots[n_][1]) < 1e-6): t_['start'] = min(t_['end'] - 0.2, max(t_['start'], shots[n_][1] + (TN + 1) / fps))
 work = os.path.join(kdir, 'build'); os.makedirs(work, exist_ok=True); cmd_a = []
 if not only:
     mix = os.path.join(work, 'mix.wav')                                                     # sound.json in vdir: the designed mix (sound_design.py); none: as before
     print(sound_design.soundtrack_for(vdir, tim, voice, mix, [s[1] for s in shots[1:]], [s[1] for s in shots if 'flash' in s[4]], src=SRC), flush=True)
-    print(subtitles.make(tim, os.path.join(work, 'subs.ass')), 'subtitle lines'); cmd_a = ['-i', mix, '-vf', 'subtitles=subs.ass', '-c:a', 'aac', '-b:a', '192k', '-shortest']
+    print(subtitles.make(SUB_TIM, os.path.join(work, 'subs.ass')), 'subtitle lines'); cmd_a = ['-i', mix, '-vf', 'subtitles=subs.ass', '-c:a', 'aac', '-b:a', '192k', '-shortest']
 ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(fps), '-i', '-'] + cmd_a +
                       ['-c:v', 'libx264', '-crf', '21', '-maxrate', '5000k', '-bufsize', '10000k', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out], stdin=subprocess.PIPE, cwd=work)
 def _layer(im): r = np.asarray(im.convert('RGBA')).astype(np.float32); return r[..., [2, 1, 0]], r[..., 3:4] / 255      # BGR + alpha
@@ -188,7 +205,6 @@ def brand(fr, fi):
     if left < END_T and not only and not until and not NO_END:                              # end card fades in over the last seconds
         k = min(1.0, (END_T - left) / 0.5); fr = (fr.astype(np.float32) * (1 - END_A * k) + END_RGB * END_A * k).astype(np.uint8)
     return fr
-TRANS = ['whip', 'slash', 'dissolve', 'zoom', 'whip', 'flash']; TN = 7                    # transition types, cycled; each lasts TN frames
 def _zoom(img, z): return cv2.warpAffine(img, cv2.getRotationMatrix2D((W / 2, H / 2), 0, z), (W, H), borderMode=cv2.BORDER_REFLECT)
 def transition(a_, b_, p, kind):
     pe = ease(p)
@@ -201,11 +217,7 @@ def transition(a_, b_, p, kind):
     if kind == 'zoom': return cv2.addWeighted(_zoom(a_, 1 + 0.55 * pe), 1 - pe, _zoom(b_, 1.5 - 0.5 * pe), pe, 0)      # zoom-through
     if kind == 'flash': w = np.sin(np.pi * p); return cv2.addWeighted(a_ if p < 0.5 else b_, 1 - w, np.full_like(b_, 255), w, 0)
     if kind == 'cut': return b_                                                              # hard cut (no blend)
-    if kind == 'dip':                                                                        # dip to black (CAMERA.md 6a): never two people over each other
-        return (a_.astype(np.float32) * max(0.0, 1 - 2 * p) if p < 0.5 else b_.astype(np.float32) * min(1.0, 2 * p - 1)).astype(np.uint8)
     return cv2.addWeighted(a_, 1 - pe, b_, pe, 0)                                             # dissolve
-HARD_IN = {_ST[j] for j in range(len(tim)) if FX.get(str(SRC[j]), {}).get('trans_in') == 'cut'}
-TR_IN = {_ST[j]: FX[str(SRC[j])]['trans_in'] for j in range(len(tim)) if isinstance(FX.get(str(SRC[j])), dict) and FX[str(SRC[j])].get('trans_in') in TRANS + ['cut', 'dip']}   # a line's own way in (CAMERA.md)
 f = 0; cur = None; last = None; pup = None; L3s = {}
 for n, sh in enumerate(shots):
     i, a_, b, mv, fx, zx, fo = sh[:7]; clip = sh[7] if len(sh) > 7 else None; cap = cv2.VideoCapture(clip) if clip else None; held = None
@@ -217,10 +229,7 @@ for n, sh in enumerate(shots):
     if '3d' in fx and not clip and pup is None:                                              # layers are made once per keyframe; None = flat depth
         if i not in L3s: L3s[i] = depth3d.prep3d(im, deps[paths[i]], im.shape[1] * 0.008); print('3d layers k%02d:' % i, 'flat, normal parallax' if L3s[i] is None else 'ok', flush=True)
         L3 = L3s[i]
-    kind = FX.get('trans', {}).get(str(n), (FX.get('_') or {}).get('trans_default') or TRANS[n % len(TRANS)])   # "_": {"trans_default": "cut"} stops the rotation
-    for t_, k_ in TR_IN.items():
-        if abs(a_ - t_) < 1e-6: kind = k_
-    if any(abs(a_ - t_) < 1e-6 for t_ in HARD_IN): kind = 'cut'                             # shots_fx line {"trans_in": "cut"}: e.g. the line right after a spliced trivia break
+    kind = kind_of(n); kind_next = kind_of(n + 1)
     f1 = round(b * fps); cnt = max(1, f1 - f)
     for k in range(cnt):
         if cap is not None:
@@ -228,7 +237,9 @@ for n, sh in enumerate(shots):
         elif pup is not None: fr = pup.frame(k / fps, cnt / fps, zx, fo)
         else: fr = frame(im, d, glow, ease(k / max(1, cnt - 1)), k / fps, mv, fx, zx, fo, seed=n * 97, aura=ring, L3=L3)
         raw = fr
-        if last is not None and k < TN and cnt > TN * 2: fr = transition(last, fr, (k + 1) / (TN + 1), kind)
+        if kind == 'fade' and k < FN and cnt > FN * 2: fr = (fr.astype(np.float32) * ((k + 1) / (FN + 1))).astype(np.uint8)   # dip in from black
+        elif last is not None and k < TN and cnt > TN * 2: fr = transition(last, fr, (k + 1) / (TN + 1), kind)
+        if kind_next == 'fade' and k >= cnt - FN and cnt > FN * 2: fr = (fr.astype(np.float32) * ((cnt - 1 - k) / FN)).astype(np.uint8)   # dip out to black
         ff.stdin.write(brand(fr, f + k).tobytes())
     last = raw
     f = f1; print('shot', n + 1, '/', len(shots), flush=True)
