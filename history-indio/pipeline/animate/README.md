@@ -82,3 +82,20 @@ the Hobby limits. There is no database: the board is saved in your browser and i
 The MiniMax request/response shapes are kept in one place (`studio/lib/providers/minimax.ts`, mirrored in
 `i2v.py`). They were written without access to the official docs page and are marked UNVERIFIED there; check the
 first real task and fix that one file if a field differs.
+
+## Clips on your own NVIDIA card (free, no daily limit)
+
+The free wan Space has a small daily GPU limit (a few clips a day). The same model, Wan 2.2 14B image-to-video, runs on
+a home card with 10 GB or more (an RTX 3080 makes a 3-5 s clip in a few minutes):
+
+1. Install ComfyUI (the desktop app, or the portable build) and update it so it has the Wan 2.2 nodes
+   (`WanImageToVideo`, `CreateVideo`, `SaveVideo`). Open its Templates -> Video -> "Wan 2.2 14B Image to Video" once:
+   it lists the files to download and where they go (two diffusion models, the umt5 text encoder, the Wan 2.1 VAE,
+   and the two lightx2v 4-step LoRAs).
+2. On a 10-12 GB card, use the GGUF versions of the two diffusion models (Q4_K_M or Q5_K_M, in `models/unet/`) with the
+   ComfyUI-GGUF custom node, and set `COMFY_GGUF=1`. Other file names: env vars listed at `comfy()` in `i2v.py`.
+3. Leave ComfyUI running, then:
+   `bash pipeline/animate/run.sh ep01b-1min --voice voice.wav --provider comfy --work ./work`
+   The checked 16:9 stills in `videos/<ep>/wide/` are used as they are; nothing is redrawn.
+
+Clips, voice and renders stay in the work dir; none of them go into the repo.

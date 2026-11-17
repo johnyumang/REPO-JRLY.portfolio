@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # One command for an episode: manifest -> 16:9 stills -> clips -> render -> loudness (-16 LUFS, true peak <= -1.5 dBTP).
-# usage: bash pipeline/animate/run.sh <episode> --voice <voice.wav> [--shots 0-3] [--provider wan-free|minimax]
+# usage: bash pipeline/animate/run.sh <episode> --voice <voice.wav> [--shots 0-3] [--provider wan-free|comfy|minimax]
 #                                     [--work DIR] [--manifest FILE] [--no-draw] [--fresh]
 #   <episode>   name under videos/ (e.g. ep01b-1min) or a path to the episode folder
 #   --manifest  start from a manifest exported by the studio instead of writing one (its picked takes are downloaded)

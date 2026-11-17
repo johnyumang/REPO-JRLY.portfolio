@@ -22,12 +22,14 @@
  "2": {
   "fx": [],
   "move": "push_in",
-  "why": "refused: closer to his face"
+  "why": "refused: closer to his face",
+  "motion": "The brown folder on the counter keeps its exact shape and size; the glass stays still."
  },
  "3": {
   "fx": [],
   "move": "pull_out",
-  "why": "alone on curb: back away"
+  "why": "alone on curb: back away",
+  "motion": "The brown folder over his head keeps its exact shape and size."
  },
  "4": {
   "fx": [
@@ -72,7 +74,8 @@
    "embers"
   ],
   "move": "push_in",
-  "why": "meet the dog: move closer"
+  "why": "meet the dog: move closer",
+  "motion": "The dog keeps his ears exactly as drawn: one ear upright, the other folded; his face stays all black; he blinks and his mouth moves a little as if talking."
  },
  "10": {
   "fx": [
@@ -137,14 +140,16 @@
    "embers"
   ],
   "move": "hold",
-  "why": "his words: camera stays still"
+  "why": "his words: camera stays still",
+  "motion": "The paper stays one small rectangle in his hands."
  },
  "19": {
   "fx": [
    "embers"
   ],
   "move": "pull_out",
-  "why": "from him to the hundreds"
+  "why": "from him to the hundreds",
+  "motion": "Torn paper scraps flutter down."
  },
  "20": {
   "fx": [
@@ -159,7 +164,8 @@
    "embers"
   ],
   "move": "crane_up",
-  "why": "the crowd answers: rise up"
+  "why": "the crowd answers: rise up",
+  "motion": "Torn paper scraps swirl upward."
  },
  "22": {
   "fx": [
@@ -173,11 +179,13 @@
    "embers"
   ],
   "move": "push_in",
-  "why": "the answer: paper falls around"
+  "why": "the answer: paper falls around",
+  "motion": "Torn paper scraps fall like snow."
  },
  "24": {
   "fx": [],
   "move": "push_in",
-  "why": "he asks the viewer directly"
+  "why": "he asks the viewer directly",
+  "motion": "The torn paper by his cheek keeps its shape; he looks into the lens."
  }
 }

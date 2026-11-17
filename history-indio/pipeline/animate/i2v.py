@@ -1,8 +1,9 @@
 """Run a manifest's shots through image-to-video and save the clips in a work dir (outside the repo).
 
-usage: python3 i2v.py <manifest.json> <work dir> [--provider wan-free|minimax] [--force] [--tries N]
+usage: python3 i2v.py <manifest.json> <work dir> [--provider wan-free|comfy|minimax] [--force] [--tries N]
 
   wan-free  the free Hugging Face Space (gradio client). Optional env HF_TOKEN gives more free GPU quota.
+  comfy     Wan 2.2 on your own NVIDIA card through a local ComfyUI (free, no daily limit; see comfy() below).
   minimax   MiniMax image-to-video (spends credits). Env MINIMAX_API_KEY (may be left unset on a machine whose
             proxy adds it), MINIMAX_API_HOST (default https://api.minimax.io), MINIMAX_MODEL (default in code).
 
@@ -10,7 +11,7 @@ Each shot gets <work>/clips/<id>.mp4; the manifest is updated in place with "cli
 "clip_duration" and a "takes" entry. Shots that already have a clip on disk are skipped unless --force; a clip given as a URL (a take picked in the
 studio) is downloaded instead of generated.
 """
-import base64, json, mimetypes, os, shutil, subprocess, sys, time, urllib.request
+import base64, json, mimetypes, os, shutil, subprocess, sys, time, urllib.parse, urllib.request
 
 WAN_SPACE = "https://zerogpu-aoti-wan2-2-fp8da-aoti-faster.hf.space"
 MINIMAX_HOST = os.environ.get("MINIMAX_API_HOST", "https://api.minimax.io").rstrip("/")
@@ -101,7 +102,100 @@ def minimax(shot, img, out):
     raise TimeoutError("minimax task still running after 20 minutes")
 
 
-PROVIDERS = {"wan-free": wan_free, "minimax": minimax}
+# ---------- comfy (Wan 2.2 on your own GPU through a local ComfyUI; free, no daily limit) ----------
+# Needs ComfyUI running (default http://127.0.0.1:8188, env COMFY_URL) with the Wan 2.2 14B image-to-video files in its
+# models folders. File names can be changed with env vars; defaults are the names ComfyUI's own Wan 2.2 template uses:
+#   diffusion_models/ COMFY_HIGH (wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors), COMFY_LOW (..._low_noise_...)
+#   loras/            COMFY_LORA_HIGH / COMFY_LORA_LOW (lightx2v 4-step LoRAs; set to "" to run without them, 20 steps)
+#   text_encoders/    COMFY_CLIP (umt5_xxl_fp8_e4m3fn_scaled.safetensors)      vae/ COMFY_VAE (wan_2.1_vae.safetensors)
+# COMFY_GGUF=1 loads the two models with the ComfyUI-GGUF node (UnetLoaderGGUF) instead, for cards with 10-12 GB.
+COMFY_URL = os.environ.get("COMFY_URL", "http://127.0.0.1:8188").rstrip("/")
+
+
+def _env(k, d):
+    return os.environ.get(k, d)
+
+
+def comfy_workflow(img_name, prompt, negative, frames, seed, w=832, h=480):
+    gguf = _env("COMFY_GGUF", "") == "1"
+    lora_h = _env("COMFY_LORA_HIGH", "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors")
+    lora_l = _env("COMFY_LORA_LOW", "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors")
+    fast = bool(lora_h and lora_l)
+    steps, cfg, split = (4, 1.0, 2) if fast else (20, 3.5, 10)
+    loader = (lambda n: {"class_type": "UnetLoaderGGUF", "inputs": {"unet_name": n}}) if gguf else \
+             (lambda n: {"class_type": "UNETLoader", "inputs": {"unet_name": n, "weight_dtype": "default"}})
+    wf = {
+        "1": loader(_env("COMFY_HIGH", "wan2.2_i2v_high_noise_14B_Q4_K_M.gguf" if gguf else "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors")),
+        "2": loader(_env("COMFY_LOW", "wan2.2_i2v_low_noise_14B_Q4_K_M.gguf" if gguf else "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors")),
+        "5": {"class_type": "CLIPLoader", "inputs": {"clip_name": _env("COMFY_CLIP", "umt5_xxl_fp8_e4m3fn_scaled.safetensors"), "type": "wan"}},
+        "6": {"class_type": "VAELoader", "inputs": {"vae_name": _env("COMFY_VAE", "wan_2.1_vae.safetensors")}},
+        "7": {"class_type": "CLIPTextEncode", "inputs": {"text": prompt, "clip": ["5", 0]}},
+        "8": {"class_type": "CLIPTextEncode", "inputs": {"text": negative, "clip": ["5", 0]}},
+        "9": {"class_type": "LoadImage", "inputs": {"image": img_name}},
+        "10": {"class_type": "WanImageToVideo", "inputs": {"positive": ["7", 0], "negative": ["8", 0], "vae": ["6", 0],
+               "start_image": ["9", 0], "width": w, "height": h, "length": frames, "batch_size": 1}},
+    }
+    mh, ml = ["1", 0], ["2", 0]
+    if fast:
+        wf["3"] = {"class_type": "LoraLoaderModelOnly", "inputs": {"model": mh, "lora_name": lora_h, "strength_model": 1.0}}
+        wf["4"] = {"class_type": "LoraLoaderModelOnly", "inputs": {"model": ml, "lora_name": lora_l, "strength_model": 1.0}}
+        mh, ml = ["3", 0], ["4", 0]
+    wf["11"] = {"class_type": "ModelSamplingSD3", "inputs": {"model": mh, "shift": 5.0}}
+    wf["12"] = {"class_type": "ModelSamplingSD3", "inputs": {"model": ml, "shift": 5.0}}
+    common = {"cfg": cfg, "sampler_name": "euler", "scheduler": "simple", "steps": steps, "noise_seed": seed,
+              "positive": ["10", 0], "negative": ["10", 1]}
+    wf["13"] = {"class_type": "KSamplerAdvanced", "inputs": {**common, "model": ["11", 0], "add_noise": "enable",
+                "latent_image": ["10", 2], "start_at_step": 0, "end_at_step": split, "return_with_leftover_noise": "enable"}}
+    wf["14"] = {"class_type": "KSamplerAdvanced", "inputs": {**common, "model": ["12", 0], "add_noise": "disable",
+                "latent_image": ["13", 0], "start_at_step": split, "end_at_step": 10000, "return_with_leftover_noise": "disable"}}
+    wf["15"] = {"class_type": "VAEDecode", "inputs": {"samples": ["14", 0], "vae": ["6", 0]}}
+    wf["16"] = {"class_type": "CreateVideo", "inputs": {"images": ["15", 0], "fps": 16}}
+    wf["17"] = {"class_type": "SaveVideo", "inputs": {"video": ["16", 0], "filename_prefix": "indio/clip", "format": "mp4", "codec": "h264"}}
+    return wf
+
+
+def _comfy(path, body=None, raw=None, ctype=None):
+    data = raw if raw is not None else (json.dumps(body).encode() if body is not None else None)
+    req = urllib.request.Request(COMFY_URL + path, data=data, method="POST" if data is not None else "GET",
+                                 headers={"Content-Type": ctype or "application/json"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        b = r.read()
+    return json.loads(b) if b[:1] in (b"{", b"[") else b
+
+
+def comfy(shot, img, out):
+    import random, uuid
+    boundary = uuid.uuid4().hex
+    name = os.path.basename(img)
+    raw = (f"--{boundary}\r\nContent-Disposition: form-data; name=\"image\"; filename=\"{name}\"\r\n"
+           f"Content-Type: image/jpeg\r\n\r\n").encode() + open(img, "rb").read() + \
+          (f"\r\n--{boundary}\r\nContent-Disposition: form-data; name=\"overwrite\"\r\n\r\ntrue\r\n--{boundary}--\r\n").encode()
+    up = _comfy("/upload/image", raw=raw, ctype=f"multipart/form-data; boundary={boundary}")
+    dur = max(1.0, min(5.0, float(shot.get("duration", 3.5))))
+    frames = int(round(dur * 16 / 4)) * 4 + 1          # Wan wants 4n+1 frames at 16 fps
+    seed = random.randint(1, 2**31 - 1)
+    wf = comfy_workflow(up["name"], shot["prompt"], shot.get("negative", ""), frames, seed)
+    pid = _comfy("/prompt", {"prompt": wf})["prompt_id"]
+    print(f"  comfy job {pid} ({frames} frames)", flush=True)
+    for _ in range(720):                                # up to an hour per clip
+        time.sleep(5)
+        h = _comfy(f"/history/{pid}")
+        if pid not in h:
+            continue
+        st = h[pid].get("status", {})
+        if st.get("status_str") == "error":
+            raise RuntimeError("comfy error: " + json.dumps(st.get("messages", []))[:400])
+        for o in h[pid].get("outputs", {}).values():
+            for k in ("images", "videos", "gifs"):
+                for f in o.get(k, []):
+                    if f.get("filename", "").endswith((".mp4", ".webm")):
+                        q = urllib.parse.urlencode({"filename": f["filename"], "subfolder": f.get("subfolder", ""), "type": f.get("type", "output")})
+                        open(out, "wb").write(_comfy("/view?" + q))
+                        return {"provider": "comfy", "seed": seed}
+    raise TimeoutError("comfy job still running after an hour")
+
+
+PROVIDERS = {"wan-free": wan_free, "minimax": minimax, "comfy": comfy}
 
 
 def main(a):

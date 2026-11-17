@@ -135,6 +135,9 @@ def build(ep, stills_dir=None, image_base=None, audio="voice.wav"):
         note = notes[g["lines"][0]]
         if note:
             parts.append("The picture: " + note.rstrip(".") + ".")
+        for i in g["lines"]:   # shot-specific notes from shots_fx.json ("motion": keep the folder's shape, the dog's ears...)
+            if fx_all.get(str(i), {}).get("motion"):
+                parts.append(fx_all[str(i)]["motion"])
         parts.append(FACE_LOCK)
         length = round(end - start, 3)
         img_name = g["still"] + ".jpg"

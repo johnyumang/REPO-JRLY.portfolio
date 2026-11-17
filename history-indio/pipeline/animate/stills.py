@@ -2,7 +2,8 @@
 
 usage: python3 stills.py <episode dir> <manifest.json> <out dir> [--no-draw]
 
-For each still in the manifest: if <out dir>/<still>.jpg exists it is kept. Otherwise it is redrawn wide from the same
+For each still in the manifest: if <out dir>/<still>.jpg exists it is kept; else <episode>/wide/<still>.jpg (checked
+16:9 stills kept in the repo) is copied. Otherwise it is redrawn wide from the same
 key prompt (subject, setting, light) with the free draw service in ../flux_hq.py (request body without a "seed" field),
 asking for every face in the upper two thirds so the captions never cover one. If drawing fails (or --no-draw), the
 9:16 still is centred on a blurred, darkened copy of itself so nothing is cropped. The manifest's image paths are
@@ -46,6 +47,11 @@ def main(a):
     m = json.load(open(man_path, encoding="utf-8"))
     for s in m["shots"]:
         out = os.path.join(out_dir, s["still"] + ".jpg")
+        kept = os.path.join(ep, "wide", s["still"] + ".jpg")   # 16:9 stills already drawn and checked
+        if not os.path.exists(out) and os.path.exists(kept):
+            import shutil
+            shutil.copy(kept, out)
+            print("kept checked 16:9", kept, flush=True)
         if not os.path.exists(out):
             ok = "--no-draw" not in a and s["still"] in full and draw_wide(full[s["still"]], out)
             if ok:
