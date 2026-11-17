@@ -21,8 +21,8 @@ import json, os, re, sys
 STYLE_LOCK = ("Animate this exact painting: keep the same hand-painted anime look, the same ink lines, colours and light; "
               "nothing is restyled or redrawn.")
 ONE_SHOT = "One continuous shot from start to end: no cuts, no scene change, no new people appear."
-FACE_LOCK = ("Every face stays on model: same features, same eyes, same hair, no morphing. Hands stay natural with five "
-             "fingers; the camera never moves onto the hands alone.")
+FACE_LOCK = ("Every face stays on model: same features, same eyes, same hair, no morphing. Hands stay where they are in the "
+             "picture, five fingers each; no new hand or arm enters the frame; the camera never moves onto the hands alone.")
 NEGATIVE = ("camera cut, scene change, transition, morphing face, face change, extra fingers, extra limbs, duplicate person, "
             "hands only, close-up of hands, text, subtitles, watermark, blurry, low quality, photorealistic, 3d render, restyled")
 
@@ -60,11 +60,13 @@ HANDS_ONLY = re.compile(r"(close[- ]up|detail)\s+(shot\s+)?of\s+(his|her|their|a
 NARRATORS = {"TAGAPAGSALAYSAY", "NARRATOR"}
 
 
-def picture_notes(script_path, n):
-    """The (picture note) above each spoken line, in order; '' where there is none."""
-    notes, pending = [], ""
+def picture_notes(script_path, lines):
+    """The (picture note) above each spoken line, matched to the timed sentences by text: one script line can hold
+    several timed sentences ("Pinunit niya. Sumabay ang daan-daan."), which all get that line's note."""
+    n = len(lines)
     if not os.path.exists(script_path):
         return [""] * n
+    spoken, pending = [], ""
     for raw in open(script_path, encoding="utf-8"):
         s = raw.strip()
         if not s or s.startswith("#"):
@@ -72,9 +74,19 @@ def picture_notes(script_path, n):
         if s.startswith("(") and s.endswith(")"):
             pending = s[1:-1].strip()
         elif re.match(r"^[A-Z][A-Z ]+(\([^)]*\))?:", s):
-            notes.append(pending)
+            spoken.append((pending, s))
             pending = ""
-    return (notes + [""] * n)[:n]
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    notes, j = [], 0
+    for l in lines:
+        t = norm(l["text"])
+        k = j
+        while k < len(spoken) and t not in norm(spoken[k][1]):
+            k += 1
+        if k < len(spoken):
+            j = k
+        notes.append(spoken[j][0] if j < len(spoken) else "")
+    return notes
 
 
 def parse_range(spec, n):
@@ -92,7 +104,7 @@ def build(ep, stills_dir=None, image_base=None, audio="voice.wav"):
     kp = json.load(open(os.path.join(ep, "key_prompts.json"), encoding="utf-8"))
     fx_all = json.load(open(os.path.join(ep, "shots_fx.json"), encoding="utf-8")) if os.path.exists(os.path.join(ep, "shots_fx.json")) else {}
     lines = json.load(open(os.path.join(ep, "timings.json"), encoding="utf-8"))
-    notes = picture_notes(os.path.join(ep, "script_multispeaker.txt"), len(lines))
+    notes = picture_notes(os.path.join(ep, "script_multispeaker.txt"), lines)
     shots_map, full = kp.get("shots", {}), kp.get("full", {})
 
     def still_of(i, prev):
