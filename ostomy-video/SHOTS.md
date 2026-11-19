@@ -69,3 +69,22 @@ The photo we have is dim, on a wooden desk, with a screen icon over the bottom. 
 ## Checks before anything is sent
 
 Every frame decodes; no watermark anywhere; fingers counted on every picture; product matches the photo; text readable on a phone.
+
+## Version built (owner's later direction: realistic, pure code, "coming out of the paper bag")
+
+Brand: SIIL Ostomy. Platform: Facebook. 1080x1920, 30 fps, 18 s, no watermark.
+
+| Time | What happens |
+|---|---|
+| 0-2.2 s | Inside a kraft paper bag, looking up at the sky through the opening. The bag rustles. |
+| 2.2-3.5 s | The frame darkens as the belt passes the lens. |
+| 2.6-5.8 s | The belt is pulled up and out of the bag, swinging, then hangs in the opening. |
+| 5.8-15 s | Hold. Caption on the bag wall from 9.2 s: SIIL OSTOMY / COMING SOON (placeholder until the owner confirms). |
+| 15-18 s | White end card slides in: SIIL / OSTOMY. |
+
+How it is made: `cut.py` cuts the belt out of the owner's own photo and paints over the sewn-in label (another
+brand's name). `build.py` computes everything else: paper bag, light, sky, motion, sound. No hand is shown: a hand
+drawn in code does not look real, so the belt is held from above, out of frame. The photo, the cut-out and the
+video stay outside this public repository.
+
+Honest limit: this is a computed scene around a real product photo. It is not filmed footage and does not pass for it.
