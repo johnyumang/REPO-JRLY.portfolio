@@ -7,7 +7,8 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 |---|---|---|---|
 | 1 | 1817 | Draisine (Laufmaschine), Karl Drais | Two wheels in line, steered, pushed with the feet. No pedals. |
 | 2 | 1860s | Michaux velocipede, the "boneshaker" | Pedals and cranks on the front wheel; who was first is disputed. James Moore wins at Saint-Cloud, 31 May 1868 (checked, ep02/facts.md). |
-| 3 | c. 1870 | Penny-farthing (Ariel, James Starley) | A huge front wheel for speed, wire spokes; fast and dangerous. |
+| 3 | 1870s | Penny-farthing (high-wheeler) | Direct drive, so a bigger wheel is faster. Thomas Stevens rides one around the world, 1884-86 (checked, ep03/facts.md). |
+| 4 | 1903 | First Harley-Davidson | Owner's choice for episode 4. Milwaukee, the backyard shed. |
 | 4 | 1885 | Rover Safety Bicycle, John Kemp Starley | Two equal wheels and a chain to the rear: the shape of every bicycle since. |
 | 5 | 1885 | Daimler Reitwagen | Daimler and Maybach put a petrol engine in a wooden frame: the first motorcycle. |
 | 6 | 1888 | Pneumatic tyre, John Boyd Dunlop | Air in the tyres: comfort and speed (a part episode, shown on a safety bicycle). |
@@ -38,3 +39,5 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 
 Open questions for the owner: bicycles and motorcycles in one season (as here) or two; and whether to add machines
 with a local story for a Filipino audience (for example the underbone and the tricycle).
+
+Order note: the owner moved the first Harley-Davidson to episode 4; the rows from the Rover onward follow it, still in date order.
