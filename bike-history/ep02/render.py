@@ -30,10 +30,10 @@ D = math.radians
 # each shot: n frames and f(u) -> dict(rot, el, dist, target(bike space), steer, spin_f, spin_r, explode)
 def hook(u): return dict(rot=-150 + 190 * out(u), el=10, dist=6.4 - 0.8 * out(u), target=(0, 0, 0.60), spin_f=-120 * u)
 def turn(u): return dict(rot=40 + 360 * u, el=6 + 22 * math.sin(math.pi * u) ** 2, dist=5.2, target=(0, 0, 0.60))
-def pedals(u): return dict(rot=-62 + 16 * u, el=10, dist=2.7 - 0.3 * ease(u), target=(0.50, 0, 0.52), spin_f=-540 * u)
+def pedals(u): return dict(rot=-62 + 16 * u, el=10, dist=3.4 - 0.3 * ease(u), target=(0.50, 0, 0.64), spin_f=-540 * u)
 def spring(u): return dict(rot=-8 + 14 * u, el=10, dist=2.8 - 0.3 * ease(u), target=(0.0, 0, 0.82))
 def brake(u): return dict(rot=-150 + 14 * u, el=16, dist=1.9 - 0.25 * ease(u), target=(-0.62, 0, 0.66), spin_r=-(900 * u - 450 * u * u))
-def tyres(u): return dict(rot=12 + 10 * u, el=6, dist=3.0 - 0.3 * ease(u), target=(0.50, 0, 0.50), spin_f=-160 * u)
+def tyres(u): return dict(rot=12 + 10 * u, el=6, dist=3.6 - 0.3 * ease(u), target=(0.50, 0, 0.64), spin_f=-160 * u)
 def explode(u): return dict(rot=28 + 22 * u, el=14, dist=6.3, target=(0, 0, 0.75), explode=ease(min(1, u / 0.3)))
 def ride(u): return dict(rot=0, el=2.5, dist=6.2, target=(0, 0, 0.98), spin_f=-360 * u, spin_r=-360 * u * 0.45 / 0.39)
 SHOTS = [('hook', 72, hook), ('turn', 168, turn), ('pedals', 144, pedals), ('spring', 144, spring),
