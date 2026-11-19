@@ -119,3 +119,11 @@ NVIDIA catalog (accepts only its own example pictures), Qwen-Image-Edit Spaces (
   pouch, hands and letters cannot bend. Only the reach clip is generated motion.
 - New hold still: the pouch is one solid black rectangle (no slit in the middle); both hands pinch its edges from outside.
 - 12.96 s. Build: `assemble.py REACH.mp4 HOLD.jpg OUT.mp4`.
+
+### Version 4 (owner: "the hand and sleeve must come from OUTSIDE the bag, in through the opening")
+
+- Stills re-made: the paper walls surround the frame on all four sides; the arm is seen only through the opening,
+  against the sky, coming over the rim. Nothing comes out of the paper walls.
+- New reach clip from that still. First take showed a face looking into the bag (not allowed); second take, with
+  "no face, no head" in the prompt, is clean and is the one used.
+- Held shot: pouch and both hands are outside the bag, seen through the opening.

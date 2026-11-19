@@ -2,20 +2,23 @@
 """Photoreal key stills for the SIIL teaser on the free FLUX endpoint (NVIDIA catalog).
 usage: still.py OUT_DIR [shot ...]     shots: reach, pull, hold   (two takes each; the endpoint picks its own seed)"""
 import json, sys, os, base64, urllib.request, urllib.error, time
-BASE = ("Real photograph, shot on a phone lying at the bottom of a brown kraft paper bag with the lens pointing straight up. "
-        "The crumpled brown paper walls of the bag frame the picture on the left and right, close to the lens and out of focus, "
-        "warm daylight glowing through the paper. Through the open top of the bag: a clear blue sky. "
+BASE = ("Real photograph, shot on a phone lying at the bottom of a deep brown kraft paper bag with the lens pointing straight up. "
+        "The crumpled brown paper walls of the bag surround the picture on all four sides, close to the lens and out of focus, "
+        "warm daylight glowing through the paper. In the middle of the frame is the open top of the bag: a rectangular opening with a paper rim, "
+        "and through it a clear blue sky. The camera is inside the bag; the person is outside the bag, standing over it. "
         "Natural daylight, true-to-life skin texture, photorealistic, sharp focus on the hands, no face visible. Vertical 9:16.")
+OUTSIDE = ("The arm is outside the bag: the forearm and sleeve are seen only through the opening, against the blue sky, coming over the paper rim from beyond it. "
+           "No arm, sleeve or hand comes out of the paper walls or from the edge of the picture in front of the paper.")
 HAND = "a woman's hand with two thin gold rings and short natural nails, wearing a dark navy coat sleeve,"
 POUCH = ("a rectangular frosted translucent matte plastic zip pouch with a slider zip along its top edge, packed completely full: "
          "a folded black fabric belt fills the whole pouch from edge to edge and corner to corner, pressed flat against the plastic, "
          "so the pouch is one flat, even, solid charcoal-black rectangle behind the frosted plastic, with no slit, no hole, "
          "no light gap and no lighter stripe anywhere, especially not in the middle")
 SHOTS = {
-    "reach": f"{BASE} From the top of the frame {HAND} reaches down into the bag towards the camera, fingers relaxed and slightly open. Each hand has exactly five fingers.",
+    "reach": f"{BASE} {HAND[0].upper() + HAND[1:]} reaches over the rim of the bag from outside and down through the opening, the open hand just entering the bag, fingers relaxed, pointing down towards the camera. {OUTSIDE} Each hand has exactly five fingers.",
     "pull": f"{BASE} {HAND[0].upper() + HAND[1:]} holds the top corner of {POUCH}, lifting the pouch up out of the bag towards the sky. Each hand has exactly five fingers.",
     "hold": (f"{BASE} Two hands of a woman with thin gold rings and dark navy sleeves hold up {POUCH}. The pouch is held flat and upright, "
-             "facing the camera, in the middle of the frame against the blue sky. Both hands are outside the pouch: one hand pinches the top edge "
+             "facing the camera, above the bag and outside it, seen through the opening against the blue sky. Both arms are outside the bag: the wrists and sleeves are seen only through the opening, against the sky, coming over the paper rim from beyond it, never out of the paper walls. Both hands are outside the pouch: one hand pinches the top edge "
              "from above and the other hand pinches the bottom edge from below, fingertips and thumbs resting on the outer surface of the plastic. "
              "No hand or finger is inside the pouch or behind the frosted plastic. "
              "Printed on the front of the pouch in clean white serif capital letters, centred: the word \"SIIL\" and, smaller, directly under it, the word \"OSTOMY\". "
