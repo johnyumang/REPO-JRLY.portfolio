@@ -38,17 +38,15 @@ Links: https://en.wikipedia.org/wiki/Karl_Drais and https://en.wikipedia.org/wik
   and named in the pilot: **please confirm before publishing**, or these two close-ups should be swapped for others.
 - **A second long ride** (Gernsbach to Baden-Baden, 1817) is often cited; not in the opened pages, not used.
 
-## Text on screen (must match the table above)
+## Text on screen and narration (must match the table above)
 
-1817 / The first bicycle had NO pedals. / THE DRAISINE / Built by Karl Drais in Mannheim, Germany. / He called it the
-Laufmaschine: the "running machine". / STEERING / ARMREST / SADDLE · NO PEDALS / BRAKE / Eight main parts. Mostly wood,
-with iron fittings. No pedals, no chain, no gears. / 12 JUNE 1817 / Karl Drais rides out of Mannheim: about 7 km to a
-coaching inn on the Schwetzingen road, then back. / The round trip takes a little over an hour. Roughly 13 km/h, and
-no horse. / Riders used the smooth pavements. Cities banned the machine, and the craze faded. / NEXT: SOMEONE ADDS
-PEDALS / EP 2 · THE VELOCIPEDE, 1860s
+Titles: 1817 / THE DRAISINE / STEERING / ARMREST / SADDLE · NO PEDALS / BRAKE / the eight part labels / 12 JUNE 1817 /
+NEXT: SOMEONE ADDS PEDALS / EP 2 · THE VELOCIPEDE, 1860s.
 
-Open points on the text: "Built in Mannheim" (the ride started there; where the machine was made is not stated in
-the opened pages); "iron fittings" and "eight main parts" describe our model.
+The narration and its subtitles are in `ep01/narration.py` (one list, so the two cannot drift apart). Lines that rest
+on unconfirmed facts: "built by Karl Drais in Mannheim" (the ride started there; where it was built is not in the
+opened pages), the armrest line and the brake line (see above). "About seven kilometres out of Mannheim, then back"
+and "a little over an hour" match the opened source.
 
 ## The 3D model
 

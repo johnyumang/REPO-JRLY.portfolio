@@ -13,6 +13,10 @@ Licence files were read on 2026-11-19 (the LICENSE file of each repository). Fre
 | Tencent-Hunyuan/Hunyuan3D-2 | Tencent Hunyuan 3D 2.0 Community License: its own terms, and it says it does not apply in the EU, UK and South Korea | AVOID until the owner reads it. |
 | Stability-AI/stable-fast-3d | Stability AI Community License: its own terms (free use has conditions) | AVOID until the owner reads it. |
 | ahujasid/blender-mcp | MIT | Drives a desktop Blender; needs the owner's computer. Later. |
+| Kokoro-82M voice model (huggingface.co/hexgrad/Kokoro-82M) | Apache-2.0 (model card) | The English narrator: stock voice `am_michael`, no cloning. |
+| kokoro-onnx (github.com/thewh1teagle/kokoro-onnx) | MIT | Runs Kokoro on CPU without torch (torch's own index is blocked here). About 1 s of work per second of speech. |
+| faster-whisper, `small.en` | MIT (code and model) | Checks the words the voice says. It caught "Draisine" read as "dray sign", fixed by respelling. |
+| FLUX image models on the free NVIDIA endpoint (via history-indio/pipeline/nvidia_still.py) | free hosted API | Channel picture and cover backgrounds only. They cannot draw a Draisine (they make carts and scooters), so the cover uses our 3D render over an empty street. |
 | Pillow, NumPy, SciPy, soundfile, ffmpeg | open source | 2D drawing, sound synthesis, encoding. |
 | Fonts: Anton, Archivo Black (history-indio/pipeline/fonts) | SIL OFL | On-screen text. |
 

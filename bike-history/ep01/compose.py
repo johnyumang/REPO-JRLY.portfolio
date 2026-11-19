@@ -4,7 +4,8 @@ Reads the transparent PNG frames and anchors.json written by render.py; pipes 72
 import sys, os, json, math, subprocess
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 FR, OUTV = sys.argv[1], sys.argv[2]
-CONTACT = sys.argv[3] if len(sys.argv) > 3 else None
+CONTACT = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] != '-' else None
+NARR = json.load(open(sys.argv[4]))['lines'] if len(sys.argv) > 4 else None   # from narration.py: subtitles follow the voice
 W, H, FPS = 720, 1280, 24
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, '..', '..', 'history-indio', 'pipeline', 'fonts')
@@ -120,6 +121,22 @@ x = L['outro'] = Layer(); tag(x); x.caption('Riders used the smooth pavements. C
 x = L['outro2'] = Layer(); x.text((W // 2, 900), 'NEXT: SOMEONE ADDS PEDALS', ANTON(56), RED)
 x.text((W // 2, 978), 'EP 2  ·  THE VELOCIPEDE, 1860s', ANTON(40), INK)
 
+# ---- subtitles that follow the voice (replace the fixed captions) -------------------------------
+SUBS = []
+if NARR:
+    for k_ in ('hook2', 'turn2', 'turn3', 'explode2', 'ride2', 'ride3', 'outro') + tuple(c_ + '2' for c_ in CLOSE): L[k_] = Layer()
+    SEG0, acc = {}, 0
+    for sname, _, n_, _ in SEGS: SEG0[sname] = (acc, acc + n_); acc += n_
+    SUBY = dict(hook=(985, 42, False), turn=(875, 36, False), explode=(930, 32, False), ride=(800, 34, True), outro=(740, 34, False))
+    shown = [l_ for l_ in NARR if l_['sub']]
+    for j_, l_ in enumerate(shown):
+        y_, sz, pan = SUBY.get(l_['seg'], (830, 36, True))
+        lay = Layer(); lay.caption(l_['sub'], y_, sz, pan)
+        g0 = max(SEG0[l_['seg']][0], int(l_['start'] * FPS) - 3)
+        nxt = shown[j_ + 1] if j_ + 1 < len(shown) else None
+        g1 = SEG0[l_['seg']][1] if not nxt or nxt['seg'] != l_['seg'] else int(nxt['start'] * FPS) - 3
+        SUBS.append((lay, g0, g1))
+
 # ---- the drawn ride scene ------------------------------------------------------------------------
 def ik(a, b, l1, l2, bend):
     dx, dy = b[0] - a[0], b[1] - a[1]; d = max(1e-6, min(l1 + l2 - 1e-3, math.hypot(dx, dy)))
@@ -195,6 +212,8 @@ for seg, shot, n, fmap in SEGS:
                 put(im, L['explode'], a); put(im, L['explode2'], fade(i, 80))
             elif seg == 'outro':
                 put(im, L['outro'], fade(i)); put(im, L['outro2'], fade(i, 48))
+        for lay, g0, g1 in SUBS:
+            if g0 <= g < g1: put(im, lay, min(fade(g, g0, 4), 1 - fade(g, g1 - 3, 3)))
         ff.stdin.write(im.tobytes())
         if CONTACT and g % 36 == 18:
             os.makedirs(CONTACT, exist_ok=True); im.resize((270, 480), Image.LANCZOS).save(os.path.join(CONTACT, f'{g:04d}_{seg}.jpg'), quality=85)
