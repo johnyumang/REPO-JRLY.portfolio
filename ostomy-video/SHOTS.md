@@ -35,6 +35,9 @@ Pacing: 6 s of build-up, 2 s reveal, 7 s hold, 3 s end card.
 
 Not taken from the reference: its brand name, logo, paper design, footage, sound, end card.
 
+Owner's rule: NO watermark on our video. No app logo, no account handle burned in, no generator mark.
+The final file comes from our own builder, which adds none; any picture or clip that arrives with a mark is rejected.
+
 ## The product (from the owner's photo)
 
 Navy-blue fabric piece with black edge binding: a wide curved body, a round opening with a black ring near the middle,
@@ -65,4 +68,4 @@ The photo we have is dim, on a wooden desk, with a screen icon over the bottom. 
 
 ## Checks before anything is sent
 
-Every frame decodes; fingers counted on every picture; product matches the photo; text readable on a phone.
+Every frame decodes; no watermark anywhere; fingers counted on every picture; product matches the photo; text readable on a phone.
