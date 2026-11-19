@@ -72,10 +72,10 @@ def put(base, layer, a):
 
 def shadow(base, A):
     (x0, y0), (x1, y1) = A['ground_r'], A['ground_f']
-    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2; hw = abs(x1 - x0) / 2 + 0.3 * math.hypot(x1 - x0, y1 - y0) + 30
-    hh = max(14, abs(y1 - y0) / 2 + hw * 0.10)
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2; hw = abs(x1 - x0) / 2 + 70
+    hh = min(46, abs(y1 - y0) / 2 + 16)
     s = 4; m = Image.new('L', (W // s, H // s), 0)
-    ImageDraw.Draw(m).ellipse([(cx - hw) / s, (cy - hh) / s, (cx + hw) / s, (cy + hh) / s], fill=110)
+    ImageDraw.Draw(m).ellipse([(cx - hw) / s, (cy - hh) / s, (cx + hw) / s, (cy + hh) / s], fill=90)
     m = m.filter(ImageFilter.GaussianBlur(5)).resize((W, H), Image.BILINEAR)
     base.paste(Image.new('RGB', (W, H), (70, 55, 40)), (0, 0), m)
 
@@ -85,11 +85,11 @@ def tag(L): L.text((W // 2, 84), TAG, ANTON(30), SOFT)
 
 # ---- static layers -------------------------------------------------------------------------------
 L = {}
-x = L['hook'] = Layer(); tag(x); x.text((W // 2, 640), '1817', ANTON(250), RED)
-x = L['hook2'] = Layer(); x.caption('The first bicycle\nhad NO pedals.', 930, 44, panel=False)
-x = L['turn'] = Layer(); tag(x); x.text((W // 2, 660), 'THE DRAISINE', ANTON(104), INK)
-x = L['turn2'] = Layer(); x.caption('Built by Karl Drais\nin Mannheim, Germany.', 800, 38, panel=False)
-x = L['turn3'] = Layer(); x.caption('He called it the Laufmaschine:\nthe “running machine”.', 910, 34, panel=False)
+x = L['hook'] = Layer(); tag(x); x.text((W // 2, 700), '1817', ANTON(240), RED)
+x = L['hook2'] = Layer(); x.caption('The first bicycle\nhad NO pedals.', 985, 42, panel=False)
+x = L['turn'] = Layer(); tag(x); x.text((W // 2, 730), 'THE DRAISINE', ANTON(104), INK)
+x = L['turn2'] = Layer(); x.caption('Built by Karl Drais\nin Mannheim, Germany.', 875, 38, panel=False)
+x = L['turn3'] = Layer(); x.caption('He called it the Laufmaschine:\nthe “running machine”.', 985, 34, panel=False)
 CLOSE = {  # segment: (label, anchor, pill position, caption)
     'steering': ('STEERING', 'steering', (200, 190), 'Turn the bar and the front wheel turns. Steering is how the rider stays upright.'),
     'armrest': ('ARMREST', 'armrest', (210, 190), 'A padded board for the forearms. Lean on it to hold your balance.'),
@@ -106,18 +106,19 @@ def explode_layout():
     A = ANCH['explode'][191]; top = [k for k in EXL if A[k[0]][1] < 520]; bot = [k for k in EXL if k not in top]
     out = {}; x = Layer(); tag(x)
     for group, ys in ((top, (170, 240)), (bot, (790, 860))):
+        n = len(group)                                       # spread evenly so pills never touch
         for j, (an, lab) in enumerate(sorted(group, key=lambda k: A[k[0]][0])):
-            px = min(W - 110, max(110, A[an][0])); py = ys[j % 2]
+            px = 30 + (W - 60) * (j + 0.5) / n; py = ys[j % 2] if n > 3 else ys[0]
             out[an] = x.pill((px, py), lab, 32, INK)
     return x, out
 L['explode'], EXBOX = explode_layout()
 x = L['explode2'] = Layer(); x.caption('Eight main parts. Mostly wood, with iron fittings. No pedals, no chain, no gears.', 930, 32, panel=False)
-x = L['ride'] = Layer(); tag(x); x.text((W // 2, 150), '12 JUNE 1817', ANTON(96), RED)
+x = L['ride'] = Layer(); tag(x); x.text((W // 2, 975), '12 JUNE 1817', ANTON(84), RED)
 x = L['ride2'] = Layer(); x.caption('Karl Drais rides out of Mannheim: about 7 km to a coaching inn on the Schwetzingen road, then back.', 800, 34)
 x = L['ride3'] = Layer(); x.caption('The round trip takes a little over an hour. Roughly 13 km/h, and no horse.', 800, 34)
-x = L['outro'] = Layer(); tag(x); x.caption('Riders used the smooth pavements. Cities banned the machine, and the craze faded.', 690, 34, panel=False)
-x = L['outro2'] = Layer(); x.text((W // 2, 880), 'NEXT: SOMEONE ADDS PEDALS', ANTON(56), RED)
-x.text((W // 2, 960), 'EP 2  ·  THE VELOCIPEDE, 1860s', ANTON(40), INK)
+x = L['outro'] = Layer(); tag(x); x.caption('Riders used the smooth pavements. Cities banned the machine, and the craze faded.', 740, 34, panel=False)
+x = L['outro2'] = Layer(); x.text((W // 2, 900), 'NEXT: SOMEONE ADDS PEDALS', ANTON(56), RED)
+x.text((W // 2, 978), 'EP 2  ·  THE VELOCIPEDE, 1860s', ANTON(40), INK)
 
 # ---- the drawn ride scene ------------------------------------------------------------------------
 def ik(a, b, l1, l2, bend):
@@ -172,7 +173,9 @@ for seg, shot, n, fmap in SEGS:
             put(im, L['ride'], fade(i)); put(im, L['ride2'], fade(i, 6) * (1 - fade(i, 138)))
             put(im, L['ride3'], fade(i, 146))
         else:
-            im = BG.copy(); shadow(im, A); im.paste(bike, (0, 0), bike); d = ImageDraw.Draw(im)
+            im = BG.copy()
+            if seg not in CLOSE: shadow(im, A)               # close-ups have no ground in view
+            im.paste(bike, (0, 0), bike); d = ImageDraw.Draw(im)
             if seg == 'hook':
                 put(im, L['hook'], fade(i, 2, 6)); put(im, L['hook2'], fade(i, 20))
             elif seg == 'turn':
