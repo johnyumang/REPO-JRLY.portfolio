@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Cut the three motion clips into the finished SIIL teaser: 1080x1920, 30 fps, our own sound, our own end card, no watermark.
-usage: assemble.py CLIPS_DIR OUT.mp4      (CLIPS_DIR holds reach.mp4, pull.mp4, hold.mp4 from the motion Space)
+"""Cut the finished SIIL teaser: 1080x1920, 30 fps, our own sound, our own end card, no watermark.
+usage: assemble.py REACH.mp4 HOLD.jpg OUT.mp4
+  REACH.mp4  the one generated motion clip: the hand reaches into the bag and covers the lens
+  HOLD.jpg   the photoreal still of the pouch held up; it is moved by code only (hand-held drift, pull-back
+             from the lens), so nothing in that shot can bend or melt
 Env: TAGLINE (default "COMING SOON"; empty string = brand only)"""
-import sys, os, subprocess, wave
+import sys, os, math, subprocess, wave
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 W, H, FPS = 1080, 1920, 30
 FONT = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf"
 TAG = os.environ.get("TAGLINE", "COMING SOON")
-REACH, PULL_IN, PULL_SLOW, HOLD, CARD = 3.56, 1.65, 1.2, 7.12, 3.3     # seconds; the pull clip is only good for its first 1.65 s
-X1, X2, X3 = 0.4, 0.3, 0.5                                             # cross-over lengths
-PULL = PULL_IN * PULL_SLOW
-T_PULL = REACH - X1
-T_HOLD = T_PULL + PULL - X2
+REACH, HOLD, CARD = 3.56, 7.0, 3.3          # seconds
+X1, X3 = 0.4, 0.5                           # cross-over lengths
+T_HOLD = REACH - X1
 T_CARD = T_HOLD + HOLD - X3
 DUR = T_CARD + CARD
 
@@ -60,8 +61,8 @@ def soundtrack(path):
     handle = norm(np.abs(band(rng.normal(size=n), 1.5, 9))) ** 1.5
     paper = crack * (0.35 + 0.65 * handle)                                                                 # paper bag crackle
     mix += 0.40 * paper * env(0.3, 0.9, REACH - 0.5, REACH)
-    mix += 0.60 * paper * env(T_PULL, T_PULL + 0.3, T_HOLD, T_HOLD + 0.8)
-    mix += 0.20 * norm(band(rng.normal(size=n), 200, 1600)) * env(T_PULL, T_PULL + 0.4, T_HOLD - 0.2, T_HOLD + 0.5)   # plastic sliding out
+    mix += 0.60 * paper * env(T_HOLD - 0.2, T_HOLD + 0.1, T_HOLD + 0.7, T_HOLD + 1.4)
+    mix += 0.22 * norm(band(rng.normal(size=n), 200, 1600)) * env(T_HOLD - 0.1, T_HOLD + 0.3, T_HOLD + 0.5, T_HOLD + 1.1)   # plastic sliding out
     mix += 0.07 * paper * env(T_HOLD + 0.8, T_HOLD + 1.3, T_CARD - 1, T_CARD) * (handle > 0.55)
     m = t >= REACH - 0.25                                                                                   # soft thump as the palm covers the lens
     dt = t[m] - (REACH - 0.25)
@@ -70,9 +71,9 @@ def soundtrack(path):
     for f0 in (220.0, 277.18, 329.63, 493.88):
         for det in (-0.6, 0.6):
             pad += np.sin(2 * np.pi * (f0 + det) * t + rng.uniform(0, 6))
-    mix += 0.10 * norm(pad) * env(T_PULL, T_HOLD + 1.0, T_CARD + 0.5, DUR - 0.4) * (0.85 + 0.15 * np.sin(2 * np.pi * 0.25 * t))
+    mix += 0.10 * norm(pad) * env(T_HOLD, T_HOLD + 1.5, T_CARD + 0.5, DUR - 0.4) * (0.85 + 0.15 * np.sin(2 * np.pi * 0.25 * t))
     notes = [659.25, 554.37, 440.0, 493.88, 659.25, 554.37, 739.99, 659.25]
-    for j, tt in enumerate(np.arange(T_HOLD + 0.2, T_CARD - 0.2, 0.7)):
+    for j, tt in enumerate(np.arange(T_HOLD + 0.9, T_CARD - 0.2, 0.7)):
         f0 = notes[j % len(notes)]
         m = t >= tt
         dt = t[m] - tt
@@ -89,26 +90,51 @@ def soundtrack(path):
         w.writeframes(np.stack([pcm, pcm], 1).tobytes())
 
 
+def hold_clip(still, path):
+    """The held shot from one still: pulled back from the lens in the first second, then a slow hand-held drift."""
+    im = Image.open(still).convert("RGB")
+    k = max(W / im.width, H / im.height)
+    im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS).filter(ImageFilter.UnsharpMask(3, 60, 2))
+    cx, cy = im.width / 2, im.height / 2
+    rng = np.random.default_rng(3)
+    ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+                           "-i", "-", "-c:v", "libx264", "-preset", "fast", "-crf", "14", "-pix_fmt", "yuv420p", path], stdin=subprocess.PIPE)
+    for i in range(int(HOLD * FPS)):
+        t = i / FPS
+        u = 1 - (1 - min(1, t / 1.1)) ** 3
+        sc = 1.60 + (1.05 - 1.60) * u + 0.006 * math.sin(t * 0.9)
+        th = math.radians((1 - u) * 5 + 0.40 * math.sin(t * 0.8) + 0.18 * math.sin(t * 1.9 + 1))
+        tx = W / 2 + 9 * math.sin(t * 0.7) + 4 * math.sin(t * 1.6 + 2) + (1 - u) * 40
+        ty = H / 2 + 8 * math.sin(t * 0.55 + 1) + 3 * math.sin(t * 1.3) + (1 - u) * 260
+        c, sn = math.cos(th), math.sin(th)
+        a, b, d, e = c / sc, sn / sc, -sn / sc, c / sc
+        fr = im.transform((W, H), Image.AFFINE, (a, b, cx - (a * tx + b * ty), d, e, cy - (d * tx + e * ty)), resample=Image.BICUBIC)
+        if u < 0.98:
+            fr = fr.filter(ImageFilter.GaussianBlur((1 - u) * 14))
+        arr = np.asarray(fr, np.float32) + rng.normal(0, 2.2, (H, W, 1)).astype(np.float32)
+        ff.stdin.write(np.clip(arr, 0, 255).astype(np.uint8).tobytes())
+    ff.stdin.close()
+    ff.wait()
+
+
 def main():
-    clips, out = sys.argv[1], sys.argv[2]
+    reach, still, out = sys.argv[1], sys.argv[2], sys.argv[3]
     tmp = os.path.dirname(os.path.abspath(out))
-    card_png, wav = os.path.join(tmp, "card.png"), os.path.join(tmp, "sound.wav")
+    card_png, wav, hold_mp4 = os.path.join(tmp, "card.png"), os.path.join(tmp, "sound.wav"), os.path.join(tmp, "hold.mp4")
     card(card_png)
     soundtrack(wav)
+    hold_clip(still, hold_mp4)
     up = f"scale=1108:1920:flags=lanczos,crop={W}:{H},unsharp=5:5:0.7,noise=alls=5:allf=t,format=yuv420p,setsar=1"
     fc = (
         f"[0:v]fps={FPS},{up},trim=0:{REACH},setpts=PTS-STARTPTS[a];"
-        f"[1:v]trim=0:{PULL_IN},setpts={PULL_SLOW}*(PTS-STARTPTS),minterpolate=fps={FPS}:mi_mode=blend,{up},trim=0:{PULL},setpts=PTS-STARTPTS[b];"
-        f"[2:v]split[h1][h2];[h2]reverse[hr];[h1][hr]concat=n=2:v=1,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc,{up},trim=0:{HOLD},setpts=PTS-STARTPTS[c];"
-        f"[3:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{CARD},setpts=PTS-STARTPTS[d];"
-        f"[a][b]xfade=transition=fadeblack:duration={X1}:offset={T_PULL}[ab];"
-        f"[ab][c]xfade=transition=fade:duration={X2}:offset={T_HOLD}[abc];"
-        f"[abc][d]xfade=transition=slideleft:duration={X3}:offset={T_CARD},fade=t=in:d=0.3[v]"
+        f"[1:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{HOLD},setpts=PTS-STARTPTS[c];"
+        f"[2:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{CARD},setpts=PTS-STARTPTS[d];"
+        f"[a][c]xfade=transition=fadeblack:duration={X1}:offset={T_HOLD}[ac];"
+        f"[ac][d]xfade=transition=slideleft:duration={X3}:offset={T_CARD},fade=t=in:d=0.3[v]"
     )
-    cmd = ["ffmpeg", "-v", "error", "-y", "-i", f"{clips}/reach.mp4", "-i", f"{clips}/pull.mp4", "-i", f"{clips}/hold.mp4",
-           "-loop", "1", "-t", str(CARD), "-i", card_png, "-i", wav, "-filter_complex", fc, "-map", "[v]", "-map", "4:a",
-           "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
-           "-t", f"{DUR:.2f}", out]
+    cmd = ["ffmpeg", "-v", "error", "-y", "-i", reach, "-i", hold_mp4, "-loop", "1", "-t", str(CARD), "-i", card_png, "-i", wav,
+           "-filter_complex", fc, "-map", "[v]", "-map", "3:a", "-c:v", "libx264", "-preset", "medium", "-crf", "19",
+           "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-t", f"{DUR:.2f}", out]
     subprocess.run(cmd, check=True)
     print("done", out, f"{DUR:.2f}s")
 

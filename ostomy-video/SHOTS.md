@@ -110,3 +110,12 @@ Owner's rules applied: the belt is folded and fills the whole pouch, no gap; no 
 Limits: the pouch and belt are generated, not the real packaging; the pull clip is cut after 1.65 s because the model
 empties the pouch later in the clip; motion clips are 480x832 upscaled. Tried and not usable here: FLUX Kontext on the
 NVIDIA catalog (accepts only its own example pictures), Qwen-Image-Edit Spaces (host not reachable from this machine).
+
+### Version 3 (owner: "physics look AI, no hole in the middle, the hand is outside the plastic")
+
+- The generated pull clip is gone: it was where the motion looked artificial. Now, as in the reference: the hand covers
+  the lens, the frame goes dark, and the pouch is already held up against the sky.
+- The held shot is ONE photoreal still moved by code only (pulled back from the lens, then hand-held drift), so the
+  pouch, hands and letters cannot bend. Only the reach clip is generated motion.
+- New hold still: the pouch is one solid black rectangle (no slit in the middle); both hands pinch its edges from outside.
+- 12.96 s. Build: `assemble.py REACH.mp4 HOLD.jpg OUT.mp4`.
