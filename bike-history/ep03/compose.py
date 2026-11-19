@@ -115,7 +115,7 @@ def explode_layout():
     return x, out
 L['explode'], EXBOX = explode_layout()
 x = L['explode2'] = Layer(); x.caption('Eight main parts. Mostly wood, with iron fittings. No pedals, no chain, no gears.', 930, 32, panel=False)
-x = L['ride'] = Layer(); tag(x); x.text((W // 2, 975), RIDE_TITLE, ANTON(84), RED)
+x = L['ride'] = Layer(); tag(x); x.text((W // 2, 1140), RIDE_TITLE, ANTON(84), RED)
 x = L['ride2'] = Layer(); x.caption('Karl Drais rides out of Mannheim: about 7 km to a coaching inn on the Schwetzingen road, then back.', 800, 34)
 x = L['ride3'] = Layer(); x.caption('The round trip takes a little over an hour. Roughly 13 km/h, and no horse.', 800, 34)
 x = L['outro'] = Layer(); tag(x); x.caption('Riders used the smooth pavements. Cities banned the machine, and the craze faded.', 740, 34, panel=False)
@@ -128,7 +128,7 @@ if NARR:
     for k_ in ('hook2', 'turn2', 'turn3', 'explode2', 'ride2', 'ride3', 'outro') + tuple(c_ + '2' for c_ in CLOSE): L[k_] = Layer()
     SEG0, acc = {}, 0
     for sname, _, n_, _ in SEGS: SEG0[sname] = (acc, acc + n_); acc += n_
-    SUBY = dict(hook=(985, 42, False), turn=(875, 36, False), explode=(930, 32, False), ride=(800, 34, True), outro=(740, 34, False))
+    SUBY = dict(hook=(985, 42, False), turn=(875, 36, False), explode=(930, 32, False), ride=(1010, 34, True), outro=(740, 34, False))
     shown = [l_ for l_ in NARR if l_['sub']]
     for j_, l_ in enumerate(shown):
         y_, sz, pan = SUBY.get(l_['seg'], (830, 36, True))
@@ -171,8 +171,8 @@ def rider(d, A, i, near):
     d.line([sh, el, hand], fill=(60, 74, 96), width=int(0.085 * s), joint='curve')
     hd = (sh[0] + 0.07 * s, sh[1] - 0.17 * s); r_ = 0.105 * s
     d.ellipse([hd[0] - r_, hd[1] - r_, hd[0] + r_, hd[1] + r_], fill=(226, 190, 150), outline=INK, width=3)
-    d.rectangle([hd[0] - 0.10 * s, hd[1] - 0.36 * s, hd[0] + 0.10 * s, hd[1] - 0.07 * s], fill=INK)
-    d.line([(hd[0] - 0.17 * s, hd[1] - 0.07 * s), (hd[0] + 0.17 * s, hd[1] - 0.07 * s)], fill=INK, width=int(0.035 * s))
+    d.pieslice([hd[0] - 0.11 * s, hd[1] - 0.17 * s, hd[0] + 0.11 * s, hd[1] + 0.03 * s], 180, 360, fill=INK)   # a flat cap: a top hat
+    d.line([(hd[0], hd[1] - 0.07 * s), (hd[0] + 0.19 * s, hd[1] - 0.06 * s)], fill=INK, width=int(0.035 * s))        # would not fit the frame
 
 # ---- frame loop ----------------------------------------------------------------------------------
 ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS),
