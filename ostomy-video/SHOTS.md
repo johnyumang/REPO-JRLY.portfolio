@@ -88,3 +88,25 @@ drawn in code does not look real, so the belt is held from above, out of frame. 
 video stay outside this public repository.
 
 Honest limit: this is a computed scene around a real product photo. It is not filmed footage and does not pass for it.
+
+## Final direction: realistic, generated (owner: "a hand pulls out the frosted bag with the brand name")
+
+The pure-code version did not look real. This one does, using two open-source models on free endpoints:
+
+| Step | Model (open-source repo) | Where it runs, free | Script |
+|---|---|---|---|
+| Photoreal key stills | FLUX (black-forest-labs/flux) | NVIDIA catalog endpoint | `still.py` |
+| Real motion, 3.5 s per still | Wan 2.2 image-to-video (Wan-Video/Wan2.2) | Hugging Face Space, about 6 clips a day | `../history-indio/pipeline/wan_clip.py` |
+| Edit, upscale to 1080x1920, sound, end card | our own code + ffmpeg | here | `assemble.py` |
+
+| Time | Shot |
+|---|---|
+| 0-3.2 s | Inside a kraft paper bag looking up at the sky; a woman's hand (rings, dark sleeve) reaches in and covers the lens |
+| 3.2-4.8 s | The hand lifts a frosted pouch, packed full with the folded black belt, up out of the bag |
+| 4.8-11.5 s | Two hands hold the pouch against the sky: SIIL OSTOMY printed on it |
+| 11.5-14.8 s | White end card slides in: SIIL / OSTOMY / COMING SOON (tagline is a placeholder: `TAGLINE=...`) |
+
+Owner's rules applied: the belt is folded and fills the whole pouch, no gap; no watermark; no face.
+Limits: the pouch and belt are generated, not the real packaging; the pull clip is cut after 1.65 s because the model
+empties the pouch later in the clip; motion clips are 480x832 upscaled. Tried and not usable here: FLUX Kontext on the
+NVIDIA catalog (accepts only its own example pictures), Qwen-Image-Edit Spaces (host not reachable from this machine).
