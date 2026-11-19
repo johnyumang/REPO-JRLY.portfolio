@@ -6,7 +6,7 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 | Ep | Year | Machine | One line |
 |---|---|---|---|
 | 1 | 1817 | Draisine (Laufmaschine), Karl Drais | Two wheels in line, steered, pushed with the feet. No pedals. |
-| 2 | 1860s | Michaux velocipede, the "boneshaker" | Pedals and cranks on the front wheel. Who added them first is disputed (Michaux or Lallement). |
+| 2 | 1860s | Michaux velocipede, the "boneshaker" | Pedals and cranks on the front wheel; who was first is disputed. James Moore wins at Saint-Cloud, 31 May 1868 (checked, ep02/facts.md). |
 | 3 | c. 1870 | Penny-farthing (Ariel, James Starley) | A huge front wheel for speed, wire spokes; fast and dangerous. |
 | 4 | 1885 | Rover Safety Bicycle, John Kemp Starley | Two equal wheels and a chain to the rear: the shape of every bicycle since. |
 | 5 | 1885 | Daimler Reitwagen | Daimler and Maybach put a petrol engine in a wooden frame: the first motorcycle. |
