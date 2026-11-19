@@ -14,5 +14,6 @@ Narration: English, a stock Kokoro voice (no cloning), with subtitles taken from
 
 ## Rule from the owner
 
-Every finished video ships with its post caption, in the same message as the video. Keep it in `epNN/caption.md`,
+Every finished video ships with its post caption and ONE cover photo (not several options), in the same message.
+Cover: `python3 lib/cover.py <model module> "<empty background prompt>" OUT.jpg`. Keep it in `epNN/caption.md`,
 in the language of the narration, with facts only from that episode's `facts.md`.
