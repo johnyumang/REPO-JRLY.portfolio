@@ -11,3 +11,8 @@ in code from named parts; everything around it (paper background, labels, the ri
   `ep01/sound.py` (sound in code), `ep01/build.sh` (all stages). Frames, audio and video are written outside the repo.
 
 Narration: English, a stock Kokoro voice (no cloning), with subtitles taken from the same lines.
+
+## Rule from the owner
+
+Every finished video ships with its post caption, in the same message as the video. Keep it in `epNN/caption.md`,
+in the language of the narration, with facts only from that episode's `facts.md`.
