@@ -9,12 +9,11 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 | 2 | 1860s | Michaux velocipede, the "boneshaker" | Pedals and cranks on the front wheel; who was first is disputed. James Moore wins at Saint-Cloud, 31 May 1868 (checked, ep02/facts.md). |
 | 3 | 1870s | Penny-farthing (high-wheeler) | Direct drive, so a bigger wheel is faster. Thomas Stevens rides one around the world, 1884-86 (checked, ep03/facts.md). |
 | 4 | 1903 | First Harley-Davidson | Owner's choice for episode 4. Milwaukee, the backyard shed. |
-| 4 | 1885 | Rover Safety Bicycle, John Kemp Starley | Two equal wheels and a chain to the rear: the shape of every bicycle since. |
-| 5 | 1885 | Daimler Reitwagen | Daimler and Maybach put a petrol engine in a wooden frame: the first motorcycle. |
-| 6 | 1888 | Pneumatic tyre, John Boyd Dunlop | Air in the tyres: comfort and speed (a part episode, shown on a safety bicycle). |
-| 7 | 1894 | Hildebrand & Wolfmüller | The first motorcycle sold in series, and the first one called a "Motorrad". |
-| 8 | 1901 | Indian Single | Oscar Hedstrom's machine starts the American industry. |
-| 9 | 1903 | Harley-Davidson No. 1 | A shed in Milwaukee. |
+| 5 | 1885 | Rover Safety Bicycle, John Kemp Starley | Chain drive to the rear wheel, two similar wheels, the rider low: "the first recognizably modern bicycle" (checked, ep05/facts.md). |
+| 6 | 1885 | Daimler Reitwagen | Daimler and Maybach put a petrol engine in a wooden frame: the first motorcycle. |
+| 7 | 1888 | Pneumatic tyre, John Boyd Dunlop | Air in the tyres: comfort and speed (a part episode, shown on a safety bicycle). |
+| 8 | 1894 | Hildebrand & Wolfmüller | The first motorcycle sold in series, and the first one called a "Motorrad". |
+| 9 | 1901 | Indian Single | Oscar Hedstrom's machine starts the American industry. |
 | 10 | 1907 | Norton twin | Rem Fowler wins the twin-cylinder class at the first Isle of Man TT. |
 | 11 | 1923 | BMW R 32 | Boxer twin and shaft drive, a layout BMW still builds. |
 | 12 | 1936 | Harley-Davidson EL "Knucklehead" | Overhead valves and the classic American big twin. |
