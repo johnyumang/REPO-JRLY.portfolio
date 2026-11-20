@@ -9,7 +9,7 @@ The Super Cub debuted in 1958, ten years after Honda was founded. It has a 49 cc
 
 The trick: no clutch lever. A centrifugal clutch and a foot-operated gear change meant anyone could ride it in ordinary clothes.
 
-Honda's page calls it the most produced motor vehicle in history: over 60 million by 2008, and 100 million by 2017.
+It is called the most produced motor vehicle in history: over 60 million by 2008, and 100 million by 2017.
 
 Episode 17 of the history of the bike.
 Next: the Honda CB750, 1969.
