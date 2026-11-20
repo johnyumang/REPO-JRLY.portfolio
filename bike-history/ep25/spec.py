@@ -17,7 +17,7 @@ LINES = [
     ('fork', 'A 41 mm upside-down fork.', 'A forty-one millimetre, upside down fork.'),
     ('explode', 'Engine, frame, fairing, wheels: 190 kg dry.', 'Engine, frame, fairing, wheels. One hundred and ninety kilos.'),
     ('ride', 'Top speed: about 270 km/h.', 'Top speed, about two hundred and seventy kilometres an hour.'),
-    ('ride', 'R1s won five Macau Grand Prix races, 1999 to 2013.', 'R ones won five Macau Grand Prix races.'),
+    ('ride', 'R1s won five Macau Grand Prix races, 1999 to 2013.', 'This model won the Macau Grand Prix five times.'),
     ('outro', 'A crossplane crank came in 2009.', 'A crossplane crank came in two thousand nine.'),
     ('outro', None, 'Next: the falcon.'),
 ]

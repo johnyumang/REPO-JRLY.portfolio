@@ -16,7 +16,7 @@ LINES = [
     ('rear_suspension', 'A single-sided swingarm, and a 43 mm Showa fork.', 'A single-sided swingarm, and a forty-three millimetre Showa fork.'),
     ('brakes', 'Brembo Stylema calipers on twin 330 mm discs.', 'Brembo Stylema calipers, on twin three-thirty millimetre discs.'),
     ('explode', 'Engine, frame, fairing, wheels: 173 kg dry.', 'Engine, frame, fairing, wheels. One hundred and seventy-three kilos.'),
-    ('ride', '2022, Mandalika, Indonesia: Álvaro Bautista clinches the World Superbike title on a Panigale V4 R.', 'Twenty twenty-two, in Indonesia. Alvaro Bautista clinches the World Superbike title.'),
+    ('ride', '2022, Indonesia: Álvaro Bautista clinches the World Superbike title.', 'Twenty twenty-two, in Indonesia. Alvaro Bautista clinches the World Superbike title.'),
     ('ride', 'Sixteen wins that season.', 'Sixteen wins that season.'),
     ('outro', 'He had won on his debut, Phillip Island 2019.', 'He had won on his debut, at Phillip Island.'),
     ('outro', None, 'Next: Harley goes electric.'),

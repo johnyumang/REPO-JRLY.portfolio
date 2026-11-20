@@ -9,13 +9,13 @@ The Harley-Davidson LiveWire was Harley's first electric motorcycle, with delive
 
 Look closer: a cast aluminum trellis frame, 4-piston front brake calipers, and DC fast charging. It does 0-60 mph in 3.0 seconds.
 
-Rider moment: in March 2020, Swiss rider Michel von Tell rode 1,723 km in 24 hours on one, an unofficial electric distance record.
+In March 2020, Swiss rider Michel von Tell rode 1,723 km in 24 hours on one, an unofficial electric distance record. The same year, Ewan McGregor and Charley Boorman rode LiveWires about 13,000 miles from South America to North America for "Long Way Up".
 
 What next? In December 2021, Harley-Davidson announced a spin-off as its own brand, LiveWire.
 
 Episode 30 of the history of the bike.
 That's the story from 1817 to today.
-Start again at Episode 1. 👇
+Start again at Episode 1.
 
 Would you ride electric? 👇
 

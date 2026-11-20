@@ -17,7 +17,7 @@ LINES = [
     ('brakes', 'Twin 320 mm front discs, four-piston calipers.', 'Twin three-twenty millimetre front discs, with four-piston calipers.'),
     ('explode', 'Engine, frame, fairing, wheels.', 'Take it apart. Engine, frame, fairing, wheels.'),
     ('ride', 'Isle of Man, 31 May 2014: Michael Dunlop wins the Superbike TT.', 'Isle of Man, May twenty fourteen. Michael Dunlop wins the Superbike T T.'),
-    ('ride', 'On 6 June, he wins the Senior TT too.', 'A week later, he wins the Senior T T too.'),
+    ('ride', '6 June: he also wins the Senior TT.', 'Six days later, he also wins the Senior T T.'),
     ('outro', '2012: Marco Melandri wins at Donington Park.', 'Twenty twelve: a win at Donington.'),
     ('outro', None, 'Next: a V four from Moto G P.'),
 ]
