@@ -231,3 +231,21 @@ Next: when the quota refills (about 20:52 UTC), make the pull clip from `hold12`
 - Host `gen.pollinations.ai` allowed in the environment, public model list read.
 - Result: all 30 video models there are marked `paid_only` (Seedance, Veo, Wan, Kling, MiniMax, LTX). Not free, so not used.
 - Next idea from the owner: run ComfyUI on his own laptop. Blocked for now: the laptop is not connected to this cloud session. MiniMax video is a paid cloud service and cannot be installed; the free local option is Wan 2.2 inside ComfyUI (needs a graphics card).
+
+## v12: hand from 12 o'clock, one bag for the whole video (20 Nov, late)
+
+Free Wan quota came back; four clips made (about 69 GPU seconds each), all from one still.
+
+1. Still: `still.py OUT hold12`, six tries, the sixth chosen (pouch upright, belt fills the pouch, one hand from the top).
+2. Lower clip: from that still, "the hand lowers the pouch straight down onto the lens". Played backwards it is the pull.
+3. Empty bag: from the same still, "the hand lifts the pouch out, the bag is left empty". Its last frame is the same bag with nothing in it.
+4. Reach clip: from that empty frame. First try the hand came in from the bottom edge. Fix: turn the frame upside-down, ask for a hand "from the bottom edge", turn the result back. Now the hand comes from the top, in the same bag, same navy sleeve.
+
+Builder change (`assemble.py`): the lettering finder was fooled by the dark sleeve now in frame (logo landed on the sleeve, old lettering not removed).
+- On the still, the word is now the biggest band with a narrower band centred just under it.
+- In the clip, the word is looked for only in a small window around where it was one frame earlier (`word_near`), with its own brightness threshold, so dim blurred letters near the lens are still found. Found in 57 of 57 frames.
+- The pouch face used to centre the lock-up is the dark patch right at the word, no longer a closed mask that could join the sleeve.
+
+Build: same command as before with the new clips and `CACHE=` for the upscaled frames. 14.9 s, 2160x3840, 30 fps.
+
+Still weak: the reach hand enters from about one o'clock, not dead centre; the hold is a still with small applied motion; 4K is upscaled; sound not listened to; "COMING SOON" still a guess.

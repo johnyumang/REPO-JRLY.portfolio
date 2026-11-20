@@ -149,7 +149,11 @@ def text_bands(rgb, k):
         return []
     lo, hi = np.median(L[inside]), np.percentile(L[inside], 99.6)       # letters blurred by motion are dimmer: threshold follows
     thr = max(lo + 0.30 * (hi - lo), lo + 22)
-    m = cv2.morphologyEx(((L > thr) & inside).astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8)) > 0
+    return bands_of(cv2.morphologyEx(((L > thr) & inside).astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8)) > 0)
+
+
+def bands_of(m):
+    """Rows of a lettering mask grouped into (y0, y1, x0, x1) bands, top to bottom."""
     rows = m.sum(1)
     bands, y = [], 0
     while y < len(rows):
@@ -165,6 +169,30 @@ def text_bands(rgb, k):
         else:
             y += 1
     return bands
+
+
+def word_near(rgb, prev):
+    """The word SIIL in a clip frame, looked for only in a window around where it was in the frame before
+    (centre x, centre y, width, height), with the brightness threshold taken inside that window. So a dark sleeve or a
+    bright hand elsewhere in the frame cannot be mistaken for it, and letters dimmed by blur near the lens are still found."""
+    cx, cy, w, h = prev
+    x0, x1 = max(0, int(cx - 0.72 * w)), min(rgb.shape[1], int(cx + 0.72 * w))
+    y0, y1 = max(0, int(cy - 1.1 * h)), min(rgb.shape[0], int(cy + 0.80 * h))      # stops short of OSTOMY below
+    if x1 - x0 < 12 or y1 - y0 < 8:
+        return None
+    L = cv2.GaussianBlur(rgb[y0:y1, x0:x1].astype(np.float32).mean(2), (0, 0), 0.8)
+    lo, hi = np.median(L), np.percentile(L, 99.5)
+    if hi - lo < 18:
+        return None
+    m = cv2.morphologyEx((L > lo + 0.38 * (hi - lo)).astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
+    _, lab = cv2.connectedComponents(m, connectivity=8)
+    edge = np.unique(np.concatenate([lab[0], lab[:, 0], lab[:, -1]]))               # the pouch's light edge coming into the window
+    m = (m > 0) & ~np.isin(lab, edge[edge > 0])
+    cand = [q for q in bands_of(m) if 0.75 * w <= q[3] - q[2] <= 1.25 * w and 0.6 * h <= q[1] - q[0] <= 1.5 * h]
+    if not cand:
+        return None
+    q = max(cand, key=lambda q: (q[3] - q[2]) * (q[1] - q[0]))
+    return (x0 + (q[2] + q[3]) / 2, y0 + (q[0] + q[1]) / 2, q[3] - q[2], q[1] - q[0])
 
 
 def lockup(width):
@@ -198,9 +226,12 @@ def track_and_fix(clip, still):
     without it, only the small word OSTOMY (which the motion model scrambles) is re-laid from the still.
     Returns the fixed clip, SIIL's measured box per frame (centre x, centre y, width, height), the still, and with
     LOGO the lock-up and where it goes (it is laid later, at the working resolution, by lay())."""
-    fb = sorted(text_bands(still, 65), key=lambda q: -(q[3] - q[2]) * (q[1] - q[0]))
-    sy0, sy1, sx0, sx1 = fb[0]
-    oy0, oy1, ox0, ox1 = min((q for q in fb[1:] if q[0] >= sy1), key=lambda q: q[0])
+    # on the still the word is the biggest band that has a narrower band (OSTOMY) centred just under it
+    fb = text_bands(still, 65)
+    under = lambda q: [o for o in fb if 0 <= o[0] - q[1] < 1.2 * (q[1] - q[0]) and o[3] - o[2] < q[3] - q[2]
+                       and abs((o[2] + o[3]) - (q[2] + q[3])) < 0.5 * (q[3] - q[2])]
+    sy0, sy1, sx0, sx1 = max((q for q in fb if under(q)), key=lambda q: (q[3] - q[2]) * (q[1] - q[0]))
+    oy0, oy1, ox0, ox1 = min(under((sy0, sy1, sx0, sx1)), key=lambda q: q[0])
     sw, sh = sx1 - sx0, sy1 - sy0
     dx, dy = (ox0 + ox1) / 2 - (sx0 + sx1) / 2, (oy0 + oy1) / 2 - (sy0 + sy1) / 2
     py0, py1, px0, px1 = oy0 - 7, oy1 + 7, ox0 - 9, ox1 + 9
@@ -216,9 +247,10 @@ def track_and_fix(clip, still):
             alpha = np.ascontiguousarray(np.rot90(alpha, k=-1 if TURN == "right" else 1))
         pcx, pcy, top = alpha.shape[1] / 2, alpha.shape[0] / 2, -1.18
         Ls = still.astype(np.float32).mean(2)
-        face = cv2.morphologyEx((Ls < 70).astype(np.uint8), cv2.MORPH_CLOSE, np.ones((21, 21), np.uint8))   # the pouch's black face
+        face = cv2.morphologyEx((Ls < 60).astype(np.uint8), cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))      # the pouch's black face
         _, lab, st, _ = cv2.connectedComponentsWithStats(face, 8)
-        fx, fy, fw, fh = st[lab[(sy0 + sy1) // 2, (sx0 + sx1) // 2]][:4]
+        ys, xs = np.nonzero(face[sy0 - 12:sy1 + 12, sx0 - 12:sx1 + 12])                                 # a dark spot right by the word
+        fx, fy, fw, fh = st[np.bincount(lab[sy0 - 12 + ys, sx0 - 12 + xs]).argmax()][:4]
         mid = (fx + fw / 2, fy + fh / 2)                                 # its middle: where the lock-up goes
         dx, dy = mid[0] - (sx0 + sx1) / 2, mid[1] - (sy0 + sy1) / 2
         bx0, bx1, by0, by1 = sx0 - 14, sx1 + 14, sy0 - 10, oy1 + 10
@@ -229,16 +261,14 @@ def track_and_fix(clip, still):
         still = wipe(still, m, 3, 6.0)
         col_still = col
     unit = LQ if LOGO else 1.0                                          # lock-up pixels per still pixel
-    boxes, prev = [], ((sx0 + sx1) / 2 * CW / SW, (sy0 + sy1) / 2 * CH / SH)
+    boxes, prev, lost = [], tuple(v * CW / SW for v in ((sx0 + sx1) / 2, (sy0 + sy1) / 2, sw, sh)), 0
     for f in clip:
-        cand = [q for q in text_bands(f, 41) if q[3] - q[2] >= 40
-                and math.hypot((q[2] + q[3]) / 2 - prev[0], (q[0] + q[1]) / 2 - prev[1]) < 110]
-        q = max(cand, key=lambda q: (q[3] - q[2]) * (q[1] - q[0])) if cand else None
-        if q:
-            boxes.append(((q[2] + q[3]) / 2, (q[0] + q[1]) / 2, q[3] - q[2], q[1] - q[0]))
-            prev = boxes[-1][:2]
-        else:
-            boxes.append(boxes[-1])
+        q = word_near(f, prev)
+        lost += q is None
+        prev = q or prev
+        boxes.append(prev)
+    if lost:
+        print(f"lettering not found in {lost} of {len(clip)} frames (last known place kept)", flush=True)
     b = np.array(boxes, np.float32)
     bs = b.copy()
     bs[1:-1] = 0.25 * b[:-2] + 0.5 * b[1:-1] + 0.25 * b[2:]
