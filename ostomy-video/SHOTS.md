@@ -225,3 +225,9 @@ Free motion models tried on 20 Nov after the account's ZeroGPU quota ran out (ow
 - NVIDIA catalog: no video model on this account. ElevenLabs: video needs a paid plan. Atlas Cloud / PiAPI: paid
   resellers with a small sign-up credit; owner declined signing up.
 Next: when the quota refills (about 20:52 UTC), make the pull clip from `hold12` (hand from 12 o'clock) and rebuild.
+
+## Pollinations checked (20 Nov)
+
+- Host `gen.pollinations.ai` allowed in the environment, public model list read.
+- Result: all 30 video models there are marked `paid_only` (Seedance, Veo, Wan, Kling, MiniMax, LTX). Not free, so not used.
+- Next idea from the owner: run ComfyUI on his own laptop. Blocked for now: the laptop is not connected to this cloud session. MiniMax video is a paid cloud service and cannot be installed; the free local option is Wan 2.2 inside ComfyUI (needs a graphics card).
