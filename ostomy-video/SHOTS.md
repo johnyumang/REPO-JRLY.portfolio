@@ -164,3 +164,22 @@ Free quota that day: the Space counts GPU seconds (`wan.py` prints the request: 
 were left, so the pull clip is 2.0 s at 4 steps (exactly 31 s). Still open: the reach was generated in a different
 paper bag than the hold; the dark moment hides the change, but with fresh quota the reach can be remade inside the
 same bag (start from the hold still's bag with an empty opening).
+
+### Review of v6 and version 7 (owner: "still not fluid smooth realistic, review it")
+
+Measured on the v6 file (540x960 analysis copy):
+
+| Section | Sharpness | What the measurement shows |
+|---|---|---|
+| Reach, 0.3-3.0 s | 76 | Three times softer than the hold: a 480x832 clip enlarged 2.3x |
+| Cover + dark + lift-off, 3.0-4.0 s | 5-14 | One second that is mostly an effect made in code; 0.33 s fully black |
+| Pull, 4.0-4.9 s | 152 | Real motion, but a 2 s / 4-step clip, backwards, enlarged |
+| Hold, 5.3-9.9 s | 258 | With the camera drift removed, NOTHING in the picture moved: a frozen photo for 35 % of the video |
+
+Also: the reach and the hold are two different paper bags; the reach hand changes shape oddly mid-move (model artefact).
+
+v7 fixes the one thing fixable without new clips: the hold is alive. The hands' own small movements in the first five
+frames of the pull clip are measured as optical flow and applied to the full-resolution still, back and forth. Sharpness
+steps are closer (76 / 151 / 170). Not fixed, need fresh motion quota: one bag from start to end, a full-quality pull,
+a sharper reach, a shorter dark. Honest ceiling: free 480p image-to-video stitched in three parts will not pass for one
+filmed take; a current paid video model, or 15 seconds filmed on a phone, would.

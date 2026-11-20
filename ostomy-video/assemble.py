@@ -21,6 +21,8 @@ How the join is made seamless (no cut, no fade effect):
     re-spaced by their measured movement (optical flow) so every step is even, and only then interpolated
   * one slow hand-held drift runs under the whole video, so every part shares the same camera
   * the small word OSTOMY, which the motion model scrambles while it moves, is re-laid on every frame from the still
+  * the hold is not a frozen photo: the hands' own small movements at the start of LOWER.mp4 (first 5 frames) are
+    measured as optical flow and applied to the full-resolution still, so hands and pouch keep moving a little
 """
 import sys, os, math, subprocess, wave
 import numpy as np
@@ -331,6 +333,24 @@ def main():
     PALM = (0.45 * SW, 0.42 * SH)
     CEN = (SW / 2, SH / 2)
     card = card_image()
+
+    # a living hold: how every pixel moves over the clip's first frames (the hands' own small movements), smoothed and
+    # scaled up to the still; the still is then bent by that much, back and forth, never repeating exactly
+    LIVE = 5
+    g0 = cv2.cvtColor(B[0], cv2.COLOR_RGB2GRAY)
+    flows = [np.zeros((SH, SW, 2), np.float32)]
+    for k in range(1, LIVE + 1):
+        fl = cv2.calcOpticalFlowFarneback(g0, cv2.cvtColor(B[k], cv2.COLOR_RGB2GRAY), None, 0.5, 4, 25, 3, 7, 1.5, 0)
+        fl = cv2.GaussianBlur(fl, (0, 0), 6)
+        flows.append(cv2.resize(fl, (SW, SH), interpolation=cv2.INTER_LINEAR) * np.array([SW / CW, SH / CH], np.float32))
+    gx, gy = np.meshgrid(np.arange(SW, dtype=np.float32), np.arange(SH, dtype=np.float32))
+
+    def living_still(t):
+        u = t - T_HELD
+        q = sstep(0, 1.2, u) * (2.4 + 1.5 * math.sin(2 * math.pi * u / 3.1 + 0.4) + 0.6 * math.sin(2 * math.pi * u / 1.9 + 2.0))
+        k = min(int(q), LIVE - 1)
+        fl = flows[k] * (1 - (q - k)) + flows[k + 1] * (q - k)
+        return cv2.remap(Ff, gx - fl[..., 0], gy - fl[..., 1], cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT_101)
     grain = np.random.default_rng(3).normal(0, 2.2, (H + 64, W + 64)).astype(np.float32)
     Ff = F.astype(np.float32)
 
@@ -348,7 +368,7 @@ def main():
             sig = 18 * g * g
             if sig > 0.4:
                 x = cv2.GaussianBlur(x, (0, 0), sig)
-            d = sstep(0.30, 1.0, g)                                      # the palm shuts the light out; skin glows warm
+            d = sstep(0.45, 1.0, g)                                      # the palm shuts the light out; skin glows warm
             return crisp(x, 0.8 * (1 - clamp(sig / 3))) * (1 - d) * np.array([1.0, 1 - 0.25 * d, 1 - 0.38 * d], np.float32)
         if t < T_HELD:                                                   # ---- the pouch leaves the lens and rises
             u = t - TR
@@ -366,8 +386,8 @@ def main():
             sig = 7 * (zc - 1)                                           # out of focus while it is this near
             if sig > 0.4:
                 x = cv2.GaussianBlur(x, (0, 0), sig)
-            return crisp(x, 0.8 * (1 - clamp(sig / 3))) * sstep(Z0, 0.25, 1 / (zc * SMAX)) ** 1.2   # light returns as it lifts
-        hi = crisp(warp(Ff, m_out(t)), 0.35, 1.6)                        # ---- held: the full-resolution still
+            return crisp(x, 0.8 * (1 - clamp(sig / 3))) * sstep(Z0, 0.15, 1 / (zc * SMAX))   # light returns as it lifts
+        hi = warp(living_still(t), m_out(t))                             # ---- held: the full-resolution still, alive
         w = sstep(0, AF, t - T_HELD)                                     # focus settles
         if w < 1:
             hi = crisp(warp(B[0], m_out(t) @ C2S)) * (1 - w) + hi * w
