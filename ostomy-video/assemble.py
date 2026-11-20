@@ -12,7 +12,7 @@ W, H, FPS = 1080, 1920, 30
 FONT = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf"
 TAG = os.environ.get("TAGLINE", "COMING SOON")
 REACH, HOLD, CARD = 3.56, 7.0, 3.3          # seconds
-X1, X3 = 0.4, 0.5                           # cross-over lengths
+X1, X3 = 0.0, 0.5                           # no cross-over into the pull: the dark frame IS the pouch on the lens
 T_HOLD = REACH - X1
 T_CARD = T_HOLD + HOLD - X3
 DUR = T_CARD + CARD
@@ -90,27 +90,100 @@ def soundtrack(path):
         w.writeframes(np.stack([pcm, pcm], 1).tobytes())
 
 
+def sstep(a, b, x):
+    u = min(1.0, max(0.0, (x - a) / (b - a)))
+    return u * u * (3 - 2 * u)
+
+
+PULL = 1.5        # seconds: the pouch leaves the lens and rises out through the opening
+
+
+def layers(im):
+    """Split the still into what is outside the bag (hands + pouch, keyed off the blue sky) and the bag with a clean sky."""
+    a = np.asarray(im, np.float32)
+    h, w = a.shape[:2]
+    sky = ((a[..., 2] - a[..., 0] > 45) & (a[..., 2] > 120)).astype(np.uint8) * 255
+    sky = np.asarray(Image.fromarray(sky).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.MaxFilter(5))) > 0
+    ys, xs = np.nonzero(sky)                                                  # the opening = convex hull of the visible sky
+    pts = sorted(set(zip(xs[::7].tolist(), ys[::7].tolist())))
+    def half(points):
+        out = []
+        for q in points:
+            while len(out) >= 2 and (out[-1][0] - out[-2][0]) * (q[1] - out[-2][1]) - (out[-1][1] - out[-2][1]) * (q[0] - out[-2][0]) <= 0:
+                out.pop()
+            out.append(q)
+        return out
+    poly = half(pts)[:-1] + half(pts[::-1])[:-1]
+    hm_img = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(hm_img).polygon(poly, fill=255)
+    hull = np.asarray(hm_img) > 0
+    # arms that come over the rim hide the sky in their corners: complete the opening with its own mirror image
+    xm = int(xs.min()) + int(xs.max())
+    mir = np.zeros_like(hull)
+    cols_ = np.arange(w)
+    ok = (xm - cols_ >= 0) & (xm - cols_ < w)
+    mir[:, cols_[ok]] = hull[:, (xm - cols_)[ok]]
+    hull = hull | mir
+    hull_in = np.asarray(Image.fromarray((hull * 255).astype(np.uint8)).filter(ImageFilter.MinFilter(13))) > 0
+    obj = hull_in & ~sky
+    thick = np.asarray(Image.fromarray((obj * 255).astype(np.uint8)).filter(ImageFilter.MinFilter(19)).filter(ImageFilter.MaxFilter(21))) > 0
+    obj = obj & thick                                                          # drop thin slivers of paper left along the rim
+    alpha = np.asarray(Image.fromarray((obj * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1.2)), np.float32) / 255
+    ys, xs = np.nonzero(sky)
+    A = np.stack([xs, ys, np.ones_like(xs)], 1).astype(np.float32)
+    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
+    fill = np.stack([(np.linalg.lstsq(A, a[ys, xs, c], rcond=None)[0] * np.stack([xx, yy, np.ones_like(xx)], -1)).sum(-1) for c in range(3)], -1)
+    m = (np.asarray(Image.fromarray((obj * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(17))) > 0) & hull
+    m = np.asarray(Image.fromarray((m * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2)), np.float32)[..., None] / 255
+    bg = a * (1 - m) + fill * m
+    hm = np.asarray(Image.fromarray((hull * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(1)), np.float32)[..., None] / 255
+    oy, ox = np.nonzero(obj)
+    piv = (float(ox.mean()), float(oy.mean()))
+    return a, bg, Image.fromarray(np.dstack([a, alpha * 255]).astype(np.uint8), "RGBA"), hm, piv
+
+
 def hold_clip(still, path):
-    """The held shot from one still: pulled back from the lens in the first second, then a slow hand-held drift."""
+    """One continuous move from one still: out of the dark the pouch leaves the lens, rises through the opening of the
+    bag (the bag itself stays put), then is held with a slow hand-held drift. Nothing is generated here, so nothing bends."""
     im = Image.open(still).convert("RGB")
+    orig, bg, obj, hm, piv = layers(im)
     k = max(W / im.width, H / im.height)
-    im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS).filter(ImageFilter.UnsharpMask(3, 60, 2))
     cx, cy = im.width / 2, im.height / 2
     rng = np.random.default_rng(3)
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                            "-i", "-", "-c:v", "libx264", "-preset", "fast", "-crf", "14", "-pix_fmt", "yuv420p", path], stdin=subprocess.PIPE)
     for i in range(int(HOLD * FPS)):
         t = i / FPS
-        u = 1 - (1 - min(1, t / 1.1)) ** 3
-        sc = 1.60 + (1.05 - 1.60) * u + 0.006 * math.sin(t * 0.9)
-        th = math.radians((1 - u) * 5 + 0.40 * math.sin(t * 0.8) + 0.18 * math.sin(t * 1.9 + 1))
-        tx = W / 2 + 9 * math.sin(t * 0.7) + 4 * math.sin(t * 1.6 + 2) + (1 - u) * 40
-        ty = H / 2 + 8 * math.sin(t * 0.55 + 1) + 3 * math.sin(t * 1.3) + (1 - u) * 260
+        if t < PULL:
+            u = 1 - (1 - t / PULL) ** 3
+            s = 4.2 + (1 - 4.2) * u
+            th = math.radians(7 * (1 - u))
+            T = (piv[0] + 25 * (1 - u), piv[1] + 130 * (1 - u))
+            c, sn = math.cos(th), math.sin(th)
+            a, b, d, e = c / s, sn / s, -sn / s, c / s
+            o = obj.transform(obj.size, Image.AFFINE, (a, b, piv[0] - (a * T[0] + b * T[1]), d, e, piv[1] - (d * T[0] + e * T[1])), resample=Image.BICUBIC)
+            if s > 1.05:
+                o = o.filter(ImageFilter.GaussianBlur((s - 1) * 3.2))
+            o = np.asarray(o, np.float32)
+            pa = o[..., 3:4] / 255
+            prgb = o[..., :3] * (1 - 0.5 * sstep(1.3, 2.6, s))               # shaded while still down inside the bag
+            behind = bg * (1 - pa * hm) + prgb * pa * hm                       # above the bag: the rim hides it
+            front = bg * (1 - pa) + prgb * pa                                  # inside the bag: in front of the paper
+            wf = sstep(1.35, 1.8, s)
+            comp = behind * (1 - wf) + front * wf
+            wo = sstep(0.992, 1.0, u)                                       # hand over to the untouched still only once it lines up
+            comp = (comp * (1 - wo) + orig * wo) * sstep(0.0, 0.35, t)
+            base = Image.fromarray(np.clip(comp, 0, 255).astype(np.uint8))
+        else:
+            base = im
+        sc = k * (1.035 + 0.006 * math.sin(t * 0.9))
+        th = math.radians(0.40 * math.sin(t * 0.8) + 0.18 * math.sin(t * 1.9 + 1))
+        tx = W / 2 + 9 * math.sin(t * 0.7) + 4 * math.sin(t * 1.6 + 2)
+        ty = H / 2 + 8 * math.sin(t * 0.55 + 1) + 3 * math.sin(t * 1.3)
         c, sn = math.cos(th), math.sin(th)
         a, b, d, e = c / sc, sn / sc, -sn / sc, c / sc
-        fr = im.transform((W, H), Image.AFFINE, (a, b, cx - (a * tx + b * ty), d, e, cy - (d * tx + e * ty)), resample=Image.BICUBIC)
-        if u < 0.98:
-            fr = fr.filter(ImageFilter.GaussianBlur((1 - u) * 14))
+        fr = base.transform((W, H), Image.AFFINE, (a, b, cx - (a * tx + b * ty), d, e, cy - (d * tx + e * ty)), resample=Image.BICUBIC)
+        fr = fr.filter(ImageFilter.UnsharpMask(3, 50, 2))
         arr = np.asarray(fr, np.float32) + rng.normal(0, 2.2, (H, W, 1)).astype(np.float32)
         ff.stdin.write(np.clip(arr, 0, 255).astype(np.uint8).tobytes())
     ff.stdin.close()
@@ -126,10 +199,10 @@ def main():
     hold_clip(still, hold_mp4)
     up = f"scale=1108:1920:flags=lanczos,crop={W}:{H},unsharp=5:5:0.7,noise=alls=5:allf=t,format=yuv420p,setsar=1"
     fc = (
-        f"[0:v]fps={FPS},{up},trim=0:{REACH},setpts=PTS-STARTPTS[a];"
+        f"[0:v]fps={FPS},{up},trim=0:{REACH},setpts=PTS-STARTPTS,fade=t=out:st={REACH - 0.3}:d=0.3[a];"
         f"[1:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{HOLD},setpts=PTS-STARTPTS[c];"
-        f"[2:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{CARD},setpts=PTS-STARTPTS[d];"
-        f"[a][c]xfade=transition=fadeblack:duration={X1}:offset={T_HOLD}[ac];"
+        f"[2:v]fps={FPS},format=yuv420p,setsar=1,trim=0:{CARD},setpts=PTS-STARTPTS,settb=AVTB[d];"
+        f"[a][c]concat=n=2:v=1,fps={FPS},settb=AVTB[ac];"
         f"[ac][d]xfade=transition=slideleft:duration={X3}:offset={T_CARD},fade=t=in:d=0.3[v]"
     )
     cmd = ["ffmpeg", "-v", "error", "-y", "-i", reach, "-i", hold_mp4, "-loop", "1", "-t", str(CARD), "-i", card_png, "-i", wav,
