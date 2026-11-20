@@ -5,9 +5,9 @@ Facts match ep08/facts.md.
 ```
 1894: a motorcycle you started by running. 🏍️
 
-In Munich, Heinrich and Wilhelm Hildebrand and Alois Wolfmüller built a "Motorrad" with a 1,489 cc two-cylinder engine. The page we checked calls it the world's first production motorcycle.
+In Munich, Heinrich and Wilhelm Hildebrand and Alois Wolfmüller built a "Motorrad" with a 1,489 cc two-cylinder engine. It is often called the world's first production motorcycle.
 
-The engine drove the rear wheel directly through connecting rods, like a steam locomotive. There was no clutch and no pedals: you ran beside it and jumped on. The water tank doubled as the rear mudguard.
+The engine drove the rear wheel directly through connecting rods. There was no clutch and no pedals: you ran beside it and jumped on. The water tank doubled as the rear mudguard.
 
 Pneumatic tyres, a spoon brake pressing on the front tyre, about 50 kg dry and a top speed of 28 mph (45 km/h). About two thousand were built.
 
