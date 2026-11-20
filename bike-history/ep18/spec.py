@@ -15,7 +15,7 @@ LINES = [
     ('brakes', 'A front disc brake, on a bike people could afford.', 'A front disc brake, on a bike people could afford.'),
     ('frame', 'Honda’s first double cradle frame.', "Honda's first double cradle frame."),
     ('exhaust', 'Four cylinders, four pipes. An electric starter, too.', 'Four cylinders, four pipes. And an electric starter.'),
-    ('explode', 'Engine, frame, fork, wheels: 218 kg dry. Price: $1,495.', 'Engine, frame, fork, wheels. Fourteen ninety-five dollars.'),
+    ('explode', 'Engine, frame, fork, wheels: 218 kg dry. Price: $1,495.', 'Engine, frame, fork, wheels. Fourteen hundred and ninety-five dollars.'),
     ('ride', 'March 1970: Dick Mann wins the Daytona 200 on the racing CR750.', 'March nineteen seventy. Dick Mann wins the Daytona two hundred, on the racing C R seven-fifty.'),
     ('ride', 'By a few seconds, on a failing engine.', 'By a few seconds, on a failing engine.'),
     ('outro', 'Top speed: 125 mph.', 'Top speed, a hundred and twenty-five.'),
