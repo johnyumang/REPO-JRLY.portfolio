@@ -1,0 +1,18 @@
+{
+  "note": "Limahong on the prow reaching for the crown: head, reaching arm, breathing, banner and cape wind, crown glow and float, harbor shimmer, junks bob",
+  "camera": {"zoom": [1.0, 1.07], "focus": [330, 250]},
+  "effects": [
+    {"fx": "bob", "mask": {"ellipse": [625, 100, 85, 80], "soft": 35}, "dx": 0, "dy": 4, "speed": 1.3},
+    {"fx": "glow", "mask": {"ellipse": [625, 115, 110, 100], "soft": 60}, "amount": 0.07},
+    {"fx": "turn", "mask": {"ellipse": [245, 205, 70, 78], "soft": 30}, "pivot": [255, 275], "sway": 1.2, "speed": 1.2, "gesture": 3, "at": [0.25, 0.4, 0.65, 0.8]},
+    {"fx": "turn", "mask": {"poly": [[400, 265], [500, 215], [540, 160], [600, 175], [590, 245], [520, 285], [450, 340], [400, 340]], "soft": 28},
+     "pivot": [385, 310], "sway": 0.6, "speed": 1.6, "gesture": -3.5, "at": [0.2, 0.4, 0.7, 0.85]},
+    {"fx": "breath", "ellipse": [240, 390, 140, 110]},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [125, 0], [125, 250], [0, 290]], "soft": 28}, "amp": 3, "wave": 200, "speed": 2.6},
+    {"fx": "wind", "mask": {"poly": [[0, 230], [170, 200], [150, 300], [60, 400], [0, 420]], "soft": 30}, "amp": 3, "wave": 150, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[310, 420], [380, 420], [400, 800], [330, 800]], "soft": 30}, "amp": 2, "wave": 180, "speed": 3},
+    {"fx": "shimmer", "mask": [{"poly": [[420, 740], [720, 760], [720, 1280], [540, 1280], [470, 1000]], "soft": 30}, {"ellipse": [490, 835, 55, 70], "soft": 20, "minus": true}, {"ellipse": [580, 860, 45, 65], "soft": 20, "minus": true}, {"ellipse": [437, 780, 30, 48], "soft": 15, "minus": true}, {"ellipse": [525, 1030, 70, 115], "soft": 25, "minus": true}, {"ellipse": [670, 1040, 80, 190], "soft": 25, "minus": true}, {"ellipse": [700, 870, 30, 50], "soft": 15, "minus": true}], "amp": 1.8},
+    {"fx": "bob", "mask": [{"ellipse": [490, 835, 50, 65], "soft": 25}, {"ellipse": [580, 860, 40, 60], "soft": 22}, {"ellipse": [437, 780, 28, 45], "soft": 18}], "dx": 0, "dy": 3, "speed": 1.5},
+    {"fx": "bob", "mask": [{"ellipse": [525, 1030, 65, 110], "soft": 30}, {"ellipse": [665, 1010, 70, 150], "soft": 30}], "dx": 0, "dy": 4, "speed": 1.1}
+  ]
+}

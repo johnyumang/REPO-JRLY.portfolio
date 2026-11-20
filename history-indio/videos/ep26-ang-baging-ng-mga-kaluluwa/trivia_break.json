@@ -1,0 +1,43 @@
+{
+ "fact_id": "t36",
+ "fact_english": "Medinilla magnifica is a flowering plant native to the Philippines, and people in many countries grow it as a houseplant.",
+ "label_onscreen": "KAPA-KAPA",
+ "source_onscreen": "Pinagmulan: Royal Horticultural Society",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang Medinilla magnifica, katutubong halaman ng Pilipinas, inaalagaan sa loob ng bahay sa maraming bansa!",
+   "emphasis": [
+    "bansa"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Taga-rito, pero sikat sa abroad. Parang mga pinsan ko.",
+   "emphasis": [
+    "pinsan"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 25,
+ "after_text": "Sumindi ang ilawan sa kubo: nagsisinungaling ang bisita.",
+ "insert_time": 98.78,
+ "estimated_time_note": "no timings.json yet; about 95 s by word count",
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the lamp shows that the smiling visitor is lying, the temptation beat is closed, and the next line starts a new night in the big hut for the ceremony. Moved on 13 Nov from sentence 24 (\"Bakit ka magtitiis?\") so the break no longer cuts between Sinag's question and the lamp's answer. Grave episode (healing, medicine and temptation): gentle plant fact."
+}

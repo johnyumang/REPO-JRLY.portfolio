@@ -1,0 +1,555 @@
+{
+ "_note": "Episode 11 v2: one still per shot of shots.md (bk_<shot>), second stills bk_NNb on rows with many beats; keys >= 120 are silent shots",
+ "look": "bakunawa (pipeline/flux_hq.py through pipeline/draw_pick.py; cast and places in look_cast)",
+ "look_cast": {
+  "cast": {
+   "indio_1011": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose plain undyed collarless shirt, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm",
+   "indio_water": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm",
+   "indio_wet": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, soaking wet, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm",
+   "indio_wet_thread": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, damp hair, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist",
+   "indio_poor": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin straight indigo lines tattooed across his right forearm",
+   "indio_rich": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, a big shiny gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm",
+   "indio_rich_night": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist",
+   "m": "a calm young Filipina woman in her twenties with long straight black hair worn loose down her back, dark eyes, a serious gentle face, wearing a long dark charcoal coat buttoned to the collar, a small round bronze medallion on a cord at her neck",
+   "agyu": "a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery",
+   "paddle": "a short wooden paddle with a leaf-shaped blade",
+   "yumud": "an ancient river guardian spirit, tall and gaunt, skin dark and slick like wet black wood, long hair like green-brown river moss, a grave old face lined like bark, deep-set eyes glowing like red-orange coals, long thin arms, five long fingers on each hand, no horns, no fangs, not a devil, solemn and very old",
+   "white": "a slim older man in a crisp white suit, white shirt and white tie, neat white hair, a plain silver wristwatch on his left wrist",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, solid black forehead, muzzle and chin, no white stripe or blaze. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "trader": "a heavyset middle-aged trader of no recognisable nation, light olive skin, a short grey beard, bald head, a loose plain undyed cloth robe, no hat, no jewellery",
+   "porters": "two dockside porters of 1011, clearly different men, one old and thin with grey hair, one young and stocky, brown skin, plain loincloths",
+   "phone": "a plain modern black smartphone with no logo"
+  },
+  "places": {
+   "highway": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "bank": "inside a small quiet provincial bank today: a long polished pale wooden counter, cream walls, a potted plant, glass windows with daylight; no logos, no signs, no posters, no writing anywhere",
+   "town": "a sunny roadside in a provincial town in Mindanao today: a dusty concrete road, coconut palms, low houses; no shop signs, no billboards, no writing anywhere",
+   "shrine": "the old boat site in Butuan today: a low open-sided shelter with a wide roof on concrete posts over a shallow excavated pit; in the pit the dark, ancient, cracked timbers of a long wooden plank boat; a low railing around the pit, tropical trees outside",
+   "port": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "water": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "night": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere"
+  },
+  "lente": "an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge"
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Eye-level wide view split by the water line of a brown river, the water line across the upper third. Above the water: a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, kneeling at the edge of a wooden dock, leaning out, mouth wide open in a shout. Just below the water line, in murky green: a young man in a red headband sinking, his fist full of small gold ornaments raised toward the surface, and far below him a dark tall shape with long trailing moss-like hair and two coal-red eyes gripping his ankle and pulling him down. Bubbles rise. The boy's face and the gold fist in the upper half.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c222",
+   "note": "Indio's face reads calm rather than panicked; the air above the dock is lit like the water"
+  },
+  "bk_02": {
+   "subject": "High-angle close-up under water, looking down on a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin indigo line tattoos on his right forearm, drifting down into the deep and looking up at us, cheeks puffed with held breath, eyes wide in surprise, his right wrist raised beside his face with the big gold wristwatch gleaming. His face and the watch in the upper half; bubbles stream upward; below him only dark green water.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "cheeks not puffed (eyes wide instead); three tattoo lines visible, not six"
+  },
+  "bk_03": {
+   "subject": "Eye-level close-up under water, from the side: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin indigo line tattoos on his right forearm, drifting down, his face in profile in the upper half, eyes shut tight, stubborn, his right fist clenched tight and held close beside his cheek, gold glinting between the fingers. A thin stream of bubbles. The lower part is only dark green water.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "the fist shows no gold between the fingers; three tattoo lines visible"
+  },
+  "bk_04": {
+   "subject": "High-angle wide view looking down on a long straight highway. In the upper middle, small, on the gravel shoulder: an old dusty motorcycle with a sidecar, stopped; beside it a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin indigo line tattoos on his right forearm, standing with his hands on his head in despair; in the sidecar a calm young Filipina woman in her twenties with long straight black hair worn loose down her back, dark eyes, a serious gentle face, wearing a long dark charcoal coat buttoned to the collar, a small round bronze medallion on a cord at her neck, sitting, a closed red umbrella across her lap. The lower half is empty asphalt and rice field. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "Indio sits on the motorcycle instead of standing beside it"
+  },
+  "bk_05": {
+   "subject": "Eye-level medium shot of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin indigo line tattoos on his right forearm, standing beside an old motorcycle with a sidecar, holding a small empty red plastic fuel jug up to his ear and shaking it, one eye squinting comically; his other hand holding up three small crumpled pale paper bills. His face, the jug and the bills in the upper half. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "three bills show faint blank patterning, no letters"
+  },
+  "bk_06": {
+   "subject": "Eye-level medium close-up of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin indigo line tattoos on his right forearm, a wry fond smile, the mended re-stitched collar of his faded shirt clearly seen, patting the cracked black seat of an old motorcycle beside him with one open hand like an old friend. His face and the collar in the upper half, the seat just below. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c222",
+   "note": "the seat sits just above the subtitle band"
+  },
+  "bk_07": {
+   "subject": "Eye-level two-shot at the roadside. On the left a calm young Filipina woman in her twenties with long straight black hair worn loose down her back, dark eyes, a serious gentle face, wearing a long dark charcoal coat buttoned to the collar, a small round bronze medallion on a cord at her neck, both hands behind her head tying her long black hair. On the right a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin indigo line tattoos on his right forearm, resting her folded red umbrella on his shoulder, his hand closed on its curved wooden handle up at his collarbone, sighing, eyes rolled up to the sky. Both faces and the umbrella handle in the upper half; the lower half is only their clothes and the road. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c222",
+   "note": ""
+  },
+  "bk_08": {
+   "subject": "High-angle close-up from just above and behind his left shoulder, looking down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, wearing a faded washed-out blue short-sleeved t-shirt with a visibly mended, re-stitched collar, worn jeans and old rubber sandals, a bare neck with no necklace, six thin straight indigo lines tattooed across his right forearm, his face in three-quarter profile at the top of the picture, eyes wide, mouth falling open in shock; just below his chin, held flat in his left hand, a plain modern black smartphone with no logo with its bright plain pale screen facing up toward us, large and clearly seen; the folded red umbrella leaning on his right shoulder, a tiny star of light glinting on its curved wooden handle. Face, screen and handle in the upper half. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c444",
+   "note": "screen text added in code; the lower corner of the screen just touches the subtitle band"
+  },
+  "bk_09": {
+   "subject": "Low-angle close-up of a calm young Filipina woman in her twenties with long straight black hair worn loose down her back, dark eyes, a serious gentle face, wearing a long dark charcoal coat buttoned to the collar, a small round bronze medallion on a cord at her neck, alarmed for once, eyes wide, brows drawn, mouth open in a sharp word, snatching her folded red umbrella back and pulling it against her chest with one hand. Her face in the upper half, the hot bleached sky behind her. No dog.",
+   "setting": "a provincial highway in northern Mindanao today: a straight two-lane asphalt road through coconut palms and green rice fields, a gravel shoulder, distant green hills; no signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "a medium close-up more than a close-up"
+  },
+  "bk_10": {
+   "subject": "Low-angle medium shot across a bank counter. Behind the long polished counter, a slim older man in a crisp white suit, white shirt and white tie, neat white hair, a plain silver wristwatch on his left wrist, leaning forward, sliding a small closed plain dark-blue passbook toward the camera with two fingers, a thin smile; the top edge of the picture cuts his face across the nose, so only his smiling mouth, chin and white hair at the sides show, never his eyes; the plain silver watch on his wrist. His smile and the passbook in the upper half. No dog.",
+   "setting": "inside a small quiet provincial bank today: a long polished pale wooden counter, cream walls, a potted plant, glass windows with daylight; no logos, no signs, no posters, no writing anywhere",
+   "light": "cool daylight from tall windows on one side, soft shadows, a gleam on the polished counter, the white suit glowing against the shade, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c111",
+   "note": "passbook plain, no writing"
+  },
+  "bk_11": {
+   "subject": "Eye-level medium shot of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, a big shiny gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, the sunglasses now on his eyes, leaning proudly against the open door of a shiny brand-new dark red pickup truck with no logo and no badge, grinning a ridiculous proud grin, one arm raised to show off the big gold watch, the thick gold chain shining on his chest. His face, watch and chain in the upper half. No dog.",
+   "setting": "a sunny roadside in a provincial town in Mindanao today: a dusty concrete road, coconut palms, low houses; no shop signs, no billboards, no writing anywhere",
+   "light": "hard white noon sun high overhead, short black shadows, heat haze shimmering off the asphalt, bleached hot sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c666",
+   "note": "the watch is on his left wrist here (raised), not the right"
+  },
+  "bk_12": {
+   "subject": "Very wide high-angle view from the roof beams down into the shelter: the pit with the dark ancient boat timbers fills the lower half. Small, in the upper third, at the far railing: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, a big shiny gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, reading aloud with his mouth open toward a low marker post at the far left edge of the picture that is seen edge-on, its face turned away; beside him a young Filipina woman with long straight black hair in a long dark charcoal coat, a small round bronze medallion at her neck, the small bronze medallion at her neck glowing bright gold. No dog.",
+   "setting": "the old boat site in Butuan today: a low open-sided shelter with a wide roof on concrete posts over a shallow excavated pit; in the pit the dark, ancient, cracked timbers of a long wooden plank boat; a low railing around the pit, tropical trees outside",
+   "light": "warm afternoon sun slanting in under the roof in long golden bars, the pit in cool shadow, dust motes, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c777",
+   "note": "a medium-wide more than a very wide; the marker post at the left edge is blank and edge-on (no text: facts.md names no sign)"
+  },
+  "bk_13": {
+   "subject": "Bird's-eye extreme wide view from high above the broad brown river: dozens of long wooden plank boats with curved prows moored along the wooden docks, tiny porters carrying clay jars and bright bundles of cloth, nipa-thatched stilt houses along the bank, dense green rainforest stretching to the hills behind. The busy port in the upper two thirds.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c444",
+   "note": "boats' prows only gently curved"
+  },
+  "bk_14": {
+   "subject": "Low-angle medium shot from the dock planks: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, solid black forehead, muzzle and chin, no white stripe or blaze. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. stepping out of a fading golden glow, facing the viewer, squinting up, one brow raised; from the front, the dog's folded-down right ear is on the left of the picture. Behind and above the dog, a young Filipino man in a red cloth headband, a plain undyed shirt, a thick gold chain and a big gold wristwatch on his right wrist, from the waist up, a sun flare flashing off his gold watch. Dog's head and man's face in the upper half.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1212",
+   "note": "a small pale fleck on the dog's lower lip"
+  },
+  "bk_15": {
+   "subject": "Eye-level close-up of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose plain undyed collarless shirt, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, on the right third of the picture, leaning toward the camera and whispering to us with a sly raised eyebrow, his hands out of the frame. His face in the upper half; behind him, soft and far, the busy river port full of great plank boats. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c888",
+   "note": "a hand at his mouth for the whisper"
+  },
+  "bk_16": {
+   "subject": "Eye-level medium close-up of a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, a short wooden paddle with a leaf-shaped blade resting over his shoulder, proudly slapping the side of a big boat's hull with his free open hand; the hull's planks are joined with rows of wooden pegs and lashed with black fibre cords, no nails. His face and the lashings in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c999",
+   "note": "he pushes the hull rather than slaps it"
+  },
+  "bk_17": {
+   "subject": "Low-angle medium shot of a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, standing on the dock, pointing north up the river with a short wooden paddle with a leaf-shaped blade held out at arm's length; behind him two dockside porters of 1011, clearly different men, one old and thin with grey hair, one young and stocky, brown skin, plain loincloths loading a big plank boat, one of them lifting a small sealed box wrapped in plain cloth. The boy and the box in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3434",
+   "note": "more eye-level than low-angle"
+  },
+  "bk_17b": {
+   "subject": "Eye-level tight close-up of the head and bare shoulders of a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, chin up, proud, eyes bright, mid-word, his face filling the upper half of the picture on the left third; behind him, soft and blurred, the port with its long boats. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4545",
+   "note": "a medium close-up, eyes looking off rather than proud chin-up"
+  },
+  "bk_18": {
+   "subject": "High-angle shot over his shoulder: at the top left of the picture, the head and face in PROFILE of a young Filipino man in a red cloth headband, a plain undyed shirt, a thick gold chain and a big gold wristwatch on his right wrist, his topknot and red headband tails clearly seen, holding an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge up to his eye, looking through it down toward the brown river. Inside the gold circle of the lens, tinted warm and slightly curved, the water turns clear and shows the broken hull of a sunken plank boat on the riverbed, a glint of a round bronze disc and a small heap of gold beside it; outside the circle the river is softly blurred. His face and the lens in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9494",
+   "note": "redrawn: Indio's face in profile with the lens at his eye; inside the circle the hull reads as floating more than sunken; the river outside is sharp, not blurred"
+  },
+  "bk_19": {
+   "subject": "Eye-level two-shot on the dock. On the right a young Filipino man in a red cloth headband, a plain undyed shirt, a thick gold chain and a big gold wristwatch on his right wrist, eagerly pulling his plain shirt up over his head, half off, his eyes on the river. On the left a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, lunging to grab his arm and missing, his hand closing on air. Both in the upper half, the river behind. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4545",
+   "note": "he grips his shirt collar rather than pulling it over his head"
+  },
+  "bk_19b": {
+   "subject": "Eye-level close-up of the face of a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, alarmed, eyes wide, brows up, mouth open in a warning, looking just past the camera; at the right edge of the picture, out of focus, a young man's bare brown shoulder. The boy's face in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4545",
+   "note": ""
+  },
+  "bk_20": {
+   "subject": "Eye-level wide view under water: the broken hull of a sunken plank boat on the riverbed; a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm swimming just above its open hull, an eager smile, gathering small gold ornaments into both hands; under a loose plank at the near end of the hull, half hidden, a plain round bronze disc the size of a palm that he does not look at. The whole scene in the upper half; the lower part dark green water and mud. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8989",
+   "note": "two of three draws refused by the service; the only draw kept: clean"
+  },
+  "bk_21": {
+   "subject": "Low-angle medium shot from below, looking up toward the bright rippling surface: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, kicking hard, startled, looking down; right beside his legs, its face at the same height as his knees and well above the middle of the picture, a tall gaunt dark river spirit with long green-brown moss hair and eyes glowing like red-orange coals, not a devil, rising from the dark green, one long hand closed round his ankle. Everything important in the upper half; the lower part is dark water. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4646",
+   "note": "the guardian is drawn moss-green rather than black-skinned"
+  },
+  "bk_22": {
+   "subject": "Low-angle close-up from just under the water surface, looking up through the rippling surface: a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, kneeling at the edge of the wooden dock above, yelling down at us with his mouth wide open, his face distorted by the ripples; bubbles rising toward him. His face in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7878",
+   "note": "eye-level from just in front, not from under the surface"
+  },
+  "bk_23": {
+   "subject": "Eye-level close two-shot under water. On the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, holding the big gold wristwatch out toward the creature like a bribe, a desperate pleading grin; on the right, close, an ancient river guardian spirit, tall and gaunt, skin dark and slick like wet black wood, long hair like green-brown river moss, a grave old face lined like bark, deep-set eyes glowing like red-orange coals, long thin arms, five long fingers on each hand, no horns, no fangs, not a devil, solemn and very old, unmoved, pulling him deeper. Both faces in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9191",
+   "note": "he offers the watch on his wrist, not held in the hand"
+  },
+  "bk_24": {
+   "subject": "High-angle medium close-up from above of the head and bare shoulders of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, under the river, looking up at us, heavy-lidded tired eyes, lips pressed shut, a few small bubbles rising past his face, his hair and headband tails floating. His face in the upper half; below only dark green water. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8181",
+   "note": "reads as standing in deep water rather than sinking; lips shut, few bubbles (the service refused every wording of drowning)"
+  },
+  "bk_25": {
+   "subject": "Eye-level close-up under water of the face and raised right hand of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm: his face in the upper part, eyes half open, and just below his chin his open right hand, palm up, thumb and four fingers spread, a flat round bronze disc the size of a palm lying in it and glowing warm gold from within, lighting his face from below; small gold ornaments drifting away above. Face and disc in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5757",
+   "note": "the disc is drawn slightly dish-shaped; a medium close-up"
+  },
+  "bk_26": {
+   "subject": "High-angle extreme close-up under water of a round bronze disc the size of a palm lying in an open hand, glowing from within, an engraved long boat with a curved prow and a sun with rays on its face, no letters; just above it, out of focus, the face of a young man in a red headband looking down at it in awe. Disc and face in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1313",
+   "note": "the engraved sun has a small face in it; a water line crosses his eyes as if at the surface"
+  },
+  "bk_27": {
+   "subject": "Eye-level close-up of the face of an ancient river guardian spirit, tall and gaunt, skin dark and slick like wet black wood, long hair like green-brown river moss, a grave old face lined like bark, deep-set eyes glowing like red-orange coals, long thin arms, five long fingers on each hand, no horns, no fangs, not a devil, solemn and very old, close, calm now, old and patient, the coal eyes softened, moss hair drifting slowly. Its face in the upper half; below only dark green water.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3636",
+   "note": "the eyes still glow red, calm but not soft"
+  },
+  "bk_28": {
+   "subject": "Eye-level extreme close-up under water of the eyes and brows of a young Filipino man with warm brown skin and a red cloth headband, wide open, understanding dawning, soft green light, a few small bubbles. His eyes in the upper half of the picture. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3636",
+   "note": "a water line crosses under his eyes as if at the surface"
+  },
+  "bk_29": {
+   "subject": "High-angle medium shot under water: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, beside the broken hull of the sunken boat, shaking his head, placing the last small gold ornament back into the hull with one hand; behind him, watching, the dark tall shape of the moss-haired guardian with coal-red eyes. The scene in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3636",
+   "note": "two of three draws refused; eye level more than high angle"
+  },
+  "bk_30": {
+   "subject": "Eye-level profile two-shot under water: on the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, in profile facing right; on the right an ancient river guardian spirit, tall and gaunt, skin dark and slick like wet black wood, long hair like green-brown river moss, a grave old face lined like bark, deep-set eyes glowing like red-orange coals, long thin arms, five long fingers on each hand, no horns, no fangs, not a devil, solemn and very old, in profile facing left; close, eye to eye; the young man's lips shaping words, a small stream of bubbles between them. Both faces in the upper half. No dog.",
+   "setting": "under the brown-green river water at the port of Butuan in 1011: murky water, drifting silt and bubbles, the broken wooden hull of a sunken plank boat on the muddy riverbed, planks pegged and lashed with black fibre; nothing modern",
+   "light": "murky green-brown underwater light, wavering sunbeams slanting down from the bright surface, rippling caustics, deep dark green below, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3636",
+   "note": "the tattoo lines sit on his upper arm here"
+  },
+  "bk_31": {
+   "subject": "Low-angle wide view from the dock planks: an ancient river guardian spirit, tall and gaunt, skin dark and slick like wet black wood, long hair like green-brown river moss, a grave old face lined like bark, deep-set eyes glowing like red-orange coals, long thin arms, five long fingers on each hand, no horns, no fangs, not a devil, solemn and very old, rising tall out of the brown river, water streaming from its moss hair, carrying a young man in a red headband cradled in its long arms, eyes closed and resting, and setting him gently down on the wooden dock; on the dock two dockside porters of 1011, clearly different men, one old and thin with grey hair, one young and stocky, brown skin, plain loincloths stepping back in awe. The guardian and the young man in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5858",
+   "note": "he wears a brown cloth over his body; porters at the edges"
+  },
+  "bk_32": {
+   "subject": "Eye-level medium shot on the dock: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, soaking wet, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, on his hands and knees coughing up river water; kneeling beside him a Filipino boy about eleven, small and wiry, sun-darkened brown skin, thick straight black hair cut blunt just above his eyebrows, bright quick dark eyes, bare-chested, a plain rust-red cloth loincloth wrapped at the waist, barefoot, no tattoos, no jewellery, mouth hanging open in disbelief. Both faces in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2626",
+   "note": "the cough is not visible; he kneels on all fours, dripping"
+  },
+  "bk_33": {
+   "subject": "High-angle close two-shot on the dock: a young Filipina woman with long straight black hair in a long dark charcoal coat, a small round bronze medallion at her neck, looking down, tying a single thin red thread round the bare left wrist of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, soaking wet, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm; he holds his left forearm out between their two faces, his left hand open with thumb and four fingers, no watch on that arm; his right arm hangs out of frame. On the thread a small knot glows faintly; the medallion at her neck glows gold. Both faces and the wrist in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5858",
+   "note": "the thread is tied high on the forearm, not at the wrist; his open hand touches the subtitle band"
+  },
+  "bk_34": {
+   "subject": "Eye-level medium two-shot on the dock: on the left a young Filipina woman with long straight black hair in a long dark charcoal coat, a small round bronze medallion at her neck, calm, speaking, hands folded; on the right a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, damp hair, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist, holding up his left wrist, which has no watch, to look at the red thread, on his left hand, on the right side of the picture. Both faces in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9393",
+   "note": "the thread wrist is on the picture's left as he turns to her; two of three draws refused"
+  },
+  "bk_34b": {
+   "subject": "Slightly low-angle close-up of the face of a young Filipino man about twenty, warm brown skin, short tousled black hair in a small topknot, damp, dark brown eyes, a red cloth headband with long tails, a thick gold chain: curious, eyebrows raised, holding his left wrist up beside his cheek, on his left hand, on the right side of the picture; round that wrist a thin red thread with one small knot, in sharp focus, no watch on that wrist. At the left edge, a little out of focus, the calm face of a young Filipina woman with long straight black hair and a dark coat collar, answering him. Both faces in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2727",
+   "note": "a water drop on his cheek reads a little like a tear"
+  },
+  "bk_35": {
+   "subject": "Eye-level close-up of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, solid black forehead, muzzle and chin, no white stripe or blaze. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., head turned three-quarter, a sulky offended sidelong look, sitting on the dock planks. The dog's head in the upper half; behind, the bright blurred river.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3838",
+   "note": ""
+  },
+  "bk_36": {
+   "subject": "Over the shoulder of a young Filipino man in a red cloth headband, bare-shouldered, at eye level: the back of his head and his ear, turned to listen, sharp at the left edge of the picture; beyond him, in focus, a heavyset middle-aged trader of no recognisable nation, light olive skin, a short grey beard, bald head, a loose plain undyed cloth robe, no hat, no jewellery weighing a sack of rice on a hand-held balance scale with two hanging pans, his thumb secretly pressing down on one pan; beside him a wiry Filipino boy about eleven with blunt-cut black hair and a rust-red loincloth, waiting. All in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2727",
+   "note": "the pressing thumb on the pan is not clearly drawn"
+  },
+  "bk_37": {
+   "subject": "High-angle wide view of the dock: a bare-chested young Filipino man in a red cloth headband and a gold chain pointing silently at a trader's balance scale; a wiry Filipino boy about eleven with blunt-cut black hair and a rust-red loincloth, spun round to stare at it; around them two dockside porters of 1011, clearly different men, one old and thin with grey hair, one young and stocky, brown skin, plain loincloths doubled over, roaring with laughter; the trader red-faced. The people in the upper half. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3838",
+   "note": "the trader himself is out of frame; the scale is a standing scale; two of the porters are both grey-haired old men (different faces)"
+  },
+  "bk_38": {
+   "subject": "Eye-level medium close-up of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, solid black forehead, muzzle and chin, no white stripe or blaze. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., sitting on the dock planks facing the viewer, a dry unimpressed look, half-lidded eyes. The dog's head in the upper half; behind, a blurred plank boat.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1717",
+   "note": ""
+  },
+  "bk_39": {
+   "subject": "Eye-level close-up of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, damp hair, a red cloth headband with long tails, bare-chested, a dark brown cloth wrapped round his waist to the knees, barefoot, a thick gold chain around his neck, a big gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist, his face in the upper part of the picture, eyes wide with wonder, looking at his own right forearm, which he holds up across his chest just below his chin, the indigo line tattoos on it clearly seen, one of them faintly glowing blue-white; in the air in front of his face, at eye height, an empty patch of soft pale light. No dog.",
+   "setting": "the river port of Butuan in the year 1011: a broad brown river, long wooden plank boats with tall curved prows moored at a wooden dock on stilts, planks pegged and lashed with black fibre, clay jars, bright cloth bundles, nipa stilt houses, green rainforest behind; no metal ships, no nails, nothing modern",
+   "light": "bright tropical morning sun through humid haze, glittering brown river, golden rim light, deep blue shadows, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4141",
+   "note": "the hologram is painted in code; the red thread is out of frame"
+  },
+  "bk_40": {
+   "subject": "Very wide high-angle view from above a riverside road at night, figures small in the upper half: a shiny new dark red pickup truck parked by the railing; beside it a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, a big shiny gold wristwatch on his right wrist, six thin straight indigo lines tattooed across his right forearm, glancing around while slipping the gold watch from his wrist into his trouser pocket; a little way off along the railing a young Filipina woman with long straight black hair in a long dark charcoal coat, a small round bronze medallion at her neck, looking at the river. The lower half is dark road and water. Only one man. No dog.",
+   "setting": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere",
+   "light": "night, deep blue darkness, a distant orange street lamp behind, the black river with long orange reflections, cool moonless sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5252",
+   "note": "a medium shot, not a high wide (two rounds would not draw it wide); his hands at the pocket sit below the subtitle band"
+  },
+  "bk_41": {
+   "subject": "Eye-level close-up of a calm young Filipina woman in her twenties with long straight black hair worn loose down her back, dark eyes, a serious gentle face, wearing a long dark charcoal coat buttoned to the collar, a small round bronze medallion on a cord at her neck, at night by the river, looking back over her shoulder, uneasy, her face lit warm from one side; behind her, dark and out of focus, a parked pickup truck. Her face in the upper half. No dog.",
+   "setting": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere",
+   "light": "night, deep blue darkness, a distant orange street lamp behind, the black river with long orange reflections, cool moonless sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2828",
+   "note": ""
+  },
+  "bk_42": {
+   "subject": "High-angle medium shot at night: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist, leaning over a riverside railing at the top of the picture, holding a small clay oil lamp with a flame out over the dark river; on the black water below him, lit by the flame, the long dark shadow of a standing man moving on the water, and nobody standing above it. The shadow on the water just above the middle of the picture. No dog.",
+   "setting": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere",
+   "light": "night, deep darkness, the only light the small warm flame of a clay oil lamp, hard warm light from below on the face, black river below with an orange glitter, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3131",
+   "note": "the ownerless shadow is painted as a dark walking silhouette on the water, low in the picture (below the subtitle band)"
+  },
+  "bk_42b": {
+   "subject": "Close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist, warmly lit by the small flame of a clay oil lamp he holds up beside his cheek, looking down past the camera at the river, uneasy, eyes wide, brows drawn together; deep darkness behind him. His face and the flame in the upper half. No dog.",
+   "setting": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere",
+   "light": "night, deep darkness, the only light the small warm flame of a clay oil lamp, hard warm light from below on the face, black river below with an orange glitter, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2929",
+   "note": "a medium close-up; the flame is beside his face rather than under it"
+  },
+  "bk_43": {
+   "subject": "Eye-level medium close-up at night of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, dark brown eyes, no headband, dark sunglasses pushed up on top of his head, wearing a brand-new shiny black short-sleeved shirt open at the collar, new dark jeans, a thick shiny gold chain around his neck, six thin straight indigo lines tattooed across his right forearm, a thin red thread with one small knot round his left wrist, seen from the chest up on the right, thoughtful, his left hand raised loosely to his chin so the red thread with its one knot shows on his wrist, on his left hand, on the right side of the picture; the upper left of the picture is empty dark night sky over the river. His face in the upper half on the right. No dog.",
+   "setting": "the riverbank in Butuan today at night: a low concrete embankment with a plain metal railing, the wide dark river, a few far lights on the other bank, black silhouettes of coconut palms; no signs, no writing anywhere",
+   "light": "night, deep blue darkness, a distant orange street lamp behind, the black river with long orange reflections, cool moonless sky, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2929",
+   "note": "his face sits in the upper middle; the question text is left to the builder (no writing painted)"
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "2": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "4": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "7": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "9": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "11": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "14": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "17": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "18": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "21": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "24": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "25": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "26": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "30": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "34": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "36": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "40": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "42": {
+   "full": "bk_17b",
+   "shot": 17
+  },
+  "45": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "46": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "49": {
+   "full": "bk_19b",
+   "shot": 19
+  },
+  "51": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "52": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "53": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "55": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "57": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "58": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "61": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "64": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "68": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "69": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "70": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "71": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "74": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "75": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "79": {
+   "full": "bk_34b",
+   "shot": 34
+  },
+  "82": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "84": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "88": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "91": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "93": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "94": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "96": {
+   "full": "bk_42",
+   "shot": 42
+  },
+  "98": {
+   "full": "bk_42b",
+   "shot": 42
+  },
+  "101": {
+   "full": "bk_43",
+   "shot": 43
+  },
+  "120": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "121": {
+   "full": "bk_39",
+   "shot": 39
+  }
+ }
+}

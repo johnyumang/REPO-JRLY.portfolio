@@ -1,0 +1,43 @@
+{
+ "fact_id": "t09",
+ "fact_english": "Young Philippine sailfin lizards can run short distances across the surface of water; adults get too heavy to do it.",
+ "label_onscreen": "IBID",
+ "source_onscreen": "Pinagmulan: Wikipedia",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang batang ibid, ang Philippine sailfin lizard, kayang tumakbo sa ibabaw ng tubig, saglit lang!",
+   "emphasis": [
+    "tubig"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Pag tumanda at bumigat, lulubog na. Parang ako pagkatapos ng Pasko.",
+   "emphasis": [
+    "bumigat"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 18,
+ "after_text": "Hindi siya nagbiro, inamoy niya ako, at umatras.",
+ "insert_time": 80.08,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "The present-day scene ends here: Indio tells how Usman did not joke but smelled him and backed away, and right after, the story jumps to Maynila in 1570 (a new paragraph, 0.94 s gap). Moved on 13 Nov because the old cut came between Usman's question and Indio's line telling his reaction, which split one thought, and it put the break's joke right before 'Hindi siya nagbiro'.",
+ "source_note": "Re-checked on 13 Nov by a researcher and a separate second reader: the fact does NOT hold to the rule (two independent reputable sources); see trivia/pool.json notes. This episode ships WITHOUT the trivia break. A copy with the break as it is may be kept beside it for the owner to choose; do not publish that copy."
+}

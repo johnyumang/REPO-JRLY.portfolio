@@ -1,0 +1,48 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 66,
+   "text": "Ang kathang-isip: si Kap Ramil, ang Alcaín Builders, ang pader-baha sa Kawit at ang mga papel nito, at ang eksena sa baybayin."
+  },
+  {
+   "index": 67,
+   "text": "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 26,
+   "text": "Tinahak ko ang guhit ng pader kasama ang Yúmud, diwa ng tubig sa kuwentong-bayan ng Manobo.",
+   "why": "Plot line carrying its own folklore attribution, not a disclaimer about the story."
+  },
+  {
+   "index": 50,
+   "text": "Ang tikbalang, na sa kuwento ay nagliligaw ng manlalakbay, ngayon ay nagliligaw ng estrangherong naghahanap sa amin.",
+   "why": "Plot line; 'sa kuwento' points to the folklore, not to our story."
+  },
+  {
+   "index": 52,
+   "text": "Sa vlog ni Rico Bulan, nag-imbento siya ng kuwento tungkol sa pera ko.",
+   "why": "Plot: inside the story, Rico makes up lies."
+  },
+  {
+   "index": 63,
+   "text": "Ang tiyak: totoo ang tungkulin ng punong barangay at ang edad na labingwalo sa batas.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 64,
+   "text": "Tiyak din na isinulat ni Plasencia ang ulat niya noong 1589.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 65,
+   "text": "Ang pinagtatalunan: ayon kay Damon Woods, baka hindi barangay ang tawag ng mga Tagalog sa sarili nila.",
+   "why": "History (Pinagtatalunan)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ang pinagtatalunan: ayon kay Damon Woods, baka hindi barangay ang tawag ng mga Tagalog sa sarili nila. / Sa hologram: kaalaman, siyamnapung porsiyento, at isang tanong, sino ang lalaking may pako?"
+}

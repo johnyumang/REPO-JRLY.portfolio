@@ -1,0 +1,342 @@
+{
+ "_": {
+  "whoosh_cuts": false,
+  "levels": {
+   "amb": -14,
+   "music": -14,
+   "foley": -15,
+   "spot": -11,
+   "duck": 8,
+   "fx_duck": 12
+  },
+  "bed_per_line": true,
+  "note": "Every spot and foley has a NEGATIVE 'at': it starts in the silence before its line, never on a word; sentence 0 has none because the shout is at 0.00. Durations are 0.3 s or less where the generator takes one. The Mass (30 to 33) has the sea and nothing else. No gongs (SOUND.md: kulintang belongs to Mindanao and Sulu); the old island gets the neutral bamboo flute, the yacht a guitar. Pots: 'plates' as the nearest generator, low, a person should listen."
+ },
+ "0": {
+  "amb": [
+   "sea:-6",
+   "crowd:-14",
+   "wind:-12"
+  ],
+  "music": "heartbeat"
+ },
+ "2": {
+  "music": "drone",
+  "level": -3
+ },
+ "4": {
+  "music": "none",
+  "level": -2
+ },
+ "7": {
+  "amb": [
+   "sea:-10",
+   "crowd:-8",
+   "wind:-14"
+  ],
+  "music": "guitar",
+  "level": -4,
+  "spot": [
+   {
+    "what": "whoosh",
+    "at": -0.35,
+    "dur": 0.3,
+    "gain": -10
+   }
+  ]
+ },
+ "15": {
+  "music": "none",
+  "level": -3,
+  "foley": [
+   {
+    "what": "steps_wood",
+    "at": -0.35,
+    "pace": "walk",
+    "count": 2,
+    "gain": -8
+   }
+  ]
+ },
+ "19": {
+  "amb": [
+   "sea:-6",
+   "wind:-10"
+  ],
+  "music": "drone",
+  "level": -4
+ },
+ "20": {
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": -0.35,
+    "dur": 0.3,
+    "gain": -6
+   }
+  ]
+ },
+ "21": {
+  "amb": [
+   "sea:-6",
+   "forest:-12",
+   "wind:-14"
+  ],
+  "music": "flute",
+  "level": -4,
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.3,
+    "gain": -8
+   }
+  ]
+ },
+ "23": {
+  "foley": [
+   {
+    "what": "dog_paws",
+    "at": -0.35,
+    "count": 3,
+    "gain": -8
+   }
+  ]
+ },
+ "27": {
+  "amb": [
+   "forest:-6",
+   "sea:-10"
+  ],
+  "music": "none",
+  "level": -3,
+  "foley": [
+   {
+    "what": "cloth",
+    "at": -0.3,
+    "dur": 0.3,
+    "gain": -8
+   }
+  ]
+ },
+ "30": {
+  "amb": [
+   "sea:-4"
+  ],
+  "music": "none",
+  "level": -4
+ },
+ "34": {
+  "amb": [
+   "sea:-6",
+   "forest:-12"
+  ],
+  "music": "none",
+  "level": -3
+ },
+ "38": {
+  "amb": [
+   "sea:-6",
+   "wind:-12"
+  ],
+  "music": "drone",
+  "level": -5
+ },
+ "42": {
+  "music": "none",
+  "level": -3
+ },
+ "47": {
+  "amb": [
+   "sea:-6",
+   "crowd:-6",
+   "night_insects:-12"
+  ],
+  "music": "heartbeat",
+  "level": -2,
+  "spot": [
+   {
+    "what": "plates",
+    "at": -0.35,
+    "dur": 0.3,
+    "count": 4,
+    "gain": -8
+   }
+  ]
+ },
+ "48": {
+  "spot": [
+   {
+    "what": "riser",
+    "at": -0.05,
+    "dur": 0.35,
+    "gain": -8
+   }
+  ]
+ },
+ "49": {
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.3,
+    "gain": -8,
+    "hush": 0.2
+   }
+  ]
+ },
+ "51": {
+  "music": "drone",
+  "level": -3
+ },
+ "54": {
+  "foley": [
+   {
+    "what": "cloth",
+    "at": -0.3,
+    "dur": 0.3,
+    "gain": -8
+   }
+  ]
+ },
+ "57": {
+  "music": "heartbeat",
+  "level": -1,
+  "spot": [
+   {
+    "what": "bark",
+    "at": -0.35,
+    "count": 1,
+    "gain": -8
+   }
+  ]
+ },
+ "60": {
+  "amb": [
+   "sea:-8",
+   "wind:-12"
+  ],
+  "music": "none",
+  "level": -6
+ },
+ "61": {
+  "amb": [
+   "sea:-12"
+  ],
+  "level": -8
+ },
+ "62": {
+  "amb": [
+   "sea:-10"
+  ],
+  "music": "none",
+  "level": -6
+ },
+ "64": {
+  "amb": [
+   "sea:-4",
+   "wind:-12"
+  ],
+  "music": "drone",
+  "level": -5,
+  "spot": [
+   {
+    "what": "splash",
+    "at": -0.4,
+    "gain": -6
+   }
+  ]
+ },
+ "67": {
+  "music": "none",
+  "level": -6
+ },
+ "70": {
+  "amb": [
+   "sea:-6",
+   "forest:-14",
+   "wind:-14"
+  ],
+  "music": "flute",
+  "level": -4
+ },
+ "75": {
+  "spot": [
+   {
+    "what": "splash",
+    "at": -0.35,
+    "gain": -12
+   }
+  ]
+ },
+ "81": {
+  "level": -5
+ },
+ "84": {
+  "music": "drone",
+  "level": -6,
+  "spot": [
+   {
+    "what": "shimmer",
+    "at": -0.35,
+    "dur": 0.3,
+    "gain": -12
+   }
+  ]
+ },
+ "85": {
+  "music": "none",
+  "level": -8
+ },
+ "86": {
+  "music": "flute",
+  "level": -4
+ },
+ "89": {
+  "amb": [
+   "fire:-6",
+   "sea:-10",
+   "crowd:-14"
+  ],
+  "music": "flute",
+  "level": -4
+ },
+ "93": {
+  "amb": [
+   "sea:-8",
+   "wind:-10"
+  ],
+  "music": "none",
+  "level": -4,
+  "spot": [
+   {
+    "what": "impact",
+    "at": -0.3,
+    "gain": -10
+   }
+  ]
+ },
+ "95": {
+  "level": -6
+ },
+ "96": {
+  "music": "guitar",
+  "level": -4
+ },
+ "26": {
+  "level": -10
+ },
+ "46": {
+  "level": -9
+ },
+ "58": {
+  "level": -7
+ },
+ "59": {
+  "level": -1
+ },
+ "83": {
+  "level": -11
+ },
+ "88": {
+  "level": -10
+ }
+}

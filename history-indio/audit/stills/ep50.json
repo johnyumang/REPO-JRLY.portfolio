@@ -1,0 +1,17 @@
+{
+ "episode": 50,
+ "audited_by": "render-worker-ep08-09-19-30",
+ "stills_looked_at": 35,
+ "clean": true,
+ "defects": [
+  {
+   "still": "full/old_page.jpg",
+   "shots": [
+    14
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "Both pages of the open Bible are filled with rows of illegible pseudo-text with small glyph headers in the top corners, where the prompt asked for faint lines only."
+  }
+ ]
+}

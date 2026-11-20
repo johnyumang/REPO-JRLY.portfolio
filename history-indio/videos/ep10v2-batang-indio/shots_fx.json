@@ -1,0 +1,591 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "toward the boy alone"
+ },
+ "1": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "toward the boy alone",
+  "key": 0
+ },
+ "2": {
+  "fx": [],
+  "move": "push_in",
+  "why": "closing in on his confession",
+  "sub_v": 270
+ },
+ "3": {
+  "fx": [],
+  "move": "push_in",
+  "why": "closing in on his confession",
+  "key": 2,
+  "sub_v": 270
+ },
+ "4": {
+  "fx": [],
+  "move": "push_in",
+  "why": "closing in on his confession",
+  "key": 2,
+  "sub_v": 270
+ },
+ "5": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "follows the lens down"
+ },
+ "6": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "follows the lens down",
+  "key": 5
+ },
+ "7": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "settles behind the tree",
+  "trans_in": "fade"
+ },
+ "8": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "settles behind the tree",
+  "key": 7
+ },
+ "9": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "settles behind the tree",
+  "key": 7
+ },
+ "10": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "settles behind the tree",
+  "key": 7
+ },
+ "11": {
+  "fx": [],
+  "move": "hold",
+  "why": "the banana cue joke plays"
+ },
+ "12": {
+  "fx": [],
+  "move": "hold",
+  "why": "the banana cue joke plays",
+  "key": 11
+ },
+ "13": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the dog's nose leads us",
+  "sub_v": 220
+ },
+ "14": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the dog's nose leads us",
+  "key": 13,
+  "sub_v": 220
+ },
+ "15": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the dog's nose leads us",
+  "key": 13,
+  "sub_v": 220
+ },
+ "16": {
+  "fx": [],
+  "move": "hold",
+  "why": "the punchline lands still"
+ },
+ "17": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she taps the lens"
+ },
+ "18": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she taps the lens",
+  "key": 17
+ },
+ "19": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she taps the lens",
+  "key": 17
+ },
+ "20": {
+  "fx": [],
+  "move": "push_in",
+  "why": "ends on the boy reading"
+ },
+ "21": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman looks too, fondly"
+ },
+ "22": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman looks too, fondly",
+  "key": 21
+ },
+ "23": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "down to the chalk question",
+  "sub_v": 900
+ },
+ "24": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the proud answer draws us"
+ },
+ "25": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the proud answer draws us",
+  "key": 24
+ },
+ "26": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the proud answer draws us",
+  "key": 24
+ },
+ "27": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the proud answer draws us",
+  "key": 24
+ },
+ "28": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her warm approval, closer"
+ },
+ "29": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her warm approval, closer",
+  "key": 28
+ },
+ "30": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "follows the shaking hand"
+ },
+ "31": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he says it is false"
+ },
+ "32": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he says it is false",
+  "key": 31
+ },
+ "33": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "ends on the raised eyebrow"
+ },
+ "34": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward his Lolo's book",
+  "sub_v": 160
+ },
+ "35": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward his Lolo's book",
+  "key": 34,
+  "sub_v": 160
+ },
+ "36": {
+  "fx": [],
+  "move": "hold",
+  "why": "his eyes do not waver",
+  "sub_v": 230
+ },
+ "37": {
+  "fx": [],
+  "move": "hold",
+  "why": "his eyes do not waver",
+  "key": 36,
+  "sub_v": 230
+ },
+ "38": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper to us"
+ },
+ "39": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper to us",
+  "key": 38
+ },
+ "40": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper to us",
+  "key": 38
+ },
+ "41": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows him to the door",
+  "trans_in": "whip"
+ },
+ "42": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows him to the door",
+  "key": 41
+ },
+ "43": {
+  "fx": [],
+  "move": "hold",
+  "why": "she is torn two ways"
+ },
+ "44": {
+  "fx": [],
+  "move": "hold",
+  "why": "she is torn two ways",
+  "key": 43
+ },
+ "45": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the medal goes to him"
+ },
+ "46": {
+  "fx": [],
+  "move": "hold",
+  "why": "he talks to the dog"
+ },
+ "47": {
+  "fx": [],
+  "move": "hold",
+  "why": "the chant comes down"
+ },
+ "48": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "the chant comes down",
+  "key": 47
+ },
+ "49": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "the chant comes down",
+  "key": 47
+ },
+ "50": {
+  "fx": [],
+  "move": "pan_left",
+  "why": "he strides for the gate"
+ },
+ "51": {
+  "fx": [],
+  "move": "pan_left",
+  "why": "he strides for the gate",
+  "key": 50
+ },
+ "52": {
+  "fx": [],
+  "move": "hold",
+  "why": "her hand stops him"
+ },
+ "53": {
+  "fx": [],
+  "move": "hold",
+  "why": "her hand stops him",
+  "key": 52
+ },
+ "54": {
+  "fx": [],
+  "move": "push_in",
+  "why": "bitter behind the wire"
+ },
+ "55": {
+  "fx": [],
+  "move": "push_in",
+  "why": "bitter behind the wire",
+  "key": 54
+ },
+ "56": {
+  "fx": [],
+  "move": "push_in",
+  "why": "bitter behind the wire",
+  "key": 54
+ },
+ "57": {
+  "fx": [],
+  "move": "hold",
+  "why": "he admits it to us"
+ },
+ "58": {
+  "fx": [],
+  "move": "hold",
+  "why": "he admits it to us",
+  "key": 57
+ },
+ "59": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "Usman pulls him back"
+ },
+ "60": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "Usman pulls him back",
+  "key": 59
+ },
+ "61": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "Usman pulls him back",
+  "key": 59
+ },
+ "62": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she shares her half"
+ },
+ "63": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she shares her half",
+  "key": 62
+ },
+ "64": {
+  "fx": [],
+  "move": "hold",
+  "why": "her kindness, plainly"
+ },
+ "65": {
+  "fx": [],
+  "move": "hold",
+  "why": "her kindness, plainly",
+  "key": 64
+ },
+ "66": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "she kneels to his height"
+ },
+ "67": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "the comeback: his plain honesty",
+  "dof": "far",
+  "sub_v": 380
+ },
+ "68": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "the comeback: his plain honesty",
+  "key": 67,
+  "sub_v": 380
+ },
+ "69": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "the comeback: his plain honesty",
+  "key": 67,
+  "sub_v": 380
+ },
+ "70": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he owns up too"
+ },
+ "71": {
+  "fx": [],
+  "move": "hold",
+  "why": "he says it quietly"
+ },
+ "72": {
+  "fx": [],
+  "move": "hold",
+  "why": "he says it quietly",
+  "key": 71
+ },
+ "73": {
+  "fx": [],
+  "move": "hold",
+  "why": "he says it quietly",
+  "key": 71
+ },
+ "74": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper, eyes shining"
+ },
+ "75": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper, eyes shining",
+  "key": 74
+ },
+ "76": {
+  "fx": [],
+  "move": "hold",
+  "why": "his whisper, eyes shining",
+  "key": 74
+ },
+ "77": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she corrects the book",
+  "trans_in": "fade"
+ },
+ "78": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she corrects the book",
+  "key": 77
+ },
+ "79": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her admission lands on him"
+ },
+ "80": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her admission lands on him",
+  "key": 79
+ },
+ "81": {
+  "fx": [],
+  "move": "hold",
+  "why": "the paper changes hands",
+  "sub_v": 350
+ },
+ "82": {
+  "fx": [],
+  "move": "hold",
+  "why": "a dry exchange, no move"
+ },
+ "83": {
+  "fx": [],
+  "move": "hold",
+  "why": "a dry exchange, no move",
+  "key": 82
+ },
+ "84": {
+  "fx": [],
+  "move": "hold",
+  "why": "a dry exchange, no move",
+  "key": 82
+ },
+ "85": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "lens swings to the gate"
+ },
+ "86": {
+  "fx": [],
+  "move": "hold",
+  "why": "Lolo's quiet promise"
+ },
+ "87": {
+  "fx": [],
+  "move": "push_in",
+  "why": "his promise, heard close"
+ },
+ "88": {
+  "fx": [],
+  "move": "push_in",
+  "why": "his promise, heard close",
+  "key": 87
+ },
+ "89": {
+  "fx": [],
+  "move": "hold",
+  "why": "years later, he is alone",
+  "trans_in": "flash"
+ },
+ "90": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "ends on the buried tin"
+ },
+ "91": {
+  "fx": [],
+  "move": "push_in",
+  "why": "ends on the two words"
+ },
+ "92": {
+  "fx": [],
+  "move": "push_in",
+  "why": "ends on the two words",
+  "key": 91
+ },
+ "93": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lolo kept it all"
+ },
+ "94": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lolo kept it all",
+  "key": 93
+ },
+ "95": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "follows the ships upward"
+ },
+ "96": {
+  "fx": [],
+  "move": "push_in",
+  "why": "ends on Lolo's warning",
+  "sub_v": 250
+ },
+ "97": {
+  "fx": [],
+  "move": "hold",
+  "why": "he frowns at the line"
+ },
+ "98": {
+  "fx": [],
+  "move": "hold",
+  "why": "he frowns at the line",
+  "key": 97
+ },
+ "99": {
+  "fx": [],
+  "move": "hold",
+  "why": "the question must stay readable"
+ },
+ "100": {
+  "fx": [],
+  "move": "hold",
+  "why": "the question must stay readable",
+  "key": 99
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "fact_id": "t28",
+ "fact_english": "For sea turtles, the temperature of the sand decides whether the hatchlings become male or female; warmer sand gives more females.",
+ "label_onscreen": "PAWIKAN",
+ "source_onscreen": "Pinagmulan: NOAA",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Sa pawikan, ang init ng buhangin ang nagpapasya kung babae o lalaki ang mapipisa. Mas mainit, mas maraming babae!",
+   "emphasis": [
+    "buhangin"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ang buhangin, may say sa gender reveal.",
+   "emphasis": [
+    "gender"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 33,
+ "after_text": "Nawala si Sinag sa isang ihip ng hangin na amoy sunog na asukal.",
+ "insert_time": 133.78,
+ "palette": "sea",
+ "grave": true,
+ "why_here": "After Sinag vanishes in a breath of burnt-sugar wind, the confrontation on the ark roof is over, and the next line (\"Pagkatapos, si Tubal.\") opens a new scene in Tondo. Moved on 13 Nov from after sentence 25, where it split Tala's declaration and its reason at the peak of the standoff."
+}

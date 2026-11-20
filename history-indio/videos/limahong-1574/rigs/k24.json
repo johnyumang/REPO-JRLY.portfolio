@@ -1,0 +1,20 @@
+{
+  "note": "Katana planted in the battlefield with torn white ribbon, figures walking away: ribbon and banners in wind, figures sway, smoke and clouds drift, ground mist, sun glow, slow push",
+  "camera": {"zoom": [1.0, 1.06], "focus": [300, 430]},
+  "effects": [
+    {"fx": "wind", "mask": {"poly": [[225, 185], [300, 190], [420, 250], [640, 225], [705, 440], [625, 565], [540, 500], [470, 400], [300, 345], [235, 270]], "soft": 22}, "amp": 4, "wave": 170, "speed": 4},
+    {"fx": "wind", "mask": {"poly": [[450, 240], [640, 225], [705, 440], [625, 565], [530, 480], [480, 380]], "soft": 30}, "amp": 4, "wave": 110, "speed": 5.5, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[25, 560], [125, 565], [120, 720], [40, 730]], "soft": 25}, "amp": 3, "wave": 130, "speed": 3.5, "phase": 2},
+    {"fx": "wind", "mask": {"poly": [[665, 600], [720, 600], [720, 770], [680, 760]], "soft": 20}, "amp": 3, "wave": 120, "speed": 3.5},
+    {"fx": "wind", "mask": {"ellipse": [625, 815, 22, 40], "soft": 12}, "amp": 2, "wave": 80, "speed": 3.5, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[270, 480], [400, 470], [470, 640], [440, 770], [300, 750], [280, 600]], "soft": 50}, "amp": 2.5, "wave": 260, "speed": 1.1},
+    {"fx": "wind", "mask": {"poly": [[330, 0], [720, 0], [720, 200], [660, 210], [420, 180]], "soft": 60}, "amp": 2, "wave": 340, "speed": 0.8},
+    {"fx": "turn", "mask": {"ellipse": [467, 862, 34, 62], "soft": 16}, "pivot": [467, 925], "sway": 1.3, "speed": 2.2},
+    {"fx": "turn", "mask": {"ellipse": [585, 858, 38, 68], "soft": 16}, "pivot": [585, 928], "sway": 1.3, "speed": 2.0, "phase": 1.6},
+    {"fx": "turn", "mask": {"ellipse": [512, 872, 20, 40], "soft": 10}, "pivot": [512, 912], "sway": 1.3, "speed": 2.4, "phase": 0.8},
+    {"fx": "turn", "mask": {"ellipse": [408, 885, 16, 32], "soft": 9}, "pivot": [408, 915], "sway": 1.3, "speed": 2.3, "phase": 2.4},
+    {"fx": "glow", "mask": {"ellipse": [515, 620, 130, 100], "soft": 90}, "amount": 0.04},
+    {"fx": "steam", "from": [520, 925], "rise": 110, "spread": 60, "size": 1.3, "color": [120, 115, 110], "strength": 0.35},
+    {"fx": "steam", "from": [120, 960], "rise": 120, "spread": 50, "size": 1.2, "color": [90, 85, 85], "strength": 0.3}
+  ]
+}

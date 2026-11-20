@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "sentences.json",
+ "cut": [
+  {
+   "index": 70,
+   "text": "Kathang-isip: ang digmaang ito, ang Trinity, ang Bakunawa, at kaming lahat."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 37,
+   "text": "Kathang-isip: lahat ng sinabi mong walang pag-asa.",
+   "why": "Plot. Indio uses the tiyak/kathang-isip sorting as a weapon against Lucifer's lies. The ruling names it as a keep."
+  },
+  {
+   "index": 41,
+   "text": "Naputol sa ere ang bawat salitang hindi totoo, at naging abo bago umabot sa mga arko.",
+   "why": "Plot action. It says nothing about the story being fiction."
+  },
+  {
+   "index": 36,
+   "text": "Pinagtatalunan: kung bentahan nga iyon; at totoo, wala akong binago sa nakaraan, ang nakaraan ang bumago sa akin.",
+   "why": "Disputed history joined to a character's own honesty."
+  },
+  {
+   "index": 67,
+   "text": "Ang larawan ng anghel na naghimagsik, hinubog ng mga sumunod na tradisyon at ng tulang Paradise Lost ni John Milton, 1667.",
+   "why": "A fact about the real record, not about our story."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Tiyak din: ang labanan sa Look ng Maynila, unang araw ng Mayo 1898. / Kaya ikaw, ka-Indio, i-comment mo."
+}

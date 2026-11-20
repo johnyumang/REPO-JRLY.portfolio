@@ -1,0 +1,45 @@
+{
+ "episode": 1,
+ "audited_by": "ep39 render machine",
+ "stills_looked_at": 29,
+ "clean": false,
+ "defects": [
+  {
+   "still": "keys/k12.png",
+   "shots": [
+    12
+   ],
+   "type": "writing",
+   "must_fix": true,
+   "what": "The bus in the centre has a destination sign and a front licence plate with East-Asian-looking glyphs and numbers (\"A88.J\"), mirrored again in the puddle.",
+   "rejected": "Conductor looked at full size: the sign and the plate are a few millimetres wide on a phone, behind rain, and cannot be read as letters; Episode 1 is the user's own recording and approved cut, so it is not rebuilt for this. Can be retouched later if the user asks."
+  },
+  {
+   "still": "keys/k31.png",
+   "shots": [
+    31
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The letters around the map (top, bottom left, bottom right) carry rows of pseudo-cursive handwriting."
+  },
+  {
+   "still": "keys/k03.png",
+   "shots": [
+    3
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hanging banners on the left and lower right carry painted scribble pseudo-text."
+  },
+  {
+   "still": "keys/k06.png",
+   "shots": [
+    6
+   ],
+   "type": "writing",
+   "must_fix": false,
+   "what": "The bronze plaque by the building door and the paper in Indio's hand carry rows of pseudo-text lines."
+  }
+ ]
+}

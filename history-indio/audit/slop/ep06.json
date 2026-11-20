@@ -1,0 +1,299 @@
+{
+ "episode": 6,
+ "audited_by": "ep06-voice-worker (two fresh readers, third reader compared old/new)",
+ "keys_looked_at": 39,
+ "clean": false,
+ "faults": [
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "full/hands.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The clasp does not resolve into two hands: pale fingers come from both the dark coat sleeve and the tattooed arm around a fingerless brown lump, so it reads as three hands or one hand gripping a stone, and Indio's tattooed forearm is pale pink, not brown, with blue vine scrolls instead of his geometric tattoos.",
+   "where": "centre of frame, the clasp and the right forearm",
+   "fixed": true
+  },
+  {
+   "key": "k24",
+   "shots": [
+    24
+   ],
+   "still": "full/pulse.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The doctor's hand and Rizal's hand melt into one knuckly fist with thumbs sprouting from it at several places; no fingers lie on a wrist, so it does not read as taking a pulse.",
+   "where": "centre, where the two sleeves meet",
+   "fixed": true
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_cold.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "A large flat teal blob with a hard ragged edge (a keying leftover, not breath) sits in the sky beside his head and runs into his cheek.",
+   "where": "left of his head, upper-left third",
+   "fixed": true
+  },
+  {
+   "key": "k35",
+   "shots": [
+    35
+   ],
+   "still": "full/chest_empty.jpg",
+   "type": "merge",
+   "must_fix": true,
+   "what": "The broken cord ends in a black hole in his skin, like a tube or wire plugged into his chest.",
+   "where": "upper right of the chest, above the hand",
+   "fixed": true
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "chars/m_look.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is porcelain-white with grey eyes and a round moe schoolgirl face with bangs, while in shot 2 she is a brown-skinned adult Filipina with brown eyes and no bangs.",
+   "where": "face",
+   "fixed": true
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "chars/indio_smile_phone.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio has short spiky hair with no topknot and a rounder, boyish face, unlike the topknotted Indio of shots 8, 10 and 12 right after.",
+   "where": "head",
+   "fixed": true
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/rizal_back.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Rizal (35) has plainly grey-silver hair under the bowler hat and reads as an old man; his hair should be black.",
+   "where": "back of the head under the hat",
+   "fixed": true
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "chars/usman_far.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both of Usman's ears hang folded; he should have one folded ear and one upright.",
+   "where": "ears"
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "chars/usman_howl.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Both ears stand up pointed with no folded ear, and the coat is shaggier than in his other shots.",
+   "where": "ears"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15,
+    34,
+    38,
+    43,
+    52,
+    58,
+    60
+   ],
+   "still": "chars/indio_cold.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The 1896 Indio switches between a collarless camisa (shots 20, 23, 27, 56) and a modern collared button shirt (shots 15, 34, 38, 43, 52, 58, 60); in shot 15 the medallion hangs on a gold chain, not a cord, and his forearms show no tattoos.",
+   "where": "shirt collar, neck, forearms"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "chars/indio_sadwatch.png",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The medallion carries a sun-star design here (shot 13 shows a sun with a triangle, the other shots a plain disc), and his face and hair are drawn heavier and more realistic than in his other shots.",
+   "where": "medallion on chest; face"
+  },
+  {
+   "key": "k58",
+   "shots": [
+    58
+   ],
+   "still": "chars/indio_point.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The pointing hand thrust at the camera is a knotted claw: the index finger up, a second finger behind it, a loose fingertip bulging out of the middle of the palm and a thumb with its nail facing us, with no readable ring finger or pinky.",
+   "where": "his right hand, lower left, the call-to-action shot",
+   "fixed": true
+  },
+  {
+   "key": "k43",
+   "shots": [
+    43
+   ],
+   "still": "chars/indio_palm.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The open palm shows only three fingers and a thumb; two of the fingertips sit stacked at the left so they are hard to read.",
+   "where": "the open hand, lower centre"
+  },
+  {
+   "key": "k60",
+   "shots": [
+    60
+   ],
+   "still": "chars/indio_fist.jpg",
+   "type": "style",
+   "must_fix": false,
+   "what": "Flat black hair strands stick out sideways from behind the headband and the topknot like cut-out shapes, with a stray black speck beside them.",
+   "where": "top left of the head"
+  },
+  {
+   "key": "k21",
+   "shots": [
+    21
+   ],
+   "still": "full/soldiers.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The front drummer carries two drums at odd angles, one floating at his chest with a drumstick stuck through its rim.",
+   "where": "centre foreground"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/m_back.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's lowered left hand is a small crumpled fist with a grass blade growing through it, and the coat cuff above it carries a '40'-like mark.",
+   "where": "lower left, her left hand and cuff"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/medallion.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The hand holding the glowing medallion is a huge fingerless mass: one thumb at the top, then a smooth beige slab with creases, and no fingers can be counted.",
+   "where": "the whole hand around the medallion"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/m_back.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's raised hand is a two-pronged mitten (a thumb and one finger) with the medallion pressed flat into the palm, and the medallion face shows a letter-like '&' or '$' mark and hangs on a gold chain, not a cord.",
+   "where": "upper right, her raised hand"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "chars/indio_wait.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "The hand holding the phone is two skin tones split by a jagged seam across the knuckles, as if the fingers were pasted on from another hand.",
+   "where": "his right hand with the phone, lower left"
+  },
+  {
+   "key": "k12",
+   "shots": [
+    12
+   ],
+   "still": "chars/indio_read.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The script says he holds the medallion, but it floats just above his closed fist, touching nothing.",
+   "where": "centre, fist and medallion"
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "chars/m_look.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The closed red umbrella hangs in the air behind her shoulder with no hand or strap holding it, and the coat edges show a ragged double cut-out outline against the background.",
+   "where": "upper left behind her shoulder; both coat edges"
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "chars/indio_smile_phone.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The phone has two camera lenses at opposite top corners like a pair of eyes, and he beams up at the back of the phone, not its screen.",
+   "where": "top, the phone"
+  },
+  {
+   "key": "k30",
+   "shots": [
+    27,
+    30,
+    46
+   ],
+   "still": "full/hands.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's forearm tattoo changes from shot to shot: a zigzag band with crosses (27), blue vine scrolls (30), a row of diamonds and triangles (46).",
+   "where": "forearm"
+  },
+  {
+   "key": "k47",
+   "shots": [
+    47
+   ],
+   "still": "full/note.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Below the big thumb the two hands holding the note dissolve into a brown mass with creases but no countable fingers.",
+   "where": "lower half of the frame"
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "chars/usman_lean.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "Indio's dark grey trouser leg has the same colour and fur-like strokes as Usman, so the dog seems to grow a giant second haunch on the left.",
+   "where": "left third, where the dog touches the leg"
+  }
+ ]
+}

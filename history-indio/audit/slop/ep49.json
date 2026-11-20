@@ -1,0 +1,320 @@
+{
+ "episode": 49,
+ "audited_by": "ep49 render worker (two fresh readers, third reader compared old/new)",
+ "keys_looked_at": 73,
+ "clean": false,
+ "faults": [
+  {
+   "key": "k96",
+   "shots": [
+    96
+   ],
+   "still": "full/x_serpent.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "The one sleeping sea serpent has two closed-eye heads, one stacked under the other, so it reads as two serpents.",
+   "where": "both heads, left half of the frame",
+   "fixed": true
+  },
+  {
+   "key": "k62",
+   "shots": [
+    62
+   ],
+   "still": "full/fiction_list.jpg",
+   "type": "duplicate",
+   "must_fix": true,
+   "what": "The bay holds what reads as two sea creatures where there is one Bakunawa: a finned, flippered whale-serpent at the top and a separate tail coil below.",
+   "where": "upper third and lower half, left side",
+   "fixed": true
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/ask_build.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The red-and-white shop sign right behind Indio's head carries clear pseudo-letters, with a second smaller red sign beside it.",
+   "where": "upper right, behind Indio's head",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/star_melts.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Under the melting star the shapes read as a nose and open lips, the hand holding it has no clear fingers, and a loose sheet of blond hair hangs at the right edge with nobody it belongs to.",
+   "where": "top of frame under the star, right edge",
+   "fixed": true
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/notebook_teacher.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Ma'am Celia is a different woman from shot 28: young, with loose shoulder-length hair and a cream dress, instead of the lined forties woman with red lipstick and a blue-and-white outfit.",
+   "where": "her face and clothes, centre",
+   "fixed": true
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/child_sleeve.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Rico is drawn as a spiky-haired teenager in a black jacket with neon patches, not the thirties man in the black-and-red jacket with a camera from shot 39.",
+   "where": "Rico, right half",
+   "fixed": true
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/rico_admit.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The man kneeling to the child wears a plain yellow T-shirt and has a different face and haircut, so he does not read as Rico.",
+   "where": "right half",
+   "fixed": true
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/mem_galilee.jpg",
+   "type": "style",
+   "must_fix": true,
+   "what": "The still has black letterbox bars at the top and bottom (the bottom one about 55 px tall), so it looks like a pasted panel.",
+   "where": "top and bottom edges",
+   "fixed": true
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/sit_lola.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "Lola's two feet merge into one lump with a row of toes on top, and one leg passes behind a plank it should be in front of; small in the frame.",
+   "where": "lower right, Lola's feet at the pier edge"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/rico_face.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Rico's jacket is olive with a white T-shirt, not the black-and-red jacket of shot 39; the face itself is close enough.",
+   "where": "lower half"
+  },
+  {
+   "key": "k17",
+   "shots": [
+    17
+   ],
+   "still": "full/lola_asks.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The grandson Lola asks is a small boy in a red polo, not the forties Indio she is speaking to in the surrounding shots.",
+   "where": "right half"
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/indio_enough.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A four-armed black clock-hand cross floats in mid-air over the pier with no clock behind it, separate from the stick Indio holds.",
+   "where": "centre right, over the pier"
+  },
+  {
+   "key": "k55",
+   "shots": [
+    55
+   ],
+   "still": "full/usman_breakfast.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two upright pointed ears and no folded ear.",
+   "where": "dog's head"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/follow_end.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman, seen from behind, has two upright pointed ears and no folded ear.",
+   "where": "dog at lower centre"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "full/usman_crown.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, not one.",
+   "where": "dog's head"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/usman_teacher.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, not one.",
+   "where": "dog's head"
+  },
+  {
+   "key": "k48",
+   "shots": [
+    48
+   ],
+   "still": "full/eat_together.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is not recognisable: a young brown-haired man in a white open shirt with no grey in his hair, no dark grey coat and no red wrist handkerchief, cut straight after shot 47 where he is on model.",
+   "where": "right man",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/three_shore.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Indio's and M's joined hands are one small fused clump with scribbled fingers.",
+   "where": "centre, below the red handkerchief"
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/three_shore.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's hair hangs as a long ponytail with a grey streak down his back instead of a small topknot.",
+   "where": "Indio's head, left"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/family_behind.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "Papa's eyes do not match: one is open, the other half shut and lower.",
+   "where": "man in black shirt, centre left"
+  },
+  {
+   "key": "k36",
+   "shots": [
+    36
+   ],
+   "still": "full/officials.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "The engineer's eyes do not match behind her glasses: one is wide open, the other closed in a wink.",
+   "where": "woman in yellow hard hat"
+  },
+  {
+   "key": "k05",
+   "shots": [
+    5
+   ],
+   "still": "full/blade_floats.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The blade has no guard, its dark grip plugs straight into the blade through a gold ferrule, and loose silver blade tips float around it.",
+   "where": "lower middle and both side edges"
+  },
+  {
+   "key": "k65",
+   "shots": [
+    65
+   ],
+   "still": "full/follow_end.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "M's two legs do not match: one is in black trousers and a black shoe, the other is bare with a white ankle sock and strap shoe.",
+   "where": "lower right, M's legs below the coat"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/child_sleeve.jpg",
+   "type": "merge",
+   "must_fix": false,
+   "what": "The child's lower hand melts into the brown shoulder bag: knuckle lumps and a white cuff are grown into the leather with no readable fingers.",
+   "where": "child's left side, by the bag"
+  },
+  {
+   "key": "k40",
+   "shots": [
+    40
+   ],
+   "still": "full/child_sleeve.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The child is a bob-haired girl in a white hoodie and striped shorts here, but a short-haired boy in a blue shirt and green shorts in shot 42.",
+   "where": "child, left half"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/clock_needle.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The close-up hand is muddled: the thumb runs as a long finger split from the wrist and two fingers share one wide stalk behind the clock hub, so the hand reads as boneless at 3x.",
+   "where": "the hand, centre"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    50
+   ],
+   "still": "full/marks_fade.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "The fist at the bottom shows only a thumb and one lump of a curled finger covered in crackle lines like scales, so no fingers can be counted.",
+   "where": "bottom left, the hand under the tattooed forearm"
+  }
+ ],
+ "third_reader": {
+  "keep": 9,
+  "revert": 0,
+  "still_bad": 0,
+  "notes": "ask_build: red handkerchief on both wrists, plank behind his neck; child_sleeve: the child holds his hand rather than the cuff (minor, not must-fix)"
+ }
+}

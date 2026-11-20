@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 66,
+   "text": "Kathang-isip: ang mga arko, ang mga diwa, ang mga kakampi, ang bilang ng ka-Indio, ang gunaw at ang digmaan, at kami nina M at Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 51,
+   "text": "Bawat isang natutong magsabi ng tiyak, pinagtatalunan, kathang-isip, naging saksi rin.",
+   "why": "PLOT. Sorting claims is the heroes' weapon in Season 3."
+  },
+  {
+   "index": 60,
+   "text": "Grrr, linawin muna natin, par.",
+   "why": "The beat opener still introduces the Tiyak and Pinagtatalunan lines (61-64)."
+  },
+  {
+   "index": 63,
+   "text": "Karaniwang itinuturo na sa balangay nagmula ang salitang barangay, pero pinagtatalunan kung gaano ito kaliteral.",
+   "why": "Disputed history."
+  },
+  {
+   "index": 65,
+   "text": "Ang tambuli ay sungay ng kalabaw na pantawag ng tao, at kuwentong-bayan ang tikbalang, kapre, siyokoy, kappa, nahual, Kraken at yeti.",
+   "why": "A fact about the real tambuli plus a folklore attribution in its own sentence."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ang tambuli ay sungay ng kalabaw na pantawag ng tao, at kuwentong-bayan ang tikbalang, kapre, siyokoy, kappa, nahual, Kraken at yeti. / Limang lupa, limang laban."
+}

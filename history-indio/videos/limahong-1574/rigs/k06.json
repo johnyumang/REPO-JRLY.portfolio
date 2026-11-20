@@ -1,0 +1,19 @@
+{
+  "note": "Fisherman sees the fleet: head lifts, arm hauls net, breathing, junks bob, sails and palms in wind, surf shimmer, bow spray mist",
+  "camera": {"zoom": [1.0, 1.07], "focus": [420, 400]},
+  "effects": [
+    {"fx": "bob", "mask": {"ellipse": [450, 300, 165, 270], "soft": 45}, "dx": 0, "dy": 4, "speed": 1.1},
+    {"fx": "bob", "mask": [{"ellipse": [150, 440, 55, 105], "soft": 28}, {"ellipse": [270, 455, 42, 85], "soft": 25}, {"ellipse": [650, 455, 45, 85], "soft": 25}, {"ellipse": [40, 470, 45, 70], "soft": 25}], "dx": 0, "dy": 3, "speed": 1.5},
+    {"fx": "wind", "mask": {"poly": [[345, 50], [565, 30], [575, 380], [330, 400]], "soft": 30}, "amp": 2.2, "wave": 170, "speed": 3},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [240, 0], [150, 200], [0, 290]], "soft": 30}, "amp": 3.5, "wave": 120, "speed": 3.5},
+    {"fx": "wind", "mask": {"ellipse": [690, 570, 40, 45], "soft": 18}, "amp": 2, "wave": 80, "speed": 3.5},
+    {"fx": "shimmer", "mask": {"poly": [[290, 580], [590, 580], [590, 690], [720, 720], [720, 760], [560, 770], [430, 830], [300, 830]], "soft": 28}, "amp": 2},
+    {"fx": "shimmer", "mask": {"poly": [[300, 1150], [720, 1060], [720, 1280], [300, 1280]], "soft": 35}, "amp": 1.5},
+    {"fx": "steam", "from": [460, 545], "rise": 110, "spread": 160, "strength": 0.5},
+    {"fx": "turn", "mask": {"ellipse": [118, 583, 58, 48], "soft": 20}, "pivot": [110, 640], "sway": 1.2, "speed": 1.2, "gesture": 3, "at": [0.2, 0.35, 0.7, 0.85]},
+    {"fx": "turn", "mask": {"poly": [[128, 650], [185, 660], [250, 800], [242, 852], [195, 848], [140, 725]], "soft": 18},
+     "pivot": [150, 678], "sway": 0.6, "speed": 1.7, "gesture": 4, "at": [0.3, 0.45, 0.7, 0.85]},
+    {"fx": "breath", "ellipse": [75, 720, 80, 85]},
+    {"fx": "wind", "mask": {"poly": [[215, 850], [420, 960], [520, 1090], [230, 1090]], "soft": 28}, "amp": 1.8, "wave": 110, "speed": 3}
+  ]
+}

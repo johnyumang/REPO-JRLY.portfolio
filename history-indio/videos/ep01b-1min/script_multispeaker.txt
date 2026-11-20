@@ -1,0 +1,61 @@
+# INDIO: ANG SAKSI — Episode 1, Test B: "Punitin ang Cedula" (one-minute version, written new; not cut from the long episode)
+# MASTER script. One line per sentence: NAME: [tone] text. Lines in (parentheses) are picture notes, NOT spoken.
+# Speakers: TAGAPAGSALAYSAY (tells each action), INDIO (the owner's clone; "(sa atin)" = to the viewer), USMAN (the dog, only in 1896),
+# KATIPUNERO (the hard-faced guard), ISLAW (boy of twelve), BONIFACIO, MGA KATIPUNERO (crowd). Facts: ../ep01v2-ang-unang-talon/facts.md.
+# "cedula" is voiced "sedula". 0.5 s hush before Bonifacio's line (voice_post.json).
+# SAY: 1896=mil otsosyentos nobentay sais
+
+# --- 0. Hook (flash-forward: the camp, August 1896)
+(Low-angle close-up: the guard roars, bolo up, torches behind.)
+KATIPUNERO: [shout] Nasaan ang cedula mo?!
+(Extreme close-up, high angle: Indio's wide eyes, the blade level under his chin.)
+INDIO (sa atin): [dramatic] Papatayin ako dahil sa isang papel?
+
+# --- 1. Today (Quezon City, this morning; no dog)
+(Through the glass of a service window: his folder lies pushed back through the slot.)
+TAGAPAGSALAYSAY: [calm] Kaninang umaga, tinanggihan si Indio sa trabaho.
+(High angle, wide: alone on the curb, folder over his head against the sun.)
+INDIO: [dry] Walang cedula, walang trabaho.
+# --- 2. Tonight (the Pugad Lawin shrine, Bahay Toro; no dog)
+(Night rain at the Pugad Lawin shrine: the medallion on his chest glows.)
+TAGAPAGSALAYSAY: [low] Gabi, sa Pugad Lawin, uminit ang medalyon niya.
+
+# --- 3. 1896 (the camp outside Manila)
+(Bird's-eye: a ring of torches and Katipuneros; Indio sprawled in the middle, now in 1896 clothes.)
+TAGAPAGSALAYSAY: [low] Agosto 1896: bumagsak siya sa kampo ng mga Katipunero.
+(Over Indio's shoulder: the guard stands over him.)
+KATIPUNERO: [cold] Isinumbong na kami sa Kastila.
+(Dutch tilt, extreme close-up: the guard's face.)
+KATIPUNERO: [shout] Walang cedula, espiya!
+(Side view: wrists tied, Indio kneels; the blade at his neck again.)
+TAGAPAGSALAYSAY: [low] Itinutok ulit ang itak sa leeg niya.
+(Ground level: a black dog with a red kerchief sits at his knee and looks up. Seen first, then he speaks.)
+TAGAPAGSALAYSAY: [low] Sa tabi niya, may asong itim.
+USMAN: [playful] Par, umamin ka na.
+(Extreme close-up: Indio's face, comic shock.)
+INDIO: [shout] Nagsasalita ang aso?!
+(High angle over the guard's shoulder: Indio looks up, honest.)
+INDIO: [quiet] Totoo po, wala akong papel.
+(Low angle, full length: a skinny boy strides in between the men.)
+TAGAPAGSALAYSAY: [low] Lumapit si Islaw, bantay na dose anyos.
+(Close-up: Islaw's fierce face.)
+ISLAW: [hard] Ako rin, walang cedula.
+ISLAW: [hard] Pakawalan n'yo siya.
+(Medium: the guard lowers the bolo and looks away.)
+TAGAPAGSALAYSAY: [low] Ibinaba ang itak.
+
+# --- 4. The tearing (the same night)
+(Low angle, wide: a man steps out of the dark into the torchlight, his own small cedula held up over his head.)
+TAGAPAGSALAYSAY: [low] Humakbang sa liwanag ang Supremo, si Andres Bonifacio.
+(Hush. Low-angle medium close-up, dead centre, hold still.)
+BONIFACIO: [shout] Punitin ang mga cedula!
+(He tears it; behind him hundreds tear theirs.)
+TAGAPAGSALAYSAY: [calm] Pinunit niya. Sumabay ang daan-daan.
+(Bird's-eye: fists and bolos up, torn paper rising.)
+MGA KATIPUNERO: [shout] Mabuhay ang Pilipinas!
+(Over Indio's shoulder: Islaw looks up at him; paper drifts between them.)
+ISLAW: [awed] Buwis ng Kastila 'yon, Kuya.
+(Low angle, wide: Indio and Islaw, fists up, paper falling like snow.)
+INDIO (sa atin): [whisper] Ang papel na muntik kong ikamatay, pinunit nila para lumaya.
+(Close-up: Indio looks straight into the lens, a torn half of paper by his cheek.)
+INDIO (sa atin): [curious] Ikaw, anong papel ang pupunitin mo?

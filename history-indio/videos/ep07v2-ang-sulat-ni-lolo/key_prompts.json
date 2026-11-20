@@ -1,0 +1,533 @@
+{
+ "_note": "Episode 7 v2: one still per shot of shots.md (bk_<shot>), keys >= 100 are the silent shots inside a montage; full[...] holds subject/setting/light/seed",
+ "look": "bakunawa (pipeline/flux_hq.py through pipeline/draw_pick.py; cast and places in look_cast)",
+ "look_cast": {
+  "cast": {
+   "indio": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm",
+   "usman": "a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "imo": "a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot",
+   "lolo": "a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace",
+   "guard": "one Spanish colonial guard of 1896, a stocky man in a pale blue-and-white striped rayadillo uniform and a white-covered cap, his hands empty, no weapon",
+   "narcisa": "a slight Filipina woman in her forties in a long black 1890s mourning dress with a black veil over her hair, seen only from behind and far away, her face never shown",
+   "phone": "a plain modern black smartphone with no logo"
+  },
+  "places": {
+   "field": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "wall": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "inside": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "foot": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern"
+  },
+  "lente": "an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge",
+  "lens_view": "Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur."
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Extreme close-up, the camera close to his face, deep noon shade at the foot of a stone wall: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, mouth wide open in a shout, eyes wide, his face filling the upper right; at the upper left, beside his cheek, a plain modern black smartphone with no logo held up in his right hand with its glowing screen facing the camera, the screen plain with no writing, the back of the phone toward him. Face and screen in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard white noon sun on the ground beside them, short deep shadow at the wall foot, bright bounced daylight on faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6333",
+   "note": "screen glow and writing painted in code"
+  },
+  "bk_02": {
+   "subject": "Close-up from the side: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, eyes shut, jaw clenched, pressing his forehead against the back of a modern black smartphone that is dark and dead, held in both hands at his forehead. His head and the phone in the upper half; behind him the curve of a high stone wall. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": "hands at forehead, checked at 3x"
+  },
+  "bk_03": {
+   "subject": "Very wide high-angle shot looking down on an empty trampled field. Small, in the upper third of the picture: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, sitting in the grass, and beside him a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., sitting. No other people. The lower half is only trampled grass.",
+   "setting": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": ""
+  },
+  "bk_04": {
+   "subject": "Over-the-shoulder shot from just behind his right shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, looking down at a modern black smartphone held in his right hand at chest height, its screen glowing plain and blank with no writing, his thumb hovering above it. The phone and his shoulder in the upper half. No dog.",
+   "setting": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": ""
+  },
+  "bk_05": {
+   "subject": "Over the right shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, close: his face in profile at the top of the picture, looking down; in front of him a plain modern black smartphone with no logo held upright in his right hand, a thumb and four fingers, his thumb on its plain pale screen, which has no writing and faces us at an angle. Face and phone in the upper half. No dog.",
+   "setting": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1301",
+   "note": "phone lower edge near 58% height; text kept above 55%"
+  },
+  "bk_06": {
+   "subject": "High-angle shot from above and slightly behind his left shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, sitting, head bowed, face in three-quarter view lit pale from below; a plain modern black smartphone with no logo held up just under his chin in his right hand, its plain glowing screen facing up toward the camera, no writing; his left thumb hovers above it. Face and screen in the upper half. No dog.",
+   "setting": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3343",
+   "note": "over the left shoulder, high angle"
+  },
+  "bk_07": {
+   "subject": "Low-angle two-plane shot: in the foreground, sharp, a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., standing alert with his nose raised, sniffing, in the upper half of the picture; far behind at the top edge of the picture, small and soft across the empty field, a covered wooden cart pulled by one horse with two tiny far-off guards in pale striped uniforms walking beside it.",
+   "setting": "the open grassy field of Bagumbayan outside the walled city of Manila at noon on 30 December 1896, empty, the grass trampled flat, the long grey stone walls of the old Spanish city far behind, a few bare trees, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6829",
+   "note": ""
+  },
+  "bk_08": {
+   "subject": "Low-angle wide side view, the camera at ground level so the dirt path fills the lower half of the picture: in the upper half, along the foot of a high curved stone wall, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, running left to right, and a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., leaping a body-length ahead of him, room ahead of them; above them an old tree leans over the top of the wall.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": ""
+  },
+  "bk_09": {
+   "subject": "Looking straight up into a leaning tree: a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, sitting on a thick branch with his legs hanging, smiling, one finger to his lips, waving us up with his other hand. The boy in the upper half of the picture; leaves and bright sky around him.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun breaking through the leaves, dappled light and deep green shadow, strong backlight, rim light on hair and leaves, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": ""
+  },
+  "bk_10": {
+   "subject": "High-angle wide view over the top of a stone wall from a tree branch, looking down INTO a large round walled cemetery: the near wall top runs across the bottom of the picture; inside the ring of walls, in the far corner, small and far away, a fresh low mound of dark earth on open ground being smoothed by two tiny workmen with spades; no cross, no wooden board, no coffin, no body. The mound inside the walls, in the upper half; leaves frame the top edge.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "hard white noon sun straight overhead, short black shadows pooled under everything, bleached hot sky, heat haze, rim light on the grass tips, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": "three tiny workmen instead of two"
+  },
+  "bk_11": {
+   "subject": "Eye-level medium two-shot in profile among leaves: a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot on the left and a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm on the right, both lying on their bellies along one thick branch, a hand's width apart, both looking ahead over the top of a stone wall; the boy whispers sideways with one hand cupped beside his mouth; they do not touch. Their heads in the upper half; below them only leaves and the branch.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun breaking through the leaves, dappled light and deep green shadow, strong backlight, rim light on hair and leaves, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": "whisper with cupped hand; they sit among leaves rather than lie on the branch"
+  },
+  "bk_11b": {
+   "subject": "Eye-level close-up among leaves: a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, alone, lying on a branch, whispering toward the right edge of the picture, one finger near his lips, eyes serious. His face in the upper half; leaves around him.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun breaking through the leaves, dappled light and deep green shadow, strong backlight, rim light on hair and leaves, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": "finger at lips, crouched among leaves"
+  },
+  "bk_12": {
+   "subject": "Low-angle medium shot from behind a guard's back, tilted up: one Spanish colonial guard of 1896, a stocky man in a pale blue-and-white striped rayadillo uniform and a white-covered cap, his hands empty, no weapon, standing under the tree, looking up sharply at a leafy branch above him that shakes, empty, leaves falling. The guard's head and the branch in the upper half.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun breaking through the leaves, dappled light and deep green shadow, strong backlight, rim light on hair and leaves, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": ""
+  },
+  "bk_13": {
+   "subject": "Wide low-angle shot: in the noon shadow of the wall, left to right a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm and a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. crouch still, the dog seen from the front facing the viewer; near at the left edge, a guard's passing black boots. Faces in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard white noon sun on the ground beside them, short deep shadow at the wall foot, bright bounced daylight on faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4222",
+   "note": "dog's face sits at about 60% height, in the subtitle band"
+  },
+  "bk_14": {
+   "subject": "High-angle over the left shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, sitting in the deep shade of the curved wall: his face in three-quarter profile at the top; below his chin, a plain modern black smartphone with no logo held in his left hand, its plain glowing cream screen facing up toward us, no writing; his right thumb tapping it. Face and screen in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2333",
+   "note": "screen small; letter opening written in code"
+  },
+  "bk_15": {
+   "subject": "Eye-level extreme close-up of the lower half of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm: his lips parted, shaping a word, a breath of wonder; the cold glow of a phone screen out of the frame lights his chin and lips from below. Lips in the upper half; the lower half is dark shade. No hands.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": "a close-up of the face rather than an extreme close-up of the lips; lit by sun, not by the screen"
+  },
+  "bk_16": {
+   "subject": "Eye-level close-up of a phone screen that fills the picture edge to edge, no hands visible: the screen shows only a plain cream page with no writing; over it, in the glossy glass, faint and see-through like a ghost in a window, the reflection of the face of a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace, smiling kindly; only his face, nothing else of him, no second face. The upper half of the screen is plain and clear.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9467",
+   "note": "Lolo's face made faint like a reflection in code"
+  },
+  "bk_16b": {
+   "subject": "Chest-up shot of a memory: a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace; he has pure white hair, thick and neatly combed, no dark strands; a round, soft, full face with plump cheeks, gentle smiling eyes; clean-shaven; a collared light shirt. His closed fist at chest level holds an old round bronze medallion engraved with a sun and a triangle, its worn cord hanging; behind him, blurred, the curved edge of an open red umbrella. His face in the upper half.",
+   "setting": "a soft blurred dream space of warm light, nothing else",
+   "light": "soft warm golden memory light, glowing haze, gentle rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7303",
+   "note": "white hair, round soft face to match bk_34; fist with medallion at about 60-70% height (below the face); extra negative: gaunt, thin face, sunken cheeks, angular face, grey streaks, dark hair, balding"
+  },
+  "bk_17": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, sitting in the shade against the curved stone wall, whispering to himself, holding a plain modern black smartphone with no logo up near his chin, its screen glowing plain and blank; a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., lying beside him, looking up at him. Faces and phone in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": "4% added as a small battery badge in the upper corner (screen faces away)"
+  },
+  "bk_18": {
+   "subject": "Low-angle close-up from below: the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, eyes wide, lit grey-blue by a dimming screen; a plain modern black smartphone with no logo held up in his right hand at the top of the picture, its plain cream screen facing us, no writing, tilted. Face and phone in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1301",
+   "note": ""
+  },
+  "bk_19": {
+   "subject": "Low-angle close-up with a slight dutch tilt: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, shouting with his mouth wide open, his right hand raised high shaking a plain modern black smartphone with no logo that is dark and dead, a thumb and four fingers wrapped around it, motion streaks. His face and the phone in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": ""
+  },
+  "bk_20": {
+   "subject": "Eye-level wide view, still: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, slumped sitting against the curved stone wall, head tipped back against the stone, eyes half closed, arms limp at his sides; a plain modern black smartphone with no logo, dark and dead, resting on his raised knee. He sits in the upper half of the picture; the lower half is dark earth and grass. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5311",
+   "note": ""
+  },
+  "bk_21": {
+   "subject": "Low-angle two-shot at child height: on the left a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, squatting in front of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, who sits on the right against the wall; the boy, head tilted, grinning, draws a circle over his own hair with one finger; the young man watches him dully. Both heads in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7211",
+   "note": ""
+  },
+  "bk_21b": {
+   "subject": "Low-angle close-up: a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, eyes wide, telling a story, pointing past the camera with one arm stretched out, one finger pointing. His face and hand in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": ""
+  },
+  "bk_22": {
+   "subject": "Low-angle extreme close-up just above the ground, the camera close: the black nose and muzzle of a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., sniffing at the edge of a flat grey stone half sunk in loose dark earth, a simple sun of a circle and short rays scratched into the stone. The dog's head and the stone fill the upper half of the picture; the lower half is blurred dark earth.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9467",
+   "note": ""
+  },
+  "bk_23": {
+   "subject": "Low-angle medium view: a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., a stocky dog with black paws, standing on dug earth by the curved wall, in three-quarter view looking back over his shoulder at us, mouth open, tail up. The dog in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5333",
+   "note": ""
+  },
+  "bk_24": {
+   "subject": "Bird's-eye wide view down at a small hole: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm kneels on the left, a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot kneels on the right, a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. stands between them at the top, seen from the front, facing the viewer; all digging, whole figures seen; a rusty tin rises in the hole.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1409",
+   "note": "redrawn: dog facing the viewer, one ear folded; every hand joined"
+  },
+  "bk_25": {
+   "subject": "Eye-level medium close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, kneeling at a small dug hole, chest-up, face awed, holding out toward us on one open palm, a thumb and four fingers, a faded cloth hanging from it, and on the cloth an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge, catching the sun in a starburst. Face and lens in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1301",
+   "note": ""
+  },
+  "bk_26": {
+   "subject": "Over the shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, at eye level: he holds an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge to his eye with ONE hand, a thumb and four fingers on the rim, his other arm at his side; the lens is small, palm-sized, toward a gap in an old stone wall; inside its gold circle the sky flickers from day to starry night to rain streaks. The lens in the upper half.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "inside the circle a warm amber tint and streaks of changing light, sun, moonlight and rain at once; the gold rim glinting in the noon sun, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4111",
+   "note": ""
+  },
+  "bk_27": {
+   "subject": "Low-angle close-up of the head and shoulders of a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., sitting on a low stone ledge, head tilted, watching with a serious look; the dog's head is in the upper half of the picture. Behind him, blurred, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, holding an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge to his eye.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": ""
+  },
+  "bk_28": {
+   "subject": "Point-of-view wide view from behind. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle, small and far away between low graves: a slight Filipina woman in her forties in a long black 1890s mourning dress with a black veil over her hair, seen only from behind and far away, her face never shown, kneeling at a low mound of fresh earth, her palm laid flat on the earth.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "inside the circle a warm amber tint, soft grey early morning of another day, mist low on the grass; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6829",
+   "note": "Narcisa from behind"
+  },
+  "bk_29": {
+   "subject": "Close two-shot: on the left a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot, at the elbow of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm on the right, a hand cupped beside his mouth, whispering up toward the young man's ear; the young man holds an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge lowered against his chest. Faces in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": "Indio's left hand rests on Imo's back (counted as joined); redraw swapped who whispers, so the first draw is kept"
+  },
+  "bk_30": {
+   "subject": "Point-of-view high-angle insert, the slab centred. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle, close: a small plain white marble slab lying flat in the grass on the ground, its smooth face blank with no letters. The slab in the middle of the circle.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "inside the circle a warm amber tint, soft morning light on the white marble, dew on the grass; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": "slab low edge touches 55%"
+  },
+  "bk_30b": {
+   "subject": "Point-of-view high-angle wide view. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle: in the foreground a small plain white marble slab flat in the grass; far off at an iron cemetery gate, the small dark silhouette of a guard standing watch.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "inside the circle a warm amber tint, soft morning light, long shadows; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c8353",
+   "note": "far iron gate has bars (brief asked for the gate)"
+  },
+  "bk_31": {
+   "subject": "Point-of-view low-angle wide view at grass level, the slab dead centre. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle, wider: the same small white marble slab flat in the grass, nobody there, tall grass leaning in the wind around it, a few petals blowing.",
+   "setting": "inside the old round Paco cemetery in Manila in 1896: a ring of high weathered stone walls lined with rows of small arched burial niches, open grassy ground in the middle, no cross, no church, no statue, nothing modern",
+   "light": "inside the circle a warm amber tint, soft golden late-afternoon light, long gentle shadows, grass moving; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6829",
+   "note": ""
+  },
+  "bk_32": {
+   "subject": "Eye-level medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, half-turned, holding an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge in his left hand; a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., clearly apart on four legs, side view, tugs the young man's right sleeve in his teeth toward a dug hole. Both heads in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard white noon sun on the ground beside them, short deep shadow at the wall foot, bright bounced daylight on faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4333",
+   "note": "dog side view, one ear seen upright, the other hidden; he bites near the cuff; only three tattoo lines show"
+  },
+  "bk_33": {
+   "subject": "Point-of-view eye-level wide view. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle: at the foot of a stone wall, a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace, kneeling beside a small hole with a rusty tin box already in it, a sheet of paper on his knee, writing on it with a pencil, his other hand closed in a fist with a worn cord hanging out of it.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "inside the circle a warm amber tint, low golden early-morning sun, long soft shadows, mist; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4127",
+   "note": "paper scribble painted plain"
+  },
+  "bk_34": {
+   "subject": "Point-of-view low-angle medium close-up, the old man dead centre. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle, closer: the face and shoulders of a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace, speaking softly as he writes, mouth open mid-word, eyes gentle, a pencil in his hand.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "inside the circle a warm amber tint, low golden early-morning sun on his face, soft rim light; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5311",
+   "note": ""
+  },
+  "bk_35": {
+   "subject": "Extreme close-up: one eye of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, wet with a tear, seen behind the glass of an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge, which he holds to his eye with his right hand, a thumb and four fingers curled on the gold rim and joined to his wrist; the gold rim around his eye. The eye in the upper half of the picture.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2203",
+   "note": "close-up rather than extreme close-up; redrawn so a hand holds the lens"
+  },
+  "bk_36": {
+   "subject": "Point-of-view eye-level medium view. Seen through the lens: the gold-rimmed circle of the lens fills the upper middle of the picture, and inside the circle the scene is tinted warm amber and slightly curved like a fisheye; outside the circle only soft dark blur. The lens is an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. Inside the circle: a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, short grey hair, clean-shaven, wearing a faded white long-sleeved shirt and dark trousers, a bare neck with no necklace, kneeling, looks up straight toward us and smiles, his figure turning half transparent and dissolving into small specks of golden light.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "inside the circle a warm amber tint, low golden early-morning sun, specks of light; the gold rim glinting, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5311",
+   "note": ""
+  },
+  "bk_37": {
+   "subject": "Low-angle two-shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, sitting on a low stone, looking down with a small sad smile, one hand on the dog's back; a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest., facing the viewer, leans his whole weight against the young man's knee, head resting on it, face clearly seen. Both faces in the upper half.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard white noon sun on the ground beside them, short deep shadow at the wall foot, bright bounced daylight on faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4222",
+   "note": ""
+  },
+  "bk_38": {
+   "subject": "Eye-level medium shot, comic: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, holding up his right forearm close to his face to look at the five short indigo tattoo lines on it, grimacing comically, one eye squeezed shut; his other hand at his side holding an old round palm-sized lens, eight centimetres across, in a thick polished gold rim ringed with small raised beads, a short gold loop at one side, slightly domed clear glass with one tiny chip at its edge. His face and forearm in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5311",
+   "note": "a fifth tattoo line painted in code (the draw had four)"
+  },
+  "bk_38b": {
+   "subject": "Eye-level close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, alone, grimacing comically, one eye squeezed shut, counting on the fingers of one hand held up near his face at the top of the picture, the hand open, a thumb and four fingers clearly apart. Face and hand in the upper half. No dog.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4333",
+   "note": "no dog in this still"
+  },
+  "bk_39": {
+   "subject": "Over the right shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm, we see a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot on the left, standing up on a low stone block so his head is high, grinning, pointing down a dirt road with his thumb, his hand dusted white with flour; the road curves away along the wall. The boy's face and hand in the upper half.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "hard noon sun high overhead, the curved stone wall glaring ochre with a band of deep black shadow at its base, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3307",
+   "note": ""
+  },
+  "bk_40": {
+   "subject": "Extreme wide shot, small figures up high on a path by the wall: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair in a small topknot, a red cloth headband with long tails, a loose white collarless camisa shirt with rolled sleeves, rolled-up red trousers, barefoot, a bare neck with no medallion, five short indigo tattoo lines on his right forearm in the middle, a gold glint in his fist, a skinny Filipino boy about nine years old, brown skin, short-cropped black hair, big bright dark eyes, a loose faded brown collarless cotton shirt too big for him, knee-length rolled grey trousers, barefoot on his right, both backs to us, walking away; on his left a slim black short-haired Philippine street dog with a white chest patch and a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. trots in three-quarter view, head turned back toward us, no white on the dog's back or rump.",
+   "setting": "outside the tall round stone wall of Paco cemetery, Manila, 1896: a high curved wall of weathered ochre stone, an old acacia tree leaning over its top, dry grass, a dirt path, nothing modern, no cross",
+   "light": "afternoon sun, warm haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1409",
+   "note": "redrawn: dog in three-quarter view looking back, one ear folded, white only on the chest"
+  },
+  "bk_41": {
+   "subject": "High-angle close-up still life: a plain modern black smartphone with no logo, dark and dead, lying face up on loose dug earth beside a small empty hole at the foot of a stone wall; its black screen reflects a sliver of sky. The phone in the upper half. Only earth, grass, stone and the phone.",
+   "setting": "the foot of the tall curved stone wall of Paco cemetery, Manila, 1896: loose dark earth and dry grass, the trunk of a leaning acacia tree, nothing modern",
+   "light": "deep cool blue shade at the foot of the wall, a blazing strip of noon sunlight on the ground just beyond, warm bounced light on the faces, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c7703",
+   "note": "cropped and enlarged 1.6x from the draw to remove a hand at the bottom; phone sits at 40-75% height, where the question text goes"
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "3": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "7": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "10": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "12": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "15": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "18": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "22": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "23": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "27": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "30": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "32": {
+   "full": "bk_11b",
+   "shot": 11
+  },
+  "35": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "38": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "40": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "42": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "45": {
+   "full": "bk_16b",
+   "shot": 16
+  },
+  "48": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "50": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "53": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "56": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "58": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "61": {
+   "full": "bk_21b",
+   "shot": 21
+  },
+  "65": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "66": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "67": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "69": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "70": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "73": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "75": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "78": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "81": {
+   "full": "bk_30b",
+   "shot": 30
+  },
+  "84": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "88": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "92": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "93": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "97": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "98": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "99": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "101": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "104": {
+   "full": "bk_38b",
+   "shot": 38
+  },
+  "108": {
+   "full": "bk_39",
+   "shot": 39
+  },
+  "109": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "112": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "120": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "121": {
+   "full": "bk_22",
+   "shot": 22
+  }
+ }
+}

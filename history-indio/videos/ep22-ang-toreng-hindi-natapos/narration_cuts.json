@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 62,
+   "text": "Kathang-isip ang mga higanteng tagabuo, ang ninuno ng sila, ang ladrilyo, ang boses ng diwa ni Rajah Kiling, at si Tay Sebyo."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 36,
+   "text": "Unang pahiwatig: ang kapre, ang yeren, ang Bigfoot, mga kuwentong-bayang walang patunay, sa ating kuwento'y iisang angkang nagkalat.",
+   "why": "A mid-story plot clue joined to a folklore attribution. It is the only line in the narration that calls the kapre, yeren and Bigfoot folklore with no proof, so it must stay. 'sa ating kuwento'y' works here as part of the clue, not as a closing disclaimer. Second reader agrees: keep it."
+  },
+  {
+   "index": 42,
+   "text": "At nang dumating ang sandali, hindi ko nakita ang Diyos, at hindi ako magkukunwaring nakita ko.",
+   "why": "The character's own honesty (rule c)."
+  },
+  {
+   "index": 27,
+   "text": "Ang iba, kuwento na ng mga tao pagkatapos.",
+   "why": "M separating scripture from later tradition: a statement about the record."
+  },
+  {
+   "index": 61,
+   "text": "Ang dahilan na baha, galing kay Josephus, isinulat noong unang siglo, at wala sa Genesis.",
+   "why": "History: corrects a common mistaken attribution."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ang dahilan na baha, galing kay Josephus, isinulat noong unang siglo, at wala sa Genesis. / Pagbalik sa balangay, nagsulat ang kuwaderno: ang mga tagabuo ay may ama sa itaas ng bundok."
+}

@@ -1,0 +1,10 @@
+body { font-family: Georgia, "Times New Roman", serif; line-height: 1.55; margin: 0 4%; }
+h1 { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 800; text-align: center; margin: 1.2em 0 0.6em; page-break-before: always; }
+h1.part { margin-top: 35%; font-size: 1.8em; letter-spacing: 0.04em; }
+h1 + p em, h1 ~ p:first-of-type > em:only-child { display: block; text-align: center; color: #7a4a10; }
+p { margin: 0 0 0.7em; text-indent: 0; }
+img.chapter-art, .chapter-art img { display: block; max-width: 100%; max-height: 70vh; margin: 0.8em auto 1.2em; }
+hr { border: 0; text-align: center; margin: 1.2em 0; }
+hr::after { content: "◆ ◆ ◆"; color: #9a5b14; font-size: 0.8em; }
+h2.tala { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 1.05em; border-top: 2px solid #9a5b14; padding-top: 0.6em; margin-top: 2em; color: #7a4a10; }
+h2.tala ~ p, h2.tala ~ ul { font-size: 0.92em; }

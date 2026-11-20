@@ -1,0 +1,23 @@
+@page { size: 6in 9in; margin: 0.75in 0.62in 0.8in 0.7in; }
+@page :first { margin: 0; }
+html { font-family: "Liberation Serif", "DejaVu Serif", Georgia, serif; font-size: 10.6pt; line-height: 1.45; color: #111; }
+body { margin: 0; max-width: none; padding: 0; }
+.cover { width: 6in; height: 9in; page-break-after: always; margin: 0; }
+.cover img { width: 6in; height: 9in; object-fit: cover; display: block; }
+header#title-block-header { page-break-after: always; text-align: center; padding-top: 2.2in; }
+header .title { font-family: "Inter Display", sans-serif; font-weight: 900; font-size: 30pt; margin: 0; }
+header .subtitle { font-family: "Inter Display", sans-serif; font-size: 13pt; }
+header .author { margin-top: 1.4in; letter-spacing: 0.1em; text-transform: uppercase; font-size: 9pt; }
+nav#TOC { page-break-after: always; } nav#TOC ul { list-style: none; padding: 0; } nav#TOC a { color: #111; text-decoration: none; }
+h1 { font-family: "Inter Display", sans-serif; font-weight: 800; font-size: 19pt; text-align: center; page-break-before: always; margin: 0.4in 0 0.15in; }
+h1.part { margin-top: 3in; font-size: 22pt; }
+h2, h3 { font-family: "Inter Display", sans-serif; }
+p { margin: 0; text-indent: 1.4em; text-align: justify; hyphens: auto; orphans: 2; widows: 2; }
+h1 + p, hr + p, h2 + p, h3 + p, figure + p, p:first-of-type { text-indent: 0; }
+h1 + p { text-align: center; color: #6a3e0c; margin-bottom: 0.1in; }
+figure { margin: 0.1in 0 0.2in; text-align: center; page-break-inside: avoid; } figcaption { display: none; }
+img.chapter-art { max-height: 4.3in; max-width: 100%; display: block; margin: 0 auto; border-radius: 3px; }
+hr { border: 0; text-align: center; margin: 0.14in 0; } hr::after { content: "◆ ◆ ◆"; color: #9a5b14; font-size: 7pt; }
+h2.tala { font-size: 11pt; border-top: 1.5pt solid #9a5b14; padding-top: 6pt; margin-top: 0.3in; color: #6a3e0c; page-break-after: avoid; }
+h2.tala ~ p, h2.tala ~ ul { font-size: 9.2pt; text-indent: 0; text-align: left; }
+ul { margin: 2pt 0 6pt; padding-left: 1.2em; }

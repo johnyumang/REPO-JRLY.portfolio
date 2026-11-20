@@ -1,0 +1,717 @@
+{
+ "_note": "Episode 17 (S2E9), Season 2 version 4 rules: London today (no dog: Usman exists only in the jump light and in the past) and one jump with M on her medallion to Victorian London, 1888, where Usman appears. 1762 Manila is seen only through the lens. José Rizal appears ONLY as a small far figure from behind in the reading room, no face, no likeness, no words. The 1762 loot is shown going to libraries (never 'the British Museum'), and the medallion is found in an uncatalogued crate of a country house's effects, outside any collection. Creature: Spring-heeled Jack (London legend, first reported 1837), drawn eerie not gory, pinned by an arrow of light and recorded, never killed. Lakandula's diwa appears only as calm river-blue light, no face. Rico Bulan and Tubal's men are invented. Copied from Episode 11: full intro. Shots follow sentences.json (71 sentences); k90-k99 are montage extras. VERSION 1: check against story version 2 before generating frames.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "plates": {},
+ "chars": {},
+ "full": {
+  "rooftop_chase": "Single image, no panels. Night rooftops of Victorian London in the rain. A tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory, leaping from one chimney to the next; below him a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap, bare neck without any necklace) runs along a wet roof ridge, looking back up in alarm. The cloaked figure is male, not a woman, and has no long hair. Every part of the frame painted, no readable text.",
+  "bow_light": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. low angle on a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace drawing a glowing bow made of golden light on a rooftop, rain streaking past, fog behind.",
+  "intro": "(copied from Episode 11)",
+  "london_vista": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. very high aerial view of present-day London at dusk in drizzle, the river Thames curving through, old stone riverside warehouses in the foreground.",
+  "two_doors": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. hotel corridor at night: two closed doors side by side, a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck standing at one door, a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) at the other, neither looking at the other.",
+  "notebook_writes": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of two hands holding an old leather notebook open under a street lamp in present-day London, a bright golden glow rising from the page, the glare hides the page completely, no writing, no letters, no characters visible, a red handkerchief on the wrist.",
+  "rain_city_sketch": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of one open old notebook lying on a wet pavement in present-day London, the left page carrying a pencil sketch of a rainy city skyline and a small wooden crate, rain drops beading on the paper, the page has no writing, no letters, no characters. Nobody in the frame.",
+  "clue_map": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. over-the-shoulder of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) pinning paper clues and photos on a hotel wall, red string converging on a drawing of a riverside warehouse.",
+  "crossing_wave": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) gripping a bronze medallion in a raised fist, a burst of sea-blue light like a wave swallowing him on a rainy London riverside street.",
+  "ukay_jacket": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) pulling up the hood of his cheap jacket in heavy London rain, wry half-smile, a red double-decker blur behind.",
+  "lens_raise": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) raising a round gold-rimmed lens to his eye in front of an old stone warehouse door in the rain.",
+  "lens_manila_1762": "Detailed full background scene, Manila 1762, every part of the frame painted, no white or empty background, no readable text. through a round gold-rimmed lens: Manila burning at night, redcoat soldiers in the streets, smoke over old stone walls. Seen as a vision inside a round gold-rimmed lens,",
+  "ransom_table": "Detailed full background scene, Manila 1762, every part of the frame painted, no white or empty background, no readable text. through a round gold-rimmed lens: generic British officers in red coats at a table with papers and heaps of silver coins, an elderly cleric in black seen from behind, illegible papers. Seen as a vision inside a round gold-rimmed lens,",
+  "galleon_taken": "Detailed full background scene, Manila 1762, every part of the frame painted, no white or empty background, no readable text. through a round gold-rimmed lens: a large Spanish galleon at sea with British warships closing in, cannon smoke, stormy sky. Seen as a vision inside a round gold-rimmed lens,",
+  "manuscripts_carried": "Detailed full background scene, Manila 1762, every part of the frame painted, no white or empty background, no readable text. through a round gold-rimmed lens: soldiers in red coats carrying armfuls of old bound manuscripts and copper printing plates out of a stone monastery cloister, no cross, no religious statue. Seen as a vision inside a round gold-rimmed lens,",
+  "library_now": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. a modern research library reading room with old manuscripts in glass cases and archival boxes, soft light, no readable text, no people's faces.",
+  "crate_dust": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. a single old wooden crate under a dusty tarpaulin in a dim riverside warehouse, a faint bronze glow leaking through a crack, no labels readable.",
+  "shadow_in_lens": "Single image, no panels. A view through a round gold-rimmed lens: on a foggy 1888 London rooftop, a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory, crouching and staring straight back into the lens. The figure is male, not a girl, with no visible hair, only a dark hooded cloak. Every part of the frame painted, no readable text.",
+  "m_hand_out": "Single image, no panels. In a dim present-day London warehouse, a young Filipina woman with long black hair in a long dark coat, a round bronze medallion at her neck, one closed red umbrella tucked under her arm, reaching out one hand toward a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist, his hands in his jacket pockets); her medallion starting to glow. Only one umbrella, closed; no second or floating umbrella. Every part of the frame painted, no readable text, no dog.",
+  "jump_light": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck and a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) holding hands as a swirling golden time portal of clock gears and light lifts them out of the warehouse.",
+  "gaslight_street": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace stepping out of fog onto a cobbled gaslit street, horse cabs passing.",
+  "usman_light": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a medium-sized black Philippine street dog with a white chest patch, one folded ear (his left ear folded over, his right ear standing up) and bright clever eyes, a red kerchief around his neck bursting out of a ball of golden light onto wet cobbles, nose up, sniffing happily.",
+  "usman_window": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, with his nose pressed against the steamed window of a little fried-fish shop, drooling, warm light inside.",
+  "m_stern": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. close-up of a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck raising one finger in warning, half a smile.",
+  "usman_beg": "Single image, no panels, flat two-tone cel-shaded anime with clean ink line art, not a realistic painting. Victorian London 1888, a rainy street. Low close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, with huge pleading eyes and rain on his fur. He is a slim short-haired street dog; exactly one ear stands upright and the other ear is folded over. Every part of the frame painted, no readable text.",
+  "museum_steps": "Victorian London 1888 at dusk in fog, a columned building with wide stone steps. Climbing the steps from behind: a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap) beside a young Filipina woman with long black hair in a long DARK BLACK coat and long black skirt, a closed red umbrella; a black street dog with a white chest patch and red kerchief trotting ahead. No readable text.",
+  "rizal_far": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. over the shoulder of a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace peering between tall bookshelves of a great domed reading room, far away a small neatly dressed man in a dark 1880s suit seen only from far behind, bent over an old book at a long reading desk, no face visible.",
+  "reading_room_dome": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. very high wide shot of a great round domed reading room with radiating desks, tiny readers bent over books, warm lamps, a small neatly dressed man in a dark 1880s suit seen only from far behind, bent over an old book at a long reading desk, no face visible as one tiny figure.",
+  "book_pages": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. An old leather-bound book lying open on a wooden desk by lamplight in a Victorian study, its pages blank and pale with faint ruled lines, no writing, no letters, an inkpot and a pen beside it. Nobody in the frame.",
+  "lola_memory": "soft sepia memory: a kind Filipina grandmother about seventy, grey hair in a low bun, round glasses, telling a story to a small boy at a kitchen table at night.",
+  "walk_away": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. from behind: a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace, a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a black street dog with a white chest patch and red kerchief around his neck walking away down a long aisle of bookshelves, leaving the reader in the distance undisturbed.",
+  "laugh_roof": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. extreme low angle from the street: a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory laughing on a rooftop edge against a fog-white sky.",
+  "jack_leap": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory leaping over the street in a huge arc above a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace, a young Filipina woman with long black hair in a long dark 1880s coat and long skirt, a closed red umbrella, a round bronze medallion at her neck and a black street dog with a white chest patch and red kerchief around his neck, who duck back.",
+  "usman_growl": "Single image, no panels, flat two-tone cel-shaded anime with clean ink line art, not a realistic painting. Victorian London 1888. Close-up of a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with hackles up and teeth bared, glaring upward. He is a slim short-haired street dog; exactly one ear stands upright and the other ear is folded over. Every part of the frame painted, no readable text.",
+  "jack_reveal": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory crouched on a gas lamp post, eyes burning red, fog curling around.",
+  "draw_bow": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. over-the-shoulder of a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace pulling a bow of golden light into existence from his glowing forearm marks, aiming upward.",
+  "arrow_pin": "Single image, no panels. Victorian London 1888, a slate rooftop at night. An arrow of golden light pins the long shadow of a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory, to the slate roof; the cloaked figure is frozen mid-leap, its shadow nailed down by the glowing arrow. The figure wears a long black cloak, not a plain man's coat. Every part of the frame painted, no readable text.",
+  "seen_point": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. close-up of a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace pointing up calmly, eyes steady, rain on his face.",
+  "jack_into_holo": "Single image, no panels. A foggy Victorian London alley at night, gaslight and wet cobblestones. A young Filipina woman with long black hair in a long dark coat, a closed red umbrella under her arm, a round bronze medallion at her neck, raises the glowing bronze medallion; a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory, dissolves into streams of blue-gold light flowing into the medallion. Every part of the frame painted, no readable text.",
+  "usman_sniff": "Single image, no panels, flat two-tone cel-shaded anime with clean ink line art, not a realistic painting. Victorian London 1888, a foggy Thames riverside with gas lamps. A medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, nose to the ground, tracking toward a dark riverside warehouse. He is a slim short-haired street dog; exactly one ear stands upright and the other ear is folded over, and the kerchief is a simple red cloth at his neck. Every part of the frame painted, no readable text.",
+  "crate_1888": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. inside an 1888 riverside warehouse lit by one lantern: stacks of wooden crates, one crate set apart with a faint bronze glow, no readable labels.",
+  "usman_wave": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a black street dog with a white chest patch and red kerchief around his neck sitting and lifting one paw in a wave as he fades into golden light, a lean young Filipino man (black topknot, red headband, dark 1880s wool coat and flat cap), bare neck without any necklace reaching toward him.",
+  "return_now": "Single image, no panels. A dim, modern, dusty present-day London warehouse. A lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) and a young Filipina woman with long black hair in a long dark coat, a closed red umbrella under her arm, a round bronze medallion at her neck, reappear in a flash of light before an old wooden crate. She is an adult woman with long black hair, not a child. Every part of the frame painted, no readable text, no dog.",
+  "medallion_porcelain": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. close-up of hands lifting broken old porcelain from straw in an opened crate, revealing a round bronze medallion engraved with flowing water lines, a red handkerchief on the wrist.",
+  "medallion_glow": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of one round bronze medallion lying in an open palm on a rainy present-day London street, its face engraved only with flowing wavy water lines, a smooth plain rim with no letters, no writing, no characters, glowing river-blue, light rising from it like a current.",
+  "lakandula_light": "a tall column of calm river-blue light rising from a small bronze medallion in a dark warehouse, only faintly suggesting the outline of a standing man, no face, no features, no clothing. Detailed full background, nothing readable, not a character sheet.",
+  "light_line": "the river-blue light flowing along the warehouse floor like a stream and stopping at a sharp line of light it does not cross. Detailed background, nothing readable.",
+  "holo_agos": "Dim present-day London hotel room at night, rain on the window, every part of the frame painted. Over-the-shoulder of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) looking at a translucent blue-gold hologram floating over his forearm, one slot lighting up with a flowing-water symbol. No letters, no numbers.",
+  "ambush_door": "Single image, no panels. A present-day London warehouse doorway in the rain. Two men in dark raincoats, seen as backlit silhouettes, block the doorway, one holding up a glaring phone light; facing them, a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) and a young Filipina woman with long black hair in a long dark coat, a closed red umbrella under her arm, a round bronze medallion at her neck, shield their eyes. The two men look different from each other. Every part of the frame painted, no readable text, no dog.",
+  "rico_live": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. close-up of a Filipino vlogger in his thirties with styled hair and a bright yellow windbreaker, holding a phone on a gimbal toward the viewer, grinning into the phone, rain on his windbreaker, men in dark raincoats behind him.",
+  "rico_phone": "Close-up of a hand holding a phone, the screen showing floating heart icons and tiny round profile pictures, a dim modern room behind. No readable text, no numbers. No dog, no animals.",
+  "rain_gutter": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. very low angle on rainwater rushing down a cobbled London street toward the river, reflections of lamps.",
+  "hands_current": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. close-up of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist)'s hand gripping a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck's hand, both feet splashing into the rushing street water, blue light streaking around them.",
+  "speed_streak": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. A motion-blurred streak of blue light racing along a rain-filled street beside the Thames embankment in present-day London, inside the light a lean young Filipino man with brown skin and black hair tied in a small topknot, wearing a grey hooded jacket, a red handkerchief on his wrist, running hand in hand with one young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, dark stone buildings with no shop signs, no writing, no letters.",
+  "mud_stop": "Single image, no panels. A muddy present-day London riverbank at night. A lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) laughs as he skids to a stop beside a young Filipina woman with long black hair in a long dark coat, a closed red umbrella under her arm, a round bronze medallion at her neck, who wipes mud from her cheek; both are splattered with mud. She has long black hair and a long dark coat. Every part of the frame painted, no readable text, no dog.",
+  "indio_growl": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. close-up of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) on a riverside bench at night, mock-growling with a raised lip, wry.",
+  "galleons_card": "two Spanish galleons in full sail at sunset, painted like an old engraving brought to life, calm sea. Detailed background, no readable text.",
+  "london_1888_card": "Victorian London rooftops and chimneys in morning fog, a domed building in the distance. Detailed background, no readable text.",
+  "scattered_boxes": "many archival boxes and old books scattered across different shelves in different rooms, like a map of things separated, soft light. Detailed background, no readable text.",
+  "tondo_1571": "Tondo by the Manila Bay shore in 1571: nipa houses on stilts, outrigger boats, a generic Filipino lakan in fine local dress seen from far behind at the waterline facing Spanish ships offshore. Detailed background, no readable text.",
+  "jack_card": "a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory silhouetted against a full moon on a London rooftop, like an old penny-dreadful illustration. Detailed background, no readable text.",
+  "cast_silhouettes": "silhouettes in a row against warm light: a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist), a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck, a ghostly black dog with a red kerchief, a blue column of light, a vlogger holding a phone. Detailed background, no readable text.",
+  "heater_laugh": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. two-shot in a small hotel room in front of an orange glowing heater: a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck in dry clothes laughing together, wet coats hanging behind.",
+  "almost_kiss": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. extreme close-up of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck leaning toward each other, faces almost touching, warm orange light.",
+  "jack_popout": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory springing comically out of a blue-gold hologram in the hotel room, cackling, while a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) and a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck jerk apart in shock.",
+  "m_smile": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. close-up of a young Filipina woman with long black hair in a long dark coat holding a closed red umbrella, a round bronze medallion at her neck smiling softly, looking away, cheeks warm.",
+  "phone_mark": "Single image, no panels. Present-day London in the rain. Close-up of a phone screen held in the rain, the livestream showing a Filipino vlogger in his thirties with styled hair and a bright yellow windbreaker, grinning into the camera; the phone case marked with three small triangles. Only one single person on the screen, no floating face, no second face. Every part of the frame painted, no readable text, no numbers, no dog.",
+  "holo_nine": "Rainy present-day London street at night, wet pavement reflecting lights, every part of the frame painted. Over-the-shoulder of a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) with a translucent blue-gold hologram over his forearm: a ring of twelve slots, nine glowing. No letters, no numbers.",
+  "indio_point": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) pointing at the viewer with a small smile, rainy window behind.",
+  "loot_question": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. An old wooden crate opened in warm light on a present-day London pavement, inside it blue-and-white porcelain, a plain copper plate and a closed old book with a blank cover, glowing dust motes rising from it, no speech bubbles, no symbols, no writing, no letters, no characters. Nobody in the frame.",
+  "follow_rooftop": "Single image, no panels. A present-day London rooftop at dawn after the rain, the city glowing gold. A lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) stands beside a young Filipina woman with long black hair in a long dark coat, one round bronze medallion at her neck, holding one closed red umbrella; a single faint golden dog-shaped glimmer of light beside them. The second person is an adult woman with long black hair, not a child. Every part of the frame painted, no readable text.",
+  "thames_rain": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. the river Thames in heavy rain at night, a riverside warehouse with one lit window.",
+  "hotel_window": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog. a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) alone at a hotel window looking at the rain, a closed door across the corridor reflected in the glass.",
+  "copper_plate": "Detailed full background scene, Manila 1762, every part of the frame painted, no white or empty background, no readable text. through a round gold-rimmed lens: a large engraved copper map plate being wrapped in sackcloth by soldiers' hands, illegible engraving. Seen as a vision inside a round gold-rimmed lens,",
+  "fog_cab": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a horse-drawn cab emerging from thick fog under a gas lamp.",
+  "reading_lamp": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. a green-shaded reading lamp over an old book in a domed reading room, warm pool of light, nobody's face.",
+  "chimney_shadow": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. the long shadow of a tall gaunt shadowy figure in a black cloak with glowing red eyes and long springing legs, more eerie than gory sliding across chimney pots in moonlight.",
+  "arrow_close": "Detailed full background scene, Victorian London 1888, every part of the frame painted, no white or empty background, no readable text. close-up of an arrow made of golden light quivering in a slate roof tile, sparks around it.",
+  "crate_lid": "Single image, no panels. Present-day London, a close-up of a single plain steel crowbar prying up the lid of an old wooden crate, straw spilling out, dust in a beam of torchlight. One simple crowbar, a straight metal bar, not an axe, no second handle, no fire or flame. Every part of the frame painted, no readable text, no dog.",
+  "blue_water_hand": "Detailed full background scene, Present-day London, every part of the frame painted, no white or empty background, no readable text, no dog, no animals. close-up of a hand trailing glowing blue light through rainwater on a street.",
+  "umbrella_open": "Single image, no panels. A rainy present-day London bridge at night, city lights behind. A young Filipina woman with long black hair in a long dark coat, a round bronze medallion at her neck, holds up an open red umbrella high above her head with one hand on the handle, sheltering a lean young Filipino man (black topknot, grey hooded jacket, red handkerchief on wrist) beside her; the umbrella canopy is well above her head and its shaft does not cross her face. Every part of the frame painted, no readable text, no dog.",
+  "bk_00": "High wide shot looking down across the rooftops: in the top third of the picture, on the right side of the sky, a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, leaping in a huge arc from one chimney stack to the next, cloak spread like wings; in the MIDDLE of the picture, small on a wet roof ridge, a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, running and looking back up over his shoulder in alarm, his head at about 45% of the height, arms swinging low. The top-left corner is only fog. The lower 40% of the picture is only dark wet slates and fog. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | night rain, cold blue moonlight through the fog, Jack's red eyes the only hot colour, rim light on wet slates, chimney smoke, richly painted, detailed ink linework, textured brushwork.",
+  "bk_01": "Low-angle medium-full shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, standing on a wet roof ridge, holding loosely at his side, pointed down at the roof, a tall slim crescent of soft golden light with one fine thread of light running between its two tips, like a glowing harp frame, a calm gentle half-smile, his jacket flapping in the wind. The lower half of the picture is only dark wet slates and chimney pots. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | night rain, the crescent's warm gold glow lighting his face from one side, cold blue fog behind, sparkles of light in the rain, richly painted, detailed ink linework, textured brushwork.",
+  "bk_02": "Medium shot from the waist up: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, facing the viewer with a warm confident grin, rain on his shoulders, standing in the middle of the street. He is alone, no dog, no animals. The lower half of the picture is only wet dark pavement and reflections. | a narrow street of present-day London in heavy rain at night, wet dark pavement, old soot-dark and pale stone terraced buildings with plain dark shopfronts, black iron railings, lit windows, puddles reflecting warm streetlamps, a red double-decker bus far down the road | night rain, warm streetlamp glow on his face, cool blue shadows, rim light on the wet hair, glittering raindrops, richly painted, detailed ink linework, textured brushwork.",
+  "bk_03": "Landscape only, an empty scene with no human beings: a very high view of the city at dusk, the river curving through it in a silver S, lights coming on along the banks, rain clouds breaking with rays of light in the upper half of the picture. The lower half of the picture is only dark roofs and the riverside warehouses. | present-day London seen from very high at dusk in drizzle, the river Thames curving through, bridges, old stone riverside warehouses in the foreground, glass towers far off in the haze | dusk drizzle, golden light rays through breaking grey clouds, cool blue city, warm windows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_04": "Wide shot down the corridor, seen from behind: in the upper half of the picture two separate closed doors, a door-width of wall between them; at the left door a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, seen from behind, hair covering her back, one hand on her door handle; at the right door a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind, turning a key in his door; backs half-turned away from each other, not looking at the viewer. No dog, no animals. The lower half of the picture is only patterned carpet. | a narrow corridor of a small present-day London hotel at night, patterned carpet, cream walls, plain dark wooden doors with no numbers, small brass wall lamps | late night, two small brass lamps making two separate warm pools, a cold shadow between them, lonely, richly painted, detailed ink linework, textured brushwork.",
+  "bk_05": "Over-the-shoulder shot: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind his right shoulder, looks down at an old worn leather-bound journal lying open on a small wooden table in the upper half of the picture; the open pages blank, lost in a bright golden glare, a golden glow rising from them and lighting his face. He is alone, no dog, no animals. The lower half of the picture is only dark table wood in shadow. | a small plain rented room in present-day London at night, a wooden writing desk and chair under a tall rain-streaked window with blurred city lights, a small electric heater glowing orange on the wooden floor, a wet towel on a hook by the door | the room dark, the journal's golden glare the only light, warm gold on his face, golden dust floating, richly painted, detailed ink linework, textured brushwork.",
+  "bk_06": "Top-down insert of an old open leather-bound journal on a dark wooden table: in the upper half of the picture the right-hand page is plain cream paper with nothing on it, faintly glowing; the left-hand page carries a soft pencil sketch of a rainy city skyline and one small closed wooden crate. Raindrop shadows from the window fall across the paper. Nobody in the frame. The lower half of the picture is only the dark table top. | a small plain rented room in present-day London at night, a wooden writing desk and chair under a tall rain-streaked window with blurred city lights, a small electric heater glowing orange on the wooden floor, a wet towel on a hook by the door | golden glow from the paper, rain-streaked window shadow, warm and quiet, richly painted, detailed ink linework, textured brushwork.",
+  "bk_07": "Over-the-shoulder shot: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind his left shoulder, faces a hotel wall in the upper half of the picture covered with pinned pencil sketches and blank photographs, red string running from each to one sketch of a riverside warehouse by a river. He is alone, no dog, no animals. The lower half of the picture is only his dark shoulder and the bed edge. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | one desk lamp throwing a warm cone on the wall, the rest of the room in blue night shadow, rain light from the window, richly painted, detailed ink linework, textured brushwork.",
+  "bk_08": "Low wide shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, standing at the river wall as a towering wave of sea-blue light rises out of the river and curls over him, his jacket and hair blown back. He is alone, no dog, no animals. The lower half of the picture is only wet stone paving with blue reflections. | the Thames embankment in present-day London at night in the rain, a granite river wall with black iron lamp posts, the wide dark river, old stone riverside warehouses on the far bank, wet stone paving | night rain, the wave's cold sea-blue glow flooding everything, white spray of light, lamp posts as warm dots, richly painted, detailed ink linework, textured brushwork.",
+  "bk_09": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, the hood of his worn grey jacket now pulled up over his topknot, rain dripping from its edge, a wry half-smile, glancing down at his baggy sleeve. He is alone, no dog, no animals. The lower half of the picture is only wet pavement and blurred red bus light. | a narrow street of present-day London in heavy rain at night, wet dark pavement, old soot-dark and pale stone terraced buildings with plain dark shopfronts, black iron railings, lit windows, puddles reflecting warm streetlamps, a red double-decker bus far down the road | heavy rain, warm streetlamp from the side, a red blur of the far bus, raindrops catching the light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_10": "Medium close shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, raising a round magnifying lens the size of a palm in a polished gold rim to his right eye, the closed warehouse doors behind him, his other arm down. He is alone, no dog, no animals. The lower half of the picture is only wet cobbles. | the loading doorway of an old stone riverside warehouse in present-day London at night in the rain, heavy timber double doors, a wet cobbled lane, one caged wall lamp | rain, the caged wall lamp casting a hard yellow light, a gold glint in the lens rim, cold blue shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_11": "Wide shot as if seen through a lens: the thin curved gold rim of a great lens arcs across the four corners of the picture; inside it, in the upper half of the picture, British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters march in a column down a narrow smoky street lit by fires; every soldier wears a low black cocked hat with three corners, one corner pointing forward over his brow and two corners at the back, a 1760s tricorne. The lower half of the picture is only broken paving stones and ash. | the thick sloping grey stone walls and narrow streets of Intramuros, the walled Spanish city of Manila, in October 1762, tiled-roof stone houses with wooden balconies, smoke drifting, fallen stones; beyond the walls only palm groves, nipa huts and low tiled roofs of 1762 | night, hard orange firelight from the houses, black smoke, embers in the air, the gold lens rim glinting, richly painted, detailed ink linework, textured brushwork.",
+  "bk_12": "High shot looking down on the table: in the upper half of the picture a British army officer of 1762, about forty-five, stocky, clean-shaven, white powdered wig tied back, black tricorne hat with gold trim, scarlet red coat with gold braid and dark blue lapels, standing behind the table with his hands clasped behind his back, demanding; across from him, seen from behind, an elderly Spanish archbishop of 1762, about sixty, thin grey hair, small purple skullcap, black cassock with a purple sash. Heaps of silver coins on the table, each coin the size of a fingertip, and a few blank papers. The lower half of the picture is only the dark table edge and stone floor. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze | candlelight, orange glow of fires through the shutters, deep shadows, smoke haze, a faint gold lens haze at the edges like a vision, richly painted, detailed ink linework, textured brushwork.",
+  "bk_13": "Landscape only, no close people: in the upper half of the picture a large Spanish galleon with high castles and square sails, two British warships sailing close on both sides of it, smoke drifting over the water. The lower half of the picture is only dark heaving waves. | the open sea off the Philippine islands in 1762, high grey-green waves, eighteenth-century wooden sailing ships with tall masts and square sails, a green island coast far off | stormy grey-gold afternoon, broken sun through drifting smoke, white spray, richly painted, detailed ink linework, textured brushwork.",
+  "bk_14": "Medium shot: in the upper half of the picture three British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters walk out under a stone arch, each in a low black cocked hat with three corners, one corner pointing forward over his brow and two at the back, a 1760s tricorne; the middle one hugs to his chest a thin flat rectangular copper sheet the size of a tray, half wrapped in sackcloth, its flat copper face finely engraved with faint map lines; the other two hug stacks of thick leather-bound books tied with cord. No cross, no religious statue. The lower half of the picture is only worn stone floor and smoke. | the stone cloister of an old monastery inside Intramuros in 1762, thick round arches around a garden courtyard, worn stone floor, smoke drifting over the city | harsh orange firelight from outside the arch, deep shadows, drifting smoke, a faint gold lens haze at the edges, richly painted, detailed ink linework, textured brushwork.",
+  "bk_15": "Wide interior: in the upper half of the picture a long glass display case holding old leather-bound manuscripts lying open, their yellowed pages showing only faint plain ruled lines and no marks, a dark smooth copper plate with a plain undecorated rim, grey archival boxes on the shelves behind, the room empty and quiet. Nobody in the frame. The lower half of the picture is only polished floor and the dark base of the case. | a quiet reading room of a great modern research library in present-day London, long wooden desks, glass display cases of old leather-bound manuscripts and grey archival boxes, tall shelves, soft daylight from high windows | soft cool daylight from high windows, a warm glow inside the case, dust in the light, calm, richly painted, detailed ink linework, textured brushwork.",
+  "bk_16": "Low-angle shot: in the upper half of the picture a single old wooden crate standing apart under a dusty grey tarpaulin, nailed shut, a faint bronze glow leaking through a crack between its boards. Nobody in the frame. The lower half of the picture is only dusty floorboards in shadow. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | dim grey rain light from high windows, one shaft of light on the crate, the bronze glow warm in the crack, dust floating, richly painted, detailed ink linework, textured brushwork.",
+  "bk_17": "Close-up through a lens: the round gold rim of a lens fills the frame like a porthole; inside it, in the upper half of the picture, on a foggy rooftop of 1888, a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, crouched on a chimney, staring straight back at the viewer. The lower half of the picture is only dark glass and fog. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | cold blue fog inside the lens, two burning red eyes, a gold glint on the rim, darkness outside the lens, richly painted, detailed ink linework, textured brushwork.",
+  "bk_18": "Two-shot, medium: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, turned toward a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, reaching out one hand to him, her medallion beginning to glow; he looks at her hand, his own hands still in his jacket pockets. No dog, no animals. The lower half of the picture is only dusty floorboards. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | dim rain light, a warm gold glow starting at her medallion, soft rim light, dust, richly painted, detailed ink linework, textured brushwork.",
+  "bk_19": "High wide shot from above: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck and a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace stand close together with their joined hands lost in a blinding glow, a column of golden light and rings of gear rims bursting up around them, black coal smoke pouring in from the edges. No dog, no animals. The lower half of the picture is only swirling coal smoke. | the inside of a whirl of golden time light, rings of plain smooth gear rims and sparks, coal smoke curling in from below | blazing gold from the medallion at the centre, black smoke, sparks flying outward, hard rim light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_20": "Wide shot down the street: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck and a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace step out of the fog side by side onto the cobbles, a gas lamp beside them, a horse-drawn cab passing behind. The lower half of the picture is only wet shining cobbles. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | yellow gaslight haloes in thick fog, coal smoke, wet reflections, cold blue shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_21": "Low shot at dog height: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He bursts out of a ball of golden light onto the wet cobbles, nose high in the air, mouth open in a happy grin, ears blown back by the light. Nobody else in the frame. The lower half of the picture is only wet cobbles with golden sparks. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | a burst of golden light behind him, yellow gaslight in the fog, sparks on the wet stones, richly painted, detailed ink linework, textured brushwork.",
+  "bk_22": "Medium side shot: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He stands on his hind legs with his front paws on the low stone sill, his nose pressed to the steamed-up bay window of the little shop, tail wagging. Nobody else in the frame. The lower half of the picture is only wet pavement. | a narrow cobbled street of Victorian London in 1888 at dusk, a small fried-fish shop with a steamed-up bay window glowing warm from inside, a plain dark painted shopfront with no sign, gas lamps, fog | warm orange light glowing through the steamed glass on his face, cold blue fog outside, richly painted, detailed ink linework, textured brushwork.",
+  "bk_23": "Close-up from the chest up: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, eyebrows raised, a stern half-smile, looking down at someone below the frame. The lower half of the picture is only her dark coat. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | gaslight from one side, fog behind, soft rim light on her hair, richly painted, detailed ink linework, textured brushwork.",
+  "bk_24": "Low close-up of the dog's face: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He looks up with huge pleading eyes, head tilted, rain beading on his black fur. Nobody else in the frame. The lower half of the picture is only wet cobbles. | a narrow cobbled street of Victorian London in 1888 at dusk, a small fried-fish shop with a steamed-up bay window glowing warm from inside, a plain dark painted shopfront with no sign, gas lamps, fog | warm shop-window glow from one side, cool fog, raindrops sparkling, richly painted, detailed ink linework, textured brushwork.",
+  "bk_25": "Side view, medium-wide shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, walk side by side up the wide stone steps toward the tall columned portico and its warm lit doorway, both seen from the side in three-quarter profile, looking ahead, his hands in his jeans pockets, her hands in her coat pockets. Only the two of them, no other people. No dog, no animals. The lower third is only empty grey steps. | the wide stone steps and tall columned portico of a great old stone building in London in 1888, dusk fog, gas lamps along iron railings | dusk fog, the doorway's warm light on their faces, gas lamps, soft rim light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_26": "Over-the-shoulder shot past tall bookshelves: in the foreground right, a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind his shoulder, peering between two shelves; far away in the upper half of the picture, a small slim neatly dressed man in a dark 1880s suit with short black hair, seen only from far behind, bent over a book at a reading desk, his face never visible, under a brass lamp. The lower half of the picture is only dark bookshelf and floor. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | warm lamplight far off, cool shadows near, dust in the light from the dome windows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_27": "Very high wide shot from under the dome: the lower rim of the great dome with its ring of tall windows fills only the top 30% of the picture; in the middle of the picture, at about 45% of the height, the round hub where the long desks meet like wheel spokes, and standing at the hub one tiny figure lit by a brass lamp, a small slim neatly dressed man in a dark 1880s suit with short black hair, seen only from far behind, bent over a book at a reading desk, his face never visible. Nobody else close. The lower 40% of the picture is only the radiating desks running toward the viewer. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | pale daylight falling from the dome windows in long shafts onto the hub, warm brass lamps, dust, richly painted, detailed ink linework, textured brushwork.",
+  "bk_28": "Insert close-up: in the upper half of the picture an old leather-bound book open on a wooden reading desk, its yellowed pages showing only faint plain ruled lines, a few loose sheets of notes beside it showing only plain ruled lines. Nobody in the frame. The lower half of the picture is only the dark desk wood. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | a brass reading lamp's warm pool of light, deep shadows around, dust in the beam, richly painted, detailed ink linework, textured brushwork.",
+  "bk_29": "Medium two-shot memory: in the upper half of the picture a kind elderly Filipina lady with grey hair in a low bun, round glasses, a gentle wrinkled face, a plain pale green blouse, leaning over the table and telling a story with a soft smile, beside a small Filipino boy about five, short black hair, big dark eyes, a light blue t-shirt, who listens with wide eyes, chin resting on folded arms on the table. The lower half of the picture is only the worn wooden table top. | a small Filipino house kitchen at night, a worn wooden table, jars on wooden shelves, a single hanging lamp, a window with capiz shell panes | warm sepia memory light from the hanging lamp, soft edges, golden dust, night outside the window, richly painted, detailed ink linework, textured brushwork.",
+  "bk_30": "Close-up of his face in three-quarter view: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, quietly watching something far across the domed room, a still, thoughtful face, his eyes on the far lamp; behind him, a body-width away, soft and out of focus, a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, also looking across the room. Only the two of them, the far room dim. No dog, no animals. The lower third is only his grey jacket shoulder and the dark desks. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | dim, warm lamp light from far ahead on his face, cool blue dome light behind, soft focus on her, richly painted, detailed ink linework, textured brushwork.",
+  "bk_31": "Extreme low angle from the street: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, crouched on the edge of a roof against the fog, head thrown back laughing, a thin dark grin. The lower half of the picture is only dark stone walls rising from below. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | fog lit pale from above, gaslight from below on the walls, Jack's red eyes glowing, cold and eerie, richly painted, detailed ink linework, textured brushwork.",
+  "bk_32": "High wide shot from above: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, in a huge leap over the street, cloak spread; far below him three tiny dark silhouettes, a young man, a woman in a long coat and a small black dog, duck back against a wall. The lower half of the picture is only the wet cobbled street. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | fog, gaslight from below, Jack's red eyes blazing, motion streaks of rain, richly painted, detailed ink linework, textured brushwork.",
+  "bk_33": "Low side view of the dog: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog crouches low on the cobbles, seen from the side, lips pulled back in a snarl, fangs showing, the fur raised along the dog's back, head tilted up toward the rooftops, growling. Nobody else in the frame. The lower half of the picture is only wet cobbles. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | red glow from the rooftops above on the dog's face, gaslight from the side, fog, richly painted, detailed ink linework, textured brushwork.",
+  "bk_34": "Medium shot: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, crouched on top of a tall iron gas lamp post, long legs folded like a grasshopper's, looking down. Nobody else in the frame. The lower half of the picture is only fog and dark cobbles. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | the gas lamp's yellow glow lighting him from below, thick fog, red eyes burning, richly painted, detailed ink linework, textured brushwork.",
+  "bk_35": "Over-the-shoulder shot from behind his right shoulder, his face in three-quarter profile: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, in the upper half of the picture, raising in his left hand a tall curved bow of golden light, a full crescent with one thin bright string of light between its tips, toward a black cloaked figure on a far rooftop at the upper right. Nothing on his face. The lower half of the picture is only his dark shoulder and fog. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | the bow's gold light on his cheek and the rain, cold blue fog, a far red glow of eyes, richly painted, detailed ink linework, textured brushwork.",
+  "bk_36": "Very wide shot across two roofs, everything small and far: the near roof ridge runs across the middle of the picture, and on it at the LEFT stands the small full figure of a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, facing right, his feet on the ridge, his left hand gripping a curved bow of golden light shaped like a crescent, lowered at his side; across the gap, smaller on the far roof at the upper RIGHT of the picture, a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, frozen mid-step; one golden arrow stands upright in the slates on his long shadow, holding the shadow fast. The top-left corner is only fog. The lower half of the picture is only slates. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | the arrow's blazing gold glow in the slates, rain and fog, moonlight, hard rim light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_37": "Close-up: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, looking up calmly, eyes steady, rain on his face, a quiet small smile. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | gold glow from below from the pinned arrow, cool blue rain light, rim light on his wet topknot, richly painted, detailed ink linework, textured brushwork.",
+  "bk_38": "Two-shot, medium: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, holding up the glowing medallion from her neck; across from her, a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical dissolves into streams of blue-gold light that pour into a floating hologram above the medallion, still laughing. The lower half of the picture is only wet cobbles and fog. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | blue-gold light streaming, gaslight in fog, sparkles, richly painted, detailed ink linework, textured brushwork.",
+  "bk_39": "Low shot: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He tracks with his nose to the cobbles toward a dark riverside warehouse in the fog, tail stiff. Nobody else in the frame. The lower half of the picture is only wet cobbles. | a foggy riverside lane by the Thames in 1888, wet cobbles, gas lamps, soot-dark stone warehouses, the masts of sailing barges on the dark river | gas lamps in fog, faint bronze glow from a crack in the warehouse door, richly painted, detailed ink linework, textured brushwork.",
+  "bk_40": "Wide interior: in the upper half of the picture stacks of crates and barrels, and one crate set apart in the lantern light, nailed shut, with a faint bronze glow at its seams. Nobody in the frame. The lower half of the picture is only dark floorboards. | inside a riverside warehouse by the Thames in 1888, heavy timber beams and stone walls, stacks of plain wooden crates and barrels, one oil lantern, fog at the open loading door | a single oil lantern's warm light, fog at the door, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_41": "Medium shot: in the upper half of the picture a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He sits and lifts one front paw in a wave, his body fading into golden light from the tail upward; a body-width apart, a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace kneels, looking at him with a sad smile. The lower half of the picture is only wet cobbles with gold sparks. | a foggy riverside lane by the Thames in 1888, wet cobbles, gas lamps, soot-dark stone warehouses, the masts of sailing barges on the dark river | golden light dissolving the dog, cold blue fog, gaslight, richly painted, detailed ink linework, textured brushwork.",
+  "bk_42": "Wide shot from behind: in the upper half of the picture an old wooden crate stands in the CENTRE of the picture, its lid open, the last of a golden flash fading around it; at the left a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, and at the right a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, a body-width apart, seen in three-quarter view from behind, both facing the crate, her long hair covering her back, her medallion not visible. No dog, no animals. The lower half of the picture is only dusty floorboards. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | the last of the golden flash around the crate, grey rain light from the high windows, dust swirling, richly painted, detailed ink linework, textured brushwork.",
+  "bk_43": "Top-down close-up into an opened crate: in the upper part of the picture, its centre at about 38% of the height, a round old bronze medallion the size of a palm, its face engraved only with flowing wavy water lines, a smooth plain rim, glinting, about a third of the picture's width, half uncovered among straw and broken blue-and-white porcelain bowls pushed aside. Nobody in the frame. The lower 40% of the picture is only straw and the dark side of the crate in shadow. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | a torch beam from above, warm bronze glint, dust, richly painted, detailed ink linework, textured brushwork.",
+  "bk_44": "Macro side view: in the upper half of the picture a round old bronze medallion the size of a palm, its face engraved only with flowing wavy water lines, a smooth plain rim, lying on the straw, glowing river-blue, rings of light rising from it like a current. Nobody in the frame. The lower half of the picture is only dark straw. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | river-blue glow, darkness around, light ripples, richly painted, detailed ink linework, textured brushwork.",
+  "bk_45": "Low-wide shot: in the upper half of the picture a tall faint column of flowing river-blue light, only softly hinting at a robed standing figure inside it, no body detail, no muscles, the light dissolving into falling water below the chest, rising from the small glowing medallion on the floor up to the beams. Nobody else in the frame. The lower half of the picture is only dark floorboards with blue reflections. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | calm river-blue light, darkness of the warehouse, gentle ripples of light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_46": "Wide shot of one continuous wooden plank floor in one single perspective from the bottom edge to the far wall: across the middle of the floor river-blue light flows like a shallow stream and stops at one sharp straight glowing line of white light across the planks, in the upper half of the picture, that it does not cross; beyond the line the same planks stay dark and dry. Nobody in the frame. The near floor is in deep shadow, the same planks running to the bottom edge. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | blue light against darkness, a white edge of light, quiet, richly painted, detailed ink linework, textured brushwork.",
+  "bk_47": "Over-the-shoulder shot: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind his left shoulder, raises his forearm and a translucent blue-gold hologram ring of twelve small round slots floating in the air hangs above it in the upper half of the picture, one slot newly lit with a flowing-water glow, a small plain glowing plate under that slot. He is alone, no dog, no animals. The lower half of the picture is only his dark shoulder. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | blue-gold hologram light on his cheek, dim warehouse, dust, richly painted, detailed ink linework, textured brushwork.",
+  "bk_48": "Wide shot from inside the doorway: in the upper half of the picture two burly men in long dark raincoats with the hoods up, faces lost in shadow, one taller and broader than the other, standing as backlit silhouettes in the rainy doorway, one lifting a glaring phone light; facing them in the foreground, a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, squinting into the glare. No dog, no animals. The lower half of the picture is only wet floor with reflections. | the loading doorway of an old stone riverside warehouse in present-day London at night in the rain, heavy timber double doors, a wet cobbled lane, one caged wall lamp | harsh white phone glare, rain lit behind the men, cold shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_49": "Close-up: in the upper half of the picture a Filipino man in his thirties, light brown skin, dark brown hair styled up in a swept quiff, light stubble, a showman grin, wearing a bright yellow zip-up windbreaker, a smooth unlined face, a neat swept quiff, a friendly showman grin, grinning into a phone on a short black selfie stick held toward the viewer, rain on his windbreaker; only two men in dark raincoats far behind him, small and blurred, apart from each other. No dog, no animals. The lower half of the picture is only wet cobbled lane. | the loading doorway of an old stone riverside warehouse in present-day London at night in the rain, heavy timber double doors, a wet cobbled lane, one caged wall lamp | the phone's white light on his face, the wall lamp's yellow glow, rain, richly painted, detailed ink linework, textured brushwork.",
+  "bk_50": "Insert: in the upper half of the picture a phone mounted on a small black gimbal stand, its glowing screen showing a livestream of a rainy warehouse door with a plain bright red rectangle at the top left of the screen and a plain dark bar across the top, small floating hearts. Nobody in the frame. The lower half of the picture is only wet stone. | the loading doorway of an old stone riverside warehouse in present-day London at night in the rain, heavy timber double doors, a wet cobbled lane, one caged wall lamp | the screen's glow in the rain, cold night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_51": "Very low angle at street level: in the upper half of the picture rain water rushing down a sloping cobbled street toward the dark river, reflections of lamps streaking in it. Nobody in the frame. The lower half of the picture is only fast water over cobbles. | a narrow street of present-day London in heavy rain at night, wet dark pavement, old soot-dark and pale stone terraced buildings with plain dark shopfronts, black iron railings, lit windows, puddles reflecting warm streetlamps, a red double-decker bus far down the road | night rain, warm lamp reflections, cold blue water, spray, richly painted, detailed ink linework, textured brushwork.",
+  "bk_52": "Close-up from the side: in the upper half of the picture his hand, a thumb and four fingers, with a red handkerchief on the wrist and a worn grey sleeve, firmly grips her slim wrist just below the cuff of a near-black navy coat sleeve; her own hand is closed into a soft fist, hidden inside his grip. Blue light streaking around them. No faces. No dog, no animals. The lower half of the picture is only splashing street water. | a narrow street of present-day London in heavy rain at night, wet dark pavement, old soot-dark and pale stone terraced buildings with plain dark shopfronts, black iron railings, lit windows, puddles reflecting warm streetlamps, a red double-decker bus far down the road | streaks of river-blue light, rain, dark night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_53": "Side view, motion shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck run hand in hand from left to right, seen from the side, mid-stride, bodies leaning forward, blurred inside a horizontal tube of racing blue light that streaks along the river wall, water spray flying behind them. No dog, no animals. The lower half of the picture is only wet paving with blue reflections. | the Thames embankment in present-day London at night in the rain, a granite river wall with black iron lamp posts, the wide dark river, old stone riverside warehouses on the far bank, wet stone paving | night, motion streaks of blue, lamp posts flashing past, richly painted, detailed ink linework, textured brushwork.",
+  "bk_54": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, standing on the wet river shore a body-width apart, both splashed with grey silt, he laughing, she with a streak of silt on her cheek and a dry little smile. No dog, no animals. The lower half of the picture is only wet grey silt and pebbles. | the shore of the Thames at low tide in present-day London at night, wet grey river silt and pebbles, old black wooden posts, the stone river wall and lamp posts above, city lights across the water | night, lamp light from the wall above, blue reflections, drops of water in the air, richly painted, detailed ink linework, textured brushwork.",
+  "bk_55": "Close-up: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, sitting on a riverside bench, mock-growling with a raised lip, wry eyes. He is alone, no dog, no animals. The lower half of the picture is only the dark bench and wet paving. | the Thames embankment in present-day London at night in the rain, a granite river wall with black iron lamp posts, the wide dark river, old stone riverside warehouses on the far bank, wet stone paving | lamp light from one side, rain, cool blue, richly painted, detailed ink linework, textured brushwork.",
+  "bk_56": "Landscape only, no close people: in the upper half of the picture two Spanish galleons sailing into the bay beside British warships, at sunset. The lower half of the picture is only calm water. | Manila Bay in 1762, eighteenth-century British wooden sailing warships with tall masts and white sails, the grey stone walls of Intramuros on the low shore, coconut palms | deep crimson and gold sunset, calm sea, smoke on the shore, richly painted, detailed ink linework, textured brushwork.",
+  "bk_57": "Landscape only: in the upper half of the picture rooftops and chimneys of 1888 in morning fog, a great pale dome far off. The lower half of the picture is only slate roofs. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | pale gold morning light through fog, coal smoke, richly painted, detailed ink linework, textured brushwork.",
+  "bk_58": "Empty room, no people, no figures at all: a high shot, in the upper half of the picture archival boxes and old books scattered over many shelves in different rooms seen through open doors, like things separated. The lower half of the picture is only the floor. | a quiet reading room of a great modern research library in present-day London, long wooden desks, glass display cases of old leather-bound manuscripts and grey archival boxes, tall shelves, soft daylight from high windows | soft light, long shadows, quiet, richly painted, detailed ink linework, textured brushwork.",
+  "bk_59": "Wide shot: in the upper half of the picture, at the waterline, a Tagalog chief of 1571 seen only from far behind, brown skin, a red cloth wrapped on his head, a loose dark red long-sleeved upper garment and a wrapped cloth below, gold bands on his arms, facing Spanish ships offshore, nipa houses behind him. The lower half of the picture is only wet sand and water. | the shore of Tondo by Manila Bay in 1571, nipa houses on bamboo stilts, outrigger boats pulled up on the sand, coconut palms, calm water | morning light, warm haze, calm bay, richly painted, detailed ink linework, textured brushwork.",
+  "bk_60": "Low shot: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, silhouetted against a huge full moon on a rooftop. The lower half of the picture is only dark roofs. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | huge pale moon, black silhouette, red eyes, like an old penny print, richly painted, detailed ink linework, textured brushwork.",
+  "bk_62": "Two-shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, sitting side by side on two wooden chairs a little apart in front of the small orange heater, both fully dressed, both laughing happily like old friends. No dog, no animals. The lower half of the picture is only the wooden floor and the heater glow. | a small plain rented room in present-day London at night, a wooden writing desk and chair under a tall rain-streaked window with blurred city lights, a small electric heater glowing orange on the wooden floor, a wet towel on a hook by the door | warm orange heater glow, cool blue window light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_63": "Medium close side view at a rain-streaked window: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, both fully dressed, standing in profile facing each other and slowly leaning toward each other, their faces still a hand's width apart, foreheads apart, eyes lowered shyly. No dog, no animals. The lower half of the picture is only the dark window sill and soft shadow. | a small plain rented room in present-day London at night, a wooden writing desk and chair under a tall rain-streaked window with blurred city lights, a small electric heater glowing orange on the wooden floor, a wet towel on a hook by the door | warm orange heater light on their faces, cool blue rain light from the window, soft rim light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_64": "Medium-wide shot: in the top third of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, springing out of a blue-gold hologram ring, cackling; below him, mid-picture, a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace and a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, seen from the chest up, leaning apart in shock, hands out of the frame. No dog, no animals. Below them only the dark room and the heater glow. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | blue-gold flash, orange heater glow, comic shock, richly painted, detailed ink linework, textured brushwork.",
+  "bk_65": "Close-up: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, smiling softly, looking away, cheeks warm. No dog, no animals. The lower half of the picture is only soft shadow. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | warm orange light on one cheek, cool blue window light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_66": "Insert: in the upper half of the picture a phone lying on the white bed sheet, its screen showing a Filipino man in his thirties, light brown skin, dark brown hair styled up in a swept quiff, light stubble, a showman grin, wearing a bright yellow zip-up windbreaker, holding up his own phone whose dark case shows three small triangles in a row, a plain red rectangle at the top left of the screen. Nobody else. No dog, no animals. The lower half of the picture is only white sheets in shadow. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | the screen's glow, orange heater light, suspense, richly painted, detailed ink linework, textured brushwork.",
+  "bk_67": "Over-the-shoulder shot: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, seen from behind his shoulder, raises his forearm and a translucent blue-gold hologram ring of twelve small round slots floating in the air hangs above it in the upper half of the picture, all slots dim. He is alone, no dog, no animals. The lower half of the picture is only his dark shoulder. | a narrow street of present-day London in heavy rain at night, wet dark pavement, old soot-dark and pale stone terraced buildings with plain dark shopfronts, black iron railings, lit windows, puddles reflecting warm streetlamps, a red double-decker bus far down the road | night rain, blue-gold hologram light, wet reflections, richly painted, detailed ink linework, textured brushwork.",
+  "bk_68": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, leaning toward the viewer with a small inviting smile. He is alone, no dog, no animals. The lower half of the picture is only his jacket. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | warm lamp light, rain light on the window behind, richly painted, detailed ink linework, textured brushwork.",
+  "bk_69": "Still life: in the upper half of the picture an opened old wooden crate stands on a dusty plank floor, holding blue-and-white porcelain bowls, a thin flat rectangular copper plate and a closed old book with a blank cover, glowing dust rising. Nobody in the frame. The dusty floorboards with scattered straw and the crate's long shadow continue down to the bottom edge, dim but painted. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | warm lantern light from above, dust motes, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_70": "Medium shot framed from the knees up: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck on the left and a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace on the right stand a little apart, facing us, the red handkerchief tied on his left wrist, on the right side of the picture as he faces us, his right hand in his jeans pocket, her hands in her coat pockets; floating beside M at the height of her shoulder, a small faint golden outline of a slim street dog, its left ear upright and its right ear folded, made of light. No real dog. The lower third is only legs and wet gravel. | a flat rooftop of present-day London at dawn after the rain, wet roof gravel, stone chimney stacks, puddles reflecting the sky, the city skyline and the Thames glowing gold beyond | gold dawn light, warm sky, rim light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_89": "Low-angle shot from roof level, a new framing of the frozen moment: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, frozen in mid-air against a pale full moon, body twisted, cloak torn in the wind; under him a single arrow of golden light stands in the slates and a bright thread of light ties his long black shadow to the roof. Nobody else in the frame. The lower half of the picture is only wet slate tiles in deep shadow. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | huge pale moon behind him, the arrow's hard gold light from below on his cloak, sparks, fog, rain streaks, richly painted, detailed ink linework, textured brushwork.",
+  "bk_90": "Close medium shot, a new angle of the rooftop run: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, running toward the viewer along a narrow gutter between two roofs, head turned back, eyes wide, both arms swinging low at his sides, both hands below the frame; far behind him in the fog the dark shape of a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, crouched on a chimney top with two red eyes. The lower half of the picture is only dark gutter and wet slates. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | rain in hard streaks, cold blue fog, faint gaslight glow rising from the street below, rim light on his wet hair, richly painted, detailed ink linework, textured brushwork.",
+  "bk_91": "Wide full-figure shot from behind and to the side: in the upper half of the picture a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, now with the grey hood of his jacket pulled UP over his head, the hood covering his hair and topknot completely, rain dripping from the hood's edge, standing alone at the river wall in a sheet of rain, small against the wide dark river and the old stone warehouses across the water. He is alone, no dog, no animals. The lower half of the picture is only rain-pocked puddles on the stone paving. | the Thames embankment in present-day London at night in the rain, a granite river wall with black iron lamp posts, the wide dark river, old stone riverside warehouses on the far bank, wet stone paving | cold blue night, sheets of rain lit by the lamp posts, warm windows across the river, richly painted, detailed ink linework, textured brushwork.",
+  "bk_92": "Close-up still life: in the upper half of the picture a large flat copper printing plate lies half-wrapped in sackcloth on a wooden cart, its surface engraved only with faint coastline curves and fine hatching, no letters; beside it a stack of old leather-bound books tied with string. Nobody in the frame. The lower half of the picture is only the rough cart planks in shadow. | the stone cloister of an old monastery inside Intramuros in 1762, thick round arches around a garden courtyard, worn stone floor, smoke drifting over the city | firelight glinting on the copper, smoke, deep shadows, a faint gold lens haze at the edges, richly painted, detailed ink linework, textured brushwork.",
+  "bk_93": "Landscape only, no close people: in the upper half of the picture a black horse-drawn cab with two big wheels comes out of thick fog under a tall gas lamp, the driver a small dark silhouette with a top hat. The lower half of the picture is only wet cobbles reflecting the lamp. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | thick yellow fog, one gas lamp's warm halo, coal smoke, dark blue night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_94": "Low close view along a long wooden reading table: in the upper half of the picture a brass lamp with a dark glass shade, a small glass ink bottle, and a short stack of closed leather books with round reading glasses on top; beyond, the round wall of bookshelves of the domed hall, soft and hazy. Nobody in the frame. The lower half of the picture is only the dark table top. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | the lamp's warm gold glow, a warm pool of light on the table, cool blue light from the dome behind, richly painted, detailed ink linework, textured brushwork.",
+  "bk_95": "Landscape with only a shadow: in the upper half of the picture the long thin shadow of a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical slides across a row of clay chimney pots in moonlight; only the shadow and two red sparks of his eyes at the shadow's head, the figure itself out of frame. The lower half of the picture is only dark slates. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | bright moonlight in fog, long hard shadows, coal smoke, richly painted, detailed ink linework, textured brushwork.",
+  "bk_96": "Extreme close-up on a wet slate roof seen from just above: the cracked slate tiles fill the whole picture; in the upper half of the picture an arrow made of golden light stands slantwise in one cracked slate tile, sparks spraying, the edge of a black shadow pinned beneath it. No sky, no city, only the roof. Nobody in the frame. The lower half of the picture is only dark wet slates. | the rooftops of Victorian London in 1888 at night, wet grey slate roofs, rows of stone chimney stacks with clay chimney pots, coal smoke and fog, gaslit streets far below | blazing gold light, rain drops lit like sparks, deep blue night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_97": "Close-up: in the upper half of the picture a single plain straight iron bar wedged under the lid of the old wooden crate, the lid lifting, straw spilling out. Nobody in the frame. The lower half of the picture is only the dark crate side. | inside an old stone riverside warehouse in present-day London, a dim long room with iron pillars and heavy timber beams, dusty floorboards, stacked wooden crates under grey tarpaulins, rain on high arched windows | a torch beam slanting in, dust in the beam, warm and cold contrast, richly painted, detailed ink linework, textured brushwork.",
+  "bk_98": "Medium shot from behind: in the upper half of the picture a Filipino man in his thirties, light brown skin, dark brown hair styled up in a swept quiff, light stubble, a showman grin, wearing a bright yellow zip-up windbreaker, seen from behind, swinging his phone on its stick toward the river too late; far across the water a fading streak of blue light on the other bank. No dog, no animals. The lower half of the picture is only wet stone. | the Thames embankment in present-day London at night in the rain, a granite river wall with black iron lamp posts, the wide dark river, old stone riverside warehouses on the far bank, wet stone paving | night rain, the blue streak far off, his phone screen glow, richly painted, detailed ink linework, textured brushwork.",
+  "bk_99": "Very wide shot from far behind: the long stone bridge runs away from the viewer toward the city lights across the river; far down the bridge, small in the distance, two figures walk side by side under one shared open red umbrella, their backs to the viewer: at the left a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck, holding the umbrella; at the right a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace. No dog, no animals. The lower half of the picture is only the wet bridge paving and lamp reflections. | a stone bridge over the Thames in present-day London at night in the rain, a low granite parapet, black iron lamp posts, city lights on the water | night rain glittering in the lamplight, city lights on the water, warm umbrella glow, richly painted, detailed ink linework, textured brushwork.",
+  "bk_100": "Over-the-shoulder shot from behind his left shoulder: a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace, in the upper half of the picture, his face only in quarter profile, holding a round magnifying lens the size of a palm in a polished gold rim lowered at his chest, his head tilted up to the dark rooftop line above the warehouse; high in the rainy sky above the roof two tiny red sparks like eyes. He is alone, no dog, no animals. The lower half of the picture is only his dark shoulder and wet cobbles. | the loading doorway of an old stone riverside warehouse in present-day London at night in the rain, heavy timber double doors, a wet cobbled lane, one caged wall lamp | rain, the caged wall lamp's hard yellow light, two tiny red sparks in the sky, cold blue night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_101": "Low close shot along the end of a tall bookshelf: in the upper half of the picture a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck and a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace peer side by side around the edge of the shelf, half hidden, curious and quiet, looking far into the room; behind them leather spines in soft shadow. No dog, no animals. The lower half of the picture is only dark bookshelf wood. | a great round domed reading room in London in 1888, a high pale blue and gold dome ringed with tall windows, long desks radiating like wheel spokes, curved walls of bookshelves, brass lamps | a warm far lamp glow on their faces, cool blue dome light behind, dust in the air, richly painted, detailed ink linework, textured brushwork.",
+  "bk_102": "Wide shot at dawn: in the upper half of the picture a column of British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters marches in through the open gate of the thick grey stone walls, a British flag rising on a pole above the walls, smoke drifting. The lower half of the picture is only worn paving stones and smoke. | the thick sloping grey stone walls and narrow streets of Intramuros, the walled Spanish city of Manila, in October 1762, tiled-roof stone houses with wooden balconies, smoke drifting, fallen stones; beyond the walls only palm groves, nipa huts and low tiled roofs of 1762 | pale gold dawn, long shadows, drifting grey smoke, quiet after the night, richly painted, detailed ink linework, textured brushwork.",
+  "bk_103": "Wide street shot: in the upper half of the picture a small slim neatly dressed man in a dark 1880s overcoat and bowler hat, seen only from far behind, walks up the stone steps of a narrow terraced lodging house with a stack of books under his arm, his face never visible. The lower half of the picture is only wet cobbles and fog. | a cobbled street of Victorian London in 1888 at night, gas lamps glowing in thick yellow fog, soot-dark stone terraced houses with sash windows, black iron railings, wet cobbles, a horse-drawn cab far off | cold grey winter morning fog, one gas lamp still lit, soft warm window light, richly painted, detailed ink linework, textured brushwork.",
+  "bk_104": "Still life on a dark wooden table: in the upper half of the picture an old iron-bound wooden chest stands open, spilling silver coins, and beside it a brass balance scale tips unevenly, one pan heaped with coins, the other empty. Nobody in the frame. The lower half of the picture is only the dark table edge in shadow. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze | a single candle's warm light on the silver, deep shadows, smoke haze, a question in the air, richly painted, detailed ink linework, textured brushwork.",
+  "bk_105": "Wide shot over the water: in the upper half of the picture a long line of Tagalog outrigger boats with woven sails sets out together across the bay, paddles raised, a dark row of far foreign ships on the horizon. Nobody close. The lower half of the picture is only calm grey-gold water. | Manila Bay in 1574 at dawn, calm grey-gold water, the low shore of Tondo with nipa houses on bamboo stilts and coconut palms, a far horizon line of sea haze | dawn gold through sea haze, glints on the paddles, calm and resolute, richly painted, detailed ink linework, textured brushwork.",
+  "bk_106": "Close shot: in the upper half of the picture a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical, hanging upside down from the ceiling lamp right in front of the viewer, cackling, red eyes wide, blue-gold sparks spilling from a hologram around him. Nobody else in the frame. The lower half of the picture is only dark room and the orange heater glow. | a small plain hotel room in present-day London at night, a narrow bed with white sheets, a small electric heater glowing orange on the floor, a rain-streaked window with blurred city lights, a wet towel on a hook by the door | blue-gold flash, orange heater glow from below, comic surprise, richly painted, detailed ink linework, textured brushwork."
+ },
+ "shots": {
+  "0": {
+   "full": "bk_00"
+  },
+  "1": {
+   "full": "bk_01"
+  },
+  "2": {
+   "full": "bk_02"
+  },
+  "3": {
+   "full": "bk_03"
+  },
+  "4": {
+   "full": "bk_04"
+  },
+  "5": {
+   "full": "bk_05"
+  },
+  "6": {
+   "full": "bk_06"
+  },
+  "7": {
+   "full": "bk_07"
+  },
+  "8": {
+   "full": "bk_08"
+  },
+  "9": {
+   "full": "bk_09"
+  },
+  "10": {
+   "full": "bk_10"
+  },
+  "11": {
+   "full": "bk_11"
+  },
+  "12": {
+   "full": "bk_12"
+  },
+  "13": {
+   "full": "bk_13"
+  },
+  "14": {
+   "full": "bk_14"
+  },
+  "15": {
+   "full": "bk_15"
+  },
+  "16": {
+   "full": "bk_16"
+  },
+  "17": {
+   "full": "bk_17"
+  },
+  "18": {
+   "full": "bk_18"
+  },
+  "19": {
+   "full": "bk_19"
+  },
+  "20": {
+   "full": "bk_20"
+  },
+  "21": {
+   "full": "bk_21"
+  },
+  "22": {
+   "full": "bk_22"
+  },
+  "23": {
+   "full": "bk_23"
+  },
+  "24": {
+   "full": "bk_24"
+  },
+  "25": {
+   "full": "bk_25"
+  },
+  "26": {
+   "full": "bk_26"
+  },
+  "27": {
+   "full": "bk_27"
+  },
+  "28": {
+   "full": "bk_28"
+  },
+  "29": {
+   "full": "bk_29"
+  },
+  "30": {
+   "full": "bk_30"
+  },
+  "31": {
+   "full": "bk_31"
+  },
+  "32": {
+   "full": "bk_32"
+  },
+  "33": {
+   "full": "bk_33"
+  },
+  "34": {
+   "full": "bk_34"
+  },
+  "35": {
+   "full": "bk_35"
+  },
+  "36": {
+   "full": "bk_36"
+  },
+  "37": {
+   "full": "bk_37"
+  },
+  "38": {
+   "full": "bk_38"
+  },
+  "39": {
+   "full": "bk_39"
+  },
+  "40": {
+   "full": "bk_40"
+  },
+  "41": {
+   "full": "bk_41"
+  },
+  "42": {
+   "full": "bk_42"
+  },
+  "43": {
+   "full": "bk_43"
+  },
+  "44": {
+   "full": "bk_44"
+  },
+  "45": {
+   "full": "bk_45"
+  },
+  "46": {
+   "full": "bk_46"
+  },
+  "47": {
+   "full": "bk_47"
+  },
+  "48": {
+   "full": "bk_48"
+  },
+  "49": {
+   "full": "bk_49"
+  },
+  "50": {
+   "full": "bk_50"
+  },
+  "51": {
+   "full": "bk_51"
+  },
+  "52": {
+   "full": "bk_52"
+  },
+  "53": {
+   "full": "bk_53"
+  },
+  "54": {
+   "full": "bk_54"
+  },
+  "55": {
+   "full": "bk_55"
+  },
+  "56": {
+   "full": "bk_56"
+  },
+  "57": {
+   "full": "bk_57"
+  },
+  "58": {
+   "full": "bk_58"
+  },
+  "59": {
+   "full": "bk_59"
+  },
+  "60": {
+   "full": "bk_60"
+  },
+  "62": {
+   "full": "bk_62"
+  },
+  "63": {
+   "full": "bk_63"
+  },
+  "64": {
+   "full": "bk_64"
+  },
+  "65": {
+   "full": "bk_65"
+  },
+  "66": {
+   "full": "bk_66"
+  },
+  "67": {
+   "full": "bk_67"
+  },
+  "68": {
+   "full": "bk_68"
+  },
+  "69": {
+   "full": "bk_69"
+  },
+  "70": {
+   "full": "bk_70"
+  },
+  "89": {
+   "full": "bk_89"
+  },
+  "90": {
+   "full": "bk_90"
+  },
+  "91": {
+   "full": "bk_91"
+  },
+  "92": {
+   "full": "bk_92"
+  },
+  "93": {
+   "full": "bk_93"
+  },
+  "94": {
+   "full": "bk_94"
+  },
+  "95": {
+   "full": "bk_95"
+  },
+  "96": {
+   "full": "bk_96"
+  },
+  "97": {
+   "full": "bk_97"
+  },
+  "98": {
+   "full": "bk_98"
+  },
+  "99": {
+   "full": "bk_99"
+  },
+  "100": {
+   "full": "bk_100"
+  },
+  "101": {
+   "full": "bk_101"
+  },
+  "102": {
+   "full": "bk_102"
+  },
+  "103": {
+   "full": "bk_103"
+  },
+  "104": {
+   "full": "bk_104"
+  },
+  "105": {
+   "full": "bk_105"
+  },
+  "106": {
+   "full": "bk_106"
+  }
+ },
+ "shots_before_bakunawa": {
+  "0": {
+   "full": "rooftop_chase"
+  },
+  "1": {
+   "full": "bow_light"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "london_vista"
+  },
+  "4": {
+   "full": "two_doors"
+  },
+  "5": {
+   "full": "notebook_writes"
+  },
+  "6": {
+   "full": "rain_city_sketch"
+  },
+  "7": {
+   "full": "clue_map"
+  },
+  "8": {
+   "full": "crossing_wave"
+  },
+  "9": {
+   "full": "ukay_jacket"
+  },
+  "10": {
+   "full": "lens_raise"
+  },
+  "11": {
+   "full": "lens_manila_1762"
+  },
+  "12": {
+   "full": "ransom_table"
+  },
+  "13": {
+   "full": "galleon_taken"
+  },
+  "14": {
+   "full": "manuscripts_carried"
+  },
+  "15": {
+   "full": "library_now"
+  },
+  "16": {
+   "full": "crate_dust"
+  },
+  "17": {
+   "full": "shadow_in_lens"
+  },
+  "18": {
+   "full": "m_hand_out"
+  },
+  "19": {
+   "full": "jump_light"
+  },
+  "20": {
+   "full": "gaslight_street"
+  },
+  "21": {
+   "full": "usman_light"
+  },
+  "22": {
+   "full": "usman_window"
+  },
+  "23": {
+   "full": "m_stern"
+  },
+  "24": {
+   "full": "usman_beg"
+  },
+  "25": {
+   "full": "museum_steps"
+  },
+  "26": {
+   "full": "rizal_far"
+  },
+  "27": {
+   "full": "reading_room_dome"
+  },
+  "28": {
+   "full": "book_pages"
+  },
+  "29": {
+   "full": "lola_memory"
+  },
+  "30": {
+   "full": "walk_away"
+  },
+  "31": {
+   "full": "laugh_roof"
+  },
+  "32": {
+   "full": "jack_leap"
+  },
+  "33": {
+   "full": "usman_growl"
+  },
+  "34": {
+   "full": "jack_reveal"
+  },
+  "35": {
+   "full": "draw_bow"
+  },
+  "36": {
+   "full": "arrow_pin"
+  },
+  "37": {
+   "full": "seen_point"
+  },
+  "38": {
+   "full": "jack_into_holo"
+  },
+  "39": {
+   "full": "usman_sniff"
+  },
+  "40": {
+   "full": "crate_1888"
+  },
+  "41": {
+   "full": "usman_wave"
+  },
+  "42": {
+   "full": "return_now"
+  },
+  "43": {
+   "full": "medallion_porcelain"
+  },
+  "44": {
+   "full": "medallion_glow"
+  },
+  "45": {
+   "full": "lakandula_light"
+  },
+  "46": {
+   "full": "light_line"
+  },
+  "47": {
+   "full": "holo_agos"
+  },
+  "48": {
+   "full": "ambush_door"
+  },
+  "49": {
+   "full": "rico_live"
+  },
+  "50": {
+   "full": "rico_phone"
+  },
+  "51": {
+   "full": "rain_gutter"
+  },
+  "52": {
+   "full": "hands_current"
+  },
+  "53": {
+   "full": "speed_streak"
+  },
+  "54": {
+   "full": "mud_stop"
+  },
+  "55": {
+   "full": "indio_growl"
+  },
+  "56": {
+   "full": "galleons_card"
+  },
+  "57": {
+   "full": "london_1888_card"
+  },
+  "58": {
+   "full": "scattered_boxes"
+  },
+  "59": {
+   "full": "tondo_1571"
+  },
+  "60": {
+   "full": "jack_card"
+  },
+  "61": {
+   "full": "cast_silhouettes"
+  },
+  "62": {
+   "full": "heater_laugh"
+  },
+  "63": {
+   "full": "almost_kiss"
+  },
+  "64": {
+   "full": "jack_popout"
+  },
+  "65": {
+   "full": "m_smile"
+  },
+  "66": {
+   "full": "phone_mark"
+  },
+  "67": {
+   "full": "holo_nine"
+  },
+  "68": {
+   "full": "indio_point"
+  },
+  "69": {
+   "full": "loot_question"
+  },
+  "70": {
+   "full": "follow_rooftop"
+  },
+  "90": {
+   "full": "thames_rain"
+  },
+  "91": {
+   "full": "hotel_window"
+  },
+  "92": {
+   "full": "copper_plate"
+  },
+  "93": {
+   "full": "fog_cab"
+  },
+  "94": {
+   "full": "reading_lamp"
+  },
+  "95": {
+   "full": "chimney_shadow"
+  },
+  "96": {
+   "full": "arrow_close"
+  },
+  "97": {
+   "full": "crate_lid"
+  },
+  "98": {
+   "full": "blue_water_hand"
+  },
+  "99": {
+   "full": "umbrella_open"
+  }
+ },
+ "look": "bakunawa: full painted scene per key (the style of the Bakunawa reel)",
+ "look_cast": {
+  "indio": "a young Filipino man about twenty, lean, warm tan skin, a slim face with sharp dark eyes, thick black hair swept up into a small topknot on the crown, a few loose strands over his forehead, no headband, a worn grey hooded zip jacket open over a white t-shirt, dark jeans, a red handkerchief tied on his left wrist, no necklace",
+  "m": "a calm young Filipina woman in her twenties, long straight black hair falling past her waist, dark eyes, wearing a long near-black navy double-breasted coat buttoned to the collar and reaching her shins, a round bronze medallion on a cord at her neck",
+  "usman": "a slim black short-haired Philippine street dog with all-black legs and paws, a white chest patch, bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+  "jack": "a tall gaunt shadowy male figure in a long ragged black hooded cloak, glowing red eyes in a dark featureless face, no hair visible, long thin springing legs in black, eerie and theatrical",
+  "rico": "a Filipino man in his thirties, light brown skin, dark brown hair styled up in a swept quiff, light stubble, a showman grin, wearing a bright yellow zip-up windbreaker",
+  "tubal_men": "two burly men in long dark raincoats with the hoods up, faces lost in shadow, one taller and broader than the other",
+  "lola_ising": "a kind elderly Filipina lady with grey hair in a low bun, round glasses, a gentle wrinkled face, a plain pale green blouse",
+  "indio_child": "a small Filipino boy about five, short black hair, big dark eyes, a light blue t-shirt",
+  "rizal_far": "a small slim neatly dressed man in a dark 1880s suit with short black hair, seen only from far behind, bent over a book at a reading desk, his face never visible",
+  "lakandula_diwa": "a tall column of calm river-blue light faintly shaped like a standing man, no face, no features, no clothing",
+  "british_officer": "a British army officer of 1762, about forty-five, stocky, clean-shaven, white powdered wig tied back, black tricorne hat with gold trim, scarlet red coat with gold braid and dark blue lapels",
+  "redcoats": "British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters",
+  "archbishop": "an elderly Spanish archbishop of 1762, about sixty, thin grey hair, small purple skullcap, black cassock with a purple sash",
+  "lakan_1571": "a Tagalog chief of 1571 seen only from far behind, brown skin, a red cloth wrapped on his head, a loose dark red long-sleeved upper garment and a wrapped cloth below, gold bands on his arms",
+  "sandugo": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord",
+  "agos": "a round old bronze medallion the size of a palm, its face engraved only with flowing wavy water lines, a smooth plain rim",
+  "lens": "a round magnifying lens the size of a palm in a polished gold rim",
+  "hologram": "a translucent blue-gold hologram ring of twelve small round slots floating in the air"
+ }
+}

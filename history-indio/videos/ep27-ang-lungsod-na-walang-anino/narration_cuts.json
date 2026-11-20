@@ -1,0 +1,38 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 54,
+   "text": "Mula sa Ang Dating Biblia ang Pahayag 12:7, at kathang-isip ng serye ang ugnay ni Mikaela sa hukbong iyon."
+  },
+  {
+   "index": 55,
+   "text": "Kathang-isip: sina Nanay Liwayway, Ate Tala, Albo, Mikaela, at lahat ng nangyari sa Biringan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 51,
+   "text": "Tiyak: kuwentong-bayan ng Samar ang Biringan, isang di-nakikitang lungsod ng mga engkanto.",
+   "why": "A Tiyak history line that names the folklore."
+  },
+  {
+   "index": 52,
+   "text": "Kumalat ang mga kuwento mula pa noong 1960s, at walang mapa o tala ng lungsod ng engkanto.",
+   "why": "A fact about the folklore record."
+  },
+  {
+   "index": 53,
+   "text": "Bahagi ng alamat ang pitong pinto sa Samar, at walang totoong lugar na pinto.",
+   "why": "A fact about the folklore record."
+  },
+  {
+   "index": 16,
+   "text": "Sabi ng mga kuwento sa Samar: ang kumain ng pagkain ng Biringan, hindi na makakauwi.",
+   "why": "Folklore attribution inside the plot."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Bahagi ng alamat ang pitong pinto sa Samar, at walang totoong lugar na pinto. / Sa loob pa ng tarangkahan, sa ilalim ng mga ilaw na walang anino, nagkalapit kami ni M."
+}

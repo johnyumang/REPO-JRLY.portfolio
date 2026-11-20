@@ -1,0 +1,39 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 73,
+   "text": "Kathang-isip: ang pitong lalim, ang mga prinsipe, sina Lolo at Tatay, ang Alcaín Builders, at kami ni Usman; kuwentong-bayan ng Samar ang Biringan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 68,
+   "text": "Tiyak: siyam ang bilog sa Inferno ni Dante, isang tula, hindi kasulatan.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 69,
+   "text": "Sa Inferno, sa kumukulong alkitran ang mga nagbenta ng pampublikong tungkulin.",
+   "why": "A fact about the real text of Dante; the editor left it off the list, but it stays."
+  },
+  {
+   "index": 70,
+   "text": "Sa Qur'an, may pitong pintuan ang Jahannam; kung pitong antas ito, pinagtatalunan ng mga iskolar.",
+   "why": "History (Pinagtatalunan)."
+  },
+  {
+   "index": 71,
+   "text": "Kasanaan ang lugar ng kapighatian sa lumang paniniwala ng mga Tagalog, ayon sa salaysay ng mga Kastila.",
+   "why": "A statement about the real record."
+  },
+  {
+   "index": 72,
+   "text": "Tiyak din: saksi ang kahulugan ng salitang Griyegong martys.",
+   "why": "History (Tiyak)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Tiyak din: saksi ang kahulugan ng salitang Griyegong martys. / Tatlong lalim pa ang natitira, at doon, patay ang lahat ng medalyon."
+}

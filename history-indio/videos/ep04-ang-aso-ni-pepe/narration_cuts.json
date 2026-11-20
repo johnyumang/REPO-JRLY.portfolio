@@ -1,0 +1,33 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 32,
+   "text": "At ang kathang-isip: ang yakap at paalam sa tarangkahan, at ang pagiging iisa ng Usman ko at ng Usman niya."
+  },
+  {
+   "index": 33,
+   "text": "Kuwento namin 'yon."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 29,
+   "text": "Ang tiyak, ayon sa mga talambuhay: may asong Usman si Rizal, at umalis siya papuntang Biñan noong 1869.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 30,
+   "text": "Ang pinagdududahan: ang tulang Sa Aking Mga Kabata, na sinulat daw niya sa edad na walo.",
+   "why": "History (disputed)."
+  },
+  {
+   "index": 31,
+   "text": "Walang orihinal na sulat-kamay niya, at 1906 lang ito unang nalathala.",
+   "why": "Statement about the real record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Walang orihinal na sulat-kamay niya, at 1906 lang ito unang nalathala. / Lumamig ang medalyon."
+}

@@ -1,0 +1,37 @@
+{
+ "_about": "How the voices of Episode 2 v2 were made, so that new or changed lines can be voiced in the same session. Audio files are never in the repository; paths are on the voice machine ($HI_VOICE_WORK=/opt/work/voice).",
+ "engine": "the local voice pipeline (/opt/vx, float32 config copy), CPU, voxgen.gen(cfg=2.0, steps=10), 48 kHz",
+ "work_dir": "$HI_VOICE_WORK/ep02v2-british-sa-maynila (plan.json, takes c<chunk>_<SPEAKER>_s<seed>.wav, choice.json)",
+ "speakers": {
+  "TAGAPAGSALAYSAY": {
+   "reference": "$HI_VOICE_WORK/cast/TAGAPAGSALAYSAY.wav + .txt (the Episode 1 v2 narrator, cast kit 4; md5 0a3af8641c6cb979d535881da4817233)",
+   "how": "gen_ms.py: continuation from the reference clip padded to 0.80 s of silence (refs/TAGAPAGSALAYSAY_t80.wav) with its exact transcript, the same clip as timbre reference; no tone prompt (tone tags do not steer designed voices)",
+   "chunks": "ms.py plan: runs of up to 3 sentences / 170 characters in one turn; a chunk is re-voiced whole",
+   "seed_policy": "seeds 1 to 6 per chunk from the same reference and settings (no other change between takes); the take is chosen by words right, then every sentence's pace (syllables / aligned speech time of that sentence) inside 5.0-5.5 syl/s or nearest to it, then fewest failed checks. Result for the 36 lines of the rule-11 script: median 5.56 syl/s, 5 of 36 inside the window (SOUND_AUDIT.md)",
+   "pace_target_syl_per_s": [
+    5.0,
+    5.5
+   ],
+   "level": "each line levelled (BS.1770 K-weighted, gated) to within 0.25 LU of his median line loudness, before the master (ep2 assembly)",
+   "no_time_stretch": true
+  },
+  "INDIO": {
+   "reference": "the user's own Episode 1 recording (HI_VOICE_REC), gen.py mode U: tone prompt cut from the real recording + timbre reference",
+   "rule": "speaker similarity to the real-recording centroid >= 0.93; asides and whispers in the same clone (tone tag only)"
+  },
+  "USMAN": {
+   "reference": "$HI_VOICE_WORK/cast/USMAN.wav (Episode 1 v2 Usman, cast kit 1; md5 fda0e493e538c3a150ca4758f6e89754)"
+  },
+  "SEPA": {
+   "reference": "$HI_VOICE_WORK/cast/SEPA.wav, designed: cast_design.json SEPA description 0, seed 2 (castwork/SEPA/d0s2); md5 97bcb7df3e7f5c39a552bb84e126ee59"
+  },
+  "GUWARDIYA": {
+   "reference": "$HI_VOICE_WORK/cast/GUWARDIYA.wav = GUWARDIYA_EP2.wav, designed: cast_design.json GUWARDIYA_EP2 description 1, seed 2 (castwork/GUWARDIYA_EP2/d1s2); md5 df06017104378d1e8fdefe7e5cb0a09e"
+  }
+ },
+ "say_overrides": "Spoken forms that differ from the master header (the voice misread the respelling): English 'delivery rider' (s7), 'rider' (s14), 'app' (s13, s109, s111), 'order' (s111), 'british' (s35: 'BRItish' was spelled out as letters); 'galing kay em' (s116); 'panSIT, sabi nila' with a comma (s10: after a colon 'SIT' was spelled out); 'intramuros' (s6, s36) and 'imburnal' (s72) plain. Takes for these were chosen by the word the recogniser hears. Re-apply after a new script if sentences.json is regenerated.",
+ "gaps": "speech to speech 0.30-0.45 s inside a scene (about 0.36 in a turn, 0.40 between turns), about 0.80 s at a scene change",
+ "master": "-17.4 LUFS integrated, true peak under -1.2 dBFS; Indio's lines get the match EQ to the real recording",
+ "takes_used": "the chosen take per chunk is in $HI_VOICE_WORK/ep02v2-british-sa-maynila/choice.json; lead-in takes (_s1ls, _s1la: a throwaway 'Sige.' / 'Ayun.' cut off at its pause) for chunks 6, 10, 30, 34 and 57",
+ "assembly": "each chunk split into its sentences at the quietest point between them; each line levelled after Indio's match EQ and again after the line limiter; no time-stretch; gaps as above; master as above"
+}

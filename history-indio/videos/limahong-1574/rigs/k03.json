@@ -1,0 +1,17 @@
+{
+  "note": "Limahong close-up smirk before the storm fleet: head turn, blink, breathing, bandana tails, sails, flagship bob, sea shimmer, sword tassel",
+  "camera": {"zoom": [1.0, 1.07], "focus": [340, 240]},
+  "blink": {"skin": [318, 245], "eyes": [{"c": [327, 207], "r": [21, 9], "tilt": 15}, {"c": [392, 235], "r": [14, 8], "tilt": 15}]},
+  "effects": [
+    {"fx": "bob", "mask": {"ellipse": [610, 390, 110, 230], "soft": 40}, "dx": 0, "dy": 4, "speed": 1.2},
+    {"fx": "bob", "mask": {"ellipse": [450, 430, 45, 60], "soft": 25}, "dx": 0, "dy": 3, "speed": 1.6},
+    {"fx": "wind", "mask": [{"ellipse": [640, 275, 70, 95], "soft": 25}, {"ellipse": [665, 160, 35, 22], "soft": 12}], "amp": 2.5, "wave": 130, "speed": 3.5},
+    {"fx": "shimmer", "mask": {"poly": [[450, 555], [720, 560], [720, 690], [560, 700], [490, 620]], "soft": 22}, "amp": 2},
+    {"fx": "turn", "mask": [{"ellipse": [300, 200, 140, 195], "soft": 45}],
+     "pivot": [290, 390], "sway": 1.2, "speed": 1.2, "gesture": 3.5, "at": [0.25, 0.4, 0.65, 0.8], "lift": [0, 2]},
+    {"fx": "wind", "mask": {"poly": [[0, 170], [175, 175], [150, 300], [60, 380], [0, 400]], "soft": 30}, "amp": 4, "wave": 140, "speed": 4},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [100, 0], [150, 150], [0, 200]], "soft": 30}, "amp": 2.5, "wave": 200, "speed": 2.6},
+    {"fx": "breath", "ellipse": [250, 660, 210, 190]},
+    {"fx": "turn", "mask": {"ellipse": [688, 1070, 28, 85], "soft": 12}, "pivot": [672, 950], "sway": 3, "speed": 2.4}
+  ]
+}

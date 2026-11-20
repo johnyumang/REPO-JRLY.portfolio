@@ -1,0 +1,24 @@
+*.mp4
+*.wav
+private/
+__pycache__/
+videos/*/keys/build/
+videos/*/keys/depth/
+*.mp3
+# voice clone (pipeline/voice_clone): the user's recording, baseline and every generated take stay out of the repo
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.opus
+*.webm
+*.mov
+*.npy
+real_ep1.json
+voice_timings.json
+voice_work/
+videos/ep35-ang-bitag/keys/
+videos/ep36-ang-paglayo/keys/
+videos/ep37-saksi-ako/keys/
+# composited key frames are rebuilt by make_keys.py and are large: never commit them (keys already tracked in older episodes stay as they are)
+videos/*/keys/

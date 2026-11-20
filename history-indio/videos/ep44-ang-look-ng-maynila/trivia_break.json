@@ -1,0 +1,43 @@
+{
+ "fact_id": "t10",
+ "fact_english": "The northern Luzon giant cloud rat can weigh about two kilograms or more, which is huge for a rat.",
+ "label_onscreen": "BUGKIAU",
+ "source_onscreen": "Pinagmulan: Field Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang higanteng cloud rat ng hilagang Luzon, puwedeng umabot ng dalawang kilo o higit pa!",
+   "emphasis": [
+    "dalawang",
+    "kilo"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Daga na kasimbigat ng isang supot ng bigas. Galang.",
+   "emphasis": [
+    "galang"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Pero walang katapusan ang tubig, at sa likod nito, ang mga demonyo.",
+ "insert_time": 73.89,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the endless water reveals the demons behind it: a cliffhanger and a scene change from the wave to the demons, before the fight begins, so it is not at the peak and splits no thought. The gap is 0.58 s, inside the 60–130 s window. Grave episode (battle in the bay): gentle animal fact. Moved on 13 Nov: the old spot (after the lamp strips the faces) split a set-up from its pay-off at the peak of the fight, and the proposed spot after #29 (about 136.8 s) is outside the window."
+}

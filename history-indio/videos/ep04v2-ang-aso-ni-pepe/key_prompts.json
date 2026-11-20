@@ -1,0 +1,625 @@
+{
+ "_note": "Episode 4 version 2, drawn the way of the model episode (ep01v2): every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, one request at a time, three draws a still, the choice at 3x on every hand, face and dog; 'rNcM' = round N with new words, seed M). Sizes, angles and moves follow the Camera column of shots.md (pipeline/CAMERA.md); rows 6, 10, 19, 22, 28, 30 and 45 have a second still (bk_06b, bk_10b, bk_19b, bk_22b, bk_28b, bk_30b, bk_45b) for their later beat, so no still holds much past 6 s without a move. Central's rule of 16 Nov (CAMERA.md 6a): no cross-dissolve between two stills that both show people, so the curator's 'in: dissolve' on rows 4 and 24 is a plain cut. The markers of bk_44, bk_45 and bk_45b are also painted plain; bk_17 had a small ribbon end at the young dog's neck painted out in code. Sentence numbers are those of the current sentences.json (113 sentences); v2_04/shot_to_keys.json maps each shots.md row to its keys. Silent rows 12 and 13 are keys 120 and 121, shown inside the storyteller's line of row 11 after the chase; silent row 35 (the boy's chin) is key 122, shown on 'Tingnan mo.' (last line of row 34). Writing added in code after the choice: bk_04 BUKO PIE on the stall sign (sign_text.py); bk_45 Lola's message bubble with the exact words of her text (the three quoted sentences); bk_46 the question (last sentence) over the empty gate. The markers of bk_07/bk_08 stay unreadable (scribble repainted as plain engraved lines). Shot 47 is the trivia card (existing layout, no still). In 1869 Indio wears a sleeveless brown jacket with a front pocket over his baro: the pie of today travels in that pocket.",
+ "look": "bakunawa",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband",
+   "indio_1869": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm",
+   "usman": "a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "young_dog": "a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair",
+   "andoy": "a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot",
+   "mother": "a gentle Filipina woman about forty, black hair in a neat low bun, a calm kind face, a long plain dark brown dress of 1869 with long sleeves",
+   "boy": "a small Filipino boy about eight, slight, short neat black hair, big dark eyes, dressed for a journey in 1869: a white long-sleeved camisa shirt with a small collar, a short dark jacket, dark trousers, small black shoes",
+   "brother": "a lean Filipino young man about eighteen, short black hair, a serious face, a white camisa shirt, dark trousers",
+   "carromata": "a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse"
+  },
+  "lola_text": "drawn in code: a phone message bubble from 'Lola' with the exact words of sentences 83-85",
+  "places": {
+   "stall": "a roadside pie stall under a big mango tree beside a highway in Calamba, Laguna, Philippines, in our time: a simple wooden counter, stacks of plain brown cardboard pie boxes with no printing, tricycles passing, green rice fields and blue Mount Makiling far behind; no brand, no logo, no writing anywhere",
+   "house_today": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "road_1869": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "gate_1869": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "road_short": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "gate_short": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "yard_1869": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree"
+  }
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Extreme close-up, the camera right against a tall black iron gate: a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair lunging at the bars from inside, teeth bared, snarling straight at the viewer, the black vertical iron bars in front of its muzzle, spit flying. One dog only. The dog's head fills the upper half of the picture.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "hard late-afternoon sun from the side, the bars throwing black stripes of shadow across the dog's face, dust in the air, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "hook; the young dog at the bars"
+  },
+  "bk_02": {
+   "subject": "Low-angle shot from the ground: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, falling backward onto a dirt road, one arm thrown up in front of his face, mouth open in fright, a puff of dust kicking up around him; behind him the blurred black bars of a tall iron gate. No dog in this picture. His face and arm in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "hands counted"
+  },
+  "bk_03": {
+   "subject": "Deep two-plane shot along a dirt road: in the near foreground at the left edge, the blurred head and shoulder of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, seen from behind, only the cord of the medallion at the back of his neck; far away down the road, small and sharp, a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. sitting upright with his back to the viewer, facing a tall iron gate in a stone wall. One dog only. Both in the upper half.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "medallion on his chest (c1, c2 had it on the back)"
+  },
+  "bk_04": {
+   "subject": "Wide shot of a small roadside pie stall under a mango tree: a wide flat plain cream signboard, completely blank, across the top of the stall in the upper part of the picture; under it a wooden counter with stacks of plain brown pie boxes and one round golden pie; a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, walking up to the counter seen in three-quarter view, small in the frame, his hands in his jacket pockets. He is alone, no dog, no animals.",
+   "setting": "a roadside pie stall under a big mango tree beside a highway in Calamba, Laguna, Philippines, in our time: a simple wooden counter, stacks of plain brown cardboard pie boxes with no printing, tricycles passing, green rice fields and blue Mount Makiling far behind; no brand, no logo, no writing anywhere",
+   "light": "bright hot Philippine afternoon sun, hard short shadows, saturated blue sky with towering white clouds, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "sign BUKO PIE in code"
+  },
+  "bk_05": {
+   "subject": "High-angle medium close-up over a wooden stall counter: at the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, seen from the chest up, dropping three small silver coins with his right hand into the open right hand of a middle-aged Filipina pie vendor in a plain apron at the right, seen from the chest up, her other hand resting flat on the counter beside a single slice of golden buko pie on a square of brown paper. Each hand clearly joined to its arm, five fingers each. He is alone, no dog, no animals. Both faces in the upper half of the picture.",
+   "setting": "a roadside pie stall under a big mango tree beside a highway in Calamba, Laguna, Philippines, in our time: a simple wooden counter, stacks of plain brown cardboard pie boxes with no printing, tricycles passing, green rice fields and blue Mount Makiling far behind; no brand, no logo, no writing anywhere",
+   "light": "bright hot Philippine afternoon sun, hard short shadows, saturated blue sky with towering white clouds, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c2",
+   "note": "round 2 (central's hands rule): wider, every hand joins its arm; 2 people, 3 hands visible, fingers counted"
+  },
+  "bk_06": {
+   "subject": "Low-angle shot from below: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, holding a single triangular slice of golden buko pie on a square of brown paper high up against the sun with one hand, admiring it like a jewel, eyes shining, mouth watering, a proud grin; his other arm down out of frame. The slice and his face in the upper half of the picture. He is alone, no dog, no animals.",
+   "setting": "a roadside pie stall under a big mango tree beside a highway in Calamba, Laguna, Philippines, in our time: a simple wooden counter, stacks of plain brown cardboard pie boxes with no printing, tricycles passing, green rice fields and blue Mount Makiling far behind; no brand, no logo, no writing anywhere",
+   "light": "the sun right behind the slice of pie, a golden halo around it, lens glare, saturated blue sky, rim light on his face, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "hands counted (c3 had a shop sign with letters)"
+  },
+  "bk_06b": {
+   "subject": "Eye-level extreme close-up on a rough wooden stall counter: one whole round golden buko pie in a plain metal pie tin, a flaky crust with a lattice top, and right beside it one young green coconut split open showing soft white flesh; no people, no hands. The pie and the coconut in the upper half of the picture.",
+   "setting": "a roadside pie stall under a big mango tree beside a highway in Calamba, Laguna, Philippines, in our time: a simple wooden counter, stacks of plain brown cardboard pie boxes with no printing, tricycles passing, green rice fields and blue Mount Makiling far behind; no brand, no logo, no writing anywhere",
+   "light": "bright hot Philippine afternoon sun, hard short shadows, warm glow on the crust, saturated colours, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "pie and coconut above the subtitle band; no hands; far riders differ (no clones); road sign blank"
+  },
+  "bk_07": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, sliding a folded brown paper packet into the side pocket of his orange jacket and patting the pocket with a satisfied grin; behind him across a quiet street a restored two-storey stone house, and at the right a small dark stone marker on a low post. His face in the upper half of the picture. He is alone, no dog, no animals.",
+   "setting": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "light": "bright hot Philippine afternoon sun, hard short shadows, saturated blue sky with towering white clouds, heat haze, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "hand counted; marker scribble repainted as plain lines in code"
+  },
+  "bk_08": {
+   "subject": "Over-the-shoulder shot from behind his right shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, in three-quarter view reading aloud from a small dark stone marker on a low post in front of him, the face of the marker covered only with rows of plain engraved horizontal lines, no letters; a warm golden glow shining from the bronze medallion on his chest. The marker and his face in the upper half of the picture. He is alone, no dog, no animals.",
+   "setting": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "light": "afternoon sun, birds in the mango trees, a golden glow from the medallion lighting his chin, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "marker face plain lines; far marker scribble repainted in code"
+  },
+  "bk_09": {
+   "subject": "High crane shot looking down through the branches and leaves of mango trees: a dirt road with long shadows, and in the middle of the road a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, crouched on one knee inside a fading column of golden light, small in the frame, looking around. No dog. The road and the figure in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, a column of golden light with sparks, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_10": {
+   "subject": "Medium shot from just behind and to the left of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, three-quarter back view, face in profile, the medallion on his chest at the edge, arms at his sides; a few steps ahead on the dirt road, facing away from him, a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. trotting away, nose raised high, sniffing the air, his tail toward the viewer. One dog with one head only. The dog in the upper half of the picture.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c1",
+   "note": "round 2: medallion at the front, ears right, hand counted"
+  },
+  "bk_10b": {
+   "subject": "Eye-level wide shot down a dirt road under mango trees: in the foreground at the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, seen in three-quarter view, calling out with his mouth open and one arm stretched forward, the hand open, five fingers; far ahead down the road, small, an old black street dog with a red kerchief running AWAY from him into the distance, seen from behind, its back and tail toward the viewer, its face not visible. One dog only. Both in the upper half of the picture.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c1",
+   "note": "round 2: Usman runs away; open hand five fingers, feet counted"
+  },
+  "bk_11": {
+   "subject": "Fast side-on action shot along a dirt road: a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. running flat out at the front; a few steps behind him a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm running hard, headband tails flying; past a wooden cart and scattering chickens; a farm boy with a grey water buffalo turns to look. One dog only. The runners in the upper half of the picture.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, motion blur in the background, dust flying, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "ears one up one folded; c2 both ears up"
+  },
+  "bk_12": {
+   "subject": "Low shot from the road, side view: a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. standing still before a tall black iron gate set in a whitewashed stone wall, his muzzle pressed between two vertical bars, tail raised and wagging. One dog only. The gate rises into the top of the picture; the dog in the upper half.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "outside the gate, nose raised to the bars, tail up (c1, c3 put the dog inside the bars)"
+  },
+  "bk_13": {
+   "subject": "Long-lens view at a dog's eye level through black vertical iron bars, the bars soft and blurred in the foreground: across a quiet yard, at the foot of worn stone steps of a big stone house, a small Filipino boy about eight, slight, short neat black hair, big dark eyes, dressed for a journey in 1869: a white long-sleeved camisa shirt with a small collar, a short dark jacket, dark trousers, small black shoes, standing beside a small wooden travel trunk with brass corners, looking down at it. No dog in the picture. The boy in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_14": {
+   "subject": "Wide two-plane shot: in the foreground at the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, standing in the dirt road calling out, both hands cupped around his mouth; in the background at the right, before a tall iron gate, a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Seen from behind, sitting, nose to the bars, ignoring him; the dog's right ear folded down. One dog only. Upper half.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c1",
+   "note": "round 2: one ear up, hands counted"
+  },
+  "bk_15": {
+   "subject": "Close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, three-quarter view, eyes lowered, lips pressed together, hurt and quiet; behind him blurred black iron bars and green mango leaves. No dog. His face in the upper half of the picture.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "soft gold side light on half his face, the other half in green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "c1 had a scrawled signature"
+  },
+  "bk_16": {
+   "subject": "Medium shot from the road, eye level, the whole of the young man in frame at the left: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, leaning back from a tall black iron gate in shock, both his hands raised open in front of his chest, both arms clearly joined to his shoulders. Behind the bars, inside the yard, charging straight at him, teeth bared, ears back: a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair. Only one dog in the picture. No other people. Both in the upper two thirds of the picture, the lower part of the picture is the dusty road.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "redrawn 16 Nov (central): the young dog charges, Indio whole"
+  },
+  "bk_17": {
+   "subject": "Dutch-tilted wide shot from the road outside a tall black iron gate in a stone wall, the gate twice as tall as a man: behind the closed bars a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair, a normal-sized dog, jumping up with its front paws on the bars, teeth bared, its folded right ear flopping, its neck bare with no kerchief, no ribbon, no collar; at the right, on the driver's seat of a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse parked by the wall, a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, jumping to his feet with the reins in his hands. One dog only. The dog and the boy in the upper half.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, dust exploding in the light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c3",
+   "note": "round 3: dog behind the bars, one ear folded, Dutch tilt; a small ribbon end behind its neck painted out in code (inpaint); thin collar strap remains; Andoy grins rather than shouts"
+  },
+  "bk_18": {
+   "subject": "Low-angle shot: a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, sitting on the high driver's seat of a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse, lifting his chin toward the right with a know-it-all look, his hands resting on his knees holding the loose reins. His face in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "hands counted"
+  },
+  "bk_19": {
+   "subject": "Close-up from the chest up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, eyebrows raised in surprise, mouth half open, pulling a small round silver coin half out of the front pocket of his brown jacket with one hand, a thumb and four fingers; the face of the coin plain. No dog. His face and the coin in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "hand counted; coin face plain at phone size"
+  },
+  "bk_19b": {
+   "subject": "Eye-level close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, a sheepish embarrassed half smile, eyes sliding to the side, as if he just said something foolish; his hands out of frame. No dog. His face in the upper half of the picture.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "golden late sun on one side of his face, green shade behind, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "no hands in frame (forearms only)"
+  },
+  "bk_20": {
+   "subject": "Two-shot across the neck and mane of a brown horse in the near foreground: at the LEFT, sitting on the driver's seat of a carromata, a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, shrugging with both shoulders raised and palms up; at the RIGHT, standing on the dirt road beside the carromata, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, frowning, pointing back with one arm toward a gate off the picture to the right. No dog. Both faces in the upper half.",
+   "setting": "a dirt road under mango trees in Calamba, 1869; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c3",
+   "note": "round 2: Andoy left shrugging, Indio right pointing; hands counted"
+  },
+  "bk_21": {
+   "subject": "High-angle shot looking down at a dusty dirt road: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, sitting down hard on the ground, legs out in front, leaning back on his arms, a puff of dust around him, a startled face looking up; at the top of the picture the base of a tall black iron gate with the snout of a barking black dog between the bars. One dog only. The figure in the upper half of the picture.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "c2 had 1869 written on the pillar"
+  },
+  "bk_22": {
+   "subject": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, sitting in the road dust at the left of the picture, knees drawn up, forearms resting on his knees, looking at the viewer with a tired, wry, sad face; far behind him at the right, small, at the foot of a tall iron gate, an old black street dog with a red kerchief sitting with its back to us, its left ear upright and its right ear folded down and flopping. One dog only, small, far from him. His face in the upper half.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "late golden sun, his face half in green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c2",
+   "note": "round 3: Usman far behind at the gate, one ear folded; hands and toes counted (only two tattoo lines show)"
+  },
+  "bk_22b": {
+   "subject": "Eye-level close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, sitting low in the road dust, looking straight at the viewer with a wry, hurt half smile, eyes glistening; his hands out of frame. No dog in the picture. His face in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "late golden sun on one side of his face, the other side in green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "no writing (c2, c3 had 1869/Calamba on the pillars); hand at the edge cut by the frame"
+  },
+  "bk_23": {
+   "subject": "Low two-shot beside the big wooden wheel of a carromata: a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, crouching sideways on the dirt road, eyes down on the ground, both hands resting open on his knees, teaching; beside him a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, crouching too, watching the boy closely. No dog. Both in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "hands counted"
+  },
+  "bk_24": {
+   "subject": "Wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, sitting cross-legged on the dirt road outside a tall closed black iron gate, his shoulder against the bars, eyes on the ground, very still; on the far side of the closed bars, inside the yard, a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair, walking slowly, calmer, head lowered; the iron bars are between the man and the dog. One dog only. Upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "very late afternoon, long orange shadows of the mango trees stretched across the wall and the road, rich golden light, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c3",
+   "note": "round 2: dog inside the closed bars; hands resting; the young dog's ears read as both up at this distance"
+  },
+  "bk_25": {
+   "subject": "Macro close-up: the black wet nose and whiskered black muzzle of a big young black dog with no grey hair poking through between two black iron bars, sniffing at the bulging front pocket of a brown cotton jacket, a corner of brown paper peeking out of the pocket. The nose and the pocket in the upper half of the picture.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, shallow depth of field, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "c1 had 'Calamba 1869' painted on the wall"
+  },
+  "bk_26": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, looking down at his own jacket pocket with a stricken, pained face, eyebrows up, lips pulled tight, a bead of sweat; the blurred black iron bars beside him. No dog. His face in the upper half of the picture.",
+   "setting": "a tall black iron gate with vertical bars in a plain whitewashed stone wall with no writing, Calamba 1869, a big stone house with a clay tile roof behind it, mango trees, a dirt road; no modern buildings",
+   "light": "golden late sun, deep green shade behind, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "hand in pocket"
+  },
+  "bk_27": {
+   "subject": "Top-down shot looking straight down on dusty ground at the foot of a black iron gate: a single triangular slice of golden buko pie on a square of brown paper lying between two iron bars, and from inside the gate the head of a big young black dog bending to eat it, its face all solid black with no white marks, its left ear standing upright and pointed, its right ear folded down. One dog only. The slice and the dog's head in the upper half.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c1",
+   "note": "round 3 best: face all black, no grey; FAULT kept: both ears up (three rounds)"
+  },
+  "bk_28": {
+   "subject": "Profile two-shot through black iron bars: inside at the right a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair, head raised, mouth slightly open in a low growl, looking toward the house; outside at the left, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, in profile with his eyes shut and his head tilted, listening, a calm face. One dog only. Soft glowing haze softening the edges of the picture. Both heads in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm amber light, a soft glow around the edges, dust motes floating, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "dog inside the bars; c1 dog outside"
+  },
+  "bk_28b": {
+   "subject": "Close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, eyes just opened, soft and moist, a gentle sad understanding on his face, head tilted as if still listening; the blurred black iron bars of a gate behind him. No dog in the picture. His face in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm amber light, a soft glow around the edges of the picture, dust motes floating, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "two hands, each joins its arm; fingers counted"
+  },
+  "bk_29": {
+   "subject": "Symmetrical close two-shot in profile: exactly two black dogs nose to nose on either side of one black iron bar of a gate. At the left, outside: a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. At the right, inside: a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair. The same white patch on each chest. Only these two dogs, no people. Both heads in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, the light between their noses, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "each dog one ear up one folded; only the old one grey and kerchiefed"
+  },
+  "bk_30": {
+   "subject": "Close-up: the head and chest of a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. filling the upper half of the picture, his eyes soft and wet, looking up; behind him, soft and out of focus, the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, looking down at the dog in amazement. One dog only.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden light in the dog's eyes, deep green shade behind, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "ears right; hand counted"
+  },
+  "bk_30b": {
+   "subject": "Eye-level close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, stunned, eyes wide, mouth slightly open, his eyes turned sideways as if looking from one thing to another; at the far left and far right edges of the picture, out of focus, two dark shapes of black fur. His face in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden light, deep green shade behind, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "one hand visible, five fingers; dogs as soft dark fur at the edges"
+  },
+  "bk_31": {
+   "subject": "Medium-wide shot from behind: a young Filipino man with a small black topknot, a red cloth headband with long tails, a loose off-white baro shirt under a short sleeveless brown jacket, three thin indigo lines on his right forearm, sitting cross-legged on the ground with his back to us, nothing hanging on his back, his bronze medallion hangs on his chest and is out of sight; shoulder to shoulder beside him a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair, sitting upright, its back to us, its right ear folded down and flopping over, only its left ear pointed up; both face an open iron gate where a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot holds the gate open, . One dog only. Upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c2",
+   "note": "round 3: young dog's right ear folded, left up; Andoy holds the gate (2 hands, joins); Indio's hands hidden; no medallion on the back"
+  },
+  "bk_32": {
+   "subject": "Medium two-shot: at the left a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, mouth wide open in astonishment; at the right a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, holding up an empty crumpled square of brown paper with one hand, a dry deadpan face. No dog. Both faces in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Andoy left, Indio right (as bk_23); hand counted"
+  },
+  "bk_33": {
+   "subject": "Long-lens medium shot through blurred mango leaves at the edges: on worn stone steps of a big stone house, a gentle Filipina woman about forty, black hair in a neat low bun, a calm kind face, a long plain dark brown dress of 1869 with long sleeves, kneeling on a step, tenderly cupping the face of a small Filipino boy about eight with both of her hands, her palms on his cheeks, her arms clearly reaching from her shoulders to his face; the boy, slight, short neat black hair, big dark eyes, a white long-sleeved camisa shirt with a small collar, a short dark jacket, dark trousers, small black shoes, his arms down at his sides, looking up at her. Exactly two people, exactly four hands. No dog. Both in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree",
+   "light": "soft warm late-afternoon light, gentle glow, green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4",
+   "note": "redrawn 16 Nov: her hands on his face (the tender beat); 4 hands, all on arms"
+  },
+  "bk_34": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, half-turned toward the viewer, whispering, a sober, gentle face; behind him, far and blurred, stone steps with a kneeling woman and a small boy. No dog. His face in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree",
+   "light": "soft warm light, the background melting into golden blur, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "hands counted; mother and boy tiny and soft behind"
+  },
+  "bk_35": {
+   "subject": "Slightly high-angle close-up portrait, the face fills the picture from the top of the head to the collar, nothing below the shoulders in the frame: a small Filipino boy about eight with short neat black hair and big dark eyes, a white shirt with a small collar under a dark vest, a brave composed face, his chin trembling a little, eyes bright and glistening, lips pressed together. No hands in the picture. His face in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869, softly blurred stone steps and a wooden door far behind",
+   "light": "very soft warm light, gentle glow on his cheek, soft focus background, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c3",
+   "note": "round 3: face only, no hands; eyes shining, chin held, no tears on the cheeks"
+  },
+  "bk_36": {
+   "subject": "Medium shot: a gentle Filipina woman about forty, black hair in a neat low bun, a calm kind face, a long plain dark brown dress of 1869 with long sleeves, kneeling on a stone step, speaking gently with a small loving smile, one finger of her right hand raised in a kind warning; at the lower left edge the back of a small boy's head. Her face in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree",
+   "light": "soft warm golden light on her face, the wooden door in shade behind her, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "hands counted; generic woman, no likeness"
+  },
+  "bk_37": {
+   "subject": "Still life, extreme close-up: a small old glass oil lamp standing on a stone step, one tiny flame, and a tiny pale moth circling close to the flame, its wings lit gold; the edges of the picture soft and dreamlike, fading into dark. An empty scene with no people, no hands, no fingers, no arms, no body parts at all. The flame and the moth in the upper half of the picture.",
+   "setting": "the yard of a big stone house in Calamba in 1869: worn stone steps up to a heavy wooden door, a whitewashed wall, clay pots, a mango tree",
+   "light": "dark warm dusk, the only light is the small flame, a soft halo, dreamy glow, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": "redrawn 16 Nov: no hand (the earlier draw had a hand with no arm); one moth, one flame"
+  },
+  "bk_38": {
+   "subject": "Wide shot through an open iron gate: a small Filipino boy about eight, slight, short neat black hair, big dark eyes, dressed for a journey in 1869: a white long-sleeved camisa shirt with a small collar, a short dark jacket, dark trousers, small black shoes, kneeling, arms around the neck of a big strong young black short-haired Philippine dog with a glossy coat, an all-black face, a white patch only on the chest, the dog's left ear stands upright and pointed, only the dog's right ear is folded down, no kerchief, no collar, no grey hair; far at the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, standing back against the wall, arms at his sides. One dog only. Upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "ears right; hands counted"
+  },
+  "bk_39": {
+   "subject": "Low-angle shot: a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, sitting on the driver's seat of a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse, holding the reins, a soft serious face; behind him a lean Filipino young man about eighteen, short black hair, a serious face, a white camisa shirt, dark trousers, lifting a small wooden travel trunk with brass corners up onto the back of the carromata. No dog. Faces in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "hands counted"
+  },
+  "bk_40": {
+   "subject": "Long wide shot from an iron gate down a dirt road under big mango trees: a small two-wheeled horse-drawn carromata of 1869 with a black hooded box and one brown horse rolling away, small in the frame, raising dust, and a small boy's face looking back from the back of it. The road and the carromata in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "golden late-afternoon light, long shadows across the road, dust glowing, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "single picture (c1, c3 were split into two panels)"
+  },
+  "bk_41": {
+   "subject": "Medium shot from behind, the viewer stands behind them: three figures sitting in a row with their BACKS to the viewer, looking away down an empty dirt road that runs into the distance under mango trees; we see only the backs of their heads. At the left a big young black dog with no kerchief, sitting, its back to us; in the middle a young Filipino man with a small black topknot, a red cloth headband with long tails, a loose off-white baro shirt under a short sleeveless brown jacket, sitting cross-legged, his back to us, only the cord of his medallion at the back of his neck; at the right an old slim black short-haired street dog with a red kerchief, sitting, his back to us, the kerchief knot at the back of his neck, one ear upright and one ear folded. Exactly two dogs and one man, nobody faces the viewer. The three backs in the upper half.",
+   "setting": "a dirt road under mango trees in Calamba, 1869, running far into the distance; no gate in the picture, no writing anywhere",
+   "light": "golden evening light, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c2",
+   "note": "round 2: backs to us, two dogs, kerchief only on Usman, no medallion on the back; FAULT kept: both dogs' ears read upright from behind (c1, c3 hung the medallion on his back)"
+  },
+  "bk_42": {
+   "subject": "Close two-shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with rolled sleeves under a short open sleeveless brown jacket with a big front pocket, dark brown trousers, barefoot, a round bronze medallion on a cord around his neck, three thin indigo tattoo lines on his right forearm, crouching beside a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. a body-width apart, looking at the dog with a questioning face, his forearms resting on his knees; the dog looking past him toward a stone house. One dog only. Both heads in the upper half of the picture.",
+   "setting": "a tall black iron gate in a plain whitewashed stone wall, Calamba 1869, mango trees; no modern buildings",
+   "light": "evening gold light, soft rim light on the dog's black fur, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "Indio left, Usman right; ears right; hands counted"
+  },
+  "bk_43": {
+   "subject": "Eye-level medium shot: a medium-sized slim black short-haired Philippine street dog, with a silver-grey old muzzle, a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. sitting on the dirt road looking up calmly, his body and the road around him dissolving into streams of golden light and floating sparks. One dog only, no people. The dog in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "golden light pouring up from the ground, sparks, the trees fading into gold, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "ears right; face black with grey muzzle (c1, c2 had pale brows)"
+  },
+  "bk_44": {
+   "subject": "Eye-level wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, standing alone on a quiet street in front of a restored two-storey stone house, small in the frame at the left third, his right jacket sleeve pushed up to the elbow, four thin indigo lines on his right forearm, the newest line glowing faint orange; with a wry wincing face he holds up an empty square of brown paper in his left hand. He is alone, no dog, no animals. His figure in the upper half of the picture.",
+   "setting": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "light": "late-afternoon golden sun, long shadows, a faint warm glow on his forearm, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r2c2",
+   "note": "round 2 (round 1 refused by the filter: 'smoking'); four lines, newest glowing; hands counted; marker painted plain"
+  },
+  "bk_45": {
+   "subject": "Close-up from the chest up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, in the lower middle of the picture, reading a smartphone held low in front of his chest, the phone seen from behind, his face lit from below by the screen, eyebrows knit, curious and uneasy; above his head the plain soft blurred stone house and sky fill the upper half of the picture, empty. He is alone, no dog, no animals.",
+   "setting": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "light": "golden late-afternoon light, cool blue glow of a phone screen on his face, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "two hands on the phone, each joins its arm; marker scribble painted plain; bubble in code"
+  },
+  "bk_45b": {
+   "subject": "Eye-level close-up of the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an orange zip-up windbreaker jacket with a big flap pocket on each side, no logo or lettering, open over a plain white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, eyebrows knit, uneasy and curious, lips pressed, looking down and to the side, lost in thought; his hands out of frame. He is alone, no dog, no animals. His face in the upper half of the picture.",
+   "setting": "a quiet sunny street in Calamba, Laguna, Philippines, in our time: a restored two-storey house with a stone ground floor, a wooden upper floor with sliding capiz shell windows and a tiled roof, behind a low wall, a small upright dark bronze historical marker plaque on a waist-high stone pedestal by the gate, a trimmed lawn, mango trees",
+   "light": "late-afternoon sun turning orange, long shadows, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "hands in pockets; marker scribble painted plain"
+  },
+  "bk_46": {
+   "subject": "Wide eye-level view of a tall black iron gate in a white stone wall, the gate standing open, stone steps of a big old house beyond it, mango branches hanging over the wall. The gate fills the lower half of the picture; the upper half is a warm evening sky with soft leaves.",
+   "setting": "a Philippine country town long ago, a big stone house with a red clay tile roof, mango trees, a dirt road",
+   "light": "soft golden evening light, an orange sky, long calm shadows, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "r3c1",
+   "note": "round 3 (rounds 1-2 refused by the filter); open sky above for the question, written in code"
+  },
+  "bk_17b": {
+   "subject": "Low-angle close-up: a Filipino boy about ten, the son of a coachman in 1869, brown skin, short messy black hair, a bright cheeky face, a loose faded blue collarless cotton camisa shirt with no hood, rolled brown trousers, barefoot, standing on the driver's seat of a small two-wheeled horse-drawn carromata of 1869, the reins clenched in both fists, shouting a warning with his mouth wide open and one arm flung out toward the gate, both arms clearly joined to his shoulders. One boy only, no dog in the picture. His face in the upper half of the picture.",
+   "setting": "a dirt road in Calamba, Laguna, in June 1869 under big old mango trees: nipa houses on stilts, stone houses with clay tile roofs; no modern buildings, no electric wires",
+   "light": "warm golden late-afternoon sun through mango leaves, long dappled shadows, glowing dust, deep green shade, rim light, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "new 16 Nov: Andoy shouting"
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "2": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "4": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "6": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "8": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "10": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "12": {
+   "full": "bk_06b",
+   "shot": 6
+  },
+  "15": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "17": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "18": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "22": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "24": {
+   "full": "bk_10b",
+   "shot": 10
+  },
+  "29": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "120": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "121": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "30": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "33": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "34": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "35": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "38": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "42": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "44": {
+   "full": "bk_19b",
+   "shot": 19
+  },
+  "46": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "49": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "50": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "52": {
+   "full": "bk_22b",
+   "shot": 22
+  },
+  "54": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "59": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "60": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "61": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "63": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "64": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "67": {
+   "full": "bk_28b",
+   "shot": 28
+  },
+  "69": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "70": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "72": {
+   "full": "bk_30b",
+   "shot": 30
+  },
+  "77": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "78": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "81": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "82": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "122": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "85": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "87": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "89": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "90": {
+   "full": "bk_39",
+   "shot": 39
+  },
+  "93": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "94": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "98": {
+   "full": "bk_42",
+   "shot": 42
+  },
+  "101": {
+   "full": "bk_43",
+   "shot": 43
+  },
+  "102": {
+   "full": "bk_44",
+   "shot": 44
+  },
+  "106": {
+   "full": "bk_45",
+   "shot": 45
+  },
+  "110": {
+   "full": "bk_45b",
+   "shot": 45
+  },
+  "112": {
+   "full": "bk_46",
+   "shot": 46
+  },
+  "36": {
+   "full": "bk_17b",
+   "shot": 17
+  }
+ }
+}

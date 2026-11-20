@@ -1,0 +1,19 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 61,
+   "text": "Kathang-isip: ang mga sasakyan, ang medalyon at ang boses nito, ang lalaking may tatsulok, at ang vlog."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 60,
+   "text": "Kuwentong-bayan ang kapre, ang higanteng naninigarilyo sa puno.",
+   "why": "Folklore attribution in a sentence of its own."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ang kapre, ang higanteng naninigarilyo sa puno. / Alas-tres ng madaling-araw, umupo ako sa sahig ng garahe, kasama ang limampung sasakyan."
+}

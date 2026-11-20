@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 42,
+   "text": "At ang kathang-isip: kami ni Usman, si M, at ang medalyon."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 38,
+   "text": "Ang tiyak: ang petsa, ang lugar, at ang hiling niyang humarap na hindi pinagbigyan.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 39,
+   "text": "Ang kuwentong mahina ang pinagmulan: may asong umikot at umiyak sa tabi niya.",
+   "why": "About the weak source of a real-world anecdote, not about our story."
+  },
+  {
+   "index": 40,
+   "text": "Ang pinagtatalunan: kung paano naitago ang huling tula niya sa lutuang de-alkohol.",
+   "why": "History (disputed)."
+  },
+  {
+   "index": 41,
+   "text": "Walang pamagat, walang pirma.",
+   "why": "Fact about the real last poem; it finishes sentence 40."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Walang pamagat, walang pirma. / Hinintay kong lumamig ang medalyon."
+}

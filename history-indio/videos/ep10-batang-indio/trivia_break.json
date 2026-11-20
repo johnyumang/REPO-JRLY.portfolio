@@ -1,0 +1,42 @@
+{
+ "fact_id": "t03",
+ "fact_english": "The Philippine flying lemur, or kagwang, is not a lemur and cannot truly fly; it glides on a wide skin membrane between its limbs.",
+ "label_onscreen": "KAGWANG",
+ "source_onscreen": "Pinagmulan: Animal Diversity Web",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kagwang, tinatawag na flying lemur, hindi lemur, at hindi talaga lumilipad!",
+   "emphasis": [
+    "hindi"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Dumadausdos lang gamit ang balat sa pagitan ng mga paa. Mali-mali na nga ang pangalan, ang galing pa rin.",
+   "emphasis": [
+    "dumadausdos"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 27,
+ "after_text": "Patingin nga, Indio, titingnan ko muna bago tayo magpasya.",
+ "insert_time": 108.26,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After Ma'am's 'Patingin nga, Indio, titingnan ko muna bago tayo magpasya.': the classroom exchange closes and the class waits to learn whether the code is fake. After the break, Indio's narration of the code's history begins (José Marco's papers, 1913). Moved on 13 Nov from after JM's question (index 25), because that cut split the question from young Indio's answer."
+}

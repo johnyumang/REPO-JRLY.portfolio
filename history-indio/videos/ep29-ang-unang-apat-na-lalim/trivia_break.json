@@ -1,0 +1,42 @@
+{
+ "fact_id": "t31",
+ "fact_english": "The male Palawan peacock-pheasant spreads its tail like a fan with shining blue-green eye spots to court a female.",
+ "label_onscreen": "TANDIKAN",
+ "source_onscreen": "Pinagmulan: Toronto Zoo; Zoo Barcelona",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tandikan ng Palawan, ang lalaki, ibinubukas ang buntot na parang pamaypay na may kumikinang na asul-berdeng mata.",
+   "emphasis": [
+    "pamaypay"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Para sa babae. Lahat ginagawa para sa crush.",
+   "emphasis": [
+    "crush"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 36,
+ "after_text": "Ayan, par, ganyan nga, huwag kang lilingon.",
+ "insert_time": 128.2,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "The second depth (Ang Hilig) ends on Usman's own light line, and the third depth (Ang Sakim) starts next, so this is a scene change (gap 0.77 s). Moved on 13 Nov from after \"Indalecio?\" because the old cut split the father-son reunion (sentences 22-24) at its emotional peak. Grave episode (the depths): gentle fact."
+}

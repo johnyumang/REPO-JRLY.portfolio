@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 60,
+   "text": "Kathang-isip ang mga arko, ang tahimik na panunumpa, ang gunaw ng kuwentong ito at lahat ng tauhan; kuwentong-bayan ang mga nilalang."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 31,
+   "text": "Totoo ang bawat tabla, at may resibo ang bawat piso.",
+   "why": "Plot (honest building of the arks). Not a fiction statement."
+  },
+  {
+   "index": 55,
+   "text": "Lilinawin ko ngayon.",
+   "why": "The beat opener still introduces Tiyak (56-57) and Kasulatan (58-59)."
+  },
+  {
+   "index": 58,
+   "text": "Kasulatan: sa Genesis siyam, talata labing-isa, ang pangakong hindi na lilipulin ng baha ang lahat.",
+   "why": "A statement about the real text."
+  },
+  {
+   "index": 59,
+   "text": "At sa Pahayag labindalawa, talata labinlima, sa buod: ang ahas na nagbuga ng tubig na gaya ng isang ilog.",
+   "why": "A statement about the real text."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "At sa Pahayag labindalawa, talata labinlima, sa buod: ang ahas na nagbuga ng tubig na gaya ng isang ilog. / Isang gabi, sa pampang ng ilog Agusan, nakaupo kami ni M sa isang tapos na arko."
+}

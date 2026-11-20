@@ -1,0 +1,592 @@
+{
+ "_note": "Episode 10 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (JSON prompt: subject, setting, light; three draws a still, one request at a time, the choice at 3x). Writing in pictures is added in code after the choice (see WRITING.md in this folder). No still is shown twice; a sentence that continues a still holds it (shots_fx.json key).",
+ "look": "bakunawa",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "woman": "a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder",
+   "lente": "an old round lens the size of a palm with a gold rim, clear glass, no handle",
+   "lens_view": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame",
+   "batang_indio": "a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace",
+   "batang_may_medalya": "a neat Filipino boy about ten years old, light brown skin, glossy black hair combed flat with a sharp side parting, a confident face, a spotless pressed white short-sleeved school polo shirt buttoned to the collar",
+   "maam_celia": "a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt",
+   "bea": "a Filipina girl about ten years old, brown skin, black hair in two braids, a round friendly face, a plain white school blouse and a dark blue pleated skirt",
+   "lolo": "a thin old Filipino man of about seventy, weathered brown skin, short white hair, a gentle lined face, round wire spectacles, a plain cream short-sleeved shirt and dark trousers",
+   "asong_gala": "a small scruffy tan-brown stray dog with floppy ears and a white muzzle, no collar",
+   "kuwaderno": "a small black notebook with a red cloth spine",
+   "medallion": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord"
+  },
+  "places": {
+   "school_2012": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "classroom": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "corridor": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "gate_today": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere"
+  }
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Wide shot down a long school corridor, one-point perspective: far down the corridor, small, a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, standing alone with his back to the wall beside a shut wooden door, head down; on the same wall nearer to us a row of jalousie windows, and at the nearest window the faces of several laughing schoolchildren crowding to look out at him. The boy in the upper half of the picture. No adults, no dog.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "hard side light from the yard, the corridor in cool shadow, the boy in a single shaft of sun, lonely mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_02": {
+   "subject": "Close two-shot at a child's eye level: a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, chin lifted, lips pressed tight, eyes wet and shining, one tear on his cheek, sitting on the floor with his back to the wall, arms wrapped round his knees, his hands hidden behind his knees; beside him sits a small scruffy tan-brown stray dog with floppy ears and a white muzzle, no collar, leaning against his side and looking up at him. The boy's face in the upper half of the picture. No other people.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "hard side light from the yard, the corridor in cool shadow, the boy in a single shaft of sun, lonely mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_03": {
+   "subject": "Close-up: an old round lens the size of a palm with a gold rim, clear glass, no handle being lowered away from a face, held at chest height by one hand, a thumb and four fingers on the rim, in front of a white polo shirt and an old round bronze medallion engraved with a sun and a triangle, on a worn cord; only the chin, neck and chest of a young man with warm brown skin are in the picture, his eyes not seen; in the glass a tiny warm reflection of a school corridor; in front of him the diamond wire of a fence, out of focus. The lens in the upper half of the picture.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_04": {
+   "subject": "Very wide high crane shot looking down on a school gate at recess: small far-away schoolchildren in white shirts running and playing in the dusty yard behind the gate; outside the gate on the pavement a small wooden stool with a round tray of golden-brown caramelised bananas on bamboo skewers; near it the thick trunk of a big tree, and pressed against the trunk, seen from behind and very small, exactly three figures hiding: one young man with a black topknot, a white polo shirt and a dark backpack, one woman in a long dark coat under an open red umbrella, and one small black dog with a red neckerchief sitting at their feet. Nobody else outside the gate. The gate and the tree in the upper half of the picture.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": ""
+  },
+  "bk_05": {
+   "subject": "Medium comic shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, peering round the right side of a thick tree trunk with wide hungry eyes fixed on something to the left, his hands hidden behind the trunk; low at the foot of the trunk, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog stretches his nose forward, sniffing. In the left foreground, soft and out of focus, golden-brown caramelised bananas on bamboo skewers. The man's face in the upper half.",
+   "setting": "beside the gate of an old Philippine public school in 2012, a wire fence, a dusty pavement; no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_43": {
+   "subject": "Extreme close-up at tray level: golden-brown caramelised saba bananas on bamboo skewers piled on a round tray, glistening with brown sugar; just behind the tray, low, the black nose and bright eyes of a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog sniffs the nearest skewer, his nose almost touching it. The dog's eyes in the upper half of the picture. One dog only. No people, no hands.",
+   "setting": "a small wooden stool on a dusty pavement outside an old school, tree shade, out of focus; no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_44": {
+   "subject": "Medium close-up, comic: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, cheeks full, chewing with his eyes closed in bliss, a bamboo skewer with one caramelised banana left on it sticking out of the corner of his mouth, his arms folded across his chest with his hands tucked under his arms. His face in the upper half of the picture. No other people.",
+   "setting": "tree shade beside a wire fence outside an old school, out of focus; no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_06": {
+   "subject": "Close two-shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, looking back over his shoulder, startled; close behind him a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder, her free hand resting on his shoulder, calm stern eyes on him. In front of his chest his closed fist with the gold rim of a round lens showing in it. Both faces in the upper half of the picture.",
+   "setting": "beside a big tree and a wire fence outside an old school, leaves overhead; no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_07": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle, small and far, a classroom: in the far corner a boy with a tuft of black hair sits alone at his desk bent over an open book, while other small children in white shirts play and chase each other between the desks. Outside the gold circle there is only plain soft darkness, no people, no faces, no hands. The circle in the upper half of the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_08": {
+   "subject": "Low shot from the ground, from the side: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog stands up on his hind legs with his front paws on a wire fence, looking through it, tail up. Beyond the fence, soft and far, a cream and green school building. One dog only. No people.",
+   "setting": "a dusty pavement outside an old Philippine public school, a wire fence, tree shade; no writing anywhere",
+   "light": "bright recess sunshine through the leaves, dappled light and shade, warm cheerful colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_09": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle the front of a classroom: a wide dark green blackboard, completely empty and clean, across the top of the circle; in front of it, beside a desk, a neat small boy with side-parted hair in a white polo shirt standing very straight, arms at his sides, chest out; at the bottom the backs of the heads of seated children. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_10": {
+   "subject": "Medium shot inside a classroom: a neat Filipino boy about ten years old, light brown skin, glossy black hair combed flat with a sharp side parting, a confident face, a spotless pressed white short-sleeved school polo shirt buttoned to the collar, standing very straight beside his desk, chest out, chin up, mouth open reciting, arms stiff at his sides, hands out of the picture; behind him at the teacher's table a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, nodding with a warm smile; around him seated classmates turned toward him, smiling, soft shapes. The boy's face in the upper half.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_45": {
+   "subject": "Medium close-up from a pupil's seat, slightly low: a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, standing in front of a wide empty dark green blackboard, nodding with a warm approving smile, her hands clasped behind her back. Her face in the upper half of the picture. No other people.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_11": {
+   "subject": "Close-up: a schoolboy's arm in a short white sleeve raised straight up in the air from behind a wooden desk at the back of a classroom, the open hand with exactly five fingers; under it the top of a head of tousled black hair with a small tuft; far ahead, out of focus, the backs of other pupils' heads facing the front. The raised hand in the upper half of the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_12": {
+   "subject": "Medium shot at eye level: a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, standing behind his wooden school desk at the back of the class, leaning forward a little, nervous but determined, looking toward the front, his hands hidden behind a pile of books on the desk. His face in the upper half of the picture. A window behind him.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_13": {
+   "subject": "Close-up at eye level: the face of a neat Filipino boy about ten years old, light brown skin, glossy black hair combed flat with a sharp side parting, a confident face, a spotless pressed white short-sleeved school polo shirt buttoned to the collar, turned to look back over his shoulder, one eyebrow raised, a cool half-smile, not laughing; behind him, soft and out of focus, three different classmates in white shirts laughing with open mouths. His face in the upper half of the picture, normal proportions. No hands in the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": ""
+  },
+  "bk_14": {
+   "subject": "Medium shot: a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, holding up a thick old hardbound book with a plain worn dark green cloth cover in front of his chest, the blank cover facing us, his fingers hidden behind the edges of the book, his serious face above the book. His face in the upper third of the picture, the book in the middle.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_48": {
+   "subject": "Extreme close-up: the upper half of the face of a schoolboy about ten with warm brown skin, tousled black hair with a small tuft, dark brown steady eyes and a small frown, looking straight at us over the top edge of a thick old dark green book that hides his nose and mouth. His eyes in the upper half of the picture. No hands in the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_15": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, leaning close and whispering toward us, one eyebrow up, a sad half-smile, a gold-rimmed round lens tucked under his folded arms against his chest, hands hidden. His face in the upper half of the picture. No other people.",
+   "setting": "a wire fence and a big tree outside an old school, soft and out of focus; no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_16": {
+   "subject": "Wide shot from the back of a classroom: in the foreground the backs of the heads and shoulders of five different schoolchildren in white shirts sitting at their desks, their hands out of sight below the desks; far ahead, small, a boy with tousled black hair in a white polo shirt, seen from behind, running out through the open classroom door into bright daylight, hugging a thick book to his chest. The door and the running boy in the upper half of the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4",
+   "note": ""
+  },
+  "bk_17": {
+   "subject": "Medium shot: a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, half risen from her chair behind the teacher's table, leaning forward, one arm stretched out toward the left edge of the picture, her hand leaving the frame, worried face, mouth open calling out. Her face in the upper half of the picture.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_18": {
+   "subject": "Two-plane shot: in the dim foreground of a corridor, a small boy with a tuft of black hair in a white polo shirt, seen from behind, standing alone before a closed wooden door with a glass pane; through the glass, bright, the two arms of a man in the long sleeves of a cream embroidered barong shirt lowering a gold medal on a red, white and blue ribbon over the head of a neat boy with side-parted hair; the man's head is cut off by the top of the glass, his face is never seen. The glass pane in the upper half of the picture.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "hard side light from the yard, the corridor in cool shadow, the boy in a single shaft of sun, lonely mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_19": {
+   "subject": "Low two-shot: a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, sitting cross-legged on the floor at the end of a corridor, talking earnestly to a small scruffy tan-brown stray dog with floppy ears and a white muzzle, no collar, which sits facing him with its head tilted, listening; a thick old book on the boy's lap hides his hands. The boy's face in the upper half of the picture. No other people.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "soft bright light from the open yard behind them, cool shadow on the floor, gentle lonely mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_20": {
+   "subject": "Medium close-up at eye level, one single scene filling the whole picture: three different schoolchildren in white shirts, a boy with short spiky hair, a girl with a ponytail and a chubby boy with a bowl haircut, leaning side by side with their folded arms on a wooden window sill, laughing and chanting with open mouths, looking down to the right; the wooden jalousie window frame around them, the dim classroom behind them. Their faces in the upper half of the picture, the wall under the window in the lower half. Hands hidden under their folded arms.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c9",
+   "note": ""
+  },
+  "bk_21": {
+   "subject": "Tracking side shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, striding hard toward the left along a wire fence, leaning forward, jaw set, eyes fierce, his hands out of the frame at the bottom edge; ahead of him at the left edge a rusty iron gate; speed lines in the background. His face in the upper half of the picture. No other people.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_22": {
+   "subject": "Close-up: the arm of a woman in the sleeve of a long dark coat stretched across the picture from the right, her open hand with exactly five fingers pressed flat against the chest of a young man in a plain white polo shirt, stopping him mid-step; an old round bronze medallion engraved with a sun and a triangle, on a worn cord hangs on his chest beside her hand; only his chest, shoulders and chin are in the picture. The hand in the upper half of the picture.",
+   "setting": "a wire fence and tree shade outside an old school, out of focus; no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_23": {
+   "subject": "Close-up through the diamond wire of a fence: the face of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, bitter, brows drawn down, jaw clenched, eyes glistening, looking through the wire toward the left; the wire mesh soft and out of focus across the foreground. His face in the upper half of the picture. No hands in the picture.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_47": {
+   "subject": "Close-up from inside the fence looking out: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, his forehead resting against the wire of the fence, eyes lowered toward us, a helpless small bitter smile; the wire mesh sharp in front of his face. His face in the upper half of the picture. No hands in the picture. No other people.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_24": {
+   "subject": "Low side view at ground level: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog leans backward with all his weight, his teeth clamped on the cuff of a black trouser leg that is still on the leg of a walking man, the cloth stretched tight between the dog's mouth and the man's ankle. Of the man only the two lower legs in black slacks and black shoes are in the picture, at the left. One dog only. The dog's head in the upper half.",
+   "setting": "a dusty pavement beside a wire fence and the roots of a big tree outside an old school; no writing anywhere",
+   "light": "late morning sun behind him, his face in half shadow, strong rim light, heavy mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_25": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle a school corridor: a girl about ten with two black braids, a white blouse and a dark blue skirt, sitting on the floor beside a small boy with tousled black hair in a white short-sleeved polo shirt; she holds out to him a bamboo stick with a golden-brown caramelised banana on it; a small scruffy tan dog with floppy ears and a white muzzle lies between them. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": ""
+  },
+  "bk_49": {
+   "subject": "Close-up at a child's eye level: a Filipina girl about ten years old, brown skin, black hair in two braids, a round friendly face, a plain white school blouse and a dark blue pleated skirt, sitting on a corridor floor, smiling kindly and a little shyly, looking to the right, holding up near her cheek half of a golden-brown caramelised banana on a bamboo stick in one hand. Her face in the upper half of the picture. No other people.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "soft open shade with warm bounce light from the yard, gentle mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_26": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle a school corridor: a young teacher with her hair in a bun, a pale yellow short-sleeved blouse and a long dark blue skirt, kneeling on the floor so that her eyes are level with a boy about ten with tousled black hair in a white short-sleeved polo shirt who sits against the wall; beside him sits a girl about ten with two braids in a white blouse and a dark blue skirt. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": ""
+  },
+  "bk_27": {
+   "subject": "Close two-shot at a child's eye level: a small slim Filipino schoolboy about ten years old, warm brown skin, short tousled black hair with a small tuft tied up at the crown, dark brown serious eyes, a small frown between his brows, wearing a plain white short-sleeved school polo shirt, no necklace, looking up and speaking plainly, honest worried eyes; facing him at the left edge of the picture, in profile, kneeling, a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, listening closely. Both faces in the upper half of the picture. Hands out of the picture.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "soft open shade with warm bounce light from the yard, gentle mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_28": {
+   "subject": "Medium shot in a classroom doorway: a neat Filipino boy about ten years old, light brown skin, glossy black hair combed flat with a sharp side parting, a confident face, a spotless pressed white short-sleeved school polo shirt buttoned to the collar, a gold medal on a red, white and blue ribbon round his neck, standing half behind the door frame, eyes lowered to the floor, shoulders dropped, one hand closed round the medal at his chest. His face in the upper half of the picture. No other people.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "cool shadow in the doorway, a thin line of sun on the medal, subdued mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_50": {
+   "subject": "Close-up, slightly from above: a neat Filipino boy about ten years old, light brown skin, glossy black hair combed flat with a sharp side parting, a confident face, a spotless pressed white short-sleeved school polo shirt buttoned to the collar, a gold medal on a red, white and blue ribbon round his neck, eyes lowered, mouth a little open as he quietly admits something, his cheeks flushed, his hands behind his back. His face in the upper half of the picture. No other people.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "cool shadow in a doorway, a soft line of sun on his cheek, humble mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_29": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, eyes shining with held-back tears, a small proud smile, whispering toward us, leaning his shoulder against the trunk of a big tree. His face in the upper half of the picture. No hands in the picture. No other people.",
+   "setting": "tree shade beside a wire fence outside an old school, out of focus; no writing anywhere",
+   "light": "warm dappled sun on half his face, soft green shade, tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_30": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle a classroom on a bright morning: a young teacher with her hair in a bun, in a pale yellow short-sleeved blouse, standing before the class hugging a large old closed book with a plain blank brown cover against her chest, her hands hidden behind the book; in front of her the backs of the heads of four seated pupils; at the open door on the right a thin old man with white hair and round spectacles in a cream shirt waits quietly. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c4",
+   "note": ""
+  },
+  "bk_51": {
+   "subject": "Medium close-up, eye level: a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, speaking seriously and clearly to her class, hugging a large old open library book against her chest with both arms, her hands hidden behind the book. Her face in the upper half of the picture. No other people.",
+   "setting": "inside an old Philippine public school classroom in 2012: rows of worn wooden desks, a wide dark green blackboard with nothing written on it, wooden jalousie windows, a ceiling fan; no posters, no writing anywhere",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_31": {
+   "subject": "Medium shot at a classroom door: a kind young Filipina teacher in her late twenties, brown skin, black hair in a neat bun, a gentle round face, a plain pale yellow short-sleeved blouse and a long dark blue skirt, holding out a folded sheet of paper to a thin old Filipino man of about seventy, weathered brown skin, short white hair, a gentle lined face, round wire spectacles, a plain cream short-sleeved shirt and dark trousers, who receives it with a small bow of his head and a gentle smile; the folded paper between them at the centre hides their fingers. Both faces in the upper half of the picture.",
+   "setting": "an open-air corridor of an old Philippine public school in 2012: a cream wall with a green lower half, a row of wooden classroom doors and jalousie windows on one side, a low concrete railing and a bright yard on the other, a polished red cement floor; no signs, no writing",
+   "light": "bright warm morning sun slanting in, dust motes in the light rays, strong clean shadows, lively colour, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_32": {
+   "subject": "Low two-shot from the ground: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, crouching on his heels, a quiet small smile, looking ahead through a wire fence, his arms wrapped round his knees with both hands and wrists hidden behind his legs; beside him sits a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog looks up sideways at him with a dry knowing look. The man's face in the upper half.",
+   "setting": "outside an old school, a wire fence, tree shade, a dusty pavement; no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6",
+   "note": ""
+  },
+  "bk_33": {
+   "subject": "View seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle a school gate and a big tree, streaks of sun and moon smeared in arcs across the sky as days rush by; at the roots of the tree a thin old man with white hair kneeling, lowering a small square tin box into a hole in the earth. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_34": {
+   "subject": "Closer view seen through the gold-rimmed circle of the lens: everything inside the circle tinted warm and slightly curved, outside the circle dark and blurred, and the scene inside is seen through a window pane with a thin wooden frame: inside the circle, close, a thin old man with white hair and round spectacles in a cream shirt, kneeling, seen from the side, patting flat a small mound of dark earth between tree roots with his open palm, a gentle sad smile. The circle in the upper half of the picture. No hands holding the lens.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "warm golden glow inside the circle, soft vignette, the outside dark and cool, memory mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": ""
+  },
+  "bk_52": {
+   "subject": "Close-up in profile: a thin old Filipino man of about seventy, weathered brown skin, short white hair, a gentle lined face, round wire spectacles, a plain cream short-sleeved shirt and dark trousers, kneeling under a big tree, looking down with a soft sad smile, his lips parted as he speaks quietly to himself; tree roots and dark earth below him, soft and out of focus. His face in the upper half of the picture. No hands in the picture. No other people.",
+   "setting": "outside an old Philippine public elementary school in Quezon City in 2012: a low two-storey concrete building painted cream and green with louvred windows, a rusty iron gate and a wire fence, a big old acacia tree beside the gate, a dusty yard; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_35": {
+   "subject": "Wide shot: alone and small before an old rusty school gate, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, seen from behind in three-quarter view, looking up at a huge tree. The man in the middle of the picture, the tree's crown filling the upper half. No dog, no animals, no other people.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c3",
+   "note": "mirrored left-right after the choice (Usman's ears / the handkerchief on the left wrist)"
+  },
+  "bk_36": {
+   "subject": "Top-down shot from directly above and behind: a young man kneeling at the thick roots of a tree, seen only from behind and above: the back of his head with short tousled black hair and a small topknot, the back of his white polo shirt and a small dark backpack on his back; in front of him a small hole in dark earth with the corner of a rusted square tin box showing, and a metal spoon stuck upright in the loose soil beside the hole; his face is not visible, his arms are tucked in front of his body out of sight. The hole and the tin in the upper half of the picture. No dog.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c5",
+   "note": ""
+  },
+  "bk_42": {
+   "subject": "Macro top shot: an open rusted square tin box lying in dark earth between tree roots; inside it a small black notebook with a red cloth spine, closed, and on top of the tin's open lid a sheet of old yellowed ruled paper lying flat and unfolded, completely blank and clean. The paper in the upper half of the picture. No hands, no people.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_37": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, hugging a sheet of old yellowed paper flat against his chest under his crossed forearms, the paper completely blank with no marks on it, eyes closed, a trembling smile, one tear on his cheek, his hands and wrists hidden under his arms. His face in the upper half of the picture. No other people.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c6",
+   "note": ""
+  },
+  "bk_38": {
+   "subject": "Insert shot from above: a small black notebook with a red cloth spine, lying open on a thick tree root, its pages cream and old; on the right-hand page fresh dark ink lines draw themselves into a row of small old sailing ships with square sails, sailing up the page toward the top, tiny ink waves under them; the rest of the pages blank. The notebook fills the upper two thirds of the picture. No hands, no people.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "low golden sun across the paper, a faint magical glow on the wet ink, hushed mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_53": {
+   "subject": "Extreme close-up from above: one open page of an old small notebook with cream unlined paper, filling the picture; across the top of the page a row of small old sailing ships with square sails drawn in dark ink, tiny ink waves under them; the whole lower two thirds of the page empty and clean; at the left edge the red cloth spine and black cover of the notebook. No hands, no people.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "low golden sun across the paper, a faint magical glow on the wet ink, hushed mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c2",
+   "note": ""
+  },
+  "bk_39": {
+   "subject": "Over-the-shoulder shot from behind his right shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, frowning down at a small open notebook with a black cover held low in front of him; we see the back of his head with the topknot, his cheek and brow in profile, and the open cream pages with a few small ink ships at the top of the page and the rest of the page blank; his hands below the bottom edge of the picture. The notebook page large in the middle of the picture.",
+   "setting": "the same old Philippine public school gate in our time, late afternoon: paint peeling, rust on the iron gate, the acacia tree now huge with thick roots lifting the pavement, the yard empty; no signboards, no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  },
+  "bk_40": {
+   "subject": "Still life from above: a sheet of old yellowed ruled school paper lying flat on a worn dark wooden school desk, completely blank and clean; beside it a red pen and an old round bronze medallion engraved with a sun and a triangle, on a worn cord; warm stripes of sun from window slats across the desk. The paper fills the upper two thirds of the picture. No hands, no people.",
+   "setting": "an empty old classroom, a worn wooden desk top seen from above; no writing anywhere",
+   "light": "late afternoon golden sun, long shadows, orange rim light, quiet tender mood, richly painted, detailed ink linework, textured brushwork",
+   "seed": "c1",
+   "note": ""
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "2": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "5": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "7": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "11": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "13": {
+   "full": "bk_43",
+   "shot": 43
+  },
+  "16": {
+   "full": "bk_44",
+   "shot": 44
+  },
+  "17": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "20": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "21": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "23": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "24": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "28": {
+   "full": "bk_45",
+   "shot": 45
+  },
+  "30": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "31": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "33": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "34": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "36": {
+   "full": "bk_48",
+   "shot": 48
+  },
+  "38": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "41": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "43": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "45": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "46": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "47": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "50": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "52": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "54": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "57": {
+   "full": "bk_47",
+   "shot": 47
+  },
+  "59": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "62": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "64": {
+   "full": "bk_49",
+   "shot": 49
+  },
+  "66": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "67": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "70": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "71": {
+   "full": "bk_50",
+   "shot": 50
+  },
+  "74": {
+   "full": "bk_29",
+   "shot": 29
+  },
+  "77": {
+   "full": "bk_30",
+   "shot": 30
+  },
+  "79": {
+   "full": "bk_51",
+   "shot": 51
+  },
+  "81": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "82": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "85": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "86": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "87": {
+   "full": "bk_52",
+   "shot": 52
+  },
+  "89": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "90": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "91": {
+   "full": "bk_42",
+   "shot": 42
+  },
+  "93": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "95": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "96": {
+   "full": "bk_53",
+   "shot": 53
+  },
+  "97": {
+   "full": "bk_39",
+   "shot": 39
+  },
+  "99": {
+   "full": "bk_40",
+   "shot": 40
+  }
+ }
+}

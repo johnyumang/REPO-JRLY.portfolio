@@ -1,0 +1,798 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "she points at us, accusing"
+ },
+ "1": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "she points at us, accusing",
+  "key": 0,
+  "sub_v": 260
+ },
+ "2": {
+  "fx": [],
+  "move": "hold",
+  "why": "caught in the act, frozen",
+  "sub_v": 260
+ },
+ "3": {
+  "fx": [],
+  "move": "hold",
+  "why": "caught in the act, frozen",
+  "key": 2,
+  "sub_v": 260
+ },
+ "4": {
+  "fx": [],
+  "move": "hold",
+  "why": "calm self-introduction, hold",
+  "trans_in": "whip",
+  "sub_v": 260
+ },
+ "5": {
+  "fx": [],
+  "move": "hold",
+  "why": "calm self-introduction, hold",
+  "key": 4,
+  "sub_v": 260
+ },
+ "6": {
+  "fx": [],
+  "move": "push_in",
+  "why": "finds him squeezed in jeep",
+  "sub_v": 260
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "why": "finds him squeezed in jeep",
+  "key": 6,
+  "sub_v": 260
+ },
+ "8": {
+  "fx": [],
+  "move": "push_in",
+  "why": "three coins: all he has",
+  "sub_v": 260
+ },
+ "9": {
+  "fx": [],
+  "move": "hold",
+  "why": "the road rolls away behind",
+  "sub_v": 260
+ },
+ "10": {
+  "fx": [],
+  "move": "hold",
+  "why": "the road rolls away behind",
+  "key": 9,
+  "sub_v": 260
+ },
+ "11": {
+  "fx": [],
+  "move": "hold",
+  "why": "the road rolls away behind",
+  "key": 9,
+  "sub_v": 260
+ },
+ "12": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her question stops him cold",
+  "sub_v": 260
+ },
+ "13": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her question stops him cold",
+  "key": 12,
+  "sub_v": 260
+ },
+ "14": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the old empty box",
+  "sub_v": 260
+ },
+ "15": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "it fits exactly: stay still",
+  "sub_v": 260
+ },
+ "16": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "it fits exactly: stay still",
+  "key": 15,
+  "sub_v": 260
+ },
+ "17": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "it fits exactly: stay still",
+  "key": 15,
+  "sub_v": 260
+ },
+ "18": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "it fits exactly: stay still",
+  "key": 15,
+  "sub_v": 260
+ },
+ "19": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "sub_v": 260
+ },
+ "20": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_down",
+  "why": "window down to the crowd",
+  "trans_in": "flash",
+  "sub_v": 260
+ },
+ "21": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_down",
+  "why": "window down to the crowd",
+  "key": 20,
+  "sub_v": 260
+ },
+ "22": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_down",
+  "why": "window down to the crowd",
+  "key": 20,
+  "sub_v": 260
+ },
+ "23": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "tilt_down",
+  "why": "window down to the crowd",
+  "key": 20,
+  "sub_v": 260
+ },
+ "24": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the two trade jokes, still",
+  "sub_v": 260
+ },
+ "25": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the two trade jokes, still",
+  "key": 24,
+  "sub_v": 260
+ },
+ "26": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the two trade jokes, still",
+  "key": 24,
+  "sub_v": 260
+ },
+ "27": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the two trade jokes, still",
+  "key": 24,
+  "sub_v": 260
+ },
+ "28": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "hold",
+  "why": "the two trade jokes, still",
+  "key": 24,
+  "sub_v": 260
+ },
+ "29": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows the drum through legs",
+  "sub_v": 260
+ },
+ "30": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows the drum through legs",
+  "key": 29,
+  "sub_v": 260
+ },
+ "31": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows the drum through legs",
+  "key": 29,
+  "sub_v": 260
+ },
+ "32": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "they carry the drum on",
+  "sub_v": 260
+ },
+ "33": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "they carry the drum on",
+  "key": 32,
+  "sub_v": 260
+ },
+ "34": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "they carry the drum on",
+  "key": 32,
+  "sub_v": 260
+ },
+ "35": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the plain window",
+  "sub_v": 260
+ },
+ "36": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the plain window",
+  "key": 35,
+  "sub_v": 260
+ },
+ "37": {
+  "fx": [],
+  "move": "hold",
+  "why": "he whispers to us, close",
+  "sub_v": 260
+ },
+ "38": {
+  "fx": [],
+  "move": "hold",
+  "why": "he whispers to us, close",
+  "key": 37,
+  "sub_v": 260
+ },
+ "39": {
+  "fx": [],
+  "move": "hold",
+  "why": "he whispers to us, close",
+  "key": 37,
+  "sub_v": 260
+ },
+ "40": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the child's bronze medallion",
+  "sub_v": 260
+ },
+ "41": {
+  "fx": [],
+  "move": "hold",
+  "why": "the shock shows: stay still",
+  "sub_v": 260
+ },
+ "42": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "his cord is gone: slap",
+  "sub_v": 260
+ },
+ "43": {
+  "fx": [
+   "punch"
+  ],
+  "move": "hold",
+  "why": "his cord is gone: slap",
+  "key": 42,
+  "sub_v": 260
+ },
+ "44": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman tugs to stop him",
+  "sub_v": 260
+ },
+ "45": {
+  "fx": [],
+  "move": "push_in",
+  "why": "his hand reaches the cord",
+  "trans_in": "whip",
+  "sub_v": 260
+ },
+ "46": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she shouts thief: push in",
+  "sub_v": 260
+ },
+ "47": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "she shouts thief: push in",
+  "key": 46
+ },
+ "48": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "she shouts thief: push in",
+  "key": 46,
+  "sub_v": 260
+ },
+ "49": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd pushes him out",
+  "sub_v": 260
+ },
+ "50": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "he lands outside in dust",
+  "sub_v": 260
+ },
+ "51": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "he lands outside in dust",
+  "key": 50,
+  "sub_v": 260
+ },
+ "52": {
+  "fx": [],
+  "move": "hold",
+  "why": "he is shut out, alone",
+  "sub_v": 260
+ },
+ "53": {
+  "fx": [],
+  "move": "hold",
+  "why": "he is shut out, alone",
+  "key": 52,
+  "sub_v": 260
+ },
+ "54": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "toward the old wax smear",
+  "sub_v": 260
+ },
+ "55": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman told him so, unimpressed",
+  "sub_v": 260
+ },
+ "56": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman told him so, unimpressed",
+  "key": 55,
+  "sub_v": 260
+ },
+ "57": {
+  "fx": [],
+  "move": "hold",
+  "why": "Usman told him so, unimpressed",
+  "key": 55,
+  "sub_v": 260
+ },
+ "58": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "from medallion to the crowd",
+  "depth": "strong",
+  "dof": "near",
+  "focus_to": "far",
+  "sub_v": 260
+ },
+ "59": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "from medallion to the crowd",
+  "depth": "strong",
+  "dof": "near",
+  "focus_to": "far",
+  "key": 58,
+  "sub_v": 260
+ },
+ "60": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "from medallion to the crowd",
+  "depth": "strong",
+  "dof": "near",
+  "focus_to": "far",
+  "key": 58,
+  "sub_v": 260
+ },
+ "61": {
+  "fx": [],
+  "move": "hold",
+  "why": "he sees his own mistake",
+  "sub_v": 260
+ },
+ "62": {
+  "fx": [],
+  "move": "hold",
+  "why": "he sees his own mistake",
+  "key": 61,
+  "sub_v": 260
+ },
+ "63": {
+  "fx": [],
+  "move": "hold",
+  "why": "he sees his own mistake",
+  "key": 61,
+  "sub_v": 260
+ },
+ "64": {
+  "fx": [],
+  "move": "hold",
+  "why": "the drum will not rise",
+  "sub_v": 260
+ },
+ "65": {
+  "fx": [],
+  "move": "hold",
+  "why": "the drum will not rise",
+  "key": 64,
+  "sub_v": 260
+ },
+ "66": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "he walks back in, drum",
+  "sub_v": 260
+ },
+ "67": {
+  "fx": [],
+  "move": "hold",
+  "why": "he owns his mistake, still",
+  "sub_v": 260
+ },
+ "68": {
+  "fx": [],
+  "move": "hold",
+  "why": "he owns his mistake, still",
+  "key": 67,
+  "sub_v": 260
+ },
+ "69": {
+  "fx": [],
+  "move": "hold",
+  "why": "he owns his mistake, still",
+  "key": 67,
+  "sub_v": 260
+ },
+ "70": {
+  "fx": [],
+  "move": "hold",
+  "why": "he owns his mistake, still",
+  "key": 67,
+  "sub_v": 260
+ },
+ "71": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "she weighs him; crowd parts",
+  "sub_v": 260
+ },
+ "72": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd opens up wide",
+  "key": 71,
+  "sub_v": 260
+ },
+ "73": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "they make way for him",
+  "sub_v": 260
+ },
+ "74": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "they make way for him",
+  "key": 73,
+  "sub_v": 260
+ },
+ "75": {
+  "fx": [],
+  "move": "hold",
+  "why": "he steps into the light",
+  "sub_v": 260
+ },
+ "76": {
+  "fx": [],
+  "move": "hold",
+  "why": "he steps into the light",
+  "key": 75,
+  "sub_v": 260
+ },
+ "77": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her hand, then the flag",
+  "keys": [
+   91,
+   77
+  ],
+  "depth": "strong",
+  "dof": "far",
+  "sub_v": 760
+ },
+ "78": {
+  "fx": [],
+  "move": "hold",
+  "why": "every drum beat hits hard",
+  "sub_v": 260
+ },
+ "79": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "every drum beat hits hard",
+  "key": 78,
+  "sub_v": 260
+ },
+ "80": {
+  "fx": [],
+  "move": "hold",
+  "why": "every drum beat hits hard",
+  "key": 78,
+  "sub_v": 260
+ },
+ "81": {
+  "fx": [],
+  "move": "hold",
+  "why": "every drum beat hits hard",
+  "key": 78,
+  "sub_v": 260
+ },
+ "82": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he cries independence: dolly in",
+  "sub_v": 260
+ },
+ "83": {
+  "fx": [
+   "punch"
+  ],
+  "move": "dolly_in",
+  "why": "he cries independence: dolly in",
+  "key": 82,
+  "sub_v": 260
+ },
+ "84": {
+  "fx": [],
+  "move": "hold",
+  "why": "Tinong gives the meaning, plainly",
+  "sub_v": 260
+ },
+ "85": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "the crowd answers: hats fly",
+  "key": 84,
+  "keys": [
+   84,
+   92
+  ],
+  "sub_v": 260
+ },
+ "86": {
+  "fx": [],
+  "move": "hold",
+  "why": "the ground is shaking underfoot",
+  "sub_v": 260
+ },
+ "87": {
+  "fx": [],
+  "move": "hold",
+  "why": "the ground is shaking underfoot",
+  "key": 86,
+  "sub_v": 260
+ },
+ "88": {
+  "fx": [],
+  "move": "hold",
+  "why": "passing bodies hide them both",
+  "sub_v": 260
+ },
+ "89": {
+  "fx": [],
+  "move": "hold",
+  "why": "he smells something strange here",
+  "sub_v": 260
+ },
+ "90": {
+  "fx": [],
+  "move": "hold",
+  "why": "he smells something strange here",
+  "key": 89,
+  "sub_v": 260
+ },
+ "91": {
+  "fx": [],
+  "move": "hold",
+  "why": "he smells something strange here",
+  "key": 89,
+  "sub_v": 260
+ },
+ "92": {
+  "fx": [],
+  "move": "hold",
+  "why": "he smells something strange here",
+  "key": 89,
+  "sub_v": 260
+ },
+ "93": {
+  "fx": [],
+  "move": "hold",
+  "why": "he smells something strange here",
+  "key": 89,
+  "sub_v": 260
+ },
+ "94": {
+  "fx": [],
+  "move": "push_in",
+  "why": "a gift to take home",
+  "sub_v": 260
+ },
+ "95": {
+  "fx": [],
+  "move": "push_in",
+  "why": "a gift to take home",
+  "key": 94,
+  "sub_v": 260
+ },
+ "96": {
+  "fx": [
+   "sparkle"
+  ],
+  "move": "pull_out",
+  "why": "he is going back now",
+  "sub_v": 260
+ },
+ "97": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "trans_in": "flash",
+  "sub_v": 260
+ },
+ "98": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "key": 97,
+  "sub_v": 260
+ },
+ "99": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "key": 97,
+  "sub_v": 260
+ },
+ "100": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "key": 97,
+  "sub_v": 260
+ },
+ "101": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the balcony, today",
+  "key": 97,
+  "sub_v": 260
+ },
+ "102": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lola tells her guess softly",
+  "sub_v": 260
+ },
+ "103": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lola tells her guess softly",
+  "key": 102,
+  "sub_v": 260
+ },
+ "104": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lola tells her guess softly",
+  "key": 102,
+  "sub_v": 260
+ },
+ "105": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Lola tells her guess softly",
+  "key": 102,
+  "sub_v": 260
+ },
+ "106": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she closes the box slowly",
+  "sub_v": 260
+ },
+ "107": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she closes the box slowly",
+  "key": 106,
+  "sub_v": 260
+ },
+ "108": {
+  "fx": [],
+  "move": "hold",
+  "why": "the question is read, still",
+  "sub_v": 260
+ }
+}

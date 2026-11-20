@@ -1,0 +1,59 @@
+{
+ "fact_id": "t52",
+ "fact_english": "The American English word \"boondocks\" comes from the Tagalog word \"bundok\" (mountain). US military personnel in the Philippines brought it into American English, and it now means a remote, out-of-the-way rural area.",
+ "label_onscreen": "BUNDOK",
+ "source_onscreen": "Pinagmulan: Merriam-Webster; Collins English Dictionary",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Alam mo ba, par? Ang \"boondocks\" sa Ingles ng mga Amerikano, galing sa atin.",
+   "say": "Alam mo ba, par? Ang \"bundaks\", sa Ingles ng mga Amerikano, galing sa atin.",
+   "emphasis": [
+    "boondocks"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Sa salitang \"bundok\". Inuwi ng mga sundalong Amerikano.",
+   "emphasis": [
+    "bundok"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ngayon, liblib na lugar ang ibig sabihin nito sa kanila.",
+   "emphasis": [
+    "liblib"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Taga-bundok din ako. Sikat pala ako!",
+   "emphasis": [
+    "sikat"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 23,
+ "after_text": "Tapos bumahing si Usman, at itinuro ng nguso niya ang isang babaeng may kargang bata.",
+ "insert_time": 79.3,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After Usman sneezes and points his nose at a woman carrying a child: the viewer waits through the break to learn who they are, and the two lines of the reveal (\"Suot ng bata ang medalyon ko. Parehong araw, parehong tatsulok.\") stay together after it. 79 s into a 143 s episode, the middle, as the owner asked. On 13 Nov a second look moved the cut from after sentence 24 (it split those two lines) to after 31, but 111 s is three quarters through, after the story has resolved, so the conductor set it here instead.",
+ "voice_note": "Line 1 was voiced with the spelling \"bundaks\" (comma after it) so that the English word is heard apart from \"bundok\" in line 2; the caption keeps \"boondocks\". No year is given on purpose: the dictionaries disagree on the first use.",
+ "gap": 0.22
+}

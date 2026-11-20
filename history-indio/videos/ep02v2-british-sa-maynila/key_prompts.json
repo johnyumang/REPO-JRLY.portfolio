@@ -1,0 +1,584 @@
+{
+ "_note": "Episode 2 version 2 (the new form). Every still is one full painted picture in the Bakunawa look (the JSON prompt of pipeline/draw_pick.py, drawn one request at a time: three draws a key, the choice at 3x). Writing in pictures is added in code after the choice (pipeline/sign_text.py). The silent shot 37 (the grandmother's hand) is shown under sentence 96. bk_46, bk_47, bk_48, bk_49, bk_50, bk_51, bk_52 are second stills where one row of shots.md holds several beats. Camera moves and their reasons are in shots_fx.json (\"why\"), from the Camera column of shots.md (pipeline/CAMERA.md).",
+ "look": "bakunawa",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband",
+   "indio_1762": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "sepa": "a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes",
+   "lola": "a frail old Filipina woman of about eighty, thin white hair in a small low bun, wrinkled warm brown skin, a gentle tired face, a long-sleeved faded brown blouse, a long dark skirt",
+   "guard": "a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots",
+   "redcoats": "tiny far-away British soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters",
+   "townsfolk": "Filipino townsfolk of 1762, brown skin, plain loose cotton shirts and long skirts, some with cloth head wraps"
+  },
+  "props": {
+   "tapis_on": "a knee-length red and indigo striped handwoven tapis over her skirt",
+   "hat": "a black tricorne hat, its wide brim folded up on three sides into a triangle, one point at the front",
+   "no_hat": "his hat lost",
+   "bag": "a plain brown paper takeout bag folded shut at the top, no print and no writing",
+   "bag_tied": "the empty brown paper bag with a strip of dark red and indigo striped handwoven cloth knotted round its top",
+   "moto": "an old small red motorcycle with a plain unmarked fuel tank, no badges, no stickers, no number plate, a plain white helmet hanging on its mirror",
+   "phone": "a plain black smartphone, its screen plain glowing white with nothing on it",
+   "rats": "a river of small brown field rats running one way"
+  }
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Medium-wide low shot: in the upper half of the picture a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, standing safe in a stone doorway in the foreground and facing the viewer, mouth wide open in a shout, her arms at her sides; far down the street behind her, at a safe distance, a section of the thick grey city wall caving inward in a huge cloud of dust, big grey stone blocks tumbling in the air far away. No dog. The top-left corner is only smoke. The lower half of the picture is only cracked paving stones and dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "a hard orange flash behind the far falling wall, thick yellow smoke, dust lit from behind, rim light on her hair, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11",
+   "note": "Hook: the first frame of the video (also the thumbnail). She is safe and far from the stones."
+  },
+  "bk_02": {
+   "subject": "Low-angle medium-full shot: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, running straight toward the viewer down a narrow stone street, a plain brown paper takeout bag folded shut at the top, no print and no writing held tight against his chest in both arms, eyes wide, a cloud of dust rising behind him. One man only, no dog. The top-left corner is only smoke. The lower half of the picture is only paving stones and flying dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_03": {
+   "subject": "Side tracking shot at hip height, in the upper half of the picture: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog runs left to right, tongue out, looking up. Just behind the dog, cropped at the chest, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, running too, grinning. The lower half of the picture is only the blurred street.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, motion blur, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_04": {
+   "subject": "Very high wide shot looking down: in the upper half of the picture the wide grass-topped round stone bastion, empty stone paths and acacia trees, and parked alone on a path an old small red motorcycle with a plain unmarked fuel tank, no badges, no stickers, no number plate, a plain white helmet hanging on its mirror, on its stand, a plain brown paper takeout bag folded shut at the top, no print and no writing hanging from the handlebar. Nobody in the frame, no dog, no animals. The lower half of the picture is only the old grey stone wall face in shade.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_05": {
+   "subject": "Medium shot from a little below: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, standing beside an old small red motorcycle with a plain unmarked fuel tank, no badges, no stickers, no number plate, a plain white helmet hanging on its mirror, turning on the spot and looking round over his shoulder for his customer, a puzzled face; a plain brown paper takeout bag folded shut at the top, no print and no writing hangs from the handlebar. He is alone, no dog, no animals. The lower half of the picture is only grass and the stone path.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12"
+  },
+  "bk_06": {
+   "subject": "Close shot: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, bending over a plain brown paper takeout bag folded shut at the top, no print and no writing, its top opened a finger's width, peeking in with one eye, eyebrows up, a thin curl of steam rising out of the gap. He is alone, no dog, no animals. The lower half of the picture is only the blurred red fuel tank and grass.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, the steam glowing gold, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13",
+   "note": "First half of s10 (6.6 s, a long line): keys [10, 93]."
+  },
+  "bk_46": {
+   "subject": "Extreme close-up of his face in profile: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, eyes closed in bliss, breathing in a ribbon of steam that curls up from an open paper takeout bag just below his nose, a glimpse of yellow pancit noodles with green vegetables inside, a tiny comic drop of sweat of self-control. His face in the upper half of the picture. He is alone, no dog, no animals. The lower half of the picture is only the soft blurred bag and lawn.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, the steam glowing gold, warm light on his cheek, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL",
+   "note": "EXTRA key (pseudo index 93): second still of the long line s10, held through s11 and s12."
+  },
+  "bk_07": {
+   "subject": "Close insert: a plain black smartphone, its screen plain glowing white with nothing on it, held in a phone clamp on the handlebar of a motorcycle, the screen large and filling the upper half of the picture; behind it out of focus the green lawn and grey stone walls. No people, no hands, no dog, no animals. The lower half of the picture is only the dark handlebar and fuel tank, out of focus.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, the screen's cool glow, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "Silent shot of shots.md, shown under s13 'Sige.' (his bored answer to the one star). Wants about 2 s: see doubts."
+  },
+  "bk_08": {
+   "subject": "Over-the-shoulder shot from behind his right shoulder: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, turned three-quarter so the medallion on his chest shows, starting to glow faint gold, reading aloud with his lips moving at a dark bronze plaque set into the old stone wall at head height; his head hides most of the plaque, only its plain smooth top strip shows; his head and the plaque in the upper half of the picture. He is alone, no dog, no animals. The top-left corner is only the stone wall. The lower half of the picture is only the stone wall in shade.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, a faint gold glow rising from the medallion, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_53": {
+   "subject": "Extreme close-up: a round bronze medallion on a cord on a young man's chest over a plain orange jacket, glowing bright gold, light rays and spinning plain smooth gear rims in the glow; the medallion in the upper half of the picture. No face, no hands, no dog, no animals. The lower half of the picture is only the orange jacket in shadow.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "warm golden late-afternoon sun low over the old walls, long soft shadows on the grass, light rays through acacia leaves, rim light, a hard gold glow from the medallion, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "EXTRA: shot 9a, s17-18 (the medallion pulls him into the past), before bk_09."
+  },
+  "bk_09": {
+   "subject": "Wide shot: in the upper half of the picture a huge burst of golden light opens in the air over the grassy stone bastion, rings of plain smooth gear rims spinning in it, and out of the light trots a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog walks toward the viewer, nose lifted, sniffing the air toward a paper bag, eyes bright and cheeky. Nobody else in the frame. The lower half of the picture is only glowing grass and stone.",
+   "setting": "a whirl of golden time light opening over the grassy top of an old round stone bastion, rings of plain smooth gear rims and sparks, the stone and lawn fading away",
+   "light": "a blinding burst of golden light, sparks, light rays, hard gold rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL",
+   "note": "s15-16 (his greeting) are not placed in shots.md; they belong here, on the dog's arrival."
+  },
+  "bk_49": {
+   "subject": "Low-angle close-up: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's whole face is black, no white or tan on the face. The dog sits on the grass of the bastion looking up at the viewer, mouth open as if talking, one eyebrow cocked, cheeky; a few last gold sparks fade in the air around the dog. The dog's head in the upper half of the picture. No people. The lower half of the picture is only grass.",
+   "setting": "a whirl of golden time light opening over the grassy top of an old round stone bastion, rings of plain smooth gear rims and sparks, the stone and lawn fading away",
+   "light": "a blinding burst of golden light, sparks, light rays, hard gold rim light, the light fading to warm afternoon sun, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11",
+   "note": "EXTRA: shot 9b, new s21-22 (Usman's lines)."
+  },
+  "bk_10": {
+   "subject": "High crane shot looking down into a narrow street: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, just landed on one knee on the cracked paving, a plain brown paper takeout bag folded shut at the top, no print and no writing held against his chest, head up, staring round at the stone houses, tiled roofs and wooden balconies rising round him, the ground cracked under his knee. One man only, no dog. The top-left corner is only yellow smoke. The lower half of the picture is only cracked paving and fallen tiles.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_11": {
+   "subject": "Low eye-level medium-wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, fallen on his side on the paving stones in the middle of the street, propped up on one elbow, his whole body in frame, his startled face turned toward us, an empty brown paper takeout bag clutched to his chest with his other hand. Far behind him a piece of tiled roof crashes down onto the empty paving, roof tiles and dust in the air. No dog. No other people. His head and body sit in the upper two thirds of the picture; the bottom third is cracked paving and dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, a burst of dust behind, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "r2/c22",
+   "note": "Redrawn 16 Nov (central): the people are in frame, no hands-only shot."
+  },
+  "bk_50": {
+   "subject": "Low-angle close-up: in the upper half of the picture a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, half-crouched in a stone doorway, shouting a warning with one hand cupped at her mouth, eyes fierce, not afraid; yellow smoke and dust behind her. No dog. The lower half of the picture is only stone step and dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "EXTRA: shot 11b, new s27-28 (Sepa's lines)."
+  },
+  "bk_12": {
+   "subject": "Floor-level two-shot under a wooden table, its dark underside across the top: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, and a body-width apart a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, both crouched on the stone floor under it, looking up, she calm, he wide-eyed, a brown paper bag in his lap. Faces in the upper half. No dog. The lower half of the picture is only the stone floor.",
+   "setting": "inside a low stone kitchen of 1762 against the city wall of Manila: rough grey stone walls, a clay stove, clay pots and a ladle hanging from a beam, a heavy wooden table, woven mats, a small barred window",
+   "light": "dim smoky window light, orange glow of the clay stove, dust shaking down from the beams, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_13": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, glancing sideways straight at the viewer with a wry knowing look, past a big wooden ladle swinging on a hook in the soft foreground. His face in the upper half of the picture. One man only, no dog. The lower half of the picture is only dark kitchen shadow.",
+   "setting": "inside a low stone kitchen of 1762 against the city wall of Manila: rough grey stone walls, a clay stove, clay pots and a ladle hanging from a beam, a heavy wooden table, woven mats, a small barred window",
+   "light": "dim smoky window light, orange glow of the clay stove, dust shaking down from the beams, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_14": {
+   "subject": "From behind both, toward a small barred window in the upper half of the picture: at the left a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, pointing at the window; a body-width to the right a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, shaking her head; through it the grey city wall and a far orange flash. No dog. The lower half of the picture is only dark stone wall.",
+   "setting": "inside a low stone kitchen of 1762 against the city wall of Manila: rough grey stone walls, a clay stove, clay pots and a ladle hanging from a beam, a heavy wooden table, woven mats, a small barred window",
+   "light": "dim smoky window light, orange glow of the clay stove, dust shaking down from the beams, deep shadows, an orange flash outside, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_15": {
+   "subject": "High-angle shot looking down into the corner of the kitchen: in the upper half of the picture a frail old Filipina woman of about eighty, thin white hair in a small low bun, wrinkled warm brown skin, a gentle tired face, a long-sleeved faded brown blouse, a long dark skirt, lying on a woven mat on the stone floor, eyes half open, and kneeling beside her a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, pulling a plain grey woven blanket up over the old woman's shoulders, a gentle worried face. No dog. The lower half of the picture is only the stone floor in shadow.",
+   "setting": "inside a low stone kitchen of 1762 against the city wall of Manila: rough grey stone walls, a clay stove, clay pots and a ladle hanging from a beam, a heavy wooden table, woven mats, a small barred window",
+   "light": "dim smoky window light, orange glow of the clay stove, dust shaking down from the beams, deep shadows, the warmest light on the two of them, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11",
+   "note": "Both safe and unhurt."
+  },
+  "bk_16": {
+   "subject": "Wide side view at eye level: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, sprinting from right to left up a narrow street, while Filipino townsfolk of 1762, brown skin, plain loose cotton shirts and long skirts, some with cloth head wraps hurry the opposite way, from left to right, past him with bundles, a plain brown paper takeout bag folded shut at the top, no print and no writing held high above his head in one hand, his mouth open in a shout. No dog. The lower half of the picture is only paving stones and running feet in blur.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, motion blur, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13",
+   "note": "Silent shot of shots.md, shown under s35 'Senor!' (he shouts as he runs up)."
+  },
+  "bk_17": {
+   "subject": "Low-angle shot: in the upper half of the picture a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, a black tricorne hat, its wide brim folded up on three sides into a triangle, one point at the front, standing broad and bored in front of the gate, looking down his nose; in the right foreground, three-quarter from behind, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, one arm flung out pointing back down the street. No dog. The lower half of the picture is only paving stones in shadow.",
+   "setting": "a heavy closed wooden gate of planks and iron bands in the thick grey stone city wall of Manila in October 1762, a narrow street of stone houses, yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_18": {
+   "subject": "Tight two-shot in profile: at the left a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, a black tricorne hat, its wide brim folded up on three sides into a triangle, one point at the front, one hand pressed flat on the chest of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, at the right, pushing him back; he answers with a puzzled crooked half-smile, eyebrows raised. Both faces in the upper half of the picture. No dog. The lower half of the picture is only their coat and shirt in shadow.",
+   "setting": "a heavy closed wooden gate of planks and iron bands in the thick grey stone city wall of Manila in October 1762, a narrow street of stone houses, yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_19": {
+   "subject": "Top-down high angle looking straight down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, lying flat on his back on the wet grey earth, arms stretched up holding a brown paper bag folded shut, no plastic, high above his chest, his face at 45% of the height, eyes up to the viewer; at the top of the picture over him a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, a black tricorne hat, its wide brim folded up on three sides into a triangle, one point at the front, laughing, head thrown back. No dog. The lower half of the picture is only wet earth.",
+   "setting": "a heavy closed wooden gate of planks and iron bands in the thick grey stone city wall of Manila in October 1762, a narrow street of stone houses, yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_20": {
+   "subject": "Very long shot down a straight narrow street from low at its end: far away in the upper half of the picture a whole section of the thick sloping bastion wall breaking apart and falling, big stone blocks in the air, a huge rolling cloud of grey dust; in the gap, tiny as specks, tiny far-away British soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters, far and seen from behind. Nobody near the camera, the street empty. The lower half of the picture is only empty paving and fallen roof tiles.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hard orange light behind the dust cloud, embers in the air, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13"
+  },
+  "bk_21": {
+   "subject": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, a smear of grey earth on one cheek, his face turned to the viewer, eyes wide and still; behind him a huge wall of rolling grey dust fills the street and comes toward him. His face in the upper half of the picture. One man only, no dog. The lower half of the picture is only his shoulders and dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "the dust cloud lit orange from behind, hard rim light on his face, embers, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_22": {
+   "subject": "Worm's-eye shot at ground level: in the upper half of the picture a river of small brown field rats running one way, from right to left across the wet paving, low and blurred with speed; at the left edge the knee of a young man kneeling in dark brown trousers. No faces, no dog. The lower half of the picture is only wet paving close to the lens.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, low light along the ground, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL",
+   "note": "Silent shot of shots.md; Usman's 'Par, tumahimik ka muna' (s46) is heard over it."
+  },
+  "bk_23": {
+   "subject": "Close-up at ground level: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog stands frozen, head tilted, listening hard, eyes on small brown field rats running past in the blur behind. The dog's head in the upper half of the picture. No people. The lower half of the picture is only wet paving.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, soft dust, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13"
+  },
+  "bk_24": {
+   "subject": "Close-up, very still: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, kneeling, eyes shut, head bowed a little, listening, calm; the edges of the picture soft and blurred, the street round him melted into soft dust and smoke. His face in the upper half of the picture. One man only, no dog. The lower half of the picture is only soft blurred dust.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "the noise gone soft: a quiet pale gold haze round him, the smoke far and dim, gentle rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_25": {
+   "subject": "Extreme close-up of the dog's face: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's eyes flick sideways toward a brown paper bag at the edge of the frame, a sly look. The dog's head in the upper half of the picture. No people. The lower half of the picture is only blurred paving.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_26": {
+   "subject": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, kneeling on the wet street, holding a plain brown paper takeout bag folded shut at the top, no print and no writing close against his chest with both arms, looking down to one side at a ring of small brown field rats sitting on the ground and looking up at him, his brow knotted, thinking hard. No dog. The lower half of the picture is only wet paving.",
+   "setting": "a narrow street inside the walls of Intramuros, Manila, in October 1762: two-storey stone houses with tiled roofs and wooden balconies, cracked paving stones, fallen roof tiles, thick yellow smoke",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_27": {
+   "subject": "Top shot looking straight down: a heap of yellow pancit noodles with green vegetables poured out on the grey paving, small brown field rats gathered round it eating; from the heap a line of them runs off toward the top of the picture, round the back corner of a low stone kitchen, to an old wooden plank lying over a dark square hole. The empty paper bag lies tipped over beside the noodles. No people, no hands, no dog. The lower half of the picture is only grey paving.",
+   "setting": "a narrow back yard behind a low stone kitchen in October 1762, a rough stone wall, wet grey earth, an old wooden plank over a dark square hole in the ground, thick yellow smoke above",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "Silent shot of shots.md, shown under s54 'Unang sahod ko 'to.' (he pours as he says it)."
+  },
+  "bk_28": {
+   "subject": "Low angle, faces in the upper half: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, with a frail old Filipina woman of about eighty, thin white hair in a small low bun, wrinkled warm brown skin, a gentle tired face, a long-sleeved faded brown blouse, a long dark skirt on his back; beside them a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, pulling the plank. No dog. The lower half of the picture is only wet earth.",
+   "setting": "a narrow back yard behind a low stone kitchen in October 1762, a rough stone wall, wet grey earth, an old wooden plank over a dark square hole in the ground, thick yellow smoke above",
+   "light": "hazy yellow daylight through drifting smoke, orange glow of fires behind, dust, deep shadows, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_30": {
+   "subject": "Looking back down the drain, faces in the upper half: in front a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, bent low, carrying a frail old Filipina woman of about eighty, thin white hair in a small low bun, wrinkled warm brown skin, a gentle tired face, a long-sleeved faded brown blouse, a long dark skirt on his back, looking back over her arm; far behind a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, his hat lost, on hands and knees, gasping. No dog. The lower half of the picture is only dark water.",
+   "setting": "inside an old narrow stone drain under the walled city of Manila in 1762, a low curved roof of grey stone blocks, shallow water over grey silt, a narrow ledge on one side",
+   "light": "near darkness, a hard white circle of daylight far ahead, wet stone glinting, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_29": {
+   "subject": "Tunnel shot from behind and low, everyone seen from behind: a line of Filipino townsfolk of 1762, brown skin, plain loose cotton shirts and long skirts, some with cloth head wraps, crawling on hands and knees away from the viewer along the narrow drain toward a small bright circle of daylight in the upper half of the picture; far ahead at the very front of the line, small, a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog walks away from the viewer toward the light, seen from behind, a small brown field rat on the ledge beside the dog. No faces. The lower half of the picture is only dark water and silt.",
+   "setting": "inside an old narrow stone drain under the walled city of Manila in 1762, a low curved roof of grey stone blocks, shallow water over grey silt, a narrow ledge on one side",
+   "light": "near darkness, a hard white circle of daylight far ahead, wet stone glinting, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "Silent shot of shots.md, shown under s58-59 (the guard's voice from the back of the line)."
+  },
+  "bk_52": {
+   "subject": "Close-up in the dark drain: a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, his hat lost, on hands and knees in dark water, face lifted toward the viewer, pleading, eyes wide and afraid, grey silt on his cheeks. His face in the upper half of the picture. One man only, no dog. The lower half of the picture is only dark water.",
+   "setting": "inside an old narrow stone drain under the walled city of Manila in 1762, a low curved roof of grey stone blocks, shallow water over grey silt, a narrow ledge on one side",
+   "light": "near darkness, a hard white circle of daylight far ahead, wet stone glinting, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "EXTRA: shot 30b, new s77-80 (the guard asks, Indio answers off screen)."
+  },
+  "bk_31": {
+   "subject": "Wide shot from low on the bank: in the upper half of the picture the foot of the thick grey city wall above tall green reeds, and out of a small dark hole among the reeds Filipino townsfolk of 1762, brown skin, plain loose cotton shirts and long skirts, some with cloth head wraps, climbing out one by one, small, helping each other up. No dog. The lower half of the picture is only brown river water and reeds.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_32": {
+   "subject": "Medium-wide shot along the bank, faces in the upper half: at the left a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog sits upright, counting. Along the reeds a row of Filipino townsfolk of 1762, brown skin, plain loose cotton shirts and long skirts, some with cloth head wraps, dripping grey silt; last a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, his hat lost, smeared with grey silt from head to neck, hunched and ashamed, eyes down. The lower half of the picture is only reeds.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_51": {
+   "subject": "Close-up at ground level: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog sits upright among the reeds, chest puffed out, mouth open as if talking, proud, looking up at the viewer; behind, far and out of focus, a row of small silt-grey figures. The dog's head in the upper half of the picture. The lower half of the picture is only reeds and wet silt.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11",
+   "note": "EXTRA: shot 32b, new s84-86 (Usman counts)."
+  },
+  "bk_33": {
+   "subject": "Long shot from the river bank up at the city wall: thick grey and black smoke rising over the walls, and on top of the wall a single empty flagstaff, thin and far, against the smoke in the upper half of the picture. No people near the camera, no dog. The lower half of the picture is only reeds and brown river water.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, smoke dark against the pale sky, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13"
+  },
+  "bk_34": {
+   "subject": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, sitting down hard among the tall reeds, shoulders slumped, the empty paper bag limp in his lap, staring at nothing. No dog. The lower half of the picture is only reeds and wet earth.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c13"
+  },
+  "bk_47": {
+   "subject": "Close shot at knee height: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The dog's whole face is black. The dog growls low, eyes narrowed, muzzle wrinkled, pressed against the knee of a man sitting in the reeds; only the knee and dark brown trouser leg show. The dog's head in the upper half of the picture. The lower half of the picture is only reeds and wet earth.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "EXTRA key: shots.md shot 35 (s70-73, about 8.3 s) is split; the growl of the stage line is s70 'Hindi pa.'"
+  },
+  "bk_35": {
+   "subject": "Low-angle shot: in the upper half of the picture a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, with a knee-length red and indigo striped handwoven tapis over her skirt, standing tall among the reeds, fierce and sure, one arm stretched out pointing north along the river; behind her the wide river, palm groves and smoke. No dog, nobody else. The lower half of the picture is only reeds.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12"
+  },
+  "bk_36": {
+   "subject": "Profile close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, his face in profile looking back toward the smoking city, the grey walls and smoke out of focus behind him, quiet and sad. His face in the upper half of the picture. One man only, no dog. The lower half of the picture is only reeds in shadow.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_37": {
+   "subject": "Extreme close-up: the wrinkled brown hand of a frail old Filipina woman of about eighty, thin white hair in a small low bun, wrinkled warm brown skin, a gentle tired face, a long-sleeved faded brown blouse, a long dark skirt, resting gently on the cheek of a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm; he leans into it, eyes closed, a small smile. Their faces in the upper half of the picture. No dog. The lower half of the picture is only soft blurred reeds.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "pale hazy daylight, grey smoke over the walls, soft gold sun breaking through, rim light on wet reeds, warm and tender, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL",
+   "note": "Silent shot of shots.md, shown under s75 'Isang kusina lang.'"
+  },
+  "bk_38": {
+   "subject": "Eye-level medium two-shot, both from the waist up, heads in the upper half: on the left a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, looking up at him, pushing with both her hands an empty brown paper takeout bag, folded paper, not cloth, with a knee-length red and indigo striped handwoven tapis knotted round its top; on the right a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, looking down at her, taking the bag in both his hands. No other people. No dog. No hat on anyone.",
+   "setting": "the bank of the Pasig River outside the grey stone walls of Manila in October 1762: tall green reeds, nipa palms, the wide brown river",
+   "light": "pale hazy daylight, soft gold sun breaking through, rim light, warm, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "r2/c22",
+   "note": "Redrawn 16 Nov (central): the people are in frame, no hands-only shot."
+  },
+  "bk_39": {
+   "subject": "From behind the girl: in front a Filipina girl of about eleven, small and thin, warm brown skin, a round face, big dark eyes, black hair pulled back and tied at the nape with a strip of red cloth, a loose long-sleeved plain off-white blouse, a long ankle-length dark blue skirt, no shoes, seen from behind, her tapis gone, one arm held out; facing her a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, calm, holding against his chest the brown paper bag with a red and indigo striped tapis knotted round its top, he and the bag dissolving into golden light. His face in the upper half. No dog. The lower half of the picture is only reeds in gold light.",
+   "setting": "the bank of the Pasig River just outside the grey stone walls of Manila in October 1762: wet earth, grey silt, tall green reeds, nipa palms, a small dark hole at the foot of the wall, the wide brown river; beyond only palm groves and nipa huts",
+   "light": "a blinding burst of golden light, sparks, light rays, hard gold rim light on the reeds, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_54": {
+   "subject": "Eye-level medium shot on the river bank, both men seen from the knees up, their heads in the upper half of the picture: on the right a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, a loose off-white collarless baro shirt with sleeves rolled to the elbows, dark brown knee-length trousers, no shoes, a round bronze medallion on a cord around his neck, one thin straight indigo tattoo line on his right forearm, facing us, holding an empty brown paper takeout bag with a red and indigo striped handwoven cloth knotted round its top, the medallion on his chest catching a soft glow; on the left, a few steps away, a Spanish colonial gate guard of 1762, heavy-set, pale-skinned, about thirty-five, a thick black moustache, black hair tied back, a long blue coat with red cuffs and brass buttons, a white neckcloth, white breeches, black boots, his hat lost, grey with silt, his hands at his sides, bowing his head low to the young man in thanks. No dog. No other people.",
+   "setting": "the bank of the Pasig River outside the grey stone walls of Manila in October 1762: tall green reeds, nipa palms, the wide brown river",
+   "light": "pale hazy daylight, soft gold sun breaking through, rim light, warm, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "r1/c21",
+   "note": "Added 16 Nov (central): the guard bowing must be seen under line 101."
+  },
+  "bk_40": {
+   "subject": "Medium shot: in the upper half of the picture a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, alone on the grassy bastion, his right jacket sleeve pushed up to the elbow, two thin straight indigo lines side by side on his right forearm, the new one smoking faintly, wincing at it; the empty brown paper bag with a strip of dark red and indigo striped handwoven cloth knotted round its top hangs from his other hand. He is alone, no dog, no animals. The lower half of the picture is only the lawn in shadow.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep orange and purple-blue dusk, the last sun on the stone, long shadows, cool air, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11"
+  },
+  "bk_48": {
+   "subject": "Medium close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, sitting sideways on the seat of an old small red motorcycle with a plain unmarked fuel tank, no badges, no stickers, no number plate, a plain white helmet hanging on its mirror, holding a phone at his chest with the back of it to the viewer, an awkward sheepish comic smile as he works out what to type. His face in the upper half of the picture. He is alone, no dog, no animals. The lower half of the picture is only the motorcycle and lawn.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep orange and purple-blue dusk, the last sun on the stone, long shadows, cool air, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "EXTRA key: shots.md shot 40 (s80-85, about 12 s) is split; s85 goes to shot 41."
+  },
+  "bk_41": {
+   "subject": "Close insert: a plain black smartphone, its screen plain glowing white with nothing on it, lying face up on top of a low weathered stone parapet, the screen large in the upper half of the picture; beside it the empty brown paper bag with a strip of dark red and indigo striped handwoven cloth knotted round its top. No people, no hands, no dog, no animals. The lower half of the picture is only weathered stone.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep orange and purple-blue dusk, the last sun on the stone, long shadows, cool air, rim light, the screen's cool glow, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "Silent shot of shots.md, shown under s85 'Kinain po ng daga, noong 1762.' (the app's answer to his excuse)."
+  },
+  "bk_42": {
+   "subject": "Close shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain orange rider jacket with no logo, no patches and no writing, its sleeves down to the wrists, over a white polo shirt, black slacks, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, holding a plain black smartphone, its screen plain glowing white with nothing on it, up at eye level with the screen toward the viewer, his surprised face just above it lit blue-white by the screen, eyebrows high. Phone and face in the upper half of the picture. He is alone, no dog, no animals. The lower half of the picture is only his jacket in dusk shadow.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep orange and purple-blue dusk, the last sun on the stone, long shadows, cool air, rim light, the phone's cool white glow on his face, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "FINAL"
+  },
+  "bk_43": {
+   "subject": "Rack-focus shot: at the right of the upper half of the picture, sharp and close, a plain black smartphone, its screen plain glowing white with nothing on it, propped upright on the stone parapet; far behind it on the other side of the grassy bastion, small and out of focus, an open red umbrella, no figure visible under it. No people, no hands, no dog. The top-left corner is only dusk sky. The lower half of the picture is only weathered stone.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep orange and purple-blue dusk, the last sun on the stone, long shadows, cool air, rim light, the red of the umbrella the one warm spot far away, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c11",
+   "note": "First sight of M: only the umbrella. Rack focus from the phone to the umbrella (focus_to far)."
+  },
+  "bk_44": {
+   "subject": "Still close shot: the empty brown paper bag with a strip of dark red and indigo striped handwoven cloth knotted round its top, standing alone on top of a low stone parapet in the middle of the picture; the upper third of the picture only empty deep blue sky. No people, no hands, no dog, no animals. The lower half of the picture is only dark stone.",
+   "setting": "the wide grass-topped top of an old round Spanish stone bastion of Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, low stone parapets, a green lawn, stone paths, acacia trees",
+   "light": "deep blue nightfall, a last orange line on the horizon, soft warm glow on the stone, rim light, richly painted, detailed ink linework, textured brushwork.",
+   "seed": "c12",
+   "note": "s92 is about 6.5 s: ONE continuous hold (slow push), the question in code, no second still."
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "1": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "3": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "5": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "7": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "10": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "11": {
+   "full": "bk_46",
+   "shot": 6
+  },
+  "13": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "14": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "17": {
+   "full": "bk_53",
+   "shot": 9
+  },
+  "19": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "22": {
+   "full": "bk_49",
+   "shot": 9
+  },
+  "24": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "26": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "27": {
+   "full": "bk_50",
+   "shot": 11
+  },
+  "30": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "34": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "36": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "40": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "44": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "45": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "48": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "50": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "54": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "57": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "59": {
+   "full": "bk_22",
+   "shot": 22
+  },
+  "60": {
+   "full": "bk_23",
+   "shot": 23
+  },
+  "62": {
+   "full": "bk_24",
+   "shot": 24
+  },
+  "67": {
+   "full": "bk_25",
+   "shot": 25
+  },
+  "69": {
+   "full": "bk_26",
+   "shot": 26
+  },
+  "71": {
+   "full": "bk_27",
+   "shot": 27
+  },
+  "72": {
+   "full": "bk_28",
+   "shot": 28
+  },
+  "76": {
+   "full": "bk_30",
+   "shot": 29
+  },
+  "77": {
+   "full": "bk_29",
+   "shot": 30
+  },
+  "78": {
+   "full": "bk_52",
+   "shot": 30
+  },
+  "82": {
+   "full": "bk_31",
+   "shot": 31
+  },
+  "83": {
+   "full": "bk_32",
+   "shot": 32
+  },
+  "84": {
+   "full": "bk_51",
+   "shot": 32
+  },
+  "87": {
+   "full": "bk_33",
+   "shot": 33
+  },
+  "89": {
+   "full": "bk_34",
+   "shot": 34
+  },
+  "90": {
+   "full": "bk_47",
+   "shot": 34
+  },
+  "91": {
+   "full": "bk_35",
+   "shot": 35
+  },
+  "95": {
+   "full": "bk_36",
+   "shot": 36
+  },
+  "96": {
+   "full": "bk_37",
+   "shot": 37
+  },
+  "97": {
+   "full": "bk_38",
+   "shot": 38
+  },
+  "100": {
+   "full": "bk_39",
+   "shot": 39
+  },
+  "101": {
+   "full": "bk_54",
+   "shot": 39
+  },
+  "103": {
+   "full": "bk_40",
+   "shot": 40
+  },
+  "107": {
+   "full": "bk_48",
+   "shot": 40
+  },
+  "111": {
+   "full": "bk_41",
+   "shot": 41
+  },
+  "112": {
+   "full": "bk_42",
+   "shot": 42
+  },
+  "117": {
+   "full": "bk_43",
+   "shot": 43
+  },
+  "119": {
+   "full": "bk_44",
+   "shot": 44
+  }
+ }
+}

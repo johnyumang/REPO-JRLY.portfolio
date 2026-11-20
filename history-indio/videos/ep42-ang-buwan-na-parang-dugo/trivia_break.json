@@ -1,0 +1,43 @@
+{
+ "fact_id": "t62",
+ "fact_english": "The purple colour of puto bumbong traditionally comes from a purple sticky rice called pirurutong.",
+ "label_onscreen": "PUTO BUMBONG",
+ "source_onscreen": "Pinagmulan: Wikipedia",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang kulay-ube ng puto bumbong, ayon sa tradisyon, galing sa malagkit na bigas na pirurutong!",
+   "emphasis": [
+    "pirurutong"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Pirurutong. Sabihin mo nang tatlong beses.",
+   "emphasis": [
+    "tatlong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 15,
+ "after_text": "Mas luma pa kay Pepe.",
+ "insert_time": 66.73,
+ "palette": "sun",
+ "grave": true,
+ "why_here": "After Usman's light joke 'Mas luma pa kay Pepe.' the rooftop introduction ends (0.80 s silence), and the earthquake and blood-moon sequence starts with 'Bago ang buwan, ang lupa.' Moved on 13 Nov from after 'Bago ang buwan, ang lupa.', because that cut split a set-up line from its pay-off (the quake). Grave episode (Season 5 war): gentle food fact.",
+ "source_note": "Re-checked on 13 Nov by a researcher and a separate second reader: the fact does NOT hold to the rule (two independent reputable sources); see trivia/pool.json notes. This episode ships WITHOUT the trivia break. A copy with the break as it is may be kept beside it for the owner to choose; do not publish that copy."
+}

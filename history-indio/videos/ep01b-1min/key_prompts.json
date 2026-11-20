@@ -1,0 +1,284 @@
+{
+ "_note": "Episode 1 Test B (one minute). 22 new stills, each used once; adjacent sentences 10, 15 and 20 stay on the still of 9, 14 and 19. Cast lines copied word for word from ../ep01v2-ang-unang-talon/key_prompts.json look_cast. Faces kept out of the subtitle band (58-68% of the height). Usman only in 1896.",
+ "look": "bakunawa",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos",
+   "indio_1896": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "woman": "a calm young Filipina woman in her twenties with long straight black hair, wearing a long dark coat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder",
+   "katipuneros": "Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears",
+   "leader": "a Filipino revolutionary leader of 1896 in his early thirties, lean, short black hair, determined face, loose white camisa shirt, red kerchief around his neck, dark trousers",
+   "guardia": "Spanish colonial Guardia Civil soldiers of 1896 in dark green tunics with red cuffs and black tricorn hats",
+   "medallion": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord",
+   "islaw": "a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck",
+   "katip": "a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers",
+   "indio_wet": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, soaking wet from the rain",
+   "woman50": "a Filipina woman of about fifty, short greying black hair plastered by the rain, a plain faded blue cotton house dress, soaked through, no umbrella, no coat, arms at her sides",
+   "boni": "a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat",
+   "oriang": "a young Filipina woman of twenty-one, clearly an adult, slim, warm brown skin, black hair in a neat low bun, gentle dark eyes, a light cream baro blouse with wide sheer sleeves and a long dark red saya skirt"
+  },
+  "places": {
+   "qc_street": "a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere",
+   "office": "a crowded government-style office in Quezon City in our time: pale green walls, fluorescent tube lights, plastic chairs, wooden counters, a potted plant; plain walls with no posters and no signs",
+   "shrine": "a small memorial park in Bahay Toro, Quezon City, in our time: a tall dark bronze sculpture of three Katipunan revolutionaries of 1896 on a grey stone base, big old acacia trees, a low stone wall, an iron street lamp; no cross, no church, no religious statue",
+   "country": "the hilly countryside north of Manila in August 1896: tall cogon grass, bamboo groves, a few nipa huts on stilts, a dirt path, distant blue hills; no modern buildings, no electric wires, no paved roads",
+   "press": "a cramped printing workshop in Manila in 1896: an old iron hand printing press, wooden type cases, stacks of blank paper, heavy wooden beams, plank walls",
+   "barn": "inside a big old wooden barn in the countryside north of Manila in 1896: stacked rice sacks, bamboo poles, hay, wooden posts, an oil lantern hanging from a beam",
+   "portal": "a swirling golden time portal of plain smooth gear rims and rings of light, floating in a dark starry space",
+   "street_am": "a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere, a pale concrete government building with a long plain wall",
+   "window": "a government office service window in Quezon City in our time: a thick glass pane with a small half-moon slot at counter level, a worn wooden counter, pale green walls, fluorescent tubes; no posters, no signs, no writing anywhere",
+   "pawn_noon": "a narrow old street in Quezon City in our time at noon: a small old pawnshop with a heavy iron-grilled glass door and a barred window, peeling paint, tangled electric wires above; no other shop signs, no writing anywhere",
+   "pawn_in": "inside a small dim old pawnshop in Quezon City in our time: a scratched glass counter with iron bars above it, old watches in a dusty case, a single bare bulb; no writing anywhere",
+   "shrine_rain": "the Pugad Lawin Shrine in Bahay Toro, Quezon City, at night in heavy rain: a small concrete shelter roof by a low wall and an iron fence, big old acacia trees, an iron street lamp; no cross, no church, no religious statue",
+   "camp": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "fields": "the edge of a camp on a night in August 1896: dark open fields of tall cogon grass, bamboo clumps and far black hills under a cloudy moon north of Manila; no buildings, no roads, no lights except a few torches behind"
+  }
+ },
+ "full": {
+  "bk_01": {
+   "subject": "Low-angle close-up, framed from the waist up, of a guard standing tall above the camera and shouting down at us: a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, mouth wide open in a furious shout, one hand holding up a plain farm bolo with a straight broad blade beside his shoulder, the other hand a clenched fist, a thumb and four fingers on each visible hand. One person in the picture, his legs out of the frame. His face in the upper third of the picture, torches and night sky behind him.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "torchlight from below, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 8,
+   "note": "waist-up shout, bolo raised; handle drawn long and dark (round 3)"
+  },
+  "bk_02": {
+   "subject": "High-angle extreme close-up of a frightened young man looking up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, eyes wide, holding very still, the long flat steel blade of a plain farm bolo held level just under his chin, entering from the right edge, no hand visible. One person in the picture. His eyes in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "the blade gleaming orange, black background, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "blade under chin; camisa drawn with a small collar (round 1)"
+  },
+  "bk_03": {
+   "subject": "Medium shot, eye level, seen through a thick glass service window: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, standing at the counter, shoulders dropped, face falling in disappointment, a brown folder lying on the counter in front of him where it was pushed back through the half-moon slot. One person in the picture; the clerk is out of the frame. His face in the upper half of the picture.",
+   "setting": "a government office service window in Quezon City in our time: a thick glass pane with a small half-moon slot at counter level, a worn wooden counter, pale green walls, fluorescent tubes; no posters, no signs, no writing anywhere",
+   "light": "flat cold fluorescent light, faint reflections on the glass, richly painted, detailed ink linework, textured brushwork",
+   "seed": 1,
+   "note": "folder pushed back at the window (round 1)"
+  },
+  "bk_04": {
+   "subject": "Single image, one continuous scene, no panels, no split screen. Wide shot from slightly above, across an empty road: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, sitting alone on the curb in the middle of the picture, holding a brown folder flat over his head against the sun, a tired wry face. He appears only once; no one else on the sidewalk. The empty sunlit road fills the bottom of the picture. No dog, no animals.",
+   "setting": "a Quezon City street in our time, Philippines: low concrete shops and houses, tangled electric wires on poles, colourful painted jeepneys and tricycles, acacia trees; every shop front plain, no signboards, no writing anywhere, a pale concrete government building with a long plain wall",
+   "light": "harsh white noon sun, short hard shadows, heat haze, richly painted, detailed ink linework, textured brushwork",
+   "seed": 6,
+   "note": "r1 drew him twice; alone on curb, folder over head; tiny far shop signs blurred (round 2)"
+  },
+  "bk_05": {
+   "subject": "Low-angle medium close-up of a young man sheltering from the rain: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing a plain white short-sleeved polo shirt, black slacks, a small dark backpack on his shoulders, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, no tattoos, soaking wet from the rain, standing under a small concrete shelter roof, looking down in surprise at the bronze medallion on his chest, which glows bright gold. One person in the picture. His face in the upper third of the picture, the glowing medallion just below it. No dog, no animals.",
+   "setting": "the Pugad Lawin Shrine in Bahay Toro, Quezon City, at night in heavy rain: a small concrete shelter roof by a low wall and an iron fence, big old acacia trees, an iron street lamp; no cross, no church, no religious statue",
+   "light": "night, the only light is the gold glow of the medallion lighting his face from below, cold blue rain, richly painted, detailed ink linework, textured brushwork",
+   "seed": 1,
+   "note": "medallion glows in the rain (round 1)"
+  },
+  "bk_06": {
+   "subject": "Bird's-eye very wide view straight down on a torch-lit camp: a ring of about a hundred small Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears, all turned inward; in the empty middle of the ring a young man lies sprawled on the dirt: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck. About a hundred people in the picture, all small. The ring fills the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "ring of Katipuneros, Indio sprawled; crowd faces loose at 3x (round 1)"
+  },
+  "bk_07": {
+   "subject": "Over-the-shoulder medium shot, slightly low: the back of the head and one shoulder of a kneeling young man in the lower left foreground, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, a round bronze medallion on a cord around his neck; facing him and standing over him, a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, glaring down coldly, arms folded across his chest with both hands tucked under his arms, a plain farm bolo in a wooden sheath at his hip. Two people in the picture. The standing man's face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 5,
+   "note": "r1 hands melted into bolo; guard arms folded, bolo sheathed (round 2)"
+  },
+  "bk_08": {
+   "subject": "Dutch-tilt extreme close-up of a shouting face: a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, teeth bared, veins standing out on his temple, eyes blazing. One person in the picture. His face fills the upper two thirds of the picture, tilted.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange torchlight from one side, black background, embers flying, richly painted, detailed ink linework, textured brushwork",
+   "seed": 1,
+   "note": "tilted shout (round 1)"
+  },
+  "bk_09": {
+   "subject": "Side-view medium two-shot at eye level: a young man kneeling on the dirt with his wrists tied behind him with rope, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck; standing beside him, a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, holding the flat of a plain farm bolo against the kneeling man's neck, a thumb and four fingers on each visible hand. Two people in the picture. Both faces in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "blade at neck, wrists tied behind; faces calm, short blade (round 1)"
+  },
+  "bk_10": {
+   "subject": "Ground-level low-angle close-up of a dog sitting beside a kneeling young man and looking up at him: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The young man above is seen from the chest up, soft and out of focus, looking down: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck. One person and one dog in the picture. The dog's face in the upper half of the picture, the man's face at the very top.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "warm torchlight on the dog's face, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 1,
+   "note": "mirrored left-right so the dog's LEFT ear is the upright one (round 1)"
+  },
+  "bk_11": {
+   "subject": "Extreme close-up of a young man's face in comic shock, eyes popping, eyebrows high, mouth wide open: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck. One person in the picture. His face in the upper two thirds of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange torchlight, black background, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "comic shock (round 1)"
+  },
+  "bk_12": {
+   "subject": "High-angle medium shot over the shoulder of a standing guard, a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, in the right foreground, looking down on a young man kneeling with his wrists tied: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, looking up with an open, honest face. Two people in the picture. The kneeling man's face in the upper half of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 3,
+   "note": "k12; rounds 1; Indio camisa has a small open placket"
+  },
+  "bk_13": {
+   "subject": "Low-angle full-length wide shot of a boy striding forward between two men: a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck, empty hands clenched into small fists at his sides, holding nothing, a thumb and four fingers on each visible hand; behind him two of the Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bamboo spears upright, blurred and far behind. Three people in the picture. The boy's face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 5,
+   "note": "k13; rounds 2; round 2: bolo removed (round 1 drew forked blades); fists at sides"
+  },
+  "bk_14": {
+   "subject": "Close-up at eye level of a boy speaking up fiercely, placed on the left third, looking right: a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck. One person in the picture. His face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "warm torchlight on his face from the right, dark background, embers, richly painted, detailed ink linework, textured brushwork",
+   "seed": 3,
+   "note": "k14; rounds 1; clean at 3x"
+  },
+  "bk_15": {
+   "subject": "Medium-wide side view, two men apart. On the left: a lean hard-faced Filipino man in his thirties, brown skin, short black hair, a thin moustache, sunken cheeks, a loose white camisa shirt, a red kerchief around his neck, dark rolled trousers, standing, lowering one broad heavy machete with a wide flat steel blade so its tip points at the ground, one hand on the wooden grip, looking away, uneasy, a thumb and four fingers on each visible hand. On the right, an arm's length away, kneeling on the ground: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, wrists tied in front, breathing out in relief. Two people in the picture. The standing man's face in the upper third of the picture, the kneeling man's face in the upper half.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange torchlight, deep black shadows, embers, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 5,
+   "note": "k16; rounds 2; round 2: side view, broad machete (round 1 blade was a thin rod)"
+  },
+  "bk_16": {
+   "subject": "Low-angle wide shot, the man dead centre: a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, stepping out of the darkness into the torchlight, holding up with both hands, high above his head, one small plain blank rectangle of cream paper with nothing printed or written on it, a thumb and four fingers on each visible hand; on both sides, dark rows of Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears turning to look, kept small and dark. Many people in the picture, one man in front. His face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "strong torchlight behind him making a bright rim around him, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 5,
+   "note": "k17; rounds 2; round 2: blank paper held up with both hands (round 1 paper had pseudo-print)"
+  },
+  "bk_17": {
+   "subject": "Low-angle medium close-up, dead centre: a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, crying out with fierce resolve, both hands holding a small rectangular paper at his chest, about to tear it, a thumb and four fingers on each visible hand. One person in the picture. His face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "torchlight behind him, rim light, smoke, black background, richly painted, detailed ink linework, textured brushwork",
+   "seed": 3,
+   "note": "k18; rounds 1; clean at 3x"
+  },
+  "bk_18": {
+   "subject": "Medium-wide shot at eye level: in the foreground a Filipino man about thirty-two, lean and strong, warm brown skin, short black hair combed back, clean-shaven with no moustache, thick dark eyebrows, intense dark eyes, a plain white collarless camisa shirt, a red neckerchief, dark trousers, a bolo in a sheath at his waist, no hat, tearing a small paper in two, a thumb and four fingers on each visible hand; behind him hundreds of Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears, tearing their own small papers, scraps flying in the air. Hundreds of people in the picture. His face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "k19; rounds 1; clean at 3x"
+  },
+  "bk_19": {
+   "subject": "Bird's-eye high wide view of a crowd: hundreds of Filipino Katipunan revolutionaries of 1896, brown skin, loose white camisa shirts, rolled trousers, red kerchiefs around their necks, some in woven straw hats, carrying bolo knives and bamboo spears, shouting with fists and bolos raised, torn white scraps of paper swirling up toward us. Hundreds of people in the picture, all small. The crowd fills the whole picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 1,
+   "note": "k21; rounds 1; crowd: a few background hands are loose at 3x"
+  },
+  "bk_20": {
+   "subject": "Over-the-shoulder medium close-up: the back of the head and shoulder of a young man in the left foreground, a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck; facing him and looking up, a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck, quiet and awed, torn scraps of paper drifting between them. Two people in the picture. The boy's face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "warm torchlight, soft background, hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 2,
+   "note": "k22; rounds 1; Islaw looks quiet rather than awed"
+  },
+  "bk_21": {
+   "subject": "Low-angle wide shot of a young man and a boy side by side with their fists raised: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck; beside him a skinny Filipino boy about twelve years old, small for his age, brown skin, short messy black hair, big fierce dark eyes, a loose patched off-white camisa shirt too big for him, rolled brown trousers, barefoot, a thin red kerchief around his neck; torn scraps of paper falling around them like snow, a thumb and four fingers on each visible hand. Two people in the picture, a dark crowd far behind. Both faces in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "hard orange firelight from many torches, deep black shadows, glowing embers in the air, rim light, smoke, richly painted, detailed ink linework, textured brushwork",
+   "seed": 3,
+   "note": "k23; rounds 1; fists at chest height, only Islaw raises his high"
+  },
+  "bk_22": {
+   "subject": "Tight head-and-shoulders close-up at eye level, the face large and filling the upper half of the picture, of a young man looking straight into the lens: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck, calm and searching, one hand holding a torn half of a small plain blank cream paper, nothing printed or written on it, up beside his cheek, a thumb and four fingers on that hand. One person in the picture. Only head, shoulders and chest in the picture, no legs. His face in the upper third of the picture.",
+   "setting": "a wide trampled dirt yard among nipa huts on stilts, a big old wooden barn and bamboo groves in the countryside north of Manila, on a night in August 1896, hundreds of flaming torches; no modern buildings, no electric wires, no guns",
+   "light": "soft warm torchlight, falling scraps of paper out of focus behind, richly painted, detailed ink linework, textured brushwork",
+   "seed": 6,
+   "note": "k24; rounds 2; round 2: tight close-up, blank paper"
+  }
+ },
+ "shots": {
+  "0": {
+   "full": "bk_01",
+   "shot": 1
+  },
+  "1": {
+   "full": "bk_02",
+   "shot": 2
+  },
+  "2": {
+   "full": "bk_03",
+   "shot": 3
+  },
+  "3": {
+   "full": "bk_04",
+   "shot": 4
+  },
+  "4": {
+   "full": "bk_05",
+   "shot": 5
+  },
+  "5": {
+   "full": "bk_06",
+   "shot": 6
+  },
+  "6": {
+   "full": "bk_07",
+   "shot": 7
+  },
+  "7": {
+   "full": "bk_08",
+   "shot": 8
+  },
+  "8": {
+   "full": "bk_09",
+   "shot": 9
+  },
+  "9": {
+   "full": "bk_10",
+   "shot": 10
+  },
+  "11": {
+   "full": "bk_11",
+   "shot": 11
+  },
+  "12": {
+   "full": "bk_12",
+   "shot": 12
+  },
+  "13": {
+   "full": "bk_13",
+   "shot": 13
+  },
+  "14": {
+   "full": "bk_14",
+   "shot": 14
+  },
+  "16": {
+   "full": "bk_15",
+   "shot": 15
+  },
+  "17": {
+   "full": "bk_16",
+   "shot": 16
+  },
+  "18": {
+   "full": "bk_17",
+   "shot": 17
+  },
+  "19": {
+   "full": "bk_18",
+   "shot": 18
+  },
+  "21": {
+   "full": "bk_19",
+   "shot": 19
+  },
+  "22": {
+   "full": "bk_20",
+   "shot": 20
+  },
+  "23": {
+   "full": "bk_21",
+   "shot": 21
+  },
+  "24": {
+   "full": "bk_22",
+   "shot": 22
+  }
+ }
+}

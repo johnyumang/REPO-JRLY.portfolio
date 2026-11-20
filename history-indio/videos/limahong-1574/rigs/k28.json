@@ -1,0 +1,19 @@
+{
+  "note": "Pirate stockade harbour: boats bob, palms and flags blow, water shimmers, slow push",
+  "camera": {"zoom": [1.0, 1.05], "focus": [400, 560]},
+  "effects": [
+    {"fx": "bob", "mask": {"ellipse": [560, 1000, 195, 185], "soft": 35}, "dx": 1, "dy": 3, "speed": 1.4},
+    {"fx": "bob", "mask": {"ellipse": [105, 680, 125, 135], "soft": 30}, "dx": 0, "dy": 2, "speed": 1.7},
+    {"fx": "bob", "mask": [{"ellipse": [318, 300, 30, 32], "soft": 10}, {"ellipse": [265, 285, 16, 20], "soft": 8}, {"ellipse": [224, 272, 9, 12], "soft": 6}], "dx": 0, "dy": 1.5, "speed": 1.9},
+    {"fx": "turn", "mask": {"poly": [[480, 980], [590, 980], [590, 1080], [480, 1070]], "soft": 12}, "pivot": [535, 1080], "sway": 1.0, "speed": 1.6},
+    {"fx": "wind", "mask": {"ellipse": [95, 85, 115, 100], "soft": 30}, "amp": 3.5, "wave": 130, "speed": 3.5},
+    {"fx": "wind", "mask": [{"ellipse": [45, 325, 60, 60], "soft": 22}, {"ellipse": [20, 500, 35, 50], "soft": 18}, {"ellipse": [15, 220, 30, 45], "soft": 18}], "amp": 3, "wave": 110, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[588, 25], [705, 45], [712, 140], [588, 105]], "soft": 10}, "amp": 4, "wave": 90, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [165, 265, 22, 28], "soft": 8}, {"ellipse": [436, 310, 20, 16], "soft": 7}, {"ellipse": [275, 352, 14, 12], "soft": 6}], "amp": 3, "wave": 60, "speed": 5},
+    {"fx": "wind", "mask": [{"ellipse": [700, 395, 20, 65], "soft": 10}, {"ellipse": [505, 395, 15, 42], "soft": 8}, {"ellipse": [390, 440, 12, 30], "soft": 7}], "amp": 2, "wave": 80, "speed": 4, "axis": "y"},
+    {"fx": "wind", "mask": [{"ellipse": [100, 950, 150, 110], "soft": 35}, {"ellipse": [610, 1235, 120, 45], "soft": 25}, {"ellipse": [550, 825, 40, 35], "soft": 18}], "amp": 2.5, "wave": 120, "speed": 3},
+    {"fx": "shimmer", "mask": {"poly": [[110, 810], [250, 800], [390, 830], [380, 960], [400, 1150], [300, 1190], [240, 1010]], "soft": 30}, "amp": 2.5},
+    {"fx": "shimmer", "mask": {"poly": [[195, 255], [300, 250], [290, 280], [240, 335], [200, 320]], "soft": 15}},
+    {"fx": "shimmer", "mask": {"poly": [[420, 1180], [700, 1190], [640, 1215], [430, 1230]], "soft": 18}}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+ "fact_id": "t08",
+ "fact_english": "When nesting, the female rufous hornbill seals herself inside a tree hole, leaving a narrow slit through which the male feeds her.",
+ "label_onscreen": "KALAW",
+ "source_onscreen": "Pinagmulan: The Auk",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang inahing kalaw, kinukulong ang sarili sa butas ng puno habang nangingitlog. May maliit na siwang lang.",
+   "emphasis": [
+    "siwang"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Doon siya pinapakain ng lalaki. Delivery, sa puno.",
+   "emphasis": [
+    "delivery"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 16,
+ "after_text": "Masyado akong malayo para marinig ang mga salita, kaya wala akong isusulat.",
+ "insert_time": 68.94,
+ "estimated_time_note": "no timings.json yet; about 68 s by word count",
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "The hopeful 1935 inauguration memory ends here, on Indio's honest note that he will write nothing down. After the break the story jumps back to the present with \"Pagbalik ko\" and the new marker. Moved on 13 Nov from index 17, because there the break split the unveiling of the marker from the reading of its words and came right before the oath. Grave episode (the flood begins later), so the fact is a gentle one."
+}

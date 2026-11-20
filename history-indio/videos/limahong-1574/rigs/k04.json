@@ -1,0 +1,16 @@
+{
+  "note": "Ming official nails the wanted poster: hammer arm taps, head turn, breathing, lantern sway and glow, belt tassel, harbor lights, crowd heads shift",
+  "camera": {"zoom": [1.0, 1.07], "focus": [420, 400]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [370, 150, 62, 125], "soft": 25}, "pivot": [370, 30], "sway": 1.5, "speed": 1.4},
+    {"fx": "glow", "mask": [{"ellipse": [370, 130, 85, 110], "soft": 45}, {"ellipse": [65, 285, 40, 50], "soft": 25}], "amount": 0.08},
+    {"fx": "shimmer", "mask": {"poly": [[165, 285], [290, 285], [290, 345], [165, 345]], "soft": 20}},
+    {"fx": "turn", "mask": {"ellipse": [285, 375, 165, 125], "soft": 40}, "pivot": [330, 480], "sway": 0.9, "speed": 1.2, "gesture": 2.5, "at": [0.45, 0.6, 0.8, 0.92]},
+    {"fx": "turn", "mask": {"poly": [[478, 165], [568, 165], [568, 300], [545, 380], [470, 390]], "soft": 22},
+     "pivot": [495, 390], "sway": 1.0, "speed": 5.0, "gesture": -5, "at": [0.1, 0.2, 0.3, 0.42]},
+    {"fx": "breath", "ellipse": [380, 620, 150, 130]},
+    {"fx": "turn", "mask": {"ellipse": [350, 930, 24, 125], "soft": 12}, "pivot": [350, 805], "sway": 2.2, "speed": 2.2},
+    {"fx": "bob", "mask": {"ellipse": [600, 950, 170, 240], "soft": 45}, "dx": 2, "dy": 3, "speed": 1.0},
+    {"fx": "bob", "mask": {"ellipse": [80, 900, 120, 180], "soft": 45}, "dx": -2, "dy": 3, "speed": 1.3}
+  ]
+}

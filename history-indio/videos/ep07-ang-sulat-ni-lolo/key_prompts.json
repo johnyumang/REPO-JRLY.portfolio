@@ -1,0 +1,244 @@
+{
+ "_note": "Episode 7 keyframes (same method as Episodes 2-6). Indio has NO medallion in every frame. Real people: Rizal is never shown (only a far grave mound); Narcisa and the 1898 group only from behind and far away, inside the lens circle. No body, no blood, no weapons. The lens is always a round golden-edged view. Memory shots of the Lolo are warm sepia. plates/field.jpg and full/intro.jpg are copies from Episode 6; full/tattoo is new and shows exactly five tattoos (no new one in Ep 6 or Ep 7). Shot keys follow the sentence numbers of sentences.json after the 2026-11-12 review; k50 (cart_far) and k51 (indio_calm) are extra keys used only inside montages (shots_fx 'keys'). Review fixes 2026-11-12: the free model could not count or keep two characters on-model, so four frames are hand composites made with OpenCV from generated parts (no extra generation): full/tattoo (the try with four evenly spaced diamonds, the squashed fourth repainted and a fifth copied from the second: exactly five), full/datus (six separate sleeping-datu medallions from one generation, each used twice in a twelve-point ring over plates/cave_star: exactly twelve), full/walk_away and full/sit_wait (chars/pair_walk_white.jpg and chars/pair_sit_white.jpg, generated from the walk_away/sit_wait prompts on white, cut out and placed on plates/village_road and plates/sunset_wall). Do not --redo those four names unless the composites are rebuilt the same way.",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ },
+ "plates": {
+  "field": "(copied from Episode 6)",
+  "paco_wall": "the outside foot of a tall old weathered circular stone cemetery wall in Manila in 1896, rows of small arched niches in the wall, tall grass and loose earth at its base, a few bare trees, overcast pale morning light, quiet and lonely.",
+  "lolo_room": "a small old Filipino house room at night, wooden walls, a capiz shell window, a low wooden bed with a thin blanket, a kerosene lamp glowing warm, soft sepia memory haze.",
+  "cave_star": "a dark storybook cave seen from inside, rough blue-grey rock walls framing an open space in the middle, one bright white star shining high above through an opening, faint sparkles, deep shadows, dreamy painted look, empty.",
+  "village_road": "a dirt road between nipa houses in an 1890s Philippine village at sunset, palm trees, long warm shadows, golden sky, no poles, no wires, no antennas, nothing modern, empty road.",
+  "sunset_wall": "a wide orange sunset over rice fields and palm trees in the Philippines, a low old stone wall across the bottom of the frame, warm glowing sky, nothing modern."
+ },
+ "chars": {
+  "indio_lost": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, standing in morning mist, looking down at his own bare chest with a lost tired face, shoulders low.",
+  "usman_run": "a slim, lean, medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, running fast with ears back and nose low to the ground, following a trail, dynamic side view. The whole dog drawn cleanly, no shadow, no ground under him.",
+  "indio_open_phone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, crouching, looking down at a smartphone held in both hands, face lit by the screen, nervous eyes.",
+  "indio_realize": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, eyes wide, slowly lowering a smartphone, quiet shock as he understands something.",
+  "indio_bitter_smile": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, a small sad smile, eyes lowered, holding a smartphone against his chest.",
+  "indio_lens": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, holding an old round lens with a golden rim up to his right eye, left eye closed, focused face.",
+  "usman_growl": "Close-up of a dog's HEAD and neck only, filling the frame from the ears to the kerchief, no body, no chest: a slim, lean, medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck (not a bulldog, not muscular), a low growl, teeth slightly shown, , serious eyes, looking at the viewer.",
+  "usman_dig": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, digging hard with both front paws, earth flying, head down, tail up. His left ear stands upright and pointed, only his right ear is folded down; his face is all black with no white on it, the white patch is only on his chest.",
+  "indio_whisper": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, close-up, whispering, eyes wet and wide, his face lit from below by the dim glow of a phone that is out of frame; both hands out of frame; no phone visible.",
+  "indio_calm": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, a calm small smile, arms crossed, looking at the far horizon, at peace.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, pointing at the viewer with a calm confident smile.",
+  "indio_fist": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, holding up a big round magnifying-glass lens with a thin gold rim and a short wooden handle in his left hand (one hand, a thumb and four fingers around the handle), the glass tinted warm amber and glowing, not green, not see-through beside his face, his empty right fist raised, confident grin, no coin, no medallion, no pendant."
+ },
+ "full": {
+  "intro": "(copied from Episode 6)",
+  "tattoo": "close-up of one raised brown forearm, fist closed, rolled white sleeve, misty morning grass behind. On the forearm, five small indigo diamond tattoos in a single straight vertical column, spaced like the five dots on a domino line: 1, 2, 3, 4, 5. Exactly five diamonds, not three, not four, not six. No glow.",
+  "phone_low": "extreme close-up of a brown hand holding a smartphone in misty morning light, the screen showing only a red almost-empty battery icon and a crossed-out signal icon, old stone walls blurred behind. No dog, no animals.",
+  "phone_photo": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Anime illustration, crisp ink line art and cel shading like the rest of the episode: a smartphone lying face-up on a worn wooden table in a dim room in Kawit, Cavite, Philippines, its screen glowing softly with one blurred thumbnail of an old yellowed paper and a small unread dot beside it, the paper blank: no writing, no letters, no characters. No hands, no people. No dog, no animals.",
+  "box_lining": "close-up of an old empty wooden keepsake box with a round hollow inside, its faded red cloth lining lifted at one corner by an old woman's wrinkled fingers, a folded yellowed letter hidden underneath, warm lamp light.",
+  "cart_far": "seen from far behind on a misty dirt road at dawn in 1896, a plain horse-drawn wagon pulled by two horses moving away, its load covered with dark cloth, a few Spanish colonial soldiers in pale blue-and-white striped rayadillo uniforms and white-covered caps walking beside it, hands empty, no weapons visible, old stone walls and bare trees, solemn, nothing modern.",
+  "paco_far": "seen from far away across tall grass, an old circular stone cemetery wall with an open iron gate, inside a small mound of freshly turned earth with no marker, two uniformed guards standing far off, grey morning, solemn, no other people.",
+  "letter": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Extreme close-up of a smartphone held in a brown hand in a dim room in Kawit, Cavite, Philippines; the screen glows warm amber with a photo of an old yellowed folded paper letter, seen at a steep angle and softly out of focus, the paper blank, no writing, no letters, no characters, a thumb covering the middle of the page. No dog, no animals.",
+  "lolo_arm": "warm sepia close-up of an old man's thin bare forearm lying flat on a wooden table, no face in frame, along the forearm a straight row of 5 small indigo diamond tattoos, counted one two three four five, evenly spaced from wrist to elbow, exactly five and no more, soft lamp light.",
+  "lolo_m": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Warm sepia memory scene, misty field at dawn, seen from behind: an old-fashioned man in a loose white collarless shirt, his hands at his sides, facing a woman in a long dark 1890s coat and long skirt; her face is hidden under a red umbrella tilted forward; she holds the umbrella's wooden handle with one gloved hand at chest height, her other arm hangs at her side with the hand hidden in her coat sleeve. She has exactly two arms. Nothing modern, faces not visible, no tie.",
+  "lolo_run": "warm sepia memory scene, a man in a loose white collarless shirt seen from behind running away into a swirl of golden light on a misty field, a red umbrella small and far behind him.",
+  "lolo_bury": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Warm sepia memory scene in anime style, close-up of a small square parcel of folded brown cloth tied with string, an object only, not a person, not a baby, no face, lying in a freshly dug hole at the foot of an old stone wall, loose dark earth piled beside it, an old wooden trowel stuck upright in the earth, grass, morning light. No hands, no people, no faces.",
+  "lens": "close-up of a brown hand holding an old round glass lens with a worn golden rim, crumbs of dark earth on it, a glint of light across the glass, old stone wall blurred behind.",
+  "lens_view": "view through a round golden-rimmed lens filling the frame: inside the circle only an empty old circular stone cemetery wall and grass under clouds streaking fast across the sky, no people, no faces, outside the circle dark and blurred.",
+  "narcisa_far": "view through a round golden-rimmed lens: inside the circle, far away and seen from behind, a slim woman in a long dark 1890s Filipino skirt and a dark veil walking along old cemetery walls, looking at the ground, outside the circle dark.",
+  "rpj": "view through a round golden-rimmed lens: inside the circle, a small plain white marble slab lying on a mound of fresh earth, the three capital letters R P J simply carved on it, wild grass, soft grey light, outside the circle dark.",
+  "lens_1898": "view through a round golden-rimmed lens: inside the circle, far away and seen from behind, a small group of people in 1890s clothes standing quietly by the cemetery wall in bright morning light, white flowers, outside the circle dark.",
+  "park_today": "a round walled garden park in Manila today, an old circular stone wall with arched niches around a wide green lawn, neat paths, a few visitors far away, modern city towers behind, bright afternoon, no cross, no church, no religious statue. No dog, no animals.",
+  "memory_lolo": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Warm sepia memory scene at night: an old Filipino grandfather with short white hair, clean-shaven, in a loose white long-sleeved shirt, sitting on a low wooden bed, holding a glowing bronze medallion close to his face with both hands cupped behind it; exactly one small Filipino boy with warm brown skin and short black hair, his hands at his sides, half hidden behind the wooden door frame, watching; kerosene lamp light, soft haze. No signature, no text, no letters anywhere.",
+  "medallion_answer": "close-up of old wrinkled hands cupping an old round bronze medallion engraved with a sun and a triangle, a soft golden light rising from it like a breath, dark room, sepia haze.",
+  "datus": "dreamy storybook painting, dark cave, one bright star high above. Twelve round bronze medallions floating apart in a big ring, arranged exactly like the twelve hour marks of a clock, twelve, not eight, not ten, no chain. Each medallion holds a tiny sleeping datu, a grown man in a red head cloth and dark vest curled asleep. No babies, no weapons, no clock hands, no numbers.",
+  "shoes": "close-up of a pair of old black leather shoes lying on bare earth, a small scrap of yellowed paper crumbling to dust beside them, soft grey light, quiet.",
+  "phone_dying": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Extreme close-up of a smartphone in a brown hand at dusk on a street in Kawit, Cavite, Philippines; the screen is dimming, showing a blurry glowing photo of an old yellowed paper, blank, no writing, no letters, no characters, a thin red battery bar at the top of the screen, purple dusk sky behind. No dog, no animals.",
+  "tala": "one bright golden star shining alone in a deep blue dusk sky above the dark top of an old stone wall, faint rays of light, quiet.",
+  "phone_black": "a brown hand holding a smartphone with a completely black dead screen, the glass reflecting a few stars of the dusk sky, old stone wall blurred behind. No dog, no animals.",
+  "walk_away": "sunset, a dirt road between nipa houses in an 1890s Philippine village, palm trees, long shadows, nothing modern, no poles, no wires. Walking away down the road, seen from behind: a young man and his black dog side by side. The young man wears a loose white long-sleeved collarless shirt, dark loose trousers, sandals, a red headband with two long red tails hanging down his back, black hair in a small topknot. The black dog has one folded ear and a red kerchief.",
+  "sit_wait": "wide orange sunset over rice fields and palm trees, Philippines, warm sky. Seen from behind in the foreground, sitting side by side on a low stone wall: a young man and his black dog. The young man wears a loose white long-sleeved collarless shirt and a red headband with two long red tails, black hair in a small topknot. The black dog has one folded ear and a red kerchief, sitting upright next to him."
+ },
+ "shots": {
+  "0": {
+   "char": "usman_dig",
+   "plate": "paco_wall",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.6
+  },
+  "1": {
+   "full": "intro"
+  },
+  "3": {
+   "char": "indio_lost",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "5": {
+   "full": "phone_low"
+  },
+  "6": {
+   "full": "phone_photo"
+  },
+  "7": {
+   "full": "box_lining"
+  },
+  "8": {
+   "char": "usman_run",
+   "plate": "field",
+   "x": 0.6,
+   "y": 0.8,
+   "s": 0.6
+  },
+  "9": {
+   "full": "paco_far"
+  },
+  "10": {
+   "char": "indio_open_phone",
+   "plate": "paco_wall",
+   "x": 0.4,
+   "y": 0.55,
+   "s": 0.65
+  },
+  "11": {
+   "full": "letter"
+  },
+  "12": {
+   "full": "lolo_arm"
+  },
+  "13": {
+   "full": "lolo_m"
+  },
+  "14": {
+   "full": "lolo_run"
+  },
+  "15": {
+   "char": "indio_realize",
+   "plate": "paco_wall",
+   "x": 0.6,
+   "y": 0.45,
+   "s": 0.7
+  },
+  "16": {
+   "full": "lolo_bury"
+  },
+  "17": {
+   "char": "indio_bitter_smile",
+   "plate": "paco_wall",
+   "x": 0.3,
+   "y": 0.45,
+   "s": 0.7
+  },
+  "18": {
+   "full": "lens"
+  },
+  "19": {
+   "full": "lens_view"
+  },
+  "20": {
+   "full": "narcisa_far"
+  },
+  "22": {
+   "full": "rpj"
+  },
+  "23": {
+   "full": "lens_1898"
+  },
+  "24": {
+   "full": "park_today"
+  },
+  "25": {
+   "char": "indio_lens",
+   "plate": "paco_wall",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.7
+  },
+  "27": {
+   "full": "memory_lolo"
+  },
+  "28": {
+   "full": "medallion_answer"
+  },
+  "29": {
+   "full": "datus"
+  },
+  "30": {
+   "char": "usman_growl",
+   "plate": "paco_wall",
+   "x": 0.5,
+   "y": 0.85,
+   "s": 0.6
+  },
+  "33": {
+   "full": "shoes"
+  },
+  "36": {
+   "full": "phone_dying"
+  },
+  "37": {
+   "char": "indio_whisper",
+   "plate": "paco_wall",
+   "x": 0.5,
+   "y": 0.35,
+   "s": 0.8,
+   "tint": [
+    1.05,
+    0.9,
+    0.85
+   ]
+  },
+  "38": {
+   "full": "tala"
+  },
+  "39": {
+   "full": "phone_black"
+  },
+  "40": {
+   "full": "tattoo"
+  },
+  "41": {
+   "full": "walk_away"
+  },
+  "42": {
+   "full": "sit_wait"
+  },
+  "43": {
+   "char": "indio_point",
+   "plate": "paco_wall",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "45": {
+   "char": "indio_fist",
+   "plate": "field",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7,
+   "tint": [
+    1.08,
+    0.95,
+    0.85
+   ]
+  },
+  "50": {
+   "full": "cart_far"
+  },
+  "51": {
+   "char": "indio_calm",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.7,
+   "tint": [
+    1.08,
+    0.95,
+    0.85
+   ]
+  }
+ }
+}

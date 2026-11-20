@@ -1,0 +1,24 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 62,
+   "text": "Kathang-isip: ang mga diwa at ang mga salita nila, ang gunaw at ang labanan, na hinango lang sa Pahayag, sina Noy Kulas, Kalawang, Tubal at ang Alcaín Builders, at kami nina M at Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 57,
+   "text": "Tiyak: noong 27 Abril 1521, sa Mactan, natalo at napatay si Magallanes, ayon kay Pigafetta; kung si Lapulapu mismo ang pumatay, alamat iyon.",
+   "why": "History: what is certain, plus the legend about the real record."
+  },
+  {
+   "index": 61,
+   "text": "Namatay si Paduka Pahala ng Sulu sa Dezhou, sa Tsina, noong 1417, at nandoon pa ang libingan niya; maalamat na ibon ng mga Maranao ang sarimanok, at kuwentong-bayan ang Bakunawa.",
+   "why": "History plus a folklore attribution. It says nothing about the series' own invention."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Namatay si Paduka Pahala ng Sulu sa Dezhou, sa Tsina, noong 1417, at nandoon pa ang libingan niya; maalamat na ibon ng mga Maranao ang sarimanok, at kuwentong-bayan ang Bakunawa. / Sa malayo, sa isang bangkang walang ilaw, nakatayo si Tubal."
+}

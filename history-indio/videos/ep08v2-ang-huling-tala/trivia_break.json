@@ -1,0 +1,62 @@
+{
+ "fact_id": "ep08v2_end",
+ "fact_english": "Apolinario Mabini, paralysed in the legs, was carried to Kawit in a hammock by relays of bearers (when exactly he arrived is weak in the sources, so it is not said). In his memoir La Revolución Filipina he judged the 12 June 1898 proclamation premature and imprudent (the trivia gives the gist, not a quotation). The Acta proclaims independence under the protection of the North American nation; in Paris, six months later (Treaty of Paris, 10 December 1898), Spain ceded the Philippines to the United States. Rajah Sulayman was a real ruler of Maynila who fought the Spaniards in 1570 to 1571; his voice in the medallion is the story's invention. Sources as named in story/ep08_v2/facts.md: Mabini's memoir, the Acta, Ambeth Ocampo, Wikipedia (Apolinario Mabini; Rajah Sulayman). facts.md names no source for the Paris cession (it points to Episode 5's facts): the best it gives is the Acta/Wikipedia row; check Episode 5's sources before posting.",
+ "label_onscreen": "MABINI",
+ "source_onscreen": "Pinagmulan: Mabini; Acta 1898; Ocampo",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par?",
+   "emphasis": [
+    "totoo"
+   ],
+   "say": "Totoo ba yon, par?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: dumating si Mabini sa Kawit na buhat sa duyan.",
+   "emphasis": [
+    "duyan"
+   ],
+   "say": "Tiyak: dumating si maBIni sa KAwit na buhat sa duyan."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Sa alaala niya, isinulat niyang maaga pa at padalos-dalos ang pagpapahayag: diwa ito, hindi sipi.",
+   "emphasis": [
+    "padalos-dalos"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh si Rajah Sulayman?",
+   "emphasis": [
+    "Sulayman"
+   ],
+   "say": "Eh si Raha Sulayman?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Totoong pinuno siya ng Maynila na lumaban sa mga Espanyol noong 1570.",
+   "emphasis": [
+    "1570"
+   ],
+   "say": "Totoong pinuno siya ng Maynila na lumaban sa mga Espanyol noong mil kinyentos setenta."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tinig niya sa medalyon, kuwento namin.",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 110,
+ "after_text": "Ikaw, ka-Indio: kung isang hakbang na lang pauwi, at may nagsabing \"huwag muna\", makikinig ka ba?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form (BIBLE section 0, rule 7): the trivia goes at the END, after the last line of the story (sentence 110, the question), as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
+ "voice_note": "From the script's TRIVIA AT THE END block, trimmed to keep the speech near 25 s: Indio's first line split in two (the hammock, then the memoir), 'Hindi ito eksaktong sipi; diwa ito ng isinulat niya' shortened to 'diwa ito, hindi sipi', the Akta and Paris lines tightened; same facts. Say: Mabini=maBIni, Kawit=KAwit, Rajah Sulayman=RAha sulayMAN, 1570=mil kinyentos setenta. Check the length after trivia_voice.py; if over, drop 'Hindi masaya si Mabini?' first. 16 Nov: trimmed to about 20 s of speech (the tool's limit): the Akta and Paris lines left out, Usman's first line shortened; 'Raha Sulayman' as plain words in say (capital-letter respelling was read as letters)."
+}

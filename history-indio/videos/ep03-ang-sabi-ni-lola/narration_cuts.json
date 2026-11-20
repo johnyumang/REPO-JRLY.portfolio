@@ -1,0 +1,28 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 30,
+   "text": "At ang kathang-isip: ang babae at ang batang may medalyon."
+  },
+  {
+   "index": 31,
+   "text": "Kuwento ng pamilya ko 'yon."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 28,
+   "text": "Ang tiyak: ang petsa, ang watawat, ang akta, at ang martsa.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 29,
+   "text": "Ang madalas mapagkamalan: sa balkonahe raw ito ginawa, pero bintana pa lang iyon noong 1898, at 1919 lang idinagdag ang balkonahe.",
+   "why": "History (commonly mistaken)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Ang madalas mapagkamalan: sa balkonahe raw ito ginawa, pero bintana pa lang iyon noong 1898, at 1919 lang idinagdag ang balkonahe. / Lumamig ang medalyon."
+}

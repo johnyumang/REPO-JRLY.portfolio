@@ -1,0 +1,29 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 61,
+   "text": "Kathang-isip: kami nina M at Usman, ang medalyon, ang diwa ni Tupas at ang mga salita niya."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 60,
+   "text": "Kuwentong-bayan ng Mesoamerika ang nahual, taong nagiging hayop.",
+   "why": "Folklore attribution that stands as its own sentence."
+  },
+  {
+   "index": 29,
+   "text": "Pero sa kuwento namin, sumakay ang medalyon niya sa isang galyon, sa bulsa ng isang tagaluto.",
+   "why": "Borderline: 'sa kuwento namin' marks the medallion's journey as invented, but the sentence carries plot that 30 needs ('Naiwan ito sa pader...'), and right after 28 ('never reached Acapulco') it keeps the invented scene apart from the record. A cut is not a rewrite, so it stays. Flag it to the owner in case he wants even this framing gone."
+  },
+  {
+   "index": 28,
+   "text": "Hindi kailanman nakarating si Tupas sa Acapulco.",
+   "why": "A fact about the record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ng Mesoamerika ang nahual, taong nagiging hayop. / Pag-uwi namin sa kasalukuyan, naglaho si Usman sa liwanag, may hawak pang taco."
+}

@@ -1,0 +1,208 @@
+{
+ "_": {
+  "whoosh_cuts": false,
+  "levels": {
+   "amb": -14,
+   "music": -14,
+   "foley": -15,
+   "spot": -11,
+   "duck": 8,
+   "fx_duck": 12
+  },
+  "bed_per_line": true
+ },
+ "0": {
+  "amb": [
+   "fire:-6",
+   "crowd:-12"
+  ],
+  "music": "none"
+ },
+ "1": {
+  "amb": [
+   "fire:-6",
+   "crowd:-12"
+  ],
+  "music": "heartbeat"
+ },
+ "2": {
+  "amb": [
+   "rain_heavy:-6"
+  ],
+  "music": "drone"
+ },
+ "3": {
+  "amb": [
+   "rain_heavy:-6"
+  ],
+  "music": "drone"
+ },
+ "4": {
+  "amb": [
+   "office",
+   "crowd:-14"
+  ],
+  "music": "none",
+  "level": -4
+ },
+ "5": {
+  "amb": "none",
+  "music": "drone",
+  "level": -3
+ },
+ "6": {
+  "amb": "none",
+  "music": "drone",
+  "level": -3
+ },
+ "7": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "drone",
+  "level": -2
+ },
+ "8": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": -2
+ },
+ "9": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": -2
+ },
+ "10": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "11": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "12": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "13": {
+  "amb": [
+   "crowd",
+   "fire:-4",
+   "night_insects:-8"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "14": {
+  "amb": [
+   "crowd:-10",
+   "fire:-6",
+   "night_insects:-6"
+  ],
+  "music": "drone",
+  "level": -8
+ },
+ "15": {
+  "amb": [
+   "crowd:-10",
+   "fire:-6",
+   "night_insects:-6"
+  ],
+  "music": "none",
+  "level": -5
+ },
+ "16": {
+  "amb": [
+   "crowd:-10",
+   "fire:-6",
+   "night_insects:-6"
+  ],
+  "music": "none",
+  "level": -6
+ },
+ "17": {
+  "amb": [
+   "crowd:-6",
+   "fire:-4",
+   "night_insects:-6"
+  ],
+  "music": "guitar",
+  "level": -8
+ },
+ "18": {
+  "amb": [
+   "crowd:-4",
+   "fire:-4",
+   "wind:-8"
+  ],
+  "music": "none",
+  "level": -3
+ },
+ "19": {
+  "amb": [
+   "crowd:-4",
+   "fire:-4",
+   "wind:-8"
+  ],
+  "music": "none",
+  "level": -3
+ },
+ "20": {
+  "amb": [
+   "crowd:-4",
+   "fire:-4",
+   "wind:-8"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "21": {
+  "amb": [
+   "crowd",
+   "fire:-4"
+  ],
+  "music": "heartbeat",
+  "level": 0
+ },
+ "22": {
+  "amb": [
+   "crowd:-4",
+   "fire:-6"
+  ],
+  "music": "guitar",
+  "level": -4
+ },
+ "23": {
+  "amb": [
+   "rain_light",
+   "city:-12"
+  ],
+  "music": "guitar",
+  "level": -4
+ }
+}

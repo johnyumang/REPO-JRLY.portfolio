@@ -1,0 +1,552 @@
+{
+ "_note": "Episode 2 keyframes. Shot rules: close-ups, one plate per location, characters on white then composited (pipeline/make_keys.py). plates/siege.png is from Figma; the rest are NVIDIA FLUX.2 klein drafts to be upgraded with Figma when credits reset. Usman exists only inside a time jump: never draw him in modern-day shots.",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "plates": {
+  "street": "a Manila street outside the old stone walls of Intramuros in the afternoon, a parked motorcycle with a square insulated delivery box on the back, acacia trees, a stone gate in the distance, warm afternoon sunlight.",
+  "baluarte": "the ruins of an old Spanish colonial stone bastion in Intramuros Manila today, thick weathered grey-brown volcanic stone walls and circular stone ruins, green lawn and tropical garden, a small blank stone plaque on a pedestal, golden late-afternoon light, long shadows.",
+  "siege": "the old Spanish colonial stone bastion wall of Manila in 1762 under bombardment, a ragged breach in the wall, rubble, gunpowder smoke, orange smoky sky.",
+  "hall": "the interior of a dim Spanish colonial stone hall in 1762 at night, thick stone arches, heavy wooden table with candles, tall shuttered windows glowing orange from fires outside, smoke haze.",
+  "bacolor": "a Philippine provincial town in Pampanga in 1762 at sunrise, nipa and bamboo houses on stilts, coconut palms, green rice fields, a dirt road, distant blue mountain, hopeful golden morning light."
+ },
+ "chars": {
+  "indio_shock": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, eyes wide in shock, mouth open, holding up in both hands a big plate of yellow pancit noodles with vegetables, soot on his cheek.",
+  "indio_duck": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, collarless, no buttons, ducking low with both arms crossed over the top of his head, hands hidden behind his head, eyes squeezed shut, teeth clenched, dust falling, orange rim light.",
+  "indio_sad": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, collarless, no buttons, shoulders dropped, arms hanging at his sides, looking down with a sad defeated expression, soot on his face, orange rim light.",
+  "indio_whisper": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, collarless, no buttons, dark brown eyes, leaning toward the viewer with a sly knowing smile, one eyebrow raised, as if sharing a secret, hands out of frame.",
+  "indio_think": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm, collarless, no buttons, dark brown eyes, looking up thoughtfully, arms crossed, hands tucked under the arms, calm serious expression, warm morning light.",
+  "indio_rider": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, a motorcycle helmet under one arm, grinning proudly and giving a thumbs up. He is alone, no dog, no animals.",
+  "indio_order": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, holding a round woven bamboo tray piled with yellow pancit noodles wrapped in clear plastic at his chest, both hands hidden under the tray, looking around searching for someone. No dog, no animals.",
+  "indio_phone": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, looking down at a smartphone held low in one hand, only the back of the phone and his thumb visible, eyes half-lidded with dark brown irises showing, puzzled frown, head tilted. He is alone, no dog, no animals.",
+  "indio_hungry": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, staring down hungrily at a round woven bamboo tray piled with yellow pancit noodles held at his chest, both hands hidden under the tray, biting his lip, comic sweat drop. He is alone, no dog, no animals.",
+  "indio_read": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, three-quarter profile looking slightly upward, mouth open as he reads aloud, one hand holding the bronze medallion at his chest. He is alone, no dog, no animals.",
+  "indio_cold": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, dark brown eyes, deadpan disappointed face, holding up a plain metal fork in one hand, a thumb and four fingers, a few limp cold yellow noodles hanging from the fork. He is alone, no dog, no animals.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, dark brown eyes, leaning a little toward the viewer with a wide excited open smile and raised eyebrows, both hands deep in the pockets of his windbreaker, sunset rim light. He is alone, no dog, no animals.",
+  "indio_usman": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, laughing happily with one fist raised in cheer, sunset rim light. He is alone, no dog, no animals.",
+  "usman_look": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, sitting, head tilted, looking around curiously, close-up.",
+  "usman_deadpan": "Close-up portrait of a real dog: a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, looking at the viewer with bored half-closed eyes.",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes, close-up of his face, orange rim light.",
+  "sepoy": "an eighteenth-century Indian sepoy soldier from Madras, about thirty, brown skin, black moustache, white cloth turban, red military coat with white cross-belts, stern alert expression, orange rim light.",
+  "sepoy_farmer": "an Indian man from Madras, about thirty-five, brown skin, black moustache, white cloth turban, wearing a loose plain collarless cotton camisa, no pocket, no buttons, smiling gently and peacefully, warm morning light.",
+  "spanish": "an eighteenth-century Spanish colonial officer, about forty, black tricorne hat, blue coat with red cuffs, pointed beard, terrified, both eyes wide open, the same shape and size, both looking the same way, mouth open in shock, sweat on his brow, orange rim light.",
+  "redcoat": "an eighteenth-century British infantry soldier, about twenty-five, black tricorne hat, bright red coat with white cross-belts, shouting a battle cry with mouth wide open, fierce eyes, smoke behind his shoulders, orange rim light.",
+  "officer": "an eighteenth-century British army officer, about forty-five, white powdered wig, black tricorne hat with gold trim, red coat with gold braid, frowning in frustration, jaw clenched.",
+  "archbishop": "an elderly eighteenth-century Catholic archbishop, about sixty, thin grey hair, small purple skullcap, black cassock with purple sash and a plain pectoral cross, head bowed, tired sorrowful eyes, candle light from below.",
+  "anda": "an elderly eighteenth-century Spanish judge, about sixty, grey hair tied back, plain black coat and white neckcloth, dark travelling cloak, determined stern eyes, looking back over his shoulder, warm sunrise rim light.",
+  "fighters": "two Filipino village fighters of 1762, brown skin, wearing conical salakot hats and simple cotton shirts, determined brave faces looking forward, shoulder to shoulder, warm sunrise rim light.",
+  "woman": "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, the open red umbrella resting on her shoulder, its handle and her hands below the frame, out of sight, a faint knowing smile, looking sideways at the viewer, sunset rim light."
+ },
+ "full": {
+  "intro": "behind them a golden time portal made of plain smooth gear rims and rings of light. In the centre, waist-up, a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with long sleeves down to the wrists, a round bronze medallion on a cord around his neck, dark brown eyes, arms crossed over his chest with the hands tucked under the arms, confident smile. Sitting in front of him at the lower right, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. An adult dog, calm, looking at the viewer.",
+  "medallion": "extreme close-up of an old round bronze medallion engraved with a sun and a triangle, on a worn cord, hanging alone in the air against a dark background, glowing bright gold with sparks and light rays. No hand, no people.",
+  "ships": "a fleet of eighteenth-century wooden sailing warships with tall masts and white sails in a tropical bay, firing broadsides, flashes and white smoke from the gun ports along the ship sides, no loose cannons, nothing on the water but the ships, a walled stone city on the distant shore, dramatic orange sky. No people.",
+  "wallfall": "a section of thick low sloping Spanish colonial stone bastion wall bursting from a cannonball hit, flying stones, fire flash, dust and smoke, dramatic low angle, orange sky, no cannon in the picture. No people.",
+  "city": "a walled Spanish colonial stone city by a tropical bay at dusk in 1762, columns of black smoke rising from inside the walls, church towers in silhouette, red sunset, sailing warships in the bay. No people.",
+  "coins": "extreme close-up of an open wooden chest overflowing with plain worn silver coins on a wooden table, candle light, one white-gloved hand in a red sleeve reaching into the chest, a thumb and four fingers clearly separate. Coins with blank faces, no letters.",
+  "quill": "close-up of a white feather quill standing in a brass inkwell beside a sheet of blank cream paper sealed with a red wax seal and ribbon, on a polished wooden desk, candlelight, an eighteenth-century European room blurred behind. Blank paper, no writing, no letters, no marks. No hands, no people. Single image, no panels, no border, the picture fills the whole vertical frame.",
+  "leave": "eighteenth-century wooden sailing warships sailing away toward the horizon of a tropical bay at sunrise, seen from behind old stone walls, calm golden sea, birds. No people.",
+  "tattoo": "Close-up of a brown-skinned forearm raised in a loose fist in front of old stone walls at sunset, orange jacket sleeve pushed up to the elbow, two separate small indigo geometric diamond tattoos on the forearm, one above the other, the upper one glowing faint gold. Only the arm is in frame, no face.",
+  "phone": "extreme close-up of a brown hand holding a smartphone, a thumb with a nail and four fingers, the screen showing only a big green check mark and a plain smooth gold coin with a blank face, plain screen, no numbers, no letters, no symbols, no icons, glowing in dusk light, old stone wall blurred behind. Single image, no panels, no border. No dog, no animals.",
+  "bk_00": "Medium shot, low angle: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, eyes wide in shock, mouth open, holding a round woven bamboo bilao tray piled with yellow pancit noodles at his chest, both hands hidden under the tray. Behind him a cannonball bursts through the stone wall. One man only, no dog. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind; the wall behind him explodes in a fireball of flying stones and dust. | fire flash from behind, hard orange rim light, embers and falling grit, smoky orange sky.",
+  "bk_01": "At the right, sitting on a tall stone pillar at the height of the man's shoulders, a body-width away from him, nothing touching: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The folded ear flops forward over the dog's right eye, the dog's right ear clearly flopped over. At the left, standing, framed from the waist up, the bottom edge of the picture cuts across his waist: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, smiling, his arms hanging down at his sides, both hands below the bottom edge of the picture, not visible. | a golden time portal of plain smooth gear rims and rings of light, floating in a dark starry space, behind them both. | golden glow behind, sparks, strong rim light.",
+  "bk_03": "Medium-full shot from a little below: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, standing in front with a big proud grin, both hands in his jacket pockets, the jacket plain with no patches. Two steps behind him, separate from his body and seen side-on, his parked red motorcycle with a plain unmarked red fuel tank, no badges, no stickers, no letters, and a plain square insulated delivery box with no writing on the back seat. He is alone, no dog, no animals. | a Manila street outside the old grey stone walls of Intramuros in our time, acacia trees, a stone gate in the distance, jeepneys and tricycles far down the road. | bright afternoon sun, warm light, blue sky with painted clouds.",
+  "bk_05": "Medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, holding a round woven bamboo bilao tray piled with yellow pancit noodles in clear plastic at his chest, both hands hidden under the tray, looking around for the customer. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees, seen in full behind him. | golden late-afternoon light, long shadows.",
+  "bk_06": "Very wide top-down shot from high behind him: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, small in the middle of the round lawn, seen from directly behind, the back of his orange windbreaker and his topknot toward the camera, his face not visible, carrying a round woven bamboo bilao tray of pancit noodles in front of him, the tray rim showing at both sides of his body. He is alone, no dog, no animals, no other people. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees; empty stone paths, empty benches. | late-afternoon sun, long shadows across the empty lawn, quiet mood.",
+  "bk_07": "Close-up from a low angle: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, looking down at a smartphone held below his chin, only the back of the phone visible, his hand out of frame, the screen's glow lighting his puzzled face, one eyebrow raised. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees, soft behind him. | cool phone glow from below on his face, warm sunset rim light behind.",
+  "bk_08": "High-angle close shot looking down past the bilao: a round woven bamboo bilao tray piled with steaming yellow pancit noodles fills the bottom of the frame; above it a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, staring at it hungrily, biting his lip, a comic sweat drop, both hands hidden under the tray. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | warm golden light, steam glowing.",
+  "bk_09": "Side profile medium shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, standing facing a bronze plaque set on a chest-high stone pedestal right in front of him, his eyes on the plaque, reading it aloud with his mouth open, hands in his jacket pockets; the plaque shows only plain wavy lines, no letters. A round woven bamboo bilao tray piled with yellow pancit noodles in clear plastic rests on the low stone wall beside him. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | golden late-afternoon light raking across the old stones.",
+  "bk_10": "Close-up: an old round bronze medallion engraved with a sun and a triangle, on a worn cord, hanging on a short cord from the top edge of the frame, glowing bright gold, sparks and light rays bursting from it. The medallion hangs in the upper half of the frame, its centre at about one third of the height, dark empty space with golden dust below it. No hand, no people. | darkness with faint golden dust. | blazing gold glow from the medallion, black surroundings.",
+  "bk_11": "Low-angle close shot of the dog appearing in a burst of golden sparks: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He looks at the viewer with bored half-closed eyes, unimpressed. Four legs, one tail. No people. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind. | golden sparks around him, orange fire glow behind, hard rim light on the black fur.",
+  "bk_12": "Medium shot, three-quarter from behind: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, crouching low beside a broken stone block, shoulders hunched, head ducked, his face turned up in alarm, his hands out of frame. Stones and smoke rain down. One man only, no dog. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind; stones and smoke falling from the sky. | grey-orange smoke, falling debris lit by fire, hard rim light.",
+  "bk_13": "Wide high-angle establishing shot of the walled city under bombardment: cannon smoke rising from the walls, cannonballs striking, fires inside the walls. No people. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, the whole walled city seen from above with the bay beside it; beyond the walls only coconut palm groves, nipa huts and low tiled roofs of 1762, no modern buildings, no chimneys, no towers except the church bell tower. | dusk, orange smoky sky, fire glow, dramatic light rays through smoke.",
+  "bk_14": "An empty seascape, a landscape painting with no human figures: seen low from the water surface, a line of British warships fires broadsides toward the walled city on the shore, orange flashes and white smoke bursting from the gun ports, cannonball splashes in the water. The ships fill the upper two thirds; the dark water fills the bottom. No people, no crew visible, no flags. | Manila Bay in 1762, a fleet of eighteenth-century British wooden sailing warships with tall masts and white sails, the grey stone walls of Intramuros on the low shore, coconut palms. | dramatic orange sunset, cannon flashes, smoke drifting across the water.",
+  "bk_15": "Tight head-and-shoulders portrait from a low angle, the bottom edge of the picture cuts across his upper chest just below the cross-belts' crossing, no arms and no hands in the picture: a Madras sepoy soldier of 1762, about thirty, brown skin, black moustache, white cloth turban, red military jacket with white cross-belts, loose white trousers, stern and alert, the wooden stock of a musket rising behind his shoulder. His head and turban in the upper third. Far behind him in the smoke, tiny distant British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters in a line, very small. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, seen from the British siege lines outside the walls, the city burning behind him. | hard orange firelight from the burning city behind him, deep shadows on half his face, rim light on the turban, heavy smoke, embers, dramatic dusk sky; richly painted, detailed ink linework, deep shadows.",
+  "bk_16": "Close-up, his face in the upper half of the frame: a Spanish colonial officer of 1762, about forty, pointed black beard, black tricorne hat, blue coat with red cuffs and red lapels, standing behind a chest-high stone parapet that hides his body below the chest and both his arms and hands, staring out over it in shock, both eyes wide and matching, mouth open, sweat on his brow. Beyond him to one side, far out in the bay, the British warships. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, seen from the top of the rampart. | orange smoky light, hard rim light on his face.",
+  "bk_18": "Dramatic low-angle shot: a section of the thick sloping stone bastion wall bursting apart from a cannonball hit, flying stones, fire flash, dust and smoke. No people, no cannon in the picture. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind. | blinding fire flash, orange sky, dust lit from behind.",
+  "bk_19": "Very high bird's-eye view from the top of a tall wall looking far down and away: tiny distant British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters, seen from behind with their backs to the viewer, swarming up a rubble slope into a smoking breach in the far wall. Every soldier is tiny and far below in the lower middle of the picture; nobody near the camera, the foreground is empty stone parapet and rubble. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind; a ragged breach full of rubble. | fire glow and smoke, red coats bright against grey stone.",
+  "bk_20": "Landscape only, an empty scene with no human beings: a wide view across the bay at dusk to the walled city on the low shore, thick columns of black smoke rising from inside the walls, church towers in silhouette, British warships at anchor on calm water. Dark still water and a few coconut palms fill the bottom of the frame. | Manila Bay in 1762, a fleet of eighteenth-century British wooden sailing warships with tall masts and white sails, the grey stone walls of Intramuros on the low shore, coconut palms. | deep crimson and orange sunset, black smoke, quiet after the battle.",
+  "bk_21": "Medium shot: an elderly Spanish Catholic archbishop of 1762, about sixty, thin grey hair, small purple skullcap, black cassock with a purple sash, a plain silver pectoral cross on a chain, standing at the end of the table with his head bowed in sorrow, his hands hidden in the wide sleeves of his cassock. In the dark foreground at the left edge, seen from behind and out of focus, a British army officer of 1762, about forty-five, stocky, clean-shaven, white powdered wig tied back, black tricorne hat with gold trim, scarlet red coat with gold braid and dark blue lapels. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze. | candlelight from below, orange window glow, deep shadows.",
+  "bk_24": "Close shot: an open wooden chest heaped with hundreds of small worn silver coins, each coin the size of a fingertip, plain coins with no markings, spilling over the rim onto the table, small cloth money bags beside it. Far behind, small British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters carry sacks out of the candlelit stone hall, their backs turned. No hands near the camera. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze. | candlelight glinting on the silver, orange glow from the windows.",
+  "bk_25": "Medium shot, seen from the side in profile, a little from behind: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, sitting on fallen stones with his shoulders dropped and head bowed, looking out at the burning city; the medallion hangs straight down on the front of his chest. His arms are wrapped around his drawn-up knees, both hands hidden behind his knees, out of sight. One man only, no dog. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind; the city burning below at dusk. | dim red dusk, smoke, fire glow on his back.",
+  "bk_26": "Medium shot from a low camera: the dog stands on top of a high heap of broken wall stones that fills the lower half of the picture, facing the viewer, his head high near the top of the picture against the smoky sky, the dog's nose at about one third of the height: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Seen from the viewer: the folded ear is on the LEFT side of the picture, the upright pointed ear on the RIGHT side of the picture. His muzzle, chin, lips and jaw are solid black fur, only the teeth are light. Lips pulled back in a low warning growl showing his teeth, eyes alert. No people. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind. | orange fire glow, hard rim light, embers.",
+  "bk_27": "Medium shot: an elderly Spanish judge of 1762, about sixty, lean, grey hair tied back, clean-shaven, plain black coat with a white neckcloth, a dark brown travelling cloak, standing in a small wooden banca boat gliding away on dark water, looking back over his shoulder with determined stern eyes, his hands hidden under the cloak, his face in the upper half of the frame. One man only. | the Pasig River at night in October 1762, dark water, nipa palms on the banks, the walled city of Intramuros burning on the far shore. | firelight from the burning city across the river lighting one side of his face in orange, cold blue moonlight on the other, deep shadows, richly painted, detailed ink linework, deep shadows, textured brushwork on the cloak.",
+  "bk_28": "Low-angle wide shot: an elderly Spanish judge of 1762, about sixty, lean, grey hair tied back, clean-shaven, plain black coat with a white neckcloth, a dark brown travelling cloak, standing on the wooden steps of a big bamboo house, his hands hidden under the cloak. Along the bottom edge of the picture, seen from behind, only the hats, heads and shoulders of a crowd of Filipino village fighters of 1762, brown skin, wide conical salakot hats, loose plain cotton shirts and rolled trousers, bamboo spears, gathered in the road, the tips of their spears rising above their hats; their arms and hands are below the frame. | the town of Bacolor in Pampanga in 1762, nipa and bamboo houses on stilts, a stone church far behind, coconut palms, green rice fields, a dirt road, the lone peak of Mount Arayat in the distance. | hopeful golden sunrise, long rays, mist on the fields.",
+  "bk_29": "Medium close shot: a British army officer of 1762 wearing a low small black tricorne hat with gold trim, its brim turned up on three sides into a triangle, one corner pointing straight forward over his forehead and two corners at the back sides, worn on a white powdered wig tied back with a black ribbon; about forty-five, stocky, clean-shaven, scarlet red coat with gold braid and dark blue lapels, on the top of the city wall, frowning in frustration with jaw clenched, his hands behind his back out of frame, looking out at green countryside where thin columns of smoke rise far away. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, the wide green land beyond the walls. | grey overcast daylight, cool light, smoke on the horizon, richly painted, detailed ink linework, deep shadows.",
+  "bk_30": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, leaning toward the viewer with a sly knowing smile, one eyebrow raised, as if sharing a secret, his hands out of frame. One man only, no dog. | the town of Bacolor in Pampanga in 1762, nipa and bamboo houses on stilts, a stone church far behind, coconut palms, green rice fields, a dirt road, the lone peak of Mount Arayat in the distance, soft behind him at dusk. | warm dusk, a lamp glow on one side of his face, dark blue sky.",
+  "bk_31": "Close-up: a white feather quill standing in a brass inkwell beside a sheet of blank cream paper sealed with a red wax seal and ribbon, on the polished desk; the paper has only plain wavy lines, no letters. No hands, no people. | a palace room in Paris in February 1763, tall windows with snow outside, gilded wall panels, a polished wooden desk, soft behind. | warm candlelight, cold blue window light.",
+  "bk_33": "Shot from behind him with a slightly low camera: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm; seen from behind, only the cord shows at the back of his neck, the medallion hangs hidden in front of his chest. He sits on the wall with his back to us, looking out to sea, his hands in his lap out of sight. A body-length apart from him at the right, sitting up on top of the parapet, its head level with his shoulders, in the upper half of the frame, seen in profile looking out to sea: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. The horizon at about one third of the height. | the top of the old grey stone walls of Intramuros above Manila Bay, coconut palms on the shore, British wooden sailing warships with white sails leaving far out on the bay. | golden sunrise, gold sea, long light.",
+  "bk_34": "Close-up, three-quarter profile: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, looking up thoughtfully with a calm serious face, his hands out of frame. One man only, no dog. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, quiet after the siege, the smoke gone. | soft morning light, clear sky.",
+  "bk_36": "Medium shot: a former Madras sepoy, about thirty-five, brown skin, black moustache, white cloth turban, wearing a plain loose collarless off-white cotton shirt, standing at the edge of a rice field, smiling gently and peacefully, his hands out of frame, his face in the upper half of the frame. | the village of Cainta near Manila in the 1760s, nipa houses on stilts, flooded green rice fields, a river, coconut palms, blue hills. | low warm golden sunrise from the side, deep shadows on half his face, rim light on the turban, mist over the fields, richly painted, detailed ink linework, deep shadows, textured brushwork.",
+  "bk_38": "Wide shot, the figure small in the scene: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, sitting alone on the top of a low curved stone wall of the bastion, seen from the side, both hands in his jacket pockets, looking at the setting sun; beside him on the wall sits a round flat woven bamboo tray piled with yellow pancit noodles. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | orange sunset, the sun low behind the ruins, long shadows.",
+  "bk_39": "Close-up of a young man's brown-skinned right forearm hanging down at his side, the orange windbreaker sleeve pushed up to the elbow, his right hand pushed deep inside the front pocket of his dark jeans so no fingers show; two separate small indigo woven-band tattoos around the forearm, one above the other, the upper one glowing faint gold. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time, soft and blurred far behind: grey-brown volcanic stone, green lawn, acacia trees. | sunset light, gold glow from the new tattoo.",
+  "bk_40": "Low close shot at the level of the wall: in the foreground on the stone wall a round flat woven bamboo tray piled with cold limp yellow pancit noodles; behind it a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, resting his chin on his folded arms on the wall, both hands tucked out of sight under his elbows, deadpan disappointed face. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | dim sunset, the noodles in cool shadow.",
+  "bk_43": "Close shot from a low angle: a modern black smartphone with a plain glass front and no buttons stands propped upright against a rough old stone block, in the upper half of the picture. Its screen glows soft green and shows only one large simple check mark shape and, below it, one small plain gold coin shape with nothing engraved on it. No letters, no numbers, no icons, no logo. No hands, no people. The lower half of the picture is only dark weathered stones and grass. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time, soft and far behind: weathered grey-brown volcanic stone walls and arches, a green lawn, acacia trees in silhouette. | orange sunset, the sun low behind the ruins, warm rim light on the stones and on the edge of the phone, long deep shadows, the green glow of the screen falling on the stone; richly painted, detailed ink linework, textured brushwork.",
+  "bk_44": "Medium-long shot: a calm Filipina lady in her twenties with long straight black hair, wearing a long dark grey overcoat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder, standing on top of the bastion wall far from the viewer, one hand in her coat pocket, looking back over her shoulder with a faint knowing smile. She is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | red-gold sunset behind her, the umbrella glowing translucent red, long shadows.",
+  "bk_45": "Close-up: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, leaning toward the viewer with a wide excited open smile and raised eyebrows, both hands deep in his jacket pockets. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | sunset rim light, warm glow.",
+  "bk_47": "Low-angle wide shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, standing on top of the bastion wall, laughing happily with both arms raised high in cheer, small against the sky. He is alone, no dog, no animals. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees. | glowing orange sunset sky, the sun behind him, rim light.",
+  "bk_90": "Wide low shot from behind a British siege battery at night: a row of big black iron cannons on wooden carriages firing at once toward the city wall, long muzzle flashes and white smoke; small British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters seen from behind, working the guns, their hands not visible. Far ahead, the grey stone bastion of the walled city takes the hits, stones flying. Beyond the walls only palm groves, nipa huts and low tiled roofs of 1762, no modern buildings. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, seen from the British siege lines outside the walls. | night lit by orange muzzle flashes and fire, heavy smoke, sparks, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_91": "High-angle shot from above: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, crouching low against the foot of the thick grey stone wall, hugging a round woven bamboo bilao tray piled with yellow pancit noodles to his chest, both hands hidden under the tray, looking up in terror as broken stones and dust rain down from the parapet just above him. One man only, no dog. He is in the upper half of the picture. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, rubble and smoke at the foot of the wall. | orange fire flash from above, falling dust glowing, hard shadows, embers, richly painted, detailed ink linework, textured brushwork.",
+  "bk_02": "Wide side view: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm, walking along the top of an old stone city wall with a friendly grin toward the viewer, his arms relaxed at his sides; a body-width ahead of him trots a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. Both figures in the upper half of the picture. | the top of the old grey stone walls of Intramuros in 1762 at sunset, tiled roofs and a church bell tower below, coconut palms, the bay far behind. | warm golden sunset, glowing golden sparkles drifting in the air like a time spell, rim light on both figures, richly painted, detailed ink linework, textured brushwork.",
+  "bk_04": "Side tracking shot: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, wearing a plain white open-face helmet with no markings, riding a plain red motorcycle along a busy city street, a plain square insulated delivery box with no writing strapped on the back, his face in profile, focused and cheerful, leaning a little forward. Motion blur on the road and the jeepneys behind. One rider only. He is alone, no dog, no animals. The rider is in the upper half of the picture. | a busy Manila street in our time near the old stone walls of Intramuros, jeepneys and tricycles, acacia trees, tangled electric wires; every shop front plain, no signboards, no writing anywhere. | bright afternoon sun, warm light, speed lines of light, blue sky with painted clouds, richly painted, detailed ink linework, textured brushwork.",
+  "bk_17": "Medium-wide shot on top of the city wall: two Spanish colonial soldiers of 1762 in blue coats with red cuffs and small black three-cornered tricorne hats with the brim turned up on three sides and one point at the front, relaxed and unaware, one dozing sitting against the parapet with his musket leaning beside him, the other yawning and leaning on the parapet looking out lazily; far out on the bay behind them, a fleet of British wooden sailing warships with white sails appears on the horizon. Their hands not visible. No dog. | the top of the old grey stone walls of Intramuros above Manila Bay in late September 1762, a quiet morning, coconut palms on the shore. Beyond the walls only palm groves, nipa huts and low tiled roofs of 1762, no modern buildings. | calm soft morning sun, sea haze, the distant sails glowing, gentle long shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_22": "Medium shot: a Spanish colonial officer of 1762, about forty, pointed black beard, small black three-cornered tricorne hat with the brim turned up on three sides and one point at the front, blue coat with red cuffs and red lapels, standing apart in the corner of a dim stone hall, eyes lowered, his face grim and silent, his sword in its scabbard at his side, his hands clasped behind his back out of sight; he does not step forward. One man only. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze. | cold grey light from a window on one side of his face, the other side in deep shadow, orange glow of fires outside, smoke haze, richly painted, detailed ink linework, textured brushwork.",
+  "bk_23": "Medium close portrait from a low angle: an elderly Spanish Catholic archbishop of 1762, about sixty, thin grey hair, small purple skullcap, black cassock with a purple sash, a plain silver pectoral cross on a chain, seated in a high-backed carved dark wooden governor's chair, a grave tired face, eyes looking down; behind him a tall window with the burning city outside. His hands folded in his lap, below the bottom edge of the picture. One man only. His face in the upper half of the picture. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze. | candlelight on his face from one side, orange fire glow from the window behind him, rim light, deep shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_32": "Medium-wide shot: two elderly gentlemen diplomats of 1763 in white powdered wigs and embroidered silk coats, seated at a polished wooden desk facing each other, calm and pleased; on the desk papers with red wax seals and a quill in an inkwell. Their hands resting on the desk. A globe stands in the corner. No dog. | a palace room in Paris in February 1763, tall windows with snow outside, gilded wall panels, a polished wooden desk, gilded mirrors, crystal chandelier. | cold blue winter light from the tall windows, warm golden candlelight on the desk, deep shadows in the corners, richly painted, detailed ink linework, textured brushwork.",
+  "bk_35": "Close shot: an old brass balance scale standing on a dark wooden table, one pan holding a small heap of worn silver coins, each coin the size of a fingertip, plain coins with no markings, the other pan empty and raised high; a thin curl of smoke from a candle just blown out beside it. No people, no hands. | a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze. | the last orange glow of the windows, a cold blue shadow over the table, the brass glinting, mysterious mood, richly painted, detailed ink linework, textured brushwork.",
+  "bk_37": "Extreme close-up of a young Filipino man's chest: an old round bronze medallion engraved with a sun and a triangle, on a worn cord, hanging on a loose off-white collarless cotton baro shirt, its golden glow going out, thin cold blue frost spreading over the bronze, a few frost crystals; only his chin at the top edge; no hands. The medallion in the upper half of the picture. | dark smoky background with fading golden sparks, the faint shape of a stone wall. | cold pale blue light, the last faint gold glow dying at the rim, a frosty breath of mist, richly painted, detailed ink linework, textured brushwork.",
+  "bk_41": "Close shot from a little above: a round woven bamboo bilao tray piled with yellow pancit noodles wrapped in clear plastic, resting alone on the top of an old grey stone wall, cold and limp, no steam at all, two dry acacia leaves fallen on the plastic. No people, no hands. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees., empty, at dusk. | blue evening shadow over the tray, the last orange sunset glow on the stones behind, melancholy mood, richly painted, detailed ink linework, textured brushwork.",
+  "bk_42": "Medium shot from a little below: a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband, sitting on the low stone wall at sunset, startled, eyebrows raised, looking down at his jacket pocket where a phone buzzes and lights up through the cloth, small vibration lines around the pocket; his hands resting on his knees. A round woven bamboo bilao tray of pancit beside him on the wall. He is alone, no dog, no animals. He is in the upper half of the picture. | the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees., at sunset. | warm orange sunset from the side, the pocket glowing white-blue, long shadows, richly painted, detailed ink linework, textured brushwork.",
+  "bk_46": "Wide shot at dawn: the old grey stone walls and a great arched stone gate of the walled city, a plain white cloth flag of surrender hanging from a pole above the gate; below, Spanish colonial soldiers of 1762 in blue coats lay their muskets on the ground in a row while British infantry soldiers of 1762 in red coats and black tricorne hats watch; all figures small. No close faces, no dog. Beyond the walls only palm groves, nipa huts and low tiled roofs of 1762, no modern buildings. | the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind, the smoke settling. | pale grey dawn, smoke haze, the white flag lit by the first sun ray, a heavy quiet mood, richly painted, detailed ink linework, textured brushwork.",
+  "bk_92": "Wide side shot: an elderly Spanish judge of 1762, about sixty, lean, grey hair tied back, clean-shaven, plain black coat with a white neckcloth, a dark brown travelling cloak, riding a brown horse along a dirt road through green rice fields, looking ahead with determination, leading a long column of Filipino village fighters of 1762, brown skin, wide conical salakot hats, loose plain cotton shirts and rolled trousers, bamboo spears, marching behind him. All figures small to medium. No dog. | the town of Bacolor in Pampanga in 1762, nipa and bamboo houses on stilts, a stone church far behind, coconut palms, green rice fields, a dirt road, the lone peak of Mount Arayat in the distance, at sunrise. | golden sunrise from behind the mountain, long shadows across the fields, mist, rim light on the riders, richly painted, detailed ink linework, textured brushwork.",
+  "bk_93": "Close shot at the dog's eye level: a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. He sits proudly on a floating stone ledge beside a fresh round woven bamboo bilao tray piled with steaming yellow pancit noodles, licking his lips, tail up, eyes bright and happy. Four legs, one tail. No people. The dog's head in the upper half of the picture. | a golden time portal of plain smooth gear rims and rings of light, floating in a dark starry space, all around him. | warm golden sunset, rim light on his fur, steam glowing, sparks, richly painted, detailed ink linework, textured brushwork."
+ },
+ "shots": {
+  "0": {
+   "full": "bk_00"
+  },
+  "1": {
+   "full": "bk_01"
+  },
+  "2": {
+   "full": "bk_02"
+  },
+  "3": {
+   "full": "bk_03"
+  },
+  "4": {
+   "full": "bk_04"
+  },
+  "5": {
+   "full": "bk_05"
+  },
+  "6": {
+   "full": "bk_06"
+  },
+  "7": {
+   "full": "bk_07"
+  },
+  "8": {
+   "full": "bk_08"
+  },
+  "9": {
+   "full": "bk_09"
+  },
+  "10": {
+   "full": "bk_10"
+  },
+  "11": {
+   "full": "bk_11"
+  },
+  "12": {
+   "full": "bk_12"
+  },
+  "13": {
+   "full": "bk_13"
+  },
+  "14": {
+   "full": "bk_14"
+  },
+  "15": {
+   "full": "bk_15"
+  },
+  "16": {
+   "full": "bk_16"
+  },
+  "17": {
+   "full": "bk_17"
+  },
+  "18": {
+   "full": "bk_18"
+  },
+  "19": {
+   "full": "bk_19"
+  },
+  "20": {
+   "full": "bk_20"
+  },
+  "21": {
+   "full": "bk_21"
+  },
+  "22": {
+   "full": "bk_22"
+  },
+  "23": {
+   "full": "bk_23"
+  },
+  "24": {
+   "full": "bk_24"
+  },
+  "25": {
+   "full": "bk_25"
+  },
+  "26": {
+   "full": "bk_26"
+  },
+  "27": {
+   "full": "bk_27"
+  },
+  "28": {
+   "full": "bk_28"
+  },
+  "29": {
+   "full": "bk_29"
+  },
+  "30": {
+   "full": "bk_30"
+  },
+  "31": {
+   "full": "bk_31"
+  },
+  "32": {
+   "full": "bk_32"
+  },
+  "33": {
+   "full": "bk_33"
+  },
+  "34": {
+   "full": "bk_34"
+  },
+  "35": {
+   "full": "bk_35"
+  },
+  "36": {
+   "full": "bk_36"
+  },
+  "37": {
+   "full": "bk_37"
+  },
+  "38": {
+   "full": "bk_38"
+  },
+  "39": {
+   "full": "bk_39"
+  },
+  "40": {
+   "full": "bk_40"
+  },
+  "41": {
+   "full": "bk_41"
+  },
+  "42": {
+   "full": "bk_42"
+  },
+  "43": {
+   "full": "bk_43"
+  },
+  "44": {
+   "full": "bk_44"
+  },
+  "45": {
+   "full": "bk_45"
+  },
+  "46": {
+   "full": "bk_46"
+  },
+  "47": {
+   "full": "bk_47"
+  },
+  "90": {
+   "full": "bk_90"
+  },
+  "91": {
+   "full": "bk_91"
+  },
+  "92": {
+   "full": "bk_92"
+  },
+  "93": {
+   "full": "bk_93"
+  }
+ },
+ "bg": "green",
+ "nv_replace": {
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ },
+ "shots_before_bakunawa": {
+  "0": {
+   "char": "indio_shock",
+   "plate": "siege",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.75,
+   "blur": 4,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "1": {
+   "full": "intro"
+  },
+  "3": {
+   "char": "indio_rider",
+   "plate": "street",
+   "x": 0.4,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "5": {
+   "char": "indio_order",
+   "plate": "baluarte",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.8,
+   "blur": 4
+  },
+  "6": {
+   "plate": "baluarte"
+  },
+  "7": {
+   "char": "indio_phone",
+   "plate": "baluarte",
+   "x": 0.8,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "8": {
+   "char": "indio_hungry",
+   "plate": "baluarte",
+   "x": 0.1,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "9": {
+   "char": "indio_read",
+   "plate": "baluarte",
+   "x": 0.6,
+   "y": 0.3,
+   "s": 0.65
+  },
+  "10": {
+   "full": "medallion"
+  },
+  "11": {
+   "char": "usman_deadpan",
+   "plate": "siege",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "12": {
+   "char": "indio_duck",
+   "plate": "siege",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.7,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "13": {
+   "plate": "siege"
+  },
+  "14": {
+   "full": "ships"
+  },
+  "15": {
+   "char": "sepoy",
+   "plate": "siege",
+   "x": 0.8,
+   "y": 0.3,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "16": {
+   "char": "spanish",
+   "plate": "siege",
+   "x": 0.1,
+   "y": 0.2,
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "18": {
+   "full": "wallfall"
+  },
+  "19": {
+   "char": "redcoat",
+   "plate": "siege",
+   "x": 0.5,
+   "y": 0.6,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "20": {
+   "full": "city"
+  },
+  "21": {
+   "char": "archbishop",
+   "plate": "hall",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "24": {
+   "full": "coins"
+  },
+  "25": {
+   "char": "indio_sad",
+   "plate": "siege",
+   "x": 0.6,
+   "y": 0.7,
+   "s": 0.65,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "26": {
+   "char": "usman_growl",
+   "plate": "siege",
+   "x": 0.4,
+   "y": 0.9,
+   "s": 0.55,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "27": {
+   "char": "anda",
+   "plate": "bacolor",
+   "x": 0.7,
+   "y": 0.4,
+   "s": 0.7
+  },
+  "28": {
+   "char": "fighters",
+   "plate": "bacolor",
+   "x": 0.3,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "29": {
+   "char": "officer",
+   "plate": "siege",
+   "x": 0.9,
+   "y": 0.4,
+   "s": 0.6,
+   "tint": [
+    0.95,
+    0.95,
+    1.0
+   ]
+  },
+  "30": {
+   "char": "indio_whisper",
+   "plate": "bacolor",
+   "x": 0.5,
+   "y": 0.3,
+   "s": 0.6
+  },
+  "31": {
+   "full": "quill"
+  },
+  "33": {
+   "full": "leave"
+  },
+  "34": {
+   "char": "indio_think",
+   "plate": "bacolor",
+   "x": 0.1,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "36": {
+   "char": "sepoy_farmer",
+   "plate": "bacolor",
+   "x": 0.6,
+   "y": 0.6,
+   "s": 0.7
+  },
+  "38": {
+   "plate": "baluarte"
+  },
+  "39": {
+   "full": "tattoo"
+  },
+  "40": {
+   "char": "indio_cold",
+   "plate": "baluarte",
+   "x": 0.3,
+   "y": 0.6,
+   "s": 0.6
+  },
+  "43": {
+   "full": "phone"
+  },
+  "44": {
+   "char": "woman",
+   "plate": "baluarte",
+   "x": 0.9,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "45": {
+   "char": "indio_point",
+   "plate": "baluarte",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "47": {
+   "char": "indio_usman",
+   "plate": "baluarte",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7
+  }
+ },
+ "look": "bakunawa (pipeline/flux_hq.py through pipeline/draw_pick.py; cast and places in look_cast)",
+ "look_cast": {
+  "cast": {
+   "indio_today": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, wearing an open bright orange windbreaker jacket over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist, no headband",
+   "indio_1762": "a young Filipino man about twenty, lean, warm brown skin, short tousled black hair tied in a small topknot, dark brown eyes, a red cloth headband with long tails, wearing a loose off-white collarless cotton baro shirt with long sleeves rolled to the elbows, a round bronze medallion on a cord around his neck, one small indigo woven-band tattoo around his right forearm",
+   "usman": "a medium-sized slim black short-haired Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck. The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest.",
+   "m": "a calm Filipina lady in her twenties with long straight black hair, wearing a long dark grey overcoat, a round bronze medallion on a cord at her neck, holding an open red umbrella over her shoulder",
+   "british_officer": "a British army officer of 1762, about forty-five, stocky, clean-shaven, white powdered wig tied back, black tricorne hat with gold trim, scarlet red coat with gold braid and dark blue lapels",
+   "redcoats": "British infantry soldiers of 1762 in black tricorne hats, bright red coats with white cross-belts, white breeches and black gaiters",
+   "sepoy": "a Madras sepoy soldier of 1762, about thirty, brown skin, black moustache, white cloth turban, red military jacket with white cross-belts, loose white trousers",
+   "sepoy_settler": "a former Madras sepoy, about thirty-five, brown skin, black moustache, white cloth turban, wearing a plain loose collarless off-white cotton shirt",
+   "spanish_officer": "a Spanish colonial officer of 1762, about forty, pointed black beard, black tricorne hat, blue coat with red cuffs and red lapels",
+   "archbishop": "an elderly Spanish Catholic archbishop of 1762, about sixty, thin grey hair, small purple skullcap, black cassock with a purple sash, a plain silver pectoral cross on a chain",
+   "anda": "an elderly Spanish judge of 1762, about sixty, lean, grey hair tied back, clean-shaven, plain black coat with a white neckcloth, a dark brown travelling cloak",
+   "anda_fighters": "Filipino village fighters of 1762, brown skin, wide conical salakot hats, loose plain cotton shirts and rolled trousers, bamboo spears",
+   "medallion": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord"
+  },
+  "places": {
+   "baluarte_today": "the ruins of an old round Spanish stone bastion in Intramuros, Manila, in our time: weathered grey-brown volcanic stone walls, circular low stone walls and arches, a green lawn and tropical garden, acacia trees.",
+   "street_today": "a Manila street outside the old grey stone walls of Intramuros in our time, acacia trees, a stone gate in the distance, jeepneys and tricycles far down the road, a parked red motorcycle with a square insulated delivery box on the back",
+   "intramuros_1762": "the thick sloping grey stone walls and round bastion of Intramuros, the walled Spanish city of Manila, in October 1762 under British siege, cannon smoke drifting, broken stones, a church bell tower far behind",
+   "manila_bay_1762": "Manila Bay in 1762, a fleet of eighteenth-century British wooden sailing warships with tall masts and white sails, the grey stone walls of Intramuros on the low shore, coconut palms",
+   "hall_1762": "a dim stone hall of the governor's palace inside Intramuros in October 1762, thick stone arches, a heavy dark wooden table with candles, tall wooden-shuttered windows glowing orange from fires outside, smoke haze",
+   "pasig_1762": "the Pasig River at night in October 1762, dark water, nipa palms on the banks, the walled city of Intramuros burning on the far shore",
+   "bacolor_1762": "the town of Bacolor in Pampanga in 1762, nipa and bamboo houses on stilts, a stone church far behind, coconut palms, green rice fields, a dirt road, the lone peak of Mount Arayat in the distance",
+   "paris_1763": "a palace room in Paris in February 1763, tall windows with snow outside, gilded wall panels, a polished wooden desk",
+   "cainta_1760s": "the village of Cainta near Manila in the 1760s, nipa houses on stilts, flooded green rice fields, a river, coconut palms, blue hills",
+   "portal": "a golden time portal of plain smooth gear rims and rings of light, floating in a dark starry space"
+  }
+ }
+}

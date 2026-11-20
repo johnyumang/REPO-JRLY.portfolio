@@ -1,0 +1,15 @@
+{
+  "note": "Governor Lavezaris at the window: head turn, breathing, blink, beard stir, junks bobbing, bay shimmer, palms in wind",
+  "camera": {"zoom": [1.0, 1.06], "focus": [330, 330]},
+  "blink": {"skin": [284, 262], "eyes": [{"c": [294, 232], "r": [13, 6], "tilt": 12}]},
+  "effects": [
+    {"fx": "turn", "mask": {"ellipse": [250, 240, 118, 128], "soft": 40}, "pivot": [245, 365], "sway": 0.8, "speed": 1.1, "gesture": 2.5, "at": [0.25, 0.37, 0.6, 0.75]},
+    {"fx": "breath", "ellipse": [250, 620, 180, 160]},
+    {"fx": "wind", "mask": {"ellipse": [305, 395, 40, 60], "soft": 20}, "amp": 1.8, "wave": 100, "speed": 3.5},
+    {"fx": "bob", "mask": {"ellipse": [540, 428, 52, 52], "soft": 20}, "dx": 0, "dy": 2, "speed": 1.4},
+    {"fx": "bob", "mask": {"ellipse": [658, 500, 58, 62], "soft": 20}, "dx": 0, "dy": 2, "speed": 1.2, "phase": 0.5},
+    {"fx": "bob", "mask": [{"ellipse": [635, 386, 25, 25], "soft": 10}, {"ellipse": [480, 368, 18, 20], "soft": 8}, {"ellipse": [697, 685, 20, 28], "soft": 8}], "dx": 0, "dy": 1.5, "speed": 1.7},
+    {"fx": "shimmer", "mask": {"poly": [[460, 305], [720, 305], [720, 650], [620, 650], [575, 560], [460, 540]], "soft": 20}},
+    {"fx": "wind", "mask": [{"ellipse": [605, 765, 85, 55], "soft": 25}, {"ellipse": [590, 645, 25, 25], "soft": 12}], "amp": 2.5, "wave": 120, "speed": 3.5}
+  ]
+}

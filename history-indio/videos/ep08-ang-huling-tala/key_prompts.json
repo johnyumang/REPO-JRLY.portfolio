@@ -1,0 +1,225 @@
+{
+ "_note": "Episode 8 keyframes (same method as Episodes 2-7). Kawit in 1898: the house has an open upper window, NO balcony and NO tower. The present Indio has NO medallion and five arm marks until the last beat; the earlier Indio (front of the crowd) wears the bronze medallion and has three marks. The toddler wears the family bronze medallion (sun and triangle); M's own medallion is engraved with a crescent moon and is never the same as the family one. Rajah Sulayman is light only: no face, no body, no costume. Real people (the signers, Delfina Herbosa, the man named Johnson) are generic figures from behind or with faces turned away, never likenesses. No weapons. Copied, not generated: plates kawit1898, sky1898, kitchen (Episode 3), field, village_road (Episode 7), street (Episode 5); chars usman_crowd, usman_growl, lola_soup (Episode 3), woman_five (Episode 5), indio_lost, indio_fist, indio_point (Episode 7); full intro, walk_away, tattoo, lolo_m (Episode 7), treaty (Episode 5), note (Episode 6). full/tattoo6 is a hand composite (OpenCV) of the Episode 7 five-mark tattoo with one more diamond copied in: exactly six. Shot keys follow sentences.json; k50-k53 are extra keys used only inside montages (shots_fx 'keys').",
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face."
+ },
+ "plates": {
+  "kawit1898": "(copied from Episode 3)",
+  "sky1898": "(copied from Episode 3)",
+  "kitchen": "(copied from Episode 3)",
+  "field": "(copied from Episode 7)",
+  "village_road": "(copied from Episode 7)",
+  "street": "(copied from Episode 5)",
+  "bakery": "a small old wooden shop interior in a Philippine town in the 1890s, shelves of round bread loaves, a long wooden table dusted with white flour, woven baskets, an open window with morning light, warm and cosy, nothing modern."
+ },
+ "chars": {
+  "usman_crowd": "(copied from Episode 3)",
+  "usman_growl": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, with a lean body, growling with teeth showing, nose wrinkled, ears back, suspicious narrowed eyes, anime style, not muscular.",
+  "lola_soup": "(copied from Episode 3)",
+  "woman_five": "a mysterious young Filipina woman with long straight black hair, in a long dark coat, holding a red umbrella over her shoulder, a small round bronze medallion at her neck, raising her other hand open with the palm toward the viewer: one hand, a thumb and four fingers, all five spread apart, a faint knowing smile, looking straight at the viewer, soft overcast light.",
+  "indio_lost": "(copied from Episode 7)",
+  "indio_fist": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, holding up a big round magnifying-glass lens with a thin gold rim in his left hand beside his face, the clear glass shows his eye a little larger, his right arm down and out of frame, confident grin, no coin, no medallion, no pendant.",
+  "indio_point": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, pointing at the viewer with his right index finger, the other three fingers curled and the thumb on top, calm confident smile.",
+  "indio_back": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, alone, nobody else in the picture, looking far ahead with wide stunned eyes, lips parted, both arms down at his sides and out of frame, warm late-afternoon light on his face.",
+  "indio_hidden": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, pulling a wide straw hat low over his eyes with one hand, turning half away, careful hiding look.",
+  "indio_baker": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, kneading bread dough on a floured table, flour on his cheek and arms, a tired proud small smile.",
+  "indio_listen": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, frozen, eyes wide and wet, golden light falling on his face from the front, hearing a voice.",
+  "m_child": "a mysterious young Filipina woman with long straight black hair, in a long dark coat, a small round bronze medallion engraved with a crescent moon at her neck, a closed red umbrella hooked over her forearm, holding on her hip a two-year-old Filipino boy in a small white shirt who wears a round bronze medallion engraved with a sun and a triangle on a cord; her hands are hidden behind the boy; her face calm and sad. Only these two people.",
+  "m_explain": "a mysterious young Filipina woman with long straight black hair, in a long dark coat, a small round medallion engraved with a crescent moon at her neck, one closed red umbrella held in her left hand at her side, her right hand flat on her chest, looking straight at the viewer with a soft apologetic face. Only one umbrella."
+ },
+ "full": {
+  "intro": "(copied from Episode 7)",
+  "walk_away": "(copied from Episode 7)",
+  "tattoo": "(copied from Episode 7)",
+  "tattoo6": "(hand composite: Episode 7 tattoo plus one diamond, exactly six)",
+  "lolo_m": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Warm sepia memory scene on a misty field at dawn in the Philippines, seen from behind an old-fashioned man in a loose white collarless shirt facing a woman in a long dark 1890s coat and long skirt; her left hand grips the handle of a closed red umbrella that points to the ground, her right hand is held out open toward him; her face is in deep shadow under a wide dark hat. Nothing modern.",
+  "treaty": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Paris, a gilded salon in December 1898: extreme close-up of an elderly hand in a black sleeve and white cuff holding a steel pen over a sheet of blank parchment on a green cloth table; the hand and a large red wax seal with a red ribbon cover the middle of the sheet, low angle; blank parchment, no writing, no letters, no marks; golden lamp light, room blurred.",
+  "note": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Extreme close-up of two brown hands unfolding a small blank piece of paper, no writing, no letters, no characters, only a tiny ink drawing of an umbrella in one corner, misty morning light in a Philippine field, soft blur.",
+  "kawit_window": "seen from the very back of a huge crowd in straw hats and white shirts, far away a big two-storey Filipino wooden and stone house in 1898 with a flat front wall and a row of plain open upper windows, no balcony, no railing, no porch, no tower; a flag with a blue stripe over a red stripe and a white triangle with a golden sun held out of one open window on a short pole. Coconut palms, late-afternoon golden light.",
+  "acta": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of an old document on a wooden table in Kawit, Philippines, 1898: yellowed blank paper, no writing, no letters, no characters; a feather quill and a brown hand rest across the middle of the page, late-afternoon window light, a soft shadow of blue, red and white stripes falls across the paper, shallow depth of field.",
+  "johnson": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Modern Japanese TV anime style. A crowded wooden room in Kawit, Philippines, 1898: a long table with a long blank paper, Filipino men in white shirts waiting in line, one tall Western man in a pale linen suit with a moustache bending to sign with a feather quill held in one hand (a thumb and four fingers), his other hand flat on the table, face turned down and away. Nothing modern, no weapons.",
+  "no_dewey": "a wide calm bay at late afternoon in 1898, far away several grey steam warships at anchor with tall funnels, a small empty wooden pier in the foreground, no boats coming, no people, quiet water, golden light.",
+  "delfina": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Warm sepia memory scene in a quiet room in Hong Kong, 1898, three Filipinas seen from behind sewing at a table: an older woman with a bun, a girl about seven, a slim young woman with a long braid. On the table the Philippine flag of 1898: a white triangle at the hoist with a golden sun and three small gold stars, a blue stripe above a red stripe. The window shows only blurred green trees, no signs, no writing. Lamplight, faces not visible.",
+  "loop_front": "seen from far behind over many straw hats, at the front of a crowd in 1898: a young man in a loose off-white collarless shirt, a red headband with two long red tails down his back, black topknot, and right beside him, clearly visible, a black dog with one folded ear and a red kerchief, both facing a wooden house. Golden afternoon light.",
+  "toddler_medallion": "close-up of a two-year-old Filipino boy's small chest in a white shirt, an old round bronze medallion engraved with a sun and a triangle resting on it on a worn cord, the bronze lighting up with a soft warm golden glow, a woman's hand letting go of the cord.",
+  "sulayman_light": "above a crowd of straw hats at late afternoon, a tall column of soft warm golden light rising from a small glowing bronze medallion, the light only faintly suggesting the tall outline of a standing man, no face, no features, no clothing, just light and floating sparks, gentle and solemn.",
+  "umbrella_handle": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of two hands only, no face: slender hands in dark coat sleeves, each hand a thumb and four fingers, unscrewing the curved wooden handle of a closed red umbrella; inside the hollow shaft a tiny round golden medallion engraved with a star and a tightly rolled blank yellowed paper, no writing; warm light.",
+  "star_medallion": "extreme close-up of a small round golden medallion engraved with a single five-pointed star, glowing very faintly as if asleep, lying on an unrolled old blank yellowed paper, dark background, soft sparkles.",
+  "map_lens": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. View through a round golden-rimmed lens filling the frame, no hands: inside the circle an old yellowed paper with a hand-drawn ink map of Asia, coastlines only, no writing, no labels, and exactly twelve small glowing gold dots spread across it; outside the circle a blank paper and darkness.",
+  "watcher": "inside a crowd of straw hats seen from behind, one figure in a dark coat and dark wide hat, face in shadow, turned the other way from everyone, looking toward a closed red umbrella in the distance, golden afternoon light, mysterious.",
+  "m_medallion_hot": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of hands only, no faces: a woman's slender hand in a dark coat sleeve holds a round bronze medallion engraved with a crescent moon in her open palm, and a young man's brown hand with indigo geometric tattoos on the forearm touches it with one fingertip; each hand a thumb and four fingers; the medallion glows hot orange-gold, sparks of golden light, late afternoon.",
+  "map_west": "an old hand-drawn ink map on yellowed paper, Asia drawn on the right half, empty lands on the left half; exactly one small gold dot shining brightly near the far LEFT edge of the paper, with golden light rays, and eleven tiny dim dots on the right half across Asia."
+ },
+ "shots": {
+  "0": {
+   "char": "indio_back",
+   "plate": "kawit1898",
+   "x": 0.5,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "1": {
+   "char": "indio_hidden",
+   "plate": "kawit1898",
+   "x": 0.3,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "2": {
+   "full": "intro"
+  },
+  "4": {
+   "char": "indio_lost",
+   "plate": "field",
+   "x": 0.5,
+   "y": 0.45,
+   "s": 0.65
+  },
+  "5": {
+   "char": "indio_baker",
+   "plate": "bakery",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "6": {
+   "full": "walk_away"
+  },
+  "7": {
+   "plate": "kawit1898"
+  },
+  "8": {
+   "full": "acta"
+  },
+  "9": {
+   "full": "treaty"
+  },
+  "10": {
+   "full": "johnson"
+  },
+  "11": {
+   "full": "no_dewey"
+  },
+  "12": {
+   "full": "delfina"
+  },
+  "13": {
+   "full": "loop_front"
+  },
+  "14": {
+   "char": "m_child",
+   "plate": "kawit1898",
+   "x": 0.7,
+   "y": 0.4,
+   "s": 0.6
+  },
+  "15": {
+   "full": "note"
+  },
+  "16": {
+   "full": "toddler_medallion"
+  },
+  "17": {
+   "full": "sulayman_light"
+  },
+  "18": {
+   "char": "woman_five",
+   "plate": "street",
+   "x": 0.8,
+   "y": 0.4,
+   "s": 0.55
+  },
+  "19": {
+   "char": "indio_listen",
+   "plate": "kawit1898",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "20": {
+   "full": "lolo_m"
+  },
+  "21": {
+   "char": "m_explain",
+   "plate": "kawit1898",
+   "x": 0.6,
+   "y": 0.4,
+   "s": 0.65
+  },
+  "22": {
+   "full": "umbrella_handle"
+  },
+  "23": {
+   "full": "map_lens"
+  },
+  "24": {
+   "full": "star_medallion"
+  },
+  "25": {
+   "full": "watcher"
+  },
+  "26": {
+   "char": "usman_growl",
+   "plate": "kawit1898",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "28": {
+   "full": "kawit_window"
+  },
+  "31": {
+   "char": "indio_fist",
+   "plate": "kawit1898",
+   "x": 0.4,
+   "y": 0.4,
+   "s": 0.7,
+   "tint": [
+    1.08,
+    0.95,
+    0.85
+   ]
+  },
+  "32": {
+   "full": "m_medallion_hot"
+  },
+  "33": {
+   "full": "map_west"
+  },
+  "34": {
+   "char": "lola_soup",
+   "plate": "kitchen",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.7
+  },
+  "35": {
+   "char": "indio_point",
+   "plate": "kawit1898",
+   "x": 0.5,
+   "y": 0.5,
+   "s": 0.6
+  },
+  "50": {
+   "full": "tattoo"
+  },
+  "51": {
+   "full": "tattoo6"
+  },
+  "52": {
+   "char": "usman_crowd",
+   "plate": "kawit1898",
+   "x": 0.5,
+   "y": 0.9,
+   "s": 0.55
+  },
+  "53": {
+   "plate": "sky1898"
+  }
+ }
+}

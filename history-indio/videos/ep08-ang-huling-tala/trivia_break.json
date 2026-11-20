@@ -1,0 +1,44 @@
+{
+ "fact_id": "t01",
+ "fact_english": "Each eyeball of a tarsier is about as large as its entire brain.",
+ "label_onscreen": "TARSIER",
+ "source_onscreen": "Pinagmulan: Natural History Museum, London; AMNH, New York",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tarsier, par: bawat mata niya, halos kasinlaki ng buong utak niya!",
+   "emphasis": [
+    "mata",
+    "utak"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ganyan tumitig. Puro mata, konting isip. Parang ikaw tuwing umaga.",
+   "emphasis": [
+    "umaga"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 21,
+ "after_text": "Sabi niya, kung hindi ko kinuha, hindi ito makakarating sa'yo.",
+ "insert_time": 83.91,
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After M's 'kung hindi ko kinuha, hindi ito makakarating sa'yo': the next sentence opens the umbrella, so the viewer waits through the break to see what is inside.",
+ "source_note": "Re-checked on 13 Nov by a researcher and a separate second reader (search summaries only; this machine cannot open pages): the fact holds with two independent reputable sources, named on the card. This break may be rendered."
+}
