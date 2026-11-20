@@ -127,3 +127,12 @@ NVIDIA catalog (accepts only its own example pictures), Qwen-Image-Edit Spaces (
 - New reach clip from that still. First take showed a face looking into the bag (not allowed); second take, with
   "no face, no head" in the prompt, is clean and is the one used.
 - Held shot: pouch and both hands are outside the bag, seen through the opening.
+
+### Version 5 (owner: "the reach is correct; the pull must be seamless, no cut")
+
+- No cut any more. The hand covers the lens, the frame goes dark, and that dark IS the black pouch on the lens:
+  it then leaves the lens and rises out through the opening until it is held against the sky.
+- How: `assemble.py` splits the hold still into two layers (hands + pouch keyed off the blue sky; the bag with a clean
+  sky) and moves only the hands + pouch, so the bag stays put. In front of the paper while inside the bag, hidden by
+  the rim once above it.
+- The motion Space had no free quota left that day, so the pull is not generated motion: fingers do not flex in it.
