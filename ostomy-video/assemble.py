@@ -13,6 +13,8 @@ Env: TAGLINE (default "COMING SOON"; empty = brand only)
      LOGO    path to the brand's own logo file (dark on white). When set, the lettering the picture model wrote on
              the pouch is removed on the still and on every clip frame and the real logo is laid in its place, with
              WORD (default "OSTOMY") under it; the end card uses the same lock-up. The logo is never redrawn by a model.
+     LOGO_TURN  "right" or "left": turn the lock-up a quarter turn on the pouch so it reads with the pouch held
+             landscape; it is then set larger, along the pouch's long side. The end card stays upright.
 
 How the join is made seamless (no cut, no fade effect):
   * the reach ends with the palm closing on the lens: pushed in, defocused and darkened the way a covered lens goes dark
@@ -40,6 +42,7 @@ FONT = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf"
 TAG = os.environ.get("TAGLINE", "COMING SOON")
 LOGO = os.environ.get("LOGO", "")
 WORD = os.environ.get("WORD", "OSTOMY")
+TURN = os.environ.get("LOGO_TURN", "")      # "right" / "left": the lock-up runs along the pouch's long side (pouch held landscape)
 SANS = "/usr/share/fonts/opentype/inter/Inter-Regular.otf"
 LQ = 4.0                           # the lock-up is kept at 4x the still's scale
 SRC_FPS = 16.0
@@ -191,7 +194,9 @@ def track_and_fix(clip, still):
     pcx, pcy = (px1 - px0) / 2, (py1 - py0) / 2
     top = 0.10                                                          # erase from just under SIIL ...
     if LOGO:
-        alpha = lockup(round(1.45 * sw * LQ))                            # ... or, with a logo, SIIL as well
+        alpha = lockup(round((2.45 if TURN else 1.45) * sw * LQ))        # ... or, with a logo, SIIL as well
+        if TURN:
+            alpha = np.ascontiguousarray(np.rot90(alpha, k=-1 if TURN == "right" else 1))
         dx, dy = 0.0, (sy0 + oy1) / 2 - (sy0 + sy1) / 2
         pcx, pcy, top = alpha.shape[1] / 2, alpha.shape[0] / 2, -1.18
         Ls = still.astype(np.float32).mean(2)

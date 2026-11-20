@@ -192,3 +192,7 @@ logo is laid in its place, following the tracked position and size; the end card
 from the owner's file, never redrawn by a model. The logo file stays outside this public repository.
 `still.py` still asks the picture model for "SIIL": that word is only the tracking target and is replaced.
 OSTOMY is set in spaced capitals (Inter) to match the wordmark; the owner wrote "Ostomy". Tagline still a placeholder.
+
+Logo turned (owner: "rotate the logo to the right so it's like landscape"): `LOGO_TURN=right` turns the lock-up a
+quarter turn clockwise on the pouch and sets it larger along the pouch's long side (reads with the pouch held
+landscape). The end card stays upright.
