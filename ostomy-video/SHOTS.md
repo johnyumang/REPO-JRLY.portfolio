@@ -136,3 +136,31 @@ NVIDIA catalog (accepts only its own example pictures), Qwen-Image-Edit Spaces (
   sky) and moves only the hands + pouch, so the bag stays put. In front of the paper while inside the bag, hidden by
   the rim once above it.
 - The motion Space had no free quota left that day, so the pull is not generated motion: fingers do not flex in it.
+
+### Version 6 (owner: "the physics is still not right, not smooth")
+
+What was wrong in v5: the pull was a flat cut-out of the still, scaled by code. No real hand or pouch movement, and the
+reach clip ran at 16 fps inside a 30 fps video.
+
+What v6 does (all in `assemble.py`; clips from `wan.py`):
+
+- **The pull is real generated motion, played backwards.** A clip was made FROM the hold still: the hands lower the
+  pouch onto the lens. Reversed, the pouch leaves the lens, rises out of the bag (it tilts, the upper hand carries it,
+  the lower hand comes to meet it) and lands exactly on the hold still. The last frame is therefore guaranteed.
+- **True 30 fps.** In-between frames come from RIFE (hzwer/Practical-RIFE 4.25 lite, ONNX export
+  `t9749/rife-4.25-lite-onnx` on Hugging Face, MIT), not from repeated frames.
+- **Even steps.** Measured: the motion model moves in uneven steps (big, small, big, small, up to 3x apart), so a
+  16 fps clip feels like 8. Both clips are re-spaced by their measured movement before interpolating: optical flow for
+  the reach; the tracked size and position of the word SIIL for the pull. Unevenness of the movement per output frame
+  (0 = perfectly even): pull 0.22 -> 0.14; the pouch's size change per frame is now one smooth slowing curve.
+- **The join is physical, not an edit effect.** The palm closes on the lens (push-in, defocus, the light shut out);
+  the pouch then lifts off the lens (optical pull-back on a minimum-jerk path with size = 1/distance, defocus clearing,
+  light returning). One slow hand-held drift runs under the whole video.
+- **The small word is kept right.** While moving, the motion model scrambles OSTOMY (OSEOMY, OBEOWT). SIIL stays
+  correct, so it is tracked on every frame and OSTOMY is re-laid from the still at the right place and size.
+- 13.2 s. Build: `assemble.py REACH.mp4 LOWER.mp4 HOLD.jpg RIFE.onnx OUT.mp4`.
+
+Free quota that day: the Space counts GPU seconds (`wan.py` prints the request: 68 s for 3.5 s at 6 steps). Only 31 s
+were left, so the pull clip is 2.0 s at 4 steps (exactly 31 s). Still open: the reach was generated in a different
+paper bag than the hold; the dark moment hides the change, but with fresh quota the reach can be remade inside the
+same bag (start from the hold still's bag with an empty opening).
