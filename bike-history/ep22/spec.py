@@ -19,7 +19,7 @@ LINES = [
     ('explode', 'Frame, wheels, gears, brakes, flat bars: just under 30 pounds.', 'Frame, wheels, gears, brakes, flat bars. Just under thirty pounds.'),
     ('ride', '$750, complete. Or $395 for the frame alone.', 'Seven hundred and fifty dollars, complete. Or three ninety-five for the frame.'),
     ('ride', 'No suspension at all.', 'And no suspension at all.'),
-    ('outro', 'The first 125 sold out in six days.', 'The first hundred and twenty-five sold out in six days.'),
+    ('outro', 'The first 125 sold out in six days.', 'The first batch sold out in six days.'),
     ('outro', None, 'Next: the first Ninja.'),
 ]
 def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'drive': (-20, 10, 2.4, (-0.4, 0, 0.38), {'spin_r': -240}), 'brakes': (-40, 18, 2.0, (0.42, 0, 0.62), {}), 'fork': (-40, 10, 2.3, (0.5, 0, 0.5), {}), 'frame': (-35, 12, 3.0, (0.05, 0, 0.6), {}), 'front_wheel': (-10, 4, 2.4, (0.55, 0, 0.36), {'spin_f': -120}), 'handlebar': (-35, 30, 2.0, (0.38, 0, 0.92), {})}, ride_z=0.85)
