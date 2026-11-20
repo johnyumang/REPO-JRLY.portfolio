@@ -183,3 +183,12 @@ frames of the pull clip are measured as optical flow and applied to the full-res
 steps are closer (76 / 151 / 170). Not fixed, need fresh motion quota: one bag from start to end, a full-quality pull,
 a sharper reach, a shorter dark. Honest ceiling: free 480p image-to-video stitched in three parts will not pass for one
 filmed take; a current paid video model, or 15 seconds filmed on a phone, would.
+
+### Brand change: ESTES (logo) / OSTOMY
+
+Owner sent the ESTES logo file and asked for it on the pouch with OSTOMY under it. `assemble.py` with `LOGO=<file>`:
+the lettering the picture model wrote (SIIL / OSTOMY) is erased on the hold still and on every clip frame, and the real
+logo is laid in its place, following the tracked position and size; the end card uses the same lock-up. The logo is cut
+from the owner's file, never redrawn by a model. The logo file stays outside this public repository.
+`still.py` still asks the picture model for "SIIL": that word is only the tracking target and is replaced.
+OSTOMY is set in spaced capitals (Inter) to match the wordmark; the owner wrote "Ostomy". Tagline still a placeholder.

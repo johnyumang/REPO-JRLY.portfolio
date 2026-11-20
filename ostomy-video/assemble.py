@@ -10,6 +10,9 @@ usage: assemble.py REACH.mp4 LOWER.mp4 HOLD.jpg RIFE.onnx OUT.mp4 [--frames 90,1
   RIFE.onnx  frame interpolator (hzwer/Practical-RIFE 4.25 lite, ONNX export, MIT): true in-between frames, so the
              16 fps clips play at a real 30 fps and can be re-timed without stutter
 Env: TAGLINE (default "COMING SOON"; empty = brand only)
+     LOGO    path to the brand's own logo file (dark on white). When set, the lettering the picture model wrote on
+             the pouch is removed on the still and on every clip frame and the real logo is laid in its place, with
+             WORD (default "OSTOMY") under it; the end card uses the same lock-up. The logo is never redrawn by a model.
 
 How the join is made seamless (no cut, no fade effect):
   * the reach ends with the palm closing on the lens: pushed in, defocused and darkened the way a covered lens goes dark
@@ -35,6 +38,10 @@ SW, SH = 768, 1331                 # scene space: the hold still, centre-cropped
 CW, CH = 480, 832                  # the motion clips
 FONT = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf"
 TAG = os.environ.get("TAGLINE", "COMING SOON")
+LOGO = os.environ.get("LOGO", "")
+WORD = os.environ.get("WORD", "OSTOMY")
+SANS = "/usr/share/fonts/opentype/inter/Inter-Regular.otf"
+LQ = 4.0                           # the lock-up is kept at 4x the still's scale
 SRC_FPS = 16.0
 COVER = 0.42                       # last part of the reach: the palm seals the lens
 T1 = 0.60                          # the optical pull-back off the lens, laid over the start of the backwards clip
@@ -142,9 +149,36 @@ def text_bands(rgb, k):
     return bands
 
 
+def lockup(width):
+    """The brand lock-up as coverage 0..1, `width` pixels wide: the owner's logo file with its edges re-cut so it is
+    crisp at any size, and WORD centred under it in letter-spaced capitals."""
+    L = np.asarray(Image.open(LOGO).convert("L"), np.float32)
+    ys, xs = np.nonzero(L < 128)
+    L = L[ys.min() - 4:ys.max() + 5, xs.min() - 4:xs.max() + 5]
+    sc = width / L.shape[1]
+    big = cv2.resize(L, (int(width), int(round(L.shape[0] * sc))), interpolation=cv2.INTER_CUBIC)
+    logo = np.clip((150 - cv2.GaussianBlur(big, (0, 0), max(0.6, 0.45 * sc))) / 45, 0, 1)
+    hl = logo.shape[0]
+    font = ImageFont.truetype(SANS, max(8, int(hl * 0.50)))
+    tmp = ImageDraw.Draw(Image.new("L", (8, 8)))
+    ws = [tmp.textlength(c, font=font) for c in WORD]
+    track = (0.50 * width - sum(ws)) / max(1, len(WORD) - 1)
+    gap, th = int(hl * 0.62), int(hl * 0.50)
+    im = Image.new("L", (int(width), hl + gap + th), 0)
+    im.paste(Image.fromarray((logo * 255).astype(np.uint8)), (0, 0))
+    d = ImageDraw.Draw(im)
+    x = (width - (sum(ws) + track * (len(WORD) - 1))) / 2
+    for c, w in zip(WORD, ws):
+        d.text((x, hl + gap + th / 2), c, font=font, fill=255, anchor="lm")
+        x += w + track
+    return np.asarray(im, np.float32) / 255
+
+
 def track_and_fix(clip, still):
-    """Follow the word SIIL through the clip (it stays correct) and re-lay the small word OSTOMY from the still.
-    Returns the fixed clip and SIIL's measured box per frame: centre x, centre y, width, height."""
+    """Follow the word SIIL through the clip (the picture model keeps it stable) and put the right lettering on every
+    frame: with LOGO set, the model's lettering is removed and the real lock-up laid in its place, on the still too;
+    without it, only the small word OSTOMY (which the motion model scrambles) is re-laid from the still.
+    Returns the fixed clip, SIIL's measured box per frame (centre x, centre y, width, height) and the still."""
     fb = sorted(text_bands(still, 65), key=lambda q: -(q[3] - q[2]) * (q[1] - q[0]))
     sy0, sy1, sx0, sx1 = fb[0]
     oy0, oy1, ox0, ox1 = min((q for q in fb[1:] if q[0] >= sy1), key=lambda q: q[0])
@@ -155,6 +189,22 @@ def track_and_fix(clip, still):
     lo, hi = np.percentile(Lp, 10), np.percentile(Lp, 99.7)
     alpha = np.clip((Lp - lo - 12) / (hi - lo - 12), 0, 1)
     pcx, pcy = (px1 - px0) / 2, (py1 - py0) / 2
+    top = 0.10                                                          # erase from just under SIIL ...
+    if LOGO:
+        alpha = lockup(round(1.45 * sw * LQ))                            # ... or, with a logo, SIIL as well
+        dx, dy = 0.0, (sy0 + oy1) / 2 - (sy0 + sy1) / 2
+        pcx, pcy, top = alpha.shape[1] / 2, alpha.shape[0] / 2, -1.18
+        Ls = still.astype(np.float32).mean(2)
+        bx0, bx1, by0, by1 = sx0 - 14, sx1 + 14, sy0 - 10, oy1 + 10
+        box = Ls[by0:by1, bx0:bx1]
+        m = np.zeros(still.shape[:2], np.uint8)
+        m[by0:by1, bx0:bx1] = (box > np.median(box) + 26).astype(np.uint8)
+        col = still[by0:by1, bx0:bx1][box >= np.percentile(box, 99)].mean(0)
+        clean = cv2.inpaint(still, cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=3), 4, cv2.INPAINT_TELEA)
+        M = np.array([[1 / LQ, 0, (sx0 + sx1) / 2 - pcx / LQ], [0, 1 / LQ, (sy0 + oy1) / 2 - pcy / LQ]], np.float32)
+        a = cv2.GaussianBlur(cv2.warpAffine(alpha, M, (still.shape[1], still.shape[0]), flags=cv2.INTER_AREA), (0, 0), 0.5)[..., None]
+        still = np.clip(clean * (1 - a) + col * a, 0, 255).astype(np.uint8)
+    unit = LQ if LOGO else 1.0                                          # lock-up pixels per still pixel
     boxes, prev = [], ((sx0 + sx1) / 2 * CW / SW, (sy0 + sy1) / 2 * CH / SH)
     for f in clip:
         cand = [q for q in text_bands(f, 41) if q[3] - q[2] >= 40
@@ -173,7 +223,7 @@ def track_and_fix(clip, still):
         f = out[n]
         L = f.astype(np.float32).mean(2)
         x0, x1 = int(cx - 0.62 * w), int(cx + 0.62 * w)
-        y0, y1 = int(cy + h / 2 + 0.10 * h), int(cy + h / 2 + 0.95 * h)
+        y0, y1 = int(cy + h / 2 + top * h), int(cy + h / 2 + 0.95 * h)
         x0, y0, x1, y1 = max(0, x0), max(0, y0), min(CW, x1), min(CH, y1)
         if x1 - x0 < 6 or y1 - y0 < 3:
             continue
@@ -183,16 +233,16 @@ def track_and_fix(clip, still):
         m = cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=2)
         f = cv2.inpaint(f, m, 3, cv2.INPAINT_TELEA)
         ax, ay = w / sw, h / sh
-        M = np.array([[ax, 0, cx + dx * ax - ax * pcx], [0, ay, cy + dy * ay - ay * pcy]], np.float32)
-        a = cv2.warpAffine(alpha, M, (CW, CH), flags=cv2.INTER_AREA if ax < 1 else cv2.INTER_CUBIC)
-        if ax > 1.2:
-            a = cv2.GaussianBlur(a, (0, 0), 0.35 * ax)
+        M = np.array([[ax / unit, 0, cx + dx * ax - ax * pcx / unit], [0, ay / unit, cy + dy * ay - ay * pcy / unit]], np.float32)
+        a = cv2.warpAffine(alpha, M, (CW, CH), flags=cv2.INTER_AREA if ax < unit else cv2.INTER_CUBIC)
+        if LOGO or ax > 1.2:
+            a = cv2.GaussianBlur(a, (0, 0), 0.35 * max(ax, 1.3))
         sm = L[int(cy - h / 2):int(cy + h / 2), int(cx - w / 2):int(cx + w / 2)]
         sel = clip[n][int(cy - h / 2):int(cy + h / 2), int(cx - w / 2):int(cx + w / 2)][sm >= np.percentile(sm, 93)]
         col = sel.mean(0) if len(sel) else np.array([215, 212, 208.0])
         a = np.clip(a, 0, 1)[..., None]
         out[n] = np.clip(f * (1 - a) + col * a, 0, 255).astype(np.uint8)
-    return out, b
+    return out, b, still
 
 
 # ---------------------------------------------------------------- camera
@@ -224,17 +274,25 @@ def card_image():
     d = ImageDraw.Draw(im)
 
     def spaced(cy, text, size, track, fill):
-        f = ImageFont.truetype(FONT, size)
+        f = ImageFont.truetype(SANS if LOGO else FONT, size)
         ws = [d.textlength(c, font=f) for c in text]
         x = W / 2 - (sum(ws) + track * (len(text) - 1)) / 2
         for c, w in zip(text, ws):
             d.text((x, cy), c, font=f, fill=fill, anchor="lm")
             x += w + track
-    spaced(880, "SIIL", 230, 36, (30, 32, 40))
-    spaced(1045, "OSTOMY", 74, 30, (30, 32, 40))
+    if LOGO:
+        a = lockup(700)[..., None]
+        y0, x0 = 940 - a.shape[0] // 2, (W - a.shape[1]) // 2
+        arr = np.asarray(im, np.float32).copy()
+        arr[y0:y0 + a.shape[0], x0:x0 + a.shape[1]] = arr[y0:y0 + a.shape[0], x0:x0 + a.shape[1]] * (1 - a) + np.array([24, 24, 28.0]) * a
+        im = Image.fromarray(arr.astype(np.uint8))
+        d = ImageDraw.Draw(im)
+    else:
+        spaced(880, "SIIL", 230, 36, (30, 32, 40))
+        spaced(1045, "OSTOMY", 74, 30, (30, 32, 40))
     if TAG:
         d.line([(W / 2 - 120, 1140), (W / 2 + 120, 1140)], fill=(150, 150, 150), width=2)
-        spaced(1215, TAG, 46, 16, (90, 92, 100))
+        spaced(1215, TAG, 40 if LOGO else 46, 16, (90, 92, 100))
     return np.asarray(im, np.float32)
 
 
@@ -303,7 +361,7 @@ def main():
     im = Image.open(still_p).convert("RGB")
     assert im.size == (768, 1344), "hold still must be 768x1344 (the size the stills are made at)"
     F = np.asarray(im)[6:6 + SH].copy()                       # the Space's own centre crop: rows 6..1337
-    B, box = track_and_fix(B, F)
+    B, box, F = track_and_fix(B, F)
     width = box[:, 2]
 
     # colour: bring the clip onto the still (first clip frame == the still)
