@@ -9,9 +9,7 @@ Max Friz designed the BMW R 32, the first motorcycle badged BMW. It had a flat-t
 
 No chain: a shaft carried the power from the gearbox to the rear wheel. That layout stayed on BMW boxers for decades. The frame was tubular steel, the tyres 26 x 3, and the whole bike weighed 122 kg with fuel and oil.
 
-It debuted at the Paris Auto Show in 1923 and caused a sensation, one page says. 3,090 were built by 1926.
-
-Who rode it first? We found no name.
+It debuted at the Paris Auto Show in 1923 and caused a sensation. 3,090 were built by 1926.
 
 Episode 11 of the history of the bike.
 Next: the Harley-Davidson EL, 1936.
