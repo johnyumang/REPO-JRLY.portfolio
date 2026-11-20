@@ -205,3 +205,29 @@ Logo small and 4K (owner: "just small, subtle, in the middle" and "ensure it's H
   `tamnvcc/Real-ESRGAN-General-x4v3_float` on Hugging Face; `upscale.py`, CPU, about 4 s per clip frame) before they
   are placed, and the lock-up and end card are drawn at 4K. Honest: this is a 4K file with sharper edges and lettering,
   not footage shot in 4K; fine paper and skin texture is the upscaler's guess.
+
+Hand from 12 o'clock (owner: "rotate the hand 12 o'clock" = pouch upright, the holding hand comes down from the top):
+- `still.py hold12` makes that still (one arm over the top rim, pinching the pouch's top edge). Six takes made, kept
+  outside the repo. It needs a new motion clip; the free Wan quota was used up (refills about 20:50 UTC).
+- `SCENE_TURN=right` in `assemble.py` (turn the existing pull and hold a quarter turn) was tried and is NOT good:
+  the paper above and below has to be mirrored and it shows. Left in as an option, not used.
+- `CACHE=<folder>` keeps upscaled frames so a re-render with other logo settings skips the slow upscaling.
+- Other motion models checked: NVIDIA catalog has no video model for this account; ElevenLabs video needs a paid plan;
+  every Hugging Face ZeroGPU Space shares the same used-up quota. Canva's video generator (Seedance, up to 720p)
+  is reachable but spends the owner's Canva AI limit: waiting for his go-ahead.
+
+Free motion models tried on 20 Nov after the account's ZeroGPU quota ran out (owner: no Canva, no sign-ups, find a free way):
+- `upsampler-wan-2-2-14b-image-to-video.hf.space`: same Wan 2.2 14B, also takes an end frame (`wan.py --end`), already
+  allowed by the environment and called without an account. Refused: the visitor run limit for this machine was used up.
+- Every other Wan / LTX / Hunyuan Space found runs on the same shared ZeroGPU quota. The official `Wan-AI/Wan2.1` Space
+  (Alibaba cloud backend) is down (runtime error). `alibaba-pai/Wan2.1-Fun-1.3B-InP` is up but is a 1.3B model and its
+  host is not allowed from here.
+- NVIDIA catalog: no video model on this account. ElevenLabs: video needs a paid plan. Atlas Cloud / PiAPI: paid
+  resellers with a small sign-up credit; owner declined signing up.
+Next: when the quota refills (about 20:52 UTC), make the pull clip from `hold12` (hand from 12 o'clock) and rebuild.
+
+## Pollinations checked (20 Nov)
+
+- Host `gen.pollinations.ai` allowed in the environment, public model list read.
+- Result: all 30 video models there are marked `paid_only` (Seedance, Veo, Wan, Kling, MiniMax, LTX). Not free, so not used.
+- Next idea from the owner: run ComfyUI on his own laptop. Blocked for now: the laptop is not connected to this cloud session. MiniMax video is a paid cloud service and cannot be installed; the free local option is Wan 2.2 inside ComfyUI (needs a graphics card).

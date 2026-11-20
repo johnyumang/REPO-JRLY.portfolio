@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Photoreal key stills for the SIIL teaser on the free FLUX endpoint (NVIDIA catalog).
-usage: still.py OUT_DIR [shot ...]     shots: reach, pull, hold   (two takes each; the endpoint picks its own seed)"""
+usage: still.py OUT_DIR [shot ...]     shots: reach, pull, hold, hold12   (two takes each; the endpoint picks its own seed)"""
 import json, sys, os, base64, urllib.request, urllib.error, time
 BASE = ("Real photograph, shot on a phone lying at the bottom of a deep brown kraft paper bag with the lens pointing straight up. "
         "The crumpled brown paper walls of the bag surround the picture on all four sides, close to the lens and out of focus, "
@@ -23,6 +23,13 @@ SHOTS = {
              "No hand or finger is inside the pouch or behind the frosted plastic. "
              "Printed on the front of the pouch in clean white serif capital letters, centred: the word \"SIIL\" and, smaller, directly under it, the word \"OSTOMY\". "
              "No other writing. Each hand has exactly five fingers."),
+    "hold12": (f"{BASE} One arm of a woman in a dark navy sleeve comes straight down from the top of the picture, from twelve o'clock, "
+               f"over the top rim of the bag, and her hand, with a thin gold ring, holds up {POUCH}. The pouch hangs upright, tall and "
+               "vertical, facing the camera, in the middle of the opening against the blue sky; her fingers pinch the middle of its top edge "
+               "from above, fingertips on the outer surface of the plastic. Only this one hand; no hand at the bottom or at the sides; "
+               "nothing comes in from the left or the right. The arm is outside the bag, seen only through the opening, against the sky. "
+               "Printed on the front of the pouch in clean white serif capital letters, centred: the word \"SIIL\" and, smaller, directly under it, "
+               "the word \"OSTOMY\". No other writing. The hand has exactly five fingers."),
 }
 NEG = ("cartoon, illustration, anime, drawing, painting, 3d render, cgi, plastic skin, extra fingers, six fingers, missing fingers, fused fingers, "
        "deformed hands, extra hands, extra arms, face, watermark, logo, caption, subtitles, border, frame, black bars, blurry, low quality")
