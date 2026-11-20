@@ -17,6 +17,11 @@ Env: TAGLINE (default "COMING SOON"; empty = brand only)
              landscape; it is then set larger, along the pouch's long side. The end card stays upright.
      LOGO_SIZE  lock-up length as a multiple of the old word's width (default 1.45, or 2.45 when turned)
      LOGO_OPACITY  0..1 (default 1). The lock-up always sits in the middle of the pouch's black face.
+     SCENE_TURN  "right": the pull and the hold are turned a quarter turn clockwise, so the hands that came in from
+             the left (9 o'clock) come down from the top (12 o'clock) and the pouch lies landscape. Use LOGO_TURN=left
+             with it: the lock-up then reads upright. The picture is set smaller so both hands stay in frame; the
+             paper above and below is continued by mirroring. The reach is not turned (its hand already comes from 12).
+     CACHE   folder for upscaled frames, so a second render with other logo settings skips the slow upscaling
      SCALE   1 = 1080x1920 (default), 2 = 2160x3840 (4K upright)
      UPSCALE path to the Real-ESRGAN ONNX model (see upscale.py). When set, every clip frame and the still are
              upscaled 4x by it before they are placed, and the lock-up is laid at that resolution, so a 4K file
@@ -53,6 +58,8 @@ TURN = os.environ.get("LOGO_TURN", "")      # "right" / "left": the lock-up runs
 SANS = "/usr/share/fonts/opentype/inter/Inter-Regular.otf"
 LQ = 4.0                           # the lock-up is kept at 4x the still's scale
 UPSCALE = os.environ.get("UPSCALE", "")
+SCENE_TURN = os.environ.get("SCENE_TURN", "")
+CACHE = os.environ.get("CACHE", "")
 SRC_FPS = 16.0
 COVER = 0.42                       # last part of the reach: the palm seals the lens
 T1 = 0.60                          # the optical pull-back off the lens, laid over the start of the backwards clip
@@ -290,10 +297,11 @@ def lay(img, u, lab, cx, cy, ax, ay, col, soft):
 
 
 # ---------------------------------------------------------------- camera
-def m_out(t):
-    """Scene -> output, with one slow hand-held drift for the whole video."""
-    sc = K * (1.03 + 0.005 * math.sin(0.9 * t))
-    th = math.radians(0.40 * math.sin(0.8 * t) + 0.18 * math.sin(1.9 * t + 1))
+def m_out(t, scene=True):
+    """Scene -> output, with one slow hand-held drift for the whole video. scene=False: the reach, never turned."""
+    turned = scene and SCENE_TURN == "right"
+    sc = (1.79 * R if turned else K) * (1.03 + 0.005 * math.sin(0.9 * t))
+    th = math.radians(0.40 * math.sin(0.8 * t) + 0.18 * math.sin(1.9 * t + 1)) + (math.pi / 2 if turned else 0)
     tx = W / 2 + R * (9 * math.sin(0.7 * t) + 4 * math.sin(1.6 * t + 2))
     ty = H / 2 + R * (8 * math.sin(0.55 * t + 1) + 3 * math.sin(1.3 * t))
     c, s = math.cos(th) * sc, math.sin(th) * sc
@@ -453,7 +461,14 @@ def main():
         if key not in last:
             f, u = rife(clip, p), 1
             if up:
-                f, u = up(f), 4
+                cf = os.path.join(CACHE, "%s_%.3f.npy" % ("B" if clip is B else "A", p)) if CACHE else ""
+                if cf and os.path.exists(cf):
+                    f = np.load(cf)
+                else:
+                    f = up(f)
+                    if cf:
+                        np.save(cf, f)
+                u = 4
             if lab is not None and clip is B:
                 cx, cy, w, h = (float(np.interp(p, idxB, lab["bs"][:, j])) for j in range(4))
                 ax, ay = w / lab["sw"], h / lab["sh"]
@@ -466,7 +481,15 @@ def main():
     # the still at working resolution, with the lock-up
     US = 1
     if up:
-        F, US = up(F), 4
+        cf = os.path.join(CACHE, "still.npy") if CACHE else ""
+        if cf and os.path.exists(cf):
+            F = np.load(cf)
+        else:
+            F = up(F)
+            if cf:
+                os.makedirs(CACHE, exist_ok=True)
+                np.save(cf, F)
+        US = 4
     if lab is not None:
         F = lay(F, US, lab, lab["mid"][0], lab["mid"][1], 1.0, 1.0, lab["col"], 0.5 if US == 1 else 0.2)
 
@@ -496,11 +519,11 @@ def main():
             f, u_ = src(A, pos_A(t * SRC_FPS))
             g = clamp((t - (TR - COVER)) / COVER)
             if g <= 0:
-                return crisp(warp(f, m_out(t) @ C2S, u_))
+                return crisp(warp(f, m_out(t, False) @ C2S, u_))
             acc = 0
             for k in range(6):                                           # the push-in smears like a real fast move
                 gg = clamp(g + k / 5 * (0.5 / FPS) / COVER)
-                acc = acc + warp(f, m_out(t) @ zoom(1 + 1.9 * gg ** 2.2, *PALM) @ C2S, u_)
+                acc = acc + warp(f, m_out(t, False) @ zoom(1 + 1.9 * gg ** 2.2, *PALM) @ C2S, u_)
             x = acc / 6
             sig = 18 * g * g * R
             if sig > 0.4:

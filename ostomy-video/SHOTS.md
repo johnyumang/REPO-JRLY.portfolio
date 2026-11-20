@@ -205,3 +205,13 @@ Logo small and 4K (owner: "just small, subtle, in the middle" and "ensure it's H
   `tamnvcc/Real-ESRGAN-General-x4v3_float` on Hugging Face; `upscale.py`, CPU, about 4 s per clip frame) before they
   are placed, and the lock-up and end card are drawn at 4K. Honest: this is a 4K file with sharper edges and lettering,
   not footage shot in 4K; fine paper and skin texture is the upscaler's guess.
+
+Hand from 12 o'clock (owner: "rotate the hand 12 o'clock" = pouch upright, the holding hand comes down from the top):
+- `still.py hold12` makes that still (one arm over the top rim, pinching the pouch's top edge). Six takes made, kept
+  outside the repo. It needs a new motion clip; the free Wan quota was used up (refills about 20:50 UTC).
+- `SCENE_TURN=right` in `assemble.py` (turn the existing pull and hold a quarter turn) was tried and is NOT good:
+  the paper above and below has to be mirrored and it shows. Left in as an option, not used.
+- `CACHE=<folder>` keeps upscaled frames so a re-render with other logo settings skips the slow upscaling.
+- Other motion models checked: NVIDIA catalog has no video model for this account; ElevenLabs video needs a paid plan;
+  every Hugging Face ZeroGPU Space shares the same used-up quota. Canva's video generator (Seedance, up to 720p)
+  is reachable but spends the owner's Canva AI limit: waiting for his go-ahead.
