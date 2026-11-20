@@ -215,3 +215,13 @@ Hand from 12 o'clock (owner: "rotate the hand 12 o'clock" = pouch upright, the h
 - Other motion models checked: NVIDIA catalog has no video model for this account; ElevenLabs video needs a paid plan;
   every Hugging Face ZeroGPU Space shares the same used-up quota. Canva's video generator (Seedance, up to 720p)
   is reachable but spends the owner's Canva AI limit: waiting for his go-ahead.
+
+Free motion models tried on 20 Nov after the account's ZeroGPU quota ran out (owner: no Canva, no sign-ups, find a free way):
+- `upsampler-wan-2-2-14b-image-to-video.hf.space`: same Wan 2.2 14B, also takes an end frame (`wan.py --end`), already
+  allowed by the environment and called without an account. Refused: the visitor run limit for this machine was used up.
+- Every other Wan / LTX / Hunyuan Space found runs on the same shared ZeroGPU quota. The official `Wan-AI/Wan2.1` Space
+  (Alibaba cloud backend) is down (runtime error). `alibaba-pai/Wan2.1-Fun-1.3B-InP` is up but is a 1.3B model and its
+  host is not allowed from here.
+- NVIDIA catalog: no video model on this account. ElevenLabs: video needs a paid plan. Atlas Cloud / PiAPI: paid
+  resellers with a small sign-up credit; owner declined signing up.
+Next: when the quota refills (about 20:52 UTC), make the pull clip from `hold12` (hand from 12 o'clock) and rebuild.

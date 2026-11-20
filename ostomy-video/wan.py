@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """One image-to-video clip on the free Wan 2.2 Space (github.com/Wan-Video/Wan2.2), with the Space's real error text.
-usage: wan.py STILL OUT.mp4 "PROMPT" [--seconds 3.5] [--steps 6] [--seed 7]
+usage: wan.py STILL OUT.mp4 "PROMPT" [--seconds 3.5] [--steps 6] [--seed 7] [--end LAST_STILL]
+Env WAN_SPACE: another Space with the same interface, e.g. https://upsampler-wan-2-2-14b-image-to-video.hf.space
+(same model; also takes --end, a last frame; called without an account it runs on the visitor quota of this machine).
 
 Free ZeroGPU quota is counted in GPU seconds. The Space asks for 1.5 x (10 + steps * 15 * (frames*480*832 / (81*832*624))**1.5)
 seconds, frames = 1 + 16 * seconds: 68 s for the default 3.5 s / 6 steps, 31 s for 2.0 s / 4 steps. When the quota is
@@ -19,10 +21,15 @@ def main():
     frames = 1 + round(secs * 16)
     print('asks for about %.0f GPU seconds' % (1.5 * (10 + steps * 15 * (frames * 480 * 832 / (81 * 832 * 624)) ** 1.5)), flush=True)
     path = json.loads(curl('-F', 'files=@' + img, H + '/gradio_api/upload').stdout)[0]
+    info = json.loads(curl(H + '/gradio_api/info').stdout)['named_endpoints']['/generate_video']['parameters']
+    extra = []
+    if any(q.get('parameter_name') == 'end_image' for q in info):
+        end = g('--end', '')
+        extra = [{"path": json.loads(curl('-F', 'files=@' + end, H + '/gradio_api/upload').stdout)[0], "meta": {"_type": "gradio.FileData"}} if end else None]
     cfg = json.loads(curl(H + '/config').stdout)
     fn = [d for d in cfg['dependencies'] if d.get('api_name') == 'generate_video'][0]['id']
     sh = uuid.uuid4().hex[:10]
-    body = {"data": [{"path": path, "meta": {"_type": "gradio.FileData"}}, prompt, steps, "", secs, 1, 1, seed, False],
+    body = {"data": [{"path": path, "meta": {"_type": "gradio.FileData"}}, prompt, steps, "", secs, 1, 1, seed, False, *extra],
             "fn_index": fn, "session_hash": sh, "event_data": None, "trigger_id": None}
     curl('-H', 'Content-Type: application/json', '-d', json.dumps(body), H + '/gradio_api/queue/join')
     r = curl('-N', H + '/gradio_api/queue/data?session_hash=' + sh)
