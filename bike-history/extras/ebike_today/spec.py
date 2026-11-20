@@ -1,5 +1,4 @@
 """Bonus episode (was episode 30: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 30, 'ebike_today', 1.14
 HOOK_BIG, HOOK_LINE = 'TODAY', 'The motor\ncomes back.'
 TITLE, TITLE_SIZE = 'THE E-BIKE', 120
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'That’s the story, from 1817 to today.', "That's the story."),
     ('outro', None, 'Start again at episode one.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'motor': (-20, 8, 1.9, (0.02, 0, 0.36), {}), 'battery': (-25, 12, 2.2, (0.22, 0, 0.62), {}), 'pedals': (-30, 10, 2.0, (0.0, 0, 0.34), {}), 'handlebar': (-35, 32, 1.7, (0.36, 0, 0.98), {})}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'motor': (-20, 8, 1.9, (0.02, 0, 0.36), {}), 'battery': (-25, 12, 2.2, (0.22, 0, 0.62), {}), 'pedals': (-30, 10, 2.0, (0.0, 0, 0.34), {}), 'handlebar': (-35, 32, 1.7, (0.36, 0, 0.98), {})}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty modern city bike lane beside a river with trees and glass buildings, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty modern city bike lane beside a river with trees and glass buildings, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = 'TODAY', 'THE E-BIKE'

@@ -1,5 +1,4 @@
 """Episode 27: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 27, 'rc211v_2002', 1.44
 HOOK_BIG, HOOK_LINE = '2002', 'Five\ncylinders.'
 TITLE, TITLE_SIZE = 'HONDA RC211V', 100
@@ -22,7 +21,9 @@ LINES = [
     ('outro', '11 wins that year.', 'Eleven wins that year.'),
     ('outro', None, 'Next: B M W\'s superbike.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty modern race circuit straight at dusk with grandstands far away, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty modern race circuit straight at dusk with grandstands far away, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '2002', 'RC211V'

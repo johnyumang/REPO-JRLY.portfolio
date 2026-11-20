@@ -1,5 +1,4 @@
 """Bonus episode (was episode 22: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 22, 'stumpjumper1981', 1.08
 HOOK_BIG, HOOK_LINE = '1981', 'Off the road.'
 TITLE, TITLE_SIZE = 'STUMPJUMPER', 100
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'The first 125 sold out in six days.', 'The first batch sold out in six days.'),
     ('outro', None, 'Next: the first Ninja.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'drive': (-20, 10, 2.4, (-0.4, 0, 0.38), {'spin_r': -240}), 'brakes': (-40, 18, 2.0, (0.42, 0, 0.62), {}), 'fork': (-40, 10, 2.3, (0.5, 0, 0.5), {}), 'frame': (-35, 12, 3.0, (0.05, 0, 0.6), {}), 'front_wheel': (-10, 4, 2.4, (0.55, 0, 0.36), {'spin_f': -120}), 'handlebar': (-35, 30, 2.0, (0.38, 0, 0.92), {})}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'drive': (-20, 10, 2.4, (-0.4, 0, 0.38), {'spin_r': -240}), 'brakes': (-40, 18, 2.0, (0.42, 0, 0.62), {}), 'fork': (-40, 10, 2.3, (0.5, 0, 0.5), {}), 'frame': (-35, 12, 3.0, (0.05, 0, 0.6), {}), 'front_wheel': (-10, 4, 2.4, (0.55, 0, 0.36), {'spin_f': -120}), 'handlebar': (-35, 30, 2.0, (0.38, 0, 0.92), {})}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty dirt trail through a pine forest on a mountain slope, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty dirt trail through a pine forest on a mountain slope, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1981', 'STUMPJUMPER'

@@ -1,5 +1,4 @@
 """Episode 25: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 25, 'r1_1998', 1.4
 HOOK_BIG, HOOK_LINE = '1998', 'One litre,\nless weight.'
 TITLE, TITLE_SIZE = 'YAMAHA YZF-R1', 92
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'A crossplane crank came in 2009.', 'A crossplane crank came in two thousand nine.'),
     ('outro', None, 'Next: the falcon.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'gearbox': (-10, 6, 2.3, (0.0, 0, 0.4), {}), 'carbs': (-30, 20, 1.9, (-0.02, 0, 0.62), {})}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'gearbox': (-10, 6, 2.3, (0.0, 0, 0.4), {}), 'carbs': (-30, 20, 1.9, (-0.02, 0, 0.62), {})}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty winding coastal road above a blue sea, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty winding coastal road above a blue sea, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1998', 'YAMAHA R1'

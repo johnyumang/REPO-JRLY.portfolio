@@ -1,5 +1,5 @@
 """Episode 10: generated spec for lib/make_episode.sh (facts in facts.md)."""
-import math, shotkit
+import math
 EP, MODEL, WB = 10, 'norton1907', 1.3
 HOOK_BIG, HOOK_LINE = '1907', 'The first\nTT race.'
 TITLE, TITLE_SIZE = 'NORTON AT THE TT', 80
@@ -22,7 +22,9 @@ LINES = [
     ('outro', 'Charlie Collier won the singles.', 'Charlie Collier won the singles.'),
     ('outro', None, "Next: B M W's first motorcycle."),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty narrow country road winding between low stone walls and green hills on an island, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty narrow country road winding between low stone walls and green hills on an island, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1907', 'THE FIRST TT'

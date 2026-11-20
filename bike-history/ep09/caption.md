@@ -9,9 +9,7 @@ George Hendee, a former racing cyclist who made bicycles in Springfield, Massach
 
 It had a diamond bicycle-style frame and a single-cylinder engine rated at 1.75 horsepower. Chain drive was on the bikes sold to the public from 1902.
 
-The first public demonstration was on Cross Street in Springfield on 1 June 1901. In 1903 Hedstrom set a world motorcycle speed record of 56 mph, one source says.
-
-The sources differ on exactly when the company began, so we say simply: 1901.
+The first public demonstration was on Cross Street in Springfield on 1 June 1901. In 1903, according to one source, Hedstrom set a world motorcycle speed record of 56 mph.
 
 Episode 9 of the history of the bike.
 Next: Norton at the first Isle of Man TT, 1907.

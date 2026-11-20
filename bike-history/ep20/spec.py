@@ -1,5 +1,4 @@
 """Episode 20: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 20, 'yzr500_1975', 1.38
 HOOK_BIG, HOOK_LINE = '1975', 'A two-stroke\nchampion.'
 TITLE, TITLE_SIZE = 'YAMAHA YZR500', 92
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Kenny Roberts won three more.', 'Kenny Roberts won three more.'),
     ('outro', None, 'Next: into the desert.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.52, presets={}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.52, presets={}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty race track straight with red and white kerbs and a grandstand in the distance, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty race track straight with red and white kerbs and a grandstand in the distance, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1975', 'YAMAHA YZR500'
