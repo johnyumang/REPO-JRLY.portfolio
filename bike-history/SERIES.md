@@ -32,7 +32,7 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 | 25 | 1998 | Yamaha YZF-R1 | One litre, less weight: the stacked gearbox. |
 | 26 | 1999 | Suzuki Hayabusa | The falcon, and the 300 km/h agreement. |
 | 27 | 2002 | Honda RC211V | A V5; Valentino Rossi's first title of the new class. |
-| 28 | 2009 | BMW S 1000 RR | BMW's first superbike (owner's choice). |
+| 28 | 2009 | BMW S 1000 RR | BMW's superbike; Michael Dunlop's 2014 TT wins (owner's choice). |
 | 29 | 2018 | Ducati Panigale V4 | A road V4 from MotoGP (owner's choice). |
 | 30 | 2019 | Harley-Davidson LiveWire | Harley-Davidson's first electric motorcycle: today (owner's choice). |
 

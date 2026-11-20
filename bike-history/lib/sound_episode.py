@@ -62,7 +62,14 @@ def fx():
     for c in (10, 16, 22, 28): add(out, tick(), c + 8 / 24, 0.9)                 # close-up label lands
     for k in range(8): add(out, clack(430 + 45 * k), 34.2 + 0.11 * k, 0.8)        # parts pull apart
     for k in range(8): add(out, tick(), 34 + 62 / 24 + 0.03 * k, 0.5)             # exploded labels
-    if SPEC.ENGINE_RPM:                                       # a motor: it starts in the hook and runs on the ride
+    if getattr(SPEC, 'ELECTRIC', False):                      # an electric motor: a rising whine, no firing pulses
+        def whine(dur, f0, f1):
+            n = int(dur * SR); tt = np.arange(n) / SR; f = f0 + (f1 - f0) * np.minimum(1, tt / max(0.1, dur * 0.4))
+            ph = 2 * np.pi * np.cumsum(f) / SR
+            return (np.sin(ph) + 0.4 * np.sin(2 * ph) + 0.2 * np.sin(3.01 * ph)) * (0.9 + 0.1 * np.sin(2 * np.pi * 7 * tt))
+        w_ = whine(12.4, 300, 820); r_ = np.linspace(0, 1, len(w_)); add(out, w_ * np.minimum(1, r_ * 8) * np.minimum(1, (1 - r_) * 8), 41.8, 0.5)
+        w2 = whine(2.6, 120, 600); add(out, w2 * np.linspace(0, 1, len(w2)) ** 2, 0.4, 0.35)
+    elif SPEC.ENGINE_RPM:                                     # a motor: it starts in the hook and runs on the ride
         e_ = engine(12.4, SPEC.ENGINE_RPM); r_ = np.linspace(0, 1, len(e_)); add(out, e_ * np.minimum(1, r_ * 8) * np.minimum(1, (1 - r_) * 8), 41.8, 0.9)
         e2 = engine(2.6, SPEC.ENGINE_RPM * 0.7, 33); add(out, e2 * np.linspace(0, 1, len(e2)) ** 2, 0.4, 0.5)
     else:                                                     # pedalling: a soft creak once per pedal turn
