@@ -183,3 +183,25 @@ frames of the pull clip are measured as optical flow and applied to the full-res
 steps are closer (76 / 151 / 170). Not fixed, need fresh motion quota: one bag from start to end, a full-quality pull,
 a sharper reach, a shorter dark. Honest ceiling: free 480p image-to-video stitched in three parts will not pass for one
 filmed take; a current paid video model, or 15 seconds filmed on a phone, would.
+
+### Brand change: ESTES (logo) / OSTOMY
+
+Owner sent the ESTES logo file and asked for it on the pouch with OSTOMY under it. `assemble.py` with `LOGO=<file>`:
+the lettering the picture model wrote (SIIL / OSTOMY) is erased on the hold still and on every clip frame, and the real
+logo is laid in its place, following the tracked position and size; the end card uses the same lock-up. The logo is cut
+from the owner's file, never redrawn by a model. The logo file stays outside this public repository.
+`still.py` still asks the picture model for "SIIL": that word is only the tracking target and is replaced.
+OSTOMY is set in spaced capitals (Inter) to match the wordmark; the owner wrote "Ostomy". Tagline still a placeholder.
+
+Logo turned (owner: "rotate the logo to the right so it's like landscape"): `LOGO_TURN=right` turns the lock-up a
+quarter turn clockwise on the pouch and sets it larger along the pouch's long side (reads with the pouch held
+landscape). The end card stays upright.
+
+Logo small and 4K (owner: "just small, subtle, in the middle" and "ensure it's HD 4K"):
+- `LOGO_SIZE=1.15 LOGO_OPACITY=0.85`: small lock-up in the middle of the pouch's black face (still turned right). The
+  old lettering is now wiped wide and smoothed on every frame, because the small lock-up no longer covers its place.
+- `SCALE=2` gives 2160x3840. The sources are only 480x832 (clips) and 768x1344 (still), so `UPSCALE=<model>` runs every
+  clip frame and the still through Real-ESRGAN general-x4v3 (xinntao/Real-ESRGAN, BSD-3; ONNX export
+  `tamnvcc/Real-ESRGAN-General-x4v3_float` on Hugging Face; `upscale.py`, CPU, about 4 s per clip frame) before they
+  are placed, and the lock-up and end card are drawn at 4K. Honest: this is a 4K file with sharper edges and lettering,
+  not footage shot in 4K; fine paper and skin texture is the upscaler's guess.
