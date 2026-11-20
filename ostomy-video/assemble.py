@@ -15,6 +15,12 @@ Env: TAGLINE (default "COMING SOON"; empty = brand only)
              WORD (default "OSTOMY") under it; the end card uses the same lock-up. The logo is never redrawn by a model.
      LOGO_TURN  "right" or "left": turn the lock-up a quarter turn on the pouch so it reads with the pouch held
              landscape; it is then set larger, along the pouch's long side. The end card stays upright.
+     LOGO_SIZE  lock-up length as a multiple of the old word's width (default 1.45, or 2.45 when turned)
+     LOGO_OPACITY  0..1 (default 1). The lock-up always sits in the middle of the pouch's black face.
+     SCALE   1 = 1080x1920 (default), 2 = 2160x3840 (4K upright)
+     UPSCALE path to the Real-ESRGAN ONNX model (see upscale.py). When set, every clip frame and the still are
+             upscaled 4x by it before they are placed, and the lock-up is laid at that resolution, so a 4K file
+             carries more than enlarged 480p. Without it SCALE=2 is only a plain enlargement.
 
 How the join is made seamless (no cut, no fade effect):
   * the reach ends with the palm closing on the lens: pushed in, defocused and darkened the way a covered lens goes dark
@@ -35,7 +41,8 @@ import cv2
 import onnxruntime as ort
 from PIL import Image, ImageDraw, ImageFont
 
-W, H, FPS = 1080, 1920, 30
+R = int(os.environ.get("SCALE", "1"))
+W, H, FPS = 1080 * R, 1920 * R, 30
 SW, SH = 768, 1331                 # scene space: the hold still, centre-cropped exactly as the motion Space crops it
 CW, CH = 480, 832                  # the motion clips
 FONT = "/usr/share/fonts/truetype/freefont/FreeSerif.ttf"
@@ -45,6 +52,7 @@ WORD = os.environ.get("WORD", "OSTOMY")
 TURN = os.environ.get("LOGO_TURN", "")      # "right" / "left": the lock-up runs along the pouch's long side (pouch held landscape)
 SANS = "/usr/share/fonts/opentype/inter/Inter-Regular.otf"
 LQ = 4.0                           # the lock-up is kept at 4x the still's scale
+UPSCALE = os.environ.get("UPSCALE", "")
 SRC_FPS = 16.0
 COVER = 0.42                       # last part of the reach: the palm seals the lens
 T1 = 0.60                          # the optical pull-back off the lens, laid over the start of the backwards clip
@@ -181,7 +189,8 @@ def track_and_fix(clip, still):
     """Follow the word SIIL through the clip (the picture model keeps it stable) and put the right lettering on every
     frame: with LOGO set, the model's lettering is removed and the real lock-up laid in its place, on the still too;
     without it, only the small word OSTOMY (which the motion model scrambles) is re-laid from the still.
-    Returns the fixed clip, SIIL's measured box per frame (centre x, centre y, width, height) and the still."""
+    Returns the fixed clip, SIIL's measured box per frame (centre x, centre y, width, height), the still, and with
+    LOGO the lock-up and where it goes (it is laid later, at the working resolution, by lay())."""
     fb = sorted(text_bands(still, 65), key=lambda q: -(q[3] - q[2]) * (q[1] - q[0]))
     sy0, sy1, sx0, sx1 = fb[0]
     oy0, oy1, ox0, ox1 = min((q for q in fb[1:] if q[0] >= sy1), key=lambda q: q[0])
@@ -194,21 +203,24 @@ def track_and_fix(clip, still):
     pcx, pcy = (px1 - px0) / 2, (py1 - py0) / 2
     top = 0.10                                                          # erase from just under SIIL ...
     if LOGO:
-        alpha = lockup(round((2.45 if TURN else 1.45) * sw * LQ))        # ... or, with a logo, SIIL as well
+        alpha = lockup(round(float(os.environ.get("LOGO_SIZE", 2.45 if TURN else 1.45)) * sw * LQ))   # ... or, with a logo, SIIL as well
+        alpha = alpha * float(os.environ.get("LOGO_OPACITY", 1))
         if TURN:
             alpha = np.ascontiguousarray(np.rot90(alpha, k=-1 if TURN == "right" else 1))
-        dx, dy = 0.0, (sy0 + oy1) / 2 - (sy0 + sy1) / 2
         pcx, pcy, top = alpha.shape[1] / 2, alpha.shape[0] / 2, -1.18
         Ls = still.astype(np.float32).mean(2)
+        face = cv2.morphologyEx((Ls < 70).astype(np.uint8), cv2.MORPH_CLOSE, np.ones((21, 21), np.uint8))   # the pouch's black face
+        _, lab, st, _ = cv2.connectedComponentsWithStats(face, 8)
+        fx, fy, fw, fh = st[lab[(sy0 + sy1) // 2, (sx0 + sx1) // 2]][:4]
+        mid = (fx + fw / 2, fy + fh / 2)                                 # its middle: where the lock-up goes
+        dx, dy = mid[0] - (sx0 + sx1) / 2, mid[1] - (sy0 + sy1) / 2
         bx0, bx1, by0, by1 = sx0 - 14, sx1 + 14, sy0 - 10, oy1 + 10
         box = Ls[by0:by1, bx0:bx1]
         m = np.zeros(still.shape[:2], np.uint8)
         m[by0:by1, bx0:bx1] = (box > np.median(box) + 26).astype(np.uint8)
         col = still[by0:by1, bx0:bx1][box >= np.percentile(box, 99)].mean(0)
-        clean = cv2.inpaint(still, cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=3), 4, cv2.INPAINT_TELEA)
-        M = np.array([[1 / LQ, 0, (sx0 + sx1) / 2 - pcx / LQ], [0, 1 / LQ, (sy0 + oy1) / 2 - pcy / LQ]], np.float32)
-        a = cv2.GaussianBlur(cv2.warpAffine(alpha, M, (still.shape[1], still.shape[0]), flags=cv2.INTER_AREA), (0, 0), 0.5)[..., None]
-        still = np.clip(clean * (1 - a) + col * a, 0, 255).astype(np.uint8)
+        still = wipe(still, m, 3, 6.0)
+        col_still = col
     unit = LQ if LOGO else 1.0                                          # lock-up pixels per still pixel
     boxes, prev = [], ((sx0 + sx1) / 2 * CW / SW, (sy0 + sy1) / 2 * CH / SH)
     for f in clip:
@@ -224,6 +236,7 @@ def track_and_fix(clip, still):
     bs = b.copy()
     bs[1:-1] = 0.25 * b[:-2] + 0.5 * b[1:-1] + 0.25 * b[2:]
     out = clip.copy()
+    cols = []
     for n, (cx, cy, w, h) in enumerate(bs):
         f = out[n]
         L = f.astype(np.float32).mean(2)
@@ -235,9 +248,16 @@ def track_and_fix(clip, still):
         box = L[y0:y1, x0:x1]
         m = np.zeros((CH, CW), np.uint8)
         m[y0:y1, x0:x1] = (box > np.median(box) + 26).astype(np.uint8)
+        ax, ay = w / sw, h / sh
+        if LOGO:                                                         # nothing will cover the old place: wipe it wide and smooth
+            m[y0:y1, x0:x1] = (box > np.median(box) + 16).astype(np.uint8)
+            out[n] = wipe(f, m, 2 + int(3 * ax), 3 + 4 * ax)
+            sm = L[int(cy - h / 2):int(cy + h / 2), int(cx - w / 2):int(cx + w / 2)]
+            sel = clip[n][int(cy - h / 2):int(cy + h / 2), int(cx - w / 2):int(cx + w / 2)][sm >= np.percentile(sm, 93)]
+            cols.append(sel.mean(0) if len(sel) else np.array([215, 212, 208.0]))
+            continue
         m = cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=2)
         f = cv2.inpaint(f, m, 3, cv2.INPAINT_TELEA)
-        ax, ay = w / sw, h / sh
         M = np.array([[ax / unit, 0, cx + dx * ax - ax * pcx / unit], [0, ay / unit, cy + dy * ay - ay * pcy / unit]], np.float32)
         a = cv2.warpAffine(alpha, M, (CW, CH), flags=cv2.INTER_AREA if ax < unit else cv2.INTER_CUBIC)
         if LOGO or ax > 1.2:
@@ -247,7 +267,26 @@ def track_and_fix(clip, still):
         col = sel.mean(0) if len(sel) else np.array([215, 212, 208.0])
         a = np.clip(a, 0, 1)[..., None]
         out[n] = np.clip(f * (1 - a) + col * a, 0, 255).astype(np.uint8)
-    return out, b, still
+    lab = dict(alpha=alpha, pcx=pcx, pcy=pcy, dx=dx, dy=dy, sw=sw, sh=sh, mid=mid, col=col_still,
+               cols=np.array(cols), bs=bs) if LOGO else None
+    return out, b, still, lab
+
+
+def wipe(img, m, grow, soft):
+    """Remove lettering marked in mask m from a dark surface: fill it in, then smooth the patch so no ghost is left."""
+    m = cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=grow)
+    f = cv2.inpaint(img, m, 4, cv2.INPAINT_TELEA).astype(np.float32)
+    a = cv2.GaussianBlur(cv2.dilate(m, np.ones((3, 3), np.uint8), iterations=grow).astype(np.float32), (0, 0), soft / 2)[..., None]
+    return np.clip(f * (1 - a) + cv2.GaussianBlur(f, (0, 0), soft) * a, 0, 255).astype(np.uint8)
+
+
+def lay(img, u, lab, cx, cy, ax, ay, col, soft):
+    """Lay the lock-up on a picture that is u x its native scale: centre (cx, cy) and size factors (ax, ay) in native px."""
+    k = u / LQ
+    M = np.array([[ax * k, 0, cx * u - ax * k * lab["pcx"]], [0, ay * k, cy * u - ay * k * lab["pcy"]]], np.float32)
+    a = cv2.warpAffine(lab["alpha"], M, (img.shape[1], img.shape[0]), flags=cv2.INTER_AREA if ax * k < 1 else cv2.INTER_CUBIC)
+    a = np.clip(cv2.GaussianBlur(a, (0, 0), soft * u), 0, 1)[..., None]
+    return np.clip(img * (1 - a) + np.asarray(col, np.float32) * a, 0, 255).astype(np.uint8)
 
 
 # ---------------------------------------------------------------- camera
@@ -255,8 +294,8 @@ def m_out(t):
     """Scene -> output, with one slow hand-held drift for the whole video."""
     sc = K * (1.03 + 0.005 * math.sin(0.9 * t))
     th = math.radians(0.40 * math.sin(0.8 * t) + 0.18 * math.sin(1.9 * t + 1))
-    tx = W / 2 + 9 * math.sin(0.7 * t) + 4 * math.sin(1.6 * t + 2)
-    ty = H / 2 + 8 * math.sin(0.55 * t + 1) + 3 * math.sin(1.3 * t)
+    tx = W / 2 + R * (9 * math.sin(0.7 * t) + 4 * math.sin(1.6 * t + 2))
+    ty = H / 2 + R * (8 * math.sin(0.55 * t + 1) + 3 * math.sin(1.3 * t))
     c, s = math.cos(th) * sc, math.sin(th) * sc
     return np.array([[c, -s, tx - (c * SW / 2 - s * SH / 2)], [s, c, ty - (s * SW / 2 + c * SH / 2)], [0, 0, 1.0]])
 
@@ -265,12 +304,16 @@ def zoom(z, cx, cy):
     return np.array([[z, 0, cx * (1 - z)], [0, z, cy * (1 - z)], [0, 0, 1.0]])
 
 
-def warp(img, M):
-    return cv2.warpAffine(img.astype(np.float32), M[:2].astype(np.float32), (W, H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT_101)
+def warp(img, M, u=1):
+    """Place a picture that is u x its native scale; M maps native pixels to the output."""
+    M = M @ np.diag([1.0 / u, 1.0 / u, 1.0])
+    return cv2.warpAffine(img.astype(np.float32), M[:2].astype(np.float32), (W, H),
+                          flags=cv2.INTER_AREA if u > 2 and R < 2 else cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT_101)
 
 
 def crisp(x, amt=0.8, sig=2.2):
-    return x + amt * (x - cv2.GaussianBlur(x, (0, 0), sig)) if amt > 0.01 else x
+    amt = amt * (0.35 if UPSCALE else 1.0)                              # upscaled sources are already sharp
+    return x + amt * (x - cv2.GaussianBlur(x, (0, 0), sig * R)) if amt > 0.01 else x
 
 
 # ---------------------------------------------------------------- end card, sound
@@ -279,15 +322,15 @@ def card_image():
     d = ImageDraw.Draw(im)
 
     def spaced(cy, text, size, track, fill):
-        f = ImageFont.truetype(SANS if LOGO else FONT, size)
+        f = ImageFont.truetype(SANS if LOGO else FONT, size * R)
         ws = [d.textlength(c, font=f) for c in text]
-        x = W / 2 - (sum(ws) + track * (len(text) - 1)) / 2
+        x = W / 2 - (sum(ws) + track * R * (len(text) - 1)) / 2
         for c, w in zip(text, ws):
-            d.text((x, cy), c, font=f, fill=fill, anchor="lm")
-            x += w + track
+            d.text((x, cy * R), c, font=f, fill=fill, anchor="lm")
+            x += w + track * R
     if LOGO:
-        a = lockup(700)[..., None]
-        y0, x0 = 940 - a.shape[0] // 2, (W - a.shape[1]) // 2
+        a = lockup(700 * R)[..., None]
+        y0, x0 = 940 * R - a.shape[0] // 2, (W - a.shape[1]) // 2
         arr = np.asarray(im, np.float32).copy()
         arr[y0:y0 + a.shape[0], x0:x0 + a.shape[1]] = arr[y0:y0 + a.shape[0], x0:x0 + a.shape[1]] * (1 - a) + np.array([24, 24, 28.0]) * a
         im = Image.fromarray(arr.astype(np.uint8))
@@ -296,7 +339,7 @@ def card_image():
         spaced(880, "SIIL", 230, 36, (30, 32, 40))
         spaced(1045, "OSTOMY", 74, 30, (30, 32, 40))
     if TAG:
-        d.line([(W / 2 - 120, 1140), (W / 2 + 120, 1140)], fill=(150, 150, 150), width=2)
+        d.line([((W / 2 - 120 * R), 1140 * R), ((W / 2 + 120 * R), 1140 * R)], fill=(150, 150, 150), width=2 * R)
         spaced(1215, TAG, 40 if LOGO else 46, 16, (90, 92, 100))
     return np.asarray(im, np.float32)
 
@@ -366,7 +409,7 @@ def main():
     im = Image.open(still_p).convert("RGB")
     assert im.size == (768, 1344), "hold still must be 768x1344 (the size the stills are made at)"
     F = np.asarray(im)[6:6 + SH].copy()                       # the Space's own centre crop: rows 6..1337
-    B, box, F = track_and_fix(B, F)
+    B, box, F, lab = track_and_fix(B, F)
     width = box[:, 2]
 
     # colour: bring the clip onto the still (first clip frame == the still)
@@ -396,17 +439,48 @@ def main():
     PALM = (0.45 * SW, 0.42 * SH)
     CEN = (SW / 2, SH / 2)
     card = card_image()
+    up = None
+    if UPSCALE:
+        from upscale import Upscaler
+        up = Upscaler(UPSCALE)
+    idxB = np.arange(len(B), dtype=np.float64)
+    last = {}
+
+    def src(clip, p):
+        """Clip frame at position p and its scale: interpolated, upscaled 4x when an upscaler is given, and (pull clip
+        with a logo) the lock-up laid at that resolution, following the tracked place and size."""
+        key = (id(clip), round(float(p), 3))
+        if key not in last:
+            f, u = rife(clip, p), 1
+            if up:
+                f, u = up(f), 4
+            if lab is not None and clip is B:
+                cx, cy, w, h = (float(np.interp(p, idxB, lab["bs"][:, j])) for j in range(4))
+                ax, ay = w / lab["sw"], h / lab["sh"]
+                f = lay(f, u, lab, cx + lab["dx"] * ax, cy + lab["dy"] * ay, ax, ay,
+                        lab["cols"][int(round(clamp(p, 0, len(B) - 1)))], 0.25 * max(ax, 1.3))
+            last.clear()
+            last[key] = (f, u)
+        return last[key]
+
+    # the still at working resolution, with the lock-up
+    US = 1
+    if up:
+        F, US = up(F), 4
+    if lab is not None:
+        F = lay(F, US, lab, lab["mid"][0], lab["mid"][1], 1.0, 1.0, lab["col"], 0.5 if US == 1 else 0.2)
 
     # a living hold: how every pixel moves over the clip's first frames (the hands' own small movements), smoothed and
     # scaled up to the still; the still is then bent by that much, back and forth, never repeating exactly
     LIVE = 5
     g0 = cv2.cvtColor(B[0], cv2.COLOR_RGB2GRAY)
-    flows = [np.zeros((SH, SW, 2), np.float32)]
+    FW, FH = SW * US, SH * US
+    flows = [np.zeros((FH, FW, 2), np.float32)]
     for k in range(1, LIVE + 1):
         fl = cv2.calcOpticalFlowFarneback(g0, cv2.cvtColor(B[k], cv2.COLOR_RGB2GRAY), None, 0.5, 4, 25, 3, 7, 1.5, 0)
         fl = cv2.GaussianBlur(fl, (0, 0), 6)
-        flows.append(cv2.resize(fl, (SW, SH), interpolation=cv2.INTER_LINEAR) * np.array([SW / CW, SH / CH], np.float32))
-    gx, gy = np.meshgrid(np.arange(SW, dtype=np.float32), np.arange(SH, dtype=np.float32))
+        flows.append(cv2.resize(fl, (FW, FH), interpolation=cv2.INTER_LINEAR) * np.array([FW / CW, FH / CH], np.float32))
+    gx, gy = np.meshgrid(np.arange(FW, dtype=np.float32), np.arange(FH, dtype=np.float32))
 
     def living_still(t):
         u = t - T_HELD
@@ -419,47 +493,48 @@ def main():
 
     def frame(t):
         if t < TR:                                                       # ---- the hand comes in and covers the lens
-            f = rife(A, pos_A(t * SRC_FPS))
+            f, u_ = src(A, pos_A(t * SRC_FPS))
             g = clamp((t - (TR - COVER)) / COVER)
             if g <= 0:
-                return crisp(warp(f, m_out(t) @ C2S))
+                return crisp(warp(f, m_out(t) @ C2S, u_))
             acc = 0
             for k in range(6):                                           # the push-in smears like a real fast move
                 gg = clamp(g + k / 5 * (0.5 / FPS) / COVER)
-                acc = acc + warp(f, m_out(t) @ zoom(1 + 1.9 * gg ** 2.2, *PALM) @ C2S)
+                acc = acc + warp(f, m_out(t) @ zoom(1 + 1.9 * gg ** 2.2, *PALM) @ C2S, u_)
             x = acc / 6
-            sig = 18 * g * g
+            sig = 18 * g * g * R
             if sig > 0.4:
                 x = cv2.GaussianBlur(x, (0, 0), sig)
             d = sstep(0.45, 1.0, g)                                      # the palm shuts the light out; skin glows warm
-            return crisp(x, 0.8 * (1 - clamp(sig / 3))) * (1 - d) * np.array([1.0, 1 - 0.25 * d, 1 - 0.38 * d], np.float32)
+            return crisp(x, 0.8 * (1 - clamp(sig / (3 * R)))) * (1 - d) * np.array([1.0, 1 - 0.25 * d, 1 - 0.38 * d], np.float32)
         if t < T_HELD:                                                   # ---- the pouch leaves the lens and rises
             u = t - TR
-            f = rife(B, pos_B(X0 - u * SRC_FPS))
+            f, u_ = src(B, pos_B(X0 - u * SRC_FPS))
 
             def zc_at(uu):                                               # optical pull-back: distance on a minimum-jerk path
                 return 1 / (1 / ZC0 + (1 - 1 / ZC0) * minjerk(uu / T1))
             zc = zc_at(u)
             if zc < 1.002:
-                return crisp(warp(f, m_out(t) @ C2S))
+                return crisp(warp(f, m_out(t) @ C2S, u_))
             acc = 0
             for k in range(6):                                           # smear across the shutter, like any fast move
-                acc = acc + warp(f, m_out(t) @ zoom(zc_at(u + k / 5 * 0.5 / FPS), *CEN) @ C2S)
+                acc = acc + warp(f, m_out(t) @ zoom(zc_at(u + k / 5 * 0.5 / FPS), *CEN) @ C2S, u_)
             x = acc / 6
-            sig = 7 * (zc - 1)                                           # out of focus while it is this near
+            sig = 7 * (zc - 1) * R                                       # out of focus while it is this near
             if sig > 0.4:
                 x = cv2.GaussianBlur(x, (0, 0), sig)
-            return crisp(x, 0.8 * (1 - clamp(sig / 3))) * sstep(Z0, 0.15, 1 / (zc * SMAX))   # light returns as it lifts
-        hi = warp(living_still(t), m_out(t))                             # ---- held: the full-resolution still, alive
+            return crisp(x, 0.8 * (1 - clamp(sig / (3 * R)))) * sstep(Z0, 0.15, 1 / (zc * SMAX))   # light returns as it lifts
+        hi = warp(living_still(t), m_out(t), US)                         # ---- held: the full-resolution still, alive
         w = sstep(0, AF, t - T_HELD)                                     # focus settles
         if w < 1:
-            hi = crisp(warp(B[0], m_out(t) @ C2S)) * (1 - w) + hi * w
+            fb, ub = src(B, 0.0)
+            hi = crisp(warp(fb, m_out(t) @ C2S, ub)) * (1 - w) + hi * w
         if t >= TC:
             x0 = int(round(W * (1 - (1 - (1 - clamp((t - TC) / CARD_IN)) ** 3))))
             if x0 < W:
                 hi[:, x0:] = card[:, :W - x0]
                 if x0 > 0:
-                    sh = np.exp(-np.arange(min(x0, 60))[::-1] / 18.0)[None, :, None]
+                    sh = np.exp(-np.arange(min(x0, 60 * R))[::-1] / (18.0 * R))[None, :, None]
                     hi[:, x0 - sh.shape[1]:x0] *= (1 - 0.25 * sh)
         return hi
 
