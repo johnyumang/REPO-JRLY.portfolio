@@ -19,7 +19,7 @@ LINES = [
     ('explode', 'Engine, frame, fairing, wheels: about 148 kg dry.', 'Engine, frame, fairing, wheels. About a hundred and forty-eight kilos.'),
     ('ride', 'Suzuka, 7 April 2002: Valentino Rossi wins the opener, in the wet.', 'Suzuka, April two thousand two. Valentino Rossi wins the first race, in the wet.'),
     ('ride', 'He clinches the title in Rio with four races left.', 'He clinches the title in Rio, with four races left.'),
-    ('outro', '11 wins, 355 points.', 'Eleven wins. Three hundred and fifty-five points.'),
+    ('outro', '11 wins that year.', 'Eleven wins that year.'),
     ('outro', None, 'Next: B M W\'s superbike.'),
 ]
 def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
