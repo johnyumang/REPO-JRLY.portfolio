@@ -1,5 +1,4 @@
 """Episode 21: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 21, 'r80gs_1980', 1.465
 HOOK_BIG, HOOK_LINE = '1980', 'The first big\nadventure bike.'
 TITLE, TITLE_SIZE = 'BMW R 80 G/S', 92
@@ -22,7 +21,9 @@ LINES = [
     ('outro', '21,864 were built, until 1987.', 'Twenty-one thousand were built, until eighty-seven.'),
     ('outro', None, 'Next: the first Ninja.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'front_wheel': (-10, 4, 2.6, (0.6, 0, 0.38), {'spin_f': -120})}, ride_z=0.95)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'front_wheel': (-10, 4, 2.6, (0.6, 0, 0.38), {'spin_f': -120})}, ride_z=0.95)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty sandy desert track between low dunes under a pale sky, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty sandy desert track between low dunes under a pale sky, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1980', 'BMW R 80 G/S'

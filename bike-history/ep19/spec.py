@@ -1,5 +1,4 @@
 """Episode 19: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 19, 'z1_1972', 1.49
 HOOK_BIG, HOOK_LINE = '1972', 'Twin cams,\nfour cylinders.'
 TITLE, TITLE_SIZE = 'KAWASAKI Z1', 100
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'About 85,000 were built.', 'About eighty-five thousand were built.'),
     ('outro', None, 'Next: a two-stroke champion.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty banked race track straight beside the sea under a clear sky, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty banked race track straight beside the sea under a clear sky, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1972', 'KAWASAKI Z1'

@@ -1,5 +1,4 @@
 """Episode 26: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 26, 'hayabusa1999', 1.485
 HOOK_BIG, HOOK_LINE = '1999', 'The falcon.'
 TITLE, TITLE_SIZE = 'SUZUKI HAYABUSA', 88
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Built in Toyokawa, Japan.', 'Built in Toyokawa, Japan.'),
     ('outro', None, 'Next: five cylinders.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty long straight highway across flat farmland to the horizon, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty long straight highway across flat farmland to the horizon, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1999', 'HAYABUSA'

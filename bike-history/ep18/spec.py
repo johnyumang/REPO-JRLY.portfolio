@@ -1,5 +1,4 @@
 """Episode 18: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 18, 'cb750_1969', 1.46
 HOOK_BIG, HOOK_LINE = '1969', 'The first\nsuperbike.'
 TITLE, TITLE_SIZE = 'HONDA CB750', 100
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Top speed: 125 mph.', 'Top speed, a hundred and twenty-five.'),
     ('outro', None, 'Next: the New York Steak.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty wide American coastal highway with palm trees, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty wide American coastal highway with palm trees, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1969', 'HONDA CB750'

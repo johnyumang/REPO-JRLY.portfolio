@@ -1,5 +1,4 @@
 """Episode 15: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 15, 'vincent1948', 1.435
 HOOK_BIG, HOOK_LINE = '1948', 'A V-twin\nbuilt for speed.'
 TITLE, TITLE_SIZE = 'VINCENT BLACK SHADOW', 66
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Built until 1955.', 'It was built until nineteen fifty-five.'),
     ('outro', None, 'Next: riding on a featherbed.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty flat white salt lake under a huge blue sky, distant mountains, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty flat white salt lake under a huge blue sky, distant mountains, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1948', 'BLACK SHADOW'

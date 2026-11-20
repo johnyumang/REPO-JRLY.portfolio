@@ -1,5 +1,4 @@
 """Episode 29: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 29, 'panigale_v4_2018', 1.469
 HOOK_BIG, HOOK_LINE = '2018', 'A V4 from\nMotoGP.'
 TITLE, TITLE_SIZE = 'DUCATI PANIGALE V4', 72
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'He had won on his debut, Phillip Island 2019.', 'He had won on his debut, at Phillip Island.'),
     ('outro', None, 'Next: Harley goes electric.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty modern race circuit straight beside palm trees and the sea, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty modern race circuit straight beside palm trees and the sea, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '2018', 'PANIGALE V4'

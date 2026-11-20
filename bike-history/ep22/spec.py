@@ -1,5 +1,4 @@
 """Episode 22: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 22, 'gpz900r_1984', 1.495
 HOOK_BIG, HOOK_LINE = '1984', 'The first\nNinja.'
 TITLE, TITLE_SIZE = 'KAWASAKI GPZ900R', 80
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Nineteen years in production.', 'Nineteen years in production.'),
     ('outro', None, 'Next: a race bike with lights.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty runway beside a desert airfield at sunrise, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty runway beside a desert airfield at sunrise, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1984', 'THE FIRST NINJA'

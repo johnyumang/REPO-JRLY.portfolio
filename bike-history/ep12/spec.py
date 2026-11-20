@@ -1,5 +1,5 @@
 """Episode 12: generated spec for lib/make_episode.sh (facts in facts.md)."""
-import math, shotkit
+import math
 EP, MODEL, WB = 12, 'knuckle1936', 1.5
 HOOK_BIG, HOOK_LINE = '1936', 'Overhead\nvalves.'
 TITLE, TITLE_SIZE = 'THE KNUCKLEHEAD', 92
@@ -22,7 +22,9 @@ LINES = [
     ('outro', 'Its valves were redesigned in year one.', 'Its valves were redesigned in year one.'),
     ('outro', None, 'Next: two cylinders, side by side.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'rockers': (-15, 18, 1.9, (0.05, 0, 0.72), {})}, ride_z=0.88)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'rockers': (-15, 18, 1.9, (0.05, 0, 0.72), {})}, ride_z=0.88)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty two-lane American desert highway with a few telegraph poles, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty two-lane American desert highway with a few telegraph poles, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1936', 'THE KNUCKLEHEAD'

@@ -1,5 +1,4 @@
 """Episode 24: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
-import shotkit
 EP, MODEL, WB = 24, 'ducati916_1994', 1.41
 HOOK_BIG, HOOK_LINE = '1994', 'The superbike\nicon.'
 TITLE, TITLE_SIZE = 'DUCATI 916', 110
@@ -22,7 +21,9 @@ LINES = [
     ('outro', 'Then came the 996.', 'Then came the nine-nine-six.'),
     ('outro', None, 'Next: a litre, and less weight.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+def shots(ease, out):
+    import shotkit                      # imported here so the spec can be read without lib/ on the path
+    return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
 COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty Italian race circuit straight with red and white kerbs and hills behind, soft morning light from the left, light haze. The road fills the lower third of the picture.'
 THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty Italian race circuit straight with red and white kerbs and hills behind, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
 THUMB_BIG, THUMB_NAME = '1994', 'DUCATI 916'
