@@ -44,6 +44,8 @@ for name, n, fn in SHOTS:
         B['parts']['front_wheel'].rotation_euler = (0, D(-p.get('spin_f', 0)), 0)
         B['parts']['rear_wheel'].rotation_euler = (0, D(-p.get('spin_r', 0)), 0)
         B['explode'](p.get('explode', 0))
+        for pn, off in p.get('move', {}).items():          # slide one part out on its own (e.g. an inner tube)
+            B['parts'][pn].location += Vector(off)
         bpy.context.view_layer.update()
         t = B['root'].matrix_world @ Vector(p['target']); el = D(p['el'])
         cam.location = t + p['dist'] * Vector((0, -math.cos(el), math.sin(el)))
