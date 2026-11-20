@@ -1,32 +1,32 @@
-# Episode 28 facts: the Suzuki Hayabusa (GSX1300R), 1999
+# Episode 28 facts: the BMW S 1000 RR, 2009
 
-Checked on 2026-11-20. S = https://en.wikipedia.org/wiki/Suzuki_Hayabusa (read to character 100000 of 134291) · B = https://en.wikipedia.org/wiki/Honda_CBR1100XX_Super_Blackbird.
-Not found (404): a "Gentlemen's agreement" page, "Motorcycle speed limiter" page.
+Checked on 2026-11-20. S = https://en.wikipedia.org/wiki/BMW_S1000RR. Other pages tried and not used: BMW_Motorrad_in_motorsport (404).
 
 | Fact | Value | Source |
 |---|---|---|
-| Builder, where, when | Suzuki; production started 1999; assembled at Toyokawa, Aichi, Japan (also Gurgaon, India); styled by Suzuki's Koji Yoshiura | S |
-| Name | Hayabusa (隼) is Japanese for peregrine falcon; the page says the falcon preys on blackbirds, reflecting the goal of unseating the Honda CBR1100XX Super Blackbird | S |
-| Engine | 1,299 cc liquid-cooled inline-four, DOHC, 16-valve, fuel-injected; bore 81.0 mm x stroke 63.0 mm; 129 kW (173 hp) claimed at the crank; 6-speed, chain drive | S |
-| Frame | conventional twin-beam frame; rake 24.2 degrees | S |
-| Brakes | 6-pot Tokico calipers on 320 mm stainless front discs | S |
-| Tyres and wheels | Bridgestone Battlax BT56, front 120/70-ZR-17, rear 190/50-ZR-17; both wheels 17-inch | S |
-| Suspension | inverted telescopic fork, fully adjustable; link-type rear | S |
-| Wheelbase | 1,485 mm (58.5 in) | S |
-| Weight | "215-242 kg dry; 250-255.3 kg wet" (range given) | S |
-| Seat height | 805 mm | S |
-| Top speed 1999-2000 | 303-312 km/h (188-194 mph) in the lead; infobox and table give 312 km/h (194 mph). B: "In 1999, the Suzuki Hayabusa overtook the CBR1100XX"; B also cites Guinness World Records 2000 Millennium Edition listing 194 mph (312 km/h) | S, B |
-| Blackbird | B: top speed "177 mph (285 km/h)" (tests vary: 170 mph in 1997, 174-177 mph in 1999). S: Hayabusa beat it by at least 16 km/h (10 mph) | S, B |
-| The agreement | S: Japanese and European manufacturers informally agreed to limit top speed electronically; began "late 2000", "fully into effect for the 2001 model year"; 2001-2007 Hayabusa: 299 km/h (186 mph). No date or signatory given | S |
-| Sales | over 100,000 sold worldwide from 1999 to June 2007 | S |
-| Rider moment | Bill Warner, 17 July 2011, 311.945 mph (502.027 km/h) on a turbocharged, highly modified Hayabusa, Loring Commerce Centre, Limestone, Maine (not 1999 and not stock). No named 1999 rider found | S |
-| What came next | 2008 second generation: 1,340 cc, 147 kW (197 hp) claimed; third generation announced 5 February 2021 (GSX1300RR, 140 kW / 190 hp claimed) | S |
+| Builder, where, when | BMW Motorrad; "introduced in Munich in April 2008" | S |
+| Why it exists | made to compete in the 2009 Superbike World Championship; "BMW made 1,000 S1000RRs in 2009 to satisfy World Superbike homologation requirements"; expanded production for sale in 2010 | S |
+| What was new | ABS and dynamic traction control, "a first for road-going superbike at the time"; first production motorcycle to offer an optional quick shifter | S |
+| Part 1: engine | 998 cc, 4-stroke, 16-valve DOHC, liquid-cooled inline-four, bore x stroke 80 mm x 49.7 mm, 113 Nm at 11,000 rpm, 6-speed, chain final drive | S |
+| Part 2: frame | aluminium twin-spar frame (spec table) | S |
+| Part 3: suspension | inverted telescopic fork, 46 mm (2010-18 models) | S |
+| Part 4: brakes | dual 320 mm front discs with 4-piston calipers; single 220 mm rear disc | S |
+| Size: wheelbase | 1,422 mm (2010-14 model) | S |
+| Size: wheels | front 120/70-17 (spec table) | S |
+| Size: weight | 197 kg (spec table) | S |
+| Rider moment: Isle of Man TT 2014 | Michael Dunlop won the Superbike race on 31 May 2014, the Superstock race three days later and the Senior TT on 6 June (island place from the event name; no circuit detail beyond "Isle of Man TT") | S |
+| Rider moment, other | 2016 TT: Dunlop won the Superbike and Senior races, one lap averaging 215.591 km/h (133.962 mph). WSBK: Marco Melandri won at Donington Park on 13 May 2012 | S |
+| 2009 WSBK | riders Troy Corser and Rubén Xaus; "The highest race result achieved by Corser was fifth place in the Czech Republic"; Xaus seventh in Italy | S |
+| What came next | 2012 revisions; 2015 about 4 kg lighter; 2019 new 999 cc engine, 152 kW (204 hp) at 13,500 rpm, ShiftCam, 6.5-inch TFT; M 1000 RR "unveiled in September 2020" | S |
 
 ## Where sources disagree / not used
 
-- 1999-2000 top speed: 303-312 km/h (lead) vs 312 km/h (infobox): caption says "about 310 km/h (194 mph) claimed" only with "sources vary".
-- The limit: S says 186 mph = 299 km/h, but the body also says "300 km/h (186 mph)", and a footnote says sources differ on exactly 300 km/h or 186 mph. Caption: "around 300 km/h (186 mph)" and "informally agreed"; never "signed".
-- Date of the agreement: only "late 2000" / 2001 model year. No year-1999 agreement confirmed.
-- Dry weight is a wide range (215-242 kg): not used as one number.
-- Kawasaki ZZR1100: not on S page; Kawasaki ZX-12R (2000) "fell 6 km/h (4 mph) short" is on S. Fastest-of-the-century wording differs between text ("century") and footnote ("millennium").
-- Not confirmed: a head-to-head race on a specific date (B has none).
+- The page never calls the S 1000 RR "BMW's first superbike": not claimed in the caption.
+- No 2009 win is stated, so the "rider moment" is the 2014 TT (page: Dunlop). The 2009 WSBK best was only fifth.
+- Traction control: lead says optional, 2009 section says fitted; the caption says only "ABS and traction control" as new for a road superbike.
+- Power: 215 hp at 14,500 rpm (infobox) vs 148.4 kW (199.0 hp) at 13,500 rpm (lead): not used.
+- Weight: 191.8 kg (infobox) vs 204 kg (lead) vs 197 kg (table): not used in the caption; 197 kg is the table figure only.
+- Rear tyre 200/55 (infobox) vs 190/55 (table); seat height 832 mm vs 815-824 mm; compression ratio: not used.
+- Wheelbase differs by generation (1,422 / 1,425 / 1,441 mm); 1,422 mm is the 2010-14 figure, not stated for 2009.
+- Peter Hickman Macau wins marked "citation needed": not used. Troy Corser/Xaus second-hand details beyond above: not used.
+- Not confirmed: wheel diameter of rear, any 2009 podium, a WSBK title for the S 1000 RR.

@@ -1,20 +1,20 @@
 # Episode 24 caption (post text)
 
-Facts match ep24/facts.md.
+Facts match ep26/facts.md.
 
 ```
-1985: a race bike with a number plate. 🏁
+1994: the most beautiful bike of its decade? 😍
 
-Suzuki showed the GSX-R750 at the Cologne show in October 1984, as a 1985 model. Its big idea was weight: a lightweight aluminium alloy frame and an air-and-oil-cooled engine instead of heavy water cooling.
+Massimo Tamburini and Sergio Robbiano, with their team at the Cagiva Research Centre in San Marino, designed the Ducati 916. Under the bodywork: a 916 cc 90 degree V-twin, a chrome-moly trellis frame and a single-sided swingarm made for faster wheel changes in races.
 
-Four cylinders, about 750 cc, twin front discs with 4-piston calipers, a six-speed gearbox. Listed weight: 176 kg, "the lightest of the superbikes by a good margin".
+Wheelbase 1,410 mm, dry weight 194.5 kg, twin 320 mm front discs.
 
-The GSX-R1100 followed in 1986.
+Carl Fogarty rode the new 916 to the 1994 Superbike World Championship title, and Ducati kept winning with it in 1995, 1996 and 1998.
 
 Episode 24 of the history of the bike.
-Next: the Lotus 108, Chris Boardman's 1992 Olympic bike.
+Next: the Yamaha YZF-R1, 1998.
 
-Lighter or faster: which wins for you? 👇
+Which bike would you put on your wall? 👇
 
-#bikehistory #motorcyclehistory #suzuki #gsxr #gsxr750 #superbike #history #shorts
+#bikehistory #motorcyclehistory #ducati #ducati916 #carlfogarty #superbike #history #shorts
 ```

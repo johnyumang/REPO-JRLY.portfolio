@@ -26,17 +26,21 @@ yet: each episode gets its own `facts.md` with sources before it is built.
 | 19 | 1972 | Kawasaki Z1 | 900 cc and twin cams answer the CB750. |
 | 20 | 1975 | Yamaha YZR500 | Giacomo Agostini wins the 500 cc world title on a two-stroke. |
 | 21 | 1980 | BMW R 80 G/S | The first big adventure bike; Hubert Auriol wins Paris-Dakar on it in 1981. |
-| 22 | 1981 | Specialized Stumpjumper | The first mass-produced mountain bike. |
-| 23 | 1984 | Kawasaki GPZ900R Ninja | Liquid-cooled, 16 valves: the modern sportbike begins. |
-| 24 | 1985 | Suzuki GSX-R750 | A race bike with lights. |
-| 25 | 1989 | Lotus 108 (story to 1992) | The carbon monocoque Chris Boardman rode to Olympic gold in 1992. |
-| 26 | 1994 | Ducati 916 | Massimo Tamburini's design; Carl Fogarty wins World Superbike titles on it. |
-| 27 | 1998 | Yamaha YZF-R1 | Litre power in a 600-sized frame. |
-| 28 | 1999 | Suzuki Hayabusa | Top-speed king, and the reason for the 299 km/h gentlemen's agreement. |
-| 29 | 2002 | Honda RC211V | Valentino Rossi wins the first four-stroke MotoGP title. |
-| 30 | today | E-bike and electric motorcycle | The motor returns, silent. Which machine to feature is still open. |
+| 22 | 1984 | Kawasaki GPZ900R Ninja | The first 16-valve liquid-cooled four on a motorcycle; Top Gun. |
+| 23 | 1985 | Suzuki GSX-R750 | A race bike with lights: aluminium frame, air-and-oil cooled. |
+| 24 | 1994 | Ducati 916 | Tamburini's design; Carl Fogarty's World Superbike title. |
+| 25 | 1998 | Yamaha YZF-R1 | One litre, less weight: the stacked gearbox. |
+| 26 | 1999 | Suzuki Hayabusa | The falcon, and the 300 km/h agreement. |
+| 27 | 2002 | Honda RC211V | A V5; Valentino Rossi's first title of the new class. |
+| 28 | 2009 | BMW S 1000 RR | BMW's superbike; Michael Dunlop's 2014 TT wins (owner's choice). |
+| 29 | 2018 | Ducati Panigale V4 | A road V4 from MotoGP (owner's choice). |
+| 30 | 2019 | Harley-Davidson LiveWire | Harley-Davidson's first electric motorcycle: today (owner's choice). |
 
 Open questions for the owner: bicycles and motorcycles in one season (as here) or two; and whether to add machines
 with a local story for a Filipino audience (for example the underbone and the tricycle).
 
 Order note: the owner moved the first Harley-Davidson to episode 4; the rows from the Rover onward follow it, still in date order.
+
+
+Order note 2 (owner, 2026-11-20): from episode 10 on, motorcycles only, ending on modern bikes. The Stumpjumper,
+the Lotus 108 and the e-bike moved to extras/ as bonus episodes (specs and facts kept).

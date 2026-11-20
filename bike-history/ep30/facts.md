@@ -1,28 +1,28 @@
-# Episode 30 facts: the electric bicycle today (series finale)
+# Episode 30 facts: the Harley-Davidson LiveWire, 2019
 
-Checked on 2026-11-20. E = https://en.wikipedia.org/wiki/Electric_bicycle (redirects to "E-bike"; read to character 100000 of 193527, the rest was references) · O = https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters (read to character 100000 of 144921).
+Checked on 2026-11-20. L = https://en.wikipedia.org/wiki/Harley-Davidson_LiveWire. Not found (404): LiveWire_(motorcycle_company), LiveWire_(brand), LiveWire_(electric_vehicle_company).
 
 | Fact | Value | Source |
 |---|---|---|
-| Who/when (history) | 1895: Ogden Bolton Jr., US patent 552,271, a rear hub motor; 1897 Hosea W. Libbey (US 596,272); 1899 John Schnepf (US 627,066); 1992 Vector Services' Zike with NiCad batteries; 1997 Takada team Japanese patent for torque sensing | E |
-| What a pedelec is | "an e-bike with mandatory pedalling, a relatively low-powered electric motor and a limited top speed" | E |
-| Part 1: motor (mid-drive) | mid-drive motors sit near the bottom bracket and drive the chain; "typically limited to around 250-500 W" to protect the drivetrain | E |
-| Part 1b: motor (hub) | brushless hub motors are "the most common in modern designs", usually in the rear wheel | E |
-| Part 2: battery | "Most e-bikes now use lithium-ion polymer" batteries; "the battery usually lasts 40 km (25 mi) to 120 km (75 mi) per charge, depending on the power level used" | E |
-| Part 3: pedal-assist sensor | sensors "detect the pedaling speed, the pedaling force, or both" | E |
-| Part 4: controller/throttle | power-on-demand e-bikes use a throttle, usually handlebar-mounted (pedelecs need pedalling) | E |
-| EU rules (EN15194) | assistance only when pedalling, above 6 km/h; "The motor cuts out once 25 km/h (16 mph) is reached"; continuous rated power "not more than 250 W" | E |
-| US classes | Class 1: pedal-only, 20 mph, 750 W; Class 2: throttle, 20 mph, 750 W; Class 3: pedal-only, 28 mph, 750 W (speedometer and helmet mandatory, minimum age 16) | E |
-| S-pedelec | motor above 250 W, not cut at 25 km/h; Switzerland 45 km/h under motor | E |
-| Size/weight | no typical weight given on the page. Only China's 2025 standard: maximum 63 kg for new e-bikes | E |
-| Rider/sales moments | EU sales: 200,000 (2007), 700,000 (2010), 2 million (2016), "over 5 million" (2021); Germany: over 1 million (2019); China: 380 million registered as of 2025 (stated); Netherlands 547,000 (2020) | E |
-| Electric motorcycles | "On 19 September 1895, a patent application for an 'electrical bicycle' was filed by Ogden Bolton Jr." (O); 1974: Mike Corbin record "266.165 km/h (165.387 mph)"; 2011: "316.899 km/h (196.912 mph) at Bonneville"; "Electric machines have better 0 to 60 acceleration, since they develop full torque immediately" | O |
-| What came next | nothing: series finale | |
+| Builder, when | Harley-Davidson; its first electric vehicle; production year 2019 (preorders planned January 2019, deliveries began September 2019) | L |
+| Earlier | shown to media June 2014; public test rides at US dealers later in 2014, Europe and Canada in 2015; powertrain prototypes developed with Mission Motors | L |
+| What was new | first Harley electric motorcycle; supports Level 3 DC fast charging | L |
+| Part 1: motor | liquid-cooled, longitudinally mounted three-phase induction motor, 105 hp (78 kW), 86 lb-ft (117 N.m) | L |
+| Part 2: battery | 15.5 kWh total, 13.6 kWh usable, Samsung cells; Level 1 charger stored under the seat | L |
+| Part 3: frame | cast aluminum trellis frame and swingarm | L |
+| Part 4: brakes | dual front disc, monobloc 4-piston front calipers, dual-piston rear | L |
+| Drive | single speed, belt drive via a 90 degree bevel gear (page does not say "no clutch" in words; single speed implies no gear changes) | L |
+| Size | 17-inch front and rear wheels; 562 lb (255 kg) dry; length 84.1 in | L |
+| Performance | 0-60 mph in 3.0 s; range 146 mi (235 km) cited from Jalopnik | L |
+| Rider moment | March 2020: Swiss rider Michel von Tell rode 1,723 km (1,071 mi) in 24 hours, route Zurich - Stuttgart - Lake Constance - Ruggell, Liechtenstein, total time 23 h 48 min, an unofficial electric distance record (previous 1,317 km on a Zero S, 2018) | L |
+| Also | 2020: Long Way Up, Ewan McGregor and Charley Boorman on LiveWires, South America to North America, 13,000 miles, 13 countries, 100 days | L |
+| What came next | July 2021: LiveWire ONE announced as first product of the new brand; December 2021: Harley-Davidson announced a spin-off as "LiveWire", to go public in H1 2022 via a SPAC valued at $1.77 billion | L |
 
 ## Where sources disagree / not used
 
-- Rider moment: no single dated place. Use a sales fact (EU over 5 million in 2021) as the "moment", noted as a sales fact.
-- The 5 million EU figure comes from a reference headline ("European electric bike sales pass 5 million, all bikes 22 million", 7 July 2022); the body says "over 5 million (2021)". Whether it is per year or cumulative is not stated; the caption does not say.
-- China: 2008 "over 21 million" is sales, 2009 "22.2 million" is production; 380 million "registered": not used in the caption (mixed metrics).
-- Typical weight, range of a modern mid-drive bike, "cadence" and "torque" sensors by name (only torque sensing in 1997 history): not stated, not used. Mid-drive gear/efficiency claims are marked "citation needed" on the page.
-- Bolton's 1895 patent: described as electric bicycle (E) and as the earliest known electric motorcycle patent (O): shown as "electrical bicycle" patent only.
+- Top speed: infobox 115 mph vs text 110 mph (180 km/h): not used.
+- Manufacturer: infobox says LiveWire; 2014 text says Mission Motors made prototype powertrains: only "Harley-Davidson" used.
+- Record distance: 1,317 km vs 1,316.88 km in its own reference title (rounding).
+- "No clutch": not stated outright; wording uses "single speed".
+- Not confirmed: wheelbase, seat height, suspension details, whether the SPAC listing completed (only the announcement is on the page), price (Jalopnik "over $29,000"; not used), the later S2 models.
+- Page names "Charlie Boorman" in one place; the caption uses "Ewan McGregor" only.

@@ -1,27 +1,29 @@
-# Episode 29 facts: the Honda RC211V, 2002
+# Episode 29 facts: the Ducati Panigale V4, 2018
 
-Checked on 2026-11-20. H = https://en.wikipedia.org/wiki/Honda_RC211V (fully read) · M = https://en.wikipedia.org/wiki/2002_Grand_Prix_motorcycle_racing_season (read to character 100000 of 281007) · V = https://en.wikipedia.org/wiki/Valentino_Rossi (read to character 100000 of 261672).
-Not found (404): 2002_MotoGP_World_Championship.
+Checked on 2026-11-20. P = https://en.wikipedia.org/wiki/Ducati_Panigale_V4 · B = https://en.wikipedia.org/wiki/%C3%81lvaro_Bautista ·
+W = https://en.wikipedia.org/wiki/2022_Superbike_World_Championship. Not found (404): none for this episode.
 
 | Fact | Value | Source |
 |---|---|---|
-| Builder, when | HRC (Honda Racing Corporation); developed in 2001 "to replace the two-stroke Honda NSR500"; raced 2002-2006. The page does not say where it was built | H |
-| What was new | 2002 rules kept two-strokes at 500 cc but allowed four-strokes up to 990 cc with three to six cylinders; M: the season "marked the start of a new era in the premier class with the arrival of 990cc four-stroke bikes" | H, M |
-| Part 1: engine | 75.5 degree V5, four-stroke, DOHC, 20 valves (4 per cylinder), water-cooled; 990 cc | H |
-| Part 2: frame | twin-spar frame | H |
-| Part 3: rear suspension | Unit Pro-Link rear; telescopic front | H |
-| Part 4: wheels | front 17 in (2002), rear 16.5 in | H |
-| Power 2002 | 175.5 kW (235.3 hp) at 15,000 rpm (specs table) | H |
-| Size and weight | wheelbase 1,440 mm (infobox) / 1,450 mm (table); length 2,040 / 2,050 mm; width 600 mm; height 1,130 mm; 148 kg dry (infobox) / about 145 kg (table); fuel 24 L | H |
-| Riders 2002 | factory riders Valentino Rossi and Tohru Ukawa | H |
-| Rider moment | Rossi won the season opener at Suzuka, Japan, on 7 April 2002 "under wet conditions"; clinched the title at the Rio de Janeiro Grand Prix (Autodromo Internacional Nelson Piquet), Brazil, on 21 September 2002, with four races remaining; 11 wins, 355 points | M, V, H |
-| Title | V: "his first in the inaugural class, and fourth title overall" | V |
-| What came next | RC211V replaced in 2007 by the RC212V when rules moved to 800 cc; the RC211V won 48 of 82 races over five seasons; Nicky Hayden took the 2006 title | H |
+| Builder, where, when | Ducati introduced the Panigale V4 in 2018 as successor to the V-twin 1299; "The name 'Panigale' comes from the small manufacturing town of Borgo Panigale, where Ducati is headquartered" | P |
+| What was new | Ducati's first large-production street bike with a V4 engine; engine "derived from the Desmosedici MotoGP racing engine"; development began with the 2015 MotoGP engine | P |
+| Part 1: engine | 1,103 cc liquid-cooled, desmodromic, 16-valve, DOHC, 90 degree V4; bore x stroke 81.0 x 53.5 mm; 160.92 kW (215.80 hp) at 13,000 rpm; 124 N.m at 10,000 rpm; runs opposite to the wheels (counter-rotating crankshaft) | P |
+| Part 2: frame | aluminum perimeter frame; "the engine is not the primary frame element" unlike the 1199 and 1299 | P |
+| Part 3: suspension | base: inverted 43 mm Showa fork, 120 mm travel; single-sided aluminum swingarm, Sachs shock, 130 mm travel | P |
+| Part 4: brakes | Brembo Monobloc Stylema 4-piston radial calipers, dual 330 mm discs; rear single 245 mm disc | P |
+| Size: wheelbase | 1,469 mm (V4 / V4 S) | P |
+| Size: wheels | front 120/70-17, rear 200/60-17 tyres | P |
+| Size: weight | 173 kg dry (base) | P |
+| Size: layout | 90 degree V4; seat height 830 mm; rake 24.5 degrees | P |
+| Rider moment | Alvaro Bautista "became World Champion in 2022 after finishing 2nd in Race 2 at the Mandalika round" (Pertamina Mandalika circuit, Indonesia) on a Panigale V4 R (the V4 R is the WSBK homologation model, 998 cc); 16 wins and 31 podiums that season | B, W, P |
+| Earlier Bautista | 2019 debut with Aruba.it Racing - Ducati on a Panigale V4 R: won "his very first race at Phillip Island with a gap of almost 15 seconds"; finished the season runner-up to Jonathan Rea | B |
+| What came next | 2020 Superleggera: 500 units, carbon frame, swingarm and rims; Bautista "a second World Superbike title" in 2023 | P, B |
 
 ## Where sources disagree / not used
 
-- Displacement: infobox 989 cc vs 990 cc in text and table: caption says "990 cc".
-- Wheelbase, length, dry weight differ between infobox and table: caption uses weight "about 145-148 kg" at most.
-- 2003 text says power rose "from about 200 to 240 bhp", not matching 235.3 hp in the table for 2002: use the table figure only with "about".
-- Constructors' titles: 2002, 2003, 2004, 2006 in one section vs 2002, 2003, 2006 in the summary: not used.
-- Not confirmed on any page I read: that Rossi was "the first four-stroke champion" in those words (V does not say it; M says the first season of 990 cc four-strokes and V says first in the inaugural class). Brakes, tyre brand for the factory bike, build location, and any road bike link (none found) not used.
+- Exact date of the 2022 title: not stated in B or W text (the calendar shows 12 and 13 November). The caption says only "at Mandalika, Indonesia".
+- V4 R power and torque are listed three different ways (172 kW / 160.4 kW / 162.6 kW; 112 / 111.3 / 114.5 N.m): not used.
+- Base power: 160.92 kW (infobox) vs 157.5 kW implied in the Speciale text: no power figure is used in the caption.
+- Weight 173 kg is the dry figure; some other table rows are labelled wet: the caption says "dry".
+- Carbon wheels (page text) apply to some versions; base wheel material not confirmed: not used.
+- Not confirmed: firing order, date of the "new front frame" change, the 2025 V4 changes, Panigale V2.

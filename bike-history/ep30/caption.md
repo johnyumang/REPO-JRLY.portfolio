@@ -3,18 +3,21 @@
 Facts match ep30/facts.md.
 
 ```
-Today: the bicycle gets a motor, and you still pedal. 🔋
+2019: no engine noise, no gears. ⚡
 
-A pedelec is "an e-bike with mandatory pedalling, a relatively low-powered electric motor and a limited top speed". A sensor detects the pedaling speed, the pedaling force, or both. The motor sits near the pedals, a mid-drive that powers the chain, or in the wheel hub. The battery is usually lithium-ion and lasts about 40 to 120 km per charge.
+The Harley-Davidson LiveWire was Harley's first electric motorcycle, with deliveries beginning in September 2019. A 105 hp electric motor, a 15.5 kWh battery, and a single-speed belt drive: no gear changes at all.
 
-The rules: in the EU the motor cuts out at 25 km/h and is rated at no more than 250 W. In the US there are three classes: 20 mph, 20 mph with throttle, and 28 mph.
+Look closer: a cast aluminum trellis frame, 4-piston front brake calipers, and DC fast charging. It does 0-60 mph in 3.0 seconds.
 
-The idea is old. Ogden Bolton Jr. filed a patent for an "electrical bicycle" in 1895. Today, European e-bike sales have passed 5 million.
+Rider moment: in March 2020, Swiss rider Michel von Tell rode 1,723 km in 24 hours on one, an unofficial electric distance record.
+
+What next? In December 2021, Harley-Davidson announced a spin-off as its own brand, LiveWire.
 
 Episode 30 of the history of the bike.
 That's the story from 1817 to today.
+Start again at Episode 1. 👇
 
-What would you build next? Start again at Episode 1. 👇
+Would you ride electric? 👇
 
-#bikehistory #ebike #pedelec #electricbike #cycling #history #shorts
+#bikehistory #motorcyclehistory #harleydavidson #livewire #electricmotorcycle #ev #history #shorts
 ```

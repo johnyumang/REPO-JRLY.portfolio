@@ -1,24 +1,32 @@
-# Episode 26 facts: the Ducati 916, 1994
+# Episode 28 facts: the Suzuki Hayabusa (GSX1300R), 1999
 
-Checked on 2026-11-20. D = https://en.wikipedia.org/wiki/Ducati_916 · F = https://en.wikipedia.org/wiki/Carl_Fogarty ·
-W = https://en.wikipedia.org/wiki/Superbike_World_Championship. F and W were read only in their first 100,000 characters.
+Checked on 2026-11-20. S = https://en.wikipedia.org/wiki/Suzuki_Hayabusa (read to character 100000 of 134291) · B = https://en.wikipedia.org/wiki/Honda_CBR1100XX_Super_Blackbird.
+Not found (404): a "Gentlemen's agreement" page, "Motorcycle speed limiter" page.
 
 | Fact | Value | Source |
 |---|---|---|
-| Who, where, when | designed by Massimo Tamburini and Sergio Robbiano, with their team at the Cagiva Research Centre in San Marino; produced by Ducati from 1994 to 1998; replaced the 888, replaced by the 996 in 1999 | D |
-| Engine | 916 cc, 90 degree V-twin, fuel-injected, four-valve-per-cylinder desmodromic, liquid-cooled; bore x stroke 94.0 x 66.0 mm; claimed 85 kW (114 bhp) at 9,000 rpm | D |
-| Frame | tubular chrome-moly trellis frame (shared with the 748 from 1995) | D |
-| Swingarm | single-sided; "designed to make wheel changes faster in races" | D |
-| Brakes | dual 320 mm front discs, single 220 mm rear disc | D |
-| Suspension | 43 mm Showa fork front; Showa rising-rate mono at the rear (US and Senna models Öhlins) | D |
-| Size for a 3D model | wheelbase 1,410 mm; seat height 790 mm; dry weight 194.5 kg (429 lb). Wheel and tyre sizes not given | D |
-| Rider moment | Ducati won the Superbike World Championship with the 916 in 1994, 1995, 1996 and 1998; Carl Fogarty won in 1994, 1995 and 1998, Troy Corser in 1996 (D). F: Fogarty "would also be using the new Ducati 916" in 1994, and beat Russell and Slight to the title; four titles in total: 1994, 1995, 1998, 1999 | D, F |
-| What came next | the 996 and 998; Tamburini later designed the MV Agusta F4 | D |
+| Builder, where, when | Suzuki; production started 1999; assembled at Toyokawa, Aichi, Japan (also Gurgaon, India); styled by Suzuki's Koji Yoshiura | S |
+| Name | Hayabusa (隼) is Japanese for peregrine falcon; the page says the falcon preys on blackbirds, reflecting the goal of unseating the Honda CBR1100XX Super Blackbird | S |
+| Engine | 1,299 cc liquid-cooled inline-four, DOHC, 16-valve, fuel-injected; bore 81.0 mm x stroke 63.0 mm; 129 kW (173 hp) claimed at the crank; 6-speed, chain drive | S |
+| Frame | conventional twin-beam frame; rake 24.2 degrees | S |
+| Brakes | 6-pot Tokico calipers on 320 mm stainless front discs | S |
+| Tyres and wheels | Bridgestone Battlax BT56, front 120/70-ZR-17, rear 190/50-ZR-17; both wheels 17-inch | S |
+| Suspension | inverted telescopic fork, fully adjustable; link-type rear | S |
+| Wheelbase | 1,485 mm (58.5 in) | S |
+| Weight | "215-242 kg dry; 250-255.3 kg wet" (range given) | S |
+| Seat height | 805 mm | S |
+| Top speed 1999-2000 | 303-312 km/h (188-194 mph) in the lead; infobox and table give 312 km/h (194 mph). B: "In 1999, the Suzuki Hayabusa overtook the CBR1100XX"; B also cites Guinness World Records 2000 Millennium Edition listing 194 mph (312 km/h) | S, B |
+| Blackbird | B: top speed "177 mph (285 km/h)" (tests vary: 170 mph in 1997, 174-177 mph in 1999). S: Hayabusa beat it by at least 16 km/h (10 mph) | S, B |
+| The agreement | S: Japanese and European manufacturers informally agreed to limit top speed electronically; began "late 2000", "fully into effect for the 2001 model year"; 2001-2007 Hayabusa: 299 km/h (186 mph). No date or signatory given | S |
+| Sales | over 100,000 sold worldwide from 1999 to June 2007 | S |
+| Rider moment | Bill Warner, 17 July 2011, 311.945 mph (502.027 km/h) on a turbocharged, highly modified Hayabusa, Loring Commerce Centre, Limestone, Maine (not 1999 and not stock). No named 1999 rider found | S |
+| What came next | 2008 second generation: 1,340 cc, 147 kW (197 hp) claimed; third generation announced 5 February 2021 (GSX1300RR, 140 kW / 190 hp claimed) | S |
 
 ## Where sources disagree / not used
 
-- Top speed 257 or 260 km/h depending on source: not used.
-- Fogarty's four titles (1994, 1995, 1998, 1999 in F): F does not name the bike for 1995, 1998 or 1999, and does not mention the 996; D credits the 916 for 1994, 1995, 1996, 1998. Use "titles on Ducati" with 1994 as the safe 916 title; W gives no year list.
-- No clinch date or venue for any title found. F: first win at Donington Park in 1992, before the 916; first 916 win not stated.
-- Senna editions: D says 1995, 1998, 2001 yet the Senna was shown at Bologna in December 1994. Production total 18,006 does not match the yearly figures: not used.
-- W says Ducati dominated 1993-1999 but gives no per-year list: not used.
+- 1999-2000 top speed: 303-312 km/h (lead) vs 312 km/h (infobox): caption says "about 310 km/h (194 mph) claimed" only with "sources vary".
+- The limit: S says 186 mph = 299 km/h, but the body also says "300 km/h (186 mph)", and a footnote says sources differ on exactly 300 km/h or 186 mph. Caption: "around 300 km/h (186 mph)" and "informally agreed"; never "signed".
+- Date of the agreement: only "late 2000" / 2001 model year. No year-1999 agreement confirmed.
+- Dry weight is a wide range (215-242 kg): not used as one number.
+- Kawasaki ZZR1100: not on S page; Kawasaki ZX-12R (2000) "fell 6 km/h (4 mph) short" is on S. Fastest-of-the-century wording differs between text ("century") and footnote ("millennium").
+- Not confirmed: a head-to-head race on a specific date (B has none).

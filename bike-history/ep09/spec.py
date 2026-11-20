@@ -13,15 +13,15 @@ NEXT_BIG, NEXT_SMALL = 'NEXT: THE FIRST TT RACE', 'EP 10  ·  NORTON, 1907'
 ENGINE_RPM, ROAD_BAND = 1400, [120, 800]
 LINES = [
     ('hook', 'America gets a motorcycle.', 'Nineteen-oh-one. America gets a motorcycle.'),
-    ('turn', 'The Indian: George Hendee and Oscar Hedstrom, Springfield, Massachusetts.', 'This is the Indian, by George Hendee and Oscar Hedstrom, of Springfield, Massachusetts.'),
-    ('engine', 'One cylinder, rated at 1.75 horsepower. The engine is part of the frame.', 'One cylinder, rated at one and three-quarter horsepower. The engine is part of the frame.'),
+    ('turn', 'The Indian: George Hendee and Oscar Hedstrom, Springfield, Massachusetts.', 'The Indian, by George Hendee and Oscar Hedstrom, of Springfield, Massachusetts.'),
+    ('engine', 'One cylinder, 1.75 hp. The engine is part of the frame.', 'One cylinder, one point seven five horsepower. Part of the frame.'),
     ('carburettor', 'Hedstrom designed his own carburettor.', 'Hedstrom designed his own carburettor.'),
     ('frame', 'A diamond frame, like a bicycle.', 'A diamond frame, just like a bicycle.'),
     ('pedals', 'Hendee wanted a motorized bicycle: pedals and all.', 'Hendee wanted a motorized bicycle. Pedals and all.'),
     ('explode', 'Engine, tank, frame, chain, pedals, wheels.', 'Take it apart. Engine, tank, frame, chain, pedals, wheels.'),
-    ('ride', '1 June 1901: first public demonstration, Cross Street, Springfield.', 'June first, nineteen-oh-one. Its first public demonstration, on Cross Street in Springfield.'),
-    ('ride', '1903: Hedstrom sets a world speed record of 56 mph.', 'In nineteen-oh-three, Hedstrom set a world speed record. Fifty-six miles an hour.'),
-    ('outro', 'In 1911, Indians took the first three places at the Isle of Man TT.', 'In nineteen eleven, Indians took the top three places at the Isle of Man T T.'),
+    ('ride', '1 June 1901: first public demonstration, Cross Street, Springfield.', 'June first, nineteen-oh-one. First public demonstration, Cross Street, Springfield.'),
+    ('ride', '1903: Hedstrom sets a world record, 56 mph.', 'In nineteen-oh-three, Hedstrom set a world record. Fifty-six miles an hour.'),
+    ('outro', '1911: Indians take the top three at the TT.', 'Nineteen eleven: a T T sweep.'),
     ('outro', None, 'Next: the first T T race.'),
 ]
 def shots(ease, out):

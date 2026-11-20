@@ -166,10 +166,10 @@ def build_parts(C):
                 ring(f'{nm}_fin{j}', r * k * 1.05, 0.006, (x0 + L * k * q * dx, y, z0 + L * k * q * dz), en, 'engine').rotation_euler = (0, ang, 0)
     if t == 'single':
         rod('crankcase', (EX_, -0.08, EZ), (EX_, 0.08, EZ), 0.13 * k, en, 'engine'); cylinder(EX_ + 0.02, EZ + 0.08, math.radians(10), r=0.055, L=0.22)
-    elif t in ('vtwin', 'v5'):
+    elif t in ('vtwin', 'v5', 'v4'):
         rod('crankcase', (EX_, -0.09, EZ), (EX_, 0.09, EZ), 0.14 * k, en, 'engine')
         a = math.radians(g('v_angle', 45)) / 2
-        nf, nr = (1, 1) if t == 'vtwin' else (3, 2)
+        nf, nr = {'vtwin': (1, 1), 'v4': (2, 2), 'v5': (3, 2)}[t]
         for i in range(nf): cylinder(EX_ + 0.03, EZ + 0.06, a, y=(i - (nf - 1) / 2) * 0.08, nm=f'cyl_f{i}')
         for i in range(nr): cylinder(EX_ - 0.03, EZ + 0.06, -a, y=(i - (nr - 1) / 2) * 0.08, nm=f'cyl_r{i}')
     elif t == 'boxer':
@@ -186,13 +186,18 @@ def build_parts(C):
         ang = math.radians(g('cyl_tilt', 15))
         for i in range(n): cylinder(EX_ + 0.03, EZ + 0.08, ang, y=(i - (n - 1) / 2) * 0.10 * k, r=0.042, L=0.18, nm=f'cyl{i}')
         if not fins: box('block', (0.16 * k, 0.11 * n * k, 0.18 * k), (EX_ + 0.06, 0, EZ + 0.17 * k), en, 'engine', 0.02)
+    elif t == 'electric':                                     # a big battery case in the frame, the motor below it
+        box('battery_case', (0.46 * k, 0.26, 0.30 * k), (EX_ + 0.02, 0, EZ + 0.14), en, 'engine', 0.03)
+        for j in range(7): box(f'cooling_fin{j}', (0.40 * k, 0.27, 0.008), (EX_ + 0.02, 0, EZ + 0.04 + j * 0.035), en, 'black', 0)
+        rod('motor', (EX_ - 0.10, -0.12, EZ - 0.10), (EX_ - 0.10, 0.12, EZ - 0.10), 0.10 * k, en, 'black')
     elif t == 'scooter':
         box('engine_unit', (0.36, 0.16, 0.20), (XR + 0.22, -0.10, RR + 0.02), en, 'engine', 0.04)
     elif t == 'stepthrough':
         rod('crankcase', (EX_, -0.07, EZ), (EX_, 0.07, EZ), 0.09, en, 'engine'); cylinder(EX_ + 0.04, EZ + 0.02, math.radians(80), r=0.04, L=0.16)
     # ---------------- exhaust
     ex = P['exhaust'] = part('exhaust', (0, -0.15, RR), root)
-    side = [-1] if g('exhaust', 'low') != 'twin' else [-1, 1]
+    side = [] if t == 'electric' else None
+    side = side if t == 'electric' else ([-1] if g('exhaust', 'low') != 'twin' else [-1, 1])
     for s in side:
         zx = RR + (0.25 if g('exhaust', 'low') == 'high' else 0.0)
         tube('header', [(EX_ + 0.15, s * 0.06, EZ + 0.12), (EX_ + 0.22, s * 0.12, EZ - 0.10), (EX_ - 0.10, s * 0.16, zx - 0.05), (XR + 0.35, s * 0.17, zx)], 0.02, ex, 'chrome')

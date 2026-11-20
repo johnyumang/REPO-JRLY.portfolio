@@ -1,28 +1,24 @@
-# Episode 24 facts: the Suzuki GSX-R750, 1985
+# Episode 26 facts: the Ducati 916, 1994
 
-Checked on 2026-11-20. R = https://en.wikipedia.org/wiki/Suzuki_GSX-R750 · S = https://en.wikipedia.org/wiki/Suzuki_GSX-R_series ·
-W = https://en.wikipedia.org/wiki/Superbike_World_Championship.
+Checked on 2026-11-20. D = https://en.wikipedia.org/wiki/Ducati_916 · F = https://en.wikipedia.org/wiki/Carl_Fogarty ·
+W = https://en.wikipedia.org/wiki/Superbike_World_Championship. F and W were read only in their first 100,000 characters.
 
 | Fact | Value | Source |
 |---|---|---|
-| Builder, when | Suzuki; "introduced at the Cologne Motorcycle Show" (Intermot) in October 1984 for the 1985 model year. Build place not stated | R |
-| Designer | "principal designer" Hiroshi Fujiwara, a Suzuki engineer | S |
-| What was new | "lightweight aluminum alloy frame", "air-and-oil-cooled engine" chosen to save weight, flat-slide Mikuni VM29SS carburettors | R |
-| Engine | 749.7 cc, four-stroke, DOHC, four valves per cylinder, transverse four; bore x stroke 70.0 x 48.7 mm (infobox, current spec) | R |
-| Frame | lightweight aluminium alloy frame; rake 26 degrees | R |
-| Brakes | twin front discs with 4-pot calipers | R |
-| Drive | six-speed, chain drive, wet multi-plate clutch | R |
-| Wheels | "460-millimetre (18 in) tyres both front and rear" (page wording) | R |
-| Size for a 3D model | wheelbase 1410 mm; seat height 810 mm; 1985 weight 388 lb (176 kg) "the lightest of the superbikes by a good margin" (S); infobox dry 176 kg, wet 205 kg (R) | R, S |
-| Rider moment | none found: R lists no race wins or riders for the 1985 bike | R, S |
-| What came next | GSX-R1100 in 1986; GSX-R600 from 1992; 1988 short-stroke 748 cc engine and 17-inch wheels; 1996 new twin-spar frame | R, S |
+| Who, where, when | designed by Massimo Tamburini and Sergio Robbiano, with their team at the Cagiva Research Centre in San Marino; produced by Ducati from 1994 to 1998; replaced the 888, replaced by the 996 in 1999 | D |
+| Engine | 916 cc, 90 degree V-twin, fuel-injected, four-valve-per-cylinder desmodromic, liquid-cooled; bore x stroke 94.0 x 66.0 mm; claimed 85 kW (114 bhp) at 9,000 rpm | D |
+| Frame | tubular chrome-moly trellis frame (shared with the 748 from 1995) | D |
+| Swingarm | single-sided; "designed to make wheel changes faster in races" | D |
+| Brakes | dual 320 mm front discs, single 220 mm rear disc | D |
+| Suspension | 43 mm Showa fork front; Showa rising-rate mono at the rear (US and Senna models Öhlins) | D |
+| Size for a 3D model | wheelbase 1,410 mm; seat height 790 mm; dry weight 194.5 kg (429 lb). Wheel and tyre sizes not given | D |
+| Rider moment | Ducati won the Superbike World Championship with the 916 in 1994, 1995, 1996 and 1998; Carl Fogarty won in 1994, 1995 and 1998, Troy Corser in 1996 (D). F: Fogarty "would also be using the new Ducati 916" in 1994, and beat Russell and Slight to the title; four titles in total: 1994, 1995, 1998, 1999 | D, F |
+| What came next | the 996 and 998; Tamburini later designed the MV Agusta F4 | D |
 
 ## Where sources disagree / not used
 
-- Power: R infobox 99 hp (current spec); S says 100 HP stock for 1985. Not used (the infobox is the current model, not 1985).
-- The infobox engine (liquid-cooled, 749.7 cc) is the current spec; the 1985 engine was air-and-oil-cooled and the page does not state the 1985 cc. Use 749.7 cc only as "about 750 cc"; the 1988 section lists 748 cc, 73 x 44.7 mm.
-- Weight: S intro "a claimed 435 lbs for the 750" vs 388 lb (176 kg) in S's 1985 section; R infobox 176 kg dry. Used: 176 kg dry listed.
-- Start year: lead and infobox say 1984 (series started with the GSX-R400 in 1984, S); the 750 was introduced in Oct 1984 for the 1985 model year.
-- Wheels: "460 mm (18 in)" is ambiguous; the 17-inch wheels came in 1988.
-- W does not mention any GSX-R750 success; S: 1989 AMA Superbike title for Suzuki (no rider) and 12 Bol d'Or wins 1993-2011. None tied to the 1985 bike, so not used.
-- Page carries a "needs more citations" tag. Fuel capacity unit missing: not used.
+- Top speed 257 or 260 km/h depending on source: not used.
+- Fogarty's four titles (1994, 1995, 1998, 1999 in F): F does not name the bike for 1995, 1998 or 1999, and does not mention the 996; D credits the 916 for 1994, 1995, 1996, 1998. Use "titles on Ducati" with 1994 as the safe 916 title; W gives no year list.
+- No clinch date or venue for any title found. F: first win at Donington Park in 1992, before the 916; first 916 win not stated.
+- Senna editions: D says 1995, 1998, 2001 yet the Senna was shown at Bologna in December 1994. Production total 18,006 does not match the yearly figures: not used.
+- W says Ducati dominated 1993-1999 but gives no per-year list: not used.

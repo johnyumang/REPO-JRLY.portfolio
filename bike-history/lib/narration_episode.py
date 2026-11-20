@@ -31,7 +31,9 @@ for i, (seg, sub, text) in enumerate(LINES):
         if len(a) / SR_OUT <= room: break
     dur = len(a) / SR_OUT
     if dur > room: print('WARNING too long', seg, round(dur, 2), 'room', round(room, 2))
-    s0 = int(start * SR_OUT); track[s0:s0 + len(a)] += a[:len(track) - s0]
+    s0 = int(start * SR_OUT)
+    if s0 >= len(track): print('WARNING line starts after the end, dropped', seg); continue
+    track[s0:s0 + len(a)] += a[:len(track) - s0]
     meta.append(dict(seg=seg, start=round(start, 3), end=round(start + dur, 3), sub=sub, text=text, speed=speed))
     t_prev = start + dur
 act = track[np.abs(track) > 1e-4]; track *= 10 ** (-18 / 20) / np.sqrt(np.mean(act ** 2))   # -18 dBFS while speaking

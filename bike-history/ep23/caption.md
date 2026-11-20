@@ -1,20 +1,20 @@
 # Episode 23 caption (post text)
 
-Facts match ep23/facts.md.
+Facts match ep24/facts.md.
 
 ```
-1984: the Ninja is born. 🥷
+1985: a race bike with a number plate. 🏁
 
-Kawasaki showed the GPZ900R to the press in December 1983 and sold it as the 1984 model, after six years of secret development. Its 908 cc engine was the world's first 16-valve liquid-cooled inline four in a motorcycle.
+Suzuki showed the GSX-R750 at the Cologne show in October 1984, as a 1985 model. Its big idea was weight: a lightweight aluminium alloy frame and an air-and-oil-cooled engine instead of heavy water cooling.
 
-The engine itself helped hold the frame together, so the usual downtubes were dropped. Dual front discs, a 16-inch front wheel, an air-assisted fork and a Uni-Trak rear shock. Listed weight: 228 kg (the sources differ by market).
+Four cylinders, about 750 cc, twin front discs with 4-piston calipers, a six-speed gearbox. Listed weight: 176 kg, "the lightest of the superbikes by a good margin".
 
-It also flew on the big screen in the film Top Gun.
+The GSX-R1100 followed in 1986.
 
 Episode 23 of the history of the bike.
-Next: the Suzuki GSX-R750, 1985.
+Next: the Ducati 916, 1994.
 
-Did you ever ride a Ninja? 👇
+Lighter or faster: which wins for you? 👇
 
-#bikehistory #motorcyclehistory #kawasaki #gpz900r #ninja #topgun #history #shorts
+#bikehistory #motorcyclehistory #suzuki #gsxr #gsxr750 #superbike #history #shorts
 ```

@@ -3,18 +3,18 @@
 Facts match ep29/facts.md.
 
 ```
-2002: MotoGP changes its sound. 🏁
+2018: a MotoGP engine with number plates. 🔥
 
-New rules for 2002 let four-stroke engines up to 990 cc race, replacing the old two-stroke 500s. Honda's answer was the RC211V, built by HRC to replace the two-stroke NSR500.
+Ducati introduced the Panigale V4 in 2018, named after Borgo Panigale, the town where Ducati is headquartered. It was Ducati's first large-production street bike with a V4 engine, derived from the Desmosedici MotoGP racing engine.
 
-Its engine is a V5: five cylinders at a 75.5 degree angle, 20 valves, about 235 hp. It sits in a twin-spar frame with a 17-inch front wheel and a 16.5-inch rear.
+Look closer: a 1,103 cc 90 degree V4, an aluminum perimeter frame, an inverted fork with a single-sided swingarm, and Brembo Stylema calipers on dual 330 mm discs. About 173 kg dry.
 
-Valentino Rossi opened the season by winning in the wet at Suzuka, Japan, on 7 April 2002. He clinched the title in Rio de Janeiro, Brazil, on 21 September, with four races left: 11 wins and 355 points, the first title of the new class.
+Rider moment: Alvaro Bautista won the 2022 World Superbike title on a Panigale V4 R, clinching it at Mandalika, Indonesia, after 16 wins that season.
 
 Episode 29 of the history of the bike.
-Next: today's electric bike.
+Next: the Harley-Davidson LiveWire, 2019.
 
-Could you hear the difference between two-stroke and four-stroke? 👇
+V4 or V-twin: which would you pick? 👇
 
-#bikehistory #motorcyclehistory #honda #rc211v #motogp #valentinorossi #history #shorts
+#bikehistory #motorcyclehistory #ducati #panigalev4 #motogp #superbike #history #shorts
 ```

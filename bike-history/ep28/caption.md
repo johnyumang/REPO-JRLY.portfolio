@@ -3,20 +3,18 @@
 Facts match ep28/facts.md.
 
 ```
-1999: a bike named after a falcon. 🦅
+2009: BMW goes superbike racing. 🏁
 
-Suzuki's Hayabusa is the Japanese word for peregrine falcon, a bird that hunts blackbirds. That was the point: the machine was built to beat Honda's CBR1100XX Super Blackbird.
+BMW Motorrad introduced the S 1000 RR in Munich in April 2008, built to race in the 2009 Superbike World Championship. BMW made 1,000 of them in 2009 to meet racing rules.
 
-Inside: a 1,299 cc four-cylinder with 173 hp claimed, a twin-beam frame, six-piston brakes on 320 mm discs and 17-inch wheels. Wheelbase: 1,485 mm.
+Under the fairing: a 998 cc liquid-cooled four-cylinder, an aluminium twin-spar frame, an inverted fork and dual 320 mm front discs. It also brought ABS and traction control to a road superbike, a first at the time, plus an optional quick shifter.
 
-It was claimed at around 312 km/h (194 mph), though the sources vary. Then the makers made an informal deal to limit top speed to around 300 km/h (186 mph), in effect for 2001 models.
-
-Rider moment: in 2011 Bill Warner set a record of 311.945 mph in Maine on a heavily modified Hayabusa.
+Rider moment: in 2014 Michael Dunlop won the Isle of Man TT Superbike race on 31 May, then the Senior TT on 6 June, on an S 1000 RR.
 
 Episode 28 of the history of the bike.
-Next: the Honda RC211V.
+Next: the Ducati Panigale V4, 2018.
 
-Is a speed limit on a bike fair, or fun spoiled? 👇
+Which superbike sound do you love most? 👇
 
-#bikehistory #motorcyclehistory #suzuki #hayabusa #topspeed #history #shorts
+#bikehistory #motorcyclehistory #bmw #s1000rr #superbike #isleofmantt #history #shorts
 ```
