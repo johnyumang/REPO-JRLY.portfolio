@@ -3,7 +3,7 @@
 Facts match ep12/facts.md.
 
 ```
-1936: the engine named after a fist. 👊
+1936: the engine with knuckles. 👊
 
 Harley-Davidson introduced the 61E and 61EL models with a new overhead-valve V-twin. It was a 45-degree twin of 61 cubic inches (1,000 cc), with pushrod-operated valves and its oil carried in a horseshoe-shaped tank under the seat. The taller engine needed a new frame.
 
