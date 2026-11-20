@@ -1,22 +1,20 @@
 # Episode 27 caption (post text)
 
-Facts match ep27/facts.md.
+Facts match ep29/facts.md.
 
 ```
-1998: the year the superbike got smaller. 🏍️
+2002: MotoGP changes its sound. 🏁
 
-Yamaha launched the YZF-R1 in 1998. Its engine is a 998 cc liquid-cooled four-cylinder with 20 valves, fed by four 40 mm carburettors, and about 150 hp at the crank.
+New rules for 2002 let four-stroke engines up to 990 cc race, replacing the old two-stroke 500s. Honda's answer was the RC211V, built by HRC to replace the two-stroke NSR500.
 
-The clever part is inside. Yamaha raised the gearbox input shaft so the output shaft could sit beneath it: a "stacked gearbox". The engine got shorter, which allowed a shorter wheelbase and a longer swingarm. Other makers later copied the idea.
+Its engine is a V5: five cylinders at a 75.5 degree angle, 20 valves, about 235 hp. It sits in a twin-spar frame with a 17-inch front wheel and a 16.5-inch rear.
 
-Up front: a 41 mm upside-down fork. Weight: about 190 kg dry.
-
-Two years later came a lighter version, and in 2002 a new Deltabox frame and fuel injection.
+Valentino Rossi opened the season by winning in the wet at Suzuka, Japan, on 7 April 2002. He clinched the title in Rio de Janeiro, Brazil, on 21 September, with four races left: 11 wins and 355 points, the first title of the new class.
 
 Episode 27 of the history of the bike.
-Next: the Suzuki Hayabusa.
+Next: the BMW S 1000 RR, 2009.
 
-Would you rather have a small, sharp superbike or the fastest one? 👇
+Could you hear the difference between two-stroke and four-stroke? 👇
 
-#bikehistory #motorcyclehistory #yamaha #yzfr1 #superbike #history #shorts
+#bikehistory #motorcyclehistory #honda #rc211v #motogp #valentinorossi #history #shorts
 ```

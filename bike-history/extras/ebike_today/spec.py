@@ -1,4 +1,4 @@
-"""Episode 30: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
+"""Bonus episode (was episode 30: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
 import shotkit
 EP, MODEL, WB = 30, 'ebike_today', 1.14
 HOOK_BIG, HOOK_LINE = 'TODAY', 'The motor\ncomes back.'

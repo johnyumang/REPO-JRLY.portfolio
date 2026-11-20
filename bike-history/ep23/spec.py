@@ -1,28 +1,28 @@
 """Episode 23: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
 import shotkit
-EP, MODEL, WB = 23, 'gpz900r_1984', 1.495
-HOOK_BIG, HOOK_LINE = '1984', 'The first\nNinja.'
-TITLE, TITLE_SIZE = 'KAWASAKI GPZ900R', 80
-CLOSE_ORDER = ['engine', 'frame', 'fairing', 'rear_suspension']
-CLOSE = {'engine': ('16 VALVES · 908 CC', 'engine', (270, 190)), 'frame': ('NO DOWN TUBES', 'frame', (260, 190)), 'fairing': ('FULL FAIRING', 'fairing', (270, 190)), 'rear_suspension': ('UNI-TRAK REAR', 'rear_suspension', (470, 190))}
+EP, MODEL, WB = 23, 'gsxr750_1985', 1.41
+HOOK_BIG, HOOK_LINE = '1985', 'A race bike\nwith lights.'
+TITLE, TITLE_SIZE = 'SUZUKI GSX-R750', 84
+CLOSE_ORDER = ['frame', 'engine', 'brakes', 'front_wheel']
+CLOSE = {'frame': ('ALUMINIUM FRAME', 'frame', (260, 190)), 'engine': ('AIR + OIL COOLED', 'engine', (270, 190)), 'brakes': ('4-PISTON CALIPERS', 'brakes', (270, 190)), 'front_wheel': ('18-INCH WHEELS', 'front_wheel', (270, 190))}
 EXL = [('front_wheel', 'FRONT WHEEL'), ('handlebar', 'HANDLEBAR'), ('tank', 'TANK'), ('engine', 'ENGINE'), ('frame', 'FRAME'), ('rear_wheel', 'REAR WHEEL'), ('saddle', 'SEAT'), ('fairing', 'FAIRING')]
-RIDE_TITLE = '1984 – 2003'
-NEXT_BIG, NEXT_SMALL = 'NEXT: A RACER WITH LIGHTS', 'EP 24  ·  SUZUKI GSX-R750, 1985'
-ENGINE_RPM, ROAD_BAND = 8000, [150, 900]
+RIDE_TITLE = 'COLOGNE, 1984'
+NEXT_BIG, NEXT_SMALL = 'NEXT: A SUPERBIKE ICON', 'EP 24  ·  DUCATI 916, 1994'
+ENGINE_RPM, ROAD_BAND = 9000, [150, 900]
 LINES = [
-    ('hook', 'The first Ninja.', 'Nineteen eighty-four. The first Ninja.'),
-    ('turn', 'The Kawasaki GPZ900R, developed in secret over six years.', 'The Kawasaki G P Z nine hundred R. Developed in secret, over six years.'),
-    ('engine', 'The first 16-valve liquid-cooled inline four on a motorcycle: 908 cc, 115 bhp.', 'The first sixteen-valve, liquid-cooled inline four on a motorcycle.'),
-    ('frame', 'Tests showed the down tubes carried almost no weight, so they went.', 'Tests showed the down tubes carried almost no weight. So they went.'),
-    ('fairing', 'A full fairing, and a 16-inch front wheel.', 'A full fairing, and a sixteen-inch front wheel.'),
-    ('rear_suspension', 'Uni-Trak rear suspension, with an air shock.', 'Uni-Trak rear suspension, with an air shock.'),
-    ('explode', 'Engine, frame, fairing, wheels: 228 kg.', 'Engine, frame, fairing, wheels. Two hundred and twenty-eight kilos.'),
-    ('ride', 'It starred in the film Top Gun.', 'It starred in the film Top Gun.'),
-    ('ride', 'Built from 1984 to 2003.', 'And it was built from nineteen eighty-four to two thousand three.'),
-    ('outro', 'Nineteen years in production.', 'Nineteen years in production.'),
-    ('outro', None, 'Next: a race bike with lights.'),
+    ('hook', 'A race bike with lights.', 'Nineteen eighty-five. A race bike with lights.'),
+    ('turn', 'The Suzuki GSX-R750, designed by Hiroshi Fujiwara.', 'The Suzuki G S X R seven-fifty, designed by Hiroshi Fujiwara.'),
+    ('frame', 'A light aluminium alloy frame.', 'A light, aluminium alloy frame.'),
+    ('engine', 'Air-and-oil cooled to save weight: about 750 cc, four cylinders.', 'Air and oil cooled, to save weight. Four cylinders, about seven-fifty cc.'),
+    ('brakes', 'Twin front discs, four-piston calipers.', 'Twin front discs, with four-piston calipers.'),
+    ('front_wheel', '18-inch wheels, front and rear.', 'Eighteen-inch wheels, front and rear.'),
+    ('explode', 'Frame, engine, fairing, wheels.', 'Take it apart. Frame, engine, fairing, wheels.'),
+    ('ride', '“The lightest of the superbikes, by a good margin.”', 'The lightest of the superbikes, by a good margin.'),
+    ('ride', 'Six speeds, a chain, and flat-slide racing carburettors.', 'Six speeds, a chain, and flat-slide racing carburettors.'),
+    ('outro', 'A racer you could ride to work.', 'A racer you could ride to work.'),
+    ('outro', None, 'Next: a superbike icon.'),
 ]
 def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
-COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty runway beside a desert airfield at sunrise, soft morning light from the left, light haze. The road fills the lower third of the picture.'
-THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty runway beside a desert airfield at sunrise, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
-THUMB_BIG, THUMB_NAME = '1984', 'THE FIRST NINJA'
+COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty modern race circuit straight with painted kerbs, soft morning light from the left, light haze. The road fills the lower third of the picture.'
+THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty modern race circuit straight with painted kerbs, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
+THUMB_BIG, THUMB_NAME = '1985', 'GSX-R750'

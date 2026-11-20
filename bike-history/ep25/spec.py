@@ -1,28 +1,28 @@
 """Episode 25: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
 import shotkit
-EP, MODEL, WB = 25, 'lotus108_1992', 0.98
-HOOK_BIG, HOOK_LINE = '1992', 'A bike from\na car maker.'
-TITLE, TITLE_SIZE = 'LOTUS 108', 110
-CLOSE_ORDER = ['frame', 'fork', 'handlebar', 'front_wheel']
-CLOSE = {'frame': ('CARBON MONOCOQUE', 'frame', (280, 190)), 'fork': ('UNI-AXLE', 'fork', (470, 190)), 'handlebar': ('AERO BARS', 'handlebar', (270, 190)), 'front_wheel': ('DISC WHEELS', 'front_wheel', (270, 190))}
-EXL = [('front_wheel', 'FRONT WHEEL'), ('handlebar', 'BARS'), ('saddle', 'SADDLE'), ('frame', 'MONOCOQUE'), ('rear_wheel', 'REAR WHEEL'), ('fork', 'FORK'), ('pedals', 'CRANKS')]
-RIDE_TITLE = '27 JULY 1992'
-NEXT_BIG, NEXT_SMALL = 'NEXT: A SUPERBIKE ICON', 'EP 26  ·  DUCATI 916, 1994'
-ENGINE_RPM, ROAD_BAND = None, [300, 1500]
+EP, MODEL, WB = 25, 'r1_1998', 1.4
+HOOK_BIG, HOOK_LINE = '1998', 'One litre,\nless weight.'
+TITLE, TITLE_SIZE = 'YAMAHA YZF-R1', 92
+CLOSE_ORDER = ['engine', 'gearbox', 'carbs', 'fork']
+CLOSE = {'engine': ('20 VALVES · 998 CC', 'engine', (270, 190)), 'gearbox': ('STACKED GEARBOX', 'engine', (280, 190)), 'carbs': ('4 CARBURETTORS', 'engine', (270, 190)), 'fork': ('UPSIDE-DOWN FORK', 'fork', (470, 190))}
+EXL = [('front_wheel', 'FRONT WHEEL'), ('handlebar', 'HANDLEBAR'), ('tank', 'TANK'), ('engine', 'ENGINE'), ('frame', 'FRAME'), ('rear_wheel', 'REAR WHEEL'), ('saddle', 'SEAT'), ('fairing', 'FAIRING')]
+RIDE_TITLE = 'MACAU'
+NEXT_BIG, NEXT_SMALL = 'NEXT: THE FALCON', 'EP 26  ·  SUZUKI HAYABUSA, 1999'
+ENGINE_RPM, ROAD_BAND = 9500, [150, 900]
 LINES = [
-    ('hook', 'A bike from a car maker.', 'Nineteen ninety-two. A bike from a car maker.'),
-    ('turn', 'The Lotus 108: designed by Mike Burrows, developed by Lotus Engineering.', 'The Lotus one-oh-eight. Designed by Mike Burrows, developed by Lotus Engineering.'),
-    ('frame', 'A carbon composite monocoque with an aerofoil shape.', 'A carbon composite monocoque, with an aerofoil shape.'),
-    ('fork', 'Lotus called it a “uni-axle” design.', 'Lotus called it a uni-axle design.'),
-    ('handlebar', 'Built for the 4,000 m pursuit, on the track.', 'Built for the four thousand metre pursuit, on the track.'),
-    ('front_wheel', 'Only sixteen were built.', 'Only sixteen were built.'),
-    ('explode', 'Monocoque, fork, wheels, bars, saddle.', 'Take it apart. Monocoque, fork, wheels, bars, saddle.'),
-    ('ride', 'Barcelona Olympics: Chris Boardman wins the 4,000 m individual pursuit.', 'Barcelona, nineteen ninety-two. Chris Boardman wins the individual pursuit.'),
-    ('ride', 'In the final he catches world champion Jens Lehmann.', 'In the final, he catches world champion Jens Lehmann.'),
-    ('outro', 'Replicas sold for £15,000 each.', 'Replicas sold for fifteen thousand pounds.'),
-    ('outro', None, 'Next: a superbike icon.'),
+    ('hook', 'One litre, less weight.', 'Nineteen ninety-eight. One litre, less weight.'),
+    ('turn', 'The Yamaha YZF-R1.', 'The Yamaha Y Z F R one.'),
+    ('engine', '998 cc, 20 valves, double overhead cams: about 150 hp.', 'Nine hundred and ninety-eight cc. Twenty valves. About a hundred and fifty horsepower.'),
+    ('gearbox', 'A stacked gearbox: the shafts sit one above the other, so the engine is short.', 'A stacked gearbox. The shafts sit one above the other, so the engine is short.'),
+    ('carbs', 'Four 40 mm carburettors.', 'Four, forty millimetre carburettors.'),
+    ('fork', 'A 41 mm upside-down fork.', 'A forty-one millimetre, upside down fork.'),
+    ('explode', 'Engine, frame, fairing, wheels: 190 kg dry.', 'Engine, frame, fairing, wheels. One hundred and ninety kilos.'),
+    ('ride', 'Top speed: about 270 km/h.', 'Top speed, about two hundred and seventy kilometres an hour.'),
+    ('ride', 'R1s won five Macau Grand Prix races, 1999 to 2013.', 'R ones won five Macau Grand Prix races.'),
+    ('outro', 'A crossplane crank came in 2009.', 'A crossplane crank came in two thousand nine.'),
+    ('outro', None, 'Next: the falcon.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.5, presets={'drive': (-20, 10, 2.4, (-0.4, 0, 0.38), {'spin_r': -240}), 'brakes': (-40, 18, 2.0, (0.42, 0, 0.62), {}), 'fork': (-40, 10, 2.3, (0.5, 0, 0.5), {}), 'frame': (-35, 12, 3.0, (0.05, 0, 0.6), {}), 'front_wheel': (-10, 4, 2.4, (0.55, 0, 0.36), {'spin_f': -120}), 'handlebar': (-35, 30, 2.0, (0.38, 0, 0.92), {})}, ride_z=0.85)
-COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty indoor wooden velodrome track with steep banking, soft light, soft morning light from the left, light haze. The road fills the lower third of the picture.'
-THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty indoor wooden velodrome track with steep banking, soft light, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
-THUMB_BIG, THUMB_NAME = '1992', 'LOTUS 108'
+def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'gearbox': (-10, 6, 2.3, (0.0, 0, 0.4), {}), 'carbs': (-30, 20, 1.9, (-0.02, 0, 0.62), {})}, ride_z=0.85)
+COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty winding coastal road above a blue sea, soft morning light from the left, light haze. The road fills the lower third of the picture.'
+THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty winding coastal road above a blue sea, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
+THUMB_BIG, THUMB_NAME = '1998', 'YAMAHA R1'

@@ -1,20 +1,22 @@
 # Episode 26 caption (post text)
 
-Facts match ep26/facts.md.
+Facts match ep28/facts.md.
 
 ```
-1994: the most beautiful bike of its decade? 😍
+1999: a bike named after a falcon. 🦅
 
-Massimo Tamburini and Sergio Robbiano, with their team at the Cagiva Research Centre in San Marino, designed the Ducati 916. Under the bodywork: a 916 cc 90 degree V-twin, a chrome-moly trellis frame and a single-sided swingarm made for faster wheel changes in races.
+Suzuki's Hayabusa is the Japanese word for peregrine falcon, a bird that hunts blackbirds. That was the point: the machine was built to beat Honda's CBR1100XX Super Blackbird.
 
-Wheelbase 1,410 mm, dry weight 194.5 kg, twin 320 mm front discs.
+Inside: a 1,299 cc four-cylinder with 173 hp claimed, a twin-beam frame, six-piston brakes on 320 mm discs and 17-inch wheels. Wheelbase: 1,485 mm.
 
-Carl Fogarty rode the new 916 to the 1994 Superbike World Championship title, and Ducati kept winning with it in 1995, 1996 and 1998.
+It was claimed at around 312 km/h (194 mph), though the sources vary. Then the makers made an informal deal to limit top speed to around 300 km/h (186 mph), in effect for 2001 models.
+
+Rider moment: in 2011 Bill Warner set a record of 311.945 mph in Maine on a heavily modified Hayabusa.
 
 Episode 26 of the history of the bike.
-Next: the Yamaha YZF-R1, 1998.
+Next: the Honda RC211V.
 
-Which bike would you put on your wall? 👇
+Is a speed limit on a bike fair, or fun spoiled? 👇
 
-#bikehistory #motorcyclehistory #ducati #ducati916 #carlfogarty #superbike #history #shorts
+#bikehistory #motorcyclehistory #suzuki #hayabusa #topspeed #history #shorts
 ```

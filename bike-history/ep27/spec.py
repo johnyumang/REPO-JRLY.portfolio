@@ -1,28 +1,28 @@
 """Episode 27: spec for lib/make_episode.sh, written by lib/specgen.py (facts in facts.md)."""
 import shotkit
-EP, MODEL, WB = 27, 'r1_1998', 1.4
-HOOK_BIG, HOOK_LINE = '1998', 'One litre,\nless weight.'
-TITLE, TITLE_SIZE = 'YAMAHA YZF-R1', 92
-CLOSE_ORDER = ['engine', 'gearbox', 'carbs', 'fork']
-CLOSE = {'engine': ('20 VALVES · 998 CC', 'engine', (270, 190)), 'gearbox': ('STACKED GEARBOX', 'engine', (280, 190)), 'carbs': ('4 CARBURETTORS', 'engine', (270, 190)), 'fork': ('UPSIDE-DOWN FORK', 'fork', (470, 190))}
+EP, MODEL, WB = 27, 'rc211v_2002', 1.44
+HOOK_BIG, HOOK_LINE = '2002', 'Five\ncylinders.'
+TITLE, TITLE_SIZE = 'HONDA RC211V', 100
+CLOSE_ORDER = ['engine', 'frame', 'rear_suspension', 'front_wheel']
+CLOSE = {'engine': ('V5 · 990 CC', 'engine', (260, 190)), 'frame': ('TWIN-SPAR FRAME', 'frame', (260, 190)), 'rear_suspension': ('PRO-LINK REAR', 'rear_suspension', (470, 190)), 'front_wheel': ('17-INCH FRONT', 'front_wheel', (270, 190))}
 EXL = [('front_wheel', 'FRONT WHEEL'), ('handlebar', 'HANDLEBAR'), ('tank', 'TANK'), ('engine', 'ENGINE'), ('frame', 'FRAME'), ('rear_wheel', 'REAR WHEEL'), ('saddle', 'SEAT'), ('fairing', 'FAIRING')]
-RIDE_TITLE = 'MACAU'
-NEXT_BIG, NEXT_SMALL = 'NEXT: THE FALCON', 'EP 28  ·  SUZUKI HAYABUSA, 1999'
-ENGINE_RPM, ROAD_BAND = 9500, [150, 900]
+RIDE_TITLE = 'SUZUKA, 2002'
+NEXT_BIG, NEXT_SMALL = 'NEXT: BMW’S SUPERBIKE', 'EP 28  ·  BMW S 1000 RR, 2009'
+ENGINE_RPM, ROAD_BAND = 12000, [150, 900]
 LINES = [
-    ('hook', 'One litre, less weight.', 'Nineteen ninety-eight. One litre, less weight.'),
-    ('turn', 'The Yamaha YZF-R1.', 'The Yamaha Y Z F R one.'),
-    ('engine', '998 cc, 20 valves, double overhead cams: about 150 hp.', 'Nine hundred and ninety-eight cc. Twenty valves. About a hundred and fifty horsepower.'),
-    ('gearbox', 'A stacked gearbox: the shafts sit one above the other, so the engine is short.', 'A stacked gearbox. The shafts sit one above the other, so the engine is short.'),
-    ('carbs', 'Four 40 mm carburettors.', 'Four, forty millimetre carburettors.'),
-    ('fork', 'A 41 mm upside-down fork.', 'A forty-one millimetre, upside down fork.'),
-    ('explode', 'Engine, frame, fairing, wheels: 190 kg dry.', 'Engine, frame, fairing, wheels. One hundred and ninety kilos.'),
-    ('ride', 'Top speed: about 270 km/h.', 'Top speed, about two hundred and seventy kilometres an hour.'),
-    ('ride', 'R1s won five Macau Grand Prix races, 1999 to 2013.', 'R ones won five Macau Grand Prix races.'),
-    ('outro', 'A crossplane crank came in 2009.', 'A crossplane crank came in two thousand nine.'),
-    ('outro', None, 'Next: the falcon.'),
+    ('hook', 'Five cylinders.', 'Two thousand two. Five cylinders.'),
+    ('turn', 'The Honda RC211V, built to replace the two-stroke NSR500.', 'The Honda R C two-eleven V. Built to replace the two-stroke N S R five hundred.'),
+    ('engine', 'A V5: five cylinders, 990 cc.', 'A V five. Five cylinders, nine ninety cc.'),
+    ('frame', 'A twin-spar frame.', 'A twin-spar frame.'),
+    ('rear_suspension', 'Pro-Link rear suspension.', 'Pro-Link rear suspension.'),
+    ('front_wheel', 'A 17-inch front wheel, 16.5 at the back.', 'A seventeen-inch front wheel. Sixteen and a half at the back.'),
+    ('explode', 'Engine, frame, fairing, wheels: about 148 kg dry.', 'Engine, frame, fairing, wheels. About a hundred and forty-eight kilos.'),
+    ('ride', 'Suzuka, 7 April 2002: Valentino Rossi wins the opener, in the wet.', 'Suzuka, April two thousand two. Valentino Rossi wins the first race, in the wet.'),
+    ('ride', 'He clinches the title in Rio with four races left.', 'He clinches the title in Rio, with four races left.'),
+    ('outro', '11 wins, 355 points.', 'Eleven wins. Three hundred and fifty-five points.'),
+    ('outro', None, 'Next: B M W\'s superbike.'),
 ]
-def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={'gearbox': (-10, 6, 2.3, (0.0, 0, 0.4), {}), 'carbs': (-30, 20, 1.9, (-0.02, 0, 0.62), {})}, ride_z=0.85)
-COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty winding coastal road above a blue sea, soft morning light from the left, light haze. The road fills the lower third of the picture.'
-THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty winding coastal road above a blue sea, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
-THUMB_BIG, THUMB_NAME = '1998', 'YAMAHA R1'
+def shots(ease, out): return shotkit.standard(ease, out, CLOSE_ORDER, z=0.55, presets={}, ride_z=0.85)
+COVER_PROMPT = 'Wide photograph, photorealistic, eye level, 50mm lens. An empty modern race circuit straight at dusk with grandstands far away, soft morning light from the left, light haze. The road fills the lower third of the picture.'
+THUMB_PROMPT = 'Tall vertical photograph, photorealistic, eye level, 35mm lens. An empty modern race circuit straight at dusk with grandstands far away, soft morning light, bright sky at the top. The road fills the lower half of the picture.'
+THUMB_BIG, THUMB_NAME = '2002', 'RC211V'

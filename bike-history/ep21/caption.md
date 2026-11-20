@@ -12,7 +12,7 @@ Its trick was the "monolever": a single-sided rear swingarm joined with the driv
 In 1981 Hubert Auriol won the Paris-Dakar motorcycle class on an R 80 G/S, finishing in Dakar on 20 January. He won again in 1983.
 
 Episode 21 of the history of the bike.
-Next: the Specialized Stumpjumper, 1981.
+Next: the Kawasaki GPZ900R Ninja, 1984.
 
 Would you ride one to Africa? 👇
 

@@ -1,27 +1,28 @@
-# Episode 22 facts: the Specialized Stumpjumper, 1981
+# Episode 23 facts: the Kawasaki GPZ900R Ninja, 1984
 
-Checked on 2026-11-20. S = https://en.wikipedia.org/wiki/Specialized_Stumpjumper · M = https://en.wikipedia.org/wiki/Mountain_bike.
+Checked on 2026-11-20. K = https://en.wikipedia.org/wiki/Kawasaki_GPZ900R · N = https://en.wikipedia.org/wiki/Kawasaki_Ninja.
 
 | Fact | Value | Source |
 |---|---|---|
-| Maker, year | Specialized Bicycle Components produced the Stumpjumper in 1981 | S, M |
-| Where built | the first one was made in Japan, from a design for a custom bike originally marketed by Tom Ritchey, Gary Fisher and Charlie Kelly | S |
-| What was new | "the first mass-production mountain bike". Founder Mike Sinyard's aim: "make a bike on a production basis but as though it was a custom bike" | S, M |
-| Frame | welded steel (designer Tim Neenan wanted lugged, brazed frames, which were not available then) | S |
-| Drive | 15-speed Suntour ARX GT gears, originally designed for road bikes, with a TA Cyclotourist chainset designed for touring bikes | S |
-| Brakes | Mafac cantilever brakes | S |
-| Suspension | none | S |
-| Wheels | M: the original mountain-bike wheel standard is 26-inch (660 mm), about 2.125-inch (54.0 mm) wide. S gives no wheel size for the Stumpjumper | M |
-| Size for a 3D model | weight "just under 30 pounds (14 kg)"; no wheelbase stated | S |
-| Price | US$750 complete, $395 frame only | S |
-| Sales | first shipment of 125 bikes sold out in six days; about 500 imported to the US over the following year | S |
-| Rider moment | none found for the first bike. Related: Ned Overend won the 1990 Mountain Bike World Championships, the first event of its kind, on a carbon-fiber prototype Stumpjumper (not the 1981 bike) | S |
-| What came next | 2007 reproduction "Stumpjumper Classic" for the 25th anniversary (US$1,300); an original is at the Smithsonian; later full-suspension models (FSR) | S |
+| Builder, years | Kawasaki; "manufactured by Kawasaki from 1984 to 2003" | K |
+| When | unveiled to the press in December 1983, sold as the 1984 model; "Developed in secret over six years" | K |
+| What was new | "Kawasaki's and the world's first 16-valve liquid-cooled inline four-cylinder motorcycle engine"; the engine was used as a stressed member of the frame | K |
+| Engine | 908 cc, four-stroke, liquid-cooled, DOHC, four valves per cylinder; bore x stroke 72.5 x 55 mm; 115 bhp (86 kW) at 9,500 rpm (1986 figure) | K |
+| Frame | steel frame; testing showed the standard downtubes carried virtually no weight, so they were eliminated | K |
+| Brakes | front dual disc, rear single disc | K |
+| Suspension | telescopic fork with air; rear Uni-Trak with an air shock | K |
+| Wheels and tyres | 16-inch front, 18-inch rear; tyres 120/80-16 front, 130/80-18 rear (models A1 to A6) | K |
+| Size for a 3D model | wheelbase 1,495 mm (58.9 in); weight 228 kg (503 lb) | K |
+| Rider moment | none found for a first rider or race win. It appeared in the film Top Gun, which the page says helped make it a cultural icon | K |
+| What came next | GPZ1000RX meant to replace it in 1986 but the 900 continued; ZX-10 in 1988; ZZ-R1100 (1990) became flagship | K |
+| Name | the Ninja name "started with the 1984 GPZ900R" | N |
 
 ## Where sources disagree / not used
 
-- "First mass-produced" rests on a 2010 interview with Mike Sinyard (cited by M); M also calls the 1979 Lawwill Pro Cruiser "the first production mountain bike available" and credits Joe Breeze with what is considered the first mountain bike. Different criteria: use "first mass-produced" only attributed, or "one of the first".
-- M gives the Lawwill date as 1979 but its citation link says 1978.
-- S does not say whether the ~500 US imports include the first 125.
-- Not confirmed: who first rode a Stumpjumper; the Stumpjumper's own wheel size (26-inch is the general MTB standard from M); wheelbase; tyre width; where the Japan factory was.
-- Names Ritchey, Fisher, Kelly appear only in S, not in M.
+- Weight: 228 kg (Japan figure) vs 249 kg and 234 kg (dry) European figures, flagged as needing clarification; use 228 kg "listed".
+- Power varies by year and region (115 bhp 1986; 108 and 100 bhp 1990 Europe; 89 bhp 1986 Japan). Top speed 151 mph vs 158 mph, owners' unverified claims higher: not used.
+- Quarter-mile 10.976 s (text) vs 10.55 s (specialist rider): not used.
+- Start date: N's list says "Kawasaki Ninja 900 (1983-2003)"; K says 1984-2003 and announced December 1983.
+- End of production varies by market (1986 US, 1993 Europe, 2003 Japan).
+- Not found: the designer's name, when the Ninja name was first applied, any named rider moment.
+- Not used: Top Gun year or character details (not read).

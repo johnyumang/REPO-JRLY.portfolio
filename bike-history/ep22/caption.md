@@ -1,20 +1,20 @@
 # Episode 22 caption (post text)
 
-Facts match ep22/facts.md.
+Facts match ep23/facts.md.
 
 ```
-1981: the bike that made mountain biking a product. 🚵
+1984: the Ninja is born. 🥷
 
-Specialized Bicycle Components launched the Stumpjumper in 1981. It is called the first mass-produced mountain bike, though the sources frame "first" in different ways. Founder Mike Sinyard wanted a production bike "as though it was a custom bike".
+Kawasaki showed the GPZ900R to the press in December 1983 and sold it as the 1984 model, after six years of secret development. Its 908 cc engine was the world's first 16-valve liquid-cooled inline four in a motorcycle.
 
-Welded steel frame, 15-speed gears from road and touring parts, cantilever brakes, no suspension at all. Weight: just under 30 pounds (14 kg). Price: US$750.
+The engine itself helped hold the frame together, so the usual downtubes were dropped. Dual front discs, a 16-inch front wheel, an air-assisted fork and a Uni-Trak rear shock. Listed weight: 228 kg (the sources differ by market).
 
-The first shipment of 125 bikes sold out in six days.
+It also flew on the big screen in the film Top Gun.
 
 Episode 22 of the history of the bike.
-Next: the Kawasaki GPZ900R Ninja, 1984.
+Next: the Suzuki GSX-R750, 1985.
 
-Where would you ride yours first? 👇
+Did you ever ride a Ninja? 👇
 
-#bikehistory #mountainbike #stumpjumper #specialized #mtb #cycling #history #shorts
+#bikehistory #motorcyclehistory #kawasaki #gpz900r #ninja #topgun #history #shorts
 ```
