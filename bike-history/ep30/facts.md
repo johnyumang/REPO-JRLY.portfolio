@@ -25,4 +25,4 @@ Checked on 2026-11-20. L = https://en.wikipedia.org/wiki/Harley-Davidson_LiveWir
 - Record distance: 1,317 km vs 1,316.88 km in its own reference title (rounding).
 - "No clutch": not stated outright; wording uses "single speed".
 - Not confirmed: wheelbase, seat height, suspension details, whether the SPAC listing completed (only the announcement is on the page), price (Jalopnik "over $29,000"; not used), the later S2 models.
-- Page names "Charlie Boorman" in one place; the caption uses "Ewan McGregor" only.
+- Page spells "Charlie Boorman" in one place and "Charley" elsewhere; the caption uses "Charley Boorman".
