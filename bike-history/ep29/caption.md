@@ -9,7 +9,7 @@ Ducati introduced the Panigale V4 in 2018, named after Borgo Panigale, the town 
 
 Look closer: a 1,103 cc 90 degree V4, an aluminum perimeter frame, an inverted fork with a single-sided swingarm, and Brembo Stylema calipers on dual 330 mm discs. About 173 kg dry.
 
-Rider moment: Alvaro Bautista won the 2022 World Superbike title on a Panigale V4 R, clinching it at Mandalika, Indonesia, after 16 wins that season.
+Álvaro Bautista won the 2022 World Superbike title on a Panigale V4 R, clinching it at Mandalika, Indonesia, after 16 wins that season.
 
 Episode 29 of the history of the bike.
 Next: the Harley-Davidson LiveWire, 2019.
