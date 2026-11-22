@@ -1,0 +1,37 @@
+{
+ "_how_to_use": "Prompt = style + scene text + end. Paste character strings VERBATIM every time a character appears; never paraphrase them. The Figma image tool takes no reference images, so identical wording is what keeps characters consistent. Add a new era outfit for Indio per episode with indio_era_template and save it under indio_outfits.",
+ "style": "Modern Japanese TV anime: crisp clean line art, cel shading with two-tone shadows, vivid saturated colour, painted skies with light rays, dynamic low-angle composition. Scene: ",
+ "end": " Vertical 9:16. No text, no logos, no watermarks.",
+ "no_text_clause": " Any papers, signs and plaques show only illegible scribbled lines, never readable letters.",
+ "indio_face": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot",
+ "indio_modern": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a white short-sleeved polo shirt, black slacks and worn sneakers, a small charcoal backpack, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist",
+ "indio_era_template": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing <ordinary commoner clothes of that place and year>, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his forearms (one per completed jump)",
+ "indio_outfits": {
+  "1762_manila": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose off-white cotton collarless baro shirt with rolled sleeves, a round bronze medallion on a cord around his neck, one indigo geometric tattoo on his right forearm",
+  "modern_rider_from_ep2": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, wearing a orange delivery-rider windbreaker over a white polo shirt, a round bronze medallion on a cord around his neck, a red handkerchief tied on his left wrist",
+  "1896_katipunan": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt, rolled-up red trousers, barefoot, a round bronze medallion on a cord around his neck",
+  "1896_manila": "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, a round bronze medallion on a cord around his neck, indigo geometric tattoos on his right forearm"
+ },
+ "usman": "a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck",
+ "usman_ears_clause": "The dog's left ear stands upright and pointed, only the dog's right ear is folded down; the dog's face is all black with no white on it, the white patch is only on the dog's chest. (Add this sentence right after the usman string whenever a still with Usman is redrawn: \"one folded ear\" alone often gives two upright or two folded ears. Every part names THE DOG: the first wording said \"his face is all black\" and in shots with Indio close by the model painted Indio's face black (Episode 35). After any redraw with Usman, look at every human face at 3x. The right ear is the folded one from now on.)",
+ "mystery_woman": "a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck",
+ "medallion": "an old round bronze medallion engraved with a sun and a triangle, on a worn cord",
+ "time_portal": "a swirling golden time portal of clock gears and light",
+ "rules": [
+  "Indio's constants in every era: red headband, bronze medallion, tattoos (one more after each jump: episode N starts with N-1 tattoos).",
+  "Real historical people are drawn as generic anime figures described by clothes and build, never as likenesses.",
+  "No Christian cross/church unless the scene really is one; say 'no cross, no church, no religious statue' for civic monuments.",
+  "Usman exists ONLY during a time jump and in the past. He is never in a present-day scene: add 'he is alone, no dog, no animals' to every modern-day prompt. He always wears the red kerchief.",
+  "In modern-day scenes Indio has no headband (red handkerchief on his wrist)."
+ ],
+ "indio_child_2012": "a Filipino schoolboy about ten with short neat black hair and big serious dark eyes, white school uniform shirt (Indio at ten, Episode 10: no tattoos, no medallion)",
+ "indio_modern_2012": "a lean young Filipino man about twenty, warm brown skin, black hair in a small topknot, plain grey t-shirt, jeans, bare neck with no necklace, red handkerchief on his left wrist, indigo tattoos on his right forearm (Episode 10 and later present-day scenes without the medallion)",
+ "lolo": "a thin grey-haired Filipino grandfather in his seventies with a kind wrinkled face, faded white polo shirt, a round bronze medallion engraved with a sun and a triangle on a cord at his neck (Indio's Lolo, alive about 2012, Episode 10)",
+ "guro_ep10": "a young Filipina teacher in her late twenties, black hair in a neat bun, kind patient face, light blue blouse (Indio's Grade 5 teacher, fictional, Episode 10)",
+ "classmate_bea": "a Filipina schoolgirl about ten with two pigtails and a white school blouse (fictional classmate, Episode 10)",
+ "classmate_jm": "a chubby Filipino schoolboy about ten with round glasses and a white school shirt (fictional classmate, Episode 10)",
+ "lola_2012": "a kind Filipina grandmother about sixty, black and grey hair in a low bun, round glasses, a floral house dress (the Lola about 2012, Episode 10)",
+ "indio_s5": "a Filipino man in his forties with a black topknot with a few grey strands, a long dark grey coat, a red handkerchief on his wrist (Season 4 end and Season 5: President, past forty; used in Episodes 42-45, 48, 49)",
+ "indio_s5_anting": "a Filipino man in his forties with a black topknot with a few grey strands, ornate golden armour plates made of twelve round bronze medallions over a long dark grey coat, a red handkerchief on his wrist (Season 5, in the anting)",
+ "diwa": "a tall translucent glowing figure of <the datu's era and role, e.g. a pre-colonial Visayan chieftain> made of soft blue-gold light, no clear face (never a likeness of the real datu)"
+}

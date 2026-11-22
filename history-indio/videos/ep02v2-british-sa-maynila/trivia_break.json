@@ -1,0 +1,85 @@
+{
+ "fact_id": "ep02v2_end",
+ "fact_english": "On 6 October 1762 the British stormed Manila through the breach at the Baluarte de San Diego; Archbishop Manuel Rojo, acting governor-general, surrendered. Simón de Anda y Salazar, an oidor of the Audiencia, had left on 4 October and resisted from Bacolor, Pampanga, so the British held only Manila and Cavite, until April 1764. By tradition, some of their Indian sepoys stayed and settled in Cainta (a tradition, no number verified).",
+ "label_onscreen": "1762",
+ "source_onscreen": "Pinagmulan: intramuros.gov.ph; Wikipedia; Asian Studies (1981)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? British, sa Maynila?",
+   "emphasis": [
+    "British"
+   ],
+   "say": "Totoo ba yon, par? british, sa Maynila?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: ikaanim ng Oktubre 1762, pinasok ng mga British ang Maynila sa butas ng Baluarte de San Diego.",
+   "emphasis": [
+    "1762",
+    "Baluarte de San Diego"
+   ],
+   "say": "Tiyak: ikaanim ng Oktubre mil siyete syentos sesentay dos, pinasok ng mga british ang Maynila sa butas ng baluARte de san DYEgo."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang sumuko, si Arsobispo Manuel Rojo.",
+   "emphasis": [
+    "Rojo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Pero si Simón de Anda, nakaalis bago bumagsak ang lungsod, at lumaban mula Bacolor, Pampanga.",
+   "emphasis": [
+    "Simón de Anda"
+   ],
+   "say": "Pero si Simón de Anda, nakaalis bago bumagsak ang lungsod, at lumaban mula Bacolor, pampanga."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Kaya Maynila at Cavite lang ang nahawakan nila, hanggang Abril 1764.",
+   "emphasis": [
+    "Maynila at Cavite"
+   ],
+   "say": "Kaya Maynila at Cavite lang ang nahawakan nila, hanggang Abril mil siyete syentos sesentay kuwatro."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh 'yung mga sundalong taga-India?",
+   "emphasis": [
+    "taga-India"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ayon sa tradisyon, may mga sepoy na hindi na umuwi at nanirahan sa Cainta.",
+   "emphasis": [
+    "Cainta"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tradisyon 'yan, walang bilang.",
+   "emphasis": [
+    "tradisyon"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Kaya pala ako umungol.",
+   "emphasis": [
+    "umungol"
+   ],
+   "say": "Kaya pala ako umúngol."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 119,
+ "after_text": "Ikaw, ka-Indio: kung isang pamilya lang ang kaya mong ilabas, tatakbo ka pa rin ba pabalik?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form (BIBLE section 0, rule 7), as Episode 1 v2: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'. Spliced after the story's last line, not inside it.",
+ "voice_note": "Same words as the trivia block at the end of script_multispeaker.txt; Indio's second and third lines are each split in two so each caption fits. Years voiced as Spanish-derived numbers (mil siyete syentos sesentay dos / kuwatro); British = british, Baluarte de San Diego = baluARte de san DYEgo, Pampanga = pampanga, umungol = u-MU-ngol (master header)."
+}

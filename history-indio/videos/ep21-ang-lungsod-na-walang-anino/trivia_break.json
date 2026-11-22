@@ -1,0 +1,42 @@
+{
+ "fact_id": "t04",
+ "fact_english": "The giant golden-crowned flying fox, found only in the Philippines, is one of the largest bats in the world, with a wingspan of up to about 1.7 metres.",
+ "label_onscreen": "PANIKING HIGANTE",
+ "source_onscreen": "Pinagmulan: Field Museum",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang higanteng paniki natin, ang giant golden-crowned flying fox, isa sa pinakamalalaking paniki sa mundo!",
+   "emphasis": [
+    "paniki"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Hanggang mga isang metro't pitumpu ang lapad ng pakpak. Mas malapad pa sa kama ko.",
+   "emphasis": [
+    "kama"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 27,
+ "after_text": "At sa gilid, isang maliit na bilang na walang pangalan, tumataas nang paunti-unti.",
+ "estimated_time_note": "no timings.json yet; about 121 s by word count",
+ "palette": "leaf",
+ "grave": false,
+ "why_here": "After 'At sa gilid, isang maliit na bilang...': the beach portal scene ends here on the mystery of the rising counter, a few lines after Usman's happy return. A new scene opens next, with Biringan seen from the rocks. Moved on 13 Nov because the old cut after sentence 16 split the elders' line about people vanishing from Nanay Pacing's warning that explains it, in the middle of one exchange. The time is an estimate (about 121 s, in a gap of about 0.87 s), since this episode has no timings.json, so insert_time is not given."
+}

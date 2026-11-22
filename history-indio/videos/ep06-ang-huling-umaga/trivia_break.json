@@ -1,0 +1,42 @@
+{
+ "fact_id": "t25",
+ "fact_english": "The Philippine mouse-deer of Balabac is not a true deer; it is a chevrotain, from a separate family of small hoofed animals.",
+ "label_onscreen": "PILANDOK",
+ "source_onscreen": "Pinagmulan: Mammal Diversity Database",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang pilandok ng Balabac, mukhang maliit na usa, pero hindi pala usa!",
+   "emphasis": [
+    "pilandok"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Chevrotain siya, ibang pamilya ng maliliit na hayop na may kuko. Maliit, pero may sariling angkan.",
+   "emphasis": [
+    "chevrotain"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 23,
+ "after_text": "Ang batang nakita namin sa Calamba, tatlumpu't limang taong gulang na.",
+ "insert_time": 60.98,
+ "palette": "leaf",
+ "grave": true,
+ "why_here": "After the reveal that Pepe is now thirty-five, before the procedure of the execution begins; never inside it. Grave episode: gentle nature fact (swapped from the jade vine to the pilandok after the central check) and a mild joke."
+}

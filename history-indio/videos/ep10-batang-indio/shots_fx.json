@@ -1,0 +1,425 @@
+{
+"0": {
+"fx": [
+"punch",
+"flash"
+],
+"move": "dolly_in",
+"keys": [
+0,
+23,
+41
+],
+"depth": "strong"
+},
+"1": {
+"fx": [],
+"move": "push_in"
+},
+"2": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"3": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"4": {
+"fx": [],
+"move": "push_in"
+},
+"5": {
+"fx": [],
+"move": "pan_right"
+},
+"6": {
+"fx": [],
+"move": "rack_focus",
+"depth": "strong"
+},
+"7": {
+"fx": [
+"aura_gold",
+"flash"
+],
+"move": "crane_down",
+"depth": "strong"
+},
+"8": {
+"fx": [],
+"move": "dolly_in",
+"keys": [
+8,
+86
+],
+"depth": "strong"
+},
+"9": {
+"fx": [
+"sparkle"
+],
+"move": "rack_focus",
+"depth": "strong",
+"keys": [
+9,
+87
+]
+},
+"10": {
+"fx": [],
+"move": "push_in"
+},
+"11": {
+"fx": [],
+"move": "pull_out"
+},
+"12": {
+"fx": [],
+"move": "orbit_left",
+"depth": "strong"
+},
+"13": {
+"fx": [],
+"move": "push_in"
+},
+"14": {
+"fx": [
+"punch"
+],
+"move": "tilt_up"
+},
+"15": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"16": {
+"fx": [],
+"move": "crane_up",
+"depth": "strong"
+},
+"17": {
+"fx": [],
+"move": "orbit_right",
+"depth": "strong"
+},
+"18": {
+"fx": [
+"sparkle",
+"aura_gold"
+],
+"move": "rack_focus",
+"depth": "strong"
+},
+"19": {
+"fx": [],
+"move": "crane_down",
+"depth": "strong"
+},
+"20": {
+"fx": [],
+"move": "push_in"
+},
+"21": {
+"fx": [],
+"move": "tilt_up"
+},
+"22": {
+"fx": [],
+"move": "push_in",
+"keys": [
+22,
+80
+]
+},
+"23": {
+"fx": [
+"punch"
+],
+"move": "dolly_in",
+"depth": "strong"
+},
+"24": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"25": {
+"fx": [],
+"move": "rack_focus",
+"depth": "strong"
+},
+"26": {
+"fx": [],
+"move": "push_in"
+},
+"27": {
+"fx": [],
+"move": "orbit_left",
+"depth": "strong"
+},
+"28": {
+"fx": [],
+"move": "push_in"
+},
+"29": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"30": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"31": {
+"fx": [],
+"move": "push_in"
+},
+"32": {
+"fx": [],
+"move": "push_in",
+"keys": [
+81,
+32
+]
+},
+"33": {
+"fx": [],
+"move": "orbit_right",
+"depth": "strong"
+},
+"34": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"35": {
+"fx": [],
+"move": "pan_left",
+"keys": [
+35,
+88
+]
+},
+"36": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"37": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"38": {
+"fx": [],
+"move": "tilt_up"
+},
+"39": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"40": {
+"fx": [],
+"move": "crane_down",
+"depth": "strong"
+},
+"41": {
+"fx": [
+"aura_red"
+],
+"move": "push_in"
+},
+"42": {
+"fx": [],
+"move": "rack_focus",
+"depth": "strong"
+},
+"43": {
+"fx": [],
+"move": "push_in"
+},
+"44": {
+"fx": [],
+"move": "crane_down",
+"depth": "strong"
+},
+"45": {
+"fx": [],
+"move": "push_in"
+},
+"46": {
+"fx": [],
+"move": "pull_out"
+},
+"47": {
+"fx": [],
+"move": "dolly_out",
+"depth": "strong"
+},
+"48": {
+"fx": [],
+"move": "push_in"
+},
+"49": {
+"fx": [],
+"move": "pan_right"
+},
+"50": {
+"fx": [],
+"move": "push_in"
+},
+"51": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"52": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"53": {
+"fx": [],
+"move": "push_in"
+},
+"54": {
+"fx": [],
+"move": "push_in",
+"keys": [
+54,
+85
+]
+},
+"55": {
+"fx": [],
+"move": "dolly_out",
+"depth": "strong"
+},
+"56": {
+"fx": [],
+"move": "push_in"
+},
+"57": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"58": {
+"fx": [],
+"move": "dolly_in",
+"keys": [
+58,
+90,
+56
+],
+"depth": "strong"
+},
+"59": {
+"fx": [],
+"move": "push_in"
+},
+"60": {
+"fx": [
+"shake"
+],
+"move": "push_in"
+},
+"61": {
+"fx": [],
+"move": "orbit_left",
+"depth": "strong"
+},
+"62": {
+"fx": [
+"sparkle",
+"aura_gold"
+],
+"move": "crane_up",
+"depth": "strong"
+},
+"63": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"64": {
+"fx": [],
+"move": "dolly_in",
+"depth": "strong"
+},
+"65": {
+"fx": [],
+"move": "push_in"
+},
+"66": {
+"fx": [],
+"move": "push_in"
+},
+"67": {
+"fx": [],
+"move": "rack_focus",
+"depth": "strong"
+},
+"68": {
+"fx": [
+"aura_gold",
+"sparkle"
+],
+"move": "crane_up",
+"depth": "strong"
+},
+"69": {
+"fx": [
+"sparkle"
+],
+"move": "push_in",
+"keys": [
+69,
+82,
+83
+]
+},
+"70": {
+"fx": [
+"aura_gold",
+"flash",
+"shake"
+],
+"move": "dolly_in",
+"keys": [
+70,
+84
+],
+"depth": "strong"
+},
+"71": {
+"fx": [],
+"move": "push_in"
+},
+"72": {
+"fx": [],
+"move": "push_in"
+},
+"73": {
+"fx": [
+"sparkle",
+"aura_gold",
+"punch"
+],
+"move": "dolly_in",
+"depth": "strong"
+}
+}

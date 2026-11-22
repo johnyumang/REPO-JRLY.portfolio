@@ -1,0 +1,125 @@
+# INDIO: ANG SAKSI — Episode 8, "Ang Huling Tala" (version 2)
+# MASTER script, same form as story/ep01_v2 (the approved model). One line per turn: NAME: [tone] text.
+# Lines in (parentheses) are NOT spoken: they are what the picture shows (see shots.md).
+# script.txt and sentences.json are derived from this file by story/_parts/derive.py.
+# WANT: to take his medallion back from M and go home, after 529 days.
+# SABI-SABI: "Sa Kawit, ganap at buong kalayaan ang idineklara, at buo ang loob ng lahat."
+# TWIST (BIBLE row 8): time loop. Fall: a hand's width from the medallion, he is stopped; the uproar that
+#   blocks him is HIMSELF (Episode 3, seen from behind); if he takes it now it never reaches him. He has to
+#   watch his way home hung on a toddler. Comeback: he lets it go by his own choice, and that is what earns
+#   the sixth mark. Show-off: the bread the whole feast is eating is his. Season finale: he does not go home.
+# This is the same afternoon as Episode 3, from the BACK, with only new things: the bakery, Mabini's hammock,
+#   his earlier self. Nothing of Episode 3's pictures is reused (see shots.md).
+# "Today" in this episode is Indio's own now: a baker in Cavite in June 1898.
+# Speakers: TAGAPAGSALAYSAY. INDIO; INDIO (sa atin). USMAN. M (calm, low). ALING PINING (invented baker woman
+# of about fifty; "friend" voice, old woman).
+# MABINI (Apolinario Mabini, real, 33; designed voice, quiet and exact): ONE line, a rendering of the
+#   judgment he wrote in his own memoir (that the proclamation was premature and imprudent); see facts.md.
+#   He is carried past in a hammock; Indio never speaks to him.
+# DIWA (the diwa of Rajah Sulayman in the family medallion; the owner's approved exception; one invented line).
+# The toddler never speaks. The man with a raised phone is a picture only.
+# "Umungol" is always said u-MU-ngol.
+# SAY: 529=limandaan at dalawampu't siyam
+# SAY: Sinigang=siniGANG
+# SAY: sigang=siGANG
+# SAY: Kawit=KAwit
+# SAY: 1898=mil otsosyentos nobentay otso
+# SAY: Mabini=maBIni
+# SAY: Pining=PIning
+# SAY: Rajah Sulayman=RAha sulayMAN
+# SAY: Heneral=heneRAL
+# SAY: lente=LENte
+
+# --- 0. Hook (cold, at 0.0, on a hand closing on his wrist: a flash-forward of scene 3)
+(Ang kamay ni Indio, isang dangkal na lang mula sa isang medalyong tanso. Isang kamay na may guwantes ang sumunggab sa pulso niya.)
+M: [sharp] Huwag!
+INDIO (sa atin): [dramatic] Limandaan at dalawampu't siyam na araw akong naghintay para bawiin ang medalyon ko. Pinigilan ako ng mismong nagnakaw nito.
+INDIO (sa atin): [dry] Ako 'to si Indio. Panadero na ako ngayon.
+
+# --- 1. His now (short, Indio's voice). He wants: today to be the day he goes home.
+TAGAPAGSALAYSAY: [calm] Cavite. Hunyo 1898. Madaling-araw.
+TAGAPAGSALAYSAY: [calm] Labimpitong buwan nang naghihintay si Indio sa nakaraan. Nagmamasa siya ng tinapay sa panaderya ng amo niyang si Aling Pining. Kasama pa rin niya si Usman, ang aso niyang nagsasalita. At binibilang niya ang mga araw sa dingding.
+(Isang panaderya. Sa dingding, mga guhit ng uling: limandaan at dalawampu't siyam. Nagmamasa si Indio, puno ng harina ang braso. Natutulog si Usman sa sako.)
+INDIO (sa atin): [dry] Unang trabahong hindi ako natanggal. Kinailangan ko pang mapadpad sa ibang siglo.
+INDIO (sa atin): [wistful] Sinigang: galing sa salitang "sigang", ibig sabihin, pakuluan. Atin 'yan mula pa noong una. Ang tagal ko nang hindi nakakatikim ng sinigang ni Lola. Ngayong araw, uuwi na ako.
+ALING PINING: [brisk] Indio! Tatlong bilao para sa handaan sa bahay ng Heneral. Ikaw ang magdala, at huwag mong ipakain sa aso.
+USMAN: [sleepy] Naririnig kita, Aling Pining.
+
+# --- 2. The back of the crowd. He wants: to find M.
+TAGAPAGSALAYSAY: [low] Kawit. Ikalabindalawa ng Hunyo, 1898. Hapon.
+(Mula sa pinakalikod: mga likod ng napakaraming tao. Si Indio, may pasang tatlong bilao ng tinapay. Sa bulsa niya, ang lente.)
+TAGAPAGSALAYSAY: [low] Dinala ni Indio ang tinapay sa Kawit. Hinahanap niya si M, ang babaeng nagnakaw ng medalyon niya. Sabi sa sulat ng Lolo niya, narito siya ngayong araw.
+(Nahati ang mga tao sa gilid. Isang duyan, pasan ng apat na lalaki. Sa duyan, isang payat na lalaking hindi maigalaw ang mga binti, matalas ang mata.)
+TAGAPAGSALAYSAY: [low] Nahati ang mga tao. Dumaan ang isang lalaking nakaduyan.
+ALING PINING: [whisper] Si Mabini. Lumpo ang paa, pero siya ang pinakamatalas dito. Binuhat siya sa duyan papunta rito.
+INDIO (sa atin): [whisper] Sabi sa libro, buong kalayaan ang idineklara ngayon. Lahat masaya.
+(Tumingin ang lalaki sa bintana ng malaking bahay. Hindi siya nakangiti.)
+MABINI: [quiet] Maaga pa ito. At padalos-dalos.
+(Umungol si Usman, mahina, nakatingin kay Indio.)
+USMAN: [low] Hindi lahat masaya, par.
+(Sa harap, isang gulo. Itinapat ni Indio ang lente. Sa loob ng salamin: isang binatang naka-pulang bandana, itinutulak ng mga tao palabas ng tarangkahan. Sa tabi nito, isang itim na aso.)
+TAGAPAGSALAYSAY: [low] May gulo sa harap. Sumilip si Indio sa lente ng Lolo niya. Isang binatang naka-pulang bandana ang itinutulak palabas.
+INDIO: [stunned] Ako 'yon. Noong una akong dumating dito.
+USMAN: [urgent] At ako 'yon. Huwag kang lalapit, par. Bawal magkita ang iisang tao.
+
+# --- 3. A hand's width. THE FALL.
+(Sa gilid ng karamihan: isang babaeng nakasalakot, may kargang paslit. Sa kamay niya, isang medalyong tanso. Araw at tatsulok.)
+TAGAPAGSALAYSAY: [low] Saka niya nakita si M, may kargang paslit. Hawak nito ang medalyon.
+INDIO: [fierce] Si M. At ang medalyon ko.
+(Ibinaba niya ang mga bilao. Sumugod. Inabot ang medalyon. Isang dangkal na lang.)
+TAGAPAGSALAYSAY: [low] Sumugod si Indio. Isang dangkal na lang.
+M: [sharp] Huwag!
+(Hawak niya ang pulso ni Indio. Sa unang pagkakataon, kita natin ang mga mata niya. Pagod. Hindi galit.)
+TAGAPAGSALAYSAY: [low] Sinunggaban ni M ang pulso niya.
+INDIO: [bitter] Isang taon at kalahati, M. Nagmasa ako ng tinapay para makakain. Akin 'yan.
+M: [low] Hiningi ko ito sa Lolo mo noon. Tumanggi siya, kaya sa'yo ko kinuha. At kung kukunin mo ngayon, hindi na ito makakarating sa'yo kailanman.
+INDIO: [confused] Ano'ng ibig mong sabihin?
+M: [quiet] Tingnan mo ang bata.
+(Ang paslit. Nakatingin kay Indio. Ang mga mata ng Lolo niya.)
+TAGAPAGSALAYSAY: [low] Tiningnan ni Indio ang paslit. Mga mata ito ng Lolo niya.
+INDIO (sa atin): [whisper] Ito pala ang sulat niya: "ibabalik ko sa pinanggalingan". Mula sa batang ito, bababa ang medalyon sa pamilya ko. Hanggang kay Lolo. Hanggang sa akin.
+INDIO (sa atin): [whisper] Ang daan ko pauwi, isasabit sa leeg ng isang sanggol. At kailangan kong panoorin.
+
+# --- 4. THE COMEBACK. He lets it go.
+(Binitawan ni M ang pulso niya. Hindi na niya pinigilan. Si Indio na ang bahala.)
+(Iniurong ni Indio ang kamay. Dahan-dahan.)
+TAGAPAGSALAYSAY: [low] Binitawan siya ni M. At iniurong ni Indio ang kamay niya.
+INDIO: [quiet] Sige. Isabit mo.
+(Isinabit ni M ang medalyon sa leeg ng paslit. Pagdikit ng tanso sa balat, isang tinig, malalim, galing sa loob ng medalyon.)
+TAGAPAGSALAYSAY: [low] Isinabit ni M ang medalyon sa paslit. At mula sa tanso, may nagsalita.
+DIWA: [deep] Mahigit tatlong daang taon akong naghintay sa araw na ito.
+INDIO: [startled] Sino 'yon?
+M: [low] Si Rajah Sulayman. Ang diwa sa medalyon n'yo.
+(Sa braso ni Indio, isang bagong guhit, umuusok. Ang ikaanim.)
+TAGAPAGSALAYSAY: [low] Sa braso ni Indio, umusok ang ikaanim na marka.
+M: [soft] Ikaanim. Dahil bumitaw ka. Sino ka na ba ngayon, Indio?
+INDIO: [dry] Panadero. May trabaho na ako.
+(Sa likod nila, sumisigaw si Aling Pining sa mga tao, itinuturo si Indio.)
+ALING PINING: [loud] Hoy! 'Yang kinakain n'yong lahat, masa ng binatang 'yan! Limandaang araw kong tinuruan 'yan!
+(Lumingon ang mga tao. May kumaway kay Indio ng tinapay. May pumalakpak. Namula si Indio.)
+TAGAPAGSALAYSAY: [low] Pumalakpak ang mga tao.
+USMAN: [proud] Sikat ka na, par. Sa tinapay.
+
+# --- 5. The handle of the umbrella. Season finale.
+(Inilabas ni M ang isang pulang payong mula sa ilalim ng balabal. Inikot niya ang hawakan. Sa loob: isang maliit na medalyong may bituin, at isang kasulatang mukhang blangko.)
+TAGAPAGSALAYSAY: [low] Inikot ni M ang hawakan ng payong niya. Sa loob, isang maliit na medalyon at isang blangkong kasulatan.
+M: [low] Hindi ang medalyon ang hinahanap ng mga sumusunod sa atin. Ito. Ang Huling Tala.
+(Itinapat ni Indio ang lente sa blangkong kasulatan. Lumitaw ang isang mapa. Labindalawang tuldok.)
+TAGAPAGSALAYSAY: [low] Sa lente, lumitaw ang isang mapa. Labindalawang tuldok.
+M: [low] Labindalawang medalyon, nakakalat sa mundo. Kaya kitang iuwi ngayon din, kung gusto mo.
+(Sumindi ang unang tuldok sa mapa: malayo, sa kanluran. Tumingin si Indio sa bahay ni Lola sa malayo, sa isip niya. Tapos sa mapa.)
+TAGAPAGSALAYSAY: [low] Sumindi ang unang tuldok. Naisip ni Indio ang Lola niya. Tapos tumingin siya ulit sa mapa.
+INDIO: [steady] Lola, itabi mo muna ang sinigang ko.
+(Sa likod ng karamihan, sa pagitan ng mga sombrero: isang lalaki, nakataas ang isang cellphone. Sa 1898.)
+TAGAPAGSALAYSAY: [low] Pero sa likod ng karamihan, may lalaking nakataas ang cellphone. Hindi siya kilala ni Indio.
+INDIO (sa atin): [whisper] Teka. May cellphone 'yon. Hindi lang pala ako ang hindi taga-rito.
+
+# --- 6. The one question (on screen, and spoken)
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung isang hakbang na lang pauwi, at may nagsabing "huwag muna", makikinig ka ba?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; up to 25 seconds)
+# USMAN: Totoo ba 'yon, par? Hindi masaya si Mabini?
+# INDIO: Tiyak: dumating si Apolinario Mabini sa Kawit na buhat-buhat sa duyan. At sa sarili niyang alaala, isinulat niyang maaga pa at padalos-dalos ang pagpapahayag. Hindi ito eksaktong sipi; diwa ito ng isinulat niya.
+# INDIO: Nakasulat din sa Akta na ang kalayaan ay sa ilalim ng proteksyon ng Amerika. Makalipas ang anim na buwan, isinuko tayo ng Espanya sa Amerika sa Paris.
+# USMAN: Eh si Rajah Sulayman?
+# INDIO: Totoong pinuno siya ng Maynila na lumaban sa mga Espanyol noong 1570. Ang tinig niya sa medalyon, kuwento namin.

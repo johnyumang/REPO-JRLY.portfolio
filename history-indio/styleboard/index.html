@@ -1,0 +1,164 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head><body><script type="module">
+import * as THREE from 'three';
+import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+
+const style = new URLSearchParams(location.search).get('style') || 'vinyl';
+const W = 1080, H = 1920;
+const CFG = {
+  vinyl:   {seg: 56, bg: ['#ffd77a', '#f08a3c'], ground: '#f3a14e', tone: THREE.ACESFilmicToneMapping, exp: 1.05, key: 2.6, hemi: 0.55, rim: '#7fd0ff', world: false},
+  clay:    {seg: 40, bg: ['#8fd0f5', '#e6f5ff'], ground: '#d9b98a', tone: THREE.ACESFilmicToneMapping, exp: 1.1, key: 2.8, hemi: 0.7, rim: '#ffd9a0', world: true},
+  toon:    {seg: 40, bg: ['#58b6ef', '#d3efff'], ground: '#e5c690', tone: THREE.NoToneMapping, exp: 1, key: 1.7, hemi: 1.25, rim: null, world: true},
+  lowpoly: {seg: 7,  bg: ['#3b2d6b', '#f79a8c'], ground: '#6c5aa8', tone: THREE.ACESFilmicToneMapping, exp: 1.15, key: 2.8, hemi: 0.75, rim: '#ff9ad5', world: true},
+}[style];
+const SEG = CFG.seg;
+
+const renderer = new THREE.WebGLRenderer({antialias: true, preserveDrawingBuffer: true});
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = CFG.tone; renderer.toneMappingExposure = CFG.exp;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(30, W / H, 0.1, 100);
+cam.position.set(0.1, 2.15, 10.6); cam.lookAt(0.1, 2.05, 0);
+
+// ---------- background
+{ const c = document.createElement('canvas'); c.width = 4; c.height = 512; const g = c.getContext('2d');
+  const gr = g.createLinearGradient(0, 0, 0, 512); gr.addColorStop(0, CFG.bg[0]); gr.addColorStop(1, CFG.bg[1]);
+  g.fillStyle = gr; g.fillRect(0, 0, 4, 512); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; scene.background = t; }
+if (style === 'vinyl') { const pm = new THREE.PMREMGenerator(renderer); scene.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture; scene.environmentIntensity = 0.55; }
+
+// ---------- textures
+function noiseTex() { const c = document.createElement('canvas'); c.width = c.height = 256; const g = c.getContext('2d');
+  const id = g.createImageData(256, 256); let s = 7;
+  for (let i = 0; i < 256 * 256; i++) { s = (s * 16807) % 2147483647; const v = 110 + (s % 90); id.data.set([v, v, v, 255], i * 4); }
+  g.putImageData(id, 0, 0); g.filter = 'blur(1.2px)'; g.drawImage(c, 0, 0);
+  const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(3, 3); return t; }
+const NOISE = noiseTex();
+const GRAD = (() => { const d = new Uint8Array([95, 95, 95, 255, 185, 185, 185, 255, 255, 255, 255, 255]);
+  const t = new THREE.DataTexture(d, 3, 1, THREE.RGBAFormat); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+
+function mat(color, o = {}) {
+  if (o.basic) return new THREE.MeshBasicMaterial({color, transparent: !!o.opacity, opacity: o.opacity ?? 1});
+  if (style === 'vinyl') return new THREE.MeshPhysicalMaterial({color, roughness: o.matte ? 0.8 : 0.36, clearcoat: o.matte ? 0 : 0.7, clearcoatRoughness: 0.22, side: o.side ?? THREE.FrontSide});
+  if (style === 'clay') return new THREE.MeshStandardMaterial({color, roughness: 0.96, bumpMap: NOISE, bumpScale: 1.4, side: o.side ?? THREE.FrontSide});
+  if (style === 'toon') return new THREE.MeshToonMaterial({color, gradientMap: GRAD, side: o.side ?? THREE.FrontSide});
+  return new THREE.MeshStandardMaterial({color, roughness: 0.85, flatShading: true, side: o.side ?? THREE.FrontSide});
+}
+function shape(geo, amp = 0.012) {
+  if (style === 'clay' || style === 'lowpoly') {
+    const p = geo.attributes.position, n = geo.attributes.normal, f = style === 'clay' ? 9 : 5, a = style === 'clay' ? amp : amp * 2.2;
+    for (let i = 0; i < p.count; i++) { const x = p.getX(i), y = p.getY(i), z = p.getZ(i);
+      const d = a * Math.sin(x * f + 1.3) * Math.sin(y * f * 1.1 + 0.7) + a * 0.6 * Math.sin(z * f * 1.7 + 2.1);
+      p.setXYZ(i, x + n.getX(i) * d, y + n.getY(i) * d, z + n.getZ(i) * d); }
+    geo.computeVertexNormals(); }
+  return geo;
+}
+const OUT = new THREE.MeshBasicMaterial({color: '#2a1630', side: THREE.BackSide});
+function mesh(geo, m, o = {}) {
+  const me = new THREE.Mesh(geo, m); me.castShadow = !o.noShadow; me.receiveShadow = true;
+  if (style === 'toon' && !o.noOutline) { const ol = new THREE.Mesh(geo, OUT); const k = o.outline ?? 1.045; ol.scale.setScalar(k); me.add(ol); }
+  return me;
+}
+const sph = (r, color, o = {}) => mesh(shape(new THREE.SphereGeometry(r, SEG, Math.max(5, SEG * 0.75 | 0))), mat(color, o), o);
+function cap(a, b, r, color, o = {}) {
+  const A = new THREE.Vector3(...a), B = new THREE.Vector3(...b), d = B.clone().sub(A), L = d.length();
+  const me = mesh(shape(new THREE.CapsuleGeometry(r, L, style === 'lowpoly' ? 2 : 8, style === 'lowpoly' ? 6 : 20), 0.004), mat(color, o), o);
+  me.position.copy(A).add(B).multiplyScalar(0.5); me.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize()); return me;
+}
+const rbox = (w, h, d, r, color, o = {}) => mesh(shape(new RoundedBoxGeometry(w, h, d, style === 'lowpoly' ? 1 : 6, r), 0.01), mat(color, o), o);
+
+// ---------- character
+function tagTex(text, bg) { const c = document.createElement('canvas'); c.width = 512; c.height = 192; const g = c.getContext('2d');
+  g.fillStyle = bg; g.fillRect(0, 0, 512, 192); g.fillStyle = '#2a1630'; g.font = 'bold 96px DejaVu Sans, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillText(text, 256, 100); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t; }
+
+function character(c) {
+  const G = new THREE.Group();
+  // legs + shoes
+  for (const s of [-1, 1]) { G.add(cap([s * 0.14, 0.12, 0], [s * 0.14, 0.55, 0], 0.045, c.pants));
+    const sh = sph(0.11, '#2b2020'); sh.scale.set(1, 0.55, 1.5); sh.position.set(s * 0.14, 0.06, 0.05); G.add(sh); }
+  // body (egg)
+  const body = sph(0.4, c.outfit); body.scale.set(1, 1.28, 0.92); body.position.y = 0.98; G.add(body);
+  if (c.collar) { const col = sph(0.17, c.collar); col.scale.set(1.25, 0.5, 1.1); col.position.set(0, 1.42, 0.03); G.add(col); }
+  if (c.tag) { const t = new THREE.Mesh(new THREE.BoxGeometry(0.36, 0.135, 0.03), [0, 1, 2, 3].map(() => mat(c.tagBg)).concat([new THREE.MeshBasicMaterial({map: tagTex(c.tag, c.tagBg)}), mat(c.tagBg)]));
+    t.position.set(0, 1.02, 0.4); t.rotation.x = -0.05; t.castShadow = true; G.add(t); }
+  // head
+  const HG = new THREE.Group(); HG.position.y = 1.83; G.add(HG);
+  HG.add(sph(0.46, c.skin));
+  for (const s of [-1, 1]) { const e = sph(0.075, c.skin); e.position.set(s * 0.455, -0.02, 0); HG.add(e); }
+  const nose = sph(0.04, c.nose ?? c.skin); nose.position.set(0, -0.05, 0.455); HG.add(nose);
+  const DK = '#2a1630';
+  for (const s of [-1, 1]) {
+    if (c.expr === 'surprised') { const w = sph(0.085, '#ffffff', {noOutline: false, outline: 1.1}); w.scale.set(1, 1.2, 0.5); w.position.set(s * 0.16, 0.06, 0.41); HG.add(w);
+      const p = sph(0.036, DK, {noOutline: true}); p.position.set(s * 0.16, 0.05, 0.455); HG.add(p); }
+    else { const e = sph(0.052, DK, {noOutline: true, matte: true}); e.scale.set(1, 1.4, 0.55); e.position.set(s * 0.16, 0.05, 0.415); HG.add(e);
+      const h = sph(0.016, '#ffffff', {basic: true, noOutline: true, noShadow: true}); h.position.set(s * 0.16 + 0.018, 0.085, 0.445); HG.add(h); }
+    const by = c.expr === 'surprised' ? 0.235 : 0.185, tilt = c.expr === 'determined' ? s * 0.4 : (c.expr === 'surprised' ? s * 0.15 : 0);
+    const b = cap([s * 0.1, by - Math.sin(tilt) * 0.06 * s, 0.425], [s * 0.225, by + Math.sin(tilt) * 0.06 * s, 0.385], 0.017, c.hair === '#c9c9cf' ? '#8a8a92' : DK, {noOutline: true, matte: true}); HG.add(b);
+    const ch = sph(0.065, '#f08a8a', {basic: true, opacity: 0.38, noOutline: true, noShadow: true}); ch.scale.set(1.2, 0.7, 0.3); ch.position.set(s * 0.27, -0.11, 0.345); HG.add(ch);
+  }
+  if (c.expr === 'surprised') { const m = sph(0.07, '#6e1f2e', {noOutline: true, matte: true}); m.scale.set(0.9, 1.25, 0.4); m.position.set(0, -0.2, 0.405); HG.add(m); }
+  else { const m = mesh(new THREE.TorusGeometry(0.085, 0.017, 8, 24, Math.PI), mat(DK, {matte: true}), {noOutline: true}); m.rotation.z = Math.PI; m.rotation.x = -0.25;
+    m.position.set(c.expr === 'determined' ? 0.03 : 0, -0.15, 0.415); if (c.expr === 'determined') m.scale.set(0.8, 0.45, 1); HG.add(m); }
+  // hair
+  if (c.hstyle === 'curly') { for (const [x, y, z] of [[-0.3, 0.3, 0.05], [-0.16, 0.42, 0.1], [0, 0.47, 0.12], [0.16, 0.42, 0.1], [0.3, 0.3, 0.05], [-0.38, 0.14, -0.05], [0.38, 0.14, -0.05], [-0.2, 0.36, -0.2], [0.2, 0.36, -0.2], [0, 0.38, -0.3], [-0.3, 0.12, -0.3], [0.3, 0.12, -0.3], [0, 0.1, -0.42]]) {
+      const h = sph(0.17, c.hair); h.position.set(x, y, z); HG.add(h); } }
+  else { const h = mesh(shape(new THREE.SphereGeometry(0.485, SEG, SEG, 0, Math.PI * 2, 0, Math.PI * 0.34)), mat(c.hair, {side: THREE.DoubleSide}), {outline: 1.03});
+    h.rotation.set(-0.12, 0, 0.34); HG.add(h);
+    const bk = sph(0.47, c.hair); bk.scale.set(1.02, 0.95, 0.8); bk.position.set(0, 0.03, -0.12); HG.add(bk); }
+  HG.rotation.set(c.headRot?.[0] ?? 0, c.headRot?.[1] ?? 0, c.headRot?.[2] ?? 0);
+  // arms: [elbow, hand] per side
+  for (const s of [-1, 1]) { const [el, hd] = c.arms[s < 0 ? 0 : 1]; const shd = [s * 0.33, 1.28, 0];
+    G.add(cap(shd, el, 0.05, c.outfit)); G.add(cap(el, hd, 0.05, c.outfit));
+    const hand = sph(0.095, c.skin); hand.position.set(...hd); G.add(hand);
+    if (c.pinky && s > 0) G.add(cap([hd[0] + 0.05, hd[1] + 0.05, hd[2]], [hd[0] + 0.07, hd[1] + 0.33, hd[2]], 0.034, c.skin)); }
+  return G;
+}
+
+// ---------- giant fist
+function fist() {
+  const G = new THREE.Group(), SK = '#e7b98f';
+  G.add(rbox(1.25, 1.05, 0.95, 0.3, SK));
+  for (let i = 0; i < 4; i++) { const f = rbox(0.3, 0.62, 0.5, 0.13, SK); f.position.set(-0.47 + i * 0.313, 0.2 - (i === 3 ? 0.06 : 0), 0.36); G.add(f); }
+  G.add(cap([-0.52, -0.3, 0.55], [0.22, -0.2, 0.66], 0.15, SK));
+  const arm = mesh(shape(new THREE.CylinderGeometry(0.5, 0.56, 2.6, style === 'lowpoly' ? 7 : 40)), mat('#33333c')); arm.position.y = -1.95; G.add(arm);
+  const cuff = mesh(shape(new THREE.CylinderGeometry(0.54, 0.54, 0.22, style === 'lowpoly' ? 7 : 40)), mat('#ffffff')); cuff.position.y = -0.68; G.add(cuff);
+  const band = mesh(shape(new THREE.CylinderGeometry(0.585, 0.585, 0.3, style === 'lowpoly' ? 7 : 40)), mat('#d8362e')); band.position.y = -1.25; G.add(band);
+  return G;
+}
+
+// ---------- world
+const ground = new THREE.Mesh(new THREE.CircleGeometry(40, 64), style === 'toon' ? new THREE.MeshToonMaterial({color: CFG.ground, gradientMap: GRAD}) : new THREE.MeshStandardMaterial({color: CFG.ground, roughness: 0.95, bumpMap: style === 'clay' ? NOISE : null, bumpScale: 1}));
+ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+const stage = mesh(shape(new THREE.CylinderGeometry(1.75, 1.85, 0.14, style === 'lowpoly' ? 9 : 64)), mat(style === 'vinyl' ? '#fff3d6' : style === 'lowpoly' ? '#8f7bd1' : '#a86b3f')); stage.position.set(0, 0.07, 0.5); scene.add(stage);
+if (CFG.world) {
+  const hc = style === 'lowpoly' ? ['#4c3f8f', '#5d4aa6'] : ['#79c257', '#5aa846'];
+  [[-4.5, -9, 5, 0], [4.5, -11, 6.5, 1], [0, -15, 9, 0]].forEach(([x, z, r, i]) => { const h = style === 'lowpoly' ? mesh(shape(new THREE.ConeGeometry(r * 0.9, r * 1.2, 6), 0.1), mat(hc[i])) : sph(r, hc[i]);
+    if (style !== 'lowpoly') h.scale.y = 0.5; h.position.set(x, style === 'lowpoly' ? r * 0.5 : -0.3, z); h.castShadow = false; h.children.length = 0; scene.add(h); });
+  [[-2.4, 5.6, -12, 1.1], [2.9, 6.7, -14, 1.3], [0.2, 7.9, -16, 0.9]].forEach(([x, y, z, k]) => { const g = new THREE.Group();
+    [[0, 0, 0, 0.55], [0.6, 0.12, 0, 0.7], [1.25, 0, 0, 0.5], [0.6, -0.1, 0.3, 0.55]].forEach(([a, b, c2, r]) => { const s = sph(r, style === 'lowpoly' ? '#ffd6e8' : '#ffffff', {noShadow: true, noOutline: style !== 'toon'}); s.scale.y = 0.75; s.position.set(a, b, c2); g.add(s); });
+    g.position.set(x, y, z); g.scale.setScalar(k); scene.add(g); });
+}
+
+const sara = character({skin: '#c98e66', hair: '#1d1716', hstyle: 'pixie', outfit: '#2f7a45', collar: '#f6f1e4', pants: '#2a2a33', tag: 'VP SARA', tagBg: '#ffd34d',
+  expr: 'determined', pinky: true, headRot: [0, 0.2, -0.05], arms: [[[-0.5, 1.0, 0.08], [-0.42, 0.74, 0.16]], [[0.56, 1.42, 0.12], [0.5, 1.92, 0.2]]]});
+sara.position.set(-0.55, 0.14, 0.6); sara.rotation.y = 0.3; scene.add(sara);
+const host = character({skin: '#c58b5e', hair: '#24160f', hstyle: 'curly', outfit: '#f4eedb', collar: '#e9dfc2', pants: '#3b5f8c',
+  expr: 'surprised', headRot: [-0.12, -0.45, 0.06], arms: [[[-0.5, 1.2, 0.2], [-0.4, 1.62, 0.36]], [[0.5, 1.2, 0.2], [0.4, 1.62, 0.36]]]});
+host.position.set(0.82, 0.14, 1.9); host.rotation.y = -0.45; host.scale.setScalar(0.8); scene.add(host);
+const F = fist(); F.position.set(0.5, 4.05, -2.2); F.rotation.set(0.1, -0.3, -0.12); F.scale.setScalar(1.05); scene.add(F);
+
+// ---------- lights
+scene.add(new THREE.HemisphereLight('#ffffff', CFG.ground, CFG.hemi));
+const key = new THREE.DirectionalLight('#fff4e0', CFG.key); key.position.set(-3.5, 6.5, 5.5); key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048); Object.assign(key.shadow.camera, {left: -6, right: 6, top: 8, bottom: -3, near: 0.5, far: 30}); key.shadow.radius = style === 'toon' ? 1 : 7; key.shadow.bias = -0.0006; key.shadow.normalBias = 0.03; scene.add(key);
+if (CFG.rim) { const rim = new THREE.DirectionalLight(CFG.rim, 1.6); rim.position.set(4, 3.5, -5); scene.add(rim); }
+if (style !== 'vinyl' && style !== 'toon') scene.fog = new THREE.Fog(CFG.bg[1], 12, 34);
+
+renderer.render(scene, cam);
+window.ready = true;
+</script></body></html>

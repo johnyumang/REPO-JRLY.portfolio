@@ -1,0 +1,20 @@
+{
+  "note": "Spanish galleys under sail meeting native canoes: captain sways, cape and flags and sails in wind, ships and canoes bob, sea shimmers, sun glows",
+  "camera": {"zoom": [1.0, 1.06], "focus": [270, 400]},
+  "effects": [
+    {"fx": "bob", "mask": {"poly": [[90, 40], [300, 0], [430, 180], [420, 470], [520, 660], [300, 730], [60, 690], [100, 480], [120, 200]], "soft": 45}, "dx": 0, "dy": 3, "speed": 1.3},
+    {"fx": "bob", "mask": {"poly": [[540, 560], [720, 440], [720, 780], [560, 760], [520, 700]], "soft": 35}, "dx": 1, "dy": 3, "speed": 1.6, "phase": 1.5},
+    {"fx": "bob", "mask": [{"ellipse": [550, 560, 55, 70], "soft": 20}, {"ellipse": [420, 545, 35, 55], "soft": 18}], "dy": 2, "speed": 1.8, "phase": 0.7},
+    {"fx": "bob", "mask": {"poly": [[0, 200], [150, 200], [150, 470], [100, 580], [0, 580]], "soft": 35}, "dy": 2.2, "speed": 1.2, "phase": 2.4},
+    {"fx": "turn", "mask": {"ellipse": [252, 385, 50, 85], "soft": 22}, "pivot": [250, 470], "sway": 1.3, "speed": 1.2, "gesture": 2.5, "at": [0.25, 0.4, 0.6, 0.75]},
+    {"fx": "wind", "mask": {"poly": [[290, 365], [370, 385], [365, 440], [300, 430]], "soft": 15}, "amp": 4, "wave": 70, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[150, 90], [380, 215], [395, 440], [330, 330], [215, 300], [165, 400]], "soft": 40}, "amp": 3, "wave": 260, "speed": 2.2},
+    {"fx": "wind", "mask": {"poly": [[55, 305], [150, 330], [150, 440], [70, 460], [10, 480], [10, 420]], "soft": 30}, "amp": 2.5, "wave": 220, "speed": 2.2, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[278, 25], [365, 80], [430, 180], [400, 215], [350, 150], [278, 115]], "soft": 18}, "amp": 5, "wave": 100, "speed": 5},
+    {"fx": "wind", "mask": {"ellipse": [142, 250, 26, 30], "soft": 12}, "amp": 3.5, "wave": 70, "speed": 5, "phase": 2},
+    {"fx": "wind", "mask": {"poly": [[600, 430], [720, 420], [720, 500], [600, 490]], "soft": 20}, "amp": 2, "wave": 80, "speed": 3},
+    {"fx": "shimmer", "mask": {"poly": [[0, 740], [300, 760], [520, 790], [720, 800], [720, 1280], [0, 1280]], "soft": 40}, "amp": 1.6, "speed": 3.5},
+    {"fx": "shimmer", "mask": {"poly": [[0, 620], [130, 650], [280, 700], [520, 690], [540, 770], [0, 760]], "soft": 25}, "amp": 1.5, "speed": 4},
+    {"fx": "glow", "mask": {"ellipse": [465, 310, 150, 120], "soft": 100}, "amount": 0.04}
+  ]
+}

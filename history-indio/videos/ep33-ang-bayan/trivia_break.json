@@ -1,0 +1,42 @@
+{
+ "fact_id": "t53",
+ "fact_english": "In 2016 the Oxford English Dictionary added the Filipino word \"kilig\", the giddy, fluttery feeling of romance.",
+ "label_onscreen": "KILIG",
+ "source_onscreen": "Pinagmulan: Philippine Daily Inquirer; Philstar",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Noong 2016, idinagdag ng Oxford English Dictionary ang salitang kilig!",
+   "emphasis": [
+    "kilig"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Ngayon, opisyal na: kinikilig din ang Ingles.",
+   "emphasis": [
+    "Ingles"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 22,
+ "after_text": "Par, amoy kalawang ang kamay niya.",
+ "insert_time": 86.93,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "The meeting with Tubal ends on Usman's small joke, with the mystery of Indio's father left open. After the break Indio starts a new beat: reading the bid with the medallion. Moved on 13 Nov because the old cut came right after Tubal's name and split his entrance from the description of him in the next line."
+}

@@ -1,0 +1,191 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "punch",
+   "embers"
+  ],
+  "move": "dolly_in",
+  "why": "he shouts: push hard in"
+ },
+ "1": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "blade at throat: stay still"
+ },
+ "2": {
+  "fx": [],
+  "move": "push_in",
+  "why": "refused: closer to his face",
+  "motion": "The brown folder on the counter keeps its exact shape and size; the glass stays still."
+ },
+ "3": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "alone on curb: back away",
+  "motion": "The brown folder over his head keeps its exact shape and size."
+ },
+ "4": {
+  "fx": [
+   "water",
+   "sparkle"
+  ],
+  "move": "push_in",
+  "why": "medallion glows: move in close"
+ },
+ "5": {
+  "fx": [
+   "embers"
+  ],
+  "move": "crane_down",
+  "why": "opening: the camp in 1896",
+  "trans_in": "fade"
+ },
+ "6": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "he accuses: small push in"
+ },
+ "7": {
+  "fx": [
+   "punch",
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "he shouts: punch into face"
+ },
+ "8": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "blade at neck: hold tension"
+ },
+ "9": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "meet the dog: move closer",
+  "motion": "The dog keeps his ears exactly as drawn: one ear upright, the other folded; his face stays all black; he blinks and his mouth moves a little as if talking."
+ },
+ "10": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "meet the dog: move closer",
+  "key": 9
+ },
+ "11": {
+  "fx": [
+   "punch"
+  ],
+  "move": "push_in",
+  "why": "he yells: comic punch in"
+ },
+ "12": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "honest words: gently move closer"
+ },
+ "13": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy strides into view"
+ },
+ "14": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy speaks for him"
+ },
+ "15": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy speaks for him",
+  "key": 14
+ },
+ "16": {
+  "fx": [
+   "embers"
+  ],
+  "move": "tilt_down",
+  "why": "follow the blade coming down"
+ },
+ "17": {
+  "fx": [
+   "embers"
+  ],
+  "move": "dolly_in",
+  "why": "the hero steps into light"
+ },
+ "18": {
+  "fx": [
+   "embers"
+  ],
+  "move": "hold",
+  "why": "his words: camera stays still",
+  "motion": "The paper stays one small rectangle in his hands."
+ },
+ "19": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "why": "from him to the hundreds",
+  "motion": "Torn paper scraps flutter down."
+ },
+ "20": {
+  "fx": [
+   "embers"
+  ],
+  "move": "pull_out",
+  "why": "from him to the hundreds",
+  "key": 19
+ },
+ "21": {
+  "fx": [
+   "embers"
+  ],
+  "move": "crane_up",
+  "why": "the crowd answers: rise up",
+  "motion": "Torn paper scraps swirl upward."
+ },
+ "22": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the boy names the tax"
+ },
+ "23": {
+  "fx": [
+   "embers"
+  ],
+  "move": "push_in",
+  "why": "the answer: paper falls around",
+  "motion": "Torn paper scraps fall like snow."
+ },
+ "24": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he asks the viewer directly",
+  "motion": "The torn paper by his cheek keeps its shape; he looks into the lens."
+ }
+}

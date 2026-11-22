@@ -1,0 +1,18 @@
+{
+  "note": "Close-up grinning conquistador in morion with blurred rapier: head tilt, sword sway, breathing, flag and cape wind, helmet glint, blinks",
+  "camera": {"zoom": [1.0, 1.06], "focus": [400, 400]},
+  "blink": {"skin": [318, 412], "eyes": [{"c": [313, 382], "r": [32, 12], "tilt": 5}, {"c": [476, 352], "r": [30, 12], "tilt": -14}]},
+  "effects": [
+    {"fx": "turn", "mask": {"poly": [[130, 70], [210, 5], [420, 5], [520, 100], [620, 260], [655, 370], [600, 410], [545, 470], [520, 580], [430, 640], [300, 600], [180, 520], [110, 440], [10, 405], [40, 360], [120, 300]], "soft": 45},
+     "pivot": [400, 640], "sway": 0.6, "speed": 1.2, "gesture": 1.6, "at": [0.2, 0.35, 0.6, 0.75]},
+    {"fx": "turn", "mask": {"poly": [[0, 720], [250, 740], [420, 900], [720, 1060], [720, 1280], [0, 1280]], "soft": 45},
+     "pivot": [-60, 900], "sway": 0.5, "speed": 1.6, "gesture": 1.6, "at": [0.15, 0.3, 0.55, 0.7]},
+    {"fx": "breath", "ellipse": [470, 790, 210, 130]},
+    {"fx": "wind", "mask": {"poly": [[0, 80], [110, 110], [120, 250], [0, 270]], "soft": 25}, "amp": 3.5, "wave": 150, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[600, 720], [720, 760], [720, 1000], [560, 990]], "soft": 35}, "amp": 2.5, "wave": 140, "speed": 3.5, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[610, 400], [720, 390], [720, 470], [610, 470]], "soft": 20}, "amp": 2.5, "wave": 120, "speed": 3.5, "phase": 2},
+    {"fx": "wind", "mask": {"ellipse": [165, 440, 45, 45], "soft": 20}, "amp": 1.8, "wave": 70, "speed": 4.5},
+    {"fx": "glow", "mask": {"ellipse": [550, 195, 60, 50], "soft": 40}, "amount": 0.09},
+    {"fx": "glow", "mask": {"poly": [[250, 950], [720, 1100], [720, 1250], [300, 1040]], "soft": 40}, "amount": 0.04}
+  ]
+}

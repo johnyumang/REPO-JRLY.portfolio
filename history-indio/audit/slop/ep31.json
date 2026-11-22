@@ -1,0 +1,454 @@
+{
+ "episode": 31,
+ "audited_by": "ep31 render worker (two fresh readers, third reader compared old/new)",
+ "keys_looked_at": 82,
+ "clean": false,
+ "faults": [
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/teddy_bowl.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The person seated at the right of the table has no head or neck: a dark bottle-shaped lump sits on the shoulders of a grey vest with a pink sleeved arm below it.",
+   "where": "right edge, middle of frame",
+   "fixed": true
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/teddy_bowl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Teddy is a young clean-shaven man with thick dark hair in a teal top, not the thin unshaven man in his fifties in a faded blue shirt of k35 and k56.",
+   "where": "left, the man over the bowl",
+   "fixed": true
+  },
+  {
+   "key": "k00",
+   "shots": [
+    0
+   ],
+   "still": "full/table_full.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The opening family are generic strangers: no topknot on Indio, no white-haired Tala, and an old man in place of Lola in her flowered dress.",
+   "where": "whole table",
+   "fixed": true
+  },
+  {
+   "key": "k20",
+   "shots": [
+    20
+   ],
+   "still": "full/laugh_rain.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Eight generic people laugh round the table, one of them a blonde woman; none of Indio, Lola, Tala, Teddy or Liwayway is recognisable.",
+   "where": "whole table",
+   "fixed": true
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1
+   ],
+   "still": "full/rooftop_all.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "The five people in blankets on the roof are strangers drawn large and in focus: no topknot, no white hair, no grandmother, no dog.",
+   "where": "middle, the row of people",
+   "fixed": true
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11,
+    14
+   ],
+   "still": "full/tala_fork.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Tala has long brown hair and warm brown eyes in both close-ups instead of snow-white hair and pale silver eyes (reader 1's k15 does not belong here; see refuted).",
+   "where": "the young woman's face and hair",
+   "fixed": true
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/lola_teach.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Lola is a short grey-haired woman in a plaid shirt and dark vest, not the bun and flowered house dress she wears in k09 and k33, and a grey-haired middle-aged man sits where white-haired Tala should be.",
+   "where": "left (Lola) and right (the man)",
+   "fixed": true
+  },
+  {
+   "key": "k19",
+   "shots": [
+    19
+   ],
+   "still": "full/usman_happy.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "Usman's eyes are bulging yellow rings with pin-dot pupils and his muzzle carries a human-like row of teeth, so the close-up looks deranged; his fur is brown, not black.",
+   "where": "dog's eyes and mouth, middle of frame",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman is drawn as a long-muzzled Labrador with two floppy ears and brown eyes, and the red kerchief is missing.",
+   "where": "dog's head, left of middle",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/usman_sniff.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Three large kana-like characters are painted along the building fascia at the top right.",
+   "where": "top right corner",
+   "fixed": true
+  },
+  {
+   "key": "k59",
+   "shots": [
+    59
+   ],
+   "still": "full/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has two tall pointed ears and a wolfish head filling the frame, not one folded ear.",
+   "where": "dog's ears, top of frame",
+   "fixed": true
+  },
+  {
+   "key": "k72",
+   "shots": [
+    18,
+    38,
+    58,
+    67,
+    72,
+    73
+   ],
+   "still": "full/kapitan_cta.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman never has one folded ear: both ears hang down in k18, k38, k67 and k73 and both stand up in k72, so his head changes breed from shot to shot.",
+   "where": "dog's ears"
+  },
+  {
+   "key": "k38",
+   "shots": [
+    38
+   ],
+   "still": "full/usman_swim.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "Pale blue signature-like letter marks are painted on the water at the bottom right.",
+   "where": "bottom right corner",
+   "fixed": true
+  },
+  {
+   "key": "k33",
+   "shots": [
+    33
+   ],
+   "still": "full/lola_box.jpg",
+   "type": "bleed",
+   "must_fix": true,
+   "what": "Green leaves and a flower from Lola's dress print are drawn on the bare skin of her hand and wrist.",
+   "where": "bottom middle, her hand",
+   "fixed": true
+  },
+  {
+   "key": "k34",
+   "shots": [
+    34
+   ],
+   "still": "full/pocket_box.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The close-up hand has a thumb and only three fingers, one of them tipless; the box is open, empty and lying on top of the jeans instead of in the pocket, and the torso above the waistband is bare skin, not the grey t-shirt.",
+   "where": "the hand, middle of frame",
+   "fixed": true
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "full/liway_call.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Liwayway's raised hand has fingers fused at the base that split into extra tips, with a further finger entering from the right edge, so the count reads as six.",
+   "where": "right of middle, her raised hand",
+   "fixed": true
+  },
+  {
+   "key": "k39",
+   "shots": [
+    39
+   ],
+   "still": "full/punyal_cut.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The dagger's tip and handle are each clamped in metal strap-and-buckle gadgets fitted with a red and orange jewelled eye and strapped round a furry limb; no hand holds it and no rope is being cut.",
+   "where": "middle and bottom right",
+   "fixed": true
+  },
+  {
+   "key": "k56",
+   "shots": [
+    56
+   ],
+   "still": "full/teddy_warns.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Indio is drawn as a young boy with a bowl haircut, a cream shirt, no topknot and no red handkerchief.",
+   "where": "front figure, left half",
+   "fixed": true
+  },
+  {
+   "key": "k54",
+   "shots": [
+    54
+   ],
+   "still": "full/indio_answer.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "The billboard that should be blank carries three advert panels full of fake lettering.",
+   "where": "upper left, the billboard",
+   "fixed": true
+  },
+  {
+   "key": "k04",
+   "shots": [
+    4
+   ],
+   "still": "full/kawit_street.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "Both of Indio's hands are mitten blobs with no separate fingers, the left one smeared with a brown lump, and the red handkerchief hangs out of his jeans pocket instead of being tied on his wrist.",
+   "where": "both hands, bottom centre",
+   "fixed": true
+  },
+  {
+   "key": "k53",
+   "shots": [
+    53
+   ],
+   "still": "full/m_asks.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "M's hand at the top left has long boneless tapering fingers with a spike of a thumb (they do not in fact touch Indio's hand, which is sound).",
+   "where": "upper left of the crop, her hand on the blanket"
+  },
+  {
+   "key": "k57",
+   "shots": [
+    57
+   ],
+   "still": "full/indio_reply.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "At the bottom right two hands of different skin tones run into each other round a black hole where the fingers should be, and the lower hand at the bottom left has lumps instead of fingers.",
+   "where": "bottom right and bottom left",
+   "fixed": true
+  },
+  {
+   "key": "k46",
+   "shots": [
+    46
+   ],
+   "still": "full/roof_sit.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The billboard carries a poster of two anime faces over a strip of fake lettering instead of being blank.",
+   "where": "middle right"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/teddy_speaks.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A paper notice pinned to the kitchen wall carries a heading and five lines of fake text.",
+   "where": "upper middle right"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/boats_tied.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Letter-like marks sit on the fascia over the doorway at the far end of the street.",
+   "where": "middle, far end of street"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42
+   ],
+   "still": "full/m_rope.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "A hanging shop sign on the left carries red letter-like marks.",
+   "where": "upper middle left"
+  },
+  {
+   "key": "k61",
+   "shots": [
+    61
+   ],
+   "still": "full/coast_towns.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The fascia of the school building carries a row of red letter-like marks.",
+   "where": "middle"
+  },
+  {
+   "key": "k64",
+   "shots": [
+    64
+   ],
+   "still": "full/hall_mud.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A white banner over the hall doors carries two rows of red fake lettering across a third of the frame width.",
+   "where": "middle, above the doors",
+   "fixed": true
+  },
+  {
+   "key": "k70",
+   "shots": [
+    70
+   ],
+   "still": "full/holo_90.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The hologram shows a percent sign after the bar (and a question mark in place of the shepherd's crook).",
+   "where": "middle, the hologram"
+  },
+  {
+   "key": "k63",
+   "shots": [
+    63
+   ],
+   "still": "full/fiction_card.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "Seen from behind, Usman's white chest patch is painted on his back and rump instead of his chest.",
+   "where": "bottom right, the dog"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/indio_still.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "Indio holds a modern black camera zoom lens, with moulded maker's letters on the barrel, instead of the round gold-rimmed lens he raises in k47.",
+   "where": "bottom middle"
+  },
+  {
+   "key": "k97",
+   "shots": [
+    97
+   ],
+   "still": "full/montage_lantern.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The six at the closing meal are all children and teenagers; no Lola, no topknot, none of the cast.",
+   "where": "whole table"
+  },
+  {
+   "key": "k18",
+   "shots": [
+    18
+   ],
+   "still": "full/usman_table.jpg",
+   "type": "face",
+   "must_fix": true,
+   "what": "Usman's open mouth is a straight human-like row of small square white teeth and his eyes have white sclera with human brows, so the dog looks like a man in a dog suit; the red kerchief is worn as a hood over the top of his head.",
+   "where": "dog's face, centre of frame",
+   "fixed": true
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "full/m_door.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "M is a brown-haired young woman in a pale blue top standing over the table with her head cut off above the mouth: no long black hair, no long dark coat, and she is not in the doorway the shot calls for.",
+   "where": "right half, the standing woman",
+   "fixed": true
+  },
+  {
+   "key": "k52",
+   "shots": [
+    52
+   ],
+   "still": "full/not_enough.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "In this extreme close-up Indio has a heavy square jaw, thick neck and a swept-back pompadour with no topknot, reading as an older, bigger man than the lean youth of k47 and k71.",
+   "where": "whole face"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10,
+    12,
+    16,
+    32,
+    35
+   ],
+   "still": "full/lola_answer.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The named character the shot is built on is simply absent: k10 and k12 are empty kitchens where Lola's and Tala's close-ups should be, k16 shows Lola alone with no M to pull in, k32 shows Indio alone with no Lola to lift, k35 shows Teddy alone with no Tala and no neighbours.",
+   "where": "whole frame"
+  },
+  {
+   "key": "k49",
+   "shots": [
+    49
+   ],
+   "still": "full/indio_still.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Moulded maker's letters and numbers run along the barrel of the black lens.",
+   "where": "bottom middle, the lens barrel"
+  }
+ ],
+ "third_reader": {
+  "keep": 18,
+  "revert": 0,
+  "still_bad": 3,
+  "notes": "laugh_rain (Indio twice), rooftop_all (4 people, grandmother twice) and punyal_cut (second hand, blade missing the rope) were reworded and redrawn once more; the new versions show 5 people, 5 people in a row, and one hand cutting the rope, checked at 3x"
+ }
+}

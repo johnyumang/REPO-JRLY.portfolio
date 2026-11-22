@@ -1,0 +1,364 @@
+{
+ "episode": 7,
+ "audited_by": "render-ep07 (two readers)",
+ "keys_looked_at": 39,
+ "clean": false,
+ "defects": [
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/lolo_m.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "The woman in the black coat has three arms: the raised fist and a second hand hanging at her hip both come out of her right side (viewer's left), plus the outstretched hand on the far side.",
+   "where": "woman, viewer's left side: raised fist at upper middle and a second hand at hip height",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k13",
+   "shots": [
+    13
+   ],
+   "still": "full/lolo_m.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The red umbrella has no shaft and nobody holds it; it floats over her head.",
+   "where": "top right, umbrella over the woman",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k16",
+   "shots": [
+    16
+   ],
+   "still": "full/lolo_bury.jpg",
+   "type": "limbs",
+   "must_fix": true,
+   "what": "Three arms reach into the hole for one person burying the bundle: one from the left and two from the right edge.",
+   "where": "centre, hands on the bundle; two arms entering from the right edge",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/memory_lolo.jpg",
+   "type": "writing",
+   "must_fix": true,
+   "what": "A line of garbled white letters reads like 'Bll loochuro0.' across the floor.",
+   "where": "bottom left corner",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k30",
+   "shots": [
+    30
+   ],
+   "still": "chars/usman_growl.jpg",
+   "type": "off_model",
+   "must_fix": true,
+   "what": "Usman has both ears folded, a broad bulldog head and a human-like muscled chest, so he does not read as the slim street dog with one folded ear.",
+   "where": "whole dog, both ears and chest",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "chars/indio_whisper.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "The phone floats at the left edge with no hand holding it.",
+   "where": "bottom left, phone",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "chars/indio_fist.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "Part of the lens glass is cut out with jagged pixel edges, so the background shows through a hole in the glass.",
+   "where": "lens held at left, middle of the glass",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k08",
+   "shots": [
+    8
+   ],
+   "still": "chars/usman_run.jpg",
+   "type": "object",
+   "must_fix": true,
+   "what": "A grey blocky smear with stair-step pixel edges lies on the grass under the dog, a leftover from the cut-out.",
+   "where": "lower middle, ground under Usman",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k06",
+   "shots": [
+    6
+   ],
+   "still": "full/phone_photo.jpg",
+   "type": "hands",
+   "must_fix": true,
+   "what": "The hand holding the phone is a boneless brown blob: the large thumb has no nail or joints and the rest of the hand has no readable fingers.",
+   "where": "bottom half, both sides of the phone",
+   "second_reader": "confirmed",
+   "fixed": true
+  },
+  {
+   "key": "k03",
+   "shots": [
+    3,
+    4
+   ],
+   "still": "chars/indio_lost.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "In the clasped hands the front hand's fingers run together and cannot be counted.",
+   "where": "chest, clasped hands",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k07",
+   "shots": [
+    7
+   ],
+   "still": "full/box_lining.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The lid being lifted is a triangular wedge that could not close a square box.",
+   "where": "upper left, lid in the hand",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k10",
+   "shots": [
+    10
+   ],
+   "still": "chars/indio_open_phone.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A blocky green-pixel cut-out edge runs under his feet, and an orange patch sits on the trouser knee.",
+   "where": "bottom edge under feet; right knee",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/letter.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The phone has both a notch at the top and a home button at the bottom.",
+   "where": "phone top and bottom",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k11",
+   "shots": [
+    11
+   ],
+   "still": "full/letter.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Small letter-like scribbles run along the right edge of the photographed paper.",
+   "where": "right edge of the paper on screen",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k14",
+   "shots": [
+    14
+   ],
+   "still": "full/lolo_run.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "A red umbrella flies by itself in the sky, with a second faint red umbrella below it.",
+   "where": "upper middle sky",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_realize.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A dark brown blot sits on the back of the hand holding the phone.",
+   "where": "left hand, back of the hand",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/memory_lolo.jpg",
+   "type": "hands",
+   "must_fix": false,
+   "what": "Lolo's glowing open hand is a mitten with two or three fused fingers.",
+   "where": "upper middle, hand beside the medallion",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k29",
+   "shots": [
+    29
+   ],
+   "still": "full/datus.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "Each coin carries small letter-like marks along its lower rim.",
+   "where": "coins in the ring, lower rim of each",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "chars/indio_whisper.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Indio's eyes are pale grey-blue here while they are brown or black in his other shots.",
+   "where": "eyes",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k41",
+   "shots": [
+    41
+   ],
+   "still": "full/walk_away.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears folded, a thin red collar instead of a kerchief, and a white ring around the base of the tail.",
+   "where": "lower right, the dog",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k42",
+   "shots": [
+    42,
+    45
+   ],
+   "still": "full/sit_wait.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has both ears standing up instead of one folded ear.",
+   "where": "lower right, the dog's ears",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k45",
+   "shots": [
+    45
+   ],
+   "still": "chars/indio_fist.jpg",
+   "type": "object",
+   "must_fix": false,
+   "what": "The lens is a magnifying glass with a handle here, while in k18 and k25 it is a disc with no handle.",
+   "where": "lens at left",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k50",
+   "shots": [
+    8
+   ],
+   "still": "full/cart_far.jpg",
+   "type": "limbs",
+   "must_fix": false,
+   "what": "Both horses' hind legs cross over each other in an X.",
+   "where": "lower middle, horses' hind legs",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k01",
+   "shots": [
+    1,
+    2
+   ],
+   "still": "full/intro.jpg",
+   "type": "writing",
+   "must_fix": false,
+   "what": "The glowing gear ring behind Indio has letter-like marks ('E', 'B') around its rim.",
+   "where": "left and right edges of the gear ring",
+   "second_reader": "confirmed",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k27",
+   "shots": [
+    27
+   ],
+   "still": "full/memory_lolo.jpg",
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The child, who is young Indio in this memory, has pale skin and light brown hair instead of Indio's warm brown skin and black hair.",
+   "where": "right edge, the child in the doorway",
+   "second_reader": "new",
+   "fixed": true
+  },
+  {
+   "key": "k37",
+   "shots": [
+    37
+   ],
+   "still": "chars/indio_whisper.jpg",
+   "type": "face",
+   "must_fix": false,
+   "what": "A tear streak starts in the hair under the headband and runs down across the eyebrow and through the eye, so the tear comes from above the eye.",
+   "where": "Indio's left eye (viewer's right), forehead to cheek",
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
+  },
+  {
+   "key": "k15",
+   "shots": [
+    15
+   ],
+   "still": "chars/indio_realize.jpg",
+   "type": "bleed",
+   "must_fix": false,
+   "what": "A small green blot sits on the white shirt where a fold line ends, a leftover of the background.",
+   "where": "bottom right edge, on the shirt",
+   "second_reader": "new",
+   "left": "minor; not redrawn in this pass"
+  }
+ ],
+ "refuted": [],
+ "fix_note": "8 stills redrawn at full quality, each checked at 3x, compared old vs new by a third reader (all 8 kept)"
+}

@@ -1,0 +1,657 @@
+{
+"_": {
+"hold_same_key": true,
+"trans_default": "cut",
+"subs_after_blend": true
+},
+"0": {
+"fx": [
+"punch"
+],
+"move": "hold",
+"why": "the shout hits at once"
+},
+"1": {
+"fx": [],
+"move": "hold",
+"why": "the shout hits at once",
+"key": 0
+},
+"2": {
+"fx": [],
+"move": "hold",
+"why": "the shout hits at once",
+"key": 0
+},
+"3": {
+"fx": [],
+"move": "pull_out",
+"why": "shows the wall behind him"
+},
+"4": {
+"fx": [],
+"move": "pull_out",
+"why": "shows the wall behind him",
+"key": 3
+},
+"5": {
+"fx": [],
+"move": "pull_out",
+"why": "shows the wall behind him",
+"key": 3
+},
+"6": {
+"fx": [],
+"move": "pull_out",
+"why": "shows the wall behind him",
+"key": 3
+},
+"7": {
+"fx": [],
+"move": "push_in",
+"why": "his now, alone at noon",
+"trans_in": "fade"
+},
+"8": {
+"fx": [],
+"move": "push_in",
+"why": "his now, alone at noon",
+"key": 7
+},
+"9": {
+"fx": [],
+"move": "push_in",
+"why": "his now, alone at noon",
+"key": 7
+},
+"10": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"11": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 10
+},
+"12": {
+"fx": [],
+"move": "push_in",
+"why": "the text cannot be sent"
+},
+"13": {
+"fx": [],
+"move": "push_in",
+"why": "the text cannot be sent",
+"key": 12
+},
+"14": {
+"fx": [],
+"move": "push_in",
+"why": "the text cannot be sent",
+"key": 12
+},
+"15": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"16": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 15
+},
+"17": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 15
+},
+"18": {
+"fx": [],
+"move": "pull_out",
+"why": "keep the far cart in frame"
+},
+"19": {
+"fx": [],
+"move": "pull_out",
+"why": "keep the far cart in frame",
+"key": 18
+},
+"20": {
+"fx": [],
+"move": "pull_out",
+"why": "keep the far cart in frame",
+"key": 18
+},
+"21": {
+"fx": [],
+"move": "pull_out",
+"why": "keep the far cart in frame",
+"key": 18
+},
+"22": {
+"fx": [],
+"move": "pan_right",
+"why": "they run after the cart",
+"trans_in": "fade"
+},
+"23": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the boy"
+},
+"24": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the boy",
+"key": 23
+},
+"25": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the boy",
+"key": 23
+},
+"26": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the boy",
+"key": 23
+},
+"27": {
+"fx": [],
+"move": "tilt_down",
+"why": "ends on the nameless mound"
+},
+"28": {
+"fx": [],
+"move": "tilt_down",
+"why": "ends on the nameless mound",
+"key": 27
+},
+"29": {
+"fx": [],
+"move": "tilt_down",
+"why": "ends on the nameless mound",
+"key": 27
+},
+"30": {
+"fx": [],
+"move": "hold",
+"why": "whispers, they keep sides"
+},
+"31": {
+"fx": [],
+"move": "hold",
+"why": "whispers, they keep sides",
+"key": 30
+},
+"32": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size"
+},
+"33": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 32
+},
+"34": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 32
+},
+"35": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the empty branch"
+},
+"36": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the empty branch",
+"key": 35
+},
+"37": {
+"fx": [],
+"move": "tilt_up",
+"why": "ends on the empty branch",
+"key": 35
+},
+"38": {
+"fx": [],
+"move": "pull_out",
+"why": "boots pass, they hide",
+"sub_v": 200
+},
+"39": {
+"fx": [],
+"move": "push_in",
+"why": "he opens the letter at last",
+"key": 120
+},
+"40": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"41": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 40
+},
+"42": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"43": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 42
+},
+"44": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 42
+},
+"45": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"sub_v": 150
+},
+"46": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 45,
+"sub_v": 150
+},
+"47": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 45,
+"sub_v": 150
+},
+"48": {
+"fx": [],
+"move": "hold",
+"why": "he understands why him"
+},
+"49": {
+"fx": [],
+"move": "hold",
+"why": "he understands why him",
+"key": 48
+},
+"50": {
+"fx": [],
+"move": "push_in",
+"why": "the last words go dim"
+},
+"51": {
+"fx": [],
+"move": "push_in",
+"why": "the last words go dim",
+"key": 50
+},
+"52": {
+"fx": [],
+"move": "push_in",
+"why": "the last words go dim",
+"key": 50
+},
+"53": {
+"fx": [
+"punch"
+],
+"move": "push_in",
+"why": "the phone dies, he shouts"
+},
+"54": {
+"fx": [],
+"move": "push_in",
+"why": "the phone dies, he shouts",
+"key": 53
+},
+"55": {
+"fx": [],
+"move": "push_in",
+"why": "the phone dies, he shouts",
+"key": 53
+},
+"56": {
+"fx": [],
+"move": "hold",
+"why": "nothing left to try"
+},
+"57": {
+"fx": [],
+"move": "hold",
+"why": "nothing left to try",
+"key": 56
+},
+"58": {
+"fx": [],
+"move": "push_in",
+"why": "the boy remembers something"
+},
+"59": {
+"fx": [],
+"move": "push_in",
+"why": "the boy remembers something",
+"key": 58
+},
+"60": {
+"fx": [],
+"move": "push_in",
+"why": "the boy remembers something",
+"key": 58
+},
+"61": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"62": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 61
+},
+"63": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 61
+},
+"65": {
+"fx": [],
+"move": "hold",
+"why": "the dog has found it"
+},
+"66": {
+"fx": [],
+"move": "hold",
+"why": "fast digging, no move"
+},
+"67": {
+"fx": [],
+"move": "push_in",
+"why": "the lens is the gift"
+},
+"68": {
+"fx": [],
+"move": "push_in",
+"why": "the lens is the gift",
+"key": 67
+},
+"69": {
+"fx": [],
+"move": "push_in",
+"why": "into the lens circle"
+},
+"70": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"71": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 70
+},
+"72": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 70
+},
+"73": {
+"fx": [],
+"move": "pan_right",
+"why": "walks with her search",
+"trans_in": "cut"
+},
+"74": {
+"fx": [],
+"move": "pan_right",
+"why": "walks with her search",
+"key": 73
+},
+"75": {
+"fx": [],
+"move": "hold",
+"why": "the boy names her"
+},
+"76": {
+"fx": [],
+"move": "hold",
+"why": "the boy names her",
+"key": 75
+},
+"77": {
+"fx": [],
+"move": "hold",
+"why": "the boy names her",
+"key": 75
+},
+"78": {
+"fx": [],
+"move": "push_in",
+"why": "three letters, no name",
+"trans_in": "fade"
+},
+"79": {
+"fx": [],
+"move": "push_in",
+"why": "three letters, no name",
+"key": 78
+},
+"80": {
+"fx": [],
+"move": "push_in",
+"why": "three letters, no name",
+"key": 78
+},
+"81": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size"
+},
+"82": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 81
+},
+"83": {
+"fx": [],
+"move": "hold",
+"why": "second still, new size",
+"key": 81
+},
+"84": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"85": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 84
+},
+"86": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 84
+},
+"87": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line",
+"key": 84
+},
+"88": {
+"fx": [],
+"move": "pan_right",
+"why": "the dog turns him round"
+},
+"89": {
+"fx": [],
+"move": "pan_right",
+"why": "the dog turns him round",
+"key": 88
+},
+"90": {
+"fx": [],
+"move": "pan_right",
+"why": "the dog turns him round",
+"key": 88
+},
+"91": {
+"fx": [],
+"move": "pan_right",
+"why": "the dog turns him round",
+"key": 88
+},
+"92": {
+"fx": [],
+"move": "push_in",
+"why": "it is his Lolo",
+"trans_in": "fade"
+},
+"93": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo finishes his sentence"
+},
+"94": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo finishes his sentence",
+"key": 93
+},
+"95": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo finishes his sentence",
+"key": 93
+},
+"96": {
+"fx": [],
+"move": "dolly_in",
+"why": "the Lolo finishes his sentence",
+"key": 93
+},
+"97": {
+"fx": [],
+"move": "hold",
+"why": "one wet eye, nothing else"
+},
+"98": {
+"fx": [],
+"move": "hold",
+"why": "he smiles, then is gone"
+},
+"99": {
+"fx": [],
+"move": "push_in",
+"why": "the dog comforts him",
+"dof": "far"
+},
+"100": {
+"fx": [],
+"move": "push_in",
+"why": "the dog comforts him",
+"dof": "far",
+"key": 99
+},
+"101": {
+"fx": [],
+"move": "hold",
+"why": "comic recovery, played still"
+},
+"102": {
+"fx": [],
+"move": "hold",
+"why": "comic recovery, played still",
+"key": 101
+},
+"103": {
+"fx": [],
+"move": "hold",
+"why": "comic recovery, played still",
+"key": 101
+},
+"104": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size"
+},
+"105": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 104
+},
+"106": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 104
+},
+"107": {
+"fx": [],
+"move": "push_in",
+"why": "second still, new size",
+"key": 104
+},
+"108": {
+"fx": [],
+"move": "pan_right",
+"why": "follows the pointing thumb"
+},
+"109": {
+"fx": [],
+"move": "pull_out",
+"why": "they leave to wait"
+},
+"110": {
+"fx": [],
+"move": "pull_out",
+"why": "they leave to wait",
+"key": 109
+},
+"111": {
+"fx": [],
+"move": "pull_out",
+"why": "they leave to wait",
+"key": 109
+},
+"112": {
+"fx": [],
+"move": "push_in",
+"why": "slow push, a long held line"
+},
+"64": {
+"fx": [],
+"move": "hold",
+"why": "the nose finds the stone",
+"key": 121,
+"sub_v": 120
+}
+}

@@ -1,0 +1,42 @@
+{
+ "fact_id": "t07",
+ "fact_english": "Like other megapodes, the Philippine megapode does not sit on its eggs; it buries them in the ground and lets natural heat keep them warm.",
+ "label_onscreen": "TABON",
+ "source_onscreen": "Pinagmulan: Emu (CSIRO Publishing)",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang tabon, hindi nililimliman ang itlog. Ibinabaon niya sa lupa, at ang init ng kalikasan ang nagpapainit.",
+   "emphasis": [
+    "ibinabaon"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Sariling oven ng mundo. Matalinong ibon.",
+   "emphasis": [
+    "oven"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 17,
+ "after_text": "Kaya ikaw, ka-Indio, i-comment mo: ano ang unang marker na babasahin mo nang malakas?",
+ "estimated_time_note": "no timings.json yet; about 85 s by word count",
+ "palette": "sun",
+ "grave": false,
+ "why_here": "After the fairness beat (13-16) and the light call to comment (17) close the \"linawin natin\" paragraph, and before the scene moves to the other world at the beginning (\"At sa ibang mundo, sa pinakasimula\"). The viewer is left with an open question. Times are estimates; there is no timings.json. The cut is at about 84.9-85.7 s, inside the 60-130 s window. Moved on 13 Nov because the old cut came at only about 50 s, outside the window, and the old note's \"no spot fits\" exception was wrong, since this seam fits."
+}

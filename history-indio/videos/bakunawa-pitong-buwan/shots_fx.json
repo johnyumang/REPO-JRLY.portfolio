@@ -1,0 +1,246 @@
+{
+"1": {
+"fx": [
+"water",
+"sparkle"
+],
+"move": "tilt_up"
+},
+"2": {
+"fx": [
+"shake",
+"punch",
+"spray"
+],
+"move": "push_in"
+},
+"3": {
+"fx": [
+"embers"
+]
+},
+"4": {
+"fx": [
+"sparkle"
+]
+},
+"5": {
+"fx": [
+"water",
+"sparkle"
+]
+},
+"6": {
+"fx": [
+"sparkle"
+]
+},
+"7": {
+"fx": [
+"water",
+"sparkle"
+]
+},
+"8": {
+"fx": [
+"embers"
+]
+},
+"9": {
+"fx": [
+"bubbles"
+],
+"move": "push_in"
+},
+"10": {
+"fx": [
+"bubbles",
+"punch"
+],
+"move": "tilt_up"
+},
+"11": {
+"fx": [
+"water",
+"shake",
+"spray"
+],
+"move": "pull_out"
+},
+"12": {
+"fx": [
+"spray",
+"water"
+]
+},
+"13": {
+"fx": [
+"bubbles",
+"sparkle"
+]
+},
+"14": {
+"fx": [
+"sparkle"
+]
+},
+"15": {
+"fx": [
+"shake",
+"punch",
+"spray",
+"water"
+],
+"move": "tilt_up"
+},
+"16": {
+"fx": [
+"shake",
+"punch",
+"sparkle"
+],
+"move": "push_in"
+},
+"17": {
+"fx": [
+"sparkle"
+]
+},
+"18": {
+"fx": [
+"sparkle"
+]
+},
+"19": {
+"fx": [
+"water"
+]
+},
+"20": {
+"fx": []
+},
+"21": {
+"fx": [
+"embers",
+"punch"
+]
+},
+"22": {
+"fx": [
+"embers"
+]
+},
+"23": {
+"fx": [
+"shake",
+"punch",
+"embers"
+]
+},
+"24": {
+"fx": [
+"punch"
+]
+},
+"25": {
+"fx": [
+"shake",
+"punch",
+"spray",
+"water"
+],
+"move": "pull_out"
+},
+"26": {
+"fx": []
+},
+"27": {
+"fx": [
+"water"
+]
+},
+"28": {
+"fx": [
+"embers"
+]
+},
+"29": {
+"fx": [
+"water",
+"sparkle"
+],
+"move": "tilt_down"
+},
+"30": {
+"fx": [
+"shake"
+]
+},
+"31": {
+"fx": [
+"flash",
+"punch"
+],
+"move": "push_in"
+},
+"32": {
+"fx": [
+"embers"
+]
+},
+"33": {
+"fx": [
+"sparkle"
+]
+},
+"34": {
+"fx": []
+},
+"35": {
+"fx": [
+"embers",
+"sparkle"
+]
+},
+"36": {
+"fx": []
+},
+"37": {
+"fx": [
+"sparkle"
+]
+},
+"38": {
+"fx": [
+"punch"
+],
+"move": "push_in"
+},
+"39": {
+"fx": [
+"water"
+],
+"move": "pull_out"
+},
+"0": {
+"fx": [
+"shake",
+"punch",
+"spray"
+],
+"keys": [
+15,
+2,
+23,
+25
+]
+},
+"40": {
+"fx": [
+"embers",
+"sparkle",
+"punch"
+],
+"move": "push_in"
+}
+}

@@ -1,0 +1,29 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 57,
+   "text": "Kathang-isip: kami nina M at Usman, ang reyna, si Sinag, ang baluti at ang lagusan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 53,
+   "text": "Walang lungsod na nahanap, at kathang-isip ito para sa karamihan ng mga iskolar.",
+   "why": "A fact about the real record (scholars treat Atlantis as fiction). It says nothing about our story."
+  },
+  {
+   "index": 56,
+   "text": "Alamat ng Scandinavia ang kraken, at alamat ng Samar ang Biringan.",
+   "why": "Folklore named as folklore, in its own sentence."
+  },
+  {
+   "index": 39,
+   "text": "Kraken, Indio, galing sa mga alamat ng mga mandaragat ng Hilaga, hindi kay Plato.",
+   "why": "M's dialogue naming the source of the folklore."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Alamat ng Scandinavia ang kraken, at alamat ng Samar ang Biringan. / Paglabas namin sa lagusan, naglaho si Usman sa liwanag."
+}

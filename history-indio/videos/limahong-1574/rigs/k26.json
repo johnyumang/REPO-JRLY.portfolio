@@ -1,0 +1,19 @@
+{
+  "note": "Limahong looks back from the rail at the burning town: head turn, breathing, headband wind, fires, smoke, sea",
+  "camera": {"zoom": [1.0, 1.07], "focus": [340, 230]},
+  "blink": {"skin": [322, 212], "eyes": [{"c": [335, 178], "r": [19, 8], "tilt": 22}]},
+  "effects": [
+    {"fx": "turn", "mask": [{"ellipse": [295, 185, 125, 135], "soft": 40}, {"ellipse": [280, 320, 80, 45], "soft": 30}],
+     "pivot": [285, 325], "sway": 1.1, "speed": 1.2, "gesture": 3.2, "at": [0.25, 0.38, 0.6, 0.75]},
+    {"fx": "breath", "ellipse": [230, 560, 210, 200]},
+    {"fx": "wind", "mask": {"poly": [[0, 190], [150, 150], [170, 260], [90, 330], [0, 340]], "soft": 28}, "amp": 4, "wave": 140, "speed": 4},
+    {"fx": "wind", "mask": {"poly": [[90, 0], [350, 0], [340, 40], [100, 110]], "soft": 22}, "amp": 2, "wave": 200, "speed": 2.5},
+    {"fx": "wind", "mask": {"poly": [[300, 830], [400, 850], [440, 1040], [380, 1050]], "soft": 22}, "amp": 2.5, "wave": 130, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[540, 130], [720, 60], [720, 340], [560, 350]], "soft": 40}, "amp": 2.5, "wave": 220, "speed": 1.5, "axis": "y"},
+    {"fx": "flame", "mask": [{"ellipse": [540, 412, 16, 18], "soft": 8}, {"ellipse": [600, 385, 12, 16], "soft": 7}], "amp": 3},
+    {"fx": "glow", "mask": {"ellipse": [570, 400, 90, 60], "soft": 50}, "amount": 0.06},
+    {"fx": "sparks", "box": [510, 640, 420, 300], "n": 12},
+    {"fx": "bob", "mask": [{"ellipse": [465, 478, 30, 45], "soft": 12}, {"ellipse": [697, 490, 30, 42], "soft": 12}], "dx": 0, "dy": 2, "speed": 1.5},
+    {"fx": "shimmer", "mask": {"poly": [[480, 525], [720, 525], [720, 740], [585, 740], [585, 615], [500, 615]], "soft": 22}, "amp": 2.5}
+  ]
+}

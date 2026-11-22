@@ -1,0 +1,615 @@
+{
+"_": {
+"rules_v2": true,
+"whoosh_cuts": false,
+"levels": {
+"amb": -10,
+"music": -10,
+"foley": -12,
+"spot": -8,
+"duck": 6,
+"fx_duck": 14
+}
+},
+"0": {
+"amb": [
+"fire:-6",
+"crowd:-10",
+"wind:-14"
+],
+"music": "none",
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -4
+},
+{
+"what": "cannon",
+"at": 0.9,
+"gain": -6
+}
+]
+},
+"1": {
+"music": "heartbeat",
+"foley": [
+{
+"what": "steps_stone",
+"at": 0.0,
+"pace": "run",
+"count": 6,
+"gain": -4
+}
+]
+},
+"3": {
+"foley": [
+{
+"what": "dog_paws",
+"at": 0.0,
+"count": 6,
+"gain": -4
+},
+{
+"what": "steps_stone",
+"at": 0.1,
+"pace": "run",
+"count": 5,
+"gain": -6
+}
+]
+},
+"5": {
+"amb": [
+"city:-14",
+"wind:-10"
+],
+"music": "guitar",
+"level": -4,
+"spot": [
+{
+"what": "whoosh",
+"at": -0.4,
+"dur": 0.6,
+"gain": -10
+}
+]
+},
+"7": {
+"foley": [
+{
+"what": "steps_grass",
+"at": 0.2,
+"pace": "walk",
+"count": 4,
+"gain": -6
+}
+]
+},
+"10": {
+"foley": [
+{
+"what": "paper_tear",
+"at": 0.1,
+"gain": -16
+}
+]
+},
+"13": {
+"spot": [
+{
+"what": "bell",
+"at": -0.2,
+"dur": 0.3,
+"gain": -14
+}
+]
+},
+"14": {
+"foley": [
+{
+"what": "steps_grass",
+"at": 0.0,
+"pace": "walk",
+"count": 3,
+"gain": -8
+}
+]
+},
+"17": {
+"music": "drone",
+"level": -3,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.0,
+"dur": 1.6,
+"gain": -4
+},
+{
+"what": "riser",
+"at": 2.4,
+"dur": 1.6,
+"gain": -8
+}
+]
+},
+"20": {
+"foley": [
+{
+"what": "dog_paws",
+"at": 0.0,
+"count": 5,
+"gain": -6
+},
+{
+"what": "dog_pant",
+"at": 1.0,
+"dur": 0.8,
+"gain": -12
+}
+]
+},
+"24": {
+"amb": [
+"fire:-4",
+"crowd:-12",
+"wind:-14"
+],
+"music": "drone",
+"level": -4,
+"spot": [
+{
+"what": "impact",
+"at": -0.3,
+"gain": -6,
+"hush": 0.3
+},
+{
+"what": "cannon",
+"at": 1.8,
+"gain": -8
+}
+]
+},
+"26": {
+"music": "heartbeat",
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -4
+},
+{
+"what": "glass_crash",
+"at": 0.1,
+"dur": 0.8,
+"gain": -10
+}
+]
+},
+"28": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.4,
+"gain": -6
+}
+]
+},
+"30": {
+"amb": [
+"indoor",
+"fire:-14",
+"crowd:-18"
+],
+"music": "none",
+"level": -2,
+"spot": [
+{
+"what": "cannon",
+"at": 0.6,
+"gain": -12
+}
+],
+"foley": [
+{
+"what": "plates",
+"at": 1.0,
+"gain": -12
+}
+]
+},
+"34": {
+"spot": [
+{
+"what": "cannon",
+"at": 0.2,
+"gain": -14
+}
+]
+},
+"36": {
+"music": "drone",
+"level": -5,
+"spot": [
+{
+"what": "cannon",
+"at": 0.4,
+"gain": -10
+}
+]
+},
+"40": {
+"music": "drone",
+"level": -6,
+"spot": [
+{
+"what": "low_note",
+"at": 0.0,
+"dur": 3.0,
+"gain": -6
+}
+],
+"foley": [
+{
+"what": "cloth",
+"at": 0.3,
+"dur": 0.8,
+"gain": -8
+}
+]
+},
+"44": {
+"amb": [
+"fire:-6",
+"crowd:-6",
+"wind:-14"
+],
+"music": "heartbeat",
+"level": -2,
+"foley": [
+{
+"what": "steps_stone",
+"at": 0.0,
+"pace": "run",
+"count": 8,
+"gain": -4
+}
+]
+},
+"45": {
+"amb": [
+"fire:-8",
+"crowd:-10",
+"wind:-14"
+],
+"music": "none",
+"foley": [
+{
+"what": "steps_stone",
+"at": 0.0,
+"pace": "walk",
+"count": 2,
+"gain": -8
+}
+]
+},
+"48": {
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.4,
+"gain": -4
+}
+]
+},
+"50": {
+"spot": [
+{
+"what": "impact",
+"at": 0.0,
+"gain": -6
+}
+],
+"foley": [
+{
+"what": "splash",
+"at": 0.1,
+"gain": -10
+}
+]
+},
+"54": {
+"amb": [
+"fire:-4",
+"crowd:-4",
+"wind:-12"
+],
+"music": "none",
+"spot": [
+{
+"what": "cannon",
+"at": -0.4,
+"gain": -2,
+"hush": 0.4
+},
+{
+"what": "impact",
+"at": 0.3,
+"gain": -4
+}
+]
+},
+"57": {
+"music": "heartbeat",
+"level": -2
+},
+"59": {
+"amb": [
+"fire:-10",
+"crowd:-14"
+],
+"music": "drone",
+"level": -4,
+"foley": [
+{
+"what": "dog_paws",
+"at": 0.0,
+"count": 14,
+"gain": -10
+}
+]
+},
+"62": {
+"amb": "none",
+"music": "drone",
+"level": -8,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.4,
+"dur": 1.6,
+"gain": -14
+}
+]
+},
+"67": {
+"amb": [
+"fire:-12",
+"crowd:-16"
+],
+"music": "drone",
+"level": -4
+},
+"71": {
+"foley": [
+{
+"what": "paper_tear",
+"at": 0.0,
+"gain": -6
+},
+{
+"what": "dog_paws",
+"at": 0.6,
+"count": 10,
+"gain": -10
+}
+]
+},
+"72": {
+"music": "guitar",
+"level": -4,
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.6,
+"gain": -4
+}
+]
+},
+"76": {
+"amb": [
+"indoor:-4",
+"wind:-18"
+],
+"music": "drone",
+"level": -5,
+"foley": [
+{
+"what": "splash",
+"at": 0.2,
+"gain": -10
+},
+{
+"what": "splash",
+"at": 1.4,
+"gain": -12
+}
+]
+},
+"78": {
+"foley": [
+{
+"what": "splash",
+"at": 0.0,
+"gain": -10
+}
+]
+},
+"82": {
+"amb": [
+"sea:-10",
+"wind:-10",
+"fire:-20"
+],
+"music": "guitar",
+"level": -4,
+"foley": [
+{
+"what": "splash",
+"at": 0.3,
+"gain": -10
+},
+{
+"what": "steps_wet",
+"at": 0.0,
+"pace": "walk",
+"count": 4,
+"gain": -8
+}
+]
+},
+"84": {
+"foley": [
+{
+"what": "dog_pant",
+"at": 0.0,
+"dur": 0.6,
+"gain": -14
+}
+]
+},
+"87": {
+"music": "drone",
+"level": -4,
+"spot": [
+{
+"what": "bell",
+"at": 0.2,
+"dur": 0.8,
+"gain": -16
+}
+]
+},
+"89": {
+"music": "drone",
+"level": -5,
+"spot": [
+{
+"what": "low_note",
+"at": 0.0,
+"dur": 3.0,
+"gain": -6
+}
+]
+},
+"91": {
+"music": "guitar",
+"level": -4,
+"foley": [
+{
+"what": "growl",
+"at": -0.3,
+"dur": 0.6,
+"gain": -10
+}
+]
+},
+"95": {
+"music": "drone",
+"level": -6,
+"spot": [
+{
+"what": "low_note",
+"at": 0.0,
+"dur": 3.0,
+"gain": -6
+}
+]
+},
+"97": {
+"music": "guitar",
+"level": -5,
+"foley": [
+{
+"what": "cloth",
+"at": 0.0,
+"dur": 0.6,
+"gain": -8
+}
+]
+},
+"100": {
+"music": "drone",
+"level": -4,
+"spot": [
+{
+"what": "shimmer",
+"at": 0.6,
+"dur": 1.6,
+"gain": -6
+},
+{
+"what": "riser",
+"at": 3.6,
+"dur": 1.4,
+"gain": -8
+}
+]
+},
+"103": {
+"amb": [
+"night_insects:-8",
+"wind:-14",
+"city:-18"
+],
+"music": "none",
+"spot": [
+{
+"what": "impact",
+"at": -0.3,
+"gain": -10
+}
+]
+},
+"107": {
+"music": "guitar",
+"level": -5
+},
+"111": {
+"music": "none",
+"spot": [
+{
+"what": "bell",
+"at": -0.25,
+"dur": 0.3,
+"gain": -14
+}
+]
+},
+"112": {
+"spot": [
+{
+"what": "bell",
+"at": 1.0,
+"dur": 0.3,
+"gain": -12
+}
+]
+},
+"113": {
+"music": "guitar",
+"level": -4
+},
+"117": {
+"music": "drone",
+"level": -5
+},
+"119": {
+"music": "drone",
+"level": -6,
+"spot": [
+{
+"what": "low_note",
+"at": 0.0,
+"dur": 3.0,
+"gain": -6
+}
+]
+}
+}

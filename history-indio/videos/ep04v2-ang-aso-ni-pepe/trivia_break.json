@@ -1,0 +1,77 @@
+{
+ "fact_id": "ep04v2_end",
+ "fact_english": "Biographies say the boy Rizal had a big black dog named Usman; this is not traceable to his own writings. Certain: in June 1869, on a Sunday, his brother Paciano took him to Biñan to study; he was about eight. The moth story is from Rizal's own memoir: his mother told it while teaching him to read. Rizal had no known grandchildren; the family link is Indio's family story.",
+ "label_onscreen": "USMAN",
+ "source_onscreen": "Pinagmulan: Rizal, Memorias de un estudiante de Manila; mga talambuhay ni Rizal",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Totoo ba 'yon, par? May aso si Rizal na kapangalan ko?",
+   "emphasis": [
+    "kapangalan"
+   ],
+   "say": "Totoo ba 'yon, par? May aso si riSAL na kapangalan ko?"
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ayon sa mga talambuhay niya, oo: isang malaking itim na aso, Usman ang pangalan.",
+   "emphasis": [
+    "talambuhay"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Hindi ito matunton sa sarili niyang sulat, kaya \"ayon sa talambuhay\" lang.",
+   "emphasis": [
+    "sulat"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Tiyak: Hunyo 1869, isang Linggo, inihatid siya ng kuya niyang si Paciano sa Biñan para mag-aral.",
+   "emphasis": [
+    "1869",
+    "Biñan"
+   ],
+   "say": "Tiyak: Hunyo mil otsosyentos sesentay nuwebe, isang Linggo, inihatid siya ng kuya niyang si Pasyano sa binYAN para mag-aral."
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Mga walong taon siya noon.",
+   "emphasis": [
+    "walong"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "At ang kuwento ng gamu-gamo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa.",
+   "emphasis": [
+    "gamu-gamo"
+   ],
+   "say": "At ang kuwento ng gamuGAmo, galing sa sarili niyang alaala: ikinuwento ng nanay niya noong tinuturuan siyang bumasa."
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Eh kadugo mo ba talaga siya?",
+   "emphasis": [
+    "kadugo"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Sa totoong tala, walang kilalang apo si Rizal. Kuwento 'yan ng pamilya namin.",
+   "emphasis": [
+    "kuwento"
+   ],
+   "say": "Sa totoong tala, walang kilalang apo si riSAL. Kuwento 'yan ng pamilya namin."
+  }
+ ],
+ "placement": "end",
+ "insert_after_sentence": 112,
+ "after_text": "Ikaw, ka-Indio: kung may mahal kang gustong bumalik sa dati niyang tahanan, hahayaan mo ba?",
+ "palette": "sun",
+ "grave": false,
+ "gap": 0.22,
+ "why_here": "The new form: the trivia goes at the END, after the last line of the story, as 'Patalastas ni Usman'.",
+ "voice_note": "Script trivia lines 2 and 3 are each split in two INDIO lines so each caption fits; same words. 1869 voiced as a Spanish-derived number; Rizal, Biñan and gamu-gamo use the script's SAY spellings. 16 Nov: Paciano voiced 'Pasyano' (the recogniser heard 'Pachano')."
+}

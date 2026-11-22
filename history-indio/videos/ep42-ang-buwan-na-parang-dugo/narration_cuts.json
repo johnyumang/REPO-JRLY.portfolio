@@ -1,0 +1,39 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 67,
+   "text": "Kathang-isip: ang gunaw at ang digmaan, na hinango lang sa mga tekstong ito, ang Bakunawa bilang bantay, si Sinag, si Nong Doming, at kami nina M at Usman."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 62,
+   "text": "Tiyak: sa kuwentong-bayan ng mga Bisaya, ang Bakunawa ang ahas-dagat na lumalamon sa buwan, kaya may eklipse.",
+   "why": "Names folklore as folklore, as part of the record."
+  },
+  {
+   "index": 63,
+   "text": "Tiyak din: noong 1731, isinulat ng paring si Tomas Ortiz na tuwing eklipse, lumalabas ang mga tao na may kampana at kalampag, para ipagtanggol ang buwang nilalamon daw ng dragon.",
+   "why": "History."
+  },
+  {
+   "index": 64,
+   "text": "Alamat ng mga Tagalog si Bernardo Carpio, ang dahilan daw ng lindol.",
+   "why": "A folklore attribution in its own sentence."
+  },
+  {
+   "index": 65,
+   "text": "Nasa Pahayag 6:12 ang buwan na naging gaya ng dugo, at buod ng Pahayag 12:15: nagbuga ang ahas ng tubig na gaya ng isang ilog.",
+   "why": "A statement about the real text."
+  },
+  {
+   "index": 66,
+   "text": "Sa Genesis 9:11, nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha; kaya hindi Diyos ang nagpadala ng gunaw ng kuwentong ito.",
+   "why": "KEEP, flagged for the owner. Its job is the scripture and respect for it (the flood is the dragon's, not God's, as in Episode 40). It does not say the story is invented. 'ng kuwentong ito' is the only borderline phrase; the second reader agrees to keep it because cutting it would remove the only spoken line that keeps the series' flood apart from the Genesis promise."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Sa Genesis 9:11, nakasulat: ni hindi ko na lilipulin ang lahat ng laman sa pamamagitan ng tubig ng baha; kaya hindi Diyos ang nagpadala ng gunaw ng kuwentong ito. / Sa likod ng buwan, naghihintay pa rin ang libu-libong mata."
+}

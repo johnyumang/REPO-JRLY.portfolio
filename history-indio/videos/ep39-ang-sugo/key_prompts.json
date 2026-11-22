@@ -1,0 +1,345 @@
+{
+ "bg": "green",
+ "style": "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.",
+ "white": "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ",
+ "nv_replace": {
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a loose white collarless camisa shirt with rolled sleeves, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, loose white collarless shirt, bare neck without any necklace, ",
+  "Anime character illustration, medium shot from the waist up, the whole head and both shoulders visible with space above the head, character centered, on a plain flat solid bright green chroma-key background with nothing else: ": "Anime character, waist-up medium shot, whole head visible, centered, plain flat solid bright green background: ",
+  "Style: modern Japanese TV anime key frame, crisp clean ink line art, cel shading with two-tone hard shadows, vivid saturated colour, expressive face.": "Modern TV anime, crisp ink lines, hard cel shading, vivid colour, expressive face.",
+  "a young Filipino man, about twenty, lean, warm brown skin, tousled black hair tied in a small topknot, red cloth headband with long tails, wearing a rough undyed brown wool cloak over a plain knee-length tunic, leather sandals, bare neck with no necklace, indigo geometric tattoos on his right forearm, ": "a lean young Filipino man, brown skin, black hair in a small topknot, red headband, rough brown wool cloak over a plain tunic, sandals, bare neck without any necklace, "
+ },
+ "_note": "Episode 39 (Season 4) keyframes (from Kabanata 39, story version 2). Indio is 40 with a few grey hairs. The campaign, the rival senator, the firm and the vice president are invented: generic faces, no real politician's likeness, no real party colours, logos, government seals or readable text. Asiong Salonga is only seen from across a 1950s Tondo street, small and with his face not detailed; no real photo is copied. Tubal is a generic man in a dark suit with a bronze ring. Copied from Episode 13: full intro. Shots follow sentences.json; k90+ are montage extras.",
+ "plates": {},
+ "chars": {},
+ "full": {
+  "receipts_posts": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Wide shot of a provincial town street in the Philippines lined with lamp posts, each with a plain brown cardboard sheet tied to it holding blank white paper slips, seen from a distance at an angle, people stopping to look at them, sunny. The slips are blank, no writing, no letters, no numbers, no barcodes. Philippine street, no Asian-language signs.",
+  "tubal_table": "medium shot of a tall cold man in a dark suit with a bronze ring on his finger sitting alone at a table in an empty restaurant at night, a candle, waiting with a faint smile. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "manila_aerial39": "aerial shot of Metro Manila at dusk, the bay, lights coming on, rain clouds clearing. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "indio_mirror": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt looking at himself in a small mirror, touching the grey hairs at his temple, a calm smile. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "crowd_ask": "wide shot of a crowd in a town plaza calling out and waving hands at a stage, hopeful faces, no readable signs, no party colours.",
+  "indio_file": "medium shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt signing a form at a plain wooden government counter, a clerk watching, no seals, no readable text.",
+  "villacorta": "Single image, no panels. Low-angle shot inside a modern hall in the Philippines: a polished middle-aged woman senator in a white suit at a wooden podium, arms wide, one large screen behind her showing only a soft blue sketch of a sea wall, no readable text, no party colours. One single painting, not a comic strip.",
+  "wall_plan": "wide shot of a huge blueprint of an endless sea wall along a coastline on a table, stamped with a mark of three triangles, no readable text. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "receipt_boards": "wide high-angle shot of a dry town after a storm, every lamp post hung with big cardboard sheets of receipts, kids reading them, no readable text.",
+  "celia_desk": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Medium shot: a kind middle-aged Filipina teacher with glasses and a short silver-grey bob, a red cardigan over a lavender top, at a cluttered desk marking a page with a red pen, her hand and the pen hiding the page, the paper blank with only a few red tick marks, stern but warm. A plain painted classroom wall behind her with a window, no posters, no notices. Present-day Philippines, no writing, no letters, no logos, not a character sheet.",
+  "celia_rule": "close-up of a kind middle-aged Filipina teacher with glasses and greying hair in a cardigan raising one finger, giving a firm rule, eyes over her glasses. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "tinig_rally": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Low wide shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt speaking into a microphone on a stand at a night rally stage, one hand on the microphone, a thumb and four fingers, the other hand at his side; rings of soft golden light spreading from his voice over a huge crowd far below and behind him, the crowd seen as small distant figures and lights, no close faces in the crowd. Present-day Philippines, no readable text, no logos, no party colours, not a character sheet.",
+  "silence": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt at a microphone with his mouth open and no sound, puzzled, the golden rings gone. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "crowd_laugh": "high shot of a friendly town plaza audience at an evening gathering, people smiling and chuckling, pointing at a microphone stand on a small stage, warm string lights, no signs.",
+  "indio_rue": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt lowering the microphone, embarrassed, learning a lesson. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "rico_videos": "extreme close-up of a phone screen showing a sneering vlogger holding up papers with a red circle graphic, no readable text.",
+  "fake_docs": "top-down shot of a spread of documents with smudged signatures and photocopied stamps on a desk, a magnifying glass, no readable text. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "kasulatan_read": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Over-the-shoulder shot from behind a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt: he holds a thin glowing bronze sheet with both hands, a thumb and four fingers on each hand, laid over a sheet of plain blank paper whose empty back faces the camera, no print, no lines, no marks on the paper; to the side, a young woman films him, one camera only, held to her eye. Only these two people. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "erased": "Single image, no panels. Extreme close-up of a sheet of old paper on a desk with a faint glowing smudge where something was erased, thin lines of soft light rising from the blank paper, no letters, no writing, no signature. Nobody in the frame: no people, no faces, no hands, no characters, objects and places only.",
+  "pipay": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Medium shot of a young Filipina woman with headphones typing fast at a laptop in a small room at night, focused, the laptop screen seen from behind, a plain desk with a mug and a blank notebook, no papers with writing. No writing, no letters, no characters anywhere.",
+  "indio_calm39": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt calm and patient, speaking to a camera, three fingers raised one by one. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "people_game": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Medium shot inside a small neighbourhood barbershop in the Philippines: three Filipino men sitting side by side on a bench laughing together, each holding a phone in front of him with both hands, a thumb and four fingers on each hand, the barber standing behind them smiling with his arms crossed. Plain walls with a mirror, no posters, no writing, no letters. Only these four people.",
+  "jump_light": "wide deep shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt stepping into a swirl of golden light on a Manila street at night.",
+  "tondo1950": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Wide shot of a busy street corner in Tondo, Manila, Philippines in the early 1950s, men in white shirts and fedoras, kids, a calesa, wooden houses with capiz windows. Shop fronts have plain painted boards, blank, no writing, no letters, no signs with words. Philippine street, no Asian-language signs.",
+  "asiong_far": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Long shot from across the street: a young man in a white short-sleeved shirt and slacks standing at a street corner in Tondo, Manila, Philippines in the early 1950s, old jeepneys and calesas, wooden houses with capiz windows; every shop board and sign is plain and blank, no writing, no letters, no characters. Philippine street, no Asian-language signs, small in the frame, face not detailed, a few people passing far away.",
+  "bowed": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Medium shot of 1950s Tondo residents walking past a street corner in Tondo, Manila, Philippines in the early 1950s, old jeepneys and calesas, wooden houses with capiz windows; every shop board and sign is plain and blank, no writing, no letters, no characters. Philippine street, no Asian-language signs, heads bowed, eyes down, carrying baskets, tense, a few people only, no close faces.",
+  "indio_across": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Low shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt and dark slacks standing still across the street, watching quietly, framed against parked old 1950s jeepneys and calesas, with only tiled roofs and sky above his head; plain weathered wooden house fronts with capiz windows and bare plank walls, no shop signs, no signboards, no hanging boards, no awning lettering. Tondo, Manila, Philippines, early 1950s. Not a character sheet.",
+  "faces": "close-up of worried faces of 1950s Tondo residents, an old woman and a boy, glancing sideways. Detailed full background, a crowded street corner in Tondo, Manila in the early 1950s, old jeepneys and calesas, wooden houses, capiz windows, no readable signs, not a character sheet.",
+  "indio_lesson39": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt and dark slacks, eyes sad and thoughtful, standing at a street corner in Tondo, Manila, Philippines in the early 1950s, old jeepneys and calesas, wooden houses with capiz windows; every shop board and sign is plain and blank, no writing, no letters, no characters. Philippine street, no Asian-language signs. Not a character sheet.",
+  "indio_resolve": "medium shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt walking away down a present-day street at night, determined. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "restaurant": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Wide shot of an empty restaurant at night, one table lit by a candle: a tall cold man in his fifties with long slicked-back black hair, a pale lean face, a dark suit and a plain bronze ring on his finger seated at the table, and a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt arriving and standing by the table, his hands at his sides. Only these two people, no writing, no letters.",
+  "ring_table": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Extreme close-up of a single bronze ring lying on a white tablecloth, with exactly three small bronze triangles on its top, nothing floating, candlelight, a dark restaurant softly blurred behind. No hands. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "indio_ask39": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt asking a hard question across a restaurant table at night, jaw set, no speech bubbles, no text.",
+  "tubal_smile": "close-up of a tall cold man in a dark suit with a bronze ring on his finger smiling slowly, eyes cold. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "tubal_sign": "medium shot: a tall cold man in a dark suit with a bronze ring on his finger leaning back, spreading his hands like a builder showing his work. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "ring_on": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of a tall cold man in his fifties with long slicked-back black hair, a pale lean face, a dark suit and a plain bronze ring on his finger, seated at a candlelit restaurant table at night, smiling coldly, one hand raised beside his face showing the ring on his ring finger, one hand only, a thumb and four fingers, the other hand out of frame. Matching dark brown eyes. Present-day Philippines, no writing.",
+  "tubal_offer": "over-the-shoulder shot from behind a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt: a tall cold man in a dark suit with a bronze ring on his finger leaning forward over the table, making an offer. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "tubal_past": "close-up of a tall cold man in a dark suit with a bronze ring on his finger tapping the table with one finger, persuasive. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "tubal_win": "medium shot: a tall cold man in a dark suit with a bronze ring on his finger raising a glass of water in a mock toast. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "indio_stand": "low shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt standing up from the table, pushing his chair back. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "indio_saksi39": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt looking down at the seated man, calm and certain. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "win_night": "wide shot of a modest crowd in a town plaza at night cheering quietly, people hugging, no fireworks, no readable signs.",
+  "receipts_dawn": "wide high-angle shot at dawn of lamp posts still hung with cardboard receipts after an election night, confetti on the street, no readable text. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "ilagan": "medium shot of a friendly middle-aged Filipino man in a barong waving from a flooded provincial road, rubber boots, generic face, no readable text.",
+  "indio_clarify39": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt speaking calmly to the camera at a wooden desk. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "constitution": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Top-down shot of an old closed hardbound book with a plain dark green leather cover, completely blank, no writing, no letters, no title, no gold script, and reading glasses lying on it, on a wooden desk. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "hometown": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Wide shot of a street in Quezon City, Philippines, morning, a public school gate of plain green-painted iron bars set in a plain cream wall, a small bakery with a blank awning, kids walking. All walls, awnings and boards are blank, no writing, no letters, no characters. Philippine street, no Asian-language signs.",
+  "news_photo": "extreme close-up of an old yellowed black-and-white photograph of a crowded street, blurred and grainy, no letters, no newspaper text. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "film_reel": "close-up of an old film reel and a 1960s projector beam in a dark room. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "indio_label39": "Single image, no panels. Medium shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt holding up a plain brown cardboard sheet with blank paper slips clipped to it, honest expression, on a street in present-day Philippines, detailed background, blank paper with no writing, no logos, no party colours, not a character sheet.",
+  "indio_label39b": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt shaking his head gently, serious. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "rooftop": "wide night shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt and a young woman with long straight black hair in a long dark coat sitting on the tin roof of an old house in Kawit, fireworks far away over the city.",
+  "hands_m": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up on the tin roof of an old house at night, fireworks light: a young woman with long straight black hair in a long dark coat sitting beside a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt, seen from behind at shoulder height, her head resting on his shoulder, their hands out of frame. Two people only, no faces turned to the camera, no writing.",
+  "m_sugo": "close-up of a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, with long straight black hair looking at him, serious and tender, firework light on her face.",
+  "m_ask39": "medium shot: a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, with long straight black hair tilting her head, asking a question softly, on a roof at night.",
+  "firework": "low-angle shot of a firework exploding sideways in a small backyard at night, sparks everywhere. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "usman_tail": "medium shot: a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck running in circles in a backyard with sparks near his tail, comic. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "usman_yelp": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up: a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck yelping with wide eyes, tail puffed, sparks around, in a sunny residential street in the Philippines with plain painted houses and greenery softly blurred behind, no shop signs, no writing, no letters, no characters. Philippine street, no Asian-language signs. One dog only, not a character sheet.",
+  "laugh_two": "two-shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt and a young woman with long straight black hair in a long dark coat laughing on the roof, holding on to each other. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "interrupted": "close-up of a mysterious young Filipina woman in a long dark coat holding a red umbrella, a round bronze medallion at her neck, with long straight black hair smiling and shaking her head, interrupted again, firework light. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "indio_point39": "medium shot: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt pointing at the viewer on a rooftop at night. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "indio_ask39b": "close-up of a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt asking the viewer, a bronze ring in his open palm. Present-day Philippines, detailed background, no readable text, no logos, no party colours, not a character sheet.",
+  "indio_follow39": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Low wide shot at dawn: a Filipino man of forty with a black topknot, a red headband, a few grey hairs at the temples, a simple white barong-style shirt walking toward an old palace gate, seen from behind and a little to the side, and beside him on the ground, a step ahead and clearly separate from him, a medium-sized black Philippine street dog with a white chest patch, one folded ear and bright clever eyes, a red kerchief around his neck, trotting on four legs, its whole body visible. One man and one dog only, no seals, no readable text.",
+  "cardboard": "Single image, no panels. Close-up of a blank brown cardboard sheet with plain blank paper slips clipped to it, tied to a lamp post with string on a rainy street in the Philippines, rain drops, the slips are blank with no writing at all. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "mic": "extreme close-up of a microphone on a stand with faint golden rings of sound. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "crowd_hands": "low-angle shot of many raised hands at a night rally, warm light.",
+  "forged": "close-up of a plain rubber stamp with a blank face and a pen lying on a pile of papers on a desk, no letters on anything. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "laptop_glow": "close-up of a laptop screen light on a young woman's face at night.",
+  "calesa": "close-up of a horse-drawn calesa wheel on a 1950s cobbled street. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "capiz": "close-up of old capiz shell windows on a wooden house in 1950s Manila. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "candle_table": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Close-up of a single plain white candle in a clear smooth glass holder with nothing printed on it, on an empty restaurant table at night, warm glow, soft background. The glass is plain and blank, no writing, no letters, no symbols, no characters. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "ring_glint": "extreme close-up of a bronze ring with a small mark of three triangles lying on a dark wooden restaurant table by candlelight. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "confetti": "close-up of confetti on a wet street at dawn. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "fireworks_far": "wide shot of fireworks bursting over a city skyline at night. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "tin_roof": "close-up of an old rusty tin roof at night with fireworks reflected on it, two pairs of sandals resting on the edge. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "ballot_box": "close-up of a plain wooden ballot box with a padlock, no readable text, no seals. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "jeep_1950": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Wide shot of an old 1950s jeepney with chrome horses and painted stripes passing a corner in Manila, Philippines, old wooden and stone buildings with plain blank walls and blank boards, no writing, no letters, no characters on the buildings or on the jeepney. Philippine street, no Asian-language signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "jump_spark": "close-up of golden sparks swirling on a street at night. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "school_gate39": "Single image, no panels, no border, no black bars, the picture fills the whole vertical frame. Anime background art, hand-painted cel-shaded look like the rest of the episode, not a photograph: close-up of a Philippine public elementary school gate at morning, a plain green-painted iron gate in a cream concrete wall, a coconut palm and a mango tree behind, a small plain stone marker beside it, blank, no writing. No letters, no characters, no Asian-language signs. Nobody in the frame: no people, no faces, no characters, objects and places only.",
+  "usman_soot": "close-up of a black dog's face with a little soot on his nose, embarrassed.",
+  "intro": "(copied from Episode 13)"
+ },
+ "shots": {
+  "0": {
+   "full": "receipts_posts"
+  },
+  "1": {
+   "full": "tubal_table"
+  },
+  "2": {
+   "full": "intro"
+  },
+  "3": {
+   "full": "manila_aerial39"
+  },
+  "4": {
+   "full": "indio_mirror"
+  },
+  "5": {
+   "full": "crowd_ask"
+  },
+  "6": {
+   "full": "indio_file"
+  },
+  "7": {
+   "full": "villacorta"
+  },
+  "8": {
+   "full": "wall_plan"
+  },
+  "9": {
+   "full": "receipt_boards"
+  },
+  "10": {
+   "full": "celia_desk"
+  },
+  "11": {
+   "full": "celia_rule"
+  },
+  "12": {
+   "full": "tinig_rally"
+  },
+  "13": {
+   "full": "silence"
+  },
+  "14": {
+   "full": "tinig_rally"
+  },
+  "15": {
+   "full": "crowd_laugh"
+  },
+  "16": {
+   "full": "indio_rue"
+  },
+  "17": {
+   "full": "rico_videos"
+  },
+  "18": {
+   "full": "fake_docs"
+  },
+  "19": {
+   "full": "kasulatan_read"
+  },
+  "20": {
+   "full": "erased"
+  },
+  "21": {
+   "full": "pipay"
+  },
+  "22": {
+   "full": "indio_calm39"
+  },
+  "23": {
+   "full": "people_game"
+  },
+  "24": {
+   "full": "jump_light"
+  },
+  "25": {
+   "full": "tondo1950"
+  },
+  "26": {
+   "full": "asiong_far"
+  },
+  "27": {
+   "full": "bowed"
+  },
+  "28": {
+   "full": "indio_across"
+  },
+  "29": {
+   "full": "faces"
+  },
+  "30": {
+   "full": "indio_lesson39"
+  },
+  "31": {
+   "full": "indio_resolve"
+  },
+  "32": {
+   "full": "restaurant"
+  },
+  "33": {
+   "full": "ring_table"
+  },
+  "34": {
+   "full": "indio_ask39"
+  },
+  "35": {
+   "full": "tubal_smile"
+  },
+  "36": {
+   "full": "tubal_sign"
+  },
+  "37": {
+   "full": "ring_on"
+  },
+  "38": {
+   "full": "tubal_offer"
+  },
+  "39": {
+   "full": "tubal_past"
+  },
+  "40": {
+   "full": "tubal_win"
+  },
+  "41": {
+   "full": "indio_stand"
+  },
+  "42": {
+   "full": "indio_saksi39"
+  },
+  "43": {
+   "full": "win_night"
+  },
+  "44": {
+   "full": "receipts_dawn"
+  },
+  "45": {
+   "full": "ilagan"
+  },
+  "46": {
+   "full": "indio_clarify39"
+  },
+  "47": {
+   "full": "constitution"
+  },
+  "48": {
+   "full": "hometown"
+  },
+  "49": {
+   "full": "news_photo"
+  },
+  "50": {
+   "full": "film_reel"
+  },
+  "51": {
+   "full": "indio_label39"
+  },
+  "52": {
+   "full": "indio_label39b"
+  },
+  "53": {
+   "full": "rooftop"
+  },
+  "54": {
+   "full": "hands_m"
+  },
+  "55": {
+   "full": "m_sugo"
+  },
+  "56": {
+   "full": "m_ask39"
+  },
+  "57": {
+   "full": "firework"
+  },
+  "58": {
+   "full": "usman_tail"
+  },
+  "59": {
+   "full": "usman_yelp"
+  },
+  "60": {
+   "full": "laugh_two"
+  },
+  "61": {
+   "full": "interrupted"
+  },
+  "62": {
+   "full": "indio_point39"
+  },
+  "63": {
+   "full": "indio_ask39b"
+  },
+  "64": {
+   "full": "indio_follow39"
+  },
+  "90": {
+   "full": "cardboard"
+  },
+  "91": {
+   "full": "mic"
+  },
+  "92": {
+   "full": "crowd_hands"
+  },
+  "93": {
+   "full": "forged"
+  },
+  "94": {
+   "full": "laptop_glow"
+  },
+  "95": {
+   "full": "calesa"
+  },
+  "96": {
+   "full": "capiz"
+  },
+  "97": {
+   "full": "candle_table"
+  },
+  "98": {
+   "full": "ring_glint"
+  },
+  "99": {
+   "full": "confetti"
+  },
+  "100": {
+   "full": "fireworks_far"
+  },
+  "101": {
+   "full": "tin_roof"
+  },
+  "102": {
+   "full": "ballot_box"
+  },
+  "103": {
+   "full": "jeep_1950"
+  },
+  "104": {
+   "full": "jump_spark"
+  },
+  "105": {
+   "full": "school_gate39"
+  },
+  "106": {
+   "full": "usman_soot"
+  }
+ }
+}

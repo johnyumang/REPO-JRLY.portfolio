@@ -1,0 +1,27 @@
+{
+  "note": "Limahong from behind pointing at burning Manila over his junk fleet: pointing arm, head turn, breathing, headband and cape wind, junks bob, fires and torches flicker, smoke, water shimmer",
+  "camera": {"zoom": [1.0, 1.06], "focus": [430, 380]},
+  "effects": [
+    {"fx": "bob", "mask": {"poly": [[300, 320], [720, 320], [720, 410], [300, 400]], "soft": 22}, "dy": 1.5, "speed": 1.5},
+    {"fx": "bob", "mask": [{"ellipse": [545, 440, 50, 50], "soft": 20}, {"ellipse": [672, 450, 48, 60], "soft": 20}], "dy": 2, "speed": 1.3, "phase": 1.2},
+    {"fx": "bob", "mask": {"ellipse": [460, 570, 70, 120], "soft": 25}, "dy": 2.5, "speed": 1.2, "phase": 2.0},
+    {"fx": "bob", "mask": {"ellipse": [620, 600, 78, 125], "soft": 25}, "dy": 2.5, "speed": 1.35, "phase": 0.4},
+    {"fx": "bob", "mask": {"ellipse": [690, 900, 40, 130], "soft": 22}, "dy": 2.5, "speed": 1.1, "phase": 3.0},
+    {"fx": "shimmer", "mask": {"poly": [[330, 305], [720, 305], [720, 1280], [650, 1280], [650, 1060], [680, 800], [470, 700], [400, 500], [330, 440]], "soft": 30}, "amp": 1.8, "speed": 4},
+    {"fx": "turn", "mask": {"poly": [[305, 405], [400, 388], [462, 372], [466, 398], [425, 425], [360, 470], [315, 475]], "soft": 16},
+     "pivot": [320, 445], "sway": 0.7, "speed": 1.4, "gesture": -4.5, "at": [0.2, 0.35, 0.6, 0.75]},
+    {"fx": "turn", "mask": {"ellipse": [222, 325, 62, 65], "soft": 25}, "pivot": [215, 390], "sway": 1.1, "speed": 1.1, "gesture": 3, "at": [0.25, 0.4, 0.65, 0.8]},
+    {"fx": "breath", "ellipse": [210, 590, 150, 150]},
+    {"fx": "wind", "mask": {"poly": [[15, 360], [170, 335], [175, 380], [60, 420], [15, 410]], "soft": 15}, "amp": 4.5, "wave": 90, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[0, 440], [120, 430], [170, 560], [110, 760], [60, 960], [0, 980]], "soft": 30}, "amp": 3, "wave": 180, "speed": 3, "phase": 1},
+    {"fx": "wind", "mask": {"poly": [[360, 860], [440, 880], [450, 990], [380, 960]], "soft": 20}, "amp": 2.5, "wave": 120, "speed": 3.5, "phase": 2},
+    {"fx": "wind", "mask": {"poly": [[90, 1110], [350, 1200], [380, 1280], [100, 1280]], "soft": 25}, "amp": 2.5, "wave": 160, "speed": 3},
+    {"fx": "wind", "mask": {"poly": [[0, 0], [100, 0], [115, 330], [0, 340]], "soft": 25}, "amp": 1.8, "wave": 280, "speed": 2},
+    {"fx": "flame", "mask": [{"ellipse": [378, 290, 14, 12], "soft": 7}, {"ellipse": [603, 265, 12, 14], "soft": 7}, {"ellipse": [690, 272, 16, 12], "soft": 7},
+                             {"ellipse": [470, 290, 12, 10], "soft": 6}, {"ellipse": [520, 600, 7, 12], "soft": 5}, {"ellipse": [682, 615, 8, 13], "soft": 5},
+                             {"ellipse": [405, 608, 7, 12], "soft": 5}, {"ellipse": [665, 965, 8, 14], "soft": 5}, {"ellipse": [695, 690, 7, 12], "soft": 5}], "amp": 2.5},
+    {"fx": "glow", "mask": {"poly": [[250, 240], [720, 230], [720, 310], [250, 310]], "soft": 30}, "amount": 0.06},
+    {"fx": "steam", "from": [603, 258], "rise": 110, "spread": 14, "size": 0.5, "color": [40, 38, 45], "strength": 0.5},
+    {"fx": "steam", "from": [380, 285], "rise": 90, "spread": 12, "size": 0.45, "color": [40, 38, 45], "strength": 0.45}
+  ]
+}

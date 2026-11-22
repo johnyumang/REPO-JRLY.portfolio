@@ -1,0 +1,20 @@
+{
+  "note": "Ming commander Omoncon steps onto the dock to meet the Spaniards: head turn, plume, breathing, sails, flags, sea, smoke",
+  "camera": {"zoom": [1.0, 1.06], "focus": [270, 420]},
+  "effects": [
+    {"fx": "turn", "mask": [{"ellipse": [250, 340, 58, 68], "soft": 22}, {"ellipse": [250, 410, 40, 22], "soft": 15}],
+     "pivot": [250, 415], "sway": 1.0, "speed": 1.2, "gesture": 3, "at": [0.25, 0.38, 0.6, 0.75]},
+    {"fx": "turn", "mask": [{"ellipse": [600, 470, 80, 75], "soft": 28}], "pivot": [650, 560], "sway": 0.8, "speed": 1.0, "gesture": 2.5, "at": [0.45, 0.6, 0.8, 0.95]},
+    {"fx": "breath", "ellipse": [245, 560, 105, 115]},
+    {"fx": "wind", "mask": {"ellipse": [195, 300, 55, 50], "soft": 18}, "amp": 4, "wave": 90, "speed": 5},
+    {"fx": "wind", "mask": {"poly": [[320, 640], [360, 720], [375, 800], [330, 830], [310, 740]], "soft": 18}, "amp": 2.5, "wave": 120, "speed": 3.5},
+    {"fx": "wind", "mask": {"poly": [[65, 0], [285, 0], [285, 215], [150, 235], [65, 215]], "soft": 25}, "amp": 2.2, "wave": 220, "speed": 2.5},
+    {"fx": "wind", "mask": [{"ellipse": [390, 560, 28, 65], "soft": 12}, {"ellipse": [425, 630, 15, 35], "soft": 8}], "amp": 2, "wave": 120, "speed": 3},
+    {"fx": "wind", "mask": [{"ellipse": [492, 590, 28, 38], "soft": 10}, {"ellipse": [625, 236, 14, 12], "soft": 5}], "amp": 3.5, "wave": 70, "speed": 5},
+    {"fx": "bob", "mask": {"ellipse": [390, 620, 55, 130], "soft": 20}, "dx": 0, "dy": 2, "speed": 1.5},
+    {"fx": "flame", "mask": {"ellipse": [650, 262, 12, 15], "soft": 6}, "amp": 2.5},
+    {"fx": "steam", "from": [640, 250], "rise": 170, "spread": 55, "size": 42, "color": [45, 45, 52], "strength": 0.35},
+    {"fx": "shimmer", "mask": {"poly": [[0, 1095], [140, 1105], [270, 1220], [270, 1280], [0, 1280]], "soft": 22}, "amp": 3},
+    {"fx": "shimmer", "mask": [{"poly": [[300, 875], [368, 875], [362, 990], [300, 960]], "soft": 12}, {"poly": [[462, 905], [540, 905], [540, 1030], [462, 1030]], "soft": 12}, {"poly": [[370, 735], [445, 735], [445, 790], [380, 780]], "soft": 10}], "amp": 2.5}
+  ]
+}

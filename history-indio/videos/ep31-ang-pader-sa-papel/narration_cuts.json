@@ -1,0 +1,36 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 63,
+   "text": "Kathang-isip: ang pamilya ko, ang mga anino, ang pader sa papel at ang Alcaín Builders; alamat ang Biringan, at modernong imbento ang Agartha."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 60,
+   "text": "Tiyak: mababa ang lupa ng Kawit, at sinasalo nito ang tubig mula sa matataas na bahagi ng Cavite.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 61,
+   "text": "Tiyak din: matagal nang binabaha ang mga bayan sa baybayin ng Cavite, at paulit-ulit ang paglikas.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 62,
+   "text": "Pinagtatalunan: na ang salitang barangay ay galing sa balangay, ang bangka, dahil itinuturo ito pero hindi pa tiyak ang daan ng salita.",
+   "why": "History (Pinagtatalunan)."
+  }
+ ],
+ "revoice": [
+  {
+   "after_index": 62,
+   "speaker": "INDIO",
+   "new_text": "Alamat ang Biringan, at modernong imbento ang Agartha.",
+   "why": "The plot treats Agartha as a real place ('ang orasan sa Agartha', script paragraph 5). Agartha is a hollow-earth myth that people online push as real, and nothing else in the beat says it is a modern invention. The words are the kept half, unchanged: a statement about the real world, not about our story."
+  }
+ ],
+ "after_cut": "Pinagtatalunan: na ang salitang barangay ay galing sa balangay, ang bangka, dahil itinuturo ito pero hindi pa tiyak ang daan ng salita. / Alamat ang Biringan, at modernong imbento ang Agartha. / Pagkalipas ng isang linggo, amoy putik pa ang barangay hall."
+}

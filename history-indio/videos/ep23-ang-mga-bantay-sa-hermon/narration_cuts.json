@@ -1,0 +1,34 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 66,
+   "text": "Kathang-isip si Albo, ang higante, ang balabal at ang lahat ng tauhan; kuwentong-bayan ang Biringan at ang kapre."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 14,
+   "text": "Hindi ito bahagi ng Biblia ng karamihan ng simbahan.",
+   "why": "A statement about the real record (the canon status of 1 Enoch)."
+  },
+  {
+   "index": 52,
+   "text": "Umungol si Usman: hindi ungol ng kasinungalingan, kundi ng kalahating totoo.",
+   "why": "Plot line: the lie-detector growl in action."
+  },
+  {
+   "index": 63,
+   "text": "Ang dalawandaang Bantay sa Bundok Hermon ay galing sa Unang Enoc, hindi sa Genesis.",
+   "why": "Scripture and record: corrects a common confusion."
+  },
+  {
+   "index": 65,
+   "text": "Totoong bundok ang Hermon, sa hangganan ng Lebanon at Syria, at niyebe ang tuktok nito.",
+   "why": "A fact about the world."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Totoong bundok ang Hermon, sa hangganan ng Lebanon at Syria, at niyebe ang tuktok nito. / Bago umalis, iniabot ni Albo ang isang balahibong puti, para sa susi, kapag handa na ang pinto ng nanay ko."
+}

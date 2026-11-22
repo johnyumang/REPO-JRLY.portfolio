@@ -1,0 +1,246 @@
+{
+"0": {
+"fx": [
+"shake",
+"punch",
+"embers"
+],
+"move": "push_in",
+"keys": [
+7,
+27,
+4
+]
+},
+"1": {
+"fx": [],
+"move": "pull_out"
+},
+"2": {
+"fx": [
+"embers",
+"sparkle"
+]
+},
+"3": {
+"fx": [
+"sparkle",
+"embers"
+],
+"move": "tilt_up"
+},
+"4": {
+"fx": [
+"embers"
+],
+"move": "push_in"
+},
+"5": {
+"fx": [
+"punch"
+],
+"move": "pull_out"
+},
+"6": {
+"fx": [
+"water"
+],
+"move": "tilt_down"
+},
+"7": {
+"fx": [
+"water",
+"spray",
+"shake",
+"punch"
+],
+"move": "push_in"
+},
+"8": {
+"fx": [
+"embers"
+],
+"move": "pan_right"
+},
+"9": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"10": {
+"fx": [],
+"move": "push_in"
+},
+"11": {
+"fx": [
+"water"
+],
+"move": "pull_out"
+},
+"12": {
+"fx": [
+"water",
+"spray"
+],
+"move": "pan_left"
+},
+"13": {
+"fx": [
+"sparkle"
+],
+"move": "push_in"
+},
+"14": {
+"fx": [
+"sparkle",
+"punch"
+],
+"move": "tilt_up"
+},
+"15": {
+"fx": [
+"embers"
+],
+"move": "push_in"
+},
+"16": {
+"fx": [],
+"move": "push_in"
+},
+"17": {
+"fx": [],
+"move": "pan_right"
+},
+"18": {
+"fx": [
+"embers"
+],
+"move": "push_in"
+},
+"19": {
+"fx": [
+"sparkle",
+"punch"
+],
+"move": "push_in"
+},
+"20": {
+"fx": [],
+"move": "pull_out"
+},
+"21": {
+"fx": [
+"punch"
+],
+"move": "tilt_up"
+},
+"22": {
+"fx": [],
+"move": "push_in"
+},
+"23": {
+"fx": [
+"shake",
+"punch",
+"flash"
+],
+"move": "push_in"
+},
+"24": {
+"fx": [],
+"move": "pan_left"
+},
+"25": {
+"fx": [],
+"move": "pan_right"
+},
+"26": {
+"fx": [
+"punch"
+],
+"move": "push_in"
+},
+"27": {
+"fx": [],
+"move": "tilt_up"
+},
+"28": {
+"fx": [
+"sparkle",
+"punch"
+],
+"move": "pull_out"
+},
+"29": {
+"fx": [
+"flash",
+"punch"
+],
+"move": "push_in"
+},
+"30": {
+"fx": [],
+"move": "pan_right"
+},
+"31": {
+"fx": [
+"shake",
+"punch"
+],
+"move": "push_in"
+},
+"32": {
+"fx": [
+"embers"
+],
+"move": "push_in"
+},
+"33": {
+"fx": [],
+"move": "pull_out"
+},
+"34": {
+"fx": [
+"water"
+],
+"move": "pan_left"
+},
+"35": {
+"fx": [
+"sparkle"
+],
+"move": "tilt_up"
+},
+"36": {
+"fx": [
+"flash"
+],
+"move": "push_in",
+"keys": [
+23,
+35
+]
+},
+"37": {
+"fx": [
+"embers",
+"sparkle"
+],
+"key": 2,
+"move": "push_in"
+},
+"38": {
+"fx": [],
+"key": 1,
+"move": "push_in"
+},
+"39": {
+"fx": [
+"punch",
+"sparkle",
+"embers"
+],
+"move": "push_in"
+}
+}

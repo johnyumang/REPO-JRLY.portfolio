@@ -1,0 +1,708 @@
+{
+ "_": {
+  "trans_default": "cut",
+  "hold_same_key": true,
+  "subs_after_blend": true
+ },
+ "0": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "the wall blows in"
+ },
+ "1": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he runs at us"
+ },
+ "2": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he runs at us",
+  "key": 1
+ },
+ "3": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "ends on Indio running",
+  "sub_v": 360,
+  "trans_in": "whip"
+ },
+ "4": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "ends on Indio running",
+  "sub_v": 360,
+  "key": 3
+ },
+ "5": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "ends on the motorcycle",
+  "trans_in": "fade"
+ },
+ "6": {
+  "fx": [],
+  "move": "tilt_down",
+  "why": "ends on the motorcycle",
+  "key": 5
+ },
+ "7": {
+  "fx": [],
+  "move": "push_in",
+  "why": "nobody is waiting for him"
+ },
+ "8": {
+  "fx": [],
+  "move": "push_in",
+  "why": "nobody is waiting for him",
+  "key": 7
+ },
+ "9": {
+  "fx": [],
+  "move": "push_in",
+  "why": "nobody is waiting for him",
+  "key": 7
+ },
+ "10": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the smell draws him in"
+ },
+ "11": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he breathes in the smell",
+  "sub_v": 360
+ },
+ "12": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he breathes in the smell",
+  "sub_v": 360,
+  "key": 11
+ },
+ "13": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward his single star"
+ },
+ "14": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he reads the plaque aloud"
+ },
+ "15": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he reads the plaque aloud",
+  "key": 14
+ },
+ "16": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he reads the plaque aloud",
+  "key": 14
+ },
+ "17": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the medallion pulls him back"
+ },
+ "18": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the medallion pulls him back",
+  "key": 17
+ },
+ "19": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the gold light opens"
+ },
+ "20": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the gold light opens",
+  "key": 19
+ },
+ "21": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the gold light opens",
+  "key": 19
+ },
+ "22": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog talks back"
+ },
+ "23": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog talks back",
+  "key": 22
+ },
+ "24": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "drops us into 1762",
+  "trans_in": "flash"
+ },
+ "25": {
+  "fx": [],
+  "move": "crane_down",
+  "why": "drops us into 1762",
+  "key": 24
+ },
+ "26": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he falls amid the gunfire"
+ },
+ "27": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she pulls him to safety"
+ },
+ "28": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she pulls him to safety",
+  "key": 27
+ },
+ "29": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she pulls him to safety",
+  "key": 27
+ },
+ "30": {
+  "fx": [],
+  "move": "push_in",
+  "why": "they hide and talk"
+ },
+ "31": {
+  "fx": [],
+  "move": "push_in",
+  "why": "they hide and talk",
+  "key": 30
+ },
+ "32": {
+  "fx": [],
+  "move": "push_in",
+  "why": "they hide and talk",
+  "key": 30
+ },
+ "33": {
+  "fx": [],
+  "move": "push_in",
+  "why": "they hide and talk",
+  "key": 30
+ },
+ "34": {
+  "fx": [],
+  "move": "hold",
+  "why": "he whispers to us"
+ },
+ "35": {
+  "fx": [],
+  "move": "hold",
+  "why": "he whispers to us",
+  "key": 34
+ },
+ "36": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the doomed wall"
+ },
+ "37": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the doomed wall",
+  "key": 36
+ },
+ "38": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the doomed wall",
+  "key": 36
+ },
+ "39": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the doomed wall",
+  "key": 36
+ },
+ "40": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Sepa cannot leave her"
+ },
+ "41": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Sepa cannot leave her",
+  "key": 40
+ },
+ "42": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Sepa cannot leave her",
+  "key": 40
+ },
+ "43": {
+  "fx": [],
+  "move": "push_in",
+  "why": "Sepa cannot leave her",
+  "key": 40
+ },
+ "44": {
+  "fx": [],
+  "move": "pan_right",
+  "why": "follows his run"
+ },
+ "45": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he begs the guard"
+ },
+ "46": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he begs the guard",
+  "key": 45
+ },
+ "47": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he begs the guard",
+  "key": 45
+ },
+ "48": {
+  "fx": [],
+  "move": "hold",
+  "why": "the hand stops him"
+ },
+ "49": {
+  "fx": [],
+  "move": "hold",
+  "why": "the hand stops him",
+  "key": 48
+ },
+ "50": {
+  "fx": [
+   "impact"
+  ],
+  "move": "tilt_down",
+  "why": "from the laughing guard down"
+ },
+ "51": {
+  "fx": [
+   "impact"
+  ],
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
+  "key": 50
+ },
+ "52": {
+  "fx": [
+   "impact"
+  ],
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
+  "key": 50
+ },
+ "53": {
+  "fx": [
+   "impact"
+  ],
+  "move": "tilt_down",
+  "why": "from the laughing guard down",
+  "key": 50
+ },
+ "54": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "the wall comes down"
+ },
+ "55": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "the wall comes down",
+  "key": 54
+ },
+ "56": {
+  "fx": [
+   "shake",
+   "impact"
+  ],
+  "move": "hold",
+  "why": "the wall comes down",
+  "key": 54
+ },
+ "57": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he is too late"
+ },
+ "58": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he is too late",
+  "key": 57
+ },
+ "59": {
+  "fx": [],
+  "move": "pan_left",
+  "why": "follows the rats"
+ },
+ "60": {
+  "fx": [],
+  "move": "hold",
+  "why": "he is listening"
+ },
+ "61": {
+  "fx": [],
+  "move": "hold",
+  "why": "he is listening",
+  "key": 60
+ },
+ "62": {
+  "fx": [],
+  "move": "orbit_right",
+  "why": "the street goes quiet"
+ },
+ "63": {
+  "fx": [],
+  "move": "orbit_right",
+  "why": "the street goes quiet",
+  "key": 62
+ },
+ "64": {
+  "fx": [],
+  "move": "orbit_right",
+  "why": "the street goes quiet",
+  "key": 62
+ },
+ "65": {
+  "fx": [],
+  "move": "orbit_right",
+  "why": "the street goes quiet",
+  "key": 62
+ },
+ "66": {
+  "fx": [],
+  "move": "orbit_right",
+  "why": "the street goes quiet",
+  "key": 62
+ },
+ "67": {
+  "fx": [],
+  "move": "hold",
+  "why": "one quick look",
+  "sub_v": 360
+ },
+ "68": {
+  "fx": [],
+  "move": "hold",
+  "why": "one quick look",
+  "sub_v": 360,
+  "key": 67
+ },
+ "69": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he must give it up"
+ },
+ "70": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he must give it up",
+  "key": 69
+ },
+ "71": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the plank"
+ },
+ "72": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he carries the grandmother"
+ },
+ "73": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he carries the grandmother",
+  "key": 72
+ },
+ "74": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he carries the grandmother",
+  "key": 72
+ },
+ "75": {
+  "fx": [],
+  "move": "dolly_in",
+  "why": "he carries the grandmother",
+  "key": 72
+ },
+ "76": {
+  "fx": [],
+  "move": "hold",
+  "why": "he carries the grandmother"
+ },
+ "77": {
+  "fx": [],
+  "move": "push_in",
+  "why": "toward the daylight"
+ },
+ "78": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the guard begs for help"
+ },
+ "79": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the guard begs for help",
+  "key": 78
+ },
+ "80": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the guard begs for help",
+  "key": 78
+ },
+ "81": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the guard begs for help",
+  "key": 78
+ },
+ "82": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on people climbing out",
+  "trans_in": "fade"
+ },
+ "83": {
+  "fx": [],
+  "move": "pan_left",
+  "why": "ends on the muddy guard"
+ },
+ "84": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog counts them"
+ },
+ "85": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog counts them",
+  "key": 84
+ },
+ "86": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog counts them",
+  "key": 84
+ },
+ "87": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the flag"
+ },
+ "88": {
+  "fx": [],
+  "move": "tilt_up",
+  "why": "ends on the flag",
+  "key": 87
+ },
+ "89": {
+  "fx": [],
+  "move": "hold",
+  "why": "he feels beaten"
+ },
+ "90": {
+  "fx": [],
+  "move": "hold",
+  "why": "the dog growls at him"
+ },
+ "91": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not give up"
+ },
+ "92": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not give up",
+  "key": 91
+ },
+ "93": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not give up",
+  "key": 91
+ },
+ "94": {
+  "fx": [],
+  "move": "push_in",
+  "why": "she will not give up",
+  "key": 91
+ },
+ "95": {
+  "fx": [],
+  "move": "hold",
+  "why": "he saved one kitchen"
+ },
+ "96": {
+  "fx": [],
+  "move": "push_in",
+  "why": "her thanks without words",
+  "dof": "far"
+ },
+ "97": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the bag changes hands"
+ },
+ "98": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the bag changes hands",
+  "key": 97
+ },
+ "99": {
+  "fx": [],
+  "move": "push_in",
+  "why": "the bag changes hands",
+  "key": 97
+ },
+ "100": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is leaving her"
+ },
+ "101": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he bows in thanks"
+ },
+ "102": {
+  "fx": [],
+  "move": "push_in",
+  "why": "he bows in thanks",
+  "key": 101
+ },
+ "103": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "trans_in": "flash"
+ },
+ "104": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 103
+ },
+ "105": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 103
+ },
+ "106": {
+  "fx": [],
+  "move": "pull_out",
+  "why": "he is alone again",
+  "key": 103
+ },
+ "107": {
+  "fx": [],
+  "move": "push_in",
+  "why": "how will he explain"
+ },
+ "108": {
+  "fx": [],
+  "move": "push_in",
+  "why": "how will he explain",
+  "key": 107
+ },
+ "109": {
+  "fx": [],
+  "move": "push_in",
+  "why": "how will he explain",
+  "key": 107
+ },
+ "110": {
+  "fx": [],
+  "move": "push_in",
+  "why": "how will he explain",
+  "key": 107
+ },
+ "111": {
+  "fx": [],
+  "move": "hold",
+  "why": "the bad news lands"
+ },
+ "112": {
+  "fx": [],
+  "move": "hold",
+  "why": "he reads the message"
+ },
+ "113": {
+  "fx": [],
+  "move": "hold",
+  "why": "he reads the message",
+  "key": 112
+ },
+ "114": {
+  "fx": [],
+  "move": "hold",
+  "why": "he reads the message",
+  "key": 112
+ },
+ "115": {
+  "fx": [],
+  "move": "hold",
+  "why": "he reads the message",
+  "key": 112
+ },
+ "116": {
+  "fx": [],
+  "move": "hold",
+  "why": "he reads the message",
+  "key": 112
+ },
+ "117": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "ends on the red umbrella",
+  "focus_to": "far"
+ },
+ "118": {
+  "fx": [],
+  "move": "rack_focus",
+  "why": "ends on the red umbrella",
+  "focus_to": "far",
+  "key": 117
+ },
+ "119": {
+  "fx": [],
+  "move": "hold",
+  "why": "the question is read"
+ }
+}

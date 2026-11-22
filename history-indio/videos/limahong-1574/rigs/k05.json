@@ -1,0 +1,18 @@
+{
+  "note": "Limahong drives the dagger into the map: forearm stab with shake, head turn, blink, breathing, candle and lantern flame, harbor lights, bandana tail",
+  "camera": {"zoom": [1.0, 1.07], "focus": [400, 480], "shake": {"at": 0.4, "amp": 7, "len": 0.4}},
+  "blink": {"skin": [322, 188], "eyes": [{"c": [341, 158], "r": [14, 8], "tilt": 28}, {"c": [382, 188], "r": [10, 6], "tilt": 20}]},
+  "effects": [
+    {"fx": "shimmer", "mask": {"poly": [[415, 368], [600, 368], [600, 435], [415, 435]], "soft": 15}, "amp": 1.5},
+    {"fx": "flame", "mask": {"ellipse": [672, 80, 32, 50], "soft": 15}, "amp": 2.5},
+    {"fx": "glow", "mask": {"ellipse": [672, 85, 80, 100], "soft": 45}, "amount": 0.07},
+    {"fx": "turn", "mask": {"ellipse": [310, 145, 125, 125], "soft": 40}, "pivot": [270, 250], "sway": 1.1, "speed": 1.2, "gesture": 3, "at": [0.45, 0.6, 0.8, 0.92]},
+    {"fx": "wind", "mask": {"poly": [[0, 95], [215, 75], [215, 170], [0, 230]], "soft": 28}, "amp": 2.5, "wave": 150, "speed": 3.2},
+    {"fx": "turn", "mask": {"poly": [[300, 540], [440, 500], [565, 680], [565, 800], [505, 965], [468, 965], [440, 810], [330, 690]], "soft": 25},
+     "pivot": [325, 570], "sway": 0.4, "speed": 1.5, "gesture": 3.5, "at": [0.3, 0.4, 0.75, 0.9]},
+    {"fx": "breath", "ellipse": [200, 420, 170, 150]},
+    {"fx": "flame", "mask": {"ellipse": [33, 893, 22, 45], "soft": 12}, "amp": 5},
+    {"fx": "glow", "mask": {"ellipse": [40, 950, 200, 220], "soft": 90}, "amount": 0.06},
+    {"fx": "steam", "from": [33, 850], "rise": 140, "strength": 0.5}
+  ]
+}

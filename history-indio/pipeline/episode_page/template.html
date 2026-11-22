@@ -1,0 +1,93 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* One column: preview, the download button, then each caption block with its own copy button. */
+:root{
+  --bg:#f3f1f7; --panel:#ffffff; --fg:#1b1730; --muted:#6a6580; --line:#dcd8e8; --accent:#c2410c; --ok:#15803d;
+  --display:"Trebuchet MS","Segoe UI",system-ui,sans-serif; --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#12101c; --panel:#1c1930; --fg:#f1eefb; --muted:#a39dbd; --line:#322d4d; --accent:#fb923c; --ok:#4ade80; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#12101c; --panel:#1c1930; --fg:#f1eefb; --muted:#a39dbd; --line:#322d4d; --accent:#fb923c; --ok:#4ade80; color-scheme:dark }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:720px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(24px,6vw,34px);margin:0;letter-spacing:-.01em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);margin:4px 0 0}
+h2{font-family:var(--display);font-size:17px;margin:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+video{display:block;width:100%;max-width:360px;max-height:70vh;margin:0 auto;border-radius:8px;background:#000}
+.btn{font:600 15px var(--body);background:var(--accent);color:var(--bg);border:0;border-radius:8px;padding:11px 16px;cursor:pointer;align-self:flex-start}
+.btn.small{font-size:14px;padding:8px 13px}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:13.5px;color:var(--muted)}
+.st{font-size:13.5px;color:var(--muted)}
+.text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.55;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;margin:0;max-height:320px;overflow:auto}
+a{color:var(--accent)}
+footer{color:var(--muted);font-size:12.5px}
+</style>
+<div class="wrap">
+  <header>
+    <h1>History <span>Indio</span> EP <span id="n"></span></h1>
+    <p class="sub" id="ttl"></p>
+  </header>
+  <section class="card">
+    <h2>Video</h2>
+    <video id="vid" controls preload="metadata" playsinline></video>
+    <p class="st">Preview lang ito (mas maliit). Full quality ang mada-download.</p>
+    <div class="row" id="dlrow" hidden><button class="btn" id="dlv">I-download ang video (MP4, full quality)</button><span class="st" id="stv" aria-live="polite"></span></div>
+    <p class="st" id="dlnone">Lalabas ang download button kapag pinapayagan ng view na ito. Hihingi ng kumpirmasyon bago ma-save. Nasa chat din ang file.</p>
+  </section>
+  <section class="card">
+    <h2>Captions</h2>
+    <div class="row" id="caprow" hidden><button class="btn small" id="dlc">I-download: Caption (.txt)</button><span class="st" id="stc" aria-live="polite"></span></div>
+  </section>
+  <div id="caps" style="display:flex;flex-direction:column;gap:12px"></div>
+  <footer><a id="board" href="#">Bumalik sa History Indio Board</a></footer>
+</div>
+<script>
+const PAGE = /*__PAGE_DATA__*/null;
+const $ = id => document.getElementById(id);
+$("n").textContent = PAGE.n;
+$("ttl").textContent = PAGE.title + " · " + (PAGE.size / 1048576).toFixed(1) + " MB, full quality";
+$("vid").src = PAGE.preview;
+$("board").href = PAGE.board;
+const capsText = PAGE.captions.map(c => "## " + c.h + "\n" + c.text).join("\n\n") + "\n";
+$("caps").innerHTML = PAGE.captions.map((c, i) =>
+  '<section class="card"><h2></h2><pre class="text" id="t' + i + '"></pre><div class="row"><button class="btn small cp" data-i="' + i + '">Kopyahin</button></div></section>').join("");
+PAGE.captions.forEach((c, i) => { $("t" + i).textContent = c.text; $("t" + i).parentNode.querySelector("h2").textContent = c.h; });
+$("caps").addEventListener("click", ev => {
+  const b = ev.target.closest(".cp"); if (!b) return;
+  const el = $("t" + b.dataset.i);
+  const done = () => { b.textContent = "Nakopya na"; setTimeout(() => { b.textContent = "Kopyahin"; }, 1800); };
+  const sel = () => { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Naka-select na: pindutin ang Copy"; };
+  try { navigator.clipboard.writeText(PAGE.captions[b.dataset.i].text).then(done, sel); } catch (e) { sel(); }
+});
+let DL = null, dlBusy = false;
+(async () => {
+  try { const c = window.claude; if (c && typeof c.use === "function") DL = await c.use("downloads"); } catch (e) { DL = null; }
+  if (!DL) return;
+  $("dlrow").hidden = false; $("caprow").hidden = false; $("dlnone").hidden = true;
+})();
+const getBlob = async url => { const r = await fetch(url); if (!r.ok) throw {code:"unavailable"}; return await r.blob(); };
+const videoBlob = async say => {
+  const blobs = [];
+  for (let i = 0; i < PAGE.parts.length; i++) { say("Kinukuha ang bahagi " + (i + 1) + " sa " + PAGE.parts.length + "…"); blobs.push(await getBlob(PAGE.parts[i])); }
+  say("Pinagdudugtong…");
+  return new Blob(blobs, {type:"video/mp4"});
+};
+const saveWith = async (st, filename, make) => {
+  if (!DL || dlBusy) return;
+  dlBusy = true; $("dlv").disabled = true; $("dlc").disabled = true; st.textContent = "Inihahanda…";
+  try { await DL.save({filename, data:await make(t => { st.textContent = t; })}); st.textContent = "Na-save na."; }
+  catch (e) {
+    const c = e && e.code;
+    st.textContent = c === "declined" ? "" : c === "rate_limited" ? "Sandali lang, subukan ulit mamaya." : "Hindi available ang download sa view na ito; nasa chat din ang file.";
+  } finally { dlBusy = false; $("dlv").disabled = false; $("dlc").disabled = false; }
+};
+$("dlv").addEventListener("click", () => saveWith($("stv"), PAGE.filename, videoBlob));
+$("dlc").addEventListener("click", () => saveWith($("stc"), PAGE.caption_filename, async () => capsText));
+</script>

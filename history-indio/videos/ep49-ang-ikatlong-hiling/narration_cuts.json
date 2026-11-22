@@ -1,0 +1,41 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 62,
+   "text": "Kathang-isip: ang boses niya, ang hiling, ang bituin, ang paghupa ng tubig, si Rico at kami; kuwentong-bayan ang Bakunawa at mga Kakampi."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 41,
+   "text": "Kathang-isip.",
+   "why": "Plot dialogue. Rico Bulan sorts his own old lie (that Indio caused the flood) as fiction, using the heroes' method."
+  },
+  {
+   "index": 42,
+   "text": "At ako ang kumatha.",
+   "why": "Plot: Rico confesses he invented the lie. A character's own honesty."
+  },
+  {
+   "index": 60,
+   "text": "Kaya sa kuwento namin, ang gunaw ay ang tubig na ibinuga ng ahas, gaya ng buod ng Pahayag kapitulo labindalawa, talatang labinlima, hindi galing sa Diyos.",
+   "why": "Kept on purpose. Its job is to square the flood with Genesis 9:11 (sentence 59) through Revelation 12:15, not to say the story is fiction. Without it, 59 sits as a promise the episode seems to break. 'sa kuwento namin' is only a mild frame. If the owner objects, cut 60 too; the caption carries the Revelation 12:15 link."
+  },
+  {
+   "index": 61,
+   "text": "Totoo si Rajah Sulayman, rajah ng Maynila na lumaban sa mga Espanyol noong 1570.",
+   "why": "History, a statement about the real record."
+  }
+ ],
+ "revoice": [
+  {
+   "after_index": 61,
+   "speaker": "INDIO",
+   "new_text": "Kuwentong-bayan ang Bakunawa at ang mga Kakampi.",
+   "why": "Once 62 is cut, nothing in the episode says the Bakunawa, yúmud, tikbalang, kapre and sarimanok are folklore, and 44 places them in real places (Agusan, Makiling, Lanao) as if on record. This is the kept half of 62 standing alone, rule (d), with only 'ang' added for natural Tagalog. Sulayman's invented voice (46) gets no spoken label: that would be the very disclaimer the owner banned, so the caption carries it."
+  }
+ ],
+ "after_cut": "Totoo si Rajah Sulayman, rajah ng Maynila na lumaban sa mga Espanyol noong 1570. / Kuwentong-bayan ang Bakunawa at ang mga Kakampi. / Kaya ikaw, ka-Indio, i-comment mo."
+}

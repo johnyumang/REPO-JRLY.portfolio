@@ -1,0 +1,42 @@
+{
+ "fact_id": "t21",
+ "fact_english": "The butaan, a large monitor lizard of southern Luzon and nearby islands, eats mostly ripe fruit, which is unusual for a monitor lizard.",
+ "label_onscreen": "BUTAAN",
+ "source_onscreen": "Pinagmulan: Smithsonian; Los Angeles Zoo",
+ "lines": [
+  {
+   "speaker": "USMAN",
+   "text": "Teka, patalastas muna!",
+   "emphasis": [
+    "patalastas"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Ang butaan, malaking bayawak sa timog Luzon, prutas ang karaniwang kinakain!",
+   "emphasis": [
+    "prutas"
+   ]
+  },
+  {
+   "speaker": "USMAN",
+   "text": "Bayawak na vegetarian. Kahit ako, hindi ko kinaya.",
+   "emphasis": [
+    "vegetarian"
+   ]
+  },
+  {
+   "speaker": "INDIO",
+   "text": "Balik sa kuwento, par!",
+   "emphasis": [
+    "kuwento"
+   ]
+  }
+ ],
+ "insert_after_sentence": 28,
+ "after_text": "Kanal, hari ng Sulu, Tsina: buo na ang clue.",
+ "insert_time": 103.2,
+ "palette": "sun",
+ "grave": false,
+ "why_here": "The going-home part ends here: Indio has shared his pandesal, left the cars, tied on Usman's panyo, and pieced the clue together. Right after the break he grabs Rajah Matanda's medalyon and jumps to Dezhou. Gap 102.91-103.49 s in timings.json. Moved on 13 Nov because the old cut split Indio's question \"Anong pangalan mo?\" from Totoy's answer."
+}

@@ -1,0 +1,82 @@
+# INDIO: ANG SAKSI — Episode 1, "Ang Unang Talon" (version 2, revision 4 of 16 Nov: the storyteller tells every action and introduces every character)
+# MASTER script. One line per turn: NAME: [tone] text. Lines in (parentheses) are NOT spoken. script.txt and sentences.json are derived from it.
+# Speakers: TAGAPAGSALAYSAY (designed; tells what happens). INDIO (the clone of the owner's own recording); INDIO (sa atin) = Indio to the viewer,
+# same voice, closer. USMAN (designed; only inside the jump). ISLAW (invented boy of about twelve). MAY-ARI (pawnbroker, face never shown),
+# KATULONG (his helper), KATIPUNERO, MGA KATIPUNERO (crowd): invented. BONIFACIO (Andres Bonifacio, real; his cry is traditional, see facts.md)
+# and ORIANG (Gregoria de Jesus, his wife, real; her presence and words are invented, see facts.md). "Cedula" is said SE-du-la; "umungol" u-MU-ngol.
+
+# --- 0. Hook
+KATIPUNERO: [shout] Nasaan ang cedula mo?!
+INDIO (sa atin): [dramatic] Walang cedula, kaya may itak sa leeg ko ngayon.
+INDIO (sa atin): [playful] Ako 'to si Indio. Malas daw ako. Ganito 'yan nagsimula.
+
+# --- 1. Today
+TAGAPAGSALAYSAY: [calm] Kaninang umaga, sa Quezon City, pumila si Indio para sa trabaho.
+INDIO (sa atin): [dry] Maghapon akong pumila. Wala pala akong cedula, 'yung resibo ng buwis. Hindi ko alam na kailangan pala 'yon.
+TAGAPAGSALAYSAY: [calm] Kaya dinala niya sa sanglaan ang nag-iisang mana niya: ang lumang medalyon ng Lolo niya.
+INDIO: [hopeful] Pamasahe lang po sana.
+MAY-ARI: [bored] Tanso lang 'yan, tol. Walang halaga.
+TAGAPAGSALAYSAY: [low] Sa likod ng may-ari, may katulong na kinakalawang ang kamay. Bago ibinalik ang medalyon, palihim niya itong idiniin sa isang pirasong pagkit.
+INDIO: [sigh] Gutom na 'ko.
+TAGAPAGSALAYSAY: [calm] Sa kanto, may paresan. Hindi niya kaya ang isang mangkok. Tinapay lang ang nabili niya.
+INDIO (sa atin): [proud] Pares: taga-Quezon City, gaya ko. Sabi nila, nagsimula ito sa Retiro noong 1979. Ngayon, nasa buong Pilipinas na.
+INDIO: [playful] Diwata, baka naman!
+
+# --- 2. The jump
+TAGAPAGSALAYSAY: [calm] Pagsapit ng gabi, bumuhos ang ulan. Sumilong si Indio sa dambana ng Pugad Lawin, sa Bahay Toro.
+INDIO: [bored] Wala akong kausap. Marker na lang.
+TAGAPAGSALAYSAY: [low] Binasa niya nang malakas ang nakasulat. Uminit ang medalyon sa dibdib niya. At tumigil sa ere ang mga patak ng ulan.
+TAGAPAGSALAYSAY: [low] Mula sa liwanag, lumundag ang isang asong itim.
+USMAN: [urgent] Kumapit ka, Indio!
+INDIO: [shocked] Teka, nagsalita 'yung aso?
+
+# --- 3. 1896
+TAGAPAGSALAYSAY: [low] Agosto 1896. Isang bakuran sa labas ng Maynila, puno ng mga Katipunero. Hinablot si Indio, at hinarang ng isang batang may itak. Siya si Islaw. Labindalawang taong gulang, anak ng magsasaka, at bantay ng bakuran ngayong gabi.
+ISLAW: [hard] Sino ka? Sino'ng nagsama sa'yo rito?
+TAGAPAGSALAYSAY: [low] Lumapit ang pinuno ng mga bantay, isang Katipunerong hindi ngumingiti.
+KATIPUNERO: [cold] May nagsumbong sa amin sa Kastila. Kaya lahat ng narito, may dalang cedula ngayong gabi. Ilabas mo ang sa'yo.
+INDIO: [nervous] Cedula? 'Yan din ang hinanap sa akin kaninang umaga.
+KATIPUNERO: [cold] Walang papel, walang kakilala. Espiya 'yan.
+TAGAPAGSALAYSAY: [low] Itinali ang mga kamay niya. Idinikit ang itak sa leeg niya.
+INDIO (sa atin): [whisper] Unang araw ko sa nakaraan. Mukhang huling araw ko na rin.
+USMAN: [low] Par. Sabihin mo ang totoo. 'Yun lang ang meron ka.
+INDIO: [quiet] Wala akong cedula. Wala akong trabaho. Wala akong kahit ano. Kaya nga ako napadpad dito.
+TAGAPAGSALAYSAY: [low] Natigilan ang bata. Bumaba ang itak.
+ISLAW: [whisper] Wala rin akong cedula. Hindi kayang bayaran ni Itay.
+TAGAPAGSALAYSAY: [calm] Saka lumapit ang mga aso ng kampo. Inamoy siya, kinain ang tinapay niya, at humiga sa paanan niya.
+USMAN: [playful] Kinausap ko sila. May bayad nga lang: hapunan mo.
+ISLAW: [sure] Hindi tumatahimik ang aso sa espiya. Kalagan n'yo siya.
+KATIPUNERO: [uneasy] Sino ka ba talaga?
+INDIO: [dry] Wala. Tambay lang.
+
+# --- 4. What he came to see
+TAGAPAGSALAYSAY: [low] Sa gilid ng liwanag, may mag-asawang nagpapaalam. Ang babae, si Oriang. Itinali niya ang pulang panyo sa leeg ng lalaki.
+ORIANG: [soft] Kapag pinunit mo 'yan, wala na tayong uuwian.
+BONIFACIO: [quiet] Kaya nga pupunitin ko. Para may uuwian ang lahat.
+USMAN: [low] Huwag kang tumitig, par.
+TAGAPAGSALAYSAY: [low] Humakbang ang lalaki sa liwanag, at itinaas ang kanyang cedula.
+ISLAW: [whisper] Ang Supremo. Si Andres Bonifacio.
+BONIFACIO: [shout] Punitin ang mga cedula!
+MGA KATIPUNERO: [shout] Mabuhay ang Pilipinas!
+ISLAW: [awed] Buwis namin 'yan sa Kastila. Kapag pinunit mo, wala nang atrasan.
+INDIO (sa atin): [whisper] 'Yung papel na kulang sa akin kaninang umaga, pinupunit nila para sa kalayaan.
+TAGAPAGSALAYSAY: [calm] Walang mapunit si Islaw, kaya kamao na lang ang itinaas nilang dalawa.
+ISLAW: [hopeful] Kuya, babalik ka ba?
+
+# --- 5. Back
+TAGAPAGSALAYSAY: [calm] Bago pa siya makasagot, lumamig ang medalyon.
+USMAN: [fading] May marka ka na, par. Una pa lang 'yan.
+TAGAPAGSALAYSAY: [calm] Quezon City ulit. Ulan. Wala na ang aso. Pero sa braso ni Indio, may guhit na umuusok pa.
+INDIO: [wince] Aray. Usman. 'Yun ang itatawag ko sa'yo. Pangalan ng aso sa mga kuwento ni Lolo.
+TAGAPAGSALAYSAY: [low] Sa kabilang kalye, may babaeng nakatitig sa kanya, na parang kilala siya.
+TAGAPAGSALAYSAY: [low] Sa sanglaan, hawak ng katulong ang pagkit: buong-buo ang bakas ng medalyon.
+KATULONG: [soft] Tanso lang pala, ha.
+INDIO (sa atin): [curious] Ikaw, ka-Indio: kung hinanapan ka ng papel na wala ka, magsisinungaling ka ba, o aamin?
+
+# --- TRIVIA AT THE END ("Patalastas ni Usman", separate clip after the last story line; not counted in the 380)
+# USMAN: Totoo ba 'yon, par?
+# INDIO: Tiyak: Agosto 1896, pinunit ng mga Katipunero ang cedula nila, at doon nagsimula ang Himagsikan.
+# INDIO: Ang cedula noon: papel ng pagkakakilanlan at buwis sa ilalim ng Espanya, mula 1885.
+# USMAN: Eh saan at kailan mismo?
+# INDIO: 'Yan ang pinagtatalunan. Pugad Lawin, ikadalawampu't tatlo ng Agosto, ang opisyal mula 1963. Pero may mga saksing nagsabing Balintawak, Bahay Toro, o sa kamalig ni Tandang Sora.
+# USMAN: Kaya pala ako umungol.

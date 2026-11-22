@@ -1,0 +1,38 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 68,
+   "text": "Kathang-isip ang San Lorenzo, si Mayor Tres, si Tubal, ang Alcaín Builders, ang bid, ang kontrata at ang pader sa Kawit."
+  },
+  {
+   "index": 69,
+   "text": "Kathang-isip sina Indio at Usman; totoo ang kasaysayan."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 46,
+   "text": "Sa San Lorenzo, naging bantay ng gubat ang kapre, ang mabuhok na higante ng kuwentong-bayan.",
+   "why": "Plot line with a folklore attribution, not a disclaimer."
+  },
+  {
+   "index": 65,
+   "text": "Ang tiyak: lumusob si Limahong sa Maynila noong 1574, naitaboy siya, at tumulong si Salcedo mula sa Ilocos.",
+   "why": "History (Tiyak)."
+  },
+  {
+   "index": 66,
+   "text": "Ang pinagtatalunan: kung ilan ang barko at tauhan niya, at kung gusto ba talaga niyang maging hari.",
+   "why": "History (Pinagtatalunan)."
+  },
+  {
+   "index": 67,
+   "text": "Kuwentong-bayan ang kapre at ang tikbalang.",
+   "why": "Folklore attribution standing as its own sentence (rule d)."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "Kuwentong-bayan ang kapre at ang tikbalang. / Sa hologram: kaalaman, siyamnapu't isang porsiyento."
+}

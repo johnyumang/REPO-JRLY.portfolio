@@ -1,0 +1,73 @@
+{
+ "episode": 24,
+ "audited_by": "ep04-render-machine",
+ "stills_looked_at": 61,
+ "clean": false,
+ "defects": [
+  {
+   "still": "full/usman_bark.jpg",
+   "shots": [
+    29
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "Usman stands upright on his hind legs like a person, with a half-hidden figure squeezed in behind him at the left."
+  },
+  {
+   "still": "full/indio_hope.jpg",
+   "shots": [
+    50
+   ],
+   "type": "anatomy",
+   "must_fix": false,
+   "what": "A second figure in the same beige shirt and red sash faces Indio in the foreground, reading as Indio drawn twice."
+  },
+  {
+   "still": "full/cup_hand.jpg",
+   "shots": [
+    22,
+    93
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The drinker has blue eyes and no headband; if this is Indio he is off model."
+  },
+  {
+   "still": "full/star_surigao.jpg",
+   "shots": [
+    28
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "The figure holding the star has no topknot, headband or medallion; if this is Indio he is off model."
+  },
+  {
+   "still": "full/usman_prow.jpg",
+   "shots": [
+    11,
+    90
+   ],
+   "type": "off_model",
+   "must_fix": false,
+   "what": "Usman has two tall upright ears and no folded ear."
+  },
+  {
+   "still": "full/memory_cars.jpg",
+   "shots": [
+    17
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "Car grille badges and pseudo-text license plates are visible on the row of cars."
+  },
+  {
+   "still": "full/holo_kraken.jpg",
+   "shots": [
+    45
+   ],
+   "type": "logo",
+   "must_fix": false,
+   "what": "A faint signature-like scribble sits at the bottom edge of the picture."
+  }
+ ]
+}

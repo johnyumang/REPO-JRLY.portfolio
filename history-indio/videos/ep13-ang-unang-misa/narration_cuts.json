@@ -1,0 +1,24 @@
+{
+ "ruling": "13 Nov: the video no longer says the story is fiction; the caption does",
+ "source_file": "timings.json",
+ "cut": [
+  {
+   "index": 63,
+   "text": "Kathang-isip: ang medalyon at ang boses nito, ang mangingisda, ang yate, at ang eklipse ng gabing iyon."
+  }
+ ],
+ "keep_with_the_word": [
+  {
+   "index": 61,
+   "text": "Kuwentong-bayan ng Kabisayaan ang Bakunawa, ang ahas-dagat na kumakain ng buwan tuwing eklipse.",
+   "why": "Folklore attribution in a sentence of its own."
+  },
+  {
+   "index": 62,
+   "text": "At may lumang tala ng mga taong nagkakalampag ng kampana at kaldero tuwing eklipse.",
+   "why": "A statement about the real record."
+  }
+ ],
+ "revoice": [],
+ "after_cut": "At may lumang tala ng mga taong nagkakalampag ng kampana at kaldero tuwing eklipse. / Sa kuwaderno, mas maikli ang bagong clue kaysa dati: isang kuta sa bunganga ng ilog."
+}
